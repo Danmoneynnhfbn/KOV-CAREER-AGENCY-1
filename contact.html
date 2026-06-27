@@ -10,70 +10,44 @@
 
 	</style>
 </head><body><!--$--><div class="min-h-screen bg-background font-sans text-foreground antialiased"><header class="sticky top-0 z-50 border-b border-line/60 bg-background/85 backdrop-blur-xl"><div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-10"><a href="index.html" class="flex items-center gap-2.5"><img src="kov-logo.png" alt="KOV" class="h-7 w-7 object-contain"/><span class="text-[13px] font-medium uppercase tracking-[0.18em] text-ink">KOV <span class="text-muted-foreground">Career Agency</span></span></a>
-<!-- Navigation -->
-<nav class="w-full">
+<!-- Desktop Navigation -->
+<nav class="hidden items-center gap-8 text-[13px] text-ink-soft lg:flex">
+    <a href="services.html" class="transition-colors hover:text-ink">Services</a>
+    <a href="how-it-works.html" class="transition-colors hover:text-ink">How It Works</a>
+    <a href="pricing.html" class="transition-colors hover:text-ink">Pricing</a>
+    <a href="faqs.html" class="transition-colors hover:text-ink">FAQs</a>
+    <a href="about.html" class="transition-colors hover:text-ink">About</a>
+    <a class="rounded-full bg-ink px-5 py-2 text-[12px] font-medium uppercase tracking-[0.12em] text-primary-foreground transition-colors hover:bg-ink-soft active"
+       href="contact.html"
+       data-status="active"
+       aria-current="page">
+        Get Started
+    </a>
+</nav>
 
-    <div class="flex items-center justify-between">
+<!-- Mobile Menu Button -->
+<button id="menuButton" class="text-3xl lg:hidden">
+    ☰
+</button>
 
-        <!-- Logo -->
-        <a href="index.html" class="text-xl font-bold">
-            LOGO
-        </a>
-
-        <!-- Desktop Navigation -->
-        <div class="hidden lg:flex items-center gap-8 text-[13px] text-ink-soft">
-
-            <a href="services.html" class="transition-colors hover:text-ink">Services</a>
-
-            <a href="how-it-works.html" class="transition-colors hover:text-ink">How It Works</a>
-
-            <a href="pricing.html" class="transition-colors hover:text-ink">Pricing</a>
-
-            <a href="faqs.html" class="transition-colors hover:text-ink">FAQs</a>
-
-            <a href="about.html" class="transition-colors hover:text-ink">About</a>
-
-            <a href="contact.html"
-                class="rounded-full bg-ink px-5 py-2 text-[12px] font-medium uppercase tracking-[0.12em] text-primary-foreground transition-colors hover:bg-ink-soft">
-                Get Started
-            </a>
-
-        </div>
-
-        <!-- Mobile Hamburger -->
-        <button id="menuButton" class="lg:hidden text-3xl">
-            ☰
-        </button>
-
-    </div>
-
-    <!-- Mobile Menu -->
-    <div id="mobileMenu" class="hidden flex-col gap-4 mt-6 lg:hidden text-[15px]">
-
-        <a href="services.html">Services</a>
-
-        <a href="how-it-works.html">How It Works</a>
-
-        <a href="pricing.html">Pricing</a>
-
-        <a href="faqs.html">FAQs</a>
-
-        <a href="about.html">About</a>
-
-        <a href="contact.html"
-            class="rounded-full bg-ink px-5 py-3 text-center text-white">
-            Get Started
-        </a>
-
-    </div>
-
+<!-- Mobile Navigation -->
+<nav id="mobileMenu" class="hidden flex-col gap-4 mt-4 text-[15px] text-ink-soft lg:hidden">
+    <a href="services.html" class="transition-colors hover:text-ink">Services</a>
+    <a href="how-it-works.html" class="transition-colors hover:text-ink">How It Works</a>
+    <a href="pricing.html" class="transition-colors hover:text-ink">Pricing</a>
+    <a href="faqs.html" class="transition-colors hover:text-ink">FAQs</a>
+    <a href="about.html" class="transition-colors hover:text-ink">About</a>
+    <a class="rounded-full bg-ink px-5 py-2 text-[12px] font-medium uppercase tracking-[0.12em] text-primary-foreground transition-colors hover:bg-ink-soft"
+       href="contact.html">
+        Get Started
+    </a>
 </nav>
 
 <script>
 const menuButton = document.getElementById("menuButton");
 const mobileMenu = document.getElementById("mobileMenu");
 
-menuButton.addEventListener("click", function () {
+menuButton.addEventListener("click", () => {
     mobileMenu.classList.toggle("hidden");
 });
 </script>
