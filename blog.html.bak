@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preload" as="image" href="kov-logo.png" />
+  <link rel="icon" type="image/png" href="kov-logo.png" />
+  <link rel="shortcut icon" type="image/png" href="kov-logo.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="kov-logo.png" />
+  <link rel="stylesheet" href="assets/styles-DateywTe.css" />
+  <link rel="stylesheet" href="assets/site-fixes.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Inter:wght@300;400;500;600&display=swap" />
+  <title>Blog | KOV Career Agency</title>
+  <meta name="description" content="Read the latest posts from KOV Career Agency." />
+</head>
+<body>
+  <div class="min-h-screen bg-background font-sans text-foreground antialiased">
+
+    <header class="sticky top-0 z-50 border-b border-line/60 bg-background/85 backdrop-blur-xl">
+      <div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-10">
+        <a class="flex items-center gap-2.5" href="index.html" aria-current="page">
+          <img src="kov-logo.png" alt="KOV" class="h-7 w-7 object-contain" />
+          <span class="text-[13px] font-medium uppercase tracking-[0.18em] text-ink">KOV <span class="text-muted-foreground">Career Agency</span></span>
+        </a> 
+
+        <nav class="hidden items-center gap-8 text-[13px] text-ink-soft lg:flex" role="navigation" aria-label="Primary">
+          <a href="index.html" class="transition-colors hover:text-ink">Home</a>
+          
+          <a href="services.html" class="transition-colors hover:text-ink">Services</a>
+          <a href="global-talent-sourcer.html" class="transition-colors hover:text-ink">Talent Sourcer</a>
+          <a href="how-it-works.html" class="transition-colors hover:text-ink">How It Works</a>
+          <a href="pricing.html" class="transition-colors hover:text-ink">Pricing</a>
+          <a href="faqs.html" class="transition-colors hover:text-ink">FAQs</a><a href="blog.html" class="transition-colors hover:text-ink">Blog</a>
+          <a href="about.html" class="transition-colors hover:text-ink">About</a>
+          <a href="contact.html" class="rounded-full bg-ink px-5 py-2 text-[12px] font-medium uppercase tracking-[0.12em] text-primary-foreground transition-colors hover:bg-ink-soft">Get Started</a>
+        </nav>
+
+        <button type="button" aria-label="Toggle menu" class="inline-flex h-9 w-9 items-center justify-center rounded-full border border-line text-ink lg:hidden" data-mobile-menu-toggle>
+          <span class="text-lg leading-none" aria-hidden="true">â˜°</span>
+        </button>
+      </div>
+    </header>
+
+    <div id="site-mobile-menu" class="site-mobile-menu" aria-hidden="true">
+      <div class="site-mobile-menu-panel">
+        <div class="site-mobile-menu-header">
+          <a href="index.html">
+            <img src="kov-logo.png" alt="KOV" />
+            <span class="text-[13px] font-medium uppercase tracking-[0.18em] text-ink">KOV <span class="text-muted-foreground">Career Agency</span></span>
+          </a>
+          <button type="button" class="menu-close" aria-label="Close menu" data-mobile-menu-close>Ã—</button>
+        </div>
+        <nav class="site-mobile-menu-nav" role="navigation" aria-label="Mobile">
+          <a href="index.html" data-mobile-menu-link>Home</a>
+          
+          <a href="services.html" data-mobile-menu-link>Services</a>
+          <a href="global-talent-sourcer.html" data-mobile-menu-link>Talent Sourcer</a>
+          <a href="how-it-works.html" data-mobile-menu-link>How It Works</a>
+          <a href="pricing.html" data-mobile-menu-link>Pricing</a>
+          <a href="faqs.html" data-mobile-menu-link>FAQs</a><a href="blog.html" data-mobile-menu-link>Blog</a><a href="blog.html" class="transition-colors hover:text-ink">Blog</a>
+          <a href="about.html" data-mobile-menu-link>About</a>
+          <a href="contact.html" data-mobile-menu-link>Get Started</a>
+        </nav>
+      </div>
+    </div>
+
+    <main>
+      <section class="relative overflow-hidden border-b border-line/60">
+        <div class="relative mx-auto max-w-7xl px-6 pb-24 pt-14 lg:px-10">
+          <div class="lg:col-span-7">
+            <p class="mt-2 text-[11px] font-bold uppercase tracking-[0.28em] text-orange">Insights Â· Updates Â· Guidance</p>
+            <h1 class="mt-6 font-display text-[40px] font-black italic leading-[0.86] tracking-tight text-ink sm:text-[56px] lg:text-[72px]">KOV Blog</h1>
+            <p class="mt-6 max-w-2xl text-[16px] leading-[1.7] text-ink-soft">Published posts appear here in full, newest first. Posts expire automatically after 30 days.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-7xl px-6 py-12 lg:px-10">
+        <div id="blog-public-root" class="mx-auto max-w-3xl"></div>
+      </section>
+    </main>
+
+    <footer class="border-t border-line/60 bg-background">
+      <div class="mx-auto max-w-7xl px-6 py-14 lg:px-10">
+        <div class="grid gap-10 md:grid-cols-3">
+          <div>
+            <div class="flex items-center gap-2.5">
+              <img src="kov-logo.png" alt="KOV" class="h-6 w-6 object-contain"/>
+              <span class="text-[12px] font-medium uppercase tracking-[0.18em] text-ink">KOV Career Agency</span>
+            </div>
+            <p class="mt-4 max-w-xs text-[13px] leading-relaxed text-ink-soft">Private &amp; confidential career representation for senior leaders. We work for you, never for corporate HR.</p>
+          </div>
+          <div>
+            <p class="text-[11px] font-medium uppercase tracking-[0.2em] text-muted-foreground">Explore</p>
+            <ul class="mt-4 space-y-2 text-[13px] text-ink-soft">
+              <li><a href="services.html" class="hover:text-ink">Services</a></li>
+              <li><a href="how-it-works.html" class="hover:text-ink">How It Works</a></li>
+              <li><a href="pricing.html" class="hover:text-ink">Pricing</a></li>
+              <li><a href="faqs.html" class="hover:text-ink">FAQs</a><a href="blog.html" class="transition-colors hover:text-ink">Blog</a></li>
+              <li><a href="about.html" class="hover:text-ink">About</a></li>
+              <li><a href="contact.html" class="hover:text-ink">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-[11px] font-medium uppercase tracking-[0.2em] text-muted-foreground">Direct Inquiry</p>
+            <a href="mailto:daniel.ade@zealemployerglobal.com?subject=Inquiry%20%E2%80%94%20Private%20Representation" class="mt-4 block text-[13px] text-ink hover:underline">daniel.ade@zealemployerglobal.com</a>
+            <p class="mt-2 text-[12px] text-muted-foreground">Daniel Ade Â· Founder &amp; Principal Agent</p>
+          </div>
+        </div>
+        <div class="mt-10 flex flex-col gap-2 border-t border-line/60 pt-6 text-[12px] text-muted-foreground md:flex-row md:items-center md:justify-between">
+          <span>Â© 2026 KOV Career Agency. All rights reserved.</span>
+          <span>Private &amp; Confidential Career Representation</span>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    (function() {
+      var menu = document.getElementById('site-mobile-menu');
+      var openButton = document.querySelector('[data-mobile-menu-toggle]');
+      var closeButton = document.querySelector('[data-mobile-menu-close]');
+      var menuLinks = document.querySelectorAll('[data-mobile-menu-link]');
+      if (!menu || !openButton || !closeButton) return;
+      function toggleMenu(open) {
+        var isOpen = menu.classList.contains('is-open');
+        var nextState = open === undefined ? !isOpen : open;
+        menu.classList.toggle('is-open', nextState);
+        menu.setAttribute('aria-hidden', String(!nextState));
+        document.body.classList.toggle('mobile-nav-open', nextState);
+      }
+      openButton.addEventListener('click', function() { toggleMenu(true); });
+      closeButton.addEventListener('click', function() { toggleMenu(false); });
+      menuLinks.forEach(function(link) { link.addEventListener('click', function() { toggleMenu(false); }); });
+    })();
+  </script>
+
+  <script>
+    window.KOV_BLOG_CONFIG = { repo: 'Damnoneynnhfhbn/KOV-CAREER-AGENCY-1', branch: 'main', postsPath: 'posts' };
+  </script>
+  <script src="assets/blog-cms.js"></script>
+</body>
+</html>
+
+
+
+
+
