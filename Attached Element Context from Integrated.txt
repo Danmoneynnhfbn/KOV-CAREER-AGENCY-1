@@ -1,0 +1,92 @@
+Attached Element Context from Integrated Browser
+
+Element: span.font-display.text-7xl.font-black.italic.text-ink/10.lg:text-[140px]
+
+URL: file:///C:/Users/USER/Downloads/kov%20career%20agency/services.html
+
+HTML Path: div.min-h-screen.bg-background.font-sans.text-foreground.antialiased > main > section.border-b.border-line/60.bg-background > div.mx-auto.max-w-7xl.px-6.py-24.lg:px-10.lg:py-32 > div.mt-20.space-y-32 > article.grid.gap-10.lg:grid-cols-12.lg:gap-16 > div.lg:col-span-7.lg:order-1 > span.font-display.text-7xl.font-black.italic.text-ink/10.lg:text-[140px]
+
+Outer HTML:
+```html
+<span class="font-display text-7xl font-black italic text-ink/10 lg:text-[140px]">04</span>
+```
+
+Dimensions:
+- top: 404px
+- left: 63px
+- width: 38px
+- height: 38px
+
+CSS:
+```css
+*, :after, :before, ::backdrop { box-sizing:border-box;border:0 solid;margin:0;padding:0 }
+* { border-color:var(--color-border) }
+.font-display { font-family:var(--font-display) }
+.text-7xl { font-size:var(--text-7xl);line-height:var(--tw-leading,var(--text-7xl--line-height)) }
+.font-black { --tw-font-weight:var(--font-weight-black);font-weight:var(--font-weight-black) }
+.text-ink\/10 { color:var(--color-ink) }
+.text-ink\/10 { color:color-mix(in oklab,var(--color-ink) 10%,transparent) }
+.italic { font-style:italic }
+* { box-sizing: border-box; }
+h1, h2, h3, h4, p, li, span, a, button { overflow-wrap: anywhere;
+    word-break: break-word; }
+.font-display { font-size: clamp(1.8rem, 7.2vw, 2.6rem) !important;
+    line-height: 1.06 !important;
+    word-break: break-word; }
+.font-display, h1, h2, h3, h4 { white-space: normal !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important; }
+.font-display { font-size: clamp(2rem, 9vw, 3.2rem) !important;
+    line-height: 1.05 !important; }
+.font-display, h1, h2, h3 { font-size: clamp(1.6rem, 8.5vw, 2.6rem) !important;
+    line-height: 1.06 !important;
+    hyphens: auto !important;
+    word-break: break-word !important; }
+.font-display { font-size: clamp(2.2rem, 8vw, 3.6rem) !important;
+    line-height: 1.05 !important; }
+.font-display, .font-display * { word-break: break-word;
+  overflow-wrap: break-word; }
+.font-display, .font-display * { font-size: clamp(2rem, 8vw, 3.25rem) !important;
+    line-height: 0.95 !important; }
+.font-display, .font-display * { font-size: clamp(1.9rem, 9vw, 2.8rem) !important; }
+
+/* Inherited */
+.font-sans { font-family:var(--font-sans) }
+.text-foreground { color:var(--foreground) }
+body { color:var(--color-foreground) }
+body { font-size: 16px }
+html, :host { tab-size:4; line-height:1.5; font-family:var(--default-font-family,ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"); font-feature-settings:var(--default-font-feature-settings,normal) }
+
+/* Resolved values */
+margin: 0px;
+padding: 0px;
+border: 0px solid lab(86.0735 -0.876457 -2.8578);
+white-space: normal;
+box-sizing: border-box;
+color: oklab(0.159999 -0.00362507 -0.0135186 / 0.1);
+display: inline;
+font-family: Fraunces, ui-serif, Georgia, serif;
+font-feature-settings: normal;
+font-size: 30.4px;
+font-style: italic;
+font-weight: 900;
+height: auto;
+hyphens: auto;
+line-height: 28.88px;
+overflow-wrap: normal;
+tab-size: 4;
+width: auto;
+word-break: break-word;
+
+/* CSS variables */
+--text-7xl: 4.5rem;
+--font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+--default-font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+--text-7xl--line-height: 1;
+--font-weight-black: 900;
+--color-ink: lab(3.67223% -.469178 -3.45765);
+--color-border: lab(86.0735% -.876457 -2.8578);
+--color-foreground: lab(5.2525% -.827231 -3.55052);
+--font-display: "Fraunces", ui-serif, Georgia, serif;
+--foreground: lab(5.2525% -.827231 -3.55052);
+```
