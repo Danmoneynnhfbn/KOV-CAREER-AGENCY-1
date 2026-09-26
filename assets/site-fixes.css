@@ -1363,6 +1363,114 @@ h4,
   color: #f97316 !important;
 }
 
+/* Keep mobile spacing and typography consistent across the public pages. */
+@media (max-width: 767px) {
+  main,
+  main > section,
+  footer {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  main > section > .mx-auto,
+  footer > .mx-auto,
+  header > .mx-auto {
+    padding-left: clamp(1rem, 4vw, 1.5rem) !important;
+    padding-right: clamp(1rem, 4vw, 1.5rem) !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  span {
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+  }
+
+  h1.font-display {
+    font-size: clamp(2rem, 9vw, 3.1rem) !important;
+    line-height: 1.02 !important;
+  }
+
+  h1.font-display *,
+  h2.font-display * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+  }
+
+  h2.font-display {
+    font-size: clamp(1.8rem, 7.5vw, 2.6rem) !important;
+    line-height: 1.08 !important;
+  }
+
+  .kov-marquee .font-display {
+    font-size: clamp(1.1rem, 4vw, 1.5rem) !important;
+    line-height: 1.2 !important;
+  }
+
+  .w-24 { width: 6rem !important; max-width: 100% !important; }
+  .w-28 { width: 7rem !important; max-width: 100% !important; }
+  .w-32 { width: 8rem !important; max-width: 100% !important; }
+  .w-40 { width: 10rem !important; max-width: 100% !important; }
+  .w-56 { width: 14rem !important; max-width: 100% !important; }
+  .w-64 { width: 16rem !important; max-width: 100% !important; }
+  .w-72 { width: 18rem !important; max-width: 100% !important; }
+  .w-\[100px\] { width: 100px !important; max-width: 100% !important; }
+  .w-\[280px\] { width: min(17.5rem, 100%) !important; max-width: 100% !important; }
+
+  .flex.lg\:flex:not(.hidden) {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch;
+  }
+
+  .flex.sm\:flex-row,
+  .flex.md\:flex-row {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  img[alt="KOV"] {
+    object-fit: contain !important;
+  }
+
+  .site-mobile-menu-header > a {
+    flex: 1 1 auto;
+    min-width: 0;
+    white-space: nowrap;
+  }
+
+  .site-mobile-menu-header .menu-close {
+    flex: 0 0 44px;
+    width: 44px !important;
+    min-width: 44px !important;
+    height: 44px !important;
+    min-height: 44px !important;
+    padding: 0 !important;
+  }
+
+  button[data-mobile-menu-toggle] {
+    width: 44px !important;
+    min-width: 44px !important;
+    height: 44px !important;
+    min-height: 44px !important;
+    padding: 0 !important;
+  }
+}
+
+/* Keep decorative service numbers behind the card copy. */
+main > section.bg-cream\/70 article > span.absolute {
+  color: rgba(17, 17, 17, 0.08) !important;
+  z-index: 0;
+}
+
+main > section.bg-cream\/70 article > h3,
+main > section.bg-cream\/70 article > p {
+  position: relative;
+  z-index: 1;
+}
+
 /* Keep overlay copy readable on dark/blue surfaces */
 .hero-card .overlay,
 .card-hero .overlay,
