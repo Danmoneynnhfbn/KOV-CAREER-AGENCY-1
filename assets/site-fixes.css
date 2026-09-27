@@ -525,21 +525,21 @@ main > section:first-of-type img {
   max-height: min(72vh, 560px);
   object-fit: cover;
   object-position: center;
-  border-radius: 1.5rem;
+  border-radius: 0;
   box-shadow: 0 24px 60px rgba(20, 22, 24, 0.16);
 }
 
 @media (max-width: 767px) {
   main > section:first-of-type img {
     max-height: min(60vh, 420px);
-    border-radius: 1.15rem;
+    border-radius: 0;
   }
 }
 
 @media (max-width: 480px) {
   main > section:first-of-type img {
     max-height: min(48vh, 320px);
-    border-radius: 1rem;
+    border-radius: 0;
   }
 }
 
@@ -1471,6 +1471,196 @@ main > section.bg-cream\/70 article > p {
   z-index: 1;
 }
 
+:root {
+  --kov-ink: #101821;
+  --kov-ink-soft: #24313d;
+  --kov-paper: #f6f1ea;
+  --kov-paper-strong: #f1e9df;
+  --kov-line: rgba(16, 24, 33, 0.12);
+  --kov-line-strong: rgba(16, 24, 33, 0.18);
+  --kov-brass: #b57b44;
+  --kov-orange: #d76a2a;
+  --kov-navy: #0e1b2b;
+  --kov-glow: rgba(172, 126, 76, 0.14);
+}
+
+html {
+  background: var(--kov-paper);
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(181, 123, 68, 0.08), transparent 28%),
+    linear-gradient(180deg, #f8f4ef 0%, #f4efe7 100%);
+  color: var(--kov-ink);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(17, 24, 31, 0.024) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(17, 24, 31, 0.024) 1px, transparent 1px);
+  background-size: 76px 76px;
+  mask-image: radial-gradient(circle at center, black 25%, transparent 88%);
+  opacity: 0.7;
+  z-index: 0;
+}
+
+body > div,
+header,
+main,
+footer {
+  position: relative;
+  z-index: 1;
+}
+
+main > section,
+footer,
+header {
+  position: relative;
+  isolation: isolate;
+}
+
+main > section:not(.bg-ink):not(.kov-section-dark):not(.bg-orange):not(.bg-\[\#1e3a8a\]) {
+  background: linear-gradient(180deg, rgba(255,255,255,0.28), rgba(255,255,255,0.12));
+}
+
+main > section:not(.bg-ink):not(.kov-section-dark):not(.bg-orange)::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 20% 10%, rgba(181, 123, 68, 0.06), transparent 18%),
+    linear-gradient(180deg, rgba(255,255,255,0.36), rgba(246,241,234,0.12));
+  pointer-events: none;
+  z-index: -1;
+}
+
+main > section.bg-ink,
+.bg-ink {
+  background:
+    radial-gradient(circle at top left, rgba(186, 129, 74, 0.16), transparent 22%),
+    linear-gradient(180deg, #0d1622 0%, #111d2a 100%) !important;
+  border-color: rgba(255,255,255,0.08) !important;
+}
+
+.bg-cream,
+.bg-cream\/70,
+.bg-background {
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.6), rgba(244,239,233,0.96)) !important;
+}
+
+.bg-cream\/70 {
+  background-color: rgba(246,241,234,0.9) !important;
+}
+
+main article,
+main .grid article,
+main .rounded-2xl,
+main .border,
+main .border-line,
+main section article {
+  background: rgba(255,255,255,0.76);
+  border: 1px solid var(--kov-line);
+  box-shadow: 0 14px 28px rgba(16, 24, 33, 0.04);
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+main article:hover,
+main .grid article:hover,
+main .rounded-2xl:hover,
+main section article:hover {
+  transform: translateY(-2px);
+  border-color: var(--kov-line-strong);
+  box-shadow: 0 18px 34px rgba(16, 24, 33, 0.07);
+}
+
+main article > *,
+main .grid article > * {
+  position: relative;
+  z-index: 1;
+}
+
+button,
+a[href],
+[role="button"] {
+  transition: transform 180ms ease, border-color 180ms ease, background-color 180ms ease, box-shadow 180ms ease, opacity 180ms ease;
+}
+
+button:hover,
+a[href]:hover,
+[role="button"]:hover {
+  transform: translateY(-1px);
+}
+
+button.bg-ink,
+a.bg-ink,
+button.rounded-full,
+a.rounded-full,
+[role="button"].rounded-full {
+  border-radius: 999px !important;
+}
+
+.bg-ink,
+button.bg-ink,
+a.bg-ink {
+  box-shadow: 0 10px 20px rgba(12, 19, 28, 0.12);
+}
+
+.bg-ink:hover,
+button.bg-ink:hover,
+a.bg-ink:hover {
+  background-color: #172534 !important;
+  box-shadow: 0 14px 24px rgba(12, 19, 28, 0.18);
+}
+
+.bg-orange,
+button.bg-orange,
+a.bg-orange {
+  background: linear-gradient(180deg, var(--kov-orange) 0%, #c95f27 100%);
+  box-shadow: 0 10px 20px rgba(215, 106, 42, 0.18);
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: none !important;
+  box-shadow: 0 0 0 4px rgba(183, 123, 68, 0.2) !important;
+}
+
+main > section > div > a,
+main > section a[href] {
+  letter-spacing: 0.12em;
+}
+
+main > section > div > a:hover,
+main > section a[href]:hover {
+  opacity: 0.96;
+}
+
+@media (max-width: 767px) {
+  body::before {
+    background-size: 48px 48px;
+    opacity: 0.45;
+  }
+
+  main > section:not(.bg-ink)::before {
+    opacity: 0.86;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 /* Keep overlay copy readable on dark/blue surfaces */
 .hero-card .overlay,
 .card-hero .overlay,
@@ -1619,4 +1809,425 @@ main > section.bg-cream\/70 article > p {
 .bg-\[#1e3a8a\] .bg-orange,
 .bg-\[\#1e3a8a\] .bg-orange {
   color: #f97316 !important;
+}
+
+body:has(a[aria-current="page"][href="index.html"]) main > section.bg-ink,
+body:has(a[aria-current="page"][href="index.html"]) main .bg-ink {
+  background-image: url("kov-intelligence-grid.svg") !important;
+  background-position: center;
+  background-size: cover;
+}
+
+body:has(a[aria-current="page"][href="index.html"]) main > section:first-child {
+  background-color: var(--kov-navy) !important;
+  background-image: url("kov-intelligence-grid.svg") !important;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+body:has(a[aria-current="page"][href="index.html"]) main > section:first-child h1,
+body:has(a[aria-current="page"][href="index.html"]) main > section:first-child p.text-ink-soft {
+  color: #fff !important;
+}
+
+body:has(a[aria-current="page"][href="index.html"]) main > section:first-child p.text-orange,
+body:has(a[aria-current="page"][href="index.html"]) main > section:first-child h1 .text-orange {
+  color: #f15a24 !important;
+}
+
+body:has(a[aria-current="page"][href="index.html"]) main > section:first-child [class*="text-orange"] {
+  color: #f15a24 !important;
+}
+
+body:has(a[aria-current="page"][href="index.html"]) main > section:first-child h1,
+body:has(a[aria-current="page"][href="index.html"]) main > section:first-child h1 * {
+  color: #fff !important;
+}
+
+body:has(a[aria-current="page"][href="index.html"]) main > section:first-child h1 [class*="text-orange"] {
+  color: #f15a24 !important;
+}
+
+body:has(a[aria-current="page"][href="global-talent-sourcer.html"]) main > section:first-child,
+body:has(a[aria-current="page"][href="about.html"]) main > section:first-child,
+body:has(a[aria-current="page"][href="pricing.html"]) main > section:first-child,
+body:has(a[aria-current="page"][href="contact.html"]) main > section:first-child {
+  background-image: url("kov-editorial-grid.svg") !important;
+  background-position: center;
+  background-size: cover;
+}
+
+body:has(a[aria-current="page"][href="services.html"]) main > section:first-child,
+body:has(a[aria-current="page"][href="how-it-works.html"]) main > section:first-child {
+  background-image: url("kov-search-grid.svg") !important;
+  background-position: center;
+  background-size: cover;
+}
+
+body:not(:has(.two-sided-page)):has(a[aria-current="page"][href="faqs.html"]) main > section:first-child {
+  background-image: url("kov-editorial-grid.svg") !important;
+  background-position: center;
+  background-size: cover;
+}
+
+body:has(a[aria-current="page"][href="global-talent-sourcer.html"]) main .bg-ink {
+  background-image: url("kov-global-grid.svg") !important;
+  background-position: center;
+  background-size: cover;
+}
+
+main a.rounded-full.bg-ink,
+main button.rounded-full.bg-ink,
+header a.rounded-full.bg-ink {
+  border-radius: 3px !important;
+}
+
+main > section,
+main > div,
+main > section > .mx-auto,
+.kov-hero,
+.kov-section-dark,
+.kov-final-cta,
+.kov-art-frame,
+.kov-reactive-canvas,
+main .rounded-2xl {
+  border-radius: 0 !important;
+}
+
+main .rounded-3xl {
+  border-radius: 4px !important;
+}
+
+main .rounded-\[32px\] {
+  border-radius: 0 !important;
+}
+
+main a.rounded-full.bg-ink:hover,
+main button.rounded-full.bg-ink:hover,
+header a.rounded-full.bg-ink:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 680px) {
+  body:has(a[aria-current="page"]) main > section:first-child {
+    background-position: center top;
+    background-size: auto 100%;
+  }
+}
+
+.text-orange,
+.text-orange-500,
+.text-orange-600,
+.text-\[\#f97316\],
+[class*="text-[#f15a24]"],
+[class*="text-orange"] {
+  color: #8c3f18 !important;
+}
+
+.bg-ink .text-orange,
+.bg-ink .text-orange-500,
+.bg-ink .text-orange-600,
+.bg-ink [class*="text-orange"],
+.kov-section-dark .text-orange,
+.kov-section-dark .text-orange-500,
+.kov-section-dark .text-orange-600,
+.kov-section-dark [class*="text-orange"],
+.kov-section-dark .kov-eyebrow,
+.overlay .text-orange,
+.hero-caption .text-orange {
+  color: #f1bd82 !important;
+}
+
+.bg-orange,
+.bg-orange *,
+.bg-orange-500,
+.bg-orange-500 *,
+.bg-orange-600,
+.bg-orange-600 *,
+.bg-\[\#f97316\],
+.bg-\[\#f97316\] *,
+.bg-\[\#ff7a0c\],
+.bg-\[\#ff7a0c\] *,
+.bg-\[\#f15a24\],
+.bg-\[\#f15a24\] * {
+  color: #111 !important;
+}
+
+.kov-section-dark .kov-button-light {
+  border-color: #fcfaf6 !important;
+  background: #fcfaf6 !important;
+  color: #101821 !important;
+}
+
+.kov-section-dark .kov-button-outline {
+  border-color: rgba(255, 255, 255, 0.72) !important;
+  background: transparent !important;
+  color: #fff !important;
+}
+
+.bg-ink .bg-cream,
+.bg-ink .bg-cream *,
+.bg-ink .bg-background,
+.bg-ink .bg-background *,
+.bg-ink .bg-white,
+.bg-ink .bg-white * {
+  color: #111 !important;
+}
+
+.bg-cream .bg-ink,
+.bg-cream .bg-ink * {
+  color: #fff !important;
+}
+
+.bg-orange .bg-ink {
+  background: #101821 !important;
+}
+
+.bg-orange .bg-ink,
+.bg-orange .bg-ink * {
+  color: #fff !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #555b62 !important;
+  opacity: 1 !important;
+}
+
+select,
+option {
+  color: #111 !important;
+}
+
+.kov-reactive-surface {
+  background-position: calc(50% + var(--kov-bg-x, 0px)) calc(50% + var(--kov-bg-y, 0px)) !important;
+  transition: background-position 240ms ease-out;
+}
+
+.kov-reactive-canvas {
+  position: relative;
+  isolation: isolate;
+  overflow: visible;
+}
+
+.kov-reactive-canvas picture,
+.kov-reactive-canvas > img {
+  position: relative;
+  z-index: 0;
+  display: block;
+  width: 100%;
+}
+
+.kov-reactive-canvas img {
+  transform: translate3d(var(--image-shift-x, 0px), var(--image-shift-y, 0px), 0);
+  transition: filter 220ms ease, transform 220ms ease;
+  will-change: transform;
+}
+
+.kov-reactive-canvas[data-kov-focus] img {
+  filter: brightness(.86);
+}
+
+.kov-visual-hotspot {
+  position: absolute;
+  z-index: 2;
+  top: var(--hotspot-y);
+  left: var(--hotspot-x);
+  display: grid;
+  width: 36px !important;
+  min-width: 36px !important;
+  height: 36px !important;
+  min-height: 36px !important;
+  padding: 0 !important;
+  place-items: center;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(212, 176, 121, .82);
+  border-radius: 50%;
+  background: rgba(9, 14, 19, .18);
+  color: #fff !important;
+  cursor: pointer;
+  transition: border-color 180ms ease, background-color 180ms ease, box-shadow 180ms ease, opacity 180ms ease;
+}
+
+.kov-visual-hotspot::before {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #d4b079;
+  content: "";
+  transition: transform 180ms ease, background-color 180ms ease;
+}
+
+.kov-visual-hotspot:hover,
+.kov-visual-hotspot.is-active {
+  border-color: #f1bd82;
+  background: rgba(212, 176, 121, .18);
+  box-shadow: 0 0 0 5px rgba(212, 176, 121, .1);
+  transform: translate(-50%, -50%);
+}
+
+.kov-visual-hotspot:hover::before,
+.kov-visual-hotspot.is-active::before {
+  transform: scale(1.35);
+  background: #f1bd82;
+}
+
+.kov-visual-hotspot:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+
+.kov-visual-tooltip {
+  position: absolute;
+  top: calc(100% + 9px);
+  left: 50%;
+  display: grid;
+  width: min(248px, 72vw);
+  gap: 5px;
+  padding: 10px 12px;
+  transform: translate(-50%, 4px);
+  border: 1px solid rgba(212, 176, 121, .55);
+  border-radius: 2px;
+  background: rgba(9, 14, 19, .96);
+  color: #f8f5ef !important;
+  font-size: 11px;
+  line-height: 1.45;
+  text-align: left;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.kov-visual-tooltip strong,
+.kov-visual-tooltip span {
+  color: #f8f5ef !important;
+}
+
+.kov-visual-tooltip strong {
+  color: #f1bd82 !important;
+  font-size: 10px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.kov-visual-hotspot.is-active .kov-visual-tooltip,
+.kov-visual-hotspot:focus-visible .kov-visual-tooltip {
+  transform: translate(-50%, 0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.kov-hotspot-north-america .kov-visual-tooltip,
+.kov-hotspot-professionals .kov-visual-tooltip,
+.kov-hotspot-research .kov-visual-tooltip,
+.kov-hotspot-target-companies .kov-visual-tooltip,
+.kov-hotspot-executive-profiles .kov-visual-tooltip {
+  left: 0;
+  transform: translate(0, 4px);
+}
+
+.kov-hotspot-north-america.is-active .kov-visual-tooltip,
+.kov-hotspot-professionals.is-active .kov-visual-tooltip,
+.kov-hotspot-research.is-active .kov-visual-tooltip,
+.kov-hotspot-target-companies.is-active .kov-visual-tooltip,
+.kov-hotspot-executive-profiles.is-active .kov-visual-tooltip,
+.kov-hotspot-north-america:focus-visible .kov-visual-tooltip,
+.kov-hotspot-professionals:focus-visible .kov-visual-tooltip,
+.kov-hotspot-research:focus-visible .kov-visual-tooltip,
+.kov-hotspot-target-companies:focus-visible .kov-visual-tooltip,
+.kov-hotspot-executive-profiles:focus-visible .kov-visual-tooltip {
+  transform: translate(0, 0);
+}
+
+.kov-hotspot-asia .kov-visual-tooltip,
+.kov-hotspot-companies .kov-visual-tooltip,
+.kov-hotspot-markets .kov-visual-tooltip,
+.kov-hotspot-industry-signals .kov-visual-tooltip,
+.kov-hotspot-career-histories .kov-visual-tooltip {
+  right: 0;
+  left: auto;
+  transform: translate(0, 4px);
+}
+
+.kov-hotspot-asia.is-active .kov-visual-tooltip,
+.kov-hotspot-companies.is-active .kov-visual-tooltip,
+.kov-hotspot-markets.is-active .kov-visual-tooltip,
+.kov-hotspot-industry-signals.is-active .kov-visual-tooltip,
+.kov-hotspot-career-histories.is-active .kov-visual-tooltip,
+.kov-hotspot-asia:focus-visible .kov-visual-tooltip,
+.kov-hotspot-companies:focus-visible .kov-visual-tooltip,
+.kov-hotspot-markets:focus-visible .kov-visual-tooltip,
+.kov-hotspot-industry-signals:focus-visible .kov-visual-tooltip,
+.kov-hotspot-career-histories:focus-visible .kov-visual-tooltip {
+  transform: translate(0, 0);
+}
+
+.kov-search-route li,
+.kov-steps li,
+.kov-service-grid article,
+.kov-role-grid li {
+  opacity: .68;
+  transform: translateY(5px);
+  transition: opacity 320ms ease, transform 320ms ease, border-color 220ms ease, box-shadow 220ms ease;
+  transition-delay: calc(var(--kov-stage-index, 0) * 45ms);
+}
+
+.kov-search-route li.is-active,
+.kov-steps li.is-active,
+.kov-service-grid article.is-active,
+.kov-role-grid li.is-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.kov-search-route li.is-active::before {
+  box-shadow: 0 0 0 4px rgba(183, 123, 68, .12);
+}
+
+.kov-service-grid article:hover,
+.kov-role-grid li:hover {
+  border-color: rgba(183, 123, 68, .48);
+}
+
+@media (max-width: 680px) {
+  .kov-visual-hotspot {
+    top: var(--hotspot-mobile-y);
+    left: var(--hotspot-mobile-x);
+    width: 42px !important;
+    min-width: 42px !important;
+    height: 42px !important;
+    min-height: 42px !important;
+  }
+
+  .kov-hotspot-professional-networks,
+  .kov-hotspot-research {
+    display: none !important;
+  }
+
+  .kov-visual-tooltip {
+    width: min(225px, 76vw);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kov-reactive-surface,
+  .kov-reactive-canvas img,
+  .kov-visual-hotspot,
+  .kov-visual-tooltip,
+  .kov-search-route li,
+  .kov-steps li,
+  .kov-service-grid article,
+  .kov-role-grid li {
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+    opacity: 1 !important;
+    scroll-behavior: auto !important;
+  }
+
+  .kov-reactive-canvas[data-kov-focus] img {
+    filter: none;
+  }
 }

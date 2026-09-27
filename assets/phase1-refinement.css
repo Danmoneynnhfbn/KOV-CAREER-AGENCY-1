@@ -1,0 +1,238 @@
+.two-sided-page {
+  background: var(--kov-paper);
+  color: var(--kov-ink);
+  font-family: Inter, sans-serif;
+}
+
+.kov-hero,
+.kov-hero-compact {
+  background: var(--kov-paper);
+}
+
+body:has(.two-sided-page a[aria-current="page"][href="candidate-services.html"]) .kov-hero,
+body:has(.two-sided-page a[aria-current="page"][href="services.html"]) .kov-hero {
+  background: url("kov-search-grid.svg") center / cover;
+}
+
+body:has(.two-sided-page a[aria-current="page"][href="company-services.html"]) .kov-hero {
+  background: url("kov-editorial-grid.svg") center / cover;
+}
+
+.two-sided-page .kov-hero-compact {
+  background: url("kov-editorial-grid.svg") center / cover !important;
+}
+
+.kov-hero h1 {
+  font-family: Fraunces, Georgia, serif;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.kov-hero-aside {
+  padding: 16px 0 16px 24px;
+  border-top: 0;
+  border-left: 2px solid var(--kov-orange);
+  background: transparent;
+}
+
+.kov-button,
+.kov-nav .kov-nav-cta {
+  border: 1px solid var(--kov-ink);
+  border-radius: 3px;
+  font-weight: 700;
+  letter-spacing: .06em;
+  background-color: var(--kov-ink);
+  color: #fff !important;
+  transition: transform 180ms ease, border-color 180ms ease, background-color 180ms ease, color 180ms ease;
+}
+
+.kov-button:hover,
+.kov-nav .kov-nav-cta:hover {
+  transform: translateY(-2px);
+  border-color: var(--kov-orange);
+  background-color: #172534;
+}
+
+.kov-button:focus-visible,
+.kov-nav .kov-nav-cta:focus-visible,
+.kov-text-link:focus-visible {
+  outline: 2px solid var(--kov-orange);
+  outline-offset: 3px;
+}
+
+.kov-button-light,
+.kov-button-outline {
+  color: var(--kov-ink) !important;
+}
+
+.kov-button-outline {
+  border-color: var(--kov-ink) !important;
+  background: var(--kov-paper) !important;
+}
+
+.kov-section-dark,
+.kov-section-dark p,
+.kov-section-dark li,
+.kov-section-dark h2,
+.kov-section-dark h3,
+.kov-section-dark strong {
+  color: #fff !important;
+}
+
+.kov-section-dark .kov-eyebrow {
+  color: var(--kov-orange) !important;
+}
+
+.kov-service-grid {
+  gap: 16px;
+  border: 0;
+}
+
+.kov-service-grid article {
+  min-height: 0;
+  border: 1px solid var(--kov-line);
+  border-radius: 4px;
+  background: #fff;
+}
+
+.kov-audience-grid {
+  gap: 16px;
+  background: transparent;
+}
+
+.kov-audience-grid article,
+.kov-audience-grid-contrast article:nth-child(2) {
+  border: 1px solid var(--kov-line);
+  border-radius: 4px;
+  background: #fff;
+}
+
+.kov-section-dark {
+  background: var(--kov-ink);
+  color: #fff;
+  background-image: url("kov-intelligence-grid.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+body:has(.two-sided-page a[aria-current="page"][href="company-services.html"]) .kov-section-dark {
+  background-image: url("kov-global-grid.svg");
+}
+
+body:has(.two-sided-page a[aria-current="page"][href="candidate-services.html"]) .kov-section:has(.kov-search-route) {
+  background: url("kov-search-grid.svg") center / cover;
+}
+
+.kov-section-tint {
+  background-image: url("kov-editorial-grid.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+.kov-art-figure {
+  width: min(100%, 1040px);
+  margin: 34px auto 0;
+}
+
+.kov-art-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.kov-art-frame {
+  border: 1px solid var(--kov-line);
+  background: #090e13;
+}
+
+.kov-art-caption {
+  margin: 10px 2px 0;
+  color: var(--kov-muted);
+  font-size: 11px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.kov-search-route {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  margin: 36px 0 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--kov-line);
+}
+
+.kov-search-route li {
+  position: relative;
+  min-width: 0;
+  padding: 22px 12px 0 0;
+  color: var(--kov-ink);
+}
+
+.kov-search-route li::before {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 9px;
+  height: 9px;
+  border: 2px solid var(--kov-orange);
+  border-radius: 50%;
+  background: var(--kov-paper);
+  content: "";
+}
+
+.kov-search-route li:last-child::before {
+  background: var(--kov-orange);
+}
+
+.kov-search-route b {
+  display: block;
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+.kov-search-route span {
+  display: block;
+  margin-top: 7px;
+  color: var(--kov-muted);
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.two-sided-page .kov-section-dark .kov-eyebrow,
+.two-sided-page .kov-section-dark [class*="text-orange"] {
+  color: #f1bd82 !important;
+}
+
+@media (max-width: 680px) {
+  .kov-hero,
+  .kov-section-dark,
+  .kov-section-tint,
+  .kov-section:has(.kov-search-route) {
+    background-size: auto 100%;
+  }
+
+  .kov-hero-aside {
+    padding: 16px 0 0;
+    border-left: 0;
+    border-top: 2px solid var(--kov-orange);
+  }
+
+  .kov-search-route {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-left: 4px;
+    border-top: 0;
+    border-left: 1px solid var(--kov-line);
+  }
+
+  .kov-search-route li {
+    padding: 2px 0 20px 22px;
+  }
+
+  .kov-search-route li::before {
+    top: 1px;
+    left: -5px;
+    background: var(--kov-paper);
+  }
+}

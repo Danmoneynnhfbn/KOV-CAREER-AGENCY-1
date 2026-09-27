@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrative global talent market map</title>
+  <desc id="desc">A schematic world map showing interconnected regions across the Americas, Europe, Africa, the Middle East, Asia-Pacific, and Oceania. Search coverage is scoped to the engagement.</desc>
+  <defs>
+    <pattern id="mapgrid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#26313a" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="680" fill="#090e13"/>
+  <rect width="1200" height="680" fill="url(#mapgrid)" opacity=".58"/>
+  <g fill="none" stroke="#d8d3c7" stroke-width="1.6" opacity=".68" stroke-linejoin="round">
+    <path d="m120 188 32-39 58-17 37 17 25-4 25 21-8 21 28 17-8 25-34 8-10 24-26 12-14 35-26 15-10 34-20 17-7 43-21 14-17-25-5-44-19-27-9-35-22-22 7-28-14-19 12-25-13-18 18-24z"/>
+    <path d="m265 381 24 13 11 33 20 20 8 43-15 31-5 39-18 35-17-14-13-42-20-28-8-47 11-41-5-27z"/>
+    <path d="m505 178 32-24 39 7 20 20 28-4 13 23-12 22-28 10-10 26-30 10-17 25-32-6-15-27-28-12-4-24 21-17 2-21 21-8z"/>
+    <path d="m545 300 27-8 21 18 28 4 17 31-6 45-20 26-11 45-26 39-25 43-20-8-11-37-17-29 5-38-13-35 14-30-5-30 21-16z"/>
+    <path d="m632 165 41-22 65 8 39 23 41-3 32 22 49 12 27 28-12 26-49 6-20 24-43 3-24 24-38-4-18 23-32-9-11-36-35-13-14-31-30-8-13-27-24-8-15-27z"/>
+    <path d="m887 389 28-18 34 8 17 26-12 22-35 11-28-17z"/>
+    <path d="m1020 465 31-15 26 10 13 25-22 20-32-7-19-16z"/>
+  </g>
+  <g fill="none" stroke="#87939b" stroke-width="1" opacity=".3">
+    <path d="m165 226 55-38 62-3 54 31M182 294l77-8 78-39M214 339l59-34 64-9"/>
+    <path d="m278 406 28 40 10 60M522 211l60 4 52 30M547 287l59 10 44 34M559 355l55-22 48 34M568 424l50-20 28 31"/>
+    <path d="m664 202 72 7 58 24 71 0M700 266l75-16 95 17M720 323l84-20 93 7M824 352l69-17 55 27"/>
+    <path d="M70 280H1130M130 165H1070M170 395H1030M245 100V510M420 100V510M600 100V510M780 100V510M960 100V510" stroke-dasharray="2 12"/>
+  </g>
+  <g fill="none" stroke="#b9874c" stroke-width="1.6" opacity=".72">
+    <path d="M275 280 Q445 156 604 250"/>
+    <path d="M604 250 Q780 148 930 282"/>
+    <path d="M275 280 Q294 377 300 455"/>
+    <path d="M604 250 Q578 319 580 390"/>
+    <path d="M604 250 Q679 268 730 320"/>
+    <path d="M930 282 Q1000 365 1030 490" stroke-dasharray="4 8"/>
+    <path d="M275 280 Q570 520 930 282" stroke-dasharray="3 10" opacity=".55"/>
+  </g>
+  <g fill="#d4b079" stroke="#090e13" stroke-width="4">
+    <circle cx="275" cy="280" r="9"/><circle cx="300" cy="455" r="7"/><circle cx="604" cy="250" r="9"/>
+    <circle cx="580" cy="390" r="7"/><circle cx="730" cy="320" r="7"/><circle cx="930" cy="282" r="9"/><circle cx="1030" cy="490" r="7"/>
+  </g>
+  <g fill="#f5f1e8" font-family="Inter, Arial, sans-serif" font-size="11" letter-spacing="1.7">
+    <text x="193" y="321">NORTH AMERICA</text>
+    <text x="272" y="488">SOUTH AMERICA</text>
+    <text x="572" y="286">EUROPE</text>
+    <text x="552" y="426">AFRICA</text>
+    <text x="705" y="350">MIDDLE EAST</text>
+    <text x="890" y="322">ASIA-PACIFIC</text>
+    <text x="1002" y="528">OCEANIA</text>
+  </g>
+  <g fill="#c3cbd0" font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="586" font-size="13" letter-spacing="3">GLOBAL MARKET VIEW</text>
+    <text x="600" y="614" font-size="14">Coverage and research scope are defined by each engagement.</text>
+  </g>
+</svg>

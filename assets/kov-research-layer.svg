@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrative KOV research layer</title>
+  <desc id="desc">A conceptual, non-client-specific arrangement of target companies, executive profiles, career histories, industry signals, professional networks, and market intelligence. No sample people or performance figures are shown.</desc>
+  <rect width="1200" height="660" fill="#f8f5ef"/>
+  <g stroke="#cdd1d6" stroke-width="1" fill="none">
+    <path d="M40 94H1160M40 542H1160M384 120V520M816 120V520"/>
+    <path d="M416 280H784M416 430H784" stroke-dasharray="4 8"/>
+  </g>
+  <text x="48" y="58" fill="#b94a20" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2.7">ILLUSTRATIVE INTERFACE</text>
+  <text x="48" y="151" fill="#090e13" font-family="Fraunces, Georgia, serif" font-size="35">KOV Research Layer</text>
+  <text x="48" y="183" fill="#555b62" font-family="Inter, Arial, sans-serif" font-size="14">A structured view of the market before outreach begins</text>
+  <g font-family="Inter, Arial, sans-serif">
+    <g fill="#fff" stroke="#cdd1d6">
+      <rect x="48" y="230" width="292" height="102" rx="2"/><rect x="48" y="357" width="292" height="102" rx="2"/>
+      <rect x="860" y="230" width="292" height="102" rx="2"/><rect x="860" y="357" width="292" height="102" rx="2"/>
+      <rect x="454" y="230" width="292" height="102" rx="2"/><rect x="454" y="357" width="292" height="102" rx="2"/>
+    </g>
+    <g fill="#b9874c">
+      <circle cx="74" cy="260" r="4"/><circle cx="74" cy="387" r="4"/><circle cx="886" cy="260" r="4"/><circle cx="886" cy="387" r="4"/><circle cx="480" cy="260" r="4"/><circle cx="480" cy="387" r="4"/>
+    </g>
+    <g fill="#090e13" font-size="15" font-weight="600">
+      <text x="91" y="265">Target Companies</text><text x="91" y="392">Executive Profiles</text>
+      <text x="903" y="265">Career Histories</text><text x="903" y="392">Industry Signals</text>
+      <text x="497" y="265">Professional Networks</text><text x="497" y="392">Market Intelligence</text>
+    </g>
+    <g fill="#6b7379" font-size="12">
+      <text x="74" y="300">Organization mapping</text><text x="74" y="427">Leadership fit</text>
+      <text x="886" y="300">Role and progression</text><text x="886" y="427">Public market context</text>
+      <text x="480" y="300">Relevant connections</text><text x="480" y="427">Signals to validate</text>
+    </g>
+  </g>
+  <path d="M340 281h114M340 408h114M746 281h114M746 408h114M600 332v25" fill="none" stroke="#b9874c" stroke-width="1.5"/>
+  <circle cx="600" cy="344" r="4" fill="#b9874c"/>
+  <text x="600" y="590" fill="#555b62" font-family="Inter, Arial, sans-serif" font-size="12" text-anchor="middle" letter-spacing="1.4">CONCEPTUAL VISUAL · NO CLIENT DATA OR PERFORMANCE METRICS</text>
+</svg>

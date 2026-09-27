@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 760" role="img" aria-labelledby="title desc">
+  <title id="title">KOV executive intelligence network</title>
+  <desc id="desc">Mobile view of KOV at the center of a network connecting professionals, companies, executives, recruiters, hiring managers, markets, and research.</desc>
+  <defs><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#202932" stroke-width="1"/></pattern></defs>
+  <rect width="720" height="760" fill="#090e13"/><rect width="720" height="760" fill="url(#grid)"/>
+  <g fill="none" stroke="#83909a" stroke-width="1.5" opacity=".76">
+    <path d="M360 378 145 142M360 378 360 126M360 378 575 142M360 378 145 612M360 378 360 650M360 378 575 612"/>
+    <path d="M145 142Q360 28 575 142M145 612Q360 730 575 612" stroke="#b9874c" stroke-dasharray="4 9"/>
+  </g>
+  <g fill="#090e13" stroke="#d4b079" stroke-width="2"><circle cx="145" cy="142" r="7"/><circle cx="360" cy="126" r="7"/><circle cx="575" cy="142" r="7"/><circle cx="145" cy="612" r="7"/><circle cx="360" cy="650" r="7"/><circle cx="575" cy="612" r="7"/></g>
+  <g fill="#f5f1e8" font-family="Inter, Arial, sans-serif" font-size="19" text-anchor="middle" letter-spacing="1.2">
+    <text x="145" y="102">PROFESSIONALS</text><text x="360" y="82">EXECUTIVES</text><text x="575" y="102">COMPANIES</text>
+    <text x="145" y="660">RECRUITERS</text><text x="360" y="700">HIRING MANAGERS</text><text x="575" y="660">MARKETS + RESEARCH</text>
+  </g>
+  <rect x="246" y="335" width="228" height="86" rx="2" fill="#111a23" stroke="#d4b079" stroke-width="1.5"/>
+  <text x="360" y="390" fill="#fff" font-family="Fraunces, Georgia, serif" font-size="52" font-weight="600" text-anchor="middle" letter-spacing="5">KOV</text>
+  <text x="360" y="456" fill="#c3cbd0" font-family="Inter, Arial, sans-serif" font-size="14" text-anchor="middle" letter-spacing="2">SEARCH INTELLIGENCE</text>
+  <path d="M185 510h350" stroke="#b9874c" stroke-width="1"/>
+  <text x="360" y="542" fill="#aab4bc" font-family="Inter, Arial, sans-serif" font-size="12" text-anchor="middle" letter-spacing="1.8">REPRESENTATION · SOURCING · RESEARCH</text>
+</svg>

@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 import json
+import mimetypes
 import os
 import sqlite3
 from datetime import datetime, timedelta, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs, unquote, urlparse
 
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
@@ -170,10 +171,10 @@ class BlogHandler(BaseHTTPRequestHandler):
             return
 
         if path == "/":
-            self.serve_file("index.html")
+            self.serve_static(ROOT / "index.html")
             return
 
-        safe_path = (ROOT / path.lstrip("/")).resolve()
+        safe_path = (ROOT / unquote(path.lstrip("/"))).resolve()
         if safe_path.exists() and safe_path.is_file() and str(safe_path).startswith(str(ROOT)):
             self.serve_static(safe_path)
             return
@@ -243,8 +244,14 @@ class BlogHandler(BaseHTTPRequestHandler):
             content_type = "application/javascript; charset=utf-8"
         elif file_path.suffix.lower() in {".css"}:
             content_type = "text/css; charset=utf-8"
+        elif file_path.suffix.lower() in {".html", ".htm"}:
+            content_type = "text/html; charset=utf-8"
+        elif file_path.suffix.lower() == ".xml":
+            content_type = "application/xml; charset=utf-8"
+        elif file_path.suffix.lower() == ".txt":
+            content_type = "text/plain; charset=utf-8"
         elif file_path.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg"}:
-            content_type = self.guess_type(str(file_path))
+            content_type = mimetypes.guess_type(str(file_path))[0] or "application/octet-stream"
         else:
             content_type = "application/octet-stream"
         self.send_response(200)

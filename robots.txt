@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /blogpostcheck
+
+Sitemap: https://kovcareeragency.org/sitemap.xml
