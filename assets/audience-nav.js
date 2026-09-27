@@ -10,7 +10,9 @@
     (heading) => heading.textContent.trim() === 'One Agency. Two Sides of Executive Search.'
   );
   const modelSection = modelHeading?.closest('section');
-  if (modelSection && !modelSection.querySelector('[data-kov-network]')) {
+  const existingNetwork = modelSection?.querySelector('.kov-model-figure');
+  if (existingNetwork) existingNetwork.dataset.kovNetwork = '';
+  if (modelSection && !existingNetwork && !modelSection.querySelector('[data-kov-network]')) {
     const bodyCopy = [...modelSection.querySelectorAll('p')].find((paragraph) =>
       paragraph.textContent.includes('Different client.')
     );
