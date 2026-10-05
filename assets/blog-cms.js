@@ -300,7 +300,7 @@
     }
 
     if (!posts.length) {
-      root.innerHTML = '<div class="empty-state"><h2>No posts yet</h2></div>';
+      root.innerHTML = document.querySelector('.blog-featured-video') ? '' : '<div class="empty-state"><h2>No posts yet</h2></div>';
       return;
     }
 
