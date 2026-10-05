@@ -25,6 +25,9 @@ This site now uses a GitHub Pages-compatible blog workflow with repository-backe
 - The token stays in browser session storage only and is not stored permanently in the repository.
 - Publish new posts or save drafts.
 - Posts are committed directly to the repository as JSON files.
+- Add a video by providing a hosted video URL or uploading an MP4, WebM, or Ogg file up to 25 MB. Uploaded media is committed under `assets/blog-media/`.
+- Add optional subtitles with a hosted WebVTT (`.vtt`) URL or upload a `.vtt` file. Set the language code and label for the caption track.
+- Public video posts include browser playback controls and a separate mute/unmute button. Viewers can enable the subtitle track in the player's controls.
 
 ## Notes
 

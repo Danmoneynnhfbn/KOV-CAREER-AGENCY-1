@@ -95,6 +95,10 @@
       id: post.id || post.filePath || createId(),
       title: post.title || 'Untitled post',
       image: post.image || '',
+      video: post.video || '',
+      subtitles: post.subtitles || '',
+      subtitleLanguage: post.subtitleLanguage || 'en',
+      subtitleLabel: post.subtitleLabel || 'English',
       content: post.content || '',
       status: post.status || 'published',
       createdAt: createdAt.toISOString(),
@@ -125,6 +129,14 @@
     return Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
   }
 
+  const previewObjectUrls = new WeakMap();
+
+  function mediaPreviewUrl(file, fallback) {
+    if (!file) return fallback;
+    if (!previewObjectUrls.has(file)) previewObjectUrls.set(file, URL.createObjectURL(file));
+    return previewObjectUrls.get(file);
+  }
+
   async function fetchRepoContents(path) {
     const { repo, branch } = requireConfig();
     const url = `${API_BASE}/repos/${repo}/contents/${path}?ref=${branch}`;
@@ -147,6 +159,25 @@
       headers: githubHeaders(true),
       body: JSON.stringify(body),
     });
+  }
+
+  async function uploadMediaFile(file) {
+    const maxSize = 25 * 1024 * 1024;
+    if (file.size > maxSize) {
+      throw new Error(`${file.name} is larger than the 25 MB upload limit.`);
+    }
+    const safeName = file.name.replace(/[^a-zA-Z0-9._-]+/g, '-').replace(/^\.+/, '') || 'media';
+    const path = `assets/blog-media/${Date.now()}-${safeName}`;
+    const bytes = new Uint8Array(await file.arrayBuffer());
+    let binary = '';
+    const chunkSize = 0x8000;
+    for (let offset = 0; offset < bytes.length; offset += chunkSize) {
+      binary += String.fromCharCode(...bytes.subarray(offset, offset + chunkSize));
+    }
+    const { repo, branch } = requireConfig();
+    await putRepoFile(path, btoa(binary), `Upload blog media: ${safeName}`);
+    const encodedPath = path.split('/').map(encodeURIComponent).join('/');
+    return `https://raw.githubusercontent.com/${repo}/${branch}/${encodedPath}`;
   }
 
   async function deleteRepoFile(path, sha, message) {
@@ -233,6 +264,7 @@
     target.innerHTML = `
       <article class="preview-card">
         ${safePost.image ? `<img src="${safePost.image}" alt="${escapeHtml(safePost.title)}" class="preview-image" />` : ''}
+        ${safePost.video ? `<div class="blog-video-wrap"><video class="blog-video" controls playsinline preload="metadata" src="${escapeHtml(safePost.video)}">${safePost.subtitles ? `<track kind="subtitles" src="${escapeHtml(safePost.subtitles)}" srclang="${escapeHtml(safePost.subtitleLanguage)}" label="${escapeHtml(safePost.subtitleLabel)}" default />` : ''}</video><button type="button" class="blog-video-mute" data-video-mute aria-pressed="false">Mute</button></div>` : ''}
         <div class="preview-body">
           <p class="meta">${formatDate(safePost.publishedAt)}</p>
           <h3>${escapeHtml(safePost.title || 'Untitled post')}</h3>
@@ -240,6 +272,19 @@
         </div>
       </article>
     `;
+    bindVideoMuteButtons(target);
+  }
+
+  function bindVideoMuteButtons(target) {
+    target.querySelectorAll('[data-video-mute]').forEach((button) => {
+      button.addEventListener('click', () => {
+        const video = button.parentElement.querySelector('video');
+        if (!video) return;
+        video.muted = !video.muted;
+        button.textContent = video.muted ? 'Unmute' : 'Mute';
+        button.setAttribute('aria-pressed', String(video.muted));
+      });
+    });
   }
 
   async function renderPublicBlog() {
@@ -255,7 +300,7 @@
     }
 
     if (!posts.length) {
-      root.innerHTML = '<div class="empty-state"><h2>No posts yet</h2><p>The blog will appear here once a trusted editor publishes a post.</p></div>';
+      root.innerHTML = '<div class="empty-state"><h2>No posts yet</h2></div>';
       return;
     }
 
@@ -263,6 +308,7 @@
       .map((post) => `
         <article class="blog-post">
           ${post.image ? `<img src="${post.image}" alt="${escapeHtml(post.title)}" class="blog-image" />` : ''}
+          ${post.video ? `<div class="blog-video-wrap"><video class="blog-video" controls playsinline preload="metadata" src="${escapeHtml(post.video)}">${post.subtitles ? `<track kind="subtitles" src="${escapeHtml(post.subtitles)}" srclang="${escapeHtml(post.subtitleLanguage)}" label="${escapeHtml(post.subtitleLabel)}" default />` : ''}</video><button type="button" class="blog-video-mute" data-video-mute aria-pressed="false">Mute</button></div>` : ''}
           <div class="blog-copy">
             <p class="meta">Published ${formatDate(post.publishedAt)}</p>
             <h2>${escapeHtml(post.title)}</h2>
@@ -271,6 +317,7 @@
         </article>
       `)
       .join('');
+    bindVideoMuteButtons(root);
   }
 
   let postsById = {};
@@ -283,6 +330,12 @@
     const titleInput = document.getElementById('post-title');
     const imageInput = document.getElementById('post-image');
     const imageFileInput = document.getElementById('post-image-file');
+    const videoInput = document.getElementById('post-video');
+    const videoFileInput = document.getElementById('post-video-file');
+    const subtitlesInput = document.getElementById('post-subtitles');
+    const subtitlesFileInput = document.getElementById('post-subtitles-file');
+    const subtitleLanguageInput = document.getElementById('post-subtitle-language');
+    const subtitleLabelInput = document.getElementById('post-subtitle-label');
     const editor = document.getElementById('post-editor');
     const previewPane = document.getElementById('preview-pane');
     const postList = document.getElementById('post-list');
@@ -359,6 +412,10 @@
         id: currentPostId.value,
         title: titleInput.value,
         image: imageInput.value,
+        video: mediaPreviewUrl(videoFileInput.files[0], videoInput.value),
+        subtitles: mediaPreviewUrl(subtitlesFileInput.files[0], subtitlesInput.value),
+        subtitleLanguage: subtitleLanguageInput.value,
+        subtitleLabel: subtitleLabelInput.value,
         content: editor.innerHTML,
         status: 'published',
         publishedAt: new Date().toISOString(),
@@ -370,6 +427,12 @@
       currentPostId.value = '';
       editor.innerHTML = '';
       imageInput.value = '';
+      videoInput.value = '';
+      videoFileInput.value = '';
+      subtitlesInput.value = '';
+      subtitlesFileInput.value = '';
+      subtitleLanguageInput.value = 'en';
+      subtitleLabelInput.value = 'English';
       selectedPost = null;
       deleteButton.disabled = true;
       statusNote.textContent = 'Create a new post from the editor.';
@@ -382,6 +445,12 @@
       selectedPost = normalizePost(match, new Date());
       titleInput.value = selectedPost.title;
       imageInput.value = selectedPost.image || '';
+      videoInput.value = selectedPost.video || '';
+      videoFileInput.value = '';
+      subtitlesInput.value = selectedPost.subtitles || '';
+      subtitlesFileInput.value = '';
+      subtitleLanguageInput.value = selectedPost.subtitleLanguage || 'en';
+      subtitleLabelInput.value = selectedPost.subtitleLabel || 'English';
       editor.innerHTML = selectedPost.content || '';
       currentPostId.value = selectedPost.id;
       deleteButton.disabled = false;
@@ -401,6 +470,12 @@
 
     titleInput.addEventListener('input', updatePreview);
     imageInput.addEventListener('input', updatePreview);
+    videoInput.addEventListener('input', updatePreview);
+    subtitlesInput.addEventListener('input', updatePreview);
+    subtitleLanguageInput.addEventListener('input', updatePreview);
+    subtitleLabelInput.addEventListener('input', updatePreview);
+    videoFileInput.addEventListener('change', updatePreview);
+    subtitlesFileInput.addEventListener('change', updatePreview);
     editor.addEventListener('input', updatePreview);
 
     imageFileInput.addEventListener('change', (event) => {
@@ -420,11 +495,34 @@
       const postId = currentPostId.value || createId();
       const existing = postsById[postId];
       const now = new Date();
+      let videoUrl = videoInput.value.trim();
+      let subtitlesUrl = subtitlesInput.value.trim();
+      try {
+        if (videoFileInput.files[0]) {
+          statusNote.textContent = 'Uploading video to the blog repository…';
+          videoUrl = await uploadMediaFile(videoFileInput.files[0]);
+        }
+        if (subtitlesFileInput.files[0]) {
+          const subtitlesFile = subtitlesFileInput.files[0];
+          if (!subtitlesFile.name.toLowerCase().endsWith('.vtt')) {
+            throw new Error('Subtitles must be a WebVTT (.vtt) file.');
+          }
+          statusNote.textContent = 'Uploading subtitle file…';
+          subtitlesUrl = await uploadMediaFile(subtitlesFile);
+        }
+      } catch (error) {
+        statusNote.textContent = error.message || 'Unable to upload media.';
+        return;
+      }
       const nextPost = normalizePost(
         {
           id: postId,
           title: titleInput.value.trim() || 'Untitled post',
           image: imageInput.value.trim(),
+          video: videoUrl,
+          subtitles: subtitlesUrl,
+          subtitleLanguage: subtitleLanguageInput.value.trim() || 'en',
+          subtitleLabel: subtitleLabelInput.value.trim() || 'English',
           content: editor.innerHTML.trim(),
           status: action === 'draft' ? 'draft' : 'published',
           createdAt: existing ? existing.createdAt : now.toISOString(),
