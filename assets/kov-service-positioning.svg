@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
+  <title id="title">Executive positioning framework</title>
+  <desc id="desc">An abstract positioning document organizing a verified career narrative into target role themes and professional messaging.</desc>
+  <rect width="720" height="900" fill="#f3eee5"/>
+  <rect x="82" y="74" width="556" height="752" fill="#fcfaf6" stroke="#111920" stroke-width="2"/>
+  <rect x="82" y="74" width="12" height="752" fill="#dd7040"/>
+  <text x="126" y="140" fill="#aa4c27" font-family="Arial,sans-serif" font-size="16" letter-spacing="3">POSITIONING / WORKING FRAME</text>
+  <text x="126" y="216" fill="#111920" font-family="Georgia,serif" font-size="42" font-style="italic">Professional narrative</text>
+  <text x="126" y="280" fill="#111920" font-family="Arial,sans-serif" font-size="15" letter-spacing="2">EXISTING EXPERIENCE</text>
+  <g stroke="#cdd1d6" stroke-width="2"><path d="M126 307H584M126 334H542M126 361H570"/></g>
+  <path d="M355 392V456M340 441L355 456L370 441" fill="none" stroke="#dd7040" stroke-width="3"/>
+  <text x="126" y="506" fill="#111920" font-family="Arial,sans-serif" font-size="15" letter-spacing="2">TARGET ROLE ALIGNMENT</text>
+  <g stroke="#cdd1d6" stroke-width="2"><path d="M126 535H584M126 562H542"/></g>
+  <rect x="126" y="612" width="214" height="142" fill="#111920"/>
+  <text x="150" y="654" fill="#e4b184" font-family="Arial,sans-serif" font-size="14" letter-spacing="2">RESUME</text>
+  <text x="150" y="692" fill="#fff" font-family="Georgia,serif" font-size="22" font-style="italic">Evidence &amp; focus</text>
+  <rect x="370" y="612" width="214" height="142" fill="#f3eee5" stroke="#cdd1d6"/>
+  <text x="394" y="654" fill="#aa4c27" font-family="Arial,sans-serif" font-size="14" letter-spacing="2">LINKEDIN</text>
+  <text x="394" y="692" fill="#111920" font-family="Georgia,serif" font-size="22" font-style="italic">Story &amp; signals</text>
+</svg>

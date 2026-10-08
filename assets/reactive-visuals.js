@@ -233,6 +233,23 @@
   document.addEventListener('visibilitychange', scheduleStageCheck);
 
   const initialize = (root = document) => {
+    const serviceArtwork = [
+      ['A focused team reviewing work at a laptop', 'assets/kov-service-overview.svg', 'KOV search route connecting role definition, research, positioning, and executive conversations'],
+      ['High-Volume Job Applications', 'assets/kov-service-applications.svg', 'Illustrative application workflow with role-fit review, positioning, client approval, and submission steps'],
+      ['Outreach On Every Application', 'assets/kov-service-outreach.svg', 'Illustrative outreach sequence from research and contact identification to personalized messaging and follow-up'],
+      ['Resume & LinkedIn Rewrite', 'assets/kov-service-positioning.svg', 'Illustrative positioning framework aligning verified career experience with target-role messaging'],
+      ['Interview Prep & Negotiation', 'assets/kov-service-overview.svg', 'KOV search route connecting role definition, research, positioning, and executive conversations'],
+    ];
+    serviceArtwork.forEach(([alt, source, description]) => {
+      root.querySelectorAll?.(`img[alt="${alt}"]`).forEach((image) => {
+        image.src = source;
+        image.alt = description;
+        image.removeAttribute('srcset');
+        image.classList.add('kov-service-art');
+        image.closest('.aspect-\\[3\\/4\\], .aspect-\\[4\\/5\\]')?.classList.add('kov-service-art-frame');
+      });
+    });
+
     visualConfigs.forEach((config) => {
       root.querySelectorAll?.(config.selector).forEach((image) => enhanceVisual(image, config));
     });

@@ -6,16 +6,16 @@
       right: 16px;
       bottom: 16px;
       z-index: 1000;
-      padding: 10px 12px;
+      padding: 6px 8px;
       border: 1px solid #d8d2c7;
       background: #fffdf9;
       color: #171717;
       box-shadow: 0 4px 18px rgba(0, 0, 0, .14);
-      font: 500 12px/1.4 Inter, sans-serif;
+      font: 500 10px/1.25 Inter, sans-serif;
     }
     #kov-translate-widget label {
       display: block;
-      margin-bottom: 5px;
+      margin-bottom: 2px;
       font-weight: 600;
     }
     #google_translate_element,
@@ -25,8 +25,8 @@
     #google_translate_element .goog-te-gadget-simple {
       display: inline-flex;
       align-items: center;
-      gap: 6px;
-      padding: 7px 9px;
+      gap: 4px;
+      padding: 4px 6px;
       border: 1px solid #b8b1a6;
       background: #fff;
       white-space: nowrap;
