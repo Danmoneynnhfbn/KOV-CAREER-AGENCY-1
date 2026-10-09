@@ -31,6 +31,74 @@
       font: inherit;
     }
     .blog-video-mute:focus-visible { outline: 2px solid #c85b20; outline-offset: 2px; }
+    .blog-review-post {
+      overflow: hidden;
+      border: 1px solid #e9dfd3;
+      border-top: 3px solid #c85b20;
+      border-radius: 18px;
+      background: linear-gradient(145deg, #fffdf9 0%, #fff 76%);
+      box-shadow: 0 18px 48px rgba(39, 30, 20, 0.08);
+    }
+    .review-card-banner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.65rem 1rem;
+      padding: 1rem 1.4rem;
+      border-bottom: 1px solid #eee5da;
+      background: linear-gradient(100deg, #f7eee3 0%, #fffaf4 70%, #fff 100%);
+    }
+    .review-card-stars {
+      color: #bd681f;
+      font-size: 1.05rem;
+      letter-spacing: 0.18em;
+      line-height: 1;
+      white-space: nowrap;
+    }
+    .review-card-label {
+      color: #64594f;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.11em;
+      line-height: 1.5;
+      text-align: right;
+      text-transform: uppercase;
+    }
+    .blog-review-post .blog-copy { padding: 1.5rem 1.6rem 1.7rem; }
+    .blog-review-post .blog-copy h2 {
+      margin-top: 0.55rem;
+      font-family: Fraunces, Georgia, serif;
+      font-size: clamp(1.65rem, 4vw, 2.2rem);
+      font-weight: 500;
+      line-height: 1.12;
+      letter-spacing: -0.025em;
+    }
+    .blog-review-post .rich-content > p:first-child {
+      margin: 1.2rem 0 1.35rem;
+      padding: 0.85rem 1rem;
+      border-left: 3px solid #c85b20;
+      border-radius: 0 10px 10px 0;
+      background: #faf5ee;
+      color: #6b5f53;
+      font-size: 0.76rem;
+      line-height: 1.7;
+    }
+    .blog-review-post .rich-content > p:first-child strong {
+      color: #34271e;
+      font-size: 0.78rem;
+      letter-spacing: 0.02em;
+    }
+    .blog-review-post .rich-content > p:not(:first-child) {
+      color: #3f3b36;
+      font-size: 0.98rem;
+      line-height: 1.85;
+    }
+    @media (max-width: 540px) {
+      .review-card-banner { align-items: flex-start; flex-direction: column; padding: 0.9rem 1rem; }
+      .review-card-label { text-align: left; }
+      .blog-review-post .blog-copy { padding: 1.2rem 1rem 1.35rem; }
+    }
   </style>
     <script type="application/ld+json" data-kov="core">
 {
@@ -1780,6 +1848,91 @@
             </div>
           </article>
         </div>
+        <section class="mx-auto mt-16 max-w-3xl" aria-labelledby="candidate-reviews-heading">
+          <div class="mb-8">
+            <p class="text-[11px] font-bold uppercase tracking-[0.24em] text-orange">Candidate experiences</p>
+            <h2 id="candidate-reviews-heading" class="mt-3 font-display text-3xl font-medium tracking-tight text-ink sm:text-4xl">Reviews, shared with permission</h2>
+            <p class="mt-3 max-w-2xl text-sm leading-7 text-ink-soft">These reviews were submitted by candidates and published by KOV without identifying details.</p>
+          </div>
+          <div id="candidate-review-list" class="space-y-7">
+            <article class="blog-post blog-review-post" data-review-id="review-anonymous-executive-germany-2026-08-10">
+              <div class="review-card-banner"><span class="review-card-stars" role="img" aria-label="5 out of 5 stars">★★★★★</span><span class="review-card-label">Candidate-submitted · Published anonymously by KOV</span></div>
+              <div class="blog-copy">
+                <p class="meta">Submitted August 10, 2026</p>
+                <h2>Great Partner for a Confidential, Cross-Border Career Move</h2>
+                <div class="rich-content">
+                  <p>Looking for a senior leadership role while working full time is tough. When I started my quiet job search early in the year from Southern Europe, my biggest priority was keeping everything confidential. I also needed to find a great hidden pipeline that could help me relocate internationally. Partnering with KOV Career Agency allowed me to pull off this cross-border move smoothly over several months. Thanks to them, I just landed an amazing C-suite role in Germany.</p>
+                  <p>One of the best things about working with KOV is their disruptive business model. Traditional executive search firms work on standard percentage commissions. That can sometimes create mixed priorities. KOV uses an open-fee model instead. This completely changes the dynamic for the better. It builds a relationship based on real partnership, transparency, and friendly support during contract negotiations and relocation planning.</p>
+                  <p>Their outreach setup is where the magic really happens. Instead of relying on boring job boards or throwing resumes into black-hole systems, KOV takes a proactive approach. They reach out directly to key decision-makers and hiring authorities in your target country. This keeps your professional footprint completely safe. I was able to stay totally under the radar at home while they set up high-quality, private chats with companies abroad.</p>
+                  <p>Just keep in mind that this is a very collaborative process. KOV generates a lot of direct conversations and international interviews, so you need some personal discipline to keep up. It is definitely not a passive journey. You need to stay close with your advisor, chat through strategy updates, and be ready to move quickly when a hiring manager reaches out.</p>
+                  <p>If you are a senior executive wanting to make a big international move without risking your current job, give this process a little time to work. The mock interviews, resume tweaks, and strategic positioning give you a massive confidence boost. I highly recommend KOV for high-stakes, confidential career moves.</p>
+                </div>
+              </div>
+            </article>
+            <article class="blog-post blog-review-post" data-review-id="review-anonymous-head-marketing-2026-05-10">
+              <div class="review-card-banner"><span class="review-card-stars" role="img" aria-label="5 out of 5 stars">★★★★★</span><span class="review-card-label">Candidate-submitted · Published anonymously by KOV</span></div>
+              <div class="blog-copy">
+                <p class="meta">Submitted May 10, 2026</p>
+                <h2>Wonderful Partner for a Confidential Executive Career Transition</h2>
+                <div class="rich-content">
+                  <p>Looking for a senior leadership role while managing a demanding full-time position is incredibly tough. When I launched my quiet job search in mid-December 2025, my biggest priority was keeping the entire process completely confidential. I needed a trusted partner who could help me navigate the North American market discreetly. Partnering with KOV Career Agency was the best decision I could have made. They helped me manage this stealth pipeline smoothly over a five-month period, and I recently landed an amazing role as a Head of Marketing.</p>
+                  <p>One of the best parts about working with KOV is their unique business model. Traditional executive search firms usually operate on standard percentage commissions, which can sometimes create mixed priorities during negotiations. KOV uses an open-fee model instead. This completely changes the dynamic for the better. It builds a relationship based on true partnership, transparency, and friendly support when you are finalizing your contract terms.</p>
+                  <p>Their outreach infrastructure is where the magic really happens. Instead of relying on passive job boards or throwing resumes into automated tracking systems, KOV takes a highly proactive approach. They reach out directly to key decision-makers and hiring authorities at target organizations. This keeps your professional footprint completely safe. I was able to stay totally under the radar at my current company while they set up high-quality, private chats with great businesses across the region.</p>
+                  <p>Just keep in mind that this is a highly collaborative process. KOV generates a lot of direct conversations and interview tracks, so you need some personal discipline to keep up with the momentum. It is definitely not a passive journey. You need to stay close with your advisor, talk through regular strategy updates, and be ready to move quickly when a hiring manager reaches out.</p>
+                  <p>If you are a marketing leader or senior executive wanting to make a major career move without risking your current job, give this process a little time to mature. The mock interviews, resume tweaks, and strategic positioning give you a massive confidence boost before you speak with employers. I highly recommend KOV for high-stakes, confidential career moves.</p>
+                </div>
+              </div>
+            </article>
+            <article class="blog-post blog-review-post" data-review-id="review-anonymous-chro-germany-2026-10-09">
+              <div class="review-card-banner"><span class="review-card-stars" role="img" aria-label="5 out of 5 stars">★★★★★</span><span class="review-card-label">Candidate-submitted · Published anonymously by KOV</span></div>
+              <div class="blog-copy">
+                <p class="meta">Submitted October 9, 2026 · CHRO, relocating from Italy to Germany</p>
+                <h2>Elite Cross-Border Execution for Confidential C-Suite Relocations</h2>
+                <div class="rich-content">
+                  <p>Executing a stealth corporate move from Southern Europe to a major German business hub is an incredible administrative challenge. When I initiated my pipeline, my utmost priority was avoiding the public job board firehose to preserve my current institutional standing. The structured process engineered by this agency made the entire international transition flawless.</p>
+                  <p>During the initial Guided Onboarding phase, we closely calibrated my target country metrics, compliance limits, and overall timeline. Rather than relying on generic automated tools, their team manually curated and pushed 50 to 100 highly vetted applications inside a shared dashboard every single week. This precise, data-driven approach ensured that my profile was only introduced to organizations capable of handling a premium executive relocation packet.</p>
+                  <p>Having a private agent manage the tedious logistics behind the scenes allowed me to maintain my operational focus at my old firm right up until signing the contract. For any senior executive seeking a controlled, quiet entry into a new international market, the structured methodology they provide is an exceptional investment.</p>
+                </div>
+              </div>
+            </article>
+            <article class="blog-post blog-review-post" data-review-id="review-anonymous-head-marketing-north-america-2026-05-14">
+              <div class="review-card-banner"><span class="review-card-stars" role="img" aria-label="5 out of 5 stars">★★★★★</span><span class="review-card-label">Candidate-submitted · Published anonymously by KOV</span></div>
+              <div class="blog-copy">
+                <p class="meta">Submitted May 14, 2026 · Head of Marketing, North America</p>
+                <h2>Total Game Changer for Modern Marketing Leaders!</h2>
+                <div class="rich-content">
+                  <p>If you are managing a demanding marketing career, you simply do not have the hours required to run a high-level job search properly. I started my stealth journey in mid-December, and the results have been incredible. It took roughly five months to lock in my new role, and I could not have pulled it off without their brilliant team.</p>
+                  <p>The process kicked off with a deep, comprehensive rewrite of my resume and LinkedIn presence. They completely shifted my profile away from standard daily duties and reframed my career history around concrete, measurable marketing outcomes and ATS-ready achievements. Once my positioning was optimized, their direct outreach engine went to work. For every single role we target, they skip the standard HR black hole and message five to nine key decision-makers directly.</p>
+                  <p>As the invitations started landing, the live mock interview loops and strategic stakeholder mapping sessions gave me an immense confidence boost. They helped me build a versatile story bank that kept me perfectly composed during final executive panels. If you want a proactive team that does the heavy lifting while protecting your privacy, this is it.</p>
+                </div>
+              </div>
+            </article>
+            <article class="blog-post blog-review-post" data-review-id="review-anonymous-coo-australia-2026-10-04">
+              <div class="review-card-banner"><span class="review-card-stars" role="img" aria-label="5 out of 5 stars">★★★★★</span><span class="review-card-label">Candidate-submitted · Published anonymously by KOV</span></div>
+              <div class="blog-copy">
+                <p class="meta">Submitted October 4, 2026 · Chief Operating Officer, Australia</p>
+                <h2>Highly Discreet, Operations-Approved Executive Placement Engine</h2>
+                <div class="rich-content">
+                  <p>Stealth career transitions at the COO level require absolute confidentiality and strict procedural control. My search in the Australian market took exactly nine months from my initial launch in early January 2026, and the agency protected my professional footprint perfectly from start to finish.</p>
+                  <p>The operational setup inside their shared candidate dashboard is highly efficient. I had final approval power over every single targeted application, ensuring that no document left the agency without a strict compliance check. Because they use human verification rather than automated software, the quality of corporate connections remained exceptionally high throughout the entire cycle.</p>
+                  <p>Where they truly bring elite value is the final contract negotiation phase. They supplied highly detailed market compensation benchmarks and actively co-wrote the counter-offer scripts for my base, bonus structures, and equity terms. They do not hand you off to junior staff or offshore desks. You work directly with a dedicated principal from day one until the file closes. Highly recommended for high-stakes operations.</p>
+                </div>
+              </div>
+            </article>
+            <article class="blog-post blog-review-post" data-review-id="review-anonymous-legal-executive-ksa-2026-10-08">
+              <div class="review-card-banner"><span class="review-card-stars" role="img" aria-label="5 out of 5 stars">★★★★★</span><span class="review-card-label">Candidate-submitted · Published anonymously by KOV</span></div>
+              <div class="blog-copy">
+                <p class="meta">Submitted October 8, 2026 · Legal Executive, KSA · Ongoing search</p>
+                <h2>Excellent Discretion and Direct Access for Legal Professionals in KSA</h2>
+                <div class="rich-content">
+                  <p>Navigating the legal sector within the Kingdom of Saudi Arabia requires an extreme level of discretion. I am currently utilizing their candidate representation services for an ongoing executive search, and the initial momentum has been stellar. Within just a few months, their targeted approach has already materialized premium interviews with major entities.</p>
+                  <p>The open-fee model they utilize is a breath of fresh air for senior legal professionals. Because their compensation structure is independent of a traditional salary percentage, there are zero conflicting incentives during strategic discussions. They treat the entire search as a true corporate partnership, focusing entirely on finding the right long-term organizational fit.</p>
+                  <p>Their direct messaging methodology to recruiters and general counsel authorities on LinkedIn turns cold job listings into warm executive conversations. They handle all the follow-ups and track the responses directly on your calendar, allowing you to bypass public resume piles completely under the radar. For any legal counsel looking to explore premium, unadvertised market options in the Middle East quietly, their strategic positioning engine provides a massive competitive advantage.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
         <div id="blog-public-root" class="mx-auto max-w-3xl"></div>
       </section>
     </main>
@@ -1846,8 +1999,6 @@
   <script src="assets/blog-cms.js"></script>
 </body>
 </html>
-
-
 
 
 

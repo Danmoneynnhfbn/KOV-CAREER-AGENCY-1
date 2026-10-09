@@ -1,23 +1,32 @@
 # KOV Career Agency
 
-KOV Career Agency is a founder-led career agency helping senior professionals with private reverse recruiting and executive career representation, and helping companies with global talent sourcing for senior and passive executive roles.
+> Founder-led career agency with two distinct services: private career representation for senior professionals, and independent executive talent sourcing for companies.
+
+KOV works across the candidate and company sides of the search through separate engagements. Scope, geography, deliverables, outreach approvals, fees, and reporting are agreed before work begins. Search activity does not guarantee interviews, offers, candidate availability, or hiring outcomes.
 
 ## Services
-- Executive career representation and reverse recruiting for senior professionals
-- Global executive talent sourcing for companies and hiring teams
-- Resume and LinkedIn positioning, outreach, interview support, and offer strategy
 
-## Brand
-- Name: KOV Career Agency
-- Founder: Daniel Ade
+- [Candidate Services](https://kovcareeragency.org/candidate-services.html): Private career representation and reverse recruiting for senior professionals.
+- [Company Services](https://kovcareeragency.org/company-services.html): Research-led executive talent sourcing for organizations hiring senior and passive talent.
+- [Global Talent Sourcer](https://kovcareeragency.org/global-talent-sourcer.html): Company-side market research and talent sourcing. Coverage is scoped to each engagement; the page currently describes North America, Europe, and Asia.
+- [Services](https://kovcareeragency.org/services.html): Overview of KOV's candidate-side service.
+- [How It Works](https://kovcareeragency.org/how-it-works.html): Search process and engagement steps.
+- [Pricing](https://kovcareeragency.org/pricing.html): Engagement fees and scope are discussed directly.
+
+## Proof and Process
+
+- [Private Search Proof](https://kovcareeragency.org/candidate-proof.html): Illustrative workflow examples, not verified client outcomes.
+- [Executive Talent Intelligence](https://kovcareeragency.org/company-proof.html): Illustrative research records, not real candidates, client searches, or placement data.
+- [Frequently Asked Questions](https://kovcareeragency.org/faqs.html): Answers about scope, process, pricing, confidentiality, and outcomes.
+- [Glossary](https://kovcareeragency.org/glossary.html): Plain-language definitions of key reverse recruiting, search, and executive-career terms.
+
+## About and Contact
+
+- [About KOV](https://kovcareeragency.org/about.html): Founder and agency information.
+- [Contact KOV](https://kovcareeragency.org/contact.html): Start a confidential conversation.
+
+## Entity
+
+- Organization: KOV Career Agency
+- Founder: Daniel Ade, Founder & Principal Agent
 - Website: https://kovcareeragency.org/
-- Email: daniel@kovcareeragency.org
-
-## Geographic scope
-KOV works across international markets and serves clients in countries worldwide.
-
-## Contact
-For service inquiries or a confidential consultation, visit https://kovcareeragency.org/contact.html.
-
-## Sitemap
-https://kovcareeragency.org/sitemap.xml
