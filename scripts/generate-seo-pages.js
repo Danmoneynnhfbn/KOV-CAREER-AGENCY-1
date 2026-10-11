@@ -397,12 +397,12 @@ for (const filename of fs.readdirSync(root).filter((file) => file.endsWith('.htm
 }
 
 const sitemapPath = path.join(root, 'sitemap.xml');
-let sitemap = fs.readFileSync(sitemapPath, 'utf8');
 const lastmod = new Date().toISOString().slice(0, 10);
 const corePages = [
   'services.html',
   'global-talent-sourcer.html',
   'how-it-works.html',
+  'pricing.html',
   'faqs.html',
   'about.html',
   'contact.html',
@@ -414,29 +414,35 @@ const corePages = [
   'countries-we-serve.html',
   'glossary.html',
 ];
-for (const filename of corePages) {
-  const pageUrl = `https://kovcareeragency.org/${filename}`;
-  if (!sitemap.includes(`<loc>${pageUrl}</loc>`)) {
-    sitemap = sitemap.replace(
-      '</urlset>',
-      `  <url><loc>${pageUrl}</loc><lastmod>${lastmod}</lastmod></url>\n</urlset>`
-    );
+const sitemapPages = [
+  { url: 'https://kovcareeragency.org/', file: 'index.html' },
+  ...corePages.map((filename) => ({
+    url: `https://kovcareeragency.org/${filename}`,
+    file: filename,
+  })),
+  ...completePages.map((page) => ({
+    url: `https://kovcareeragency.org/${pagePaths.get(page.slug)}`,
+    file: pagePaths.get(page.slug),
+  })),
+];
+const sitemapUrls = new Set();
+for (const page of sitemapPages) {
+  if (!fs.existsSync(path.join(root, page.file))) {
+    throw new Error(`Sitemap page does not exist: ${page.file}`);
   }
-}
-for (const page of originalPages) {
-  sitemap = sitemap.replace(
-    new RegExp(`\\s*<url><loc>https://kovcareeragency\\.org/${page.slug}\\.html</loc><lastmod>[^<]*</lastmod></url>`),
-    ''
-  );
-}
-for (const page of completePages) {
-  const pageUrl = `https://kovcareeragency.org/${pagePaths.get(page.slug)}`;
-  if (!sitemap.includes(`<loc>${pageUrl}</loc>`)) {
-    sitemap = sitemap.replace(
-      '</urlset>',
-      `  <url><loc>${pageUrl}</loc><lastmod>${lastmod}</lastmod></url>\n</urlset>`
-    );
+  if (sitemapUrls.has(page.url)) {
+    throw new Error(`Duplicate sitemap URL: ${page.url}`);
   }
+  sitemapUrls.add(page.url);
 }
+const sitemap = [
+  '<?xml version="1.0" encoding="UTF-8"?>',
+  '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+  ...sitemapPages.map(({ url }) =>
+    `  <url><loc>${url}</loc><lastmod>${lastmod}</lastmod></url>`
+  ),
+  '</urlset>',
+  '',
+].join('\n');
 fs.writeFileSync(sitemapPath, sitemap, 'utf8');
-console.log(`Generated ${completePages.length} static landing pages in five clusters and updated sitemap.xml.`);
+console.log(`Generated ${completePages.length} static landing pages and indexed ${sitemapPages.length} URLs in sitemap.xml.`);
