@@ -14,6 +14,96 @@ body {
   box-sizing: border-box;
 }
 
+.kov-footer-categories {
+  display: block;
+  grid-column: 1 / -1;
+  width: 100%;
+  margin: 36px 0 0;
+  padding: 28px 0 0;
+  border-top: 1px solid rgba(16, 21, 26, 0.14);
+  text-align: left;
+}
+
+.kov-footer nav.kov-footer-categories {
+  display: block;
+  grid-template-columns: none;
+}
+
+.kov-footer-categories > h2 {
+  margin: 0 0 22px;
+  color: #10151a;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.kov-footer-category-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 28px 24px;
+}
+
+.kov-footer-category {
+  min-width: 0;
+}
+
+.kov-footer-category h3 {
+  margin: 0 0 12px;
+  color: #303b42;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.kov-footer-category ul {
+  display: grid;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.kov-footer-category li,
+.kov-footer-category a {
+  min-width: 0;
+}
+
+.kov-footer-category a {
+  color: #59636a;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+  text-decoration: none;
+}
+
+.kov-footer-category a:hover,
+.kov-footer-category a:focus-visible {
+  color: #b84f1f;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 900px) {
+  .kov-footer-category-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  .kov-footer-categories {
+    margin-top: 28px;
+    padding-top: 22px;
+  }
+
+  .kov-footer-category-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px 16px;
+  }
+}
+
 img,
 video,
 iframe,
@@ -3496,6 +3586,142 @@ main > section:has(blockquote) > .mx-auto > p:last-child {
 .client-review-shell {
   position: relative;
   z-index: 1;
+}
+
+.kov-topic-nav {
+  position: static;
+  flex: 0 0 auto;
+}
+
+.kov-topic-nav > summary {
+  padding: 9px 12px;
+  border: 1px solid rgba(16, 24, 33, .2);
+  color: inherit;
+  cursor: pointer;
+  font-size: 11px;
+  letter-spacing: .08em;
+  list-style: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.kov-topic-nav > summary::-webkit-details-marker,
+.kov-topic-nav-group > summary::-webkit-details-marker {
+  display: none;
+}
+
+.kov-topic-nav > summary::after {
+  margin-left: 8px;
+  content: "+";
+}
+
+.kov-topic-nav[open] > summary::after {
+  content: "−";
+}
+
+.kov-topic-nav-panel {
+  position: fixed;
+  z-index: 120;
+  top: 78px;
+  right: 18px;
+  display: none;
+  width: min(1040px, calc(100vw - 36px));
+  max-height: min(78vh, 720px);
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 18px;
+  padding: 24px;
+  overflow: auto;
+  border: 1px solid rgba(16, 24, 33, .16);
+  background: #fcfbf8;
+  box-shadow: 0 20px 55px rgba(16, 24, 33, .18);
+}
+
+.kov-topic-nav[open] > .kov-topic-nav-panel {
+  display: grid;
+}
+
+.kov-topic-nav-group h3 {
+  margin: 0 0 12px;
+  color: #a65331;
+  font-size: 10px;
+  letter-spacing: .12em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.kov-topic-nav-group ul {
+  display: grid;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.kov-topic-nav-group a {
+  color: #182129;
+  font-size: 12px;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.kov-topic-nav-group a:hover,
+.kov-topic-nav-group a:focus-visible {
+  color: #a65331;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 950px) {
+  .kov-topic-nav-panel {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  .kov-topic-nav-mobile {
+    padding: 4px 0;
+  }
+
+  .kov-topic-nav-mobile > summary {
+    padding: 12px 0;
+    border: 0;
+    border-bottom: 1px solid rgba(16, 24, 33, .12);
+    font-size: 12px;
+  }
+
+  .kov-topic-nav-mobile > .kov-topic-nav-panel {
+    position: static;
+    display: block;
+    width: auto;
+    max-height: none;
+    padding: 0 0 0 10px;
+    overflow: visible;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .kov-topic-nav-mobile .kov-topic-nav-group > summary {
+    padding: 11px 0;
+    border-bottom: 1px solid rgba(16, 24, 33, .1);
+    color: #a65331;
+    cursor: pointer;
+    font-size: 10px;
+    letter-spacing: .1em;
+    list-style: none;
+    text-transform: uppercase;
+  }
+
+  .kov-topic-nav-mobile .kov-topic-nav-group ul {
+    gap: 0;
+    padding: 0 0 8px 10px;
+  }
+
+  .kov-topic-nav-mobile .kov-topic-nav-group a {
+    display: block;
+    padding: 7px 0;
+    font-size: 12px;
+  }
 }
 
 .client-review-section .client-review-heading {

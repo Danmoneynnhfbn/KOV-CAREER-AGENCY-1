@@ -1,0 +1,561 @@
+.seo-landing-page {
+  --seo-paper: #f7f4ee;
+  --seo-white: #fcfbf8;
+  --seo-ink: #111820;
+  --seo-muted: #59636b;
+  --seo-line: rgba(17, 24, 32, 0.13);
+  --seo-orange: #c96b3c;
+  background: var(--seo-white);
+  color: var(--seo-ink);
+  font-family: Inter, Arial, sans-serif;
+  line-height: 1.7;
+}
+
+.seo-landing-page .kov-header {
+  min-height: 76px;
+  padding-inline: max(6vw, 28px);
+  border-color: rgba(17, 24, 32, 0.08);
+  background: rgba(252, 251, 248, 0.94);
+}
+
+.seo-landing-page .kov-brand {
+  letter-spacing: 0.15em;
+}
+
+.seo-landing-page .kov-nav {
+  gap: clamp(16px, 2vw, 30px);
+  font-size: 12px;
+  letter-spacing: 0.035em;
+}
+
+.seo-landing-page .kov-nav a:not(.kov-nav-cta):hover {
+  color: var(--seo-orange);
+}
+
+.seo-landing-page .kov-nav .kov-nav-cta,
+.seo-landing-page .kov-button {
+  border: 1px solid var(--seo-ink);
+  border-radius: 2px;
+  background: var(--seo-ink);
+  box-shadow: none;
+  color: #fff !important;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  transition: background 180ms ease, border-color 180ms ease, transform 180ms ease;
+}
+
+.seo-landing-page .kov-nav .kov-nav-cta {
+  padding: 12px 17px;
+}
+
+.seo-landing-page .kov-button {
+  min-height: 52px;
+  padding: 14px 22px;
+  font-size: 10px;
+}
+
+.seo-landing-page .kov-nav .kov-nav-cta:hover,
+.seo-landing-page .kov-button:hover {
+  transform: translateY(-2px);
+  border-color: #9d4d2b;
+  background: #9d4d2b;
+}
+
+.seo-landing-page .kov-hero {
+  position: relative;
+  isolation: isolate;
+  grid-template-columns: minmax(0, 1.12fr) minmax(330px, 0.88fr);
+  gap: clamp(44px, 8vw, 116px);
+  min-height: 670px;
+  padding: clamp(86px, 10vw, 140px) max(8vw, 40px) clamp(88px, 10vw, 132px) !important;
+  overflow: hidden;
+  border-bottom: 1px solid var(--seo-line);
+  background:
+    radial-gradient(ellipse at 82% 18%, rgba(201, 107, 60, 0.12), transparent 28%),
+    linear-gradient(114deg, #f8f5ef 0%, #f5f0e8 64%, #ebe5da 100%);
+}
+
+.seo-landing-page .kov-hero::after {
+  position: absolute;
+  z-index: -1;
+  right: -170px;
+  bottom: -270px;
+  width: 560px;
+  height: 560px;
+  border: 1px solid rgba(17, 24, 32, 0.08);
+  border-radius: 50%;
+  box-shadow: 0 0 0 44px rgba(17, 24, 32, 0.018), 0 0 0 90px rgba(17, 24, 32, 0.014);
+  content: "";
+}
+
+.seo-landing-page .kov-hero-copy {
+  max-width: 740px;
+}
+
+.seo-landing-page .kov-eyebrow {
+  margin-bottom: 23px;
+  color: #a65331;
+  font-size: 10px;
+  letter-spacing: 0.22em;
+}
+
+.seo-landing-page .kov-hero h1 {
+  max-width: 780px;
+  margin-bottom: 25px;
+  color: #101820;
+  font-family: Fraunces, Georgia, serif;
+  font-size: clamp(3.15rem, 5.2vw, 5.4rem) !important;
+  font-weight: 500;
+  letter-spacing: -0.055em;
+  line-height: 1.08 !important;
+}
+
+.seo-landing-page .kov-hero .kov-lead {
+  max-width: 590px;
+  margin-bottom: 15px;
+  color: #313a40;
+  font-size: clamp(1.13rem, 1.5vw, 1.32rem);
+  font-weight: 400;
+  line-height: 1.58;
+}
+
+.seo-landing-page .kov-hero-copy > p:not(.kov-eyebrow, .kov-lead) {
+  max-width: 580px;
+  color: var(--seo-muted);
+  font-size: 0.96rem;
+  line-height: 1.8;
+}
+
+.seo-landing-page .kov-actions {
+  gap: 14px 24px;
+  margin-top: 34px;
+}
+
+.seo-landing-page .kov-hero .kov-text-link {
+  min-height: 46px;
+  padding: 13px 0 7px;
+  border-bottom: 1px solid rgba(17, 24, 32, 0.35);
+  color: var(--seo-ink) !important;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.seo-hero-art {
+  position: relative;
+  display: flex;
+  min-height: 410px;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(24px, 3vw, 40px);
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.88), rgba(239, 233, 223, 0.8)),
+    url("kov-editorial-grid.svg") center / cover;
+  box-shadow: 0 34px 80px rgba(17, 24, 32, 0.11), 12px 12px 0 rgba(17, 24, 32, 0.045);
+}
+
+.seo-hero-art::before {
+  position: absolute;
+  inset: 12px;
+  border: 1px solid rgba(17, 24, 32, 0.08);
+  content: "";
+  pointer-events: none;
+}
+
+.seo-hero-art img {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-height: 340px;
+  object-fit: contain;
+}
+
+.seo-hero-art figcaption {
+  position: relative;
+  margin-top: 14px;
+  color: #656c70;
+  font-size: 10px;
+  letter-spacing: 0.045em;
+}
+
+.seo-landing-page main > section:not(.seo-hero) {
+  padding: clamp(76px, 9vw, 118px) max(8vw, 40px) !important;
+  border-bottom: 1px solid rgba(17, 24, 32, 0.075);
+}
+
+.seo-landing-page main > section:not(.seo-hero, .seo-faq, .seo-related, .kov-final-cta):nth-child(even) {
+  background: var(--seo-paper);
+}
+
+.seo-landing-page .kov-section-heading,
+.seo-landing-page .kov-copy {
+  max-width: 1120px;
+}
+
+.seo-landing-page .kov-section-heading {
+  margin-bottom: 28px;
+}
+
+.seo-landing-page .kov-section-heading .kov-eyebrow {
+  margin-bottom: 15px;
+}
+
+.seo-landing-page .kov-section h2,
+.seo-landing-page .kov-final-cta h2 {
+  max-width: 800px;
+  margin-bottom: 0;
+  color: #121a21;
+  font-family: Fraunces, Georgia, serif;
+  font-size: clamp(2.25rem, 3.5vw, 3.55rem) !important;
+  font-weight: 400;
+  letter-spacing: -0.045em;
+  line-height: 1.1 !important;
+}
+
+.seo-landing-page .kov-copy {
+  color: #424b50;
+  font-size: 0.99rem;
+  line-height: 1.85;
+}
+
+.seo-landing-page .kov-copy p {
+  max-width: 850px;
+  margin-bottom: 18px;
+}
+
+.seo-landing-page .kov-list {
+  max-width: 850px;
+  padding-left: 0;
+  margin-top: 24px;
+  list-style: none;
+}
+
+.seo-landing-page .kov-list li {
+  position: relative;
+  padding: 11px 0 11px 24px;
+  border-bottom: 1px solid var(--seo-line);
+  color: #222c32;
+  font-size: 0.93rem;
+}
+
+.seo-landing-page .kov-list li::before {
+  position: absolute;
+  top: 19px;
+  left: 2px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--seo-orange);
+  content: "";
+}
+
+.seo-faq {
+  background: #f3efe8;
+}
+
+.seo-faq .kov-section-heading {
+  margin-bottom: 34px;
+}
+
+.seo-faq details {
+  max-width: 900px;
+  padding: 20px 0;
+  border-top: 1px solid rgba(17, 24, 32, 0.16);
+}
+
+.seo-faq details:last-child {
+  border-bottom: 1px solid rgba(17, 24, 32, 0.16);
+}
+
+.seo-faq summary {
+  cursor: pointer;
+  color: #182129;
+  font-family: Fraunces, Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.seo-faq details p {
+  max-width: 760px;
+  margin: 13px 0 0;
+  color: var(--seo-muted);
+  font-size: 0.94rem;
+  line-height: 1.8;
+}
+
+.seo-related {
+  background: var(--seo-white);
+}
+
+.seo-related-links {
+  display: grid;
+  max-width: 1040px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  padding: 0;
+  margin: 35px 0 0;
+  list-style: none;
+}
+
+.seo-related-links li {
+  min-height: 84px;
+  padding: 18px;
+  border: 1px solid var(--seo-line);
+  background: #fff;
+  transition: border-color 160ms ease, transform 160ms ease, box-shadow 160ms ease;
+}
+
+.seo-related-links li:hover {
+  transform: translateY(-2px);
+  border-color: rgba(201, 107, 60, 0.55);
+  box-shadow: 0 10px 24px rgba(17, 24, 32, 0.06);
+}
+
+.seo-related-links a {
+  display: flex;
+  min-height: 48px;
+  align-items: center;
+  color: var(--seo-ink);
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.seo-related-links a::after {
+  margin-left: auto;
+  padding-left: 12px;
+  color: var(--seo-orange);
+  content: "↗";
+  font-size: 1.15rem;
+}
+
+.seo-landing-page .kov-final-cta {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: clamp(86px, 10vw, 128px) max(8vw, 40px) !important;
+  background:
+    radial-gradient(ellipse at 82% 10%, rgba(201, 107, 60, 0.22), transparent 34%),
+    #111a22;
+  color: #fff;
+}
+
+.seo-landing-page .kov-final-cta::after {
+  position: absolute;
+  z-index: -1;
+  right: -110px;
+  bottom: -270px;
+  width: 520px;
+  height: 520px;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 50%;
+  box-shadow: 0 0 0 46px rgba(255, 255, 255, 0.025), 0 0 0 96px rgba(255, 255, 255, 0.02);
+  content: "";
+}
+
+.seo-landing-page .kov-final-cta .kov-eyebrow {
+  color: #e39a72;
+}
+
+.seo-landing-page .kov-final-cta h2 {
+  max-width: 780px;
+  color: #fff;
+}
+
+.seo-landing-page .kov-final-cta > p:not(.kov-eyebrow) {
+  max-width: 740px;
+  margin-top: 22px;
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 0.98rem;
+  line-height: 1.8;
+}
+
+.seo-landing-page .kov-final-cta .seo-scope-note {
+  color: rgba(255, 255, 255, 0.58) !important;
+  font-size: 0.78rem !important;
+}
+
+.seo-landing-page .kov-final-cta .kov-button {
+  border-color: #f3e9db;
+  background: #f3e9db;
+  color: #111820 !important;
+}
+
+.seo-landing-page .kov-final-cta .kov-button:hover {
+  border-color: #fff;
+  background: #fff;
+}
+
+.seo-landing-page .kov-footer {
+  padding: 54px max(6vw, 28px) 22px;
+  background: #fcfbf8;
+}
+
+.seo-landing-page .kov-footer > nav {
+  max-width: 900px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.seo-landing-page .kov-footer > .kov-footer-categories {
+  display: block;
+  max-width: none;
+  grid-template-columns: none;
+}
+
+.seo-landing-page .kov-footer b {
+  color: #303b42;
+  font-size: 9px;
+  letter-spacing: 0.18em;
+}
+
+.seo-landing-page .kov-footer a:hover {
+  color: var(--seo-orange);
+}
+
+.seo-landing-page .kov-legal {
+  max-width: 900px;
+  color: #747b7e;
+}
+
+.seo-mobile-menu {
+  display: none;
+}
+
+@media (max-width: 950px) {
+  .seo-landing-page .kov-hero {
+    grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+    gap: 40px;
+  }
+
+  .seo-landing-page .kov-hero h1 {
+    font-size: clamp(3rem, 6vw, 4.5rem) !important;
+  }
+
+  .seo-related-links {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  .seo-landing-page .kov-header {
+    min-height: 64px;
+    padding: 9px 20px;
+  }
+
+  .seo-landing-page .kov-nav {
+    display: none;
+  }
+
+  .seo-mobile-menu {
+    display: block;
+    position: relative;
+    margin-left: auto;
+  }
+
+  .seo-mobile-menu summary {
+    padding: 9px 14px;
+    border: 1px solid var(--seo-line);
+    color: var(--seo-ink);
+    cursor: pointer;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    list-style: none;
+    text-transform: uppercase;
+  }
+
+  .seo-mobile-menu summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .seo-mobile-menu nav {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    z-index: 30;
+    display: flex;
+    min-width: 235px;
+    flex-direction: column;
+    padding: 8px 15px;
+    border: 1px solid var(--seo-line);
+    background: var(--seo-white);
+    box-shadow: 0 16px 36px rgba(17, 24, 32, 0.14);
+  }
+
+  .seo-mobile-menu nav a {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--seo-line);
+    color: var(--seo-ink);
+    font-size: 13px;
+    text-decoration: none;
+  }
+
+  .seo-mobile-menu nav a:last-child {
+    border-bottom: 0;
+  }
+
+  .seo-landing-page .kov-hero {
+    min-height: 0;
+    grid-template-columns: 1fr !important;
+    gap: 37px;
+    padding: 66px 22px 58px !important;
+  }
+
+  .seo-landing-page .kov-hero h1 {
+    max-width: 600px;
+    margin-bottom: 20px;
+    font-size: clamp(2.7rem, 12vw, 3.55rem) !important;
+    line-height: 1.08 !important;
+  }
+
+  .seo-landing-page .kov-hero .kov-lead {
+    font-size: 1.08rem;
+  }
+
+  .seo-landing-page .kov-hero-copy > p:not(.kov-eyebrow, .kov-lead) {
+    font-size: 0.92rem;
+  }
+
+  .seo-landing-page main > section:not(.seo-hero) {
+    padding: 64px 22px !important;
+  }
+
+  .seo-landing-page .kov-section h2,
+  .seo-landing-page .kov-final-cta h2 {
+    font-size: clamp(2rem, 9vw, 2.75rem) !important;
+  }
+
+  .seo-hero-art {
+    width: 100%;
+    min-height: 250px;
+    padding: 20px;
+  }
+
+  .seo-hero-art img {
+    max-height: 240px;
+  }
+
+  .seo-related-links {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .seo-landing-page .kov-final-cta {
+    padding: 68px 22px !important;
+  }
+
+  .seo-landing-page .kov-footer > nav {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px 18px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .seo-landing-page *,
+  .seo-landing-page *::before,
+  .seo-landing-page *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

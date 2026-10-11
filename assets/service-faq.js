@@ -61,7 +61,7 @@
           ['Can KOV support one executive search?', 'A focused single-role search may be scoped where the brief and requirements fit KOV’s service.']
         ],
         Engagement: [
-          ['How are fees determined?', 'Fees are discussed according to role level, research scope, geography, timeline, and required outputs before work starts.'],
+          ['How are fees determined?', 'Each talent sourcing engagement is priced according to the role, research requirements, geography, timeline and agreed deliverables. The fee and scope are agreed in writing before work begins.'],
           ['How long does a search take?', 'Timing varies with role requirements, markets, research scope, and client decisions. A timeline is discussed after the brief is understood.'],
           ['Can KOV work alongside an existing search firm?', 'Research support may be possible when responsibilities, information boundaries, and handoffs are agreed.']
         ],

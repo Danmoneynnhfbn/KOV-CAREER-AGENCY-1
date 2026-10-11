@@ -1,4 +1,7 @@
 (() => {
+  const rootPrefix = /\/(?:services|markets|roles|industries|resources)\/[^/]*$/.test(location.pathname)
+    ? '../'
+    : '';
   const destinations = [
     ['candidate-services.html', 'For Candidates'],
     ['company-services.html', 'For Companies'],
@@ -23,9 +26,9 @@
       const picture = document.createElement('picture');
       const mobileSource = document.createElement('source');
       mobileSource.media = '(max-width: 680px)';
-      mobileSource.srcset = 'assets/kov-executive-intelligence-network-mobile.svg';
+      mobileSource.srcset = `${rootPrefix}assets/kov-executive-intelligence-network-mobile.svg`;
       const image = document.createElement('img');
-      image.src = 'assets/kov-executive-intelligence-network.svg';
+      image.src = `${rootPrefix}assets/kov-executive-intelligence-network.svg`;
       image.alt = 'KOV connects professionals and companies with executives, recruiters, hiring managers, markets, and research';
       image.loading = 'lazy';
       picture.append(mobileSource, image);
@@ -38,18 +41,19 @@
   }
 
   for (const [href, label] of destinations) {
-    if (desktopNav && !desktopNav.querySelector(`a[href="${href}"]`)) {
+    const target = `${rootPrefix}${href}`;
+    if (desktopNav && !desktopNav.querySelector(`a[href="${target}"]`)) {
       const link = document.createElement('a');
-      link.href = href;
+      link.href = target;
       link.className = 'transition-colors hover:text-ink';
       link.textContent = label;
       const cta = desktopNav.querySelector('a[href="contact.html"]');
       desktopNav.insertBefore(link, cta);
     }
 
-    if (mobileNav && !mobileNav.querySelector(`a[href="${href}"]`)) {
+    if (mobileNav && !mobileNav.querySelector(`a[href="${target}"]`)) {
       const link = document.createElement('a');
-      link.href = href;
+      link.href = target;
       link.dataset.mobileMenuLink = '';
       link.textContent = label;
       const cta = mobileNav.querySelector('a[href="contact.html"]');
@@ -69,19 +73,19 @@
       {
         title: 'For Professionals',
         links: [
-          ['candidate-services.html', 'Candidate Services'],
-          ['services.html', 'Reverse Recruiting'],
-          ['how-it-works.html', 'How It Works'],
-          ['pricing.html', 'Pricing'],
+          [`${rootPrefix}candidate-services.html`, 'Candidate Services'],
+          [`${rootPrefix}services.html`, 'Reverse Recruiting'],
+          [`${rootPrefix}how-it-works.html`, 'How It Works'],
+          [`${rootPrefix}pricing.html`, 'Pricing'],
         ],
       },
       {
         title: 'For Companies',
         links: [
-          ['global-talent-sourcer.html', 'Global Talent Sourcing'],
-          ['company-services.html', 'Company Services'],
-          ['how-it-works.html', 'How It Works'],
-          ['contact.html', 'Contact'],
+          [`${rootPrefix}global-talent-sourcer.html`, 'Global Talent Sourcing'],
+          [`${rootPrefix}company-services.html`, 'Company Services'],
+          [`${rootPrefix}how-it-works.html`, 'How It Works'],
+          [`${rootPrefix}contact.html`, 'Contact'],
         ],
       },
     ];
@@ -109,7 +113,7 @@
     }
 
     const whyLink = document.createElement('a');
-    whyLink.href = 'why-kov.html';
+    whyLink.href = `${rootPrefix}why-kov.html`;
     whyLink.className = 'mt-6 inline-block text-[13px] font-medium text-ink underline underline-offset-4 hover:text-orange';
     whyLink.textContent = 'Why KOV: Two Practices. One Founder.';
     section.append(columns, whyLink);
