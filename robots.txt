@@ -5,6 +5,7 @@ Sitemap: https://kovcareeragency.org/sitemap.xml
 
 User-agent: *
 Allow: /
+Allow: /about.html
 Disallow: /blogpostcheck
 
 # AI assistants and AI search (these drive citations)
