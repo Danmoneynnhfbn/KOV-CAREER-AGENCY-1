@@ -1,39 +1,71 @@
+from datetime import datetime, timezone
 from pathlib import Path
+from xml.etree import ElementTree as ET
 
-root = Path(r"c:\Users\USER\Downloads\kov career agency")
 
-for p in sorted(root.glob("*.html")):
-    if p.name.endswith(".bak"):
-        continue
-    text = p.read_text(encoding="utf-8")
-    if 'countries-we-serve.html' not in text:
-        if '</footer>' in text:
-            text = text.replace('</footer>', '<a href="countries-we-serve.html">Countries We Serve</a></footer>', 1)
-        elif '</body>' in text:
-            text = text.replace('</body>', '<a href="countries-we-serve.html">Countries We Serve</a></body>', 1)
-        p.write_text(text, encoding="utf-8")
-
-sitemap = root / 'sitemap.xml'
-sitemap.write_text(
-    '''<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://kovcareeragency.org/</loc><lastmod>2026-10-08</lastmod></url>
-  <url><loc>https://kovcareeragency.org/services.html</loc><lastmod>2026-10-08</lastmod></url>
-  <url><loc>https://kovcareeragency.org/global-talent-sourcer.html</loc><lastmod>2026-10-08</lastmod></url>
-  <url><loc>https://kovcareeragency.org/how-it-works.html</loc><lastmod>2026-10-08</lastmod></url>
-  <url><loc>https://kovcareeragency.org/pricing.html</loc><lastmod>2026-10-08</lastmod></url>
-  <url><loc>https://kovcareeragency.org/faqs.html</loc><lastmod>2026-10-08</lastmod></url>
-  <url><loc>https://kovcareeragency.org/about.html</loc><lastmod>2026-10-08</lastmod></url>
-  <url><loc>https://kovcareeragency.org/contact.html</loc><lastmod>2026-10-08</lastmod></url>
-  <url><loc>https://kovcareeragency.org/candidate-services.html</loc><lastmod>2026-10-08</lastmod></url>
-  <url><loc>https://kovcareeragency.org/company-services.html</loc><lastmod>2026-10-08</lastmod></url>
-  <url><loc>https://kovcareeragency.org/candidate-proof.html</loc><lastmod>2026-10-08</lastmod></url>
-  <url><loc>https://kovcareeragency.org/company-proof.html</loc><lastmod>2026-10-08</lastmod></url>
-  <url><loc>https://kovcareeragency.org/why-kov.html</loc><lastmod>2026-10-08</lastmod></url>
-  <url><loc>https://kovcareeragency.org/countries-we-serve.html</loc><lastmod>2026-10-08</lastmod></url>
-</urlset>
-''',
-    encoding='utf-8'
+ROOT = Path(__file__).resolve().parent
+SITE_URL = "https://kovcareeragency.org"
+SITEMAP_PATH = ROOT / "sitemap.xml"
+CORE_PAGES = (
+    "index.html",
+    "services.html",
+    "global-talent-sourcer.html",
+    "how-it-works.html",
+    "pricing.html",
+    "faqs.html",
+    "about.html",
+    "contact.html",
+    "candidate-services.html",
+    "company-services.html",
+    "candidate-proof.html",
+    "company-proof.html",
+    "why-kov.html",
+    "countries-we-serve.html",
+    "glossary.html",
 )
+PAGE_CATEGORIES = ("services", "markets", "roles", "industries", "resources")
+SITEMAP_NAMESPACE = "http://www.sitemaps.org/schemas/sitemap/0.9"
 
-print('patched footers and sitemap')
+
+def build_sitemap() -> None:
+    today = datetime.now(timezone.utc).date().isoformat()
+    page_paths = []
+
+    for filename in CORE_PAGES:
+        page_path = ROOT / filename
+        if not page_path.is_file():
+            raise FileNotFoundError(f"Expected core page is missing: {page_path}")
+        page_paths.append(page_path.relative_to(ROOT))
+
+    for category in PAGE_CATEGORIES:
+        category_path = ROOT / category
+        if not category_path.is_dir():
+            raise FileNotFoundError(f"Expected page category is missing: {category_path}")
+        page_paths.extend(
+            page.relative_to(ROOT)
+            for page in sorted(category_path.glob("*.html"))
+        )
+
+    urls = [
+        f"{SITE_URL}/" if page == Path("index.html")
+        else f"{SITE_URL}/{page.as_posix()}"
+        for page in page_paths
+    ]
+    if len(urls) != len(set(urls)):
+        raise ValueError("Duplicate URLs found while building sitemap.")
+
+    ET.register_namespace("", SITEMAP_NAMESPACE)
+    urlset = ET.Element(f"{{{SITEMAP_NAMESPACE}}}urlset")
+    for url in urls:
+        entry = ET.SubElement(urlset, f"{{{SITEMAP_NAMESPACE}}}url")
+        ET.SubElement(entry, f"{{{SITEMAP_NAMESPACE}}}loc").text = url
+        ET.SubElement(entry, f"{{{SITEMAP_NAMESPACE}}}lastmod").text = today
+
+    tree = ET.ElementTree(urlset)
+    ET.indent(tree, space="  ")
+    tree.write(SITEMAP_PATH, encoding="utf-8", xml_declaration=True)
+    print(f"Updated {SITEMAP_PATH.name} with {len(urls)} page URLs.")
+
+
+if __name__ == "__main__":
+    build_sitemap()

@@ -1,1 +1,2 @@
-# No external dependencies required for the built-in Python server implementation.
+fastapi>=0.115.0
+uvicorn>=0.30.0
