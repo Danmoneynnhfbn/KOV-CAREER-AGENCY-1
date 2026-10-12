@@ -36,4 +36,21 @@
     }
     return response;
   };
+  window.kovApiJsonRequest = async (url, options = {}) => {
+    const response = await window.kovApiRequest(url, options);
+    const contentType = response.headers.get('content-type') || '';
+    if (!/^application\/(?:[\w.-]+\+)?json\b/i.test(contentType)) {
+      throw new Error(
+        `The backend API returned a non-JSON response (HTTP ${response.status}). ` +
+        'The API may not be deployed or routed on this site. Please try again later or contact support.',
+      );
+    }
+    let data;
+    try {
+      data = await response.json();
+    } catch {
+      throw new Error('The backend API returned invalid JSON. Please try again later or contact support.');
+    }
+    return { response, data };
+  };
 })();
