@@ -465,6 +465,11 @@
     text-transform: uppercase;
   }
 
+  .seo-mobile-menu summary:focus-visible {
+    outline: 3px solid var(--seo-ink);
+    outline-offset: 3px;
+  }
+
   .seo-mobile-menu summary::-webkit-details-marker {
     display: none;
   }

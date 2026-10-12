@@ -61,7 +61,8 @@
     }
   }
 
-  const footerContainer = document.querySelector('footer > .mx-auto');
+  const footer = document.querySelector('footer');
+  const footerContainer = footer?.querySelector(':scope > .mx-auto') || footer;
   if (footerContainer && !footerContainer.querySelector('[data-audience-footer]')) {
     const section = document.createElement('div');
     section.dataset.audienceFooter = '';
@@ -118,6 +119,114 @@
     whyLink.textContent = 'Why KOV: Two Practices. One Founder.';
     section.append(columns, whyLink);
     const footerNote = footerContainer.lastElementChild;
-    footerContainer.insertBefore(section, footerNote);
+    const pageCatalog = footerContainer.querySelector(':scope > [data-kov-footer-categories]');
+    footerContainer.insertBefore(section, pageCatalog || footerNote);
   }
+
+  function normalizeFooter() {
+    if (!footer || !footerContainer || footerContainer.querySelector(':scope > [data-kov-footer-directory]')) return;
+
+    const sourceGrid = [...footerContainer.children].find((element) =>
+      element.matches('.grid') && element.children.length >= 2
+    );
+    const brand = sourceGrid?.children[0] ||
+      [...footerContainer.children].find((element) => element.matches('.kov-brand'));
+    let explore = sourceGrid?.children[1] || null;
+    let inquiry = sourceGrid?.children[2] || null;
+    const audience = footerContainer.querySelector(':scope > [data-audience-footer]');
+    const audienceGroups = audience?.querySelector('.grid')?.children;
+    const professionals = audienceGroups?.[0] || null;
+    const company = audienceGroups?.[1] || null;
+    const categoryNav = footerContainer.querySelector(':scope > [data-kov-footer-categories]');
+    const legal = [...footerContainer.children].find((element) =>
+      element.matches('.kov-legal') || element.textContent.includes('©')
+    );
+
+    if (!explore) {
+      const footerNav = [...footerContainer.children].find((element) =>
+        element.matches('nav[aria-label="Footer navigation"]')
+      );
+      if (footerNav) {
+        explore = footerNav.children[0] || null;
+        const about = footerNav.children[1];
+        if (about && explore) explore.append(about);
+      }
+    }
+
+    const countryLink = [...footer.querySelectorAll('a')].find((link) =>
+      link.textContent.trim().toLowerCase() === 'countries we serve'
+    );
+    if (countryLink) {
+      const oldItem = countryLink.closest('li');
+      countryLink.remove();
+      if (oldItem && !oldItem.textContent.trim()) oldItem.remove();
+    }
+
+    const directory = document.createElement('div');
+    directory.className = 'kov-footer-directory';
+    directory.dataset.kovFooterDirectory = '';
+
+    const columns = [
+      ['explore', explore],
+      ['professionals', professionals],
+      ['inquiry', inquiry],
+      ['company', company],
+      ['pages', categoryNav],
+    ];
+    for (const [kind, content] of columns) {
+      if (!content) continue;
+      const column = document.createElement('section');
+      column.className = `kov-footer-directory-column kov-footer-directory-${kind}`;
+      column.append(content);
+      directory.append(column);
+    }
+
+    const countries = document.createElement('section');
+    countries.className = 'kov-footer-directory-column kov-footer-directory-countries';
+    const countriesHeading = document.createElement('p');
+    countriesHeading.className = 'kov-footer-directory-heading';
+    countriesHeading.textContent = 'Countries We Serve';
+    countries.append(countriesHeading);
+    if (countryLink) {
+      countryLink.textContent = 'View countries';
+      countries.append(countryLink);
+    } else {
+      const link = document.createElement('a');
+      link.href = `${rootPrefix}countries-we-serve.html`;
+      link.textContent = 'View countries';
+      countries.append(link);
+    }
+    directory.append(countries);
+
+    if (!inquiry) {
+      const inquiryColumn = directory.querySelector('.kov-footer-directory-inquiry');
+      if (!inquiryColumn) {
+        const column = document.createElement('section');
+        column.className = 'kov-footer-directory-column kov-footer-directory-inquiry';
+        const heading = document.createElement('p');
+        heading.className = 'kov-footer-directory-heading';
+        heading.textContent = 'Direct Inquiry';
+        const link = document.createElement('a');
+        link.href = 'mailto:daniel@kovcareeragency.org';
+        link.textContent = 'daniel@kovcareeragency.org';
+        column.append(heading, link);
+        const companyColumn = directory.querySelector('.kov-footer-directory-company');
+        directory.insertBefore(column, companyColumn || directory.children[2] || null);
+      }
+    }
+
+    const companyHeading = directory.querySelector('.kov-footer-directory-company p');
+    if (companyHeading) companyHeading.textContent = 'For Company';
+
+    const brandRow = document.createElement('div');
+    brandRow.className = 'kov-footer-brand-row';
+    if (brand) brandRow.append(brand);
+
+    footerContainer.replaceChildren();
+    if (brandRow.childElementCount) footerContainer.append(brandRow);
+    footerContainer.append(directory);
+    if (legal) footerContainer.append(legal);
+  }
+
+  normalizeFooter();
 })();

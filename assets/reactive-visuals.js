@@ -1,11 +1,14 @@
 (() => {
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  const rootPrefix = /\/(?:services|markets|roles|industries|resources)\/[^/]*$/.test(window.location.pathname)
+    ? '../'
+    : '';
   const visualConfigs = [
     {
       selector: 'img[src*="kov-global-talent-map"]',
       kind: 'map',
-      mobileSrc: 'assets/kov-global-talent-map-mobile.svg',
+      mobileSrc: `${rootPrefix}assets/kov-global-talent-map-mobile.svg`,
       points: [
         { key: 'north-america', label: 'North America', detail: 'Illustrative market region. Search coverage is defined by the engagement.', x: 23, y: 41, mobileX: 20, mobileY: 45 },
         { key: 'south-america', label: 'South America', detail: 'Illustrative market region. Search coverage is defined by the engagement.', x: 25, y: 67, mobileX: 30, mobileY: 68 },

@@ -96,7 +96,11 @@
       const links = createElement('ul', '');
       for (const entry of entries) {
         const item = createElement('li', '');
-        const link = createElement('a', '', entry.title);
+        const link = createElement(
+          'a',
+          '',
+          entry.title.replace(/\s*\|\s*KOV(?: Career Agency)?\s*$/i, '')
+        );
         link.href = localPageHref(entry.href);
         item.append(link);
         links.append(item);
@@ -112,19 +116,29 @@
   function addFooterCategories() {
     const catalog = window.kovSeoPageCatalog || [];
     const footer = document.querySelector('footer');
-    if (!footer || !catalog.length || footer.querySelector('[data-kov-footer-categories]')) return;
+    if (!footer || !catalog.length) return;
+
+    const container = footer.querySelector(':scope > .mx-auto') || footer;
+    const audienceFooter = container.querySelector('[data-audience-footer]');
+    const existingNavigation = footer.querySelector('[data-kov-footer-categories]');
+    if (existingNavigation) {
+      if (audienceFooter?.parentElement) {
+        audienceFooter.insertAdjacentElement('afterend', existingNavigation);
+      }
+      return;
+    }
 
     const navigation = createElement('nav', 'kov-footer-categories');
     navigation.dataset.kovFooterCategories = '';
     navigation.setAttribute('aria-label', 'Browse all 60 pages');
     const heading = createElement('h2', '', 'Explore all 60 pages');
-    const grid = createElement('div', 'kov-footer-category-grid');
+    const grid = createElement('div', 'kov-footer-category-grid kov-footer-category-grid-horizontal');
 
     for (const [category, label] of categoryLabels) {
       const entries = catalog.filter((page) => page.category === category);
       if (!entries.length) continue;
-      const group = createElement('section', 'kov-footer-category');
-      group.append(createElement('h3', '', label));
+      const group = createElement('details', 'kov-footer-category');
+      group.append(createElement('summary', '', label));
       const list = createElement('ul', '');
       for (const entry of entries) {
         const item = createElement('li', '');
@@ -138,7 +152,10 @@
     }
 
     navigation.append(heading, grid);
-    const container = footer.querySelector(':scope > .mx-auto') || footer;
+    if (audienceFooter?.parentElement) {
+      audienceFooter.insertAdjacentElement('afterend', navigation);
+      return;
+    }
     const footerNote = container.lastElementChild;
     if (footerNote && (footerNote.matches('p, .kov-legal') || footerNote.textContent.includes('©'))) {
       container.insertBefore(navigation, footerNote);
