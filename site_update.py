@@ -13,6 +13,7 @@ CORE_PAGES = (
     "how-it-works.html",
     "pricing.html",
     "faqs.html",
+    "blog.html",
     "about.html",
     "contact.html",
     "candidate-services.html",

@@ -1,252 +1,320 @@
 #!/usr/bin/env python3
-"""KOV Career Agency - inject the core+page schema onto every HTML page."""
+"""Normalize crawl metadata and structured data for sitemap-listed pages."""
 
 import argparse
+import html
 import json
 import re
 from pathlib import Path
+from urllib.parse import urlsplit
+from xml.etree import ElementTree
 
 BASE_URL = "https://kovcareeragency.org"
-
-COUNTRY_NAMES = [
-    "Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua and Barbuda", "Argentina",
-    "Armenia", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados",
-    "Belarus", "Belgium", "Belize", "Benin", "Bhutan", "Bolivia", "Bosnia and Herzegovina",
-    "Botswana", "Brazil", "Brunei", "Bulgaria", "Burkina Faso", "Burundi", "Cabo Verde",
-    "Cambodia", "Cameroon", "Canada", "Central African Republic", "Chad", "Chile", "China",
-    "Colombia", "Comoros", "Congo (Republic of the)", "Congo (Democratic Republic of the)",
-    "Costa Rica", "Cote d'Ivoire", "Croatia", "Cuba", "Cyprus", "Czechia", "Denmark", "Djibouti",
-    "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea",
-    "Eritrea", "Estonia", "Eswatini", "Ethiopia", "Fiji", "Finland", "France", "Gabon", "Gambia",
-    "Georgia", "Germany", "Ghana", "Greece", "Grenada", "Guatemala", "Guinea", "Guinea-Bissau",
-    "Guyana", "Haiti", "Honduras", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq",
-    "Ireland", "Israel", "Italy", "Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kiribati",
-    "Kosovo", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya",
-    "Liechtenstein", "Lithuania", "Luxembourg", "Madagascar", "Malawi", "Malaysia", "Maldives",
-    "Mali", "Malta", "Marshall Islands", "Mauritania", "Mauritius", "Mexico", "Micronesia", "Moldova",
-    "Monaco", "Mongolia", "Montenegro", "Morocco", "Mozambique", "Myanmar", "Namibia", "Nauru",
-    "Nepal", "Netherlands", "New Zealand", "Nicaragua", "Niger", "Nigeria", "North Korea",
-    "North Macedonia", "Norway", "Oman", "Pakistan", "Palau", "Panama", "Papua New Guinea",
-    "Paraguay", "Peru", "Philippines", "Poland", "Portugal", "Qatar", "Romania", "Russia",
-    "Rwanda", "Saint Kitts and Nevis", "Saint Lucia", "Saint Vincent and the Grenadines", "Samoa",
-    "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Senegal", "Serbia", "Seychelles",
-    "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia",
-    "South Africa", "South Korea", "South Sudan", "Spain", "Sri Lanka", "Sudan", "Suriname",
-    "Sweden", "Switzerland", "Syria", "Tajikistan", "Tanzania", "Thailand", "Timor-Leste",
-    "Togo", "Tonga", "Trinidad and Tobago", "Tunisia", "Turkey", "Turkmenistan", "Tuvalu",
-    "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States", "Uruguay",
-    "Uzbekistan", "Vanuatu", "Vatican City", "Venezuela", "Vietnam", "Yemen", "Zambia", "Zimbabwe"
-]
+SITEMAP_NAMESPACE = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+SERVICE_CATEGORIES = {"services", "markets", "roles", "industries"}
 
 
-def strip_tags(value: str) -> str:
-    value = re.sub(r"<[^>]+>", " ", value, flags=re.S)
-    value = re.sub(r"\s+", " ", value)
-    return value.strip()
+def text_from_html(value: str) -> str:
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", value))).strip()
 
 
-def add_country_area_served():
-    return [{"@type": "Country", "name": c} for c in COUNTRY_NAMES]
+def replace_attribute(tag: str, attribute: str, value: str) -> str:
+    escaped = html.escape(value, quote=True)
+    pattern = re.compile(rf'(\b{re.escape(attribute)}\s*=\s*)(["\']).*?\2', re.I | re.S)
+    if pattern.search(tag):
+        return pattern.sub(lambda match: f'{match.group(1)}"{escaped}"', tag, count=1)
+    return tag[:-1].rstrip() + f' {attribute}="{escaped}">'
 
 
-def build_core_graph(founding_year: str | None = None):
-    org = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": ["ProfessionalService", "EmploymentAgency"],
-                "@id": f"{BASE_URL}/#organization",
-                "name": "KOV Career Agency",
-                "alternateName": ["KOV Career", "KovCareer"],
-                "url": BASE_URL,
-                "logo": f"{BASE_URL}/kov-logo.png",
-                "image": f"{BASE_URL}/preview.png",
-                "email": "daniel@kovcareeragency.org",
-                "description": "Founder-led reverse recruiting and global talent sourcing agency. KOV represents candidates directly to employers and sources passive talent across global markets.",
-                "founder": {"@id": f"{BASE_URL}/#founder"},
-                "areaServed": add_country_area_served(),
-                "sameAs": [
-                    "https://www.reddit.com/user/KOV_CAREER_AGENCY/"
-                ]
-            },
-            {
-                "@type": "Person",
-                "@id": f"{BASE_URL}/#founder",
-                "name": "Daniel Ade",
-                "jobTitle": "Founder and Principal Career Strategist",
-                "worksFor": {"@id": f"{BASE_URL}/#organization"},
-                "url": BASE_URL,
-                "sameAs": [
-                    "https://www.reddit.com/user/KOV_CAREER_AGENCY/"
-                ]
-            },
-            {
-                "@type": "WebSite",
-                "@id": f"{BASE_URL}/#website",
-                "url": BASE_URL,
-                "name": "KOV Career Agency",
-                "description": "Global executive career agency and recruiting partner for senior professionals and companies.",
-                "publisher": {"@id": f"{BASE_URL}/#organization"},
-                "potentialAction": {
-                    "@type": "SearchAction",
-                    "target": {"@type": "EntryPoint", "urlTemplate": f"{BASE_URL}/?q={{search_term_string}}"},
-                    "query-input": "required name=search_term_string"
-                }
-            }
-        ]
+def upsert_link(source: str, rel: str, href: str) -> str:
+    pattern = re.compile(r"<link\b[^>]*>", re.I)
+    for match in pattern.finditer(source):
+        tag = match.group(0)
+        rel_match = re.search(r'\brel\s*=\s*(["\'])(.*?)\1', tag, re.I | re.S)
+        if rel_match and rel_match.group(2).lower() == rel.lower():
+            updated = replace_attribute(tag, "href", href)
+            return source[:match.start()] + updated + source[match.end():]
+    return re.sub(
+        r"</head>",
+        f'  <link rel="{html.escape(rel, quote=True)}" href="{html.escape(href, quote=True)}">\n</head>',
+        source,
+        count=1,
+        flags=re.I,
+    )
+
+
+def upsert_meta(source: str, attribute: str, key: str, content: str) -> str:
+    pattern = re.compile(r"<meta\b[^>]*>", re.I)
+    for match in pattern.finditer(source):
+        tag = match.group(0)
+        key_match = re.search(rf'\b{re.escape(attribute)}\s*=\s*(["\'])(.*?)\1', tag, re.I | re.S)
+        if key_match and key_match.group(2).lower() == key.lower():
+            updated = replace_attribute(tag, "content", content)
+            return source[:match.start()] + updated + source[match.end():]
+    meta = (
+        f'  <meta {attribute}="{html.escape(key, quote=True)}" '
+        f'content="{html.escape(content, quote=True)}">\n'
+    )
+    return re.sub(r"</head>", f"{meta}</head>", source, count=1, flags=re.I)
+
+
+def canonical_url(location: str) -> str:
+    parsed = urlsplit(location)
+    if parsed.scheme != "https" or parsed.netloc.lower() != "kovcareeragency.org":
+        raise ValueError(f"Unexpected sitemap URL: {location}")
+    return f"{BASE_URL}{parsed.path or '/'}"
+
+
+def read_page_metadata(source: str, path: str) -> tuple[str, str]:
+    title_match = re.search(r"<title\b[^>]*>(.*?)</title>", source, re.I | re.S)
+    description_match = re.search(
+        r'<meta\b(?=[^>]*\bname=["\']description["\'])(?=[^>]*\bcontent=["\'](.*?)["\'])[^>]*>',
+        source,
+        re.I | re.S,
+    )
+    if not title_match:
+        raise ValueError(f"Missing page title: {path}")
+    if not description_match:
+        raise ValueError(f"Missing meta description: {path}")
+    return text_from_html(title_match.group(1)), html.unescape(description_match.group(1))
+
+
+def is_service_page(relative_path: str) -> bool:
+    first_segment = relative_path.split("/", 1)[0]
+    if first_segment in SERVICE_CATEGORIES:
+        return True
+    return relative_path in {
+        "candidate-services.html",
+        "company-services.html",
+        "global-talent-sourcer.html",
     }
-    if founding_year:
-        org["@graph"][0]["foundingDate"] = str(founding_year)
-    return org
 
 
-def estimate_service_name(path: str):
-    name = path.lower()
-    if "candidate-services" in name:
-        return "Executive Reverse Recruiting and Career Representation"
-    if "company-services" in name or "global-talent-sourcer" in name:
-        return "Global Talent Sourcing for Companies and Hiring Teams"
-    if "services" in name:
-        return "Executive Career Services"
-    if "about" in name:
-        return "About KOV Career Agency"
-    if "how-it-works" in name:
-        return "How KOV Works"
-    if "pricing" in name:
-        return "Career Agency Pricing"
-    if "contact" in name:
-        return "Contact KOV Career Agency"
-    if "faqs" in name:
-        return "Frequently Asked Questions"
-    if "why-kov" in name:
-        return "Why KOV"
-    return "Career Services"
+def extract_visible_faqs(source: str) -> list[dict[str, str]]:
+    section_match = re.search(
+        r"<section\b(?=[^>]*\bclass=[\"'][^\"']*\bseo-faq\b[^\"']*[\"'])[^>]*>"
+        r"(.*?)</section>",
+        source,
+        re.I | re.S,
+    )
+    if not section_match:
+        return []
 
-
-def estimate_page_type(path: str):
-    name = path.lower()
-    if "about" in name:
-        return ["WebPage", "AboutPage"]
-    if "contact" in name:
-        return ["WebPage", "ContactPage"]
-    if "faqs" in name or "faq" in name:
-        return ["WebPage", "FAQPage"]
-    return ["WebPage"]
-
-
-def parse_faq_questions(html: str):
-    records = []
-    for item in re.finditer(r"<details[^>]*>(.*?)</details>", html, flags=re.S | re.I):
-        block = item.group(1)
-        summary = re.search(r"<summary[^>]*>(.*?)</summary>", block, flags=re.S | re.I)
+    faqs = []
+    for detail in re.finditer(
+        r"<details\b[^>]*>(.*?)</details>", section_match.group(1), re.I | re.S
+    ):
+        summary = re.search(
+            r"<summary\b[^>]*>(.*?)</summary>", detail.group(1), re.I | re.S
+        )
         if not summary:
             continue
-        q = strip_tags(summary.group(1))
-        if not q:
-            continue
-        answer_block = block[summary.end():]
-        answer = strip_tags(answer_block)
-        if answer:
-            records.append({"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": answer}})
-        else:
-            records.append({"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": "Contact KOV to confirm availability and fit."}})
-    return records
+        answer = detail.group(1)[summary.end():]
+        question_text = text_from_html(summary.group(1))
+        answer_text = text_from_html(answer)
+        if question_text and answer_text:
+            faqs.append({"question": question_text, "answer": answer_text})
+    return faqs
 
 
-def build_page_block(path: str, html: str):
-    rel_path = path if path == "/" else path.lstrip("./")
-    page_url = f"{BASE_URL}/{rel_path}" if rel_path and not rel_path.startswith("http") else BASE_URL + "/"
-    name = estimate_service_name(rel_path)
-    body_title = re.search(r"<title[^>]*>(.*?)</title>", html, flags=re.S | re.I)
-    if body_title:
-        name = strip_tags(body_title.group(1))
-    page_type = estimate_page_type(rel_path)
-    faq_qs = parse_faq_questions(html)
-    entity = {"@type": "Service", "name": estimate_service_name(rel_path), "provider": {"@id": f"{BASE_URL}/#organization"}, "areaServed": add_country_area_served()}
-    if "services" in rel_path.lower() or "candidate" in rel_path.lower() or "company-services" in rel_path.lower() or "global-talent-sourcer" in rel_path.lower():
-        entity["serviceType"] = "Executive career support and talent sourcing"
-        entity["audience"] = {"@type": "Audience", "audienceType": "Senior professionals and hiring teams"}
-    result = {
-        "@context": "https://schema.org",
+def page_schema(
+    relative_path: str,
+    page_url: str,
+    title: str,
+    description: str,
+    faqs: list[dict[str, str]],
+) -> dict:
+    page_type = "WebPage"
+    if relative_path == "about.html":
+        page_type = "AboutPage"
+    elif relative_path == "contact.html":
+        page_type = "ContactPage"
+    elif relative_path == "faqs.html" and faqs:
+        page_type = "FAQPage"
+
+    graph: list[dict] = [
+        {
+            "@type": ["ProfessionalService", "EmploymentAgency"],
+            "@id": f"{BASE_URL}/#organization",
+            "name": "KOV Career Agency",
+            "alternateName": ["KOV Career", "KovCareer"],
+            "url": f"{BASE_URL}/",
+            "logo": f"{BASE_URL}/kov-logo.png",
+            "image": f"{BASE_URL}/preview.png",
+            "email": "daniel@kovcareeragency.org",
+            "description": (
+                "Founder-led career agency offering private career representation "
+                "for senior professionals and independent executive talent sourcing "
+                "for companies. Engagement scope is agreed directly."
+            ),
+            "founder": {"@id": f"{BASE_URL}/#founder"},
+        },
+        {
+            "@type": "Person",
+            "@id": f"{BASE_URL}/#founder",
+            "name": "Daniel Ade",
+            "jobTitle": "Founder and Principal Agent",
+            "worksFor": {"@id": f"{BASE_URL}/#organization"},
+        },
+        {
+            "@type": "WebSite",
+            "@id": f"{BASE_URL}/#website",
+            "url": f"{BASE_URL}/",
+            "name": "KOV Career Agency",
+            "publisher": {"@id": f"{BASE_URL}/#organization"},
+            "inLanguage": "en",
+        },
+    ]
+
+    page_node: dict = {
         "@type": page_type,
         "@id": f"{page_url}#webpage",
         "url": page_url,
-        "name": name,
+        "name": title,
+        "description": description,
+        "inLanguage": "en",
         "isPartOf": {"@id": f"{BASE_URL}/#website"},
         "about": {"@id": f"{BASE_URL}/#organization"},
         "publisher": {"@id": f"{BASE_URL}/#organization"},
-        "breadcrumb": {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": BASE_URL}, {"@type": "ListItem", "position": 2, "name": name, "item": page_url}]},
-        "mainEntity": faq_qs or entity
+        "breadcrumb": {"@id": f"{page_url}#breadcrumb"},
     }
-    if faq_qs:
-        result["mainEntity"] = faq_qs
-        result["about"] = {"@id": f"{BASE_URL}/#organization"}
-    if "services" in rel_path.lower() or "candidate" in rel_path.lower() or "company-services" in rel_path.lower() or "global-talent-sourcer" in rel_path.lower():
-        result["mainEntity"] = [entity] + faq_qs
-    return result
+
+    if page_type == "FAQPage":
+        page_node["mainEntity"] = [
+            {
+                "@type": "Question",
+                "name": faq["question"],
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": faq["answer"],
+                },
+            }
+            for faq in faqs
+        ]
+
+    if is_service_page(relative_path):
+        service = {
+            "@type": "Service",
+            "@id": f"{page_url}#service",
+            "name": title,
+            "description": description,
+            "provider": {"@id": f"{BASE_URL}/#organization"},
+            "mainEntityOfPage": {"@id": f"{page_url}#webpage"},
+        }
+        graph.append(service)
+        page_node["mainEntity"] = {"@id": f"{page_url}#service"}
+
+    graph.extend(
+        [
+            page_node,
+            {
+                "@type": "BreadcrumbList",
+                "@id": f"{page_url}#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": f"{BASE_URL}/",
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": title,
+                        "item": page_url,
+                    },
+                ],
+            },
+        ]
+    )
+    return {"@context": "https://schema.org", "@graph": graph}
 
 
-def remove_old_kov_json_ld(html: str) -> str:
-    pattern = re.compile(r"(?is)<script\s+type=[\"']application/ld\+json[\"'][^>]*>.*?(?:https://kovcareeragency\.org|KOV Career Agency).*?</script>\s*")
-    return pattern.sub("", html)
+def remove_owned_schema(source: str) -> str:
+    pattern = re.compile(
+        r"^[ \t]*<script\b(?=[^>]*\btype=[\"']application/ld\+json[\"'])"
+        r"(?=[^>]*\bdata-kov=[\"'][^\"']+[\"'])[^>]*>.*?</script>[ \t]*(?:\r?\n)?",
+        re.I | re.S | re.M,
+    )
+    return pattern.sub("", source)
 
 
-def inject_into_file(path: Path, dry_run: bool, found_year: str | None, root: Path):
-    original = path.read_text(encoding="utf-8")
-    if not dry_run:
-        backup_dir = root / "_schema_backup"
-        backup_dir.mkdir(parents=True, exist_ok=True)
-        relative = path.relative_to(root)
-        backup_path = backup_dir / relative
-        backup_path.parent.mkdir(parents=True, exist_ok=True)
-        if not backup_path.exists():
-            backup_path.write_text(original, encoding="utf-8")
+def normalize_page(path: Path, relative_path: str, page_url: str, dry_run: bool) -> bool:
+    source = path.read_text(encoding="utf-8")
+    title, description = read_page_metadata(source, relative_path)
+    faqs = extract_visible_faqs(source) if relative_path == "faqs.html" else []
 
-    stripped = remove_old_kov_json_ld(original)
-    core_block = build_core_graph(found_year)
-    page_block = build_page_block(path.name, stripped)
-    before = "</head>"
-    if before not in stripped:
-        return False, "skipped:no_head"
-    new_html = stripped.replace(before, "  <script type=\"application/ld+json\" data-kov=\"core\">\n" + json.dumps(core_block, ensure_ascii=False, indent=2) + "\n  </script>\n  <script type=\"application/ld+json\" data-kov=\"page\">\n" + json.dumps(page_block, ensure_ascii=False, indent=2) + "\n  </script>\n</head>", 1)
-    if not dry_run:
-        path.write_text(new_html, encoding="utf-8")
-    return True, "processed"
+    updated = upsert_link(source, "canonical", page_url)
+    for key, value in (
+        ("og:type", "website"),
+        ("og:site_name", "KOV Career Agency"),
+        ("og:url", page_url),
+        ("og:title", title),
+        ("og:description", description),
+        ("og:image", f"{BASE_URL}/preview.png"),
+        ("og:image:alt", "KOV Career Agency"),
+        ("twitter:card", "summary_large_image"),
+        ("twitter:title", title),
+        ("twitter:description", description),
+        ("twitter:image", f"{BASE_URL}/preview.png"),
+    ):
+        updated = upsert_meta(
+            updated,
+            "name" if key.startswith("twitter:") else "property",
+            key,
+            value,
+        )
+    updated = upsert_meta(updated, "name", "robots", "index,follow")
+    updated = remove_owned_schema(updated)
+    block = json.dumps(
+        page_schema(relative_path, page_url, title, description, faqs),
+        ensure_ascii=False,
+        indent=2,
+    )
+    script = f'  <script type="application/ld+json" data-kov="discovery">\n{block}\n  </script>\n'
+    if not re.search(r"</head>", updated, re.I):
+        raise ValueError(f"Missing </head> in {relative_path}")
+    updated = re.sub(r"</head>", f"{script}</head>", updated, count=1, flags=re.I)
+    if updated != source and not dry_run:
+        path.write_text(updated, encoding="utf-8")
+    return updated != source
 
 
-def iter_pages(root: Path):
-    for path in sorted(root.rglob("*.html")):
-        if path.name.lower().endswith(".bak"):
-            continue
-        if "_schema_backup" in path.parts:
-            continue
-        yield path
+def sitemap_pages(root: Path) -> list[tuple[Path, str, str]]:
+    sitemap = root / "sitemap.xml"
+    if not sitemap.is_file():
+        raise FileNotFoundError(f"Sitemap does not exist: {sitemap}")
+    sitemap_root = ElementTree.parse(sitemap).getroot()
+    pages = []
+    for location in sitemap_root.findall("s:url/s:loc", SITEMAP_NAMESPACE):
+        page_url = canonical_url(location.text or "")
+        relative_path = urlsplit(page_url).path.lstrip("/") or "index.html"
+        path = root / relative_path
+        if not path.is_file():
+            raise FileNotFoundError(f"Sitemap page is missing: {relative_path}")
+        pages.append((path, relative_path, page_url))
+    if not pages:
+        raise ValueError("Sitemap contains no page URLs.")
+    return pages
 
 
-def main():
-    parser = argparse.ArgumentParser(description="Insert KOV schema blocks into HTML pages.")
+def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Normalize metadata and structured data for sitemap pages."
+    )
     parser.add_argument("path", nargs="?", default=".")
     parser.add_argument("--dry-run", action="store_true")
-    parser.add_argument("--founded", type=str, dest="founding_year")
     args = parser.parse_args()
 
     root = Path(args.path).resolve()
-    pages = list(iter_pages(root))
-    total = len(pages)
-    processed = 0
-    skipped = []
+    pages = sitemap_pages(root)
+    changed = sum(
+        normalize_page(path, relative_path, page_url, args.dry_run)
+        for path, relative_path, page_url in pages
+    )
+    operation = "Would update" if args.dry_run else "Updated"
+    print(f"{operation} metadata/schema on {changed} of {len(pages)} sitemap pages.")
 
-    for page in pages:
-        ok, status = inject_into_file(page, args.dry_run, args.founding_year, root)
-        if ok:
-            processed += 1
-        else:
-            skipped.append(f"{page.name}:{status}")
-
-    print(f"Processed {processed} of {total} html files")
-    if skipped:
-        for item in skipped:
-            print(item)
 
 if __name__ == "__main__":
     main()
