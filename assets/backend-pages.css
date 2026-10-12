@@ -1,0 +1,269 @@
+.backend-page {
+  --kov-orange: #c85b20;
+  --kov-orange-dark: #9f4217;
+  --kov-green: #315c43;
+  --kov-green-dark: #244633;
+  --kov-white: #fff;
+  --kov-brown: #463629;
+  --kov-brown-soft: #f4ede4;
+  --kov-brown-line: #dfd1c1;
+  --kov-muted: #675d52;
+  background: #fbf8f3;
+  color: var(--kov-brown);
+}
+
+.backend-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  align-items: center;
+  gap: clamp(1.25rem, 4vw, 2.75rem);
+  margin: 1.5rem 0 1.75rem;
+  padding: clamp(1rem, 3vw, 1.75rem);
+  overflow: hidden;
+  border: 1px solid var(--kov-brown-line);
+  border-radius: 18px;
+  background: linear-gradient(118deg, #fff 0%, #fff 48%, var(--kov-brown-soft) 100%);
+  box-shadow: 0 14px 34px rgb(70 54 41 / 7%);
+}
+
+.backend-hero-copy {
+  min-width: 0;
+}
+
+.backend-hero-copy h1 {
+  margin: 0.25rem 0 0.75rem;
+  color: var(--kov-brown);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 1.08;
+}
+
+.backend-hero-copy > p:not(.backend-eyebrow) {
+  max-width: 36rem;
+  color: var(--kov-muted);
+  line-height: 1.7;
+}
+
+.backend-eyebrow {
+  margin: 0;
+  color: var(--kov-green-dark);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  line-height: 1.5;
+}
+
+.backend-hero > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: 1px solid rgb(70 54 41 / 10%);
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 12px 26px rgb(70 54 41 / 10%);
+}
+
+.backend-admin-page .backend-hero-copy > h1 {
+  padding-bottom: 0;
+  border: 0;
+}
+
+.backend-admin-page .backend-hero {
+  grid-column: 1 / -1;
+}
+
+.backend-page main a {
+  color: var(--kov-orange-dark);
+  text-decoration-color: currentColor;
+  text-underline-offset: 0.18em;
+}
+
+.backend-page main a:hover {
+  color: var(--kov-green-dark);
+}
+
+.backend-page :is(button, input, select, textarea):focus-visible,
+.backend-page a:focus-visible {
+  outline: 3px solid var(--kov-orange);
+  outline-offset: 3px;
+}
+
+.backend-page :is(input:not([type="checkbox"]), select, textarea) {
+  border-color: var(--kov-brown-line);
+  border-radius: 7px;
+  background-color: var(--kov-white);
+  color: var(--kov-brown);
+}
+
+.backend-page button {
+  border-color: var(--kov-orange-dark);
+  border-radius: 7px;
+  background: var(--kov-orange);
+  color: var(--kov-white);
+  font: inherit;
+  font-weight: 600;
+  transition: background-color 160ms ease, border-color 160ms ease, transform 160ms ease;
+}
+
+.backend-page button:hover:not(:disabled) {
+  border-color: var(--kov-orange-dark);
+  background: var(--kov-orange-dark);
+}
+
+.backend-page button:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.backend-page button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.backend-account-page .account-shell,
+.backend-directory-page .directory-shell,
+.backend-admin-page .admin-shell {
+  margin-inline: auto !important;
+  padding-inline: clamp(1rem, 4vw, 2rem) !important;
+  color: var(--kov-brown);
+}
+
+.backend-account-page .account-card,
+.backend-directory-page .directory-card,
+.backend-admin-page .admin-section,
+.backend-admin-page .metric-card {
+  border-color: var(--kov-brown-line) !important;
+  background: var(--kov-white) !important;
+  padding: 1.5rem !important;
+  box-shadow: 0 8px 24px rgb(70 54 41 / 5%);
+}
+
+.backend-account-page .account-card {
+  border-top: 3px solid var(--kov-orange) !important;
+}
+
+.backend-account-page .account-tabs button {
+  border-color: var(--kov-brown-line);
+  background: var(--kov-brown-soft);
+  color: var(--kov-brown);
+}
+
+.backend-account-page .account-tabs button[aria-selected="true"],
+.backend-account-page .account-card button[type="submit"],
+.backend-account-page #subscription-checkout {
+  border-color: var(--kov-orange-dark);
+  background: var(--kov-orange);
+  color: var(--kov-white);
+}
+
+.backend-account-page #reset-button,
+.backend-account-page #logout-button,
+.backend-account-page .billing-item button {
+  border-color: var(--kov-green-dark);
+  background: var(--kov-green);
+  color: var(--kov-white);
+}
+
+.backend-account-page :is(#reset-button, #logout-button, .billing-item button):hover:not(:disabled) {
+  border-color: var(--kov-green-dark);
+  background: var(--kov-green-dark);
+}
+
+.backend-account-page .account-status[data-kind="error"] {
+  color: var(--kov-orange-dark);
+}
+
+.backend-account-page .account-status[data-kind="success"] {
+  color: var(--kov-green-dark);
+}
+
+.backend-account-page .billing-item {
+  border-color: var(--kov-brown-line);
+}
+
+.backend-directory-page .directory-card {
+  border-left: 3px solid var(--kov-green);
+}
+
+.backend-directory-page .directory-avatar {
+  background: var(--kov-green);
+  color: var(--kov-white);
+}
+
+.backend-directory-page .directory-card h2 {
+  color: var(--kov-green-dark);
+}
+
+.backend-directory-page .directory-card p {
+  color: var(--kov-muted);
+}
+
+.backend-admin-page .admin-shell > h1 {
+  padding-bottom: 0.7rem;
+  border-bottom: 2px solid var(--kov-orange);
+}
+
+.backend-admin-page .metric-card {
+  border-top: 3px solid var(--kov-orange);
+}
+
+.backend-admin-page .analytics-grid {
+  grid-column: 1 / -1;
+}
+
+.backend-admin-page .metric-card:nth-child(2),
+.backend-admin-page .metric-card:nth-child(3) {
+  border-top-color: var(--kov-green);
+}
+
+.backend-admin-page .metric-note,
+.backend-admin-page .admin-item > p {
+  color: var(--kov-muted);
+}
+
+.backend-admin-page .admin-section > h2 {
+  color: var(--kov-green-dark);
+}
+
+.backend-admin-page .admin-item {
+  border-color: var(--kov-brown-line);
+}
+
+.backend-admin-page .admin-item :is(input, select, textarea),
+.backend-admin-page .admin-create :is(input, select, textarea) {
+  padding: 0.65rem;
+}
+
+.backend-admin-page .admin-item label.admin-check input {
+  accent-color: var(--kov-green);
+}
+
+.backend-admin-page .admin-message[role="status"] {
+  padding: 0.7rem 0.85rem;
+  border-left: 3px solid var(--kov-green);
+  background: var(--kov-brown-soft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .backend-page *,
+  .backend-page *::before,
+  .backend-page *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .backend-hero {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+    margin-block: 1rem 1.25rem;
+    padding: 1rem;
+  }
+
+  .backend-hero > img {
+    max-height: 15rem;
+  }
+}

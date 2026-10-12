@@ -8,6 +8,26 @@
   ];
   const desktopNav = document.querySelector('header nav:not(.site-mobile-menu-nav)');
   const mobileNav = document.querySelector('.site-mobile-menu-nav');
+  const seoMobileNav = document.querySelector('.seo-mobile-menu nav');
+
+  function addAccountLink(nav) {
+    if (!nav || nav.querySelector('a[data-kov-account-link]')) return;
+    const link = document.createElement('a');
+    link.href = `${rootPrefix}account.html`;
+    link.className = 'kov-account-link transition-colors hover:text-ink';
+    link.dataset.kovAccountLink = '';
+    link.setAttribute('aria-label', 'Log in or view your account');
+    link.title = 'Account';
+    link.innerHTML = '<svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 20a6.5 6.5 0 0 1 13 0"></path></svg><span class="sr-only">Account</span>';
+    const cta = [...nav.querySelectorAll('a')].find((item) =>
+      /start|conversation|contact/i.test(item.textContent)
+    );
+    nav.insertBefore(link, cta || null);
+  }
+
+  addAccountLink(desktopNav);
+  addAccountLink(mobileNav);
+  addAccountLink(seoMobileNav);
 
   const modelHeading = [...document.querySelectorAll('main h2')].find(
     (heading) => heading.textContent.trim() === 'One Agency. Two Sides of Executive Search.'
