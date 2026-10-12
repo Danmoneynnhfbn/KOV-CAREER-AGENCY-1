@@ -128,11 +128,10 @@
         node.dataset.kind = kind;
       };
       const request = async (url, options = {}) => {
-        const response = await window.kovApiRequest(url, {
+        const { response, data: result } = await window.kovApiJsonRequest(url, {
           ...options,
           headers: { 'Content-Type': 'application/json', ...(options.headers || {}) },
         });
-        const result = await response.json();
         if (!response.ok) throw new Error(result.detail || result.message || 'The request could not be completed.');
         return result;
       };

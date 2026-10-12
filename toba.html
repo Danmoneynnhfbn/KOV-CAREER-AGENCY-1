@@ -135,11 +135,10 @@
         return input;
       };
       const request = async (url, options = {}) => {
-        const response = await window.kovApiRequest(url, {
+        const { response, data: body } = await window.kovApiJsonRequest(url, {
           ...options,
           headers: { 'Content-Type': 'application/json', ...(options.headers || {}) },
         });
-        const body = await response.json();
         if (!response.ok) throw new Error(body.detail || 'Administrator data could not be loaded.');
         return body;
       };

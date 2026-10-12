@@ -37,9 +37,8 @@
       const status = document.getElementById('directory-status');
       const list = document.getElementById('directory-list');
       const login = document.getElementById('directory-account');
-      window.kovApiRequest('/api/v1/profiles?limit=20&offset=0')
-        .then(async (response) => {
-          const body = await response.json();
+      window.kovApiJsonRequest('/api/v1/profiles?limit=20&offset=0')
+        .then(({ response, data: body }) => {
           if (response.status === 401) {
             login.hidden = false;
             throw new Error('Sign in as an employer to request directory access.');
