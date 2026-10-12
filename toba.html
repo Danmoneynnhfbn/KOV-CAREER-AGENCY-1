@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Operations Console | KOV Career Agency</title>
+  <link rel="stylesheet" href="assets/styles-DateywTe.css">
+  <link rel="stylesheet" href="assets/site-fixes.css?v=15">
+  <link rel="stylesheet" href="assets/backend-pages.css">
+  <style>
+    .admin-shell { max-width: 1200px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+    .admin-section { margin-top: 2rem; border: 1px solid var(--kov-brown-line); border-radius: 10px; padding: 1rem; overflow-wrap: anywhere; }
+    .admin-message { min-height: 1.5rem; }
+    .analytics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 1rem; margin-top: 1.5rem; }
+    .metric-card { min-width: 0; border: 1px solid var(--kov-brown-line); border-radius: 10px; padding: 1rem; background: var(--kov-white); }
+    .metric-card h2 { margin: 0; font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; }
+    .metric-value { margin: .5rem 0 0; font-size: 1.75rem; font-weight: 700; }
+    .metric-note { margin: .25rem 0 0; color: var(--kov-muted); font-size: .8rem; }
+    .admin-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,280px),1fr)); gap: 1rem; }
+    .admin-items { display: grid; gap: 1rem; }
+    .admin-item { border-top: 1px solid var(--kov-brown-line); padding-top: 1rem; }
+    .admin-item label, .admin-create label { display: grid; gap: .35rem; margin: .65rem 0; }
+    .admin-item input, .admin-item select, .admin-item textarea,
+    .admin-create input, .admin-create select, .admin-create textarea {
+      box-sizing: border-box; width: 100%; max-width: 40rem; padding: .55rem;
+    }
+    .admin-item label.admin-check { display: flex; align-items: center; gap: .5rem; }
+    .admin-item label.admin-check input { width: auto; }
+    .admin-item button, .admin-create button { margin-top: .5rem; padding: .55rem .8rem; cursor: pointer; }
+  </style>
+</head>
+<body class="backend-page backend-admin-page">
+  <main class="admin-shell">
+    <a href="index.html">← KOV Career Agency</a>
+    <section class="backend-hero" aria-labelledby="admin-title">
+      <div class="backend-hero-copy">
+        <p class="backend-eyebrow">PRIVATE · ADMINISTRATOR ACCESS</p>
+        <h1 id="admin-title">KOV operations</h1>
+        <p>This console requires a verified administrator account. Operational data is loaded from protected backend endpoints.</p>
+        <p id="admin-message" class="admin-message" role="status" aria-live="polite">Checking administrator access…</p>
+      </div>
+      <img src="/assets/kov-backend-journey.svg" alt="Illustration of a career journey from experience through research to opportunity" width="960" height="540">
+    </section>
+    <div id="admin-data" class="admin-grid" hidden>
+      <section class="analytics-grid" aria-label="Operations summary">
+        <article class="metric-card">
+          <h2>Active pipeline deals</h2>
+          <p class="metric-value" id="count-deals">—</p>
+          <p class="metric-note">Pending or interviewing introductions in the loaded records</p>
+        </article>
+        <article class="metric-card">
+          <h2>Verified candidate badges</h2>
+          <p class="metric-value" id="count-candidates">—</p>
+          <p class="metric-note">Approved candidates with an approved badge in the loaded records</p>
+        </article>
+        <article class="metric-card">
+          <h2>Verified corporate clients</h2>
+          <p class="metric-value" id="count-employers">—</p>
+          <p class="metric-note">Verified employers in the loaded records</p>
+        </article>
+        <article class="metric-card">
+          <h2>Placement success rate</h2>
+          <p class="metric-value" id="calculated-success">—</p>
+          <p class="metric-note" id="placement-metric">Loading verified placement data…</p>
+        </article>
+      </section>
+      <section class="admin-section">
+        <h2>Candidates</h2>
+        <div id="candidate-data" class="admin-items"></div>
+      </section>
+      <section class="admin-section">
+        <h2>Employers</h2>
+        <div id="employer-data" class="admin-items"></div>
+      </section>
+      <section class="admin-section">
+        <h2>Introduction pipeline</h2>
+        <form id="introduction-create" class="admin-create">
+          <h3>Create an introduction</h3>
+          <label>Candidate <select name="candidate_id" required></select></label>
+          <label>Employer <select name="employer_id" required></select></label>
+          <label>Internal note <textarea name="internal_notes" rows="2" maxlength="5000"></textarea></label>
+          <button type="submit">Create introduction</button>
+        </form>
+        <div id="introduction-data" class="admin-items"></div>
+      </section>
+    </div>
+    <p><a href="account.html?next=%2Ftoba">Sign in</a></p>
+  </main>
+  <script src="/assets/account-api.js"></script>
+  <script>
+    (() => {
+      const message = document.getElementById('admin-message');
+      const data = document.getElementById('admin-data');
+      const candidateContainer = document.getElementById('candidate-data');
+      const employerContainer = document.getElementById('employer-data');
+      const introductionContainer = document.getElementById('introduction-data');
+      let current = { candidates: [], employers: [], introductions: [] };
+      const element = (tag, text, className) => {
+        const node = document.createElement(tag);
+        if (text !== undefined) node.textContent = text;
+        if (className) node.className = className;
+        return node;
+      };
+      const option = (select, value, label) => {
+        const node = element('option', label);
+        node.value = value;
+        select.append(node);
+      };
+      const field = (label, control) => {
+        const wrapper = element('label');
+        wrapper.append(element('span', label), control);
+        return wrapper;
+      };
+      const makeSelect = (name, value, options) => {
+        const select = element('select');
+        select.name = name;
+        for (const choice of options) option(select, choice, choice);
+        select.value = value;
+        return select;
+      };
+      const makeInput = (name, value, type = 'text') => {
+        const input = element('input');
+        input.name = name;
+        input.type = type;
+        input.value = value == null ? '' : String(value);
+        return input;
+      };
+      const makeTextarea = (name, value) => {
+        const input = element('textarea');
+        input.name = name;
+        input.rows = 3;
+        input.maxLength = 5000;
+        input.value = value || '';
+        return input;
+      };
+      const request = async (url, options = {}) => {
+        const response = await window.kovApiRequest(url, {
+          ...options,
+          headers: { 'Content-Type': 'application/json', ...(options.headers || {}) },
+        });
+        const body = await response.json();
+        if (!response.ok) throw new Error(body.detail || 'Administrator data could not be loaded.');
+        return body;
+      };
+      const loadAll = () => Promise.all([
+        load('/api/v1/admin/analytics/placement-success-rate'),
+        load('/api/v1/admin/candidates'),
+        load('/api/v1/admin/employers'),
+        load('/api/v1/admin/introductions'),
+      ]);
+      const load = (url) => request(url);
+      const renderCandidates = (items) => {
+        candidateContainer.replaceChildren();
+        for (const candidate of items) {
+          const card = element('article', undefined, 'admin-item');
+          card.append(element('h3', `${candidate.professional_title || 'Candidate'} · ${candidate.public_id}`));
+          card.append(element('p', candidate.professional_summary || 'No public summary provided.'));
+          card.append(element('p', `Status: ${candidate.vetting_status}; directory visible: ${candidate.directory_visible ? 'yes' : 'no'}`));
+          const status = makeSelect('vetting_status', candidate.vetting_status, ['in_review', 'approved', 'rejected']);
+          const badge = makeInput('badge_approved', '', 'checkbox');
+          badge.checked = Boolean(candidate.badge_approved);
+          const visible = makeInput('directory_visible', '', 'checkbox');
+          visible.checked = Boolean(candidate.directory_visible);
+          card.append(field('Vetting status', status));
+          const badgeLabel = field('Approve verified badge', badge);
+          badgeLabel.className = 'admin-check';
+          const visibleLabel = field('Show in employer directory', visible);
+          visibleLabel.className = 'admin-check';
+          card.append(badgeLabel, visibleLabel);
+          const save = element('button', 'Save candidate review');
+          save.type = 'button';
+          save.dataset.action = 'review-candidate';
+          save.dataset.id = candidate.id;
+          card.append(save);
+          candidateContainer.append(card);
+        }
+      };
+      const renderEmployers = (items) => {
+        employerContainer.replaceChildren();
+        for (const employer of items) {
+          const card = element('article', undefined, 'admin-item');
+          card.append(element('h3', `${employer.company_name} · ${employer.public_id}`));
+          card.append(element('p', `${employer.corporate_email} · Current verification: ${employer.verification_status}`));
+          const status = makeSelect('status', employer.verification_status === 'pending' ? 'in_review' : employer.verification_status,
+            ['in_review', 'verified', 'rejected', 'suspended']);
+          const notes = makeTextarea('reviewer_notes', employer.verification_notes);
+          card.append(field('Verification decision', status), field('Reviewer notes', notes));
+          const save = element('button', 'Save verification decision');
+          save.type = 'button';
+          save.dataset.action = 'verify-employer';
+          save.dataset.id = employer.id;
+          card.append(save);
+          employerContainer.append(card);
+        }
+      };
+      const populateCreateForm = () => {
+        const form = document.getElementById('introduction-create');
+        const candidates = form.elements.candidate_id;
+        const employers = form.elements.employer_id;
+        candidates.replaceChildren();
+        employers.replaceChildren();
+        option(candidates, '', 'Select candidate');
+        option(employers, '', 'Select employer');
+        current.candidates.forEach((item) => option(candidates, item.id, `${item.professional_title || 'Candidate'} · ${item.public_id}`));
+        current.employers.forEach((item) => option(employers, item.id, `${item.company_name} · ${item.public_id}`));
+      };
+      const renderIntroductions = (items) => {
+        introductionContainer.replaceChildren();
+        for (const item of items) {
+          const card = element('article', undefined, 'admin-item');
+          card.append(element('h3', `Introduction ${item.id}`));
+          card.append(element('p', `Candidate ${item.candidate_id} · Employer ${item.employer_id} · ${item.status}`));
+          const status = makeSelect('status', item.status, ['Pending', 'Interviewing', 'Placed', 'Rejected']);
+          const date = makeInput('placement_start_date', item.placement_start_date, 'date');
+          const fee = makeInput('placement_fee_minor', item.placement_fee_minor, 'number');
+          fee.min = '0';
+          fee.step = '1';
+          const currency = makeInput('currency', item.currency || 'USD');
+          currency.maxLength = 3;
+          const notes = makeTextarea('internal_notes', item.internal_notes);
+          card.append(
+            field('Status', status),
+            field('Placement start date (required for Placed)', date),
+            field('Agreed placement fee in minor currency units', fee),
+            field('Currency', currency),
+            field('Internal notes', notes),
+          );
+          const save = element('button', 'Save introduction');
+          save.type = 'button';
+          save.dataset.action = 'update-introduction';
+          save.dataset.id = item.id;
+          card.append(save);
+          if (item.status === 'Placed') {
+            const invoice = element('button', 'Draft placement invoice');
+            invoice.type = 'button';
+            invoice.dataset.action = 'create-invoice';
+            invoice.dataset.id = item.id;
+            card.append(invoice);
+          }
+          introductionContainer.append(card);
+        }
+      };
+      const refresh = async () => {
+        const [metric, candidates, employers, introductions] = await loadAll();
+        current = { candidates: candidates.items, employers: employers.items, introductions: introductions.items };
+        document.getElementById('count-deals').textContent = String(
+          current.introductions.filter((item) => item.status === 'Pending' || item.status === 'Interviewing').length,
+        );
+        document.getElementById('count-candidates').textContent = String(
+          current.candidates.filter((item) => item.vetting_status === 'approved' && item.badge_approved).length,
+        );
+        document.getElementById('count-employers').textContent = String(
+          current.employers.filter((item) => item.verification_status === 'verified').length,
+        );
+        document.getElementById('calculated-success').textContent = metric.rate_percent === null
+          ? 'Unavailable'
+          : `${metric.rate_percent}%`;
+        document.getElementById('placement-metric').textContent = metric.rate_percent === null
+          ? 'No placed or rejected introductions yet.'
+          : `${metric.placed} placed / ${metric.eligible} eligible`;
+        renderCandidates(current.candidates);
+        renderEmployers(current.employers);
+        renderIntroductions(current.introductions);
+        populateCreateForm();
+        data.hidden = false;
+        message.textContent = 'Administrator data loaded.';
+      };
+      const runAction = async (button, action) => {
+        button.disabled = true;
+        message.textContent = 'Saving…';
+        try {
+          const result = await action();
+          await refresh();
+          message.textContent = result && result.invoice_reference
+            ? `Invoice ${result.invoice_reference} ${result.status === 'issued' ? 'issued' : 'drafted'}.`
+            : 'Changes saved.';
+          return true;
+        } catch (error) {
+          message.textContent = error.message;
+          return false;
+        } finally {
+          button.disabled = false;
+        }
+      };
+      document.getElementById('admin-data').addEventListener('click', (event) => {
+        const button = event.target.closest('button[data-action]');
+        if (!button) return;
+        const card = button.closest('.admin-item');
+        const value = (name) => card.querySelector(`[name="${name}"]`).value;
+        const checked = (name) => card.querySelector(`[name="${name}"]`).checked;
+        if (button.dataset.action === 'review-candidate') {
+          runAction(button, () => request(`/api/v1/admin/candidates/${button.dataset.id}/review`, {
+            method: 'PATCH',
+            body: JSON.stringify({
+              vetting_status: value('vetting_status'),
+              badge_approved: checked('badge_approved'),
+              directory_visible: checked('directory_visible'),
+            }),
+          }));
+        } else if (button.dataset.action === 'verify-employer') {
+          runAction(button, () => request(`/api/v1/admin/employers/${button.dataset.id}/verification`, {
+            method: 'PATCH',
+            body: JSON.stringify({ status: value('status'), reviewer_notes: value('reviewer_notes') || null }),
+          }));
+        } else if (button.dataset.action === 'update-introduction') {
+          const feeValue = value('placement_fee_minor');
+          runAction(button, () => request(`/api/v1/admin/introductions/${button.dataset.id}`, {
+            method: 'PATCH',
+            body: JSON.stringify({
+              status: value('status'),
+              placement_start_date: value('placement_start_date') || null,
+              placement_fee_minor: feeValue === '' ? null : Number(feeValue),
+              currency: value('currency').toUpperCase(),
+              internal_notes: value('internal_notes') || null,
+            }),
+          }));
+        } else if (button.dataset.action === 'create-invoice') {
+          button.disabled = true;
+          message.textContent = 'Creating invoice draft…';
+          request(`/api/v1/admin/introductions/${button.dataset.id}/invoice`, { method: 'POST' })
+            .then((invoice) => {
+              button.removeAttribute('data-action');
+              button.disabled = true;
+              button.textContent = `Invoice ${invoice.status}`;
+              if (invoice.status === 'draft') {
+                const issue = element('button', 'Issue invoice');
+                issue.type = 'button';
+                issue.dataset.action = 'issue-invoice';
+                issue.dataset.id = invoice.id;
+                card.append(issue);
+                message.textContent = `Invoice ${invoice.invoice_reference} drafted. Review and issue it to enable payment.`;
+              } else {
+                message.textContent = `Invoice ${invoice.invoice_reference} is ${invoice.status}.`;
+              }
+            })
+            .catch((error) => {
+              message.textContent = error.message;
+              button.disabled = false;
+            });
+        } else if (button.dataset.action === 'issue-invoice') {
+          runAction(button, () => request(`/api/v1/admin/invoices/${button.dataset.id}/issue`, { method: 'POST' }));
+        }
+      });
+      document.getElementById('introduction-create').addEventListener('submit', (event) => {
+        event.preventDefault();
+        const form = event.currentTarget;
+        const button = form.querySelector('button[type="submit"]');
+        runAction(button, () => request('/api/v1/admin/introductions', {
+          method: 'POST',
+          body: JSON.stringify({
+            candidate_id: form.elements.candidate_id.value,
+            employer_id: form.elements.employer_id.value,
+            internal_notes: form.elements.internal_notes.value || null,
+          }),
+        })).then((saved) => {
+          if (saved) form.reset();
+        });
+      });
+      refresh().catch((error) => {
+        message.textContent = error.message;
+      });
+    })();
+  </script>
+</body>
+</html>

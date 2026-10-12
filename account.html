@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,follow">
+  <title>Account | KOV Career Agency</title>
+  <link rel="stylesheet" href="assets/styles-DateywTe.css">
+  <link rel="stylesheet" href="assets/site-fixes.css?v=15">
+  <link rel="stylesheet" href="assets/backend-pages.css">
+  <style>
+    .account-shell { max-width: 760px; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+    .account-card { border: 1px solid var(--kov-brown-line); border-radius: 12px; background: var(--kov-white); padding: 1.5rem; }
+    .account-fields { display: grid; gap: 1rem; }
+    .account-fields label { display: grid; gap: .35rem; font-weight: 600; }
+    .account-fields input:not([type="checkbox"]), .account-fields textarea, .account-fields select {
+      width: 100%; border: 1px solid var(--kov-brown-line); border-radius: 6px; padding: .7rem;
+      color: var(--kov-brown); background: var(--kov-white); font: inherit;
+    }
+    .account-fields input:focus-visible, .account-fields textarea:focus-visible,
+    .account-fields select:focus-visible, .account-tabs button:focus-visible,
+    .account-card button:focus-visible, .account-card a:focus-visible {
+      outline: 3px solid var(--kov-orange); outline-offset: 2px;
+    }
+    .account-tabs { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0; }
+    .account-tabs button, .account-card button {
+      border: 1px solid var(--kov-brown-line); border-radius: 6px; background: var(--kov-brown-soft);
+      color: var(--kov-brown); cursor: pointer; font: inherit; padding: .65rem .9rem;
+    }
+    .account-tabs button[aria-selected="true"], .account-card button[type="submit"] {
+      background: var(--kov-orange); color: var(--kov-white);
+    }
+    .account-status { min-height: 1.5rem; margin: .75rem 0; }
+    .account-status[data-kind="error"] { color: var(--kov-orange-dark); }
+    .account-status[data-kind="success"] { color: var(--kov-green-dark); }
+    .billing-list { display: grid; gap: .75rem; padding: 0; list-style: none; }
+    .billing-item { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem; border-top: 1px solid var(--kov-brown-line); padding-top: .75rem; }
+    .billing-item button { border: 1px solid var(--kov-green-dark); border-radius: 6px; background: var(--kov-green); color: var(--kov-white); cursor: pointer; font: inherit; padding: .55rem .8rem; }
+    .billing-item button:focus-visible { outline: 3px solid var(--kov-orange); outline-offset: 2px; }
+    .billing-item button:disabled { cursor: wait; opacity: .65; }
+    [hidden] { display: none !important; }
+  </style>
+</head>
+<body class="backend-page backend-account-page">
+  <main class="account-shell">
+    <a href="index.html" aria-label="KOV Career Agency home">← KOV Career Agency</a>
+    <section class="backend-hero" aria-labelledby="account-title">
+      <div class="backend-hero-copy">
+        <p class="backend-eyebrow">KOV CAREER AGENCY</p>
+        <h1 id="account-title">Account access</h1>
+        <p>Sign in to continue to your account. The public website remains available without signing in.</p>
+      </div>
+      <img src="/assets/kov-backend-journey.svg" alt="Illustration of a career journey from experience through research to opportunity" width="960" height="540">
+    </section>
+    <p id="service-status" class="account-status" role="status" aria-live="polite"></p>
+    <section id="signed-in" class="account-card" hidden aria-labelledby="account-heading">
+      <h2 id="account-heading">Your account</h2>
+      <p id="account-summary"></p>
+      <p><a id="account-destination" href="account.html">Continue</a></p>
+      <section id="billing-panel" aria-labelledby="billing-heading" hidden>
+        <h3 id="billing-heading">Billing</h3>
+        <p id="billing-status" class="account-status" role="status" aria-live="polite"></p>
+        <button id="subscription-checkout" type="button" hidden>Continue to subscription checkout</button>
+        <ul id="invoice-list" class="billing-list"></ul>
+      </section>
+      <button id="logout-button" type="button">Sign out</button>
+    </section>
+    <section id="password-update" class="account-card" hidden aria-labelledby="password-heading">
+      <h2 id="password-heading">Choose a new password</h2>
+      <p id="password-status" class="account-status" role="status" aria-live="polite"></p>
+      <form id="password-form" class="account-fields">
+        <label>New password (12 characters minimum)
+          <input name="password" type="password" autocomplete="new-password" required minlength="12" maxlength="128">
+        </label>
+        <button type="submit">Update password</button>
+      </form>
+    </section>
+    <section id="account-access" class="account-card" aria-label="Sign in or register">
+      <div class="account-tabs" role="tablist" aria-label="Account actions">
+        <button type="button" role="tab" id="login-tab" aria-selected="true" aria-controls="login-panel">Sign in</button>
+        <button type="button" role="tab" id="candidate-tab" aria-selected="false" aria-controls="candidate-panel">Candidate registration</button>
+        <button type="button" role="tab" id="employer-tab" aria-selected="false" aria-controls="employer-panel">Company registration</button>
+      </div>
+      <p id="form-status" class="account-status" role="status" aria-live="polite"></p>
+      <form id="login-panel" class="account-fields" role="tabpanel" aria-labelledby="login-tab">
+        <label>Email <input name="email" type="email" autocomplete="email" required maxlength="254"></label>
+        <label>Password <input name="password" type="password" autocomplete="current-password" required maxlength="128"></label>
+        <button type="submit">Sign in</button>
+        <button id="reset-button" type="button">Send password reset email</button>
+      </form>
+      <form id="candidate-panel" class="account-fields" role="tabpanel" aria-labelledby="candidate-tab" hidden>
+        <label>Full name <input name="legal_name" autocomplete="name" required maxlength="160"></label>
+        <label>Email <input name="email" type="email" autocomplete="email" required maxlength="254"></label>
+        <label>Password (12 characters minimum) <input name="password" type="password" autocomplete="new-password" required minlength="12" maxlength="128"></label>
+        <label>Professional title <input name="professional_title" required maxlength="160"></label>
+        <label>Professional summary <textarea name="professional_summary" rows="4" maxlength="3000"></textarea></label>
+        <label>Skills (comma-separated) <input name="skills" maxlength="1000"></label>
+        <label>Target roles (comma-separated) <input name="target_roles" maxlength="1000"></label>
+        <label>Target industries (comma-separated) <input name="target_industries" maxlength="1000"></label>
+        <label>Target geography (comma-separated) <input name="target_geography" maxlength="1000"></label>
+        <label>Career objectives <textarea name="career_objectives" rows="3" maxlength="3000"></textarea></label>
+        <label><span><input name="privacy_consent" type="checkbox" required> I acknowledge that my information will be used to review and respond to this registration.</span></label>
+        <button type="submit">Create free candidate account</button>
+      </form>
+      <form id="employer-panel" class="account-fields" role="tabpanel" aria-labelledby="employer-tab" hidden>
+        <label>Company name <input name="company_name" autocomplete="organization" required maxlength="200"></label>
+        <label>Corporate email <input name="email" type="email" autocomplete="email" required maxlength="254"></label>
+        <label>Password (12 characters minimum) <input name="password" type="password" autocomplete="new-password" required minlength="12" maxlength="128"></label>
+        <label>Company website <input name="website" type="url" autocomplete="url" maxlength="300"></label>
+        <label>Company description <textarea name="description" rows="4" maxlength="3000"></textarea></label>
+        <label>Hiring roles (comma-separated) <input name="target_roles" maxlength="1000"></label>
+        <label>Industries (comma-separated) <input name="target_industries" maxlength="1000"></label>
+        <label>Hiring geography (comma-separated) <input name="target_geography" maxlength="1000"></label>
+        <label><span><input name="privacy_consent" type="checkbox" required> I acknowledge that my information will be used to review and respond to this registration.</span></label>
+        <button type="submit">Submit company registration</button>
+      </form>
+    </section>
+  </main>
+  <script src="/assets/account-api.js"></script>
+  <script>
+    (() => {
+      const byId = (id) => document.getElementById(id);
+      const statusNode = byId('form-status');
+      const next = new URLSearchParams(location.search).get('next') || 'account.html';
+      const safeNext = next.startsWith('/') && !next.startsWith('//') ? next : 'account.html';
+      const setStatus = (node, message, kind = '') => {
+        node.textContent = message;
+        node.dataset.kind = kind;
+      };
+      const request = async (url, options = {}) => {
+        const response = await window.kovApiRequest(url, {
+          ...options,
+          headers: { 'Content-Type': 'application/json', ...(options.headers || {}) },
+        });
+        const result = await response.json();
+        if (!response.ok) throw new Error(result.detail || result.message || 'The request could not be completed.');
+        return result;
+      };
+      const billingStatus = byId('billing-status');
+      const invoiceList = byId('invoice-list');
+      const loadBilling = async (role) => {
+        const panel = byId('billing-panel');
+        if (role !== 'candidate' && role !== 'employer') return;
+        panel.hidden = false;
+        const checkoutButton = byId('subscription-checkout');
+        checkoutButton.hidden = false;
+        checkoutButton.textContent = role === 'candidate'
+          ? 'Start candidate premium subscription'
+          : 'Start employer directory subscription';
+        const plan = role === 'candidate'
+          ? 'candidate-premium-monthly'
+          : 'employer-monthly';
+        checkoutButton.addEventListener('click', async () => {
+          checkoutButton.disabled = true;
+          setStatus(billingStatus, 'Connecting to secure checkout…');
+          try {
+            const checkout = await request('/api/v1/billing/subscription/checkout', {
+              method: 'POST',
+              body: JSON.stringify({ plan_key: plan }),
+            });
+            location.assign(checkout.checkout_url);
+          } catch (error) {
+            setStatus(billingStatus, error.message, 'error');
+          } finally {
+            checkoutButton.disabled = false;
+          }
+        });
+
+        try {
+          const subscriptions = await request('/api/v1/billing/subscriptions');
+          const current = subscriptions.items.find((item) => item.plan_key === plan);
+          if (current && (current.status === 'active' || current.status === 'past_due')) {
+            checkoutButton.hidden = true;
+            setStatus(
+              billingStatus,
+              current.status === 'active'
+                ? `Your ${plan.replaceAll('-', ' ')} subscription is active${current.current_period_end ? ` through ${new Date(current.current_period_end).toLocaleDateString()}` : ''}.`
+                : 'Your subscription needs payment attention. Contact KOV Career Agency for assistance.',
+            );
+          } else if (current && current.status === 'pending') {
+            checkoutButton.textContent = 'Continue pending subscription checkout';
+          }
+        } catch (error) {
+          setStatus(billingStatus, error.message, 'error');
+          checkoutButton.disabled = true;
+        }
+
+        const params = new URLSearchParams(location.search);
+        if (!billingStatus.textContent && (params.get('billing') === 'success' || params.get('invoice') === 'paid')) {
+          setStatus(billingStatus, 'Checkout returned. Payment access updates after the provider confirms the payment.');
+        } else if (!billingStatus.textContent && (params.get('billing') === 'cancelled' || params.get('invoice') === 'payment-cancelled')) {
+          setStatus(billingStatus, 'Checkout was cancelled. You can return to billing when ready.');
+        }
+        if (role !== 'employer') return;
+        try {
+          const result = await request('/api/v1/employer/invoices');
+          invoiceList.replaceChildren();
+          if (!result.items.length) {
+            if (!billingStatus.textContent) {
+              setStatus(billingStatus, 'No issued placement invoices are available for this company.');
+            }
+            return;
+          }
+          for (const invoice of result.items) {
+            const item = document.createElement('li');
+            item.className = 'billing-item';
+            const description = document.createElement('span');
+            description.textContent = `${invoice.invoice_reference} · ${invoice.amount_minor} ${invoice.currency} · ${invoice.status}`;
+            item.append(description);
+            if (invoice.status === 'issued' || invoice.status === 'past_due') {
+              const payButton = document.createElement('button');
+              payButton.type = 'button';
+              payButton.textContent = 'Pay invoice';
+              payButton.addEventListener('click', async () => {
+                payButton.disabled = true;
+                setStatus(billingStatus, `Opening checkout for ${invoice.invoice_reference}…`);
+                try {
+                  const checkout = await request(
+                    `/api/v1/employer/invoices/${encodeURIComponent(invoice.id)}/checkout`,
+                    { method: 'POST' },
+                  );
+                  location.assign(checkout.checkout_url);
+                } catch (error) {
+                  setStatus(billingStatus, error.message, 'error');
+                  payButton.disabled = false;
+                }
+              });
+              item.append(payButton);
+            }
+            invoiceList.append(item);
+          }
+        } catch (error) {
+          setStatus(billingStatus, error.message, 'error');
+        }
+      };
+      const values = (form) => Object.fromEntries(new FormData(form).entries());
+      const list = (value) => value.split(',').map((item) => item.trim()).filter(Boolean);
+      const submitJson = async (form, url, transform = (data) => data) => {
+        form.addEventListener('submit', async (event) => {
+          event.preventDefault();
+          setStatus(statusNode, 'Submitting…');
+          const submit = form.querySelector('button[type="submit"]');
+          submit.disabled = true;
+          try {
+            const data = transform(values(form));
+            const result = await request(url, { method: 'POST', body: JSON.stringify(data) });
+            setStatus(statusNode, result.message || 'Request completed.', 'success');
+            if (result.status === 'authenticated') location.assign(safeNext);
+          } catch (error) {
+            setStatus(statusNode, error.message, 'error');
+          } finally {
+            submit.disabled = false;
+          }
+        });
+      };
+
+      const tabForms = [
+        ['login-tab', 'login-panel'],
+        ['candidate-tab', 'candidate-panel'],
+        ['employer-tab', 'employer-panel'],
+      ];
+      tabForms.forEach(([tabId, panelId]) => {
+        byId(tabId).addEventListener('click', () => {
+          tabForms.forEach(([otherTab, otherPanel]) => {
+            const selected = otherTab === tabId;
+            byId(otherTab).setAttribute('aria-selected', String(selected));
+            byId(otherPanel).hidden = !selected;
+          });
+          setStatus(statusNode, '');
+        });
+      });
+
+      submitJson(byId('login-panel'), '/api/v1/auth/login');
+      submitJson(byId('candidate-panel'), '/api/v1/auth/register/candidate', (data) => ({
+        ...data,
+        skills: list(data.skills || ''),
+        target_roles: list(data.target_roles || ''),
+        target_industries: list(data.target_industries || ''),
+        target_geography: list(data.target_geography || ''),
+        privacy_consent: Boolean(data.privacy_consent),
+      }));
+      submitJson(byId('employer-panel'), '/api/v1/auth/register/employer', (data) => ({
+        ...data,
+        website: data.website.trim() || null,
+        target_roles: list(data.target_roles || ''),
+        target_industries: list(data.target_industries || ''),
+        target_geography: list(data.target_geography || ''),
+        privacy_consent: Boolean(data.privacy_consent),
+      }));
+
+      byId('reset-button').addEventListener('click', async () => {
+        const email = byId('login-panel').elements.email.value.trim();
+        if (!email) {
+          setStatus(statusNode, 'Enter your email address first.', 'error');
+          return;
+        }
+        try {
+          const result = await request('/api/v1/auth/password-reset', {
+            method: 'POST',
+            body: JSON.stringify({ email }),
+          });
+          setStatus(statusNode, result.message, 'success');
+        } catch (error) {
+          setStatus(statusNode, error.message, 'error');
+        }
+      });
+
+      byId('logout-button').addEventListener('click', async () => {
+        try {
+          await request('/api/v1/auth/logout', { method: 'POST', body: '{}' });
+          location.assign('index.html');
+        } catch (error) {
+          setStatus(byId('service-status'), error.message, 'error');
+        }
+      });
+
+      const handleProviderRedirect = async () => {
+        const params = new URLSearchParams(location.hash.slice(1));
+        const providerError = params.get('error_description');
+        if (providerError) {
+          history.replaceState(null, '', `${location.pathname}${location.search}`);
+          throw new Error(providerError);
+        }
+        const accessToken = params.get('access_token');
+        const refreshToken = params.get('refresh_token');
+        if (accessToken && refreshToken) {
+          const type = params.get('type');
+          history.replaceState(null, '', `${location.pathname}${location.search}`);
+          await request('/api/v1/auth/session', {
+            method: 'POST',
+            body: JSON.stringify({ access_token: accessToken, refresh_token: refreshToken }),
+          });
+          return type === 'recovery';
+        }
+        return false;
+      };
+
+      byId('password-form').addEventListener('submit', async (event) => {
+        event.preventDefault();
+        const form = event.currentTarget;
+        const button = form.querySelector('button[type="submit"]');
+        button.disabled = true;
+        setStatus(byId('password-status'), 'Updating password…');
+        try {
+          const result = await request('/api/v1/auth/password', {
+            method: 'POST',
+            body: JSON.stringify({ password: form.elements.password.value }),
+          });
+          form.reset();
+          setStatus(byId('password-status'), result.message, 'success');
+        } catch (error) {
+          setStatus(byId('password-status'), error.message, 'error');
+        } finally {
+          button.disabled = false;
+        }
+      });
+
+      handleProviderRedirect()
+        .then((isRecovery) => {
+          if (isRecovery) {
+            byId('account-access').hidden = true;
+            byId('password-update').hidden = false;
+            return null;
+          }
+          return request('/api/v1/auth/me');
+        })
+        .then((account) => {
+          if (!account) return;
+          byId('account-access').hidden = true;
+          byId('signed-in').hidden = false;
+          byId('account-summary').textContent = `${account.role} account`;
+          byId('account-destination').href = safeNext;
+          byId('account-destination').textContent = safeNext === 'account.html' ? 'Stay on account page' : 'Continue to requested page';
+          loadBilling(account.role);
+        })
+        .catch((error) => {
+          setStatus(byId('service-status'), error.message, 'error');
+          request('/api/v1/backend/health')
+            .then((health) => {
+              if (!health.auth_configured || !health.database_configured) {
+                setStatus(byId('service-status'), 'Account registration and sign-in are not yet configured for this deployment.', 'error');
+              }
+            })
+            .catch(() => setStatus(byId('service-status'), 'Account services are currently unavailable.', 'error'));
+        });
+    })();
+  </script>
+</body>
+</html>

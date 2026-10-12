@@ -122,7 +122,46 @@ def main() -> int:
                 )
                 continue
             graph = schema.get("@graph", []) if isinstance(schema, dict) else []
+            if not isinstance(schema, dict) or "@graph" not in schema:
+                continue
             nodes = graph if isinstance(graph, list) else []
+            organization = next(
+                (
+                    node for node in nodes
+                    if node.get("@id") == f"{BASE_URL}/#organization"
+                ),
+                None,
+            )
+            if organization is None:
+                errors.append(f"{relative_path}: organization entity is missing.")
+            else:
+                organization_types = organization.get("@type", [])
+                if isinstance(organization_types, str):
+                    organization_types = [organization_types]
+                if not {"Organization", "ProfessionalService"}.issubset(
+                    set(organization_types)
+                ):
+                    errors.append(
+                        f"{relative_path}: organization must declare Organization "
+                        "and ProfessionalService types."
+                    )
+                if organization.get("name") != "KOV Career Agency":
+                    errors.append(
+                        f"{relative_path}: organization name is not KOV Career Agency."
+                    )
+                if organization.get("founder", {}).get("@id") != f"{BASE_URL}/#founder":
+                    errors.append(f"{relative_path}: organization founder link is missing.")
+            founder = next(
+                (
+                    node for node in nodes
+                    if node.get("@id") == f"{BASE_URL}/#founder"
+                ),
+                None,
+            )
+            if founder is None or founder.get("name") != "Adekunle Ayotoba Daniel":
+                errors.append(
+                    f"{relative_path}: founder is missing or has an incorrect full name."
+                )
             for node in nodes:
                 node_types = node.get("@type", [])
                 if isinstance(node_types, str):

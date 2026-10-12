@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Candidate Directory | KOV Career Agency</title>
+  <link rel="stylesheet" href="assets/styles-DateywTe.css">
+  <link rel="stylesheet" href="assets/site-fixes.css?v=15">
+  <link rel="stylesheet" href="assets/backend-pages.css">
+  <style>
+    .directory-shell { max-width: 1120px; margin: 0 auto; padding: 3rem 1.25rem; }
+    .directory-list { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,300px),1fr)); gap: 1rem; }
+    .directory-card { display: flex; align-items: flex-start; gap: 1rem; border: 1px solid var(--kov-brown-line); border-radius: 10px; background: var(--kov-white); padding: 1.2rem; }
+    .directory-avatar { display: grid; width: 2.75rem; height: 2.75rem; flex: 0 0 2.75rem; place-items: center; border-radius: 50%; background: var(--kov-green); color: var(--kov-white); font-weight: 700; }
+    .directory-status { min-height: 1.5rem; }
+  </style>
+</head>
+<body class="backend-page backend-directory-page">
+  <main class="directory-shell">
+    <a href="index.html">← KOV Career Agency</a>
+    <section class="backend-hero" aria-labelledby="directory-title">
+      <div class="backend-hero-copy">
+        <p class="backend-eyebrow">CONFIDENTIAL TALENT NETWORK</p>
+        <h1 id="directory-title">Candidate directory</h1>
+        <p>Access is limited to verified employer accounts with an active subscription.</p>
+      </div>
+      <img src="/assets/kov-backend-journey.svg" alt="Illustration of a career journey from experience through research to opportunity" width="960" height="540">
+    </section>
+    <p id="directory-status" class="directory-status" role="status" aria-live="polite">Checking access…</p>
+    <p id="directory-account" hidden><a href="account.html?next=%2Fprofiles">Sign in or register</a></p>
+    <div id="directory-list" class="directory-list"></div>
+  </main>
+  <script src="/assets/account-api.js"></script>
+  <script>
+    (() => {
+      const status = document.getElementById('directory-status');
+      const list = document.getElementById('directory-list');
+      const login = document.getElementById('directory-account');
+      window.kovApiRequest('/api/v1/profiles?limit=20&offset=0')
+        .then(async (response) => {
+          const body = await response.json();
+          if (response.status === 401) {
+            login.hidden = false;
+            throw new Error('Sign in as an employer to request directory access.');
+          }
+          if (!response.ok) throw new Error(body.detail || 'Directory access is not available.');
+          status.textContent = body.items.length ? 'Approved public profiles' : 'No public profiles are currently available.';
+          for (const profile of body.items) {
+            const card = document.createElement('article');
+            card.className = 'directory-card';
+            const avatar = document.createElement('span');
+            avatar.className = 'directory-avatar';
+            avatar.setAttribute('aria-label', 'Initials from professional title');
+            avatar.textContent = (profile.professional_title || 'KOV')
+              .split(/\s+/).filter(Boolean).slice(0, 2).map((part) => part[0].toUpperCase()).join('');
+            const copy = document.createElement('div');
+            const title = document.createElement('h2');
+            title.textContent = profile.professional_title || 'Senior professional';
+            const id = document.createElement('p');
+            id.textContent = profile.public_id;
+            const summary = document.createElement('p');
+            summary.textContent = profile.professional_summary || '';
+            const skills = document.createElement('p');
+            skills.textContent = (profile.skills || []).join(', ');
+            copy.append(title, id, summary, skills);
+            card.append(avatar, copy);
+            list.append(card);
+          }
+        })
+        .catch((error) => { status.textContent = error.message; });
+    })();
+  </script>
+</body>
+</html>

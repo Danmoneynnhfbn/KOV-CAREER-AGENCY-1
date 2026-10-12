@@ -134,7 +134,7 @@ def page_schema(
 
     graph: list[dict] = [
         {
-            "@type": ["ProfessionalService", "EmploymentAgency"],
+            "@type": ["Organization", "ProfessionalService", "EmploymentAgency"],
             "@id": f"{BASE_URL}/#organization",
             "name": "KOV Career Agency",
             "alternateName": ["KOV Career", "KovCareer"],
@@ -152,7 +152,8 @@ def page_schema(
         {
             "@type": "Person",
             "@id": f"{BASE_URL}/#founder",
-            "name": "Daniel Ade",
+            "name": "Adekunle Ayotoba Daniel",
+            "alternateName": "Daniel Ade",
             "jobTitle": "Founder and Principal Agent",
             "worksFor": {"@id": f"{BASE_URL}/#organization"},
         },

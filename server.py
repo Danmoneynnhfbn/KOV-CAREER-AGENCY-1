@@ -1,23 +1,25 @@
-import os
 from pathlib import Path
 from fastapi import FastAPI
 from fastapi import HTTPException
 from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
 
+from backend_api import mount_backend_routes
+
 # Vercel reads this single 'app' instance as the gateway to your project
 app = FastAPI()
 ROOT = Path(__file__).resolve().parent
 
 # Mount your assets directory so images and CSS files load perfectly
-if os.path.exists("assets"):
-    app.mount("/assets", StaticFiles(directory="assets"), name="assets")
+ASSETS_DIR = ROOT / "assets"
+if ASSETS_DIR.is_dir():
+    app.mount("/assets", StaticFiles(directory=ASSETS_DIR), name="assets")
 
 # This route serves your beautiful main index.html file to web visitors
 @app.get("/", response_class=HTMLResponse)
 def read_root():
     try:
-        with open("index.html", "r", encoding="utf-8") as file:
+        with (ROOT / "index.html").open("r", encoding="utf-8") as file:
             return file.read()
     except FileNotFoundError:
         return "<h1>KOV Career Agency Backend Online</h1><p>Main frontend HTML file not found.</p>"
@@ -30,6 +32,25 @@ def get_status():
         "agency": "KOV Career Platform Ready",
         "region": "Global Executive Search"
     }
+
+
+mount_backend_routes(app)
+
+
+@app.get("/profiles", response_class=HTMLResponse)
+def candidate_directory_page():
+    page = ROOT / "profiles.html"
+    if not page.is_file():
+        raise HTTPException(status_code=404, detail="Not Found")
+    return FileResponse(page)
+
+
+@app.get("/toba", response_class=HTMLResponse)
+def administrator_console_page():
+    page = ROOT / "toba.html"
+    if not page.is_file():
+        raise HTTPException(status_code=404, detail="Not Found")
+    return FileResponse(page)
 
 
 @app.get("/{requested_path:path}")
