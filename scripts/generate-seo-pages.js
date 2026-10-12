@@ -222,7 +222,7 @@ function renderFooterCategories(page) {
     const links = entries.map((entry) =>
       `<li><a href="${escapeHtml(hrefForPage(page, entry.slug))}">${escapeHtml(entry.title.replace(/\s*\|\s*KOV(?: Career Agency)?\s*$/i, ''))}</a></li>`
     ).join('');
-    return `<section class="kov-footer-category"><h3>${escapeHtml(groupLabels.get(category))}</h3><ul>${links}</ul></section>`;
+    return `<details class="kov-footer-category"><summary>${escapeHtml(groupLabels.get(category))}</summary><ul>${links}</ul></details>`;
   }).join('');
   return `<nav class="kov-footer-categories" data-kov-footer-categories aria-label="Browse all 60 pages"><h2>Explore all 60 pages</h2><div class="kov-footer-category-grid">${groups}</div></nav>`;
 }
@@ -240,6 +240,24 @@ function renderPage(page) {
     ? page.image
     : rootAsset(page.image);
   const relatedHref = hrefForPage(page, page.related[0].slug);
+  const breadcrumb = {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://kovcareeragency.org/',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: page.title,
+        item: pageUrl,
+      },
+    ],
+  };
+  const isServicePage = ['services', 'markets', 'roles', 'industries'].includes(page.category);
   const jsonLd = JSON.stringify({
     '@context': 'https://schema.org',
     '@graph': [
@@ -248,6 +266,11 @@ function renderPage(page) {
         '@id': 'https://kovcareeragency.org/#organization',
         name: 'KOV Career Agency',
         url: 'https://kovcareeragency.org/',
+        logo: {
+          '@type': 'ImageObject',
+          url: 'https://kovcareeragency.org/kov-logo.png',
+        },
+        email: 'daniel@kovcareeragency.org',
       },
       {
         '@type': 'WebSite',
@@ -257,13 +280,25 @@ function renderPage(page) {
         publisher: { '@id': 'https://kovcareeragency.org/#organization' },
       },
       {
-        '@type': 'WebPage',
+        '@type': ['WebPage', ...(page.slug === 'book-confidential-consultation' ? ['ContactPage'] : [])],
+        '@id': `${pageUrl}#webpage`,
         name: page.title,
         description: page.description,
         url: pageUrl,
+        inLanguage: 'en',
         isPartOf: { '@id': 'https://kovcareeragency.org/#website' },
         about: { '@id': 'https://kovcareeragency.org/#organization' },
+        breadcrumb: { '@id': `${pageUrl}#breadcrumb` },
       },
+      { ...breadcrumb, '@id': `${pageUrl}#breadcrumb` },
+      ...(isServicePage ? [{
+        '@type': 'Service',
+        '@id': `${pageUrl}#service`,
+        name: page.title,
+        description: page.description,
+        provider: { '@id': 'https://kovcareeragency.org/#organization' },
+        mainEntityOfPage: { '@id': `${pageUrl}#webpage` },
+      }] : []),
     ],
   }, null, 2);
 
@@ -274,31 +309,34 @@ function renderPage(page) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(page.title)}</title>
   <meta name="description" content="${escapeHtml(page.description)}">
+  <meta name="robots" content="index,follow">
   <meta name="author" content="KOV Career Agency">
   <link rel="canonical" href="${pageUrl}">
   <link rel="icon" type="image/png" href="${rootAsset('kov-logo.png')}">
   <link rel="stylesheet" href="${rootAsset('assets/styles-DateywTe.css')}">
-  <link rel="stylesheet" href="${rootAsset('assets/site-fixes.css')}">
+  <link rel="stylesheet" href="${rootAsset('assets/site-fixes.css?v=15')}">
   <link rel="stylesheet" href="${rootAsset('assets/two-sided.css')}">
   <link rel="stylesheet" href="${rootAsset('assets/two-sided-type.css')}">
-  <link rel="stylesheet" href="${rootAsset('assets/seo-pages.css')}">
+  <link rel="stylesheet" href="${rootAsset('assets/seo-pages.css?v=2')}">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,800&family=Inter:wght@300;400;500;600;700&display=swap">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="KOV Career Agency">
+  <meta property="og:locale" content="en_US">
   <meta property="og:url" content="${pageUrl}">
   <meta property="og:title" content="${escapeHtml(page.title)}">
   <meta property="og:description" content="${escapeHtml(page.description)}">
   <meta property="og:image" content="https://kovcareeragency.org/preview.png">
+  <meta property="og:image:alt" content="KOV Career Agency">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${escapeHtml(page.title)}">
   <meta name="twitter:description" content="${escapeHtml(page.description)}">
   <meta name="twitter:image" content="https://kovcareeragency.org/preview.png">
   <script src="${rootAsset('assets/google-translate.js')}" defer></script>
   <script src="${rootAsset('assets/site-search-index.js')}" defer></script>
-  <script src="${rootAsset('assets/site-search.js')}" defer></script>
-  <script src="${rootAsset('assets/reactive-visuals.js?v=6')}" defer></script>
-  <script src="${rootAsset('assets/audience-nav.js')}" defer></script>
-  <script type="application/ld+json">${jsonLd}</script>
+  <script src="${rootAsset('assets/site-search.js?v=3')}" defer></script>
+  <script src="${rootAsset('assets/reactive-visuals.js?v=7')}" defer></script>
+  <script src="${rootAsset('assets/audience-nav.js?v=3')}" defer></script>
+  <script type="application/ld+json" data-kov="discovery">${jsonLd}</script>
 </head>
 <body>
   <div class="two-sided-page seo-landing-page">
@@ -404,6 +442,7 @@ const corePages = [
   'how-it-works.html',
   'pricing.html',
   'faqs.html',
+  'blog.html',
   'about.html',
   'contact.html',
   'candidate-services.html',
@@ -445,4 +484,93 @@ const sitemap = [
   '',
 ].join('\n');
 fs.writeFileSync(sitemapPath, sitemap, 'utf8');
-console.log(`Generated ${completePages.length} static landing pages and indexed ${sitemapPages.length} URLs in sitemap.xml.`);
+
+function readPageMetadata(filename) {
+  const source = fs.readFileSync(path.join(root, filename), 'utf8');
+  const decodeHtmlEntities = (value) => value.replace(
+    /&(#x[\da-f]+|#\d+|amp|lt|gt|quot|apos|nbsp|ndash|mdash|rsquo|lsquo|rdquo|ldquo);/gi,
+    (entity, reference) => {
+      const normalized = reference.toLowerCase();
+      if (normalized.startsWith('#x') || normalized.startsWith('#')) {
+        const codePoint = Number.parseInt(
+          normalized.startsWith('#x') ? normalized.slice(2) : normalized.slice(1),
+          normalized.startsWith('#x') ? 16 : 10
+        );
+        return Number.isInteger(codePoint) && codePoint <= 0x10ffff
+          ? String.fromCodePoint(codePoint)
+          : entity;
+      }
+      return {
+        amp: '&',
+        lt: '<',
+        gt: '>',
+        quot: '"',
+        apos: "'",
+        nbsp: ' ',
+        ndash: '–',
+        mdash: '—',
+        rsquo: '’',
+        lsquo: '‘',
+        rdquo: '”',
+        ldquo: '“',
+      }[normalized] || entity;
+    }
+  );
+  const title = decodeHtmlEntities(
+    source.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] || ''
+  ).replace(/\s+/g, ' ').trim();
+  const descriptionTag = source.match(/<meta\b[^>]*>/gi)?.find((tag) =>
+    /\bname=["']description["']/i.test(tag)
+  );
+  const description = decodeHtmlEntities(
+    descriptionTag?.match(/\bcontent=["']([\s\S]*?)["']/i)?.[1] || ''
+  );
+  if (!title || !description) {
+    throw new Error(`Missing title or meta description on ${filename}.`);
+  }
+  return { title, description };
+}
+
+const llmsSections = [
+  '# KOV Career Agency',
+  '',
+  '> Founder-led career agency with separate candidate-side career representation and company-side executive talent sourcing engagements.',
+  '',
+  'KOV agrees scope, markets, deliverables, fees, approvals, and reporting before work begins. Hiring decisions remain with employers; search activity does not guarantee interviews, offers, placement, or timelines. Coverage and suitability are confirmed for each engagement.',
+  '',
+  '## Core pages',
+  (() => {
+    const metadata = readPageMetadata('index.html');
+    return `- [${metadata.title}](https://kovcareeragency.org/): ${metadata.description}`;
+  })(),
+  ...corePages.map((filename) => {
+    const metadata = readPageMetadata(filename);
+    return `- [${metadata.title}](https://kovcareeragency.org/${filename}): ${metadata.description}`;
+  }),
+];
+for (const [category, label] of groupLabels) {
+  const categoryPages = completePages.filter((page) => page.category === category);
+  llmsSections.push('', `## ${label}`);
+  for (const page of categoryPages) {
+    const relativePath = pagePaths.get(page.slug);
+    llmsSections.push(
+      `- [${page.title}](https://kovcareeragency.org/${relativePath}): ${page.description}`
+    );
+  }
+}
+llmsSections.push(
+  '',
+  '## Entity',
+  '',
+  '- Organization: KOV Career Agency',
+  '- Founder: Daniel Ade, Founder and Principal Agent',
+  '- Website: https://kovcareeragency.org/',
+  '- Contact: daniel@kovcareeragency.org',
+  '',
+  '## Use and attribution',
+  '',
+  'Use the linked pages as the source of current service descriptions and process details. Do not infer guaranteed outcomes, local offices, client results, fees, or market coverage that a page does not state. Confirm engagement details directly with KOV.',
+  ''
+);
+fs.writeFileSync(path.join(root, 'llms.txt'), llmsSections.join('\n'), 'utf8');
+console.log(`Generated ${completePages.length} static landing pages and indexed ${sitemapPages.length} URLs in sitemap.xml and llms.txt.`);
