@@ -262,15 +262,26 @@ function renderPage(page) {
     '@context': 'https://schema.org',
     '@graph': [
       {
-        '@type': ['ProfessionalService', 'EmploymentAgency'],
+        '@type': ['Organization', 'ProfessionalService', 'EmploymentAgency'],
         '@id': 'https://kovcareeragency.org/#organization',
         name: 'KOV Career Agency',
+        alternateName: ['KOV Career', 'KovCareer'],
         url: 'https://kovcareeragency.org/',
         logo: {
           '@type': 'ImageObject',
           url: 'https://kovcareeragency.org/kov-logo.png',
         },
+        image: 'https://kovcareeragency.org/preview.png',
         email: 'daniel@kovcareeragency.org',
+        founder: { '@id': 'https://kovcareeragency.org/#founder' },
+      },
+      {
+        '@type': 'Person',
+        '@id': 'https://kovcareeragency.org/#founder',
+        name: 'Adekunle Ayotoba Daniel',
+        alternateName: 'Daniel Ade',
+        jobTitle: 'Founder and Principal Agent',
+        worksFor: { '@id': 'https://kovcareeragency.org/#organization' },
       },
       {
         '@type': 'WebSite',
@@ -563,7 +574,7 @@ llmsSections.push(
   '## Entity',
   '',
   '- Organization: KOV Career Agency',
-  '- Founder: Daniel Ade, Founder and Principal Agent',
+  '- Founder: Adekunle Ayotoba Daniel (Daniel Ade), Founder and Principal Agent',
   '- Website: https://kovcareeragency.org/',
   '- Contact: daniel@kovcareeragency.org',
   '',
