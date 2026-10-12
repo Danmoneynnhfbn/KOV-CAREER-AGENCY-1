@@ -8,11 +8,11 @@
   ],
   "routes": [
     {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
+      "src": "/api/(.*)",
+      "dest": "server.py"
     },
     {
-      "src": "/api/(.*)",
+      "src": "/toba",
       "dest": "server.py"
     },
     {
