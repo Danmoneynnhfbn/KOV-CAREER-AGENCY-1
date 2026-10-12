@@ -6,21 +6,19 @@
       "use": "@vercel/python"
     }
   ],
+  "functions": {
+    "server.py": {
+      "includeFiles": "**/*.{html,xml,txt,png,jpg,jpeg,webp,gif,svg,ico}"
+    }
+  },
   "routes": [
     {
       "src": "/api/(.*)",
       "dest": "server.py"
     },
     {
-      "src": "/toba/?$",
-      "dest": "/toba.html"
-    },
-    {
-      "src": "/profiles/?$",
-      "dest": "/profiles.html"
-    },
-    {
-      "handle": "filesystem"
+      "src": "/toba",
+      "dest": "server.py"
     },
     {
       "src": "/(.*)",
