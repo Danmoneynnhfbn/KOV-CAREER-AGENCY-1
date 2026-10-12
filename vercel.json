@@ -12,8 +12,15 @@
       "dest": "server.py"
     },
     {
-      "src": "/toba",
-      "dest": "server.py"
+      "src": "/toba/?$",
+      "dest": "/toba.html"
+    },
+    {
+      "src": "/profiles/?$",
+      "dest": "/profiles.html"
+    },
+    {
+      "handle": "filesystem"
     },
     {
       "src": "/(.*)",
