@@ -1934,13 +1934,14 @@ def mount_backend_routes(app) -> None:
         deleted = 0
         failed = 0
         for file_record in expired:
+            attempts = file_record.get("cleanup_attempts") or 0
             try:
                 service.storage.from_(bucket).remove([file_record["storage_path"]])
                 service.table("cv_files").update(
                     {
                         "deleted_at": now,
                         "last_cleanup_error": None,
-                        "cleanup_attempts": file_record["cleanup_attempts"],
+                        "cleanup_attempts": attempts,
                     }
                 ).eq("id", file_record["id"]).execute()
                 deleted += 1
@@ -1948,7 +1949,7 @@ def mount_backend_routes(app) -> None:
                 try:
                     service.table("cv_files").update(
                         {
-                            "cleanup_attempts": file_record["cleanup_attempts"] + 1,
+                            "cleanup_attempts": attempts + 1,
                             "last_cleanup_error": "storage_or_metadata_cleanup_failed",
                         }
                     ).eq("id", file_record["id"]).execute()

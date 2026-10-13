@@ -6,40 +6,9 @@
   <meta name="robots" content="noindex,follow">
   <title>Account | KOV Career Agency</title>
   <link rel="stylesheet" href="assets/styles-DateywTe.css">
-  <link rel="stylesheet" href="assets/site-fixes.css?v=15">
+  <link rel="stylesheet" href="assets/site-fixes.css?v=16">
   <link rel="stylesheet" href="assets/backend-pages.css">
-  <style>
-    .account-shell { max-width: 760px; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
-    .account-card { border: 1px solid var(--kov-brown-line); border-radius: 12px; background: var(--kov-white); padding: 1.5rem; }
-    .account-fields { display: grid; gap: 1rem; }
-    .account-fields label { display: grid; gap: .35rem; font-weight: 600; }
-    .account-fields input:not([type="checkbox"]), .account-fields textarea, .account-fields select {
-      width: 100%; border: 1px solid var(--kov-brown-line); border-radius: 6px; padding: .7rem;
-      color: var(--kov-brown); background: var(--kov-white); font: inherit;
-    }
-    .account-fields input:focus-visible, .account-fields textarea:focus-visible,
-    .account-fields select:focus-visible, .account-tabs button:focus-visible,
-    .account-card button:focus-visible, .account-card a:focus-visible {
-      outline: 3px solid var(--kov-orange); outline-offset: 2px;
-    }
-    .account-tabs { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0; }
-    .account-tabs button, .account-card button {
-      border: 1px solid var(--kov-brown-line); border-radius: 6px; background: var(--kov-brown-soft);
-      color: var(--kov-brown); cursor: pointer; font: inherit; padding: .65rem .9rem;
-    }
-    .account-tabs button[aria-selected="true"], .account-card button[type="submit"] {
-      background: var(--kov-orange); color: var(--kov-white);
-    }
-    .account-status { min-height: 1.5rem; margin: .75rem 0; }
-    .account-status[data-kind="error"] { color: var(--kov-orange-dark); }
-    .account-status[data-kind="success"] { color: var(--kov-green-dark); }
-    .billing-list { display: grid; gap: .75rem; padding: 0; list-style: none; }
-    .billing-item { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem; border-top: 1px solid var(--kov-brown-line); padding-top: .75rem; }
-    .billing-item button { border: 1px solid var(--kov-green-dark); border-radius: 6px; background: var(--kov-green); color: var(--kov-white); cursor: pointer; font: inherit; padding: .55rem .8rem; }
-    .billing-item button:focus-visible { outline: 3px solid var(--kov-orange); outline-offset: 2px; }
-    .billing-item button:disabled { cursor: wait; opacity: .65; }
-    [hidden] { display: none !important; }
-  </style>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap">
 </head>
 <body class="backend-page backend-account-page">
   <main class="account-shell">
@@ -88,7 +57,7 @@
         <button type="submit">Sign in</button>
         <button id="reset-button" type="button">Send password reset email</button>
       </form>
-      <form id="candidate-panel" class="account-fields" role="tabpanel" aria-labelledby="candidate-tab" hidden>
+      <form id="candidate-panel" class="account-fields account-registration" role="tabpanel" aria-labelledby="candidate-tab" hidden>
         <label>Full name <input name="legal_name" autocomplete="name" required maxlength="160"></label>
         <label>Email <input name="email" type="email" autocomplete="email" required maxlength="254"></label>
         <label>Password (12 characters minimum) <input name="password" type="password" autocomplete="new-password" required minlength="12" maxlength="128"></label>
@@ -102,7 +71,7 @@
         <label><span><input name="privacy_consent" type="checkbox" required> I acknowledge that my information will be used to review and respond to this registration.</span></label>
         <button type="submit">Create free candidate account</button>
       </form>
-      <form id="employer-panel" class="account-fields" role="tabpanel" aria-labelledby="employer-tab" hidden>
+      <form id="employer-panel" class="account-fields account-registration" role="tabpanel" aria-labelledby="employer-tab" hidden>
         <label>Company name <input name="company_name" autocomplete="organization" required maxlength="200"></label>
         <label>Corporate email <input name="email" type="email" autocomplete="email" required maxlength="254"></label>
         <label>Password (12 characters minimum) <input name="password" type="password" autocomplete="new-password" required minlength="12" maxlength="128"></label>
