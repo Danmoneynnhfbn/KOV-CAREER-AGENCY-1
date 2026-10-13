@@ -3,14 +3,12 @@
   "builds": [
     {
       "src": "server.py",
-      "use": "@vercel/python"
+      "use": "@vercel/python",
+      "config": {
+        "includeFiles": "**/*.{html,xml,txt,png,jpg,jpeg,webp,gif,svg,ico}"
+      }
     }
   ],
-  "functions": {
-    "server.py": {
-      "includeFiles": "**/*.{html,xml,txt,png,jpg,jpeg,webp,gif,svg,ico}"
-    }
-  },
   "routes": [
     {
       "src": "/api/(.*)",
