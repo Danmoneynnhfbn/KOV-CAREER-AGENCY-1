@@ -10,6 +10,11 @@
   const mobileNav = document.querySelector('.site-mobile-menu-nav');
   const seoMobileNav = document.querySelector('.seo-mobile-menu nav');
 
+  function directChildContaining(parent, descendant) {
+    if (!descendant) return null;
+    return [...parent.children].find((child) => child === descendant || child.contains(descendant)) || null;
+  }
+
   function addAccountLink(nav) {
     if (!nav || nav.querySelector('a[data-kov-account-link]')) return;
     const link = document.createElement('a');
@@ -22,7 +27,7 @@
     const cta = [...nav.querySelectorAll('a')].find((item) =>
       /start|conversation|contact/i.test(item.textContent)
     );
-    nav.insertBefore(link, cta || null);
+    nav.insertBefore(link, directChildContaining(nav, cta));
   }
 
   addAccountLink(desktopNav);
@@ -68,7 +73,7 @@
       link.className = 'transition-colors hover:text-ink';
       link.textContent = label;
       const cta = desktopNav.querySelector('a[href="contact.html"]');
-      desktopNav.insertBefore(link, cta);
+      desktopNav.insertBefore(link, directChildContaining(desktopNav, cta));
     }
 
     if (mobileNav && !mobileNav.querySelector(`a[href="${target}"]`)) {
@@ -77,7 +82,7 @@
       link.dataset.mobileMenuLink = '';
       link.textContent = label;
       const cta = mobileNav.querySelector('a[href="contact.html"]');
-      mobileNav.insertBefore(link, cta);
+      mobileNav.insertBefore(link, directChildContaining(mobileNav, cta));
     }
   }
 
