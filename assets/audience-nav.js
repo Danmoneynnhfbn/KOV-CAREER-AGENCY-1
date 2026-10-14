@@ -100,7 +100,7 @@
         title: 'For Professionals',
         links: [
           [`${rootPrefix}candidate-services.html`, 'Candidate Services'],
-          [`${rootPrefix}services.html`, 'Reverse Recruiting'],
+          [`${rootPrefix}services.html`, 'Career Representation'],
           [`${rootPrefix}how-it-works.html`, 'How It Works'],
           [`${rootPrefix}pricing.html`, 'Pricing'],
         ],

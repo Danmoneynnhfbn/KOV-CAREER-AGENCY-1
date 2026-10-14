@@ -22,13 +22,13 @@
             <img src="${rootPrefix}kov-logo.png" alt="KOV" class="h-6 w-6 object-contain"/>
             <span class="text-[12px] font-medium uppercase tracking-[0.18em] text-ink">KOV Career Agency</span>
           </div>
-          <p>Independent global talent sourcing for companies. Private, confidential reverse recruiting for senior professionals. Never for corporate HR.</p>
+          <p>Independent global talent sourcing for companies. Private, confidential Career Representation for senior professionals. Never for corporate HR.</p>
         </section>
         <section>
           <h2>For Professionals</h2>
           <ul>
             <li><a href="${rootPrefix}candidate-services.html">Candidate Services</a></li>
-            <li><a href="${rootPrefix}services.html">Reverse Recruiting</a></li>
+            <li><a href="${rootPrefix}services.html">Career Representation</a></li>
             <li><a href="${rootPrefix}how-it-works.html">How It Works</a></li>
             <li><a href="${rootPrefix}pricing.html">Pricing</a></li>
           </ul>
