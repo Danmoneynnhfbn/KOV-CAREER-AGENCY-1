@@ -4,7 +4,7 @@
       title: 'Questions about private career representation',
       categories: {
         Search: [
-          ['What is reverse recruiting?', 'KOV works on the professional’s side of an agreed search, helping structure and execute research, positioning, applications, and outreach.'],
+          ['What is Career Representation?', 'KOV works on the professional’s side of an agreed search, helping structure and execute research, positioning, applications, and outreach.'],
           ['Who is KOV’s candidate-side service designed for?', 'It is designed for senior professionals seeking a deliberate, managed search. Fit and scope are discussed before an engagement begins.'],
           ['Do I choose the companies and roles?', 'Search priorities are agreed together. Approval points for target companies, roles, and external actions are defined by the engagement.'],
           ['How are target companies identified?', 'Research uses agreed role, geography, industry, and organization criteria. The rationale can be reviewed as the target map develops.'],

@@ -1,15 +1,15 @@
 [
   {
     "slug": "reverse-recruiting",
-    "title": "Reverse Recruiting for Senior Professionals | KOV",
+    "title": "for Senior Professionals | KOV",
     "description": "Private reverse recruiting for senior professionals: define a target, research roles, coordinate applications and outreach, and prepare for next steps.",
-    "eyebrow": "FOR SENIOR PROFESSIONALS · REVERSE RECRUITING",
-    "heading": "Reverse recruiting puts structure behind your search.",
+    "eyebrow": "FOR SENIOR PROFESSIONALS · Career Representation",
+    "heading": "Career Representation puts structure behind your search.",
     "lead": "KOV works on your side of the job search, coordinating research, positioning and agreed outreach while you remain in control of your decisions.",
     "introduction": "A senior search can involve more than applications. KOV helps define your target, research relevant opportunities and organize the execution around your priorities.",
     "image": "assets/kov-search-grid.svg",
     "imageAlt": "Illustrative search grid representing a structured executive job search.",
-    "cta": "Discuss Reverse Recruiting",
+    "cta": "Discuss Career Representation",
     "ctaHeading": "Start with the search you actually need.",
     "ctaCopy": "Share your target role, experience, market and priorities. KOV can discuss fit, deliverables and next steps directly; fees are discussed by message and agreed in writing.",
     "sections": [
@@ -17,7 +17,7 @@
         "eyebrow": "CANDIDATE-SIDE REPRESENTATION",
         "title": "A managed search—not a promise of employment.",
         "paragraphs": [
-          "In reverse recruiting, the professional engages support to organize parts of their job search. KOV's work can include research, positioning, opportunity review, applications, recruiter and hiring-manager outreach, follow-up, interview preparation and offer support.",
+          "In Career Representation, the professional engages support to organize parts of their job search. KOV's work can include research, positioning, opportunity review, applications, recruiter and hiring-manager outreach, follow-up, interview preparation and offer support.",
           "The exact activities and approvals are defined in the engagement. Employers retain control of interviews, selection and offers; KOV does not guarantee interviews, placement or timing."
         ],
         "bullets": [
@@ -58,11 +58,11 @@
     ],
     "faqs": [
       {
-        "question": "Is reverse recruiting the same as an employer hiring a recruiter?",
+        "question": "Is Career Representation the same as an employer hiring a recruiter?",
         "answer": "No. In KOV's candidate practice, the professional engages KOV for agreed job-search support. Employers make their own hiring decisions and are not represented by this candidate-side service."
       },
       {
-        "question": "Does reverse recruiting guarantee a job?",
+        "question": "Does Career Representation guarantee a job?",
         "answer": "No. KOV can manage agreed search activities, but cannot control employer decisions, market conditions or hiring timelines."
       }
     ],
@@ -215,7 +215,7 @@
     "related": [
       { "slug": "candidate-services", "label": "Executive Career Representation" },
       { "slug": "executive-resume-strategy", "label": "Executive Resume Strategy" },
-      { "slug": "reverse-recruiting-cfos", "label": "Reverse Recruiting for CFOs" }
+      { "slug": "reverse-recruiting-cfos", "label": "Career Representation for CFOs" }
     ]
   },
   {
@@ -950,7 +950,7 @@
   },
   {
     "slug": "reverse-recruiting-cfos",
-    "title": "Reverse Recruiting for CFOs | KOV Career Agency",
+    "title": "for CFOs | KOV Career Agency",
     "description": "Private reverse recruiting for CFOs exploring their next leadership role, with defined targets, executive positioning, research and agreed outreach.",
     "eyebrow": "FOR CFOs · PRIVATE CAREER REPRESENTATION",
     "heading": "A CFO search shaped around the mandate you want next.",
@@ -994,7 +994,7 @@
         "eyebrow": "RUN A PRIVATE SEARCH",
         "title": "Research and outreach with clear approval points.",
         "paragraphs": [
-          "A reverse recruiting engagement may include target-company research, opportunity review, applications, recruiter or hiring-manager outreach, follow-up, interview preparation and offer support. What KOV handles depends on the written agreement.",
+          "A Career Representation engagement may include target-company research, opportunity review, applications, recruiter or hiring-manager outreach, follow-up, interview preparation and offer support. What KOV handles depends on the written agreement.",
           "You remain the decision-maker. KOV cannot guarantee an interview, offer, compensation outcome or placement, and will not disclose your information without the agreed process."
         ],
         "bullets": [
@@ -1023,7 +1023,7 @@
   },
   {
     "slug": "reverse-recruiting-ctos",
-    "title": "Reverse Recruiting for CTOs | KOV Career Agency",
+    "title": "for CTOs | KOV Career Agency",
     "description": "Private reverse recruiting for CTOs and senior technology leaders, aligning leadership scope, technical narrative and an agreed executive search plan.",
     "eyebrow": "FOR CTOs · PRIVATE CAREER REPRESENTATION",
     "heading": "Make your technology leadership legible beyond the stack.",
@@ -1096,7 +1096,7 @@
   },
   {
     "slug": "reverse-recruiting-cmos",
-    "title": "Reverse Recruiting for CMOs | KOV Career Agency",
+    "title": "for CMOs | KOV Career Agency",
     "description": "Private reverse recruiting for CMOs and senior marketing leaders, with clear positioning, target-role research and an agreed search process.",
     "eyebrow": "FOR CMOs · PRIVATE CAREER REPRESENTATION",
     "heading": "Position your marketing leadership for the next mandate.",
@@ -1310,7 +1310,7 @@
     "related": [
       { "slug": "company-services", "label": "Global Talent Sourcing for Companies" },
       { "slug": "executive-search-support", "label": "Executive Search Support" },
-      { "slug": "reverse-recruiting-ctos", "label": "Reverse Recruiting for CTOs" }
+      { "slug": "reverse-recruiting-ctos", "label": "Career Representation for CTOs" }
     ]
   },
   {
@@ -1456,7 +1456,7 @@
     "related": [
       { "slug": "company-services", "label": "Global Talent Sourcing for Companies" },
       { "slug": "executive-search-support", "label": "Executive Search Support" },
-      { "slug": "reverse-recruiting-cfos", "label": "Reverse Recruiting for CFOs" }
+      { "slug": "reverse-recruiting-cfos", "label": "Career Representation for CFOs" }
     ]
   }
 ]
