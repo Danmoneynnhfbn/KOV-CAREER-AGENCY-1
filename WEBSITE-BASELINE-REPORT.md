@@ -126,6 +126,7 @@ The template explains the general layout and interactions; the page-specific sub
 ### Static site and hosting
 
 - `vercel.json` configures Vercel's Python runtime for `server.py`, includes site assets, routes `/api/*`, `/toba` and other paths to FastAPI.
+- **Vercel deployment correction:** the previous `vercel.json` combined the legacy `builds` setting with the `functions` setting. Vercel disallows using these configuration modes together, and the failed Vercel check linked to its `conflicting-functions-and-builds-configuration` documentation. The asset `includeFiles` setting is now nested in the `server.py` Python builder config, retaining the existing Python build and routes while removing the conflict. This local configuration change still needs a new Vercel deployment to verify it resolves the dashboard's failed checks.
 - `server.py` serves `/` from `index.html`, mounts `/assets`, exposes a status endpoint, serves `/profiles` and `/toba`, and serves permitted static extensions. It resolves paths and rejects paths outside the repository root.
 - `requirements.txt` declares FastAPI, Uvicorn, Supabase, Resend and Stripe Python packages. There is no root `package.json`, frontend build script, or checked-in standard frontend bundler configuration. The public source is a mix of static HTML, compiled JavaScript bundles and handwritten JS/CSS; the exact reproducible frontend build pipeline is not present.
 - A GitHub Actions workflow runs daily to delete expired JSON blog posts from the `main` branch. It is separate from account/CV cleanup.

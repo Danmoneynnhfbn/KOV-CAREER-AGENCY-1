@@ -6,7 +6,7 @@
   <meta name="robots" content="noindex,nofollow">
   <title>Operations Console | KOV Career Agency</title>
   <link rel="stylesheet" href="assets/styles-DateywTe.css">
-  <link rel="stylesheet" href="assets/site-fixes.css?v=16">
+  <link rel="stylesheet" href="assets/site-fixes.css?v=27">
   <link rel="stylesheet" href="assets/backend-pages.css">
   <style>
     .admin-shell { max-width: 1200px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
@@ -20,6 +20,8 @@
     .admin-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,280px),1fr)); gap: 1rem; }
     .admin-items { display: grid; gap: 1rem; }
     .admin-item { border-top: 1px solid var(--kov-brown-line); padding-top: 1rem; }
+    .admin-item.invoice-ready { border: 1px solid #7ba987; border-radius: 10px; padding: 1rem; background: #edf7ef; }
+    .invoice-ready-status { color: #245a31; font-weight: 700; }
     .admin-item label, .admin-create label { display: grid; gap: .35rem; margin: .65rem 0; }
     .admin-item input, .admin-item select, .admin-item textarea,
     .admin-create input, .admin-create select, .admin-create textarea {
@@ -231,6 +233,19 @@
           save.dataset.id = item.id;
           card.append(save);
           if (item.status === 'Placed') {
+            if (item.invoice_due_date) {
+              const dueDate = new Date(`${item.invoice_due_date}T00:00:00Z`);
+              const today = new Date();
+              const todayUtc = Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate());
+              if (!Number.isNaN(dueDate.getTime()) && todayUtc >= dueDate.getTime()) {
+                card.classList.add('invoice-ready');
+                card.append(element('p', 'Invoice ready', 'invoice-ready-status'));
+              } else {
+                card.append(element('p', `Invoice date: ${item.invoice_due_date}`));
+              }
+            } else {
+              card.append(element('p', 'Invoice readiness unavailable.'));
+            }
             const invoice = element('button', 'Draft placement invoice');
             invoice.type = 'button';
             invoice.dataset.action = 'create-invoice';
@@ -361,5 +376,6 @@
       });
     })();
   </script>
+<script src="assets/uniform-footer.js?v=7" defer></script>
 </body>
 </html>

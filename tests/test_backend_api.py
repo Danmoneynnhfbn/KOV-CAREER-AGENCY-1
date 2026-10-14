@@ -11,7 +11,10 @@ import server
 
 def _query(data: object) -> Mock:
     query = Mock()
-    for method in ("select", "eq", "in_", "limit", "single", "maybe_single", "is_", "update", "order"):
+    for method in (
+        "select", "eq", "in_", "limit", "single", "maybe_single", "is_",
+        "update", "order", "range", "contains", "ilike", "lte",
+    ):
         getattr(query, method).return_value = query
     query.execute.return_value = SimpleNamespace(data=data)
     return query
@@ -25,15 +28,91 @@ class BackendApiTests(unittest.TestCase):
         for path in (
             "/",
             "/account.html",
+            "/privacy.html",
             "/profiles",
-            "/toba",
             "/assets/account-api.js",
+            "/assets/contact-form.js",
             "/assets/backend-pages.css",
             "/assets/kov-backend-journey.svg",
             "/api/v1/status",
         ):
             with self.subTest(path=path):
                 self.assertEqual(self.client.get(path).status_code, 200)
+        self.assertEqual(self.client.get("/toba").status_code, 404)
+        self.assertEqual(self.client.get("/blogpostcheck").status_code, 404)
+        self.assertEqual(self.client.get("/blogpostcheck.html").status_code, 404)
+        self.assertEqual(self.client.get("/.private_admin/blogpostcheck.html").status_code, 404)
+
+    def test_admin_console_and_api_require_the_configured_admin_identity(self) -> None:
+        identities = (
+            ("anonymous", backend_api.HTTPException(
+                status_code=401, detail="Authentication is required."
+            )),
+            ("candidate", backend_api.Identity(
+                user_id="candidate-user", email="candidate@example.com", role="candidate"
+            )),
+            ("employer", backend_api.Identity(
+                user_id="employer-user", email="employer@example.com", role="employer"
+            )),
+            ("other administrator", backend_api.Identity(
+                user_id="other-admin", email="other@example.com", role="administrator"
+            )),
+        )
+        with patch.dict("os.environ", {"ADMIN_USER_ID": "admin-user"}):
+            for label, identity in identities:
+                with self.subTest(identity=label), patch.object(
+                    backend_api,
+                    "_require_identity",
+                    side_effect=identity if isinstance(identity, Exception) else None,
+                    return_value=None if isinstance(identity, Exception) else identity,
+                ):
+                    page = self.client.get("/toba")
+                    blog_editor = self.client.get("/blogpostcheck")
+                    legacy_blog_editor = self.client.get("/blogpostcheck.html")
+                    metric = self.client.get(
+                        "/api/v1/admin/analytics/placement-success-rate"
+                    )
+                    self.assertEqual(page.status_code, 404)
+                    self.assertEqual(blog_editor.status_code, 404)
+                    self.assertEqual(legacy_blog_editor.status_code, 404)
+                    self.assertEqual(metric.status_code, 404)
+                    self.assertEqual(page.json(), {"detail": "Not Found"})
+                    self.assertEqual(blog_editor.json(), {"detail": "Not Found"})
+                    self.assertEqual(legacy_blog_editor.json(), {"detail": "Not Found"})
+                    self.assertEqual(metric.json(), {"detail": "Not Found"})
+
+            placed_query = _query(None)
+            placed_query.execute.return_value = SimpleNamespace(count=0)
+            rejected_query = _query(None)
+            rejected_query.execute.return_value = SimpleNamespace(count=0)
+            service = Mock()
+            service.table.side_effect = [placed_query, rejected_query]
+            with (
+                patch.object(
+                    backend_api,
+                    "_require_identity",
+                    return_value=backend_api.Identity(
+                        user_id="admin-user", email="admin@example.com", role="administrator"
+                    ),
+                ),
+                patch.object(backend_api, "_service_client", return_value=service),
+            ):
+                page = self.client.get("/toba")
+                blog_editor = self.client.get("/blogpostcheck")
+                legacy_blog_editor = self.client.get("/blogpostcheck.html")
+                metric = self.client.get(
+                    "/api/v1/admin/analytics/placement-success-rate"
+                )
+
+        self.assertEqual(page.status_code, 200)
+        self.assertEqual(blog_editor.status_code, 200)
+        self.assertEqual(legacy_blog_editor.status_code, 200)
+        self.assertEqual(metric.status_code, 200)
+        self.assertEqual(blog_editor.content, legacy_blog_editor.content)
+        self.assertEqual(
+            self.client.get("/.private_admin/blogpostcheck.html").status_code,
+            404,
+        )
 
     def test_backend_health_reports_missing_configuration(self) -> None:
         with patch.dict("os.environ", {}, clear=True):
@@ -502,7 +581,8 @@ class BackendApiTests(unittest.TestCase):
             "/api/v1/admin/candidates",
         ):
             with self.subTest(path=path):
-                self.assertEqual(self.client.get(path).status_code, 401)
+                expected_status = 404 if path.startswith("/api/v1/admin/") else 401
+                self.assertEqual(self.client.get(path).status_code, expected_status)
 
     def test_admin_mutations_reject_cross_origin_requests_before_auth(self) -> None:
         response = self.client.patch(
@@ -584,6 +664,361 @@ class BackendApiTests(unittest.TestCase):
         with self.assertRaises(backend_api.HTTPException) as error:
             backend_api._provision_candidate(service, "user-uuid", data)
         self.assertEqual(error.exception.status_code, 502)
+
+    def test_employer_registration_requires_a_corporate_email_domain(self) -> None:
+        for email in ("person@gmail.com", "person@yahoo.com", "person@outlook.com"):
+            with self.subTest(email=email):
+                response = self.client.post(
+                    "/api/v1/auth/register/employer",
+                    json={
+                        "email": email,
+                        "password": "LongEnoughPassword123!",
+                        "company_name": "Example Company",
+                        "privacy_consent": True,
+                    },
+                )
+                self.assertEqual(response.status_code, 422)
+                self.assertIn(
+                    "corporate email address",
+                    response.json()["detail"][0]["msg"],
+                )
+
+        accepted = backend_api.EmployerRegistration(
+            email=" Person@Example.com ",
+            password="LongEnoughPassword123!",
+            company_name="Example Company",
+            privacy_consent=True,
+        )
+        self.assertEqual(accepted.email, "person@example.com")
+
+    def test_employer_directory_returns_only_masked_candidate_fields(self) -> None:
+        profile_id = "candidate-profile-uuid"
+        candidate_profiles = _query([{
+            "id": profile_id,
+            "public_id": "KOV-C-00901",
+            "professional_title": "Confidential Executive",
+            "professional_summary": "Private summary",
+            "skills": ["Leadership", "Strategy"],
+            "years_experience": 18,
+            "location_region": "West Africa",
+            "legal_name": "Daniel Ade",
+            "email": "daniel@example.com",
+            "phone": "+123456789",
+            "cv_url": "https://storage.example/private-cv.pdf",
+        }])
+        candidate_private = _query([{
+            "candidate_id": profile_id,
+            "legal_name": "Daniel Ade",
+            "email": "daniel@example.com",
+            "phone": "+123456789",
+            "cv_url": "https://storage.example/private-cv.pdf",
+        }])
+        service = Mock()
+        service.table.side_effect = [candidate_profiles, candidate_private]
+
+        with (
+            patch.object(
+                backend_api,
+                "_require_role",
+                return_value=backend_api.Identity(
+                    user_id="employer-user", email="employer@example.com", role="employer"
+                ),
+            ),
+            patch.object(backend_api, "_authorize_employer_directory"),
+            patch.object(backend_api, "_service_client", return_value=service),
+        ):
+            response = self.client.get("/api/v1/profiles")
+
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()
+        self.assertEqual(
+            payload["items"],
+            [{
+                "public_id": "KOV-C-00901",
+                "initials": "DA",
+                "skills": ["Leadership", "Strategy"],
+                "years_experience": 18,
+                "region": "West Africa",
+            }],
+        )
+        serialized = response.text
+        for masked_value in (
+            "Daniel Ade", "daniel@example.com", "+123456789",
+            "private-cv.pdf", "Confidential Executive", "Private summary",
+        ):
+            self.assertNotIn(masked_value, serialized)
+
+    def test_candidate_initials_support_single_names_and_extra_whitespace(self) -> None:
+        self.assertEqual(backend_api._candidate_initials("Daniel Ade"), "DA")
+        self.assertEqual(backend_api._candidate_initials("  Daniel   Ade  "), "DA")
+        self.assertEqual(backend_api._candidate_initials("Madonna"), "M")
+        self.assertEqual(backend_api._candidate_initials("Mary Jane Watson"), "MW")
+        self.assertEqual(backend_api._candidate_initials(None), "")
+
+    def test_candidate_login_updates_last_activity(self) -> None:
+        session = SimpleNamespace(
+            access_token="access-token",
+            refresh_token="refresh-token",
+            expires_in=3600,
+        )
+        auth = Mock()
+        auth.auth.sign_in_with_password.return_value = SimpleNamespace(
+            session=session,
+            user=SimpleNamespace(id="candidate-user"),
+        )
+        profile_query = _query(None)
+        service = Mock()
+        service.table.return_value = profile_query
+
+        with (
+            patch.object(backend_api, "_public_client", return_value=auth),
+            patch.object(backend_api, "_service_client", return_value=service),
+        ):
+            response = self.client.post(
+                "/api/v1/auth/login",
+                headers={"Origin": "http://testserver"},
+                json={"email": "candidate@example.com", "password": "candidate-password"},
+            )
+
+        self.assertEqual(response.status_code, 200)
+        profile_query.update.assert_called_once()
+        self.assertIn("last_activity_at", profile_query.update.call_args.args[0])
+        profile_query.eq.assert_called_once_with("user_id", "candidate-user")
+
+    def test_inactive_cv_cleanup_is_protected_and_retry_safe(self) -> None:
+        self.assertEqual(
+            self.client.post("/api/v1/maintenance/cleanup-expired-cvs").status_code,
+            401,
+        )
+        with patch.dict(
+            "os.environ",
+            {"CRON_SECRET": "cron-test-secret", "SUPABASE_CV_BUCKET": "candidate-cvs"},
+        ):
+            unauthorized = self.client.post(
+                "/api/v1/maintenance/cleanup-expired-cvs",
+                headers={"Authorization": "Bearer wrong-secret"},
+            )
+            self.assertEqual(unauthorized.status_code, 401)
+
+            candidate_files = _query([{
+                "id": "cv-uuid",
+                "storage_path": "user-uuid/opaque-file.pdf",
+                "cleanup_attempts": 2,
+                "candidate_profiles": {"last_activity_at": "2020-01-01T00:00:00Z"},
+            }])
+            metadata_update = _query(None)
+            job_run = _query(None)
+            service = Mock()
+            service.table.side_effect = [candidate_files, metadata_update, job_run]
+            storage = service.storage.from_.return_value
+
+            with patch.object(backend_api, "_service_client", return_value=service):
+                response = self.client.post(
+                    "/api/v1/maintenance/cleanup-expired-cvs",
+                    headers={"Authorization": "Bearer cron-test-secret"},
+                )
+
+            self.assertEqual(response.status_code, 200)
+            self.assertEqual(response.json(), {"status": "completed", "deleted": 1, "failed": 0})
+            storage.remove.assert_called_once_with(["user-uuid/opaque-file.pdf"])
+            metadata_update.update.assert_called_once()
+            metadata = metadata_update.update.call_args.args[0]
+            self.assertIsNotNone(metadata["deleted_at"])
+            self.assertEqual(metadata["cleanup_attempts"], 2)
+            candidate_files.lte.assert_called_once()
+            self.assertEqual(
+                candidate_files.lte.call_args.args[0],
+                "candidate_profiles.last_activity_at",
+            )
+
+            class StorageFailure(Exception):
+                pass
+
+            retry_file_query = _query([{
+                "id": "cv-retry",
+                "storage_path": "user-uuid/retry.pdf",
+                "cleanup_attempts": 4,
+                "candidate_profiles": {"last_activity_at": "2020-01-01T00:00:00Z"},
+            }])
+            retry_update = _query(None)
+            retry_job = _query(None)
+            retry_service = Mock()
+            retry_service.table.side_effect = [retry_file_query, retry_update, retry_job]
+            retry_service.storage.from_.return_value.remove.side_effect = StorageFailure(
+                "temporary storage outage"
+            )
+            with (
+                patch.object(backend_api, "StorageException", StorageFailure),
+                patch.object(backend_api, "_service_client", return_value=retry_service),
+            ):
+                retry_response = self.client.post(
+                    "/api/v1/maintenance/cleanup-expired-cvs",
+                    headers={"Authorization": "Bearer cron-test-secret"},
+                )
+
+            self.assertEqual(retry_response.status_code, 200)
+            self.assertEqual(
+                retry_response.json(),
+                {"status": "completed", "deleted": 0, "failed": 1},
+            )
+            self.assertEqual(
+                retry_update.update.call_args.args[0]["cleanup_attempts"],
+                5,
+            )
+
+    def test_admin_placement_success_rate_excludes_ineligible_statuses_and_rounds_once(self) -> None:
+        for scenario, placed_count, rejected_count, expected in (
+            ("zero", 0, 0, None),
+            ("all placed", 4, 0, 100.0),
+            ("mixed", 2, 1, 66.7),
+            ("pending only", 0, 0, None),
+        ):
+            with self.subTest(scenario=scenario):
+                placed_query = Mock()
+                placed_query.select.return_value = placed_query
+                placed_query.eq.return_value = placed_query
+                placed_query.execute.return_value = SimpleNamespace(count=placed_count)
+                rejected_query = Mock()
+                rejected_query.select.return_value = rejected_query
+                rejected_query.eq.return_value = rejected_query
+                rejected_query.execute.return_value = SimpleNamespace(count=rejected_count)
+                service = Mock()
+                service.table.side_effect = [placed_query, rejected_query]
+
+                with (
+                    patch.object(backend_api, "_require_admin"),
+                    patch.object(backend_api, "_service_client", return_value=service),
+                ):
+                    response = self.client.get(
+                        "/api/v1/admin/analytics/placement-success-rate"
+                    )
+
+                self.assertEqual(response.status_code, 200)
+                self.assertEqual(response.json()["rate_percent"], expected)
+                self.assertEqual(response.json()["eligible"], placed_count + rejected_count)
+                self.assertEqual(placed_query.eq.call_args.args, ("status", "Placed"))
+                self.assertEqual(rejected_query.eq.call_args.args, ("status", "Rejected"))
+
+    def test_placement_start_date_sets_invoice_due_date_thirty_days_later(self) -> None:
+        introduction_id = "00000000-0000-0000-0000-000000000001"
+        current = _query({"status": "Interviewing"})
+        updated = _query({
+            "id": introduction_id,
+            "status": "Placed",
+            "placement_start_date": "2024-01-31",
+            "invoice_due_date": "2024-03-01",
+        })
+        audit = _query(None)
+        service = Mock()
+        service.table.side_effect = [current, updated, audit]
+
+        with (
+            patch.object(
+                backend_api,
+                "_require_admin",
+                return_value=backend_api.Identity(
+                    user_id="admin-user", email="admin@example.com", role="administrator"
+                ),
+            ),
+            patch.object(backend_api, "_service_client", return_value=service),
+        ):
+            response = self.client.patch(
+                f"/api/v1/admin/introductions/{introduction_id}",
+                headers={"Origin": "http://testserver"},
+                json={
+                    "status": "Placed",
+                    "placement_start_date": "2024-01-31",
+                    "placement_fee_minor": 100000,
+                },
+            )
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json()["invoice_due_date"], "2024-03-01")
+        self.assertEqual(
+            updated.update.call_args.args[0]["invoice_due_date"],
+            "2024-03-01",
+        )
+
+    def test_contact_form_submission_persists_lead_with_keyed_request_ip(self) -> None:
+        service = Mock()
+        service.rpc.return_value.execute.return_value = SimpleNamespace(
+            data={"accepted": True}
+        )
+        payload = {
+            "first_name": "  Dana ",
+            "last_name": "Ade",
+            "email": " DANA@EXAMPLE.COM ",
+            "audience": "Senior Professional",
+            "phone": "+1 5551234567",
+            "target_role": "VP Product",
+            "salary_range": "$220k-$280k",
+            "linkedin_url": "https://www.linkedin.com/in/dana",
+            "message": "Please contact me.",
+        }
+        with (
+            patch.dict("os.environ", {"SUPABASE_SERVICE_ROLE_KEY": "test-service-key"}),
+            patch.object(backend_api, "_service_client", return_value=service),
+        ):
+            response = self.client.post(
+                "/api/contact",
+                headers={"x-real-ip": "203.0.113.25"},
+                json=payload,
+            )
+
+        self.assertEqual(response.status_code, 201)
+        self.assertEqual(response.json(), {"status": "received"})
+        service.rpc.assert_called_once()
+        rpc_name, arguments = service.rpc.call_args.args
+        self.assertEqual(rpc_name, "submit_contact_lead")
+        self.assertEqual(arguments["p_name"], "Dana Ade")
+        self.assertEqual(arguments["p_email"], "dana@example.com")
+        self.assertEqual(arguments["p_target_role"], "VP Product")
+        self.assertRegex(arguments["p_requester_hash"], r"^[a-f0-9]{64}$")
+        self.assertNotIn("203.0.113.25", arguments["p_requester_hash"])
+
+    def test_contact_form_rejects_invalid_input_before_database_call(self) -> None:
+        service = Mock()
+        with (
+            patch.dict("os.environ", {"SUPABASE_SERVICE_ROLE_KEY": "test-service-key"}),
+            patch.object(backend_api, "_service_client", return_value=service),
+        ):
+            response = self.client.post(
+                "/api/contact",
+                json={
+                    "first_name": "Dana",
+                    "last_name": "Ade",
+                    "email": "not-an-email",
+                    "audience": "Senior Professional",
+                    "target_role": "VP Product",
+                },
+            )
+
+        self.assertEqual(response.status_code, 422)
+        service.rpc.assert_not_called()
+
+    def test_contact_form_rate_limit_returns_too_many_requests(self) -> None:
+        service = Mock()
+        service.rpc.return_value.execute.return_value = SimpleNamespace(
+            data={"accepted": False}
+        )
+        with (
+            patch.dict("os.environ", {"SUPABASE_SERVICE_ROLE_KEY": "test-service-key"}),
+            patch.object(backend_api, "_service_client", return_value=service),
+        ):
+            response = self.client.post(
+                "/api/contact",
+                headers={"x-real-ip": "203.0.113.25"},
+                json={
+                    "first_name": "Dana",
+                    "last_name": "Ade",
+                    "email": "dana@example.com",
+                    "audience": "Senior Professional",
+                    "target_role": "VP Product",
+                },
+            )
+
+        self.assertEqual(response.status_code, 429)
+        self.assertIn("Too many inquiries", response.json()["detail"])
 
     def test_employer_provisioning_uses_one_transactional_rpc(self) -> None:
         data = backend_api.EmployerRegistration(
@@ -765,6 +1200,10 @@ class BackendApiTests(unittest.TestCase):
         self.assertIn("invoice_row.stripe_checkout_session_id <> stripe_session_id", migration)
         self.assertIn("stripe_checkout_idempotency_key is distinct from", migration)
         self.assertIn("insert into public.payment_transactions", migration)
+        self.assertIn("create trigger candidate_profile_activity", migration)
+        self.assertIn("create trigger candidate_private_activity", migration)
+        self.assertIn("set last_activity_at = now()", migration)
+        self.assertIn("new.invoice_due_date := new.placement_start_date + 30", migration)
 
     def test_invalid_company_website_is_rejected(self) -> None:
         with self.assertRaises(ValueError):
@@ -798,8 +1237,15 @@ class BackendApiTests(unittest.TestCase):
 
     def test_account_and_admin_pages_include_operational_forms(self) -> None:
         account = self.client.get("/account.html").text
+        privacy = self.client.get("/privacy.html").text
+        homepage = self.client.get("/").text
         directory = self.client.get("/profiles.html").text
-        admin = self.client.get("/toba").text
+        admin = (Path(__file__).resolve().parents[1] / "toba.html").read_text(
+            encoding="utf-8"
+        )
+        blog_cms = (Path(__file__).resolve().parents[1] / "assets" / "blog-cms.js").read_text(
+            encoding="utf-8"
+        )
         self.assertIn('class="backend-page backend-account-page"', account)
         self.assertIn('class="backend-page backend-directory-page"', directory)
         self.assertIn('class="backend-page backend-admin-page"', admin)
@@ -810,6 +1256,11 @@ class BackendApiTests(unittest.TestCase):
         self.assertIn('id="billing-panel"', account)
         self.assertIn("/api/v1/employer/invoices", account)
         self.assertIn("window.kovApiJsonRequest", account)
+        self.assertEqual(account.count('name="privacy_consent" type="checkbox" required'), 2)
+        self.assertEqual(account.count('href="/privacy.html"'), 3)
+        self.assertIn("30 consecutive days without activity", privacy)
+        self.assertIn("daniel@kovcareeragency.org", privacy)
+        self.assertIn('href="/privacy.html"', homepage)
         self.assertIn("window.kovApiJsonRequest", directory)
         self.assertIn("window.kovApiJsonRequest", admin)
         self.assertIn('id="introduction-create"', admin)
@@ -818,9 +1269,13 @@ class BackendApiTests(unittest.TestCase):
         self.assertIn('id="count-candidates"', admin)
         self.assertIn('id="count-employers"', admin)
         self.assertIn('id="calculated-success"', admin)
+        self.assertIn("Invoice ready", admin)
+        self.assertIn("invoice-ready", admin)
         self.assertIn("save.dataset.action = 'review-candidate'", admin)
         self.assertIn("save.dataset.action = 'verify-employer'", admin)
         self.assertIn("save.dataset.action = 'update-introduction'", admin)
+        self.assertIn("sessionStorage.setItem('KOV_BLOG_GITHUB_TOKEN'", blog_cms)
+        self.assertNotIn("localStorage.setItem('KOV_BLOG_GITHUB_TOKEN'", blog_cms)
 
     def test_admin_invoice_issue_uses_transactional_database_rpc(self) -> None:
         issued_query = Mock()

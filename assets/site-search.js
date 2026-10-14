@@ -113,6 +113,56 @@
     return menu;
   }
 
+  function normalizeLegacyFooter() {
+    const footer = document.querySelector('footer');
+    if (!footer) return;
+
+    const container = footer.querySelector(':scope > .mx-auto') || footer;
+    if (container.querySelector('.kov-footer-bottom-bar')) return;
+
+    const legal = [...container.querySelectorAll('p, .kov-legal, div')].find((element) => /©|All rights reserved|rights reserved/i.test(element.textContent || ''));
+    const privacyLink = [...container.querySelectorAll('a')].find((link) => /privacy\.html/i.test(link.getAttribute('href') || ''));
+    const widget = document.getElementById('kov-translate-widget');
+
+    if (!legal && !privacyLink) return;
+
+    const bottomBar = document.createElement('div');
+    bottomBar.className = 'kov-footer-bottom-bar';
+
+    if (legal) {
+      const legalNode = legal.closest('[class*="mt-10"], [class*="flex-col"], [class*="justify-between"], .kov-legal') || legal;
+      legalNode.classList.add('kov-legal');
+      legalNode.classList.remove('mt-10', 'flex', 'flex-col', 'gap-2', 'border-t', 'border-line/60', 'pt-6', 'md:flex-row', 'md:items-center', 'md:justify-between');
+      legalNode.removeAttribute('style');
+      legalNode.remove();
+      bottomBar.append(legalNode);
+    }
+
+    if (privacyLink) {
+      privacyLink.classList.add('kov-footer-privacy-link');
+      privacyLink.remove();
+      bottomBar.append(privacyLink);
+    }
+
+    if (widget && !bottomBar.contains(widget)) {
+      bottomBar.append(widget);
+    }
+
+    const existingBar = container.querySelector('.kov-footer-bottom-bar');
+    if (existingBar && existingBar !== bottomBar) {
+      while (existingBar.firstChild) bottomBar.appendChild(existingBar.firstChild);
+      existingBar.remove();
+    }
+
+    const footerNote = [...container.children].reverse().find((child) => child.matches('p, .kov-legal') || /©|rights reserved/i.test(child.textContent || ''));
+    if (footerNote) {
+      container.insertBefore(bottomBar, footerNote);
+      return;
+    }
+
+    container.append(bottomBar);
+  }
+
   function addFooterCategories() {
     const catalog = window.kovSeoPageCatalog || [];
     const footer = document.querySelector('footer');
@@ -151,16 +201,35 @@
       grid.append(group);
     }
 
+    const privacyLink = [...container.querySelectorAll('a')].find((link) => {
+      const href = link.getAttribute('href') || '';
+      return /privacy\.html/i.test(href);
+    });
+
     navigation.append(heading, grid);
+    if (privacyLink && !navigation.querySelector('a[href*="privacy.html"]')) {
+      const privacy = document.createElement('a');
+      privacy.href = privacyLink.getAttribute('href') || '/privacy.html';
+      privacy.textContent = privacyLink.textContent.trim() || 'Privacy Notice';
+      privacy.className = 'kov-footer-privacy-link';
+      navigation.append(privacy);
+      privacyLink.remove();
+    }
+
     if (audienceFooter?.parentElement) {
       audienceFooter.insertAdjacentElement('afterend', navigation);
       return;
     }
-    const footerNote = container.lastElementChild;
-    if (footerNote && (footerNote.matches('p, .kov-legal') || footerNote.textContent.includes('©'))) {
+    const footerNote = [...container.children].reverse().find((child) => {
+      return child.matches('p, .kov-legal') || child.textContent.includes('©');
+    });
+
+    if (footerNote) {
       container.insertBefore(navigation, footerNote);
+      return;
     }
-    else container.append(navigation);
+
+    container.append(navigation);
   }
 
   const relatedTerms = {
@@ -462,6 +531,7 @@
     else if (!navigation) header.append(createTrigger('site-search-mobile'));
   }
 
+  normalizeLegacyFooter();
   addFooterCategories();
 
   closeButton.addEventListener('click', () => dialog.close());

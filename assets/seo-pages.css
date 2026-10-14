@@ -180,12 +180,63 @@
 }
 
 .seo-landing-page main > section:not(.seo-hero) {
-  padding: clamp(76px, 9vw, 118px) max(8vw, 40px) !important;
+  position: relative;
+  padding: clamp(72px, 9vw, 118px) max(8vw, 40px) !important;
   border-bottom: 1px solid rgba(17, 24, 32, 0.075);
+  overflow: hidden;
+}
+
+.seo-landing-page main > section:not(.seo-hero, .seo-faq, .seo-related, .kov-final-cta) {
+  border: 1px solid rgba(17, 24, 32, 0.08);
+  border-radius: 28px;
+  margin: 22px clamp(2.5vw, 4vw, 54px);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.78), rgba(244, 238, 232, 0.96));
+  box-shadow: 0 18px 46px rgba(17, 24, 32, 0.04);
 }
 
 .seo-landing-page main > section:not(.seo-hero, .seo-faq, .seo-related, .kov-final-cta):nth-child(even) {
-  background: var(--seo-paper);
+  background: linear-gradient(180deg, rgba(247, 244, 238, 0.95), rgba(252, 251, 248, 1));
+}
+
+.seo-landing-page main > section:not(.seo-hero, .seo-faq, .seo-related, .kov-final-cta)::before {
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 180px;
+  height: 180px;
+  background: radial-gradient(circle, rgba(201, 107, 60, 0.09), transparent 68%);
+  content: "";
+  pointer-events: none;
+}
+
+.seo-landing-page section h1,
+.seo-landing-page section h2 {
+  letter-spacing: -0.05em;
+}
+
+.seo-landing-page main ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  padding: 0;
+  margin: 28px 0 0;
+  list-style: none;
+}
+
+.seo-landing-page main li {
+  padding: 18px 20px;
+  border: 1px solid rgba(17, 24, 32, 0.09);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 10px 24px rgba(17, 24, 32, 0.02);
+  color: #1f2a31;
+}
+
+.seo-landing-page main a {
+  transition: color 180ms ease, opacity 180ms ease;
+}
+
+.seo-landing-page main a:hover {
+  color: var(--seo-orange);
 }
 
 .seo-landing-page .kov-section-heading,
@@ -251,7 +302,7 @@
 }
 
 .seo-faq {
-  background: #f3efe8;
+  background: linear-gradient(180deg, rgba(243, 239, 232, 0.98), rgba(252, 251, 248, 0.96));
 }
 
 .seo-faq .kov-section-heading {
@@ -260,12 +311,16 @@
 
 .seo-faq details {
   max-width: 900px;
-  padding: 20px 0;
-  border-top: 1px solid rgba(17, 24, 32, 0.16);
+  padding: 20px 24px;
+  margin-bottom: 14px;
+  border: 1px solid rgba(17, 24, 32, 0.1);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.76);
+  box-shadow: 0 10px 22px rgba(17, 24, 32, 0.025);
 }
 
 .seo-faq details:last-child {
-  border-bottom: 1px solid rgba(17, 24, 32, 0.16);
+  margin-bottom: 0;
 }
 
 .seo-faq summary {
@@ -274,6 +329,22 @@
   font-family: Fraunces, Georgia, serif;
   font-size: 1.25rem;
   font-weight: 400;
+}
+
+.seo-faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.seo-faq summary::after {
+  float: right;
+  color: var(--seo-orange);
+  content: "+";
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.seo-faq details[open] summary::after {
+  content: "–";
 }
 
 .seo-faq details p {
@@ -285,7 +356,7 @@
 }
 
 .seo-related {
-  background: var(--seo-white);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(247, 244, 238, 1));
 }
 
 .seo-related-links {
@@ -301,15 +372,16 @@
 .seo-related-links li {
   min-height: 84px;
   padding: 18px;
-  border: 1px solid var(--seo-line);
-  background: #fff;
+  border: 1px solid rgba(17, 24, 32, 0.09);
+  border-radius: 18px;
+  background: linear-gradient(180deg, #fff, #f7f4ef);
   transition: border-color 160ms ease, transform 160ms ease, box-shadow 160ms ease;
 }
 
 .seo-related-links li:hover {
-  transform: translateY(-2px);
-  border-color: rgba(201, 107, 60, 0.55);
-  box-shadow: 0 10px 24px rgba(17, 24, 32, 0.06);
+  transform: translateY(-3px);
+  border-color: rgba(201, 107, 60, 0.7);
+  box-shadow: 0 16px 32px rgba(17, 24, 32, 0.06);
 }
 
 .seo-related-links a {
@@ -389,8 +461,9 @@
 }
 
 .seo-landing-page .kov-footer {
-  padding: 54px max(6vw, 28px) 22px;
-  background: #fcfbf8;
+  padding: 26px max(6vw, 28px) 12px;
+  border-top: 1px solid rgba(17, 24, 32, 0.09);
+  background: linear-gradient(180deg, #fcfbf8 0%, #f6f1ea 100%);
 }
 
 .seo-landing-page .kov-footer > nav {
@@ -408,6 +481,10 @@
   color: #303b42;
   font-size: 9px;
   letter-spacing: 0.18em;
+}
+
+.seo-landing-page .kov-footer a {
+  color: #3a454d;
 }
 
 .seo-landing-page .kov-footer a:hover {
@@ -552,7 +629,7 @@
 
   .seo-landing-page .kov-footer > nav {
     grid-template-columns: 1fr 1fr;
-    gap: 24px 18px;
+    gap: 10px 14px;
   }
 }
 

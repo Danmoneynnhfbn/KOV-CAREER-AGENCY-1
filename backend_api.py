@@ -5,6 +5,9 @@ from __future__ import annotations
 import os
 import re
 import secrets
+import hashlib
+import hmac
+import ipaddress
 from datetime import date, datetime, timedelta, timezone
 from pathlib import PurePath
 from typing import Literal
@@ -43,11 +46,30 @@ STATUS_TRANSITIONS = {
     "Placed": set(),
     "Rejected": set(),
 }
+PUBLIC_EMAIL_DOMAINS = frozenset({
+    "126.com", "163.com", "aol.com", "fastmail.com", "gmx.com", "gmx.de",
+    "googlemail.com", "gmail.com", "hey.com", "hushmail.com", "icloud.com",
+    "live.com", "mail.com", "mac.com", "me.com", "msn.com", "outlook.com",
+    "pm.me", "proton.me", "protonmail.com", "qq.com", "rediffmail.com",
+    "tutanota.com", "tutanota.de", "yahoo.ca", "yahoo.co.uk", "yahoo.com",
+    "yahoo.com.au", "yahoo.de", "yahoo.fr", "yahoo.in", "yandex.com",
+    "yandex.ru", "zoho.com",
+})
 
 
 def _configured(name: str) -> str | None:
     value = os.environ.get(name)
     return value.strip() if value and value.strip() else None
+
+
+def _candidate_initials(legal_name: str | None) -> str:
+    name_parts = legal_name.split() if legal_name else []
+    if not name_parts:
+        return ""
+    initials = name_parts[0][0]
+    if len(name_parts) > 1:
+        initials += name_parts[-1][0]
+    return initials.upper()
 
 
 def _service_client() -> Client:
@@ -320,6 +342,8 @@ class EmployerRegistration(BaseModel):
         normalized = value.strip().lower()
         if not re.fullmatch(r"[^@\s]+@[^@\s]+\.[^@\s]+", normalized):
             raise ValueError("Enter a valid email address.")
+        if normalized.rsplit("@", 1)[1] in PUBLIC_EMAIL_DOMAINS:
+            raise ValueError("Use a corporate email address; free/public email domains are not accepted.")
         return normalized
 
 
@@ -340,6 +364,59 @@ class PasswordResetRequest(BaseModel):
     @classmethod
     def normalize_email(cls, value: str) -> str:
         return value.strip().lower()
+
+
+class ContactLead(BaseModel):
+    first_name: str = Field(min_length=1, max_length=80)
+    last_name: str = Field(min_length=1, max_length=80)
+    email: str = Field(min_length=5, max_length=254)
+    audience: Literal[
+        "Senior Professional",
+        "Company / Hiring Team",
+        "Executive Search Firm",
+        "Other",
+    ]
+    phone: str | None = Field(default=None, max_length=40)
+    target_role: str = Field(min_length=2, max_length=200)
+    salary_range: str | None = Field(default=None, max_length=160)
+    linkedin_url: AnyHttpUrl | None = None
+    message: str | None = Field(default=None, max_length=5000)
+    company_name: str | None = Field(default=None, max_length=200)
+    location_market: str | None = Field(default=None, max_length=160)
+    target_seniority: str | None = Field(default=None, max_length=120)
+    timeline: str | None = Field(default=None, max_length=160)
+
+    @field_validator("first_name", "last_name", "target_role")
+    @classmethod
+    def validate_contact_text(cls, value: str) -> str:
+        cleaned = value.strip()
+        if not cleaned:
+            raise ValueError("This field cannot be blank.")
+        return cleaned
+
+    @field_validator("email")
+    @classmethod
+    def normalize_contact_email(cls, value: str) -> str:
+        normalized = value.strip().lower()
+        if not re.fullmatch(r"[^@\s]+@[^@\s]+\.[^@\s]+", normalized):
+            raise ValueError("Enter a valid email address.")
+        return normalized
+
+    @field_validator(
+        "phone",
+        "salary_range",
+        "message",
+        "company_name",
+        "location_market",
+        "target_seniority",
+        "timeline",
+    )
+    @classmethod
+    def normalize_optional_contact_text(cls, value: str | None) -> str | None:
+        if value is None:
+            return None
+        cleaned = value.strip()
+        return cleaned or None
 
 
 class PasswordUpdate(BaseModel):
@@ -469,7 +546,20 @@ def _require_role(request: Request, role: str, authorization: str | None) -> Ide
 
 
 def _require_admin(request: Request, authorization: str | None) -> Identity:
-    return _require_role(request, "administrator", authorization)
+    try:
+        identity = _require_identity(request, authorization)
+    except HTTPException as exc:
+        if exc.status_code in {401, 403}:
+            raise HTTPException(status_code=404, detail="Not Found") from exc
+        raise
+    admin_user_id = _configured("ADMIN_USER_ID")
+    if (
+        identity.role != "administrator"
+        or not admin_user_id
+        or not secrets.compare_digest(identity.user_id, admin_user_id)
+    ):
+        raise HTTPException(status_code=404, detail="Not Found")
+    return identity
 
 
 def _provision_candidate(
@@ -602,6 +692,33 @@ def _authorize_employer_directory(identity: Identity, service: Client) -> None:
         )
 
 
+def _contact_requester_hash(request: Request) -> str:
+    service_role_key = _configured("SUPABASE_SERVICE_ROLE_KEY")
+    if not service_role_key:
+        raise HTTPException(
+            status_code=503,
+            detail="Contact services are not configured.",
+        )
+    forwarded_for = request.headers.get("x-forwarded-for")
+    raw_ip = (
+        request.headers.get("x-real-ip")
+        or (forwarded_for.split(",", 1)[0].strip() if forwarded_for else None)
+        or (request.client.host if request.client else None)
+    )
+    try:
+        client_ip = ipaddress.ip_address(raw_ip or "")
+    except ValueError as exc:
+        raise HTTPException(
+            status_code=400,
+            detail="The request address could not be determined.",
+        ) from exc
+    return hmac.new(
+        service_role_key.encode("utf-8"),
+        client_ip.compressed.encode("ascii"),
+        hashlib.sha256,
+    ).hexdigest()
+
+
 def mount_backend_routes(app) -> None:
     @app.get("/api/v1/backend/health")
     def backend_health() -> dict[str, object]:
@@ -616,6 +733,43 @@ def mount_backend_routes(app) -> None:
             "auth_configured": auth_configured,
             "database_configured": database_configured,
         }
+
+    @app.post("/api/contact", status_code=201)
+    def submit_contact_lead(data: ContactLead, request: Request) -> dict[str, str]:
+        requester_hash = _contact_requester_hash(request)
+        service = _service_client()
+        try:
+            result = service.rpc(
+                "submit_contact_lead",
+                {
+                    "p_name": f"{data.first_name} {data.last_name}",
+                    "p_email": data.email,
+                    "p_audience": data.audience,
+                    "p_phone": data.phone,
+                    "p_target_role": data.target_role,
+                    "p_salary_range": data.salary_range,
+                    "p_linkedin_url": str(data.linkedin_url) if data.linkedin_url else None,
+                    "p_message": data.message,
+                    "p_company_name": data.company_name,
+                    "p_location_market": data.location_market,
+                    "p_target_seniority": data.target_seniority,
+                    "p_timeline": data.timeline,
+                    "p_requester_hash": requester_hash,
+                },
+            ).execute().data
+        except (APIError, httpx.RequestError) as exc:
+            raise _provider_error() from exc
+        if not isinstance(result, dict) or not isinstance(result.get("accepted"), bool):
+            raise HTTPException(
+                status_code=502,
+                detail="The contact request could not be confirmed.",
+            )
+        if not result["accepted"]:
+            raise HTTPException(
+                status_code=429,
+                detail="Too many inquiries from this network. Please try again later.",
+            )
+        return {"status": "received"}
 
     @app.post("/api/v1/billing/subscription/checkout")
     def create_subscription_checkout(
@@ -1192,6 +1346,17 @@ def mount_backend_routes(app) -> None:
         session = getattr(result, "session", None)
         if not session:
             raise HTTPException(status_code=401, detail="Email verification is required.")
+        user_id = _user_id(_user_from_response(result))
+        try:
+            (
+                _service_client()
+                .table("candidate_profiles")
+                .update({"last_activity_at": datetime.now(timezone.utc).isoformat()})
+                .eq("user_id", user_id)
+                .execute()
+            )
+        except (APIError, httpx.RequestError) as exc:
+            raise _provider_error() from exc
         _set_session_cookies(response, session)
         return {"status": "authenticated"}
 
@@ -1385,9 +1550,8 @@ def mount_backend_routes(app) -> None:
             query = (
                 service.table("candidate_profiles")
                 .select(
-                    "public_id,professional_title,professional_summary,skills,"
-                    "years_experience,target_roles,target_seniority,target_industries,"
-                    "target_geography,location_region,vetting_status,badge_approved"
+                    "id,public_id,skills,years_experience,location_region,"
+                    "target_geography,vetting_status,badge_approved"
                 )
                 .eq("vetting_status", "approved")
                 .eq("badge_approved", True)
@@ -1396,17 +1560,42 @@ def mount_backend_routes(app) -> None:
             if q:
                 safe_q = q.strip().replace("%", "").replace(",", " ")[:120]
                 if safe_q:
-                    query = query.ilike("professional_title", f"%{safe_q}%")
+                    query = query.contains("skills", [safe_q])
             if region:
                 query = query.contains("target_geography", [region.strip()])
-            result = (
+            profiles = (
                 query.order("created_at", desc=True)
                 .range(offset, offset + limit - 1)
                 .execute()
-            )
+            ).data or []
+            candidate_ids = [profile["id"] for profile in profiles]
+            private_by_candidate = {}
+            if candidate_ids:
+                private_rows = (
+                    service.table("candidate_private")
+                    .select("candidate_id,legal_name")
+                    .in_("candidate_id", candidate_ids)
+                    .execute()
+                ).data or []
+                private_by_candidate = {
+                    row["candidate_id"]: row.get("legal_name")
+                    for row in private_rows
+                }
         except (APIError, httpx.RequestError) as exc:
             raise _provider_error() from exc
-        return {"items": result.data or [], "limit": limit, "offset": offset}
+        items = [
+            {
+                "public_id": profile["public_id"],
+                "initials": _candidate_initials(
+                    private_by_candidate.get(profile["id"])
+                ),
+                "skills": profile.get("skills") or [],
+                "years_experience": profile.get("years_experience"),
+                "region": profile.get("location_region"),
+            }
+            for profile in profiles
+        ]
+        return {"items": items, "limit": limit, "offset": offset}
 
     @app.get("/api/v1/admin/candidates")
     def admin_candidates(
@@ -1656,6 +1845,9 @@ def mount_backend_routes(app) -> None:
                 data_values.pop("payment_status", None)
             else:
                 data_values = data.model_dump(exclude_unset=True, mode="json")
+                data_values["invoice_due_date"] = (
+                    data.placement_start_date + timedelta(days=30)
+                ).isoformat()
             data_values["updated_at"] = datetime.now(timezone.utc).isoformat()
             update_result = (
                 service.table("introductions")
@@ -1721,7 +1913,7 @@ def mount_backend_routes(app) -> None:
     def admin_placement_success_rate(
         request: Request,
         authorization: str | None = Header(default=None),
-    ) -> dict[str, int | float | None]:
+    ) -> dict[str, str | int | float | None]:
         _require_admin(request, authorization)
         service = _service_client()
         try:
@@ -1749,7 +1941,7 @@ def mount_backend_routes(app) -> None:
             "placed": placed_count,
             "rejected": rejected_count,
             "eligible": eligible,
-            "rate_percent": round(placed_count / eligible * 100, 2) if eligible else None,
+            "rate_percent": round(placed_count / eligible * 100, 1) if eligible else None,
         }
 
     @app.post("/api/v1/candidate/cv")
@@ -1905,10 +2097,14 @@ def mount_backend_routes(app) -> None:
 
     @app.post("/api/v1/maintenance/cleanup-expired-cvs")
     def cleanup_expired_cvs(
-        x_kov_cron_secret: str | None = Header(default=None),
+        authorization: str | None = Header(default=None),
     ) -> dict[str, int | str]:
         expected_secret = _configured("CRON_SECRET")
-        provided_secret = x_kov_cron_secret
+        provided_secret = (
+            authorization[7:].strip()
+            if authorization and authorization.lower().startswith("bearer ")
+            else None
+        )
         if not expected_secret or not provided_secret or not secrets.compare_digest(
             expected_secret, provided_secret
         ):
@@ -1918,13 +2114,15 @@ def mount_backend_routes(app) -> None:
             raise HTTPException(status_code=503, detail="Private CV storage is not configured.")
         service = _service_client()
         now = datetime.now(timezone.utc).isoformat()
+        activity_cutoff = (datetime.now(timezone.utc) - timedelta(days=30)).isoformat()
         try:
-            expired = (
+            # Activity means a successful login, candidate profile update, or introduction status change.
+            inactive_cvs = (
                 service.table("cv_files")
-                .select("id,storage_path,cleanup_attempts")
+                .select("id,storage_path,cleanup_attempts,candidate_profiles!inner(last_activity_at)")
                 .is_("deleted_at", "null")
                 .eq("legal_hold", False)
-                .lte("expires_at", now)
+                .lte("candidate_profiles.last_activity_at", activity_cutoff)
                 .limit(100)
                 .execute()
             ).data or []
@@ -1933,7 +2131,7 @@ def mount_backend_routes(app) -> None:
 
         deleted = 0
         failed = 0
-        for file_record in expired:
+        for file_record in inactive_cvs:
             attempts = file_record.get("cleanup_attempts") or 0
             try:
                 service.storage.from_(bucket).remove([file_record["storage_path"]])

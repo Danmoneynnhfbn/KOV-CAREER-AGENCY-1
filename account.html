@@ -6,7 +6,7 @@
   <meta name="robots" content="noindex,follow">
   <title>Account | KOV Career Agency</title>
   <link rel="stylesheet" href="assets/styles-DateywTe.css">
-  <link rel="stylesheet" href="assets/site-fixes.css?v=16">
+  <link rel="stylesheet" href="assets/site-fixes.css?v=27">
   <link rel="stylesheet" href="assets/backend-pages.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap">
 </head>
@@ -68,7 +68,7 @@
         <label>Target industries (comma-separated) <input name="target_industries" maxlength="1000"></label>
         <label>Target geography (comma-separated) <input name="target_geography" maxlength="1000"></label>
         <label>Career objectives <textarea name="career_objectives" rows="3" maxlength="3000"></textarea></label>
-        <label><span><input name="privacy_consent" type="checkbox" required> I acknowledge that my information will be used to review and respond to this registration.</span></label>
+        <label><span><input name="privacy_consent" type="checkbox" required> I agree to KOV using my registration information as described in the <a href="/privacy.html" class="font-semibold underline">Privacy Notice</a>.</span></label>
         <button type="submit">Create free candidate account</button>
       </form>
       <form id="employer-panel" class="account-fields account-registration" role="tabpanel" aria-labelledby="employer-tab" hidden>
@@ -80,11 +80,14 @@
         <label>Hiring roles (comma-separated) <input name="target_roles" maxlength="1000"></label>
         <label>Industries (comma-separated) <input name="target_industries" maxlength="1000"></label>
         <label>Hiring geography (comma-separated) <input name="target_geography" maxlength="1000"></label>
-        <label><span><input name="privacy_consent" type="checkbox" required> I acknowledge that my information will be used to review and respond to this registration.</span></label>
+        <label><span><input name="privacy_consent" type="checkbox" required> I agree to KOV using my registration information as described in the <a href="/privacy.html" class="font-semibold underline">Privacy Notice</a>.</span></label>
         <button type="submit">Submit company registration</button>
       </form>
     </section>
   </main>
+  <footer class="mx-auto max-w-7xl px-6 py-8 text-sm text-ink-soft lg:px-10">
+    <a href="/privacy.html" class="font-semibold underline">Privacy Notice</a>
+  </footer>
   <script src="/assets/account-api.js"></script>
   <script>
     (() => {
@@ -353,5 +356,6 @@
         });
     })();
   </script>
+<script src="assets/uniform-footer.js?v=7" defer></script>
 </body>
 </html>

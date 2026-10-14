@@ -4,7 +4,8 @@ This site now uses a GitHub Pages-compatible blog workflow with repository-backe
 
 ## How it works
 
-- The unlisted editor dashboard is available at `/blogpostcheck` and is not linked publicly. It is not protected by a login, so treat the URL as discoverable.
+- The editor dashboard is available at `/blogpostcheck` and `/blogpostcheck.html` only after server-side administrator authentication matching `ADMIN_USER_ID`.
+- The dashboard template lives under `.private_admin/` and is not published as a public static page.
 - The public blog is available at `/blog`.
 - Posts are stored in JSON files under the `posts/` folder in the repository.
 - Published posts automatically expire 30 days after their publish date.
@@ -12,7 +13,7 @@ This site now uses a GitHub Pages-compatible blog workflow with repository-backe
 
 ## Setup
 
-1. Open `blog.html` and `blogpostcheck.html`.
+1. Open `blog.html` and `.private_admin/blogpostcheck.html` in the repository.
 2. Set `window.KOV_BLOG_CONFIG.repo` to the repository slug: `Danmoneynnhfbn/KOV-CAREER-AGENCY-1`.
 3. Set `branch` to the branch containing the blog page and `posts/` directory. In the current repository this is `master`; `main` does not contain them.
 4. Ensure `postsPath` is set to `posts`.
@@ -20,7 +21,7 @@ This site now uses a GitHub Pages-compatible blog workflow with repository-backe
 
 ## Using the dashboard
 
-- Visit `/blogpostcheck` directly.
+- Sign in with the configured administrator account, then visit `/blogpostcheck`.
 - Paste a GitHub personal access token into the dashboard and save it for the current browser session.
 - The token stays in browser session storage only and is not stored permanently in the repository.
 - Publish new posts or save drafts.
@@ -32,6 +33,5 @@ This site now uses a GitHub Pages-compatible blog workflow with repository-backe
 ## Notes
 
 - The public blog page reads published posts from the repository at runtime.
-- For GitHub Pages deployment, the site remains fully static.
-- The old `server.py` runtime backend is not required for the GitHub Pages version.
-- If `server.py` and `requirements.txt` are present, they are legacy artifacts from the prior local backend approach.
+- The public blog can remain static, but serving the protected editor requires the FastAPI runtime and a configured `ADMIN_USER_ID`.
+- The GitHub token is kept in browser session storage only; do not move it to local storage or source-controlled configuration.

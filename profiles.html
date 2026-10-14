@@ -6,7 +6,7 @@
   <meta name="robots" content="noindex,nofollow">
   <title>Candidate Directory | KOV Career Agency</title>
   <link rel="stylesheet" href="assets/styles-DateywTe.css">
-  <link rel="stylesheet" href="assets/site-fixes.css?v=16">
+  <link rel="stylesheet" href="assets/site-fixes.css?v=27">
   <link rel="stylesheet" href="assets/backend-pages.css">
   <style>
     .directory-shell { max-width: 1120px; margin: 0 auto; padding: 3rem 1.25rem; }
@@ -50,19 +50,25 @@
             card.className = 'directory-card';
             const avatar = document.createElement('span');
             avatar.className = 'directory-avatar';
-            avatar.setAttribute('aria-label', 'Initials from professional title');
-            avatar.textContent = (profile.professional_title || 'KOV')
-              .split(/\s+/).filter(Boolean).slice(0, 2).map((part) => part[0].toUpperCase()).join('');
+            avatar.setAttribute('role', 'img');
+            avatar.setAttribute('aria-label', 'Candidate initials');
+            avatar.textContent = profile.initials || '';
             const copy = document.createElement('div');
             const title = document.createElement('h2');
-            title.textContent = profile.professional_title || 'Senior professional';
-            const id = document.createElement('p');
-            id.textContent = profile.public_id;
-            const summary = document.createElement('p');
-            summary.textContent = profile.professional_summary || '';
+            title.textContent = profile.public_id;
             const skills = document.createElement('p');
             skills.textContent = (profile.skills || []).join(', ');
-            copy.append(title, id, summary, skills);
+            copy.append(title, skills);
+            if (profile.years_experience !== null && profile.years_experience !== undefined) {
+              const experience = document.createElement('p');
+              experience.textContent = `${profile.years_experience} years experience`;
+              copy.append(experience);
+            }
+            if (profile.region) {
+              const region = document.createElement('p');
+              region.textContent = profile.region;
+              copy.append(region);
+            }
             card.append(avatar, copy);
             list.append(card);
           }
@@ -70,5 +76,6 @@
         .catch((error) => { status.textContent = error.message; });
     })();
   </script>
+<script src="assets/uniform-footer.js?v=7" defer></script>
 </body>
 </html>

@@ -247,10 +247,48 @@
     brandRow.className = 'kov-footer-brand-row';
     if (brand) brandRow.append(brand);
 
+    const privacyLink = [...footer.querySelectorAll('a')].find((link) => {
+      const href = (link.getAttribute('href') || '').toLowerCase();
+      return href.includes('privacy.html');
+    });
+
+    const bottomBar = document.createElement('div');
+    bottomBar.className = 'kov-footer-bottom-bar';
+
+    const keepBar = footerContainer.querySelector('.kov-footer-bottom-bar') || bottomBar;
+    const finalBar = keepBar === bottomBar ? bottomBar : keepBar;
+
+    if (legal) {
+      const legalNode = legal.closest('[class*="mt-10"], [class*="flex-col"], [class*="justify-between"], .kov-legal') || legal;
+      legalNode.classList.add('kov-legal');
+      legalNode.classList.remove('mt-10', 'flex', 'flex-col', 'gap-2', 'border-t', 'border-line/60', 'pt-6', 'md:flex-row', 'md:items-center', 'md:justify-between');
+      legalNode.removeAttribute('style');
+      legalNode.remove();
+      if (!finalBar.contains(legalNode)) finalBar.append(legalNode);
+    }
+
+    if (privacyLink && !finalBar.querySelector('a[href*="privacy.html"]')) {
+      privacyLink.classList.add('kov-footer-privacy-link');
+      privacyLink.remove();
+      finalBar.append(privacyLink);
+    }
+
+    const translateWidget = document.getElementById('kov-translate-widget');
+    if (translateWidget && !finalBar.contains(translateWidget)) {
+      finalBar.append(translateWidget);
+    }
+
+    const duplicateBars = [...footerContainer.querySelectorAll('.kov-footer-bottom-bar')].filter((el) => el !== finalBar);
+    duplicateBars.forEach((bar) => {
+      while (bar.firstChild) finalBar.appendChild(bar.firstChild);
+      bar.remove();
+    });
+
+    const targetBar = footerContainer.querySelector('.kov-footer-bottom-bar') || bottomBar;
     footerContainer.replaceChildren();
     if (brandRow.childElementCount) footerContainer.append(brandRow);
     footerContainer.append(directory);
-    if (legal) footerContainer.append(legal);
+    if (targetBar.childElementCount) footerContainer.append(targetBar);
   }
 
   normalizeFooter();

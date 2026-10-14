@@ -111,6 +111,29 @@ create table if not exists public.employers (
     check (verification_status <> 'verified' or verified_at is not null)
 );
 
+do $$
+begin
+    if not exists (
+        select 1
+        from pg_constraint
+        where conname = 'employers_corporate_email_domain_check'
+          and conrelid = 'public.employers'::regclass
+    ) then
+        alter table public.employers
+            add constraint employers_corporate_email_domain_check
+            check (lower(split_part(corporate_email, '@', 2)) not in (
+                '126.com', '163.com', 'aol.com', 'fastmail.com', 'gmx.com', 'gmx.de',
+                'googlemail.com', 'gmail.com', 'hey.com', 'hushmail.com', 'icloud.com',
+                'live.com', 'mail.com', 'mac.com', 'me.com', 'msn.com', 'outlook.com',
+                'pm.me', 'proton.me', 'protonmail.com', 'qq.com', 'rediffmail.com',
+                'tutanota.com', 'tutanota.de', 'yahoo.ca', 'yahoo.co.uk', 'yahoo.com',
+                'yahoo.com.au', 'yahoo.de', 'yahoo.fr', 'yahoo.in', 'yandex.com',
+                'yandex.ru', 'zoho.com'
+            ));
+    end if;
+end
+$$;
+
 create table if not exists public.employer_memberships (
     employer_id uuid not null references public.employers(id) on delete cascade,
     user_id uuid not null references public.app_users(user_id) on delete cascade,
@@ -432,6 +455,9 @@ begin
     elsif new.status is distinct from old.status then
         insert into public.introduction_history (introduction_id, previous_status, new_status, changed_by)
         values (new.id, old.status, new.status, auth.uid());
+        update public.candidate_profiles
+        set last_activity_at = now()
+        where id = new.candidate_id;
     end if;
     return new;
 end
@@ -439,6 +465,56 @@ $$;
 drop trigger if exists introductions_status_history on public.introductions;
 create trigger introductions_status_history after insert or update of status
     on public.introductions for each row execute function public.record_introduction_status();
+
+create or replace function public.touch_candidate_profile_activity()
+returns trigger language plpgsql set search_path = ''
+as $$
+begin
+    if row(
+        new.professional_title, new.professional_summary, new.skills, new.years_experience,
+        new.target_roles, new.target_seniority, new.target_industries, new.target_geography,
+        new.location_region
+    ) is distinct from row(
+        old.professional_title, old.professional_summary, old.skills, old.years_experience,
+        old.target_roles, old.target_seniority, old.target_industries, old.target_geography,
+        old.location_region
+    ) then
+        new.last_activity_at := now();
+    end if;
+    return new;
+end
+$$;
+drop trigger if exists candidate_profile_activity on public.candidate_profiles;
+create trigger candidate_profile_activity
+    before update of professional_title, professional_summary, skills, years_experience,
+        target_roles, target_seniority, target_industries, target_geography, location_region
+    on public.candidate_profiles
+    for each row execute function public.touch_candidate_profile_activity();
+
+create or replace function public.touch_candidate_private_activity()
+returns trigger language plpgsql security definer set search_path = ''
+as $$
+begin
+    if row(
+        new.legal_name, new.email, new.phone, new.expected_compensation,
+        new.preferred_companies, new.career_objectives
+    ) is distinct from row(
+        old.legal_name, old.email, old.phone, old.expected_compensation,
+        old.preferred_companies, old.career_objectives
+    ) then
+        update public.candidate_profiles
+        set last_activity_at = now()
+        where id = new.candidate_id;
+    end if;
+    return new;
+end
+$$;
+drop trigger if exists candidate_private_activity on public.candidate_private;
+create trigger candidate_private_activity
+    before update of legal_name, email, phone, expected_compensation,
+        preferred_companies, career_objectives
+    on public.candidate_private
+    for each row execute function public.touch_candidate_private_activity();
 
 create table if not exists public.invoices (
     id uuid primary key default extensions.gen_random_uuid(),
@@ -514,6 +590,84 @@ create table if not exists public.email_delivery_events (
     created_at timestamptz not null default now(),
     sent_at timestamptz
 );
+create table if not exists public.contact_leads (
+    id uuid primary key default extensions.gen_random_uuid(),
+    name text not null check (length(name) between 2 and 161),
+    email text not null check (length(email) between 5 and 254),
+    audience text not null
+        check (audience in ('Senior Professional', 'Company / Hiring Team', 'Executive Search Firm', 'Other')),
+    phone text,
+    target_role text not null check (length(target_role) between 2 and 200),
+    salary_range text,
+    linkedin_url text,
+    message text,
+    company_name text,
+    location_market text,
+    target_seniority text,
+    timeline text,
+    requester_hash text not null check (requester_hash ~ '^[a-f0-9]{64}$'),
+    created_at timestamptz not null default now()
+);
+create index if not exists contact_leads_requester_created_idx
+    on public.contact_leads (requester_hash, created_at desc);
+
+create or replace function public.submit_contact_lead(
+    p_name text,
+    p_email text,
+    p_audience text,
+    p_phone text,
+    p_target_role text,
+    p_salary_range text,
+    p_linkedin_url text,
+    p_message text,
+    p_company_name text,
+    p_location_market text,
+    p_target_seniority text,
+    p_timeline text,
+    p_requester_hash text
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+    recent_lead_count integer;
+begin
+    if coalesce(auth.role(), '') <> 'service_role' then
+        raise exception 'Contact submission is restricted';
+    end if;
+    if p_requester_hash !~ '^[a-f0-9]{64}$' then
+        raise exception 'Contact requester hash is invalid';
+    end if;
+    perform pg_catalog.pg_advisory_xact_lock(
+        pg_catalog.hashtext(p_requester_hash)
+    );
+    select count(*) into recent_lead_count
+    from public.contact_leads
+    where requester_hash = p_requester_hash
+      and created_at >= now() - interval '15 minutes';
+    if recent_lead_count >= 5 then
+        return jsonb_build_object('accepted', false);
+    end if;
+    insert into public.contact_leads (
+        name, email, audience, phone, target_role, salary_range, linkedin_url,
+        message, company_name, location_market, target_seniority, timeline,
+        requester_hash
+    ) values (
+        p_name, lower(p_email), p_audience, p_phone, p_target_role, p_salary_range,
+        p_linkedin_url, p_message, p_company_name, p_location_market,
+        p_target_seniority, p_timeline, p_requester_hash
+    );
+    return jsonb_build_object('accepted', true);
+end
+$$;
+revoke all on function public.submit_contact_lead(
+    text, text, text, text, text, text, text, text, text, text, text, text, text
+) from public, anon, authenticated;
+grant execute on function public.submit_contact_lead(
+    text, text, text, text, text, text, text, text, text, text, text, text, text
+) to service_role;
 
 create or replace function public.draft_placement_invoice(
     p_introduction_id uuid,
@@ -1012,7 +1166,7 @@ begin
         'commercial_settings',
         'subscriptions', 'cv_files', 'introductions', 'introduction_history',
         'invoices', 'payment_events', 'payment_transactions', 'audit_events',
-        'background_job_runs', 'email_delivery_events'
+        'background_job_runs', 'email_delivery_events', 'contact_leads'
     ] loop
         execute format('alter table public.%I enable row level security', table_name);
     end loop;
@@ -1032,7 +1186,7 @@ begin
               'subscription_plans', 'commercial_settings', 'subscriptions',
               'cv_files', 'introductions', 'introduction_history', 'invoices',
               'payment_events', 'payment_transactions', 'audit_events',
-              'background_job_runs', 'email_delivery_events'
+              'background_job_runs', 'email_delivery_events', 'contact_leads'
           ])
     loop
         execute format('drop policy %I on %I.%I',
@@ -1120,12 +1274,14 @@ create policy background_jobs_admin_only on public.background_job_runs for selec
     using ((select public.is_app_admin()));
 create policy email_events_admin_only on public.email_delivery_events for select to authenticated
     using ((select public.is_app_admin()));
+create policy contact_leads_admin_only on public.contact_leads for select to authenticated
+    using ((select public.is_app_admin()));
 
 revoke all privileges on all tables in schema public from anon, authenticated;
 grant select on public.app_users, public.candidate_profiles, public.employer_memberships,
     public.cv_files, public.introductions, public.introduction_history,
     public.invoices, public.payment_events, public.payment_transactions, public.audit_events,
-    public.background_job_runs, public.email_delivery_events
+    public.background_job_runs, public.email_delivery_events, public.contact_leads
     to authenticated;
 grant select on public.subscription_plans to anon, authenticated;
 grant select (

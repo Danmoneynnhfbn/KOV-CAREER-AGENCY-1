@@ -1,0 +1,1935 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Private Blog Dashboard | KOV</title>
+    <meta name="description" content="Hidden publishing dashboard for trusted KOV editors." />
+    <link rel="icon" type="image/png" href="kov-logo.png" />
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #111111;
+        --muted: #5d5d5d;
+        --paper: #fffdf9;
+        --line: #e7e3db;
+        --accent: #c85b20;
+        --accent-soft: #fbe6dc;
+      }
+
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: var(--paper);
+        color: var(--ink);
+        line-height: 1.6;
+      }
+
+      a { color: var(--accent); }
+      .shell {
+        max-width: 1320px;
+        margin: 0 auto;
+        padding: 1.25rem;
+      }
+
+      .topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 0 1.5rem;
+        border-bottom: 1px solid var(--line);
+        margin-bottom: 1.5rem;
+      }
+
+      .topbar h1 { margin: 0; font-size: 1.5rem; }
+      .topbar p { margin: 0.25rem 0 0; color: var(--muted); }
+      .topbar .pill {
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 0.55rem 0.85rem;
+        background: #fff;
+        font-size: 0.9rem;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 310px 1fr;
+        gap: 1.25rem;
+      }
+
+      .panel {
+        background: #ffffff;
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        padding: 1rem;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.04);
+      }
+
+      .panel h2 { margin: 0 0 0.8rem; font-size: 1rem; }
+      .muted { color: var(--muted); }
+      input[type="text"], input[type="url"], input[type="password"], input[type="file"], textarea {
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 0.8rem 0.9rem;
+        font: inherit;
+        margin-bottom: 0.8rem;
+        background: #fcfbf8;
+      }
+
+      textarea {
+        min-height: 120px;
+        resize: vertical;
+      }
+
+      .toolbar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem;
+        margin-bottom: 0.8rem;
+      }
+
+      .toolbar button, .actions button {
+        border: 1px solid var(--line);
+        background: #fff;
+        color: var(--ink);
+        padding: 0.5rem 0.75rem;
+        border-radius: 999px;
+        cursor: pointer;
+        font: inherit;
+      }
+
+      .toolbar button:hover, .actions button:hover { background: var(--accent-soft); }
+      .editor {
+        min-height: 320px;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 1rem;
+        background: #fcfbf8;
+        overflow: auto;
+      }
+
+      .editor:focus { outline: 2px solid rgba(200,91,32,0.2); }
+      .actions { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 0.9rem; }
+      .actions .primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+      .actions .danger { color: #b62f2f; }
+
+      .post-list { display: flex; flex-direction: column; gap: 0.55rem; }
+      .post-item {
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: #fcfbf8;
+        padding: 0.75rem 0.85rem;
+        text-align: left;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+      }
+      .post-item.selected { border-color: var(--accent); background: var(--accent-soft); }
+      .post-item span { color: var(--muted); font-size: 0.9rem; }
+
+      .preview-card {
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        overflow: hidden;
+        background: #fff;
+      }
+
+      .preview-image {
+        width: 100%;
+        max-height: 220px;
+        object-fit: cover;
+      }
+
+      .blog-video-wrap { margin: 1rem 0; }
+      .blog-video { display: block; width: 100%; max-height: 460px; background: #111; }
+      .blog-video-mute {
+        margin-top: 0.5rem;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 0.45rem 0.75rem;
+        background: #fff;
+        color: var(--ink);
+        cursor: pointer;
+        font: inherit;
+      }
+
+      .preview-body { padding: 1rem; }
+      .preview-content p, .preview-content ul, .preview-content ol { margin: 0 0 0.75rem; }
+      .preview-content img { max-width: 100%; border-radius: 12px; margin: 0.7rem 0; }
+
+      .meta-block {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 0.75rem;
+        margin-bottom: 1rem;
+      }
+
+      @media (max-width: 980px) {
+        .grid { grid-template-columns: 1fr; }
+      }
+    </style>
+    <link rel="stylesheet" href="assets/backend-pages.css">
+      <script type="application/ld+json" data-kov="core">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "ProfessionalService",
+        "EmploymentAgency"
+      ],
+      "@id": "https://kovcareeragency.org/#organization",
+      "name": "KOV Career Agency",
+      "alternateName": [
+        "KOV Career",
+        "KovCareer"
+      ],
+      "url": "https://kovcareeragency.org",
+      "logo": "https://kovcareeragency.org/kov-logo.png",
+      "image": "https://kovcareeragency.org/preview.png",
+      "email": "daniel@kovcareeragency.org",
+      "description": "Founder-led reverse recruiting and global talent sourcing agency. KOV represents candidates directly to employers and sources passive talent across global markets.",
+      "founder": {
+        "@id": "https://kovcareeragency.org/#founder"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "Afghanistan"
+        },
+        {
+          "@type": "Country",
+          "name": "Albania"
+        },
+        {
+          "@type": "Country",
+          "name": "Algeria"
+        },
+        {
+          "@type": "Country",
+          "name": "Andorra"
+        },
+        {
+          "@type": "Country",
+          "name": "Angola"
+        },
+        {
+          "@type": "Country",
+          "name": "Antigua and Barbuda"
+        },
+        {
+          "@type": "Country",
+          "name": "Argentina"
+        },
+        {
+          "@type": "Country",
+          "name": "Armenia"
+        },
+        {
+          "@type": "Country",
+          "name": "Australia"
+        },
+        {
+          "@type": "Country",
+          "name": "Austria"
+        },
+        {
+          "@type": "Country",
+          "name": "Azerbaijan"
+        },
+        {
+          "@type": "Country",
+          "name": "Bahamas"
+        },
+        {
+          "@type": "Country",
+          "name": "Bahrain"
+        },
+        {
+          "@type": "Country",
+          "name": "Bangladesh"
+        },
+        {
+          "@type": "Country",
+          "name": "Barbados"
+        },
+        {
+          "@type": "Country",
+          "name": "Belarus"
+        },
+        {
+          "@type": "Country",
+          "name": "Belgium"
+        },
+        {
+          "@type": "Country",
+          "name": "Belize"
+        },
+        {
+          "@type": "Country",
+          "name": "Benin"
+        },
+        {
+          "@type": "Country",
+          "name": "Bhutan"
+        },
+        {
+          "@type": "Country",
+          "name": "Bolivia"
+        },
+        {
+          "@type": "Country",
+          "name": "Bosnia and Herzegovina"
+        },
+        {
+          "@type": "Country",
+          "name": "Botswana"
+        },
+        {
+          "@type": "Country",
+          "name": "Brazil"
+        },
+        {
+          "@type": "Country",
+          "name": "Brunei"
+        },
+        {
+          "@type": "Country",
+          "name": "Bulgaria"
+        },
+        {
+          "@type": "Country",
+          "name": "Burkina Faso"
+        },
+        {
+          "@type": "Country",
+          "name": "Burundi"
+        },
+        {
+          "@type": "Country",
+          "name": "Cabo Verde"
+        },
+        {
+          "@type": "Country",
+          "name": "Cambodia"
+        },
+        {
+          "@type": "Country",
+          "name": "Cameroon"
+        },
+        {
+          "@type": "Country",
+          "name": "Canada"
+        },
+        {
+          "@type": "Country",
+          "name": "Central African Republic"
+        },
+        {
+          "@type": "Country",
+          "name": "Chad"
+        },
+        {
+          "@type": "Country",
+          "name": "Chile"
+        },
+        {
+          "@type": "Country",
+          "name": "China"
+        },
+        {
+          "@type": "Country",
+          "name": "Colombia"
+        },
+        {
+          "@type": "Country",
+          "name": "Comoros"
+        },
+        {
+          "@type": "Country",
+          "name": "Congo (Republic of the)"
+        },
+        {
+          "@type": "Country",
+          "name": "Congo (Democratic Republic of the)"
+        },
+        {
+          "@type": "Country",
+          "name": "Costa Rica"
+        },
+        {
+          "@type": "Country",
+          "name": "Cote d'Ivoire"
+        },
+        {
+          "@type": "Country",
+          "name": "Croatia"
+        },
+        {
+          "@type": "Country",
+          "name": "Cuba"
+        },
+        {
+          "@type": "Country",
+          "name": "Cyprus"
+        },
+        {
+          "@type": "Country",
+          "name": "Czechia"
+        },
+        {
+          "@type": "Country",
+          "name": "Denmark"
+        },
+        {
+          "@type": "Country",
+          "name": "Djibouti"
+        },
+        {
+          "@type": "Country",
+          "name": "Dominica"
+        },
+        {
+          "@type": "Country",
+          "name": "Dominican Republic"
+        },
+        {
+          "@type": "Country",
+          "name": "Ecuador"
+        },
+        {
+          "@type": "Country",
+          "name": "Egypt"
+        },
+        {
+          "@type": "Country",
+          "name": "El Salvador"
+        },
+        {
+          "@type": "Country",
+          "name": "Equatorial Guinea"
+        },
+        {
+          "@type": "Country",
+          "name": "Eritrea"
+        },
+        {
+          "@type": "Country",
+          "name": "Estonia"
+        },
+        {
+          "@type": "Country",
+          "name": "Eswatini"
+        },
+        {
+          "@type": "Country",
+          "name": "Ethiopia"
+        },
+        {
+          "@type": "Country",
+          "name": "Fiji"
+        },
+        {
+          "@type": "Country",
+          "name": "Finland"
+        },
+        {
+          "@type": "Country",
+          "name": "France"
+        },
+        {
+          "@type": "Country",
+          "name": "Gabon"
+        },
+        {
+          "@type": "Country",
+          "name": "Gambia"
+        },
+        {
+          "@type": "Country",
+          "name": "Georgia"
+        },
+        {
+          "@type": "Country",
+          "name": "Germany"
+        },
+        {
+          "@type": "Country",
+          "name": "Ghana"
+        },
+        {
+          "@type": "Country",
+          "name": "Greece"
+        },
+        {
+          "@type": "Country",
+          "name": "Grenada"
+        },
+        {
+          "@type": "Country",
+          "name": "Guatemala"
+        },
+        {
+          "@type": "Country",
+          "name": "Guinea"
+        },
+        {
+          "@type": "Country",
+          "name": "Guinea-Bissau"
+        },
+        {
+          "@type": "Country",
+          "name": "Guyana"
+        },
+        {
+          "@type": "Country",
+          "name": "Haiti"
+        },
+        {
+          "@type": "Country",
+          "name": "Honduras"
+        },
+        {
+          "@type": "Country",
+          "name": "Hungary"
+        },
+        {
+          "@type": "Country",
+          "name": "Iceland"
+        },
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        {
+          "@type": "Country",
+          "name": "Indonesia"
+        },
+        {
+          "@type": "Country",
+          "name": "Iran"
+        },
+        {
+          "@type": "Country",
+          "name": "Iraq"
+        },
+        {
+          "@type": "Country",
+          "name": "Ireland"
+        },
+        {
+          "@type": "Country",
+          "name": "Israel"
+        },
+        {
+          "@type": "Country",
+          "name": "Italy"
+        },
+        {
+          "@type": "Country",
+          "name": "Jamaica"
+        },
+        {
+          "@type": "Country",
+          "name": "Japan"
+        },
+        {
+          "@type": "Country",
+          "name": "Jordan"
+        },
+        {
+          "@type": "Country",
+          "name": "Kazakhstan"
+        },
+        {
+          "@type": "Country",
+          "name": "Kenya"
+        },
+        {
+          "@type": "Country",
+          "name": "Kiribati"
+        },
+        {
+          "@type": "Country",
+          "name": "Kosovo"
+        },
+        {
+          "@type": "Country",
+          "name": "Kuwait"
+        },
+        {
+          "@type": "Country",
+          "name": "Kyrgyzstan"
+        },
+        {
+          "@type": "Country",
+          "name": "Laos"
+        },
+        {
+          "@type": "Country",
+          "name": "Latvia"
+        },
+        {
+          "@type": "Country",
+          "name": "Lebanon"
+        },
+        {
+          "@type": "Country",
+          "name": "Lesotho"
+        },
+        {
+          "@type": "Country",
+          "name": "Liberia"
+        },
+        {
+          "@type": "Country",
+          "name": "Libya"
+        },
+        {
+          "@type": "Country",
+          "name": "Liechtenstein"
+        },
+        {
+          "@type": "Country",
+          "name": "Lithuania"
+        },
+        {
+          "@type": "Country",
+          "name": "Luxembourg"
+        },
+        {
+          "@type": "Country",
+          "name": "Madagascar"
+        },
+        {
+          "@type": "Country",
+          "name": "Malawi"
+        },
+        {
+          "@type": "Country",
+          "name": "Malaysia"
+        },
+        {
+          "@type": "Country",
+          "name": "Maldives"
+        },
+        {
+          "@type": "Country",
+          "name": "Mali"
+        },
+        {
+          "@type": "Country",
+          "name": "Malta"
+        },
+        {
+          "@type": "Country",
+          "name": "Marshall Islands"
+        },
+        {
+          "@type": "Country",
+          "name": "Mauritania"
+        },
+        {
+          "@type": "Country",
+          "name": "Mauritius"
+        },
+        {
+          "@type": "Country",
+          "name": "Mexico"
+        },
+        {
+          "@type": "Country",
+          "name": "Micronesia"
+        },
+        {
+          "@type": "Country",
+          "name": "Moldova"
+        },
+        {
+          "@type": "Country",
+          "name": "Monaco"
+        },
+        {
+          "@type": "Country",
+          "name": "Mongolia"
+        },
+        {
+          "@type": "Country",
+          "name": "Montenegro"
+        },
+        {
+          "@type": "Country",
+          "name": "Morocco"
+        },
+        {
+          "@type": "Country",
+          "name": "Mozambique"
+        },
+        {
+          "@type": "Country",
+          "name": "Myanmar"
+        },
+        {
+          "@type": "Country",
+          "name": "Namibia"
+        },
+        {
+          "@type": "Country",
+          "name": "Nauru"
+        },
+        {
+          "@type": "Country",
+          "name": "Nepal"
+        },
+        {
+          "@type": "Country",
+          "name": "Netherlands"
+        },
+        {
+          "@type": "Country",
+          "name": "New Zealand"
+        },
+        {
+          "@type": "Country",
+          "name": "Nicaragua"
+        },
+        {
+          "@type": "Country",
+          "name": "Niger"
+        },
+        {
+          "@type": "Country",
+          "name": "Nigeria"
+        },
+        {
+          "@type": "Country",
+          "name": "North Korea"
+        },
+        {
+          "@type": "Country",
+          "name": "North Macedonia"
+        },
+        {
+          "@type": "Country",
+          "name": "Norway"
+        },
+        {
+          "@type": "Country",
+          "name": "Oman"
+        },
+        {
+          "@type": "Country",
+          "name": "Pakistan"
+        },
+        {
+          "@type": "Country",
+          "name": "Palau"
+        },
+        {
+          "@type": "Country",
+          "name": "Panama"
+        },
+        {
+          "@type": "Country",
+          "name": "Papua New Guinea"
+        },
+        {
+          "@type": "Country",
+          "name": "Paraguay"
+        },
+        {
+          "@type": "Country",
+          "name": "Peru"
+        },
+        {
+          "@type": "Country",
+          "name": "Philippines"
+        },
+        {
+          "@type": "Country",
+          "name": "Poland"
+        },
+        {
+          "@type": "Country",
+          "name": "Portugal"
+        },
+        {
+          "@type": "Country",
+          "name": "Qatar"
+        },
+        {
+          "@type": "Country",
+          "name": "Romania"
+        },
+        {
+          "@type": "Country",
+          "name": "Russia"
+        },
+        {
+          "@type": "Country",
+          "name": "Rwanda"
+        },
+        {
+          "@type": "Country",
+          "name": "Saint Kitts and Nevis"
+        },
+        {
+          "@type": "Country",
+          "name": "Saint Lucia"
+        },
+        {
+          "@type": "Country",
+          "name": "Saint Vincent and the Grenadines"
+        },
+        {
+          "@type": "Country",
+          "name": "Samoa"
+        },
+        {
+          "@type": "Country",
+          "name": "San Marino"
+        },
+        {
+          "@type": "Country",
+          "name": "Sao Tome and Principe"
+        },
+        {
+          "@type": "Country",
+          "name": "Saudi Arabia"
+        },
+        {
+          "@type": "Country",
+          "name": "Senegal"
+        },
+        {
+          "@type": "Country",
+          "name": "Serbia"
+        },
+        {
+          "@type": "Country",
+          "name": "Seychelles"
+        },
+        {
+          "@type": "Country",
+          "name": "Sierra Leone"
+        },
+        {
+          "@type": "Country",
+          "name": "Singapore"
+        },
+        {
+          "@type": "Country",
+          "name": "Slovakia"
+        },
+        {
+          "@type": "Country",
+          "name": "Slovenia"
+        },
+        {
+          "@type": "Country",
+          "name": "Solomon Islands"
+        },
+        {
+          "@type": "Country",
+          "name": "Somalia"
+        },
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        },
+        {
+          "@type": "Country",
+          "name": "South Korea"
+        },
+        {
+          "@type": "Country",
+          "name": "South Sudan"
+        },
+        {
+          "@type": "Country",
+          "name": "Spain"
+        },
+        {
+          "@type": "Country",
+          "name": "Sri Lanka"
+        },
+        {
+          "@type": "Country",
+          "name": "Sudan"
+        },
+        {
+          "@type": "Country",
+          "name": "Suriname"
+        },
+        {
+          "@type": "Country",
+          "name": "Sweden"
+        },
+        {
+          "@type": "Country",
+          "name": "Switzerland"
+        },
+        {
+          "@type": "Country",
+          "name": "Syria"
+        },
+        {
+          "@type": "Country",
+          "name": "Tajikistan"
+        },
+        {
+          "@type": "Country",
+          "name": "Tanzania"
+        },
+        {
+          "@type": "Country",
+          "name": "Thailand"
+        },
+        {
+          "@type": "Country",
+          "name": "Timor-Leste"
+        },
+        {
+          "@type": "Country",
+          "name": "Togo"
+        },
+        {
+          "@type": "Country",
+          "name": "Tonga"
+        },
+        {
+          "@type": "Country",
+          "name": "Trinidad and Tobago"
+        },
+        {
+          "@type": "Country",
+          "name": "Tunisia"
+        },
+        {
+          "@type": "Country",
+          "name": "Turkey"
+        },
+        {
+          "@type": "Country",
+          "name": "Turkmenistan"
+        },
+        {
+          "@type": "Country",
+          "name": "Tuvalu"
+        },
+        {
+          "@type": "Country",
+          "name": "Uganda"
+        },
+        {
+          "@type": "Country",
+          "name": "Ukraine"
+        },
+        {
+          "@type": "Country",
+          "name": "United Arab Emirates"
+        },
+        {
+          "@type": "Country",
+          "name": "United Kingdom"
+        },
+        {
+          "@type": "Country",
+          "name": "United States"
+        },
+        {
+          "@type": "Country",
+          "name": "Uruguay"
+        },
+        {
+          "@type": "Country",
+          "name": "Uzbekistan"
+        },
+        {
+          "@type": "Country",
+          "name": "Vanuatu"
+        },
+        {
+          "@type": "Country",
+          "name": "Vatican City"
+        },
+        {
+          "@type": "Country",
+          "name": "Venezuela"
+        },
+        {
+          "@type": "Country",
+          "name": "Vietnam"
+        },
+        {
+          "@type": "Country",
+          "name": "Yemen"
+        },
+        {
+          "@type": "Country",
+          "name": "Zambia"
+        },
+        {
+          "@type": "Country",
+          "name": "Zimbabwe"
+        }
+      ],
+      "sameAs": [
+        "https://www.reddit.com/user/KOV_CAREER_AGENCY/"
+      ],
+      "foundingDate": "2014"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://kovcareeragency.org/#founder",
+      "name": "Daniel Ade",
+      "jobTitle": "Founder and Principal Career Strategist",
+      "worksFor": {
+        "@id": "https://kovcareeragency.org/#organization"
+      },
+      "url": "https://kovcareeragency.org",
+      "sameAs": [
+        "https://www.reddit.com/user/KOV_CAREER_AGENCY/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://kovcareeragency.org/#website",
+      "url": "https://kovcareeragency.org",
+      "name": "KOV Career Agency",
+      "description": "Global executive career agency and recruiting partner for senior professionals and companies.",
+      "publisher": {
+        "@id": "https://kovcareeragency.org/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://kovcareeragency.org/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json" data-kov="page">
+{
+  "@context": "https://schema.org",
+  "@type": [
+    "WebPage"
+  ],
+  "@id": "https://kovcareeragency.org/blogpostcheck.html#webpage",
+  "url": "https://kovcareeragency.org/blogpostcheck.html",
+  "name": "Private Blog Dashboard | KOV",
+  "isPartOf": {
+    "@id": "https://kovcareeragency.org/#website"
+  },
+  "about": {
+    "@id": "https://kovcareeragency.org/#organization"
+  },
+  "publisher": {
+    "@id": "https://kovcareeragency.org/#organization"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://kovcareeragency.org"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Private Blog Dashboard | KOV",
+        "item": "https://kovcareeragency.org/blogpostcheck.html"
+      }
+    ]
+  },
+  "mainEntity": {
+    "@type": "Service",
+    "name": "Career Services",
+    "provider": {
+      "@id": "https://kovcareeragency.org/#organization"
+    },
+    "areaServed": [
+      {
+        "@type": "Country",
+        "name": "Afghanistan"
+      },
+      {
+        "@type": "Country",
+        "name": "Albania"
+      },
+      {
+        "@type": "Country",
+        "name": "Algeria"
+      },
+      {
+        "@type": "Country",
+        "name": "Andorra"
+      },
+      {
+        "@type": "Country",
+        "name": "Angola"
+      },
+      {
+        "@type": "Country",
+        "name": "Antigua and Barbuda"
+      },
+      {
+        "@type": "Country",
+        "name": "Argentina"
+      },
+      {
+        "@type": "Country",
+        "name": "Armenia"
+      },
+      {
+        "@type": "Country",
+        "name": "Australia"
+      },
+      {
+        "@type": "Country",
+        "name": "Austria"
+      },
+      {
+        "@type": "Country",
+        "name": "Azerbaijan"
+      },
+      {
+        "@type": "Country",
+        "name": "Bahamas"
+      },
+      {
+        "@type": "Country",
+        "name": "Bahrain"
+      },
+      {
+        "@type": "Country",
+        "name": "Bangladesh"
+      },
+      {
+        "@type": "Country",
+        "name": "Barbados"
+      },
+      {
+        "@type": "Country",
+        "name": "Belarus"
+      },
+      {
+        "@type": "Country",
+        "name": "Belgium"
+      },
+      {
+        "@type": "Country",
+        "name": "Belize"
+      },
+      {
+        "@type": "Country",
+        "name": "Benin"
+      },
+      {
+        "@type": "Country",
+        "name": "Bhutan"
+      },
+      {
+        "@type": "Country",
+        "name": "Bolivia"
+      },
+      {
+        "@type": "Country",
+        "name": "Bosnia and Herzegovina"
+      },
+      {
+        "@type": "Country",
+        "name": "Botswana"
+      },
+      {
+        "@type": "Country",
+        "name": "Brazil"
+      },
+      {
+        "@type": "Country",
+        "name": "Brunei"
+      },
+      {
+        "@type": "Country",
+        "name": "Bulgaria"
+      },
+      {
+        "@type": "Country",
+        "name": "Burkina Faso"
+      },
+      {
+        "@type": "Country",
+        "name": "Burundi"
+      },
+      {
+        "@type": "Country",
+        "name": "Cabo Verde"
+      },
+      {
+        "@type": "Country",
+        "name": "Cambodia"
+      },
+      {
+        "@type": "Country",
+        "name": "Cameroon"
+      },
+      {
+        "@type": "Country",
+        "name": "Canada"
+      },
+      {
+        "@type": "Country",
+        "name": "Central African Republic"
+      },
+      {
+        "@type": "Country",
+        "name": "Chad"
+      },
+      {
+        "@type": "Country",
+        "name": "Chile"
+      },
+      {
+        "@type": "Country",
+        "name": "China"
+      },
+      {
+        "@type": "Country",
+        "name": "Colombia"
+      },
+      {
+        "@type": "Country",
+        "name": "Comoros"
+      },
+      {
+        "@type": "Country",
+        "name": "Congo (Republic of the)"
+      },
+      {
+        "@type": "Country",
+        "name": "Congo (Democratic Republic of the)"
+      },
+      {
+        "@type": "Country",
+        "name": "Costa Rica"
+      },
+      {
+        "@type": "Country",
+        "name": "Cote d'Ivoire"
+      },
+      {
+        "@type": "Country",
+        "name": "Croatia"
+      },
+      {
+        "@type": "Country",
+        "name": "Cuba"
+      },
+      {
+        "@type": "Country",
+        "name": "Cyprus"
+      },
+      {
+        "@type": "Country",
+        "name": "Czechia"
+      },
+      {
+        "@type": "Country",
+        "name": "Denmark"
+      },
+      {
+        "@type": "Country",
+        "name": "Djibouti"
+      },
+      {
+        "@type": "Country",
+        "name": "Dominica"
+      },
+      {
+        "@type": "Country",
+        "name": "Dominican Republic"
+      },
+      {
+        "@type": "Country",
+        "name": "Ecuador"
+      },
+      {
+        "@type": "Country",
+        "name": "Egypt"
+      },
+      {
+        "@type": "Country",
+        "name": "El Salvador"
+      },
+      {
+        "@type": "Country",
+        "name": "Equatorial Guinea"
+      },
+      {
+        "@type": "Country",
+        "name": "Eritrea"
+      },
+      {
+        "@type": "Country",
+        "name": "Estonia"
+      },
+      {
+        "@type": "Country",
+        "name": "Eswatini"
+      },
+      {
+        "@type": "Country",
+        "name": "Ethiopia"
+      },
+      {
+        "@type": "Country",
+        "name": "Fiji"
+      },
+      {
+        "@type": "Country",
+        "name": "Finland"
+      },
+      {
+        "@type": "Country",
+        "name": "France"
+      },
+      {
+        "@type": "Country",
+        "name": "Gabon"
+      },
+      {
+        "@type": "Country",
+        "name": "Gambia"
+      },
+      {
+        "@type": "Country",
+        "name": "Georgia"
+      },
+      {
+        "@type": "Country",
+        "name": "Germany"
+      },
+      {
+        "@type": "Country",
+        "name": "Ghana"
+      },
+      {
+        "@type": "Country",
+        "name": "Greece"
+      },
+      {
+        "@type": "Country",
+        "name": "Grenada"
+      },
+      {
+        "@type": "Country",
+        "name": "Guatemala"
+      },
+      {
+        "@type": "Country",
+        "name": "Guinea"
+      },
+      {
+        "@type": "Country",
+        "name": "Guinea-Bissau"
+      },
+      {
+        "@type": "Country",
+        "name": "Guyana"
+      },
+      {
+        "@type": "Country",
+        "name": "Haiti"
+      },
+      {
+        "@type": "Country",
+        "name": "Honduras"
+      },
+      {
+        "@type": "Country",
+        "name": "Hungary"
+      },
+      {
+        "@type": "Country",
+        "name": "Iceland"
+      },
+      {
+        "@type": "Country",
+        "name": "India"
+      },
+      {
+        "@type": "Country",
+        "name": "Indonesia"
+      },
+      {
+        "@type": "Country",
+        "name": "Iran"
+      },
+      {
+        "@type": "Country",
+        "name": "Iraq"
+      },
+      {
+        "@type": "Country",
+        "name": "Ireland"
+      },
+      {
+        "@type": "Country",
+        "name": "Israel"
+      },
+      {
+        "@type": "Country",
+        "name": "Italy"
+      },
+      {
+        "@type": "Country",
+        "name": "Jamaica"
+      },
+      {
+        "@type": "Country",
+        "name": "Japan"
+      },
+      {
+        "@type": "Country",
+        "name": "Jordan"
+      },
+      {
+        "@type": "Country",
+        "name": "Kazakhstan"
+      },
+      {
+        "@type": "Country",
+        "name": "Kenya"
+      },
+      {
+        "@type": "Country",
+        "name": "Kiribati"
+      },
+      {
+        "@type": "Country",
+        "name": "Kosovo"
+      },
+      {
+        "@type": "Country",
+        "name": "Kuwait"
+      },
+      {
+        "@type": "Country",
+        "name": "Kyrgyzstan"
+      },
+      {
+        "@type": "Country",
+        "name": "Laos"
+      },
+      {
+        "@type": "Country",
+        "name": "Latvia"
+      },
+      {
+        "@type": "Country",
+        "name": "Lebanon"
+      },
+      {
+        "@type": "Country",
+        "name": "Lesotho"
+      },
+      {
+        "@type": "Country",
+        "name": "Liberia"
+      },
+      {
+        "@type": "Country",
+        "name": "Libya"
+      },
+      {
+        "@type": "Country",
+        "name": "Liechtenstein"
+      },
+      {
+        "@type": "Country",
+        "name": "Lithuania"
+      },
+      {
+        "@type": "Country",
+        "name": "Luxembourg"
+      },
+      {
+        "@type": "Country",
+        "name": "Madagascar"
+      },
+      {
+        "@type": "Country",
+        "name": "Malawi"
+      },
+      {
+        "@type": "Country",
+        "name": "Malaysia"
+      },
+      {
+        "@type": "Country",
+        "name": "Maldives"
+      },
+      {
+        "@type": "Country",
+        "name": "Mali"
+      },
+      {
+        "@type": "Country",
+        "name": "Malta"
+      },
+      {
+        "@type": "Country",
+        "name": "Marshall Islands"
+      },
+      {
+        "@type": "Country",
+        "name": "Mauritania"
+      },
+      {
+        "@type": "Country",
+        "name": "Mauritius"
+      },
+      {
+        "@type": "Country",
+        "name": "Mexico"
+      },
+      {
+        "@type": "Country",
+        "name": "Micronesia"
+      },
+      {
+        "@type": "Country",
+        "name": "Moldova"
+      },
+      {
+        "@type": "Country",
+        "name": "Monaco"
+      },
+      {
+        "@type": "Country",
+        "name": "Mongolia"
+      },
+      {
+        "@type": "Country",
+        "name": "Montenegro"
+      },
+      {
+        "@type": "Country",
+        "name": "Morocco"
+      },
+      {
+        "@type": "Country",
+        "name": "Mozambique"
+      },
+      {
+        "@type": "Country",
+        "name": "Myanmar"
+      },
+      {
+        "@type": "Country",
+        "name": "Namibia"
+      },
+      {
+        "@type": "Country",
+        "name": "Nauru"
+      },
+      {
+        "@type": "Country",
+        "name": "Nepal"
+      },
+      {
+        "@type": "Country",
+        "name": "Netherlands"
+      },
+      {
+        "@type": "Country",
+        "name": "New Zealand"
+      },
+      {
+        "@type": "Country",
+        "name": "Nicaragua"
+      },
+      {
+        "@type": "Country",
+        "name": "Niger"
+      },
+      {
+        "@type": "Country",
+        "name": "Nigeria"
+      },
+      {
+        "@type": "Country",
+        "name": "North Korea"
+      },
+      {
+        "@type": "Country",
+        "name": "North Macedonia"
+      },
+      {
+        "@type": "Country",
+        "name": "Norway"
+      },
+      {
+        "@type": "Country",
+        "name": "Oman"
+      },
+      {
+        "@type": "Country",
+        "name": "Pakistan"
+      },
+      {
+        "@type": "Country",
+        "name": "Palau"
+      },
+      {
+        "@type": "Country",
+        "name": "Panama"
+      },
+      {
+        "@type": "Country",
+        "name": "Papua New Guinea"
+      },
+      {
+        "@type": "Country",
+        "name": "Paraguay"
+      },
+      {
+        "@type": "Country",
+        "name": "Peru"
+      },
+      {
+        "@type": "Country",
+        "name": "Philippines"
+      },
+      {
+        "@type": "Country",
+        "name": "Poland"
+      },
+      {
+        "@type": "Country",
+        "name": "Portugal"
+      },
+      {
+        "@type": "Country",
+        "name": "Qatar"
+      },
+      {
+        "@type": "Country",
+        "name": "Romania"
+      },
+      {
+        "@type": "Country",
+        "name": "Russia"
+      },
+      {
+        "@type": "Country",
+        "name": "Rwanda"
+      },
+      {
+        "@type": "Country",
+        "name": "Saint Kitts and Nevis"
+      },
+      {
+        "@type": "Country",
+        "name": "Saint Lucia"
+      },
+      {
+        "@type": "Country",
+        "name": "Saint Vincent and the Grenadines"
+      },
+      {
+        "@type": "Country",
+        "name": "Samoa"
+      },
+      {
+        "@type": "Country",
+        "name": "San Marino"
+      },
+      {
+        "@type": "Country",
+        "name": "Sao Tome and Principe"
+      },
+      {
+        "@type": "Country",
+        "name": "Saudi Arabia"
+      },
+      {
+        "@type": "Country",
+        "name": "Senegal"
+      },
+      {
+        "@type": "Country",
+        "name": "Serbia"
+      },
+      {
+        "@type": "Country",
+        "name": "Seychelles"
+      },
+      {
+        "@type": "Country",
+        "name": "Sierra Leone"
+      },
+      {
+        "@type": "Country",
+        "name": "Singapore"
+      },
+      {
+        "@type": "Country",
+        "name": "Slovakia"
+      },
+      {
+        "@type": "Country",
+        "name": "Slovenia"
+      },
+      {
+        "@type": "Country",
+        "name": "Solomon Islands"
+      },
+      {
+        "@type": "Country",
+        "name": "Somalia"
+      },
+      {
+        "@type": "Country",
+        "name": "South Africa"
+      },
+      {
+        "@type": "Country",
+        "name": "South Korea"
+      },
+      {
+        "@type": "Country",
+        "name": "South Sudan"
+      },
+      {
+        "@type": "Country",
+        "name": "Spain"
+      },
+      {
+        "@type": "Country",
+        "name": "Sri Lanka"
+      },
+      {
+        "@type": "Country",
+        "name": "Sudan"
+      },
+      {
+        "@type": "Country",
+        "name": "Suriname"
+      },
+      {
+        "@type": "Country",
+        "name": "Sweden"
+      },
+      {
+        "@type": "Country",
+        "name": "Switzerland"
+      },
+      {
+        "@type": "Country",
+        "name": "Syria"
+      },
+      {
+        "@type": "Country",
+        "name": "Tajikistan"
+      },
+      {
+        "@type": "Country",
+        "name": "Tanzania"
+      },
+      {
+        "@type": "Country",
+        "name": "Thailand"
+      },
+      {
+        "@type": "Country",
+        "name": "Timor-Leste"
+      },
+      {
+        "@type": "Country",
+        "name": "Togo"
+      },
+      {
+        "@type": "Country",
+        "name": "Tonga"
+      },
+      {
+        "@type": "Country",
+        "name": "Trinidad and Tobago"
+      },
+      {
+        "@type": "Country",
+        "name": "Tunisia"
+      },
+      {
+        "@type": "Country",
+        "name": "Turkey"
+      },
+      {
+        "@type": "Country",
+        "name": "Turkmenistan"
+      },
+      {
+        "@type": "Country",
+        "name": "Tuvalu"
+      },
+      {
+        "@type": "Country",
+        "name": "Uganda"
+      },
+      {
+        "@type": "Country",
+        "name": "Ukraine"
+      },
+      {
+        "@type": "Country",
+        "name": "United Arab Emirates"
+      },
+      {
+        "@type": "Country",
+        "name": "United Kingdom"
+      },
+      {
+        "@type": "Country",
+        "name": "United States"
+      },
+      {
+        "@type": "Country",
+        "name": "Uruguay"
+      },
+      {
+        "@type": "Country",
+        "name": "Uzbekistan"
+      },
+      {
+        "@type": "Country",
+        "name": "Vanuatu"
+      },
+      {
+        "@type": "Country",
+        "name": "Vatican City"
+      },
+      {
+        "@type": "Country",
+        "name": "Venezuela"
+      },
+      {
+        "@type": "Country",
+        "name": "Vietnam"
+      },
+      {
+        "@type": "Country",
+        "name": "Yemen"
+      },
+      {
+        "@type": "Country",
+        "name": "Zambia"
+      },
+      {
+        "@type": "Country",
+        "name": "Zimbabwe"
+      }
+    ]
+  }
+}
+  </script>
+</head>
+  <body class="blog-admin-page">
+    <div class="shell" id="blog-admin-root">
+      <header class="topbar">
+        <div>
+          <h1>Private publishing dashboard</h1>
+          <p>Only trusted editors with this unlisted URL can create and publish content.</p>
+        </div>
+        <div class="pill">Hidden from the public website</div>
+      </header>
+
+      <div class="grid">
+        <aside class="panel">
+          <h2>Saved posts</h2>
+          <div id="post-list" class="post-list"></div>
+        </aside>
+
+        <section class="panel">
+          <div class="meta-block">
+            <label for="github-token">GitHub token</label>
+            <div>
+              <input type="password" id="github-token" placeholder="Enter GitHub token" />
+              <div style="display:flex; gap:0.5rem; margin-top:0.5rem;">
+                <button type="button" id="save-github-token">Save token</button>
+                <button type="button" id="clear-github-token">Clear token</button>
+              </div>
+            </div>
+          </div>
+          <p id="token-status" class="muted">No GitHub token is stored. Save one before publishing. The token is kept only for the current browser session.</p>
+
+          <form id="post-form">
+            <input type="hidden" id="post-id" />
+            <label for="post-title">Title</label>
+            <input type="text" id="post-title" name="title" placeholder="Post title" required />
+
+            <label for="post-image">Featured image URL</label>
+            <input type="url" id="post-image" name="image" placeholder="https://example.com/image.jpg" />
+
+            <label for="post-image-file">Upload image from your device</label>
+            <input type="file" id="post-image-file" name="image-file" accept="image/*" />
+
+            <label for="post-video">Video URL</label>
+            <input type="url" id="post-video" name="video" placeholder="https://example.com/video.mp4" />
+            <label for="post-video-file">Upload video from your device (maximum 25 MB)</label>
+            <input type="file" id="post-video-file" name="video-file" accept="video/mp4,video/webm,video/ogg" />
+
+            <label for="post-subtitles">Subtitle file URL (.vtt)</label>
+            <input type="url" id="post-subtitles" name="subtitles" placeholder="https://example.com/subtitles.vtt" />
+            <label for="post-subtitles-file">Upload subtitle file (.vtt, maximum 25 MB)</label>
+            <input type="file" id="post-subtitles-file" name="subtitles-file" accept=".vtt,text/vtt" />
+            <label for="post-subtitle-language">Subtitle language code</label>
+            <input type="text" id="post-subtitle-language" name="subtitle-language" value="en" placeholder="en" />
+            <label for="post-subtitle-label">Subtitle label</label>
+            <input type="text" id="post-subtitle-label" name="subtitle-label" value="English" placeholder="English" />
+
+            <div class="toolbar" aria-label="Formatting toolbar">
+              <button type="button" data-command="bold">Bold</button>
+              <button type="button" data-command="italic">Italic</button>
+              <button type="button" data-command="insertUnorderedList">Bullet list</button>
+              <button type="button" data-command="formatBlock" data-value="h2">Heading</button>
+              <button type="button" data-command="createLink">Link</button>
+            </div>
+
+            <div id="post-editor" class="editor" contenteditable="true" spellcheck="true"></div>
+
+            <div class="actions">
+              <button type="submit" value="publish" class="primary">Publish now</button>
+              <button type="submit" value="draft">Save draft</button>
+              <button type="button" id="clear-form">New post</button>
+              <button type="button" id="delete-post" class="danger" disabled>Delete selected</button>
+            </div>
+            <p id="status-note" class="muted">Create a new post from the editor.</p>
+          </form>
+
+          <h2>Preview</h2>
+          <div id="preview-pane"></div>
+        </section>
+      </div>
+    </div>
+
+    <script>
+      window.KOV_BLOG_CONFIG = {
+        repo: 'Danmoneynnhfbn/KOV-CAREER-AGENCY-1',
+        branch: 'master',
+        postsPath: 'posts',
+      };
+    </script>
+    <script src="assets/blog-cms.js"></script>
+  <a href="countries-we-serve.html">Countries We Serve</a></body>
+</html>

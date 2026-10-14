@@ -1,10 +1,9 @@
 from pathlib import Path
-from fastapi import FastAPI
-from fastapi import HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
 
-from backend_api import mount_backend_routes
+from backend_api import _require_admin, mount_backend_routes
 
 # Vercel reads this single 'app' instance as the gateway to your project
 app = FastAPI()
@@ -46,8 +45,19 @@ def candidate_directory_page():
 
 
 @app.get("/toba", response_class=HTMLResponse)
-def administrator_console_page():
+def administrator_console_page(request: Request):
+    _require_admin(request, request.headers.get("authorization"))
     page = ROOT / "toba.html"
+    if not page.is_file():
+        raise HTTPException(status_code=404, detail="Not Found")
+    return FileResponse(page)
+
+
+@app.get("/blogpostcheck", response_class=HTMLResponse)
+@app.get("/blogpostcheck.html", response_class=HTMLResponse)
+def blog_editor_page(request: Request):
+    _require_admin(request, request.headers.get("authorization"))
+    page = ROOT / ".private_admin" / "blogpostcheck.html"
     if not page.is_file():
         raise HTTPException(status_code=404, detail="Not Found")
     return FileResponse(page)
@@ -58,7 +68,9 @@ def read_site_file(requested_path: str):
     file_path = (ROOT / requested_path).resolve()
     public_extensions = {".html", ".xml", ".txt", ".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg", ".ico"}
     if (
-        not file_path.is_relative_to(ROOT)
+        requested_path == ".private_admin"
+        or requested_path.startswith(".private_admin/")
+        or not file_path.is_relative_to(ROOT)
         or not file_path.is_file()
         or file_path.suffix.lower() not in public_extensions
     ):
