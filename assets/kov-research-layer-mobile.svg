@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrative KOV research layer</title>
+  <desc id="desc">Conceptual mobile research interface with target companies, executive profiles, career histories, industry signals, professional networks, and market intelligence. No client data or performance figures are shown.</desc>
+  <rect width="720" height="900" fill="#f8f5ef"/>
+  <path d="M42 88H678M42 844H678" stroke="#cdd1d6"/>
+  <text x="48" y="54" fill="#b94a20" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2.5">ILLUSTRATIVE INTERFACE</text>
+  <text x="48" y="146" fill="#090e13" font-family="Fraunces, Georgia, serif" font-size="42">KOV Research Layer</text>
+  <text x="48" y="186" fill="#555b62" font-family="Inter, Arial, sans-serif" font-size="19">A structured view of the market</text>
+  <text x="48" y="216" fill="#555b62" font-family="Inter, Arial, sans-serif" font-size="19">before outreach begins</text>
+  <g fill="#fff" stroke="#cdd1d6" stroke-width="1.5">
+    <rect x="48" y="268" width="292" height="150" rx="2"/><rect x="380" y="268" width="292" height="150" rx="2"/>
+    <rect x="48" y="448" width="292" height="150" rx="2"/><rect x="380" y="448" width="292" height="150" rx="2"/>
+    <rect x="48" y="628" width="292" height="150" rx="2"/><rect x="380" y="628" width="292" height="150" rx="2"/>
+  </g>
+  <g fill="#b9874c"><circle cx="78" cy="303" r="5"/><circle cx="410" cy="303" r="5"/><circle cx="78" cy="483" r="5"/><circle cx="410" cy="483" r="5"/><circle cx="78" cy="663" r="5"/><circle cx="410" cy="663" r="5"/></g>
+  <g fill="#090e13" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600">
+    <text x="96" y="309">Target Companies</text><text x="428" y="309">Executive Profiles</text>
+    <text x="96" y="489">Career Histories</text><text x="428" y="489">Industry Signals</text>
+    <text x="96" y="669">Professional</text><text x="96" y="696">Networks</text><text x="428" y="669">Market Intelligence</text>
+  </g>
+  <g fill="#6b7379" font-family="Inter, Arial, sans-serif" font-size="16">
+    <text x="78" y="362">Organization mapping</text><text x="410" y="362">Leadership fit</text>
+    <text x="78" y="542">Role and progression</text><text x="410" y="542">Public market context</text>
+    <text x="78" y="743">Relevant connections</text><text x="410" y="743">Signals to validate</text>
+  </g>
+  <text x="360" y="834" fill="#555b62" font-family="Inter, Arial, sans-serif" font-size="13" text-anchor="middle" letter-spacing="1.2">CONCEPT ONLY · NO CLIENT DATA OR METRICS</text>
+</svg>

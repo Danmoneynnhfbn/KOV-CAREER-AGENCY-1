@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">KOV career journey</title>
+  <desc id="desc">An abstract illustration of a professional journey connecting experience, research, and opportunity.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f1e8"/>
+      <stop offset="1" stop-color="#eadbc9"/>
+    </linearGradient>
+    <linearGradient id="path" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#315c43"/>
+      <stop offset=".52" stop-color="#c85b20"/>
+      <stop offset="1" stop-color="#df8a48"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#463629" flood-opacity=".12"/>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#7b664f" stroke-opacity=".1"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="540" rx="28" fill="url(#paper)"/>
+  <rect width="960" height="540" rx="28" fill="url(#grid)"/>
+  <circle cx="797" cy="112" r="112" fill="#fff" fill-opacity=".35"/>
+  <circle cx="172" cy="426" r="144" fill="#315c43" fill-opacity=".06"/>
+  <path d="M122 382C224 380 241 243 363 278S520 389 618 276 755 145 842 168" fill="none" stroke="#fff" stroke-width="20" stroke-linecap="round" opacity=".8"/>
+  <path d="M122 382C224 380 241 243 363 278S520 389 618 276 755 145 842 168" fill="none" stroke="url(#path)" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 1"/>
+  <g filter="url(#shadow)">
+    <rect x="71" y="116" width="210" height="124" rx="18" fill="#fff" fill-opacity=".96"/>
+    <rect x="382" y="332" width="204" height="116" rx="18" fill="#fff" fill-opacity=".96"/>
+    <rect x="674" y="66" width="214" height="126" rx="18" fill="#fff" fill-opacity=".96"/>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+    <g stroke="#315c43">
+      <rect x="94" y="143" width="46" height="42" rx="9"/>
+      <path d="M105 143v-8a12 12 0 0 1 24 0v8M105 164h24"/>
+    </g>
+    <g stroke="#c85b20">
+      <circle cx="425" cy="376" r="19"/>
+      <path d="m439 390 15 15m-39-29h20m-10-10v20"/>
+    </g>
+    <g stroke="#315c43">
+      <circle cx="716" cy="113" r="14"/>
+      <circle cx="757" cy="91" r="10"/>
+      <circle cx="765" cy="143" r="12"/>
+      <path d="m728 106 20-10m-19 24 25 17"/>
+    </g>
+  </g>
+  <g fill="#463629">
+    <circle cx="122" cy="382" r="10" fill="#315c43" stroke="#fff" stroke-width="5"/>
+    <circle cx="363" cy="278" r="10" fill="#c85b20" stroke="#fff" stroke-width="5"/>
+    <circle cx="618" cy="276" r="10" fill="#315c43" stroke="#fff" stroke-width="5"/>
+    <circle cx="842" cy="168" r="10" fill="#c85b20" stroke="#fff" stroke-width="5"/>
+  </g>
+  <g fill="#463629" font-family="Inter, Arial, sans-serif">
+    <text x="158" y="160" font-size="12" font-weight="700" letter-spacing="1.6">EXPERIENCE</text>
+    <text x="158" y="184" font-size="11" fill="#675d52">Your story, clearly positioned</text>
+    <text x="470" y="375" font-size="12" font-weight="700" letter-spacing="1.6">RESEARCH</text>
+    <text x="470" y="398" font-size="11" fill="#675d52">Thoughtful, focused search</text>
+    <text x="790" y="111" font-size="12" font-weight="700" letter-spacing="1.6">OPPORTUNITY</text>
+    <text x="790" y="135" font-size="11" fill="#675d52">The right next conversation</text>
+  </g>
+  <path d="M75 487h810" stroke="#463629" stroke-opacity=".12"/>
+  <text x="78" y="516" fill="#315c43" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2.4">KOV CAREER AGENCY · RESEARCH LED. HUMAN FIRST.</text>
+</svg>

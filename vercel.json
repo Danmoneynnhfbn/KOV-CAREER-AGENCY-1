@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.py",
+      "use": "@vercel/python",
+      "config": {
+        "includeFiles": [
+          "**/*.{html,xml,css,js,png,jpg,jpeg,webp,gif,svg,ico}",
+          ".private_admin/blogpostcheck.html",
+          "llms.txt",
+          "robots.txt"
+        ]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "server.py"
+    },
+    {
+      "src": "/toba",
+      "dest": "server.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "server.py"
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/v1/maintenance/cleanup-expired-cvs",
+      "schedule": "0 3 * * *"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 960" role="img" aria-labelledby="title desc">
+  <title id="title">KOV search intelligence overview</title>
+  <desc id="desc">A research-led search route connecting role definition, market mapping, candidate positioning, and executive conversations.</desc>
+  <rect width="720" height="960" fill="#111920"/>
+  <path d="M0 120H720M0 240H720M0 360H720M0 480H720M0 600H720M0 720H720M0 840H720M120 0V960M240 0V960M360 0V960M480 0V960M600 0V960" stroke="#fff" stroke-opacity=".07"/>
+  <path d="M100 700C195 620 205 410 320 430S430 585 620 260" fill="none" stroke="#dd7040" stroke-width="3" stroke-dasharray="8 12"/>
+  <g fill="#111920" stroke="#e4b184" stroke-width="2"><circle cx="100" cy="700" r="30"/><circle cx="320" cy="430" r="38"/><circle cx="445" cy="560" r="28"/><circle cx="620" cy="260" r="34"/></g>
+  <g fill="#f7f2e9" font-family="Arial,sans-serif"><text x="64" y="768" font-size="17" letter-spacing="2">DEFINE</text><text x="274" y="505" font-size="17" letter-spacing="2">RESEARCH</text><text x="394" y="620" font-size="17" letter-spacing="2">POSITION</text><text x="560" y="330" font-size="17" letter-spacing="2">CONNECT</text></g>
+  <text x="54" y="92" fill="#e4b184" font-family="Arial,sans-serif" font-size="16" letter-spacing="4">KOV / SEARCH INTELLIGENCE</text>
+  <text x="54" y="890" fill="#fff" font-family="Georgia,serif" font-size="42" font-style="italic">Research first. Human judgement throughout.</text>
+</svg>

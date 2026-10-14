@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preload" as="image" href="kov-logo.png" />
+  <link rel="icon" type="image/png" href="kov-logo.png" />
+  <link rel="shortcut icon" type="image/png" href="kov-logo.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="kov-logo.png" />
+  <link rel="stylesheet" href="assets/styles-DateywTe.css" />
+  <link rel="stylesheet" href="assets/site-fixes.css?v=27" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Inter:wght@300;400;500;600&display=swap" />
+  <title>Blog | KOV Career Agency</title>
+  <script src="assets/google-translate.js?v=6" defer></script>
+  <script src="assets/site-search-index.js" defer></script>
+  <script src="assets/site-search.js?v=4" defer></script>
+  <script src="assets/reactive-visuals.js?v=7" defer></script>
+  <meta name="description" content="Read the latest posts from KOV Career Agency." />
+  <link rel="canonical" href="https://kovcareeragency.org/blog.html" />
+  <style>
+    .blog-video-wrap { margin: 1.5rem 0; }
+    .blog-video { display: block; width: 100%; max-height: 600px; background: #111; }
+    .blog-video-mute {
+      margin-top: 0.5rem;
+      border: 1px solid #d8d4cc;
+      border-radius: 8px;
+      padding: 0.45rem 0.75rem;
+      background: #fff;
+      color: #171717;
+      cursor: pointer;
+      font: inherit;
+    }
+    .blog-video-mute:focus-visible { outline: 2px solid #c85b20; outline-offset: 2px; }
+    .blog-review-post {
+      overflow: hidden;
+      border: 1px solid #e9dfd3;
+      border-top: 3px solid #c85b20;
+      border-radius: 18px;
+      background: linear-gradient(145deg, #fffdf9 0%, #fff 76%);
+      box-shadow: 0 18px 48px rgba(39, 30, 20, 0.08);
+    }
+    .review-card-banner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.65rem 1rem;
+      padding: 1rem 1.4rem;
+      border-bottom: 1px solid #eee5da;
+      background: linear-gradient(100deg, #f7eee3 0%, #fffaf4 70%, #fff 100%);
+    }
+    .review-card-stars {
+      color: #bd681f;
+      font-size: 1.05rem;
+      letter-spacing: 0.18em;
+      line-height: 1;
+      white-space: nowrap;
+    }
+    .review-card-label {
+      color: #64594f;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.11em;
+      line-height: 1.5;
+      text-align: right;
+      text-transform: uppercase;
+    }
+    .blog-review-post .blog-copy { padding: 1.5rem 1.6rem 1.7rem; }
+    .blog-review-post .blog-copy h2 {
+      margin-top: 0.55rem;
+      font-family: Fraunces, Georgia, serif;
+      font-size: clamp(1.65rem, 4vw, 2.2rem);
+      font-weight: 500;
+      line-height: 1.12;
+      letter-spacing: -0.025em;
+    }
+    .blog-review-post .rich-content > p:first-child {
+      margin: 1.2rem 0 1.35rem;
+      padding: 0.85rem 1rem;
+      border-left: 3px solid #c85b20;
+      border-radius: 0 10px 10px 0;
+      background: #faf5ee;
+      color: #6b5f53;
+      font-size: 0.76rem;
+      line-height: 1.7;
+    }
+    .blog-review-post .rich-content > p:first-child strong {
+      color: #34271e;
+      font-size: 0.78rem;
+      letter-spacing: 0.02em;
+    }
+    .blog-review-post .rich-content > p:not(:first-child) {
+      color: #3f3b36;
+      font-size: 0.98rem;
+      line-height: 1.85;
+    }
+    @media (max-width: 540px) {
+      .review-card-banner { align-items: flex-start; flex-direction: column; padding: 0.9rem 1rem; }
+      .review-card-label { text-align: left; }
+      .blog-review-post .blog-copy { padding: 1.2rem 1rem 1.35rem; }
+    }
+  </style>
+    <meta property="og:type" content="website">
+  <meta property="og:site_name" content="KOV Career Agency">
+  <meta property="og:url" content="https://kovcareeragency.org/blog.html">
+  <meta property="og:title" content="Blog | KOV Career Agency">
+  <meta property="og:description" content="Read the latest posts from KOV Career Agency.">
+  <meta property="og:image" content="https://kovcareeragency.org/preview.png">
+  <meta property="og:image:alt" content="KOV Career Agency">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Blog | KOV Career Agency">
+  <meta name="twitter:description" content="Read the latest posts from KOV Career Agency.">
+  <meta name="twitter:image" content="https://kovcareeragency.org/preview.png">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json" data-kov="discovery">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "Organization",
+        "ProfessionalService",
+        "EmploymentAgency"
+      ],
+      "@id": "https://kovcareeragency.org/#organization",
+      "name": "KOV Career Agency",
+      "alternateName": [
+        "KOV Career",
+        "KovCareer"
+      ],
+      "url": "https://kovcareeragency.org/",
+      "logo": "https://kovcareeragency.org/kov-logo.png",
+      "image": "https://kovcareeragency.org/preview.png",
+      "email": "daniel@kovcareeragency.org",
+      "description": "Founder-led career agency offering private career representation for senior professionals and independent executive talent sourcing for companies. Engagement scope is agreed directly.",
+      "founder": {
+        "@id": "https://kovcareeragency.org/#founder"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://kovcareeragency.org/#founder",
+      "name": "Adekunle Ayotoba Daniel",
+      "alternateName": "Daniel Ade",
+      "jobTitle": "Founder and Principal Agent",
+      "worksFor": {
+        "@id": "https://kovcareeragency.org/#organization"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://kovcareeragency.org/#website",
+      "url": "https://kovcareeragency.org/",
+      "name": "KOV Career Agency",
+      "publisher": {
+        "@id": "https://kovcareeragency.org/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kovcareeragency.org/blog.html#webpage",
+      "url": "https://kovcareeragency.org/blog.html",
+      "name": "Blog | KOV Career Agency",
+      "description": "Read the latest posts from KOV Career Agency.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://kovcareeragency.org/#website"
+      },
+      "about": {
+        "@id": "https://kovcareeragency.org/#organization"
+      },
+      "publisher": {
+        "@id": "https://kovcareeragency.org/#organization"
+      },
+      "breadcrumb": {
+        "@id": "https://kovcareeragency.org/blog.html#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://kovcareeragency.org/blog.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://kovcareeragency.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog | KOV Career Agency",
+          "item": "https://kovcareeragency.org/blog.html"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <div class="min-h-screen bg-background font-sans text-foreground antialiased">
+
+    <header class="sticky top-0 z-50 border-b border-line/60 bg-background/85 backdrop-blur-xl">
+      <div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-10">
+        <a class="flex items-center gap-2.5" href="index.html" aria-current="page">
+          <img src="kov-logo.png" alt="KOV" class="h-7 w-7 object-contain" />
+          <span class="text-[13px] font-medium uppercase tracking-[0.18em] text-ink">KOV <span class="text-muted-foreground">Career Agency</span></span>
+        </a> 
+
+        <nav class="hidden items-center gap-8 text-[13px] text-ink-soft lg:flex" role="navigation" aria-label="Primary">
+          <a href="index.html" class="transition-colors hover:text-ink">Home</a>
+          
+          <a href="services.html" class="transition-colors hover:text-ink">Services</a>
+          <a href="global-talent-sourcer.html" class="transition-colors hover:text-ink">Talent Sourcer</a>
+          <a href="how-it-works.html" class="transition-colors hover:text-ink">How It Works</a>
+          <a href="pricing.html" class="transition-colors hover:text-ink">Pricing</a>
+          <a href="faqs.html" class="transition-colors hover:text-ink">FAQs</a><a href="blog.html" class="transition-colors hover:text-ink">Blog</a>
+          <a href="about.html" class="transition-colors hover:text-ink">About</a>
+          <a href="contact.html" class="rounded-full bg-ink px-5 py-2 text-[12px] font-medium uppercase tracking-[0.12em] text-primary-foreground transition-colors hover:bg-ink-soft">Get Started</a>
+        </nav>
+
+        <button type="button" aria-label="Toggle menu" class="inline-flex h-9 w-9 items-center justify-center rounded-full border border-line text-ink lg:hidden" data-mobile-menu-toggle>
+          <span class="text-lg leading-none" aria-hidden="true">â˜°</span>
+        </button>
+      </div>
+    </header>
+
+    <div id="site-mobile-menu" class="site-mobile-menu" aria-hidden="true">
+      <div class="site-mobile-menu-panel">
+        <div class="site-mobile-menu-header">
+          <a href="index.html">
+            <img src="kov-logo.png" alt="KOV" />
+            <span class="text-[13px] font-medium uppercase tracking-[0.18em] text-ink">KOV <span class="text-muted-foreground">Career Agency</span></span>
+          </a>
+          <button type="button" class="menu-close" aria-label="Close menu" data-mobile-menu-close>Ã—</button>
+        </div>
+        <nav class="site-mobile-menu-nav" role="navigation" aria-label="Mobile">
+          <a href="index.html" data-mobile-menu-link>Home</a>
+          
+          <a href="services.html" data-mobile-menu-link>Services</a>
+          <a href="global-talent-sourcer.html" data-mobile-menu-link>Talent Sourcer</a>
+          <a href="how-it-works.html" data-mobile-menu-link>How It Works</a>
+          <a href="pricing.html" data-mobile-menu-link>Pricing</a>
+          <a href="faqs.html" data-mobile-menu-link>FAQs</a><a href="blog.html" data-mobile-menu-link>Blog</a><a href="blog.html" class="transition-colors hover:text-ink">Blog</a>
+          <a href="about.html" data-mobile-menu-link>About</a>
+          <a href="contact.html" data-mobile-menu-link>Get Started</a>
+        </nav>
+      </div>
+    </div>
+
+    <main>
+      <section class="relative overflow-hidden border-b border-line/60">
+        <div class="relative mx-auto max-w-7xl px-6 pb-24 pt-14 lg:px-10">
+          <div class="lg:col-span-7">
+            <p class="mt-2 text-[11px] font-bold uppercase tracking-[0.28em] text-orange">Insights Â· Updates Â· Guidance</p>
+            <h1 class="mt-6 font-display text-[40px] font-black italic leading-[0.86] tracking-tight text-ink sm:text-[56px] lg:text-[72px]">KOV Blog</h1>
+            <p class="mt-6 max-w-2xl text-[16px] leading-[1.7] text-ink-soft">Perspectives on private career representation, executive sourcing, and the research behind a considered search.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-7xl px-6 py-12 lg:px-10">
+        <div class="mx-auto max-w-3xl">
+          <article class="blog-post blog-featured-video">
+            <div class="blog-copy">
+              <p class="meta">KOV Career Agency</p>
+              <h2>KOV Search, From Research to Conversation</h2>
+              <div class="blog-video-wrap">
+                <img
+                  class="blog-video"
+                  src="preview.png"
+                  alt="KOV Career Agency video preview"
+                  style="display:block;width:100%;max-height:600px;background:#111;border-radius:12px;object-fit:cover;"
+                />
+              </div>
+            </div>
+          </article>
+        </div>
+        <section class="mx-auto mt-16 max-w-3xl" aria-labelledby="candidate-reviews-heading">
+          <div class="mb-8">
+            <p class="text-[11px] font-bold uppercase tracking-[0.24em] text-orange">Candidate experiences</p>
+            <h2 id="candidate-reviews-heading" class="mt-3 font-display text-3xl font-medium tracking-tight text-ink sm:text-4xl">Reviews, shared with permission</h2>
+            <p class="mt-3 max-w-2xl text-sm leading-7 text-ink-soft">These reviews were submitted by candidates and published by KOV without identifying details.</p>
+          </div>
+          <div id="candidate-review-list" class="space-y-7">
+            <article class="blog-post blog-review-post" data-review-id="review-anonymous-executive-germany-2026-08-10">
+              <div class="review-card-banner"><span class="review-card-stars" role="img" aria-label="5 out of 5 stars">★★★★★</span><span class="review-card-label">Candidate-submitted · Published anonymously by KOV</span></div>
+              <div class="blog-copy">
+                <p class="meta">Submitted August 10, 2026</p>
+                <h2>Great Partner for a Confidential, Cross-Border Career Move</h2>
+                <div class="rich-content">
+                  <p>Looking for a senior leadership role while working full time is tough. When I started my quiet job search early in the year from Southern Europe, my biggest priority was keeping everything confidential. I also needed to find a great hidden pipeline that could help me relocate internationally. Partnering with KOV Career Agency allowed me to pull off this cross-border move smoothly over several months. Thanks to them, I just landed an amazing C-suite role in Germany.</p>
+                  <p>One of the best things about working with KOV is the transparent fee arrangement. The fee is agreed individually based on the work involved, and the scope, deliverables and expectations are put in writing before work begins. This builds a relationship based on real partnership, clarity, and friendly support during contract negotiations and relocation planning.</p>
+                  <p>Their outreach setup is where the magic really happens. Instead of relying on boring job boards or throwing resumes into black-hole systems, KOV takes a proactive approach. They reach out directly to key decision-makers and hiring authorities in your target country. This keeps your professional footprint completely safe. I was able to stay totally under the radar at home while they set up high-quality, private chats with companies abroad.</p>
+                  <p>Just keep in mind that this is a very collaborative process. KOV generates a lot of direct conversations and international interviews, so you need some personal discipline to keep up. It is definitely not a passive journey. You need to stay close with your advisor, chat through strategy updates, and be ready to move quickly when a hiring manager reaches out.</p>
+                  <p>If you are a senior executive wanting to make a big international move without risking your current job, give this process a little time to work. The mock interviews, resume tweaks, and strategic positioning give you a massive confidence boost. I highly recommend KOV for high-stakes, confidential career moves.</p>
+                </div>
+              </div>
+            </article>
+            <article class="blog-post blog-review-post" data-review-id="review-anonymous-head-marketing-2026-05-10">
+              <div class="review-card-banner"><span class="review-card-stars" role="img" aria-label="5 out of 5 stars">★★★★★</span><span class="review-card-label">Candidate-submitted · Published anonymously by KOV</span></div>
+              <div class="blog-copy">
+                <p class="meta">Submitted May 10, 2026</p>
+                <h2>Wonderful Partner for a Confidential Executive Career Transition</h2>
+                <div class="rich-content">
+                  <p>Balancing a demanding full-time role with a senior-level job search is no small task. I began looking discreetly in mid-December 2025, and protecting my privacy throughout the process was essential. I wanted a partner who understood the North American market and could help me explore it quietly. Working with KOV Career Agency made that possible. Over about five months, they helped me build momentum while I stayed focused on my current job, and I recently moved into a Head of Marketing role.</p>
+                  <p>I also appreciated the transparency around KOV’s fee. It was agreed individually based on the work involved, with the scope, deliverables and expectations set out in writing before work began. The arrangement felt collaborative, and I had practical support as I considered and finalized my contract terms.</p>
+                  <p>KOV’s proactive outreach stood out. Rather than depending on job boards or submitting my resume into automated systems, the team contacted decision-makers and hiring leads at organizations we had targeted. That approach helped me keep my search private at my current company while opening conversations with potential employers across the region.</p>
+                  <p>This is an active, collaborative process, not a search you can leave on autopilot. The outreach led to many conversations and interview opportunities, so I needed to stay engaged, review strategy with my advisor, and respond promptly when employers got in touch. Keeping up with the pace took real discipline.</p>
+                  <p>For marketing leaders and other executives considering a move while still employed, it helps to give the process time and stay involved. The resume work, mock interviews, and strategic positioning helped me feel more prepared for employer conversations. I’d recommend KOV to senior professionals looking for a thoughtful, confidential career transition.</p>
+                </div>
+              </div>
+            </article>
+            <article class="blog-post blog-review-post" data-review-id="review-anonymous-chro-germany-2026-10-09">
+              <div class="review-card-banner"><span class="review-card-stars" role="img" aria-label="5 out of 5 stars">★★★★★</span><span class="review-card-label">Candidate-submitted · Published anonymously by KOV</span></div>
+              <div class="blog-copy">
+                <p class="meta">Submitted October 9, 2026 · CHRO, relocating from Italy to Germany</p>
+                <h2>Elite Cross-Border Execution for Confidential C-Suite Relocations</h2>
+                <div class="rich-content">
+                  <p>Executing a stealth corporate move from Southern Europe to a major German business hub is an incredible administrative challenge. When I initiated my pipeline, my utmost priority was avoiding the public job board firehose to preserve my current institutional standing. The structured process engineered by this agency made the entire international transition flawless.</p>
+                  <p>During the initial Guided Onboarding phase, we closely calibrated my target country metrics, compliance limits, and overall timeline. Rather than relying on generic automated tools, their team manually curated and pushed 50 to 100 highly vetted applications inside a shared dashboard every single week. This precise, data-driven approach ensured that my profile was only introduced to organizations capable of handling a premium executive relocation packet.</p>
+                  <p>Having a private agent manage the tedious logistics behind the scenes allowed me to maintain my operational focus at my old firm right up until signing the contract. For any senior executive seeking a controlled, quiet entry into a new international market, the structured methodology they provide is an exceptional investment.</p>
+                </div>
+              </div>
+            </article>
+            <article class="blog-post blog-review-post" data-review-id="review-anonymous-head-marketing-north-america-2026-05-14">
+              <div class="review-card-banner"><span class="review-card-stars" role="img" aria-label="5 out of 5 stars">★★★★★</span><span class="review-card-label">Candidate-submitted · Published anonymously by KOV</span></div>
+              <div class="blog-copy">
+                <p class="meta">Submitted May 14, 2026 · Head of Marketing, North America</p>
+                <h2>Total Game Changer for Modern Marketing Leaders!</h2>
+                <div class="rich-content">
+                  <p>If you are managing a demanding marketing career, you simply do not have the hours required to run a high-level job search properly. I started my stealth journey in mid-December, and the results have been incredible. It took roughly five months to lock in my new role, and I could not have pulled it off without their brilliant team.</p>
+                  <p>The process kicked off with a deep, comprehensive rewrite of my resume and LinkedIn presence. They completely shifted my profile away from standard daily duties and reframed my career history around concrete, measurable marketing outcomes and ATS-ready achievements. Once my positioning was optimized, their direct outreach engine went to work. For every single role we target, they skip the standard HR black hole and message five to nine key decision-makers directly.</p>
+                  <p>As the invitations started landing, the live mock interview loops and strategic stakeholder mapping sessions gave me an immense confidence boost. They helped me build a versatile story bank that kept me perfectly composed during final executive panels. If you want a proactive team that does the heavy lifting while protecting your privacy, this is it.</p>
+                </div>
+              </div>
+            </article>
+            <article class="blog-post blog-review-post" data-review-id="review-anonymous-coo-australia-2026-10-04">
+              <div class="review-card-banner"><span class="review-card-stars" role="img" aria-label="5 out of 5 stars">★★★★★</span><span class="review-card-label">Candidate-submitted · Published anonymously by KOV</span></div>
+              <div class="blog-copy">
+                <p class="meta">Submitted October 4, 2026 · Chief Operating Officer, Australia</p>
+                <h2>Highly Discreet, Operations-Approved Executive Placement Engine</h2>
+                <div class="rich-content">
+                  <p>Stealth career transitions at the COO level require absolute confidentiality and strict procedural control. My search in the Australian market took exactly nine months from my initial launch in early January 2026, and the agency protected my professional footprint perfectly from start to finish.</p>
+                  <p>The operational setup inside their shared candidate dashboard is highly efficient. I had final approval power over every single targeted application, ensuring that no document left the agency without a strict compliance check. Because they use human verification rather than automated software, the quality of corporate connections remained exceptionally high throughout the entire cycle.</p>
+                  <p>Where they truly bring elite value is the final contract negotiation phase. They supplied highly detailed market compensation benchmarks and actively co-wrote the counter-offer scripts for my base, bonus structures, and equity terms. They do not hand you off to junior staff or offshore desks. You work directly with a dedicated principal from day one until the file closes. Highly recommended for high-stakes operations.</p>
+                </div>
+              </div>
+            </article>
+            <article class="blog-post blog-review-post" data-review-id="review-anonymous-legal-executive-ksa-2026-10-08">
+              <div class="review-card-banner"><span class="review-card-stars" role="img" aria-label="5 out of 5 stars">★★★★★</span><span class="review-card-label">Candidate-submitted · Published anonymously by KOV</span></div>
+              <div class="blog-copy">
+                <p class="meta">Submitted October 8, 2026 · Legal Executive, KSA · Ongoing search</p>
+                <h2>Excellent Discretion and Direct Access for Legal Professionals in KSA</h2>
+                <div class="rich-content">
+                  <p>Navigating the legal sector within the Kingdom of Saudi Arabia requires an extreme level of discretion. I am currently utilizing their candidate representation services for an ongoing executive search, and the initial momentum has been stellar. Within just a few months, their targeted approach has already materialized premium interviews with major entities.</p>
+                  <p>Their transparent fee arrangement is a breath of fresh air for senior legal professionals. The work and fee are agreed individually in writing before the engagement begins, which made strategic discussions feel clear and collaborative. They treat the search as a true partnership, focused on finding the right long-term organizational fit.</p>
+                  <p>Their direct messaging methodology to recruiters and general counsel authorities on LinkedIn turns cold job listings into warm executive conversations. They handle all the follow-ups and track the responses directly on your calendar, allowing you to bypass public resume piles completely under the radar. For any legal counsel looking to explore premium, unadvertised market options in the Middle East quietly, their strategic positioning engine provides a massive competitive advantage.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+        <div id="blog-public-root" class="mx-auto max-w-3xl"></div>
+      </section>
+    </main>
+
+    <footer class="border-t border-line/60 bg-background">
+      <div class="mx-auto max-w-7xl px-6 py-14 lg:px-10">
+        <div class="grid gap-10 md:grid-cols-3">
+          <div>
+            <div class="flex items-center gap-2.5">
+              <img src="kov-logo.png" alt="KOV" class="h-6 w-6 object-contain"/>
+              <span class="text-[12px] font-medium uppercase tracking-[0.18em] text-ink">KOV Career Agency</span>
+            </div>
+            <p class="mt-4 max-w-xs text-[13px] leading-relaxed text-ink-soft">Private &amp; confidential career representation for senior leaders. We work for you, never for corporate HR.</p>
+          </div>
+          <div>
+            <p class="text-[11px] font-medium uppercase tracking-[0.2em] text-muted-foreground">Explore</p>
+            <ul class="mt-4 space-y-2 text-[13px] text-ink-soft">
+              <li><a href="services.html" class="hover:text-ink">Services</a></li>
+              <li><a href="how-it-works.html" class="hover:text-ink">How It Works</a></li>
+              <li><a href="pricing.html" class="hover:text-ink">Pricing</a></li>
+              <li><a href="faqs.html" class="hover:text-ink">FAQs</a><a href="blog.html" class="transition-colors hover:text-ink">Blog</a></li>
+              <li><a href="about.html" class="hover:text-ink">About</a></li>
+              <li><a href="contact.html" class="hover:text-ink">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-[11px] font-medium uppercase tracking-[0.2em] text-muted-foreground">Direct Inquiry</p>
+            <a href="mailto:daniel@kovcareeragency.org?subject=Inquiry%20%E2%80%94%20Private%20Representation" class="mt-4 block text-[13px] text-ink hover:underline">daniel@kovcareeragency.org</a>
+            <p class="mt-2 text-[12px] text-muted-foreground">Daniel Ade Â· Founder &amp; Principal Agent</p>
+          </div>
+        </div>
+        <div class="mt-10 flex flex-col gap-2 border-t border-line/60 pt-6 text-[12px] text-muted-foreground md:flex-row md:items-center md:justify-between">
+          <span>© 2026 KOV Career Agency. All rights reserved.</span>
+          <span>Private &amp; Confidential Career Representation</span>
+        </div>
+      </div>
+    <div class="mt-6 flex flex-wrap items-center gap-5 text-[12px] text-muted-foreground"><a href="countries-we-serve.html" class="hover:text-ink">Countries We Serve</a><a href="/privacy.html" class="ml-5 hover:text-ink">Privacy Notice</a></div></footer>
+
+  </div>
+
+  <script>
+    (function() {
+      var menu = document.getElementById('site-mobile-menu');
+      var openButton = document.querySelector('[data-mobile-menu-toggle]');
+      var closeButton = document.querySelector('[data-mobile-menu-close]');
+      var menuLinks = document.querySelectorAll('[data-mobile-menu-link]');
+      if (!menu || !openButton || !closeButton) return;
+      function toggleMenu(open) {
+        var isOpen = menu.classList.contains('is-open');
+        var nextState = open === undefined ? !isOpen : open;
+        menu.classList.toggle('is-open', nextState);
+        menu.setAttribute('aria-hidden', String(!nextState));
+        document.body.classList.toggle('mobile-nav-open', nextState);
+      }
+      openButton.addEventListener('click', function() { toggleMenu(true); });
+      closeButton.addEventListener('click', function() { toggleMenu(false); });
+      menuLinks.forEach(function(link) { link.addEventListener('click', function() { toggleMenu(false); }); });
+    })();
+  </script>
+
+  <script>
+    window.KOV_BLOG_CONFIG = { repo: 'Danmoneynnhfbn/KOV-CAREER-AGENCY-1', branch: 'master', postsPath: 'posts' };
+  </script>
+  <script src="assets/blog-cms.js"></script>
+<script src="assets/uniform-footer.js?v=7" defer></script>
+</body>
+</html>
+

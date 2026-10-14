@@ -1,0 +1,1866 @@
+/* Keep the proof surfaces legible against the existing direct-section treatment. */
+.two-sided-page main > section.proof-hero,
+.two-sided-page main > section.proof-section-tint,
+.two-sided-page main > section.proof-section-dark,
+.two-sided-page main > section.proof-cta,
+.two-sided-page main > section.proof-service-section {
+  background-image: none !important;
+}
+.two-sided-page main > section.proof-hero { background-color: #f2ede3 !important; }
+.two-sided-page main > section.proof-section-tint,
+.two-sided-page main > section.proof-service-section { background-color: #f4f1ea !important; }
+.two-sided-page main > section.proof-section-dark,
+.two-sided-page main > section.proof-cta { background-color: #f4f1ea !important; }
+
+.two-sided-page.proof-page {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, #f7f3ee 0%, #f1ece3 100%);
+  color: #101821;
+}
+
+.two-sided-page.proof-page::before {
+  content: "";
+  position: absolute;
+  inset: -12% -10%;
+  z-index: 0;
+  background: url("kov-executive-intelligence-network.svg") center / cover no-repeat;
+  opacity: 0.14;
+  filter: brightness(1.05) saturate(0.8);
+  transform: scale(1.06);
+  pointer-events: none;
+}
+
+.two-sided-page.proof-page::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    radial-gradient(circle at 18% 12%, rgba(217, 114, 42, 0.06), transparent 18%),
+    radial-gradient(circle at 80% 18%, rgba(34, 79, 160, 0.05), transparent 24%);
+  pointer-events: none;
+}
+
+.two-sided-page.proof-page > * {
+  position: relative;
+  z-index: 1;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-hero,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-hero {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr);
+  gap: clamp(26px, 4vw, 56px);
+  align-items: center;
+  padding: clamp(54px, 8vw, 110px) max(8vw, 24px);
+  background:
+    radial-gradient(circle at 14% 20%, rgba(30, 90, 229, 0.10), transparent 18%),
+    radial-gradient(circle at 88% 12%, rgba(217, 114, 42, 0.14), transparent 26%),
+    linear-gradient(135deg, #fbf7f2 0%, #f2e7d3 42%, #eceff4 100%);
+  border-bottom: 1px solid rgba(9,14,19,0.12);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.7), 0 26px 60px rgba(15, 18, 22, 0.06);
+  overflow: hidden;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-hero::before,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent 0%, rgba(255,255,255,0.28) 34%, transparent 58%);
+  pointer-events: none;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-hero-copy,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-hero-copy {
+  position: relative;
+  z-index: 1;
+  max-width: 760px;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-hero-copy h1,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-hero-copy h1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.04em;
+  margin: 0 0 18px;
+  font-family: Fraunces, Georgia, serif;
+  font-size: clamp(3.4rem, 4.7vw, 6.4rem);
+  line-height: 0.8;
+  letter-spacing: -0.085em;
+  font-weight: 500;
+  color: #101821;
+  text-wrap: balance;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.45);
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-hero-copy .kov-eyebrow,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-overline {
+  margin: 0 0 18px;
+  color: #d9722a;
+  font-size: 0.73rem;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-hero-copy .kov-lead,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-hero-copy .kov-lead {
+  margin-bottom: 18px;
+  max-width: 720px;
+  font-size: 1.18rem;
+  line-height: 1.55;
+  color: #1a2430;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-hero-copy p:not(.kov-eyebrow):not(.kov-lead):not(.kov-markets):not(.kov-emphasis),
+.two-sided-page.proof-page[data-proof-page="company"] .proof-hero-copy p:not(.proof-overline):not(.kov-lead) {
+  color: #495766;
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-hero-copy .kov-actions,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-hero-copy .kov-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-hero-copy .kov-button,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-hero-copy .kov-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  padding: 0.9rem 1.55rem;
+  border: 0;
+  border-radius: 14px;
+  background: linear-gradient(180deg, #101821 0%, #0b1219 100%);
+  box-shadow: 0 18px 30px rgba(16,21,26,0.16);
+  color: #fff !important;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-cta .kov-button,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-cta .kov-button:hover,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-cta .kov-button:focus-visible {
+  background: linear-gradient(180deg, #101821 0%, #0b1219 100%);
+  color: #fff !important;
+  border-color: rgba(255,255,255,0.08);
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-hero-copy .kov-text-link,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-hero-copy .kov-text-link {
+  color: #101821;
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
+  font-weight: 700;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-hero-copy .kov-markets,
+.two-sided-page.proof-page[data-proof-page="company"] .kov-hero-copy .kov-emphasis {
+  color: #101821;
+  font-weight: 700;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-hero-aside,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-hero-panel {
+  position: relative;
+  z-index: 1;
+  border: 1px solid rgba(16, 24, 33, 0.12);
+  border-radius: 26px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.86), rgba(242,235,225,0.96));
+  box-shadow: 0 30px 54px rgba(15, 18, 22, 0.09), inset 0 1px 0 rgba(255,255,255,0.8);
+  color: #101821;
+  padding: 22px;
+  backdrop-filter: blur(8px);
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-hero-aside span,
+.two-sided-page.proof-page[data-proof-page="company"] .kov-hero-aside strong,
+.two-sided-page.proof-page[data-proof-page="company"] .kov-hero-aside p {
+  color: #101821;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-hero-aside strong {
+  display: block;
+  margin: 8px 0;
+  font-family: Fraunces, Georgia, serif;
+  font-size: clamp(2rem, 2.2vw, 2.8rem);
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-hero-aside .kov-aside-rule {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: rgba(16,24,33,0.12);
+  margin: 10px 0;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-section,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-service-section,
+.two-sided-page.proof-page[data-proof-page="company"] .kov-final-cta {
+  position: relative;
+  padding-top: clamp(52px, 7vw, 92px);
+  padding-bottom: clamp(52px, 7vw, 92px);
+  background: linear-gradient(180deg, rgba(255,255,255,0.22) 0%, rgba(244,241,234,0.94) 100%);
+  border-top: 1px solid rgba(9, 14, 19, 0.12);
+  border-bottom: 1px solid rgba(9, 14, 19, 0.12);
+  overflow: hidden;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-section:not(.kov-section-dark),
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-service-section {
+  background: linear-gradient(180deg, rgba(255,255,255,0.22) 0%, rgba(244,241,234,0.94) 100%);
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-section.kov-section-tint,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section-tint {
+  background: linear-gradient(180deg, rgba(255,255,255,0.22) 0%, rgba(245,240,233,0.94) 100%);
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-section.kov-section-dark,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section-dark {
+  background: linear-gradient(180deg, rgba(255,255,255,0.26) 0%, rgba(243,236,229,0.96) 100%);
+  color: #111111;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section-dark .proof-section-heading h2,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section-dark .proof-section-heading p,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section-dark .proof-step-track li,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section-dark .proof-step-track li::before {
+  color: #111111;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section-dark .proof-step-track li::before {
+  background: #fff;
+  border-color: #dd7040;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-section-heading,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section-heading {
+  position: relative;
+  z-index: 1;
+  max-width: 860px;
+  margin-bottom: 28px;
+  padding-left: 18px;
+  border-left: 3px solid #dd7040;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-section-heading h2,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section-heading h2 {
+  margin: 0 0 12px;
+  font-family: Fraunces, Georgia, serif;
+  font-size: clamp(2.9rem, 4vw, 5rem);
+  line-height: 0.92;
+  letter-spacing: -0.065em;
+  font-weight: 500;
+  color: #111111;
+  text-wrap: balance;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section-heading h2,
+.two-sided-page.proof-page[data-proof-page="company"] .kov-section-heading h2 {
+  font-size: clamp(3.2rem, 4.4vw, 5.4rem);
+  letter-spacing: -0.07em;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-section.kov-section-dark .kov-section-heading h2,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section-dark .proof-section-heading h2 {
+  color: #f7f5f2;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section {
+  background:
+    radial-gradient(circle at 12% 18%, rgba(221,112,64,0.09), transparent 19%),
+    linear-gradient(180deg, rgba(255,255,255,0.22), rgba(244,241,234,0.96));
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-record-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-record {
+  position: relative;
+  min-width: 0;
+  border: 1px solid rgba(9, 14, 19, 0.12);
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.82), rgba(250,246,240,0.88));
+  box-shadow: 0 22px 38px rgba(15, 17, 20, 0.06);
+  overflow: hidden;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-record-open {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 210px;
+  padding: 18px 18px 16px;
+  border: 0;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(251,247,243,0.14));
+  text-align: left;
+  cursor: pointer;
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-record-open:hover,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-record-open:focus-visible {
+  transform: translateY(-2px);
+  border-color: rgba(217,114,42,0.48);
+  box-shadow: 0 24px 32px rgba(15,17,20,0.08);
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-record-top,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-record-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 0.66rem;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: #b94a20;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-record-title {
+  margin: 16px 0 8px;
+  font-family: Fraunces, Georgia, serif;
+  font-size: clamp(1.35rem, 2vw, 2rem);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+  color: #101821;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-record-meta {
+  color: #4b5563;
+  font-size: 0.76rem;
+  line-height: 1.55;
+  letter-spacing: 0.02em;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-record-summary {
+  margin-top: 12px;
+  color: #1e2a36;
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-record-footer {
+  margin-top: auto;
+  padding-top: 14px;
+  border-top: 1px solid rgba(9, 14, 19, 0.1);
+  font-size: 0.68rem;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-record-footer .proof-arrow {
+  color: #101821;
+  font-size: 1.15rem;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px 0 0;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-filter {
+  min-height: 38px;
+  padding: 0.68rem 0.92rem;
+  border: 1px solid rgba(9, 14, 19, 0.14);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.58);
+  color: #101821;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-filter:hover {
+  transform: translateY(-1px);
+  border-color: rgba(217,114,42,0.6);
+  box-shadow: 0 8px 20px rgba(16,24,33,0.05);
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-filter[aria-pressed="true"] {
+  background: linear-gradient(180deg, #101821 0%, #0b1219 100%);
+  border-color: #101821;
+  color: #f7f5f2;
+  box-shadow: 0 10px 20px rgba(16, 24, 33, 0.12);
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-country-control {
+  margin-top: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #101821;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-country-control select {
+  min-height: 42px;
+  padding: 0.75rem 2.5rem 0.75rem 0.9rem;
+  border: 1px solid rgba(9, 14, 19, 0.14);
+  border-radius: 10px;
+  background: rgba(255,255,255,0.7);
+  color: #101821;
+  font: inherit;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section-dark .proof-step-track li {
+  color: #f7f5f2;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-step-track {
+  position: relative;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-step-track li::before {
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(217,114,42,0.18);
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-profile-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-profile {
+  display: grid;
+  gap: 10px;
+  padding: 16px 16px 14px;
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.82), rgba(248,244,238,0.9));
+  border: 1px solid rgba(9,14,19,0.12);
+  box-shadow: 0 18px 30px rgba(16,24,33,0.05);
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-profile-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-height: 30px;
+  padding: 0.42rem 0.7rem;
+  border: 1px solid rgba(9,14,19,0.12);
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(247,239,230,0.95), rgba(255,255,255,0.9));
+  color: #b94a20;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-profile-id {
+  margin: 0;
+  color: #b94a20;
+  font-size: 0.64rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-profile h3 {
+  margin: 0;
+  font-family: Fraunces, Georgia, serif;
+  font-size: clamp(1.4rem, 2vw, 1.9rem);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+  color: #101821;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-profile > p {
+  margin: 0;
+  color: #495766;
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-profile dl {
+  display: grid;
+  gap: 10px;
+  margin: 6px 0 0;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-profile dl div {
+  display: grid;
+  gap: 4px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(9,14,19,0.08);
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-profile dt {
+  color: #b94a20;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-profile dd {
+  margin: 0;
+  color: #101821;
+  font-size: 0.93rem;
+  line-height: 1.5;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-section-heading .kov-eyebrow,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section-heading .kov-eyebrow,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-overline {
+  color: #d9722a;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-final-cta {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(255,255,255,0.26) 0%, rgba(243,236,229,0.96) 100%) !important;
+  color: #111111;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-final-cta h2,
+.two-sided-page.proof-page[data-proof-page="company"] .kov-final-cta p,
+.two-sided-page.proof-page[data-proof-page="company"] .kov-final-cta .kov-alternate,
+.two-sided-page.proof-page[data-proof-page="company"] .kov-final-cta .kov-alternate a {
+  color: #111111 !important;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-final-cta::after {
+  position: absolute;
+  top: -90px;
+  right: -40px;
+  width: 230px;
+  height: 230px;
+  border: 1px solid rgba(228,177,132,.45);
+  transform: rotate(18deg);
+  content: "";
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-route,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-route.is-company {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-route li,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-route.is-company li {
+  position: relative;
+  margin: 0;
+  border: 1px solid rgba(9, 14, 19, 0.12);
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 8px 20px rgba(12, 16, 20, 0.04);
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-route summary,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-route.is-company summary {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 72px;
+  padding: 14px 14px 12px;
+  cursor: pointer;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-route summary span,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-route.is-company summary span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #f3e7d8;
+  color: #b94a20;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-route summary strong,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-route.is-company summary strong {
+  display: inline-block;
+  font-size: 0.96rem;
+  line-height: 1.35;
+  color: #111111;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-route details p,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-route.is-company details p {
+  margin: 0;
+  padding: 0 14px 14px;
+  color: #495766;
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-sample,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-profile,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-record-grid > article {
+  border: 1px solid rgba(9, 14, 19, 0.12);
+  border-top: 3px solid #dd7040;
+  background: rgba(255, 255, 255, 0.64);
+  box-shadow: 0 10px 24px rgba(12, 16, 20, 0.04);
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-step-track li {
+  border-top: 2px solid #dd7040;
+  padding-top: 16px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-step-track li::before {
+  top: -6px;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border-color: #dd7040;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-map {
+  border: 1px solid rgba(9, 14, 19, 0.12);
+  background: linear-gradient(180deg, rgba(255,255,255,0.12), rgba(241,233,223,0.96));
+  box-shadow: 0 12px 24px rgba(17, 18, 20, 0.06);
+}
+
+.proof-dialog {
+  width: min(800px, 94vw);
+  border: 1px solid rgba(9, 14, 19, 0.12);
+  border-radius: 28px;
+  background: #f5f0e8;
+  box-shadow: 0 30px 80px rgba(12, 16, 20, 0.22);
+}
+
+.proof-dialog::backdrop {
+  background: rgba(17, 25, 32, 0.42);
+  backdrop-filter: blur(2px);
+}
+
+.proof-dialog-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px 14px 0;
+  background: transparent;
+}
+
+.proof-dialog-close {
+  width: 36px;
+  height: 36px;
+  border: 1px solid rgba(9, 14, 19, 0.12);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.7);
+  color: #101821;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.proof-dialog-content {
+  padding: 0 28px 28px;
+}
+
+.proof-dialog-id {
+  margin: 0 0 8px;
+  color: #d9722a;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.proof-dialog-content h2 {
+  margin: 0 0 22px;
+  font-family: Fraunces, Georgia, serif;
+  font-size: clamp(2rem, 3.1vw, 3rem);
+  line-height: 1.05;
+  letter-spacing: -0.06em;
+  font-weight: 500;
+  color: #101821;
+}
+
+.proof-dialog-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.proof-dialog-grid section {
+  min-width: 0;
+  padding: 16px 16px 15px;
+  border: 1px solid rgba(9, 14, 19, 0.12);
+  border-left: 3px solid #d9722a;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.74);
+  box-shadow: 0 12px 24px rgba(15, 17, 20, 0.04);
+}
+
+.proof-dialog-grid section h3 {
+  margin: 0 0 8px;
+  color: #b94a20;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.proof-dialog-grid section p,
+.proof-dialog-grid section li {
+  margin: 0;
+  color: #1d2933;
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+
+.proof-dialog-grid section ul {
+  margin: 0;
+  padding-left: 1.15rem;
+}
+
+.proof-dialog-grid .proof-dialog-next {
+  grid-column: 1 / -1;
+  background: rgba(255,255,255,0.78);
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-map-lines path {
+  stroke: rgba(16, 24, 33, 0.95);
+  stroke-width: 13;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-cta {
+  position: relative;
+  border-top: 1px solid rgba(9, 14, 19, 0.12);
+  background: linear-gradient(180deg, rgba(252, 248, 242, 0.96), rgba(243, 237, 230, 0.98)) !important;
+  color: #101821 !important;
+  overflow: hidden;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-cta::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("kov-executive-intelligence-network.svg") center / cover no-repeat;
+  opacity: 0.12;
+  pointer-events: none;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-cta > * {
+  position: relative;
+  z-index: 1;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-cta h2,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-cta p,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-cta .kov-text-link {
+  color: #101821 !important;
+}
+
+.two-sided-page main > section.kov-service-faq {
+  background: #fcfaf6 !important;
+  background-image: none !important;
+  padding: clamp(52px, 7vw, 86px) max(8vw, 24px);
+  border-top: 1px solid #cdd1d6;
+  border-bottom: 1px solid #cdd1d6;
+}
+.kov-service-faq-heading { max-width: 780px; margin-bottom: 26px; }
+.kov-service-faq-heading h2 { margin: 0 0 10px; font-family: Fraunces, Georgia, serif; font-size: clamp(34px, 4vw, 48px); font-weight: 500; line-height: 1.1; }
+.kov-service-faq-heading > p:last-child { color: #555b62; }
+.kov-faq-layout { display: grid; grid-template-columns: minmax(170px, .65fr) minmax(0, 1.35fr); gap: 26px; max-width: 1100px; }
+.kov-faq-categories { display: grid; align-content: start; }
+.kov-faq-category { min-height: 48px; padding: 10px 14px; border: 0; border-bottom: 1px solid #cdd1d6; background: transparent; color: #090e13; font: inherit; font-size: 13px; text-align: left; cursor: pointer; }
+.kov-faq-category[aria-pressed="true"] { border-left: 3px solid #f15a24; background: #f4f1ea; font-weight: 700; }
+.kov-faq-questions { border-top: 1px solid #cdd1d6; }
+.kov-faq-item { border-bottom: 1px solid #cdd1d6; }
+.kov-faq-item summary { min-height: 54px; display: flex; align-items: center; padding: 12px 4px; font-size: 14px; font-weight: 600; line-height: 1.45; cursor: pointer; list-style: none; }
+.kov-faq-item summary::-webkit-details-marker { display: none; }
+.kov-faq-item summary::after { margin-left: auto; padding-left: 14px; color: #b94a20; content: "+"; font-size: 20px; }
+.kov-faq-item[open] summary::after { content: "−"; }
+.kov-faq-item p { max-width: 760px; margin: 0; padding: 0 26px 18px 4px; color: #555b62; font-size: 13px; line-height: 1.65; }
+.kov-faq-category:focus-visible, .kov-faq-item summary:focus-visible { outline: 2px solid #b94a20; outline-offset: 3px; }
+
+.two-sided-page .kov-section:not(.kov-section-dark) {
+  background-color: #fcfaf6;
+}
+.two-sided-page .kov-section.kov-section-tint:not(.kov-section-dark) {
+  background-color: #f1ebe1;
+  background-image: linear-gradient(135deg, rgba(221,112,64,.045), transparent 45%);
+}
+.two-sided-page .kov-section.kov-split:not(.kov-section-dark) {
+  border-top: 1px solid rgba(9,14,19,.12);
+}
+.two-sided-page .kov-split.kov-section-ledger {
+  position: relative;
+  grid-template-columns: minmax(0,.9fr) minmax(0,1.1fr);
+  padding-left: max(8vw,24px);
+}
+.two-sided-page .kov-split.kov-section-ledger::before {
+  position: absolute;
+  top: 14%;
+  bottom: 14%;
+  left: 0;
+  width: 5px;
+  background: #dd7040;
+  content: "";
+}
+.two-sided-page .kov-section-heading,
+.two-sided-page .proof-section-heading {
+  position: relative;
+  padding-left: 16px;
+  border-left: 3px solid #dd7040;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section::after,
+.two-sided-page.proof-page[data-proof-page="company"] .kov-section::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, rgba(255,255,255,0.18), transparent 42%, rgba(217,106,43,0.05));
+  pointer-events: none;
+  content: "";
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-record-open,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-profile,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-sample,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-record-grid > article {
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-record-open:hover,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-profile:hover,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-sample:hover,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-record-grid > article:hover {
+  transform: translateY(-2px);
+  border-color: rgba(221, 112, 64, 0.55);
+  box-shadow: 0 16px 28px rgba(15, 17, 20, 0.08);
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-record-title,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section-heading h2,
+.two-sided-page.proof-page[data-proof-page="company"] .kov-section-heading h2 {
+  text-wrap: balance;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .proof-record-open .proof-record-title {
+  font-family: Fraunces, Georgia, serif;
+  font-size: 1.04rem;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.two-sided-page.proof-page {
+  background: linear-gradient(180deg, #f8f3ee 0%, #f1ebdf 100%);
+}
+
+.two-sided-page.proof-page::before {
+  inset: -18% -8% 0 -8%;
+  opacity: 0.12;
+  background-image: url("kov-executive-intelligence-network-mobile.svg");
+  filter: brightness(1.02) saturate(0.8);
+}
+
+.two-sided-page.proof-page main > section.proof-section-tint {
+  background: linear-gradient(120deg, #f4f1eb 0%, #eaf2ef 100%) !important;
+}
+
+.two-sided-page.proof-page .proof-section:has(.proof-record-grid) .proof-section-heading,
+.two-sided-page.proof-page .proof-section:has(.proof-profile-grid) .proof-section-heading,
+.two-sided-page.proof-page .proof-section:has(.proof-sample-centered) .proof-section-heading {
+  max-width: 920px;
+  margin: 0 auto 32px;
+  padding: 16px 0 0;
+  border-top: 3px solid #c85b25;
+  border-left: 0;
+  text-align: center;
+}
+
+.two-sided-page.proof-page .proof-section:has(.proof-record-grid) .proof-section-heading p:last-child,
+.two-sided-page.proof-page .proof-section:has(.proof-profile-grid) .proof-section-heading p:last-child,
+.two-sided-page.proof-page .proof-section:has(.proof-sample-centered) .proof-section-heading p:last-child {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.two-sided-page.proof-page .proof-section:has(.proof-record-grid) .proof-section-heading .kov-eyebrow,
+.two-sided-page.proof-page .proof-section:has(.proof-profile-grid) .proof-section-heading .kov-eyebrow,
+.two-sided-page.proof-page .proof-section:has(.proof-sample-centered) .proof-section-heading .kov-eyebrow {
+  color: #c85b25;
+}
+
+.two-sided-page.proof-page .proof-sample-centered {
+  width: min(100%, 850px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.two-sided-page.proof-page .proof-route li:nth-child(4n) {
+  border-left-color: #26746c;
+}
+
+.two-sided-page.proof-page .proof-filter[aria-pressed="true"] {
+  border-color: #c85b25;
+  background: #c85b25;
+}
+
+.two-sided-page.proof-page .proof-cta {
+  text-align: center;
+}
+
+.two-sided-page.proof-page .proof-cta h2,
+.two-sided-page.proof-page .proof-cta p {
+  max-width: 760px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.two-sided-page.proof-page .proof-cta .kov-eyebrow {
+  color: #c85b25 !important;
+}
+
+.two-sided-page.proof-page .proof-cta .kov-button,
+.two-sided-page.proof-page .proof-cta .kov-text-link {
+  margin: 6px 8px 0;
+}
+
+.two-sided-page.proof-page .proof-network-figure {
+  min-height: 0;
+  margin: 20px 0 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid rgba(16, 24, 33, .18);
+  background: #090e13;
+  box-shadow: 0 18px 36px rgba(16, 24, 33, .14);
+}
+
+.two-sided-page.proof-page .proof-network-figure picture,
+.two-sided-page.proof-page .proof-network-figure img {
+  display: block;
+  width: 100%;
+}
+
+.two-sided-page.proof-page .proof-network-figure img {
+  height: auto;
+}
+
+.two-sided-page.proof-page .proof-network-figure .kov-art-caption {
+  margin: 0;
+  padding: 11px 14px;
+  background: #101821;
+  color: #f2efe8;
+  font-size: .65rem;
+  letter-spacing: .13em;
+}
+
+@media (max-width: 900px) {
+  .two-sided-page.proof-page[data-proof-page="company"] .proof-record-grid,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .proof-record-grid,
+  .two-sided-page.proof-page[data-proof-page="company"] .proof-sample-grid,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .proof-sample-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .two-sided-page.proof-page[data-proof-page="company"] .proof-profile-grid,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .proof-profile-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .two-sided-page.proof-page[data-proof-page="company"] .proof-route,
+  .two-sided-page.proof-page[data-proof-page="company"] .proof-route.is-company,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .proof-route,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .proof-route.is-company {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .two-sided-page.proof-page[data-proof-page="company"] .proof-step-track,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .proof-step-track {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+  }
+}
+
+@media (max-width: 680px) {
+  .two-sided-page.proof-page[data-proof-page="company"] .kov-hero,
+  .two-sided-page.proof-page[data-proof-page="company"] .proof-hero,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .kov-hero,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .proof-hero {
+    grid-template-columns: 1fr;
+    gap: 22px;
+    padding: 44px 20px 30px;
+  }
+
+  .two-sided-page.proof-page[data-proof-page="company"] .kov-hero-copy,
+  .two-sided-page.proof-page[data-proof-page="company"] .proof-hero-copy,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .kov-hero-copy,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .proof-hero-copy {
+    max-width: none;
+  }
+
+  .two-sided-page.proof-page[data-proof-page="company"] .kov-hero-copy h1,
+  .two-sided-page.proof-page[data-proof-page="company"] .proof-hero-copy h1,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .kov-hero-copy h1,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .proof-hero-copy h1 {
+    font-size: clamp(2.8rem, 12vw, 4rem);
+    line-height: 0.96;
+    letter-spacing: -0.065em;
+  }
+
+  .two-sided-page.proof-page[data-proof-page="company"] .proof-overview-grid,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .proof-overview-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .two-sided-page.proof-page[data-proof-page="company"] .proof-record-grid,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .proof-record-grid,
+  .two-sided-page.proof-page[data-proof-page="company"] .proof-sample-grid,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .proof-sample-grid,
+  .two-sided-page.proof-page[data-proof-page="company"] .proof-profile-grid,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .proof-profile-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .two-sided-page.proof-page[data-proof-page="company"] .proof-route,
+  .two-sided-page.proof-page[data-proof-page="company"] .proof-route.is-company,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .proof-route,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .proof-route.is-company,
+  .two-sided-page.proof-page[data-proof-page="company"] .proof-step-track,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .proof-step-track {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .two-sided-page.proof-page[data-proof-page="company"] .proof-filters,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .proof-filters {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .two-sided-page.proof-page[data-proof-page="company"] .proof-country-control,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .proof-country-control {
+    display: grid;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .two-sided-page.proof-page[data-proof-page="company"] .kov-actions,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .kov-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .two-sided-page.proof-page[data-proof-page="company"] .kov-button,
+  .two-sided-page.proof-page[data-proof-page="company"] .kov-text-link,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .kov-button,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .kov-text-link {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .proof-dialog {
+    width: 100vw;
+    max-width: 100vw;
+    height: 100dvh;
+    border-radius: 0;
+  }
+
+  .proof-dialog-content {
+    padding: 0 16px 24px;
+  }
+
+  .proof-dialog-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 420px) {
+  .two-sided-page.proof-page[data-proof-page="company"] .proof-overview-grid,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .proof-overview-grid,
+  .two-sided-page.proof-page[data-proof-page="company"] .proof-filters,
+  .two-sided-page.proof-page[data-proof-page="candidate"] .proof-filters {
+    grid-template-columns: 1fr;
+  }
+}
+
+.two-sided-page .kov-section-heading h2::after,
+.two-sided-page .proof-section-heading h2::after {
+  content: none !important;
+}
+.two-sided-page .kov-final-cta {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(252, 248, 242, 0.96), rgba(244, 239, 233, 0.98)) !important;
+  color: #101821;
+}
+.two-sided-page .kov-final-cta h2,
+.two-sided-page .kov-final-cta p {
+  position: relative;
+  z-index: 1;
+  color: #101821 !important;
+}
+.two-sided-page .kov-final-cta::after {
+  position: absolute;
+  top: -90px;
+  right: -40px;
+  width: 230px;
+  height: 230px;
+  border: 1px solid rgba(228,177,132,.45);
+  transform: rotate(18deg);
+  content: "";
+}
+.two-sided-page .proof-service-section {
+  position: relative;
+  background: linear-gradient(180deg, #f5f0e8 0%, #f1ebe1 100%);
+  border-top: 1px solid rgba(9, 14, 19, 0.12);
+  border-bottom: 1px solid rgba(9, 14, 19, 0.12);
+}
+.two-sided-page .proof-service-section > h2 {
+  margin: 0;
+  font-family: Fraunces, Georgia, serif;
+  font-size: clamp(2.3rem, 3vw, 3.3rem);
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  font-weight: 500;
+}
+.two-sided-page .proof-service-section .proof-service-lead {
+  max-width: 760px;
+  margin: 10px 0 0;
+  color: #555b62;
+  font-size: 1.02rem;
+}
+.two-sided-page .proof-service-section .proof-service-control {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 24px;
+  margin-top: 28px;
+  padding: 22px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(9,14,19,.12);
+  box-shadow: 0 10px 26px rgba(30, 22, 14, 0.04);
+}
+.two-sided-page .proof-service-section .proof-service-pipeline {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 14px 0 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+}
+.two-sided-page .proof-service-section .proof-service-pipeline span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 54px;
+  padding: 9px 10px;
+  border: 1px solid rgba(9, 14, 19, 0.12);
+  background: #fffdfb;
+  color: #090e13;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.two-sided-page .proof-service-section .proof-service-pipeline span:nth-child(odd) {
+  background: #f1ebe1;
+}
+.two-sided-page .proof-service-section .proof-service-link {
+  display: inline-flex;
+  margin-top: 18px;
+  color: #090e13;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+.two-sided-page .proof-service-section .proof-deliverables {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.two-sided-page .proof-service-section .proof-deliverables li {
+  margin: 0;
+  border: 1px solid rgba(9, 14, 19, 0.12);
+  background: #fff;
+}
+.two-sided-page .proof-service-section .proof-deliverables summary {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 64px;
+  padding: 12px 14px;
+  cursor: pointer;
+}
+.two-sided-page .proof-service-section .proof-deliverables summary b {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 34px;
+  height: 34px;
+  background: #f3e2d7;
+  color: #b94a20;
+  font-size: 0.72rem;
+  line-height: 1;
+  font-weight: 800;
+}
+.two-sided-page .proof-service-section .proof-deliverables summary strong {
+  display: inline-block;
+  font-size: 0.93rem;
+  line-height: 1.35;
+}
+.two-sided-page .proof-service-section .proof-deliverables p {
+  margin: 0;
+  padding: 0 14px 14px;
+  color: #555b62;
+  font-size: 0.84rem;
+  line-height: 1.55;
+}
+.two-sided-page .proof-service-section .proof-scope-note {
+  margin-top: 18px;
+  color: #555b62;
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-section:not(.kov-section-dark),
+.two-sided-page.proof-page[data-proof-page="company"] .proof-service-section,
+.two-sided-page.proof-page[data-proof-page="company"] .kov-final-cta {
+  background: linear-gradient(180deg, rgba(255,255,255,0.22) 0%, rgba(244,241,234,0.94) 100%) !important;
+  border-top: 1px solid rgba(9, 14, 19, 0.12);
+  border-bottom: 1px solid rgba(9, 14, 19, 0.12);
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-section.kov-section-tint:not(.kov-section-dark) {
+  background: linear-gradient(180deg, rgba(255,255,255,0.22) 0%, rgba(245,240,233,0.94) 100%) !important;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-section-heading .kov-eyebrow,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section-heading .kov-eyebrow,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-overline {
+  color: #d9722a !important;
+  letter-spacing: 0.2em !important;
+  text-transform: uppercase !important;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-section-heading h2,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section-heading h2 {
+  font-family: Fraunces, Georgia, serif !important;
+  font-size: clamp(2.9rem, 4vw, 5rem) !important;
+  line-height: 0.92 !important;
+  letter-spacing: -0.065em !important;
+  font-weight: 500 !important;
+  color: #111111 !important;
+  text-wrap: balance !important;
+}
+
+.two-sided-page.proof-page[data-proof-page="company"] .kov-section.kov-section-dark .kov-section-heading h2,
+.two-sided-page.proof-page[data-proof-page="company"] .proof-section-dark .proof-section-heading h2 {
+  color: #111111 !important;
+}
+
+.two-sided-page .kov-service-grid article {
+  min-height: 210px;
+  padding: 24px;
+  border-top: 3px solid #dd7040;
+}
+.two-sided-page .kov-service-grid article:nth-child(3n + 2) {
+  background: #f1ebe1;
+}
+
+.two-sided-page.proof-page {
+  --proof-panel: #f9f5f1;
+  --proof-soft: #f3eee6;
+  --proof-line: rgba(9, 14, 19, 0.14);
+}
+
+.two-sided-page.proof-page .proof-hero {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr);
+  gap: clamp(26px, 4vw, 56px);
+  align-items: center;
+  padding: clamp(54px, 8vw, 110px) max(8vw, 24px);
+  background:
+    radial-gradient(circle at 14% 20%, rgba(30, 90, 229, 0.10), transparent 18%),
+    radial-gradient(circle at 88% 12%, rgba(217, 114, 42, 0.10), transparent 24%),
+    linear-gradient(135deg, #f9f3eb 0%, #f2e7d5 48%, #edf1f7 100%);
+  border-bottom: 1px solid rgba(9,14,19,0.12);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.45);
+  overflow: hidden;
+}
+
+.two-sided-page.proof-page .proof-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent 0%, rgba(255,255,255,0.28) 34%, transparent 58%);
+  pointer-events: none;
+}
+
+.two-sided-page.proof-page .proof-hero-copy {
+  position: relative;
+  z-index: 1;
+  max-width: 760px;
+}
+
+.two-sided-page.proof-page .proof-hero-copy h1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.04em;
+  margin: 0 0 18px;
+  font-family: Fraunces, Georgia, serif;
+  font-size: clamp(3.4rem, 4.7vw, 6.4rem);
+  line-height: 0.8;
+  letter-spacing: -0.085em;
+  font-weight: 500;
+  color: #101821;
+  text-wrap: balance;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.45);
+}
+
+.two-sided-page.proof-page .headline-line {
+  display: block;
+}
+
+.two-sided-page.proof-page .headline-accent {
+  display: inline-block;
+  padding: 0.02em 0.18em 0.09em;
+  border-radius: 0.12em;
+  background: linear-gradient(180deg, #1f5ae4 0%, #173ea6 100%);
+  box-shadow: 0 14px 28px rgba(31, 90, 228, 0.18), inset 0 1px 0 rgba(255,255,255,0.2);
+  color: #f6f8ff;
+}
+
+.two-sided-page.proof-page .proof-overline {
+  margin: 0 0 18px;
+  color: #d9722a;
+  font-size: 0.73rem;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.two-sided-page.proof-page .kov-lead {
+  margin-bottom: 18px;
+  max-width: 720px;
+  font-size: 1.18rem;
+  line-height: 1.55;
+  color: #1a2430;
+}
+
+.two-sided-page.proof-page .proof-hero-copy p:not(.proof-overline):not(.kov-lead) {
+  color: #495766;
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+.two-sided-page.proof-page .proof-hero-copy .kov-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.two-sided-page.proof-page .proof-hero-copy .kov-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  padding: 0.9rem 1.55rem;
+  border: 0;
+  border-radius: 14px;
+  background: linear-gradient(180deg, #101821 0%, #0b1219 100%);
+  box-shadow: 0 18px 30px rgba(16,21,26,0.16);
+  color: #fff !important;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.two-sided-page.proof-page .proof-hero-copy .kov-text-link {
+  color: #101821;
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
+  font-weight: 700;
+}
+
+.two-sided-page.proof-page .proof-hero-panel {
+  position: relative;
+  z-index: 1;
+  border: 1px solid rgba(16, 24, 33, 0.12);
+  border-radius: 26px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.72), rgba(242,235,225,0.94));
+  box-shadow: 0 30px 48px rgba(15, 18, 22, 0.09), inset 0 1px 0 rgba(255,255,255,0.7);
+  transform: rotate(0.35deg);
+  color: #101821;
+}
+
+.two-sided-page.proof-page .proof-hero-panel::before {
+  content: "";
+  position: absolute;
+  inset: 14px 14px auto auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(31,90,228,0.12), transparent 64%);
+  pointer-events: none;
+}
+
+.two-sided-page.proof-page .proof-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(16,24,33,0.12);
+  letter-spacing: 0.12em;
+  font-size: 0.66rem;
+  color: #495766;
+}
+
+.two-sided-page.proof-page .proof-panel-header > span:last-child {
+  margin-left: auto;
+  color: #1f5ae4;
+}
+
+.two-sided-page.proof-page .proof-overview-grid {
+  gap: 0;
+  border: 1px solid rgba(16,24,33,0.12);
+  background: rgba(255,255,255,0.44);
+}
+
+.two-sided-page.proof-page .proof-overview-grid div {
+  display: grid;
+  gap: 4px;
+  padding: 14px 12px;
+  background: rgba(255,255,255,0.36);
+}
+
+.two-sided-page.proof-page .proof-overview-grid span,
+.two-sided-page.proof-page .proof-overview-grid strong {
+  display: block;
+}
+
+.two-sided-page.proof-page .proof-overview-grid span {
+  color: #495766;
+}
+
+.two-sided-page.proof-page .proof-overview-grid strong {
+  color: #101821;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.two-sided-page.proof-page .proof-map {
+  position: relative;
+  min-height: 240px;
+  margin-top: 18px;
+  padding: 16px 14px 10px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.14), rgba(241,233,223,0.96));
+  border: 1px solid rgba(16,24,33,0.12);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+}
+
+.two-sided-page.proof-page .proof-map::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,0.12), transparent 38%);
+  pointer-events: none;
+}
+
+.two-sided-page.proof-page .proof-map-title {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 8px;
+  color: #495766;
+  font-size: 0.66rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.two-sided-page.proof-page .proof-map-lines path {
+  fill: none;
+  stroke: rgba(16,24,33,0.98);
+  stroke-width: 14;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  filter: drop-shadow(0 12px 18px rgba(17, 18, 20, 0.08));
+}
+
+.two-sided-page.proof-page .proof-map-node {
+  position: absolute;
+  z-index: 1;
+  padding: 8px 10px;
+  border: 1px solid rgba(16,24,33,0.12);
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(245,239,231,0.94));
+  box-shadow: 0 10px 18px rgba(17, 18, 20, 0.06);
+  color: #101821;
+  font-size: 0.61rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.two-sided-page.proof-page .proof-map-node:nth-of-type(1),
+.two-sided-page.proof-page .proof-map-node:nth-of-type(2),
+.two-sided-page.proof-page .proof-map-node:nth-of-type(5) {
+  background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(232,239,250,0.9));
+}
+
+.two-sided-page.proof-page .proof-map-node:nth-of-type(1) { top: 16%; left: 7%; }
+.two-sided-page.proof-page .proof-map-node:nth-of-type(2) { top: 15%; left: 33%; }
+.two-sided-page.proof-page .proof-map-node:nth-of-type(3) { top: 44%; left: 47%; }
+.two-sided-page.proof-page .proof-map-node:nth-of-type(4) { top: 51%; left: 62%; }
+.two-sided-page.proof-page .proof-map-node:nth-of-type(5) { top: 72%; left: 27%; }
+.two-sided-page.proof-page .proof-map-node:nth-of-type(6) { top: 74%; left: 61%; }
+
+.two-sided-page.proof-page .proof-section {
+  position: relative;
+  padding-top: clamp(52px, 7vw, 92px);
+  padding-bottom: clamp(52px, 7vw, 92px);
+  background: linear-gradient(180deg, rgba(255,255,255,0.22) 0%, rgba(244,241,234,0.94) 100%);
+  border-top: 1px solid rgba(9, 14, 19, 0.12);
+  border-bottom: 1px solid rgba(9, 14, 19, 0.12);
+  overflow: hidden;
+}
+
+.two-sided-page.proof-page .proof-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 12% 20%, rgba(221,112,64,0.12), transparent 20%),
+    radial-gradient(circle at 92% 22%, rgba(17,25,32,0.08), transparent 22%);
+  pointer-events: none;
+}
+
+.two-sided-page.proof-page .proof-section-heading {
+  position: relative;
+  z-index: 1;
+  max-width: 860px;
+  margin-bottom: 28px;
+  padding-left: 18px;
+  border-left: 3px solid #dd7040;
+}
+
+.two-sided-page.proof-page .proof-section-heading h2 {
+  margin: 0 0 12px;
+  font-family: Fraunces, Georgia, serif;
+  font-size: clamp(2.9rem, 4vw, 5rem);
+  line-height: 0.92;
+  letter-spacing: -0.065em;
+  font-weight: 500;
+  color: #111111;
+  text-wrap: balance;
+}
+
+.two-sided-page.proof-page .proof-section-heading p:last-child {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  max-width: 720px;
+  color: #4b545d;
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+.two-sided-page.proof-page .proof-route {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.two-sided-page.proof-page .proof-route li {
+  display: flex;
+  min-height: 168px;
+  padding: 0;
+  border: 1px solid rgba(9, 14, 19, 0.12);
+  border-left: 4px solid #dd7040;
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(247,242,236,0.98));
+  box-shadow: 0 16px 32px rgba(17, 17, 17, 0.05), inset 0 1px 0 rgba(255,255,255,0.7);
+  overflow: hidden;
+}
+
+.two-sided-page.proof-page .proof-route li:nth-child(2n) {
+  border-left-color: #0f1f2d;
+}
+
+.two-sided-page.proof-page .proof-route li:nth-child(3n) {
+  border-left-color: #b94a20;
+}
+
+.two-sided-page.proof-page .proof-route summary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100%;
+  padding: 16px 16px 14px;
+  cursor: pointer;
+}
+
+.two-sided-page.proof-page .proof-route summary span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 34px;
+  height: 24px;
+  margin: 0 0 16px;
+  color: #b94a20;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.two-sided-page.proof-page .proof-route summary strong {
+  display: block;
+  font-size: 1.08rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #111111;
+}
+
+.two-sided-page.proof-page .proof-route details p {
+  margin: 0;
+  padding: 0 16px 16px;
+  color: #4b545d;
+  font-size: 0.82rem;
+  line-height: 1.65;
+}
+
+.two-sided-page.proof-page .proof-sample {
+  border: 1px solid var(--proof-line);
+  border-top: 3px solid #dd7040;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 14px 28px rgba(9,14,19,0.04);
+}
+
+.two-sided-page.proof-page .proof-sample h3 {
+  margin: 8px 0 18px;
+  font-family: Fraunces, Georgia, serif;
+  font-size: clamp(2rem, 2.4vw, 2.8rem);
+  line-height: 1.05;
+  font-weight: 500;
+}
+
+.two-sided-page.proof-page .proof-sample dl div {
+  border-top: 1px solid var(--proof-line);
+}
+
+.two-sided-page.proof-page .proof-sample dl div:last-child {
+  border-bottom: 1px solid var(--proof-line);
+}
+
+.two-sided-page.proof-page .proof-scope-note {
+  margin-top: 18px;
+  color: #555b62;
+  font-size: 0.82rem;
+}
+
+.two-sided-page.proof-page .proof-record-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.two-sided-page.proof-page .proof-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.two-sided-page.proof-page .proof-filter {
+  min-height: 40px;
+  padding: 8px 12px;
+  border: 1px solid rgba(9,14,19,0.12);
+  background: rgba(255,255,255,0.45);
+  color: #090e13;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.two-sided-page.proof-page .proof-filter[aria-pressed="true"] {
+  border-color: #090e13;
+  background: #090e13;
+  color: #fff;
+}
+
+.two-sided-page.proof-page .proof-country-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+  color: #555b62;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.two-sided-page.proof-page .proof-country-control select {
+  min-width: 170px;
+  min-height: 40px;
+  padding: 8px 12px;
+  border: 1px solid rgba(9,14,19,0.12);
+  background: rgba(255,255,255,0.7);
+  color: #090e13;
+  font: inherit;
+}
+
+.two-sided-page.proof-page .proof-record-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.two-sided-page.proof-page .proof-record-grid > article,
+.two-sided-page.proof-page .proof-profile-grid > article,
+.two-sided-page.proof-page .proof-route li,
+.two-sided-page.proof-page .proof-step-track li {
+  border-color: rgba(9, 14, 19, 0.12);
+}
+
+.two-sided-page.proof-page .proof-record-grid > article {
+  padding: 18px;
+  border: 1px solid rgba(9, 14, 19, 0.12);
+  background: rgba(255,255,255,0.7);
+  box-shadow: 0 10px 20px rgba(9,14,19,0.02);
+}
+
+.two-sided-page.proof-page .proof-record-grid > article button {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  text-align: left;
+}
+
+.two-sided-page.proof-page .proof-record-open {
+  min-height: 0;
+  border: 1px solid rgba(9, 14, 19, 0.12);
+  background: rgba(255,255,255,0.65);
+}
+
+.two-sided-page.proof-page .proof-cta {
+  background: linear-gradient(180deg, rgba(255,255,255,0.22) 0%, rgba(243,236,229,0.96) 100%);
+}
+
+.two-sided-page.proof-page .proof-cta h2,
+.two-sided-page.proof-page .proof-cta p,
+.two-sided-page.proof-page .proof-cta .kov-text-link {
+  color: #111111;
+}
+
+@media (max-width: 900px) {
+  .two-sided-page.proof-page .proof-record-grid {
+    grid-template-columns: 1fr;
+  }
+  .two-sided-page.proof-page .proof-country-control {
+    margin-left: 0;
+  }
+  .two-sided-page .kov-split,
+  .two-sided-page .kov-split.kov-section-ledger {
+    grid-template-columns: minmax(0,1fr);
+    gap: 20px;
+  }
+  .two-sided-page .kov-split > div:first-child h2 {
+    max-width: 26ch;
+  }
+  .two-sided-page .proof-service-section .proof-service-control {
+    grid-template-columns: 1fr;
+  }
+  .two-sided-page .proof-service-section .proof-deliverables {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .two-sided-page.proof-page .proof-hero {
+    gap: 24px;
+    padding: 48px 22px 42px;
+  }
+  .two-sided-page.proof-page .proof-hero-panel {
+    padding: 18px 16px;
+  }
+  .two-sided-page.proof-page .proof-map {
+    min-height: 200px;
+  }
+  .two-sided-page.proof-page .proof-map-node {
+    font-size: 0.56rem;
+    padding: 5px 7px;
+    white-space: normal;
+  }
+  .two-sided-page.proof-page .proof-filter {
+    font-size: 0.68rem;
+  }
+  .two-sided-page.proof-page .proof-filters {
+    gap: 6px;
+  }
+  .two-sided-page main > section.kov-service-faq { padding: 48px 22px; }
+  .kov-faq-layout { grid-template-columns: 1fr; gap: 18px; }
+  .kov-faq-categories { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+  .kov-faq-category { min-height: 44px; padding: 9px 10px; border: 1px solid #cdd1d6; font-size: 12px; }
+  .kov-faq-category[aria-pressed="true"] { border-color: #090e13; }
+  .kov-faq-item summary { font-size: 13px; }
+  .two-sided-page .proof-service-section .proof-service-pipeline {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .two-sided-page .proof-service-section .proof-deliverables summary {
+    min-height: 58px;
+  }
+}
