@@ -108,7 +108,6 @@
       {
         title: 'For Companies',
         links: [
-          [`${rootPrefix}global-talent-sourcer.html`, 'Global Talent Sourcing'],
           [`${rootPrefix}company-services.html`, 'Company Services'],
           [`${rootPrefix}how-it-works.html`, 'How It Works'],
           [`${rootPrefix}contact.html`, 'Contact'],

@@ -37,7 +37,6 @@
           <h2>For Companies</h2>
           <ul>
             <li><a href="${rootPrefix}company-services.html">Company Services</a></li>
-            <li><a href="${rootPrefix}global-talent-sourcer.html">Global Talent Sourcing</a></li>
             <li><a href="${rootPrefix}countries-we-serve.html">Countries We Serve</a></li>
             <li><a href="${rootPrefix}faqs.html">FAQs</a></li>
           </ul>
