@@ -1,0 +1,626 @@
+.backend-page {
+  --kov-orange: #a7491c;
+  --kov-orange-dark: #9f4217;
+  --kov-green: #315c43;
+  --kov-green-dark: #244633;
+  --kov-white: #fff;
+  --kov-brown: #463629;
+  --kov-brown-soft: #f4ede4;
+  --kov-brown-line: #dfd1c1;
+  --kov-muted: #675d52;
+  background: #fbf8f3;
+  color: var(--kov-brown);
+}
+
+.backend-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  align-items: center;
+  gap: clamp(1.25rem, 4vw, 2.75rem);
+  margin: 1.5rem 0 1.75rem;
+  padding: clamp(1rem, 3vw, 1.75rem);
+  overflow: hidden;
+  border: 1px solid var(--kov-brown-line);
+  border-radius: 18px;
+  background: linear-gradient(118deg, #fff 0%, #fff 48%, var(--kov-brown-soft) 100%);
+  box-shadow: 0 14px 34px rgb(70 54 41 / 7%);
+}
+
+.backend-hero-copy {
+  min-width: 0;
+}
+
+.backend-hero-copy h1 {
+  margin: 0.25rem 0 0.75rem;
+  color: var(--kov-brown);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 1.08;
+}
+
+.backend-hero-copy > p:not(.backend-eyebrow) {
+  max-width: 36rem;
+  color: var(--kov-muted);
+  line-height: 1.7;
+}
+
+.backend-eyebrow {
+  margin: 0;
+  color: var(--kov-green-dark);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  line-height: 1.5;
+}
+
+.backend-hero > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: 1px solid rgb(70 54 41 / 10%);
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 12px 26px rgb(70 54 41 / 10%);
+}
+
+.backend-admin-page .backend-hero-copy > h1 {
+  padding-bottom: 0;
+  border: 0;
+}
+
+.backend-admin-page .backend-hero {
+  grid-column: 1 / -1;
+}
+
+.backend-page main a {
+  color: var(--kov-orange-dark);
+  text-decoration-color: currentColor;
+  text-underline-offset: 0.18em;
+}
+
+.backend-page main a:hover {
+  color: var(--kov-green-dark);
+}
+
+.backend-page :is(button, input, select, textarea):focus-visible,
+.backend-page a:focus-visible {
+  outline: 3px solid var(--kov-orange);
+  outline-offset: 3px;
+}
+
+.backend-page :is(input:not([type="checkbox"]), select, textarea) {
+  border-color: var(--kov-brown-line);
+  border-radius: 7px;
+  background-color: var(--kov-white);
+  color: var(--kov-brown);
+}
+
+.backend-page button {
+  border-color: var(--kov-orange-dark);
+  border-radius: 7px;
+  background: var(--kov-orange);
+  color: var(--kov-white);
+  font: inherit;
+  font-weight: 600;
+  transition: background-color 160ms ease, border-color 160ms ease, transform 160ms ease;
+}
+
+.backend-page button:hover:not(:disabled) {
+  border-color: var(--kov-orange-dark);
+  background: var(--kov-orange-dark);
+}
+
+.backend-page button:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.backend-page button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.backend-account-page .account-shell,
+.backend-directory-page .directory-shell,
+.backend-admin-page .admin-shell {
+  margin-inline: auto !important;
+  padding-inline: clamp(1rem, 4vw, 2rem) !important;
+  color: var(--kov-brown);
+}
+
+.backend-account-page .account-shell {
+  max-width: 820px;
+  padding-block: clamp(1.75rem, 4vw, 3rem) 4rem !important;
+}
+
+.backend-account-page .account-shell > a {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  margin-bottom: 0.35rem;
+  color: var(--kov-orange-dark);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.backend-account-page .account-shell > a:hover {
+  color: var(--kov-green-dark);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.backend-account-page .account-card {
+  border: 1px solid var(--kov-brown-line) !important;
+  border-top: 3px solid var(--kov-orange) !important;
+  background: var(--kov-white) !important;
+  padding: clamp(1.25rem, 3vw, 2rem) !important;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgb(70 54 41 / 5%);
+}
+
+.backend-account-page .account-card h2,
+.backend-account-page .account-card h3 {
+  color: var(--kov-brown);
+  font-family: Fraunces, Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+.backend-account-page .account-card h2 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(1.55rem, 3vw, 2rem);
+}
+
+.backend-account-page .account-card h3 {
+  margin: 1.5rem 0 0.5rem;
+  font-size: 1.35rem;
+}
+
+.backend-account-page .account-card > p {
+  color: var(--kov-muted);
+  line-height: 1.65;
+}
+
+.backend-account-page .account-fields {
+  display: grid;
+  gap: 1.1rem;
+  margin-top: 0.4rem;
+}
+
+.backend-account-page .account-fields label {
+  display: grid;
+  gap: 0.45rem;
+  color: var(--kov-brown);
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.backend-account-page .account-fields input:not([type="checkbox"]),
+.backend-account-page .account-fields select,
+.backend-account-page .account-fields textarea {
+  width: 100%;
+  min-height: 48px;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid var(--kov-brown-line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--kov-brown);
+  font: inherit;
+  font-weight: 400;
+  line-height: 1.5;
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.backend-account-page .account-fields textarea {
+  min-height: 7rem;
+  resize: vertical;
+}
+
+.backend-account-page .account-fields input::placeholder,
+.backend-account-page .account-fields textarea::placeholder {
+  color: #756b61;
+  opacity: 1;
+}
+
+.backend-account-page .account-fields :is(input, select, textarea):focus-visible {
+  border-color: var(--kov-orange-dark);
+  box-shadow: 0 0 0 3px rgb(167 73 28 / 16%);
+}
+
+.backend-account-page .account-registration {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 1.25rem;
+  row-gap: 1rem;
+}
+
+.backend-account-page .account-registration > label:has(textarea),
+.backend-account-page .account-registration > label:has(input[type="checkbox"]),
+.backend-account-page .account-registration > button {
+  grid-column: 1 / -1;
+}
+
+.backend-account-page .account-registration > label:has(input[type="checkbox"]) {
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: start;
+  gap: 0.65rem;
+  font-weight: 400;
+}
+
+.backend-account-page .account-registration input[type="checkbox"] {
+  width: 1rem;
+  height: 1rem;
+  margin: 0.2rem 0 0;
+  accent-color: var(--kov-green);
+}
+
+.backend-account-page .account-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0 0 1.15rem;
+}
+
+.backend-account-page .account-tabs button,
+.backend-account-page .account-card button {
+  min-height: 46px;
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--kov-brown-line);
+  border-radius: 8px;
+  background: var(--kov-brown-soft);
+  color: var(--kov-brown);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 600;
+}
+
+.backend-account-page .account-tabs button[aria-selected="true"],
+.backend-account-page .account-card button[type="submit"],
+.backend-account-page #subscription-checkout {
+  border-color: var(--kov-orange-dark);
+  background: var(--kov-orange-dark);
+  color: var(--kov-white);
+}
+
+.backend-account-page .account-status {
+  min-height: 1.5rem;
+  margin: 0.75rem 0;
+  line-height: 1.5;
+}
+
+.backend-account-page .account-status[data-kind="error"] {
+  color: #8e2f22;
+}
+
+.backend-account-page .account-status[data-kind="success"] {
+  color: var(--kov-green-dark);
+}
+
+.backend-account-page .billing-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.backend-account-page .billing-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--kov-brown-line);
+}
+
+.backend-directory-page .directory-card,
+.backend-admin-page .admin-section,
+.backend-admin-page .metric-card {
+  border-color: var(--kov-brown-line) !important;
+  background: var(--kov-white) !important;
+  padding: 1.5rem !important;
+  box-shadow: 0 8px 24px rgb(70 54 41 / 5%);
+}
+
+.backend-account-page #reset-button,
+.backend-account-page #logout-button,
+.backend-account-page .billing-item button {
+  border-color: var(--kov-green-dark);
+  background: var(--kov-green);
+  color: var(--kov-white);
+}
+
+.backend-account-page :is(#reset-button, #logout-button, .billing-item button):hover:not(:disabled) {
+  border-color: var(--kov-green-dark);
+  background: var(--kov-green-dark);
+}
+
+.backend-account-page .billing-item {
+  border-color: var(--kov-brown-line);
+}
+
+.backend-directory-page .directory-card {
+  border-left: 3px solid var(--kov-green);
+}
+
+.backend-directory-page .directory-avatar {
+  background: var(--kov-green);
+  color: var(--kov-white);
+}
+
+.backend-directory-page .directory-card h2 {
+  color: var(--kov-green-dark);
+}
+
+.backend-directory-page .directory-card p {
+  color: var(--kov-muted);
+}
+
+.backend-admin-page .admin-shell > h1 {
+  padding-bottom: 0.7rem;
+  border-bottom: 2px solid var(--kov-orange);
+}
+
+.backend-admin-page .metric-card {
+  border-top: 3px solid var(--kov-orange);
+}
+
+.backend-admin-page .analytics-grid {
+  grid-column: 1 / -1;
+}
+
+.backend-admin-page .metric-card:nth-child(2),
+.backend-admin-page .metric-card:nth-child(3) {
+  border-top-color: var(--kov-green);
+}
+
+.backend-admin-page .metric-note,
+.backend-admin-page .admin-item > p {
+  color: var(--kov-muted);
+}
+
+.backend-admin-page .admin-section > h2 {
+  color: var(--kov-green-dark);
+}
+
+.backend-admin-page .admin-item {
+  border-color: var(--kov-brown-line);
+}
+
+.backend-admin-page .admin-item :is(input, select, textarea),
+.backend-admin-page .admin-create :is(input, select, textarea) {
+  padding: 0.65rem;
+}
+
+.backend-admin-page .admin-item label.admin-check input {
+  accent-color: var(--kov-green);
+}
+
+.backend-admin-page .admin-message[role="status"] {
+  padding: 0.7rem 0.85rem;
+  border-left: 3px solid var(--kov-green);
+  background: var(--kov-brown-soft);
+}
+
+.blog-admin-page {
+  --blog-admin-line: #dcd4c9;
+  --blog-admin-ink: #17212a;
+  --blog-admin-muted: #59636b;
+  --blog-admin-orange: #9f4217;
+  min-height: 100vh;
+  background: #f7f4ee;
+  color: var(--blog-admin-ink);
+  line-height: 1.6;
+}
+
+.blog-admin-page a {
+  color: var(--blog-admin-orange);
+  text-underline-offset: 0.18em;
+}
+
+.blog-admin-page .shell {
+  max-width: 1440px;
+  padding: clamp(1rem, 3vw, 2.75rem);
+}
+
+.blog-admin-page .topbar {
+  align-items: flex-end;
+  margin-bottom: clamp(1.25rem, 3vw, 2.25rem);
+  padding-bottom: 1.25rem;
+  border-color: var(--blog-admin-line);
+}
+
+.blog-admin-page .topbar h1 {
+  color: var(--blog-admin-ink);
+  font-family: Fraunces, Georgia, serif;
+  font-size: clamp(1.8rem, 3.5vw, 2.7rem);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 1.12;
+}
+
+.blog-admin-page .topbar p,
+.blog-admin-page .muted,
+.blog-admin-page .post-item span {
+  color: var(--blog-admin-muted);
+}
+
+.blog-admin-page .topbar .pill {
+  border-color: var(--blog-admin-line);
+  color: var(--blog-admin-ink);
+}
+
+.blog-admin-page .grid {
+  grid-template-columns: minmax(250px, 0.78fr) minmax(0, 2fr);
+  gap: clamp(1rem, 2vw, 1.5rem);
+  align-items: start;
+}
+
+.blog-admin-page .panel,
+.blog-admin-page .preview-card {
+  border: 1px solid var(--blog-admin-line);
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 12px 32px rgb(23 33 42 / 6%);
+}
+
+.blog-admin-page .panel {
+  padding: clamp(1rem, 2vw, 1.5rem);
+}
+
+.blog-admin-page .panel h2 {
+  margin-bottom: 1rem;
+  color: var(--blog-admin-ink);
+  font-family: Fraunces, Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.blog-admin-page :is(input[type="text"], input[type="url"], input[type="password"], input[type="file"], textarea) {
+  min-height: 46px;
+  border-color: var(--blog-admin-line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--blog-admin-ink);
+  line-height: 1.5;
+}
+
+.blog-admin-page input::placeholder,
+.blog-admin-page textarea::placeholder {
+  color: #6a7177;
+  opacity: 1;
+}
+
+.blog-admin-page :is(input, textarea, button, a, [contenteditable="true"]):focus-visible {
+  outline: 3px solid rgb(159 66 23 / 36%);
+  outline-offset: 2px;
+}
+
+.blog-admin-page .toolbar button,
+.blog-admin-page .actions button,
+.blog-admin-page .blog-video-mute {
+  min-height: 42px;
+  border-color: var(--blog-admin-line);
+  border-radius: 8px;
+  color: var(--blog-admin-ink);
+  transition: background-color 160ms ease, border-color 160ms ease, transform 160ms ease;
+}
+
+.blog-admin-page .toolbar button:hover,
+.blog-admin-page .actions button:hover,
+.blog-admin-page .blog-video-mute:hover {
+  border-color: #bda895;
+  background: #f7f2eb;
+}
+
+.blog-admin-page .actions .primary {
+  border-color: var(--blog-admin-orange);
+  background: var(--blog-admin-orange);
+  color: #fff;
+}
+
+.blog-admin-page .actions .danger {
+  color: #8e2f22;
+}
+
+.blog-admin-page .editor,
+.blog-admin-page .post-item {
+  border-color: var(--blog-admin-line);
+  border-radius: 10px;
+  background: #fbfaf7;
+}
+
+.blog-admin-page .editor:focus {
+  outline: 3px solid rgb(159 66 23 / 28%);
+  outline-offset: 1px;
+}
+
+.blog-admin-page .post-item {
+  gap: 0.35rem;
+  padding: 0.9rem 1rem;
+  color: var(--blog-admin-ink);
+  line-height: 1.5;
+}
+
+.blog-admin-page .post-item.selected {
+  border-color: var(--blog-admin-orange);
+  background: #fff6f0;
+}
+
+.blog-admin-page .preview-body {
+  padding: clamp(1rem, 2vw, 1.5rem);
+}
+
+.blog-admin-page .preview-content {
+  overflow-wrap: anywhere;
+  line-height: 1.7;
+}
+
+.blog-admin-page .preview-content :is(p, ul, ol) {
+  margin-bottom: 1rem;
+}
+
+.blog-admin-page .preview-content img,
+.blog-admin-page .preview-image {
+  border-radius: 10px;
+}
+
+.blog-admin-page .meta-block {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .backend-page *,
+  .backend-page *::before,
+  .backend-page *::after,
+  .blog-admin-page *,
+  .blog-admin-page *::before,
+  .blog-admin-page *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media (max-width: 980px) {
+  .blog-admin-page .grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .backend-hero {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+    margin-block: 1rem 1.25rem;
+    padding: 1rem;
+  }
+
+  .backend-hero > img {
+    max-height: 15rem;
+  }
+
+  .backend-account-page .account-registration,
+  .blog-admin-page .meta-block {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .backend-account-page .account-registration > label:has(textarea),
+  .backend-account-page .account-registration > label:has(input[type="checkbox"]),
+  .backend-account-page .account-registration > button {
+    grid-column: auto;
+  }
+
+  .backend-account-page .account-tabs button {
+    flex: 1 1 auto;
+  }
+
+  .blog-admin-page .topbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

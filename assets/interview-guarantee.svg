@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" fill="none">
+  <rect x="8" y="8" width="344" height="284" fill="#101821" stroke="#fff5e8" stroke-width="2"/>
+  <path d="M28 28h304" stroke="#ef9c65" stroke-width="4"/>
+  <text x="30" y="72" fill="#dce8e4" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="3">INTERVIEW COMMITMENT</text>
+  <text x="28" y="230" fill="#fff5e8" font-family="Georgia, serif" font-size="174" font-style="italic" font-weight="700">9</text>
+  <path d="M205 91v154" stroke="#537d78" stroke-width="2"/>
+  <text x="226" y="119" fill="#ef9c65" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2">INTERVIEWS</text>
+  <text x="226" y="161" fill="#fff5e8" font-family="Georgia, serif" font-size="28" font-style="italic">within</text>
+  <text x="226" y="213" fill="#fff5e8" font-family="Georgia, serif" font-size="48" font-style="italic" font-weight="700">90</text>
+  <text x="284" y="210" fill="#dce8e4" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2">DAYS</text>
+  <path d="M226 236h104" stroke="#85c9c0" stroke-width="3"/>
+  <path d="M226 256h64" stroke="#fff5e8" stroke-width="1.5" opacity=".55"/>
+</svg>

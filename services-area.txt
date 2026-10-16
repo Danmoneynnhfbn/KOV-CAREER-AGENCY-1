@@ -1,0 +1,29 @@
+﻿class="mt-4 text-[15px] leading-[1.7] text-ink-soft">Premium loop prep with executive-level mock panels and feedback.</p>
+</article>
+<article class="relative border border-ink bg-background p-8 shadow-[10px_10px_0_0_var(--ink)] lg:p-10">
+<span class="font-display text-4xl font-black italic text-orange">+0<!-- -->4</span>
+<h3 class="mt-4 text-xl font-black uppercase tracking-tight text-ink">Accelerated Application Engine</h3>
+<p class="mt-4 text-[15px] leading-[1.7] text-ink-soft">Higher daily application volume to keep your profile at the top of recruiter stacks.</p>
+</article>
+</div>
+</div>
+</section>
+<section class="relative overflow-hidden bg-ink py-24 text-cream lg:py-32">
+<div class="pointer-events-none absolute -left-12 top-10 h-56 w-56 rotate-12 bg-orange/80 lg:h-80 lg:w-80" aria-hidden="true">
+</div>
+<div class="relative mx-auto flex max-w-5xl flex-col items-start px-6 lg:px-10">
+<h2 class="font-display text-[44px] font-black italic leading-[0.9] sm:text-[64px] lg:text-[96px]">Ready to put a<br/>
+<span class="text-orange">private agent</span> to work?</h2>
+<a href="contact.html" class="mt-12 inline-flex items-center gap-4 bg-cream px-8 py-5 text-[12px] font-bold uppercase tracking-[0.2em] text-ink">Start the conversation →</a>
+</div>
+</section>
+</main>
+<footer class="border-t border-line/60 bg-background">
+<div class="mx-auto max-w-7xl px-6 py-14 lg:px-10">
+<div class="grid gap-10 md:grid-cols-3">
+<div>
+<div class="flex items-center gap-2.5">
+<img src="kov-logo.png" alt="KOV" class="h-6 w-6 object-contain"/>
+<span class="text-[12px] font-medium uppercase tracking-[0.18em] text-ink">KOV Career Agency</span>
+</div>
+<p class="mt-4 max-w-xs text-[13px] leading-relaxed text-ink-soft">Private &amp; confidential career representation for senior leaders. We work for you — never for corporate HR.</
