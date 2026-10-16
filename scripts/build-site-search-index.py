@@ -15,7 +15,6 @@ SEO_PAGE_GROUPS = {
     "services": "Core services",
     "markets": "Geography and markets",
     "roles": "Seniority and roles",
-    "industries": "Industries",
     "resources": "Proof and next steps",
 }
 
@@ -162,9 +161,7 @@ def build_index():
 
     proof_data = (ROOT / "assets" / "proof-library-data.js").read_text(encoding="utf-8-sig")
     candidate_data = " ".join(javascript_strings(extract_array(proof_data, name)) for name in ("candidateRows", "candidateProfiles"))
-    company_data = " ".join(javascript_strings(extract_array(proof_data, name)) for name in ("companyRows", "companyProfiles"))
     content["candidate-proof.html"] = f"{content['candidate-proof.html']} {candidate_data}".strip()
-    content["company-proof.html"] = f"{content['company-proof.html']} {company_data}".strip()
     OUTPUT.write_text(
         "window.kovSiteSearchContent = "
         + json.dumps(content, ensure_ascii=True, separators=(",", ":"))

@@ -10,7 +10,6 @@ const additions = JSON.parse(
 );
 const categoryForExistingPage = new Map([
   ['reverse-recruiting', 'services'],
-  ['executive-search-support', 'services'],
   ['career-strategy-senior-leaders', 'services'],
   ['executive-resume-strategy', 'services'],
   ['interview-coaching-executives', 'services'],
@@ -19,43 +18,32 @@ const categoryForExistingPage = new Map([
   ['executive-job-search-dubai', 'markets'],
   ['executive-job-search-uae', 'markets'],
   ['executive-career-support-saudi-arabia', 'markets'],
-  ['leadership-hiring-gcc', 'markets'],
-  ['executive-search-europe', 'markets'],
-  ['executive-search-north-america', 'markets'],
   ['reverse-recruiting-cfos', 'roles'],
   ['reverse-recruiting-ctos', 'roles'],
   ['reverse-recruiting-cmos', 'roles'],
-  ['executive-search-chros', 'roles'],
-  ['executive-search-saas-leaders', 'industries'],
-  ['healthcare-executive-search', 'industries'],
-  ['executive-hiring-fintech', 'industries'],
 ]);
 const groupLabels = new Map([
   ['services', 'Core services'],
   ['markets', 'Geography and markets'],
   ['roles', 'Seniority and roles'],
-  ['industries', 'Industries'],
   ['resources', 'Proof and next steps'],
 ]);
 const modelImageByCategory = new Map([
   ['services', 'executive-professional.jpg'],
   ['markets', 'executive-leader.jpg'],
   ['roles', 'executive-woman.jpg'],
-  ['industries', 'leadership-team.jpg'],
   ['resources', 'executive-leader.jpg'],
 ]);
 const modelImageAltByCategory = new Map([
   ['services', 'Illustrative stock portrait of a business professional; not a KOV client or team member.'],
   ['markets', 'Illustrative stock photograph of a professional working at a laptop; no KOV client relationship implied.'],
   ['roles', 'Illustrative stock portrait of a professional woman; not a KOV client or team member.'],
-  ['industries', 'Illustrative stock portrait of a business professional; not a KOV client or team member.'],
   ['resources', 'Illustrative stock photograph of a professional working at a laptop; no KOV client relationship implied.'],
 ]);
 const sectionImageByCategory = new Map([
   ['services', ['executive-woman.jpg', 'leadership-meeting.jpg', 'executive-leader.jpg']],
   ['markets', ['executive-professional.jpg', 'leadership-meeting.jpg', 'executive-woman.jpg']],
   ['roles', ['executive-professional.jpg', 'leadership-meeting.jpg', 'executive-leader.jpg']],
-  ['industries', ['executive-woman.jpg', 'leadership-meeting.jpg', 'executive-professional.jpg']],
   ['resources', ['leadership-team.jpg', 'leadership-meeting.jpg', 'executive-woman.jpg']],
 ]);
 const existingPages = new Set(
@@ -70,27 +58,13 @@ const pages = [
 ];
 
 function additionToPage(page) {
-  const serviceAudience = ['services', 'roles'].includes(page.category)
-    ? page.slug.includes('search-support') || page.slug.includes('global-talent')
-      ? 'employer'
-      : 'professional'
-    : page.category === 'industries'
-      ? 'employer'
-      : page.category === 'markets'
-        ? page.slug.includes('hiring') || page.slug.includes('sourcing') || page.slug.includes('search-singapore') || page.slug.includes('search-middle-east')
-          ? 'employer'
-          : 'professional'
-        : 'mixed';
-  const audienceLabel = serviceAudience === 'employer'
-    ? 'the hiring team'
-    : serviceAudience === 'professional'
-      ? 'the professional'
-      : 'you and KOV';
+  const audienceLabel = page.category === 'resources'
+    ? 'you and KOV'
+    : 'the professional';
   const isProof = new Set([
     'case-studies',
     'candidate-success-stories',
     'anonymous-executive-reviews',
-    'client-hiring-results',
     'executive-career-outcomes',
   ]).has(page.slug);
   const researchGuidance = isProof
@@ -152,7 +126,6 @@ function additionToPage(page) {
     faqs: generalFaqs,
     related: [
       { slug: 'candidate-services', label: 'Executive Career Representation' },
-      { slug: 'company-services', label: 'Global Talent Sourcing for Employers' },
       { slug: 'contact', label: 'Contact KOV' },
     ],
   };
@@ -165,15 +138,14 @@ const pagePaths = new Map(
   completePages.map((page) => [page.slug, `${page.category}/${page.slug}.html`])
 );
 const expectedCounts = new Map([
-  ['services', 10],
-  ['markets', 12],
-  ['roles', 12],
-  ['industries', 12],
-  ['resources', 14],
+  ['services', 8],
+  ['markets', 6],
+  ['roles', 10],
+  ['resources', 11],
 ]);
 
-if (completePages.length !== 60) {
-  throw new Error(`Expected 60 pages; received ${completePages.length}.`);
+if (completePages.length !== 35) {
+  throw new Error(`Expected 35 pages; received ${completePages.length}.`);
 }
 for (const [category, expected] of expectedCounts) {
   const actual = completePages.filter((page) => page.category === category).length;
@@ -231,8 +203,8 @@ function renderTopicMenu(page, isMobile = false) {
   const className = isMobile
     ? 'kov-topic-nav kov-topic-nav-mobile'
     : 'kov-topic-nav';
-  const summary = isMobile ? 'Browse all 60 pages' : 'Explore pages';
-  return `<details class="${className}"><summary aria-label="Browse all 60 pages by topic">${summary}</summary><div class="kov-topic-nav-panel">${groups}</div></details>`;
+  const summary = isMobile ? 'Browse all 35 pages' : 'Explore pages';
+  return `<details class="${className}"><summary aria-label="Browse all 35 pages by topic">${summary}</summary><div class="kov-topic-nav-panel">${groups}</div></details>`;
 }
 
 function renderFooterCategories(page) {
@@ -243,7 +215,7 @@ function renderFooterCategories(page) {
     ).join('');
     return `<details class="kov-footer-category"><summary>${escapeHtml(groupLabels.get(category))}</summary><ul>${links}</ul></details>`;
   }).join('');
-  return `<nav class="kov-footer-categories" data-kov-footer-categories aria-label="Browse all 60 pages"><h2>Explore all 60 pages</h2><div class="kov-footer-category-grid">${groups}</div></nav>`;
+  return `<nav class="kov-footer-categories" data-kov-footer-categories aria-label="Browse all 35 pages"><h2>Explore all 35 pages</h2><div class="kov-footer-category-grid">${groups}</div></nav>`;
 }
 
 function renderPage(page) {
@@ -274,7 +246,7 @@ function renderPage(page) {
       },
     ],
   };
-  const isServicePage = ['services', 'markets', 'roles', 'industries'].includes(page.category);
+  const isServicePage = ['services', 'markets', 'roles'].includes(page.category);
   const jsonLd = JSON.stringify({
     '@context': 'https://schema.org',
     '@graph': [
@@ -371,12 +343,12 @@ function renderPage(page) {
     <header class="kov-header">
       <a class="kov-brand" href="${homeHref}"><img src="${rootAsset('kov-logo.png')}" alt="KOV"><span>KOV <small>Career Agency</small></span></a>
       <nav class="kov-nav" aria-label="Primary navigation">
-        <a href="${hrefForPage(page, 'services')}">Services</a><a href="${hrefForPage(page, 'countries-we-serve')}">Global markets</a><a class="audience-link" href="${hrefForPage(page, 'candidate-services')}">For Candidates</a><a class="audience-link" href="${hrefForPage(page, 'company-services')}">For Companies</a>${renderTopicMenu(page)}<a class="kov-nav-cta" href="${contactHref}">Start a Conversation</a>
+        <a href="${hrefForPage(page, 'services')}">Services</a><a href="${hrefForPage(page, 'countries-we-serve')}">Global markets</a><a class="audience-link" href="${hrefForPage(page, 'candidate-services')}">For Candidates</a>${renderTopicMenu(page)}<a class="kov-nav-cta" href="${contactHref}">Start a Conversation</a>
       </nav>
       <details class="seo-mobile-menu">
         <summary>Menu</summary>
         <nav aria-label="Mobile navigation">
-          <a href="${hrefForPage(page, 'services')}">Services</a><a href="${hrefForPage(page, 'countries-we-serve')}">Global markets</a><a href="${hrefForPage(page, 'candidate-services')}">For Candidates</a><a href="${hrefForPage(page, 'company-services')}">For Companies</a>${renderTopicMenu(page, true)}<a href="${contactHref}">Start a Conversation</a>
+          <a href="${hrefForPage(page, 'services')}">Services</a><a href="${hrefForPage(page, 'countries-we-serve')}">Global markets</a><a href="${hrefForPage(page, 'candidate-services')}">For Candidates</a>${renderTopicMenu(page, true)}<a href="${contactHref}">Start a Conversation</a>
         </nav>
       </details>
     </header>
@@ -407,7 +379,7 @@ function renderPage(page) {
     </main>
     <footer class="kov-footer">
       <a class="kov-brand" href="${homeHref}"><img src="${rootAsset('kov-logo.png')}" alt="KOV"><span>KOV <small>Career Agency</small></span></a>
-      <nav aria-label="Footer navigation"><div><b>EXPLORE</b><a href="${hrefForPage(page, 'candidate-services')}">Candidate representation</a><a href="${hrefForPage(page, 'company-services')}">Company talent sourcing</a><a href="${hrefForPage(page, 'countries-we-serve')}">Countries We Serve</a></div><div><b>ABOUT</b><a href="${hrefForPage(page, 'why-kov')}">Why KOV</a><a href="${hrefForPage(page, 'about')}">Founder</a><a href="${contactHref}">Contact</a></div></nav>
+      <nav aria-label="Footer navigation"><div><b>EXPLORE</b><a href="${hrefForPage(page, 'candidate-services')}">Candidate representation</a><a href="${hrefForPage(page, 'countries-we-serve')}">Countries We Serve</a></div><div><b>ABOUT</b><a href="${hrefForPage(page, 'why-kov')}">Why KOV</a><a href="${hrefForPage(page, 'about')}">Founder</a><a href="${contactHref}">Contact</a></div></nav>
       ${renderFooterCategories(page)}
       <p class="kov-legal">© 2026 KOV Career Agency. Engagement scope and deliverables are agreed directly.</p>
     </footer>
@@ -466,7 +438,6 @@ const sitemapPath = path.join(root, 'sitemap.xml');
 const lastmod = new Date().toISOString().slice(0, 10);
 const corePages = [
   'services.html',
-  'global-talent-sourcer.html',
   'how-it-works.html',
   'pricing.html',
   'faqs.html',
@@ -474,9 +445,7 @@ const corePages = [
   'about.html',
   'contact.html',
   'candidate-services.html',
-  'company-services.html',
   'candidate-proof.html',
-  'company-proof.html',
   'why-kov.html',
   'countries-we-serve.html',
   'glossary.html',
@@ -562,9 +531,9 @@ function readPageMetadata(filename) {
 const llmsSections = [
   '# KOV Career Agency',
   '',
-  '> Founder-led career agency with separate candidate-side career representation and company-side executive talent sourcing engagements.',
+  '> Founder-led career agency focused on private career representation and individual career services for professionals.',
   '',
-  'KOV agrees scope, markets, deliverables, fees, approvals, and reporting before work begins. Hiring decisions remain with employers; search activity does not guarantee interviews, offers, placement, or timelines. Coverage and suitability are confirmed for each engagement.',
+  'KOV agrees scope, deliverables, fees, approvals, and reporting before work begins. Search activity does not guarantee interviews, offers, employment, or timelines. Coverage and suitability are confirmed for each engagement.',
   '',
   '## Core pages',
   (() => {
