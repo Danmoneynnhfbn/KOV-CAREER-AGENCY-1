@@ -100,7 +100,7 @@
         title: 'For Professionals',
         links: [
           [`${rootPrefix}candidate-services.html`, 'Candidate Services'],
-          [`${rootPrefix}services.html`, 'Reverse Recruiting'],
+          [`${rootPrefix}services.html`, 'Career Representation'],
           [`${rootPrefix}how-it-works.html`, 'How It Works'],
           [`${rootPrefix}pricing.html`, 'Pricing'],
         ],
@@ -108,6 +108,7 @@
       {
         title: 'For Companies',
         links: [
+          [`${rootPrefix}global-talent-sourcer.html`, 'Global Talent Sourcing'],
           [`${rootPrefix}company-services.html`, 'Company Services'],
           [`${rootPrefix}how-it-works.html`, 'How It Works'],
           [`${rootPrefix}contact.html`, 'Contact'],
