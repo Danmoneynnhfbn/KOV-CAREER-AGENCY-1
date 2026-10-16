@@ -9,7 +9,6 @@ SITEMAP_PATH = ROOT / "sitemap.xml"
 CORE_PAGES = (
     "index.html",
     "services.html",
-    "global-talent-sourcer.html",
     "how-it-works.html",
     "pricing.html",
     "faqs.html",
@@ -17,14 +16,12 @@ CORE_PAGES = (
     "about.html",
     "contact.html",
     "candidate-services.html",
-    "company-services.html",
     "candidate-proof.html",
-    "company-proof.html",
     "why-kov.html",
     "countries-we-serve.html",
     "glossary.html",
 )
-PAGE_CATEGORIES = ("services", "markets", "roles", "industries", "resources")
+PAGE_CATEGORIES = ("services", "markets", "roles", "resources")
 SITEMAP_NAMESPACE = "http://www.sitemaps.org/schemas/sitemap/0.9"
 
 

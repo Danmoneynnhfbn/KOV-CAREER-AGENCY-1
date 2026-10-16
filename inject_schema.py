@@ -11,7 +11,7 @@ from xml.etree import ElementTree
 
 BASE_URL = "https://kovcareeragency.org"
 SITEMAP_NAMESPACE = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-SERVICE_CATEGORIES = {"services", "markets", "roles", "industries"}
+SERVICE_CATEGORIES = {"services", "markets", "roles"}
 
 
 def text_from_html(value: str) -> str:
@@ -85,8 +85,6 @@ def is_service_page(relative_path: str) -> bool:
         return True
     return relative_path in {
         "candidate-services.html",
-        "company-services.html",
-        "global-talent-sourcer.html",
     }
 
 
