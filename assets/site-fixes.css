@@ -2640,7 +2640,6 @@ body:has(a[aria-current="page"][href="index.html"]) main > section:first-child h
   color: #f15a24 !important;
 }
 
-body:has(a[aria-current="page"][href="global-talent-sourcer.html"]) main > section:first-child,
 body:has(a[aria-current="page"][href="about.html"]) main > section:first-child,
 body:has(a[aria-current="page"][href="pricing.html"]) main > section:first-child,
 body:has(a[aria-current="page"][href="contact.html"]) main > section:first-child {
@@ -2658,12 +2657,6 @@ body:has(a[aria-current="page"][href="how-it-works.html"]) main > section:first-
 
 body:not(:has(.two-sided-page)):has(a[aria-current="page"][href="faqs.html"]) main > section:first-child {
   background-image: url("kov-editorial-grid.svg") !important;
-  background-position: center;
-  background-size: cover;
-}
-
-body:has(a[aria-current="page"][href="global-talent-sourcer.html"]) main .bg-ink {
-  background-image: url("kov-global-grid.svg") !important;
   background-position: center;
   background-size: cover;
 }
@@ -3030,8 +3023,7 @@ option {
   white-space: nowrap;
 }
 
-.min-h-screen header nav a[href="candidate-services.html"],
-.min-h-screen header nav a[href="company-services.html"] {
+.min-h-screen header nav a[href="candidate-services.html"] {
   min-height: 34px;
   display: inline-flex;
   align-items: center;
@@ -3052,17 +3044,8 @@ option {
   border-radius: 3px 0 0 3px;
 }
 
-.min-h-screen header nav a[href="company-services.html"] {
-  margin-left: calc(-1 * clamp(11px, 1.05vw, 17px));
-  border-left: 0;
-  border-right: 1px solid rgba(16, 24, 33, .18);
-  border-radius: 0 3px 3px 0;
-}
-
 .min-h-screen header nav a[href="candidate-services.html"]:hover,
-.min-h-screen header nav a[href="company-services.html"]:hover,
-.min-h-screen header nav a[href="candidate-services.html"]:focus-visible,
-.min-h-screen header nav a[href="company-services.html"]:focus-visible {
+.min-h-screen header nav a[href="candidate-services.html"]:focus-visible {
   background: #ece4d8;
   color: #101821 !important;
 }
@@ -3095,13 +3078,6 @@ option {
   border-radius: 3px 0 0 3px;
 }
 
-.kov-nav .audience-link[href="company-services.html"] {
-  margin-left: calc(-1 * clamp(10px, 1.05vw, 16px));
-  border-left: 0;
-  border-right: 1px solid var(--kov-line);
-  border-radius: 0 3px 3px 0;
-}
-
 .kov-nav .audience-link:hover,
 .kov-nav .audience-link:focus-visible {
   background: #ece4d8;
@@ -3114,9 +3090,7 @@ option {
 }
 
 .site-mobile-menu-nav a[href="candidate-services.html"],
-.site-mobile-menu-nav a[href="company-services.html"],
-.kov-mobile-nav a[href="candidate-services.html"],
-.kov-mobile-nav a[href="company-services.html"] {
+.kov-mobile-nav a[href="candidate-services.html"] {
   background: #f3efe7;
   font-size: .88rem;
 }
@@ -3126,11 +3100,6 @@ option {
   margin-top: 8px;
   border-top: 1px solid rgba(16, 24, 33, .18);
   border-radius: 3px 3px 0 0;
-}
-
-.site-mobile-menu-nav a[href="company-services.html"],
-.kov-mobile-nav a[href="company-services.html"] {
-  border-radius: 0 0 3px 3px;
 }
 
 .contact-phone-fields {

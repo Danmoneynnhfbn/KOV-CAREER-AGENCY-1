@@ -74,34 +74,6 @@
     }
   }
 
-  const audienceHeading = headingFor('Different side of the market. Same search discipline.');
-  const audienceSection = audienceHeading?.closest('section');
-  const audienceTarget = audienceHeading?.parentElement;
-  const audienceCopy = audienceTarget?.querySelector(':scope > p');
-  const audienceLink = audienceTarget?.querySelector(':scope > a');
-  if (audienceSection && audienceTarget && audienceCopy && !audienceSection.dataset.homeReactive) {
-    createSwitcher(audienceSection, audienceTarget, 'Choose a side of the search', [
-      {
-        key: 'candidate',
-        label: 'For Candidates',
-        title: 'Representation and execution',
-        copy: 'The candidate practice is about representation and execution.',
-        href: 'candidate-services.html',
-        action: 'Explore Candidate Services',
-      },
-      {
-        key: 'company',
-        label: 'For Companies',
-        title: 'Research and talent sourcing',
-        copy: 'The company practice is about research and talent sourcing. The distinction is deliberate.',
-        href: 'company-services.html',
-        action: 'Explore Company Services',
-      },
-    ], audienceLink);
-    audienceCopy.hidden = true;
-    if (audienceLink) audienceLink.classList.add('hero-interlink', 'hero-interlink-outline');
-  }
-
   const intelligenceHeading = headingFor('Research first. Outreach second.');
   const intelligenceSection = intelligenceHeading?.closest('section');
   const intelligenceCopy = intelligenceSection?.querySelector(':scope > p');

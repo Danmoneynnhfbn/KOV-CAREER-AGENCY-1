@@ -4,7 +4,6 @@
     : '';
   const destinations = [
     ['candidate-services.html', 'For Candidates'],
-    ['company-services.html', 'For Companies'],
   ];
   const desktopNav = document.querySelector('header nav:not(.site-mobile-menu-nav)');
   const mobileNav = document.querySelector('.site-mobile-menu-nav');
@@ -94,7 +93,7 @@
     section.className = 'mt-10 border-t border-line/60 pt-8';
 
     const columns = document.createElement('div');
-    columns.className = 'grid gap-8 sm:grid-cols-2';
+    columns.className = 'grid gap-8';
     const groups = [
       {
         title: 'For Professionals',
@@ -103,15 +102,6 @@
           [`${rootPrefix}services.html`, 'Career Representation'],
           [`${rootPrefix}how-it-works.html`, 'How It Works'],
           [`${rootPrefix}pricing.html`, 'Pricing'],
-        ],
-      },
-      {
-        title: 'For Companies',
-        links: [
-          [`${rootPrefix}global-talent-sourcer.html`, 'Global Talent Sourcing'],
-          [`${rootPrefix}company-services.html`, 'Company Services'],
-          [`${rootPrefix}how-it-works.html`, 'How It Works'],
-          [`${rootPrefix}contact.html`, 'Contact'],
         ],
       },
     ];
@@ -161,7 +151,7 @@
     const audience = footerContainer.querySelector(':scope > [data-audience-footer]');
     const audienceGroups = audience?.querySelector('.grid')?.children;
     const professionals = audienceGroups?.[0] || null;
-    const company = audienceGroups?.[1] || null;
+    audienceGroups?.[1]?.remove();
     const categoryNav = footerContainer.querySelector(':scope > [data-kov-footer-categories]');
     const legal = [...footerContainer.children].find((element) =>
       element.matches('.kov-legal') || element.textContent.includes('©')
@@ -195,7 +185,6 @@
       ['explore', explore],
       ['professionals', professionals],
       ['inquiry', inquiry],
-      ['company', company],
       ['pages', categoryNav],
     ];
     for (const [kind, content] of columns) {
@@ -235,13 +224,9 @@
         link.href = 'mailto:daniel@kovcareeragency.org';
         link.textContent = 'daniel@kovcareeragency.org';
         column.append(heading, link);
-        const companyColumn = directory.querySelector('.kov-footer-directory-company');
-        directory.insertBefore(column, companyColumn || directory.children[2] || null);
+        directory.insertBefore(column, directory.children[2] || null);
       }
     }
-
-    const companyHeading = directory.querySelector('.kov-footer-directory-company p');
-    if (companyHeading) companyHeading.textContent = 'For Company';
 
     const brandRow = document.createElement('div');
     brandRow.className = 'kov-footer-brand-row';

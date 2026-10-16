@@ -125,31 +125,4 @@
     humanCopy.hidden = true;
   }
 
-  const ctaHeading = headings.find((heading) => heading.textContent.trim() === 'Which side are you on?');
-  const ctaSection = ctaHeading?.closest('section');
-  const ctaTarget = ctaHeading?.parentElement;
-  const ctaIntro = ctaTarget?.querySelector(':scope > p.mx-auto');
-  const ctaLinks = ctaTarget?.querySelector(':scope > div');
-  if (ctaSection && ctaTarget && ctaIntro && ctaLinks && !ctaTarget.querySelector('[data-decision-switcher]')) {
-    buildSwitcher(ctaSection, ctaTarget, 'Choose who KOV can help', [
-      {
-        key: 'candidate',
-        label: 'I’m a Candidate',
-        title: 'Private career representation',
-        copy: 'Targeted applications, recruiter and hiring-manager outreach, positioning, interview preparation, and negotiation support.',
-        href: 'candidate-services.html',
-        action: 'Explore Candidate Services',
-      },
-      {
-        key: 'company',
-        label: 'I’m Hiring',
-        title: 'Independent talent sourcing',
-        copy: 'Research-led global sourcing for senior and executive talent across North America, Europe, and Asia.',
-        href: 'company-services.html',
-        action: 'Explore Company Services',
-      },
-    ], { dark: true, before: ctaLinks });
-    ctaIntro.hidden = true;
-    ctaLinks.hidden = true;
-  }
 })();

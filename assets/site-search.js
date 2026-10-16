@@ -3,11 +3,9 @@
   window.kovSiteSearchReady = true;
 
   const pages = [
-    { href: 'index.html', title: 'Home', summary: 'Independent global talent sourcing for companies and private Career Representation for senior professionals.', terms: 'KOV agency executive search career representation job search hire passive talent research' },
+    { href: 'index.html', title: 'Home', summary: 'Private Career Representation for senior professionals.', terms: 'KOV agency career representation job search senior professional' },
     { href: 'services.html', title: 'Services', summary: 'Career Representation, executive career support, positioning, applications, recruiter outreach, interview preparation, and negotiation.', terms: 'candidate services resume CV LinkedIn job applications recruiters outreach interview salary offer negotiation career support' },
     { href: 'candidate-services.html', title: 'Candidate Services', summary: 'Private Career Representation for senior professionals.', terms: 'job search career jobs resume CV LinkedIn applications recruiter outreach interview preparation offer negotiation executive candidate' },
-    { href: 'company-services.html', title: 'Company Services', summary: 'Research-led sourcing for senior and executive talent across global markets.', terms: 'hire hiring company employer executive search passive talent sourcing recruitment leadership shortlist market research' },
-    { href: 'global-talent-sourcer.html', title: 'Global Talent Sourcer', summary: 'Independent research and sourcing for passive executive talent in North America, Europe, and Asia.', terms: 'company hiring executive recruiter global talent passive candidate sourcing market mapping OSINT research' },
     { href: 'how-it-works.html', title: 'How It Works', summary: 'Understand the KOV search process, from defining a target through research, outreach, and next steps.', terms: 'process steps workflow career search recruiting sourcing research applications communication' },
     { href: 'pricing.html', title: 'Engagement Fees', summary: 'Discuss KOV engagement scope and fees directly by message before work begins.', terms: 'cost price pricing fee fees rates package packages budget payment individual scope' },
     { href: 'faqs.html', title: 'FAQs', summary: 'Answers about KOV services, process, eligibility, privacy, and pricing.', terms: 'questions answers help frequently asked what how who where support' },
@@ -15,10 +13,8 @@
     { href: 'contact.html', title: 'Contact', summary: 'Start a confidential conversation with KOV Career Agency.', terms: 'contact email talk conversation consultation inquiry book discuss reach' },
     { href: 'blog.html', title: 'Blog', summary: 'Read KOV articles about executive careers, recruiting, talent sourcing, and job search strategy.', terms: 'articles insights advice news guides career hiring recruiting executive search' },
     { href: 'candidate-proof.html', title: 'Private Search Proof', summary: 'See illustrative examples of how KOV structures a private career search.', terms: 'candidate examples proof records workflow applications positioning outreach interview job search' },
-    { href: 'company-proof.html', title: 'Executive Talent Intelligence', summary: 'Explore illustrative examples of KOV market research and executive talent sourcing.', terms: 'company examples proof records talent map market research executive sourcing hiring passive' },
-    { href: 'why-kov.html', title: 'Why KOV', summary: 'Learn how KOV approaches independent sourcing and private career representation.', terms: 'why choose difference agency independent discreet research trust executive career company' },
+    { href: 'why-kov.html', title: 'Why KOV', summary: 'Learn how KOV approaches private career representation for professionals.', terms: 'why choose difference agency independent discreet research trust executive career' },
     { href: 'reverse-recruiting.html', title: 'Career Representation', summary: 'Private candidate-side search support for senior professionals, with target definition, research and approved outreach.', terms: 'candidate executive job search reverse recruiting career representation applications recruiter outreach' },
-    { href: 'executive-search-support.html', title: 'Executive Search Support', summary: 'Research-led support for employers defining a leadership search, mapping relevant talent and agreeing outreach.', terms: 'employer executive search leadership hiring research talent sourcing outreach' },
     { href: 'career-strategy-senior-leaders.html', title: 'Career Strategy for Senior Leaders', summary: 'Clarify the next career move, target roles and markets, positioning and practical search plan.', terms: 'career strategy executive leadership transition senior professional' },
     { href: 'executive-resume-strategy.html', title: 'Executive Resume Strategy', summary: 'Position leadership scope, verified achievements and fit for target roles in a clear executive resume.', terms: 'resume CV executive positioning achievements senior leader' },
     { href: 'interview-coaching-executives.html', title: 'Interview Coaching for Executives', summary: 'Prepare leadership examples, role research, questions and clear answers for executive interviews.', terms: 'interview executive coaching preparation leadership' },
@@ -27,20 +23,12 @@
     { href: 'executive-job-search-dubai.html', title: 'Executive Job Search in Dubai', summary: 'Remote executive career representation for senior professionals targeting roles in Dubai.', terms: 'Dubai UAE executive job search career representation' },
     { href: 'executive-job-search-uae.html', title: 'Executive Job Search in the UAE', summary: 'Plan a focused remote executive job search across agreed UAE locations and target employers.', terms: 'UAE United Arab Emirates executive job search career support' },
     { href: 'executive-career-support-saudi-arabia.html', title: 'Executive Career Support in Saudi Arabia', summary: 'Define role, relocation and market requirements for an executive search targeting Saudi Arabia.', terms: 'Saudi Arabia KSA executive career search' },
-    { href: 'leadership-hiring-gcc.html', title: 'Leadership Hiring in the GCC', summary: 'Research-led support for organizations planning leadership searches across agreed GCC markets.', terms: 'GCC Gulf executive sourcing leadership hiring' },
-    { href: 'executive-search-europe.html', title: 'Executive Search in Europe', summary: 'Map European leadership talent based on role requirements, target countries and relevant experience.', terms: 'Europe executive search talent sourcing employers' },
-    { href: 'executive-search-north-america.html', title: 'Executive Search in North America', summary: 'Define a North American leadership search around the role, market boundary and talent criteria.', terms: 'North America executive search US Canada talent sourcing' },
     { href: 'reverse-recruiting-cfos.html', title: 'Career Representation for CFOs', summary: 'Private career representation and a targeted search plan for CFOs pursuing a next leadership role.', terms: 'CFO finance executive job search reverse recruiting candidate' },
     { href: 'reverse-recruiting-ctos.html', title: 'Career Representation for CTOs', summary: 'Position technology leadership experience and coordinate a private executive search for CTOs.', terms: 'CTO technology executive career job search reverse recruiting' },
     { href: 'reverse-recruiting-cmos.html', title: 'Career Representation for CMOs', summary: 'Clarify marketing leadership positioning and search direction for CMOs and senior marketing leaders.', terms: 'CMO marketing executive career job search reverse recruiting' },
-    { href: 'executive-search-chros.html', title: 'Executive Search for CHROs', summary: 'Research and sourcing support for organizations seeking a senior people leader or CHRO.', terms: 'CHRO human resources people leadership employer executive search' },
-    { href: 'executive-search-saas-leaders.html', title: 'Executive Search for SaaS Leaders', summary: 'Research-led sourcing for SaaS leadership roles, aligned with the company stage and mandate.', terms: 'SaaS software technology executive search talent sourcing' },
-    { href: 'healthcare-executive-search.html', title: 'Healthcare Executive Search', summary: 'Research-led sourcing support for healthcare leadership roles and agreed market requirements.', terms: 'healthcare health executive search talent sourcing' },
-    { href: 'executive-hiring-fintech.html', title: 'Executive Hiring in Fintech', summary: 'Source fintech leaders based on business model, regulatory context and leadership mandate.', terms: 'fintech finance technology executive hiring talent sourcing' },
   ];
   const movedLandingPages = new Set([
     'reverse-recruiting.html',
-    'executive-search-support.html',
     'career-strategy-senior-leaders.html',
     'executive-resume-strategy.html',
     'interview-coaching-executives.html',
@@ -49,16 +37,9 @@
     'executive-job-search-dubai.html',
     'executive-job-search-uae.html',
     'executive-career-support-saudi-arabia.html',
-    'leadership-hiring-gcc.html',
-    'executive-search-europe.html',
-    'executive-search-north-america.html',
     'reverse-recruiting-cfos.html',
     'reverse-recruiting-ctos.html',
     'reverse-recruiting-cmos.html',
-    'executive-search-chros.html',
-    'executive-search-saas-leaders.html',
-    'healthcare-executive-search.html',
-    'executive-hiring-fintech.html',
   ]);
   pages.splice(
     0,
@@ -70,12 +51,11 @@
     ['services', 'Core services'],
     ['markets', 'Geography and markets'],
     ['roles', 'Seniority and roles'],
-    ['industries', 'Industries'],
     ['resources', 'Proof and next steps'],
   ]);
   const pageCategories = new Set(categoryLabels.keys());
   function localPageHref(href) {
-    const inCluster = /\/(?:services|markets|roles|industries|resources)\/[^/]*$/.test(location.pathname);
+    const inCluster = /\/(?:services|markets|roles|resources)\/[^/]*$/.test(location.pathname);
     return `${inCluster ? '../' : ''}${href}`;
   }
 
@@ -437,7 +417,7 @@
     const queryWords = words(query).filter((word) => !stopWords.has(word));
     if (queryWords.length === 0) {
       status.textContent = 'Popular destinations';
-      for (const href of ['candidate-services.html', 'company-services.html', 'pricing.html']) {
+      for (const href of ['candidate-services.html', 'pricing.html']) {
         const page = pages.find((item) => item.href === href);
         resultList.append(makeResult(page));
       }
