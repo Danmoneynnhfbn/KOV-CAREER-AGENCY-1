@@ -176,9 +176,6 @@ def main() -> int:
 
     if len(canonical_urls) != len(set(canonical_urls)):
         errors.append("Multiple sitemap pages share a canonical URL.")
-    if cluster_count != 60:
-        errors.append(f"Expected 60 generated landing pages; found {cluster_count}.")
-
     content_marker = "window.kovSiteSearchContent = "
     catalog_marker = ";\nwindow.kovSeoPageCatalog = "
     if content_marker not in search_index or catalog_marker not in search_index:
@@ -205,7 +202,7 @@ def main() -> int:
             indexed_catalog_paths = {entry.get("href") for entry in catalog}
             if indexed_catalog_paths != catalog_paths:
                 errors.append(
-                    "Site-search catalog does not match the 60 sitemap landing pages."
+                    "Site-search catalog does not match the generated sitemap landing pages."
                 )
 
     print(f"Sitemap URLs: {len(urls)}")

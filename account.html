@@ -47,7 +47,6 @@
     <section id="account-access" class="account-card" aria-label="Sign in or register">
       <div class="account-tabs" role="tablist" aria-label="Account actions">
         <button type="button" role="tab" id="login-tab" aria-selected="true" aria-controls="login-panel">Sign in</button>
-        <button type="button" role="tab" id="candidate-tab" aria-selected="false" aria-controls="candidate-panel">Candidate registration</button>
         <button type="button" role="tab" id="employer-tab" aria-selected="false" aria-controls="employer-panel">Company registration</button>
       </div>
       <p id="form-status" class="account-status" role="status" aria-live="polite"></p>
@@ -56,20 +55,6 @@
         <label>Password <input name="password" type="password" autocomplete="current-password" required maxlength="128"></label>
         <button type="submit">Sign in</button>
         <button id="reset-button" type="button">Send password reset email</button>
-      </form>
-      <form id="candidate-panel" class="account-fields account-registration" role="tabpanel" aria-labelledby="candidate-tab" hidden>
-        <label>Full name <input name="legal_name" autocomplete="name" required maxlength="160"></label>
-        <label>Email <input name="email" type="email" autocomplete="email" required maxlength="254"></label>
-        <label>Password (12 characters minimum) <input name="password" type="password" autocomplete="new-password" required minlength="12" maxlength="128"></label>
-        <label>Professional title <input name="professional_title" required maxlength="160"></label>
-        <label>Professional summary <textarea name="professional_summary" rows="4" maxlength="3000"></textarea></label>
-        <label>Skills (comma-separated) <input name="skills" maxlength="1000"></label>
-        <label>Target roles (comma-separated) <input name="target_roles" maxlength="1000"></label>
-        <label>Target industries (comma-separated) <input name="target_industries" maxlength="1000"></label>
-        <label>Target geography (comma-separated) <input name="target_geography" maxlength="1000"></label>
-        <label>Career objectives <textarea name="career_objectives" rows="3" maxlength="3000"></textarea></label>
-        <label><span><input name="privacy_consent" type="checkbox" required> I agree to KOV using my registration information as described in the <a href="/privacy.html" class="font-semibold underline">Privacy Notice</a>.</span></label>
-        <button type="submit">Create free candidate account</button>
       </form>
       <form id="employer-panel" class="account-fields account-registration" role="tabpanel" aria-labelledby="employer-tab" hidden>
         <label>Company name <input name="company_name" autocomplete="organization" required maxlength="200"></label>
@@ -112,50 +97,61 @@
       const loadBilling = async (role) => {
         const panel = byId('billing-panel');
         if (role !== 'candidate' && role !== 'employer') return;
-        panel.hidden = false;
+        const isEmployer = role === 'employer';
+        panel.hidden = !isEmployer;
         const checkoutButton = byId('subscription-checkout');
-        checkoutButton.hidden = false;
-        checkoutButton.textContent = role === 'candidate'
-          ? 'Start candidate premium subscription'
-          : 'Start employer directory subscription';
-        const plan = role === 'candidate'
-          ? 'candidate-premium-monthly'
-          : 'employer-monthly';
-        checkoutButton.addEventListener('click', async () => {
-          checkoutButton.disabled = true;
-          setStatus(billingStatus, 'Connecting to secure checkout…');
-          try {
-            const checkout = await request('/api/v1/billing/subscription/checkout', {
-              method: 'POST',
-              body: JSON.stringify({ plan_key: plan }),
-            });
-            location.assign(checkout.checkout_url);
-          } catch (error) {
-            setStatus(billingStatus, error.message, 'error');
-          } finally {
-            checkoutButton.disabled = false;
-          }
-        });
+        checkoutButton.hidden = !isEmployer;
+        const plan = isEmployer ? 'employer-monthly' : 'candidate-premium-monthly';
+        if (isEmployer) {
+          checkoutButton.textContent = 'Start employer directory subscription';
+          checkoutButton.addEventListener('click', async () => {
+            checkoutButton.disabled = true;
+            setStatus(billingStatus, 'Connecting to secure checkout…');
+            try {
+              const checkout = await request('/api/v1/billing/subscription/checkout', {
+                method: 'POST',
+                body: JSON.stringify({ plan_key: plan }),
+              });
+              location.assign(checkout.checkout_url);
+            } catch (error) {
+              setStatus(billingStatus, error.message, 'error');
+            } finally {
+              checkoutButton.disabled = false;
+            }
+          });
+        }
 
         try {
           const subscriptions = await request('/api/v1/billing/subscriptions');
           const current = subscriptions.items.find((item) => item.plan_key === plan);
           if (current && (current.status === 'active' || current.status === 'past_due')) {
+            if (!isEmployer) panel.hidden = false;
             checkoutButton.hidden = true;
-            setStatus(
-              billingStatus,
-              current.status === 'active'
-                ? `Your ${plan.replaceAll('-', ' ')} subscription is active${current.current_period_end ? ` through ${new Date(current.current_period_end).toLocaleDateString()}` : ''}.`
-                : 'Your subscription needs payment attention. Contact KOV Career Agency for assistance.',
-            );
+            const periodEnd = current.current_period_end
+              ? ` through ${new Date(current.current_period_end).toLocaleDateString()}`
+              : '';
+            setStatus(billingStatus, isEmployer
+              ? current.status === 'active'
+                ? `Your employer directory subscription is active${periodEnd}.`
+                : 'Your subscription needs payment attention. Contact KOV Career Agency for assistance.'
+              : current.status === 'active'
+                ? `An existing account billing record is active${periodEnd}.`
+                : 'An existing account billing record needs payment attention. Contact KOV Career Agency for assistance.');
           } else if (current && current.status === 'pending') {
-            checkoutButton.textContent = 'Continue pending subscription checkout';
+            if (isEmployer) {
+              checkoutButton.textContent = 'Continue pending subscription checkout';
+            } else {
+              panel.hidden = false;
+              setStatus(billingStatus, 'An existing account billing record is pending. Contact KOV Career Agency for assistance.');
+            }
           }
         } catch (error) {
+          if (!isEmployer) panel.hidden = false;
           setStatus(billingStatus, error.message, 'error');
-          checkoutButton.disabled = true;
+          if (isEmployer) checkoutButton.disabled = true;
         }
 
+        if (!isEmployer) return;
         const params = new URLSearchParams(location.search);
         if (!billingStatus.textContent && (params.get('billing') === 'success' || params.get('invoice') === 'paid')) {
           setStatus(billingStatus, 'Checkout returned. Payment access updates after the provider confirms the payment.');
@@ -227,7 +223,6 @@
 
       const tabForms = [
         ['login-tab', 'login-panel'],
-        ['candidate-tab', 'candidate-panel'],
         ['employer-tab', 'employer-panel'],
       ];
       tabForms.forEach(([tabId, panelId]) => {
@@ -242,14 +237,6 @@
       });
 
       submitJson(byId('login-panel'), '/api/v1/auth/login');
-      submitJson(byId('candidate-panel'), '/api/v1/auth/register/candidate', (data) => ({
-        ...data,
-        skills: list(data.skills || ''),
-        target_roles: list(data.target_roles || ''),
-        target_industries: list(data.target_industries || ''),
-        target_geography: list(data.target_geography || ''),
-        privacy_consent: Boolean(data.privacy_consent),
-      }));
       submitJson(byId('employer-panel'), '/api/v1/auth/register/employer', (data) => ({
         ...data,
         website: data.website.trim() || null,
@@ -349,7 +336,7 @@
           request('/api/v1/backend/health')
             .then((health) => {
               if (!health.auth_configured || !health.database_configured) {
-                setStatus(byId('service-status'), 'Account registration and sign-in are not yet configured for this deployment.', 'error');
+                setStatus(byId('service-status'), 'Account sign-in and company registration are not yet configured for this deployment.', 'error');
               }
             })
             .catch(() => setStatus(byId('service-status'), 'Account services are currently unavailable.', 'error'));

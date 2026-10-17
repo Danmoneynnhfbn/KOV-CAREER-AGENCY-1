@@ -26,6 +26,4 @@
 <img src="kov-logo.png" alt="KOV" class="h-6 w-6 object-contain"/>
 <span class="text-[12px] font-medium uppercase tracking-[0.18em] text-ink">KOV Career Agency</span>
 </div>
-<p class="mt-4 max-w-xs text-[13px] leading-relaxed text-ink-soft">Private &amp; confidential career representation for senior leaders. We work for you, never for corporate HR.</
-
-
+<p class="mt-4 max-w-xs text-[13px] leading-relaxed text-ink-soft">Private &amp; confidential career representation for senior leaders. We work for you — never for corporate HR.</

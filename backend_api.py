@@ -254,54 +254,6 @@ def _existing_checkout_session(session_id: str) -> dict[str, str]:
     return {"checkout_url": checkout_url, "session_id": session_id}
 
 
-class CandidateRegistration(BaseModel):
-    email: str = Field(min_length=5, max_length=254)
-    password: str = Field(min_length=12, max_length=128)
-    legal_name: str = Field(min_length=2, max_length=160)
-    professional_title: str = Field(min_length=2, max_length=160)
-    professional_summary: str = Field(default="", max_length=3000)
-    skills: list[str] = Field(default_factory=list, max_length=40)
-    years_experience: float | None = Field(default=None, ge=0, le=80)
-    target_roles: list[str] = Field(default_factory=list, max_length=30)
-    target_seniority: str | None = Field(default=None, max_length=80)
-    target_industries: list[str] = Field(default_factory=list, max_length=30)
-    target_geography: list[str] = Field(default_factory=list, max_length=30)
-    location_region: str | None = Field(default=None, max_length=160)
-    career_objectives: str | None = Field(default=None, max_length=3000)
-    privacy_consent: bool
-
-    @field_validator("legal_name", "professional_title")
-    @classmethod
-    def validate_required_names(cls, value: str) -> str:
-        cleaned = value.strip()
-        if len(cleaned) < 2:
-            raise ValueError("Enter at least two non-space characters.")
-        return cleaned
-
-    @field_validator("email")
-    @classmethod
-    def validate_email_shape(cls, value: str) -> str:
-        normalized = value.strip().lower()
-        if not re.fullmatch(r"[^@\s]+@[^@\s]+\.[^@\s]+", normalized):
-            raise ValueError("Enter a valid email address.")
-        return normalized
-
-    @field_validator(
-        "skills",
-        "target_roles",
-        "target_industries",
-        "target_geography",
-    )
-    @classmethod
-    def validate_string_lists(cls, values: list[str]) -> list[str]:
-        cleaned = [value.strip() for value in values]
-        if any(not value or len(value) > 120 for value in cleaned):
-            raise ValueError("List items must contain between 1 and 120 characters.")
-        if len(set(cleaned)) != len(cleaned):
-            raise ValueError("List items must be unique.")
-        return cleaned
-
-
 class EmployerRegistration(BaseModel):
     email: str = Field(min_length=5, max_length=254)
     password: str = Field(min_length=12, max_length=128)
@@ -424,7 +376,7 @@ class PasswordUpdate(BaseModel):
 
 
 class SubscriptionCheckoutRequest(BaseModel):
-    plan_key: Literal["candidate-premium-monthly", "employer-monthly"]
+    plan_key: Literal["employer-monthly"]
 
 
 class ProviderSessionRequest(BaseModel):
@@ -560,42 +512,6 @@ def _require_admin(request: Request, authorization: str | None) -> Identity:
     ):
         raise HTTPException(status_code=404, detail="Not Found")
     return identity
-
-
-def _provision_candidate(
-    service: Client,
-    user_id: str,
-    data: CandidateRegistration,
-) -> dict:
-    try:
-        result = service.rpc(
-            "provision_candidate_account",
-            {
-                "p_user_id": user_id,
-                "p_legal_name": data.legal_name.strip(),
-                "p_email": data.email,
-                "p_professional_title": data.professional_title.strip(),
-                "p_professional_summary": data.professional_summary.strip(),
-                "p_skills": data.skills,
-                "p_years_experience": data.years_experience,
-                "p_target_roles": data.target_roles,
-                "p_target_seniority": data.target_seniority,
-                "p_target_industries": data.target_industries,
-                "p_target_geography": data.target_geography,
-                "p_location_region": data.location_region,
-                "p_career_objectives": data.career_objectives,
-                "p_privacy_acknowledged": data.privacy_consent,
-            },
-        ).execute()
-        profile = (result.data or [None])[0]
-        if profile is None:
-            raise HTTPException(
-                status_code=502,
-                detail="Candidate account details could not be saved.",
-            )
-    except (APIError, httpx.RequestError) as exc:
-        raise _provider_error() from exc
-    return {"id": profile["candidate_id"], "public_id": profile["public_id"]}
 
 
 def _provision_employer(
@@ -780,35 +696,21 @@ def mount_backend_routes(app) -> None:
         _verify_origin(request)
         _require_stripe_billing_enabled()
         identity = _require_identity(request, authorization)
+        if identity.role != "employer":
+            raise HTTPException(status_code=403, detail="An employer account is required.")
         service = _service_client()
         try:
-            if data.plan_key == "candidate-premium-monthly":
-                if identity.role != "candidate":
-                    raise HTTPException(status_code=403, detail="A candidate account is required.")
-                price_id = _configured("STRIPE_CANDIDATE_PREMIUM_PRICE_ID")
-                owner_field = "candidate_id"
-                expected_audience = "candidate"
-                owner = (
-                    service.table("candidate_profiles")
-                    .select("id")
-                    .eq("user_id", identity.user_id)
-                    .single()
-                    .execute()
-                ).data
-            else:
-                if identity.role != "employer":
-                    raise HTTPException(status_code=403, detail="An employer account is required.")
-                price_id = _configured("STRIPE_EMPLOYER_MONTHLY_PRICE_ID")
-                owner_field = "employer_id"
-                expected_audience = "employer"
-                memberships = (
-                    service.table("employer_memberships")
-                    .select("employer_id")
-                    .eq("user_id", identity.user_id)
-                    .limit(1)
-                    .execute()
-                ).data
-                owner = {"id": memberships[0]["employer_id"]} if memberships else None
+            price_id = _configured("STRIPE_EMPLOYER_MONTHLY_PRICE_ID")
+            owner_field = "employer_id"
+            expected_audience = "employer"
+            memberships = (
+                service.table("employer_memberships")
+                .select("employer_id")
+                .eq("user_id", identity.user_id)
+                .limit(1)
+                .execute()
+            ).data
+            owner = {"id": memberships[0]["employer_id"]} if memberships else None
 
             if not owner:
                 raise HTTPException(status_code=403, detail="A matching account is required.")
@@ -1235,54 +1137,6 @@ def mount_backend_routes(app) -> None:
         except (APIError, httpx.RequestError) as exc:
             raise _provider_error() from exc
         return {"received": True}
-
-    @app.post("/api/v1/auth/register/candidate", status_code=201)
-    def register_candidate(
-        data: CandidateRegistration,
-        request: Request,
-        response: Response,
-    ) -> dict[str, str]:
-        _verify_origin(request)
-        if not data.privacy_consent:
-            raise HTTPException(status_code=422, detail="Privacy acknowledgement is required.")
-        auth = _public_client()
-        service = _service_client()
-        try:
-            result = auth.auth.sign_up(
-                {
-                    "email": data.email,
-                    "password": data.password,
-                    "options": {"email_redirect_to": f"{BASE_URL}/account.html"},
-                }
-            )
-        except AuthApiError as exc:
-            raise HTTPException(
-                status_code=400,
-                detail="Registration could not be completed with these details.",
-            ) from exc
-        except (AuthError, httpx.RequestError) as exc:
-            raise _provider_error() from exc
-
-        user = _user_from_response(result)
-        user_id = _user_id(user) if user else None
-        if not user_id:
-            raise HTTPException(
-                status_code=502,
-                detail="The authentication provider did not confirm account creation.",
-            )
-        try:
-            profile = _provision_candidate(service, user_id, data)
-        except HTTPException:
-            _remove_unprovisioned_auth_user(service, user_id)
-            raise
-        session = getattr(result, "session", None)
-        if session:
-            _set_session_cookies(response, session)
-        return {
-            "status": "created",
-            "message": "Check your email to verify your account before signing in.",
-            "candidate_public_id": profile["public_id"],
-        }
 
     @app.post("/api/v1/auth/register/employer", status_code=201)
     def register_employer(
