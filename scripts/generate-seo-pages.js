@@ -28,24 +28,6 @@ const groupLabels = new Map([
   ['roles', 'Seniority and roles'],
   ['resources', 'Proof and next steps'],
 ]);
-const modelImageByCategory = new Map([
-  ['services', 'executive-professional.jpg'],
-  ['markets', 'executive-leader.jpg'],
-  ['roles', 'executive-woman.jpg'],
-  ['resources', 'executive-leader.jpg'],
-]);
-const modelImageAltByCategory = new Map([
-  ['services', 'Illustrative stock portrait of a business professional; not a KOV client or team member.'],
-  ['markets', 'Illustrative stock photograph of a professional working at a laptop; no KOV client relationship implied.'],
-  ['roles', 'Illustrative stock portrait of a professional woman; not a KOV client or team member.'],
-  ['resources', 'Illustrative stock photograph of a professional working at a laptop; no KOV client relationship implied.'],
-]);
-const sectionImageByCategory = new Map([
-  ['services', ['executive-woman.jpg', 'leadership-meeting.jpg', 'executive-leader.jpg']],
-  ['markets', ['executive-professional.jpg', 'leadership-meeting.jpg', 'executive-woman.jpg']],
-  ['roles', ['executive-professional.jpg', 'leadership-meeting.jpg', 'executive-leader.jpg']],
-  ['resources', ['leadership-team.jpg', 'leadership-meeting.jpg', 'executive-woman.jpg']],
-]);
 const existingPages = new Set(
   fs.readdirSync(root).filter((file) => file.endsWith('.html'))
 );
@@ -58,13 +40,19 @@ const pages = [
 ];
 
 function additionToPage(page) {
-  const audienceLabel = page.category === 'resources'
-    ? 'you and KOV'
-    : 'the professional';
+  const audienceLabel = 'the professional';
+  const imageByCategory = {
+    services: ['assets/kov-search-grid.svg', 'Illustration of a structured executive search process.'],
+    markets: ['assets/kov-global-grid.svg', 'Illustration of a global market and talent search.'],
+    roles: ['assets/kov-search-grid.svg', 'Illustration of a structured leadership career search.'],
+    resources: ['assets/kov-intelligence-grid.svg', 'Illustration of a structured career and talent-search process.'],
+  };
+  const [image, imageAlt] = imageByCategory[page.category];
   const isProof = new Set([
     'case-studies',
     'candidate-success-stories',
     'anonymous-executive-reviews',
+    'client-hiring-results',
     'executive-career-outcomes',
   ]).has(page.slug);
   const researchGuidance = isProof
@@ -90,6 +78,8 @@ function additionToPage(page) {
     ...page,
     eyebrow: `${groupLabels.get(page.category).toUpperCase()} · KOV CAREER AGENCY`,
     introduction: page.focus,
+    image,
+    imageAlt,
     sections: [
       {
         eyebrow: 'DEFINE THE CONTEXT',
@@ -125,7 +115,7 @@ function additionToPage(page) {
     ],
     faqs: generalFaqs,
     related: [
-      { slug: 'candidate-services', label: 'Executive Career Representation' },
+      { slug: 'candidate-services', label: 'Individual Career Services' },
       { slug: 'contact', label: 'Contact KOV' },
     ],
   };
@@ -164,16 +154,8 @@ function escapeHtml(value) {
   })[character]);
 }
 
-function renderSection(section, index, page) {
-  const imageName = sectionImageByCategory.get(page.category)[index];
-  const imageAlt = index === 1
-    ? 'Illustrative stock photo of a professional team discussing research; not a KOV client team.'
-    : index === 2
-      ? 'Illustrative stock photo of a professional working at a laptop; not a KOV client or team member.'
-      : 'Illustrative stock portrait of a professional; not a KOV client or team member.';
-  const imageHref = path.posix.relative(page.category, `assets/people/${imageName}`);
-  const sectionImage = `<figure class="seo-section-visual"><img src="${escapeHtml(imageHref)}" alt="${imageAlt}" loading="lazy" decoding="async"></figure>`;
-  return `<section class="kov-section"><div class="kov-section-heading"><p class="kov-eyebrow">${escapeHtml(section.eyebrow)}</p><h2>${escapeHtml(section.title)}</h2></div>${sectionImage}<div class="kov-copy">${section.paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}${section.bullets?.length ? `<ul class="kov-list">${section.bullets.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>` : ''}</div></section>`;
+function renderSection(section) {
+  return `<section class="kov-section"><div class="kov-section-heading"><p class="kov-eyebrow">${escapeHtml(section.eyebrow)}</p><h2>${escapeHtml(section.title)}</h2></div><div class="kov-copy">${section.paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}${section.bullets?.length ? `<ul class="kov-list">${section.bullets.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>` : ''}</div></section>`;
 }
 
 function renderFaq(item) {
@@ -203,8 +185,8 @@ function renderTopicMenu(page, isMobile = false) {
   const className = isMobile
     ? 'kov-topic-nav kov-topic-nav-mobile'
     : 'kov-topic-nav';
-  const summary = isMobile ? 'Browse all 35 pages' : 'Explore pages';
-  return `<details class="${className}"><summary aria-label="Browse all 35 pages by topic">${summary}</summary><div class="kov-topic-nav-panel">${groups}</div></details>`;
+  const summary = isMobile ? `Browse all ${completePages.length} pages` : 'Explore pages';
+  return `<details class="${className}"><summary aria-label="Browse all ${completePages.length} pages by topic">${summary}</summary><div class="kov-topic-nav-panel">${groups}</div></details>`;
 }
 
 function renderFooterCategories(page) {
@@ -215,7 +197,7 @@ function renderFooterCategories(page) {
     ).join('');
     return `<details class="kov-footer-category"><summary>${escapeHtml(groupLabels.get(category))}</summary><ul>${links}</ul></details>`;
   }).join('');
-  return `<nav class="kov-footer-categories" data-kov-footer-categories aria-label="Browse all 35 pages"><h2>Explore all 35 pages</h2><div class="kov-footer-category-grid">${groups}</div></nav>`;
+  return `<nav class="kov-footer-categories" data-kov-footer-categories aria-label="Browse all ${completePages.length} pages"><h2>Explore all ${completePages.length} pages</h2><div class="kov-footer-category-grid">${groups}</div></nav>`;
 }
 
 function renderPage(page) {
@@ -227,7 +209,9 @@ function renderPage(page) {
   const rootAsset = (filename) => `../${filename}`;
   const contactHref = hrefForPage(page, 'contact');
   const homeHref = hrefForPage(page, 'index');
-  const modelImageHref = rootAsset(`assets/people/${modelImageByCategory.get(page.category)}`);
+  const imageHref = page.image.startsWith('http')
+    ? page.image
+    : rootAsset(page.image);
   const relatedHref = hrefForPage(page, page.related[0].slug);
   const breadcrumb = {
     '@type': 'BreadcrumbList',
@@ -251,7 +235,7 @@ function renderPage(page) {
     '@context': 'https://schema.org',
     '@graph': [
       {
-        '@type': ['Organization', 'ProfessionalService', 'EmploymentAgency'],
+        '@type': ['Organization', 'ProfessionalService'],
         '@id': 'https://kovcareeragency.org/#organization',
         name: 'KOV Career Agency',
         alternateName: ['KOV Career', 'KovCareer'],
@@ -317,7 +301,7 @@ function renderPage(page) {
   <link rel="stylesheet" href="${rootAsset('assets/site-fixes.css?v=15')}">
   <link rel="stylesheet" href="${rootAsset('assets/two-sided.css')}">
   <link rel="stylesheet" href="${rootAsset('assets/two-sided-type.css')}">
-  <link rel="stylesheet" href="${rootAsset('assets/seo-pages.css?v=18')}">
+  <link rel="stylesheet" href="${rootAsset('assets/seo-pages.css?v=2')}">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,800&family=Inter:wght@300;400;500;600;700&display=swap">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="KOV Career Agency">
@@ -334,7 +318,7 @@ function renderPage(page) {
   <script src="${rootAsset('assets/google-translate.js')}" defer></script>
   <script src="${rootAsset('assets/site-search-index.js')}" defer></script>
   <script src="${rootAsset('assets/site-search.js?v=3')}" defer></script>
-  <script src="${rootAsset('assets/reactive-visuals.js?v=11')}" defer></script>
+  <script src="${rootAsset('assets/reactive-visuals.js?v=7')}" defer></script>
   <script src="${rootAsset('assets/audience-nav.js?v=3')}" defer></script>
   <script type="application/ld+json" data-kov="discovery">${jsonLd}</script>
 </head>
@@ -343,12 +327,12 @@ function renderPage(page) {
     <header class="kov-header">
       <a class="kov-brand" href="${homeHref}"><img src="${rootAsset('kov-logo.png')}" alt="KOV"><span>KOV <small>Career Agency</small></span></a>
       <nav class="kov-nav" aria-label="Primary navigation">
-        <a href="${hrefForPage(page, 'services')}">Services</a><a href="${hrefForPage(page, 'countries-we-serve')}">Global markets</a><a class="audience-link" href="${hrefForPage(page, 'candidate-services')}">For Candidates</a>${renderTopicMenu(page)}<a class="kov-nav-cta" href="${contactHref}">Start a Conversation</a>
+        <a href="${hrefForPage(page, 'services')}">Private Career Representation</a><a href="${hrefForPage(page, 'countries-we-serve')}">Global markets</a><a class="audience-link" href="${hrefForPage(page, 'candidate-services')}">Individual Career Services</a>${renderTopicMenu(page)}<a class="kov-nav-cta" href="${contactHref}">Start a Conversation</a>
       </nav>
       <details class="seo-mobile-menu">
         <summary>Menu</summary>
         <nav aria-label="Mobile navigation">
-          <a href="${hrefForPage(page, 'services')}">Services</a><a href="${hrefForPage(page, 'countries-we-serve')}">Global markets</a><a href="${hrefForPage(page, 'candidate-services')}">For Candidates</a>${renderTopicMenu(page, true)}<a href="${contactHref}">Start a Conversation</a>
+          <a href="${hrefForPage(page, 'services')}">Private Career Representation</a><a href="${hrefForPage(page, 'countries-we-serve')}">Global markets</a><a href="${hrefForPage(page, 'candidate-services')}">Individual Career Services</a>${renderTopicMenu(page, true)}<a href="${contactHref}">Start a Conversation</a>
         </nav>
       </details>
     </header>
@@ -361,9 +345,9 @@ function renderPage(page) {
           <p>${escapeHtml(page.introduction)}</p>
           <div class="kov-actions"><a class="kov-button" href="${contactHref}">${escapeHtml(page.cta)}</a><a class="kov-text-link" href="${escapeHtml(relatedHref)}">Explore related KOV support</a></div>
         </div>
-        <figure class="seo-hero-art"><img class="seo-hero-portrait" src="${escapeHtml(modelImageHref)}" alt="${escapeHtml(modelImageAltByCategory.get(page.category))}" fetchpriority="high" decoding="async"></figure>
+        <figure class="seo-hero-art"><img src="${escapeHtml(imageHref)}" alt="${escapeHtml(page.imageAlt)}"><figcaption>Illustrative visual · engagement scope confirmed directly with KOV</figcaption></figure>
       </section>
-      ${page.sections.map((section, index) => renderSection(section, index, page)).join('\n      ')}
+      ${page.sections.map(renderSection).join('\n      ')}
       <section class="kov-section kov-section-tint seo-faq" aria-labelledby="seo-faq-heading">
         <div class="kov-section-heading"><p class="kov-eyebrow">COMMON QUESTIONS</p><h2 id="seo-faq-heading">Before you start a conversation.</h2></div>
         ${page.faqs.map(renderFaq).join('\n        ')}
@@ -373,13 +357,13 @@ function renderPage(page) {
         <p class="kov-eyebrow">START A CONFIDENTIAL CONVERSATION</p>
         <h2>${escapeHtml(page.ctaHeading)}</h2>
         <p>${escapeHtml(page.ctaCopy)}</p>
-        <p class="seo-scope-note">KOV works remotely across agreed markets. Engagement scope and fees are discussed directly by message and agreed in writing before work begins.</p>
+        <p class="seo-scope-note">KOV works remotely across agreed markets; this page does not imply a local office or guaranteed outcome. Engagement scope and fees are discussed directly by message and agreed in writing before work begins.</p>
         <div class="kov-actions kov-actions-center"><a class="kov-button" href="${contactHref}">${escapeHtml(page.cta)}</a></div>
       </section>
     </main>
     <footer class="kov-footer">
       <a class="kov-brand" href="${homeHref}"><img src="${rootAsset('kov-logo.png')}" alt="KOV"><span>KOV <small>Career Agency</small></span></a>
-      <nav aria-label="Footer navigation"><div><b>EXPLORE</b><a href="${hrefForPage(page, 'candidate-services')}">Candidate representation</a><a href="${hrefForPage(page, 'countries-we-serve')}">Countries We Serve</a></div><div><b>ABOUT</b><a href="${hrefForPage(page, 'why-kov')}">Why KOV</a><a href="${hrefForPage(page, 'about')}">Founder</a><a href="${contactHref}">Contact</a></div></nav>
+      <nav aria-label="Footer navigation"><div><b>EXPLORE</b><a href="${hrefForPage(page, 'candidate-services')}">Individual Career Services</a><a href="${hrefForPage(page, 'services')}">Private Career Representation</a><a href="${hrefForPage(page, 'countries-we-serve')}">Countries We Serve</a></div><div><b>ABOUT</b><a href="${hrefForPage(page, 'why-kov')}">Why KOV</a><a href="${hrefForPage(page, 'about')}">Founder</a><a href="${contactHref}">Contact</a></div></nav>
       ${renderFooterCategories(page)}
       <p class="kov-legal">© 2026 KOV Career Agency. Engagement scope and deliverables are agreed directly.</p>
     </footer>
@@ -445,6 +429,13 @@ const corePages = [
   'about.html',
   'contact.html',
   'candidate-services.html',
+  'resume-cv-writing.html',
+  'linkedin-profile-optimization.html',
+  'career-documents.html',
+  'career-portfolio-development.html',
+  'personal-career-website.html',
+  'career-positioning-optimization.html',
+  'career-coaching.html',
   'candidate-proof.html',
   'why-kov.html',
   'countries-we-serve.html',
@@ -531,9 +522,9 @@ function readPageMetadata(filename) {
 const llmsSections = [
   '# KOV Career Agency',
   '',
-  '> Founder-led career agency focused on private career representation and individual career services for professionals.',
+  '> Founder-led career agency providing career representation and individual career services for professionals.',
   '',
-  'KOV agrees scope, deliverables, fees, approvals, and reporting before work begins. Search activity does not guarantee interviews, offers, employment, or timelines. Coverage and suitability are confirmed for each engagement.',
+  'KOV agrees candidate-service scope, deliverables, fees, approvals, and reporting before work begins. Employers control their hiring decisions; KOV does not guarantee interviews, offers, employment, or timelines.',
   '',
   '## Core pages',
   (() => {
