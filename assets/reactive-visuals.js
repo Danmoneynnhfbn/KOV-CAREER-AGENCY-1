@@ -25,7 +25,7 @@
       points: [
         { key: 'professionals', label: 'Professionals', detail: 'Representation · Reverse recruiting · Applications · Recruiter outreach · Interview preparation · Negotiation.', x: 19, y: 23, mobileX: 20, mobileY: 19 },
         { key: 'executives', label: 'Executives', detail: 'Senior leaders and executive talent.', x: 50, y: 15, mobileX: 50, mobileY: 17 },
-        { key: 'companies', label: 'Companies', detail: 'Global talent sourcing · Passive executive search · Talent research · Mapping · Confidential outreach · Executive pipeline.', x: 81, y: 23, mobileX: 80, mobileY: 19 },
+        { key: 'companies', label: 'Target organizations', detail: "Organizations relevant to the professional's career priorities and agreed search strategy.", x: 81, y: 23, mobileX: 80, mobileY: 19 },
         { key: 'markets', label: 'Markets and research', detail: 'Research-led market context and professional networks.', x: 85, y: 50, mobileX: 80, mobileY: 81 },
         { key: 'hiring-managers', label: 'Hiring managers', detail: 'Relevant decision-makers in the search.', x: 81, y: 77, mobileX: 50, mobileY: 86 },
         { key: 'recruiters', label: 'Recruiters', detail: 'Relevant recruiter outreach and follow-up.', x: 50, y: 85, mobileX: 20, mobileY: 81 },

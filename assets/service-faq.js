@@ -36,40 +36,6 @@
           ['Does KOV guarantee a salary increase?', 'No. Compensation and offer terms are determined by the employer and candidate; KOV can support evaluation and negotiation strategy where agreed.']
         ]
       }
-    },
-    company: {
-      title: 'Questions about executive talent sourcing',
-      categories: {
-        Search: [
-          ['What is passive talent sourcing?', 'It is research-led identification and outreach to relevant professionals who may not be actively applying. Passive talent is a different pool, not automatically a better one.'],
-          ['What types of executives can KOV source?', 'Role level and function are defined by the brief and agreed scope, including senior leadership roles.'],
-          ['Which geographies does KOV cover?', 'Coverage is agreed for each search and may include multiple international markets.'],
-          ['Can KOV support international searches?', 'Yes, when geography, research depth, and outreach requirements are included in the engagement scope.']
-        ],
-        Research: [
-          ['How does KOV identify passive executives?', 'KOV maps relevant organizations and leadership contexts, then researches professional backgrounds against the agreed success profile.'],
-          ['How are candidates prioritized?', 'Profiles are compared against role-related criteria agreed with the client, with rationale recorded for review.'],
-          ['What information is researched?', 'Research may include relevant professional history, organizational context, role scope, and appropriate public market signals.']
-        ],
-        Outreach: [
-          ['How does KOV approach passive candidates?', 'Outreach is personalized to the professional context and follows the message, approval, and disclosure boundaries agreed for the search.'],
-          ['How is confidentiality handled?', 'Contact boundaries and information-sharing preferences are agreed before outreach. KOV does not make unsupported legal or security guarantees.']
-        ],
-        Deliverables: [
-          ['What does a company receive?', 'Depending on scope, outputs may include a search brief, market and company maps, talent research, prioritization rationale, progress updates, and structured reporting.'],
-          ['How is search progress communicated?', 'Reporting format and cadence are agreed before work begins and reflect the search scope and activity.'],
-          ['Can KOV support one executive search?', 'A focused single-role search may be scoped where the brief and requirements fit KOV’s service.']
-        ],
-        Engagement: [
-          ['How are fees determined?', 'Each talent sourcing engagement is priced according to the role, research requirements, geography, timeline and agreed deliverables. The fee and scope are agreed in writing before work begins.'],
-          ['How long does a search take?', 'Timing varies with role requirements, markets, research scope, and client decisions. A timeline is discussed after the brief is understood.'],
-          ['Can KOV work alongside an existing search firm?', 'Research support may be possible when responsibilities, information boundaries, and handoffs are agreed.']
-        ],
-        Outcomes: [
-          ['Does KOV guarantee a hire?', 'No. Hiring decisions, candidate decisions, and timelines are outside KOV’s control.'],
-          ['What happens if the search does not produce the required result?', 'KOV reviews progress against the agreed scope and discusses appropriate next steps. A specific hiring outcome is not guaranteed.']
-        ]
-      }
     }
   };
 
@@ -78,12 +44,10 @@
   })[character]);
 
   document.querySelectorAll('[data-service-faq]').forEach((section) => {
-    const side = section.dataset.serviceFaq;
-    const content = faqContent[side];
-    if (!content) return;
+    const content = faqContent.candidate;
     const categories = Object.keys(content.categories);
     section.innerHTML = `
-      <div class="kov-service-faq-heading"><p class="kov-eyebrow">${side === 'candidate' ? 'FOR PROFESSIONALS' : 'FOR COMPANIES'}</p><h2>Frequently Asked Questions</h2><p>${escapeHTML(content.title)}</p></div>
+      <div class="kov-service-faq-heading"><p class="kov-eyebrow">FOR PROFESSIONALS</p><h2>Frequently Asked Questions</h2><p>${escapeHTML(content.title)}</p></div>
       <div class="kov-faq-layout"><nav class="kov-faq-categories" aria-label="FAQ categories">${categories.map((category, index) => `<button type="button" class="kov-faq-category" data-faq-category="${escapeHTML(category)}" aria-pressed="${index === 0}">${escapeHTML(category)}</button>`).join('')}</nav><div class="kov-faq-questions" data-faq-questions aria-live="polite"></div></div>`;
 
     const questions = section.querySelector('[data-faq-questions]');

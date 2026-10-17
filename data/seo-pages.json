@@ -1,15 +1,15 @@
 [
   {
     "slug": "reverse-recruiting",
-    "title": "for Senior Professionals | KOV",
+    "title": "Private Career Representation for Senior Professionals | KOV",
     "description": "Private reverse recruiting for senior professionals: define a target, research roles, coordinate applications and outreach, and prepare for next steps.",
-    "eyebrow": "FOR SENIOR PROFESSIONALS · Career Representation",
-    "heading": "Career Representation puts structure behind your search.",
+    "eyebrow": "FOR SENIOR PROFESSIONALS · REVERSE RECRUITING",
+    "heading": "Reverse recruiting puts structure behind your search.",
     "lead": "KOV works on your side of the job search, coordinating research, positioning and agreed outreach while you remain in control of your decisions.",
     "introduction": "A senior search can involve more than applications. KOV helps define your target, research relevant opportunities and organize the execution around your priorities.",
     "image": "assets/kov-search-grid.svg",
     "imageAlt": "Illustrative search grid representing a structured executive job search.",
-    "cta": "Discuss Career Representation",
+    "cta": "Discuss Reverse Recruiting",
     "ctaHeading": "Start with the search you actually need.",
     "ctaCopy": "Share your target role, experience, market and priorities. KOV can discuss fit, deliverables and next steps directly; fees are discussed by message and agreed in writing.",
     "sections": [
@@ -17,7 +17,7 @@
         "eyebrow": "CANDIDATE-SIDE REPRESENTATION",
         "title": "A managed search—not a promise of employment.",
         "paragraphs": [
-          "In Career Representation, the professional engages support to organize parts of their job search. KOV's work can include research, positioning, opportunity review, applications, recruiter and hiring-manager outreach, follow-up, interview preparation and offer support.",
+          "In reverse recruiting, the professional engages support to organize parts of their job search. KOV's work can include research, positioning, opportunity review, applications, recruiter and hiring-manager outreach, follow-up, interview preparation and offer support.",
           "The exact activities and approvals are defined in the engagement. Employers retain control of interviews, selection and offers; KOV does not guarantee interviews, placement or timing."
         ],
         "bullets": [
@@ -58,91 +58,27 @@
     ],
     "faqs": [
       {
-        "question": "Is Career Representation the same as an employer hiring a recruiter?",
+        "question": "Is reverse recruiting the same as an employer hiring a recruiter?",
         "answer": "No. In KOV's candidate practice, the professional engages KOV for agreed job-search support. Employers make their own hiring decisions and are not represented by this candidate-side service."
       },
       {
-        "question": "Does Career Representation guarantee a job?",
+        "question": "Does reverse recruiting guarantee a job?",
         "answer": "No. KOV can manage agreed search activities, but cannot control employer decisions, market conditions or hiring timelines."
       }
     ],
     "related": [
-      { "slug": "candidate-services", "label": "Executive Career Representation" },
-      { "slug": "career-strategy-senior-leaders", "label": "Career Strategy for Senior Leaders" },
-      { "slug": "executive-job-search-dubai", "label": "Executive Job Search in Dubai" }
-    ]
-  },
-  {
-    "slug": "executive-search-support",
-    "title": "Executive Search Support for Employers | KOV",
-    "description": "Research-led executive search support for employers who need a clear role brief, focused talent research, discreet outreach and structured updates.",
-    "eyebrow": "FOR EMPLOYERS · SEARCH PARTNERSHIP",
-    "heading": "Executive search support built around the brief.",
-    "lead": "Add focused research and talent outreach to a leadership search without losing sight of the role, market or decision process.",
-    "introduction": "KOV supports organizations that need help identifying and engaging senior talent. The work begins with a clear search brief and an agreed division of responsibilities.",
-    "image": "assets/kov-research-layer.svg",
-    "imageAlt": "Abstract illustration of research layers used to map an executive talent market.",
-    "cta": "Discuss an Executive Search",
-    "ctaHeading": "Start with the leadership problem you need to solve.",
-    "ctaCopy": "Share the role, organization context, market and current search approach. KOV can discuss whether independent research and sourcing support fits the brief.",
-    "sections": [
       {
-        "eyebrow": "A DEFINED SEARCH",
-        "title": "Start with the outcomes and constraints of the role.",
-        "paragraphs": [
-          "An effective senior search starts with more than a title. The hiring team and KOV align on the role's mandate, reporting relationships, leadership scope, essential experience, geography and practical constraints.",
-          "That brief guides the research. It also makes it easier to distinguish a relevant executive from a profile that only matches a few keywords."
-        ],
-        "bullets": [
-          "Role scope and success profile",
-          "Relevant organizations and talent pools",
-          "Research boundaries and outreach approvals",
-          "Decision-makers, communication and reporting"
-        ]
+        "slug": "candidate-services",
+        "label": "Executive Career Representation"
       },
       {
-        "eyebrow": "RESEARCH BEFORE OUTREACH",
-        "title": "Build a reasoned view of the talent market.",
-        "paragraphs": [
-          "KOV can map relevant organizations, leadership functions and professional backgrounds against the agreed criteria. Research notes explain why a profile may be relevant; a title match alone is not a recommendation.",
-          "If outreach is included, the client and KOV agree what can be shared, who approves contact and how responses are handled. The exact output depends on the engagement."
-        ],
-        "bullets": [
-          "Market and organization mapping",
-          "Role-related profile research",
-          "Prioritization against agreed criteria",
-          "Discreet, approved outreach when in scope"
-        ]
+        "slug": "career-strategy-senior-leaders",
+        "label": "Career Strategy for Senior Leaders"
       },
       {
-        "eyebrow": "WORKING TOGETHER",
-        "title": "A clear partner workflow, not a black box.",
-        "paragraphs": [
-          "KOV's role is to support the search with research, sourcing and agreed communication. The employer retains its hiring decisions, assessment process and responsibility for employment terms.",
-          "Before work begins, both sides confirm deliverables, responsibilities, communication cadence and fee in writing. KOV does not imply that a search will produce a hire."
-        ],
-        "bullets": [
-          "Agreed search brief and milestones",
-          "Progress updates in the agreed format",
-          "Client-led review and selection",
-          "Scope and fees discussed directly by message"
-        ]
+        "slug": "executive-job-search-dubai",
+        "label": "Executive Job Search in Dubai"
       }
-    ],
-    "faqs": [
-      {
-        "question": "Is KOV the employer or the decision-maker?",
-        "answer": "No. KOV can provide independent research and sourcing support. The hiring organization remains responsible for interviews, selection and employment decisions."
-      },
-      {
-        "question": "Does every engagement include outreach?",
-        "answer": "No. Research, candidate contact and reporting are defined by the specific brief and agreed in writing before work begins."
-      }
-    ],
-    "related": [
-      { "slug": "company-services", "label": "Global Talent Sourcing for Companies" },
-      { "slug": "global-talent-sourcer", "label": "KOV's Talent Sourcing Approach" },
-      { "slug": "executive-search-saas-leaders", "label": "Executive Search for SaaS Leaders" }
     ]
   },
   {
@@ -213,9 +149,18 @@
       }
     ],
     "related": [
-      { "slug": "candidate-services", "label": "Executive Career Representation" },
-      { "slug": "executive-resume-strategy", "label": "Executive Resume Strategy" },
-      { "slug": "reverse-recruiting-cfos", "label": "Career Representation for CFOs" }
+      {
+        "slug": "candidate-services",
+        "label": "Executive Career Representation"
+      },
+      {
+        "slug": "executive-resume-strategy",
+        "label": "Executive Resume Strategy"
+      },
+      {
+        "slug": "reverse-recruiting-cfos",
+        "label": "Reverse Recruiting for CFOs"
+      }
     ]
   },
   {
@@ -286,9 +231,18 @@
       }
     ],
     "related": [
-      { "slug": "candidate-services", "label": "Executive Career Representation" },
-      { "slug": "career-strategy-senior-leaders", "label": "Career Strategy for Senior Leaders" },
-      { "slug": "linkedin-optimization-executives", "label": "LinkedIn Optimization for Executives" }
+      {
+        "slug": "candidate-services",
+        "label": "Executive Career Representation"
+      },
+      {
+        "slug": "career-strategy-senior-leaders",
+        "label": "Career Strategy for Senior Leaders"
+      },
+      {
+        "slug": "linkedin-optimization-executives",
+        "label": "LinkedIn Optimization for Executives"
+      }
     ]
   },
   {
@@ -359,9 +313,18 @@
       }
     ],
     "related": [
-      { "slug": "candidate-services", "label": "Executive Career Representation" },
-      { "slug": "career-strategy-senior-leaders", "label": "Career Strategy for Senior Leaders" },
-      { "slug": "executive-negotiation-support", "label": "Negotiation Support for Senior Leaders" }
+      {
+        "slug": "candidate-services",
+        "label": "Executive Career Representation"
+      },
+      {
+        "slug": "career-strategy-senior-leaders",
+        "label": "Career Strategy for Senior Leaders"
+      },
+      {
+        "slug": "executive-negotiation-support",
+        "label": "Negotiation Support for Senior Leaders"
+      }
     ]
   },
   {
@@ -432,9 +395,18 @@
       }
     ],
     "related": [
-      { "slug": "candidate-services", "label": "Executive Career Representation" },
-      { "slug": "interview-coaching-executives", "label": "Interview Coaching for Executives" },
-      { "slug": "career-strategy-senior-leaders", "label": "Career Strategy for Senior Leaders" }
+      {
+        "slug": "candidate-services",
+        "label": "Executive Career Representation"
+      },
+      {
+        "slug": "interview-coaching-executives",
+        "label": "Interview Coaching for Executives"
+      },
+      {
+        "slug": "career-strategy-senior-leaders",
+        "label": "Career Strategy for Senior Leaders"
+      }
     ]
   },
   {
@@ -505,9 +477,18 @@
       }
     ],
     "related": [
-      { "slug": "candidate-services", "label": "Executive Career Representation" },
-      { "slug": "executive-resume-strategy", "label": "Executive Resume Strategy" },
-      { "slug": "career-strategy-senior-leaders", "label": "Career Strategy for Senior Leaders" }
+      {
+        "slug": "candidate-services",
+        "label": "Executive Career Representation"
+      },
+      {
+        "slug": "executive-resume-strategy",
+        "label": "Executive Resume Strategy"
+      },
+      {
+        "slug": "career-strategy-senior-leaders",
+        "label": "Career Strategy for Senior Leaders"
+      }
     ]
   },
   {
@@ -578,9 +559,14 @@
       }
     ],
     "related": [
-      { "slug": "executive-job-search-uae", "label": "Executive Job Search Across the UAE" },
-      { "slug": "executive-career-support-saudi-arabia", "label": "Executive Career Support in Saudi Arabia" },
-      { "slug": "leadership-hiring-gcc", "label": "Leadership Hiring in the GCC" }
+      {
+        "slug": "executive-job-search-uae",
+        "label": "Executive Job Search Across the UAE"
+      },
+      {
+        "slug": "executive-career-support-saudi-arabia",
+        "label": "Executive Career Support in Saudi Arabia"
+      }
     ]
   },
   {
@@ -651,9 +637,14 @@
       }
     ],
     "related": [
-      { "slug": "executive-job-search-dubai", "label": "Executive Job Search in Dubai" },
-      { "slug": "executive-career-support-saudi-arabia", "label": "Executive Career Support in Saudi Arabia" },
-      { "slug": "leadership-hiring-gcc", "label": "Leadership Hiring in the GCC" }
+      {
+        "slug": "executive-job-search-dubai",
+        "label": "Executive Job Search in Dubai"
+      },
+      {
+        "slug": "executive-career-support-saudi-arabia",
+        "label": "Executive Career Support in Saudi Arabia"
+      }
     ]
   },
   {
@@ -724,233 +715,19 @@
       }
     ],
     "related": [
-      { "slug": "executive-job-search-uae", "label": "Executive Job Search Across the UAE" },
-      { "slug": "executive-job-search-dubai", "label": "Executive Job Search in Dubai" },
-      { "slug": "leadership-hiring-gcc", "label": "Leadership Hiring in the GCC" }
-    ]
-  },
-  {
-    "slug": "leadership-hiring-gcc",
-    "title": "Leadership Hiring and Talent Sourcing in the GCC | KOV",
-    "description": "Research-led support for organizations planning leadership searches across GCC markets, with role definition, talent mapping and agreed outreach.",
-    "eyebrow": "FOR EMPLOYERS · GULF COOPERATION COUNCIL",
-    "heading": "Plan a leadership search across GCC markets.",
-    "lead": "Define where the role needs to operate, what success requires and which talent pools are relevant before outreach begins.",
-    "introduction": "KOV can discuss independent executive talent research and sourcing for employers considering the Gulf region. Each brief is scoped around the role and target markets; regional coverage is not a claim of local offices.",
-    "image": "assets/kov-global-talent-map.svg",
-    "imageAlt": "Illustrative interconnected global regions, not a map of local KOV offices.",
-    "cta": "Discuss GCC Talent Sourcing",
-    "ctaHeading": "Start with the role, not a country list.",
-    "ctaCopy": "Send KOV the leadership brief, markets under consideration and the hiring team's requirements. KOV can discuss whether the research and sourcing scope is suitable.",
-    "sections": [
       {
-        "eyebrow": "FRAME THE MANDATE",
-        "title": "Clarify where leadership responsibilities sit.",
-        "paragraphs": [
-          "A regional remit can mean different things across organizations. Confirm which countries the leader will cover, where decisions are made, what teams they will lead and how the role interacts with local operations.",
-          "Those details help shape a fair success profile and prevent a search from relying on geography or job title as a substitute for role fit."
-        ],
-        "bullets": [
-          "Countries and operating footprint",
-          "Reporting line and decision authority",
-          "Functional scope and team responsibilities",
-          "Experience that is essential versus transferable"
-        ]
+        "slug": "executive-job-search-uae",
+        "label": "Executive Job Search Across the UAE"
       },
       {
-        "eyebrow": "MAP RELEVANT TALENT",
-        "title": "Research the backgrounds that align with the brief.",
-        "paragraphs": [
-          "KOV can research organizations and senior professionals against the agreed success criteria. Relevant experience may come from different markets or sectors; the client and KOV decide what is transferable for the specific mandate.",
-          "If outreach is part of the engagement, KOV and the client agree what can be shared and how candidate interest is communicated. Local regulations and employment requirements should be confirmed by qualified sources."
-        ],
-        "bullets": [
-          "Map target organizations and leadership functions",
-          "Document role-relevant research",
-          "Prioritize profiles against agreed evidence",
-          "Use approved, discreet outreach where in scope"
-        ]
-      },
-      {
-        "eyebrow": "SCOPE WITH CARE",
-        "title": "Treat the GCC as multiple markets, not one uniform market.",
-        "paragraphs": [
-          "Country-specific conditions, employer requirements and candidate circumstances differ. Search boundaries should therefore be agreed for each role rather than inferred from a regional label.",
-          "KOV works remotely where a search is available and suitable. The client remains responsible for hiring decisions, local employment compliance and candidate assessment."
-        ],
-        "bullets": [
-          "Confirm country and employer scope",
-          "Agree research sources and outreach approvals",
-          "Set reporting expectations and decision steps",
-          "Discuss deliverables and fees directly by message"
-        ]
+        "slug": "executive-job-search-dubai",
+        "label": "Executive Job Search in Dubai"
       }
-    ],
-    "faqs": [
-      {
-        "question": "Does KOV operate an office in every GCC country?",
-        "answer": "No such claim is made. KOV can discuss remote sourcing support and confirm availability and scope for the specific countries in the brief."
-      },
-      {
-        "question": "Can KOV advise on local labor law?",
-        "answer": "KOV's role is talent research and sourcing support. Employers should consult qualified local advisers on employment law, licensing and regulatory requirements."
-      }
-    ],
-    "related": [
-      { "slug": "company-services", "label": "Global Talent Sourcing for Companies" },
-      { "slug": "executive-search-support", "label": "Executive Search Support" },
-      { "slug": "executive-career-support-saudi-arabia", "label": "Career Support in Saudi Arabia" }
-    ]
-  },
-  {
-    "slug": "executive-search-europe",
-    "title": "Executive Search and Talent Sourcing in Europe | KOV",
-    "description": "Research-led executive talent sourcing for organizations defining a leadership search across European markets, functions and relevant talent pools.",
-    "eyebrow": "FOR EMPLOYERS · EUROPE",
-    "heading": "Map the European leadership talent you need.",
-    "lead": "Make a cross-border search more focused by defining the mandate, target countries and evidence of leadership fit.",
-    "introduction": "KOV supports employer-side executive talent research and sourcing where the brief and market are a fit. Each search is defined individually; Europe is not treated as one uniform labor market.",
-    "image": "assets/kov-global-talent-map.svg",
-    "imageAlt": "Illustrative global talent map showing connected regions; actual search scope is agreed separately.",
-    "cta": "Discuss a European Search",
-    "ctaHeading": "Clarify the remit and markets you want to cover.",
-    "ctaCopy": "Share the role, country scope and leadership criteria. KOV can discuss research depth, outreach and the boundaries of a potential engagement.",
-    "sections": [
-      {
-        "eyebrow": "DEFINE GEOGRAPHY",
-        "title": "Choose markets based on the role's actual needs.",
-        "paragraphs": [
-          "A European search can span one country, several countries or talent with relevant cross-border experience. The right scope depends on where the role sits, language and regulatory requirements, mobility and the organization's operating model.",
-          "Agree these constraints before building a target-company map. This keeps research relevant and makes trade-offs visible to the hiring team."
-        ],
-        "bullets": [
-          "Countries and locations in scope",
-          "Language, mobility and work requirements",
-          "Role location and reporting structure",
-          "Transferable experience the client will consider"
-        ]
-      },
-      {
-        "eyebrow": "RESEARCH AND PRIORITIZE",
-        "title": "Use role evidence to focus the candidate universe.",
-        "paragraphs": [
-          "KOV can identify relevant organizations and leadership backgrounds, then compare researched profiles with the agreed success criteria. The output is a structured view of potential relevance, not a guarantee of availability or suitability.",
-          "Where outreach is included, messaging and approval boundaries are set with the client. Candidate interest and hiring decisions remain separate steps."
-        ],
-        "bullets": [
-          "Market and company mapping",
-          "Research against role-related criteria",
-          "Documented prioritization and context",
-          "Approved outreach where included in scope"
-        ]
-      },
-      {
-        "eyebrow": "RESPECT LOCAL CONTEXT",
-        "title": "Confirm local requirements for each country.",
-        "paragraphs": [
-          "Hiring, employment, data handling and right-to-work requirements differ by country and can change. KOV's research work does not replace legal or regulatory advice.",
-          "KOV can discuss a remote research engagement and confirm the markets it can support. The page does not imply a local office or representation in every European country."
-        ],
-        "bullets": [
-          "Agree a country-by-country scope",
-          "Confirm responsible handling of candidate information",
-          "Use qualified local advice where needed",
-          "Set deliverables and fees directly before work begins"
-        ]
-      }
-    ],
-    "faqs": [
-      {
-        "question": "Can one search cover multiple European countries?",
-        "answer": "It can be discussed. The countries, role requirements, research depth and outreach boundaries must be defined in the brief and confirmed as available."
-      },
-      {
-        "question": "Does KOV provide legal or right-to-work advice?",
-        "answer": "No. Employers should verify employment, data protection and right-to-work obligations with qualified advisers in each relevant jurisdiction."
-      }
-    ],
-    "related": [
-      { "slug": "company-services", "label": "Global Talent Sourcing for Companies" },
-      { "slug": "executive-search-support", "label": "Executive Search Support" },
-      { "slug": "executive-search-north-america", "label": "Executive Search in North America" }
-    ]
-  },
-  {
-    "slug": "executive-search-north-america",
-    "title": "Executive Search and Talent Sourcing in North America | KOV",
-    "description": "Research-led executive talent sourcing for employers defining leadership searches across North American markets and relevant talent pools.",
-    "eyebrow": "FOR EMPLOYERS · NORTH AMERICA",
-    "heading": "Build a North American search around the role.",
-    "lead": "Define where the leader must operate, what the mandate requires and which experience can transfer across markets.",
-    "introduction": "KOV can discuss independent executive research and sourcing for organizations considering North American talent markets. Search scope is agreed by role and geography and does not imply a local office in each market.",
-    "image": "assets/kov-global-talent-map.svg",
-    "imageAlt": "Illustrative global talent map with the Americas connected to other regions.",
-    "cta": "Discuss a North American Search",
-    "ctaHeading": "Describe the role and the market boundary.",
-    "ctaCopy": "Send KOV the leadership brief, target geography and hiring constraints. KOV can discuss whether the research and sourcing work fits the engagement.",
-    "sections": [
-      {
-        "eyebrow": "SET THE SEARCH BOUNDARY",
-        "title": "Specify the operating location and candidate requirements.",
-        "paragraphs": [
-          "North America can refer to different country and location combinations. The search brief should state where the role is based, which markets are in scope, whether relocation is possible and which work-authorization conditions apply.",
-          "Clarifying the boundary early helps the team compare profiles consistently and avoid treating a broad regional label as a substitute for real requirements."
-        ],
-        "bullets": [
-          "Countries and locations in scope",
-          "Role location and travel expectations",
-          "Relocation and authorization questions",
-          "Essential leadership experience"
-        ]
-      },
-      {
-        "eyebrow": "RESEARCH THE RIGHT POOLS",
-        "title": "Connect company context to the success profile.",
-        "paragraphs": [
-          "KOV can map relevant organizations, functions and leadership histories, then record how researched profiles relate to the client's criteria. Context matters: similar titles can carry different authority and operating scale.",
-          "Outreach, when included, follows an agreed message and approval process. The employer remains responsible for evaluating and selecting candidates."
-        ],
-        "bullets": [
-          "Define target company categories",
-          "Compare profiles against evidence-based criteria",
-          "Keep research notes relevant to the role",
-          "Agree discreet outreach boundaries"
-        ]
-      },
-      {
-        "eyebrow": "CONFIRM COMPLIANCE AND SCOPE",
-        "title": "Keep market-specific requirements with the right experts.",
-        "paragraphs": [
-          "Employment, privacy, immigration and other legal requirements vary across jurisdictions. KOV can structure the talent research engagement but does not replace counsel or compliance professionals.",
-          "Before work begins, KOV and the client agree the research scope, deliverables, reporting and fee in writing. No candidate response or hire is guaranteed."
-        ],
-        "bullets": [
-          "Confirm each market and role requirement",
-          "Use qualified advice for legal and compliance matters",
-          "Set reporting and decision milestones",
-          "Discuss fees and scope directly by message"
-        ]
-      }
-    ],
-    "faqs": [
-      {
-        "question": "Can KOV source across the United States and Canada?",
-        "answer": "The markets and requirements should be described in the brief; KOV will confirm whether the proposed scope is available before work begins."
-      },
-      {
-        "question": "Does this service guarantee candidates or a hire?",
-        "answer": "No. Research and outreach do not guarantee candidate interest, interview progression or a hiring decision."
-      }
-    ],
-    "related": [
-      { "slug": "company-services", "label": "Global Talent Sourcing for Companies" },
-      { "slug": "executive-search-support", "label": "Executive Search Support" },
-      { "slug": "executive-search-europe", "label": "Executive Search in Europe" }
     ]
   },
   {
     "slug": "reverse-recruiting-cfos",
-    "title": "for CFOs | KOV Career Agency",
+    "title": "Private Career Representation for CFOs | KOV Career Agency",
     "description": "Private reverse recruiting for CFOs exploring their next leadership role, with defined targets, executive positioning, research and agreed outreach.",
     "eyebrow": "FOR CFOs · PRIVATE CAREER REPRESENTATION",
     "heading": "A CFO search shaped around the mandate you want next.",
@@ -994,7 +771,7 @@
         "eyebrow": "RUN A PRIVATE SEARCH",
         "title": "Research and outreach with clear approval points.",
         "paragraphs": [
-          "A Career Representation engagement may include target-company research, opportunity review, applications, recruiter or hiring-manager outreach, follow-up, interview preparation and offer support. What KOV handles depends on the written agreement.",
+          "A reverse recruiting engagement may include target-company research, opportunity review, applications, recruiter or hiring-manager outreach, follow-up, interview preparation and offer support. What KOV handles depends on the written agreement.",
           "You remain the decision-maker. KOV cannot guarantee an interview, offer, compensation outcome or placement, and will not disclose your information without the agreed process."
         ],
         "bullets": [
@@ -1016,14 +793,19 @@
       }
     ],
     "related": [
-      { "slug": "candidate-services", "label": "Executive Career Representation" },
-      { "slug": "executive-resume-strategy", "label": "Executive Resume Strategy" },
-      { "slug": "executive-hiring-fintech", "label": "Executive Hiring in Fintech" }
+      {
+        "slug": "candidate-services",
+        "label": "Executive Career Representation"
+      },
+      {
+        "slug": "executive-resume-strategy",
+        "label": "Executive Resume Strategy"
+      }
     ]
   },
   {
     "slug": "reverse-recruiting-ctos",
-    "title": "for CTOs | KOV Career Agency",
+    "title": "Private Career Representation for CTOs | KOV Career Agency",
     "description": "Private reverse recruiting for CTOs and senior technology leaders, aligning leadership scope, technical narrative and an agreed executive search plan.",
     "eyebrow": "FOR CTOs · PRIVATE CAREER REPRESENTATION",
     "heading": "Make your technology leadership legible beyond the stack.",
@@ -1089,14 +871,19 @@
       }
     ],
     "related": [
-      { "slug": "candidate-services", "label": "Executive Career Representation" },
-      { "slug": "executive-search-saas-leaders", "label": "Executive Search for SaaS Leaders" },
-      { "slug": "career-strategy-senior-leaders", "label": "Career Strategy for Senior Leaders" }
+      {
+        "slug": "candidate-services",
+        "label": "Executive Career Representation"
+      },
+      {
+        "slug": "career-strategy-senior-leaders",
+        "label": "Career Strategy for Senior Leaders"
+      }
     ]
   },
   {
     "slug": "reverse-recruiting-cmos",
-    "title": "for CMOs | KOV Career Agency",
+    "title": "Private Career Representation for CMOs | KOV Career Agency",
     "description": "Private reverse recruiting for CMOs and senior marketing leaders, with clear positioning, target-role research and an agreed search process.",
     "eyebrow": "FOR CMOs · PRIVATE CAREER REPRESENTATION",
     "heading": "Position your marketing leadership for the next mandate.",
@@ -1162,301 +949,14 @@
       }
     ],
     "related": [
-      { "slug": "candidate-services", "label": "Executive Career Representation" },
-      { "slug": "linkedin-optimization-executives", "label": "LinkedIn Optimization for Executives" },
-      { "slug": "executive-search-saas-leaders", "label": "Executive Search for SaaS Leaders" }
-    ]
-  },
-  {
-    "slug": "executive-search-chros",
-    "title": "Executive Search for CHROs and People Leaders | KOV",
-    "description": "Research-led sourcing support for organizations seeking a CHRO or senior people leader, with an agreed mandate, talent criteria and discreet outreach.",
-    "eyebrow": "FOR EMPLOYERS · CHRO AND PEOPLE LEADERSHIP",
-    "heading": "Find the people leader suited to your mandate.",
-    "lead": "Define what the organization needs from its next CHRO before mapping relevant leadership experience and approaching talent.",
-    "introduction": "KOV can support employer-side research and sourcing for senior people leadership roles. The search starts with the organization's actual priorities, not an assumed one-size-fits-all CHRO profile.",
-    "image": "assets/kov-executive-intelligence-network.svg",
-    "imageAlt": "Illustrative executive network representing research across leadership roles and talent markets.",
-    "cta": "Discuss a CHRO Search",
-    "ctaHeading": "Describe the people and organization challenge.",
-    "ctaCopy": "Share the role's remit, organizational context and target market. KOV can discuss potential research and sourcing support directly.",
-    "sections": [
       {
-        "eyebrow": "DEFINE THE LEADERSHIP NEED",
-        "title": "Identify the outcomes the CHRO must own.",
-        "paragraphs": [
-          "A CHRO mandate may focus on organizational design, workforce planning, leadership development, employee relations, culture, talent acquisition, transformation or the foundations of the people function.",
-          "The hiring team should agree which outcomes matter now, how the role partners with the executive team and what evidence demonstrates the necessary experience."
-        ],
-        "bullets": [
-          "Current organizational priorities",
-          "Reporting line and decision authority",
-          "People function scope and team maturity",
-          "Experience that is essential for this mandate"
-        ]
+        "slug": "candidate-services",
+        "label": "Executive Career Representation"
       },
       {
-        "eyebrow": "MAP THE TALENT",
-        "title": "Research leaders in relevant operating contexts.",
-        "paragraphs": [
-          "KOV can identify organizations and people leadership backgrounds that align with the brief, then document role-related evidence for client review. A title or employer name by itself does not establish fit.",
-          "Where candidate outreach is included, the client and KOV agree the message, approval process and information that may be disclosed. The client retains responsibility for interviews and selection."
-        ],
-        "bullets": [
-          "Map relevant organizations and functions",
-          "Compare experience against agreed criteria",
-          "Prioritize with research context",
-          "Approach candidates only within approved scope"
-        ]
-      },
-      {
-        "eyebrow": "SET EXPECTATIONS",
-        "title": "Keep a sensitive leadership search structured.",
-        "paragraphs": [
-          "Search communication, confidentiality boundaries, reporting and decision ownership should be agreed before outreach starts. Handling candidate information must follow the client's applicable requirements and professional advice.",
-          "KOV can discuss remote support where the role and market are within scope. No candidate response, shortlist or hire is guaranteed."
-        ],
-        "bullets": [
-          "Agree scope, milestones and reporting",
-          "Set outreach and confidentiality boundaries",
-          "Keep selection decisions with the employer",
-          "Discuss deliverables and fees directly by message"
-        ]
+        "slug": "linkedin-optimization-executives",
+        "label": "LinkedIn Optimization for Executives"
       }
-    ],
-    "faqs": [
-      {
-        "question": "Does KOV make the hiring decision?",
-        "answer": "No. KOV can research and source according to the engagement. The organization is responsible for interviews, selection and employment decisions."
-      },
-      {
-        "question": "Can KOV source a CHRO internationally?",
-        "answer": "International scope can be discussed and must be confirmed against the brief, target markets and applicable requirements."
-      }
-    ],
-    "related": [
-      { "slug": "company-services", "label": "Global Talent Sourcing for Companies" },
-      { "slug": "executive-search-support", "label": "Executive Search Support" },
-      { "slug": "healthcare-executive-search", "label": "Healthcare Executive Search" }
-    ]
-  },
-  {
-    "slug": "executive-search-saas-leaders",
-    "title": "Executive Search for SaaS Leaders | KOV",
-    "description": "Research-led talent sourcing for SaaS leadership roles, aligning the company stage, product model, leadership mandate and candidate criteria.",
-    "eyebrow": "FOR EMPLOYERS · SAAS AND SOFTWARE",
-    "heading": "Source SaaS leaders for the company you are building.",
-    "lead": "Define the stage, product context and leadership outcomes before researching executives across the market.",
-    "introduction": "KOV provides independent global talent sourcing for senior roles where the brief and research scope are a fit. A SaaS label alone does not define the experience an organization needs.",
-    "image": "assets/kov-intelligence-grid.svg",
-    "imageAlt": "Abstract KOV intelligence grid used as an illustrative technology-sector visual.",
-    "cta": "Discuss SaaS Talent Sourcing",
-    "ctaHeading": "Tell KOV what your next leader must make possible.",
-    "ctaCopy": "Share the role, company context, target markets and decision timeline. KOV can discuss research and outreach scope directly with your hiring team.",
-    "sections": [
-      {
-        "eyebrow": "DEFINE THE SAAS CONTEXT",
-        "title": "Specify the operating environment behind the role.",
-        "paragraphs": [
-          "SaaS organizations differ in product, customer, business model, company stage, ownership and operating complexity. Those details help distinguish relevant leadership experience from broad software-sector exposure.",
-          "The hiring team should agree the mandate, reporting line, resources, growth or transformation priorities and the evidence that will demonstrate success."
-        ],
-        "bullets": [
-          "Company stage and ownership context",
-          "Product, customer and go-to-market model",
-          "Leadership remit and team scope",
-          "Outcomes expected in the role"
-        ]
-      },
-      {
-        "eyebrow": "RESEARCH RELEVANT LEADERS",
-        "title": "Look for transferable experience with clear reasons.",
-        "paragraphs": [
-          "Potential talent pools may include leaders from organizations with comparable product, customer, operational or scaling challenges. KOV researches against the brief and records why a profile may be worth review.",
-          "Research does not confirm availability, interest or fit. Those questions are established through appropriate conversation and the employer's assessment process."
-        ],
-        "bullets": [
-          "Map target organizations and adjacent markets",
-          "Assess experience against role criteria",
-          "Document evidence and open questions",
-          "Use approved outreach when in scope"
-        ]
-      },
-      {
-        "eyebrow": "KEEP THE PROCESS HONEST",
-        "title": "Separate sourcing activity from hiring outcomes.",
-        "paragraphs": [
-          "KOV can support research, prioritization and outreach according to the written engagement. Your hiring team remains responsible for interview design, candidate evaluation, compliance and the final decision.",
-          "Before the search starts, the parties agree deliverables, communication and fees directly by message and in writing. No shortlist size, candidate response or hire is promised."
-        ],
-        "bullets": [
-          "Set clear scope and review points",
-          "Agree what candidate information may be shared",
-          "Keep hiring decisions with the organization",
-          "Confirm applicable legal and data requirements"
-        ]
-      }
-    ],
-    "faqs": [
-      {
-        "question": "Which SaaS functions can KOV source?",
-        "answer": "Possible roles depend on the brief and confirmed availability. The client should specify the leadership function and experience required rather than assume every SaaS role is in scope."
-      },
-      {
-        "question": "Does KOV guarantee SaaS candidates will be interested?",
-        "answer": "No. Research can identify potentially relevant profiles, but interest and availability can only be established through appropriate candidate communication."
-      }
-    ],
-    "related": [
-      { "slug": "company-services", "label": "Global Talent Sourcing for Companies" },
-      { "slug": "executive-search-support", "label": "Executive Search Support" },
-      { "slug": "reverse-recruiting-ctos", "label": "Career Representation for CTOs" }
-    ]
-  },
-  {
-    "slug": "healthcare-executive-search",
-    "title": "Healthcare Executive Search and Talent Sourcing | KOV",
-    "description": "Research-led sourcing support for healthcare leadership roles, with role-specific criteria, relevant organization mapping and agreed outreach.",
-    "eyebrow": "FOR EMPLOYERS · HEALTHCARE",
-    "heading": "Find healthcare leaders for the work ahead.",
-    "lead": "Define the organization's leadership challenge and required experience before mapping relevant healthcare talent.",
-    "introduction": "KOV can discuss independent research and sourcing for senior healthcare roles where the brief and market are a fit. Role requirements, credentials and jurisdiction-specific rules must be confirmed by the employer.",
-    "image": "assets/kov-intelligence-grid.svg",
-    "imageAlt": "Abstract KOV intelligence grid used as an illustrative healthcare-sector visual.",
-    "cta": "Discuss Healthcare Talent Sourcing",
-    "ctaHeading": "Start with the service, system or organization context.",
-    "ctaCopy": "Send KOV the role brief, operating environment and target markets. The team can discuss whether a research engagement fits your requirements.",
-    "sections": [
-      {
-        "eyebrow": "UNDERSTAND THE ROLE",
-        "title": "Healthcare leadership is shaped by the operating context.",
-        "paragraphs": [
-          "A leadership role may sit in a provider, payer, life sciences organization, health technology company, public body or another part of the healthcare ecosystem. The context changes the experience and responsibilities that matter.",
-          "The brief should distinguish operational, clinical, commercial, regulatory and transformation requirements and identify any mandatory credentials or licenses."
-        ],
-        "bullets": [
-          "Organization type and care or product context",
-          "Leadership remit and stakeholder environment",
-          "Required credentials or jurisdictional conditions",
-          "Evidence of relevant operating experience"
-        ]
-      },
-      {
-        "eyebrow": "RESEARCH WITH CRITERIA",
-        "title": "Prioritize profiles for relevance, not title similarity.",
-        "paragraphs": [
-          "KOV can map organizations and senior profiles against the agreed criteria, documenting relevant experience and questions for further assessment. Research should distinguish verified information from assumptions.",
-          "Candidate outreach, if included, follows the agreed approval and confidentiality process. The employer remains responsible for credential checks, clinical or technical evaluation and selection."
-        ],
-        "bullets": [
-          "Map relevant organizations and talent pools",
-          "Assess experience against the role brief",
-          "Document evidence and areas to verify",
-          "Respect agreed outreach and information-sharing rules"
-        ]
-      },
-      {
-        "eyebrow": "SUPPORT A RESPONSIBLE SEARCH",
-        "title": "Keep compliance and hiring decisions explicit.",
-        "paragraphs": [
-          "Healthcare hiring can involve professional, regulatory, privacy and jurisdiction-specific considerations. KOV's research support does not replace legal, compliance or credentialing advice.",
-          "Before work begins, KOV and the employer confirm scope, deliverables, fee and reporting in writing. The service does not guarantee candidate interest or a successful hire."
-        ],
-        "bullets": [
-          "Confirm requirements with qualified advisers",
-          "Agree how candidate data will be handled",
-          "Retain employer ownership of evaluation",
-          "Set realistic milestones and communication"
-        ]
-      }
-    ],
-    "faqs": [
-      {
-        "question": "Does KOV verify medical licenses or credentials?",
-        "answer": "Credential and license verification requirements should be defined by the employer and completed through appropriate qualified or official channels."
-      },
-      {
-        "question": "Can KOV source healthcare executives globally?",
-        "answer": "Potential international scope depends on the specific role, countries, regulatory considerations and KOV's confirmed availability."
-      }
-    ],
-    "related": [
-      { "slug": "company-services", "label": "Global Talent Sourcing for Companies" },
-      { "slug": "executive-search-chros", "label": "Executive Search for CHROs" },
-      { "slug": "executive-search-support", "label": "Executive Search Support" }
-    ]
-  },
-  {
-    "slug": "executive-hiring-fintech",
-    "title": "Fintech Executive Hiring and Talent Sourcing | KOV",
-    "description": "Research-led sourcing support for fintech leadership roles, based on the business model, regulatory context, leadership mandate and agreed search criteria.",
-    "eyebrow": "FOR EMPLOYERS · FINTECH",
-    "heading": "Source fintech leaders for your operating model.",
-    "lead": "Define the business, regulatory and leadership context before researching potential executives across the market.",
-    "introduction": "KOV can discuss independent talent research and sourcing for fintech organizations where the role and search scope are a fit. The label fintech covers varied business models; the brief should explain what matters for this hire.",
-    "image": "assets/kov-intelligence-grid.svg",
-    "imageAlt": "Abstract KOV intelligence grid used as an illustrative fintech-sector visual.",
-    "cta": "Discuss Fintech Talent Sourcing",
-    "ctaHeading": "Describe the mandate behind the fintech role.",
-    "ctaCopy": "Share the business model, leadership scope, relevant markets and required experience. KOV can discuss a defined research and outreach engagement.",
-    "sections": [
-      {
-        "eyebrow": "SET THE BUSINESS CONTEXT",
-        "title": "Clarify the model and stage of the organization.",
-        "paragraphs": [
-          "Fintech companies may operate across payments, lending, banking technology, wealth, insurance, infrastructure or other models. The business model and operating environment help define which leadership experience may transfer.",
-          "The search brief should state the mandate, risk and regulatory interfaces, reporting line, resources and the outcomes expected from the new leader."
-        ],
-        "bullets": [
-          "Product, customer and revenue model",
-          "Company stage and ownership context",
-          "Leadership authority and team scope",
-          "Regulatory or risk experience required"
-        ]
-      },
-      {
-        "eyebrow": "MAP TRANSFERABLE EXPERIENCE",
-        "title": "Research the capabilities, not just sector labels.",
-        "paragraphs": [
-          "Relevant leaders may have experience in fintech or adjacent financial and technology environments. KOV can compare researched profiles with the success criteria and explain the evidence supporting potential relevance.",
-          "Research is an input to the employer's assessment, not a substitute for checking credentials, regulatory suitability, references or candidate interest."
-        ],
-        "bullets": [
-          "Identify relevant companies and functions",
-          "Assess experience against agreed criteria",
-          "Record context and questions for validation",
-          "Use approved outreach where included"
-        ]
-      },
-      {
-        "eyebrow": "AGREE RESPONSIBILITIES",
-        "title": "Keep specialized reviews with the hiring organization.",
-        "paragraphs": [
-          "The employer remains responsible for regulatory due diligence, employment compliance, candidate evaluation and the hiring decision. KOV's role is research and sourcing support as defined by the engagement.",
-          "Scope, deliverables, outreach boundaries, reporting and fees are discussed directly by message and confirmed in writing before work begins. No hiring outcome is guaranteed."
-        ],
-        "bullets": [
-          "Confirm market and compliance requirements",
-          "Define how candidate information may be shared",
-          "Set review and approval milestones",
-          "Retain employer ownership of final selection"
-        ]
-      }
-    ],
-    "faqs": [
-      {
-        "question": "Can KOV source leaders with financial and technology experience?",
-        "answer": "The client should define which capabilities are essential for the mandate. KOV can discuss research against those criteria and confirm whether the requested scope is available."
-      },
-      {
-        "question": "Does talent sourcing include regulatory vetting?",
-        "answer": "Not automatically. The engagement specifies research and outreach deliverables; employers remain responsible for required regulatory, legal and credential checks."
-      }
-    ],
-    "related": [
-      { "slug": "company-services", "label": "Global Talent Sourcing for Companies" },
-      { "slug": "executive-search-support", "label": "Executive Search Support" },
-      { "slug": "reverse-recruiting-cfos", "label": "Career Representation for CFOs" }
     ]
   }
 ]

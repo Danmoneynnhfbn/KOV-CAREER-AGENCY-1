@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
   <title id="title">KOV executive intelligence network</title>
-  <desc id="desc">KOV connects professionals and companies with executives, recruiters, hiring managers, target roles, markets, research, and professional networks.</desc>
+  <desc id="desc">A conceptual candidate-career network showing professionals, target organizations, recruiters, hiring managers, roles, markets, research, and professional networks.</desc>
   <defs>
     <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
       <path d="M44 0H0V44" fill="none" stroke="#202932" stroke-width="1"/>

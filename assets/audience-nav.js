@@ -3,8 +3,7 @@
     ? '../'
     : '';
   const destinations = [
-    ['candidate-services.html', 'For Candidates'],
-    ['company-services.html', 'For Companies'],
+    ['candidate-services.html', 'Individual Career Services'],
   ];
   const desktopNav = document.querySelector('header nav:not(.site-mobile-menu-nav)');
   const mobileNav = document.querySelector('.site-mobile-menu-nav');
@@ -34,35 +33,15 @@
   addAccountLink(mobileNav);
   addAccountLink(seoMobileNav);
 
-  const modelHeading = [...document.querySelectorAll('main h2')].find(
-    (heading) => heading.textContent.trim() === 'One Agency. Two Sides of Executive Search.'
-  );
-  const modelSection = modelHeading?.closest('section');
-  const existingNetwork = modelSection?.querySelector('.kov-model-figure');
-  if (existingNetwork) existingNetwork.dataset.kovNetwork = '';
-  if (modelSection && !existingNetwork && !modelSection.querySelector('[data-kov-network]')) {
-    const bodyCopy = [...modelSection.querySelectorAll('p')].find((paragraph) =>
-      paragraph.textContent.includes('Different client.')
-    );
-    if (bodyCopy) {
-      const figure = document.createElement('figure');
-      figure.className = 'kov-art-figure kov-art-frame';
-      figure.dataset.kovNetwork = '';
-      const picture = document.createElement('picture');
-      const mobileSource = document.createElement('source');
-      mobileSource.media = '(max-width: 680px)';
-      mobileSource.srcset = `${rootPrefix}assets/kov-executive-intelligence-network-mobile.svg`;
-      const image = document.createElement('img');
-      image.src = `${rootPrefix}assets/kov-executive-intelligence-network.svg`;
-      image.alt = 'KOV connects professionals and companies with executives, recruiters, hiring managers, markets, and research';
-      image.loading = 'lazy';
-      picture.append(mobileSource, image);
-      const caption = document.createElement('figcaption');
-      caption.className = 'kov-art-caption';
-      caption.textContent = 'One search intelligence network. Two distinct practices.';
-      figure.append(picture, caption);
-      bodyCopy.after(figure);
-    }
+  for (const nav of [desktopNav, mobileNav, seoMobileNav]) {
+    nav?.querySelectorAll('a[href$="candidate-services.html"]').forEach((link) => {
+      link.textContent = 'Individual Career Services';
+    });
+    nav?.querySelectorAll('a[href$="services.html"]').forEach((link) => {
+      if (/^(services|reverse recruiting)$/i.test(link.textContent.trim())) {
+        link.textContent = 'Private Career Representation';
+      }
+    });
   }
 
   for (const [href, label] of destinations) {
@@ -94,24 +73,15 @@
     section.className = 'mt-10 border-t border-line/60 pt-8';
 
     const columns = document.createElement('div');
-    columns.className = 'grid gap-8 sm:grid-cols-2';
+    columns.className = 'grid gap-8';
     const groups = [
       {
         title: 'For Professionals',
         links: [
-          [`${rootPrefix}candidate-services.html`, 'Candidate Services'],
-          [`${rootPrefix}services.html`, 'Career Representation'],
+          [`${rootPrefix}candidate-services.html`, 'Individual Career Services'],
+          [`${rootPrefix}services.html`, 'Private Career Representation'],
           [`${rootPrefix}how-it-works.html`, 'How It Works'],
           [`${rootPrefix}pricing.html`, 'Pricing'],
-        ],
-      },
-      {
-        title: 'For Companies',
-        links: [
-          [`${rootPrefix}global-talent-sourcer.html`, 'Global Talent Sourcing'],
-          [`${rootPrefix}company-services.html`, 'Company Services'],
-          [`${rootPrefix}how-it-works.html`, 'How It Works'],
-          [`${rootPrefix}contact.html`, 'Contact'],
         ],
       },
     ];
@@ -141,7 +111,7 @@
     const whyLink = document.createElement('a');
     whyLink.href = `${rootPrefix}why-kov.html`;
     whyLink.className = 'mt-6 inline-block text-[13px] font-medium text-ink underline underline-offset-4 hover:text-orange';
-    whyLink.textContent = 'Why KOV: Two Practices. One Founder.';
+    whyLink.textContent = 'Why KOV';
     section.append(columns, whyLink);
     const footerNote = footerContainer.lastElementChild;
     const pageCatalog = footerContainer.querySelector(':scope > [data-kov-footer-categories]');
@@ -161,7 +131,6 @@
     const audience = footerContainer.querySelector(':scope > [data-audience-footer]');
     const audienceGroups = audience?.querySelector('.grid')?.children;
     const professionals = audienceGroups?.[0] || null;
-    const company = audienceGroups?.[1] || null;
     const categoryNav = footerContainer.querySelector(':scope > [data-kov-footer-categories]');
     const legal = [...footerContainer.children].find((element) =>
       element.matches('.kov-legal') || element.textContent.includes('©')
@@ -195,7 +164,6 @@
       ['explore', explore],
       ['professionals', professionals],
       ['inquiry', inquiry],
-      ['company', company],
       ['pages', categoryNav],
     ];
     for (const [kind, content] of columns) {
@@ -235,13 +203,9 @@
         link.href = 'mailto:daniel@kovcareeragency.org';
         link.textContent = 'daniel@kovcareeragency.org';
         column.append(heading, link);
-        const companyColumn = directory.querySelector('.kov-footer-directory-company');
-        directory.insertBefore(column, companyColumn || directory.children[2] || null);
+        directory.insertBefore(column, directory.children[2] || null);
       }
     }
-
-    const companyHeading = directory.querySelector('.kov-footer-directory-company p');
-    if (companyHeading) companyHeading.textContent = 'For Company';
 
     const brandRow = document.createElement('div');
     brandRow.className = 'kov-footer-brand-row';

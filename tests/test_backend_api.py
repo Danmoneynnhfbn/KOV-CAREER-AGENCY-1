@@ -124,12 +124,12 @@ class BackendApiTests(unittest.TestCase):
             "database_configured": False,
         })
 
-    def test_subscription_checkout_uses_server_price_and_idempotency_key(self) -> None:
-        profile_query = _query({"id": "candidate-uuid"})
+    def test_employer_subscription_checkout_uses_server_price_and_idempotency_key(self) -> None:
+        membership_query = _query([{"employer_id": "employer-uuid"}])
         subscriptions_query = _query([])
         plan_query = _query({
-            "audience": "candidate",
-            "amount_minor": 50000,
+            "audience": "employer",
+            "amount_minor": 15000,
             "currency": "USD",
             "interval_unit": "month",
             "active": True,
@@ -143,7 +143,7 @@ class BackendApiTests(unittest.TestCase):
         subscription_save_query = _query({"id": "subscription-reservation-uuid"})
         service = Mock()
         service.table.side_effect = [
-            profile_query,
+            membership_query,
             subscriptions_query,
             plan_query,
             subscription_save_query,
@@ -157,14 +157,14 @@ class BackendApiTests(unittest.TestCase):
                 {
                     "STRIPE_BILLING_ENABLED": "true",
                     "STRIPE_SECRET_KEY": "sk_test_placeholder",
-                    "STRIPE_CANDIDATE_PREMIUM_PRICE_ID": "price_candidate",
+                    "STRIPE_EMPLOYER_MONTHLY_PRICE_ID": "price_employer",
                 },
             ),
             patch.object(
                 backend_api,
                 "_require_identity",
                 return_value=backend_api.Identity(
-                    user_id="candidate-user", email="candidate@example.com", role="candidate"
+                    user_id="employer-user", email="employer@example.com", role="employer"
                 ),
             ),
             patch.object(backend_api, "_service_client", return_value=service),
@@ -178,7 +178,7 @@ class BackendApiTests(unittest.TestCase):
             response = self.client.post(
                 "/api/v1/billing/subscription/checkout",
                 headers={"Origin": "http://testserver"},
-                json={"plan_key": "candidate-premium-monthly"},
+                json={"plan_key": "employer-monthly"},
             )
 
         self.assertEqual(response.status_code, 200)
@@ -191,20 +191,20 @@ class BackendApiTests(unittest.TestCase):
         )
         params, idempotency_key = create_checkout.call_args.args
         self.assertEqual(idempotency_key, "kov-subscription-subscription-reservation-uuid")
-        self.assertEqual(params["line_items"], [{"price": "price_candidate", "quantity": 1}])
+        self.assertEqual(params["line_items"], [{"price": "price_employer", "quantity": 1}])
         self.assertEqual(
-            params["subscription_data"]["metadata"]["candidate_id"],
-            "candidate-uuid",
+            params["subscription_data"]["metadata"]["employer_id"],
+            "employer-uuid",
         )
         service.rpc.assert_called_once_with(
             "reserve_stripe_subscription_checkout",
             {
-                "p_plan_key": "candidate-premium-monthly",
-                "p_candidate_id": "candidate-uuid",
-                "p_employer_id": None,
+                "p_plan_key": "employer-monthly",
+                "p_candidate_id": None,
+                "p_employer_id": "employer-uuid",
             },
         )
-        verify_price.assert_called_once_with("price_candidate", plan_query.execute.return_value.data)
+        verify_price.assert_called_once_with("price_employer", plan_query.execute.return_value.data)
 
     def test_subscription_checkout_stays_disabled_without_explicit_enable_flag(self) -> None:
         with (
@@ -214,28 +214,39 @@ class BackendApiTests(unittest.TestCase):
             response = self.client.post(
                 "/api/v1/billing/subscription/checkout",
                 headers={"Origin": "http://testserver"},
-                json={"plan_key": "candidate-premium-monthly"},
+                json={"plan_key": "employer-monthly"},
             )
 
         self.assertEqual(response.status_code, 503)
         require_identity.assert_not_called()
 
+    def test_candidate_subscription_checkout_plan_is_rejected(self) -> None:
+        with patch.object(backend_api, "_require_identity") as require_identity:
+            response = self.client.post(
+                "/api/v1/billing/subscription/checkout",
+                headers={"Origin": "http://testserver"},
+                json={"plan_key": "candidate-premium-monthly"},
+            )
+
+        self.assertEqual(response.status_code, 422)
+        require_identity.assert_not_called()
+
     def test_pending_subscription_checkout_reuses_existing_stripe_session(self) -> None:
-        profile = _query({"id": "candidate-uuid"})
+        memberships = _query([{"employer_id": "employer-uuid"}])
         pending = _query([{
             "id": "subscription-uuid",
             "status": "pending",
             "provider_checkout_session_id": "cs_pending_123",
         }])
         plan = _query({
-            "audience": "candidate",
-            "amount_minor": 50000,
+            "audience": "employer",
+            "amount_minor": 15000,
             "currency": "USD",
             "interval_unit": "month",
             "active": True,
         })
         service = Mock()
-        service.table.side_effect = [profile, pending, plan]
+        service.table.side_effect = [memberships, pending, plan]
         checkout = SimpleNamespace(
             status="open",
             url="https://checkout.stripe.test/pending",
@@ -252,7 +263,7 @@ class BackendApiTests(unittest.TestCase):
                 backend_api,
                 "_require_identity",
                 return_value=backend_api.Identity(
-                    user_id="candidate-user", email="candidate@example.com", role="candidate"
+                    user_id="employer-user", email="employer@example.com", role="employer"
                 ),
             ),
             patch.object(backend_api, "_service_client", return_value=service),
@@ -266,7 +277,7 @@ class BackendApiTests(unittest.TestCase):
             response = self.client.post(
                 "/api/v1/billing/subscription/checkout",
                 headers={"Origin": "http://testserver"},
-                json={"plan_key": "candidate-premium-monthly"},
+                json={"plan_key": "employer-monthly"},
             )
 
         self.assertEqual(response.status_code, 200)
@@ -595,75 +606,11 @@ class BackendApiTests(unittest.TestCase):
         )
         self.assertEqual(response.status_code, 403)
 
-    def test_auth_mutation_requires_same_origin(self) -> None:
+    def test_candidate_registration_endpoint_is_removed(self) -> None:
         response = self.client.post(
             "/api/v1/auth/register/candidate",
-            json={
-                "email": "candidate@example.com",
-                "password": "a-long-enough-password",
-                "legal_name": "Candidate Example",
-                "professional_title": "Executive",
-                "privacy_consent": True,
-            },
         )
-        self.assertEqual(response.status_code, 403)
-
-    def test_candidate_provisioning_uses_one_transactional_rpc(self) -> None:
-        data = backend_api.CandidateRegistration(
-            email="candidate@example.com",
-            password="a-long-enough-password",
-            legal_name=" Candidate Example ",
-            professional_title=" Executive ",
-            privacy_consent=True,
-        )
-        query = Mock()
-        query.execute.return_value = SimpleNamespace(
-            data=[{"candidate_id": "candidate-uuid", "public_id": "KOV-C-00001"}]
-        )
-        service = Mock()
-        service.rpc.return_value = query
-
-        result = backend_api._provision_candidate(service, "user-uuid", data)
-
-        self.assertEqual(
-            result, {"id": "candidate-uuid", "public_id": "KOV-C-00001"}
-        )
-        service.rpc.assert_called_once_with(
-            "provision_candidate_account",
-            {
-                "p_user_id": "user-uuid",
-                "p_legal_name": "Candidate Example",
-                "p_email": "candidate@example.com",
-                "p_professional_title": "Executive",
-                "p_professional_summary": "",
-                "p_skills": [],
-                "p_years_experience": None,
-                "p_target_roles": [],
-                "p_target_seniority": None,
-                "p_target_industries": [],
-                "p_target_geography": [],
-                "p_location_region": None,
-                "p_career_objectives": None,
-                "p_privacy_acknowledged": True,
-            },
-        )
-
-    def test_candidate_provisioning_rejects_empty_rpc_result(self) -> None:
-        data = backend_api.CandidateRegistration(
-            email="candidate@example.com",
-            password="a-long-enough-password",
-            legal_name="Candidate Example",
-            professional_title="Executive",
-            privacy_consent=True,
-        )
-        query = Mock()
-        query.execute.return_value = SimpleNamespace(data=[])
-        service = Mock()
-        service.rpc.return_value = query
-
-        with self.assertRaises(backend_api.HTTPException) as error:
-            backend_api._provision_candidate(service, "user-uuid", data)
-        self.assertEqual(error.exception.status_code, 502)
+        self.assertEqual(response.status_code, 405)
 
     def test_employer_registration_requires_a_corporate_email_domain(self) -> None:
         for email in ("person@gmail.com", "person@yahoo.com", "person@outlook.com"):
@@ -1256,8 +1203,11 @@ class BackendApiTests(unittest.TestCase):
         self.assertIn('id="billing-panel"', account)
         self.assertIn("/api/v1/employer/invoices", account)
         self.assertIn("window.kovApiJsonRequest", account)
-        self.assertEqual(account.count('name="privacy_consent" type="checkbox" required'), 2)
-        self.assertEqual(account.count('href="/privacy.html"'), 3)
+        self.assertEqual(account.count('name="privacy_consent" type="checkbox" required'), 1)
+        self.assertEqual(account.count('href="/privacy.html"'), 2)
+        self.assertIn('id="employer-panel"', account)
+        self.assertNotIn('id="candidate-panel"', account)
+        self.assertNotIn('/api/v1/auth/register/candidate', account)
         self.assertIn("30 consecutive days without activity", privacy)
         self.assertIn("daniel@kovcareeragency.org", privacy)
         self.assertIn('href="/privacy.html"', homepage)

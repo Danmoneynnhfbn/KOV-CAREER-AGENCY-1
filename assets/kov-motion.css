@@ -1,0 +1,503 @@
+:root {
+  --kov-motion-ease: cubic-bezier(0.2, 0.72, 0.24, 1);
+  --kov-motion-fast: 520ms;
+  --kov-motion-medium: 820ms;
+  --kov-motion-slow: 1120ms;
+  --kov-motion-distance: 24px;
+}
+
+.kov-motion-band {
+  --kov-motion-ink: #111820;
+  position: relative;
+  display: grid;
+  gap: 4px;
+  overflow: hidden;
+  padding: 17px 0 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  background:
+    radial-gradient(ellipse at 80% 50%, rgba(201, 107, 60, 0.18), transparent 32%),
+    var(--kov-motion-ink);
+  color: #fbfaf7;
+}
+
+.kov-motion-band .kov-motion-overline {
+  position: relative;
+  z-index: 1;
+  width: min(1240px, calc(100% - 48px));
+  margin: 0 auto 2px;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  color: #f1a27b !important;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+}
+
+.kov-motion-band .kov-motion-set {
+  display: flex;
+  grid-template-columns: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin: 0;
+  background: transparent;
+  box-shadow: none;
+  list-style: none;
+}
+
+.kov-motion-band .kov-motion-set li {
+  display: block;
+  padding-top: 0;
+  padding-bottom: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent !important;
+  box-shadow: none;
+  color: inherit;
+}
+
+.kov-motion-sr-list {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.kov-motion-track {
+  width: 100%;
+  overflow: hidden;
+}
+
+.kov-motion-runner {
+  display: flex;
+  width: max-content;
+  animation: kov-motion-marquee 32s linear infinite;
+  will-change: transform;
+}
+
+.kov-motion-track-reverse .kov-motion-runner {
+  animation-duration: 46s;
+  animation-direction: reverse;
+}
+
+.kov-motion-set {
+  display: flex;
+  width: max-content;
+  min-width: 100vw;
+  align-items: center;
+  justify-content: space-around;
+  gap: clamp(22px, 4.2vw, 64px);
+  padding: 7px max(24px, 4vw);
+  margin: 0;
+  list-style: none;
+}
+
+.kov-motion-band .kov-motion-runner-services .kov-motion-set {
+  color: #fbfaf7 !important;
+  font-family: Fraunces, Georgia, serif;
+  font-size: clamp(1.12rem, 2.2vw, 1.8rem);
+  font-style: italic;
+  letter-spacing: -0.025em;
+}
+
+.kov-motion-band .kov-motion-runner-services .kov-motion-set li {
+  position: relative;
+  flex: 0 0 auto;
+  padding-right: clamp(20px, 3vw, 42px);
+  color: #fbfaf7 !important;
+  white-space: nowrap;
+}
+
+.kov-motion-runner-services .kov-motion-set li::after {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #e57643;
+  content: "";
+  transform: translateY(-50%);
+}
+
+.kov-motion-runner-principles {
+  opacity: 0.74;
+}
+
+.kov-motion-band .kov-motion-runner-principles .kov-motion-set {
+  min-width: 100vw;
+  justify-content: space-between;
+  color: #f2cbb9 !important;
+  font-size: clamp(0.62rem, 1vw, 0.77rem);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.kov-motion-band .kov-motion-runner-principles .kov-motion-set li {
+  flex: 0 0 auto;
+  color: #f2cbb9 !important;
+  white-space: nowrap;
+}
+
+.kov-motion-band:hover .kov-motion-runner,
+.kov-motion-band:focus-within .kov-motion-runner {
+  animation-play-state: paused;
+}
+
+.kov-motion-band-injected {
+  margin: 0;
+}
+
+.kov-home-motion main > section:first-child h1 {
+  animation: kov-title-arrive 900ms var(--kov-motion-ease) both;
+}
+
+.kov-home-motion main > section:first-child h1 svg path {
+  stroke-dasharray: 260;
+  stroke-dashoffset: 260;
+  animation: kov-underline-draw 880ms 480ms var(--kov-motion-ease) forwards;
+}
+
+.kov-home-motion main > section:first-child img[alt="Confident senior executive in a sharp portrait"] {
+  animation: kov-photo-reveal 1050ms 160ms var(--kov-motion-ease) both;
+}
+
+.kov-home-motion main > section:first-child .absolute.-bottom-6 {
+  animation: kov-card-arrive 720ms 520ms var(--kov-motion-ease) both;
+}
+
+.kov-motion-ready .seo-landing-page .kov-hero-copy {
+  animation: kov-title-arrive 780ms var(--kov-motion-ease) both;
+}
+
+.kov-motion-ready .seo-landing-page .kov-hero-aside {
+  animation: kov-card-arrive 900ms 120ms var(--kov-motion-ease) both;
+}
+
+.service-visual.is-motion-visible .service-visual-copy {
+  animation: kov-copy-arrive 720ms var(--kov-motion-ease) both;
+}
+
+.service-resume .service-visual.is-motion-visible .resume-art {
+  animation: kov-document-arrive 960ms 90ms var(--kov-motion-ease) both;
+}
+
+.service-resume .service-visual.is-motion-visible .resume-sheet {
+  animation: kov-sheet-arrive 720ms 280ms var(--kov-motion-ease) both;
+}
+
+.service-resume .service-visual.is-motion-visible .resume-main-column > *,
+.service-resume .service-visual.is-motion-visible .resume-side-column > * {
+  animation: kov-line-reveal 480ms var(--kov-motion-ease) both;
+}
+
+.service-resume .service-visual.is-motion-visible .resume-main-column > :nth-child(2),
+.service-resume .service-visual.is-motion-visible .resume-side-column > :nth-child(2) { animation-delay: 390ms; }
+.service-resume .service-visual.is-motion-visible .resume-main-column > :nth-child(3),
+.service-resume .service-visual.is-motion-visible .resume-side-column > :nth-child(3) { animation-delay: 450ms; }
+.service-resume .service-visual.is-motion-visible .resume-main-column > :nth-child(4),
+.service-resume .service-visual.is-motion-visible .resume-side-column > :nth-child(4) { animation-delay: 510ms; }
+.service-resume .service-visual.is-motion-visible .resume-main-column > :nth-child(5),
+.service-resume .service-visual.is-motion-visible .resume-side-column > :nth-child(5) { animation-delay: 570ms; }
+.service-resume .service-visual.is-motion-visible .resume-main-column > :nth-child(6),
+.service-resume .service-visual.is-motion-visible .resume-side-column > :nth-child(6) { animation-delay: 630ms; }
+.service-resume .service-visual.is-motion-visible .resume-main-column > :nth-child(7),
+.service-resume .service-visual.is-motion-visible .resume-side-column > :nth-child(7) { animation-delay: 690ms; }
+.service-resume .service-visual.is-motion-visible .resume-main-column > :nth-child(8) { animation-delay: 750ms; }
+.service-resume .service-visual.is-motion-visible .resume-main-column > :nth-child(9) { animation-delay: 810ms; }
+
+.service-resume .service-visual.is-motion-visible .resume-principles span {
+  animation: kov-chip-arrive 560ms var(--kov-motion-ease) both;
+}
+
+.service-resume .service-visual.is-motion-visible .resume-principles span:nth-child(2) { animation-delay: 140ms; }
+.service-resume .service-visual.is-motion-visible .resume-principles span:nth-child(3) { animation-delay: 260ms; }
+
+.service-linkedin .service-visual.is-motion-visible .linkedin-art {
+  animation: kov-profile-arrive 900ms var(--kov-motion-ease) both;
+}
+
+.service-linkedin .service-visual.is-motion-visible .linkedin-banner i {
+  animation: kov-profile-ring 1500ms 300ms var(--kov-motion-ease) both;
+}
+
+.service-linkedin .service-visual.is-motion-visible .linkedin-avatar {
+  animation: kov-avatar-arrive 620ms 380ms var(--kov-motion-ease) both;
+}
+
+.service-linkedin .service-visual.is-motion-visible .linkedin-profile-grid > div {
+  animation: kov-copy-arrive 560ms var(--kov-motion-ease) both;
+}
+
+.service-linkedin .service-visual.is-motion-visible .linkedin-profile-grid > div:nth-child(2) { animation-delay: 130ms; }
+.service-linkedin .service-visual.is-motion-visible .linkedin-profile-grid > div:nth-child(3) { animation-delay: 260ms; }
+
+.service-documents .service-visual.is-motion-visible .document-set article {
+  animation: kov-card-arrive 640ms var(--kov-motion-ease) both;
+}
+
+.service-documents .service-visual.is-motion-visible .document-set article:nth-child(2) { animation-delay: 140ms; }
+.service-documents .service-visual.is-motion-visible .document-set article:nth-child(3) { animation-delay: 280ms; }
+
+.service-portfolio .service-visual.is-motion-visible .portfolio-board {
+  animation: kov-board-arrive 800ms var(--kov-motion-ease) both;
+}
+
+.service-portfolio .service-visual.is-motion-visible .portfolio-tiles article {
+  animation: kov-tile-arrive 600ms var(--kov-motion-ease) both;
+}
+
+.service-portfolio .service-visual.is-motion-visible .portfolio-tiles article:nth-child(2) { animation-delay: 130ms; }
+.service-portfolio .service-visual.is-motion-visible .portfolio-tiles article:nth-child(3) { animation-delay: 240ms; }
+
+.service-website .service-visual.is-motion-visible .website-art {
+  animation: kov-profile-arrive 900ms var(--kov-motion-ease) both;
+}
+
+.service-website .service-visual.is-motion-visible .website-layout nav > *,
+.service-website .service-visual.is-motion-visible .website-preview-main > * {
+  animation: kov-copy-arrive 520ms var(--kov-motion-ease) both;
+}
+
+.service-website .service-visual.is-motion-visible .website-preview-blocks span {
+  animation: kov-chip-arrive 520ms var(--kov-motion-ease) both;
+}
+
+.service-website .service-visual.is-motion-visible .website-preview-blocks span:nth-child(2) { animation-delay: 130ms; }
+.service-website .service-visual.is-motion-visible .website-preview-blocks span:nth-child(3) { animation-delay: 260ms; }
+
+.service-positioning .service-visual.is-motion-visible .positioning-node {
+  animation: kov-node-arrive 680ms var(--kov-motion-ease) both;
+}
+
+.service-positioning .service-visual.is-motion-visible .positioning-node:nth-child(3) { animation-delay: 160ms; }
+.service-positioning .service-visual.is-motion-visible .positioning-node:nth-child(5) { animation-delay: 320ms; }
+
+.service-positioning .service-visual.is-motion-visible .positioning-map > b {
+  animation: kov-arrow-arrive 460ms var(--kov-motion-ease) both;
+}
+
+.service-positioning .service-visual.is-motion-visible .positioning-outcome {
+  animation: kov-chip-arrive 620ms 480ms var(--kov-motion-ease) both;
+}
+
+.service-coaching .service-visual.is-motion-visible .coaching-journey article {
+  animation: kov-node-arrive 680ms var(--kov-motion-ease) both;
+}
+
+.service-coaching .service-visual.is-motion-visible .coaching-journey article:nth-of-type(2) { animation-delay: 170ms; }
+.service-coaching .service-visual.is-motion-visible .coaching-journey article:nth-of-type(3) { animation-delay: 340ms; }
+
+.service-coaching .service-visual.is-motion-visible .coaching-journey > i {
+  animation: kov-arrow-arrive 460ms 220ms var(--kov-motion-ease) both;
+}
+
+.service-coaching .service-visual.is-motion-visible .coaching-journey > i:nth-of-type(2) { animation-delay: 390ms; }
+
+.kov-service-fit-route {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin: 24px 0;
+}
+
+.kov-service-fit-route > span {
+  display: flex;
+  min-height: 48px;
+  align-items: center;
+  gap: 9px;
+  padding: 9px 11px;
+  border: 1px solid rgba(17, 24, 32, 0.12);
+  background: rgba(255, 255, 255, 0.54);
+  color: #56616b;
+  font-size: 0.71rem;
+  transition: border-color 220ms ease, background 220ms ease, color 220ms ease, transform 220ms ease;
+}
+
+.kov-service-fit-route > span i {
+  color: #a65331;
+  font-size: 0.59rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.kov-service-fit-route[data-active-service="resume"] [data-service-step="resume"],
+.kov-service-fit-route[data-active-service="linkedin"] [data-service-step="linkedin"],
+.kov-service-fit-route[data-active-service="document"] [data-service-step="document"],
+.kov-service-fit-route[data-active-service="portfolio"] [data-service-step="portfolio"],
+.kov-service-fit-route[data-active-service="website"] [data-service-step="website"],
+.kov-service-fit-route[data-active-service="positioning"] [data-service-step="positioning"],
+.kov-service-fit-route[data-active-service="coaching"] [data-service-step="coaching"],
+.kov-service-fit-route[data-active-service="representation"] [data-service-step="representation"] {
+  transform: translateY(-2px);
+  border-color: #c96b3c;
+  background: #111820;
+  color: #fff;
+}
+
+.kov-service-fit-route[data-active-service="resume"] [data-service-step="resume"] i,
+.kov-service-fit-route[data-active-service="linkedin"] [data-service-step="linkedin"] i,
+.kov-service-fit-route[data-active-service="document"] [data-service-step="document"] i,
+.kov-service-fit-route[data-active-service="portfolio"] [data-service-step="portfolio"] i,
+.kov-service-fit-route[data-active-service="website"] [data-service-step="website"] i,
+.kov-service-fit-route[data-active-service="positioning"] [data-service-step="positioning"] i,
+.kov-service-fit-route[data-active-service="coaching"] [data-service-step="coaching"] i,
+.kov-service-fit-route[data-active-service="representation"] [data-service-step="representation"] i {
+  color: #f1a27b;
+}
+
+.kov-service-fit-result {
+  display: grid;
+  gap: 7px;
+  padding: 18px 20px;
+  border-left: 3px solid #c96b3c;
+  background: rgba(17, 24, 32, 0.055);
+  animation: kov-copy-arrive 360ms var(--kov-motion-ease) both;
+}
+
+.service-fit-result[hidden] { display: none; }
+.service-fit-result .kov-service-fit-kicker { color: #a65331; font-size: 0.63rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+.service-fit-result .kov-service-fit-summary { color: #39434a; font-size: 0.88rem; }
+.service-fit-result a { width: fit-content; font-weight: 700; }
+
+.seo-landing-page .kov-service-card.is-recommended {
+  transform: translateY(-3px);
+  border-color: #c96b3c;
+  box-shadow: 0 20px 42px rgba(17, 24, 32, 0.12), 0 0 0 2px rgba(201, 107, 60, 0.14);
+}
+
+.kov-header .kov-nav a:not(.kov-nav-cta),
+.kov-footer nav a {
+  transition: color 180ms ease, transform 180ms ease;
+}
+
+.kov-footer nav a:hover {
+  transform: translateX(3px);
+}
+
+@keyframes kov-motion-marquee {
+  to { transform: translate3d(-50%, 0, 0); }
+}
+
+@keyframes kov-title-arrive {
+  from { opacity: 0; transform: translate3d(0, 22px, 0); clip-path: inset(0 0 12% 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); clip-path: inset(0); }
+}
+
+@keyframes kov-underline-draw {
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes kov-photo-reveal {
+  from { clip-path: inset(0 0 100% 0); transform: scale(1.025); }
+  to { clip-path: inset(0); transform: scale(1); }
+}
+
+@keyframes kov-card-arrive {
+  from { opacity: 0; transform: translate3d(0, 20px, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+@keyframes kov-copy-arrive {
+  from { opacity: 0; transform: translate3d(0, 14px, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+@keyframes kov-document-arrive {
+  from { opacity: 0.7; transform: translate3d(34px, 24px, 0) rotate(3deg); }
+  to { opacity: 1; transform: translate3d(0, 0, 0) rotate(1deg); }
+}
+
+@keyframes kov-sheet-arrive {
+  from { opacity: 0.65; transform: translate3d(12px, 20px, 0) scale(0.985); }
+  to { opacity: 1; transform: translate3d(0, 0, 0) scale(1); }
+}
+
+@keyframes kov-line-reveal {
+  from { opacity: 0.5; clip-path: inset(0 100% 0 0); }
+  to { opacity: 1; clip-path: inset(0); }
+}
+
+@keyframes kov-chip-arrive {
+  from { opacity: 0.6; transform: translate3d(0, 12px, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+@keyframes kov-profile-arrive {
+  from { opacity: 0.75; transform: translate3d(0, 20px, 0) scale(0.985); }
+  to { opacity: 1; transform: translate3d(0, 0, 0) scale(1); }
+}
+
+@keyframes kov-profile-ring {
+  from { opacity: 0.35; transform: scale(0.88); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes kov-avatar-arrive {
+  from { opacity: 0.65; transform: translate3d(0, 12px, 0) scale(0.85); }
+  to { opacity: 1; transform: translate3d(0, 0, 0) scale(1); }
+}
+
+@keyframes kov-board-arrive {
+  from { opacity: 0.7; transform: translate3d(0, 18px, 0) rotate(-1deg); }
+  to { opacity: 1; transform: translate3d(0, 0, 0) rotate(0); }
+}
+
+@keyframes kov-tile-arrive {
+  from { opacity: 0.65; transform: translate3d(0, 18px, 0) scale(0.98); }
+  to { opacity: 1; transform: translate3d(0, 0, 0) scale(1); }
+}
+
+@keyframes kov-node-arrive {
+  from { opacity: 0.65; transform: translate3d(0, 20px, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+@keyframes kov-arrow-arrive {
+  from { opacity: 0.4; transform: translate3d(-7px, 0, 0) scale(0.92); }
+  to { opacity: 1; transform: translate3d(0, 0, 0) scale(1); }
+}
+
+@media (max-width: 760px) {
+  .kov-motion-band { gap: 2px; padding: 14px 0; }
+  .kov-motion-overline { width: calc(100% - 36px); font-size: 8px; }
+  .kov-motion-runner-services .kov-motion-set { min-width: 100vw; gap: 22px; padding-inline: 18px; }
+  .kov-motion-runner-principles .kov-motion-set { gap: 24px; padding-inline: 18px; }
+  .kov-service-fit-route { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 420px) {
+  .kov-motion-runner-services .kov-motion-set { font-size: 1.03rem; }
+  .kov-service-fit-route > span { gap: 7px; padding: 8px; font-size: 0.65rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kov-motion-band { gap: 0; }
+  .kov-motion-track { display: none; }
+  .kov-motion-track:first-of-type { display: block; }
+  .kov-motion-runner { width: 100%; animation: none !important; transform: none !important; will-change: auto; }
+  .kov-motion-set { width: 100%; min-width: 0; flex-wrap: wrap; justify-content: flex-start; gap: 8px 18px; padding: 8px max(18px, 3vw); }
+  .kov-motion-set[aria-hidden="true"] { display: none; }
+  .kov-motion-runner-services .kov-motion-set { font-size: 1rem; }
+  .kov-motion-runner-services .kov-motion-set li { padding-right: 14px; }
+  .kov-home-motion main > section:first-child h1,
+  .kov-home-motion main > section:first-child h1 svg path,
+  .kov-home-motion main > section:first-child img[alt="Confident senior executive in a sharp portrait"],
+  .kov-home-motion main > section:first-child .absolute.-bottom-6,
+  .kov-motion-ready .seo-landing-page .kov-hero-copy,
+  .kov-motion-ready .seo-landing-page .kov-hero-aside,
+  .service-visual.is-motion-visible *,
+  .service-fit-result {
+    animation: none !important;
+    clip-path: none !important;
+    transition-duration: 0.01ms !important;
+  }
+  .kov-service-fit-route > span { transform: none !important; }
+}

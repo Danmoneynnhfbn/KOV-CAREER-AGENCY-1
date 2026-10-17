@@ -2312,12 +2312,12 @@ header {
   isolation: isolate;
 }
 
-main > section:not(.bg-ink):not(.kov-section-dark):not(.bg-orange):not(.bg-\[\#1e3a8a\]) {
+main > section:not(.bg-ink):not(.kov-section-dark):not(.bg-orange):not(.bg-\[\#1e3a8a\]):not(.service-visual) {
   background: linear-gradient(180deg, rgba(255,255,255,0.26), rgba(244,238,232,0.96));
   border-top: 1px solid rgba(16,21,26,0.08);
 }
 
-main > section:not(.bg-ink):not(.kov-section-dark):not(.bg-orange)::before {
+main > section:not(.bg-ink):not(.kov-section-dark):not(.bg-orange):not(.service-visual)::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -2438,7 +2438,7 @@ main > section a[href]:hover {
     opacity: 0.45;
   }
 
-  main > section:not(.bg-ink)::before {
+  main > section:not(.bg-ink):not(.service-visual)::before {
     opacity: 0.86;
   }
 }
@@ -2640,7 +2640,6 @@ body:has(a[aria-current="page"][href="index.html"]) main > section:first-child h
   color: #f15a24 !important;
 }
 
-body:has(a[aria-current="page"][href="global-talent-sourcer.html"]) main > section:first-child,
 body:has(a[aria-current="page"][href="about.html"]) main > section:first-child,
 body:has(a[aria-current="page"][href="pricing.html"]) main > section:first-child,
 body:has(a[aria-current="page"][href="contact.html"]) main > section:first-child {
@@ -2658,12 +2657,6 @@ body:has(a[aria-current="page"][href="how-it-works.html"]) main > section:first-
 
 body:not(:has(.two-sided-page)):has(a[aria-current="page"][href="faqs.html"]) main > section:first-child {
   background-image: url("kov-editorial-grid.svg") !important;
-  background-position: center;
-  background-size: cover;
-}
-
-body:has(a[aria-current="page"][href="global-talent-sourcer.html"]) main .bg-ink {
-  background-image: url("kov-global-grid.svg") !important;
   background-position: center;
   background-size: cover;
 }

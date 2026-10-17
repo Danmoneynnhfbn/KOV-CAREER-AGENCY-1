@@ -11,7 +11,7 @@ from xml.etree import ElementTree
 
 BASE_URL = "https://kovcareeragency.org"
 SITEMAP_NAMESPACE = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-SERVICE_CATEGORIES = {"services", "markets", "roles", "industries"}
+SERVICE_CATEGORIES = {"services", "markets", "roles"}
 
 
 def text_from_html(value: str) -> str:
@@ -85,8 +85,6 @@ def is_service_page(relative_path: str) -> bool:
         return True
     return relative_path in {
         "candidate-services.html",
-        "company-services.html",
-        "global-talent-sourcer.html",
     }
 
 
@@ -134,7 +132,7 @@ def page_schema(
 
     graph: list[dict] = [
         {
-            "@type": ["Organization", "ProfessionalService", "EmploymentAgency"],
+            "@type": ["Organization", "ProfessionalService"],
             "@id": f"{BASE_URL}/#organization",
             "name": "KOV Career Agency",
             "alternateName": ["KOV Career", "KovCareer"],
@@ -143,9 +141,9 @@ def page_schema(
             "image": f"{BASE_URL}/preview.png",
             "email": "daniel@kovcareeragency.org",
             "description": (
-                "Founder-led career agency offering private career representation "
-                "for senior professionals and independent executive talent sourcing "
-                "for companies. Engagement scope is agreed directly."
+                "Founder-led career agency providing career representation and "
+                "individual career services for professionals. Engagement scope "
+                "is agreed directly."
             ),
             "founder": {"@id": f"{BASE_URL}/#founder"},
         },
