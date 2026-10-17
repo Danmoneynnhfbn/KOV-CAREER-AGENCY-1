@@ -293,12 +293,8 @@
 
     let posts;
     try {
-      const staticReviewIds = new Set(
-        Array.from(document.querySelectorAll('#candidate-review-list [data-review-id]'))
-          .map((article) => article.getAttribute('data-review-id')),
-      );
       posts = getVisiblePosts(await readPosts())
-        .filter((post) => !staticReviewIds.has(post.id));
+        .filter((post) => !/candidate-submitted review/i.test(post.content));
     } catch (error) {
       root.innerHTML = `<div class="empty-state"><h2>Unable to load blog posts</h2><p>${escapeHtml(error.message)}</p></div>`;
       return;
@@ -311,12 +307,10 @@
 
     root.innerHTML = posts
       .map((post) => {
-        const isCandidateReview = post.content.includes('Anonymous candidate-submitted review');
         return `
-        <article class="blog-post${isCandidateReview ? ' blog-review-post' : ''}">
+        <article class="blog-post">
           ${post.image ? `<img src="${post.image}" alt="${escapeHtml(post.title)}" class="blog-image" />` : ''}
           ${post.video ? `<div class="blog-video-wrap"><video class="blog-video" controls playsinline preload="metadata" src="${escapeHtml(post.video)}">${post.subtitles ? `<track kind="subtitles" src="${escapeHtml(post.subtitles)}" srclang="${escapeHtml(post.subtitleLanguage)}" label="${escapeHtml(post.subtitleLabel)}" default />` : ''}</video><button type="button" class="blog-video-mute" data-video-mute aria-pressed="false">Mute</button></div>` : ''}
-          ${isCandidateReview ? '<div class="review-card-banner"><span class="review-card-stars" role="img" aria-label="5 out of 5 stars">★★★★★</span><span class="review-card-label">Candidate-submitted · Published anonymously by KOV</span></div>' : ''}
           <div class="blog-copy">
             <p class="meta">Published ${formatDate(post.publishedAt)}</p>
             <h2>${escapeHtml(post.title)}</h2>

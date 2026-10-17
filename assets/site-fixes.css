@@ -2312,12 +2312,12 @@ header {
   isolation: isolate;
 }
 
-main > section:not(.bg-ink):not(.kov-section-dark):not(.bg-orange):not(.bg-\[\#1e3a8a\]) {
+main > section:not(.bg-ink):not(.kov-section-dark):not(.bg-orange):not(.bg-\[\#1e3a8a\]):not(.service-visual) {
   background: linear-gradient(180deg, rgba(255,255,255,0.26), rgba(244,238,232,0.96));
   border-top: 1px solid rgba(16,21,26,0.08);
 }
 
-main > section:not(.bg-ink):not(.kov-section-dark):not(.bg-orange)::before {
+main > section:not(.bg-ink):not(.kov-section-dark):not(.bg-orange):not(.service-visual)::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -2438,7 +2438,7 @@ main > section a[href]:hover {
     opacity: 0.45;
   }
 
-  main > section:not(.bg-ink)::before {
+  main > section:not(.bg-ink):not(.service-visual)::before {
     opacity: 0.86;
   }
 }
@@ -3023,7 +3023,8 @@ option {
   white-space: nowrap;
 }
 
-.min-h-screen header nav a[href="candidate-services.html"] {
+.min-h-screen header nav a[href="candidate-services.html"],
+.min-h-screen header nav a[href="company-services.html"] {
   min-height: 34px;
   display: inline-flex;
   align-items: center;
@@ -3044,8 +3045,17 @@ option {
   border-radius: 3px 0 0 3px;
 }
 
+.min-h-screen header nav a[href="company-services.html"] {
+  margin-left: calc(-1 * clamp(11px, 1.05vw, 17px));
+  border-left: 0;
+  border-right: 1px solid rgba(16, 24, 33, .18);
+  border-radius: 0 3px 3px 0;
+}
+
 .min-h-screen header nav a[href="candidate-services.html"]:hover,
-.min-h-screen header nav a[href="candidate-services.html"]:focus-visible {
+.min-h-screen header nav a[href="company-services.html"]:hover,
+.min-h-screen header nav a[href="candidate-services.html"]:focus-visible,
+.min-h-screen header nav a[href="company-services.html"]:focus-visible {
   background: #ece4d8;
   color: #101821 !important;
 }
@@ -3078,6 +3088,13 @@ option {
   border-radius: 3px 0 0 3px;
 }
 
+.kov-nav .audience-link[href="company-services.html"] {
+  margin-left: calc(-1 * clamp(10px, 1.05vw, 16px));
+  border-left: 0;
+  border-right: 1px solid var(--kov-line);
+  border-radius: 0 3px 3px 0;
+}
+
 .kov-nav .audience-link:hover,
 .kov-nav .audience-link:focus-visible {
   background: #ece4d8;
@@ -3090,7 +3107,9 @@ option {
 }
 
 .site-mobile-menu-nav a[href="candidate-services.html"],
-.kov-mobile-nav a[href="candidate-services.html"] {
+.site-mobile-menu-nav a[href="company-services.html"],
+.kov-mobile-nav a[href="candidate-services.html"],
+.kov-mobile-nav a[href="company-services.html"] {
   background: #f3efe7;
   font-size: .88rem;
 }
@@ -3100,6 +3119,11 @@ option {
   margin-top: 8px;
   border-top: 1px solid rgba(16, 24, 33, .18);
   border-radius: 3px 3px 0 0;
+}
+
+.site-mobile-menu-nav a[href="company-services.html"],
+.kov-mobile-nav a[href="company-services.html"] {
+  border-radius: 0 0 3px 3px;
 }
 
 .contact-phone-fields {

@@ -3,7 +3,7 @@
     ? '../'
     : '';
   const destinations = [
-    ['candidate-services.html', 'For Candidates'],
+    ['candidate-services.html', 'Individual Career Services'],
   ];
   const desktopNav = document.querySelector('header nav:not(.site-mobile-menu-nav)');
   const mobileNav = document.querySelector('.site-mobile-menu-nav');
@@ -33,35 +33,15 @@
   addAccountLink(mobileNav);
   addAccountLink(seoMobileNav);
 
-  const modelHeading = [...document.querySelectorAll('main h2')].find(
-    (heading) => heading.textContent.trim() === 'One Agency. Two Sides of Executive Search.'
-  );
-  const modelSection = modelHeading?.closest('section');
-  const existingNetwork = modelSection?.querySelector('.kov-model-figure');
-  if (existingNetwork) existingNetwork.dataset.kovNetwork = '';
-  if (modelSection && !existingNetwork && !modelSection.querySelector('[data-kov-network]')) {
-    const bodyCopy = [...modelSection.querySelectorAll('p')].find((paragraph) =>
-      paragraph.textContent.includes('Different client.')
-    );
-    if (bodyCopy) {
-      const figure = document.createElement('figure');
-      figure.className = 'kov-art-figure kov-art-frame';
-      figure.dataset.kovNetwork = '';
-      const picture = document.createElement('picture');
-      const mobileSource = document.createElement('source');
-      mobileSource.media = '(max-width: 680px)';
-      mobileSource.srcset = `${rootPrefix}assets/kov-executive-intelligence-network-mobile.svg`;
-      const image = document.createElement('img');
-      image.src = `${rootPrefix}assets/kov-executive-intelligence-network.svg`;
-      image.alt = 'KOV connects professionals and companies with executives, recruiters, hiring managers, markets, and research';
-      image.loading = 'lazy';
-      picture.append(mobileSource, image);
-      const caption = document.createElement('figcaption');
-      caption.className = 'kov-art-caption';
-      caption.textContent = 'One search intelligence network. Two distinct practices.';
-      figure.append(picture, caption);
-      bodyCopy.after(figure);
-    }
+  for (const nav of [desktopNav, mobileNav, seoMobileNav]) {
+    nav?.querySelectorAll('a[href$="candidate-services.html"]').forEach((link) => {
+      link.textContent = 'Individual Career Services';
+    });
+    nav?.querySelectorAll('a[href$="services.html"]').forEach((link) => {
+      if (/^(services|reverse recruiting)$/i.test(link.textContent.trim())) {
+        link.textContent = 'Private Career Representation';
+      }
+    });
   }
 
   for (const [href, label] of destinations) {
@@ -98,8 +78,8 @@
       {
         title: 'For Professionals',
         links: [
-          [`${rootPrefix}candidate-services.html`, 'Candidate Services'],
-          [`${rootPrefix}services.html`, 'Career Representation'],
+          [`${rootPrefix}candidate-services.html`, 'Individual Career Services'],
+          [`${rootPrefix}services.html`, 'Private Career Representation'],
           [`${rootPrefix}how-it-works.html`, 'How It Works'],
           [`${rootPrefix}pricing.html`, 'Pricing'],
         ],
@@ -131,7 +111,7 @@
     const whyLink = document.createElement('a');
     whyLink.href = `${rootPrefix}why-kov.html`;
     whyLink.className = 'mt-6 inline-block text-[13px] font-medium text-ink underline underline-offset-4 hover:text-orange';
-    whyLink.textContent = 'Why KOV: Two Practices. One Founder.';
+    whyLink.textContent = 'Why KOV';
     section.append(columns, whyLink);
     const footerNote = footerContainer.lastElementChild;
     const pageCatalog = footerContainer.querySelector(':scope > [data-kov-footer-categories]');
@@ -151,7 +131,6 @@
     const audience = footerContainer.querySelector(':scope > [data-audience-footer]');
     const audienceGroups = audience?.querySelector('.grid')?.children;
     const professionals = audienceGroups?.[0] || null;
-    audienceGroups?.[1]?.remove();
     const categoryNav = footerContainer.querySelector(':scope > [data-kov-footer-categories]');
     const legal = [...footerContainer.children].find((element) =>
       element.matches('.kov-legal') || element.textContent.includes('©')

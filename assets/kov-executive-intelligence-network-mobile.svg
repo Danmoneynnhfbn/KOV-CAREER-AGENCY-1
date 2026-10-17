@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 760" role="img" aria-labelledby="title desc">
   <title id="title">KOV executive intelligence network</title>
-  <desc id="desc">Mobile view of KOV at the center of a network connecting professionals, companies, executives, recruiters, hiring managers, markets, and research.</desc>
+  <desc id="desc">Mobile view of a candidate-career network connecting professionals with target organizations, executives, recruiters, hiring managers, markets, and research.</desc>
   <defs><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#202932" stroke-width="1"/></pattern></defs>
   <rect width="720" height="760" fill="#090e13"/><rect width="720" height="760" fill="url(#grid)"/>
   <g fill="none" stroke="#83909a" stroke-width="1.5" opacity=".76">

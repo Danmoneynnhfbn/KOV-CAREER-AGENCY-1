@@ -1,6 +1,4 @@
 (() => {
-  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
   const createSwitcher = (section, target, label, entries, link) => {
     const switcher = document.createElement('div');
     const tablist = document.createElement('div');
@@ -79,18 +77,8 @@
   const intelligenceCopy = intelligenceSection?.querySelector(':scope > p');
   const intelligenceTarget = intelligenceHeading?.parentElement;
   if (intelligenceSection && intelligenceCopy && intelligenceTarget && !intelligenceSection.dataset.homeReactive) {
-    const text = intelligenceCopy.textContent.trim();
-    const professionalStart = text.indexOf('For a professional,');
-    const companyStart = text.indexOf('For a company,');
-    const professionalCopy = professionalStart >= 0 && companyStart > professionalStart
-      ? text.slice(professionalStart, companyStart).trim()
-      : text;
-    const companyCopy = companyStart >= 0 ? text.slice(companyStart).trim() : text;
-    createSwitcher(intelligenceSection, intelligenceTarget, 'Search research by audience', [
-      { key: 'professional', label: 'Professional search', copy: professionalCopy },
-      { key: 'company', label: 'Company search', copy: companyCopy },
-    ]);
-    intelligenceCopy.hidden = true;
+    intelligenceSection.classList.add('home-reactive-section');
+    intelligenceSection.dataset.homeReactive = '';
   }
 
   const humanSearchSection = [...document.querySelectorAll('main section')].find((section) =>
@@ -107,105 +95,6 @@
       copy.hidden = true;
     }
   }
-
-  document.querySelectorAll('[data-review-carousel]').forEach((carousel) => {
-    const slides = [...carousel.querySelectorAll('[data-review-slide]')];
-    const previous = carousel.querySelector('[data-review-prev]');
-    const next = carousel.querySelector('[data-review-next]');
-    const toggle = carousel.querySelector('[data-review-toggle]');
-    const count = carousel.querySelector('[data-review-count]');
-    const progress = carousel.querySelector('[data-review-progress]');
-    if (slides.length < 2 || !previous || !next || !count || !progress) return;
-
-    carousel.setAttribute('role', 'region');
-    carousel.setAttribute('aria-roledescription', 'carousel');
-    carousel.setAttribute('aria-label', 'Client review excerpts');
-    const toggleButton = toggle || document.createElement('button');
-    if (!toggle) {
-      toggleButton.type = 'button';
-      toggleButton.dataset.reviewToggle = '';
-      carousel.querySelector('.client-review-buttons')?.append(toggleButton);
-    }
-
-    let activeIndex = slides.findIndex((slide) => slide.classList.contains('is-active'));
-    const slideContainer = carousel.querySelector('.client-review-slides');
-    if (slideContainer && !slideContainer.id) slideContainer.id = 'client-review-slides';
-    previous.removeAttribute('disabled');
-    previous.setAttribute('aria-controls', slideContainer?.id || '');
-    next.setAttribute('aria-controls', slideContainer?.id || '');
-    let timer = 0;
-    let paused = reduceMotion;
-    const interval = 8000;
-
-    const render = () => {
-      slides.forEach((slide, index) => {
-        const active = index === activeIndex;
-        slide.setAttribute('role', 'group');
-        slide.setAttribute('aria-roledescription', 'slide');
-        slide.setAttribute('aria-label', `${index + 1} of ${slides.length}`);
-        slide.classList.toggle('is-active', active);
-        slide.setAttribute('aria-hidden', String(!active));
-        if (active) slide.removeAttribute('inert');
-        else slide.setAttribute('inert', '');
-      });
-      count.firstChild.textContent = `${String(activeIndex + 1).padStart(2, '0')} `;
-      toggleButton.setAttribute('aria-pressed', String(paused));
-      toggleButton.setAttribute('aria-label', paused ? 'Play review excerpts' : 'Pause review excerpts');
-      toggleButton.textContent = paused ? 'Play' : 'Pause';
-      carousel.classList.toggle('is-paused', paused);
-      progress.style.setProperty('--review-duration', `${interval}ms`);
-      progress.classList.remove('is-running');
-      if (!paused) requestAnimationFrame(() => progress.classList.add('is-running'));
-    };
-
-    const stop = () => {
-      window.clearTimeout(timer);
-      timer = 0;
-    };
-
-    const schedule = () => {
-      stop();
-      if (paused) return;
-      timer = window.setTimeout(() => {
-        activeIndex = (activeIndex + 1) % slides.length;
-        render();
-        schedule();
-      }, interval);
-    };
-
-    const move = (direction) => {
-      activeIndex = (activeIndex + direction + slides.length) % slides.length;
-      render();
-      schedule();
-    };
-
-    previous.addEventListener('click', () => move(-1));
-    next.addEventListener('click', () => move(1));
-    toggleButton.addEventListener('click', () => {
-      paused = !paused;
-      render();
-      schedule();
-    });
-    carousel.addEventListener('mouseenter', () => {
-      stop();
-      progress.classList.remove('is-running');
-    });
-    carousel.addEventListener('mouseleave', schedule);
-    carousel.addEventListener('focusin', () => {
-      stop();
-      progress.classList.remove('is-running');
-    });
-    carousel.addEventListener('focusout', (event) => {
-      if (!carousel.contains(event.relatedTarget)) schedule();
-    });
-    carousel.addEventListener('keydown', (event) => {
-      if (event.target.closest('button')) return;
-      if (event.key === 'ArrowLeft') move(-1);
-      if (event.key === 'ArrowRight') move(1);
-    });
-    render();
-    schedule();
-  });
 
   document.querySelectorAll('[data-content-switcher]').forEach((switcher) => {
     const tabs = [...switcher.querySelectorAll('[role="tab"][data-panel-target]')];

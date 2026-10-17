@@ -1,32 +1,4 @@
 (() => {
-  const guaranteeHeading = [...document.querySelectorAll('h2')].find((heading) =>
-    heading.textContent.includes("9 interviews in your") && heading.textContent.includes("first 90 days")
-  );
-  const guaranteeSection = guaranteeHeading?.closest('section');
-  const guaranteeContent = guaranteeHeading?.parentElement;
-  if (guaranteeSection && guaranteeContent && !guaranteeSection.querySelector('.interview-guarantee-art')) {
-    const figure = document.createElement('figure');
-    const image = document.createElement('img');
-    figure.className = 'interview-guarantee-art';
-    image.src = 'assets/interview-guarantee.svg';
-    image.alt = '';
-    image.setAttribute('aria-hidden', 'true');
-    image.loading = 'lazy';
-    figure.append(image);
-    guaranteeSection.classList.add('has-interview-guarantee-art');
-    guaranteeContent.append(figure);
-  }
-
-  const reviewCarousel = document.querySelector('[data-review-carousel]');
-  if (reviewCarousel && !reviewCarousel.querySelector('.client-review-art')) {
-    const reviewArt = document.createElement('img');
-    reviewArt.className = 'client-review-art';
-    reviewArt.src = 'assets/client-review-signal.svg';
-    reviewArt.alt = '';
-    reviewArt.setAttribute('aria-hidden', 'true');
-    reviewCarousel.append(reviewArt);
-  }
-
   const buildSwitcher = (section, target, label, entries, options = {}) => {
     if (target.querySelector('[data-decision-switcher], [data-content-switcher]')) return;
 

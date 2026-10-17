@@ -22,13 +22,13 @@
             <img src="${rootPrefix}kov-logo.png" alt="KOV" class="h-6 w-6 object-contain"/>
             <span class="text-[12px] font-medium uppercase tracking-[0.18em] text-ink">KOV Career Agency</span>
           </div>
-          <p>Private career representation and career services for professionals.</p>
+          <p>Private Career Representation and separate Individual Career Services for professionals.</p>
         </section>
         <section>
           <h2>For Professionals</h2>
           <ul>
-            <li><a href="${rootPrefix}candidate-services.html">Candidate Services</a></li>
-            <li><a href="${rootPrefix}services.html">Career Representation</a></li>
+            <li><a href="${rootPrefix}candidate-services.html">Individual Career Services</a></li>
+            <li><a href="${rootPrefix}services.html">Private Career Representation</a></li>
             <li><a href="${rootPrefix}how-it-works.html">How It Works</a></li>
             <li><a href="${rootPrefix}pricing.html">Pricing</a></li>
           </ul>
@@ -43,8 +43,8 @@
           </ul>
         </section>
       </div>
-      <nav class="kov-uniform-footer-explore" aria-label="Explore all 60 pages">
-        <h2>Explore all 60 pages</h2>
+      <nav class="kov-uniform-footer-explore" aria-label="Explore all 35 pages">
+        <h2>Explore all 35 pages</h2>
         <div class="kov-uniform-footer-topic-grid"></div>
       </nav>
       <div class="kov-uniform-footer-bottom" data-kov-footer-legal-row>
@@ -65,7 +65,6 @@
   const categoryLabels = [
     ['services', 'Core services'],
     ['roles', 'Seniority and roles'],
-    ['industries', 'Industries'],
     ['markets', 'Geography and markets'],
     ['resources', 'Proof and next steps'],
   ];
