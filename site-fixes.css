@@ -1,5 +1,7 @@
 :root {
-  color-scheme: light;
+  /* Support both light and dark system preferences. Individual CSS files use
+     @media (prefers-color-scheme: dark) to supply dark-theme tokens. */
+  color-scheme: light dark;
 }
 
 html {
