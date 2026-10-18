@@ -1226,145 +1226,147 @@ body.mobile-nav-open {
   }
 }
 
-/* Final palette enforcement: only black/orange/white text */
-:root {
-  --foreground: #111111 !important;
-  --color-ink: #111111 !important;
-  --color-ink-soft: #111111 !important;
-  --muted-foreground: #111111 !important;
-  --primary-foreground: #ffffff !important;
-  --color-cream: #ffffff !important;
-  --color-orange: #f97316 !important;
+@media (prefers-color-scheme: light) {
+  /* Final palette enforcement: only black/orange/white text (light mode only) */
+  :root {
+    --foreground: #111111 !important;
+    --color-ink: #111111 !important;
+    --color-ink-soft: #111111 !important;
+    --muted-foreground: #111111 !important;
+    --primary-foreground: #ffffff !important;
+    --color-cream: #ffffff !important;
+    --color-orange: #f97316 !important;
+  }
+
+  body,
+  body * {
+    color: #111111 !important;
+  }
+
+  .text-orange,
+  .text-orange-500,
+  .text-orange-600,
+  .text-\[\#f97316\],
+  [class*="text-orange"] {
+    color: #f97316 !important;
+  }
+
+  .text-white,
+  .text-cream,
+  .text-cream\/70,
+  .text-cream\/75,
+  .text-cream\/85,
+  .text-primary-foreground,
+  .text-foreground {
+    color: #ffffff !important;
+  }
+
+  .bg-ink,
+  .bg-ink *,
+  .bg-orange,
+  .bg-orange *,
+  .bg-\[\#f97316\],
+  .bg-\[\#ff7a0c\],
+  .bg-\[\#f15a24\],
+  .overlay,
+  .overlay *,
+  .hero-card .overlay,
+  .hero-card .overlay *,
+  .card-hero .overlay,
+  .card-hero .overlay *,
+  .kv-hero .overlay,
+  .kv-hero .overlay * {
+    color: #ffffff !important;
+  }
+
+  .hero-card .overlay h2,
+  .hero-card .overlay h3,
+  .hero-card .overlay p,
+  .card-hero .overlay h2,
+  .card-hero .overlay h3,
+  .card-hero .overlay p,
+  .kv-hero .overlay h2,
+  .kv-hero .overlay h3,
+  .kv-hero .overlay p,
+  .overlay h2,
+  .overlay h3,
+  .overlay p,
+  .image-overlay h2,
+  .image-overlay h3,
+  .image-overlay p,
+  .hero-caption h2,
+  .hero-caption h3,
+  .hero-caption p {
+    color: #ffffff !important;
+  }
+
+  /* Preserve orange accents on dark backgrounds */
+  .bg-ink .text-orange,
+  .bg-ink [class*="text-orange"],
+  .bg-\[\#1e3a8a\] .text-orange,
+  .bg-\[\#1e3a8a\] .bg-orange,
+  .overlay .text-orange,
+  .hero-caption .text-orange {
+    color: #f97316 !important;
+  }
+
+  /* Unified palette: black / orange / white only for text (light mode) */
+  body,
+  p,
+  li,
+  span,
+  a,
+  button,
+  label,
+  small,
+  strong,
+  em,
+  h1,
+  h2,
+  h3,
+  h4,
+  .text-ink,
+  .text-ink-soft,
+  .text-muted-foreground,
+  .text-foreground,
+  .text-cream,
+  .text-cream\/70,
+  .text-cream\/75,
+  .text-cream\/85,
+  .text-primary-foreground,
+  .text-white {
+    color: #111111 !important;
+  }
+
+  .text-orange,
+  .text-orange-500,
+  .text-orange-600,
+  .text-\[\#f97316\],
+  [class*="text-orange"] {
+    color: #f97316 !important;
+  }
+
+  .bg-ink,
+  .bg-ink * {
+    color: #ffffff !important;
+  }
+
+  .bg-orange,
+  .bg-orange-500,
+  .bg-orange-600,
+  .bg-\[\#f97316\],
+  .bg-\[\#ff7a0c\],
+  .bg-\[\#f15a24\] {
+    color: #ffffff !important;
+  }
+
+  .bg-ink .text-orange,
+  .bg-ink [class*="text-orange"] {
+    color: #f97316 !important;
+  }
 }
 
-body,
-body * {
-  color: #111111 !important;
-}
-
-.text-orange,
-.text-orange-500,
-.text-orange-600,
-.text-\[\#f97316\],
-[class*="text-orange"] {
-  color: #f97316 !important;
-}
-
-.text-white,
-.text-cream,
-.text-cream\/70,
-.text-cream\/75,
-.text-cream\/85,
-.text-primary-foreground,
-.text-foreground {
-  color: #ffffff !important;
-}
-
-.bg-ink,
-.bg-ink *,
-.bg-orange,
-.bg-orange *,
-.bg-\[\#f97316\],
-.bg-\[\#ff7a0c\],
-.bg-\[\#f15a24\],
-.overlay,
-.overlay *,
-.hero-card .overlay,
-.hero-card .overlay *,
-.card-hero .overlay,
-.card-hero .overlay *,
-.kv-hero .overlay,
-.kv-hero .overlay * {
-  color: #ffffff !important;
-}
-
-.hero-card .overlay h2,
-.hero-card .overlay h3,
-.hero-card .overlay p,
-.card-hero .overlay h2,
-.card-hero .overlay h3,
-.card-hero .overlay p,
-.kv-hero .overlay h2,
-.kv-hero .overlay h3,
-.kv-hero .overlay p,
-.overlay h2,
-.overlay h3,
-.overlay p,
-.image-overlay h2,
-.image-overlay h3,
-.image-overlay p,
-.hero-caption h2,
-.hero-caption h3,
-.hero-caption p {
-  color: #ffffff !important;
-}
-
-/* Preserve orange accents on dark backgrounds */
-.bg-ink .text-orange,
-.bg-ink [class*="text-orange"],
-.bg-\[\#1e3a8a\] .text-orange,
-.bg-\[\#1e3a8a\] .bg-orange,
-.overlay .text-orange,
-.hero-caption .text-orange {
-  color: #f97316 !important;
-}
-
-
-/* Unified palette: black / orange / white only for text */
-body,
-p,
-li,
-span,
-a,
-button,
-label,
-small,
-strong,
-em,
-h1,
-h2,
-h3,
-h4,
-.text-ink,
-.text-ink-soft,
-.text-muted-foreground,
-.text-foreground,
-.text-cream,
-.text-cream\/70,
-.text-cream\/75,
-.text-cream\/85,
-.text-primary-foreground,
-.text-white {
-  color: #111111 !important;
-}
-
-.text-orange,
-.text-orange-500,
-.text-orange-600,
-.text-\[\#f97316\],
-[class*="text-orange"] {
-  color: #f97316 !important;
-}
-
-.bg-ink,
-.bg-ink * {
-  color: #ffffff !important;
-}
-
-.bg-orange,
-.bg-orange-500,
-.bg-orange-600,
-.bg-\[\#f97316\],
-.bg-\[\#ff7a0c\],
-.bg-\[\#f15a24\] {
-  color: #ffffff !important;
-}
-
-.bg-ink .text-orange,
-.bg-ink [class*="text-orange"] {
-  color: #f97316 !important;
-}
-
+/* In dark mode, prefer the theme tokens defined elsewhere rather than forcing a light-only palette. */
 /* Keep decorative service numbers behind the card copy. */
 main > section.bg-cream\/70 article > span.absolute {
   color: rgba(17, 17, 17, 0.08) !important;
