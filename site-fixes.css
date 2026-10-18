@@ -1526,3 +1526,27 @@ main > section.bg-cream\/70 article > p {
 .bg-\[\#1e3a8a\] .bg-orange {
   color: #f97316 !important;
 }
+
+/* Improved readability for long content pages: constrain line length and improve rhythm */
+main.mx-auto, main.mx-auto > * {
+  max-width: 75ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Comfortable paragraph and list spacing for long policy/service pages */
+main.mx-auto p,
+main.mx-auto li {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: inherit;
+  max-width: 100%;
+}
+
+/* Respect reduced motion preferences globally */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
