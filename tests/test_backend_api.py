@@ -29,6 +29,8 @@ class BackendApiTests(unittest.TestCase):
             "/",
             "/account.html",
             "/privacy.html",
+            "/faq/",
+            "/faq/index.html",
             "/profiles",
             "/assets/account-api.js",
             "/assets/contact-form.js",

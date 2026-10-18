@@ -44,6 +44,14 @@ def candidate_directory_page():
     return FileResponse(page)
 
 
+@app.get("/faq/", response_class=HTMLResponse)
+def faq_library_page():
+    page = ROOT / "faq" / "index.html"
+    if not page.is_file():
+        raise HTTPException(status_code=404, detail="Not Found")
+    return FileResponse(page)
+
+
 @app.get("/toba", response_class=HTMLResponse)
 def administrator_console_page(request: Request):
     _require_admin(request, request.headers.get("authorization"))
