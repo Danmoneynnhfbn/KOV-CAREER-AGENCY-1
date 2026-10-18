@@ -45,6 +45,15 @@ class BackendApiTests(unittest.TestCase):
         self.assertEqual(self.client.get("/blogpostcheck.html").status_code, 404)
         self.assertEqual(self.client.get("/.private_admin/blogpostcheck.html").status_code, 404)
 
+    def test_missing_public_pages_show_the_custom_404_page(self) -> None:
+        for path in ("/this-page-does-not-exist.html", "/missing-page.css"):
+            with self.subTest(path=path):
+                response = self.client.get(path)
+                self.assertEqual(response.status_code, 404)
+                self.assertIn("text/html", response.headers["content-type"])
+                self.assertIn(b"Page not found", response.content)
+                self.assertIn(b"bounce-game", response.content)
+
     def test_admin_console_and_api_require_the_configured_admin_identity(self) -> None:
         identities = (
             ("anonymous", backend_api.HTTPException(

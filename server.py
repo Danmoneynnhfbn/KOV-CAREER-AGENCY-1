@@ -79,8 +79,8 @@ def read_site_file(requested_path: str):
         requested_path == ".private_admin"
         or requested_path.startswith(".private_admin/")
         or not file_path.is_relative_to(ROOT)
-        or not file_path.is_file()
-        or file_path.suffix.lower() not in public_extensions
     ):
         raise HTTPException(status_code=404, detail="Not Found")
+    if not file_path.is_file() or file_path.suffix.lower() not in public_extensions:
+        return FileResponse(ROOT / "404.html", status_code=404)
     return FileResponse(file_path)
