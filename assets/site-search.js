@@ -2,6 +2,22 @@
   if (window.kovSiteSearchReady) return;
   window.kovSiteSearchReady = true;
 
+  if (!window.kovThemeToggleRequested) {
+    const currentScript = document.currentScript;
+    if (!currentScript?.src) {
+      console.error('Unable to load the KOV theme toggle from the current script.');
+    } else {
+      window.kovThemeToggleRequested = true;
+      const themeScript = document.createElement('script');
+      themeScript.src = new URL('theme-toggle.js', currentScript.src).href;
+      themeScript.dataset.kovThemeToggleScript = '';
+      themeScript.addEventListener('error', () => {
+        console.error(`Failed to load the KOV theme toggle: ${themeScript.src}`);
+      });
+      document.head.append(themeScript);
+    }
+  }
+
   const pages = [
     { href: 'index.html', title: 'Home', summary: 'Private career representation and individual career services for professionals.', terms: 'KOV career agency career representation individual services job search research outreach' },
     { href: 'services.html', title: 'Services', summary: 'Reverse recruiting, executive career support, positioning, applications, recruiter outreach, interview preparation, and negotiation.', terms: 'candidate services resume CV LinkedIn job applications recruiters outreach interview salary offer negotiation career support' },

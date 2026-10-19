@@ -1,0 +1,222 @@
+:root {
+  color-scheme: light dark;
+  --background: #f7f3ee;
+  --paper: #fffdf9;
+  --paper-strong: #f0e9df;
+  --ink: #101821;
+  --ink-soft: #4d5966;
+  --muted: #4d5966;
+  --line: rgba(16, 24, 33, 0.16);
+  --orange: #a84b1b;
+  --orange-soft: rgba(168, 75, 27, 0.12);
+  --navy: #0f1d2b;
+  --navy-soft: #1d2d3e;
+  --blue: #2d4d78;
+  --cream: #f7f3ee;
+  --kov-ink: #101821;
+  --kov-ink-soft: #4d5966;
+  --kov-muted: #4d5966;
+  --kov-paper: #fffdf9;
+  --kov-orange: #a84b1b;
+  --foreground: var(--ink);
+  --border: var(--line);
+  --kov-link: #8a4018;
+  --kov-link-hover: #68300f;
+  --kov-on-accent: #fff;
+  --shadow-soft: 0 18px 42px rgba(16, 24, 33, 0.08);
+  --shadow-strong: 0 28px 60px rgba(16, 24, 33, 0.14);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-kov-theme]) {
+    --background: #0b1220;
+    --paper: #101b2a;
+    --paper-strong: #162437;
+    --ink: #ebf3ff;
+    --ink-soft: #c8d5e6;
+    --muted: #c8d5e6;
+    --line: rgba(190, 208, 231, 0.2);
+    --orange: #f3a35b;
+    --orange-soft: rgba(243, 163, 91, 0.15);
+    --navy: #08131d;
+    --navy-soft: #122131;
+    --blue: #8eb5ff;
+    --cream: #0b1220;
+    --kov-ink: #ebf3ff;
+    --kov-ink-soft: #c8d5e6;
+    --kov-muted: #c8d5e6;
+    --kov-paper: #101b2a;
+    --kov-orange: #f3a35b;
+    --kov-link: #f3a35b;
+    --kov-link-hover: #ffd09b;
+    --kov-on-accent: #101821;
+    --shadow-soft: 0 18px 42px rgba(0, 0, 0, 0.26);
+    --shadow-strong: 0 30px 64px rgba(2, 6, 13, 0.48);
+  }
+}
+
+:root[data-kov-theme="dark"] {
+  color-scheme: dark;
+  --background: #0b1220;
+  --paper: #101b2a;
+  --paper-strong: #162437;
+  --ink: #ebf3ff;
+  --ink-soft: #c8d5e6;
+  --muted: #c8d5e6;
+  --line: rgba(190, 208, 231, 0.2);
+  --orange: #f3a35b;
+  --orange-soft: rgba(243, 163, 91, 0.15);
+  --navy: #08131d;
+  --navy-soft: #122131;
+  --blue: #8eb5ff;
+  --cream: #0b1220;
+  --kov-ink: #ebf3ff;
+  --kov-ink-soft: #c8d5e6;
+  --kov-muted: #c8d5e6;
+  --kov-paper: #101b2a;
+  --kov-orange: #f3a35b;
+  --kov-link: #f3a35b;
+  --kov-link-hover: #ffd09b;
+  --kov-on-accent: #101821;
+  --shadow-soft: 0 18px 42px rgba(0, 0, 0, 0.26);
+  --shadow-strong: 0 30px 64px rgba(2, 6, 13, 0.48);
+}
+
+:root[data-kov-theme="light"] {
+  color-scheme: light;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--ink);
+}
+
+body:not(.backend-page) :is(h1, h2, h3, h4) {
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: manual;
+}
+
+body:has(a[aria-current="page"][href="index.html"]) main > section:first-child h1 {
+  font-size: clamp(2.5rem, 5.5vw, 6rem) !important;
+}
+
+body:has(a[aria-current="page"][href="index.html"]) main > section:first-child .hero-interlink-outline {
+  border-color: rgba(255, 255, 255, 0.6) !important;
+  color: #fff !important;
+}
+
+:root[data-kov-theme="dark"] body {
+  background-image: none;
+}
+
+:root[data-kov-theme="dark"] .bg-white,
+:root[data-kov-theme="dark"] .kov-footer {
+  background-color: var(--paper);
+  color: var(--ink);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-kov-theme]) body {
+    background-image: none;
+  }
+
+  :root:not([data-kov-theme]) .bg-white,
+  :root:not([data-kov-theme]) .kov-footer {
+    background-color: var(--paper);
+    color: var(--ink);
+  }
+}
+
+body:not(.backend-page) a[href]:not(header a, nav a, footer a, .kov-button, .hero-interlink, .kov-model-link, .group.block, [role="button"], [aria-label], [class*="button"], [class*="btn"], [class*="bg-"], [class*="rounded-"]) {
+  color: var(--kov-link);
+  text-decoration-line: underline;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+body:not(.backend-page) main a.group.block {
+  text-decoration: none !important;
+}
+
+body:not(.backend-page) main a.group.block:hover,
+body:not(.backend-page) main a.group.block:focus-visible {
+  text-decoration: underline !important;
+  text-decoration-color: currentColor;
+  text-underline-offset: 0.18em;
+}
+
+body:not(.backend-page) a[href]:not(header a, nav a, footer a, .kov-button, .hero-interlink, .kov-model-link, .group.block, [role="button"], [aria-label], [class*="button"], [class*="btn"], [class*="bg-"], [class*="rounded-"]):hover {
+  color: var(--kov-link-hover);
+}
+
+:is(.text-orange, .text-orange-500, .text-orange-600, [class*="text-orange"], [class*="text-[#f97316]"], [class*="text-[#f15a24]"]) {
+  color: var(--kov-link) !important;
+}
+
+:root[data-kov-theme="dark"] body:has(a[aria-current="page"][href="index.html"]) main > section:first-child [class*="text-orange"],
+:root[data-kov-theme="dark"] :is(.text-orange, .text-orange-500, .text-orange-600, [class*="text-orange"], [class*="text-[#f97316]"], [class*="text-[#f15a24]"]) {
+  color: var(--kov-link) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-kov-theme]) body:has(a[aria-current="page"][href="index.html"]) main > section:first-child [class*="text-orange"],
+  :root:not([data-kov-theme]) :is(.text-orange, .text-orange-500, .text-orange-600, [class*="text-orange"], [class*="text-[#f97316]"], [class*="text-[#f15a24]"]) {
+    color: var(--kov-link) !important;
+  }
+
+  :root:not([data-kov-theme]) .kov-button:hover,
+  :root:not([data-kov-theme]) .kov-nav .kov-nav-cta:hover {
+    background: var(--orange);
+    color: var(--kov-on-accent);
+  }
+}
+
+body:not(.backend-page) a[href]:not(header a, nav a, footer a, .kov-button, .hero-interlink, .kov-model-link, .group.block, [role="button"], [aria-label], [class*="button"], [class*="btn"], [class*="bg-"], [class*="rounded-"]):focus-visible {
+  outline: 2px solid var(--kov-link);
+  outline-offset: 3px;
+}
+
+body:not(.backend-page) nav a:not([class]):not([aria-label]) {
+  color: var(--kov-link);
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  text-underline-offset: 0.18em;
+}
+
+body:not(.backend-page) nav a:not([class]):not([aria-label]):hover {
+  color: var(--kov-link-hover);
+}
+
+:root[data-kov-theme="dark"] .kov-button:hover,
+:root[data-kov-theme="dark"] .kov-nav .kov-nav-cta:hover {
+  background: var(--orange);
+  color: var(--kov-on-accent);
+}
+
+.kov-theme-toggle {
+  position: fixed;
+  z-index: 10000;
+  inset: auto auto max(1rem, env(safe-area-inset-bottom)) max(1rem, env(safe-area-inset-left));
+  min-height: 44px;
+  padding: 0.65rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: var(--shadow-soft);
+  font: 600 0.8rem/1.2 Inter, sans-serif;
+  cursor: pointer;
+}
+
+.kov-theme-toggle:hover {
+  border-color: var(--orange);
+  background: var(--orange);
+  color: var(--kov-on-accent);
+}
+
+.kov-theme-toggle:focus-visible {
+  outline: 3px solid var(--kov-link);
+  outline-offset: 3px;
+}
