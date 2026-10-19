@@ -1,4 +1,4 @@
-﻿"Page","InSitemap","Stylesheets","Scripts","ThemeToggleEntry","InlineStyleBlocks","InlineColorDeclarations","InlineTextDecorationDeclarations","AnchorCount","LightLinkContrast","DarkLinkContrast","WCAGAAForLinkToken"
+﻿"Page","InSitemap","Stylesheets","Scripts","ThemeStylesheetEntry","InlineStyleBlocks","InlineColorDeclarations","InlineTextDecorationDeclarations","AnchorCount","LightLinkContrast","DarkLinkContrast","WCAGAAForLinkToken"
 "404.html","False","","","No script","1","26","2","2","7.31:1","8.41:1","PASS (4.5:1 target)"
 "about.html","True","assets/styles-DateywTe.css; assets/site-fixes.css?v=27","assets/google-translate.js?v=6; assets/site-search-index.js; assets/site-search.js?v=4; assets/reactive-visuals.js?v=7; assets/audience-nav.js?v=6; assets/page-section-enhancements.js?v=1; assets/uniform-footer.js?v=8","Shared script","1","0","0","34","7.31:1","8.41:1","PASS (4.5:1 target)"
 "account.html","False","assets/styles-DateywTe.css; assets/site-fixes.css?v=27; assets/backend-pages.css?v=2","/assets/account-api.js; assets/uniform-footer.js?v=7","Shared script","0","0","0","5","7.31:1","8.41:1","PASS (4.5:1 target)"

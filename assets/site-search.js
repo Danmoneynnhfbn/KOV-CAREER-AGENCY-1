@@ -2,15 +2,15 @@
   if (window.kovSiteSearchReady) return;
   window.kovSiteSearchReady = true;
 
-  if (!window.kovThemeToggleRequested) {
+  if (!window.kovThemeStylesRequested) {
     const currentScript = document.currentScript;
     if (!currentScript?.src) {
       console.error('Unable to load the KOV theme toggle from the current script.');
     } else {
-      window.kovThemeToggleRequested = true;
+      window.kovThemeStylesRequested = true;
       const themeScript = document.createElement('script');
       themeScript.src = new URL('theme-toggle.js', currentScript.src).href;
-      themeScript.dataset.kovThemeToggleScript = '';
+      themeScript.dataset.kovThemeStylesScript = '';
       themeScript.addEventListener('error', () => {
         console.error(`Failed to load the KOV theme toggle: ${themeScript.src}`);
       });
