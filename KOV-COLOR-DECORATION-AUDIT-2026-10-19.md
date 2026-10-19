@@ -43,6 +43,8 @@ Added [theme-toggle.js](./assets/theme-toggle.js) as a lightweight stylesheet lo
 
 The shared search and footer scripts load the stylesheet loader on their existing templates. The 30 FAQ pages, which do not load either shared script, load it directly. Browser checks confirmed that all 84 sitemap file pages served by the local test server loaded the token stylesheet.
 
+Follow-up contrast checks also corrected the topic-navigation flyout and search controls: the flyout now switches from dark text on a light panel to light/orange text on a dark panel, and the search icon follows the header theme. Muted text uses the matching light- or dark-theme token rather than a hard-coded near-black value.
+
 ### 4. Homepage headline breaking inside a word
 
 The homepage hero used a 128px heading with `word-break: break-word` in a 673px-wide block. This split “Representation” into fragments. The shared token layer restores normal word wrapping and applies a responsive heading size; the browser now renders “Representation” as a complete word.
@@ -66,7 +68,7 @@ The counts are useful for finding outlier templates. Inline declaration counts d
 
 - `node --check` passed for the new theme script and both modified shared scripts.
 - The homepage and FAQ library loaded the device-based theme stylesheet.
-- Browser checks verified light/dark token application according to the device theme.
+- Browser checks verified light/dark token application according to the device theme, including topic-navigation panel text and search controls.
 - All 84 sitemap file URLs available through the local static test server loaded the theme stylesheet and tokens.
 - Representative homepage, pricing, privacy, individual-services, representation, FAQ, and account screens were visually reviewed at browser viewport sizes.
 

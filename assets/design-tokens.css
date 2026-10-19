@@ -60,6 +60,10 @@ body {
   color: var(--ink);
 }
 
+body:not(.backend-page) .text-muted-foreground {
+  color: var(--muted) !important;
+}
+
 body:not(.backend-page) :is(h1, h2, h3, h4) {
   overflow-wrap: normal;
   word-break: normal;
@@ -84,6 +88,35 @@ body:has(a[aria-current="page"][href="index.html"]) main > section:first-child .
   .kov-footer {
     background-color: var(--paper);
     color: var(--ink);
+  }
+
+  .text-muted-foreground {
+    color: var(--ink-soft) !important;
+  }
+
+  .kov-topic-nav-panel {
+    border-color: var(--line) !important;
+    background: var(--paper) !important;
+    color: var(--ink) !important;
+  }
+
+  .kov-topic-nav-panel .kov-topic-nav-group h3 {
+    color: var(--orange) !important;
+  }
+
+  .kov-topic-nav-panel .kov-topic-nav-group a {
+    color: var(--ink) !important;
+  }
+
+  .site-search-trigger {
+    border-color: var(--line) !important;
+    color: var(--ink) !important;
+  }
+
+  .site-search-trigger:hover,
+  .site-search-trigger:focus-visible {
+    background: var(--paper-strong) !important;
+    color: var(--orange) !important;
   }
 }
 
