@@ -574,6 +574,129 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+@media (prefers-color-scheme: dark) {
+  .backend-page {
+    --kov-orange: #f3a35b;
+    --kov-orange-dark: #d37b3f;
+    --kov-green: #7bb99a;
+    --kov-green-dark: #a3d5b8;
+    --kov-white: #142337;
+    --kov-brown: #e5edf8;
+    --kov-brown-soft: #1a2b40;
+    --kov-brown-line: rgba(190, 208, 231, 0.18);
+    --kov-muted: #b4c2d4;
+    background: #0b1220;
+    color: #e5edf8;
+  }
+
+  .backend-hero,
+  .backend-account-page .account-card,
+  .backend-directory-page .directory-card,
+  .backend-admin-page .admin-section,
+  .backend-admin-page .metric-card {
+    border-color: var(--kov-brown-line) !important;
+    background: linear-gradient(145deg, #16263a, #101b2a) !important;
+    color: var(--kov-brown);
+    box-shadow: 0 18px 42px rgba(0, 0, 0, 0.24);
+  }
+
+  .backend-hero-copy h1,
+  .backend-account-page .account-card h2,
+  .backend-account-page .account-card h3,
+  .backend-admin-page .admin-section > h2,
+  .backend-directory-page .directory-card h2 {
+    color: var(--kov-brown);
+  }
+
+  .backend-page :is(input:not([type="checkbox"]), select, textarea),
+  .backend-account-page .account-fields :is(input:not([type="checkbox"]), select, textarea) {
+    border-color: var(--kov-brown-line);
+    background-color: #0d1929;
+    color: var(--kov-brown);
+  }
+
+  .backend-account-page .account-tabs button,
+  .backend-account-page .account-card button:not([type="submit"]):not(#subscription-checkout),
+  .backend-admin-page .admin-message[role="status"] {
+    border-color: var(--kov-brown-line);
+    background: var(--kov-brown-soft);
+    color: var(--kov-brown);
+  }
+
+  .backend-account-page .billing-item,
+  .backend-admin-page .admin-item {
+    border-color: var(--kov-brown-line);
+  }
+
+  .backend-account-page .account-status[data-kind="error"] {
+    color: #ff9b8e;
+  }
+
+  .backend-account-page .account-status[data-kind="success"] {
+    color: #9bdbb5;
+  }
+
+  .blog-admin-page {
+    --blog-admin-line: rgba(190, 208, 231, 0.18);
+    --blog-admin-ink: #e5edf8;
+    --blog-admin-muted: #b4c2d4;
+    --blog-admin-orange: #f3a35b;
+    background: #0b1220;
+    color: var(--blog-admin-ink);
+    color-scheme: dark;
+  }
+
+  .blog-admin-page .panel,
+  .blog-admin-page .preview-card {
+    border-color: var(--blog-admin-line);
+    background: linear-gradient(145deg, #16263a, #101b2a);
+    box-shadow: 0 18px 42px rgba(0, 0, 0, 0.24);
+  }
+
+  .blog-admin-page .topbar h1,
+  .blog-admin-page .panel h2,
+  .blog-admin-page .post-item {
+    color: var(--blog-admin-ink);
+  }
+
+  .blog-admin-page .topbar p,
+  .blog-admin-page .muted,
+  .blog-admin-page .post-item span {
+    color: var(--blog-admin-muted);
+  }
+
+  .blog-admin-page .topbar .pill,
+  .blog-admin-page .toolbar button,
+  .blog-admin-page .actions button,
+  .blog-admin-page .blog-video-mute {
+    border-color: var(--blog-admin-line);
+    background: #1b2c42;
+    color: var(--blog-admin-ink);
+  }
+
+  .blog-admin-page .editor,
+  .blog-admin-page .post-item {
+    border-color: var(--blog-admin-line);
+    background: #0d1929;
+  }
+
+  .blog-admin-page .post-item.selected {
+    border-color: var(--blog-admin-orange);
+    background: #2b2630;
+  }
+
+  .blog-admin-page :is(input[type="text"], input[type="url"], input[type="password"], input[type="file"], textarea) {
+    border-color: var(--blog-admin-line);
+    background: #0d1929;
+    color: var(--blog-admin-ink);
+  }
+
+  .blog-admin-page input::placeholder,
+  .blog-admin-page textarea::placeholder {
+    color: #a3b2c6;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .backend-page *,
   .backend-page *::before,

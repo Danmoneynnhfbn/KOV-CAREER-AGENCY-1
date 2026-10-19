@@ -433,9 +433,77 @@
   line-height: 1.85;
 }
 
+.seo-landing-page .kov-section:not(.kov-section-dark) > .kov-copy {
+  position: relative;
+  padding: clamp(22px, 3.2vw, 38px);
+  border: 1px solid rgba(17, 24, 32, 0.1);
+  border-radius: 24px;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.88) 72%, rgba(201, 107, 60, 0.08));
+  box-shadow: 0 18px 38px rgba(17, 24, 32, 0.055), inset 0 1px 0 rgba(255, 255, 255, 0.82);
+}
+
+.seo-landing-page .kov-section:not(.kov-section-dark) > .kov-copy::before {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  border-radius: 24px 0 0 24px;
+  background: var(--seo-orange);
+  content: "";
+}
+
+.seo-landing-page .kov-section.kov-section-dark > .kov-copy {
+  position: relative;
+  padding: clamp(22px, 3.2vw, 38px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.025));
+  box-shadow: 0 18px 38px rgba(0, 0, 0, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.seo-landing-page .kov-section.kov-section-dark > .kov-copy::before {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  border-radius: 24px 0 0 24px;
+  background: #e39a72;
+  content: "";
+}
+
+.seo-landing-page .seo-content-art {
+  float: right;
+  width: min(34%, 260px);
+  min-width: 190px;
+  padding: 9px;
+  margin: 4px 0 20px 28px;
+  border: 1px solid var(--seo-line);
+  border-radius: 18px;
+  background: var(--seo-white);
+  box-shadow: 0 14px 30px rgba(17, 24, 32, 0.08);
+}
+
+.seo-landing-page .seo-content-art img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  border-radius: 11px;
+  object-fit: cover;
+}
+
+.seo-landing-page .seo-content-art figcaption {
+  padding: 9px 3px 2px;
+  color: var(--seo-muted);
+  font-size: 0.68rem;
+  line-height: 1.45;
+}
+
 .seo-landing-page .kov-copy p {
   max-width: 850px;
   margin-bottom: 18px;
+}
+
+.seo-landing-page .kov-copy p:last-child {
+  margin-bottom: 0;
 }
 
 .seo-landing-page .kov-list {
@@ -596,15 +664,34 @@
 
 .seo-landing-page .kov-final-cta h2 {
   max-width: 780px;
-  color: #fff;
+  color: #c96b3c !important;
+  font-weight: 700 !important;
 }
 
 .seo-landing-page .kov-final-cta > p:not(.kov-eyebrow) {
   max-width: 740px;
   margin-top: 22px;
-  color: rgba(255, 255, 255, 0.76);
+  color: #101821 !important;
   font-size: 0.98rem;
   line-height: 1.8;
+}
+
+section.kov-final-cta {
+  color: #101821 !important;
+  font-weight: 700 !important;
+}
+
+section.kov-final-cta h2,
+.two-sided-page section.kov-final-cta h2 {
+  color: #c96b3c !important;
+  font-weight: 700 !important;
+}
+
+section.kov-final-cta p,
+.seo-landing-page section.kov-final-cta .kov-eyebrow,
+.seo-landing-page section.kov-final-cta p.seo-scope-note {
+  color: #101821 !important;
+  font-weight: 700 !important;
 }
 
 .seo-landing-page .kov-final-cta .seo-scope-note {
@@ -621,6 +708,37 @@
 .seo-landing-page .kov-final-cta .kov-button:hover {
   border-color: #fff;
   background: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  .seo-landing-page .kov-final-cta,
+  .seo-landing-page .kov-final-cta * {
+    color: #fff !important;
+  }
+
+  .seo-landing-page .kov-final-cta h2,
+  .seo-landing-page .kov-final-cta > p:not(.kov-eyebrow),
+  .seo-landing-page .kov-final-cta p,
+  section.kov-final-cta p,
+  section.kov-final-cta .kov-eyebrow,
+  section.kov-final-cta h2 {
+    color: #fff !important;
+  }
+
+  .seo-landing-page .kov-final-cta .kov-eyebrow,
+  .seo-landing-page .kov-final-cta .kov-button,
+  .seo-landing-page .kov-final-cta .kov-button:hover,
+  .seo-landing-page .kov-final-cta a[href],
+  section.kov-final-cta a[href] {
+    color: #f3a35b !important;
+  }
+
+  .seo-landing-page .kov-final-cta .kov-button,
+  .seo-landing-page .kov-final-cta .kov-button:hover {
+    border-color: #f3a35b !important;
+    background: #f3a35b !important;
+    color: #fff !important;
+  }
 }
 
 .seo-landing-page .kov-footer {
@@ -788,6 +906,18 @@
 
   .seo-landing-page .kov-example {
     padding: 18px;
+  }
+
+  .seo-landing-page .seo-content-art {
+    float: none;
+    width: 100%;
+    min-width: 0;
+    max-width: 460px;
+    margin: 24px 0;
+  }
+
+  .seo-landing-page .seo-content-art img {
+    aspect-ratio: 16 / 9;
   }
 
   .seo-landing-page .kov-section h2,

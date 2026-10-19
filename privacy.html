@@ -3204,52 +3204,71 @@
   
 </head>
 <body class="bg-background text-ink">
-  <header class="border-b border-line/60">
+  <header class="border-b border-line/60 bg-background/80 backdrop-blur-xl">
     <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-10">
-      <a href="/" class="font-display text-lg font-semibold text-ink">KOV Career Agency</a>
-      <a href="/contact.html" class="text-sm font-semibold text-ink hover:text-orange">Contact</a>
+      <a href="/" class="font-display text-lg font-semibold text-ink transition-colors hover:text-orange">KOV Career Agency</a>
+      <a href="/contact.html" class="rounded-full border border-line bg-white/60 px-4 py-2 text-sm font-semibold text-ink transition-colors hover:border-orange hover:text-orange">Contact</a>
     </div>
   </header>
+
   <main class="mx-auto max-w-4xl px-6 py-16 lg:px-10">
-    <p class="text-xs font-bold uppercase tracking-widest text-orange">Your information</p>
-    <h1 class="mt-3 font-display text-4xl font-semibold">Privacy Notice</h1>
-    <p class="mt-5 text-lg leading-8 text-ink-soft">This notice explains what KOV Career Agency stores when you contact us or create an account, how that information is used, and how to request deletion.</p>
-
-    <section class="mt-10 space-y-4">
-      <h2 class="font-display text-2xl font-semibold">Information we store</h2>
-      <p>Depending on how you use the site, records may include your name, email address, phone number, account and company details, career or hiring preferences, skills, experience, region, messages, and other information you choose to provide. Contact inquiries can also include a target role, salary range, LinkedIn URL, company, market, seniority, and timeline. The contact system stores a keyed, non-reversible hash derived from the request IP address to apply a short-term submission limit; it does not store the raw IP in the lead record.</p>
-      <p>If you upload a CV, its file is stored separately in a private storage bucket. Text profile information and the KOV candidate code are database records and are not the CV file.</p>
-    </section>
-
-    <section class="mt-10 space-y-4">
-      <h2 class="font-display text-2xl font-semibold">Why we use it</h2>
-      <p>We use these details to respond to inquiries, create and operate accounts, review candidate or employer registrations, manage agreed career representation or talent-sourcing work, coordinate introductions, administer subscriptions or invoices where applicable, protect the service, and meet applicable obligations.</p>
-    </section>
-
-    <section class="mt-10 space-y-4">
-      <h2 class="font-display text-2xl font-semibold">Who can see it</h2>
-      <p>KOV administrators can access unmasked candidate records for agency operations. A candidate can access their own account and profile. Employers using the candidate directory receive a masked view: the KOV candidate code, initials, skills, experience, and region, not the candidate's legal name, personal email, phone number, or CV link.</p>
-      <p>Account, profile, contact, and file data are handled by the configured hosting and database providers. If online billing is enabled for a transaction, the payment provider processes payment details under its own privacy terms.</p>
-    </section>
-
-    <section class="mt-10 space-y-4">
-      <h2 class="font-display text-2xl font-semibold">CV retention and other records</h2>
-      <p>The scheduled CV cleanup is designed to delete a candidate's CV file after 30 consecutive days without activity. For this rule, activity means a successful login, a candidate profile update, or an introduction status change. The cleanup marks the CV-file record as deleted and keeps text profile data and the KOV candidate code.</p>
-      <p>The 30-day inactivity rule applies to CV files, not to text profiles or contact inquiries. The current system does not define the same automatic 30-day deletion period for those other records; they may remain while needed to operate an account, respond to an inquiry, or manage an engagement, subject to a deletion request and applicable obligations.</p>
-    </section>
-
-    <section class="mt-10 space-y-4">
-      <h2 class="font-display text-2xl font-semibold">Request access or deletion</h2>
-      <p>To ask a question about your information or request deletion, email <a class="font-semibold underline" href="mailto:daniel@kovcareeragency.org">daniel@kovcareeragency.org</a>. Include the email address associated with your inquiry or account and describe what you want removed. Requests are handled by KOV; there is no self-service account-deletion control on the site. Some records may need to be retained where an applicable legal or contractual obligation requires it.</p>
-    </section>
-  </main>
-  <footer class="kov-footer border-t border-line/60">
-    <div class="kov-footer-bottom-bar">
-      <p class="kov-legal">© 2026 KOV Career Agency. All rights reserved.</p>
-      <a href="/contact.html" class="kov-footer-privacy-link">Contact</a>
-      <a href="/privacy.html" aria-current="page" class="kov-footer-privacy-link">Privacy Notice</a>
+    <div class="mb-12 rounded-[28px] border border-line bg-white/70 p-6 shadow-[var(--shadow-soft)] backdrop-blur-sm sm:p-8">
+      <p class="text-xs font-bold uppercase tracking-[0.22em] text-orange">Your information</p>
+      <h1 class="mt-4 font-display text-4xl font-semibold tracking-[-0.05em] text-ink sm:text-5xl">Privacy Notice</h1>
+      <p class="mt-5 max-w-2xl text-lg leading-8 text-ink-soft">This notice explains what KOV Career Agency stores when you contact us or create an account, how that information is used, and how to request deletion.</p>
     </div>
-  <a href="/faq/index.html">FAQ Library</a></footer>
-<script src="assets/uniform-footer.js?v=8" defer></script>
+
+    <div class="space-y-8">
+      <section class="rounded-[26px] border border-line bg-white/70 p-6 shadow-[var(--shadow-soft)] sm:p-8">
+        <h2 class="font-display text-2xl font-semibold tracking-[-0.04em] text-ink">Information we store</h2>
+        <div class="mt-4 space-y-4 text-base leading-8 text-ink-soft">
+          <p>Depending on how you use the site, records may include your name, email address, phone number, account and company details, career or hiring preferences, skills, experience, region, messages, and other information you choose to provide. Contact inquiries can also include a target role, salary range, LinkedIn URL, company, market, seniority, and timeline. The contact system stores a keyed, non-reversible hash derived from the request IP address to apply a short-term submission limit; it does not store the raw IP in the lead record.</p>
+          <p>If you upload a CV, its file is stored separately in a private storage bucket. Text profile information and the KOV candidate code are database records and are not the CV file.</p>
+        </div>
+      </section>
+
+      <section class="rounded-[26px] border border-line bg-white/70 p-6 shadow-[var(--shadow-soft)] sm:p-8">
+        <h2 class="font-display text-2xl font-semibold tracking-[-0.04em] text-ink">Why we use it</h2>
+        <p class="mt-4 text-base leading-8 text-ink-soft">We use these details to respond to inquiries, create and operate accounts, review candidate or employer registrations, manage agreed career representation or talent-sourcing work, coordinate introductions, administer subscriptions or invoices where applicable, protect the service, and meet applicable obligations.</p>
+      </section>
+
+      <section class="rounded-[26px] border border-line bg-white/70 p-6 shadow-[var(--shadow-soft)] sm:p-8">
+        <h2 class="font-display text-2xl font-semibold tracking-[-0.04em] text-ink">Who can see it</h2>
+        <div class="mt-4 space-y-4 text-base leading-8 text-ink-soft">
+          <p>KOV administrators can access unmasked candidate records for agency operations. A candidate can access their own account and profile. Employers using the candidate directory receive a masked view: the KOV candidate code, initials, skills, experience, and region, not the candidate's legal name, personal email, phone number, or CV link.</p>
+          <p>Account, profile, contact, and file data are handled by the configured hosting and database providers. If online billing is enabled for a transaction, the payment provider processes payment details under its own privacy terms.</p>
+        </div>
+      </section>
+
+      <section class="rounded-[26px] border border-line bg-white/70 p-6 shadow-[var(--shadow-soft)] sm:p-8">
+        <h2 class="font-display text-2xl font-semibold tracking-[-0.04em] text-ink">CV retention and other records</h2>
+        <div class="mt-4 space-y-4 text-base leading-8 text-ink-soft">
+          <p>The scheduled CV cleanup is designed to delete a candidate's CV file after 30 consecutive days without activity. For this rule, activity means a successful login, a candidate profile update, or an introduction status change. The cleanup marks the CV-file record as deleted and keeps text profile data and the KOV candidate code.</p>
+          <p>The 30-day inactivity rule applies to CV files, not to text profiles or contact inquiries. The current system does not define the same automatic 30-day deletion period for those other records; they may remain while needed to operate an account, respond to an inquiry, or manage an engagement, subject to a deletion request and applicable obligations.</p>
+        </div>
+      </section>
+
+      <section class="rounded-[26px] border border-line bg-white/70 p-6 shadow-[var(--shadow-soft)] sm:p-8">
+        <h2 class="font-display text-2xl font-semibold tracking-[-0.04em] text-ink">Request access or deletion</h2>
+        <p class="mt-4 text-base leading-8 text-ink-soft">To ask a question about your information or request deletion, email <a href="mailto:daniel@kovcareeragency.org" class="font-semibold text-orange underline decoration-orange/60 underline-offset-4">daniel@kovcareeragency.org</a>. Include the email address associated with your inquiry or account and describe what you want removed. Requests are handled by KOV; there is no self-service account-deletion control on the site. Some records may need to be retained where an applicable legal or contractual obligation requires it.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="border-t border-line/60 bg-background/80 backdrop-blur-xl">
+    <div class="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 lg:px-10">
+      <div class="flex flex-col gap-2 text-sm text-ink-soft lg:flex-row lg:items-center lg:justify-between">
+        <div class="font-display text-lg font-semibold text-ink">KOV Career Agency</div>
+        <div class="flex flex-wrap items-center gap-4">
+          <a href="/contact.html" class="font-medium text-ink transition-colors hover:text-orange">Contact</a>
+          <a href="/privacy.html" aria-current="page" class="font-medium text-ink transition-colors hover:text-orange">Privacy Notice</a>
+          <a href="/faq/index.html" class="font-medium text-ink transition-colors hover:text-orange">FAQ Library</a>
+        </div>
+      </div>
+      <p class="text-xs text-muted-foreground">© 2026 KOV Career Agency. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/uniform-footer.js?v=8" defer></script>
 </body>
 </html>

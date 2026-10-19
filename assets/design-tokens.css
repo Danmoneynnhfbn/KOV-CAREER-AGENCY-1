@@ -29,29 +29,31 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0b1220;
-    --paper: #101b2a;
-    --paper-strong: #162437;
-    --ink: #ebf3ff;
-    --ink-soft: #c8d5e6;
-    --muted: #c8d5e6;
-    --line: rgba(190, 208, 231, 0.2);
+    color-scheme: dark;
+    --background: #111311;
+    --paper: #171a17;
+    --paper-strong: #20241f;
+    --ink: #fff;
+    --ink-soft: #fff;
+    --muted: #fff;
+    --line: rgba(255, 255, 255, 0.16);
     --orange: #f3a35b;
-    --orange-soft: rgba(243, 163, 91, 0.15);
-    --navy: #08131d;
-    --navy-soft: #122131;
-    --blue: #8eb5ff;
-    --cream: #0b1220;
-    --kov-ink: #ebf3ff;
-    --kov-ink-soft: #c8d5e6;
-    --kov-muted: #c8d5e6;
-    --kov-paper: #101b2a;
+    --orange-soft: rgba(243, 163, 91, 0.14);
+    --green: #91d49b;
+    --navy: #111311;
+    --navy-soft: #191d19;
+    --blue: #343a34;
+    --cream: #111311;
+    --kov-ink: #fff;
+    --kov-ink-soft: #fff;
+    --kov-muted: #fff;
+    --kov-paper: #171a17;
     --kov-orange: #f3a35b;
     --kov-link: #f3a35b;
-    --kov-link-hover: #ffd09b;
-    --kov-on-accent: #101821;
-    --shadow-soft: 0 18px 42px rgba(0, 0, 0, 0.26);
-    --shadow-strong: 0 30px 64px rgba(2, 6, 13, 0.48);
+    --kov-link-hover: #91d49b;
+    --kov-on-accent: #fff;
+    --shadow-soft: 0 18px 42px rgba(0, 0, 0, 0.3);
+    --shadow-strong: 0 30px 64px rgba(0, 0, 0, 0.45);
   }
 }
 
@@ -174,4 +176,275 @@ body:not(.backend-page) nav a:not([class]):not([aria-label]) {
 
 body:not(.backend-page) nav a:not([class]):not([aria-label]):hover {
   color: var(--kov-link-hover);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #111311 !important;
+    color: #fff !important;
+  }
+
+  body *:not(svg):not(path) {
+    color: #fff !important;
+  }
+
+  body *:not(svg):not(path):is(a[href], [class*="text-orange"], .text-amber, [class*="text-amber"], .kov-eyebrow, .proof-overline) {
+    color: #f3a35b !important;
+  }
+
+  body *:not(svg):not(path):is([class*="text-green"], [class*="text-emerald"], [data-kind="success"], .text-success, .account-status[data-kind="success"]) {
+    color: #91d49b !important;
+  }
+
+  body svg text {
+    fill: #fff !important;
+  }
+
+  body :is(.bg-background, .bg-white, .bg-cream, .bg-cream\/70, [class*="bg-background/"], [class*="bg-white/"]) {
+    background: #171a17 !important;
+  }
+
+  body :is(.bg-ink, .bg-navy, .kov-section-dark, .overlay, .image-overlay, .hero-caption) {
+    background: #191d19 !important;
+    background-image: none !important;
+  }
+}
+
+@layer utilities {
+@media (prefers-color-scheme: dark) {
+  :root {
+    --kov-dark-text: #ffffff;
+    --kov-dark-accent: #f3a35b;
+    --kov-dark-surface: #101b2a;
+    --kov-dark-surface-raised: #16263a;
+  }
+
+  body * {
+    color: var(--kov-dark-text) !important;
+  }
+
+  body :is(.text-ink, .text-ink-soft, .text-muted-foreground, [class*="text-ink/"], [class*="text-black"], [class*="text-prim"]) {
+    color: var(--kov-dark-text) !important;
+  }
+
+  body [class*="bg-orange"] *,
+  body [class*="bg-[#"] * {
+    color: var(--kov-dark-text) !important;
+  }
+
+  body a[href],
+  body [class*="text-orange"],
+  body .kov-eyebrow,
+  body .proof-overline {
+    color: var(--kov-dark-accent) !important;
+  }
+
+  body [class*="bg-orange"] [class*="text-prim"],
+  body [class*="bg-[#"] [class*="text-prim"] {
+    color: var(--kov-dark-text) !important;
+  }
+
+  body :is(.kov-button, .kov-nav-cta, .hero-interlink, [role="button"], button, input[type="button"], input[type="submit"]) {
+    color: var(--kov-dark-text) !important;
+  }
+
+  .seo-landing-page,
+  .seo-landing-page .kov-header,
+  .seo-landing-page .kov-hero,
+  .seo-landing-page main > section,
+  .seo-landing-page .kov-copy,
+  .seo-landing-page .seo-hero-art,
+  .seo-landing-page .seo-related-links li,
+  .seo-landing-page .seo-faq .kov-section-heading,
+  .seo-landing-page .kov-final-cta {
+    border-color: rgba(190, 208, 231, 0.2) !important;
+    background: linear-gradient(145deg, var(--kov-dark-surface-raised), var(--kov-dark-surface)) !important;
+  }
+
+  body .seo-landing-page :is(h1, h2, h3, h4, h5, h6, p, li, span, label, small, strong, em, blockquote, figcaption, a) {
+    color: var(--kov-dark-text) !important;
+  }
+
+  body .seo-landing-page a[href],
+  body .seo-landing-page :is([class*="text-orange"], .kov-eyebrow, .proof-overline) {
+    color: var(--kov-dark-accent) !important;
+  }
+
+  .two-sided-page.proof-page,
+  .two-sided-page.proof-page main > section,
+  .two-sided-page.proof-page .kov-hero-aside,
+  .two-sided-page.proof-page .proof-hero-panel {
+    border-color: rgba(190, 208, 231, 0.2) !important;
+    background: linear-gradient(145deg, var(--kov-dark-surface-raised), var(--kov-dark-surface)) !important;
+  }
+
+  body .two-sided-page.proof-page[data-proof-page="company"] * {
+    color: var(--kov-dark-text) !important;
+  }
+
+  body .two-sided-page.proof-page[data-proof-page="company"] a[href],
+  body .two-sided-page.proof-page[data-proof-page="company"] :is([class*="text-orange"], .kov-eyebrow, .proof-overline) {
+    color: var(--kov-dark-accent) !important;
+  }
+
+  .kov-section-dark .kov-button-light,
+  .seo-landing-page .kov-final-cta .kov-button {
+    border-color: var(--kov-dark-accent) !important;
+    background: var(--kov-dark-accent) !important;
+    color: #ffffff !important;
+  }
+}
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #111311;
+    --paper: #171a17;
+    --paper-strong: #20241f;
+    --ink: #fff;
+    --ink-soft: #fff;
+    --muted: #fff;
+    --line: rgba(255, 255, 255, 0.16);
+    --orange: #f3a35b;
+    --orange-soft: rgba(243, 163, 91, 0.14);
+    --green: #91d49b;
+    --navy: #111311;
+    --navy-soft: #191d19;
+    --blue: #343a34;
+    --cream: #111311;
+    --kov-ink: #fff;
+    --kov-ink-soft: #fff;
+    --kov-muted: #fff;
+    --kov-paper: #171a17;
+    --kov-orange: #f3a35b;
+    --kov-link: #f3a35b;
+    --kov-link-hover: #91d49b;
+    --kov-dark-text: #fff;
+    --kov-dark-accent: #f3a35b;
+    --kov-dark-surface: #171a17;
+    --kov-dark-surface-raised: #20241f;
+  }
+
+  body {
+    background: #111311 !important;
+    color: #fff !important;
+  }
+
+  body :is(.text-ink, .text-ink-soft, .text-muted-foreground, .text-foreground, [class*="text-ink/"], [class*="text-muted"], [class*="text-slate"], [class*="text-blue"], [class*="text-gray"], [class*="text-grey"], [class*="text-primary"]) {
+    color: #fff !important;
+  }
+
+  body :is(a[href], [class*="text-orange"], [class*="text-amber"], .kov-eyebrow, .proof-overline) {
+    color: #f3a35b !important;
+  }
+
+  body :is([class*="text-green"], [class*="text-emerald"], [data-kind="success"], .text-success) {
+    color: #91d49b !important;
+  }
+
+  body .seo-landing-page :is(h1, h2, h3, h4, h5, h6, p, li, span, label, small, strong, em, blockquote, figcaption, a) {
+    color: #fff !important;
+  }
+
+  body .seo-landing-page a[href],
+  body .seo-landing-page :is([class*="text-orange"], .kov-eyebrow, .proof-overline) {
+    color: #f3a35b !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body *:not(svg):not(path),
+  body :is(.text-ink, .text-ink-soft, .text-muted-foreground, .text-foreground, [class*="text-ink/"], [class*="text-black"], [class*="text-primary"], [class*="text-green"], [class*="text-emerald"], [data-kind="success"], .text-success) {
+    color: #ffffff !important;
+  }
+
+  body :is(a[href], [class*="text-orange"], [class*="text-amber"], .kov-eyebrow, .proof-overline) {
+    color: #f3a35b !important;
+  }
+
+  body [class*="bg-orange"] *,
+  body [class*="bg-[#"] *,
+  body [class*="bg-orange"] :is(a[href], [class*="text-orange"], [class*="text-primary"]),
+  body [class*="bg-[#"] :is(a[href], [class*="text-orange"], [class*="text-primary"]) {
+    color: #ffffff !important;
+  }
+
+  body .seo-landing-page,
+  body .seo-landing-page .kov-header,
+  body .seo-landing-page .kov-hero,
+  body .seo-landing-page main > section,
+  body .seo-landing-page .kov-copy,
+  body .seo-landing-page .seo-hero-art,
+  body .seo-landing-page .seo-related-links li,
+  body .seo-landing-page .seo-faq .kov-section-heading,
+  body .seo-landing-page .kov-final-cta,
+  body .two-sided-page.proof-page,
+  body .two-sided-page.proof-page main > section,
+  body .two-sided-page.proof-page .kov-hero-aside,
+  body .two-sided-page.proof-page .proof-hero-panel {
+    border-color: rgba(255, 255, 255, 0.16) !important;
+    background: #171a17 !important;
+  }
+
+  body .two-sided-page.proof-page[data-proof-page="company"] * {
+    color: #ffffff !important;
+  }
+
+  body .two-sided-page.proof-page[data-proof-page="company"] a[href],
+  body .two-sided-page.proof-page[data-proof-page="company"] :is([class*="text-orange"], .kov-eyebrow, .proof-overline) {
+    color: #f3a35b !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body [class*="text-ink"],
+  body [class*="text-muted"],
+  body [class*="text-primary"],
+  body [class*="text-black"],
+  body [class*="text-green"],
+  body [class*="text-emerald"],
+  body [data-kind="success"],
+  body .text-success {
+    color: #ffffff !important;
+  }
+
+  body [class*="text-orange"],
+  body [class*="text-amber"],
+  body .kov-eyebrow,
+  body .proof-overline {
+    color: #f3a35b !important;
+  }
+
+  body [class*="bg-orange"] *,
+  body [class*="bg-[#"] *,
+  body [class*="bg-orange"] :is(a[href], [class*="text-orange"], [class*="text-primary"]),
+  body [class*="bg-[#"] :is(a[href], [class*="text-orange"], [class*="text-primary"]) {
+    color: #ffffff !important;
+  }
+
+  body .seo-landing-page,
+  body .seo-landing-page .kov-header,
+  body .seo-landing-page .kov-hero,
+  body .seo-landing-page main > section,
+  body .seo-landing-page .kov-copy,
+  body .seo-landing-page .seo-hero-art,
+  body .seo-landing-page .seo-related-links li,
+  body .seo-landing-page .seo-faq .kov-section-heading,
+  body .seo-landing-page .kov-final-cta,
+  body .two-sided-page.proof-page,
+  body .two-sided-page.proof-page main > section,
+  body .two-sided-page.proof-page .kov-hero-aside,
+  body .two-sided-page.proof-page .proof-hero-panel {
+    border-color: rgba(255, 255, 255, 0.16) !important;
+    background: #171a17 !important;
+  }
+
+  body .two-sided-page.proof-page[data-proof-page="company"] * {
+    color: #ffffff !important;
+  }
+
+  body .two-sided-page.proof-page[data-proof-page="company"] a[href],
+  body .two-sided-page.proof-page[data-proof-page="company"] :is([class*="text-orange"], .kov-eyebrow, .proof-overline) {
+    color: #f3a35b !important;
+  }
 }
