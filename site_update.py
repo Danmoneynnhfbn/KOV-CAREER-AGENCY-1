@@ -4,7 +4,7 @@ from xml.etree import ElementTree as ET
 
 
 ROOT = Path(__file__).resolve().parent
-SITE_URL = "https://kovcareeragency.org"
+SITE_URL = "https://www.kovcareeragency.org"
 SITEMAP_PATH = ROOT / "sitemap.xml"
 CORE_PAGES = (
     "index.html",

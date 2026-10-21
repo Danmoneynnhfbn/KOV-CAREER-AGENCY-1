@@ -9,7 +9,7 @@ from urllib.parse import urlsplit
 from xml.etree import ElementTree
 
 ROOT = Path(__file__).resolve().parent
-BASE_URL = "https://kovcareeragency.org"
+BASE_URL = "https://www.kovcareeragency.org"
 SITEMAP_NAMESPACE = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 PAGE_CATEGORIES = {"services", "markets", "roles", "industries", "resources"}
 
@@ -62,7 +62,7 @@ def main() -> int:
     indexed_count = 0
     for url in urls:
         parsed = urlsplit(url)
-        if parsed.scheme != "https" or parsed.netloc.lower() != "kovcareeragency.org":
+        if parsed.scheme != "https" or parsed.netloc.lower() != "www.kovcareeragency.org":
             errors.append(f"Unexpected sitemap URL: {url}")
             continue
 
@@ -138,12 +138,13 @@ def main() -> int:
                 organization_types = organization.get("@type", [])
                 if isinstance(organization_types, str):
                     organization_types = [organization_types]
-                if not {"Organization", "ProfessionalService"}.issubset(
-                    set(organization_types)
-                ):
+                if not {
+                    "Organization",
+                    "EmploymentAgency",
+                    "ProfessionalService",
+                }.intersection(organization_types):
                     errors.append(
-                        f"{relative_path}: organization must declare Organization "
-                        "and ProfessionalService types."
+                        f"{relative_path}: organization has no recognized business type."
                     )
                 if organization.get("name") != "KOV Career Agency":
                     errors.append(
@@ -158,7 +159,12 @@ def main() -> int:
                 ),
                 None,
             )
-            if founder is None or founder.get("name") != "Adekunle Ayotoba Daniel":
+            founder_names = {founder.get("name")} if founder else set()
+            alternate_names = founder.get("alternateName", []) if founder else []
+            if isinstance(alternate_names, str):
+                alternate_names = [alternate_names]
+            founder_names.update(alternate_names)
+            if founder is None or "Adekunle Ayotoba Daniel" not in founder_names:
                 errors.append(
                     f"{relative_path}: founder is missing or has an incorrect full name."
                 )

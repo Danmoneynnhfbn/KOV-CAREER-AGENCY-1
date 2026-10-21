@@ -247,7 +247,7 @@ function renderFooterCategories(page) {
 }
 
 function renderPage(page) {
-  const pageUrl = `https://kovcareeragency.org/${pagePaths.get(page.slug)}`;
+  const pageUrl = `https://www.kovcareeragency.org/${pagePaths.get(page.slug)}`;
   const related = page.related.map((item) => {
     const filename = hrefForPage(page, item.slug);
     return `<li><a href="${escapeHtml(filename)}">${escapeHtml(item.label)}</a></li>`;
@@ -264,7 +264,7 @@ function renderPage(page) {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://kovcareeragency.org/',
+        item: 'https://www.kovcareeragency.org/',
       },
       {
         '@type': 'ListItem',
@@ -280,32 +280,32 @@ function renderPage(page) {
     '@graph': [
       {
         '@type': ['Organization', 'ProfessionalService', 'EmploymentAgency'],
-        '@id': 'https://kovcareeragency.org/#organization',
+        '@id': 'https://www.kovcareeragency.org/#organization',
         name: 'KOV Career Agency',
         alternateName: ['KOV Career', 'KovCareer'],
-        url: 'https://kovcareeragency.org/',
+        url: 'https://www.kovcareeragency.org/',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://kovcareeragency.org/kov-logo.png',
+          url: 'https://www.kovcareeragency.org/kov-logo.png',
         },
-        image: 'https://kovcareeragency.org/preview.png',
+        image: 'https://www.kovcareeragency.org/preview.png',
         email: 'daniel@kovcareeragency.org',
-        founder: { '@id': 'https://kovcareeragency.org/#founder' },
+        founder: { '@id': 'https://www.kovcareeragency.org/#founder' },
       },
       {
         '@type': 'Person',
-        '@id': 'https://kovcareeragency.org/#founder',
+        '@id': 'https://www.kovcareeragency.org/#founder',
         name: 'Adekunle Ayotoba Daniel',
         alternateName: 'Daniel Ade',
         jobTitle: 'Founder and Principal Agent',
-        worksFor: { '@id': 'https://kovcareeragency.org/#organization' },
+        worksFor: { '@id': 'https://www.kovcareeragency.org/#organization' },
       },
       {
         '@type': 'WebSite',
-        '@id': 'https://kovcareeragency.org/#website',
+        '@id': 'https://www.kovcareeragency.org/#website',
         name: 'KOV Career Agency',
-        url: 'https://kovcareeragency.org/',
-        publisher: { '@id': 'https://kovcareeragency.org/#organization' },
+        url: 'https://www.kovcareeragency.org/',
+        publisher: { '@id': 'https://www.kovcareeragency.org/#organization' },
       },
       {
         '@type': ['WebPage', ...(page.slug === 'book-confidential-consultation' ? ['ContactPage'] : [])],
@@ -314,8 +314,8 @@ function renderPage(page) {
         description: page.description,
         url: pageUrl,
         inLanguage: 'en',
-        isPartOf: { '@id': 'https://kovcareeragency.org/#website' },
-        about: { '@id': 'https://kovcareeragency.org/#organization' },
+        isPartOf: { '@id': 'https://www.kovcareeragency.org/#website' },
+        about: { '@id': 'https://www.kovcareeragency.org/#organization' },
         breadcrumb: { '@id': `${pageUrl}#breadcrumb` },
       },
       { ...breadcrumb, '@id': `${pageUrl}#breadcrumb` },
@@ -324,7 +324,7 @@ function renderPage(page) {
         '@id': `${pageUrl}#service`,
         name: page.title,
         description: page.description,
-        provider: { '@id': 'https://kovcareeragency.org/#organization' },
+        provider: { '@id': 'https://www.kovcareeragency.org/#organization' },
         mainEntityOfPage: { '@id': `${pageUrl}#webpage` },
       }] : []),
     ],
@@ -353,12 +353,12 @@ function renderPage(page) {
   <meta property="og:url" content="${pageUrl}">
   <meta property="og:title" content="${escapeHtml(page.title)}">
   <meta property="og:description" content="${escapeHtml(page.description)}">
-  <meta property="og:image" content="https://kovcareeragency.org/preview.png">
+  <meta property="og:image" content="https://www.kovcareeragency.org/preview.png">
   <meta property="og:image:alt" content="KOV Career Agency">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${escapeHtml(page.title)}">
   <meta name="twitter:description" content="${escapeHtml(page.description)}">
-  <meta name="twitter:image" content="https://kovcareeragency.org/preview.png">
+  <meta name="twitter:image" content="https://www.kovcareeragency.org/preview.png">
   <script src="${rootAsset('assets/google-translate.js')}" defer></script>
   <script src="${rootAsset('assets/site-search-index.js')}" defer></script>
   <script src="${rootAsset('assets/site-search.js?v=3')}" defer></script>
@@ -440,7 +440,7 @@ for (const page of originalPages) {
   <meta charset="utf-8">
   <meta http-equiv="refresh" content="0; url=${target}">
   <meta name="robots" content="noindex,follow">
-  <link rel="canonical" href="https://kovcareeragency.org/${target}">
+  <link rel="canonical" href="https://www.kovcareeragency.org/${target}">
   <title>Page moved | KOV Career Agency</title>
   <script>window.location.replace(${JSON.stringify(destination)});</script>
 </head>
@@ -482,13 +482,13 @@ const corePages = [
   'glossary.html',
 ];
 const sitemapPages = [
-  { url: 'https://kovcareeragency.org/', file: 'index.html' },
+  { url: 'https://www.kovcareeragency.org/', file: 'index.html' },
   ...corePages.map((filename) => ({
-    url: `https://kovcareeragency.org/${filename}`,
+    url: `https://www.kovcareeragency.org/${filename}`,
     file: filename,
   })),
   ...completePages.map((page) => ({
-    url: `https://kovcareeragency.org/${pagePaths.get(page.slug)}`,
+    url: `https://www.kovcareeragency.org/${pagePaths.get(page.slug)}`,
     file: pagePaths.get(page.slug),
   })),
 ];
@@ -569,11 +569,11 @@ const llmsSections = [
   '## Core pages',
   (() => {
     const metadata = readPageMetadata('index.html');
-    return `- [${metadata.title}](https://kovcareeragency.org/): ${metadata.description}`;
+    return `- [${metadata.title}](https://www.kovcareeragency.org/): ${metadata.description}`;
   })(),
   ...corePages.map((filename) => {
     const metadata = readPageMetadata(filename);
-    return `- [${metadata.title}](https://kovcareeragency.org/${filename}): ${metadata.description}`;
+    return `- [${metadata.title}](https://www.kovcareeragency.org/${filename}): ${metadata.description}`;
   }),
 ];
 for (const [category, label] of groupLabels) {
@@ -582,7 +582,7 @@ for (const [category, label] of groupLabels) {
   for (const page of categoryPages) {
     const relativePath = pagePaths.get(page.slug);
     llmsSections.push(
-      `- [${page.title}](https://kovcareeragency.org/${relativePath}): ${page.description}`
+      `- [${page.title}](https://www.kovcareeragency.org/${relativePath}): ${page.description}`
     );
   }
 }
@@ -592,7 +592,7 @@ llmsSections.push(
   '',
   '- Organization: KOV Career Agency',
   '- Founder: Adekunle Ayotoba Daniel (Daniel Ade), Founder and Principal Agent',
-  '- Website: https://kovcareeragency.org/',
+  '- Website: https://www.kovcareeragency.org/',
   '- Contact: daniel@kovcareeragency.org',
   '',
   '## Use and attribution',

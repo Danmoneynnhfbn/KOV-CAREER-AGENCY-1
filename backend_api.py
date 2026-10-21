@@ -23,7 +23,7 @@ from supabase import Client, create_client
 from supabase_auth.errors import AuthApiError, AuthError
 from storage3.utils import StorageException
 
-BASE_URL = "https://kovcareeragency.org"
+BASE_URL = "https://www.kovcareeragency.org"
 ACCESS_COOKIE = "kov_access_token"
 REFRESH_COOKIE = "kov_refresh_token"
 PUBLIC_CANDIDATE_FIELDS = (

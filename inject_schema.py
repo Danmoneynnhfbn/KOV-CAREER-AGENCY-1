@@ -9,7 +9,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 from xml.etree import ElementTree
 
-BASE_URL = "https://kovcareeragency.org"
+BASE_URL = "https://www.kovcareeragency.org"
 SITEMAP_NAMESPACE = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 SERVICE_CATEGORIES = {"services", "markets", "roles", "industries"}
 
