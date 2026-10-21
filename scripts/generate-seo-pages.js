@@ -535,6 +535,9 @@ const llmsSections = [
     const metadata = readPageMetadata(filename);
     return `- [${metadata.title}](https://www.kovcareeragency.org/${filename}): ${metadata.description}`;
   }),
+  '',
+  '## Full Q&A',
+  '- [Full question and answer set](https://www.kovcareeragency.org/llms-full.txt): frequently asked questions about fit, services, process, fees, and outcomes.',
 ];
 for (const [category, label] of groupLabels) {
   const categoryPages = completePages.filter((page) => page.category === category);
@@ -543,6 +546,16 @@ for (const [category, label] of groupLabels) {
     const relativePath = pagePaths.get(page.slug);
     llmsSections.push(
       `- [${page.title}](https://www.kovcareeragency.org/${relativePath}): ${page.description}`
+    );
+  }
+}
+const faqPages = sitemapPages.filter(({ file }) => file.startsWith('faq/'));
+if (faqPages.length) {
+  llmsSections.push('', '## Frequently asked questions');
+  for (const { file } of faqPages) {
+    const metadata = readPageMetadata(file);
+    llmsSections.push(
+      `- [${metadata.title}](https://www.kovcareeragency.org/${file}): ${metadata.description}`
     );
   }
 }

@@ -8,6 +8,7 @@
         "includeFiles": [
           "**/*.{html,xml,css,js,png,jpg,jpeg,webp,gif,svg,ico}",
           ".private_admin/blogpostcheck.html",
+          "llms-full.txt",
           "llms.txt",
           "robots.txt"
         ]

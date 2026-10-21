@@ -43,6 +43,11 @@ def main() -> int:
 
     llms_path = ROOT / "llms.txt"
     llms = llms_path.read_text(encoding="utf-8") if llms_path.is_file() else ""
+    llms_full_path = ROOT / "llms-full.txt"
+    if not llms_full_path.is_file():
+        errors.append("llms-full.txt is missing.")
+    if f"{BASE_URL}/llms-full.txt" not in llms:
+        errors.append("llms.txt must link to llms-full.txt.")
     search_index_path = ROOT / "assets" / "site-search-index.js"
     search_index = (
         search_index_path.read_text(encoding="utf-8")
