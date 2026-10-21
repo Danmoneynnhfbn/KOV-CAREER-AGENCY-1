@@ -211,7 +211,7 @@ No values are committed. Missing required configuration must fail closed with
 a service-unavailable response rather than enabling fake or insecure behavior.
 Set `SUPABASE_CV_BUCKET` to `candidate-cvs`, the private bucket created by the
 migration. Configure Supabase Auth's site URL and allowed redirect list to
-include `https://kovcareeragency.org/account.html` before enabling confirmation
+include `https://www.kovcareeragency.org/account.html` before enabling confirmation
 or password-recovery emails.
 
 Provision the first administrator only after creating and verifying the
@@ -233,7 +233,7 @@ variables, and setting up an authenticated scheduled invocation for cleanup.
 Authentication email templates/redirect URLs and Resend sender verification
 must be configured separately. Stripe must be configured in test mode first:
 create the approved recurring Prices, register
-`https://kovcareeragency.org/api/v1/billing/stripe/webhook` for subscription
+`https://www.kovcareeragency.org/api/v1/billing/stripe/webhook` for subscription
 created/updated/deleted, invoice payment failed/succeeded/paid, and Checkout
 completed/asynchronous success/asynchronous failure/expired events, then
 verify signatures and state transitions in a real Supabase test project.

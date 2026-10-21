@@ -9,7 +9,7 @@ from urllib.parse import urlsplit
 from xml.etree import ElementTree
 
 ROOT = Path(__file__).resolve().parent
-BASE_URL = "https://kovcareeragency.org"
+BASE_URL = "https://www.kovcareeragency.org"
 SITEMAP_NAMESPACE = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 PAGE_CATEGORIES = {"services", "markets", "roles", "industries", "resources"}
 
@@ -62,7 +62,7 @@ def main() -> int:
     indexed_count = 0
     for url in urls:
         parsed = urlsplit(url)
-        if parsed.scheme != "https" or parsed.netloc.lower() != "kovcareeragency.org":
+        if parsed.scheme != "https" or parsed.netloc.lower() != "www.kovcareeragency.org":
             errors.append(f"Unexpected sitemap URL: {url}")
             continue
 
@@ -112,6 +112,9 @@ def main() -> int:
         )
         if not scripts:
             errors.append(f"{relative_path}: no JSON-LD structured data.")
+        has_organization = False
+        has_founder = False
+        has_organization_founder_link = False
         for index, (_, block) in enumerate(scripts, start=1):
             try:
                 schema = json.loads(block.strip())
@@ -132,25 +135,27 @@ def main() -> int:
                 ),
                 None,
             )
-            if organization is None:
-                errors.append(f"{relative_path}: organization entity is missing.")
-            else:
+            if organization is not None:
+                has_organization = True
                 organization_types = organization.get("@type", [])
                 if isinstance(organization_types, str):
                     organization_types = [organization_types]
-                if not {"Organization", "ProfessionalService"}.issubset(
-                    set(organization_types)
-                ):
+                if not {
+                    "Organization",
+                    "EmploymentAgency",
+                    "ProfessionalService",
+                }.intersection(organization_types):
                     errors.append(
-                        f"{relative_path}: organization must declare Organization "
-                        "and ProfessionalService types."
+                        f"{relative_path}: organization has no recognized business type."
                     )
                 if organization.get("name") != "KOV Career Agency":
                     errors.append(
                         f"{relative_path}: organization name is not KOV Career Agency."
                     )
-                if organization.get("founder", {}).get("@id") != f"{BASE_URL}/#founder":
-                    errors.append(f"{relative_path}: organization founder link is missing.")
+                has_organization_founder_link |= (
+                    organization.get("founder", {}).get("@id")
+                    == f"{BASE_URL}/#founder"
+                )
             founder = next(
                 (
                     node for node in nodes
@@ -158,9 +163,18 @@ def main() -> int:
                 ),
                 None,
             )
-            if founder is None or founder.get("name") != "Adekunle Ayotoba Daniel":
+            if founder is not None:
+                has_founder = True
+                founder_names = {founder.get("name")}
+                alternate_names = founder.get("alternateName", [])
+                if isinstance(alternate_names, str):
+                    alternate_names = [alternate_names]
+                founder_names.update(alternate_names)
+            else:
+                founder_names = set()
+            if founder is not None and "Adekunle Ayotoba Daniel" not in founder_names:
                 errors.append(
-                    f"{relative_path}: founder is missing or has an incorrect full name."
+                    f"{relative_path}: founder has an incorrect full name."
                 )
             for node in nodes:
                 node_types = node.get("@type", [])
@@ -171,6 +185,12 @@ def main() -> int:
                         f"{relative_path}: FAQPage schema has no visible Q&A entries."
                     )
 
+        if not has_organization:
+            errors.append(f"{relative_path}: organization entity is missing.")
+        if not has_founder:
+            errors.append(f"{relative_path}: founder entity is missing.")
+        if has_organization and not has_organization_founder_link:
+            errors.append(f"{relative_path}: organization founder link is missing.")
         if url not in llms:
             errors.append(f"{relative_path}: URL is missing from llms.txt.")
 

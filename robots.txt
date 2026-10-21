@@ -289,4 +289,4 @@ Allow: /
 User-agent: YandexImages
 Allow: /
 
-Sitemap: https://kovcareeragency.org/sitemap.xml
+Sitemap: https://www.kovcareeragency.org/sitemap.xml

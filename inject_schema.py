@@ -9,7 +9,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 from xml.etree import ElementTree
 
-BASE_URL = "https://kovcareeragency.org"
+BASE_URL = "https://www.kovcareeragency.org"
 SITEMAP_NAMESPACE = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 SERVICE_CATEGORIES = {"services", "markets", "roles"}
 
@@ -60,7 +60,7 @@ def upsert_meta(source: str, attribute: str, key: str, content: str) -> str:
 
 def canonical_url(location: str) -> str:
     parsed = urlsplit(location)
-    if parsed.scheme != "https" or parsed.netloc.lower() != "kovcareeragency.org":
+    if parsed.scheme != "https" or parsed.netloc.lower() != "www.kovcareeragency.org":
         raise ValueError(f"Unexpected sitemap URL: {location}")
     return f"{BASE_URL}{parsed.path or '/'}"
 
