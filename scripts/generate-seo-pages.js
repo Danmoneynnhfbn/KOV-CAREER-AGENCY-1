@@ -2,6 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const root = path.resolve(__dirname, '..');
+const newOnly = process.argv.includes('--new-only');
 const originalPages = JSON.parse(
   fs.readFileSync(path.join(root, 'data', 'seo-pages.json'), 'utf8')
 );
@@ -21,12 +22,15 @@ const categoryForExistingPage = new Map([
   ['reverse-recruiting-cfos', 'roles'],
   ['reverse-recruiting-ctos', 'roles'],
   ['reverse-recruiting-cmos', 'roles'],
+  ['roles', 'roles'],
+  ['industries', 'industries'],
 ]);
 const groupLabels = new Map([
   ['services', 'Core services'],
   ['markets', 'Geography and markets'],
-  ['roles', 'Seniority and roles'],
+  ['roles', 'Leadership roles and occupations'],
   ['resources', 'Proof and next steps'],
+  ['industries', 'Industry directory'],
 ]);
 const existingPages = new Set(
   fs.readdirSync(root).filter((file) => file.endsWith('.html'))
@@ -34,7 +38,7 @@ const existingPages = new Set(
 const pages = [
   ...originalPages.map((page) => ({
     ...page,
-    category: categoryForExistingPage.get(page.slug),
+    category: categoryForExistingPage.get(page.slug) || page.category,
   })),
   ...additions,
 ];
@@ -42,10 +46,10 @@ const pages = [
 function additionToPage(page) {
   const audienceLabel = 'the professional';
   const imageByCategory = {
-    services: ['assets/kov-search-grid.svg', 'Illustration of a structured executive search process.'],
-    markets: ['assets/kov-global-grid.svg', 'Illustration of a global market and talent search.'],
-    roles: ['assets/kov-search-grid.svg', 'Illustration of a structured leadership career search.'],
-    resources: ['assets/kov-intelligence-grid.svg', 'Illustration of a structured career and talent-search process.'],
+    services: ['assets/kov-search-grid.svg', 'Structured executive search process overview.'],
+    markets: ['assets/kov-global-grid.svg', 'Global market and talent-search overview.'],
+    roles: ['assets/kov-search-grid.svg', 'Structured leadership career search overview.'],
+    resources: ['assets/kov-intelligence-grid.svg', 'Structured career and talent-search process overview.'],
   };
   const [image, imageAlt] = imageByCategory[page.category];
   const isProof = new Set([
@@ -56,7 +60,7 @@ function additionToPage(page) {
     'executive-career-outcomes',
   ]).has(page.slug);
   const researchGuidance = isProof
-    ? 'KOV distinguishes illustrative process material from verified client evidence. No testimonial, placement, salary figure or hiring result is invented for this page.'
+    ? 'KOV uses process examples to clarify how a search can be organized and where client details are kept private. Any public material is framed as process and context, not as a claim about a specific placement or hiring outcome.'
     : page.category === 'resources'
       ? `${page.points.join('; ')}. Use these points as a starting framework and confirm current facts with the relevant employer or qualified adviser.`
       : 'Titles and broad market labels do not establish fit by themselves. Confirm the remit, requirements and practical boundaries before any application, outreach or shortlist activity.';
@@ -125,17 +129,21 @@ const completePages = pages.map((page) =>
   page.sections ? page : additionToPage(page)
 );
 const pagePaths = new Map(
-  completePages.map((page) => [page.slug, `${page.category}/${page.slug}.html`])
+  completePages.map((page) => [
+    page.slug,
+    page.path || `${page.category}/${page.slug}.html`,
+  ])
 );
 const expectedCounts = new Map([
   ['services', 8],
   ['markets', 6],
-  ['roles', 10],
+  ['roles', 34],
   ['resources', 11],
+  ['industries', 21],
 ]);
 
-if (completePages.length !== 35) {
-  throw new Error(`Expected 35 pages; received ${completePages.length}.`);
+if (completePages.length !== 80) {
+  throw new Error(`Expected 80 pages; received ${completePages.length}.`);
 }
 for (const [category, expected] of expectedCounts) {
   const actual = completePages.filter((page) => page.category === category).length;
@@ -155,19 +163,34 @@ function escapeHtml(value) {
 }
 
 function renderSection(section) {
-  return `<section class="kov-section"><div class="kov-section-heading"><p class="kov-eyebrow">${escapeHtml(section.eyebrow)}</p><h2>${escapeHtml(section.title)}</h2></div><div class="kov-copy">${section.paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}${section.bullets?.length ? `<ul class="kov-list">${section.bullets.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>` : ''}</div></section>`;
+  const table = section.table
+    ? `<div class="kov-guide-table-wrap" tabindex="0" aria-label="${escapeHtml(section.table.caption)}"><table class="kov-guide-table"><caption>${escapeHtml(section.table.caption)}</caption><thead><tr>${section.table.columns.map((column) => `<th scope="col">${escapeHtml(column)}</th>`).join('')}</tr></thead><tbody>${section.table.rows.map((row) => `<tr>${row.map((cell) => `<td>${escapeHtml(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`
+    : '';
+  const scenarioNote = '';
+  return `<section class="kov-section"><div class="kov-section-heading"><p class="kov-eyebrow">${escapeHtml(section.eyebrow)}</p><h2>${escapeHtml(section.title)}</h2></div><div class="kov-copy">${scenarioNote}${section.paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}${section.bullets?.length ? `<ul class="kov-list">${section.bullets.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>` : ''}${table}</div></section>`;
 }
 
 function renderFaq(item) {
   return `<details><summary>${escapeHtml(item.question)}</summary><p>${escapeHtml(item.answer)}</p></details>`;
 }
 
+function renderDirectory(directory) {
+  const facts = directory.quickFacts.map((fact) =>
+    `<div class="kov-directory-fact"><dt>${escapeHtml(fact.label)}</dt><dd>${escapeHtml(fact.value)}</dd></div>`
+  ).join('');
+  const entries = directory.entries.map((entry) =>
+    `<tr><td>${escapeHtml(entry.level || '')}</td><th scope="row">${escapeHtml(entry.code)}</th><td><strong>${escapeHtml(entry.name)}</strong>${entry.sourceMarker === 'T' ? '<span class="kov-source-marker" title="Trilateral agreement"> T</span>' : ''}${entry.parentCode ? `<p class="kov-directory-parent">Parent code: ${escapeHtml(entry.parentCode)}</p>` : ''}${entry.definition ? `<p>${escapeHtml(entry.definition)}</p>` : entry.summary ? `<p>${escapeHtml(entry.summary)}</p>` : ''}</td></tr>`
+  ).join('');
+  return `<section class="kov-section kov-directory" aria-labelledby="directory-heading"><div class="kov-section-heading"><p class="kov-eyebrow">${escapeHtml(directory.sourceLabel)}</p><h2 id="directory-heading">${escapeHtml(directory.heading)}</h2></div><p class="kov-directory-intro">${escapeHtml(directory.description)}</p><dl class="kov-directory-facts">${facts}</dl><div class="kov-guide-table-wrap" tabindex="0" aria-label="Scroll the complete classification directory"><table class="kov-guide-table"><thead><tr><th scope="col">Classification level</th><th scope="col">Official code</th><th scope="col">Official title and definition</th></tr></thead><tbody>${entries}</tbody></table></div><p class="kov-directory-source">Source: <a href="${escapeHtml(directory.sourceUrl)}" rel="noopener noreferrer">${escapeHtml(directory.sourceName)}</a>. ${escapeHtml(directory.sourceNote || 'Codes and labels are included for reference; consult the source classification for official definitions and updates.')}</p></section>`;
+}
+
 function hrefForPage(page, slug) {
-  const targetPath = pagePaths.get(slug) ||
+  let targetPath = pagePaths.get(slug) ||
     (existingPages.has(`${slug}.html`) ? `${slug}.html` : null);
   if (!targetPath) {
     throw new Error(`Unknown page "${slug}" linked from "${page.slug}".`);
   }
+  if (targetPath.endsWith('/')) targetPath += 'index.html';
   return path.posix.relative(page.category, targetPath);
 }
 
@@ -202,6 +225,9 @@ function renderFooterCategories(page) {
 
 function renderPage(page) {
   const pageUrl = `https://www.kovcareeragency.org/${pagePaths.get(page.slug)}`;
+  const parentPage = page.parentHub
+    ? completePages.find((entry) => entry.slug === page.parentHub)
+    : null;
   const related = page.related.map((item) => {
     const filename = hrefForPage(page, item.slug);
     return `<li><a href="${escapeHtml(filename)}">${escapeHtml(item.label)}</a></li>`;
@@ -209,6 +235,7 @@ function renderPage(page) {
   const rootAsset = (filename) => `../${filename}`;
   const contactHref = hrefForPage(page, 'contact');
   const homeHref = hrefForPage(page, 'index');
+  const breadcrumbHtml = `<nav class="kov-breadcrumb" aria-label="Breadcrumb"><ol><li><a href="${homeHref}">Home</a></li>${parentPage ? `<li><a href="${escapeHtml(hrefForPage(page, parentPage.slug))}">${escapeHtml(parentPage.title.replace(/\s*\|\s*KOV(?: Career Agency)?\s*$/i, ''))}</a></li>` : ''}<li aria-current="page">${escapeHtml(page.title.replace(/\s*\|\s*KOV(?: Career Agency)?\s*$/i, ''))}</li></ol></nav>`;
   const imageHref = page.image.startsWith('http')
     ? page.image
     : rootAsset(page.image);
@@ -222,15 +249,22 @@ function renderPage(page) {
         name: 'Home',
         item: 'https://www.kovcareeragency.org/',
       },
-      {
+      ...(page.parentHub ? [{
         '@type': 'ListItem',
         position: 2,
+        name: completePages.find((entry) => entry.slug === page.parentHub).title,
+        item: `https://www.kovcareeragency.org/${pagePaths.get(page.parentHub)}`,
+      }] : []),
+      {
+        '@type': 'ListItem',
+        position: page.parentHub ? 3 : 2,
         name: page.title,
         item: pageUrl,
       },
     ],
   };
-  const isServicePage = ['services', 'markets', 'roles'].includes(page.category);
+  const isServicePage = !page.directory &&
+    ['services', 'markets', 'roles'].includes(page.category);
   const jsonLd = JSON.stringify({
     '@context': 'https://schema.org',
     '@graph': [
@@ -282,6 +316,24 @@ function renderPage(page) {
         description: page.description,
         provider: { '@id': 'https://www.kovcareeragency.org/#organization' },
         mainEntityOfPage: { '@id': `${pageUrl}#webpage` },
+      }] : []),
+      ...(page.directory ? [{
+        '@type': 'Dataset',
+        '@id': `${pageUrl}#dataset`,
+        name: page.directory.classification,
+        description: page.directory.description,
+        url: page.directory.sourceUrl,
+        creator: { '@type': 'Organization', name: page.directory.sourceName },
+        mainEntityOfPage: { '@id': `${pageUrl}#webpage` },
+      }] : []),
+      ...(page.faqs?.length ? [{
+        '@type': 'FAQPage',
+        '@id': `${pageUrl}#faq`,
+        mainEntity: page.faqs.map((item) => ({
+          '@type': 'Question',
+          name: item.question,
+          acceptedAnswer: { '@type': 'Answer', text: item.answer },
+        })),
       }] : []),
     ],
   }, null, 2);
@@ -337,6 +389,7 @@ function renderPage(page) {
       </details>
     </header>
     <main>
+      ${breadcrumbHtml}
       <section class="kov-hero seo-hero">
         <div class="kov-hero-copy">
           <p class="kov-eyebrow">${escapeHtml(page.eyebrow)}</p>
@@ -345,8 +398,10 @@ function renderPage(page) {
           <p>${escapeHtml(page.introduction)}</p>
           <div class="kov-actions"><a class="kov-button" href="${contactHref}">${escapeHtml(page.cta)}</a><a class="kov-text-link" href="${escapeHtml(relatedHref)}">Explore related KOV support</a></div>
         </div>
-        <figure class="seo-hero-art"><img src="${escapeHtml(imageHref)}" alt="${escapeHtml(page.imageAlt)}"><figcaption>Illustrative visual · engagement scope confirmed directly with KOV</figcaption></figure>
+        <figure class="seo-hero-art"><img src="${escapeHtml(imageHref)}" alt="${escapeHtml(page.imageAlt)}"><figcaption>Career research and planning aligned to the agreed engagement scope.</figcaption></figure>
       </section>
+      ${page.directory ? renderDirectory(page.directory) : ''}
+      ${page.parentHub ? '' : page.directoryLinks?.length ? `<section class="kov-section kov-directory-links"><div class="kov-section-heading"><p class="kov-eyebrow">PRIORITY DETAIL PAGES</p><h2>Explore selected classifications.</h2></div><ul class="seo-related-links">${page.directoryLinks.map((item) => `<li><a href="${escapeHtml(hrefForPage(page, item.slug))}">${escapeHtml(item.label)}</a></li>`).join('')}</ul></section>` : ''}
       ${page.sections.map(renderSection).join('\n      ')}
       <section class="kov-section kov-section-tint seo-faq" aria-labelledby="seo-faq-heading">
         <div class="kov-section-heading"><p class="kov-eyebrow">COMMON QUESTIONS</p><h2 id="seo-faq-heading">Before you start a conversation.</h2></div>
@@ -373,21 +428,34 @@ function renderPage(page) {
 `;
 }
 
-for (const page of completePages) {
+const pagesToWrite = newOnly
+  ? completePages.filter((page) => page.newPage === true)
+  : completePages;
+if (newOnly && !pagesToWrite.length) {
+  throw new Error('No pages marked newPage were found in data/seo-pages.json.');
+}
+
+function outputPathFor(page) {
+  const route = pagePaths.get(page.slug);
+  return path.join(root, route.endsWith('/') ? route + 'index.html' : route);
+}
+
+for (const page of pagesToWrite) {
   if (!/^[a-z0-9-]+$/.test(page.slug) ||
       !expectedCounts.has(page.category)) {
     throw new Error(`Invalid slug "${page.slug}".`);
   }
-  const destination = pagePaths.get(page.slug);
-  fs.mkdirSync(path.dirname(path.join(root, destination)), { recursive: true });
+  const destination = outputPathFor(page);
+  fs.mkdirSync(path.dirname(destination), { recursive: true });
+  const rendered = renderPage(page);
   fs.writeFileSync(
-    path.join(root, destination),
-    renderPage(page),
+    destination,
+    newOnly ? rendered.replace(/\r?\n/g, '\r\n') : rendered,
     'utf8'
   );
 }
 
-for (const page of originalPages) {
+if (!newOnly) for (const page of originalPages) {
   const destination = pagePaths.get(page.slug);
   const target = destination;
   const redirect = `<!doctype html>
@@ -406,7 +474,7 @@ for (const page of originalPages) {
   fs.writeFileSync(path.join(root, `${page.slug}.html`), redirect, 'utf8');
 }
 
-for (const filename of fs.readdirSync(root).filter((file) => file.endsWith('.html'))) {
+if (!newOnly) for (const filename of fs.readdirSync(root).filter((file) => file.endsWith('.html'))) {
   const fullPath = path.join(root, filename);
   let content = fs.readFileSync(fullPath, 'utf8');
   for (const page of originalPages) {
@@ -420,6 +488,117 @@ for (const filename of fs.readdirSync(root).filter((file) => file.endsWith('.htm
 
 const sitemapPath = path.join(root, 'sitemap.xml');
 const lastmod = new Date().toISOString().slice(0, 10);
+if (newOnly) {
+  let sitemap = fs.readFileSync(sitemapPath, 'utf8');
+  const newline = sitemap.includes('\r\n') ? '\r\n' : '\n';
+  for (const page of pagesToWrite) {
+    const url = `https://www.kovcareeragency.org/${pagePaths.get(page.slug)}`;
+    if (sitemap.includes(`<loc>${url}</loc>`)) continue;
+    const entry = `  <url><loc>${url}</loc><lastmod>${lastmod}</lastmod></url>`;
+    sitemap = sitemap.replace(/<\/urlset>\s*$/i, `${entry}${newline}</urlset>${newline}`);
+  }
+  fs.writeFileSync(sitemapPath, sitemap, 'utf8');
+
+  const llmsPath = path.join(root, 'llms.txt');
+  let llms = fs.readFileSync(llmsPath, 'utf8');
+  const llmsNewline = llms.includes('\r\n') ? '\r\n' : '\n';
+  const taxonomyPages = completePages.filter(
+    (page) => page.newTaxonomyPage === true || ['industries', 'roles'].includes(page.slug)
+  );
+  const taxonomyUrls = new Set(taxonomyPages.map(
+    (page) => `https://www.kovcareeragency.org/${pagePaths.get(page.slug)}`
+  ));
+  llms = llms.split(/\r?\n/).filter((line) => {
+    const linkedUrl = line.match(/\]\((https?:\/\/[^)]+)\)/)?.[1];
+    return !taxonomyUrls.has(linkedUrl) &&
+      line !== '## Industry and occupation directories';
+  }).join(llmsNewline);
+  for (const page of originalPages) {
+    const url = `https://www.kovcareeragency.org/${pagePaths.get(page.slug)}`;
+    if (taxonomyUrls.has(url)) continue;
+    if (llms.includes(url)) continue;
+    const metadata = (() => {
+      const filename = pagePaths.get(page.slug);
+      const source = fs.readFileSync(path.join(root, filename), 'utf8');
+      const title = source.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]?.trim();
+      const descriptionTag = source.match(/<meta\b[^>]*name=["']description["'][^>]*>/i)?.[0];
+      const description = descriptionTag?.match(/\bcontent=["']([\s\S]*?)["']/i)?.[1]?.trim();
+      if (!title || !description) {
+        throw new Error(`Cannot add ${page.slug} to llms.txt without page metadata.`);
+      }
+      return { title, description };
+    })();
+    llms = `${llms.trimEnd()}${llmsNewline}- [${metadata.title}](${url}): ${metadata.description}${llmsNewline}`;
+  }
+  const llmsSection = [
+    '',
+    '## Industry and occupation directories',
+    ...taxonomyPages.map((page) =>
+      `- [${page.title}](https://www.kovcareeragency.org/${pagePaths.get(page.slug)}): ${page.summary}`
+    ),
+    '',
+  ].join(llmsNewline);
+  llms = `${llms.trimEnd()}${llmsSection}`;
+  fs.writeFileSync(llmsPath, llms, 'utf8');
+
+  const searchIndexPath = path.join(root, 'assets', 'site-search-index.js');
+  const searchIndex = fs.readFileSync(searchIndexPath, 'utf8');
+  const contentMatch = searchIndex.match(/window\.kovSiteSearchContent = (.*?);\r?\nwindow\.kovSeoPageCatalog = /s);
+  const catalogMatch = searchIndex.match(/window\.kovSeoPageCatalog = (.*);\s*$/s);
+  if (!contentMatch || !catalogMatch) {
+    throw new Error('Could not parse the existing site-search index.');
+  }
+  const indexedContent = JSON.parse(contentMatch[1]);
+  const catalog = JSON.parse(catalogMatch[1].trim().replace(/;$/, ''));
+  const indexedPagePaths = new Set(Object.keys(indexedContent));
+  const catalogPagePaths = new Set(catalog.map((entry) => entry.href));
+  for (const page of pagesToWrite) {
+    const route = pagePaths.get(page.slug);
+    const localPath = route.endsWith('/') ? `${route}index.html` : route;
+    const alreadyIndexed = indexedPagePaths.has(localPath) ||
+      catalogPagePaths.has(localPath);
+    if (alreadyIndexed && page.updateExistingNewPage !== true) {
+      throw new Error(`Search index already contains ${localPath}; refusing to duplicate it.`);
+    }
+    const html = fs.readFileSync(outputPathFor(page), 'utf8');
+    const visibleText = html
+      .replace(/<(script|style|noscript|template|svg)\b[^>]*>[\s\S]*?<\/\1>/gi, ' ')
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/&nbsp;/gi, ' ')
+      .replace(/&amp;/gi, '&')
+      .replace(/&lt;/gi, '<')
+      .replace(/&gt;/gi, '>')
+      .replace(/&quot;/gi, '"')
+      .replace(/&#39;|&apos;/gi, "'")
+      .replace(/\s+/g, ' ')
+      .trim();
+    indexedContent[localPath] = `${page.description} ${visibleText}`;
+    const catalogEntry = {
+      href: localPath,
+      title: page.title,
+      summary: page.description,
+      terms: `${page.title} ${page.description} ${groupLabels.get(page.category)}`,
+      category: page.category,
+    };
+    if (catalogPagePaths.has(localPath)) {
+      const index = catalog.findIndex((entry) => entry.href === localPath);
+      catalog[index] = catalogEntry;
+    } else {
+      catalog.push(catalogEntry);
+    }
+    indexedPagePaths.add(localPath);
+    catalogPagePaths.add(localPath);
+  }
+  const indexNewline = searchIndex.includes('\r\n') ? '\r\n' : '\n';
+  fs.writeFileSync(
+    searchIndexPath,
+    `window.kovSiteSearchContent = ${JSON.stringify(indexedContent)};${indexNewline}window.kovSeoPageCatalog = ${JSON.stringify(catalog)};${indexNewline}`,
+    'utf8'
+  );
+  console.log(`Generated ${pagesToWrite.length} new pages and appended their discovery entries without rewriting existing pages.`);
+  process.exit(0);
+}
+
 const corePages = [
   'services.html',
   'how-it-works.html',

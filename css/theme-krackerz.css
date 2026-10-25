@@ -1,0 +1,14 @@
+body[data-theme="krackerz"] {
+  --kov-design-paper: #f4f2ed;
+  --kov-design-ink: #202126;
+  --kov-design-muted: #64646a;
+  --kov-design-line: rgba(32, 33, 38, .16);
+  --kov-design-accent: #75432f;
+  --kov-design-accent-soft: #eee3da;
+  --kov-design-radius: .375rem;
+  --kov-design-shadow: 0 16px 42px rgba(32, 33, 38, .12);
+  --kov-design-heading-font: "Inter", Arial, sans-serif;
+  --kov-design-body-font: "Inter", Arial, sans-serif;
+  --kov-design-container: 72rem;
+  --kov-design-section-space: clamp(3.25rem, 6vw, 6.5rem);
+}

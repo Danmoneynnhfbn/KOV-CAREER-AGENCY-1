@@ -1,0 +1,362 @@
+:root {
+  --design-ink: #101821;
+  --design-muted: #4d5966;
+  --design-paper: #fffdf9;
+  --design-cream: #f7f3ee;
+  --design-line: rgba(16, 24, 33, 0.14);
+  --design-accent: #a84b1b;
+  --design-shadow: 0 16px 38px rgba(16, 24, 33, 0.08);
+  --design-radius: 1rem;
+}
+
+html {
+  scroll-padding-top: 5.5rem;
+}
+
+body:not(.ceo-page) main section .grid > article,
+body:not(.ceo-page) main section .grid > a {
+  min-width: 0;
+  border: 1px solid var(--design-line);
+  border-radius: var(--design-radius);
+  background: var(--design-paper);
+  box-shadow: 0 5px 18px rgba(16, 24, 33, 0.035);
+  transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+body:not(.ceo-page) main section .grid > article:hover,
+body:not(.ceo-page) main section .grid > a:hover,
+body:not(.ceo-page) main section .grid > article:focus-within,
+body:not(.ceo-page) main section .grid > a:focus-visible {
+  border-color: rgba(168, 75, 27, 0.5);
+  box-shadow: var(--design-shadow);
+  transform: translateY(-2px);
+}
+
+body:not(.ceo-page) main section [data-process-step] {
+  position: relative;
+  border: 1px solid var(--design-line);
+  border-radius: var(--design-radius);
+  background: var(--design-paper);
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+body:not(.ceo-page) main section [data-process-step][data-active],
+body:not(.ceo-page) main section [data-process-step]:focus-visible {
+  border-color: var(--design-accent);
+  box-shadow: 0 0 0 3px rgba(168, 75, 27, 0.12);
+}
+
+body:not(.ceo-page) main section [data-faq-item] {
+  border-bottom: 1px solid var(--design-line);
+}
+
+body:not(.ceo-page) main section [data-faq-trigger] {
+  min-height: 3.25rem;
+  text-align: left;
+}
+
+body:not(.ceo-page) main section [data-faq-trigger]:focus-visible,
+body:not(.ceo-page) main section [data-process-step]:focus-visible {
+  outline: 3px solid rgba(168, 75, 27, 0.55);
+  outline-offset: 3px;
+}
+
+.ceo-page {
+  color: var(--design-ink);
+  background: var(--design-cream);
+}
+
+.ceo-page .ceo-section,
+.ceo-page .ceo-content-section,
+.ceo-page .ceo-end-cta {
+  scroll-margin-top: 5.5rem;
+}
+
+.ceo-page .ceo-section {
+  border-color: var(--design-line);
+}
+
+.ceo-page .ceo-hero {
+  background:
+    radial-gradient(ellipse at 88% 18%, rgba(168, 75, 27, 0.1), transparent 34%),
+    linear-gradient(112deg, #f2ece3, #fbf9f5 72%);
+}
+
+.ceo-page .ceo-hero-panel,
+.ceo-page .ceo-card,
+.ceo-page .ceo-sample-panel,
+.ceo-page .ceo-mid-cta,
+.ceo-page .ceo-end-cta {
+  border-color: var(--design-line);
+  box-shadow: 0 9px 28px rgba(16, 24, 33, 0.045);
+}
+
+.ceo-page .ceo-label {
+  color: var(--design-accent);
+}
+
+.ceo-page .ceo-button-primary {
+  background: var(--design-ink);
+}
+
+.ceo-page .ceo-button-primary:hover {
+  background: #263746;
+}
+
+.ceo-page .ceo-tabs [role="tab"] {
+  min-height: 2.75rem;
+  border-color: var(--design-line);
+  transition: color 160ms ease, background-color 160ms ease, border-color 160ms ease;
+}
+
+.ceo-page .ceo-tabs [role="tab"]:focus-visible,
+.ceo-page a:focus-visible,
+.ceo-page button:focus-visible,
+.ceo-page summary:focus-visible {
+  outline: 3px solid rgba(168, 75, 27, 0.6);
+  outline-offset: 3px;
+}
+
+.ceo-page .ceo-tabs [role="tabpanel"] {
+  border-radius: 0.15rem var(--design-radius) var(--design-radius) 0.15rem;
+}
+
+.ceo-page .ceo-table-wrap {
+  max-height: min(68vh, 38rem);
+  border: 1px solid var(--design-line);
+  border-radius: 0.75rem;
+}
+
+.ceo-page .ceo-table th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.ceo-page .ceo-table th:first-child {
+  border-top-left-radius: 0.65rem;
+}
+
+.ceo-page .ceo-table th:last-child {
+  border-top-right-radius: 0.65rem;
+}
+
+.ceo-page .ceo-faq-list {
+  gap: 0.65rem;
+}
+
+.ceo-page .ceo-accordion {
+  border-color: var(--design-line);
+  border-radius: 0.75rem;
+  padding: 1.1rem 1.25rem;
+}
+
+.ceo-page .ceo-accordion summary {
+  min-height: 1.6rem;
+  padding-right: 1.6rem;
+}
+
+.ceo-page .ceo-accordion[open] {
+  border-color: rgba(168, 75, 27, 0.45);
+  box-shadow: 0 8px 24px rgba(16, 24, 33, 0.06);
+}
+
+.ceo-page--role-hub .ceo-prose {
+  counter-reset: role-section role-faq;
+}
+
+.ceo-page--role-hub .ceo-prose > .ceo-content-section {
+  counter-increment: role-section;
+}
+
+.ceo-page--role-hub .ceo-prose > .ceo-content-section > h2::before {
+  display: block;
+  margin-bottom: 0.7rem;
+  color: var(--design-accent);
+  content: "(" counter(role-section, decimal-leading-zero) ")";
+  font: 700 0.72rem/1.2 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: 0.12em;
+}
+
+.ceo-page--role-hub .ceo-accordion {
+  counter-increment: role-faq;
+}
+
+.ceo-page--role-hub .ceo-accordion summary::before {
+  margin-right: 0.8rem;
+  color: var(--design-accent);
+  content: counter(role-faq, decimal-leading-zero);
+  font: 700 0.76rem/1 ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+.ceo-page--industry-hub .ceo-industry-list,
+.ceo-page--overview .ceo-industry-list,
+.ceo-page--role-hub .ceo-industry-list {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+  gap: 1rem;
+}
+
+.ceo-page--industry-hub .ceo-card,
+.ceo-page--overview .ceo-card {
+  border-radius: 0.7rem;
+}
+
+.ceo-page--role-industry .ceo-prose > .ceo-content-section ol {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+  gap: 0.8rem;
+  padding: 0;
+  list-style: none;
+  counter-reset: pair-step;
+}
+
+.ceo-page--role-industry .ceo-prose > .ceo-content-section ol > li {
+  position: relative;
+  min-width: 0;
+  min-height: 5rem;
+  margin: 0;
+  padding: 1.2rem 1.15rem 1.2rem 3.65rem;
+  border: 1px solid var(--design-line);
+  border-radius: 0.7rem;
+  background: var(--design-paper);
+  counter-increment: pair-step;
+}
+
+.ceo-page--role-industry .ceo-prose > .ceo-content-section ol > li::before {
+  position: absolute;
+  top: 1.1rem;
+  left: 1rem;
+  color: var(--design-accent);
+  content: counter(pair-step, decimal-leading-zero);
+  font: 700 0.76rem/1.5 ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+.ceo-page--role-industry .ceo-prose > .ceo-content-section ol > li:not(:last-child)::after {
+  position: absolute;
+  top: 1.55rem;
+  right: -0.58rem;
+  width: 0.65rem;
+  height: 0.65rem;
+  border-top: 1px solid var(--design-accent);
+  border-right: 1px solid var(--design-accent);
+  content: "";
+  transform: rotate(45deg);
+}
+
+.ceo-page--role-industry .ceo-faq-list {
+  border: 1px solid var(--design-line);
+  border-radius: 0.75rem;
+  background: var(--design-paper);
+  gap: 0;
+  overflow: hidden;
+}
+
+.ceo-page--role-industry .ceo-accordion {
+  border: 0;
+  border-bottom: 1px dashed var(--design-line);
+  border-radius: 0;
+  box-shadow: none;
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+.ceo-page--role-industry .ceo-accordion:last-child {
+  border-bottom: 0;
+}
+
+.ceo-page--role-industry .ceo-accordion summary {
+  font-size: 0.9rem;
+}
+
+.ceo-page--role-industry .ceo-accordion[open] {
+  background: #faf7f1;
+  box-shadow: none;
+}
+
+.ceo-back-to-top {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 55;
+  box-shadow: 0 8px 24px rgba(16, 24, 33, 0.15);
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition: opacity 160ms ease, visibility 160ms ease;
+}
+
+.ceo-page[data-scrolled] .ceo-back-to-top {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.ceo-page .ceo-sticky-cta {
+  right: 1.25rem;
+  bottom: 4.5rem;
+}
+
+.ceo-site-header {
+  border-color: var(--design-line);
+  box-shadow: 0 2px 14px rgba(16, 24, 33, 0.035);
+}
+
+.ceo-site-footer {
+  border-color: var(--design-line);
+}
+
+@media (max-width: 640px) {
+  .ceo-page .ceo-reading-layout {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  .ceo-page .ceo-prose {
+    min-width: 0;
+  }
+
+  .ceo-page .ceo-hero-grid {
+    gap: 1.5rem;
+  }
+
+  .ceo-page .ceo-section {
+    padding-block: 3.5rem;
+  }
+
+  .ceo-page .ceo-back-to-top {
+    right: 0.75rem;
+    bottom: 0.75rem;
+    min-height: 2.5rem;
+    padding-inline: 0.8rem;
+  }
+
+  .ceo-page .ceo-sticky-cta {
+    right: 0.75rem;
+    bottom: 4rem;
+  }
+
+  .ceo-page--role-industry .ceo-prose > .ceo-content-section ol > li:not(:last-child)::after {
+    top: auto;
+    right: 50%;
+    bottom: -0.48rem;
+    transform: rotate(135deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  body:not(.ceo-page) main section .grid > article,
+  body:not(.ceo-page) main section .grid > a,
+  body:not(.ceo-page) main section [data-process-step],
+  .ceo-page .ceo-tabs [role="tab"],
+  .ceo-page .ceo-back-to-top {
+    scroll-behavior: auto;
+    transition: none;
+  }
+
+  body:not(.ceo-page) main section .grid > article:hover,
+  body:not(.ceo-page) main section .grid > a:hover {
+    transform: none;
+  }
+}

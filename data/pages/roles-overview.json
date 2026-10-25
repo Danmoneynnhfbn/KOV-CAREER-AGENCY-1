@@ -1,0 +1,436 @@
+{
+  "outputHtml": "roles/index.html",
+  "outputMarkdown": "ai/roles/index.md",
+  "canonical": "/roles/",
+  "title": "Career Representation by Role | KOV Career Agency",
+  "heading": "Career representation by role",
+  "eyebrow": "Role-focused career support",
+  "description": "Explore KOV's role-focused career representation, starting with the CEO guide and practical support for positioning, research, documents, outreach, and next steps.",
+  "answer": "The right career story depends on the work you want to lead and the evidence that supports your fit. KOV helps professionals clarify that direction, prepare relevant materials, and agree a thoughtful search approach. Start with the CEO guide below or explore KOV's services.",
+  "reviewedOn": "2026-10-23",
+  "serviceName": "Role-focused career representation",
+  "serviceType": "Candidate-side career representation and individual career services",
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "url": "/"
+    }
+  ],
+  "sourceFacts": [
+    {
+      "text": "KOV describes private career representation as beginning with assessment and fit, followed by agreed target strategy, research, positioning, approved outreach, and follow-up.",
+      "source": "KOV Career Agency",
+      "url": "https://www.kovcareeragency.org/services.html"
+    }
+  ],
+  "sourceNotes": [
+    {
+      "title": "KOV Career Agency — Private Career Representation",
+      "url": "https://www.kovcareeragency.org/services.html",
+      "checkedOn": "2026-10-23",
+      "verification": "Opened the public service page and verified the candidate-side service sequence described in the page record."
+    },
+    {
+      "title": "KOV Career Agency — Individual Career Services",
+      "url": "https://www.kovcareeragency.org/candidate-services.html",
+      "checkedOn": "2026-10-23",
+      "verification": "Opened the public service page and verified the individual document and coaching services referenced in the page record."
+    }
+  ],
+  "sections": [
+    {
+      "id": "role-specific-support",
+      "heading": "Make your next move about the work",
+      "lead": "A title is a starting point, not a complete explanation of the value you bring.",
+      "paragraphs": [
+        "A strong career conversation begins with the decisions, responsibilities, and working conditions you want to take on. Consider the kind of organization, scope, mandate, and leadership relationships that make sense for your next step. Then connect that direction to evidence from your own experience rather than relying on a title to make the case.",
+        "KOV's candidate-side support can help organize this thinking into a practical positioning and search plan. Work is scoped with you, and you remain responsible for the decisions about which opportunities to pursue and what information may be shared."
+      ],
+      "bullets": [
+        "Clarify the role and mandate you want before preparing application materials.",
+        "Separate responsibilities you owned from work shared with colleagues or a governing body.",
+        "Use evidence that you can explain and substantiate.",
+        "Set boundaries around location, working arrangements, confidentiality, and timing."
+      ]
+    },
+    {
+      "id": "role-guides",
+      "heading": "Explore the current role guide",
+      "paragraphs": [
+        "The available guide focuses on CEO career representation. It explains how to define a leadership mandate, organize evidence, prepare executive documents, consider target organizations, and decide what support to request. It is a practical starting point for candidates considering a chief executive path, not a substitute for role-specific advice about a particular employer.",
+        "As you read, note the questions that matter to your situation. A consultation can help you discuss fit, priorities, and whether KOV's services align with the support you are considering."
+      ],
+      "cards": [
+        {
+          "title": "Chief Executive Officer",
+          "text": "Explore how KOV supports Chief Executive Officer candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/ceo/",
+          "linkText": "Explore Chief Executive Officer"
+        },
+        {
+          "title": "Chief Operating Officer",
+          "text": "Explore how KOV supports Chief Operating Officer candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/coo/",
+          "linkText": "Explore Chief Operating Officer"
+        },
+        {
+          "title": "Chief Financial Officer",
+          "text": "Explore how KOV supports Chief Financial Officer candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/cfo/",
+          "linkText": "Explore Chief Financial Officer"
+        },
+        {
+          "title": "Chief Technology Officer",
+          "text": "Explore how KOV supports Chief Technology Officer candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/cto/",
+          "linkText": "Explore Chief Technology Officer"
+        },
+        {
+          "title": "Chief Information Officer",
+          "text": "Explore how KOV supports Chief Information Officer candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/cio/",
+          "linkText": "Explore Chief Information Officer"
+        },
+        {
+          "title": "Chief Marketing Officer",
+          "text": "Explore how KOV supports Chief Marketing Officer candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/cmo/",
+          "linkText": "Explore Chief Marketing Officer"
+        },
+        {
+          "title": "Chief Human Resources Officer",
+          "text": "Explore how KOV supports Chief Human Resources Officer candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/chro/",
+          "linkText": "Explore Chief Human Resources Officer"
+        },
+        {
+          "title": "Chief Information Security Officer",
+          "text": "Explore how KOV supports Chief Information Security Officer candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/ciso/",
+          "linkText": "Explore Chief Information Security Officer"
+        },
+        {
+          "title": "General Counsel / Chief Legal Officer",
+          "text": "Explore how KOV supports General Counsel / Chief Legal Officer candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/general-counsel/",
+          "linkText": "Explore General Counsel / Chief Legal Officer"
+        },
+        {
+          "title": "Chief Revenue Officer",
+          "text": "Explore how KOV supports Chief Revenue Officer candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/chief-revenue-officer/",
+          "linkText": "Explore Chief Revenue Officer"
+        },
+        {
+          "title": "Chief Product Officer",
+          "text": "Explore how KOV supports Chief Product Officer candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/chief-product-officer/",
+          "linkText": "Explore Chief Product Officer"
+        },
+        {
+          "title": "Chief Strategy Officer",
+          "text": "Explore how KOV supports Chief Strategy Officer candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/chief-strategy-officer/",
+          "linkText": "Explore Chief Strategy Officer"
+        },
+        {
+          "title": "Board Director",
+          "text": "Explore how KOV supports Board Director candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/board-director/",
+          "linkText": "Explore Board Director"
+        },
+        {
+          "title": "Non-Executive Director",
+          "text": "Explore how KOV supports Non-Executive Director candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/non-executive-director/",
+          "linkText": "Explore Non-Executive Director"
+        },
+        {
+          "title": "Chair",
+          "text": "Explore how KOV supports Chair candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/chair/",
+          "linkText": "Explore Chair"
+        },
+        {
+          "title": "Managing Director",
+          "text": "Explore how KOV supports Managing Director candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/managing-director/",
+          "linkText": "Explore Managing Director"
+        },
+        {
+          "title": "Managing Partner",
+          "text": "Explore how KOV supports Managing Partner candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/managing-partner/",
+          "linkText": "Explore Managing Partner"
+        },
+        {
+          "title": "Partner",
+          "text": "Explore how KOV supports Partner candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/partner/",
+          "linkText": "Explore Partner"
+        },
+        {
+          "title": "Vice President of Sales",
+          "text": "Explore how KOV supports Vice President of Sales candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/vp-sales/",
+          "linkText": "Explore Vice President of Sales"
+        },
+        {
+          "title": "Vice President of Marketing",
+          "text": "Explore how KOV supports Vice President of Marketing candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/vp-marketing/",
+          "linkText": "Explore Vice President of Marketing"
+        },
+        {
+          "title": "Vice President of Engineering",
+          "text": "Explore how KOV supports Vice President of Engineering candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/vp-engineering/",
+          "linkText": "Explore Vice President of Engineering"
+        },
+        {
+          "title": "Vice President of Operations",
+          "text": "Explore how KOV supports Vice President of Operations candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/vp-operations/",
+          "linkText": "Explore Vice President of Operations"
+        },
+        {
+          "title": "Vice President of Finance",
+          "text": "Explore how KOV supports Vice President of Finance candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/vp-finance/",
+          "linkText": "Explore Vice President of Finance"
+        },
+        {
+          "title": "Vice President of People",
+          "text": "Explore how KOV supports Vice President of People candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/vp-people/",
+          "linkText": "Explore Vice President of People"
+        },
+        {
+          "title": "Vice President of Product",
+          "text": "Explore how KOV supports Vice President of Product candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/vp-product/",
+          "linkText": "Explore Vice President of Product"
+        },
+        {
+          "title": "Vice President of Strategy",
+          "text": "Explore how KOV supports Vice President of Strategy candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/vp-strategy/",
+          "linkText": "Explore Vice President of Strategy"
+        },
+        {
+          "title": "Director of Operations",
+          "text": "Explore how KOV supports Director of Operations candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/director-operations/",
+          "linkText": "Explore Director of Operations"
+        },
+        {
+          "title": "Director of Finance",
+          "text": "Explore how KOV supports Director of Finance candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/director-finance/",
+          "linkText": "Explore Director of Finance"
+        },
+        {
+          "title": "Director of Engineering",
+          "text": "Explore how KOV supports Director of Engineering candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/director-engineering/",
+          "linkText": "Explore Director of Engineering"
+        },
+        {
+          "title": "Director of Marketing",
+          "text": "Explore how KOV supports Director of Marketing candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/director-marketing/",
+          "linkText": "Explore Director of Marketing"
+        },
+        {
+          "title": "Director of Sales",
+          "text": "Explore how KOV supports Director of Sales candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/director-sales/",
+          "linkText": "Explore Director of Sales"
+        },
+        {
+          "title": "Director of People",
+          "text": "Explore how KOV supports Director of People candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/director-people/",
+          "linkText": "Explore Director of People"
+        },
+        {
+          "title": "Director of Product",
+          "text": "Explore how KOV supports Director of Product candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/director-product/",
+          "linkText": "Explore Director of Product"
+        },
+        {
+          "title": "Director of Legal",
+          "text": "Explore how KOV supports Director of Legal candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/director-legal/",
+          "linkText": "Explore Director of Legal"
+        },
+        {
+          "title": "Head of Legal",
+          "text": "Explore how KOV supports Head of Legal candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/head-legal/",
+          "linkText": "Explore Head of Legal"
+        },
+        {
+          "title": "Head of Growth",
+          "text": "Explore how KOV supports Head of Growth candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/head-growth/",
+          "linkText": "Explore Head of Growth"
+        },
+        {
+          "title": "Head of Strategy",
+          "text": "Explore how KOV supports Head of Strategy candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/head-strategy/",
+          "linkText": "Explore Head of Strategy"
+        },
+        {
+          "title": "Head of Data and AI",
+          "text": "Explore how KOV supports Head of Data and AI candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/head-data-ai/",
+          "linkText": "Explore Head of Data and AI"
+        },
+        {
+          "title": "Head of Compliance",
+          "text": "Explore how KOV supports Head of Compliance candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/head-compliance/",
+          "linkText": "Explore Head of Compliance"
+        },
+        {
+          "title": "Head of Business Development",
+          "text": "Explore how KOV supports Head of Business Development candidates with target definition, evidence-based positioning, documents, and agreed search activity.",
+          "href": "/roles/head-business-development/",
+          "linkText": "Explore Head of Business Development"
+        }
+      ]
+    },
+    {
+      "id": "how-support-works",
+      "heading": "How KOV's support takes shape",
+      "paragraphs": [
+        "The work begins with a discussion of your goals, constraints, and the services that may fit. For private career representation, KOV describes a process that can include assessment, target-company strategy and research, professional positioning, approved outreach, and follow-up. The specific scope and approvals are agreed before work begins. Source: KOV Career Agency.",
+        "Individual services are available for professionals who need focused help with career direction or particular materials. These may include resume or CV writing, LinkedIn profile optimization, career documents, portfolio development, personal career websites, positioning, and coaching. Select the work that addresses a defined need rather than assuming every service is necessary."
+      ],
+      "table": {
+        "headers": [
+          "Stage",
+          "What you work through",
+          "Candidate decision"
+        ],
+        "rows": [
+          [
+            "Assessment",
+            "Goals, background, constraints, and service fit",
+            "Whether the proposed support is relevant"
+          ],
+          [
+            "Positioning",
+            "Target direction, strengths, and career evidence",
+            "How to describe your experience accurately"
+          ],
+          [
+            "Preparation",
+            "Agreed documents, research priorities, and outreach materials",
+            "What is ready to share and with whom"
+          ],
+          [
+            "Next steps",
+            "Responses, interview preparation, or offer questions as applicable",
+            "Whether to proceed, pause, or decline"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "documents",
+      "heading": "Documents that support your direction",
+      "paragraphs": [
+        "Career materials should make it easier for a reader to understand your background and assess relevance to a specific opportunity. Start with the facts: roles, dates, scope, contributions, and outcomes you can support. Use clear language, explain context where needed, and avoid implying that you had authority or achieved results that belonged to a larger team.",
+        "KOV's individual career services include support for resumes and CVs, LinkedIn profiles, career documents, portfolios, and personal career websites. The appropriate deliverable depends on your objective and the work agreed with KOV. You review personal materials and retain control over whether and where they are used."
+      ],
+      "sample": {
+        "heading": "A generic example of clearer career writing",
+        "before": "Responsible for business improvement and team leadership.",
+        "after": "Led a cross-functional improvement initiative, clarifying decision ownership and tracking agreed operational measures."
+      },
+      "bullets": [
+        "Confirm facts and figures before including them.",
+        "Distinguish personal contribution from collective outcomes.",
+        "Adapt emphasis to the opportunity without changing the underlying facts.",
+        "Keep sensitive employer, colleague, and client information out of public-facing material."
+      ]
+    },
+    {
+      "id": "confidentiality-and-outreach",
+      "heading": "Keep outreach considered and controlled",
+      "paragraphs": [
+        "Professional outreach should reflect an agreed purpose and an appropriate level of disclosure. Before any contact, discuss the audience, the information that may be shared, and how a response should be handled. KOV's service description refers to approved outreach and follow-up; the candidate remains involved in decisions about fit and next steps.",
+        "If confidentiality is important, explain the constraints early. Agree how to refer to your background, which details must remain private, and how to handle a conversation that moves faster than expected. Do not assume that a recipient will treat an unsolicited message as confidential."
+      ]
+    },
+    {
+      "id": "interviews-and-decisions",
+      "heading": "Prepare for conversations and decisions",
+      "paragraphs": [
+        "Interview preparation can help you present relevant examples, describe your decision-making, and ask questions about the mandate. Build a small set of accurate examples that show context, your role, the choices available, and what followed. Be ready to discuss what you learned and what you would approach differently.",
+        "If an opportunity reaches offer discussions, assess the role's responsibilities and terms against your priorities. KOV lists coaching and executive offer support among its services. The scope of any assistance is agreed with you; the employer determines its offer, and you decide whether to accept or negotiate."
+      ],
+      "tabs": [
+        {
+          "name": "Before an interview",
+          "text": "Review the role description, choose relevant examples, prepare thoughtful questions, and decide which points need clarification."
+        },
+        {
+          "name": "During evaluation",
+          "text": "Listen for the mandate, decision rights, expectations, and practical conditions. Ask for detail when an important point is unclear."
+        },
+        {
+          "name": "At offer stage",
+          "text": "Compare the written terms and role scope with your priorities. Take time to understand open questions before making a decision."
+        }
+      ]
+    },
+    {
+      "id": "choose-a-service",
+      "heading": "Choose the level of support that fits",
+      "paragraphs": [
+        "Some professionals want help with one specific document or a focused coaching conversation. Others are considering a broader, agreed private career representation engagement. The services page describes how KOV approaches representation; the individual services page lists focused support options. You can discuss what is relevant before deciding whether to proceed."
+      ],
+      "cards": [
+        {
+          "title": "Private career representation",
+          "text": "Discuss agreed target strategy, research, professional positioning, approved outreach, and follow-up.",
+          "href": "/services.html",
+          "linkText": "Explore representation"
+        },
+        {
+          "title": "Individual career services",
+          "text": "Explore focused support for career documents, professional profiles, positioning, portfolios, websites, and coaching.",
+          "href": "/candidate-services.html",
+          "linkText": "Explore individual services"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I choose the right role guide?",
+      "answer": "Start with the work and mandate you are considering, then review the available guide for relevant questions about positioning and career support. The current role-specific guide is for CEOs."
+    },
+    {
+      "question": "Do I need private career representation to improve my documents?",
+      "answer": "No. KOV also lists individual services for documents, profiles, positioning, portfolios, websites, and coaching. Discuss your needs to identify an appropriate scope."
+    },
+    {
+      "question": "Who decides whether an opportunity is right for me?",
+      "answer": "You do. KOV can provide agreed candidate-side support, while you decide which opportunities to pursue and how to respond."
+    },
+    {
+      "question": "Can KOV guarantee an interview or job offer?",
+      "answer": "No. Employers make hiring decisions, and KOV does not guarantee interviews, offers, employment, or timelines."
+    },
+    {
+      "question": "What should I prepare for an initial conversation?",
+      "answer": "Bring a concise outline of your goals, relevant experience, constraints, and the support you are considering. You do not need to send sensitive information before discussing how it will be handled."
+    }
+  ]
+}

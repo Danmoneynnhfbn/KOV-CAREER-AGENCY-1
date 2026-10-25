@@ -10,13 +10,13 @@
       kind: 'map',
       mobileSrc: `${rootPrefix}assets/kov-global-talent-map-mobile.svg`,
       points: [
-        { key: 'north-america', label: 'North America', detail: 'Illustrative market region. Search coverage is defined by the engagement.', x: 23, y: 41, mobileX: 20, mobileY: 45 },
-        { key: 'south-america', label: 'South America', detail: 'Illustrative market region. Search coverage is defined by the engagement.', x: 25, y: 67, mobileX: 30, mobileY: 68 },
-        { key: 'europe', label: 'Europe', detail: 'Illustrative market region. Search coverage is defined by the engagement.', x: 50, y: 37, mobileX: 50, mobileY: 44 },
-        { key: 'africa', label: 'Africa', detail: 'Illustrative market region. Search coverage is defined by the engagement.', x: 48, y: 57, mobileX: 52.5, mobileY: 62.5 },
-        { key: 'middle-east', label: 'Middle East', detail: 'Illustrative market region. Search coverage is defined by the engagement.', x: 61, y: 47, mobileX: 60.8, mobileY: 41 },
-        { key: 'asia', label: 'Asia-Pacific', detail: 'Illustrative market region. Search coverage is defined by the engagement.', x: 78, y: 42, mobileX: 80, mobileY: 45 },
-        { key: 'oceania', label: 'Oceania', detail: 'Illustrative market region. Search coverage is defined by the engagement.', x: 86, y: 72, mobileX: 80, mobileY: 67.5 },
+        { key: 'north-america', label: 'North America', detail: 'Search coverage for this region is defined by the engagement.', x: 23, y: 41, mobileX: 20, mobileY: 45 },
+        { key: 'south-america', label: 'South America', detail: 'Search coverage for this region is defined by the engagement.', x: 25, y: 67, mobileX: 30, mobileY: 68 },
+        { key: 'europe', label: 'Europe', detail: 'Search coverage for this region is defined by the engagement.', x: 50, y: 37, mobileX: 50, mobileY: 44 },
+        { key: 'africa', label: 'Africa', detail: 'Search coverage for this region is defined by the engagement.', x: 48, y: 57, mobileX: 52.5, mobileY: 62.5 },
+        { key: 'middle-east', label: 'Middle East', detail: 'Search coverage for this region is defined by the engagement.', x: 61, y: 47, mobileX: 60.8, mobileY: 41 },
+        { key: 'asia', label: 'Asia-Pacific', detail: 'Search coverage for this region is defined by the engagement.', x: 78, y: 42, mobileX: 80, mobileY: 45 },
+        { key: 'oceania', label: 'Oceania', detail: 'Search coverage for this region is defined by the engagement.', x: 86, y: 72, mobileX: 80, mobileY: 67.5 },
       ],
     },
     {
@@ -238,9 +238,9 @@
   const initialize = (root = document) => {
     const serviceArtwork = [
       ['A focused team reviewing work at a laptop', 'assets/kov-service-overview.svg', 'KOV search route connecting role definition, research, positioning, and executive conversations'],
-      ['High-Volume Job Applications', 'assets/kov-service-applications.svg', 'Illustrative application workflow with role-fit review, positioning, client approval, and submission steps'],
-      ['Outreach On Every Application', 'assets/kov-service-outreach.svg', 'Illustrative outreach sequence from research and contact identification to personalized messaging and follow-up'],
-      ['Resume & LinkedIn Rewrite', 'assets/kov-service-positioning.svg', 'Illustrative positioning framework aligning verified career experience with target-role messaging'],
+      ['High-Volume Job Applications', 'assets/kov-service-applications.svg', 'Application workflow covering role-fit review, positioning, client approval, and submission'],
+      ['Outreach On Every Application', 'assets/kov-service-outreach.svg', 'Outreach sequence from research and contact identification to personalized messaging and follow-up'],
+      ['Resume & LinkedIn Rewrite', 'assets/kov-service-positioning.svg', 'Positioning framework aligning verified career experience with target-role messaging'],
       ['Interview Prep & Negotiation', 'assets/kov-service-overview.svg', 'KOV search route connecting role definition, research, positioning, and executive conversations'],
     ];
     serviceArtwork.forEach(([alt, source, description]) => {

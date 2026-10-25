@@ -98,8 +98,8 @@
     heading.append(eyebrow, title);
     const figure = createFigure(
       'assets/kov-research-layer.svg',
-      'Illustrative research interface showing target companies, executive profiles, career histories, industry signals, professional networks, and market intelligence',
-      'Illustrative interface. No client data or performance figures.',
+      'Research interface for target companies, executive profiles, career histories, industry signals, professional networks, and market intelligence',
+      'A research workspace brings organization, role, and market information into one view.',
       'assets/kov-research-layer-mobile.svg'
     );
     layerSection.append(heading, figure);

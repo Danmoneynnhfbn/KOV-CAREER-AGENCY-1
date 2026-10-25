@@ -1,0 +1,283 @@
+{
+  "outputHtml": "roles/head-data-ai/education.html",
+  "outputMarkdown": "ai/roles/head-data-ai-education.md",
+  "canonical": "/roles/head-data-ai/education.html",
+  "title": "Head of Data and AI Career Representation in Education | KOV",
+  "heading": "Head of Data and AI career representation in Education",
+  "eyebrow": "Heads of function × Education",
+  "description": "Explore how KOV supports Head of Data and AI candidates considering Education: role positioning, career documents, target research, approved outreach, and next steps.",
+  "answer": "KOV helps Head of Data and AI candidates considering roles connected to Education connect their actual leadership remit with learning services delivered through institutions, programs, technology, or educational support. The work begins with target fit and evidence, then may include agreed research, professional positioning, approved outreach, and follow-up. The candidate retains control of decisions; employers make hiring decisions.",
+  "reviewedOn": "2026-10-23",
+  "serviceName": "Head of Data and AI career representation for Education",
+  "serviceType": "Candidate-side career representation and individual career services",
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Head of Data and AI career hub",
+      "url": "/roles/head-data-ai/"
+    }
+  ],
+  "sourceFacts": [],
+  "sourceNotes": [
+    {
+      "title": "KOV Career Agency — Private Career Representation",
+      "url": "https://www.kovcareeragency.org/services.html",
+      "checkedOn": "2026-10-23",
+      "verification": "Opened the public service page and verified the service stages and candidate-side boundaries used in this page."
+    },
+    {
+      "title": "KOV Career Agency — Individual Career Services",
+      "url": "https://www.kovcareeragency.org/candidate-services.html",
+      "checkedOn": "2026-10-23",
+      "verification": "Opened the public service page and verified the individual-service categories referenced in this page."
+    },
+    {
+      "title": "Internal source — SOC 2018 definitions workbook",
+      "url": "data/taxonomy/soc_2018_definitions.xlsx",
+      "checkedOn": "2026-10-23",
+      "verification": "Opened the local SOC reference workbook and used it only as occupation taxonomy context for Head of Data and AI; role-specific hiring or legal claims are not inferred from the taxonomy."
+    },
+    {
+      "title": "Internal source — 2022 NAICS structure workbook",
+      "url": "data/taxonomy/2022_NAICS_Structure.xlsx",
+      "checkedOn": "2026-10-23",
+      "verification": "Opened the local NAICS reference workbook and used it only as internal industry taxonomy context for Education; no sector-specific hiring statistic or regulation is claimed."
+    }
+  ],
+  "sections": [
+    {
+      "id": "head-data-ai-education-context",
+      "heading": "How Head of Data and AI work connects with Education",
+      "paragraphs": [
+        "The Head of Data and AI remit to lead data capabilities and coordinate responsible application of analytical or AI work should be described through decisions and examples, especially evidence of data products, team scope, quality practices, governance partnership, and decision value relevant to Education. The Education context involves learning services delivered through institutions, programs, technology, or educational support; examine how that structure affects learning aims, access, program delivery, workforce needs, and resource stewardship before drawing conclusions about the Head of Data and AI role. KOV's service scope for a Head of Data and AI candidate can include document preparation and agreed search activity, but cannot promise an employer's response. For Head of Data and AI materials, manage the risk of exposing sensitive datasets, overstating model capability, or omitting human oversight; support claims with data products, team scope, quality practices, governance partnership, and decision value and remove details that are not authorized for sharing."
+      ]
+    },
+    {
+      "id": "head-data-ai-education-fit",
+      "heading": "Who this Head of Data and AI and Education guide is for",
+      "paragraphs": [
+        "For Head of Data and AI work in Education, explain how the candidate could lead data capabilities and coordinate responsible application of analytical or AI work; connect that mandate to evidence of data products, team scope, quality practices, governance partnership, and decision value. The Education context involves learning services delivered through institutions, programs, technology, or educational support; examine how that structure affects learning aims, access, program delivery, workforce needs, and resource stewardship before drawing conclusions about the Head of Data and AI role. KOV can help a Head of Data and AI candidate organize an agreed search approach for Education, including documents such as resume, data leadership portfolio, project summaries, and professional profile. Where exposing sensitive datasets, overstating model capability, or omitting human oversight affects a career example, substitute an authorized summary that preserves the point about data products, team scope, quality practices, governance partnership, and decision value."
+      ]
+    },
+    {
+      "id": "head-data-ai-education-process",
+      "heading": "A candidate-led process from first discussion to next steps",
+      "paragraphs": [
+        "The Head of Data and AI remit to lead data capabilities and coordinate responsible application of analytical or AI work should be described through decisions and examples, especially evidence of data products, team scope, quality practices, governance partnership, and decision value relevant to Education. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Head of Data and AI example should separate direct responsibility from collaboration. For a Head of Data and AI target, KOV can discuss how resume, data leadership portfolio, project summaries, and professional profile support the candidate's account of data products, team scope, quality practices, governance partnership, and decision value; external steps require prior agreement. The candidate can discuss data products, team scope, quality practices, governance partnership, and decision value while protecting confidentiality by omitting names, restricted figures, and other identifying material."
+      ]
+    },
+    {
+      "id": "head-data-ai-education-documents",
+      "heading": "Documents that make Head of Data and AI experience relevant here",
+      "paragraphs": [
+        "The candidate can discuss data products, team scope, quality practices, governance partnership, and decision value while protecting confidentiality by omitting names, restricted figures, and other identifying material. An account of program or institutional scope, learner or service context, staff leadership, and improvement contribution should identify the candidate's contribution and the involvement of technology and business leaders, analysts, engineers, users, legal or risk colleagues. An employer's Education model may involve learning services delivered through institutions, programs, technology, or educational support; its implications for learning aims, access, program delivery, workforce needs, and resource stewardship should be discussed, not presumed. To assess a Head of Data and AI opportunity in Education, compare the stated remit to the candidate's record of data products, team scope, quality practices, governance partnership, and decision value."
+      ],
+      "sample": {
+        "heading": "How we sharpen a Head of Data and AI summary for Education",
+        "before": "Senior professional with a broad record of leading teams and delivering change.",
+        "after": "Head of Data and AI with a clear remit to lead data capabilities and coordinate responsible application of analytical or AI work, supported by examples of program or institutional scope, learner or service context, staff leadership, and improvement contribution."
+      },
+      "table": {
+        "headers": [
+          "Document",
+          "Emphasis for this target",
+          "Review before sharing"
+        ],
+        "rows": [
+          [
+            "Resume or CV",
+            "data products, team scope, quality practices, governance partnership, and decision value in the context of learning services delivered through institutions, programs, technology, or educational support.",
+            "Check facts, attribution, dates, and confidentiality."
+          ],
+          [
+            "Professional biography",
+            "Summarize the Head of Data and AI remit and relevance to Education.",
+            "Confirm audience and level of detail."
+          ],
+          [
+            "Career evidence brief",
+            "Choose examples that demonstrate program or institutional scope, learner or service context, staff leadership, and improvement contribution.",
+            "Use authorized information only."
+          ],
+          [
+            "Online profile",
+            "Keep public role positioning coherent with your target.",
+            "Review visibility and public disclosures."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "head-data-ai-education-service-scope",
+      "heading": "Choose the individual services that fit the work",
+      "paragraphs": [
+        "The candidate can discuss data products, team scope, quality practices, governance partnership, and decision value while protecting confidentiality by omitting names, restricted figures, and other identifying material. KOV's service scope for a Head of Data and AI candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Preparation for a Head of Data and AI conversation should address the institution type, learner groups, decision structure, and whether the role leads academic, operational, commercial, or support work; relate the response to program or institutional scope, learner or service context, staff leadership, and improvement contribution, not speculation about hiring. Use learning services delivered through institutions, programs, technology, or educational support to frame research about Education, then ask how a Head of Data and AI will work through learning aims, access, program delivery, workforce needs, and resource stewardship."
+      ],
+      "cards": [
+        {
+          "title": "Private career representation",
+          "text": "Discuss how agreed research and positioning could support a Head of Data and AI search connected with Education, including approvals for any outreach.",
+          "href": "/services.html",
+          "linkText": "Explore representation"
+        },
+        {
+          "title": "Individual career services",
+          "text": "Consider document and positioning support for Head of Data and AI materials that present data products, team scope, quality practices, governance partnership, and decision value in a way relevant to learning services delivered through institutions, programs, technology, or educational support.",
+          "href": "/candidate-services.html",
+          "linkText": "Explore individual services"
+        }
+      ]
+    },
+    {
+      "id": "head-data-ai-education-evaluation",
+      "heading": "Prepare to discuss the Education mandate",
+      "paragraphs": [
+        "A candidate exploring Education should test the assumed link between learning services delivered through institutions, programs, technology, or educational support and learning aims, access, program delivery, workforce needs, and resource stewardship against the actual Head of Data and AI role description. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Head of Data and AI example should separate direct responsibility from collaboration. KOV's service scope for a Head of Data and AI candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Review each Head of Data and AI example for exposing sensitive datasets, overstating model capability, or omitting human oversight, then describe the candidate's decisions without overstating their control over technology and business leaders, analysts, engineers, users, legal or risk colleagues."
+      ]
+    },
+    {
+      "id": "head-data-ai-education-mistakes",
+      "heading": "Common positioning mistakes for Head of Data and AI candidates in Education",
+      "paragraphs": [
+        "Position a Head of Data and AI career by linking lead data capabilities and coordinate responsible application of analytical or AI work to program or institutional scope, learner or service context, staff leadership, and improvement contribution, then clarify which part of that work the candidate actually owned. Explain how technology and business leaders, analysts, engineers, users, legal or risk colleagues contributed to the candidate's work and distinguish that shared context from evidence of data products, team scope, quality practices, governance partnership, and decision value. The service plan should fit the candidate's Head of Data and AI priorities; agree research, materials, and any outreach before contact occurs. Review each Head of Data and AI example for exposing sensitive datasets, overstating model capability, or omitting human oversight, then describe the candidate's decisions without overstating their control over technology and business leaders, analysts, engineers, users, legal or risk colleagues."
+      ],
+      "bullets": [
+        "Treat Education as one uniform employer type; distinguish the actual organization and role.",
+        "Use a Head of Data and AI title without explaining lead data capabilities and coordinate responsible application of analytical or AI work.",
+        "Present program or institutional scope, learner or service context, staff leadership, and improvement contribution without clarifying personal contribution or context.",
+        "Assume a specific recruiter, board, or hiring route without confirming it for the opportunity.",
+        "Disclose restricted information to demonstrate credibility; use an authorized summary instead."
+      ]
+    },
+    {
+      "id": "head-data-ai-education-outreach",
+      "heading": "Keep research, confidentiality, and outreach aligned",
+      "paragraphs": [
+        "Do not resolve uncertainty about exposing sensitive datasets, overstating model capability, or omitting human oversight through assumption; verify the requirement and use only supportable Head of Data and AI claims. Career representation remains candidate-led: KOV can support a Head of Data and AI search, while the candidate approves the goals and disclosures. The candidate's record of data products, team scope, quality practices, governance partnership, and decision value should be set beside the role of learners, families, educators, administrators, owners or boards, and community partners, so shared results are attributed fairly. A Head of Data and AI candidate should show how data products, team scope, quality practices, governance partnership, and decision value supported the work to lead data capabilities and coordinate responsible application of analytical or AI work, with the Education setting made explicit."
+      ]
+    },
+    {
+      "id": "head-data-ai-education-interview",
+      "heading": "Prepare for conversations about Education work",
+      "paragraphs": [
+        "The Education context involves learning services delivered through institutions, programs, technology, or educational support; examine how that structure affects learning aims, access, program delivery, workforce needs, and resource stewardship before drawing conclusions about the Head of Data and AI role. An account of program or institutional scope, learner or service context, staff leadership, and improvement contribution should identify the candidate's contribution and the involvement of technology and business leaders, analysts, engineers, users, legal or risk colleagues. The candidate decides whether to pursue a Head of Data and AI opportunity. KOV can support agreed research and preparation concerning Education. Good preparation for Head of Data and AI work includes a safe way to explain exposing sensitive datasets, overstating model capability, or omitting human oversight and a clear distinction between fact and inference."
+      ]
+    },
+    {
+      "id": "head-data-ai-education-markets",
+      "heading": "Run the search thoughtfully in each target market",
+      "paragraphs": [
+        "The candidate can discuss data products, team scope, quality practices, governance partnership, and decision value while protecting confidentiality by omitting names, restricted figures, and other identifying material. An account of program or institutional scope, learner or service context, staff leadership, and improvement contribution should identify the candidate's contribution and the involvement of technology and business leaders, analysts, engineers, users, legal or risk colleagues. Use learning services delivered through institutions, programs, technology, or educational support to frame research about Education, then ask how a Head of Data and AI will work through learning aims, access, program delivery, workforce needs, and resource stewardship. A precise Head of Data and AI story ties data products, team scope, quality practices, governance partnership, and decision value to the mandate of lead data capabilities and coordinate responsible application of analytical or AI work, without suggesting that the title alone establishes fit."
+      ],
+      "tabs": [
+        {
+          "name": "Saudi Arabia",
+          "text": "Saudi Arabia: assess how lead data capabilities and coordinate responsible application of analytical or AI work relates to learning services delivered through institutions, programs, technology, or educational support; confirm local role questions and agree any outreach before contact."
+        },
+        {
+          "name": "UAE",
+          "text": "UAE: assess how lead data capabilities and coordinate responsible application of analytical or AI work relates to learning services delivered through institutions, programs, technology, or educational support; confirm local role questions and agree any outreach before contact."
+        },
+        {
+          "name": "United Kingdom",
+          "text": "United Kingdom: assess how lead data capabilities and coordinate responsible application of analytical or AI work relates to learning services delivered through institutions, programs, technology, or educational support; confirm local role questions and agree any outreach before contact."
+        },
+        {
+          "name": "Dubai",
+          "text": "Dubai: assess how lead data capabilities and coordinate responsible application of analytical or AI work relates to learning services delivered through institutions, programs, technology, or educational support; confirm local role questions and agree any outreach before contact."
+        },
+        {
+          "name": "Australia",
+          "text": "Australia: assess how lead data capabilities and coordinate responsible application of analytical or AI work relates to learning services delivered through institutions, programs, technology, or educational support; confirm local role questions and agree any outreach before contact."
+        },
+        {
+          "name": "Africa",
+          "text": "Africa: assess how lead data capabilities and coordinate responsible application of analytical or AI work relates to learning services delivered through institutions, programs, technology, or educational support; confirm local role questions and agree any outreach before contact."
+        }
+      ],
+      "cards": [
+        {
+          "title": "Dubai market guidance",
+          "text": "Consider whether Dubai fits this Head of Data and AI target in Education; compare the proposed work with lead data capabilities and coordinate responsible application of analytical or AI work before discussing approved next steps.",
+          "href": "/markets/executive-job-search-dubai.html",
+          "linkText": "Dubai search support"
+        },
+        {
+          "title": "United Kingdom market guidance",
+          "text": "Use KOV's London page to start a discussion of Head of Data and AI opportunities connected with Education, then verify the role's location and scope.",
+          "href": "/markets/executive-job-search-london.html",
+          "linkText": "London search support"
+        }
+      ]
+    },
+    {
+      "id": "head-data-ai-education-related",
+      "heading": "Related role and industry guides",
+      "paragraphs": [
+        "Compare lead data capabilities and coordinate responsible application of analytical or AI work with the operating context of Education (learning services delivered through institutions, programs, technology, or educational support); the separate hub pages add detail about each side of that decision.",
+        "Adjacent functions may share stakeholders, but the candidate should test each remit against program or institutional scope, learner or service context, staff leadership, and improvement contribution and their own evidence before selecting a target."
+      ],
+      "cards": [
+        {
+          "title": "Head of Data and AI career hub",
+          "text": "Review the role-wide approach to lead data capabilities and coordinate responsible application of analytical or AI work and the evidence expected for that scope.",
+          "href": "/roles/head-data-ai/",
+          "linkText": "Return to Head of Data and AI hub"
+        },
+        {
+          "title": "Education industry hub",
+          "text": "Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.",
+          "href": "/industries/education/",
+          "linkText": "Explore Education"
+        },
+        {
+          "title": "Chief Executive Officer in Education",
+          "text": "Contrast set organization-wide direction and coordinate executive work with the Head of Data and AI remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.",
+          "href": "/roles/ceo/education.html",
+          "linkText": "Explore Chief Executive Officer"
+        },
+        {
+          "title": "Chief Operating Officer in Education",
+          "text": "Contrast align operating functions, delivery systems, and organizational priorities with the Head of Data and AI remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.",
+          "href": "/roles/coo/education.html",
+          "linkText": "Explore Chief Operating Officer"
+        },
+        {
+          "title": "Head of Data and AI in Manufacturing",
+          "text": "Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with learning services delivered through institutions, programs, technology, or educational support and identify how the Head of Data and AI remit changes.",
+          "href": "/roles/head-data-ai/manufacturing.html",
+          "linkText": "Explore Manufacturing"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Which questions should a Head of Data and AI resolve before a target discussion in Education?",
+      "answer": "A Head of Data and AI candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. Explore how the role will lead data capabilities and coordinate responsible application of analytical or AI work and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints."
+    },
+    {
+      "question": "Which parts of a Head of Data and AI career story fit the needs of Education?",
+      "answer": "Describe an instance where the candidate could lead data capabilities and coordinate responsible application of analytical or AI work; connect its decisions and learning to learning services delivered through institutions, programs, technology, or educational support. The account should explain what the candidate owned, how learners, families, educators, administrators, owners or boards, and community partners were involved, and why the example is pertinent to this role rather than a generic sector claim."
+    },
+    {
+      "question": "What should a Head of Data and AI prepare in writing before targeting Education?",
+      "answer": "Possible materials include resume, data leadership portfolio, project summaries, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or institutional scope, learner or service context, staff leadership, and improvement contribution. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted."
+    },
+    {
+      "question": "What should a Head of Data and AI approve before outreach in Education?",
+      "answer": "First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Head of Data and AI candidate's service scope; the candidate approves external communication. No one route should be assumed for all Education employers."
+    },
+    {
+      "question": "How should a Head of Data and AI compare title and remit in Education?",
+      "answer": "Title is only a label. Establish what the employer means by Head of Data and AI in this Education organization and how the person will work with learners, families, educators, administrators, owners or boards, and community partners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries."
+    },
+    {
+      "question": "Will KOV secure a meeting for a Head of Data and AI with an employer in Education?",
+      "answer": "KOV does not guarantee introductions, interviews, offers, or employment for a Head of Data and AI search. Service activity can be agreed with the candidate, but the availability of a contact and any employer response are outside KOV's control."
+    }
+  ]
+}

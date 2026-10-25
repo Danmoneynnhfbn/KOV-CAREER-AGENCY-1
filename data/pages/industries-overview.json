@@ -1,0 +1,323 @@
+{
+  "outputHtml": "industries/index.html",
+  "outputMarkdown": "ai/industries/index.md",
+  "canonical": "/industries/",
+  "title": "Career Representation by Industry | KOV Career Agency",
+  "heading": "Career representation by industry",
+  "eyebrow": "Industry-aware career support",
+  "description": "Explore KOV's industry-aware approach to career representation, with a current Legal Services guide and support for positioning, documents, research, and professional outreach.",
+  "answer": "Industry context can shape how you explain your experience, but your career story still needs to be grounded in your own work and evidence. KOV helps professionals clarify target direction, prepare relevant materials, and agree candidate-side search support. Start with the available Legal Services guide.",
+  "reviewedOn": "2026-10-23",
+  "serviceName": "Industry-aware career representation",
+  "serviceType": "Candidate-side career representation and individual career services",
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "url": "/"
+    }
+  ],
+  "sourceFacts": [
+    {
+      "text": "KOV describes private career representation as candidate-side support that can include agreed target strategy, research, positioning, approved outreach, and follow-up.",
+      "source": "KOV Career Agency",
+      "url": "https://www.kovcareeragency.org/services.html"
+    }
+  ],
+  "sourceNotes": [
+    {
+      "title": "KOV Career Agency — Private Career Representation",
+      "url": "https://www.kovcareeragency.org/services.html",
+      "checkedOn": "2026-10-23",
+      "verification": "Opened the public service page and verified the candidate-side service elements referenced in this overview."
+    },
+    {
+      "title": "KOV Career Agency — Individual Career Services",
+      "url": "https://www.kovcareeragency.org/candidate-services.html",
+      "checkedOn": "2026-10-23",
+      "verification": "Opened the public service page and verified the available individual service categories referenced in this overview."
+    }
+  ],
+  "sections": [
+    {
+      "id": "industry-guides",
+      "heading": "Start with the available industry guide",
+      "lead": "The current industry guide focuses on Legal Services and connects industry context with candidate-side career support.",
+      "paragraphs": [
+        "A useful industry-specific career plan considers the work you have done, the environment in which you did it, and the type of role you want next. It should not rely on broad assumptions about every employer or market. Identify the experience that is relevant to your target and be ready to explain your own responsibilities and decisions.",
+        "The Legal Services guide considers how a professional may present experience for that industry and how KOV's services can support positioning, documents, research, outreach, and next steps. It is not a substitute for legal advice or a determination of professional eligibility."
+      ],
+      "cards": [
+        {
+          "title": "Agriculture, Food and Forestry",
+          "text": "Explore candidate-side career planning for organizations shaped by production linked to land, biological cycles, processing, and supply relationships.",
+          "href": "/industries/agriculture-food-forestry/",
+          "linkText": "Explore Agriculture, Food and Forestry"
+        },
+        {
+          "title": "Energy, Mining and Oil and Gas",
+          "text": "Explore candidate-side career planning for organizations shaped by asset-intensive work spanning development, extraction, generation, processing, or energy services.",
+          "href": "/industries/energy-mining-oil-gas/",
+          "linkText": "Explore Energy, Mining and Oil and Gas"
+        },
+        {
+          "title": "Utilities",
+          "text": "Explore candidate-side career planning for organizations shaped by essential network or service operations with continuity, infrastructure, and customer responsibilities.",
+          "href": "/industries/utilities/",
+          "linkText": "Explore Utilities"
+        },
+        {
+          "title": "Construction and Engineering",
+          "text": "Explore candidate-side career planning for organizations shaped by project-based delivery involving design, procurement, technical coordination, and site execution.",
+          "href": "/industries/construction-engineering/",
+          "linkText": "Explore Construction and Engineering"
+        },
+        {
+          "title": "Manufacturing",
+          "text": "Explore candidate-side career planning for organizations shaped by conversion of materials into products through coordinated processes, equipment, people, and quality systems.",
+          "href": "/industries/manufacturing/",
+          "linkText": "Explore Manufacturing"
+        },
+        {
+          "title": "Wholesale and Distribution",
+          "text": "Explore candidate-side career planning for organizations shaped by movement and availability of goods through purchasing, inventory, channel, and delivery relationships.",
+          "href": "/industries/wholesale-distribution/",
+          "linkText": "Explore Wholesale and Distribution"
+        },
+        {
+          "title": "Retail and E-commerce",
+          "text": "Explore candidate-side career planning for organizations shaped by customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.",
+          "href": "/industries/retail-ecommerce/",
+          "linkText": "Explore Retail and E-commerce"
+        },
+        {
+          "title": "Transportation and Logistics",
+          "text": "Explore candidate-side career planning for organizations shaped by movement, handling, and coordination of people or goods across routes and operating networks.",
+          "href": "/industries/transportation-logistics/",
+          "linkText": "Explore Transportation and Logistics"
+        },
+        {
+          "title": "Technology, Media and Telecom",
+          "text": "Explore candidate-side career planning for organizations shaped by digital products, platforms, content, communications, or technology-enabled services.",
+          "href": "/industries/technology-media-telecom/",
+          "linkText": "Explore Technology, Media and Telecom"
+        },
+        {
+          "title": "Finance and Insurance",
+          "text": "Explore candidate-side career planning for organizations shaped by financial products and services supported by customer relationships, information, operations, and oversight.",
+          "href": "/industries/finance-insurance/",
+          "linkText": "Explore Finance and Insurance"
+        },
+        {
+          "title": "Real Estate and Leasing",
+          "text": "Explore candidate-side career planning for organizations shaped by property ownership, development, brokerage, management, or leasing relationships.",
+          "href": "/industries/real-estate-leasing/",
+          "linkText": "Explore Real Estate and Leasing"
+        },
+        {
+          "title": "Legal Services",
+          "text": "Explore candidate-side career planning for organizations shaped by legal advice, representation, transactions, dispute work, or related professional services.",
+          "href": "/industries/legal-services/",
+          "linkText": "Explore Legal Services"
+        },
+        {
+          "title": "Consulting and Other Professional Services",
+          "text": "Explore candidate-side career planning for organizations shaped by expertise-led advisory or delivery work provided to organizations or individuals.",
+          "href": "/industries/consulting-professional-services/",
+          "linkText": "Explore Consulting and Other Professional Services"
+        },
+        {
+          "title": "Holding Companies and Corporate Groups",
+          "text": "Explore candidate-side career planning for organizations shaped by ownership or coordination of multiple entities, portfolios, or operating businesses.",
+          "href": "/industries/holding-companies/",
+          "linkText": "Explore Holding Companies and Corporate Groups"
+        },
+        {
+          "title": "Business Support and Facilities",
+          "text": "Explore candidate-side career planning for organizations shaped by support services, workplace operations, facilities, administration, or outsourced capabilities.",
+          "href": "/industries/business-support-facilities/",
+          "linkText": "Explore Business Support and Facilities"
+        },
+        {
+          "title": "Education",
+          "text": "Explore candidate-side career planning for organizations shaped by learning services delivered through institutions, programs, technology, or educational support.",
+          "href": "/industries/education/",
+          "linkText": "Explore Education"
+        },
+        {
+          "title": "Healthcare and Social Care",
+          "text": "Explore candidate-side career planning for organizations shaped by care, health-related services, or social support delivered by teams and organizations.",
+          "href": "/industries/healthcare-social-care/",
+          "linkText": "Explore Healthcare and Social Care"
+        },
+        {
+          "title": "Arts, Entertainment and Sports",
+          "text": "Explore candidate-side career planning for organizations shaped by creative, cultural, event, audience, or sporting activity supported by teams and organizations.",
+          "href": "/industries/arts-entertainment-sports/",
+          "linkText": "Explore Arts, Entertainment and Sports"
+        },
+        {
+          "title": "Hospitality and Food Service",
+          "text": "Explore candidate-side career planning for organizations shaped by guest-facing accommodation, food, venue, or experience services delivered through people and operations.",
+          "href": "/industries/hospitality-food-service/",
+          "linkText": "Explore Hospitality and Food Service"
+        },
+        {
+          "title": "Other Services",
+          "text": "Explore candidate-side career planning for organizations shaped by personal, repair, membership, community, or specialized services not covered by the other target sectors.",
+          "href": "/industries/other-services/",
+          "linkText": "Explore Other Services"
+        },
+        {
+          "title": "Public Sector and Government",
+          "text": "Explore candidate-side career planning for organizations shaped by public administration, public programs, or services delivered under a public mandate.",
+          "href": "/industries/public-sector-government/",
+          "linkText": "Explore Public Sector and Government"
+        }
+      ]
+    },
+    {
+      "id": "industry-context",
+      "heading": "Use context without overgeneralizing",
+      "paragraphs": [
+        "An industry label alone cannot establish what a particular organization needs, how a hiring decision will be made, or what qualifications apply. Treat context as a prompt for better questions. Review the actual role description, understand the responsibilities, and confirm any requirements with the employer or relevant authority.",
+        "When preparing your career narrative, explain the specific environment, stakeholders, work, and outcomes you can substantiate. If the experience is adjacent rather than direct, describe the transferable elements and the learning curve without presenting them as identical."
+      ],
+      "table": {
+        "headers": [
+          "Question",
+          "What to clarify",
+          "How it informs your story"
+        ],
+        "rows": [
+          [
+            "What work did you perform?",
+            "Your responsibilities, decisions, and collaborators",
+            "Describe your personal contribution accurately"
+          ],
+          [
+            "What is the target role asking for?",
+            "The stated remit, qualifications, and conditions",
+            "Prioritize relevant, supportable evidence"
+          ],
+          [
+            "What needs confirmation?",
+            "Requirements specific to the employer or jurisdiction",
+            "Ask rather than infer or imply eligibility"
+          ],
+          [
+            "What information is sensitive?",
+            "Confidential matters, clients, colleagues, and employer data",
+            "Use appropriate discretion in documents and outreach"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "service-process",
+      "heading": "How KOV works with your target industry",
+      "paragraphs": [
+        "KOV begins with a conversation about your goals, experience, constraints, and the support you are considering. For private career representation, the public service description covers agreed target strategy, research, positioning, approved outreach, and follow-up. The scope and permissions are discussed before work begins. Source: KOV Career Agency.",
+        "Industry context can inform what to research and which parts of your background to emphasize. It does not replace reviewing the actual opportunity. You remain in control of career decisions and determine what information may be shared."
+      ],
+      "bullets": [
+        "Define the role and type of organization you want to explore.",
+        "Identify the evidence and materials relevant to that direction.",
+        "Agree what research and outreach are appropriate.",
+        "Review communications and disclosure boundaries before contact.",
+        "Prepare for conversations and decide how you want to respond."
+      ]
+    },
+    {
+      "id": "documents-and-positioning",
+      "heading": "Prepare materials that fit the opportunity",
+      "paragraphs": [
+        "A resume, CV, profile, biography, or supporting document should connect your experience to the work under consideration. Use language that is clear to the intended reader, explain specialized terms when useful, and state the scale of your responsibility without disclosing protected or confidential information.",
+        "KOV's individual services include support for resumes and CVs, LinkedIn profiles, career documents, portfolios, personal career websites, career positioning, and coaching. The right combination depends on the objective and the scope agreed with you."
+      ],
+      "sample": {
+        "heading": "A generic example of clearer sector context",
+        "before": "Worked with clients on complex matters.",
+        "after": "Advised organizational clients on complex matters, coordinating the work and communicating practical options to relevant stakeholders."
+      },
+      "bullets": [
+        "Name the work and your role in it.",
+        "Use examples that can be discussed without disclosing confidential details.",
+        "Avoid implying a credential, license, or authorization you do not hold.",
+        "Tailor the emphasis to the opportunity while preserving factual accuracy."
+      ]
+    },
+    {
+      "id": "research-and-outreach",
+      "heading": "Research organizations before outreach",
+      "paragraphs": [
+        "A thoughtful search begins with questions about fit. Consider the organization's work, the role's stated remit, reporting relationships, location, working conditions, and any stated requirements. Confirm details with reliable sources and the organization itself when needed.",
+        "If KOV is supporting agreed research or outreach, discuss what will be investigated, which contacts are appropriate, and what may be communicated. Professional contact should be relevant, respectful, and consistent with the candidate's preferences. No message can guarantee that an organization will respond."
+      ],
+      "tabs": [
+        {
+          "name": "Before targeting",
+          "text": "Identify the kind of work and organization that fits your goals. Separate confirmed information from questions that need follow-up."
+        },
+        {
+          "name": "Before contact",
+          "text": "Agree the purpose, recipient, message, and information that may be shared. Consider confidentiality and potential conflicts."
+        },
+        {
+          "name": "After a response",
+          "text": "Review the opportunity against your priorities, clarify open points, and decide whether to continue the conversation."
+        }
+      ]
+    },
+    {
+      "id": "interview-and-choice",
+      "heading": "Prepare for evaluation and make your decision",
+      "paragraphs": [
+        "Prepare examples that demonstrate your judgment, communication, collaboration, and relevant expertise. A concise example explains the setting, your responsibility, the options you considered, the action you took, and what followed. Be candid about the limits of your experience and thoughtful about questions you need answered.",
+        "If an offer is made, review the terms and role details in writing. Compare the opportunity with your priorities and ask for clarification before deciding. KOV may provide agreed coaching or offer support, but the employer makes its hiring decision and you choose how to proceed."
+      ]
+    },
+    {
+      "id": "services",
+      "heading": "Select services around your needs",
+      "paragraphs": [
+        "Some candidates want focused help on career materials or interview preparation; others want to discuss a broader private career representation engagement. KOV describes both individual career services and candidate-side representation. Scope, deliverables, and terms are discussed before work begins."
+      ],
+      "cards": [
+        {
+          "title": "Private career representation",
+          "text": "Discuss candidate-side support for target strategy, research, positioning, approved outreach, and follow-up.",
+          "href": "/services.html",
+          "linkText": "Explore representation"
+        },
+        {
+          "title": "Individual career services",
+          "text": "Review focused services for documents, professional profiles, positioning, portfolios, websites, and coaching.",
+          "href": "/candidate-services.html",
+          "linkText": "Explore individual services"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Which industry guides are available now?",
+      "answer": "The current industry-specific guide is for Legal Services. It links industry context with candidate-side career support."
+    },
+    {
+      "question": "Does an industry guide confirm that I meet a professional requirement?",
+      "answer": "No. Confirm role-specific qualifications, licensing, and eligibility with the employer or relevant authority."
+    },
+    {
+      "question": "How does KOV use industry context?",
+      "answer": "Context can help frame research and decide which experience to emphasize. Your materials and outreach should still reflect your own verifiable responsibilities and the actual opportunity."
+    },
+    {
+      "question": "Can outreach be limited to organizations I approve?",
+      "answer": "Discuss target selection, contact, and disclosure with KOV before work begins. Any outreach should follow the agreed process and approvals."
+    },
+    {
+      "question": "Can I use KOV for one career document instead of a full search?",
+      "answer": "KOV lists individual career services as well as private career representation. Discuss the specific support you need and the appropriate scope."
+    }
+  ]
+}

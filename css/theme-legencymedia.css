@@ -1,0 +1,14 @@
+body[data-theme="legencymedia"] {
+  --kov-design-paper: #fbfaf8;
+  --kov-design-ink: #1b1d22;
+  --kov-design-muted: #62646a;
+  --kov-design-line: rgba(27, 29, 34, .13);
+  --kov-design-accent: #4c5367;
+  --kov-design-accent-soft: #eceef2;
+  --kov-design-radius: .75rem;
+  --kov-design-shadow: 0 20px 55px rgba(27, 29, 34, .09);
+  --kov-design-heading-font: "Inter", Arial, sans-serif;
+  --kov-design-body-font: "Inter", Arial, sans-serif;
+  --kov-design-container: 74rem;
+  --kov-design-section-space: clamp(3.5rem, 7vw, 7rem);
+}

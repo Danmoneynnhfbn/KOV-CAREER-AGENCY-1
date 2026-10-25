@@ -1,0 +1,945 @@
+{
+  "original_flat_file_count": 136,
+  "files": [
+    {
+      "file": "(INDEX)",
+      "bytes": 185905,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "(INDEX) 2.COM",
+      "bytes": 229363,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "18712.js",
+      "bytes": 306,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "2.e_KC48Y__NKu6p.webp",
+      "bytes": 14908,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "3SnMay4l8aTWwSlgRbIQgqfnM.jpg",
+      "bytes": 31802,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "4.Bendmdk4_ZA4o0f.webp",
+      "bytes": 19718,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "54535.js",
+      "bytes": 8842,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "58771.js",
+      "bytes": 9016,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "69722eae5e65d17cc3207793_Vector 58 (3).svg",
+      "bytes": 213,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "6972312c0821cc4ba680f0d2_Vector 60 (1).svg",
+      "bytes": 217,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "6996dc77fdc109b630795d58_Divider.svg",
+      "bytes": 1099,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "699c27d4d0107831c69e0e82_Vector.png",
+      "bytes": 659,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "69e61218e9bf98ea868e1e22_→.png",
+      "bytes": 714,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "6a140385117bd9c5fd2cd554_IMG_6707 3 1 (1)",
+      "bytes": 132711,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "6a140385117bd9c5fd2cd554_IMG_6707 3 1 (1).avif",
+      "bytes": 132711,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "8.BJOdODdW_ZCSK7G.webp",
+      "bytes": 0,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "AZ7tNGb9S.js",
+      "bytes": 28205,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "Accordion.astro_astro_type_script_index_0_lang.DSwuXYVj.js",
+      "bytes": 1918,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "AeoKVmuun.js",
+      "bytes": 16439,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "Base.D9X9tJbq.css",
+      "bytes": 0,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "Base.astro_astro_type_script_index_0_lang.BUtqXeGZ.js",
+      "bytes": 45715,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "Base.astro_astro_type_script_index_1_lang.s69FG7Vr.js",
+      "bytes": 939,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "C9MYLmKC9Vj5l4xZaqouKWwJennSeFIkIDxq7_rC2_I.BVvYUEJK.mjs",
+      "bytes": 629633,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "ConsentBanner.Bjqg_HPr.css",
+      "bytes": 0,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "ConsentBanner.astro_astro_type_script_index_0_lang.BlWZOVqD.js",
+      "bytes": 59,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "CtaSection.astro_astro_type_script_index_0_lang.D7E36qbn.js",
+      "bytes": 896,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "EaiTAK72P.js",
+      "bytes": 9984,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "Footer.astro_astro_type_script_index_0_lang.QLgbxcz6.js",
+      "bytes": 4578,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "Gy2TVxErZ.js",
+      "bytes": 12687,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "Header.astro_astro_type_script_index_0_lang.BshwnXZ1.js",
+      "bytes": 637,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "INDEX 2.js",
+      "bytes": 4952,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "INDEX 3.COM",
+      "bytes": 100515,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "Layout.astro_astro_type_script_index_0_lang.fpiSk6T2.js",
+      "bytes": 19502,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "Layout.deVx8v1T.css",
+      "bytes": 45160,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "MobileMenu.astro_astro_type_script_index_0_lang.W2u8OanM.js",
+      "bytes": 2633,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "MorphSVGPlugin.min.js",
+      "bytes": 21195,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "Nav.astro_astro_type_script_index_0_lang.BTi8Y4C0.js",
+      "bytes": 1609,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "NumberAnimator.js",
+      "bytes": 4093,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "OBESERVER.MIN",
+      "bytes": 10014,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "Process.astro_astro_type_script_index_0_lang.DazAsBy9.js",
+      "bytes": 3795,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "ScrollToPlugin.min.js",
+      "bytes": 4059,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "ScrollTrigger.BTGKJApg.js",
+      "bytes": 42729,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "ScrollTrigger.min.js",
+      "bytes": 44575,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "SectionHeading.astro_astro_type_script_index_0_lang.Bd13CKtA.js",
+      "bytes": 192,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "SplitText.min.js",
+      "bytes": 7732,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "Testimonials.astro_astro_type_script_index_0_lang.CclCj2LR.js",
+      "bytes": 2449,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "Utils-Component-Message-ZVoG.js@cRfVFRl0izzBulKFjOAe",
+      "bytes": 315,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "Utils-FINc.js",
+      "bytes": 174,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "VYYzJqH4K.js",
+      "bytes": 902,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "Video.astro_astro_type_script_index_0_lang.CLr18kBA.js",
+      "bytes": 1544,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "YRjbxp6Sz.js",
+      "bytes": 4100,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "ZuySaH1Zq.js",
+      "bytes": 3853,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "analytics.BtjSrBkX.js",
+      "bytes": 2579,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "animate.ts",
+      "bytes": 2339,
+      "assigned_to": []
+    },
+    {
+      "file": "api.js",
+      "bytes": 86732,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "browser.ts",
+      "bytes": 201,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "chunk-B2CCIJNA.mjs",
+      "bytes": 458866,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "chunk-BEAJFPMP.mjs",
+      "bytes": 1798,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "chunk-C4Q63SZJ.mjs",
+      "bytes": 7409,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "chunk-CS7BPPVU.mjs",
+      "bytes": 4043,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "chunk-WLHSDIGQ.mjs",
+      "bytes": 3858,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "chunk-WOEOGJ2W.mjs",
+      "bytes": 209,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "chunk-YRQ7G4QH.mjs",
+      "bytes": 772,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "circletype.min.js",
+      "bytes": 15452,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "client.js",
+      "bytes": 258,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "cookie-consent.js",
+      "bytes": 60645,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "de9LerbidJHEhyLZzXP4xOOPBo.png",
+      "bytes": 122597,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "debounce.ts",
+      "bytes": 338,
+      "assigned_to": []
+    },
+    {
+      "file": "dimensions.ts",
+      "bytes": 2291,
+      "assigned_to": []
+    },
+    {
+      "file": "donut-poster.jpg",
+      "bytes": 60103,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "editorbar.IPPCEFEB.mjs",
+      "bytes": 2300,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "enquiry-attribution.PFjC6zi6.js",
+      "bytes": 4900,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "framer-motion.7WZJ4B6X.mjs",
+      "bytes": 14207,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "framer.BDeuqBwN.mjs",
+      "bytes": 467477,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "framer.FA4L5YJY.mjs",
+      "bytes": 1670839,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "global.Btqt_PqA.css",
+      "bytes": 16313,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "gsap.Bi_c5vh2.js",
+      "bytes": 69559,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "gsap.min.js",
+      "bytes": 72927,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "heroVariant.BTDGfgkY.js",
+      "bytes": 18643,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "hhVBTImpMdGjuUaZV3hNY643gM.png",
+      "bytes": 95359,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "home-planet-poster.webp",
+      "bytes": 4580,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "home-planet.webp",
+      "bytes": 66428,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "ievuG5MwN.js",
+      "bytes": 20427,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "index.CfaRJiv9.css",
+      "bytes": 18833,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "index.astro_astro_type_script_index_0_lang.Cpx8xfvP.js",
+      "bytes": 10718,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "index.js",
+      "bytes": 131935,
+      "assigned_to": []
+    },
+    {
+      "file": "index1.js",
+      "bytes": 7777,
+      "assigned_to": []
+    },
+    {
+      "file": "init.mjs",
+      "bytes": 8323,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "isMotionValue.js",
+      "bytes": 268,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "jquery-3.5.1.min.dc5e7f18c8.js",
+      "bytes": 89476,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "jsx-runtime.js",
+      "bytes": 758,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "kQc2g9qda.js",
+      "bytes": 8080,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "lH6ZrZT3d.js",
+      "bytes": 12200,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "lazyVideo.CRIk4DNq.js",
+      "bytes": 540,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "lenis.min.js",
+      "bytes": 17709,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "lenis.mjs",
+      "bytes": 13400,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "lenis.ts",
+      "bytes": 30310,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "lightScramble.cIWWO6ae.js",
+      "bytes": 1544,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "linkedin-measurement.lTUbRn4s.js",
+      "bytes": 1225,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "live-dither.56UUjvFN.js",
+      "bytes": 121937,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "main",
+      "bytes": 12567,
+      "assigned_to": [
+        "krackerz",
+        "leeholmes",
+        "legencymedia",
+        "neutomni"
+      ]
+    },
+    {
+      "file": "maths.ts",
+      "bytes": 1668,
+      "assigned_to": []
+    },
+    {
+      "file": "motion.CLq4oLNv.mjs",
+      "bytes": 151399,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "nav-dither.DfmOHrp2.js",
+      "bytes": 2107,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "neutomni-026b92.c9d1dd2a.74bcab7a0490916e.js",
+      "bytes": 394201,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "neutomni-026b92.schunk.1dc753494da16c63.js",
+      "bytes": 114434,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "neutomni-026b92.schunk.36b8fb49256177c8.js",
+      "bytes": 41429,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "neutomni-026b92.schunk.c42549641b7d4501.js",
+      "bytes": 304844,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "neutomni-026b92.shared.a1e58e004.min.css",
+      "bytes": 0,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "nuvNNyQHu.js",
+      "bytes": 3240,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "package.json",
+      "bytes": 0,
+      "assigned_to": []
+    },
+    {
+      "file": "pixelateImageRender.DEL1djP7.js",
+      "bytes": 7320,
+      "assigned_to": [
+        "leeholmes"
+      ]
+    },
+    {
+      "file": "propUtils.js",
+      "bytes": 2653,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "qbPlh37SV.js",
+      "bytes": 10913,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "react.CgCWcLwZ.mjs",
+      "bytes": 144643,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "rolldown-runtime.Dh6celcD.mjs",
+      "bytes": 629,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "script",
+      "bytes": 31382,
+      "assigned_to": [
+        "krackerz",
+        "leeholmes",
+        "legencymedia",
+        "neutomni"
+      ]
+    },
+    {
+      "file": "script_main.o2gOKek9.mjs",
+      "bytes": 120161,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "separates-direct-src.jpg",
+      "bytes": 0,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "separates-direct.png",
+      "bytes": 13969,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "separates-speed-src.jpg",
+      "bytes": 19866,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "separates-speed.png",
+      "bytes": 13671,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "separates-systems-src.jpg",
+      "bytes": 16987,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "separates-systems.png",
+      "bytes": 15869,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "shared-lib.fQS5Rh96.mjs",
+      "bytes": 147353,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "siteMetadata.js",
+      "bytes": 754,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "sl.js",
+      "bytes": 32513,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "split-type",
+      "bytes": 11804,
+      "assigned_to": [
+        "neutomni"
+      ]
+    },
+    {
+      "file": "ssg-sandbox_shims.js",
+      "bytes": 491,
+      "assigned_to": []
+    },
+    {
+      "file": "td6148Lvm.js",
+      "bytes": 8045,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "tex-hero.png",
+      "bytes": 304087,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "tex-noma.png",
+      "bytes": 32191,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "useControlledState.js",
+      "bytes": 464,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "useUniqueClassName.js",
+      "bytes": 872,
+      "assigned_to": [
+        "krackerz"
+      ]
+    },
+    {
+      "file": "vce701823e78c4301a35b7e07294d87301792088814092",
+      "bytes": 31853,
+      "assigned_to": [
+        "legencymedia"
+      ]
+    },
+    {
+      "file": "virtual-scroll.ts",
+      "bytes": 3856,
+      "assigned_to": []
+    }
+  ]
+}

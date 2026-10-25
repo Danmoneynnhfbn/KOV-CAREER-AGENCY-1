@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
-  <title id="title">Illustrative KOV research layer</title>
-  <desc id="desc">Conceptual mobile research interface with target companies, executive profiles, career histories, industry signals, professional networks, and market intelligence. No client data or performance figures are shown.</desc>
+  <title id="title">KOV research workspace</title>
+  <desc id="desc">Mobile research workspace organizing target companies, executive profiles, career histories, industry signals, professional networks, and market intelligence.</desc>
   <rect width="720" height="900" fill="#f8f5ef"/>
   <path d="M42 88H678M42 844H678" stroke="#cdd1d6"/>
-  <text x="48" y="54" fill="#b94a20" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2.5">ILLUSTRATIVE INTERFACE</text>
+  <text x="48" y="54" fill="#b94a20" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2.5">RESEARCH WORKSPACE</text>
   <text x="48" y="146" fill="#090e13" font-family="Fraunces, Georgia, serif" font-size="42">KOV Research Layer</text>
   <text x="48" y="186" fill="#555b62" font-family="Inter, Arial, sans-serif" font-size="19">A structured view of the market</text>
   <text x="48" y="216" fill="#555b62" font-family="Inter, Arial, sans-serif" font-size="19">before outreach begins</text>

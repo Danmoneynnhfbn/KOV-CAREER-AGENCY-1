@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
-  <title id="title">Illustrative KOV research layer</title>
-  <desc id="desc">A conceptual, non-client-specific arrangement of target companies, executive profiles, career histories, industry signals, professional networks, and market intelligence. No sample people or performance figures are shown.</desc>
+  <title id="title">KOV research workspace</title>
+  <desc id="desc">A research workspace organizing target companies, executive profiles, career histories, industry signals, professional networks, and market intelligence.</desc>
   <rect width="1200" height="660" fill="#f8f5ef"/>
   <g stroke="#cdd1d6" stroke-width="1" fill="none">
     <path d="M40 94H1160M40 542H1160M384 120V520M816 120V520"/>
     <path d="M416 280H784M416 430H784" stroke-dasharray="4 8"/>
   </g>
-  <text x="48" y="58" fill="#b94a20" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2.7">ILLUSTRATIVE INTERFACE</text>
+  <text x="48" y="58" fill="#b94a20" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2.7">RESEARCH WORKSPACE</text>
   <text x="48" y="151" fill="#090e13" font-family="Fraunces, Georgia, serif" font-size="35">KOV Research Layer</text>
   <text x="48" y="183" fill="#555b62" font-family="Inter, Arial, sans-serif" font-size="14">A structured view of the market before outreach begins</text>
   <g font-family="Inter, Arial, sans-serif">

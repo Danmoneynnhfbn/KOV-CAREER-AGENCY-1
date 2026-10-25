@@ -1,0 +1,14 @@
+body[data-theme="leeholmes"] {
+  --kov-design-paper: #fdfbf7;
+  --kov-design-ink: #1f1c19;
+  --kov-design-muted: #69645e;
+  --kov-design-line: rgba(31, 28, 25, .14);
+  --kov-design-accent: #87553c;
+  --kov-design-accent-soft: #f0e8df;
+  --kov-design-radius: .25rem;
+  --kov-design-shadow: 0 18px 44px rgba(31, 28, 25, .09);
+  --kov-design-heading-font: "Fraunces", Georgia, serif;
+  --kov-design-body-font: "Inter", Arial, sans-serif;
+  --kov-design-container: 70rem;
+  --kov-design-section-space: clamp(4rem, 8vw, 8rem);
+}

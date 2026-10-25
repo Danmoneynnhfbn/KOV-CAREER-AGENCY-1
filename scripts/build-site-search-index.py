@@ -16,6 +16,7 @@ SEO_PAGE_GROUPS = {
     "markets": "Geography and markets",
     "roles": "Seniority and roles",
     "resources": "Proof and next steps",
+    "industries": "Industry directory",
 }
 
 
@@ -74,62 +75,13 @@ class VisibleTextParser(HTMLParser):
 
 
 def local_page(location):
-    path = urlparse(location).path.strip("/")
+    raw_path = urlparse(location).path
+    path = raw_path.strip("/")
     if not path or path == "blog":
         return "index.html" if not path else "blog.html"
+    if raw_path.endswith("/"):
+        return f"{path}/index.html"
     return path if path.endswith(".html") else f"{path}.html"
-
-
-def extract_array(source, name):
-    declaration = f"const {name} = ["
-    start = source.index(declaration) + len(declaration) - 1
-    depth = 0
-    quote = None
-    escaped = False
-    for index in range(start, len(source)):
-        character = source[index]
-        if quote:
-            if escaped:
-                escaped = False
-            elif character == "\\":
-                escaped = True
-            elif character == quote:
-                quote = None
-            continue
-        if character in {"'", '"', "`"}:
-            quote = character
-        elif character == "[":
-            depth += 1
-        elif character == "]":
-            depth -= 1
-            if depth == 0:
-                return source[start:index + 1]
-    raise ValueError(f"Unclosed JavaScript array: {name}")
-
-
-def javascript_strings(source):
-    values = []
-    index = 0
-    while index < len(source):
-        quote = source[index]
-        if quote not in {"'", '"', "`"}:
-            index += 1
-            continue
-        index += 1
-        value = []
-        while index < len(source):
-            character = source[index]
-            if character == "\\" and index + 1 < len(source):
-                value.append(source[index + 1])
-                index += 2
-            elif character == quote:
-                index += 1
-                break
-            else:
-                value.append(character)
-                index += 1
-        values.append("".join(value))
-    return " ".join(values)
 
 
 def build_index():
@@ -159,9 +111,6 @@ def build_index():
                 "category": category,
             })
 
-    proof_data = (ROOT / "assets" / "proof-library-data.js").read_text(encoding="utf-8-sig")
-    candidate_data = " ".join(javascript_strings(extract_array(proof_data, name)) for name in ("candidateRows", "candidateProfiles"))
-    content["candidate-proof.html"] = f"{content['candidate-proof.html']} {candidate_data}".strip()
     OUTPUT.write_text(
         "window.kovSiteSearchContent = "
         + json.dumps(content, ensure_ascii=True, separators=(",", ":"))

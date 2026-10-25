@@ -61,6 +61,39 @@
   background: #9d4d2b;
 }
 
+.seo-landing-page .kov-breadcrumb {
+  padding: 15px max(8vw, 40px);
+  border-bottom: 1px solid var(--seo-line);
+  background: var(--seo-white);
+  color: var(--seo-muted);
+  font-size: 0.73rem;
+}
+
+.seo-landing-page .kov-breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.seo-landing-page .kov-breadcrumb li:not(:last-child)::after {
+  padding-left: 8px;
+  color: #9b8e83;
+  content: "/";
+}
+
+.seo-landing-page .kov-breadcrumb a {
+  color: var(--seo-muted);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.seo-landing-page .kov-breadcrumb [aria-current="page"] {
+  color: var(--seo-ink);
+}
+
 .seo-landing-page .kov-hero {
   position: relative;
   isolation: isolate;
@@ -311,6 +344,85 @@
   background: var(--seo-paper);
   font-size: 0.78rem;
   letter-spacing: 0.04em;
+}
+
+.seo-landing-page .kov-directory-intro,
+.seo-landing-page .kov-directory-source {
+  max-width: 900px;
+  color: var(--seo-muted);
+}
+
+.seo-landing-page .kov-directory-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  margin: 28px 0;
+}
+
+.seo-landing-page .kov-directory-fact {
+  padding: 17px 19px;
+  border: 1px solid var(--seo-line);
+  background: var(--seo-white);
+}
+
+.seo-landing-page .kov-directory-fact dt {
+  color: var(--seo-muted);
+  font-size: 0.75rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.seo-landing-page .kov-directory-fact dd {
+  margin: 5px 0 0;
+  color: var(--seo-ink);
+  font-family: Fraunces, Georgia, serif;
+  font-size: 1.65rem;
+}
+
+.seo-landing-page .kov-directory .kov-guide-table {
+  min-width: 760px;
+  table-layout: auto;
+}
+
+.seo-landing-page .kov-directory .kov-guide-table tbody th {
+  white-space: nowrap;
+}
+
+.seo-landing-page .kov-directory .kov-guide-table :is(th, td):first-child {
+  width: 145px;
+}
+
+.seo-landing-page .kov-directory .kov-guide-table :is(th, td):nth-child(2) {
+  width: 125px;
+}
+
+.seo-landing-page .kov-directory .kov-guide-table tbody p {
+  margin: 5px 0 0;
+  color: var(--seo-muted);
+}
+
+.seo-landing-page .kov-guide-table-wrap:focus-visible {
+  outline: 2px solid var(--seo-orange);
+  outline-offset: 3px;
+}
+
+.seo-landing-page .kov-example-note {
+  padding: 12px 16px;
+  border-left: 2px solid var(--seo-orange);
+  background: var(--seo-paper);
+  color: #495158;
+  font-size: 0.79rem;
+}
+
+.seo-landing-page .kov-source-marker {
+  color: var(--seo-muted);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.seo-landing-page .kov-directory-parent {
+  font-size: 0.76rem;
+  letter-spacing: 0.015em;
 }
 
 .seo-landing-page .kov-guide-steps {

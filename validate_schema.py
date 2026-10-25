@@ -4,6 +4,7 @@
 import json
 import re
 import sys
+from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit
 from xml.etree import ElementTree
@@ -12,6 +13,74 @@ ROOT = Path(__file__).resolve().parent
 BASE_URL = "https://www.kovcareeragency.org"
 SITEMAP_NAMESPACE = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 PAGE_CATEGORIES = {"services", "markets", "roles", "industries", "resources"}
+
+
+class VisitorTextParser(HTMLParser):
+    """Collect visitor-facing text and common visible attributes, excluding code."""
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.skipped_depth = 0
+        self.values: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        attributes = dict(attrs)
+        if self.skipped_depth:
+            if tag not in {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"}:
+                self.skipped_depth += 1
+            return
+        if tag in {"script", "style", "noscript", "template"}:
+            self.skipped_depth = 1
+            return
+        for name in ("alt", "aria-label", "content", "placeholder", "title", "value"):
+            value = attributes.get(name)
+            if value:
+                self.values.append(value)
+
+    def handle_endtag(self, tag: str) -> None:
+        if self.skipped_depth:
+            self.skipped_depth -= 1
+
+    def handle_data(self, data: str) -> None:
+        if not self.skipped_depth:
+            self.values.append(data)
+
+
+def find_internal_note_errors(urls: list[str]) -> tuple[list[str], int]:
+    config_path = ROOT / "config" / "internal-note-phrases.json"
+    if not config_path.is_file():
+        return ["Internal-note phrase configuration is missing."], 0
+    config = json.loads(config_path.read_text(encoding="utf-8"))
+    phrases = [
+        re.sub(r"\s+", " ", phrase).strip().casefold()
+        for phrase in config.get("phrases", [])
+        if isinstance(phrase, str) and phrase.strip()
+    ]
+    errors = []
+    scanned = 0
+    for url in urls:
+        parsed = urlsplit(url)
+        relative_path = parsed.path.lstrip("/") or "index.html"
+        if relative_path.endswith("/"):
+            relative_path += "index.html"
+        path = ROOT / relative_path
+        if not path.is_file():
+            continue
+        scanned += 1
+        try:
+            source = path.read_text(encoding="utf-8-sig")
+        except UnicodeDecodeError as error:
+            errors.append(f"{relative_path}: HTML is not valid UTF-8: {error}")
+            continue
+        parser = VisitorTextParser()
+        parser.feed(source)
+        visitor_text = re.sub(r"\s+", " ", " ".join(parser.values)).casefold()
+        for phrase in phrases:
+            if phrase in visitor_text:
+                errors.append(
+                    f"{relative_path}: internal-note phrase found: {phrase}"
+                )
+    return errors, scanned
 
 
 def attribute_values(tags: list[str], attribute: str) -> list[str]:
@@ -35,6 +104,8 @@ def main() -> int:
         (node.text or "").strip()
         for node in sitemap_root.findall("s:url/s:loc", SITEMAP_NAMESPACE)
     ]
+    note_errors, html_count = find_internal_note_errors(urls)
+    errors.extend(note_errors)
 
     if not urls:
         errors.append("Sitemap contains no URL entries.")
@@ -48,6 +119,18 @@ def main() -> int:
         errors.append("llms-full.txt is missing.")
     if f"{BASE_URL}/llms-full.txt" not in llms:
         errors.append("llms.txt must link to llms-full.txt.")
+    llms_urls = re.findall(r"https://www\.kovcareeragency\.org/([^\s)>]+)", llms)
+    for path in llms_urls:
+        path = path.rstrip(".,;")
+        if (
+            path.endswith("-occupations.html")
+            or (
+                path.startswith("industries/")
+                and path not in {"industries/", "industries/index.html"}
+                and not re.fullmatch(r"industries/[^/]+/", path)
+            )
+        ):
+            errors.append(f"Unpublished taxonomy page in llms.txt: {path}")
     search_index_path = ROOT / "assets" / "site-search-index.js"
     search_index = (
         search_index_path.read_text(encoding="utf-8")
@@ -72,6 +155,16 @@ def main() -> int:
             continue
 
         relative_path = parsed.path.lstrip("/") or "index.html"
+        if relative_path.endswith("/"):
+            relative_path = f"{relative_path}index.html"
+        if relative_path.startswith("industries/") and not re.fullmatch(
+            r"industries/(?:index\.html|[^/]+/index\.html)", relative_path
+        ):
+            errors.append(
+                f"Unapproved industry-directory page in sitemap: {relative_path}"
+            )
+        if relative_path.endswith("-occupations.html"):
+            errors.append(f"SOC group page in sitemap: {relative_path}")
         sitemap_paths.add(relative_path)
         page_path = ROOT / relative_path
         if not page_path.is_file():
@@ -215,10 +308,16 @@ def main() -> int:
         else:
             indexed_count = len(indexed_content)
             missing_from_search = sitemap_paths - indexed_content.keys()
+            extra_search_paths = indexed_content.keys() - sitemap_paths
             if missing_from_search:
                 errors.append(
                     "Pages missing from the site-search index: "
                     + ", ".join(sorted(missing_from_search))
+                )
+            if extra_search_paths:
+                errors.append(
+                    "Pages outside the sitemap are in the site-search index: "
+                    + ", ".join(sorted(extra_search_paths))
                 )
             catalog_paths = {
                 path for path in sitemap_paths
@@ -234,6 +333,7 @@ def main() -> int:
     print(f"Generated landing pages: {cluster_count}")
     print(f"Parsed JSON-LD blocks: {schema_count}")
     print(f"Search-indexed pages: {indexed_count}")
+    print(f"Sitemap HTML pages checked for internal notes: {html_count}")
     print(f"robots.txt sitemap directives: {len(sitemap_directives)}")
     if errors:
         print(f"VALIDATION FAILED ({len(errors)} issue(s))")

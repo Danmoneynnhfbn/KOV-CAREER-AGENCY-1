@@ -81,6 +81,13 @@ def read_site_file(requested_path: str):
         or not file_path.is_relative_to(ROOT)
     ):
         raise HTTPException(status_code=404, detail="Not Found")
+
+    if file_path.is_dir():
+        index_file = file_path / "index.html"
+        if index_file.is_file():
+            return FileResponse(index_file)
+        return FileResponse(ROOT / "404.html", status_code=404)
+
     if not file_path.is_file() or file_path.suffix.lower() not in public_extensions:
         return FileResponse(ROOT / "404.html", status_code=404)
     return FileResponse(file_path)

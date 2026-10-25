@@ -1,0 +1,4355 @@
+{
+  "pages": [
+    {
+      "path": ".private_admin/blogpostcheck.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "todo"
+    },
+    {
+      "path": "404.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "about.html",
+      "template_type": "about",
+      "theme": "leeholmes",
+      "status": "done"
+    },
+    {
+      "path": "account.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "blog.html",
+      "template_type": "blog index",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "blogpostcheck.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "candidate-proof.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "candidate-services.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "career-coaching.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "career-documents.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "career-portfolio-development.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "career-positioning-optimization.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "career-strategy-senior-leaders.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "contact.html",
+      "template_type": "contact",
+      "theme": "leeholmes",
+      "status": "done"
+    },
+    {
+      "path": "countries-we-serve.html",
+      "template_type": "country page",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "executive-career-support-saudi-arabia.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "executive-job-search-dubai.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "executive-job-search-uae.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "executive-negotiation-support.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "executive-resume-strategy.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/about-1.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/about-2.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/blog-1.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/blog-2.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/candidate-services-1.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/candidate-services-2.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/contact-1.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/contact-2.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/countries-we-serve-1.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/countries-we-serve-2.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/countries-we-serve-3.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/countries-we-serve-4.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/countries-we-serve-5.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/countries-we-serve-6.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/faqs-1.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/faqs-2.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/faqs-3.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/faqs-4.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/faqs-5.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/how-it-works-1.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/how-it-works-2.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/index-1.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/index-2.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/index.html",
+      "template_type": "FAQ library index",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/pricing-1.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/pricing-2.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/services-1.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/services-2.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/why-kov-1.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faq/why-kov-2.html",
+      "template_type": "FAQ answer",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "faqs.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "glossary.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "how-it-works.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "index.html",
+      "template_type": "home",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "industries/agriculture-food-forestry/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/arts-entertainment-sports/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/business-support-facilities/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/construction-engineering/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/consulting-professional-services/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/education/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/energy-mining-oil-gas/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/finance-insurance/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/healthcare-social-care/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/holding-companies/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/hospitality-food-service/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/legal-services/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/manufacturing/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/other-services/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/public-sector-government/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/real-estate-leasing/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/retail-ecommerce/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/technology-media-telecom/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/transportation-logistics/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/utilities/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "industries/wholesale-distribution/index.html",
+      "template_type": "other",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "interview-coaching-executives.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "linkedin-optimization-executives.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "linkedin-profile-optimization.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "markets/executive-career-support-australia.html",
+      "template_type": "country page",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "markets/executive-career-support-saudi-arabia.html",
+      "template_type": "country page",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "markets/executive-job-search-africa.html",
+      "template_type": "country page",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "markets/executive-job-search-dubai.html",
+      "template_type": "country page",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "markets/executive-job-search-london.html",
+      "template_type": "country page",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "markets/executive-job-search-uae.html",
+      "template_type": "country page",
+      "theme": "neutomni",
+      "status": "done"
+    },
+    {
+      "path": "personal-career-website.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "pricing.html",
+      "template_type": "pricing",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "privacy.html",
+      "template_type": "legal",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "profiles.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "resources/anonymous-executive-reviews.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "resources/book-confidential-consultation.html",
+      "template_type": "contact",
+      "theme": "leeholmes",
+      "status": "done"
+    },
+    {
+      "path": "resources/candidate-success-stories.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "resources/case-studies.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "resources/contact-kov.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "resources/executive-career-outcomes.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "resources/executive-job-search-in-your-market.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "resources/kov-founder-profile.html",
+      "template_type": "about",
+      "theme": "leeholmes",
+      "status": "done"
+    },
+    {
+      "path": "resources/request-executive-career-representation.html",
+      "template_type": "contact",
+      "theme": "leeholmes",
+      "status": "done"
+    },
+    {
+      "path": "resources/salary-offer-negotiation-guide.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "resources/why-kov-approach.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "resume-cv-writing.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "reverse-recruiting-cfos.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "reverse-recruiting-cmos.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "reverse-recruiting-ctos.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "reverse-recruiting.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "roles.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/agriculture-food-forestry.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/other-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-director/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/board-level-career-transition.html",
+      "template_type": "other",
+      "theme": "leeholmes",
+      "status": "done"
+    },
+    {
+      "path": "roles/career-coaching-founders-partners.html",
+      "template_type": "other",
+      "theme": "leeholmes",
+      "status": "done"
+    },
+    {
+      "path": "roles/career-representation-coos.html",
+      "template_type": "other",
+      "theme": "leeholmes",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/agriculture-food-forestry.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/other-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ceo/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/agriculture-food-forestry.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/other-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cfo/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/agriculture-food-forestry.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/other-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chair/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/agriculture-food-forestry.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/other-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-product-officer/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/agriculture-food-forestry.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/other-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-revenue-officer/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/agriculture-food-forestry.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/other-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chief-strategy-officer/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/agriculture-food-forestry.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/other-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/chro/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/agriculture-food-forestry.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/other-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cio/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/agriculture-food-forestry.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/other-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/ciso/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/agriculture-food-forestry.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/other-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cmo/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/agriculture-food-forestry.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/other-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/coo/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/agriculture-food-forestry.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/other-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/cto/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-engineering/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-engineering/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-engineering/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-engineering/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-engineering/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-engineering/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-engineering/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-engineering/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-engineering/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-finance/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-finance/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-finance/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-finance/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-finance/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-finance/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-finance/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-finance/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-finance/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-legal/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-legal/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-legal/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-legal/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-legal/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-legal/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-legal/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-legal/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-legal/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-marketing/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-marketing/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-marketing/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-marketing/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-marketing/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-marketing/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-marketing/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-marketing/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-marketing/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-operations/agriculture-food-forestry.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-operations/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-operations/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-operations/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-operations/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-operations/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-operations/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-operations/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-operations/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-people/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-people/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-people/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-people/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-people/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-people/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-people/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-people/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-people/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-product/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-product/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-product/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-product/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-product/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-product/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-product/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-product/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-product/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-sales/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-sales/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-sales/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-sales/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-sales/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-sales/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-sales/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-sales/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/director-sales/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/executive-job-search-vps.html",
+      "template_type": "other",
+      "theme": "leeholmes",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/agriculture-food-forestry.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/other-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/general-counsel/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-business-development/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-business-development/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-business-development/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-business-development/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-business-development/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-business-development/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-business-development/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-business-development/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-business-development/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-compliance/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-compliance/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-compliance/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-compliance/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-compliance/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-compliance/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-compliance/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-compliance/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-compliance/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-data-ai/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-data-ai/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-data-ai/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-data-ai/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-data-ai/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-data-ai/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-data-ai/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-data-ai/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-data-ai/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-growth/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-growth/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-growth/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-growth/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-growth/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-growth/other-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-growth/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-growth/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-growth/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-legal/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-legal/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-legal/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-legal/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-legal/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-legal/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-legal/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-legal/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-legal/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-strategy/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-strategy/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-strategy/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-strategy/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-strategy/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-strategy/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-strategy/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-strategy/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/head-strategy/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/index.html",
+      "template_type": "other",
+      "theme": "leeholmes",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/agriculture-food-forestry.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/other-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-director/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/agriculture-food-forestry.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/other-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/managing-partner/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/agriculture-food-forestry.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/other-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/non-executive-director/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/agriculture-food-forestry.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/legal-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/other-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/partner/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/reverse-recruiting-ceos.html",
+      "template_type": "other",
+      "theme": "leeholmes",
+      "status": "done"
+    },
+    {
+      "path": "roles/reverse-recruiting-cfos.html",
+      "template_type": "other",
+      "theme": "leeholmes",
+      "status": "done"
+    },
+    {
+      "path": "roles/reverse-recruiting-cmos.html",
+      "template_type": "other",
+      "theme": "leeholmes",
+      "status": "done"
+    },
+    {
+      "path": "roles/reverse-recruiting-ctos.html",
+      "template_type": "other",
+      "theme": "leeholmes",
+      "status": "done"
+    },
+    {
+      "path": "roles/senior-executive-resume-strategy.html",
+      "template_type": "other",
+      "theme": "leeholmes",
+      "status": "done"
+    },
+    {
+      "path": "roles/senior-leader-career-strategy.html",
+      "template_type": "other",
+      "theme": "leeholmes",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-engineering/construction-engineering.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-engineering/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-engineering/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-engineering/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-engineering/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-engineering/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-engineering/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-engineering/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-engineering/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-finance/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-finance/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-finance/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-finance/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-finance/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-finance/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-finance/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-finance/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-finance/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-marketing/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-marketing/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-marketing/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-marketing/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-marketing/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-marketing/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-marketing/real-estate-leasing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-marketing/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-marketing/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-operations/agriculture-food-forestry.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-operations/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-operations/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-operations/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-operations/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-operations/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-operations/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-operations/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-operations/utilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-people/business-support-facilities.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-people/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-people/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-people/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-people/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-people/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-people/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-people/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-people/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-product/arts-entertainment-sports.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-product/education.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-product/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-product/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-product/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-product/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-product/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-product/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-product/transportation-logistics.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-sales/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-sales/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-sales/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-sales/hospitality-food-service.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-sales/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-sales/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-sales/retail-ecommerce.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-sales/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-sales/wholesale-distribution.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-strategy/consulting-professional-services.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-strategy/energy-mining-oil-gas.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-strategy/finance-insurance.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-strategy/healthcare-social-care.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-strategy/holding-companies.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-strategy/index.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-strategy/manufacturing.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-strategy/public-sector-government.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "roles/vp-strategy/technology-media-telecom.html",
+      "template_type": "other",
+      "theme": "krackerz",
+      "status": "done"
+    },
+    {
+      "path": "services.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "services/career-strategy-senior-leaders.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "services/executive-career-representation.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "services/executive-job-search-support.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "services/executive-negotiation-support.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "services/executive-resume-strategy.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "services/interview-coaching-executives.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "services/linkedin-optimization-executives.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "services/reverse-recruiting.html",
+      "template_type": "service",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "toba.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    },
+    {
+      "path": "why-kov.html",
+      "template_type": "other",
+      "theme": "legencymedia",
+      "status": "done"
+    }
+  ],
+  "template_counts": {
+    "other": 649,
+    "about": 2,
+    "blog index": 1,
+    "service": 28,
+    "contact": 3,
+    "country page": 7,
+    "FAQ answer": 29,
+    "FAQ library index": 1,
+    "home": 1,
+    "pricing": 1,
+    "legal": 1
+  }
+}
