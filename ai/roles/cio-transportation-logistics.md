@@ -12,7 +12,7 @@ The Transportation and Logistics context involves movement, handling, and coordi
 
 ## A candidate-led process from first discussion to next steps
 
-Keep the Chief Information Officer narrative accurate where collapsing infrastructure, information, product, and digital responsibilities into one vague claim may arise: attribute shared work and disclose only information the candidate may use. The candidate decides whether to pursue a Chief Information Officer opportunity. KOV can support agreed research and preparation concerning Transportation and Logistics. In Transportation and Logistics, customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities may shape the work. A Chief Information Officer example should separate direct responsibility from collaboration. Use movement, handling, and coordination of people or goods across routes and operating networks to frame research about Transportation and Logistics, then ask how a Chief Information Officer will work through network coordination, service windows, asset availability, safety-minded decisions, and disruption response.
+Keep the Chief Information Officer narrative accurate where collapsing infrastructure, information, product, and digital responsibilities into one vague claim may arise: attribute shared work and disclose only information the candidate may use. In Transportation and Logistics, customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities may shape the work. A Chief Information Officer example should separate direct responsibility from collaboration. Use movement, handling, and coordination of people or goods across routes and operating networks to frame research about Transportation and Logistics, then ask how a Chief Information Officer will work through network coordination, service windows, asset availability, safety-minded decisions, and disruption response.
 
 ## Documents that make Chief Information Officer experience relevant here
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Information Officer career hub](/roles/cio/)
 
-Review the role-wide approach to guide information systems, digital operations, and technology services for the organization and the evidence expected for that scope.
+
 
 ### [Transportation and Logistics industry hub](/industries/transportation-logistics/)
 
-Compare how movement, handling, and coordination of people or goods across routes and operating networks affects career planning across functions.
+
 
 ### [Chief Executive Officer in Transportation and Logistics](/roles/ceo/transportation-logistics.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Information Officer remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Operating Officer in Transportation and Logistics](/roles/coo/transportation-logistics.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Information Officer remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Information Officer in Agriculture, Food and Forestry](/roles/cio/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with movement, handling, and coordination of people or goods across routes and operating networks and identify how the Chief Information Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Information Officer in Transportation and Logistics?
 
-A Chief Information Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's movement, handling, and coordination of people or goods across routes and operating networks. Explore how the role will guide information systems, digital operations, and technology services for the organization and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Information Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's movement, handling, and coordination of people or goods across routes and operating networks. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Chief Information Officer make prior work relevant to Transportation and Logistics?
 
@@ -143,15 +143,15 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What must be agreed before a Chief Information Officer contacts an organization in Transportation and Logistics?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Information Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Transportation and Logistics employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Transportation and Logistics employers.
 
 ### What makes a Chief Information Officer background relevant to work in Transportation and Logistics?
 
-No. Compare the role description with the candidate's experience of guide information systems, digital operations, and technology services for the organization and the organization's movement, handling, and coordination of people or goods across routes and operating networks. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Chief Information Officer outreach in Transportation and Logistics?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Information Officer candidate considering Transportation and Logistics, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

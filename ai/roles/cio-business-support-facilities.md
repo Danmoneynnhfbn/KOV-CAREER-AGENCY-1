@@ -18,7 +18,7 @@ Readers need to see what Chief Information Officer work involved; connect guide 
 
 ## Documents that make Chief Information Officer experience relevant here
 
-Keep the Chief Information Officer narrative accurate where collapsing infrastructure, information, product, and digital responsibilities into one vague claim may arise: attribute shared work and disclose only information the candidate may use. Explain how CEO, business units, technology teams, users, vendors, and oversight stakeholders contributed to the candidate's work and distinguish that shared context from evidence of systems scope, service reliability, data stewardship, transformation, governance, and adoption. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Chief Information Officer position. To assess a Chief Information Officer opportunity in Business Support and Facilities, compare the stated remit to the candidate's record of systems scope, service reliability, data stewardship, transformation, governance, and adoption.
+Keep the Chief Information Officer narrative accurate where collapsing infrastructure, information, product, and digital responsibilities into one vague claim may arise: attribute shared work and disclose only information the candidate may use. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Chief Information Officer position. To assess a Chief Information Officer opportunity in Business Support and Facilities, compare the stated remit to the candidate's record of systems scope, service reliability, data stewardship, transformation, governance, and adoption.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -47,7 +47,7 @@ Consider document and positioning support for Chief Information Officer material
 
 ## Prepare to discuss the Business Support and Facilities mandate
 
-Readers need to see what Chief Information Officer work involved; connect guide information systems, digital operations, and technology services for the organization with the candidate's own examples of systems scope, service reliability, data stewardship, transformation, governance, and adoption in Business Support and Facilities. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Chief Information Officer position. For a Chief Information Officer target, KOV can discuss how executive resume, transformation summary, professional biography, and profile support the candidate's account of systems scope, service reliability, data stewardship, transformation, governance, and adoption; external steps require prior agreement. The candidate can discuss systems scope, service reliability, data stewardship, transformation, governance, and adoption while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+Readers need to see what Chief Information Officer work involved; connect guide information systems, digital operations, and technology services for the organization with the candidate's own examples of systems scope, service reliability, data stewardship, transformation, governance, and adoption in Business Support and Facilities. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Chief Information Officer position. For a Chief Information Officer target, KOV can discuss how executive resume, transformation summary, professional biography, and profile support the candidate's account of systems scope, service reliability, data stewardship, transformation, governance, and adoption; external steps require prior agreement. The candidate can discuss systems scope, service reliability, data stewardship, transformation, governance, and adoption while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Common positioning mistakes for Chief Information Officer candidates in Business Support and Facilities
 
@@ -111,29 +111,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Information Officer career hub](/roles/cio/)
 
-Review the role-wide approach to guide information systems, digital operations, and technology services for the organization and the evidence expected for that scope.
+
 
 ### [Business Support and Facilities industry hub](/industries/business-support-facilities/)
 
-Compare how support services, workplace operations, facilities, administration, or outsourced capabilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Business Support and Facilities](/roles/ceo/business-support-facilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Information Officer remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Operating Officer in Business Support and Facilities](/roles/coo/business-support-facilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Information Officer remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Information Officer in Agriculture, Food and Forestry](/roles/cio/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with support services, workplace operations, facilities, administration, or outsourced capabilities and identify how the Chief Information Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Information Officer in Business Support and Facilities?
 
-Start with the organization's account of support services, workplace operations, facilities, administration, or outsourced capabilities, then clarify how the Chief Information Officer would guide information systems, digital operations, and technology services for the organization. Ask how internal clients, employees, service teams, suppliers, customers, and contract owners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of support services, workplace operations, facilities, administration, or outsourced capabilities, then clarify how the Chief Information Officer would guide information systems, digital operations, and technology services for the organization. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Chief Information Officer make prior work relevant to Business Support and Facilities?
 
@@ -141,7 +141,7 @@ Select examples that show systems scope, service reliability, data stewardship, 
 
 ### Which career materials can help a Chief Information Officer explore work in Business Support and Facilities?
 
-Possible materials include executive resume, transformation summary, professional biography, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, transformation summary, professional biography, and profile. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Chief Information Officer contacts an organization in Business Support and Facilities?
 

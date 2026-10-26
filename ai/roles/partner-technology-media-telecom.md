@@ -67,7 +67,7 @@ In a Technology, Media and Telecom target, make the Partner contribution legible
 
 ## Run the search thoughtfully in each target market
 
-A candidate exploring Technology, Media and Telecom should test the assumed link between digital products, platforms, content, communications, or technology-enabled services and product evolution, reliability, audience or customer needs, technical choices, and changing business models against the actual Partner role description. Discuss product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality with care: a Partner candidate can explain contribution while omitting confidential or identifying facts. The candidate decides whether to pursue a Partner opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Do not resolve uncertainty about revealing client information or overstating individual ownership of team results through assumption; verify the requirement and use only supportable Partner claims.
+A candidate exploring Technology, Media and Telecom should test the assumed link between digital products, platforms, content, communications, or technology-enabled services and product evolution, reliability, audience or customer needs, technical choices, and changing business models against the actual Partner role description. The candidate decides whether to pursue a Partner opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Do not resolve uncertainty about revealing client information or overstating individual ownership of team results through assumption; verify the requirement and use only supportable Partner claims.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Partner career hub](/roles/partner/)
 
-Review the role-wide approach to develop a practice or business while contributing to a shared ownership or partnership structure and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Partner remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Partner remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Partner in Agriculture, Food and Forestry](/roles/partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with digital products, platforms, content, communications, or technology-enabled services and identify how the Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Partner resolve before a target discussion in Technology, Media and Telecom?
 
-A Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's digital products, platforms, content, communications, or technology-enabled services. Explore how the role will develop a practice or business while contributing to a shared ownership or partnership structure and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's digital products, platforms, content, communications, or technology-enabled services. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Partner career story fit the needs of Technology, Media and Telecom?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of client or commercial con
 
 ### What should a Partner prepare in writing before targeting Technology, Media and Telecom?
 
-Possible materials include partner biography, practice profile, selected work summary, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
+Possible materials include partner biography, practice profile, selected work summary, and professional profile. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
 
 ### What should a Partner approve before outreach in Technology, Media and Telecom?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate client or 
 
 ### Will KOV secure a meeting for a Partner with an employer in Technology, Media and Telecom?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Partner candidate considering Technology, Media and Telecom, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

@@ -59,7 +59,7 @@ To assess a Director of People opportunity in Public Sector and Government, comp
 
 ## Keep research, confidentiality, and outreach aligned
 
-Good preparation for Director of People work includes a safe way to explain using sensitive workforce information or broad claims without context and a clear distinction between fact and inference. The service plan should fit the candidate's Director of People priorities; agree research, materials, and any outreach before contact occurs. In Public Sector and Government, residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders may shape the work. A Director of People example should separate direct responsibility from collaboration. Ask what public administration, public programs, or services delivered under a public mandate means at this particular Public Sector and Government organization and how it changes the priorities assigned to a Director of People.
+Good preparation for Director of People work includes a safe way to explain using sensitive workforce information or broad claims without context and a clear distinction between fact and inference. In Public Sector and Government, residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders may shape the work. A Director of People example should separate direct responsibility from collaboration. Ask what public administration, public programs, or services delivered under a public mandate means at this particular Public Sector and Government organization and how it changes the priorities assigned to a Director of People.
 
 ## Prepare for conversations about Public Sector and Government work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of People career hub](/roles/director-people/)
 
-Review the role-wide approach to lead a people function or program and support managers through organizational change and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of People remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of People remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Director of People in Manufacturing](/roles/director-people/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with public administration, public programs, or services delivered under a public mandate and identify how the Director of People remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Director of People test the scope of work in Public Sector and Government?
 
-Start with the organization's account of public administration, public programs, or services delivered under a public mandate, then clarify how the Director of People would lead a people function or program and support managers through organizational change. Ask how residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of public administration, public programs, or services delivered under a public mandate, then clarify how the Director of People would lead a people function or program and support managers through organizational change. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Director of People use to explain experience in Public Sector and Government?
 
@@ -139,19 +139,19 @@ Describe an instance where the candidate could lead a people function or program
 
 ### What documents should a Director of People tailor for Public Sector and Government opportunities?
 
-Possible materials include resume, people-program portfolio, profile, and selected examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, people-program portfolio, profile, and selected examples. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Director of People considering Public Sector and Government?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of People candidate's service scope; the candidate approves external communication. No one route should be assumed for all Public Sector and Government employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Public Sector and Government employers.
 
 ### Can a Director of People rely on title alone when targeting Public Sector and Government?
 
-No. Compare the role description with the candidate's experience of lead a people function or program and support managers through organizational change and the organization's public administration, public programs, or services delivered under a public mandate. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Director of People seeking work in Public Sector and Government?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of People candidate considering Public Sector and Government, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

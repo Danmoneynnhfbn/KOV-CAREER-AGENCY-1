@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Technology Officer career hub](/roles/cto/)
 
-Review the role-wide approach to set technology direction and connect technical choices with product and business needs and the evidence expected for that scope.
+
 
 ### [Real Estate and Leasing industry hub](/industries/real-estate-leasing/)
 
-Compare how property ownership, development, brokerage, management, or leasing relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Real Estate and Leasing](/roles/ceo/real-estate-leasing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Technology Officer remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Operating Officer in Real Estate and Leasing](/roles/coo/real-estate-leasing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Technology Officer remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Technology Officer in Agriculture, Food and Forestry](/roles/cto/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with property ownership, development, brokerage, management, or leasing relationships and identify how the Chief Technology Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Technology Officer in Real Estate and Leasing?
 
-Start with the organization's account of property ownership, development, brokerage, management, or leasing relationships, then clarify how the Chief Technology Officer would set technology direction and connect technical choices with product and business needs. Ask how owners, tenants, customers, investors, property teams, suppliers, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of property ownership, development, brokerage, management, or leasing relationships, then clarify how the Chief Technology Officer would set technology direction and connect technical choices with product and business needs. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Chief Technology Officer make prior work relevant to Real Estate and Leasing?
 
@@ -139,15 +139,15 @@ Make the connection explicit: the candidate's record of technology strategy, arc
 
 ### Which career materials can help a Chief Technology Officer explore work in Real Estate and Leasing?
 
-Possible materials include executive resume, technology leadership profile, portfolio summary, and LinkedIn profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution. Each claim should be accurate for this Real Estate and Leasing target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, technology leadership profile, portfolio summary, and LinkedIn profile. Each claim should be accurate for this Real Estate and Leasing target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Chief Technology Officer contacts an organization in Real Estate and Leasing?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Technology Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Real Estate and Leasing employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Real Estate and Leasing employers.
 
 ### What makes a Chief Technology Officer background relevant to work in Real Estate and Leasing?
 
-Title is only a label. Establish what the employer means by Chief Technology Officer in this Real Estate and Leasing organization and how the person will work with owners, tenants, customers, investors, property teams, suppliers, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Does KOV control employer responses to Chief Technology Officer outreach in Real Estate and Leasing?
 

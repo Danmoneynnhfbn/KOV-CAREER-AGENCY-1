@@ -8,7 +8,7 @@ A precise Partner story ties client or commercial contribution, practice leaders
 
 ## Who this Partner and Hospitality and Food Service guide is for
 
-Protect credibility in Hospitality and Food Service by addressing revealing client information or overstating individual ownership of team results with a factual account of client or commercial contribution, practice leadership, collaboration, and shared responsibilities and its limits. Candidate-side support from KOV may connect Partner positioning, relevant documents, and approved outreach, within the scope the candidate agrees. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Partner example should separate direct responsibility from collaboration. Use guest-facing accommodation, food, venue, or experience services delivered through people and operations to frame research about Hospitality and Food Service, then ask how a Partner will work through guest experience, operating capacity, service consistency, workforce coordination, and supplier variability.
+Protect credibility in Hospitality and Food Service by addressing revealing client information or overstating individual ownership of team results with a factual account of client or commercial contribution, practice leadership, collaboration, and shared responsibilities and its limits. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Partner example should separate direct responsibility from collaboration. Use guest-facing accommodation, food, venue, or experience services delivered through people and operations to frame research about Hospitality and Food Service, then ask how a Partner will work through guest experience, operating capacity, service consistency, workforce coordination, and supplier variability.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -63,7 +63,7 @@ In a Hospitality and Food Service target, make the Partner contribution legible:
 
 ## Prepare for conversations about Hospitality and Food Service work
 
-The Partner remit to develop a practice or business while contributing to a shared ownership or partnership structure should be described through decisions and examples, especially evidence of client or commercial contribution, practice leadership, collaboration, and shared responsibilities relevant to Hospitality and Food Service. Research for a Partner in Hospitality and Food Service becomes more focused when the candidate investigates guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alongside guest-facing accommodation, food, venue, or experience services delivered through people and operations. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Partner example should separate direct responsibility from collaboration. Do not resolve uncertainty about revealing client information or overstating individual ownership of team results through assumption; verify the requirement and use only supportable Partner claims.
+The Partner remit to develop a practice or business while contributing to a shared ownership or partnership structure should be described through decisions and examples, especially evidence of client or commercial contribution, practice leadership, collaboration, and shared responsibilities relevant to Hospitality and Food Service. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Partner example should separate direct responsibility from collaboration. Do not resolve uncertainty about revealing client information or overstating individual ownership of team results through assumption; verify the requirement and use only supportable Partner claims.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Partner career hub](/roles/partner/)
 
-Review the role-wide approach to develop a practice or business while contributing to a shared ownership or partnership structure and the evidence expected for that scope.
+
 
 ### [Hospitality and Food Service industry hub](/industries/hospitality-food-service/)
 
-Compare how guest-facing accommodation, food, venue, or experience services delivered through people and operations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Hospitality and Food Service](/roles/ceo/hospitality-food-service.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Partner remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Operating Officer in Hospitality and Food Service](/roles/coo/hospitality-food-service.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Partner remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Partner in Agriculture, Food and Forestry](/roles/partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with guest-facing accommodation, food, venue, or experience services delivered through people and operations and identify how the Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Partner resolve before a target discussion in Hospitality and Food Service?
 
-A Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. Explore how the role will develop a practice or business while contributing to a shared ownership or partnership structure and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Partner career story fit the needs of Hospitality and Food Service?
 
@@ -139,7 +139,7 @@ Describe an instance where the candidate could develop a practice or business wh
 
 ### What should a Partner prepare in writing before targeting Hospitality and Food Service?
 
-Possible materials include partner biography, practice profile, selected work summary, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to venue or service scope, team leadership, guest context, service design, and attributable operating contributions. Each claim should be accurate for this Hospitality and Food Service target, and confidential or unauthorized material should be omitted.
+Possible materials include partner biography, practice profile, selected work summary, and professional profile. Each claim should be accurate for this Hospitality and Food Service target, and confidential or unauthorized material should be omitted.
 
 ### What should a Partner approve before outreach in Hospitality and Food Service?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How should a Partner compare title and remit in Hospitality and Food Service?
 
-Title is only a label. Establish what the employer means by Partner in this Hospitality and Food Service organization and how the person will work with guests, employees, suppliers, owners, local partners, and service teams. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Partner with an employer in Hospitality and Food Service?
 

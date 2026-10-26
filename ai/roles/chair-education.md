@@ -8,11 +8,11 @@ Do not resolve uncertainty about blurring chair and executive accountabilities o
 
 ## Who this Chair and Education guide is for
 
-Keep the Chair narrative accurate where blurring chair and executive accountabilities or taking credit for collective decisions may arise: attribute shared work and disclose only information the candidate may use. The candidate decides whether to pursue a Chair opportunity. KOV can support agreed research and preparation concerning Education. Ask what learning services delivered through institutions, programs, technology, or educational support means at this particular Education organization and how it changes the priorities assigned to a Chair. Position a Chair career by linking lead board effectiveness and support clear governance and decision-making to program or institutional scope, learner or service context, staff leadership, and improvement contribution, then clarify which part of that work the candidate actually owned.
+Keep the Chair narrative accurate where blurring chair and executive accountabilities or taking credit for collective decisions may arise: attribute shared work and disclose only information the candidate may use. KOV can support agreed research and preparation concerning Education. Ask what learning services delivered through institutions, programs, technology, or educational support means at this particular Education organization and how it changes the priorities assigned to a Chair. Position a Chair career by linking lead board effectiveness and support clear governance and decision-making to program or institutional scope, learner or service context, staff leadership, and improvement contribution, then clarify which part of that work the candidate actually owned.
 
 ## A candidate-led process from first discussion to next steps
 
-The candidate can discuss meeting leadership, board composition, governance practice, relationships, and transition judgment while protecting confidentiality by omitting names, restricted figures, and other identifying material. Career representation remains candidate-led: KOV can support a Chair search, while the candidate approves the goals and disclosures. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Chair example should separate direct responsibility from collaboration. Treat learning services delivered through institutions, programs, technology, or educational support as a question to validate in Education; the answer helps clarify the Chair mandate and its learning aims, access, program delivery, workforce needs, and resource stewardship.
+The candidate can discuss meeting leadership, board composition, governance practice, relationships, and transition judgment while protecting confidentiality by omitting names, restricted figures, and other identifying material. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Chair example should separate direct responsibility from collaboration. Treat learning services delivered through institutions, programs, technology, or educational support as a question to validate in Education; the answer helps clarify the Chair mandate and its learning aims, access, program delivery, workforce needs, and resource stewardship.
 
 ## Documents that make Chair experience relevant here
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Chair materials that present meeti
 
 ## Prepare to discuss the Education mandate
 
-A Chair candidate should be ready to explain blurring chair and executive accountabilities or taking credit for collective decisions without revealing confidential details or implying unsupported responsibility. Before presenting program or institutional scope, learner or service context, staff leadership, and improvement contribution, determine how learners, families, educators, administrators, owners or boards, and community partners participated and which details are safe to discuss. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Chair position. The Chair remit to lead board effectiveness and support clear governance and decision-making should be described through decisions and examples, especially evidence of meeting leadership, board composition, governance practice, relationships, and transition judgment relevant to Education.
+A Chair candidate should be ready to explain blurring chair and executive accountabilities or taking credit for collective decisions without revealing confidential details or implying unsupported responsibility. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Chair position. The Chair remit to lead board effectiveness and support clear governance and decision-making should be described through decisions and examples, especially evidence of meeting leadership, board composition, governance practice, relationships, and transition judgment relevant to Education.
 
 ## Common positioning mistakes for Chair candidates in Education
 
@@ -59,7 +59,7 @@ For Chair work in Education, explain how the candidate could lead board effectiv
 
 ## Keep research, confidentiality, and outreach aligned
 
-Do not resolve uncertainty about blurring chair and executive accountabilities or taking credit for collective decisions through assumption; verify the requirement and use only supportable Chair claims. The candidate decides whether to pursue a Chair opportunity. KOV can support agreed research and preparation concerning Education. Map the Education relationships among learners, families, educators, administrators, owners or boards, and community partners; verify actual authority instead of inferring a reporting line. Use learning services delivered through institutions, programs, technology, or educational support to frame research about Education, then ask how a Chair will work through learning aims, access, program delivery, workforce needs, and resource stewardship.
+Do not resolve uncertainty about blurring chair and executive accountabilities or taking credit for collective decisions through assumption; verify the requirement and use only supportable Chair claims. KOV can support agreed research and preparation concerning Education. Map the Education relationships among learners, families, educators, administrators, owners or boards, and community partners; verify actual authority instead of inferring a reporting line. Use learning services delivered through institutions, programs, technology, or educational support to frame research about Education, then ask how a Chair will work through learning aims, access, program delivery, workforce needs, and resource stewardship.
 
 ## Prepare for conversations about Education work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chair career hub](/roles/chair/)
 
-Review the role-wide approach to lead board effectiveness and support clear governance and decision-making and the evidence expected for that scope.
+
 
 ### [Education industry hub](/industries/education/)
 
-Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.
+
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chair remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Education](/roles/coo/education.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chair remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chair in Agriculture, Food and Forestry](/roles/chair/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with learning services delivered through institutions, programs, technology, or educational support and identify how the Chair remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chair test the scope of work in Education?
 
-Start with the organization's account of learning services delivered through institutions, programs, technology, or educational support, then clarify how the Chair would lead board effectiveness and support clear governance and decision-making. Ask how learners, families, educators, administrators, owners or boards, and community partners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of learning services delivered through institutions, programs, technology, or educational support, then clarify how the Chair would lead board effectiveness and support clear governance and decision-making. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Chair use to explain experience in Education?
 
@@ -139,11 +139,11 @@ Select examples that show meeting leadership, board composition, governance prac
 
 ### What documents should a Chair tailor for Education opportunities?
 
-Possible materials include chair biography, board resume, governance narrative, and public profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or institutional scope, learner or service context, staff leadership, and improvement contribution. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted.
+Possible materials include chair biography, board resume, governance narrative, and public profile. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Chair considering Education?
 
-Outreach should follow target research, not precede it. The Chair candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with meeting leadership, board composition, governance practice, relationships, and transition judgment is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Chair rely on title alone when targeting Education?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate meeting le
 
 ### What outcome can KOV guarantee for a Chair seeking work in Education?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chair candidate considering Education, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

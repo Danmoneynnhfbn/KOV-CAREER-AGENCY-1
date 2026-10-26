@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Strategy career hub](/roles/head-strategy/)
 
-Review the role-wide approach to coordinate planning and strategic analysis for an organization or business unit and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Strategy remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Strategy remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Head of Strategy in Energy, Mining and Oil and Gas](/roles/head-strategy/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with public administration, public programs, or services delivered under a public mandate and identify how the Head of Strategy remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Head of Strategy in Public Sector and Government?
 
-Start with the organization's account of public administration, public programs, or services delivered under a public mandate, then clarify how the Head of Strategy would coordinate planning and strategic analysis for an organization or business unit. Ask how residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of public administration, public programs, or services delivered under a public mandate, then clarify how the Head of Strategy would coordinate planning and strategic analysis for an organization or business unit. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Head of Strategy make prior work relevant to Public Sector and Government?
 
@@ -139,7 +139,7 @@ Describe an instance where the candidate could coordinate planning and strategic
 
 ### Which career materials can help a Head of Strategy explore work in Public Sector and Government?
 
-Possible materials include resume, strategy portfolio, planning narrative, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, strategy portfolio, planning narrative, and profile. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Head of Strategy contacts an organization in Public Sector and Government?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### What makes a Head of Strategy background relevant to work in Public Sector and Government?
 
-No. Compare the role description with the candidate's experience of coordinate planning and strategic analysis for an organization or business unit and the organization's public administration, public programs, or services delivered under a public mandate. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Head of Strategy outreach in Public Sector and Government?
 

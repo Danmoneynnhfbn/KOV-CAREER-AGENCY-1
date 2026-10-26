@@ -33,7 +33,7 @@ Candidate-side support from KOV may connect Chief Information Security Officer p
 
 ## Choose the individual services that fit the work
 
-For Chief Information Security Officer work in Utilities, explain how the candidate could lead information-security priorities and coordinate risk-informed protection; connect that mandate to evidence of security remit, risk decisions, operating model, incident leadership where authorized, and adoption. To understand the Utilities target, explore essential network or service operations with continuity, infrastructure, and customer responsibilities and ask how a Chief Information Security Officer is expected to respond to reliability, infrastructure renewal, service access, affordability, and long-term planning. In Utilities, customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders may shape the work. A Chief Information Security Officer example should separate direct responsibility from collaboration. Protect credibility in Utilities by addressing exposing sensitive controls or incidents, or overstating personal responsibility for shared security work with a factual account of security remit, risk decisions, operating model, incident leadership where authorized, and adoption and its limits.
+For Chief Information Security Officer work in Utilities, explain how the candidate could lead information-security priorities and coordinate risk-informed protection; connect that mandate to evidence of security remit, risk decisions, operating model, incident leadership where authorized, and adoption. In Utilities, customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders may shape the work. A Chief Information Security Officer example should separate direct responsibility from collaboration. Protect credibility in Utilities by addressing exposing sensitive controls or incidents, or overstating personal responsibility for shared security work with a factual account of security remit, risk decisions, operating model, incident leadership where authorized, and adoption and its limits.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Information Security Officer career hub](/roles/ciso/)
 
-Review the role-wide approach to lead information-security priorities and coordinate risk-informed protection and the evidence expected for that scope.
+
 
 ### [Utilities industry hub](/industries/utilities/)
 
-Compare how essential network or service operations with continuity, infrastructure, and customer responsibilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Utilities](/roles/ceo/utilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Information Security Officer remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Operating Officer in Utilities](/roles/coo/utilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Information Security Officer remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Information Security Officer in Agriculture, Food and Forestry](/roles/ciso/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with essential network or service operations with continuity, infrastructure, and customer responsibilities and identify how the Chief Information Security Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Information Security Officer test the scope of work in Utilities?
 
-A Chief Information Security Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's essential network or service operations with continuity, infrastructure, and customer responsibilities. Explore how the role will lead information-security priorities and coordinate risk-informed protection and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Information Security Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's essential network or service operations with continuity, infrastructure, and customer responsibilities. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Chief Information Security Officer use to explain experience in Utilities?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### Which outreach choices belong to a Chief Information Security Officer considering Utilities?
 
-Outreach should follow target research, not precede it. The Chief Information Security Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with security remit, risk decisions, operating model, incident leadership where authorized, and adoption is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Chief Information Security Officer rely on title alone when targeting Utilities?
 
-Title is only a label. Establish what the employer means by Chief Information Security Officer in this Utilities organization and how the person will work with customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Chief Information Security Officer seeking work in Utilities?
 

@@ -16,7 +16,7 @@ KOV works with the candidate to agree which Non-Executive Director targets matte
 
 ## Documents that make Non-Executive Director experience relevant here
 
-To assess a Non-Executive Director opportunity in Public Sector and Government, compare the stated remit to the candidate's record of governance experience, constructive challenge, committee contribution, and relevant expertise. An employer's Public Sector and Government model may involve public administration, public programs, or services delivered under a public mandate; its implications for public purpose, stewardship, transparency, service access, and coordination across institutions should be discussed, not presumed. The candidate decides whether to pursue a Non-Executive Director opportunity. KOV can support agreed research and preparation concerning Public Sector and Government. The candidate can discuss governance experience, constructive challenge, committee contribution, and relevant expertise while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+To assess a Non-Executive Director opportunity in Public Sector and Government, compare the stated remit to the candidate's record of governance experience, constructive challenge, committee contribution, and relevant expertise. The candidate decides whether to pursue a Non-Executive Director opportunity. KOV can support agreed research and preparation concerning Public Sector and Government. The candidate can discuss governance experience, constructive challenge, committee contribution, and relevant expertise while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -45,11 +45,11 @@ Consider document and positioning support for Non-Executive Director materials t
 
 ## Prepare to discuss the Public Sector and Government mandate
 
-Protect credibility in Public Sector and Government by addressing confusing oversight with operational management or overstating independence with a factual account of governance experience, constructive challenge, committee contribution, and relevant expertise and its limits. The candidate decides whether to pursue a Non-Executive Director opportunity. KOV can support agreed research and preparation concerning Public Sector and Government. Ask what public administration, public programs, or services delivered under a public mandate means at this particular Public Sector and Government organization and how it changes the priorities assigned to a Non-Executive Director. To assess a Non-Executive Director opportunity in Public Sector and Government, compare the stated remit to the candidate's record of governance experience, constructive challenge, committee contribution, and relevant expertise.
+Protect credibility in Public Sector and Government by addressing confusing oversight with operational management or overstating independence with a factual account of governance experience, constructive challenge, committee contribution, and relevant expertise and its limits. KOV can support agreed research and preparation concerning Public Sector and Government. Ask what public administration, public programs, or services delivered under a public mandate means at this particular Public Sector and Government organization and how it changes the priorities assigned to a Non-Executive Director. To assess a Non-Executive Director opportunity in Public Sector and Government, compare the stated remit to the candidate's record of governance experience, constructive challenge, committee contribution, and relevant expertise.
 
 ## Common positioning mistakes for Non-Executive Director candidates in Public Sector and Government
 
-Keep the Non-Executive Director narrative accurate where confusing oversight with operational management or overstating independence may arise: attribute shared work and disclose only information the candidate may use. In Public Sector and Government, residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders may shape the work. A Non-Executive Director example should separate direct responsibility from collaboration. An employer's Public Sector and Government model may involve public administration, public programs, or services delivered under a public mandate; its implications for public purpose, stewardship, transparency, service access, and coordination across institutions should be discussed, not presumed. For Non-Executive Director work in Public Sector and Government, explain how the candidate could provide independent challenge and strategic contribution distinct from management; connect that mandate to evidence of governance experience, constructive challenge, committee contribution, and relevant expertise.
+Keep the Non-Executive Director narrative accurate where confusing oversight with operational management or overstating independence may arise: attribute shared work and disclose only information the candidate may use. A Non-Executive Director example should separate direct responsibility from collaboration. An employer's Public Sector and Government model may involve public administration, public programs, or services delivered under a public mandate; its implications for public purpose, stewardship, transparency, service access, and coordination across institutions should be discussed, not presumed. For Non-Executive Director work in Public Sector and Government, explain how the candidate could provide independent challenge and strategic contribution distinct from management; connect that mandate to evidence of governance experience, constructive challenge, committee contribution, and relevant expertise.
 
 - Treat Public Sector and Government as one uniform employer type; distinguish the actual organization and role.
 - Use a Non-Executive Director title without explaining provide independent challenge and strategic contribution distinct from management.
@@ -63,7 +63,7 @@ Show the Non-Executive Director scope behind the title: how the candidate could 
 
 ## Prepare for conversations about Public Sector and Government work
 
-To assess a Non-Executive Director opportunity in Public Sector and Government, compare the stated remit to the candidate's record of governance experience, constructive challenge, committee contribution, and relevant expertise. Not every Public Sector and Government organization will handle public purpose, stewardship, transparency, service access, and coordination across institutions alike. Confirm how public administration, public programs, or services delivered under a public mandate informs this Non-Executive Director position. Candidate-side support from KOV may connect Non-Executive Director positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Keep the Non-Executive Director narrative accurate where confusing oversight with operational management or overstating independence may arise: attribute shared work and disclose only information the candidate may use.
+To assess a Non-Executive Director opportunity in Public Sector and Government, compare the stated remit to the candidate's record of governance experience, constructive challenge, committee contribution, and relevant expertise. Confirm how public administration, public programs, or services delivered under a public mandate informs this Non-Executive Director position. Candidate-side support from KOV may connect Non-Executive Director positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Keep the Non-Executive Director narrative accurate where confusing oversight with operational management or overstating independence may arise: attribute shared work and disclose only information the candidate may use.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Non-Executive Director career hub](/roles/non-executive-director/)
 
-Review the role-wide approach to provide independent challenge and strategic contribution distinct from management and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Non-Executive Director remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Non-Executive Director remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Non-Executive Director in Agriculture, Food and Forestry](/roles/non-executive-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with public administration, public programs, or services delivered under a public mandate and identify how the Non-Executive Director remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Non-Executive Director resolve before a target discussion in Public Sector and Government?
 
-A Non-Executive Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. Explore how the role will provide independent challenge and strategic contribution distinct from management and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Non-Executive Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Non-Executive Director career story fit the needs of Public Sector and Government?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of governance experience, c
 
 ### What should a Non-Executive Director prepare in writing before targeting Public Sector and Government?
 
-Possible materials include board biography, non-executive profile, skills matrix, and governance resume. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
+Possible materials include board biography, non-executive profile, skills matrix, and governance resume. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
 
 ### What should a Non-Executive Director approve before outreach in Public Sector and Government?
 

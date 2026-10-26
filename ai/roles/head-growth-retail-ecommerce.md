@@ -33,7 +33,7 @@ For Head of Growth work in Retail and E-commerce, explain how the candidate coul
 
 ## Choose the individual services that fit the work
 
-A Head of Growth candidate should be ready to explain claiming all movement as growth impact without describing attribution or context without revealing confidential details or implying unsupported responsibility. The service plan should fit the candidate's Head of Growth priorities; agree research, materials, and any outreach before contact occurs. In Retail and E-commerce, customers, store or digital teams, suppliers, brand partners, operations, and owners may shape the work. A Head of Growth example should separate direct responsibility from collaboration. The Head of Growth remit to coordinate growth experiments and commercial initiatives for a defined business should be described through decisions and examples, especially evidence of growth remit, customer insight, channels, collaboration, and attributable learning relevant to Retail and E-commerce.
+A Head of Growth candidate should be ready to explain claiming all movement as growth impact without describing attribution or context without revealing confidential details or implying unsupported responsibility. In Retail and E-commerce, customers, store or digital teams, suppliers, brand partners, operations, and owners may shape the work. A Head of Growth example should separate direct responsibility from collaboration. The Head of Growth remit to coordinate growth experiments and commercial initiatives for a defined business should be described through decisions and examples, especially evidence of growth remit, customer insight, channels, collaboration, and attributable learning relevant to Retail and E-commerce.
 
 ### [Private career representation](/services.html)
 
@@ -49,7 +49,7 @@ Readers need to see what Head of Growth work involved; connect coordinate growth
 
 ## Common positioning mistakes for Head of Growth candidates in Retail and E-commerce
 
-The candidate can discuss growth remit, customer insight, channels, collaboration, and attributable learning while protecting confidentiality by omitting names, restricted figures, and other identifying material. The candidate decides whether to pursue a Head of Growth opportunity. KOV can support agreed research and preparation concerning Retail and E-commerce. For Retail and E-commerce, establish whether customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment describes the target employer and how customer experience, assortment, inventory, channel coordination, and rapid feedback is reflected in its Head of Growth mandate. Position a Head of Growth career by linking coordinate growth experiments and commercial initiatives for a defined business to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution, then clarify which part of that work the candidate actually owned.
+The candidate can discuss growth remit, customer insight, channels, collaboration, and attributable learning while protecting confidentiality by omitting names, restricted figures, and other identifying material. KOV can support agreed research and preparation concerning Retail and E-commerce. For Retail and E-commerce, establish whether customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment describes the target employer and how customer experience, assortment, inventory, channel coordination, and rapid feedback is reflected in its Head of Growth mandate. Position a Head of Growth career by linking coordinate growth experiments and commercial initiatives for a defined business to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution, then clarify which part of that work the candidate actually owned.
 
 - Treat Retail and E-commerce as one uniform employer type; distinguish the actual organization and role.
 - Use a Head of Growth title without explaining coordinate growth experiments and commercial initiatives for a defined business.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Growth career hub](/roles/head-growth/)
 
-Review the role-wide approach to coordinate growth experiments and commercial initiatives for a defined business and the evidence expected for that scope.
+
 
 ### [Retail and E-commerce industry hub](/industries/retail-ecommerce/)
 
-Compare how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment affects career planning across functions.
+
 
 ### [Chief Executive Officer in Retail and E-commerce](/roles/ceo/retail-ecommerce.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Growth remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Operating Officer in Retail and E-commerce](/roles/coo/retail-ecommerce.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Growth remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Head of Growth in Technology, Media and Telecom](/roles/head-growth/technology-media-telecom.html)
 
-Compare digital products, platforms, content, communications, or technology-enabled services with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and identify how the Head of Growth remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Head of Growth in Retail and E-commerce?
 
-Start with the organization's account of customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment, then clarify how the Head of Growth would coordinate growth experiments and commercial initiatives for a defined business. Ask how customers, store or digital teams, suppliers, brand partners, operations, and owners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment, then clarify how the Head of Growth would coordinate growth experiments and commercial initiatives for a defined business. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Head of Growth make prior work relevant to Retail and E-commerce?
 
@@ -139,11 +139,11 @@ Select examples that show growth remit, customer insight, channels, collaboratio
 
 ### Which career materials can help a Head of Growth explore work in Retail and E-commerce?
 
-Possible materials include resume, growth portfolio, experiment summaries, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution. Each claim should be accurate for this Retail and E-commerce target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, growth portfolio, experiment summaries, and professional profile. Each claim should be accurate for this Retail and E-commerce target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Head of Growth contacts an organization in Retail and E-commerce?
 
-Outreach should follow target research, not precede it. The Head of Growth candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with growth remit, customer insight, channels, collaboration, and attributable learning is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Head of Growth background relevant to work in Retail and E-commerce?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate growth rem
 
 ### Does KOV control employer responses to Head of Growth outreach in Retail and E-commerce?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Head of Growth candidate considering Retail and E-commerce, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

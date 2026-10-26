@@ -12,7 +12,7 @@ The Managing Director remit to lead a business, division, or organization accord
 
 ## A candidate-led process from first discussion to next steps
 
-For Managing Director work in Education, explain how the candidate could lead a business, division, or organization according to its defined mandate; connect that mandate to evidence of operating scope, commercial or service accountability, leadership span, and decision authority. Treat learning services delivered through institutions, programs, technology, or educational support as a question to validate in Education; the answer helps clarify the Managing Director mandate and its learning aims, access, program delivery, workforce needs, and resource stewardship. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Managing Director example should separate direct responsibility from collaboration. Career representation remains candidate-led: KOV can support a Managing Director search, while the candidate approves the goals and disclosures.
+For Managing Director work in Education, explain how the candidate could lead a business, division, or organization according to its defined mandate; connect that mandate to evidence of operating scope, commercial or service accountability, leadership span, and decision authority. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Managing Director example should separate direct responsibility from collaboration. Career representation remains candidate-led: KOV can support a Managing Director search, while the candidate approves the goals and disclosures.
 
 ## Documents that make Managing Director experience relevant here
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Director career hub](/roles/managing-director/)
 
-Review the role-wide approach to lead a business, division, or organization according to its defined mandate and the evidence expected for that scope.
+
 
 ### [Education industry hub](/industries/education/)
 
-Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.
+
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Director remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Education](/roles/coo/education.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Director remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Managing Director in Agriculture, Food and Forestry](/roles/managing-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with learning services delivered through institutions, programs, technology, or educational support and identify how the Managing Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Managing Director clarify before considering work in Education?
 
-Start with the organization's account of learning services delivered through institutions, programs, technology, or educational support, then clarify how the Managing Director would lead a business, division, or organization according to its defined mandate. Ask how learners, families, educators, administrators, owners or boards, and community partners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of learning services delivered through institutions, programs, technology, or educational support, then clarify how the Managing Director would lead a business, division, or organization according to its defined mandate. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Managing Director describe transferable experience for Education work?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could lead a business, division, or org
 
 ### How can a Managing Director choose documents for conversations about Education?
 
-Document selection depends on the opportunity. A Managing Director may draw from executive resume, business leadership biography, mandate summary, and profile, but should foreground only material connected to program or institutional scope, learner or service context, staff leadership, and improvement contribution. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Managing Director plan contact with Education organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Managing Director candidate's service scope; the candidate approves external communication. No one route should be assumed for all Education employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Education employers.
 
 ### How can a Managing Director assess fit with Education responsibilities?
 
-No. Compare the role description with the candidate's experience of lead a business, division, or organization according to its defined mandate and the organization's learning services delivered through institutions, programs, technology, or educational support. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Managing Director candidate considering Education?
 

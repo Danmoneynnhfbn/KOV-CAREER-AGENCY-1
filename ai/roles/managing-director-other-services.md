@@ -67,7 +67,7 @@ A candidate exploring Other Services should test the assumed link between person
 
 ## Run the search thoughtfully in each target market
 
-Good preparation for Managing Director work includes a safe way to explain assuming the title means the same authority across employers, countries, or ownership models and a clear distinction between fact and inference. Before presenting service portfolio, customer or member context, team scope, delivery decisions, and substantiated outcomes, determine how customers or members, employees, service providers, owners, suppliers, and communities participated and which details are safe to discuss. Not every Other Services organization will handle service consistency, relationship quality, capacity, trust, and adaptation to customer needs alike. Confirm how personal, repair, membership, community, or specialized services not covered by the other target sectors informs this Managing Director position. Position a Managing Director career by linking lead a business, division, or organization according to its defined mandate to service portfolio, customer or member context, team scope, delivery decisions, and substantiated outcomes, then clarify which part of that work the candidate actually owned.
+Good preparation for Managing Director work includes a safe way to explain assuming the title means the same authority across employers, countries, or ownership models and a clear distinction between fact and inference. Not every Other Services organization will handle service consistency, relationship quality, capacity, trust, and adaptation to customer needs alike. Confirm how personal, repair, membership, community, or specialized services not covered by the other target sectors informs this Managing Director position. Position a Managing Director career by linking lead a business, division, or organization according to its defined mandate to service portfolio, customer or member context, team scope, delivery decisions, and substantiated outcomes, then clarify which part of that work the candidate actually owned.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Director career hub](/roles/managing-director/)
 
-Review the role-wide approach to lead a business, division, or organization according to its defined mandate and the evidence expected for that scope.
+
 
 ### [Other Services industry hub](/industries/other-services/)
 
-Compare how personal, repair, membership, community, or specialized services not covered by the other target sectors affects career planning across functions.
+
 
 ### [Chief Executive Officer in Other Services](/roles/ceo/other-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Director remit; consider where each function meets personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chief Operating Officer in Other Services](/roles/coo/other-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Director remit; consider where each function meets personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Managing Director in Agriculture, Food and Forestry](/roles/managing-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with personal, repair, membership, community, or specialized services not covered by the other target sectors and identify how the Managing Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Managing Director clarify before considering work in Other Services?
 
-Use the opening discussion to understand the specific Other Services employer, not to assume a standard role. Compare lead a business, division, or organization according to its defined mandate with the stated scope, identify decision partners among customers or members, employees, service providers, owners, suppliers, and communities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Other Services employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Managing Director describe transferable experience for Other Services work?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Managing Director assess fit with Other Services responsibilities?
 
-No. Compare the role description with the candidate's experience of lead a business, division, or organization according to its defined mandate and the organization's personal, repair, membership, community, or specialized services not covered by the other target sectors. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Managing Director candidate considering Other Services?
 

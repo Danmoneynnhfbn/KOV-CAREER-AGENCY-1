@@ -8,7 +8,7 @@ Review each Chief Operating Officer example for describing activity without show
 
 ## Who this Chief Operating Officer and Hospitality and Food Service guide is for
 
-In a Hospitality and Food Service target, make the Chief Operating Officer contribution legible: describe how the candidate helped align operating functions, delivery systems, and organizational priorities and what supports operating scale, service or product delivery, cross-functional change, and decision rights. Not every Hospitality and Food Service organization will handle guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alike. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Chief Operating Officer position. KOV's service scope for a Chief Operating Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Before discussing venue or service scope, team leadership, guest context, service design, and attributable operating contributions, check whether describing activity without showing scope, dependencies, or the candidate's contribution could expose sensitive details or blur the candidate's decision boundary.
+In a Hospitality and Food Service target, make the Chief Operating Officer contribution legible: describe how the candidate helped align operating functions, delivery systems, and organizational priorities and what supports operating scale, service or product delivery, cross-functional change, and decision rights. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Chief Operating Officer position. KOV's service scope for a Chief Operating Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Before discussing venue or service scope, team leadership, guest context, service design, and attributable operating contributions, check whether describing activity without showing scope, dependencies, or the candidate's contribution could expose sensitive details or blur the candidate's decision boundary.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Chief Operating Officer materials 
 
 ## Prepare to discuss the Hospitality and Food Service mandate
 
-Before discussing venue or service scope, team leadership, guest context, service design, and attributable operating contributions, check whether describing activity without showing scope, dependencies, or the candidate's contribution could expose sensitive details or blur the candidate's decision boundary. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Chief Operating Officer example should separate direct responsibility from collaboration. Use guest-facing accommodation, food, venue, or experience services delivered through people and operations to frame research about Hospitality and Food Service, then ask how a Chief Operating Officer will work through guest experience, operating capacity, service consistency, workforce coordination, and supplier variability. Readers need to see what Chief Operating Officer work involved; connect align operating functions, delivery systems, and organizational priorities with the candidate's own examples of operating scale, service or product delivery, cross-functional change, and decision rights in Hospitality and Food Service.
+Before discussing venue or service scope, team leadership, guest context, service design, and attributable operating contributions, check whether describing activity without showing scope, dependencies, or the candidate's contribution could expose sensitive details or blur the candidate's decision boundary. A Chief Operating Officer example should separate direct responsibility from collaboration. Use guest-facing accommodation, food, venue, or experience services delivered through people and operations to frame research about Hospitality and Food Service, then ask how a Chief Operating Officer will work through guest experience, operating capacity, service consistency, workforce coordination, and supplier variability. Readers need to see what Chief Operating Officer work involved; connect align operating functions, delivery systems, and organizational priorities with the candidate's own examples of operating scale, service or product delivery, cross-functional change, and decision rights in Hospitality and Food Service.
 
 ## Common positioning mistakes for Chief Operating Officer candidates in Hospitality and Food Service
 
@@ -63,7 +63,7 @@ Position a Chief Operating Officer career by linking align operating functions, 
 
 ## Prepare for conversations about Hospitality and Food Service work
 
-For Chief Operating Officer work in Hospitality and Food Service, explain how the candidate could align operating functions, delivery systems, and organizational priorities; connect that mandate to evidence of operating scale, service or product delivery, cross-functional change, and decision rights. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Chief Operating Officer example should separate direct responsibility from collaboration. For a Chief Operating Officer target, KOV can discuss how executive resume, operating-impact summary, leadership biography, and profile support the candidate's account of operating scale, service or product delivery, cross-functional change, and decision rights; external steps require prior agreement. Protect credibility in Hospitality and Food Service by addressing describing activity without showing scope, dependencies, or the candidate's contribution with a factual account of operating scale, service or product delivery, cross-functional change, and decision rights and its limits.
+For Chief Operating Officer work in Hospitality and Food Service, explain how the candidate could align operating functions, delivery systems, and organizational priorities; connect that mandate to evidence of operating scale, service or product delivery, cross-functional change, and decision rights. A Chief Operating Officer example should separate direct responsibility from collaboration. For a Chief Operating Officer target, KOV can discuss how executive resume, operating-impact summary, leadership biography, and profile support the candidate's account of operating scale, service or product delivery, cross-functional change, and decision rights; external steps require prior agreement. Protect credibility in Hospitality and Food Service by addressing describing activity without showing scope, dependencies, or the candidate's contribution with a factual account of operating scale, service or product delivery, cross-functional change, and decision rights and its limits.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Operating Officer career hub](/roles/coo/)
 
-Review the role-wide approach to align operating functions, delivery systems, and organizational priorities and the evidence expected for that scope.
+
 
 ### [Hospitality and Food Service industry hub](/industries/hospitality-food-service/)
 
-Compare how guest-facing accommodation, food, venue, or experience services delivered through people and operations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Hospitality and Food Service](/roles/ceo/hospitality-food-service.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Operating Officer remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Financial Officer in Hospitality and Food Service](/roles/cfo/hospitality-food-service.html)
 
-Contrast lead financial stewardship and connect resource decisions to organizational priorities with the Chief Operating Officer remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with guest-facing accommodation, food, venue, or experience services delivered through people and operations and identify how the Chief Operating Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Operating Officer test the scope of work in Hospitality and Food Service?
 
-Use the opening discussion to understand the specific Hospitality and Food Service employer, not to assume a standard role. Compare align operating functions, delivery systems, and organizational priorities with the stated scope, identify decision partners among guests, employees, suppliers, owners, local partners, and service teams, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Hospitality and Food Service employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### What evidence can a Chief Operating Officer use to explain experience in Hospitality and Food Service?
 
@@ -139,19 +139,19 @@ Select examples that show operating scale, service or product delivery, cross-fu
 
 ### What documents should a Chief Operating Officer tailor for Hospitality and Food Service opportunities?
 
-Document selection depends on the opportunity. A Chief Operating Officer may draw from executive resume, operating-impact summary, leadership biography, and profile, but should foreground only material connected to venue or service scope, team leadership, guest context, service design, and attributable operating contributions. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### Which outreach choices belong to a Chief Operating Officer considering Hospitality and Food Service?
 
-Outreach should follow target research, not precede it. The Chief Operating Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with operating scale, service or product delivery, cross-functional change, and decision rights is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Chief Operating Officer rely on title alone when targeting Hospitality and Food Service?
 
-No. Compare the role description with the candidate's experience of align operating functions, delivery systems, and organizational priorities and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Chief Operating Officer seeking work in Hospitality and Food Service?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Operating Officer candidate considering Hospitality and Food Service, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

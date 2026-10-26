@@ -8,7 +8,7 @@ The General Counsel / Chief Legal Officer remit to lead legal judgment and conne
 
 ## Who this General Counsel / Chief Legal Officer and Utilities guide is for
 
-For General Counsel / Chief Legal Officer materials, manage the risk of confusing legal advice with business decision ownership or disclosing privileged information; support claims with legal remit, advisory judgment, team scope, governance interaction, and business context and remove details that are not authorized for sharing. Use an example involving service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination to describe the decision, the parties involved, and the candidate's role as a General Counsel / Chief Legal Officer. Not every Utilities organization will handle reliability, infrastructure renewal, service access, affordability, and long-term planning alike. Confirm how essential network or service operations with continuity, infrastructure, and customer responsibilities informs this General Counsel / Chief Legal Officer position. For General Counsel / Chief Legal Officer work in Utilities, explain how the candidate could lead legal judgment and connect legal advice with organizational decisions; connect that mandate to evidence of legal remit, advisory judgment, team scope, governance interaction, and business context.
+For General Counsel / Chief Legal Officer materials, manage the risk of confusing legal advice with business decision ownership or disclosing privileged information; support claims with legal remit, advisory judgment, team scope, governance interaction, and business context and remove details that are not authorized for sharing. Not every Utilities organization will handle reliability, infrastructure renewal, service access, affordability, and long-term planning alike. Confirm how essential network or service operations with continuity, infrastructure, and customer responsibilities informs this General Counsel / Chief Legal Officer position. For General Counsel / Chief Legal Officer work in Utilities, explain how the candidate could lead legal judgment and connect legal advice with organizational decisions; connect that mandate to evidence of legal remit, advisory judgment, team scope, governance interaction, and business context.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -16,7 +16,7 @@ The General Counsel / Chief Legal Officer remit to lead legal judgment and conne
 
 ## Documents that make General Counsel / Chief Legal Officer experience relevant here
 
-A candidate exploring Utilities should test the assumed link between essential network or service operations with continuity, infrastructure, and customer responsibilities and reliability, infrastructure renewal, service access, affordability, and long-term planning against the actual General Counsel / Chief Legal Officer role description. Before presenting service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination, determine how customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders participated and which details are safe to discuss. The candidate decides whether to pursue a General Counsel / Chief Legal Officer opportunity. KOV can support agreed research and preparation concerning Utilities. Protect credibility in Utilities by addressing confusing legal advice with business decision ownership or disclosing privileged information with a factual account of legal remit, advisory judgment, team scope, governance interaction, and business context and its limits.
+A candidate exploring Utilities should test the assumed link between essential network or service operations with continuity, infrastructure, and customer responsibilities and reliability, infrastructure renewal, service access, affordability, and long-term planning against the actual General Counsel / Chief Legal Officer role description. The candidate decides whether to pursue a General Counsel / Chief Legal Officer opportunity. KOV can support agreed research and preparation concerning Utilities. Protect credibility in Utilities by addressing confusing legal advice with business decision ownership or disclosing privileged information with a factual account of legal remit, advisory judgment, team scope, governance interaction, and business context and its limits.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -49,7 +49,7 @@ A candidate exploring Utilities should test the assumed link between essential n
 
 ## Common positioning mistakes for General Counsel / Chief Legal Officer candidates in Utilities
 
-For General Counsel / Chief Legal Officer materials, manage the risk of confusing legal advice with business decision ownership or disclosing privileged information; support claims with legal remit, advisory judgment, team scope, governance interaction, and business context and remove details that are not authorized for sharing. In Utilities, customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders may shape the work. A General Counsel / Chief Legal Officer example should separate direct responsibility from collaboration. Not every Utilities organization will handle reliability, infrastructure renewal, service access, affordability, and long-term planning alike. Confirm how essential network or service operations with continuity, infrastructure, and customer responsibilities informs this General Counsel / Chief Legal Officer position. For General Counsel / Chief Legal Officer work in Utilities, explain how the candidate could lead legal judgment and connect legal advice with organizational decisions; connect that mandate to evidence of legal remit, advisory judgment, team scope, governance interaction, and business context.
+For General Counsel / Chief Legal Officer materials, manage the risk of confusing legal advice with business decision ownership or disclosing privileged information; support claims with legal remit, advisory judgment, team scope, governance interaction, and business context and remove details that are not authorized for sharing. Not every Utilities organization will handle reliability, infrastructure renewal, service access, affordability, and long-term planning alike. Confirm how essential network or service operations with continuity, infrastructure, and customer responsibilities informs this General Counsel / Chief Legal Officer position. For General Counsel / Chief Legal Officer work in Utilities, explain how the candidate could lead legal judgment and connect legal advice with organizational decisions; connect that mandate to evidence of legal remit, advisory judgment, team scope, governance interaction, and business context.
 
 - Treat Utilities as one uniform employer type; distinguish the actual organization and role.
 - Use a General Counsel / Chief Legal Officer title without explaining lead legal judgment and connect legal advice with organizational decisions.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [General Counsel / Chief Legal Officer career hub](/roles/general-counsel/)
 
-Review the role-wide approach to lead legal judgment and connect legal advice with organizational decisions and the evidence expected for that scope.
+
 
 ### [Utilities industry hub](/industries/utilities/)
 
-Compare how essential network or service operations with continuity, infrastructure, and customer responsibilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Utilities](/roles/ceo/utilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the General Counsel / Chief Legal Officer remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Operating Officer in Utilities](/roles/coo/utilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the General Counsel / Chief Legal Officer remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [General Counsel / Chief Legal Officer in Agriculture, Food and Forestry](/roles/general-counsel/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with essential network or service operations with continuity, infrastructure, and customer responsibilities and identify how the General Counsel / Chief Legal Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a General Counsel / Chief Legal Officer clarify before considering work in Utilities?
 
-A General Counsel / Chief Legal Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's essential network or service operations with continuity, infrastructure, and customer responsibilities. Explore how the role will lead legal judgment and connect legal advice with organizational decisions and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A General Counsel / Chief Legal Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's essential network or service operations with continuity, infrastructure, and customer responsibilities. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a General Counsel / Chief Legal Officer describe transferable experience for Utilities work?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of legal remit, advisory ju
 
 ### How can a General Counsel / Chief Legal Officer choose documents for conversations about Utilities?
 
-Possible materials include executive resume, legal leadership biography, practice summary, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination. Each claim should be accurate for this Utilities target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, legal leadership biography, practice summary, and professional profile. Each claim should be accurate for this Utilities target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a General Counsel / Chief Legal Officer plan contact with Utilities organizations?
 

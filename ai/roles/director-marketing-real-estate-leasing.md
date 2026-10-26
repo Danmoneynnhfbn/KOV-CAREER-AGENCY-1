@@ -16,7 +16,7 @@ Readers need to see what Director of Marketing work involved; connect manage cam
 
 ## Documents that make Director of Marketing experience relevant here
 
-Readers need to see what Director of Marketing work involved; connect manage campaigns, channels, or marketing programs within a broader strategy with the candidate's own examples of audience, channel choices, budget or team remit, collaboration, and attributable results in Real Estate and Leasing. Research for a Director of Marketing in Real Estate and Leasing becomes more focused when the candidate investigates asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions alongside property ownership, development, brokerage, management, or leasing relationships. In Real Estate and Leasing, owners, tenants, customers, investors, property teams, suppliers, and communities may shape the work. A Director of Marketing example should separate direct responsibility from collaboration. Keep the Director of Marketing narrative accurate where presenting campaign metrics without explaining objectives or contribution may arise: attribute shared work and disclose only information the candidate may use.
+Readers need to see what Director of Marketing work involved; connect manage campaigns, channels, or marketing programs within a broader strategy with the candidate's own examples of audience, channel choices, budget or team remit, collaboration, and attributable results in Real Estate and Leasing. In Real Estate and Leasing, owners, tenants, customers, investors, property teams, suppliers, and communities may shape the work. A Director of Marketing example should separate direct responsibility from collaboration. Keep the Director of Marketing narrative accurate where presenting campaign metrics without explaining objectives or contribution may arise: attribute shared work and disclose only information the candidate may use.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ Readers need to see what Director of Marketing work involved; connect manage cam
 
 ## Choose the individual services that fit the work
 
-The Real Estate and Leasing context involves property ownership, development, brokerage, management, or leasing relationships; examine how that structure affects asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions before drawing conclusions about the Director of Marketing role. Discuss asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution with care: a Director of Marketing candidate can explain contribution while omitting confidential or identifying facts. The candidate decides whether to pursue a Director of Marketing opportunity. KOV can support agreed research and preparation concerning Real Estate and Leasing. The candidate can discuss audience, channel choices, budget or team remit, collaboration, and attributable results while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+The Real Estate and Leasing context involves property ownership, development, brokerage, management, or leasing relationships; examine how that structure affects asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions before drawing conclusions about the Director of Marketing role. The candidate decides whether to pursue a Director of Marketing opportunity. KOV can support agreed research and preparation concerning Real Estate and Leasing. The candidate can discuss audience, channel choices, budget or team remit, collaboration, and attributable results while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Marketing career hub](/roles/director-marketing/)
 
-Review the role-wide approach to manage campaigns, channels, or marketing programs within a broader strategy and the evidence expected for that scope.
+
 
 ### [Real Estate and Leasing industry hub](/industries/real-estate-leasing/)
 
-Compare how property ownership, development, brokerage, management, or leasing relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Real Estate and Leasing](/roles/ceo/real-estate-leasing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Marketing remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Operating Officer in Real Estate and Leasing](/roles/coo/real-estate-leasing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Marketing remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Director of Marketing in Retail and E-commerce](/roles/director-marketing/retail-ecommerce.html)
 
-Compare customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment with property ownership, development, brokerage, management, or leasing relationships and identify how the Director of Marketing remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Director of Marketing in Real Estate and Leasing?
 
-A Director of Marketing candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's property ownership, development, brokerage, management, or leasing relationships. Explore how the role will manage campaigns, channels, or marketing programs within a broader strategy and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of Marketing candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's property ownership, development, brokerage, management, or leasing relationships. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Director of Marketing make prior work relevant to Real Estate and Leasing?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### What makes a Director of Marketing background relevant to work in Real Estate and Leasing?
 
-No. Compare the role description with the candidate's experience of manage campaigns, channels, or marketing programs within a broader strategy and the organization's property ownership, development, brokerage, management, or leasing relationships. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Director of Marketing outreach in Real Estate and Leasing?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of Marketing candidate considering Real Estate and Leasing, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

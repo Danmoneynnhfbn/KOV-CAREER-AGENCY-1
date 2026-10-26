@@ -67,7 +67,7 @@ Review each General Counsel / Chief Legal Officer example for confusing legal ad
 
 ## Run the search thoughtfully in each target market
 
-The candidate decides whether to pursue a General Counsel / Chief Legal Officer opportunity. KOV can support agreed research and preparation concerning Agriculture, Food and Forestry. In Agriculture, Food and Forestry, producers, workforce, buyers, processors, logistics partners, and communities may shape the work. A General Counsel / Chief Legal Officer example should separate direct responsibility from collaboration. Research for a General Counsel / Chief Legal Officer in Agriculture, Food and Forestry becomes more focused when the candidate investigates seasonality, input availability, quality variation, and coordination across production stages alongside production linked to land, biological cycles, processing, and supply relationships. In a Agriculture, Food and Forestry target, make the General Counsel / Chief Legal Officer contribution legible: describe how the candidate helped lead legal judgment and connect legal advice with organizational decisions and what supports legal remit, advisory judgment, team scope, governance interaction, and business context.
+The candidate decides whether to pursue a General Counsel / Chief Legal Officer opportunity. A General Counsel / Chief Legal Officer example should separate direct responsibility from collaboration. Research for a General Counsel / Chief Legal Officer in Agriculture, Food and Forestry becomes more focused when the candidate investigates seasonality, input availability, quality variation, and coordination across production stages alongside production linked to land, biological cycles, processing, and supply relationships. In a Agriculture, Food and Forestry target, make the General Counsel / Chief Legal Officer contribution legible: describe how the candidate helped lead legal judgment and connect legal advice with organizational decisions and what supports legal remit, advisory judgment, team scope, governance interaction, and business context.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [General Counsel / Chief Legal Officer career hub](/roles/general-counsel/)
 
-Review the role-wide approach to lead legal judgment and connect legal advice with organizational decisions and the evidence expected for that scope.
+
 
 ### [Agriculture, Food and Forestry industry hub](/industries/agriculture-food-forestry/)
 
-Compare how production linked to land, biological cycles, processing, and supply relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Agriculture, Food and Forestry](/roles/ceo/agriculture-food-forestry.html)
 
-Contrast set organization-wide direction and coordinate executive work with the General Counsel / Chief Legal Officer remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the General Counsel / Chief Legal Officer remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [General Counsel / Chief Legal Officer in Energy, Mining and Oil and Gas](/roles/general-counsel/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with production linked to land, biological cycles, processing, and supply relationships and identify how the General Counsel / Chief Legal Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a General Counsel / Chief Legal Officer resolve before a target discussion in Agriculture, Food and Forestry?
 
-Use the opening discussion to understand the specific Agriculture, Food and Forestry employer, not to assume a standard role. Compare lead legal judgment and connect legal advice with organizational decisions with the stated scope, identify decision partners among producers, workforce, buyers, processors, logistics partners, and communities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Agriculture, Food and Forestry employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a General Counsel / Chief Legal Officer career story fit the needs of Agriculture, Food and Forestry?
 

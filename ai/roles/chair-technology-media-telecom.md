@@ -4,11 +4,11 @@ KOV helps Chair candidates considering roles connected to Technology, Media and 
 
 ## How Chair work connects with Technology, Media and Telecom
 
-For Chair materials, manage the risk of blurring chair and executive accountabilities or taking credit for collective decisions; support claims with meeting leadership, board composition, governance practice, relationships, and transition judgment and remove details that are not authorized for sharing. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Chair example should separate direct responsibility from collaboration. Use digital products, platforms, content, communications, or technology-enabled services to frame research about Technology, Media and Telecom, then ask how a Chair will work through product evolution, reliability, audience or customer needs, technical choices, and changing business models. The Chair remit to lead board effectiveness and support clear governance and decision-making should be described through decisions and examples, especially evidence of meeting leadership, board composition, governance practice, relationships, and transition judgment relevant to Technology, Media and Telecom.
+For Chair materials, manage the risk of blurring chair and executive accountabilities or taking credit for collective decisions; support claims with meeting leadership, board composition, governance practice, relationships, and transition judgment and remove details that are not authorized for sharing. A Chair example should separate direct responsibility from collaboration. Use digital products, platforms, content, communications, or technology-enabled services to frame research about Technology, Media and Telecom, then ask how a Chair will work through product evolution, reliability, audience or customer needs, technical choices, and changing business models. The Chair remit to lead board effectiveness and support clear governance and decision-making should be described through decisions and examples, especially evidence of meeting leadership, board composition, governance practice, relationships, and transition judgment relevant to Technology, Media and Telecom.
 
 ## Who this Chair and Technology, Media and Telecom guide is for
 
-In a Technology, Media and Telecom target, make the Chair contribution legible: describe how the candidate helped lead board effectiveness and support clear governance and decision-making and what supports meeting leadership, board composition, governance practice, relationships, and transition judgment. Not every Technology, Media and Telecom organization will handle product evolution, reliability, audience or customer needs, technical choices, and changing business models alike. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Chair position. KOV can help a Chair candidate organize an agreed search approach for Technology, Media and Telecom, including documents such as chair biography, board resume, governance narrative, and public profile. Before discussing product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality, check whether blurring chair and executive accountabilities or taking credit for collective decisions could expose sensitive details or blur the candidate's decision boundary.
+In a Technology, Media and Telecom target, make the Chair contribution legible: describe how the candidate helped lead board effectiveness and support clear governance and decision-making and what supports meeting leadership, board composition, governance practice, relationships, and transition judgment. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Chair position. KOV can help a Chair candidate organize an agreed search approach for Technology, Media and Telecom, including documents such as chair biography, board resume, governance narrative, and public profile. Before discussing product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality, check whether blurring chair and executive accountabilities or taking credit for collective decisions could expose sensitive details or blur the candidate's decision boundary.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chair career hub](/roles/chair/)
 
-Review the role-wide approach to lead board effectiveness and support clear governance and decision-making and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chair remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chair remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chair in Agriculture, Food and Forestry](/roles/chair/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with digital products, platforms, content, communications, or technology-enabled services and identify how the Chair remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chair clarify before considering work in Technology, Media and Telecom?
 
-A Chair candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's digital products, platforms, content, communications, or technology-enabled services. Explore how the role will lead board effectiveness and support clear governance and decision-making and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chair candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's digital products, platforms, content, communications, or technology-enabled services. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Chair describe transferable experience for Technology, Media and Telecom work?
 
@@ -139,11 +139,11 @@ Make the connection explicit: the candidate's record of meeting leadership, boar
 
 ### How can a Chair choose documents for conversations about Technology, Media and Telecom?
 
-Possible materials include chair biography, board resume, governance narrative, and public profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
+Possible materials include chair biography, board resume, governance narrative, and public profile. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Chair plan contact with Technology, Media and Telecom organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chair candidate's service scope; the candidate approves external communication. No one route should be assumed for all Technology, Media and Telecom employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Technology, Media and Telecom employers.
 
 ### How can a Chair assess fit with Technology, Media and Telecom responsibilities?
 

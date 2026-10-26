@@ -8,7 +8,7 @@ A candidate exploring Manufacturing should test the assumed link between convers
 
 ## Who this Head of Data and AI and Manufacturing guide is for
 
-For Head of Data and AI work in Manufacturing, explain how the candidate could lead data capabilities and coordinate responsible application of analytical or AI work; connect that mandate to evidence of data products, team scope, quality practices, governance partnership, and decision value. Not every Manufacturing organization will handle production planning, equipment capacity, quality, workforce capability, and customer demand alike. Confirm how conversion of materials into products through coordinated processes, equipment, people, and quality systems informs this Head of Data and AI position. Where appropriate to the agreed service, KOV can help a Head of Data and AI candidate prepare and coordinate approved next steps for Manufacturing. For Head of Data and AI materials, manage the risk of exposing sensitive datasets, overstating model capability, or omitting human oversight; support claims with data products, team scope, quality practices, governance partnership, and decision value and remove details that are not authorized for sharing.
+For Head of Data and AI work in Manufacturing, explain how the candidate could lead data capabilities and coordinate responsible application of analytical or AI work; connect that mandate to evidence of data products, team scope, quality practices, governance partnership, and decision value. Confirm how conversion of materials into products through coordinated processes, equipment, people, and quality systems informs this Head of Data and AI position. Where appropriate to the agreed service, KOV can help a Head of Data and AI candidate prepare and coordinate approved next steps for Manufacturing. For Head of Data and AI materials, manage the risk of exposing sensitive datasets, overstating model capability, or omitting human oversight; support claims with data products, team scope, quality practices, governance partnership, and decision value and remove details that are not authorized for sharing.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Data and AI career hub](/roles/head-data-ai/)
 
-Review the role-wide approach to lead data capabilities and coordinate responsible application of analytical or AI work and the evidence expected for that scope.
+
 
 ### [Manufacturing industry hub](/industries/manufacturing/)
 
-Compare how conversion of materials into products through coordinated processes, equipment, people, and quality systems affects career planning across functions.
+
 
 ### [Chief Executive Officer in Manufacturing](/roles/ceo/manufacturing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Data and AI remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Operating Officer in Manufacturing](/roles/coo/manufacturing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Data and AI remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Head of Data and AI in Retail and E-commerce](/roles/head-data-ai/retail-ecommerce.html)
 
-Compare customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment with conversion of materials into products through coordinated processes, equipment, people, and quality systems and identify how the Head of Data and AI remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Head of Data and AI resolve before a target discussion in Manufacturing?
 
-Start with the organization's account of conversion of materials into products through coordinated processes, equipment, people, and quality systems, then clarify how the Head of Data and AI would lead data capabilities and coordinate responsible application of analytical or AI work. Ask how employees, suppliers, customers, engineering, operations, distribution, and ownership participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of conversion of materials into products through coordinated processes, equipment, people, and quality systems, then clarify how the Head of Data and AI would lead data capabilities and coordinate responsible application of analytical or AI work. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### Which parts of a Head of Data and AI career story fit the needs of Manufacturing?
 
@@ -139,11 +139,11 @@ Select examples that show data products, team scope, quality practices, governan
 
 ### What should a Head of Data and AI prepare in writing before targeting Manufacturing?
 
-Document selection depends on the opportunity. A Head of Data and AI may draw from resume, data leadership portfolio, project summaries, and professional profile, but should foreground only material connected to plant or product scope, process decisions, quality or delivery context, team leadership, and improvement work. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What should a Head of Data and AI approve before outreach in Manufacturing?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Head of Data and AI candidate's service scope; the candidate approves external communication. No one route should be assumed for all Manufacturing employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Manufacturing employers.
 
 ### How should a Head of Data and AI compare title and remit in Manufacturing?
 

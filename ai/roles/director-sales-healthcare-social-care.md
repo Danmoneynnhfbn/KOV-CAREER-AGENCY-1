@@ -33,7 +33,7 @@ A Director of Sales candidate should be ready to explain claiming results withou
 
 ## Choose the individual services that fit the work
 
-Where claiming results without clarifying target, territory, team role, or sales cycle affects a career example, substitute an authorized summary that preserves the point about customer segment, territory or account scope, team contribution, and sales process. The candidate decides whether to pursue a Director of Sales opportunity. KOV can support agreed research and preparation concerning Healthcare and Social Care. To understand the Healthcare and Social Care target, explore care, health-related services, or social support delivered by teams and organizations and ask how a Director of Sales is expected to respond to service quality, workforce coordination, access, continuity, and sensitive information. Rather than lead with seniority, a Director of Sales profile can explain the responsibility to manage sales teams, accounts, or territories against an agreed commercial plan and use service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples as evidence.
+Where claiming results without clarifying target, territory, team role, or sales cycle affects a career example, substitute an authorized summary that preserves the point about customer segment, territory or account scope, team contribution, and sales process. KOV can support agreed research and preparation concerning Healthcare and Social Care. To understand the Healthcare and Social Care target, explore care, health-related services, or social support delivered by teams and organizations and ask how a Director of Sales is expected to respond to service quality, workforce coordination, access, continuity, and sensitive information. Rather than lead with seniority, a Director of Sales profile can explain the responsibility to manage sales teams, accounts, or territories against an agreed commercial plan and use service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples as evidence.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Sales career hub](/roles/director-sales/)
 
-Review the role-wide approach to manage sales teams, accounts, or territories against an agreed commercial plan and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Sales remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Sales remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Director of Sales in Manufacturing](/roles/director-sales/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with care, health-related services, or social support delivered by teams and organizations and identify how the Director of Sales remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Director of Sales clarify before considering work in Healthcare and Social Care?
 
-Start with the organization's account of care, health-related services, or social support delivered by teams and organizations, then clarify how the Director of Sales would manage sales teams, accounts, or territories against an agreed commercial plan. Ask how people receiving services, families, care professionals, administrators, owners, and community partners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of care, health-related services, or social support delivered by teams and organizations, then clarify how the Director of Sales would manage sales teams, accounts, or territories against an agreed commercial plan. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Director of Sales describe transferable experience for Healthcare and Social Care work?
 
@@ -139,7 +139,7 @@ Describe an instance where the candidate could manage sales teams, accounts, or 
 
 ### How can a Director of Sales choose documents for conversations about Healthcare and Social Care?
 
-Document selection depends on the opportunity. A Director of Sales may draw from resume, sales achievement brief, profile, and interview examples, but should foreground only material connected to service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Director of Sales plan contact with Healthcare and Social Care organizations?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Director of Sales assess fit with Healthcare and Social Care responsibilities?
 
-No. Compare the role description with the candidate's experience of manage sales teams, accounts, or territories against an agreed commercial plan and the organization's care, health-related services, or social support delivered by teams and organizations. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Director of Sales candidate considering Healthcare and Social Care?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of Sales candidate considering Healthcare and Social Care, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

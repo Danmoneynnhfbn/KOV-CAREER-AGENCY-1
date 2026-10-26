@@ -33,7 +33,7 @@ The Chief Revenue Officer remit to coordinate revenue-facing functions around a 
 
 ## Choose the individual services that fit the work
 
-The candidate can discuss commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence while protecting confidentiality by omitting names, restricted figures, and other identifying material. The candidate decides whether to pursue a Chief Revenue Officer opportunity. KOV can support agreed research and preparation concerning Education. Before presenting program or institutional scope, learner or service context, staff leadership, and improvement contribution, determine how learners, families, educators, administrators, owners or boards, and community partners participated and which details are safe to discuss. Readers need to see what Chief Revenue Officer work involved; connect coordinate revenue-facing functions around a coherent commercial direction with the candidate's own examples of commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence in Education.
+The candidate can discuss commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence while protecting confidentiality by omitting names, restricted figures, and other identifying material. KOV can support agreed research and preparation concerning Education. Before presenting program or institutional scope, learner or service context, staff leadership, and improvement contribution, determine how learners, families, educators, administrators, owners or boards, and community partners participated and which details are safe to discuss. Readers need to see what Chief Revenue Officer work involved; connect coordinate revenue-facing functions around a coherent commercial direction with the candidate's own examples of commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence in Education.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Revenue Officer career hub](/roles/chief-revenue-officer/)
 
-Review the role-wide approach to coordinate revenue-facing functions around a coherent commercial direction and the evidence expected for that scope.
+
 
 ### [Education industry hub](/industries/education/)
 
-Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.
+
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Revenue Officer remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Education](/roles/coo/education.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Revenue Officer remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Revenue Officer in Agriculture, Food and Forestry](/roles/chief-revenue-officer/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with learning services delivered through institutions, programs, technology, or educational support and identify how the Chief Revenue Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Revenue Officer clarify before considering work in Education?
 
-A Chief Revenue Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. Explore how the role will coordinate revenue-facing functions around a coherent commercial direction and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Revenue Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Chief Revenue Officer describe transferable experience for Education work?
 
@@ -139,7 +139,7 @@ Describe an instance where the candidate could coordinate revenue-facing functio
 
 ### How can a Chief Revenue Officer choose documents for conversations about Education?
 
-Possible materials include executive resume, commercial leadership profile, pipeline narrative, and biography. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or institutional scope, learner or service context, staff leadership, and improvement contribution. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, commercial leadership profile, pipeline narrative, and biography. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Chief Revenue Officer plan contact with Education organizations?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Chief Revenue Officer assess fit with Education responsibilities?
 
-Title is only a label. Establish what the employer means by Chief Revenue Officer in this Education organization and how the person will work with learners, families, educators, administrators, owners or boards, and community partners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Chief Revenue Officer candidate considering Education?
 

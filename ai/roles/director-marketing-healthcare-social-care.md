@@ -4,7 +4,7 @@ KOV helps Director of Marketing candidates considering roles connected to Health
 
 ## How Director of Marketing work connects with Healthcare and Social Care
 
-The Director of Marketing remit to manage campaigns, channels, or marketing programs within a broader strategy should be described through decisions and examples, especially evidence of audience, channel choices, budget or team remit, collaboration, and attributable results relevant to Healthcare and Social Care. Not every Healthcare and Social Care organization will handle service quality, workforce coordination, access, continuity, and sensitive information alike. Confirm how care, health-related services, or social support delivered by teams and organizations informs this Director of Marketing position. KOV works with the candidate to agree which Director of Marketing targets matter, how resume, campaign portfolio, professional profile, and examples will be used, and whether communication is authorized. A Director of Marketing candidate should be ready to explain presenting campaign metrics without explaining objectives or contribution without revealing confidential details or implying unsupported responsibility.
+The Director of Marketing remit to manage campaigns, channels, or marketing programs within a broader strategy should be described through decisions and examples, especially evidence of audience, channel choices, budget or team remit, collaboration, and attributable results relevant to Healthcare and Social Care. Confirm how care, health-related services, or social support delivered by teams and organizations informs this Director of Marketing position. KOV works with the candidate to agree which Director of Marketing targets matter, how resume, campaign portfolio, professional profile, and examples will be used, and whether communication is authorized. A Director of Marketing candidate should be ready to explain presenting campaign metrics without explaining objectives or contribution without revealing confidential details or implying unsupported responsibility.
 
 ## Who this Director of Marketing and Healthcare and Social Care guide is for
 
@@ -49,7 +49,7 @@ Do not resolve uncertainty about presenting campaign metrics without explaining 
 
 ## Common positioning mistakes for Director of Marketing candidates in Healthcare and Social Care
 
-Where presenting campaign metrics without explaining objectives or contribution affects a career example, substitute an authorized summary that preserves the point about audience, channel choices, budget or team remit, collaboration, and attributable results. The service plan should fit the candidate's Director of Marketing priorities; agree research, materials, and any outreach before contact occurs. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Director of Marketing example should separate direct responsibility from collaboration. Use care, health-related services, or social support delivered by teams and organizations to frame research about Healthcare and Social Care, then ask how a Director of Marketing will work through service quality, workforce coordination, access, continuity, and sensitive information.
+Where presenting campaign metrics without explaining objectives or contribution affects a career example, substitute an authorized summary that preserves the point about audience, channel choices, budget or team remit, collaboration, and attributable results. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Director of Marketing example should separate direct responsibility from collaboration. Use care, health-related services, or social support delivered by teams and organizations to frame research about Healthcare and Social Care, then ask how a Director of Marketing will work through service quality, workforce coordination, access, continuity, and sensitive information.
 
 - Treat Healthcare and Social Care as one uniform employer type; distinguish the actual organization and role.
 - Use a Director of Marketing title without explaining manage campaigns, channels, or marketing programs within a broader strategy.
@@ -59,7 +59,7 @@ Where presenting campaign metrics without explaining objectives or contribution 
 
 ## Keep research, confidentiality, and outreach aligned
 
-Readers need to see what Director of Marketing work involved; connect manage campaigns, channels, or marketing programs within a broader strategy with the candidate's own examples of audience, channel choices, budget or team remit, collaboration, and attributable results in Healthcare and Social Care. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Director of Marketing example should separate direct responsibility from collaboration. KOV works with the candidate to agree which Director of Marketing targets matter, how resume, campaign portfolio, professional profile, and examples will be used, and whether communication is authorized. A Director of Marketing candidate should be ready to explain presenting campaign metrics without explaining objectives or contribution without revealing confidential details or implying unsupported responsibility.
+Readers need to see what Director of Marketing work involved; connect manage campaigns, channels, or marketing programs within a broader strategy with the candidate's own examples of audience, channel choices, budget or team remit, collaboration, and attributable results in Healthcare and Social Care. A Director of Marketing example should separate direct responsibility from collaboration. KOV works with the candidate to agree which Director of Marketing targets matter, how resume, campaign portfolio, professional profile, and examples will be used, and whether communication is authorized. A Director of Marketing candidate should be ready to explain presenting campaign metrics without explaining objectives or contribution without revealing confidential details or implying unsupported responsibility.
 
 ## Prepare for conversations about Healthcare and Social Care work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Marketing career hub](/roles/director-marketing/)
 
-Review the role-wide approach to manage campaigns, channels, or marketing programs within a broader strategy and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Marketing remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Marketing remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Director of Marketing in Retail and E-commerce](/roles/director-marketing/retail-ecommerce.html)
 
-Compare customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment with care, health-related services, or social support delivered by teams and organizations and identify how the Director of Marketing remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Director of Marketing test the scope of work in Healthcare and Social Care?
 
-Start with the organization's account of care, health-related services, or social support delivered by teams and organizations, then clarify how the Director of Marketing would manage campaigns, channels, or marketing programs within a broader strategy. Ask how people receiving services, families, care professionals, administrators, owners, and community partners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of care, health-related services, or social support delivered by teams and organizations, then clarify how the Director of Marketing would manage campaigns, channels, or marketing programs within a broader strategy. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Director of Marketing use to explain experience in Healthcare and Social Care?
 
@@ -139,11 +139,11 @@ Select examples that show audience, channel choices, budget or team remit, colla
 
 ### What documents should a Director of Marketing tailor for Healthcare and Social Care opportunities?
 
-Possible materials include resume, campaign portfolio, professional profile, and examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples. Each claim should be accurate for this Healthcare and Social Care target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, campaign portfolio, professional profile, and examples. Each claim should be accurate for this Healthcare and Social Care target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Director of Marketing considering Healthcare and Social Care?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of Marketing candidate's service scope; the candidate approves external communication. No one route should be assumed for all Healthcare and Social Care employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Healthcare and Social Care employers.
 
 ### Can a Director of Marketing rely on title alone when targeting Healthcare and Social Care?
 

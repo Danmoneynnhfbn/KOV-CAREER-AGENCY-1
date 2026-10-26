@@ -59,7 +59,7 @@ The candidate can discuss technology strategy, architecture or product scope, de
 
 ## Keep research, confidentiality, and outreach aligned
 
-In a Arts, Entertainment and Sports target, make the Chief Technology Officer contribution legible: describe how the candidate helped set technology direction and connect technical choices with product and business needs and what supports technology strategy, architecture or product scope, delivery, teams, risk, and measurable contribution. Treat creative, cultural, event, audience, or sporting activity supported by teams and organizations as a question to validate in Arts, Entertainment and Sports; the answer helps clarify the Chief Technology Officer mandate and its creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions. In Arts, Entertainment and Sports, audiences, participants, creators, athletes, sponsors, venues, partners, and communities may shape the work. A Chief Technology Officer example should separate direct responsibility from collaboration. Career representation remains candidate-led: KOV can support a Chief Technology Officer search, while the candidate approves the goals and disclosures.
+In a Arts, Entertainment and Sports target, make the Chief Technology Officer contribution legible: describe how the candidate helped set technology direction and connect technical choices with product and business needs and what supports technology strategy, architecture or product scope, delivery, teams, risk, and measurable contribution. In Arts, Entertainment and Sports, audiences, participants, creators, athletes, sponsors, venues, partners, and communities may shape the work. A Chief Technology Officer example should separate direct responsibility from collaboration. Career representation remains candidate-led: KOV can support a Chief Technology Officer search, while the candidate approves the goals and disclosures.
 
 ## Prepare for conversations about Arts, Entertainment and Sports work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Technology Officer career hub](/roles/cto/)
 
-Review the role-wide approach to set technology direction and connect technical choices with product and business needs and the evidence expected for that scope.
+
 
 ### [Arts, Entertainment and Sports industry hub](/industries/arts-entertainment-sports/)
 
-Compare how creative, cultural, event, audience, or sporting activity supported by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Arts, Entertainment and Sports](/roles/ceo/arts-entertainment-sports.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Technology Officer remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Operating Officer in Arts, Entertainment and Sports](/roles/coo/arts-entertainment-sports.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Technology Officer remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Technology Officer in Agriculture, Food and Forestry](/roles/cto/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with creative, cultural, event, audience, or sporting activity supported by teams and organizations and identify how the Chief Technology Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Technology Officer in Arts, Entertainment and Sports?
 
-A Chief Technology Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's creative, cultural, event, audience, or sporting activity supported by teams and organizations. Explore how the role will set technology direction and connect technical choices with product and business needs and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Technology Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's creative, cultural, event, audience, or sporting activity supported by teams and organizations. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Chief Technology Officer make prior work relevant to Arts, Entertainment and Sports?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### What makes a Chief Technology Officer background relevant to work in Arts, Entertainment and Sports?
 
-Title is only a label. Establish what the employer means by Chief Technology Officer in this Arts, Entertainment and Sports organization and how the person will work with audiences, participants, creators, athletes, sponsors, venues, partners, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Does KOV control employer responses to Chief Technology Officer outreach in Arts, Entertainment and Sports?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Technology Officer candidate considering Arts, Entertainment and Sports, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

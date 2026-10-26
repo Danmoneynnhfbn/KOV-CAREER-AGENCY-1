@@ -16,7 +16,7 @@ Good preparation for Vice President of People work includes a safe way to explai
 
 ## Documents that make Vice President of People experience relevant here
 
-A Vice President of People candidate should show how people agenda, organization design, manager support, program scope, and employee experience supported the work to lead people programs and partner with managers on organizational capability, with the Public Sector and Government setting made explicit. Not every Public Sector and Government organization will handle public purpose, stewardship, transparency, service access, and coordination across institutions alike. Confirm how public administration, public programs, or services delivered under a public mandate informs this Vice President of People position. A consultation can clarify whether a Vice President of People candidate needs positioning, document support, target research, or approved outreach for Public Sector and Government. Do not resolve uncertainty about including identifiable employee matters or claims without appropriate context through assumption; verify the requirement and use only supportable Vice President of People claims.
+A Vice President of People candidate should show how people agenda, organization design, manager support, program scope, and employee experience supported the work to lead people programs and partner with managers on organizational capability, with the Public Sector and Government setting made explicit. Confirm how public administration, public programs, or services delivered under a public mandate informs this Vice President of People position. A consultation can clarify whether a Vice President of People candidate needs positioning, document support, target research, or approved outreach for Public Sector and Government. Do not resolve uncertainty about including identifiable employee matters or claims without appropriate context through assumption; verify the requirement and use only supportable Vice President of People claims.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ A Vice President of People candidate should show how people agenda, organization
 
 ## Choose the individual services that fit the work
 
-Do not resolve uncertainty about including identifiable employee matters or claims without appropriate context through assumption; verify the requirement and use only supportable Vice President of People claims. The service plan should fit the candidate's Vice President of People priorities; agree research, materials, and any outreach before contact occurs. In Public Sector and Government, residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders may shape the work. A Vice President of People example should separate direct responsibility from collaboration. The Vice President of People remit to lead people programs and partner with managers on organizational capability should be described through decisions and examples, especially evidence of people agenda, organization design, manager support, program scope, and employee experience relevant to Public Sector and Government.
+Do not resolve uncertainty about including identifiable employee matters or claims without appropriate context through assumption; verify the requirement and use only supportable Vice President of People claims. In Public Sector and Government, residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders may shape the work. A Vice President of People example should separate direct responsibility from collaboration. The Vice President of People remit to lead people programs and partner with managers on organizational capability should be described through decisions and examples, especially evidence of people agenda, organization design, manager support, program scope, and employee experience relevant to Public Sector and Government.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of People career hub](/roles/vp-people/)
 
-Review the role-wide approach to lead people programs and partner with managers on organizational capability and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of People remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of People remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Vice President of People in Manufacturing](/roles/vp-people/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with public administration, public programs, or services delivered under a public mandate and identify how the Vice President of People remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Vice President of People clarify before considering work in Public Sector and Government?
 
-A Vice President of People candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. Explore how the role will lead people programs and partner with managers on organizational capability and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Vice President of People candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Vice President of People describe transferable experience for Public Sector and Government work?
 
@@ -139,7 +139,7 @@ Describe an instance where the candidate could lead people programs and partner 
 
 ### How can a Vice President of People choose documents for conversations about Public Sector and Government?
 
-Possible materials include executive resume, people leadership portfolio, biography, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, people leadership portfolio, biography, and profile. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Vice President of People plan contact with Public Sector and Government organizations?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Vice President of People assess fit with Public Sector and Government responsibilities?
 
-Title is only a label. Establish what the employer means by Vice President of People in this Public Sector and Government organization and how the person will work with residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Vice President of People candidate considering Public Sector and Government?
 

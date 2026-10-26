@@ -4,7 +4,7 @@ KOV helps Chair candidates considering roles connected to Other Services connect
 
 ## How Chair work connects with Other Services
 
-Readers need to see what Chair work involved; connect lead board effectiveness and support clear governance and decision-making with the candidate's own examples of meeting leadership, board composition, governance practice, relationships, and transition judgment in Other Services. Not every Other Services organization will handle service consistency, relationship quality, capacity, trust, and adaptation to customer needs alike. Confirm how personal, repair, membership, community, or specialized services not covered by the other target sectors informs this Chair position. KOV's service scope for a Chair candidate can include document preparation and agreed search activity, but cannot promise an employer's response. The candidate can discuss meeting leadership, board composition, governance practice, relationships, and transition judgment while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+Readers need to see what Chair work involved; connect lead board effectiveness and support clear governance and decision-making with the candidate's own examples of meeting leadership, board composition, governance practice, relationships, and transition judgment in Other Services. Confirm how personal, repair, membership, community, or specialized services not covered by the other target sectors informs this Chair position. KOV's service scope for a Chair candidate can include document preparation and agreed search activity, but cannot promise an employer's response. The candidate can discuss meeting leadership, board composition, governance practice, relationships, and transition judgment while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Who this Chair and Other Services guide is for
 
@@ -33,7 +33,7 @@ The Chair remit to lead board effectiveness and support clear governance and dec
 
 ## Choose the individual services that fit the work
 
-The Other Services context involves personal, repair, membership, community, or specialized services not covered by the other target sectors; examine how that structure affects service consistency, relationship quality, capacity, trust, and adaptation to customer needs before drawing conclusions about the Chair role. Map the Other Services relationships among customers or members, employees, service providers, owners, suppliers, and communities; verify actual authority instead of inferring a reporting line. The candidate decides whether to pursue a Chair opportunity. KOV can support agreed research and preparation concerning Other Services. A Chair candidate should be ready to explain blurring chair and executive accountabilities or taking credit for collective decisions without revealing confidential details or implying unsupported responsibility.
+The Other Services context involves personal, repair, membership, community, or specialized services not covered by the other target sectors; examine how that structure affects service consistency, relationship quality, capacity, trust, and adaptation to customer needs before drawing conclusions about the Chair role. The candidate decides whether to pursue a Chair opportunity. KOV can support agreed research and preparation concerning Other Services. A Chair candidate should be ready to explain blurring chair and executive accountabilities or taking credit for collective decisions without revealing confidential details or implying unsupported responsibility.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chair career hub](/roles/chair/)
 
-Review the role-wide approach to lead board effectiveness and support clear governance and decision-making and the evidence expected for that scope.
+
 
 ### [Other Services industry hub](/industries/other-services/)
 
-Compare how personal, repair, membership, community, or specialized services not covered by the other target sectors affects career planning across functions.
+
 
 ### [Chief Executive Officer in Other Services](/roles/ceo/other-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chair remit; consider where each function meets personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chief Operating Officer in Other Services](/roles/coo/other-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chair remit; consider where each function meets personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chair in Agriculture, Food and Forestry](/roles/chair/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with personal, repair, membership, community, or specialized services not covered by the other target sectors and identify how the Chair remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chair clarify before considering work in Other Services?
 
-Start with the organization's account of personal, repair, membership, community, or specialized services not covered by the other target sectors, then clarify how the Chair would lead board effectiveness and support clear governance and decision-making. Ask how customers or members, employees, service providers, owners, suppliers, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of personal, repair, membership, community, or specialized services not covered by the other target sectors, then clarify how the Chair would lead board effectiveness and support clear governance and decision-making. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Chair describe transferable experience for Other Services work?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could lead board effectiveness and supp
 
 ### How can a Chair choose documents for conversations about Other Services?
 
-Document selection depends on the opportunity. A Chair may draw from chair biography, board resume, governance narrative, and public profile, but should foreground only material connected to service portfolio, customer or member context, team scope, delivery decisions, and substantiated outcomes. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Chair plan contact with Other Services organizations?
 
-Outreach should follow target research, not precede it. The Chair candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with meeting leadership, board composition, governance practice, relationships, and transition judgment is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Chair assess fit with Other Services responsibilities?
 
-No. Compare the role description with the candidate's experience of lead board effectiveness and support clear governance and decision-making and the organization's personal, repair, membership, community, or specialized services not covered by the other target sectors. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Chair candidate considering Other Services?
 

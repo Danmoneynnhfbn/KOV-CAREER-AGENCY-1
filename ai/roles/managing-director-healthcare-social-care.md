@@ -12,7 +12,7 @@ Keep the Managing Director narrative accurate where assuming the title means the
 
 ## A candidate-led process from first discussion to next steps
 
-Review each Managing Director example for assuming the title means the same authority across employers, countries, or ownership models, then describe the candidate's decisions without overstating their control over owners, board, CEO, customers, employees, lenders or investors where relevant, and partners. The service plan should fit the candidate's Managing Director priorities; agree research, materials, and any outreach before contact occurs. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Managing Director example should separate direct responsibility from collaboration. Ask what care, health-related services, or social support delivered by teams and organizations means at this particular Healthcare and Social Care organization and how it changes the priorities assigned to a Managing Director.
+Review each Managing Director example for assuming the title means the same authority across employers, countries, or ownership models, then describe the candidate's decisions without overstating their control over owners, board, CEO, customers, employees, lenders or investors where relevant, and partners. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Managing Director example should separate direct responsibility from collaboration. Ask what care, health-related services, or social support delivered by teams and organizations means at this particular Healthcare and Social Care organization and how it changes the priorities assigned to a Managing Director.
 
 ## Documents that make Managing Director experience relevant here
 
@@ -45,11 +45,11 @@ Consider document and positioning support for Managing Director materials that p
 
 ## Prepare to discuss the Healthcare and Social Care mandate
 
-Do not resolve uncertainty about assuming the title means the same authority across employers, countries, or ownership models through assumption; verify the requirement and use only supportable Managing Director claims. The candidate decides whether to pursue a Managing Director opportunity. KOV can support agreed research and preparation concerning Healthcare and Social Care. To understand the Healthcare and Social Care target, explore care, health-related services, or social support delivered by teams and organizations and ask how a Managing Director is expected to respond to service quality, workforce coordination, access, continuity, and sensitive information. To assess a Managing Director opportunity in Healthcare and Social Care, compare the stated remit to the candidate's record of operating scope, commercial or service accountability, leadership span, and decision authority.
+Do not resolve uncertainty about assuming the title means the same authority across employers, countries, or ownership models through assumption; verify the requirement and use only supportable Managing Director claims. KOV can support agreed research and preparation concerning Healthcare and Social Care. To understand the Healthcare and Social Care target, explore care, health-related services, or social support delivered by teams and organizations and ask how a Managing Director is expected to respond to service quality, workforce coordination, access, continuity, and sensitive information. To assess a Managing Director opportunity in Healthcare and Social Care, compare the stated remit to the candidate's record of operating scope, commercial or service accountability, leadership span, and decision authority.
 
 ## Common positioning mistakes for Managing Director candidates in Healthcare and Social Care
 
-Review each Managing Director example for assuming the title means the same authority across employers, countries, or ownership models, then describe the candidate's decisions without overstating their control over owners, board, CEO, customers, employees, lenders or investors where relevant, and partners. The candidate decides whether to pursue a Managing Director opportunity. KOV can support agreed research and preparation concerning Healthcare and Social Care. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Managing Director example should separate direct responsibility from collaboration. Treat care, health-related services, or social support delivered by teams and organizations as a question to validate in Healthcare and Social Care; the answer helps clarify the Managing Director mandate and its service quality, workforce coordination, access, continuity, and sensitive information.
+Review each Managing Director example for assuming the title means the same authority across employers, countries, or ownership models, then describe the candidate's decisions without overstating their control over owners, board, CEO, customers, employees, lenders or investors where relevant, and partners. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Managing Director example should separate direct responsibility from collaboration. Treat care, health-related services, or social support delivered by teams and organizations as a question to validate in Healthcare and Social Care; the answer helps clarify the Managing Director mandate and its service quality, workforce coordination, access, continuity, and sensitive information.
 
 - Treat Healthcare and Social Care as one uniform employer type; distinguish the actual organization and role.
 - Use a Managing Director title without explaining lead a business, division, or organization according to its defined mandate.
@@ -63,7 +63,7 @@ Position a Managing Director career by linking lead a business, division, or org
 
 ## Prepare for conversations about Healthcare and Social Care work
 
-For Managing Director work in Healthcare and Social Care, explain how the candidate could lead a business, division, or organization according to its defined mandate; connect that mandate to evidence of operating scope, commercial or service accountability, leadership span, and decision authority. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Managing Director example should separate direct responsibility from collaboration. For a Managing Director target, KOV can discuss how executive resume, business leadership biography, mandate summary, and profile support the candidate's account of operating scope, commercial or service accountability, leadership span, and decision authority; external steps require prior agreement. Before discussing service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples, check whether assuming the title means the same authority across employers, countries, or ownership models could expose sensitive details or blur the candidate's decision boundary.
+For Managing Director work in Healthcare and Social Care, explain how the candidate could lead a business, division, or organization according to its defined mandate; connect that mandate to evidence of operating scope, commercial or service accountability, leadership span, and decision authority. A Managing Director example should separate direct responsibility from collaboration. For a Managing Director target, KOV can discuss how executive resume, business leadership biography, mandate summary, and profile support the candidate's account of operating scope, commercial or service accountability, leadership span, and decision authority; external steps require prior agreement. Before discussing service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples, check whether assuming the title means the same authority across employers, countries, or ownership models could expose sensitive details or blur the candidate's decision boundary.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Director career hub](/roles/managing-director/)
 
-Review the role-wide approach to lead a business, division, or organization according to its defined mandate and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Director remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Director remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Managing Director in Agriculture, Food and Forestry](/roles/managing-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with care, health-related services, or social support delivered by teams and organizations and identify how the Managing Director remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Managing Director resolve before a target discussion in Healthcare and Social Care?
 
-Use the opening discussion to understand the specific Healthcare and Social Care employer, not to assume a standard role. Compare lead a business, division, or organization according to its defined mandate with the stated scope, identify decision partners among people receiving services, families, care professionals, administrators, owners, and community partners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Healthcare and Social Care employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Managing Director career story fit the needs of Healthcare and Social Care?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Managing Director approve before outreach in Healthcare and Social Care?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Managing Director candidate's service scope; the candidate approves external communication. No one route should be assumed for all Healthcare and Social Care employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Healthcare and Social Care employers.
 
 ### How should a Managing Director compare title and remit in Healthcare and Social Care?
 

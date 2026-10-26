@@ -8,7 +8,7 @@ The service plan should fit the candidate's Director of Product priorities; agre
 
 ## Who this Director of Product and Education guide is for
 
-For Director of Product materials, manage the risk of confusing product activity with product outcomes or disclosing confidential roadmaps; support claims with product scope, discovery, prioritization, stakeholder coordination, and evidence of use and remove details that are not authorized for sharing. Consider how learners, families, educators, administrators, owners or boards, and community partners interact with a Director of Product; use examples of program or institutional scope, learner or service context, staff leadership, and improvement contribution to show judgment and collaboration. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Director of Product position. For Director of Product work in Education, explain how the candidate could lead a product area and align customer needs with team delivery; connect that mandate to evidence of product scope, discovery, prioritization, stakeholder coordination, and evidence of use.
+For Director of Product materials, manage the risk of confusing product activity with product outcomes or disclosing confidential roadmaps; support claims with product scope, discovery, prioritization, stakeholder coordination, and evidence of use and remove details that are not authorized for sharing. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Director of Product position. For Director of Product work in Education, explain how the candidate could lead a product area and align customer needs with team delivery; connect that mandate to evidence of product scope, discovery, prioritization, stakeholder coordination, and evidence of use.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -33,7 +33,7 @@ Review each Director of Product example for confusing product activity with prod
 
 ## Choose the individual services that fit the work
 
-Research for a Director of Product in Education becomes more focused when the candidate investigates learning aims, access, program delivery, workforce needs, and resource stewardship alongside learning services delivered through institutions, programs, technology, or educational support. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Director of Product example should separate direct responsibility from collaboration. The service plan should fit the candidate's Director of Product priorities; agree research, materials, and any outreach before contact occurs. Good preparation for Director of Product work includes a safe way to explain confusing product activity with product outcomes or disclosing confidential roadmaps and a clear distinction between fact and inference.
+Research for a Director of Product in Education becomes more focused when the candidate investigates learning aims, access, program delivery, workforce needs, and resource stewardship alongside learning services delivered through institutions, programs, technology, or educational support. A Director of Product example should separate direct responsibility from collaboration. The service plan should fit the candidate's Director of Product priorities; agree research, materials, and any outreach before contact occurs. Good preparation for Director of Product work includes a safe way to explain confusing product activity with product outcomes or disclosing confidential roadmaps and a clear distinction between fact and inference.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Product career hub](/roles/director-product/)
 
-Review the role-wide approach to lead a product area and align customer needs with team delivery and the evidence expected for that scope.
+
 
 ### [Education industry hub](/industries/education/)
 
-Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.
+
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Product remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Education](/roles/coo/education.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Product remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Director of Product in Manufacturing](/roles/director-product/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with learning services delivered through institutions, programs, technology, or educational support and identify how the Director of Product remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Director of Product clarify before considering work in Education?
 
-A Director of Product candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. Explore how the role will lead a product area and align customer needs with team delivery and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of Product candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Director of Product describe transferable experience for Education work?
 
@@ -139,11 +139,11 @@ Make the connection explicit: the candidate's record of product scope, discovery
 
 ### How can a Director of Product choose documents for conversations about Education?
 
-Possible materials include resume, product case studies, profile, and concise portfolio. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or institutional scope, learner or service context, staff leadership, and improvement contribution. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, product case studies, profile, and concise portfolio. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Director of Product plan contact with Education organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of Product candidate's service scope; the candidate approves external communication. No one route should be assumed for all Education employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Education employers.
 
 ### How can a Director of Product assess fit with Education responsibilities?
 

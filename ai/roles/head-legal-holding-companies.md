@@ -33,7 +33,7 @@ Protect credibility in Holding Companies and Corporate Groups by addressing shar
 
 ## Choose the individual services that fit the work
 
-Review each Head of Legal example for sharing privileged material or implying that legal advice alone owned business decisions, then describe the candidate's decisions without overstating their control over CEO or General Counsel, business leaders, legal colleagues, outside counsel, and governance stakeholders. The candidate decides whether to pursue a Head of Legal opportunity. KOV can support agreed research and preparation concerning Holding Companies and Corporate Groups. Discuss portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries with care: a Head of Legal candidate can explain contribution while omitting confidential or identifying facts. Readers need to see what Head of Legal work involved; connect lead a legal function or specialist team and advise on decisions within its remit with the candidate's own examples of advisory scope, team structure, work management, risk judgment, and stakeholder partnership in Holding Companies and Corporate Groups.
+Review each Head of Legal example for sharing privileged material or implying that legal advice alone owned business decisions, then describe the candidate's decisions without overstating their control over CEO or General Counsel, business leaders, legal colleagues, outside counsel, and governance stakeholders. KOV can support agreed research and preparation concerning Holding Companies and Corporate Groups. Discuss portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries with care: a Head of Legal candidate can explain contribution while omitting confidential or identifying facts. Readers need to see what Head of Legal work involved; connect lead a legal function or specialist team and advise on decisions within its remit with the candidate's own examples of advisory scope, team structure, work management, risk judgment, and stakeholder partnership in Holding Companies and Corporate Groups.
 
 ### [Private career representation](/services.html)
 
@@ -49,7 +49,7 @@ Candidate-side support from KOV may connect Head of Legal positioning, relevant 
 
 ## Common positioning mistakes for Head of Legal candidates in Holding Companies and Corporate Groups
 
-For Head of Legal work in Holding Companies and Corporate Groups, explain how the candidate could lead a legal function or specialist team and advise on decisions within its remit; connect that mandate to evidence of advisory scope, team structure, work management, risk judgment, and stakeholder partnership. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Head of Legal position. For a Head of Legal target, KOV can discuss how legal leadership resume, practice biography, role summary, and discreet examples support the candidate's account of advisory scope, team structure, work management, risk judgment, and stakeholder partnership; external steps require prior agreement. For Head of Legal materials, manage the risk of sharing privileged material or implying that legal advice alone owned business decisions; support claims with advisory scope, team structure, work management, risk judgment, and stakeholder partnership and remove details that are not authorized for sharing.
+For Head of Legal work in Holding Companies and Corporate Groups, explain how the candidate could lead a legal function or specialist team and advise on decisions within its remit; connect that mandate to evidence of advisory scope, team structure, work management, risk judgment, and stakeholder partnership. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Head of Legal position. For a Head of Legal target, KOV can discuss how legal leadership resume, practice biography, role summary, and discreet examples support the candidate's account of advisory scope, team structure, work management, risk judgment, and stakeholder partnership; external steps require prior agreement. For Head of Legal materials, manage the risk of sharing privileged material or implying that legal advice alone owned business decisions; support claims with advisory scope, team structure, work management, risk judgment, and stakeholder partnership and remove details that are not authorized for sharing.
 
 - Treat Holding Companies and Corporate Groups as one uniform employer type; distinguish the actual organization and role.
 - Use a Head of Legal title without explaining lead a legal function or specialist team and advise on decisions within its remit.
@@ -59,7 +59,7 @@ For Head of Legal work in Holding Companies and Corporate Groups, explain how th
 
 ## Keep research, confidentiality, and outreach aligned
 
-Do not resolve uncertainty about sharing privileged material or implying that legal advice alone owned business decisions through assumption; verify the requirement and use only supportable Head of Legal claims. The candidate decides whether to pursue a Head of Legal opportunity. KOV can support agreed research and preparation concerning Holding Companies and Corporate Groups. In Holding Companies and Corporate Groups, owners, boards, portfolio leaders, finance teams, employees, and external partners may shape the work. A Head of Legal example should separate direct responsibility from collaboration. Use ownership or coordination of multiple entities, portfolios, or operating businesses to frame research about Holding Companies and Corporate Groups, then ask how a Head of Legal will work through delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences.
+Do not resolve uncertainty about sharing privileged material or implying that legal advice alone owned business decisions through assumption; verify the requirement and use only supportable Head of Legal claims. In Holding Companies and Corporate Groups, owners, boards, portfolio leaders, finance teams, employees, and external partners may shape the work. A Head of Legal example should separate direct responsibility from collaboration. Use ownership or coordination of multiple entities, portfolios, or operating businesses to frame research about Holding Companies and Corporate Groups, then ask how a Head of Legal will work through delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences.
 
 ## Prepare for conversations about Holding Companies and Corporate Groups work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Legal career hub](/roles/head-legal/)
 
-Review the role-wide approach to lead a legal function or specialist team and advise on decisions within its remit and the evidence expected for that scope.
+
 
 ### [Holding Companies and Corporate Groups industry hub](/industries/holding-companies/)
 
-Compare how ownership or coordination of multiple entities, portfolios, or operating businesses affects career planning across functions.
+
 
 ### [Chief Executive Officer in Holding Companies and Corporate Groups](/roles/ceo/holding-companies.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Legal remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Operating Officer in Holding Companies and Corporate Groups](/roles/coo/holding-companies.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Legal remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Head of Legal in Technology, Media and Telecom](/roles/head-legal/technology-media-telecom.html)
 
-Compare digital products, platforms, content, communications, or technology-enabled services with ownership or coordination of multiple entities, portfolios, or operating businesses and identify how the Head of Legal remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Head of Legal resolve before a target discussion in Holding Companies and Corporate Groups?
 
-Use the opening discussion to understand the specific Holding Companies and Corporate Groups employer, not to assume a standard role. Compare lead a legal function or specialist team and advise on decisions within its remit with the stated scope, identify decision partners among owners, boards, portfolio leaders, finance teams, employees, and external partners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Holding Companies and Corporate Groups employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Head of Legal career story fit the needs of Holding Companies and Corporate Groups?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Head of Legal approve before outreach in Holding Companies and Corporate Groups?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Head of Legal candidate's service scope; the candidate approves external communication. No one route should be assumed for all Holding Companies and Corporate Groups employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Holding Companies and Corporate Groups employers.
 
 ### How should a Head of Legal compare title and remit in Holding Companies and Corporate Groups?
 

@@ -12,7 +12,7 @@ To assess a Partner opportunity in Manufacturing, compare the stated remit to th
 
 ## A candidate-led process from first discussion to next steps
 
-For Partner work in Manufacturing, explain how the candidate could develop a practice or business while contributing to a shared ownership or partnership structure; connect that mandate to evidence of client or commercial contribution, practice leadership, collaboration, and shared responsibilities. Treat conversion of materials into products through coordinated processes, equipment, people, and quality systems as a question to validate in Manufacturing; the answer helps clarify the Partner mandate and its production planning, equipment capacity, quality, workforce capability, and customer demand. In Manufacturing, employees, suppliers, customers, engineering, operations, distribution, and ownership may shape the work. A Partner example should separate direct responsibility from collaboration. A consultation can clarify whether a Partner candidate needs positioning, document support, target research, or approved outreach for Manufacturing.
+For Partner work in Manufacturing, explain how the candidate could develop a practice or business while contributing to a shared ownership or partnership structure; connect that mandate to evidence of client or commercial contribution, practice leadership, collaboration, and shared responsibilities. In Manufacturing, employees, suppliers, customers, engineering, operations, distribution, and ownership may shape the work. A Partner example should separate direct responsibility from collaboration. A consultation can clarify whether a Partner candidate needs positioning, document support, target research, or approved outreach for Manufacturing.
 
 ## Documents that make Partner experience relevant here
 
@@ -59,7 +59,7 @@ The Manufacturing context involves conversion of materials into products through
 
 ## Keep research, confidentiality, and outreach aligned
 
-For Partner materials, manage the risk of revealing client information or overstating individual ownership of team results; support claims with client or commercial contribution, practice leadership, collaboration, and shared responsibilities and remove details that are not authorized for sharing. The candidate decides whether to pursue a Partner opportunity. KOV can support agreed research and preparation concerning Manufacturing. Explain how other partners, clients, colleagues, employees, referral sources, and practice leaders contributed to the candidate's work and distinguish that shared context from evidence of client or commercial contribution, practice leadership, collaboration, and shared responsibilities. To assess a Partner opportunity in Manufacturing, compare the stated remit to the candidate's record of client or commercial contribution, practice leadership, collaboration, and shared responsibilities.
+For Partner materials, manage the risk of revealing client information or overstating individual ownership of team results; support claims with client or commercial contribution, practice leadership, collaboration, and shared responsibilities and remove details that are not authorized for sharing. KOV can support agreed research and preparation concerning Manufacturing. Explain how other partners, clients, colleagues, employees, referral sources, and practice leaders contributed to the candidate's work and distinguish that shared context from evidence of client or commercial contribution, practice leadership, collaboration, and shared responsibilities. To assess a Partner opportunity in Manufacturing, compare the stated remit to the candidate's record of client or commercial contribution, practice leadership, collaboration, and shared responsibilities.
 
 ## Prepare for conversations about Manufacturing work
 
@@ -67,7 +67,7 @@ Show the Partner scope behind the title: how the candidate could develop a pract
 
 ## Run the search thoughtfully in each target market
 
-The candidate can discuss client or commercial contribution, practice leadership, collaboration, and shared responsibilities while protecting confidentiality by omitting names, restricted figures, and other identifying material. The candidate decides whether to pursue a Partner opportunity. KOV can support agreed research and preparation concerning Manufacturing. In Manufacturing, employees, suppliers, customers, engineering, operations, distribution, and ownership may shape the work. A Partner example should separate direct responsibility from collaboration. Readers need to see what Partner work involved; connect develop a practice or business while contributing to a shared ownership or partnership structure with the candidate's own examples of client or commercial contribution, practice leadership, collaboration, and shared responsibilities in Manufacturing.
+The candidate can discuss client or commercial contribution, practice leadership, collaboration, and shared responsibilities while protecting confidentiality by omitting names, restricted figures, and other identifying material. In Manufacturing, employees, suppliers, customers, engineering, operations, distribution, and ownership may shape the work. A Partner example should separate direct responsibility from collaboration. Readers need to see what Partner work involved; connect develop a practice or business while contributing to a shared ownership or partnership structure with the candidate's own examples of client or commercial contribution, practice leadership, collaboration, and shared responsibilities in Manufacturing.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Partner career hub](/roles/partner/)
 
-Review the role-wide approach to develop a practice or business while contributing to a shared ownership or partnership structure and the evidence expected for that scope.
+
 
 ### [Manufacturing industry hub](/industries/manufacturing/)
 
-Compare how conversion of materials into products through coordinated processes, equipment, people, and quality systems affects career planning across functions.
+
 
 ### [Chief Executive Officer in Manufacturing](/roles/ceo/manufacturing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Partner remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Operating Officer in Manufacturing](/roles/coo/manufacturing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Partner remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Partner in Agriculture, Food and Forestry](/roles/partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with conversion of materials into products through coordinated processes, equipment, people, and quality systems and identify how the Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Partner test the scope of work in Manufacturing?
 
-A Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's conversion of materials into products through coordinated processes, equipment, people, and quality systems. Explore how the role will develop a practice or business while contributing to a shared ownership or partnership structure and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's conversion of materials into products through coordinated processes, equipment, people, and quality systems. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Partner use to explain experience in Manufacturing?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### Which outreach choices belong to a Partner considering Manufacturing?
 
-Outreach should follow target research, not precede it. The Partner candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with client or commercial contribution, practice leadership, collaboration, and shared responsibilities is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Partner rely on title alone when targeting Manufacturing?
 

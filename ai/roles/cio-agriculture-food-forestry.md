@@ -33,7 +33,7 @@ For Chief Information Officer materials, manage the risk of collapsing infrastru
 
 ## Choose the individual services that fit the work
 
-Review each Chief Information Officer example for collapsing infrastructure, information, product, and digital responsibilities into one vague claim, then describe the candidate's decisions without overstating their control over CEO, business units, technology teams, users, vendors, and oversight stakeholders. Discuss resource planning, safety-minded operations, supplier relationships, yield or quality context, and continuity decisions with care: a Chief Information Officer candidate can explain contribution while omitting confidential or identifying facts. Not every Agriculture, Food and Forestry organization will handle seasonality, input availability, quality variation, and coordination across production stages alike. Confirm how production linked to land, biological cycles, processing, and supply relationships informs this Chief Information Officer position. A precise Chief Information Officer story ties systems scope, service reliability, data stewardship, transformation, governance, and adoption to the mandate of guide information systems, digital operations, and technology services for the organization, without suggesting that the title alone establishes fit.
+Review each Chief Information Officer example for collapsing infrastructure, information, product, and digital responsibilities into one vague claim, then describe the candidate's decisions without overstating their control over CEO, business units, technology teams, users, vendors, and oversight stakeholders. Not every Agriculture, Food and Forestry organization will handle seasonality, input availability, quality variation, and coordination across production stages alike. Confirm how production linked to land, biological cycles, processing, and supply relationships informs this Chief Information Officer position. A precise Chief Information Officer story ties systems scope, service reliability, data stewardship, transformation, governance, and adoption to the mandate of guide information systems, digital operations, and technology services for the organization, without suggesting that the title alone establishes fit.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Information Officer career hub](/roles/cio/)
 
-Review the role-wide approach to guide information systems, digital operations, and technology services for the organization and the evidence expected for that scope.
+
 
 ### [Agriculture, Food and Forestry industry hub](/industries/agriculture-food-forestry/)
 
-Compare how production linked to land, biological cycles, processing, and supply relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Agriculture, Food and Forestry](/roles/ceo/agriculture-food-forestry.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Information Officer remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Information Officer remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Information Officer in Energy, Mining and Oil and Gas](/roles/cio/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with production linked to land, biological cycles, processing, and supply relationships and identify how the Chief Information Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Chief Information Officer resolve before a target discussion in Agriculture, Food and Forestry?
 
-Use the opening discussion to understand the specific Agriculture, Food and Forestry employer, not to assume a standard role. Compare guide information systems, digital operations, and technology services for the organization with the stated scope, identify decision partners among producers, workforce, buyers, processors, logistics partners, and communities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Agriculture, Food and Forestry employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Chief Information Officer career story fit the needs of Agriculture, Food and Forestry?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Chief Information Officer approve before outreach in Agriculture, Food and Forestry?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Information Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Agriculture, Food and Forestry employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Agriculture, Food and Forestry employers.
 
 ### How should a Chief Information Officer compare title and remit in Agriculture, Food and Forestry?
 

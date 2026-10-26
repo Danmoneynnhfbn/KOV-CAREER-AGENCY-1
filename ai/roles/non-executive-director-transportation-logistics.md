@@ -10,7 +10,7 @@ For an organization moving people or goods, board examples may be framed around 
 
 ## Who this Non-Executive Director and Transportation and Logistics guide is for
 
-For Non-Executive Director work in Transportation and Logistics, explain how the candidate could provide independent challenge and strategic contribution distinct from management; connect that mandate to evidence of governance experience, constructive challenge, committee contribution, and relevant expertise. Not every Transportation and Logistics organization will handle network coordination, service windows, asset availability, safety-minded decisions, and disruption response alike. Confirm how movement, handling, and coordination of people or goods across routes and operating networks informs this Non-Executive Director position. KOV's service scope for a Non-Executive Director candidate can include document preparation and agreed search activity, but cannot promise an employer's response. For Non-Executive Director materials, manage the risk of confusing oversight with operational management or overstating independence; support claims with governance experience, constructive challenge, committee contribution, and relevant expertise and remove details that are not authorized for sharing.
+For Non-Executive Director work in Transportation and Logistics, explain how the candidate could provide independent challenge and strategic contribution distinct from management; connect that mandate to evidence of governance experience, constructive challenge, committee contribution, and relevant expertise. Confirm how movement, handling, and coordination of people or goods across routes and operating networks informs this Non-Executive Director position. KOV's service scope for a Non-Executive Director candidate can include document preparation and agreed search activity, but cannot promise an employer's response. For Non-Executive Director materials, manage the risk of confusing oversight with operational management or overstating independence; support claims with governance experience, constructive challenge, committee contribution, and relevant expertise and remove details that are not authorized for sharing.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -65,11 +65,11 @@ Where confusing oversight with operational management or overstating independenc
 
 ## Prepare for conversations about Transportation and Logistics work
 
-Good preparation for Non-Executive Director work includes a safe way to explain confusing oversight with operational management or overstating independence and a clear distinction between fact and inference. The candidate decides whether to pursue a Non-Executive Director opportunity. KOV can support agreed research and preparation concerning Transportation and Logistics. An account of route or network scope, service performance context, asset choices, workforce coordination, and customer communication should identify the candidate's contribution and the involvement of chair, board colleagues, CEO, management, shareholders or members, and stakeholders. Position a Non-Executive Director career by linking provide independent challenge and strategic contribution distinct from management to route or network scope, service performance context, asset choices, workforce coordination, and customer communication, then clarify which part of that work the candidate actually owned.
+Good preparation for Non-Executive Director work includes a safe way to explain confusing oversight with operational management or overstating independence and a clear distinction between fact and inference. KOV can support agreed research and preparation concerning Transportation and Logistics. An account of route or network scope, service performance context, asset choices, workforce coordination, and customer communication should identify the candidate's contribution and the involvement of chair, board colleagues, CEO, management, shareholders or members, and stakeholders. Position a Non-Executive Director career by linking provide independent challenge and strategic contribution distinct from management to route or network scope, service performance context, asset choices, workforce coordination, and customer communication, then clarify which part of that work the candidate actually owned.
 
 ## Run the search thoughtfully in each target market
 
-Before discussing route or network scope, service performance context, asset choices, workforce coordination, and customer communication, check whether confusing oversight with operational management or overstating independence could expose sensitive details or blur the candidate's decision boundary. The candidate decides whether to pursue a Non-Executive Director opportunity. KOV can support agreed research and preparation concerning Transportation and Logistics. Ask what movement, handling, and coordination of people or goods across routes and operating networks means at this particular Transportation and Logistics organization and how it changes the priorities assigned to a Non-Executive Director. Show the Non-Executive Director scope behind the title: how the candidate could provide independent challenge and strategic contribution distinct from management, which decisions mattered, and where governance experience, constructive challenge, committee contribution, and relevant expertise demonstrates their contribution.
+Before discussing route or network scope, service performance context, asset choices, workforce coordination, and customer communication, check whether confusing oversight with operational management or overstating independence could expose sensitive details or blur the candidate's decision boundary. KOV can support agreed research and preparation concerning Transportation and Logistics. Ask what movement, handling, and coordination of people or goods across routes and operating networks means at this particular Transportation and Logistics organization and how it changes the priorities assigned to a Non-Executive Director. Show the Non-Executive Director scope behind the title: how the candidate could provide independent challenge and strategic contribution distinct from management, which decisions mattered, and where governance experience, constructive challenge, committee contribution, and relevant expertise demonstrates their contribution.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -111,29 +111,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Non-Executive Director career hub](/roles/non-executive-director/)
 
-Review the role-wide approach to provide independent challenge and strategic contribution distinct from management and the evidence expected for that scope.
+
 
 ### [Transportation and Logistics industry hub](/industries/transportation-logistics/)
 
-Compare how movement, handling, and coordination of people or goods across routes and operating networks affects career planning across functions.
+
 
 ### [Chief Executive Officer in Transportation and Logistics](/roles/ceo/transportation-logistics.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Non-Executive Director remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Operating Officer in Transportation and Logistics](/roles/coo/transportation-logistics.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Non-Executive Director remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Non-Executive Director in Agriculture, Food and Forestry](/roles/non-executive-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with movement, handling, and coordination of people or goods across routes and operating networks and identify how the Non-Executive Director remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Non-Executive Director test the scope of work in Transportation and Logistics?
 
-Start with the organization's account of movement, handling, and coordination of people or goods across routes and operating networks, then clarify how the Non-Executive Director would provide independent challenge and strategic contribution distinct from management. Ask how customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of movement, handling, and coordination of people or goods across routes and operating networks, then clarify how the Non-Executive Director would provide independent challenge and strategic contribution distinct from management. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Non-Executive Director use to explain experience in Transportation and Logistics?
 
@@ -141,7 +141,7 @@ Select examples that show governance experience, constructive challenge, committ
 
 ### What documents should a Non-Executive Director tailor for Transportation and Logistics opportunities?
 
-Possible materials include board biography, non-executive profile, skills matrix, and governance resume. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to route or network scope, service performance context, asset choices, workforce coordination, and customer communication. Each claim should be accurate for this Transportation and Logistics target, and confidential or unauthorized material should be omitted.
+Possible materials include board biography, non-executive profile, skills matrix, and governance resume. Each claim should be accurate for this Transportation and Logistics target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Non-Executive Director considering Transportation and Logistics?
 

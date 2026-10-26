@@ -16,7 +16,7 @@ Review each Managing Director example for assuming the title means the same auth
 
 ## Documents that make Managing Director experience relevant here
 
-A Managing Director candidate should show how operating scope, commercial or service accountability, leadership span, and decision authority supported the work to lead a business, division, or organization according to its defined mandate, with the Retail and E-commerce setting made explicit. Not every Retail and E-commerce organization will handle customer experience, assortment, inventory, channel coordination, and rapid feedback alike. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this Managing Director position. The candidate decides whether to pursue a Managing Director opportunity. KOV can support agreed research and preparation concerning Retail and E-commerce. Do not resolve uncertainty about assuming the title means the same authority across employers, countries, or ownership models through assumption; verify the requirement and use only supportable Managing Director claims.
+A Managing Director candidate should show how operating scope, commercial or service accountability, leadership span, and decision authority supported the work to lead a business, division, or organization according to its defined mandate, with the Retail and E-commerce setting made explicit. The candidate decides whether to pursue a Managing Director opportunity. KOV can support agreed research and preparation concerning Retail and E-commerce. Do not resolve uncertainty about assuming the title means the same authority across employers, countries, or ownership models through assumption; verify the requirement and use only supportable Managing Director claims.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ A Managing Director candidate should show how operating scope, commercial or ser
 
 ## Choose the individual services that fit the work
 
-For Managing Director work in Retail and E-commerce, explain how the candidate could lead a business, division, or organization according to its defined mandate; connect that mandate to evidence of operating scope, commercial or service accountability, leadership span, and decision authority. For Retail and E-commerce, establish whether customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment describes the target employer and how customer experience, assortment, inventory, channel coordination, and rapid feedback is reflected in its Managing Director mandate. In Retail and E-commerce, customers, store or digital teams, suppliers, brand partners, operations, and owners may shape the work. A Managing Director example should separate direct responsibility from collaboration. Do not resolve uncertainty about assuming the title means the same authority across employers, countries, or ownership models through assumption; verify the requirement and use only supportable Managing Director claims.
+For Managing Director work in Retail and E-commerce, explain how the candidate could lead a business, division, or organization according to its defined mandate; connect that mandate to evidence of operating scope, commercial or service accountability, leadership span, and decision authority. In Retail and E-commerce, customers, store or digital teams, suppliers, brand partners, operations, and owners may shape the work. A Managing Director example should separate direct responsibility from collaboration. Do not resolve uncertainty about assuming the title means the same authority across employers, countries, or ownership models through assumption; verify the requirement and use only supportable Managing Director claims.
 
 ### [Private career representation](/services.html)
 
@@ -59,7 +59,7 @@ Where appropriate to the agreed service, KOV can help a Managing Director candid
 
 ## Keep research, confidentiality, and outreach aligned
 
-Rather than lead with seniority, a Managing Director profile can explain the responsibility to lead a business, division, or organization according to its defined mandate and use customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution as evidence. Not every Retail and E-commerce organization will handle customer experience, assortment, inventory, channel coordination, and rapid feedback alike. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this Managing Director position. The service plan should fit the candidate's Managing Director priorities; agree research, materials, and any outreach before contact occurs. Protect credibility in Retail and E-commerce by addressing assuming the title means the same authority across employers, countries, or ownership models with a factual account of operating scope, commercial or service accountability, leadership span, and decision authority and its limits.
+Rather than lead with seniority, a Managing Director profile can explain the responsibility to lead a business, division, or organization according to its defined mandate and use customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution as evidence. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this Managing Director position. The service plan should fit the candidate's Managing Director priorities; agree research, materials, and any outreach before contact occurs. Protect credibility in Retail and E-commerce by addressing assuming the title means the same authority across employers, countries, or ownership models with a factual account of operating scope, commercial or service accountability, leadership span, and decision authority and its limits.
 
 ## Prepare for conversations about Retail and E-commerce work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Director career hub](/roles/managing-director/)
 
-Review the role-wide approach to lead a business, division, or organization according to its defined mandate and the evidence expected for that scope.
+
 
 ### [Retail and E-commerce industry hub](/industries/retail-ecommerce/)
 
-Compare how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment affects career planning across functions.
+
 
 ### [Chief Executive Officer in Retail and E-commerce](/roles/ceo/retail-ecommerce.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Director remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Operating Officer in Retail and E-commerce](/roles/coo/retail-ecommerce.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Director remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Managing Director in Agriculture, Food and Forestry](/roles/managing-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and identify how the Managing Director remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Managing Director test the scope of work in Retail and E-commerce?
 
-A Managing Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment. Explore how the role will lead a business, division, or organization according to its defined mandate and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Managing Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Managing Director use to explain experience in Retail and E-commerce?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### Which outreach choices belong to a Managing Director considering Retail and E-commerce?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Managing Director candidate's service scope; the candidate approves external communication. No one route should be assumed for all Retail and E-commerce employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Retail and E-commerce employers.
 
 ### Can a Managing Director rely on title alone when targeting Retail and E-commerce?
 
-No. Compare the role description with the candidate's experience of lead a business, division, or organization according to its defined mandate and the organization's customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Managing Director seeking work in Retail and E-commerce?
 

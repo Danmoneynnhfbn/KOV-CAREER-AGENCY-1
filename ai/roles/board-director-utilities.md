@@ -12,7 +12,7 @@ In a Utilities target, make the Board Director contribution legible: describe ho
 
 ## A candidate-led process from first discussion to next steps
 
-For Board Director materials, manage the risk of implying executive authority for board decisions or claiming confidential board outcomes; support claims with committee or board remit, preparation, judgment, relevant expertise, and collective contribution and remove details that are not authorized for sharing. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Utilities. Preparation for a Board Director conversation should address the service territory, operating remit, ownership context, and responsibilities that the employer assigns to this position; relate the response to service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination, not speculation about hiring. To assess a Board Director opportunity in Utilities, compare the stated remit to the candidate's record of committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
+For Board Director materials, manage the risk of implying executive authority for board decisions or claiming confidential board outcomes; support claims with committee or board remit, preparation, judgment, relevant expertise, and collective contribution and remove details that are not authorized for sharing. KOV can support agreed research and preparation concerning Utilities. Preparation for a Board Director conversation should address the service territory, operating remit, ownership context, and responsibilities that the employer assigns to this position; relate the response to service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination, not speculation about hiring. To assess a Board Director opportunity in Utilities, compare the stated remit to the candidate's record of committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
 
 ## Documents that make Board Director experience relevant here
 
@@ -33,7 +33,7 @@ The service plan should fit the candidate's Board Director priorities; agree res
 
 ## Choose the individual services that fit the work
 
-Research for a Board Director in Utilities becomes more focused when the candidate investigates reliability, infrastructure renewal, service access, affordability, and long-term planning alongside essential network or service operations with continuity, infrastructure, and customer responsibilities. Map the Utilities relationships among customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders; verify actual authority instead of inferring a reporting line. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Utilities. Good preparation for Board Director work includes a safe way to explain implying executive authority for board decisions or claiming confidential board outcomes and a clear distinction between fact and inference.
+Research for a Board Director in Utilities becomes more focused when the candidate investigates reliability, infrastructure renewal, service access, affordability, and long-term planning alongside essential network or service operations with continuity, infrastructure, and customer responsibilities. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Utilities. Good preparation for Board Director work includes a safe way to explain implying executive authority for board decisions or claiming confidential board outcomes and a clear distinction between fact and inference.
 
 ### [Private career representation](/services.html)
 
@@ -59,11 +59,11 @@ To assess a Board Director opportunity in Utilities, compare the stated remit to
 
 ## Keep research, confidentiality, and outreach aligned
 
-Where implying executive authority for board decisions or claiming confidential board outcomes affects a career example, substitute an authorized summary that preserves the point about committee or board remit, preparation, judgment, relevant expertise, and collective contribution. Use an example involving service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination to describe the decision, the parties involved, and the candidate's role as a Board Director. Not every Utilities organization will handle reliability, infrastructure renewal, service access, affordability, and long-term planning alike. Confirm how essential network or service operations with continuity, infrastructure, and customer responsibilities informs this Board Director position. Show the Board Director scope behind the title: how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance, which decisions mattered, and where committee or board remit, preparation, judgment, relevant expertise, and collective contribution demonstrates their contribution.
+Where implying executive authority for board decisions or claiming confidential board outcomes affects a career example, substitute an authorized summary that preserves the point about committee or board remit, preparation, judgment, relevant expertise, and collective contribution. Not every Utilities organization will handle reliability, infrastructure renewal, service access, affordability, and long-term planning alike. Confirm how essential network or service operations with continuity, infrastructure, and customer responsibilities informs this Board Director position. Show the Board Director scope behind the title: how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance, which decisions mattered, and where committee or board remit, preparation, judgment, relevant expertise, and collective contribution demonstrates their contribution.
 
 ## Prepare for conversations about Utilities work
 
-For Board Director work in Utilities, explain how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance; connect that mandate to evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution. In Utilities, customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders may shape the work. A Board Director example should separate direct responsibility from collaboration. For a Board Director target, KOV can discuss how board biography, governance resume, skills matrix, and concise profile support the candidate's account of committee or board remit, preparation, judgment, relevant expertise, and collective contribution; external steps require prior agreement. Protect credibility in Utilities by addressing implying executive authority for board decisions or claiming confidential board outcomes with a factual account of committee or board remit, preparation, judgment, relevant expertise, and collective contribution and its limits.
+For Board Director work in Utilities, explain how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance; connect that mandate to evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution. A Board Director example should separate direct responsibility from collaboration. For a Board Director target, KOV can discuss how board biography, governance resume, skills matrix, and concise profile support the candidate's account of committee or board remit, preparation, judgment, relevant expertise, and collective contribution; external steps require prior agreement. Protect credibility in Utilities by addressing implying executive authority for board decisions or claiming confidential board outcomes with a factual account of committee or board remit, preparation, judgment, relevant expertise, and collective contribution and its limits.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Board Director career hub](/roles/board-director/)
 
-Review the role-wide approach to contribute oversight, inquiry, and strategic perspective within collective governance and the evidence expected for that scope.
+
 
 ### [Utilities industry hub](/industries/utilities/)
 
-Compare how essential network or service operations with continuity, infrastructure, and customer responsibilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Utilities](/roles/ceo/utilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Board Director remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Operating Officer in Utilities](/roles/coo/utilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Board Director remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Board Director in Agriculture, Food and Forestry](/roles/board-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with essential network or service operations with continuity, infrastructure, and customer responsibilities and identify how the Board Director remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Board Director resolve before a target discussion in Utilities?
 
-Use the opening discussion to understand the specific Utilities employer, not to assume a standard role. Compare contribute oversight, inquiry, and strategic perspective within collective governance with the stated scope, identify decision partners among customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Utilities employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Board Director career story fit the needs of Utilities?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How should a Board Director compare title and remit in Utilities?
 
-No. Compare the role description with the candidate's experience of contribute oversight, inquiry, and strategic perspective within collective governance and the organization's essential network or service operations with continuity, infrastructure, and customer responsibilities. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Will KOV secure a meeting for a Board Director with an employer in Utilities?
 

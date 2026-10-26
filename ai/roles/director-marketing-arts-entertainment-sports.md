@@ -16,7 +16,7 @@ Review each Director of Marketing example for presenting campaign metrics withou
 
 ## Documents that make Director of Marketing experience relevant here
 
-In a Arts, Entertainment and Sports target, make the Director of Marketing contribution legible: describe how the candidate helped manage campaigns, channels, or marketing programs within a broader strategy and what supports audience, channel choices, budget or team remit, collaboration, and attributable results. In Arts, Entertainment and Sports, audiences, participants, creators, athletes, sponsors, venues, partners, and communities may shape the work. A Director of Marketing example should separate direct responsibility from collaboration. KOV works with the candidate to agree which Director of Marketing targets matter, how resume, campaign portfolio, professional profile, and examples will be used, and whether communication is authorized. For Director of Marketing materials, manage the risk of presenting campaign metrics without explaining objectives or contribution; support claims with audience, channel choices, budget or team remit, collaboration, and attributable results and remove details that are not authorized for sharing.
+In a Arts, Entertainment and Sports target, make the Director of Marketing contribution legible: describe how the candidate helped manage campaigns, channels, or marketing programs within a broader strategy and what supports audience, channel choices, budget or team remit, collaboration, and attributable results. A Director of Marketing example should separate direct responsibility from collaboration. KOV works with the candidate to agree which Director of Marketing targets matter, how resume, campaign portfolio, professional profile, and examples will be used, and whether communication is authorized. For Director of Marketing materials, manage the risk of presenting campaign metrics without explaining objectives or contribution; support claims with audience, channel choices, budget or team remit, collaboration, and attributable results and remove details that are not authorized for sharing.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ In a Arts, Entertainment and Sports target, make the Director of Marketing contr
 
 ## Choose the individual services that fit the work
 
-Good preparation for Director of Marketing work includes a safe way to explain presenting campaign metrics without explaining objectives or contribution and a clear distinction between fact and inference. The candidate decides whether to pursue a Director of Marketing opportunity. KOV can support agreed research and preparation concerning Arts, Entertainment and Sports. In Arts, Entertainment and Sports, audiences, participants, creators, athletes, sponsors, venues, partners, and communities may shape the work. A Director of Marketing example should separate direct responsibility from collaboration. The Director of Marketing remit to manage campaigns, channels, or marketing programs within a broader strategy should be described through decisions and examples, especially evidence of audience, channel choices, budget or team remit, collaboration, and attributable results relevant to Arts, Entertainment and Sports.
+Good preparation for Director of Marketing work includes a safe way to explain presenting campaign metrics without explaining objectives or contribution and a clear distinction between fact and inference. In Arts, Entertainment and Sports, audiences, participants, creators, athletes, sponsors, venues, partners, and communities may shape the work. A Director of Marketing example should separate direct responsibility from collaboration. The Director of Marketing remit to manage campaigns, channels, or marketing programs within a broader strategy should be described through decisions and examples, especially evidence of audience, channel choices, budget or team remit, collaboration, and attributable results relevant to Arts, Entertainment and Sports.
 
 ### [Private career representation](/services.html)
 
@@ -67,7 +67,7 @@ The Arts, Entertainment and Sports context involves creative, cultural, event, a
 
 ## Run the search thoughtfully in each target market
 
-Review each Director of Marketing example for presenting campaign metrics without explaining objectives or contribution, then describe the candidate's decisions without overstating their control over CMO or VP, sales, product, agencies, customers, and marketing colleagues. Explain how CMO or VP, sales, product, agencies, customers, and marketing colleagues contributed to the candidate's work and distinguish that shared context from evidence of audience, channel choices, budget or team remit, collaboration, and attributable results. Not every Arts, Entertainment and Sports organization will handle creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions alike. Confirm how creative, cultural, event, audience, or sporting activity supported by teams and organizations informs this Director of Marketing position. A precise Director of Marketing story ties audience, channel choices, budget or team remit, collaboration, and attributable results to the mandate of manage campaigns, channels, or marketing programs within a broader strategy, without suggesting that the title alone establishes fit.
+Review each Director of Marketing example for presenting campaign metrics without explaining objectives or contribution, then describe the candidate's decisions without overstating their control over CMO or VP, sales, product, agencies, customers, and marketing colleagues. Not every Arts, Entertainment and Sports organization will handle creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions alike. Confirm how creative, cultural, event, audience, or sporting activity supported by teams and organizations informs this Director of Marketing position. A precise Director of Marketing story ties audience, channel choices, budget or team remit, collaboration, and attributable results to the mandate of manage campaigns, channels, or marketing programs within a broader strategy, without suggesting that the title alone establishes fit.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Marketing career hub](/roles/director-marketing/)
 
-Review the role-wide approach to manage campaigns, channels, or marketing programs within a broader strategy and the evidence expected for that scope.
+
 
 ### [Arts, Entertainment and Sports industry hub](/industries/arts-entertainment-sports/)
 
-Compare how creative, cultural, event, audience, or sporting activity supported by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Arts, Entertainment and Sports](/roles/ceo/arts-entertainment-sports.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Marketing remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Operating Officer in Arts, Entertainment and Sports](/roles/coo/arts-entertainment-sports.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Marketing remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Director of Marketing in Retail and E-commerce](/roles/director-marketing/retail-ecommerce.html)
 
-Compare customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment with creative, cultural, event, audience, or sporting activity supported by teams and organizations and identify how the Director of Marketing remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Director of Marketing resolve before a target discussion in Arts, Entertainment and Sports?
 
-A Director of Marketing candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's creative, cultural, event, audience, or sporting activity supported by teams and organizations. Explore how the role will manage campaigns, channels, or marketing programs within a broader strategy and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of Marketing candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's creative, cultural, event, audience, or sporting activity supported by teams and organizations. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Director of Marketing career story fit the needs of Arts, Entertainment and Sports?
 
@@ -139,7 +139,7 @@ Select examples that show audience, channel choices, budget or team remit, colla
 
 ### What should a Director of Marketing prepare in writing before targeting Arts, Entertainment and Sports?
 
-Possible materials include resume, campaign portfolio, professional profile, and examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available. Each claim should be accurate for this Arts, Entertainment and Sports target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, campaign portfolio, professional profile, and examples. Each claim should be accurate for this Arts, Entertainment and Sports target, and confidential or unauthorized material should be omitted.
 
 ### What should a Director of Marketing approve before outreach in Arts, Entertainment and Sports?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How should a Director of Marketing compare title and remit in Arts, Entertainment and Sports?
 
-No. Compare the role description with the candidate's experience of manage campaigns, channels, or marketing programs within a broader strategy and the organization's creative, cultural, event, audience, or sporting activity supported by teams and organizations. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Will KOV secure a meeting for a Director of Marketing with an employer in Arts, Entertainment and Sports?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of Marketing candidate considering Arts, Entertainment and Sports, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

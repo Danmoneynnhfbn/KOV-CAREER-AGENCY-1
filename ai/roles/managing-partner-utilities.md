@@ -4,7 +4,7 @@ KOV helps Managing Partner candidates considering roles connected to Utilities c
 
 ## How Managing Partner work connects with Utilities
 
-Readers need to see what Managing Partner work involved; connect combine leadership responsibilities with the governance and professional context of a partnership with the candidate's own examples of partner-group mandate, management contribution, practice or business scope, and shared decisions in Utilities. An employer's Utilities model may involve essential network or service operations with continuity, infrastructure, and customer responsibilities; its implications for reliability, infrastructure renewal, service access, affordability, and long-term planning should be discussed, not presumed. KOV can help a Managing Partner candidate organize an agreed search approach for Utilities, including documents such as partner biography, leadership resume, practice summary, and profile. Protect credibility in Utilities by addressing presenting partner-group outcomes as individual decisions or ignoring shared governance with a factual account of partner-group mandate, management contribution, practice or business scope, and shared decisions and its limits.
+Readers need to see what Managing Partner work involved; connect combine leadership responsibilities with the governance and professional context of a partnership with the candidate's own examples of partner-group mandate, management contribution, practice or business scope, and shared decisions in Utilities. An employer's Utilities model may involve essential network or service operations with continuity, infrastructure, and customer responsibilities; its implications for reliability, infrastructure renewal, service access, affordability, and long-term planning should be discussed, not presumed. KOV can help a Managing Partner candidate organize an agreed search approach for Utilities, including documents such as partner biography, leadership resume, practice summary, and profile. Protect credibility in Utilities by addressing presenting partner-group outcomes as individual decisions or ignoring shared governance with a factual account of partner-group mandate, management contribution, practice or business scope, and shared decisions and its limits. Protect credibility in Utilities by addressing presenting partner-group outcomes as individual decisions or ignoring shared governance with a factual account of partner-group mandate, management contribution, practice or business scope, and shared decisions and its limits.
 
 ## Who this Managing Partner and Utilities guide is for
 
@@ -16,7 +16,7 @@ A candidate exploring Utilities should test the assumed link between essential n
 
 ## Documents that make Managing Partner experience relevant here
 
-To assess a Managing Partner opportunity in Utilities, compare the stated remit to the candidate's record of partner-group mandate, management contribution, practice or business scope, and shared decisions. Not every Utilities organization will handle reliability, infrastructure renewal, service access, affordability, and long-term planning alike. Confirm how essential network or service operations with continuity, infrastructure, and customer responsibilities informs this Managing Partner position. A consultation can clarify whether a Managing Partner candidate needs positioning, document support, target research, or approved outreach for Utilities. Keep the Managing Partner narrative accurate where presenting partner-group outcomes as individual decisions or ignoring shared governance may arise: attribute shared work and disclose only information the candidate may use.
+To assess a Managing Partner opportunity in Utilities, compare the stated remit to the candidate's record of partner-group mandate, management contribution, practice or business scope, and shared decisions. Confirm how essential network or service operations with continuity, infrastructure, and customer responsibilities informs this Managing Partner position. A consultation can clarify whether a Managing Partner candidate needs positioning, document support, target research, or approved outreach for Utilities. Keep the Managing Partner narrative accurate where presenting partner-group outcomes as individual decisions or ignoring shared governance may arise: attribute shared work and disclose only information the candidate may use.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ Consider document and positioning support for Managing Partner materials that pr
 
 ## Prepare to discuss the Utilities mandate
 
-Readers need to see what Managing Partner work involved; connect combine leadership responsibilities with the governance and professional context of a partnership with the candidate's own examples of partner-group mandate, management contribution, practice or business scope, and shared decisions in Utilities. An employer's Utilities model may involve essential network or service operations with continuity, infrastructure, and customer responsibilities; its implications for reliability, infrastructure renewal, service access, affordability, and long-term planning should be discussed, not presumed. KOV can help a Managing Partner candidate organize an agreed search approach for Utilities, including documents such as partner biography, leadership resume, practice summary, and profile. Protect credibility in Utilities by addressing presenting partner-group outcomes as individual decisions or ignoring shared governance with a factual account of partner-group mandate, management contribution, practice or business scope, and shared decisions and its limits.
+Readers need to see what Managing Partner work involved; connect combine leadership responsibilities with the governance and professional context of a partnership with the candidate's own examples of partner-group mandate, management contribution, practice or business scope, and shared decisions in Utilities. An employer's Utilities model may involve essential network or service operations with continuity, infrastructure, and customer responsibilities; its implications for reliability, infrastructure renewal, service access, affordability, and long-term planning should be discussed, not presumed. KOV can help a Managing Partner candidate organize an agreed search approach for Utilities, including documents such as partner biography, leadership resume, practice summary, and profile. Protect credibility in Utilities by addressing presenting partner-group outcomes as individual decisions or ignoring shared governance with a factual account of partner-group mandate, management contribution, practice or business scope, and shared decisions and its limits. Protect credibility in Utilities by addressing presenting partner-group outcomes as individual decisions or ignoring shared governance with a factual account of partner-group mandate, management contribution, practice or business scope, and shared decisions and its limits.
 
 ## Common positioning mistakes for Managing Partner candidates in Utilities
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Partner career hub](/roles/managing-partner/)
 
-Review the role-wide approach to combine leadership responsibilities with the governance and professional context of a partnership and the evidence expected for that scope.
+
 
 ### [Utilities industry hub](/industries/utilities/)
 
-Compare how essential network or service operations with continuity, infrastructure, and customer responsibilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Utilities](/roles/ceo/utilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Partner remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Operating Officer in Utilities](/roles/coo/utilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Partner remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Managing Partner in Agriculture, Food and Forestry](/roles/managing-partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with essential network or service operations with continuity, infrastructure, and customer responsibilities and identify how the Managing Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Managing Partner clarify before considering work in Utilities?
 
-A Managing Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's essential network or service operations with continuity, infrastructure, and customer responsibilities. Explore how the role will combine leadership responsibilities with the governance and professional context of a partnership and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Managing Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's essential network or service operations with continuity, infrastructure, and customer responsibilities. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Managing Partner describe transferable experience for Utilities work?
 
@@ -139,7 +139,7 @@ Select examples that show partner-group mandate, management contribution, practi
 
 ### How can a Managing Partner choose documents for conversations about Utilities?
 
-Possible materials include partner biography, leadership resume, practice summary, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination. Each claim should be accurate for this Utilities target, and confidential or unauthorized material should be omitted.
+Possible materials include partner biography, leadership resume, practice summary, and profile. Each claim should be accurate for this Utilities target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Managing Partner plan contact with Utilities organizations?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Managing Partner assess fit with Utilities responsibilities?
 
-No. Compare the role description with the candidate's experience of combine leadership responsibilities with the governance and professional context of a partnership and the organization's essential network or service operations with continuity, infrastructure, and customer responsibilities. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Managing Partner candidate considering Utilities?
 

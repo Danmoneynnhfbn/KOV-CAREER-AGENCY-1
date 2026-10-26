@@ -8,7 +8,7 @@ Research for a Board Director in Healthcare and Social Care becomes more focused
 
 ## Who this Board Director and Healthcare and Social Care guide is for
 
-For Board Director work in Healthcare and Social Care, explain how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance; connect that mandate to evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution. Not every Healthcare and Social Care organization will handle service quality, workforce coordination, access, continuity, and sensitive information alike. Confirm how care, health-related services, or social support delivered by teams and organizations informs this Board Director position. KOV's service scope for a Board Director candidate can include document preparation and agreed search activity, but cannot promise an employer's response. For Board Director materials, manage the risk of implying executive authority for board decisions or claiming confidential board outcomes; support claims with committee or board remit, preparation, judgment, relevant expertise, and collective contribution and remove details that are not authorized for sharing.
+For Board Director work in Healthcare and Social Care, explain how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance; connect that mandate to evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution. Confirm how care, health-related services, or social support delivered by teams and organizations informs this Board Director position. KOV's service scope for a Board Director candidate can include document preparation and agreed search activity, but cannot promise an employer's response. For Board Director materials, manage the risk of implying executive authority for board decisions or claiming confidential board outcomes; support claims with committee or board remit, preparation, judgment, relevant expertise, and collective contribution and remove details that are not authorized for sharing.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -45,11 +45,11 @@ Consider document and positioning support for Board Director materials that pres
 
 ## Prepare to discuss the Healthcare and Social Care mandate
 
-Readers need to see what Board Director work involved; connect contribute oversight, inquiry, and strategic perspective within collective governance with the candidate's own examples of committee or board remit, preparation, judgment, relevant expertise, and collective contribution in Healthcare and Social Care. Not every Healthcare and Social Care organization will handle service quality, workforce coordination, access, continuity, and sensitive information alike. Confirm how care, health-related services, or social support delivered by teams and organizations informs this Board Director position. KOV's service scope for a Board Director candidate can include document preparation and agreed search activity, but cannot promise an employer's response. The candidate can discuss committee or board remit, preparation, judgment, relevant expertise, and collective contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+Readers need to see what Board Director work involved; connect contribute oversight, inquiry, and strategic perspective within collective governance with the candidate's own examples of committee or board remit, preparation, judgment, relevant expertise, and collective contribution in Healthcare and Social Care. Confirm how care, health-related services, or social support delivered by teams and organizations informs this Board Director position. KOV's service scope for a Board Director candidate can include document preparation and agreed search activity, but cannot promise an employer's response. The candidate can discuss committee or board remit, preparation, judgment, relevant expertise, and collective contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Common positioning mistakes for Board Director candidates in Healthcare and Social Care
 
-A precise Board Director story ties committee or board remit, preparation, judgment, relevant expertise, and collective contribution to the mandate of contribute oversight, inquiry, and strategic perspective within collective governance, without suggesting that the title alone establishes fit. Before presenting service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples, determine how people receiving services, families, care professionals, administrators, owners, and community partners participated and which details are safe to discuss. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Healthcare and Social Care. A Board Director candidate should be ready to explain implying executive authority for board decisions or claiming confidential board outcomes without revealing confidential details or implying unsupported responsibility.
+A precise Board Director story ties committee or board remit, preparation, judgment, relevant expertise, and collective contribution to the mandate of contribute oversight, inquiry, and strategic perspective within collective governance, without suggesting that the title alone establishes fit. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Healthcare and Social Care. A Board Director candidate should be ready to explain implying executive authority for board decisions or claiming confidential board outcomes without revealing confidential details or implying unsupported responsibility.
 
 - Treat Healthcare and Social Care as one uniform employer type; distinguish the actual organization and role.
 - Use a Board Director title without explaining contribute oversight, inquiry, and strategic perspective within collective governance.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Board Director career hub](/roles/board-director/)
 
-Review the role-wide approach to contribute oversight, inquiry, and strategic perspective within collective governance and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Board Director remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Board Director remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Board Director in Agriculture, Food and Forestry](/roles/board-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with care, health-related services, or social support delivered by teams and organizations and identify how the Board Director remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Board Director resolve before a target discussion in Healthcare and Social Care?
 
-A Board Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's care, health-related services, or social support delivered by teams and organizations. Explore how the role will contribute oversight, inquiry, and strategic perspective within collective governance and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Board Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's care, health-related services, or social support delivered by teams and organizations. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Board Director career story fit the needs of Healthcare and Social Care?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of committee or board remit
 
 ### What should a Board Director prepare in writing before targeting Healthcare and Social Care?
 
-Possible materials include board biography, governance resume, skills matrix, and concise profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples. Each claim should be accurate for this Healthcare and Social Care target, and confidential or unauthorized material should be omitted.
+Possible materials include board biography, governance resume, skills matrix, and concise profile. Each claim should be accurate for this Healthcare and Social Care target, and confidential or unauthorized material should be omitted.
 
 ### What should a Board Director approve before outreach in Healthcare and Social Care?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate committee 
 
 ### Will KOV secure a meeting for a Board Director with an employer in Healthcare and Social Care?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Board Director candidate considering Healthcare and Social Care, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

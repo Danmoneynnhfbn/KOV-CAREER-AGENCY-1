@@ -16,7 +16,7 @@ Show the Director of Marketing scope behind the title: how the candidate could m
 
 ## Documents that make Director of Marketing experience relevant here
 
-Research for a Director of Marketing in Hospitality and Food Service becomes more focused when the candidate investigates guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alongside guest-facing accommodation, food, venue, or experience services delivered through people and operations. Before presenting venue or service scope, team leadership, guest context, service design, and attributable operating contributions, determine how guests, employees, suppliers, owners, local partners, and service teams participated and which details are safe to discuss. The candidate decides whether to pursue a Director of Marketing opportunity. KOV can support agreed research and preparation concerning Hospitality and Food Service. Do not resolve uncertainty about presenting campaign metrics without explaining objectives or contribution through assumption; verify the requirement and use only supportable Director of Marketing claims.
+Research for a Director of Marketing in Hospitality and Food Service becomes more focused when the candidate investigates guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alongside guest-facing accommodation, food, venue, or experience services delivered through people and operations. The candidate decides whether to pursue a Director of Marketing opportunity. KOV can support agreed research and preparation concerning Hospitality and Food Service. Do not resolve uncertainty about presenting campaign metrics without explaining objectives or contribution through assumption; verify the requirement and use only supportable Director of Marketing claims.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ Research for a Director of Marketing in Hospitality and Food Service becomes mor
 
 ## Choose the individual services that fit the work
 
-Do not resolve uncertainty about presenting campaign metrics without explaining objectives or contribution through assumption; verify the requirement and use only supportable Director of Marketing claims. The service plan should fit the candidate's Director of Marketing priorities; agree research, materials, and any outreach before contact occurs. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Director of Marketing example should separate direct responsibility from collaboration. The Director of Marketing remit to manage campaigns, channels, or marketing programs within a broader strategy should be described through decisions and examples, especially evidence of audience, channel choices, budget or team remit, collaboration, and attributable results relevant to Hospitality and Food Service.
+Do not resolve uncertainty about presenting campaign metrics without explaining objectives or contribution through assumption; verify the requirement and use only supportable Director of Marketing claims. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Director of Marketing example should separate direct responsibility from collaboration. The Director of Marketing remit to manage campaigns, channels, or marketing programs within a broader strategy should be described through decisions and examples, especially evidence of audience, channel choices, budget or team remit, collaboration, and attributable results relevant to Hospitality and Food Service.
 
 ### [Private career representation](/services.html)
 
@@ -49,7 +49,7 @@ The Director of Marketing remit to manage campaigns, channels, or marketing prog
 
 ## Common positioning mistakes for Director of Marketing candidates in Hospitality and Food Service
 
-For Director of Marketing materials, manage the risk of presenting campaign metrics without explaining objectives or contribution; support claims with audience, channel choices, budget or team remit, collaboration, and attributable results and remove details that are not authorized for sharing. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Director of Marketing example should separate direct responsibility from collaboration. Not every Hospitality and Food Service organization will handle guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alike. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Director of Marketing position. For Director of Marketing work in Hospitality and Food Service, explain how the candidate could manage campaigns, channels, or marketing programs within a broader strategy; connect that mandate to evidence of audience, channel choices, budget or team remit, collaboration, and attributable results.
+For Director of Marketing materials, manage the risk of presenting campaign metrics without explaining objectives or contribution; support claims with audience, channel choices, budget or team remit, collaboration, and attributable results and remove details that are not authorized for sharing. Not every Hospitality and Food Service organization will handle guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alike. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Director of Marketing position. For Director of Marketing work in Hospitality and Food Service, explain how the candidate could manage campaigns, channels, or marketing programs within a broader strategy; connect that mandate to evidence of audience, channel choices, budget or team remit, collaboration, and attributable results.
 
 - Treat Hospitality and Food Service as one uniform employer type; distinguish the actual organization and role.
 - Use a Director of Marketing title without explaining manage campaigns, channels, or marketing programs within a broader strategy.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Marketing career hub](/roles/director-marketing/)
 
-Review the role-wide approach to manage campaigns, channels, or marketing programs within a broader strategy and the evidence expected for that scope.
+
 
 ### [Hospitality and Food Service industry hub](/industries/hospitality-food-service/)
 
-Compare how guest-facing accommodation, food, venue, or experience services delivered through people and operations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Hospitality and Food Service](/roles/ceo/hospitality-food-service.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Marketing remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Operating Officer in Hospitality and Food Service](/roles/coo/hospitality-food-service.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Marketing remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Director of Marketing in Retail and E-commerce](/roles/director-marketing/retail-ecommerce.html)
 
-Compare customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment with guest-facing accommodation, food, venue, or experience services delivered through people and operations and identify how the Director of Marketing remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Director of Marketing test the scope of work in Hospitality and Food Service?
 
-A Director of Marketing candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. Explore how the role will manage campaigns, channels, or marketing programs within a broader strategy and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of Marketing candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Director of Marketing use to explain experience in Hospitality and Food Service?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### Can a Director of Marketing rely on title alone when targeting Hospitality and Food Service?
 
-Title is only a label. Establish what the employer means by Director of Marketing in this Hospitality and Food Service organization and how the person will work with guests, employees, suppliers, owners, local partners, and service teams. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Director of Marketing seeking work in Hospitality and Food Service?
 

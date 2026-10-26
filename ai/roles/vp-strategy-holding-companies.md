@@ -45,7 +45,7 @@ Consider document and positioning support for Vice President of Strategy materia
 
 ## Prepare to discuss the Holding Companies and Corporate Groups mandate
 
-A Vice President of Strategy candidate should show how analysis, option framing, stakeholder alignment, implementation, and decision influence supported the work to frame strategic choices and connect planning with operating decisions, with the Holding Companies and Corporate Groups setting made explicit. Preparation for a Vice President of Strategy conversation should address which entities the role covers, what decisions are centralized, and where operating-company leaders retain authority; relate the response to portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries, not speculation about hiring. The candidate decides whether to pursue a Vice President of Strategy opportunity. KOV can support agreed research and preparation concerning Holding Companies and Corporate Groups. Keep the Vice President of Strategy narrative accurate where claiming strategy outcomes without distinguishing recommendation, sponsorship, and execution may arise: attribute shared work and disclose only information the candidate may use.
+A Vice President of Strategy candidate should show how analysis, option framing, stakeholder alignment, implementation, and decision influence supported the work to frame strategic choices and connect planning with operating decisions, with the Holding Companies and Corporate Groups setting made explicit. The candidate decides whether to pursue a Vice President of Strategy opportunity. KOV can support agreed research and preparation concerning Holding Companies and Corporate Groups. Keep the Vice President of Strategy narrative accurate where claiming strategy outcomes without distinguishing recommendation, sponsorship, and execution may arise: attribute shared work and disclose only information the candidate may use.
 
 ## Common positioning mistakes for Vice President of Strategy candidates in Holding Companies and Corporate Groups
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Strategy career hub](/roles/vp-strategy/)
 
-Review the role-wide approach to frame strategic choices and connect planning with operating decisions and the evidence expected for that scope.
+
 
 ### [Holding Companies and Corporate Groups industry hub](/industries/holding-companies/)
 
-Compare how ownership or coordination of multiple entities, portfolios, or operating businesses affects career planning across functions.
+
 
 ### [Chief Executive Officer in Holding Companies and Corporate Groups](/roles/ceo/holding-companies.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Strategy remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Operating Officer in Holding Companies and Corporate Groups](/roles/coo/holding-companies.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Strategy remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Vice President of Strategy in Energy, Mining and Oil and Gas](/roles/vp-strategy/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with ownership or coordination of multiple entities, portfolios, or operating businesses and identify how the Vice President of Strategy remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Vice President of Strategy resolve before a target discussion in Holding Companies and Corporate Groups?
 
-Use the opening discussion to understand the specific Holding Companies and Corporate Groups employer, not to assume a standard role. Compare frame strategic choices and connect planning with operating decisions with the stated scope, identify decision partners among owners, boards, portfolio leaders, finance teams, employees, and external partners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Holding Companies and Corporate Groups employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Vice President of Strategy career story fit the needs of Holding Companies and Corporate Groups?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Vice President of Strategy approve before outreach in Holding Companies and Corporate Groups?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Vice President of Strategy candidate's service scope; the candidate approves external communication. No one route should be assumed for all Holding Companies and Corporate Groups employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Holding Companies and Corporate Groups employers.
 
 ### How should a Vice President of Strategy compare title and remit in Holding Companies and Corporate Groups?
 
-Title is only a label. Establish what the employer means by Vice President of Strategy in this Holding Companies and Corporate Groups organization and how the person will work with owners, boards, portfolio leaders, finance teams, employees, and external partners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Vice President of Strategy with an employer in Holding Companies and Corporate Groups?
 

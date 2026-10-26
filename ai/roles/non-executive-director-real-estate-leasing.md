@@ -49,7 +49,7 @@ A Non-Executive Director candidate should show how governance experience, constr
 
 ## Common positioning mistakes for Non-Executive Director candidates in Real Estate and Leasing
 
-In a Real Estate and Leasing target, make the Non-Executive Director contribution legible: describe how the candidate helped provide independent challenge and strategic contribution distinct from management and what supports governance experience, constructive challenge, committee contribution, and relevant expertise. Not every Real Estate and Leasing organization will handle asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions alike. Confirm how property ownership, development, brokerage, management, or leasing relationships informs this Non-Executive Director position. KOV's service scope for a Non-Executive Director candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Before discussing asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution, check whether confusing oversight with operational management or overstating independence could expose sensitive details or blur the candidate's decision boundary.
+In a Real Estate and Leasing target, make the Non-Executive Director contribution legible: describe how the candidate helped provide independent challenge and strategic contribution distinct from management and what supports governance experience, constructive challenge, committee contribution, and relevant expertise. Confirm how property ownership, development, brokerage, management, or leasing relationships informs this Non-Executive Director position. KOV's service scope for a Non-Executive Director candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Before discussing asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution, check whether confusing oversight with operational management or overstating independence could expose sensitive details or blur the candidate's decision boundary.
 
 - Treat Real Estate and Leasing as one uniform employer type; distinguish the actual organization and role.
 - Use a Non-Executive Director title without explaining provide independent challenge and strategic contribution distinct from management.
@@ -67,7 +67,7 @@ Good preparation for Non-Executive Director work includes a safe way to explain 
 
 ## Run the search thoughtfully in each target market
 
-A candidate exploring Real Estate and Leasing should test the assumed link between property ownership, development, brokerage, management, or leasing relationships and asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions against the actual Non-Executive Director role description. In Real Estate and Leasing, owners, tenants, customers, investors, property teams, suppliers, and communities may shape the work. A Non-Executive Director example should separate direct responsibility from collaboration. Career representation remains candidate-led: KOV can support a Non-Executive Director search, while the candidate approves the goals and disclosures. Keep the Non-Executive Director narrative accurate where confusing oversight with operational management or overstating independence may arise: attribute shared work and disclose only information the candidate may use.
+A candidate exploring Real Estate and Leasing should test the assumed link between property ownership, development, brokerage, management, or leasing relationships and asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions against the actual Non-Executive Director role description. A Non-Executive Director example should separate direct responsibility from collaboration. Career representation remains candidate-led: KOV can support a Non-Executive Director search, while the candidate approves the goals and disclosures. Keep the Non-Executive Director narrative accurate where confusing oversight with operational management or overstating independence may arise: attribute shared work and disclose only information the candidate may use.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Non-Executive Director career hub](/roles/non-executive-director/)
 
-Review the role-wide approach to provide independent challenge and strategic contribution distinct from management and the evidence expected for that scope.
+
 
 ### [Real Estate and Leasing industry hub](/industries/real-estate-leasing/)
 
-Compare how property ownership, development, brokerage, management, or leasing relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Real Estate and Leasing](/roles/ceo/real-estate-leasing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Non-Executive Director remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Operating Officer in Real Estate and Leasing](/roles/coo/real-estate-leasing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Non-Executive Director remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Non-Executive Director in Agriculture, Food and Forestry](/roles/non-executive-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with property ownership, development, brokerage, management, or leasing relationships and identify how the Non-Executive Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Non-Executive Director clarify before considering work in Real Estate and Leasing?
 
-A Non-Executive Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's property ownership, development, brokerage, management, or leasing relationships. Explore how the role will provide independent challenge and strategic contribution distinct from management and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Non-Executive Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's property ownership, development, brokerage, management, or leasing relationships. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Non-Executive Director describe transferable experience for Real Estate and Leasing work?
 
@@ -139,19 +139,19 @@ Describe an instance where the candidate could provide independent challenge and
 
 ### How can a Non-Executive Director choose documents for conversations about Real Estate and Leasing?
 
-Possible materials include board biography, non-executive profile, skills matrix, and governance resume. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution. Each claim should be accurate for this Real Estate and Leasing target, and confidential or unauthorized material should be omitted.
+Possible materials include board biography, non-executive profile, skills matrix, and governance resume. Each claim should be accurate for this Real Estate and Leasing target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Non-Executive Director plan contact with Real Estate and Leasing organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Non-Executive Director candidate's service scope; the candidate approves external communication. No one route should be assumed for all Real Estate and Leasing employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Real Estate and Leasing employers.
 
 ### How can a Non-Executive Director assess fit with Real Estate and Leasing responsibilities?
 
-Title is only a label. Establish what the employer means by Non-Executive Director in this Real Estate and Leasing organization and how the person will work with owners, tenants, customers, investors, property teams, suppliers, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Non-Executive Director candidate considering Real Estate and Leasing?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Non-Executive Director candidate considering Real Estate and Leasing, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

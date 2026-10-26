@@ -45,7 +45,7 @@ Consider document and positioning support for Chief Technology Officer materials
 
 ## Prepare to discuss the Public Sector and Government mandate
 
-Do not resolve uncertainty about using tool lists as a substitute for leadership remit, delivery context, and trade-offs through assumption; verify the requirement and use only supportable Chief Technology Officer claims. The candidate decides whether to pursue a Chief Technology Officer opportunity. KOV can support agreed research and preparation concerning Public Sector and Government. To understand the Public Sector and Government target, explore public administration, public programs, or services delivered under a public mandate and ask how a Chief Technology Officer is expected to respond to public purpose, stewardship, transparency, service access, and coordination across institutions. To assess a Chief Technology Officer opportunity in Public Sector and Government, compare the stated remit to the candidate's record of technology strategy, architecture or product scope, delivery, teams, risk, and measurable contribution.
+Do not resolve uncertainty about using tool lists as a substitute for leadership remit, delivery context, and trade-offs through assumption; verify the requirement and use only supportable Chief Technology Officer claims. KOV can support agreed research and preparation concerning Public Sector and Government. To understand the Public Sector and Government target, explore public administration, public programs, or services delivered under a public mandate and ask how a Chief Technology Officer is expected to respond to public purpose, stewardship, transparency, service access, and coordination across institutions. To assess a Chief Technology Officer opportunity in Public Sector and Government, compare the stated remit to the candidate's record of technology strategy, architecture or product scope, delivery, teams, risk, and measurable contribution.
 
 ## Common positioning mistakes for Chief Technology Officer candidates in Public Sector and Government
 
@@ -59,11 +59,11 @@ In a Public Sector and Government target, make the Chief Technology Officer cont
 
 ## Keep research, confidentiality, and outreach aligned
 
-Keep the Chief Technology Officer narrative accurate where using tool lists as a substitute for leadership remit, delivery context, and trade-offs may arise: attribute shared work and disclose only information the candidate may use. The candidate decides whether to pursue a Chief Technology Officer opportunity. KOV can support agreed research and preparation concerning Public Sector and Government. Explain how CEO, product and engineering leaders, security, customers, employees, and suppliers contributed to the candidate's work and distinguish that shared context from evidence of technology strategy, architecture or product scope, delivery, teams, risk, and measurable contribution. To assess a Chief Technology Officer opportunity in Public Sector and Government, compare the stated remit to the candidate's record of technology strategy, architecture or product scope, delivery, teams, risk, and measurable contribution.
+Keep the Chief Technology Officer narrative accurate where using tool lists as a substitute for leadership remit, delivery context, and trade-offs may arise: attribute shared work and disclose only information the candidate may use. KOV can support agreed research and preparation concerning Public Sector and Government. Explain how CEO, product and engineering leaders, security, customers, employees, and suppliers contributed to the candidate's work and distinguish that shared context from evidence of technology strategy, architecture or product scope, delivery, teams, risk, and measurable contribution. To assess a Chief Technology Officer opportunity in Public Sector and Government, compare the stated remit to the candidate's record of technology strategy, architecture or product scope, delivery, teams, risk, and measurable contribution.
 
 ## Prepare for conversations about Public Sector and Government work
 
-A Chief Technology Officer candidate should show how technology strategy, architecture or product scope, delivery, teams, risk, and measurable contribution supported the work to set technology direction and connect technical choices with product and business needs, with the Public Sector and Government setting made explicit. Not every Public Sector and Government organization will handle public purpose, stewardship, transparency, service access, and coordination across institutions alike. Confirm how public administration, public programs, or services delivered under a public mandate informs this Chief Technology Officer position. Candidate-side support from KOV may connect Chief Technology Officer positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Do not resolve uncertainty about using tool lists as a substitute for leadership remit, delivery context, and trade-offs through assumption; verify the requirement and use only supportable Chief Technology Officer claims.
+A Chief Technology Officer candidate should show how technology strategy, architecture or product scope, delivery, teams, risk, and measurable contribution supported the work to set technology direction and connect technical choices with product and business needs, with the Public Sector and Government setting made explicit. Confirm how public administration, public programs, or services delivered under a public mandate informs this Chief Technology Officer position. Candidate-side support from KOV may connect Chief Technology Officer positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Do not resolve uncertainty about using tool lists as a substitute for leadership remit, delivery context, and trade-offs through assumption; verify the requirement and use only supportable Chief Technology Officer claims.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Technology Officer career hub](/roles/cto/)
 
-Review the role-wide approach to set technology direction and connect technical choices with product and business needs and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Technology Officer remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Technology Officer remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Technology Officer in Agriculture, Food and Forestry](/roles/cto/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with public administration, public programs, or services delivered under a public mandate and identify how the Chief Technology Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Technology Officer test the scope of work in Public Sector and Government?
 
-A Chief Technology Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. Explore how the role will set technology direction and connect technical choices with product and business needs and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Technology Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Chief Technology Officer use to explain experience in Public Sector and Government?
 

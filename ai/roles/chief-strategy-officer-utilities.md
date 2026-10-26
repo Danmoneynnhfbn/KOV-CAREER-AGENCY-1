@@ -45,7 +45,7 @@ Consider document and positioning support for Chief Strategy Officer materials t
 
 ## Prepare to discuss the Utilities mandate
 
-The candidate decides whether to pursue a Chief Strategy Officer opportunity. KOV can support agreed research and preparation concerning Utilities. Preparation for a Chief Strategy Officer conversation should address the service territory, operating remit, ownership context, and responsibilities that the employer assigns to this position; relate the response to service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination, not speculation about hiring. A candidate exploring Utilities should test the assumed link between essential network or service operations with continuity, infrastructure, and customer responsibilities and reliability, infrastructure renewal, service access, affordability, and long-term planning against the actual Chief Strategy Officer role description. Rather than lead with seniority, a Chief Strategy Officer profile can explain the responsibility to support organization-wide choices by framing options, analysis, and strategic execution and use service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination as evidence.
+The candidate decides whether to pursue a Chief Strategy Officer opportunity. Preparation for a Chief Strategy Officer conversation should address the service territory, operating remit, ownership context, and responsibilities that the employer assigns to this position; relate the response to service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination, not speculation about hiring. A candidate exploring Utilities should test the assumed link between essential network or service operations with continuity, infrastructure, and customer responsibilities and reliability, infrastructure renewal, service access, affordability, and long-term planning against the actual Chief Strategy Officer role description. Rather than lead with seniority, a Chief Strategy Officer profile can explain the responsibility to support organization-wide choices by framing options, analysis, and strategic execution and use service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination as evidence.
 
 ## Common positioning mistakes for Chief Strategy Officer candidates in Utilities
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Strategy Officer career hub](/roles/chief-strategy-officer/)
 
-Review the role-wide approach to support organization-wide choices by framing options, analysis, and strategic execution and the evidence expected for that scope.
+
 
 ### [Utilities industry hub](/industries/utilities/)
 
-Compare how essential network or service operations with continuity, infrastructure, and customer responsibilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Utilities](/roles/ceo/utilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Strategy Officer remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Operating Officer in Utilities](/roles/coo/utilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Strategy Officer remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Strategy Officer in Agriculture, Food and Forestry](/roles/chief-strategy-officer/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with essential network or service operations with continuity, infrastructure, and customer responsibilities and identify how the Chief Strategy Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Strategy Officer clarify before considering work in Utilities?
 
-Start with the organization's account of essential network or service operations with continuity, infrastructure, and customer responsibilities, then clarify how the Chief Strategy Officer would support organization-wide choices by framing options, analysis, and strategic execution. Ask how customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of essential network or service operations with continuity, infrastructure, and customer responsibilities, then clarify how the Chief Strategy Officer would support organization-wide choices by framing options, analysis, and strategic execution. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Chief Strategy Officer describe transferable experience for Utilities work?
 
@@ -139,15 +139,15 @@ Make the connection explicit: the candidate's record of strategy remit, decision
 
 ### How can a Chief Strategy Officer choose documents for conversations about Utilities?
 
-Document selection depends on the opportunity. A Chief Strategy Officer may draw from executive resume, strategy portfolio, executive biography, and profile, but should foreground only material connected to service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Chief Strategy Officer plan contact with Utilities organizations?
 
-Outreach should follow target research, not precede it. The Chief Strategy Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with strategy remit, decision support, portfolio choices, implementation links, and influence is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Chief Strategy Officer assess fit with Utilities responsibilities?
 
-Title is only a label. Establish what the employer means by Chief Strategy Officer in this Utilities organization and how the person will work with customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Chief Strategy Officer candidate considering Utilities?
 

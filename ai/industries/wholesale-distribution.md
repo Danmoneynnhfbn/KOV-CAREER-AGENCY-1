@@ -85,27 +85,27 @@ Use KOV's London page as a starting point for an agreed UK-focused search discus
 
 ### Saudi Arabia
 
-For Wholesale and Distribution targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Wholesale and Distribution targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Wholesale and Distribution targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### UAE
 
-For Wholesale and Distribution targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Wholesale and Distribution targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Wholesale and Distribution targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### United Kingdom
 
-For Wholesale and Distribution targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Wholesale and Distribution targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Wholesale and Distribution targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Dubai
 
-For Wholesale and Distribution targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Wholesale and Distribution targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Wholesale and Distribution targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Australia
 
-For Wholesale and Distribution targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Wholesale and Distribution targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Wholesale and Distribution targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Africa
 
-For Wholesale and Distribution targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Wholesale and Distribution targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Wholesale and Distribution targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ## Choose an appropriate level of career support
 
@@ -129,87 +129,87 @@ Use the cards to open only the role-and-industry pages currently available. Each
 
 ### [Chief Executive Officer in Wholesale and Distribution](/roles/ceo/wholesale-distribution.html)
 
-Explore how set organization-wide direction and coordinate executive work connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Operating Officer in Wholesale and Distribution](/roles/coo/wholesale-distribution.html)
 
-Explore how align operating functions, delivery systems, and organizational priorities connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Financial Officer in Wholesale and Distribution](/roles/cfo/wholesale-distribution.html)
 
-Explore how lead financial stewardship and connect resource decisions to organizational priorities connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Technology Officer in Wholesale and Distribution](/roles/cto/wholesale-distribution.html)
 
-Explore how set technology direction and connect technical choices with product and business needs connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Information Officer in Wholesale and Distribution](/roles/cio/wholesale-distribution.html)
 
-Explore how guide information systems, digital operations, and technology services for the organization connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Marketing Officer in Wholesale and Distribution](/roles/cmo/wholesale-distribution.html)
 
-Explore how shape marketing strategy, customer understanding, brand, and commercial communication connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Human Resources Officer in Wholesale and Distribution](/roles/chro/wholesale-distribution.html)
 
-Explore how guide people strategy, organizational capability, and workforce-related leadership connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Information Security Officer in Wholesale and Distribution](/roles/ciso/wholesale-distribution.html)
 
-Explore how lead information-security priorities and coordinate risk-informed protection connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [General Counsel / Chief Legal Officer in Wholesale and Distribution](/roles/general-counsel/wholesale-distribution.html)
 
-Explore how lead legal judgment and connect legal advice with organizational decisions connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Revenue Officer in Wholesale and Distribution](/roles/chief-revenue-officer/wholesale-distribution.html)
 
-Explore how coordinate revenue-facing functions around a coherent commercial direction connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Product Officer in Wholesale and Distribution](/roles/chief-product-officer/wholesale-distribution.html)
 
-Explore how guide product direction, portfolio choices, and the connection between users and delivery teams connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Strategy Officer in Wholesale and Distribution](/roles/chief-strategy-officer/wholesale-distribution.html)
 
-Explore how support organization-wide choices by framing options, analysis, and strategic execution connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Board Director in Wholesale and Distribution](/roles/board-director/wholesale-distribution.html)
 
-Explore how contribute oversight, inquiry, and strategic perspective within collective governance connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Non-Executive Director in Wholesale and Distribution](/roles/non-executive-director/wholesale-distribution.html)
 
-Explore how provide independent challenge and strategic contribution distinct from management connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chair in Wholesale and Distribution](/roles/chair/wholesale-distribution.html)
 
-Explore how lead board effectiveness and support clear governance and decision-making connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Managing Director in Wholesale and Distribution](/roles/managing-director/wholesale-distribution.html)
 
-Explore how lead a business, division, or organization according to its defined mandate connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Managing Partner in Wholesale and Distribution](/roles/managing-partner/wholesale-distribution.html)
 
-Explore how combine leadership responsibilities with the governance and professional context of a partnership connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Partner in Wholesale and Distribution](/roles/partner/wholesale-distribution.html)
 
-Explore how develop a practice or business while contributing to a shared ownership or partnership structure connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Vice President of Sales in Wholesale and Distribution](/roles/vp-sales/wholesale-distribution.html)
 
-Explore how lead a sales organization and connect market priorities with execution connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Director of Sales in Wholesale and Distribution](/roles/director-sales/wholesale-distribution.html)
 
-Explore how manage sales teams, accounts, or territories against an agreed commercial plan connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Head of Business Development in Wholesale and Distribution](/roles/head-business-development/wholesale-distribution.html)
 
-Explore how develop relationships and opportunities that support an organization's commercial direction connects with movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ## Questions that make a Wholesale and Distribution target more specific
 
@@ -243,7 +243,7 @@ KOV can help candidates organize relevant experience and documents around an agr
 
 ### Can KOV promise an interview with a Wholesale and Distribution organization?
 
-No. KOV does not guarantee interviews, offers, employment, introductions, or timelines. Employers make hiring decisions.
+No. Employers make hiring decisions.
 
 ### How should I compare two Wholesale and Distribution opportunities?
 

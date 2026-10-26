@@ -85,27 +85,27 @@ Use KOV's London page as a starting point for an agreed UK-focused search discus
 
 ### Saudi Arabia
 
-For Energy, Mining and Oil and Gas targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Energy, Mining and Oil and Gas targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Energy, Mining and Oil and Gas targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### UAE
 
-For Energy, Mining and Oil and Gas targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Energy, Mining and Oil and Gas targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Energy, Mining and Oil and Gas targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### United Kingdom
 
-For Energy, Mining and Oil and Gas targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Energy, Mining and Oil and Gas targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Energy, Mining and Oil and Gas targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Dubai
 
-For Energy, Mining and Oil and Gas targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Energy, Mining and Oil and Gas targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Energy, Mining and Oil and Gas targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Australia
 
-For Energy, Mining and Oil and Gas targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Energy, Mining and Oil and Gas targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Energy, Mining and Oil and Gas targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Africa
 
-For Energy, Mining and Oil and Gas targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Energy, Mining and Oil and Gas targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Energy, Mining and Oil and Gas targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ## Choose an appropriate level of career support
 
@@ -129,99 +129,99 @@ Use the cards to open only the role-and-industry pages currently available. Each
 
 ### [Chief Executive Officer in Energy, Mining and Oil and Gas](/roles/ceo/energy-mining-oil-gas.html)
 
-Explore how set organization-wide direction and coordinate executive work connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Operating Officer in Energy, Mining and Oil and Gas](/roles/coo/energy-mining-oil-gas.html)
 
-Explore how align operating functions, delivery systems, and organizational priorities connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Financial Officer in Energy, Mining and Oil and Gas](/roles/cfo/energy-mining-oil-gas.html)
 
-Explore how lead financial stewardship and connect resource decisions to organizational priorities connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Technology Officer in Energy, Mining and Oil and Gas](/roles/cto/energy-mining-oil-gas.html)
 
-Explore how set technology direction and connect technical choices with product and business needs connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Information Officer in Energy, Mining and Oil and Gas](/roles/cio/energy-mining-oil-gas.html)
 
-Explore how guide information systems, digital operations, and technology services for the organization connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Marketing Officer in Energy, Mining and Oil and Gas](/roles/cmo/energy-mining-oil-gas.html)
 
-Explore how shape marketing strategy, customer understanding, brand, and commercial communication connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Human Resources Officer in Energy, Mining and Oil and Gas](/roles/chro/energy-mining-oil-gas.html)
 
-Explore how guide people strategy, organizational capability, and workforce-related leadership connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Information Security Officer in Energy, Mining and Oil and Gas](/roles/ciso/energy-mining-oil-gas.html)
 
-Explore how lead information-security priorities and coordinate risk-informed protection connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [General Counsel / Chief Legal Officer in Energy, Mining and Oil and Gas](/roles/general-counsel/energy-mining-oil-gas.html)
 
-Explore how lead legal judgment and connect legal advice with organizational decisions connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Revenue Officer in Energy, Mining and Oil and Gas](/roles/chief-revenue-officer/energy-mining-oil-gas.html)
 
-Explore how coordinate revenue-facing functions around a coherent commercial direction connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Product Officer in Energy, Mining and Oil and Gas](/roles/chief-product-officer/energy-mining-oil-gas.html)
 
-Explore how guide product direction, portfolio choices, and the connection between users and delivery teams connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Strategy Officer in Energy, Mining and Oil and Gas](/roles/chief-strategy-officer/energy-mining-oil-gas.html)
 
-Explore how support organization-wide choices by framing options, analysis, and strategic execution connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Board Director in Energy, Mining and Oil and Gas](/roles/board-director/energy-mining-oil-gas.html)
 
-Explore how contribute oversight, inquiry, and strategic perspective within collective governance connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Non-Executive Director in Energy, Mining and Oil and Gas](/roles/non-executive-director/energy-mining-oil-gas.html)
 
-Explore how provide independent challenge and strategic contribution distinct from management connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chair in Energy, Mining and Oil and Gas](/roles/chair/energy-mining-oil-gas.html)
 
-Explore how lead board effectiveness and support clear governance and decision-making connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Managing Director in Energy, Mining and Oil and Gas](/roles/managing-director/energy-mining-oil-gas.html)
 
-Explore how lead a business, division, or organization according to its defined mandate connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Managing Partner in Energy, Mining and Oil and Gas](/roles/managing-partner/energy-mining-oil-gas.html)
 
-Explore how combine leadership responsibilities with the governance and professional context of a partnership connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Partner in Energy, Mining and Oil and Gas](/roles/partner/energy-mining-oil-gas.html)
 
-Explore how develop a practice or business while contributing to a shared ownership or partnership structure connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Vice President of Engineering in Energy, Mining and Oil and Gas](/roles/vp-engineering/energy-mining-oil-gas.html)
 
-Explore how lead engineering organization, technical delivery, and capability development connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Vice President of Strategy in Energy, Mining and Oil and Gas](/roles/vp-strategy/energy-mining-oil-gas.html)
 
-Explore how frame strategic choices and connect planning with operating decisions connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Director of Engineering in Energy, Mining and Oil and Gas](/roles/director-engineering/energy-mining-oil-gas.html)
 
-Explore how direct engineering teams and coordinate technical execution in a defined area connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Head of Strategy in Energy, Mining and Oil and Gas](/roles/head-strategy/energy-mining-oil-gas.html)
 
-Explore how coordinate planning and strategic analysis for an organization or business unit connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Head of Compliance in Energy, Mining and Oil and Gas](/roles/head-compliance/energy-mining-oil-gas.html)
 
-Explore how coordinate compliance programs and support consistent interpretation of organizational obligations connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Head of Business Development in Energy, Mining and Oil and Gas](/roles/head-business-development/energy-mining-oil-gas.html)
 
-Explore how develop relationships and opportunities that support an organization's commercial direction connects with asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ## Questions that make a Energy, Mining and Oil and Gas target more specific
 
@@ -255,7 +255,7 @@ KOV can help candidates organize relevant experience and documents around an agr
 
 ### Can KOV promise an interview with a Energy, Mining and Oil and Gas organization?
 
-No. KOV does not guarantee interviews, offers, employment, introductions, or timelines. Employers make hiring decisions.
+No. Employers make hiring decisions.
 
 ### How should I compare two Energy, Mining and Oil and Gas opportunities?
 

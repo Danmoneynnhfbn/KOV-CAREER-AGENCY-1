@@ -12,11 +12,11 @@ For a Chair target, KOV can discuss how chair biography, board resume, governanc
 
 ## A candidate-led process from first discussion to next steps
 
-Do not resolve uncertainty about blurring chair and executive accountabilities or taking credit for collective decisions through assumption; verify the requirement and use only supportable Chair claims. The candidate decides whether to pursue a Chair opportunity. KOV can support agreed research and preparation concerning Utilities. Explain how directors, CEO, owners, members, committees, and relevant stakeholder groups contributed to the candidate's work and distinguish that shared context from evidence of meeting leadership, board composition, governance practice, relationships, and transition judgment. A Chair candidate should show how meeting leadership, board composition, governance practice, relationships, and transition judgment supported the work to lead board effectiveness and support clear governance and decision-making, with the Utilities setting made explicit.
+Do not resolve uncertainty about blurring chair and executive accountabilities or taking credit for collective decisions through assumption; verify the requirement and use only supportable Chair claims. KOV can support agreed research and preparation concerning Utilities. Explain how directors, CEO, owners, members, committees, and relevant stakeholder groups contributed to the candidate's work and distinguish that shared context from evidence of meeting leadership, board composition, governance practice, relationships, and transition judgment. A Chair candidate should show how meeting leadership, board composition, governance practice, relationships, and transition judgment supported the work to lead board effectiveness and support clear governance and decision-making, with the Utilities setting made explicit.
 
 ## Documents that make Chair experience relevant here
 
-The Utilities context involves essential network or service operations with continuity, infrastructure, and customer responsibilities; examine how that structure affects reliability, infrastructure renewal, service access, affordability, and long-term planning before drawing conclusions about the Chair role. Before presenting service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination, determine how customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders participated and which details are safe to discuss. The candidate decides whether to pursue a Chair opportunity. KOV can support agreed research and preparation concerning Utilities. Good preparation for Chair work includes a safe way to explain blurring chair and executive accountabilities or taking credit for collective decisions and a clear distinction between fact and inference.
+The Utilities context involves essential network or service operations with continuity, infrastructure, and customer responsibilities; examine how that structure affects reliability, infrastructure renewal, service access, affordability, and long-term planning before drawing conclusions about the Chair role. The candidate decides whether to pursue a Chair opportunity. KOV can support agreed research and preparation concerning Utilities. Good preparation for Chair work includes a safe way to explain blurring chair and executive accountabilities or taking credit for collective decisions and a clear distinction between fact and inference.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chair career hub](/roles/chair/)
 
-Review the role-wide approach to lead board effectiveness and support clear governance and decision-making and the evidence expected for that scope.
+
 
 ### [Utilities industry hub](/industries/utilities/)
 
-Compare how essential network or service operations with continuity, infrastructure, and customer responsibilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Utilities](/roles/ceo/utilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chair remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Operating Officer in Utilities](/roles/coo/utilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chair remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chair in Agriculture, Food and Forestry](/roles/chair/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with essential network or service operations with continuity, infrastructure, and customer responsibilities and identify how the Chair remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chair clarify before considering work in Utilities?
 
-Use the opening discussion to understand the specific Utilities employer, not to assume a standard role. Compare lead board effectiveness and support clear governance and decision-making with the stated scope, identify decision partners among customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Utilities employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Chair describe transferable experience for Utilities work?
 

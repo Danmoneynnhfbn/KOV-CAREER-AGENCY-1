@@ -4,7 +4,7 @@ KOV helps Board Director candidates considering roles connected to Technology, M
 
 ## How Board Director work connects with Technology, Media and Telecom
 
-Readers need to see what Board Director work involved; connect contribute oversight, inquiry, and strategic perspective within collective governance with the candidate's own examples of committee or board remit, preparation, judgment, relevant expertise, and collective contribution in Technology, Media and Telecom. Not every Technology, Media and Telecom organization will handle product evolution, reliability, audience or customer needs, technical choices, and changing business models alike. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Board Director position. For a Board Director target, KOV can discuss how board biography, governance resume, skills matrix, and concise profile support the candidate's account of committee or board remit, preparation, judgment, relevant expertise, and collective contribution; external steps require prior agreement. The candidate can discuss committee or board remit, preparation, judgment, relevant expertise, and collective contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+Readers need to see what Board Director work involved; connect contribute oversight, inquiry, and strategic perspective within collective governance with the candidate's own examples of committee or board remit, preparation, judgment, relevant expertise, and collective contribution in Technology, Media and Telecom. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Board Director position. For a Board Director target, KOV can discuss how board biography, governance resume, skills matrix, and concise profile support the candidate's account of committee or board remit, preparation, judgment, relevant expertise, and collective contribution; external steps require prior agreement. The candidate can discuss committee or board remit, preparation, judgment, relevant expertise, and collective contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Who this Board Director and Technology, Media and Telecom guide is for
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Board Director career hub](/roles/board-director/)
 
-Review the role-wide approach to contribute oversight, inquiry, and strategic perspective within collective governance and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Board Director remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Board Director remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Board Director in Agriculture, Food and Forestry](/roles/board-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with digital products, platforms, content, communications, or technology-enabled services and identify how the Board Director remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Board Director test the scope of work in Technology, Media and Telecom?
 
-Use the opening discussion to understand the specific Technology, Media and Telecom employer, not to assume a standard role. Compare contribute oversight, inquiry, and strategic perspective within collective governance with the stated scope, identify decision partners among users, product and engineering teams, customers, creators, advertisers, partners, and investors, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Technology, Media and Telecom employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### What evidence can a Board Director use to explain experience in Technology, Media and Telecom?
 
@@ -139,7 +139,7 @@ Select examples that show committee or board remit, preparation, judgment, relev
 
 ### What documents should a Board Director tailor for Technology, Media and Telecom opportunities?
 
-Document selection depends on the opportunity. A Board Director may draw from board biography, governance resume, skills matrix, and concise profile, but should foreground only material connected to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### Which outreach choices belong to a Board Director considering Technology, Media and Telecom?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### Can a Board Director rely on title alone when targeting Technology, Media and Telecom?
 
-No. Compare the role description with the candidate's experience of contribute oversight, inquiry, and strategic perspective within collective governance and the organization's digital products, platforms, content, communications, or technology-enabled services. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Board Director seeking work in Technology, Media and Telecom?
 

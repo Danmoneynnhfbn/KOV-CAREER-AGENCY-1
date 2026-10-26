@@ -4,7 +4,7 @@ KOV helps Chief Strategy Officer candidates considering roles connected to Agric
 
 ## How Chief Strategy Officer work connects with Agriculture, Food and Forestry
 
-Readers need to see what Chief Strategy Officer work involved; connect support organization-wide choices by framing options, analysis, and strategic execution with the candidate's own examples of strategy remit, decision support, portfolio choices, implementation links, and influence in Agriculture, Food and Forestry. Not every Agriculture, Food and Forestry organization will handle seasonality, input availability, quality variation, and coordination across production stages alike. Confirm how production linked to land, biological cycles, processing, and supply relationships informs this Chief Strategy Officer position. KOV works with the candidate to agree which Chief Strategy Officer targets matter, how executive resume, strategy portfolio, executive biography, and profile will be used, and whether communication is authorized. The candidate can discuss strategy remit, decision support, portfolio choices, implementation links, and influence while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+Readers need to see what Chief Strategy Officer work involved; connect support organization-wide choices by framing options, analysis, and strategic execution with the candidate's own examples of strategy remit, decision support, portfolio choices, implementation links, and influence in Agriculture, Food and Forestry. Confirm how production linked to land, biological cycles, processing, and supply relationships informs this Chief Strategy Officer position. KOV works with the candidate to agree which Chief Strategy Officer targets matter, how executive resume, strategy portfolio, executive biography, and profile will be used, and whether communication is authorized. The candidate can discuss strategy remit, decision support, portfolio choices, implementation links, and influence while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Who this Chief Strategy Officer and Agriculture, Food and Forestry guide is for
 
@@ -16,7 +16,7 @@ Position a Chief Strategy Officer career by linking support organization-wide ch
 
 ## Documents that make Chief Strategy Officer experience relevant here
 
-A Chief Strategy Officer candidate should show how strategy remit, decision support, portfolio choices, implementation links, and influence supported the work to support organization-wide choices by framing options, analysis, and strategic execution, with the Agriculture, Food and Forestry setting made explicit. Not every Agriculture, Food and Forestry organization will handle seasonality, input availability, quality variation, and coordination across production stages alike. Confirm how production linked to land, biological cycles, processing, and supply relationships informs this Chief Strategy Officer position. Career representation remains candidate-led: KOV can support a Chief Strategy Officer search, while the candidate approves the goals and disclosures. Do not resolve uncertainty about presenting recommendations as implemented outcomes or leaving ownership unclear through assumption; verify the requirement and use only supportable Chief Strategy Officer claims.
+A Chief Strategy Officer candidate should show how strategy remit, decision support, portfolio choices, implementation links, and influence supported the work to support organization-wide choices by framing options, analysis, and strategic execution, with the Agriculture, Food and Forestry setting made explicit. Confirm how production linked to land, biological cycles, processing, and supply relationships informs this Chief Strategy Officer position. Career representation remains candidate-led: KOV can support a Chief Strategy Officer search, while the candidate approves the goals and disclosures. Do not resolve uncertainty about presenting recommendations as implemented outcomes or leaving ownership unclear through assumption; verify the requirement and use only supportable Chief Strategy Officer claims.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Strategy Officer career hub](/roles/chief-strategy-officer/)
 
-Review the role-wide approach to support organization-wide choices by framing options, analysis, and strategic execution and the evidence expected for that scope.
+
 
 ### [Agriculture, Food and Forestry industry hub](/industries/agriculture-food-forestry/)
 
-Compare how production linked to land, biological cycles, processing, and supply relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Agriculture, Food and Forestry](/roles/ceo/agriculture-food-forestry.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Strategy Officer remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Strategy Officer remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Strategy Officer in Energy, Mining and Oil and Gas](/roles/chief-strategy-officer/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with production linked to land, biological cycles, processing, and supply relationships and identify how the Chief Strategy Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Strategy Officer clarify before considering work in Agriculture, Food and Forestry?
 
-A Chief Strategy Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's production linked to land, biological cycles, processing, and supply relationships. Explore how the role will support organization-wide choices by framing options, analysis, and strategic execution and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Strategy Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's production linked to land, biological cycles, processing, and supply relationships. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Chief Strategy Officer describe transferable experience for Agriculture, Food and Forestry work?
 
@@ -139,11 +139,11 @@ Make the connection explicit: the candidate's record of strategy remit, decision
 
 ### How can a Chief Strategy Officer choose documents for conversations about Agriculture, Food and Forestry?
 
-Possible materials include executive resume, strategy portfolio, executive biography, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to resource planning, safety-minded operations, supplier relationships, yield or quality context, and continuity decisions. Each claim should be accurate for this Agriculture, Food and Forestry target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, strategy portfolio, executive biography, and profile. Each claim should be accurate for this Agriculture, Food and Forestry target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Chief Strategy Officer plan contact with Agriculture, Food and Forestry organizations?
 
-Outreach should follow target research, not precede it. The Chief Strategy Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with strategy remit, decision support, portfolio choices, implementation links, and influence is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Chief Strategy Officer assess fit with Agriculture, Food and Forestry responsibilities?
 

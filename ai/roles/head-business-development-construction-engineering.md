@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Business Development career hub](/roles/head-business-development/)
 
-Review the role-wide approach to develop relationships and opportunities that support an organization's commercial direction and the evidence expected for that scope.
+
 
 ### [Construction and Engineering industry hub](/industries/construction-engineering/)
 
-Compare how project-based delivery involving design, procurement, technical coordination, and site execution affects career planning across functions.
+
 
 ### [Chief Executive Officer in Construction and Engineering](/roles/ceo/construction-engineering.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Business Development remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Operating Officer in Construction and Engineering](/roles/coo/construction-engineering.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Business Development remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Head of Business Development in Energy, Mining and Oil and Gas](/roles/head-business-development/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with project-based delivery involving design, procurement, technical coordination, and site execution and identify how the Head of Business Development remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Head of Business Development in Construction and Engineering?
 
-Use the opening discussion to understand the specific Construction and Engineering employer, not to assume a standard role. Compare develop relationships and opportunities that support an organization's commercial direction with the stated scope, identify decision partners among clients, project teams, designers, contractors, suppliers, workers, and asset users, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Construction and Engineering employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a Head of Business Development make prior work relevant to Construction and Engineering?
 
@@ -139,11 +139,11 @@ Select examples that show market focus, partnerships, opportunity pipeline, nego
 
 ### Which career materials can help a Head of Business Development explore work in Construction and Engineering?
 
-Document selection depends on the opportunity. A Head of Business Development may draw from resume, partnership portfolio, business-development narrative, and profile, but should foreground only material connected to project complexity, commercial or technical decisions, interface management, delivery contribution, and lessons learned. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a Head of Business Development contacts an organization in Construction and Engineering?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Head of Business Development candidate's service scope; the candidate approves external communication. No one route should be assumed for all Construction and Engineering employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Construction and Engineering employers.
 
 ### What makes a Head of Business Development background relevant to work in Construction and Engineering?
 

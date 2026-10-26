@@ -33,7 +33,7 @@ Rather than lead with seniority, a Board Director profile can explain the respon
 
 ## Choose the individual services that fit the work
 
-Good preparation for Board Director work includes a safe way to explain implying executive authority for board decisions or claiming confidential board outcomes and a clear distinction between fact and inference. A consultation can clarify whether a Board Director candidate needs positioning, document support, target research, or approved outreach for Education. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Board Director example should separate direct responsibility from collaboration. The Board Director remit to contribute oversight, inquiry, and strategic perspective within collective governance should be described through decisions and examples, especially evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution relevant to Education.
+Good preparation for Board Director work includes a safe way to explain implying executive authority for board decisions or claiming confidential board outcomes and a clear distinction between fact and inference. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Board Director example should separate direct responsibility from collaboration. The Board Director remit to contribute oversight, inquiry, and strategic perspective within collective governance should be described through decisions and examples, especially evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution relevant to Education.
 
 ### [Private career representation](/services.html)
 
@@ -49,7 +49,7 @@ Readers need to see what Board Director work involved; connect contribute oversi
 
 ## Common positioning mistakes for Board Director candidates in Education
 
-Protect credibility in Education by addressing implying executive authority for board decisions or claiming confidential board outcomes with a factual account of committee or board remit, preparation, judgment, relevant expertise, and collective contribution and its limits. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Education. Before presenting program or institutional scope, learner or service context, staff leadership, and improvement contribution, determine how learners, families, educators, administrators, owners or boards, and community partners participated and which details are safe to discuss. Use learning services delivered through institutions, programs, technology, or educational support to frame research about Education, then ask how a Board Director will work through learning aims, access, program delivery, workforce needs, and resource stewardship.
+Protect credibility in Education by addressing implying executive authority for board decisions or claiming confidential board outcomes with a factual account of committee or board remit, preparation, judgment, relevant expertise, and collective contribution and its limits. KOV can support agreed research and preparation concerning Education. Before presenting program or institutional scope, learner or service context, staff leadership, and improvement contribution, determine how learners, families, educators, administrators, owners or boards, and community partners participated and which details are safe to discuss. Use learning services delivered through institutions, programs, technology, or educational support to frame research about Education, then ask how a Board Director will work through learning aims, access, program delivery, workforce needs, and resource stewardship.
 
 - Treat Education as one uniform employer type; distinguish the actual organization and role.
 - Use a Board Director title without explaining contribute oversight, inquiry, and strategic perspective within collective governance.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Board Director career hub](/roles/board-director/)
 
-Review the role-wide approach to contribute oversight, inquiry, and strategic perspective within collective governance and the evidence expected for that scope.
+
 
 ### [Education industry hub](/industries/education/)
 
-Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.
+
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Board Director remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Education](/roles/coo/education.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Board Director remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Board Director in Agriculture, Food and Forestry](/roles/board-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with learning services delivered through institutions, programs, technology, or educational support and identify how the Board Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Board Director in Education?
 
-Use the opening discussion to understand the specific Education employer, not to assume a standard role. Compare contribute oversight, inquiry, and strategic perspective within collective governance with the stated scope, identify decision partners among learners, families, educators, administrators, owners or boards, and community partners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Education employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a Board Director make prior work relevant to Education?
 
@@ -139,11 +139,11 @@ Select examples that show committee or board remit, preparation, judgment, relev
 
 ### Which career materials can help a Board Director explore work in Education?
 
-Document selection depends on the opportunity. A Board Director may draw from board biography, governance resume, skills matrix, and concise profile, but should foreground only material connected to program or institutional scope, learner or service context, staff leadership, and improvement contribution. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a Board Director contacts an organization in Education?
 
-Outreach should follow target research, not precede it. The Board Director candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with committee or board remit, preparation, judgment, relevant expertise, and collective contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Board Director background relevant to work in Education?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate committee 
 
 ### Does KOV control employer responses to Board Director outreach in Education?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Board Director candidate considering Education, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

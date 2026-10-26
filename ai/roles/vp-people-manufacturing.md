@@ -12,11 +12,11 @@ For a Vice President of People target, KOV can discuss how executive resume, peo
 
 ## A candidate-led process from first discussion to next steps
 
-In a Manufacturing target, make the Vice President of People contribution legible: describe how the candidate helped lead people programs and partner with managers on organizational capability and what supports people agenda, organization design, manager support, program scope, and employee experience. An employer's Manufacturing model may involve conversion of materials into products through coordinated processes, equipment, people, and quality systems; its implications for production planning, equipment capacity, quality, workforce capability, and customer demand should be discussed, not presumed. Use an example involving plant or product scope, process decisions, quality or delivery context, team leadership, and improvement work to describe the decision, the parties involved, and the candidate's role as a Vice President of People. The candidate decides whether to pursue a Vice President of People opportunity. KOV can support agreed research and preparation concerning Manufacturing.
+In a Manufacturing target, make the Vice President of People contribution legible: describe how the candidate helped lead people programs and partner with managers on organizational capability and what supports people agenda, organization design, manager support, program scope, and employee experience. Use an example involving plant or product scope, process decisions, quality or delivery context, team leadership, and improvement work to describe the decision, the parties involved, and the candidate's role as a Vice President of People. The candidate decides whether to pursue a Vice President of People opportunity. KOV can support agreed research and preparation concerning Manufacturing.
 
 ## Documents that make Vice President of People experience relevant here
 
-In a Manufacturing target, make the Vice President of People contribution legible: describe how the candidate helped lead people programs and partner with managers on organizational capability and what supports people agenda, organization design, manager support, program scope, and employee experience. In Manufacturing, employees, suppliers, customers, engineering, operations, distribution, and ownership may shape the work. A Vice President of People example should separate direct responsibility from collaboration. Where appropriate to the agreed service, KOV can help a Vice President of People candidate prepare and coordinate approved next steps for Manufacturing. Where including identifiable employee matters or claims without appropriate context affects a career example, substitute an authorized summary that preserves the point about people agenda, organization design, manager support, program scope, and employee experience.
+In a Manufacturing target, make the Vice President of People contribution legible: describe how the candidate helped lead people programs and partner with managers on organizational capability and what supports people agenda, organization design, manager support, program scope, and employee experience. A Vice President of People example should separate direct responsibility from collaboration. Where appropriate to the agreed service, KOV can help a Vice President of People candidate prepare and coordinate approved next steps for Manufacturing. Where including identifiable employee matters or claims without appropriate context affects a career example, substitute an authorized summary that preserves the point about people agenda, organization design, manager support, program scope, and employee experience.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -49,7 +49,7 @@ Readers need to see what Vice President of People work involved; connect lead pe
 
 ## Common positioning mistakes for Vice President of People candidates in Manufacturing
 
-Before discussing plant or product scope, process decisions, quality or delivery context, team leadership, and improvement work, check whether including identifiable employee matters or claims without appropriate context could expose sensitive details or blur the candidate's decision boundary. Consider how employees, suppliers, customers, engineering, operations, distribution, and ownership interact with a Vice President of People; use examples of plant or product scope, process decisions, quality or delivery context, team leadership, and improvement work to show judgment and collaboration. Not every Manufacturing organization will handle production planning, equipment capacity, quality, workforce capability, and customer demand alike. Confirm how conversion of materials into products through coordinated processes, equipment, people, and quality systems informs this Vice President of People position. In a Manufacturing target, make the Vice President of People contribution legible: describe how the candidate helped lead people programs and partner with managers on organizational capability and what supports people agenda, organization design, manager support, program scope, and employee experience.
+Before discussing plant or product scope, process decisions, quality or delivery context, team leadership, and improvement work, check whether including identifiable employee matters or claims without appropriate context could expose sensitive details or blur the candidate's decision boundary. Not every Manufacturing organization will handle production planning, equipment capacity, quality, workforce capability, and customer demand alike. Confirm how conversion of materials into products through coordinated processes, equipment, people, and quality systems informs this Vice President of People position. In a Manufacturing target, make the Vice President of People contribution legible: describe how the candidate helped lead people programs and partner with managers on organizational capability and what supports people agenda, organization design, manager support, program scope, and employee experience.
 
 - Treat Manufacturing as one uniform employer type; distinguish the actual organization and role.
 - Use a Vice President of People title without explaining lead people programs and partner with managers on organizational capability.
@@ -63,7 +63,7 @@ Position a Vice President of People career by linking lead people programs and p
 
 ## Prepare for conversations about Manufacturing work
 
-A Vice President of People candidate should show how people agenda, organization design, manager support, program scope, and employee experience supported the work to lead people programs and partner with managers on organizational capability, with the Manufacturing setting made explicit. An employer's Manufacturing model may involve conversion of materials into products through coordinated processes, equipment, people, and quality systems; its implications for production planning, equipment capacity, quality, workforce capability, and customer demand should be discussed, not presumed. The candidate decides whether to pursue a Vice President of People opportunity. KOV can support agreed research and preparation concerning Manufacturing. A Vice President of People candidate should be ready to explain including identifiable employee matters or claims without appropriate context without revealing confidential details or implying unsupported responsibility.
+A Vice President of People candidate should show how people agenda, organization design, manager support, program scope, and employee experience supported the work to lead people programs and partner with managers on organizational capability, with the Manufacturing setting made explicit. The candidate decides whether to pursue a Vice President of People opportunity. KOV can support agreed research and preparation concerning Manufacturing. A Vice President of People candidate should be ready to explain including identifiable employee matters or claims without appropriate context without revealing confidential details or implying unsupported responsibility.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of People career hub](/roles/vp-people/)
 
-Review the role-wide approach to lead people programs and partner with managers on organizational capability and the evidence expected for that scope.
+
 
 ### [Manufacturing industry hub](/industries/manufacturing/)
 
-Compare how conversion of materials into products through coordinated processes, equipment, people, and quality systems affects career planning across functions.
+
 
 ### [Chief Executive Officer in Manufacturing](/roles/ceo/manufacturing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of People remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Operating Officer in Manufacturing](/roles/coo/manufacturing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of People remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Vice President of People in Retail and E-commerce](/roles/vp-people/retail-ecommerce.html)
 
-Compare customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment with conversion of materials into products through coordinated processes, equipment, people, and quality systems and identify how the Vice President of People remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Vice President of People resolve before a target discussion in Manufacturing?
 
-Use the opening discussion to understand the specific Manufacturing employer, not to assume a standard role. Compare lead people programs and partner with managers on organizational capability with the stated scope, identify decision partners among employees, suppliers, customers, engineering, operations, distribution, and ownership, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Manufacturing employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Vice President of People career story fit the needs of Manufacturing?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Vice President of People approve before outreach in Manufacturing?
 
-Outreach should follow target research, not precede it. The Vice President of People candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with people agenda, organization design, manager support, program scope, and employee experience is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a Vice President of People compare title and remit in Manufacturing?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate people age
 
 ### Will KOV secure a meeting for a Vice President of People with an employer in Manufacturing?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Vice President of People candidate considering Manufacturing, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

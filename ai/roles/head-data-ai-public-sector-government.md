@@ -4,7 +4,7 @@ KOV helps Head of Data and AI candidates considering roles connected to Public S
 
 ## How Head of Data and AI work connects with Public Sector and Government
 
-The Public Sector and Government context involves public administration, public programs, or services delivered under a public mandate; examine how that structure affects public purpose, stewardship, transparency, service access, and coordination across institutions before drawing conclusions about the Head of Data and AI role. In Public Sector and Government, residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders may shape the work. A Head of Data and AI example should separate direct responsibility from collaboration. KOV's service scope for a Head of Data and AI candidate can include document preparation and agreed search activity, but cannot promise an employer's response. For Head of Data and AI materials, manage the risk of exposing sensitive datasets, overstating model capability, or omitting human oversight; support claims with data products, team scope, quality practices, governance partnership, and decision value and remove details that are not authorized for sharing.
+The Public Sector and Government context involves public administration, public programs, or services delivered under a public mandate; examine how that structure affects public purpose, stewardship, transparency, service access, and coordination across institutions before drawing conclusions about the Head of Data and AI role. A Head of Data and AI example should separate direct responsibility from collaboration. KOV's service scope for a Head of Data and AI candidate can include document preparation and agreed search activity, but cannot promise an employer's response. For Head of Data and AI materials, manage the risk of exposing sensitive datasets, overstating model capability, or omitting human oversight; support claims with data products, team scope, quality practices, governance partnership, and decision value and remove details that are not authorized for sharing.
 
 ## Who this Head of Data and AI and Public Sector and Government guide is for
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Data and AI career hub](/roles/head-data-ai/)
 
-Review the role-wide approach to lead data capabilities and coordinate responsible application of analytical or AI work and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Data and AI remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Data and AI remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Head of Data and AI in Manufacturing](/roles/head-data-ai/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with public administration, public programs, or services delivered under a public mandate and identify how the Head of Data and AI remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Head of Data and AI test the scope of work in Public Sector and Government?
 
-A Head of Data and AI candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. Explore how the role will lead data capabilities and coordinate responsible application of analytical or AI work and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Head of Data and AI candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Head of Data and AI use to explain experience in Public Sector and Government?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### Which outreach choices belong to a Head of Data and AI considering Public Sector and Government?
 
-Outreach should follow target research, not precede it. The Head of Data and AI candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with data products, team scope, quality practices, governance partnership, and decision value is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Head of Data and AI rely on title alone when targeting Public Sector and Government?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate data produ
 
 ### What outcome can KOV guarantee for a Head of Data and AI seeking work in Public Sector and Government?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Head of Data and AI candidate considering Public Sector and Government, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

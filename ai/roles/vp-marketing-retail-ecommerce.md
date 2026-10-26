@@ -4,7 +4,7 @@ KOV helps Vice President of Marketing candidates considering roles connected to 
 
 ## How Vice President of Marketing work connects with Retail and E-commerce
 
-The Vice President of Marketing remit to lead marketing teams and align brand, customer, and commercial priorities should be described through decisions and examples, especially evidence of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence relevant to Retail and E-commerce. Not every Retail and E-commerce organization will handle customer experience, assortment, inventory, channel coordination, and rapid feedback alike. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this Vice President of Marketing position. KOV works with the candidate to agree which Vice President of Marketing targets matter, how executive resume, marketing portfolio, leadership summary, and profile will be used, and whether communication is authorized. A Vice President of Marketing candidate should be ready to explain claiming campaign results without describing audience, contribution, and measurement context without revealing confidential details or implying unsupported responsibility.
+The Vice President of Marketing remit to lead marketing teams and align brand, customer, and commercial priorities should be described through decisions and examples, especially evidence of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence relevant to Retail and E-commerce. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this Vice President of Marketing position. KOV works with the candidate to agree which Vice President of Marketing targets matter, how executive resume, marketing portfolio, leadership summary, and profile will be used, and whether communication is authorized. A Vice President of Marketing candidate should be ready to explain claiming campaign results without describing audience, contribution, and measurement context without revealing confidential details or implying unsupported responsibility.
 
 ## Who this Vice President of Marketing and Retail and E-commerce guide is for
 
@@ -16,7 +16,7 @@ A precise Vice President of Marketing story ties market insight, team leadership
 
 ## Documents that make Vice President of Marketing experience relevant here
 
-Research for a Vice President of Marketing in Retail and E-commerce becomes more focused when the candidate investigates customer experience, assortment, inventory, channel coordination, and rapid feedback alongside customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment. Before presenting customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution, determine how customers, store or digital teams, suppliers, brand partners, operations, and owners participated and which details are safe to discuss. The candidate decides whether to pursue a Vice President of Marketing opportunity. KOV can support agreed research and preparation concerning Retail and E-commerce. Do not resolve uncertainty about claiming campaign results without describing audience, contribution, and measurement context through assumption; verify the requirement and use only supportable Vice President of Marketing claims.
+Research for a Vice President of Marketing in Retail and E-commerce becomes more focused when the candidate investigates customer experience, assortment, inventory, channel coordination, and rapid feedback alongside customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment. The candidate decides whether to pursue a Vice President of Marketing opportunity. KOV can support agreed research and preparation concerning Retail and E-commerce. Do not resolve uncertainty about claiming campaign results without describing audience, contribution, and measurement context through assumption; verify the requirement and use only supportable Vice President of Marketing claims.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Marketing career hub](/roles/vp-marketing/)
 
-Review the role-wide approach to lead marketing teams and align brand, customer, and commercial priorities and the evidence expected for that scope.
+
 
 ### [Retail and E-commerce industry hub](/industries/retail-ecommerce/)
 
-Compare how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment affects career planning across functions.
+
 
 ### [Chief Executive Officer in Retail and E-commerce](/roles/ceo/retail-ecommerce.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Marketing remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Operating Officer in Retail and E-commerce](/roles/coo/retail-ecommerce.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Marketing remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Vice President of Marketing in Technology, Media and Telecom](/roles/vp-marketing/technology-media-telecom.html)
 
-Compare digital products, platforms, content, communications, or technology-enabled services with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and identify how the Vice President of Marketing remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Vice President of Marketing resolve before a target discussion in Retail and E-commerce?
 
-Use the opening discussion to understand the specific Retail and E-commerce employer, not to assume a standard role. Compare lead marketing teams and align brand, customer, and commercial priorities with the stated scope, identify decision partners among customers, store or digital teams, suppliers, brand partners, operations, and owners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Retail and E-commerce employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Vice President of Marketing career story fit the needs of Retail and E-commerce?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Vice President of Marketing approve before outreach in Retail and E-commerce?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Vice President of Marketing candidate's service scope; the candidate approves external communication. No one route should be assumed for all Retail and E-commerce employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Retail and E-commerce employers.
 
 ### How should a Vice President of Marketing compare title and remit in Retail and E-commerce?
 

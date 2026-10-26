@@ -4,7 +4,7 @@ KOV helps Director of People candidates considering roles connected to Education
 
 ## How Director of People work connects with Education
 
-Where using sensitive workforce information or broad claims without context affects a career example, substitute an authorized summary that preserves the point about program scope, manager partnership, team responsibilities, and people-related outcomes. The candidate decides whether to pursue a Director of People opportunity. KOV can support agreed research and preparation concerning Education. Explain how CHRO or VP, employees, line leaders, people teams, and advisers contributed to the candidate's work and distinguish that shared context from evidence of program scope, manager partnership, team responsibilities, and people-related outcomes. Ask what learning services delivered through institutions, programs, technology, or educational support means at this particular Education organization and how it changes the priorities assigned to a Director of People.
+Where using sensitive workforce information or broad claims without context affects a career example, substitute an authorized summary that preserves the point about program scope, manager partnership, team responsibilities, and people-related outcomes. KOV can support agreed research and preparation concerning Education. Explain how CHRO or VP, employees, line leaders, people teams, and advisers contributed to the candidate's work and distinguish that shared context from evidence of program scope, manager partnership, team responsibilities, and people-related outcomes. Ask what learning services delivered through institutions, programs, technology, or educational support means at this particular Education organization and how it changes the priorities assigned to a Director of People.
 
 ## Who this Director of People and Education guide is for
 
@@ -49,7 +49,7 @@ Rather than lead with seniority, a Director of People profile can explain the re
 
 ## Common positioning mistakes for Director of People candidates in Education
 
-For Director of People materials, manage the risk of using sensitive workforce information or broad claims without context; support claims with program scope, manager partnership, team responsibilities, and people-related outcomes and remove details that are not authorized for sharing. Map the Education relationships among learners, families, educators, administrators, owners or boards, and community partners; verify actual authority instead of inferring a reporting line. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Director of People position. For Director of People work in Education, explain how the candidate could lead a people function or program and support managers through organizational change; connect that mandate to evidence of program scope, manager partnership, team responsibilities, and people-related outcomes.
+For Director of People materials, manage the risk of using sensitive workforce information or broad claims without context; support claims with program scope, manager partnership, team responsibilities, and people-related outcomes and remove details that are not authorized for sharing. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Director of People position. For Director of People work in Education, explain how the candidate could lead a people function or program and support managers through organizational change; connect that mandate to evidence of program scope, manager partnership, team responsibilities, and people-related outcomes.
 
 - Treat Education as one uniform employer type; distinguish the actual organization and role.
 - Use a Director of People title without explaining lead a people function or program and support managers through organizational change.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of People career hub](/roles/director-people/)
 
-Review the role-wide approach to lead a people function or program and support managers through organizational change and the evidence expected for that scope.
+
 
 ### [Education industry hub](/industries/education/)
 
-Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.
+
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of People remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Education](/roles/coo/education.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of People remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Director of People in Manufacturing](/roles/director-people/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with learning services delivered through institutions, programs, technology, or educational support and identify how the Director of People remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Director of People clarify before considering work in Education?
 
-A Director of People candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. Explore how the role will lead a people function or program and support managers through organizational change and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of People candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Director of People describe transferable experience for Education work?
 
@@ -139,15 +139,15 @@ Select examples that show program scope, manager partnership, team responsibilit
 
 ### How can a Director of People choose documents for conversations about Education?
 
-Possible materials include resume, people-program portfolio, profile, and selected examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or institutional scope, learner or service context, staff leadership, and improvement contribution. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, people-program portfolio, profile, and selected examples. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Director of People plan contact with Education organizations?
 
-Outreach should follow target research, not precede it. The Director of People candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with program scope, manager partnership, team responsibilities, and people-related outcomes is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Director of People assess fit with Education responsibilities?
 
-No. Compare the role description with the candidate's experience of lead a people function or program and support managers through organizational change and the organization's learning services delivered through institutions, programs, technology, or educational support. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Director of People candidate considering Education?
 

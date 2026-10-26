@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Business Development career hub](/roles/head-business-development/)
 
-Review the role-wide approach to develop relationships and opportunities that support an organization's commercial direction and the evidence expected for that scope.
+
 
 ### [Consulting and Other Professional Services industry hub](/industries/consulting-professional-services/)
 
-Compare how expertise-led advisory or delivery work provided to organizations or individuals affects career planning across functions.
+
 
 ### [Chief Executive Officer in Consulting and Other Professional Services](/roles/ceo/consulting-professional-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Business Development remit; consider where each function meets expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chief Operating Officer in Consulting and Other Professional Services](/roles/coo/consulting-professional-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Business Development remit; consider where each function meets expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Head of Business Development in Energy, Mining and Oil and Gas](/roles/head-business-development/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with expertise-led advisory or delivery work provided to organizations or individuals and identify how the Head of Business Development remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Head of Business Development test the scope of work in Consulting and Other Professional Services?
 
-Use the opening discussion to understand the specific Consulting and Other Professional Services employer, not to assume a standard role. Compare develop relationships and opportunities that support an organization's commercial direction with the stated scope, identify decision partners among clients, practitioners, project teams, partners or owners, suppliers, and professional communities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Consulting and Other Professional Services employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### What evidence can a Head of Business Development use to explain experience in Consulting and Other Professional Services?
 
@@ -139,7 +139,7 @@ Describe an instance where the candidate could develop relationships and opportu
 
 ### What documents should a Head of Business Development tailor for Consulting and Other Professional Services opportunities?
 
-Document selection depends on the opportunity. A Head of Business Development may draw from resume, partnership portfolio, business-development narrative, and profile, but should foreground only material connected to service line, client or project context, team leadership, delivery model, and authorized outcomes. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### Which outreach choices belong to a Head of Business Development considering Consulting and Other Professional Services?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### Can a Head of Business Development rely on title alone when targeting Consulting and Other Professional Services?
 
-Title is only a label. Establish what the employer means by Head of Business Development in this Consulting and Other Professional Services organization and how the person will work with clients, practitioners, project teams, partners or owners, suppliers, and professional communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Head of Business Development seeking work in Consulting and Other Professional Services?
 

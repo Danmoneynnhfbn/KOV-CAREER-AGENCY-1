@@ -63,7 +63,7 @@ Keep the Chief Information Security Officer narrative accurate where exposing se
 
 ## Prepare for conversations about Holding Companies and Corporate Groups work
 
-Keep the Chief Information Security Officer narrative accurate where exposing sensitive controls or incidents, or overstating personal responsibility for shared security work may arise: attribute shared work and disclose only information the candidate may use. Preparation for a Chief Information Security Officer conversation should address which entities the role covers, what decisions are centralized, and where operating-company leaders retain authority; relate the response to portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries, not speculation about hiring. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Chief Information Security Officer position. To assess a Chief Information Security Officer opportunity in Holding Companies and Corporate Groups, compare the stated remit to the candidate's record of security remit, risk decisions, operating model, incident leadership where authorized, and adoption.
+Keep the Chief Information Security Officer narrative accurate where exposing sensitive controls or incidents, or overstating personal responsibility for shared security work may arise: attribute shared work and disclose only information the candidate may use. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Chief Information Security Officer position. To assess a Chief Information Security Officer opportunity in Holding Companies and Corporate Groups, compare the stated remit to the candidate's record of security remit, risk decisions, operating model, incident leadership where authorized, and adoption.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Information Security Officer career hub](/roles/ciso/)
 
-Review the role-wide approach to lead information-security priorities and coordinate risk-informed protection and the evidence expected for that scope.
+
 
 ### [Holding Companies and Corporate Groups industry hub](/industries/holding-companies/)
 
-Compare how ownership or coordination of multiple entities, portfolios, or operating businesses affects career planning across functions.
+
 
 ### [Chief Executive Officer in Holding Companies and Corporate Groups](/roles/ceo/holding-companies.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Information Security Officer remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Operating Officer in Holding Companies and Corporate Groups](/roles/coo/holding-companies.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Information Security Officer remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Information Security Officer in Agriculture, Food and Forestry](/roles/ciso/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with ownership or coordination of multiple entities, portfolios, or operating businesses and identify how the Chief Information Security Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Chief Information Security Officer resolve before a target discussion in Holding Companies and Corporate Groups?
 
-Use the opening discussion to understand the specific Holding Companies and Corporate Groups employer, not to assume a standard role. Compare lead information-security priorities and coordinate risk-informed protection with the stated scope, identify decision partners among owners, boards, portfolio leaders, finance teams, employees, and external partners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Holding Companies and Corporate Groups employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Chief Information Security Officer career story fit the needs of Holding Companies and Corporate Groups?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Chief Information Security Officer approve before outreach in Holding Companies and Corporate Groups?
 
-Outreach should follow target research, not precede it. The Chief Information Security Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with security remit, risk decisions, operating model, incident leadership where authorized, and adoption is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a Chief Information Security Officer compare title and remit in Holding Companies and Corporate Groups?
 

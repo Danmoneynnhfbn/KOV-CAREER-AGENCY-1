@@ -33,7 +33,7 @@ The candidate can discuss people agenda, organization design, leadership support
 
 ## Choose the individual services that fit the work
 
-Career representation remains candidate-led: KOV can support a Chief Human Resources Officer search, while the candidate approves the goals and disclosures. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Chief Human Resources Officer example should separate direct responsibility from collaboration. A candidate exploring Education should test the assumed link between learning services delivered through institutions, programs, technology, or educational support and learning aims, access, program delivery, workforce needs, and resource stewardship against the actual Chief Human Resources Officer role description. For Chief Human Resources Officer work in Education, explain how the candidate could guide people strategy, organizational capability, and workforce-related leadership; connect that mandate to evidence of people agenda, organization design, leadership support, workforce programs, and measured contribution.
+Career representation remains candidate-led: KOV can support a Chief Human Resources Officer search, while the candidate approves the goals and disclosures. A Chief Human Resources Officer example should separate direct responsibility from collaboration. A candidate exploring Education should test the assumed link between learning services delivered through institutions, programs, technology, or educational support and learning aims, access, program delivery, workforce needs, and resource stewardship against the actual Chief Human Resources Officer role description. For Chief Human Resources Officer work in Education, explain how the candidate could guide people strategy, organizational capability, and workforce-related leadership; connect that mandate to evidence of people agenda, organization design, leadership support, workforce programs, and measured contribution.
 
 ### [Private career representation](/services.html)
 
@@ -49,7 +49,7 @@ Research for a Chief Human Resources Officer in Education becomes more focused w
 
 ## Common positioning mistakes for Chief Human Resources Officer candidates in Education
 
-The Chief Human Resources Officer remit to guide people strategy, organizational capability, and workforce-related leadership should be described through decisions and examples, especially evidence of people agenda, organization design, leadership support, workforce programs, and measured contribution relevant to Education. An employer's Education model may involve learning services delivered through institutions, programs, technology, or educational support; its implications for learning aims, access, program delivery, workforce needs, and resource stewardship should be discussed, not presumed. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Chief Human Resources Officer example should separate direct responsibility from collaboration. A consultation can clarify whether a Chief Human Resources Officer candidate needs positioning, document support, target research, or approved outreach for Education.
+The Chief Human Resources Officer remit to guide people strategy, organizational capability, and workforce-related leadership should be described through decisions and examples, especially evidence of people agenda, organization design, leadership support, workforce programs, and measured contribution relevant to Education. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Chief Human Resources Officer example should separate direct responsibility from collaboration. A consultation can clarify whether a Chief Human Resources Officer candidate needs positioning, document support, target research, or approved outreach for Education.
 
 - Treat Education as one uniform employer type; distinguish the actual organization and role.
 - Use a Chief Human Resources Officer title without explaining guide people strategy, organizational capability, and workforce-related leadership.
@@ -63,11 +63,11 @@ Good preparation for Chief Human Resources Officer work includes a safe way to e
 
 ## Prepare for conversations about Education work
 
-A Chief Human Resources Officer candidate should show how people agenda, organization design, leadership support, workforce programs, and measured contribution supported the work to guide people strategy, organizational capability, and workforce-related leadership, with the Education setting made explicit. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Chief Human Resources Officer position. Career representation remains candidate-led: KOV can support a Chief Human Resources Officer search, while the candidate approves the goals and disclosures. Do not resolve uncertainty about using confidential employee details or presenting team-wide change as an individual result through assumption; verify the requirement and use only supportable Chief Human Resources Officer claims.
+A Chief Human Resources Officer candidate should show how people agenda, organization design, leadership support, workforce programs, and measured contribution supported the work to guide people strategy, organizational capability, and workforce-related leadership, with the Education setting made explicit. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Chief Human Resources Officer position. Career representation remains candidate-led: KOV can support a Chief Human Resources Officer search, while the candidate approves the goals and disclosures. Do not resolve uncertainty about using confidential employee details or presenting team-wide change as an individual result through assumption; verify the requirement and use only supportable Chief Human Resources Officer claims.
 
 ## Run the search thoughtfully in each target market
 
-Keep the Chief Human Resources Officer narrative accurate where using confidential employee details or presenting team-wide change as an individual result may arise: attribute shared work and disclose only information the candidate may use. The candidate decides whether to pursue a Chief Human Resources Officer opportunity. KOV can support agreed research and preparation concerning Education. For Education, establish whether learning services delivered through institutions, programs, technology, or educational support describes the target employer and how learning aims, access, program delivery, workforce needs, and resource stewardship is reflected in its Chief Human Resources Officer mandate. Rather than lead with seniority, a Chief Human Resources Officer profile can explain the responsibility to guide people strategy, organizational capability, and workforce-related leadership and use program or institutional scope, learner or service context, staff leadership, and improvement contribution as evidence.
+Keep the Chief Human Resources Officer narrative accurate where using confidential employee details or presenting team-wide change as an individual result may arise: attribute shared work and disclose only information the candidate may use. KOV can support agreed research and preparation concerning Education. For Education, establish whether learning services delivered through institutions, programs, technology, or educational support describes the target employer and how learning aims, access, program delivery, workforce needs, and resource stewardship is reflected in its Chief Human Resources Officer mandate. Rather than lead with seniority, a Chief Human Resources Officer profile can explain the responsibility to guide people strategy, organizational capability, and workforce-related leadership and use program or institutional scope, learner or service context, staff leadership, and improvement contribution as evidence.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Human Resources Officer career hub](/roles/chro/)
 
-Review the role-wide approach to guide people strategy, organizational capability, and workforce-related leadership and the evidence expected for that scope.
+
 
 ### [Education industry hub](/industries/education/)
 
-Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.
+
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Human Resources Officer remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Education](/roles/coo/education.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Human Resources Officer remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Human Resources Officer in Agriculture, Food and Forestry](/roles/chro/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with learning services delivered through institutions, programs, technology, or educational support and identify how the Chief Human Resources Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Human Resources Officer in Education?
 
-Start with the organization's account of learning services delivered through institutions, programs, technology, or educational support, then clarify how the Chief Human Resources Officer would guide people strategy, organizational capability, and workforce-related leadership. Ask how learners, families, educators, administrators, owners or boards, and community partners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of learning services delivered through institutions, programs, technology, or educational support, then clarify how the Chief Human Resources Officer would guide people strategy, organizational capability, and workforce-related leadership. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Chief Human Resources Officer make prior work relevant to Education?
 
@@ -139,11 +139,11 @@ Select examples that show people agenda, organization design, leadership support
 
 ### Which career materials can help a Chief Human Resources Officer explore work in Education?
 
-Possible materials include executive resume, people-leadership profile, biography, and selected program summary. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or institutional scope, learner or service context, staff leadership, and improvement contribution. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, people-leadership profile, biography, and selected program summary. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Chief Human Resources Officer contacts an organization in Education?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Human Resources Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Education employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Education employers.
 
 ### What makes a Chief Human Resources Officer background relevant to work in Education?
 

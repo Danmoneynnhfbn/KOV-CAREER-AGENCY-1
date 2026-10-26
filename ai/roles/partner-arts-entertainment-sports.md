@@ -59,7 +59,7 @@ In a Arts, Entertainment and Sports target, make the Partner contribution legibl
 
 ## Keep research, confidentiality, and outreach aligned
 
-Protect credibility in Arts, Entertainment and Sports by addressing revealing client information or overstating individual ownership of team results with a factual account of client or commercial contribution, practice leadership, collaboration, and shared responsibilities and its limits. Preparation for a Partner conversation should address the organization's mission and revenue model, the audiences or participants involved, and how the role balances creative, service, and commercial priorities; relate the response to program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available, not speculation about hiring. Not every Arts, Entertainment and Sports organization will handle creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions alike. Confirm how creative, cultural, event, audience, or sporting activity supported by teams and organizations informs this Partner position. Rather than lead with seniority, a Partner profile can explain the responsibility to develop a practice or business while contributing to a shared ownership or partnership structure and use program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available as evidence.
+Protect credibility in Arts, Entertainment and Sports by addressing revealing client information or overstating individual ownership of team results with a factual account of client or commercial contribution, practice leadership, collaboration, and shared responsibilities and its limits. Not every Arts, Entertainment and Sports organization will handle creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions alike. Confirm how creative, cultural, event, audience, or sporting activity supported by teams and organizations informs this Partner position. Rather than lead with seniority, a Partner profile can explain the responsibility to develop a practice or business while contributing to a shared ownership or partnership structure and use program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available as evidence.
 
 ## Prepare for conversations about Arts, Entertainment and Sports work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Partner career hub](/roles/partner/)
 
-Review the role-wide approach to develop a practice or business while contributing to a shared ownership or partnership structure and the evidence expected for that scope.
+
 
 ### [Arts, Entertainment and Sports industry hub](/industries/arts-entertainment-sports/)
 
-Compare how creative, cultural, event, audience, or sporting activity supported by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Arts, Entertainment and Sports](/roles/ceo/arts-entertainment-sports.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Partner remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Operating Officer in Arts, Entertainment and Sports](/roles/coo/arts-entertainment-sports.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Partner remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Partner in Agriculture, Food and Forestry](/roles/partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with creative, cultural, event, audience, or sporting activity supported by teams and organizations and identify how the Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Partner test the scope of work in Arts, Entertainment and Sports?
 
-Start with the organization's account of creative, cultural, event, audience, or sporting activity supported by teams and organizations, then clarify how the Partner would develop a practice or business while contributing to a shared ownership or partnership structure. Ask how audiences, participants, creators, athletes, sponsors, venues, partners, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of creative, cultural, event, audience, or sporting activity supported by teams and organizations, then clarify how the Partner would develop a practice or business while contributing to a shared ownership or partnership structure. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Partner use to explain experience in Arts, Entertainment and Sports?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of client or commercial con
 
 ### What documents should a Partner tailor for Arts, Entertainment and Sports opportunities?
 
-Possible materials include partner biography, practice profile, selected work summary, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available. Each claim should be accurate for this Arts, Entertainment and Sports target, and confidential or unauthorized material should be omitted.
+Possible materials include partner biography, practice profile, selected work summary, and professional profile. Each claim should be accurate for this Arts, Entertainment and Sports target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Partner considering Arts, Entertainment and Sports?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### Can a Partner rely on title alone when targeting Arts, Entertainment and Sports?
 
-Title is only a label. Establish what the employer means by Partner in this Arts, Entertainment and Sports organization and how the person will work with audiences, participants, creators, athletes, sponsors, venues, partners, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Partner seeking work in Arts, Entertainment and Sports?
 

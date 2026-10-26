@@ -59,7 +59,7 @@ Where claiming revenue or brand movement without describing attribution and surr
 
 ## Keep research, confidentiality, and outreach aligned
 
-Rather than lead with seniority, a Chief Marketing Officer profile can explain the responsibility to shape marketing strategy, customer understanding, brand, and commercial communication and use service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements as evidence. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Chief Marketing Officer position. The candidate decides whether to pursue a Chief Marketing Officer opportunity. KOV can support agreed research and preparation concerning Business Support and Facilities. Protect credibility in Business Support and Facilities by addressing claiming revenue or brand movement without describing attribution and surrounding factors with a factual account of market context, customer insight, portfolio decisions, team leadership, and attributable contribution and its limits.
+Rather than lead with seniority, a Chief Marketing Officer profile can explain the responsibility to shape marketing strategy, customer understanding, brand, and commercial communication and use service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements as evidence. The candidate decides whether to pursue a Chief Marketing Officer opportunity. KOV can support agreed research and preparation concerning Business Support and Facilities. Protect credibility in Business Support and Facilities by addressing claiming revenue or brand movement without describing attribution and surrounding factors with a factual account of market context, customer insight, portfolio decisions, team leadership, and attributable contribution and its limits.
 
 ## Prepare for conversations about Business Support and Facilities work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Marketing Officer career hub](/roles/cmo/)
 
-Review the role-wide approach to shape marketing strategy, customer understanding, brand, and commercial communication and the evidence expected for that scope.
+
 
 ### [Business Support and Facilities industry hub](/industries/business-support-facilities/)
 
-Compare how support services, workplace operations, facilities, administration, or outsourced capabilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Business Support and Facilities](/roles/ceo/business-support-facilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Marketing Officer remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Operating Officer in Business Support and Facilities](/roles/coo/business-support-facilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Marketing Officer remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Marketing Officer in Agriculture, Food and Forestry](/roles/cmo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with support services, workplace operations, facilities, administration, or outsourced capabilities and identify how the Chief Marketing Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Marketing Officer in Business Support and Facilities?
 
-Use the opening discussion to understand the specific Business Support and Facilities employer, not to assume a standard role. Compare shape marketing strategy, customer understanding, brand, and commercial communication with the stated scope, identify decision partners among internal clients, employees, service teams, suppliers, customers, and contract owners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Business Support and Facilities employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a Chief Marketing Officer make prior work relevant to Business Support and Facilities?
 
@@ -139,11 +139,11 @@ Select examples that show market context, customer insight, portfolio decisions,
 
 ### Which career materials can help a Chief Marketing Officer explore work in Business Support and Facilities?
 
-Document selection depends on the opportunity. A Chief Marketing Officer may draw from executive resume, brand and growth narrative, leadership biography, and profile, but should foreground only material connected to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a Chief Marketing Officer contacts an organization in Business Support and Facilities?
 
-Outreach should follow target research, not precede it. The Chief Marketing Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with market context, customer insight, portfolio decisions, team leadership, and attributable contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Chief Marketing Officer background relevant to work in Business Support and Facilities?
 

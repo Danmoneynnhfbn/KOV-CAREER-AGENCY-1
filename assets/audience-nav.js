@@ -67,7 +67,7 @@
 
   const footer = document.querySelector('footer');
   const footerContainer = footer?.querySelector(':scope > .mx-auto') || footer;
-  if (footerContainer && !footerContainer.querySelector('[data-audience-footer]')) {
+  if (footerContainer && !footer?.classList.contains('kov-uniform-footer') && !footerContainer.querySelector('[data-audience-footer]')) {
     const section = document.createElement('div');
     section.dataset.audienceFooter = '';
     section.className = 'mt-10 border-t border-line/60 pt-8';
@@ -119,7 +119,7 @@
   }
 
   function normalizeFooter() {
-    if (!footer || !footerContainer || footerContainer.querySelector(':scope > [data-kov-footer-directory]')) return;
+    if (!footer || footer.classList.contains('kov-uniform-footer') || !footerContainer || footerContainer.querySelector(':scope > [data-kov-footer-directory]')) return;
 
     const sourceGrid = [...footerContainer.children].find((element) =>
       element.matches('.grid') && element.children.length >= 2

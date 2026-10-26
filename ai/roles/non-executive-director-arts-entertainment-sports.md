@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Non-Executive Director career hub](/roles/non-executive-director/)
 
-Review the role-wide approach to provide independent challenge and strategic contribution distinct from management and the evidence expected for that scope.
+
 
 ### [Arts, Entertainment and Sports industry hub](/industries/arts-entertainment-sports/)
 
-Compare how creative, cultural, event, audience, or sporting activity supported by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Arts, Entertainment and Sports](/roles/ceo/arts-entertainment-sports.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Non-Executive Director remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Operating Officer in Arts, Entertainment and Sports](/roles/coo/arts-entertainment-sports.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Non-Executive Director remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Non-Executive Director in Agriculture, Food and Forestry](/roles/non-executive-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with creative, cultural, event, audience, or sporting activity supported by teams and organizations and identify how the Non-Executive Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Non-Executive Director clarify before considering work in Arts, Entertainment and Sports?
 
-Use the opening discussion to understand the specific Arts, Entertainment and Sports employer, not to assume a standard role. Compare provide independent challenge and strategic contribution distinct from management with the stated scope, identify decision partners among audiences, participants, creators, athletes, sponsors, venues, partners, and communities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Arts, Entertainment and Sports employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Non-Executive Director describe transferable experience for Arts, Entertainment and Sports work?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### How can KOV and a Non-Executive Director plan contact with Arts, Entertainment and Sports organizations?
 
-Outreach should follow target research, not precede it. The Non-Executive Director candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with governance experience, constructive challenge, committee contribution, and relevant expertise is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Non-Executive Director assess fit with Arts, Entertainment and Sports responsibilities?
 
-No. Compare the role description with the candidate's experience of provide independent challenge and strategic contribution distinct from management and the organization's creative, cultural, event, audience, or sporting activity supported by teams and organizations. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Non-Executive Director candidate considering Arts, Entertainment and Sports?
 

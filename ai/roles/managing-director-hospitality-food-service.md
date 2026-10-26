@@ -63,7 +63,7 @@ The Managing Director remit to lead a business, division, or organization accord
 
 ## Prepare for conversations about Hospitality and Food Service work
 
-Keep the Managing Director narrative accurate where assuming the title means the same authority across employers, countries, or ownership models may arise: attribute shared work and disclose only information the candidate may use. The candidate's record of operating scope, commercial or service accountability, leadership span, and decision authority should be set beside the role of guests, employees, suppliers, owners, local partners, and service teams, so shared results are attributed fairly. Not every Hospitality and Food Service organization will handle guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alike. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Managing Director position. To assess a Managing Director opportunity in Hospitality and Food Service, compare the stated remit to the candidate's record of operating scope, commercial or service accountability, leadership span, and decision authority.
+Keep the Managing Director narrative accurate where assuming the title means the same authority across employers, countries, or ownership models may arise: attribute shared work and disclose only information the candidate may use. Not every Hospitality and Food Service organization will handle guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alike. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Managing Director position. To assess a Managing Director opportunity in Hospitality and Food Service, compare the stated remit to the candidate's record of operating scope, commercial or service accountability, leadership span, and decision authority.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Director career hub](/roles/managing-director/)
 
-Review the role-wide approach to lead a business, division, or organization according to its defined mandate and the evidence expected for that scope.
+
 
 ### [Hospitality and Food Service industry hub](/industries/hospitality-food-service/)
 
-Compare how guest-facing accommodation, food, venue, or experience services delivered through people and operations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Hospitality and Food Service](/roles/ceo/hospitality-food-service.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Director remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Operating Officer in Hospitality and Food Service](/roles/coo/hospitality-food-service.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Director remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Managing Director in Agriculture, Food and Forestry](/roles/managing-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with guest-facing accommodation, food, venue, or experience services delivered through people and operations and identify how the Managing Director remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Managing Director resolve before a target discussion in Hospitality and Food Service?
 
-A Managing Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. Explore how the role will lead a business, division, or organization according to its defined mandate and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Managing Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Managing Director career story fit the needs of Hospitality and Food Service?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could lead a business, division, or org
 
 ### What should a Managing Director prepare in writing before targeting Hospitality and Food Service?
 
-Possible materials include executive resume, business leadership biography, mandate summary, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to venue or service scope, team leadership, guest context, service design, and attributable operating contributions. Each claim should be accurate for this Hospitality and Food Service target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, business leadership biography, mandate summary, and profile. Each claim should be accurate for this Hospitality and Food Service target, and confidential or unauthorized material should be omitted.
 
 ### What should a Managing Director approve before outreach in Hospitality and Food Service?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Managing Director candidate's service scope; the candidate approves external communication. No one route should be assumed for all Hospitality and Food Service employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Hospitality and Food Service employers.
 
 ### How should a Managing Director compare title and remit in Hospitality and Food Service?
 
-Title is only a label. Establish what the employer means by Managing Director in this Hospitality and Food Service organization and how the person will work with guests, employees, suppliers, owners, local partners, and service teams. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Managing Director with an employer in Hospitality and Food Service?
 

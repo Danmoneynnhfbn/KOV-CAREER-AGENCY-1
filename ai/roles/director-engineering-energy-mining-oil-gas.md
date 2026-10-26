@@ -16,7 +16,7 @@ A precise Director of Engineering story ties technical scope, team leadership, d
 
 ## Documents that make Director of Engineering experience relevant here
 
-The service plan should fit the candidate's Director of Engineering priorities; agree research, materials, and any outreach before contact occurs. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Director of Engineering example should separate direct responsibility from collaboration. A candidate exploring Energy, Mining and Oil and Gas should test the assumed link between asset-intensive work spanning development, extraction, generation, processing, or energy services and long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand against the actual Director of Engineering role description. Readers need to see what Director of Engineering work involved; connect direct engineering teams and coordinate technical execution in a defined area with the candidate's own examples of technical scope, team leadership, delivery choices, quality practices, and cross-team work in Energy, Mining and Oil and Gas.
+The service plan should fit the candidate's Director of Engineering priorities; agree research, materials, and any outreach before contact occurs. A Director of Engineering example should separate direct responsibility from collaboration. A candidate exploring Energy, Mining and Oil and Gas should test the assumed link between asset-intensive work spanning development, extraction, generation, processing, or energy services and long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand against the actual Director of Engineering role description. Readers need to see what Director of Engineering work involved; connect direct engineering teams and coordinate technical execution in a defined area with the candidate's own examples of technical scope, team leadership, delivery choices, quality practices, and cross-team work in Energy, Mining and Oil and Gas.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -49,7 +49,7 @@ The service plan should fit the candidate's Director of Engineering priorities; 
 
 ## Common positioning mistakes for Director of Engineering candidates in Energy, Mining and Oil and Gas
 
-Position a Director of Engineering career by linking direct engineering teams and coordinate technical execution in a defined area to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes, then clarify which part of that work the candidate actually owned. Explain how VP or CTO, engineering teams, product, security, operations, and users contributed to the candidate's work and distinguish that shared context from evidence of technical scope, team leadership, delivery choices, quality practices, and cross-team work. The candidate decides whether to pursue a Director of Engineering opportunity. KOV can support agreed research and preparation concerning Energy, Mining and Oil and Gas. Review each Director of Engineering example for over-indexing on hands-on tools while omitting leadership scope and outcomes, then describe the candidate's decisions without overstating their control over VP or CTO, engineering teams, product, security, operations, and users.
+Position a Director of Engineering career by linking direct engineering teams and coordinate technical execution in a defined area to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes, then clarify which part of that work the candidate actually owned. The candidate decides whether to pursue a Director of Engineering opportunity. KOV can support agreed research and preparation concerning Energy, Mining and Oil and Gas. Review each Director of Engineering example for over-indexing on hands-on tools while omitting leadership scope and outcomes, then describe the candidate's decisions without overstating their control over VP or CTO, engineering teams, product, security, operations, and users.
 
 - Treat Energy, Mining and Oil and Gas as one uniform employer type; distinguish the actual organization and role.
 - Use a Director of Engineering title without explaining direct engineering teams and coordinate technical execution in a defined area.
@@ -67,7 +67,7 @@ In a Energy, Mining and Oil and Gas target, make the Director of Engineering con
 
 ## Run the search thoughtfully in each target market
 
-A candidate exploring Energy, Mining and Oil and Gas should test the assumed link between asset-intensive work spanning development, extraction, generation, processing, or energy services and long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand against the actual Director of Engineering role description. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Director of Engineering example should separate direct responsibility from collaboration. The service plan should fit the candidate's Director of Engineering priorities; agree research, materials, and any outreach before contact occurs. Keep the Director of Engineering narrative accurate where over-indexing on hands-on tools while omitting leadership scope and outcomes may arise: attribute shared work and disclose only information the candidate may use.
+A candidate exploring Energy, Mining and Oil and Gas should test the assumed link between asset-intensive work spanning development, extraction, generation, processing, or energy services and long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand against the actual Director of Engineering role description. A Director of Engineering example should separate direct responsibility from collaboration. The service plan should fit the candidate's Director of Engineering priorities; agree research, materials, and any outreach before contact occurs. Keep the Director of Engineering narrative accurate where over-indexing on hands-on tools while omitting leadership scope and outcomes may arise: attribute shared work and disclose only information the candidate may use.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Engineering career hub](/roles/director-engineering/)
 
-Review the role-wide approach to direct engineering teams and coordinate technical execution in a defined area and the evidence expected for that scope.
+
 
 ### [Energy, Mining and Oil and Gas industry hub](/industries/energy-mining-oil-gas/)
 
-Compare how asset-intensive work spanning development, extraction, generation, processing, or energy services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Energy, Mining and Oil and Gas](/roles/ceo/energy-mining-oil-gas.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Engineering remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Operating Officer in Energy, Mining and Oil and Gas](/roles/coo/energy-mining-oil-gas.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Engineering remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Director of Engineering in Utilities](/roles/director-engineering/utilities.html)
 
-Compare essential network or service operations with continuity, infrastructure, and customer responsibilities with asset-intensive work spanning development, extraction, generation, processing, or energy services and identify how the Director of Engineering remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Director of Engineering resolve before a target discussion in Energy, Mining and Oil and Gas?
 
-Start with the organization's account of asset-intensive work spanning development, extraction, generation, processing, or energy services, then clarify how the Director of Engineering would direct engineering teams and coordinate technical execution in a defined area. Ask how asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of asset-intensive work spanning development, extraction, generation, processing, or energy services, then clarify how the Director of Engineering would direct engineering teams and coordinate technical execution in a defined area. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### Which parts of a Director of Engineering career story fit the needs of Energy, Mining and Oil and Gas?
 
@@ -139,19 +139,19 @@ Make the connection explicit: the candidate's record of technical scope, team le
 
 ### What should a Director of Engineering prepare in writing before targeting Energy, Mining and Oil and Gas?
 
-Document selection depends on the opportunity. A Director of Engineering may draw from resume, technical leadership portfolio, profile, and delivery examples, but should foreground only material connected to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What should a Director of Engineering approve before outreach in Energy, Mining and Oil and Gas?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of Engineering candidate's service scope; the candidate approves external communication. No one route should be assumed for all Energy, Mining and Oil and Gas employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Energy, Mining and Oil and Gas employers.
 
 ### How should a Director of Engineering compare title and remit in Energy, Mining and Oil and Gas?
 
-Title is only a label. Establish what the employer means by Director of Engineering in this Energy, Mining and Oil and Gas organization and how the person will work with asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Director of Engineering with an employer in Energy, Mining and Oil and Gas?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of Engineering candidate considering Energy, Mining and Oil and Gas, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

@@ -85,27 +85,27 @@ Use KOV's London page as a starting point for an agreed UK-focused search discus
 
 ### Saudi Arabia
 
-For Healthcare and Social Care targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Healthcare and Social Care targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Healthcare and Social Care targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### UAE
 
-For Healthcare and Social Care targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Healthcare and Social Care targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Healthcare and Social Care targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### United Kingdom
 
-For Healthcare and Social Care targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Healthcare and Social Care targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Healthcare and Social Care targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Dubai
 
-For Healthcare and Social Care targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Healthcare and Social Care targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Healthcare and Social Care targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Australia
 
-For Healthcare and Social Care targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Healthcare and Social Care targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Healthcare and Social Care targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Africa
 
-For Healthcare and Social Care targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Healthcare and Social Care targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Healthcare and Social Care targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ## Choose an appropriate level of career support
 
@@ -129,159 +129,159 @@ Use the cards to open only the role-and-industry pages currently available. Each
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Explore how set organization-wide direction and coordinate executive work connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Explore how align operating functions, delivery systems, and organizational priorities connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Financial Officer in Healthcare and Social Care](/roles/cfo/healthcare-social-care.html)
 
-Explore how lead financial stewardship and connect resource decisions to organizational priorities connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Technology Officer in Healthcare and Social Care](/roles/cto/healthcare-social-care.html)
 
-Explore how set technology direction and connect technical choices with product and business needs connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Information Officer in Healthcare and Social Care](/roles/cio/healthcare-social-care.html)
 
-Explore how guide information systems, digital operations, and technology services for the organization connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Marketing Officer in Healthcare and Social Care](/roles/cmo/healthcare-social-care.html)
 
-Explore how shape marketing strategy, customer understanding, brand, and commercial communication connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Human Resources Officer in Healthcare and Social Care](/roles/chro/healthcare-social-care.html)
 
-Explore how guide people strategy, organizational capability, and workforce-related leadership connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Information Security Officer in Healthcare and Social Care](/roles/ciso/healthcare-social-care.html)
 
-Explore how lead information-security priorities and coordinate risk-informed protection connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [General Counsel / Chief Legal Officer in Healthcare and Social Care](/roles/general-counsel/healthcare-social-care.html)
 
-Explore how lead legal judgment and connect legal advice with organizational decisions connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Revenue Officer in Healthcare and Social Care](/roles/chief-revenue-officer/healthcare-social-care.html)
 
-Explore how coordinate revenue-facing functions around a coherent commercial direction connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Product Officer in Healthcare and Social Care](/roles/chief-product-officer/healthcare-social-care.html)
 
-Explore how guide product direction, portfolio choices, and the connection between users and delivery teams connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Strategy Officer in Healthcare and Social Care](/roles/chief-strategy-officer/healthcare-social-care.html)
 
-Explore how support organization-wide choices by framing options, analysis, and strategic execution connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Board Director in Healthcare and Social Care](/roles/board-director/healthcare-social-care.html)
 
-Explore how contribute oversight, inquiry, and strategic perspective within collective governance connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Non-Executive Director in Healthcare and Social Care](/roles/non-executive-director/healthcare-social-care.html)
 
-Explore how provide independent challenge and strategic contribution distinct from management connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chair in Healthcare and Social Care](/roles/chair/healthcare-social-care.html)
 
-Explore how lead board effectiveness and support clear governance and decision-making connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Managing Director in Healthcare and Social Care](/roles/managing-director/healthcare-social-care.html)
 
-Explore how lead a business, division, or organization according to its defined mandate connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Managing Partner in Healthcare and Social Care](/roles/managing-partner/healthcare-social-care.html)
 
-Explore how combine leadership responsibilities with the governance and professional context of a partnership connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Partner in Healthcare and Social Care](/roles/partner/healthcare-social-care.html)
 
-Explore how develop a practice or business while contributing to a shared ownership or partnership structure connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Vice President of Sales in Healthcare and Social Care](/roles/vp-sales/healthcare-social-care.html)
 
-Explore how lead a sales organization and connect market priorities with execution connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Vice President of Marketing in Healthcare and Social Care](/roles/vp-marketing/healthcare-social-care.html)
 
-Explore how lead marketing teams and align brand, customer, and commercial priorities connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Vice President of Engineering in Healthcare and Social Care](/roles/vp-engineering/healthcare-social-care.html)
 
-Explore how lead engineering organization, technical delivery, and capability development connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Vice President of Operations in Healthcare and Social Care](/roles/vp-operations/healthcare-social-care.html)
 
-Explore how coordinate operational performance across teams, locations, or service lines connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Vice President of Finance in Healthcare and Social Care](/roles/vp-finance/healthcare-social-care.html)
 
-Explore how lead finance teams and translate financial information into decisions for a business area connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Vice President of People in Healthcare and Social Care](/roles/vp-people/healthcare-social-care.html)
 
-Explore how lead people programs and partner with managers on organizational capability connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Vice President of Product in Healthcare and Social Care](/roles/vp-product/healthcare-social-care.html)
 
-Explore how set product priorities and coordinate discovery, planning, and delivery connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Vice President of Strategy in Healthcare and Social Care](/roles/vp-strategy/healthcare-social-care.html)
 
-Explore how frame strategic choices and connect planning with operating decisions connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Director of Operations in Healthcare and Social Care](/roles/director-operations/healthcare-social-care.html)
 
-Explore how manage operational delivery and improve coordination within a defined remit connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Director of Finance in Healthcare and Social Care](/roles/director-finance/healthcare-social-care.html)
 
-Explore how lead financial planning, reporting, or control activity for a function or organization connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Director of Engineering in Healthcare and Social Care](/roles/director-engineering/healthcare-social-care.html)
 
-Explore how direct engineering teams and coordinate technical execution in a defined area connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Director of Marketing in Healthcare and Social Care](/roles/director-marketing/healthcare-social-care.html)
 
-Explore how manage campaigns, channels, or marketing programs within a broader strategy connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Director of Sales in Healthcare and Social Care](/roles/director-sales/healthcare-social-care.html)
 
-Explore how manage sales teams, accounts, or territories against an agreed commercial plan connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Director of People in Healthcare and Social Care](/roles/director-people/healthcare-social-care.html)
 
-Explore how lead a people function or program and support managers through organizational change connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Director of Product in Healthcare and Social Care](/roles/director-product/healthcare-social-care.html)
 
-Explore how lead a product area and align customer needs with team delivery connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Director of Legal in Healthcare and Social Care](/roles/director-legal/healthcare-social-care.html)
 
-Explore how manage a legal team, practice area, or legal operations remit connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Head of Legal in Healthcare and Social Care](/roles/head-legal/healthcare-social-care.html)
 
-Explore how lead a legal function or specialist team and advise on decisions within its remit connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Head of Strategy in Healthcare and Social Care](/roles/head-strategy/healthcare-social-care.html)
 
-Explore how coordinate planning and strategic analysis for an organization or business unit connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Head of Data and AI in Healthcare and Social Care](/roles/head-data-ai/healthcare-social-care.html)
 
-Explore how lead data capabilities and coordinate responsible application of analytical or AI work connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Head of Compliance in Healthcare and Social Care](/roles/head-compliance/healthcare-social-care.html)
 
-Explore how coordinate compliance programs and support consistent interpretation of organizational obligations connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Head of Business Development in Healthcare and Social Care](/roles/head-business-development/healthcare-social-care.html)
 
-Explore how develop relationships and opportunities that support an organization's commercial direction connects with care, health-related services, or social support delivered by teams and organizations.
+
 
 ## Questions that make a Healthcare and Social Care target more specific
 
@@ -315,7 +315,7 @@ KOV can help candidates organize relevant experience and documents around an agr
 
 ### Can KOV promise an interview with a Healthcare and Social Care organization?
 
-No. KOV does not guarantee interviews, offers, employment, introductions, or timelines. Employers make hiring decisions.
+No. Employers make hiring decisions.
 
 ### How should I compare two Healthcare and Social Care opportunities?
 

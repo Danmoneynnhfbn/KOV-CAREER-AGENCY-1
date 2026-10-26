@@ -2,14 +2,13 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 import re
 from collections import Counter
 from pathlib import Path
 from typing import Any
-
-from openpyxl import load_workbook
-
+from unicodedata import normalize
 
 ROOT = Path(__file__).resolve().parents[1]
 TAXONOMY = ROOT / "data" / "taxonomy"
@@ -24,9 +23,89 @@ LEVEL_LABELS = {
 EXPECTED_NAICS = {2: 17, 3: 96, 4: 308, 5: 689, 6: 1012}
 EXPECTED_SOC = {"Major": 23, "Minor": 98, "Broad": 459, "Detailed": 867}
 SECTOR_RANGES = ("31-33", "44-45", "48-49")
+ENTITY_DATASET_PATH = ROOT / "data" / "seo-entity-datasets.jsonld"
+ENTITY_DATASET_BASE_URL = (
+    "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld"
+)
+ENTITY_DATASET_MINIMUMS = {
+    "cities": ("Place", 1000),
+    "towns": ("Place", 1323),
+    "professional-roles": ("Occupation", 1095),
+    "institutions": ("Organization", 486),
+    "job-functions": ("DefinedTerm", 200),
+}
+
+
+def validate_entity_datasets() -> None:
+    schema = json.loads(ENTITY_DATASET_PATH.read_text(encoding="utf-8"))
+    graph = schema.get("@graph") if isinstance(schema, dict) else None
+    if (
+        not isinstance(schema, dict)
+        or schema.get("@context") != "https://schema.org"
+        or not isinstance(graph, list)
+    ):
+        raise ValueError("Shared entity catalog must be a Schema.org JSON-LD graph.")
+    nodes_by_id: dict[str, dict[str, Any]] = {}
+    for node in graph:
+        if not isinstance(node, dict) or not isinstance(node.get("@id"), str):
+            raise ValueError("Every catalog graph node must have a stable @id.")
+        if node["@id"] in nodes_by_id:
+            raise ValueError(f"Duplicate catalog @id: {node['@id']}")
+        nodes_by_id[node["@id"]] = node
+
+    catalog_id = f"{ENTITY_DATASET_BASE_URL}#catalog"
+    catalog = nodes_by_id.get(catalog_id)
+    if not catalog or catalog.get("@type") != "DataCatalog":
+        raise ValueError("Shared entity catalog is missing its DataCatalog node.")
+    expected_dataset_ids = {
+        f"{ENTITY_DATASET_BASE_URL}#{dataset_id}"
+        for dataset_id in ENTITY_DATASET_MINIMUMS
+    }
+    catalog_dataset_ids = {
+        item.get("@id") for item in catalog.get("hasPart", [])
+        if isinstance(item, dict)
+    }
+    if catalog_dataset_ids != expected_dataset_ids:
+        raise ValueError("DataCatalog does not reference exactly the complete datasets.")
+
+    for dataset_id, (expected_type, minimum) in ENTITY_DATASET_MINIMUMS.items():
+        node = nodes_by_id.get(f"{ENTITY_DATASET_BASE_URL}#{dataset_id}")
+        if not node or node.get("@type") != "Dataset":
+            raise ValueError(f"Missing Schema.org Dataset node: {dataset_id}.")
+        records = node.get("about")
+        if not isinstance(records, list):
+            raise ValueError(f"{dataset_id} must reference its complete records via about.")
+        record_ids = [record.get("@id") for record in records if isinstance(record, dict)]
+        if len(record_ids) < minimum or len(record_ids) != len(set(record_ids)):
+            raise ValueError(
+                f"{dataset_id} expected at least {minimum} unique records; found {len(record_ids)}."
+            )
+        if node.get("numberOfItems") != len(record_ids):
+            raise ValueError(f"{dataset_id} numberOfItems does not match its record references.")
+        for record_id in record_ids:
+            record = nodes_by_id.get(record_id)
+            if not record or record.get("@type") != expected_type:
+                raise ValueError(f"{dataset_id} has a missing or mis-typed record: {record_id}.")
+        labels = [
+            normalize(
+                "NFKC",
+                re.sub(r"\s+", " ", str(nodes_by_id[record_id].get("name", ""))).strip(),
+            ).casefold()
+            for record_id in record_ids
+        ]
+        if any(not label for label in labels):
+            raise ValueError(f"{dataset_id} contains a record without a name.")
+        if dataset_id in {"professional-roles", "institutions", "job-functions"}:
+            if len(labels) != len(set(labels)):
+                raise ValueError(f"{dataset_id} contains duplicate normalized names.")
+        if not node.get("license") or not node.get("creator"):
+            raise ValueError(f"{dataset_id} is missing source attribution or license.")
+        print(f"{dataset_id}: {len(record_ids)} unique {expected_type} records.")
 
 
 def read_naics() -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    from openpyxl import load_workbook
+
     workbook = load_workbook(
         TAXONOMY / "2022_NAICS_Structure.xlsx", read_only=True, data_only=True
     )
@@ -93,6 +172,8 @@ def read_naics() -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
 
 
 def read_soc() -> tuple[list[dict[str, Any]], dict[str, dict[str, Any]]]:
+    from openpyxl import load_workbook
+
     structure = load_workbook(
         TAXONOMY / "soc_structure_2018.xlsx", read_only=True, data_only=True
     )["2018 Structure"]
@@ -1494,6 +1575,18 @@ def directory_matches(
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--validate-entity-datasets",
+        action="store_true",
+        help="validate the shared JSON-LD catalog without changing SEO source data",
+    )
+    args = parser.parse_args()
+    if args.validate_entity_datasets:
+        validate_entity_datasets()
+        print("Shared entity datasets validated; SEO source files were not modified.")
+        return
+
     naics_records, sectors = read_naics()
     soc_records, _definitions = read_soc()
     pages = json.loads(SEO_DATA.read_text(encoding="utf-8"))

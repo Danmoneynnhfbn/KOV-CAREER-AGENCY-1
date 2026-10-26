@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Non-Executive Director career hub](/roles/non-executive-director/)
 
-Review the role-wide approach to provide independent challenge and strategic contribution distinct from management and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Non-Executive Director remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Non-Executive Director remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Non-Executive Director in Agriculture, Food and Forestry](/roles/non-executive-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with care, health-related services, or social support delivered by teams and organizations and identify how the Non-Executive Director remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Non-Executive Director resolve before a target discussion in Healthcare and Social Care?
 
-Use the opening discussion to understand the specific Healthcare and Social Care employer, not to assume a standard role. Compare provide independent challenge and strategic contribution distinct from management with the stated scope, identify decision partners among people receiving services, families, care professionals, administrators, owners, and community partners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Healthcare and Social Care employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Non-Executive Director career story fit the needs of Healthcare and Social Care?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Non-Executive Director approve before outreach in Healthcare and Social Care?
 
-Outreach should follow target research, not precede it. The Non-Executive Director candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with governance experience, constructive challenge, committee contribution, and relevant expertise is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a Non-Executive Director compare title and remit in Healthcare and Social Care?
 
-Title is only a label. Establish what the employer means by Non-Executive Director in this Healthcare and Social Care organization and how the person will work with people receiving services, families, care professionals, administrators, owners, and community partners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Non-Executive Director with an employer in Healthcare and Social Care?
 

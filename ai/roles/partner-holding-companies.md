@@ -16,7 +16,7 @@ Research for a Partner in Holding Companies and Corporate Groups becomes more fo
 
 ## Documents that make Partner experience relevant here
 
-Keep the Partner narrative accurate where revealing client information or overstating individual ownership of team results may arise: attribute shared work and disclose only information the candidate may use. An account of portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries should identify the candidate's contribution and the involvement of other partners, clients, colleagues, employees, referral sources, and practice leaders. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Partner position. To assess a Partner opportunity in Holding Companies and Corporate Groups, compare the stated remit to the candidate's record of client or commercial contribution, practice leadership, collaboration, and shared responsibilities.
+Keep the Partner narrative accurate where revealing client information or overstating individual ownership of team results may arise: attribute shared work and disclose only information the candidate may use. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Partner position. To assess a Partner opportunity in Holding Companies and Corporate Groups, compare the stated remit to the candidate's record of client or commercial contribution, practice leadership, collaboration, and shared responsibilities.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Partner career hub](/roles/partner/)
 
-Review the role-wide approach to develop a practice or business while contributing to a shared ownership or partnership structure and the evidence expected for that scope.
+
 
 ### [Holding Companies and Corporate Groups industry hub](/industries/holding-companies/)
 
-Compare how ownership or coordination of multiple entities, portfolios, or operating businesses affects career planning across functions.
+
 
 ### [Chief Executive Officer in Holding Companies and Corporate Groups](/roles/ceo/holding-companies.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Partner remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Operating Officer in Holding Companies and Corporate Groups](/roles/coo/holding-companies.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Partner remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Partner in Agriculture, Food and Forestry](/roles/partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with ownership or coordination of multiple entities, portfolios, or operating businesses and identify how the Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Partner clarify before considering work in Holding Companies and Corporate Groups?
 
-A Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's ownership or coordination of multiple entities, portfolios, or operating businesses. Explore how the role will develop a practice or business while contributing to a shared ownership or partnership structure and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's ownership or coordination of multiple entities, portfolios, or operating businesses. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Partner describe transferable experience for Holding Companies and Corporate Groups work?
 
@@ -139,11 +139,11 @@ Make the connection explicit: the candidate's record of client or commercial con
 
 ### How can a Partner choose documents for conversations about Holding Companies and Corporate Groups?
 
-Possible materials include partner biography, practice profile, selected work summary, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries. Each claim should be accurate for this Holding Companies and Corporate Groups target, and confidential or unauthorized material should be omitted.
+Possible materials include partner biography, practice profile, selected work summary, and professional profile. Each claim should be accurate for this Holding Companies and Corporate Groups target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Partner plan contact with Holding Companies and Corporate Groups organizations?
 
-Outreach should follow target research, not precede it. The Partner candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with client or commercial contribution, practice leadership, collaboration, and shared responsibilities is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Partner assess fit with Holding Companies and Corporate Groups responsibilities?
 

@@ -67,7 +67,7 @@ The Energy, Mining and Oil and Gas context involves asset-intensive work spannin
 
 ## Run the search thoughtfully in each target market
 
-Good preparation for Head of Business Development work includes a safe way to explain presenting discussions as signed business or revealing sensitive counterpart information and a clear distinction between fact and inference. Discuss project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes with care: a Head of Business Development candidate can explain contribution while omitting confidential or identifying facts. Not every Energy, Mining and Oil and Gas organization will handle long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand alike. Confirm how asset-intensive work spanning development, extraction, generation, processing, or energy services informs this Head of Business Development position. Position a Head of Business Development career by linking develop relationships and opportunities that support an organization's commercial direction to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes, then clarify which part of that work the candidate actually owned.
+Good preparation for Head of Business Development work includes a safe way to explain presenting discussions as signed business or revealing sensitive counterpart information and a clear distinction between fact and inference. Not every Energy, Mining and Oil and Gas organization will handle long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand alike. Confirm how asset-intensive work spanning development, extraction, generation, processing, or energy services informs this Head of Business Development position. Position a Head of Business Development career by linking develop relationships and opportunities that support an organization's commercial direction to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes, then clarify which part of that work the candidate actually owned.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Business Development career hub](/roles/head-business-development/)
 
-Review the role-wide approach to develop relationships and opportunities that support an organization's commercial direction and the evidence expected for that scope.
+
 
 ### [Energy, Mining and Oil and Gas industry hub](/industries/energy-mining-oil-gas/)
 
-Compare how asset-intensive work spanning development, extraction, generation, processing, or energy services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Energy, Mining and Oil and Gas](/roles/ceo/energy-mining-oil-gas.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Business Development remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Operating Officer in Energy, Mining and Oil and Gas](/roles/coo/energy-mining-oil-gas.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Business Development remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Head of Business Development in Construction and Engineering](/roles/head-business-development/construction-engineering.html)
 
-Compare project-based delivery involving design, procurement, technical coordination, and site execution with asset-intensive work spanning development, extraction, generation, processing, or energy services and identify how the Head of Business Development remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Head of Business Development test the scope of work in Energy, Mining and Oil and Gas?
 
-Use the opening discussion to understand the specific Energy, Mining and Oil and Gas employer, not to assume a standard role. Compare develop relationships and opportunities that support an organization's commercial direction with the stated scope, identify decision partners among asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Energy, Mining and Oil and Gas employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### What evidence can a Head of Business Development use to explain experience in Energy, Mining and Oil and Gas?
 
@@ -139,15 +139,15 @@ Select examples that show market focus, partnerships, opportunity pipeline, nego
 
 ### What documents should a Head of Business Development tailor for Energy, Mining and Oil and Gas opportunities?
 
-Document selection depends on the opportunity. A Head of Business Development may draw from resume, partnership portfolio, business-development narrative, and profile, but should foreground only material connected to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### Which outreach choices belong to a Head of Business Development considering Energy, Mining and Oil and Gas?
 
-Outreach should follow target research, not precede it. The Head of Business Development candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with market focus, partnerships, opportunity pipeline, negotiation role, and attributable contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Head of Business Development rely on title alone when targeting Energy, Mining and Oil and Gas?
 
-No. Compare the role description with the candidate's experience of develop relationships and opportunities that support an organization's commercial direction and the organization's asset-intensive work spanning development, extraction, generation, processing, or energy services. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Head of Business Development seeking work in Energy, Mining and Oil and Gas?
 

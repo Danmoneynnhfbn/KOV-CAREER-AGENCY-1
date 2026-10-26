@@ -4,7 +4,7 @@ KOV helps Head of Strategy candidates considering roles connected to Manufacturi
 
 ## How Head of Strategy work connects with Manufacturing
 
-Where taking credit for decisions made by sponsors or treating planning as implementation affects a career example, substitute an authorized summary that preserves the point about problem framing, analysis, stakeholder alignment, recommendation, and implementation support. In Manufacturing, employees, suppliers, customers, engineering, operations, distribution, and ownership may shape the work. A Head of Strategy example should separate direct responsibility from collaboration. An employer's Manufacturing model may involve conversion of materials into products through coordinated processes, equipment, people, and quality systems; its implications for production planning, equipment capacity, quality, workforce capability, and customer demand should be discussed, not presumed. The Head of Strategy remit to coordinate planning and strategic analysis for an organization or business unit should be described through decisions and examples, especially evidence of problem framing, analysis, stakeholder alignment, recommendation, and implementation support relevant to Manufacturing.
+Where taking credit for decisions made by sponsors or treating planning as implementation affects a career example, substitute an authorized summary that preserves the point about problem framing, analysis, stakeholder alignment, recommendation, and implementation support. A Head of Strategy example should separate direct responsibility from collaboration. An employer's Manufacturing model may involve conversion of materials into products through coordinated processes, equipment, people, and quality systems; its implications for production planning, equipment capacity, quality, workforce capability, and customer demand should be discussed, not presumed. The Head of Strategy remit to coordinate planning and strategic analysis for an organization or business unit should be described through decisions and examples, especially evidence of problem framing, analysis, stakeholder alignment, recommendation, and implementation support relevant to Manufacturing.
 
 ## Who this Head of Strategy and Manufacturing guide is for
 
@@ -49,7 +49,7 @@ Where taking credit for decisions made by sponsors or treating planning as imple
 
 ## Common positioning mistakes for Head of Strategy candidates in Manufacturing
 
-Where taking credit for decisions made by sponsors or treating planning as implementation affects a career example, substitute an authorized summary that preserves the point about problem framing, analysis, stakeholder alignment, recommendation, and implementation support. The candidate decides whether to pursue a Head of Strategy opportunity. KOV can support agreed research and preparation concerning Manufacturing. In Manufacturing, employees, suppliers, customers, engineering, operations, distribution, and ownership may shape the work. A Head of Strategy example should separate direct responsibility from collaboration. Use conversion of materials into products through coordinated processes, equipment, people, and quality systems to frame research about Manufacturing, then ask how a Head of Strategy will work through production planning, equipment capacity, quality, workforce capability, and customer demand.
+Where taking credit for decisions made by sponsors or treating planning as implementation affects a career example, substitute an authorized summary that preserves the point about problem framing, analysis, stakeholder alignment, recommendation, and implementation support. In Manufacturing, employees, suppliers, customers, engineering, operations, distribution, and ownership may shape the work. A Head of Strategy example should separate direct responsibility from collaboration. Use conversion of materials into products through coordinated processes, equipment, people, and quality systems to frame research about Manufacturing, then ask how a Head of Strategy will work through production planning, equipment capacity, quality, workforce capability, and customer demand.
 
 - Treat Manufacturing as one uniform employer type; distinguish the actual organization and role.
 - Use a Head of Strategy title without explaining coordinate planning and strategic analysis for an organization or business unit.
@@ -59,11 +59,11 @@ Where taking credit for decisions made by sponsors or treating planning as imple
 
 ## Keep research, confidentiality, and outreach aligned
 
-Readers need to see what Head of Strategy work involved; connect coordinate planning and strategic analysis for an organization or business unit with the candidate's own examples of problem framing, analysis, stakeholder alignment, recommendation, and implementation support in Manufacturing. In Manufacturing, employees, suppliers, customers, engineering, operations, distribution, and ownership may shape the work. A Head of Strategy example should separate direct responsibility from collaboration. Where appropriate to the agreed service, KOV can help a Head of Strategy candidate prepare and coordinate approved next steps for Manufacturing. Good preparation for Head of Strategy work includes a safe way to explain taking credit for decisions made by sponsors or treating planning as implementation and a clear distinction between fact and inference.
+Readers need to see what Head of Strategy work involved; connect coordinate planning and strategic analysis for an organization or business unit with the candidate's own examples of problem framing, analysis, stakeholder alignment, recommendation, and implementation support in Manufacturing. A Head of Strategy example should separate direct responsibility from collaboration. Where appropriate to the agreed service, KOV can help a Head of Strategy candidate prepare and coordinate approved next steps for Manufacturing. Good preparation for Head of Strategy work includes a safe way to explain taking credit for decisions made by sponsors or treating planning as implementation and a clear distinction between fact and inference.
 
 ## Prepare for conversations about Manufacturing work
 
-To assess a Head of Strategy opportunity in Manufacturing, compare the stated remit to the candidate's record of problem framing, analysis, stakeholder alignment, recommendation, and implementation support. Not every Manufacturing organization will handle production planning, equipment capacity, quality, workforce capability, and customer demand alike. Confirm how conversion of materials into products through coordinated processes, equipment, people, and quality systems informs this Head of Strategy position. Career representation remains candidate-led: KOV can support a Head of Strategy search, while the candidate approves the goals and disclosures. Keep the Head of Strategy narrative accurate where taking credit for decisions made by sponsors or treating planning as implementation may arise: attribute shared work and disclose only information the candidate may use.
+To assess a Head of Strategy opportunity in Manufacturing, compare the stated remit to the candidate's record of problem framing, analysis, stakeholder alignment, recommendation, and implementation support. Confirm how conversion of materials into products through coordinated processes, equipment, people, and quality systems informs this Head of Strategy position. Career representation remains candidate-led: KOV can support a Head of Strategy search, while the candidate approves the goals and disclosures. Keep the Head of Strategy narrative accurate where taking credit for decisions made by sponsors or treating planning as implementation may arise: attribute shared work and disclose only information the candidate may use.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Strategy career hub](/roles/head-strategy/)
 
-Review the role-wide approach to coordinate planning and strategic analysis for an organization or business unit and the evidence expected for that scope.
+
 
 ### [Manufacturing industry hub](/industries/manufacturing/)
 
-Compare how conversion of materials into products through coordinated processes, equipment, people, and quality systems affects career planning across functions.
+
 
 ### [Chief Executive Officer in Manufacturing](/roles/ceo/manufacturing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Strategy remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Operating Officer in Manufacturing](/roles/coo/manufacturing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Strategy remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Head of Strategy in Energy, Mining and Oil and Gas](/roles/head-strategy/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with conversion of materials into products through coordinated processes, equipment, people, and quality systems and identify how the Head of Strategy remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Head of Strategy in Manufacturing?
 
-Use the opening discussion to understand the specific Manufacturing employer, not to assume a standard role. Compare coordinate planning and strategic analysis for an organization or business unit with the stated scope, identify decision partners among employees, suppliers, customers, engineering, operations, distribution, and ownership, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Manufacturing employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a Head of Strategy make prior work relevant to Manufacturing?
 
@@ -139,7 +139,7 @@ Select examples that show problem framing, analysis, stakeholder alignment, reco
 
 ### Which career materials can help a Head of Strategy explore work in Manufacturing?
 
-Document selection depends on the opportunity. A Head of Strategy may draw from resume, strategy portfolio, planning narrative, and profile, but should foreground only material connected to plant or product scope, process decisions, quality or delivery context, team leadership, and improvement work. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a Head of Strategy contacts an organization in Manufacturing?
 

@@ -16,7 +16,7 @@ The Vice President of Product remit to set product priorities and coordinate dis
 
 ## Documents that make Vice President of Product experience relevant here
 
-A Vice President of Product candidate should show how portfolio scope, customer insight, prioritization, team influence, and product outcomes supported the work to set product priorities and coordinate discovery, planning, and delivery, with the Arts, Entertainment and Sports setting made explicit. Not every Arts, Entertainment and Sports organization will handle creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions alike. Confirm how creative, cultural, event, audience, or sporting activity supported by teams and organizations informs this Vice President of Product position. A consultation can clarify whether a Vice President of Product candidate needs positioning, document support, target research, or approved outreach for Arts, Entertainment and Sports. Do not resolve uncertainty about listing features shipped without explaining user problem, constraints, or adoption through assumption; verify the requirement and use only supportable Vice President of Product claims.
+A Vice President of Product candidate should show how portfolio scope, customer insight, prioritization, team influence, and product outcomes supported the work to set product priorities and coordinate discovery, planning, and delivery, with the Arts, Entertainment and Sports setting made explicit. Confirm how creative, cultural, event, audience, or sporting activity supported by teams and organizations informs this Vice President of Product position. A consultation can clarify whether a Vice President of Product candidate needs positioning, document support, target research, or approved outreach for Arts, Entertainment and Sports. Do not resolve uncertainty about listing features shipped without explaining user problem, constraints, or adoption through assumption; verify the requirement and use only supportable Vice President of Product claims.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -59,7 +59,7 @@ KOV can help a Vice President of Product candidate organize an agreed search app
 
 ## Keep research, confidentiality, and outreach aligned
 
-Readers need to see what Vice President of Product work involved; connect set product priorities and coordinate discovery, planning, and delivery with the candidate's own examples of portfolio scope, customer insight, prioritization, team influence, and product outcomes in Arts, Entertainment and Sports. In Arts, Entertainment and Sports, audiences, participants, creators, athletes, sponsors, venues, partners, and communities may shape the work. A Vice President of Product example should separate direct responsibility from collaboration. For a Vice President of Product target, KOV can discuss how executive resume, product portfolio, leadership narrative, and profile support the candidate's account of portfolio scope, customer insight, prioritization, team influence, and product outcomes; external steps require prior agreement. Good preparation for Vice President of Product work includes a safe way to explain listing features shipped without explaining user problem, constraints, or adoption and a clear distinction between fact and inference.
+Readers need to see what Vice President of Product work involved; connect set product priorities and coordinate discovery, planning, and delivery with the candidate's own examples of portfolio scope, customer insight, prioritization, team influence, and product outcomes in Arts, Entertainment and Sports. A Vice President of Product example should separate direct responsibility from collaboration. For a Vice President of Product target, KOV can discuss how executive resume, product portfolio, leadership narrative, and profile support the candidate's account of portfolio scope, customer insight, prioritization, team influence, and product outcomes; external steps require prior agreement. Good preparation for Vice President of Product work includes a safe way to explain listing features shipped without explaining user problem, constraints, or adoption and a clear distinction between fact and inference.
 
 ## Prepare for conversations about Arts, Entertainment and Sports work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Product career hub](/roles/vp-product/)
 
-Review the role-wide approach to set product priorities and coordinate discovery, planning, and delivery and the evidence expected for that scope.
+
 
 ### [Arts, Entertainment and Sports industry hub](/industries/arts-entertainment-sports/)
 
-Compare how creative, cultural, event, audience, or sporting activity supported by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Arts, Entertainment and Sports](/roles/ceo/arts-entertainment-sports.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Product remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Operating Officer in Arts, Entertainment and Sports](/roles/coo/arts-entertainment-sports.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Product remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Vice President of Product in Manufacturing](/roles/vp-product/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with creative, cultural, event, audience, or sporting activity supported by teams and organizations and identify how the Vice President of Product remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Vice President of Product in Arts, Entertainment and Sports?
 
-Start with the organization's account of creative, cultural, event, audience, or sporting activity supported by teams and organizations, then clarify how the Vice President of Product would set product priorities and coordinate discovery, planning, and delivery. Ask how audiences, participants, creators, athletes, sponsors, venues, partners, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of creative, cultural, event, audience, or sporting activity supported by teams and organizations, then clarify how the Vice President of Product would set product priorities and coordinate discovery, planning, and delivery. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Vice President of Product make prior work relevant to Arts, Entertainment and Sports?
 
@@ -139,11 +139,11 @@ Select examples that show portfolio scope, customer insight, prioritization, tea
 
 ### Which career materials can help a Vice President of Product explore work in Arts, Entertainment and Sports?
 
-Possible materials include executive resume, product portfolio, leadership narrative, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available. Each claim should be accurate for this Arts, Entertainment and Sports target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, product portfolio, leadership narrative, and profile. Each claim should be accurate for this Arts, Entertainment and Sports target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Vice President of Product contacts an organization in Arts, Entertainment and Sports?
 
-Outreach should follow target research, not precede it. The Vice President of Product candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with portfolio scope, customer insight, prioritization, team influence, and product outcomes is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Vice President of Product background relevant to work in Arts, Entertainment and Sports?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate portfolio 
 
 ### Does KOV control employer responses to Vice President of Product outreach in Arts, Entertainment and Sports?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Vice President of Product candidate considering Arts, Entertainment and Sports, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

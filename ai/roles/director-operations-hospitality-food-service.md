@@ -16,7 +16,7 @@ The candidate can discuss team or site scope, process ownership, service standar
 
 ## Documents that make Director of Operations experience relevant here
 
-Research for a Director of Operations in Hospitality and Food Service becomes more focused when the candidate investigates guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alongside guest-facing accommodation, food, venue, or experience services delivered through people and operations. Before presenting venue or service scope, team leadership, guest context, service design, and attributable operating contributions, determine how guests, employees, suppliers, owners, local partners, and service teams participated and which details are safe to discuss. The candidate decides whether to pursue a Director of Operations opportunity. KOV can support agreed research and preparation concerning Hospitality and Food Service. Do not resolve uncertainty about describing process work without the operating context or the candidate's authority through assumption; verify the requirement and use only supportable Director of Operations claims.
+Research for a Director of Operations in Hospitality and Food Service becomes more focused when the candidate investigates guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alongside guest-facing accommodation, food, venue, or experience services delivered through people and operations. The candidate decides whether to pursue a Director of Operations opportunity. KOV can support agreed research and preparation concerning Hospitality and Food Service. Do not resolve uncertainty about describing process work without the operating context or the candidate's authority through assumption; verify the requirement and use only supportable Director of Operations claims.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Operations career hub](/roles/director-operations/)
 
-Review the role-wide approach to manage operational delivery and improve coordination within a defined remit and the evidence expected for that scope.
+
 
 ### [Hospitality and Food Service industry hub](/industries/hospitality-food-service/)
 
-Compare how guest-facing accommodation, food, venue, or experience services delivered through people and operations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Hospitality and Food Service](/roles/ceo/hospitality-food-service.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Operations remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Operating Officer in Hospitality and Food Service](/roles/coo/hospitality-food-service.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Operations remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Director of Operations in Agriculture, Food and Forestry](/roles/director-operations/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with guest-facing accommodation, food, venue, or experience services delivered through people and operations and identify how the Director of Operations remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Director of Operations clarify before considering work in Hospitality and Food Service?
 
-Start with the organization's account of guest-facing accommodation, food, venue, or experience services delivered through people and operations, then clarify how the Director of Operations would manage operational delivery and improve coordination within a defined remit. Ask how guests, employees, suppliers, owners, local partners, and service teams participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of guest-facing accommodation, food, venue, or experience services delivered through people and operations, then clarify how the Director of Operations would manage operational delivery and improve coordination within a defined remit. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Director of Operations describe transferable experience for Hospitality and Food Service work?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could manage operational delivery and i
 
 ### How can a Director of Operations choose documents for conversations about Hospitality and Food Service?
 
-Document selection depends on the opportunity. A Director of Operations may draw from resume, operations achievement summary, professional profile, and interview examples, but should foreground only material connected to venue or service scope, team leadership, guest context, service design, and attributable operating contributions. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Director of Operations plan contact with Hospitality and Food Service organizations?
 
-Outreach should follow target research, not precede it. The Director of Operations candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with team or site scope, process ownership, service standards, and improvement contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Director of Operations assess fit with Hospitality and Food Service responsibilities?
 
-No. Compare the role description with the candidate's experience of manage operational delivery and improve coordination within a defined remit and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Director of Operations candidate considering Hospitality and Food Service?
 

@@ -49,7 +49,7 @@ Show the General Counsel / Chief Legal Officer scope behind the title: how the c
 
 ## Common positioning mistakes for General Counsel / Chief Legal Officer candidates in Finance and Insurance
 
-The candidate can discuss legal remit, advisory judgment, team scope, governance interaction, and business context while protecting confidentiality by omitting names, restricted figures, and other identifying material. The candidate decides whether to pursue a General Counsel / Chief Legal Officer opportunity. KOV can support agreed research and preparation concerning Finance and Insurance. For Finance and Insurance, establish whether financial products and services supported by customer relationships, information, operations, and oversight describes the target employer and how trust, information handling, product suitability, operational resilience, and competing customer and business needs is reflected in its General Counsel / Chief Legal Officer mandate. Position a General Counsel / Chief Legal Officer career by linking lead legal judgment and connect legal advice with organizational decisions to business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes, then clarify which part of that work the candidate actually owned.
+The candidate can discuss legal remit, advisory judgment, team scope, governance interaction, and business context while protecting confidentiality by omitting names, restricted figures, and other identifying material. KOV can support agreed research and preparation concerning Finance and Insurance. For Finance and Insurance, establish whether financial products and services supported by customer relationships, information, operations, and oversight describes the target employer and how trust, information handling, product suitability, operational resilience, and competing customer and business needs is reflected in its General Counsel / Chief Legal Officer mandate. Position a General Counsel / Chief Legal Officer career by linking lead legal judgment and connect legal advice with organizational decisions to business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes, then clarify which part of that work the candidate actually owned.
 
 - Treat Finance and Insurance as one uniform employer type; distinguish the actual organization and role.
 - Use a General Counsel / Chief Legal Officer title without explaining lead legal judgment and connect legal advice with organizational decisions.
@@ -59,7 +59,7 @@ The candidate can discuss legal remit, advisory judgment, team scope, governance
 
 ## Keep research, confidentiality, and outreach aligned
 
-Show the General Counsel / Chief Legal Officer scope behind the title: how the candidate could lead legal judgment and connect legal advice with organizational decisions, which decisions mattered, and where legal remit, advisory judgment, team scope, governance interaction, and business context demonstrates their contribution. An employer's Finance and Insurance model may involve financial products and services supported by customer relationships, information, operations, and oversight; its implications for trust, information handling, product suitability, operational resilience, and competing customer and business needs should be discussed, not presumed. The candidate decides whether to pursue a General Counsel / Chief Legal Officer opportunity. KOV can support agreed research and preparation concerning Finance and Insurance. Review each General Counsel / Chief Legal Officer example for confusing legal advice with business decision ownership or disclosing privileged information, then describe the candidate's decisions without overstating their control over CEO, board or owners, business leaders, legal colleagues, regulators where relevant, and outside advisers.
+Show the General Counsel / Chief Legal Officer scope behind the title: how the candidate could lead legal judgment and connect legal advice with organizational decisions, which decisions mattered, and where legal remit, advisory judgment, team scope, governance interaction, and business context demonstrates their contribution. The candidate decides whether to pursue a General Counsel / Chief Legal Officer opportunity. KOV can support agreed research and preparation concerning Finance and Insurance. Review each General Counsel / Chief Legal Officer example for confusing legal advice with business decision ownership or disclosing privileged information, then describe the candidate's decisions without overstating their control over CEO, board or owners, business leaders, legal colleagues, regulators where relevant, and outside advisers.
 
 ## Prepare for conversations about Finance and Insurance work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [General Counsel / Chief Legal Officer career hub](/roles/general-counsel/)
 
-Review the role-wide approach to lead legal judgment and connect legal advice with organizational decisions and the evidence expected for that scope.
+
 
 ### [Finance and Insurance industry hub](/industries/finance-insurance/)
 
-Compare how financial products and services supported by customer relationships, information, operations, and oversight affects career planning across functions.
+
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Contrast set organization-wide direction and coordinate executive work with the General Counsel / Chief Legal Officer remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Finance and Insurance](/roles/coo/finance-insurance.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the General Counsel / Chief Legal Officer remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [General Counsel / Chief Legal Officer in Agriculture, Food and Forestry](/roles/general-counsel/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with financial products and services supported by customer relationships, information, operations, and oversight and identify how the General Counsel / Chief Legal Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a General Counsel / Chief Legal Officer in Finance and Insurance?
 
-Use the opening discussion to understand the specific Finance and Insurance employer, not to assume a standard role. Compare lead legal judgment and connect legal advice with organizational decisions with the stated scope, identify decision partners among customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Finance and Insurance employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a General Counsel / Chief Legal Officer make prior work relevant to Finance and Insurance?
 
@@ -139,11 +139,11 @@ Select examples that show legal remit, advisory judgment, team scope, governance
 
 ### Which career materials can help a General Counsel / Chief Legal Officer explore work in Finance and Insurance?
 
-Document selection depends on the opportunity. A General Counsel / Chief Legal Officer may draw from executive resume, legal leadership biography, practice summary, and professional profile, but should foreground only material connected to business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a General Counsel / Chief Legal Officer contacts an organization in Finance and Insurance?
 
-Outreach should follow target research, not precede it. The General Counsel / Chief Legal Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with legal remit, advisory judgment, team scope, governance interaction, and business context is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a General Counsel / Chief Legal Officer background relevant to work in Finance and Insurance?
 

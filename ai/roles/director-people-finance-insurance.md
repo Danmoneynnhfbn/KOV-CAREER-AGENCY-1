@@ -4,7 +4,7 @@ KOV helps Director of People candidates considering roles connected to Finance a
 
 ## How Director of People work connects with Finance and Insurance
 
-A candidate exploring Finance and Insurance should test the assumed link between financial products and services supported by customer relationships, information, operations, and oversight and trust, information handling, product suitability, operational resilience, and competing customer and business needs against the actual Director of People role description. In Finance and Insurance, customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders may shape the work. A Director of People example should separate direct responsibility from collaboration. KOV can help a Director of People candidate organize an agreed search approach for Finance and Insurance, including documents such as resume, people-program portfolio, profile, and selected examples. Good preparation for Director of People work includes a safe way to explain using sensitive workforce information or broad claims without context and a clear distinction between fact and inference.
+A candidate exploring Finance and Insurance should test the assumed link between financial products and services supported by customer relationships, information, operations, and oversight and trust, information handling, product suitability, operational resilience, and competing customer and business needs against the actual Director of People role description. A Director of People example should separate direct responsibility from collaboration. KOV can help a Director of People candidate organize an agreed search approach for Finance and Insurance, including documents such as resume, people-program portfolio, profile, and selected examples. Good preparation for Director of People work includes a safe way to explain using sensitive workforce information or broad claims without context and a clear distinction between fact and inference.
 
 ## Who this Director of People and Finance and Insurance guide is for
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Director of People materials that 
 
 ## Prepare to discuss the Finance and Insurance mandate
 
-The candidate can discuss program scope, manager partnership, team responsibilities, and people-related outcomes while protecting confidentiality by omitting names, restricted figures, and other identifying material. KOV works with the candidate to agree which Director of People targets matter, how resume, people-program portfolio, profile, and selected examples will be used, and whether communication is authorized. In Finance and Insurance, customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders may shape the work. A Director of People example should separate direct responsibility from collaboration. In a Finance and Insurance target, make the Director of People contribution legible: describe how the candidate helped lead a people function or program and support managers through organizational change and what supports program scope, manager partnership, team responsibilities, and people-related outcomes.
+The candidate can discuss program scope, manager partnership, team responsibilities, and people-related outcomes while protecting confidentiality by omitting names, restricted figures, and other identifying material. In Finance and Insurance, customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders may shape the work. A Director of People example should separate direct responsibility from collaboration. In a Finance and Insurance target, make the Director of People contribution legible: describe how the candidate helped lead a people function or program and support managers through organizational change and what supports program scope, manager partnership, team responsibilities, and people-related outcomes.
 
 ## Common positioning mistakes for Director of People candidates in Finance and Insurance
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of People career hub](/roles/director-people/)
 
-Review the role-wide approach to lead a people function or program and support managers through organizational change and the evidence expected for that scope.
+
 
 ### [Finance and Insurance industry hub](/industries/finance-insurance/)
 
-Compare how financial products and services supported by customer relationships, information, operations, and oversight affects career planning across functions.
+
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of People remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Finance and Insurance](/roles/coo/finance-insurance.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of People remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Director of People in Manufacturing](/roles/director-people/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with financial products and services supported by customer relationships, information, operations, and oversight and identify how the Director of People remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Director of People resolve before a target discussion in Finance and Insurance?
 
-Use the opening discussion to understand the specific Finance and Insurance employer, not to assume a standard role. Compare lead a people function or program and support managers through organizational change with the stated scope, identify decision partners among customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Finance and Insurance employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Director of People career story fit the needs of Finance and Insurance?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Director of People approve before outreach in Finance and Insurance?
 
-Outreach should follow target research, not precede it. The Director of People candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with program scope, manager partnership, team responsibilities, and people-related outcomes is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a Director of People compare title and remit in Finance and Insurance?
 

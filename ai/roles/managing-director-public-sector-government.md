@@ -8,7 +8,7 @@ Career representation remains candidate-led: KOV can support a Managing Director
 
 ## Who this Managing Director and Public Sector and Government guide is for
 
-For Managing Director work in Public Sector and Government, explain how the candidate could lead a business, division, or organization according to its defined mandate; connect that mandate to evidence of operating scope, commercial or service accountability, leadership span, and decision authority. Not every Public Sector and Government organization will handle public purpose, stewardship, transparency, service access, and coordination across institutions alike. Confirm how public administration, public programs, or services delivered under a public mandate informs this Managing Director position. For a Managing Director target, KOV can discuss how executive resume, business leadership biography, mandate summary, and profile support the candidate's account of operating scope, commercial or service accountability, leadership span, and decision authority; external steps require prior agreement. For Managing Director materials, manage the risk of assuming the title means the same authority across employers, countries, or ownership models; support claims with operating scope, commercial or service accountability, leadership span, and decision authority and remove details that are not authorized for sharing.
+For Managing Director work in Public Sector and Government, explain how the candidate could lead a business, division, or organization according to its defined mandate; connect that mandate to evidence of operating scope, commercial or service accountability, leadership span, and decision authority. Confirm how public administration, public programs, or services delivered under a public mandate informs this Managing Director position. For a Managing Director target, KOV can discuss how executive resume, business leadership biography, mandate summary, and profile support the candidate's account of operating scope, commercial or service accountability, leadership span, and decision authority; external steps require prior agreement. For Managing Director materials, manage the risk of assuming the title means the same authority across employers, countries, or ownership models; support claims with operating scope, commercial or service accountability, leadership span, and decision authority and remove details that are not authorized for sharing.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -33,7 +33,7 @@ Before discussing program or service scope, stakeholder communication, team lead
 
 ## Choose the individual services that fit the work
 
-Review each Managing Director example for assuming the title means the same authority across employers, countries, or ownership models, then describe the candidate's decisions without overstating their control over owners, board, CEO, customers, employees, lenders or investors where relevant, and partners. Before presenting program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context, determine how residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders participated and which details are safe to discuss. Not every Public Sector and Government organization will handle public purpose, stewardship, transparency, service access, and coordination across institutions alike. Confirm how public administration, public programs, or services delivered under a public mandate informs this Managing Director position. A precise Managing Director story ties operating scope, commercial or service accountability, leadership span, and decision authority to the mandate of lead a business, division, or organization according to its defined mandate, without suggesting that the title alone establishes fit.
+Review each Managing Director example for assuming the title means the same authority across employers, countries, or ownership models, then describe the candidate's decisions without overstating their control over owners, board, CEO, customers, employees, lenders or investors where relevant, and partners. Not every Public Sector and Government organization will handle public purpose, stewardship, transparency, service access, and coordination across institutions alike. Confirm how public administration, public programs, or services delivered under a public mandate informs this Managing Director position. A precise Managing Director story ties operating scope, commercial or service accountability, leadership span, and decision authority to the mandate of lead a business, division, or organization according to its defined mandate, without suggesting that the title alone establishes fit.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Director career hub](/roles/managing-director/)
 
-Review the role-wide approach to lead a business, division, or organization according to its defined mandate and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Director remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Director remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Managing Director in Agriculture, Food and Forestry](/roles/managing-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with public administration, public programs, or services delivered under a public mandate and identify how the Managing Director remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Managing Director resolve before a target discussion in Public Sector and Government?
 
-Use the opening discussion to understand the specific Public Sector and Government employer, not to assume a standard role. Compare lead a business, division, or organization according to its defined mandate with the stated scope, identify decision partners among residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Public Sector and Government employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Managing Director career story fit the needs of Public Sector and Government?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Managing Director approve before outreach in Public Sector and Government?
 
-Outreach should follow target research, not precede it. The Managing Director candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with operating scope, commercial or service accountability, leadership span, and decision authority is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a Managing Director compare title and remit in Public Sector and Government?
 

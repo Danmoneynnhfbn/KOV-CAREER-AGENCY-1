@@ -33,7 +33,7 @@ For Chief Revenue Officer work in Real Estate and Leasing, explain how the candi
 
 ## Choose the individual services that fit the work
 
-Keep the Chief Revenue Officer narrative accurate where claiming all commercial outcomes without defining team, market, timing, or attribution may arise: attribute shared work and disclose only information the candidate may use. The candidate decides whether to pursue a Chief Revenue Officer opportunity. KOV can support agreed research and preparation concerning Real Estate and Leasing. Discuss asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution with care: a Chief Revenue Officer candidate can explain contribution while omitting confidential or identifying facts. Readers need to see what Chief Revenue Officer work involved; connect coordinate revenue-facing functions around a coherent commercial direction with the candidate's own examples of commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence in Real Estate and Leasing.
+Keep the Chief Revenue Officer narrative accurate where claiming all commercial outcomes without defining team, market, timing, or attribution may arise: attribute shared work and disclose only information the candidate may use. KOV can support agreed research and preparation concerning Real Estate and Leasing. Discuss asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution with care: a Chief Revenue Officer candidate can explain contribution while omitting confidential or identifying facts. Readers need to see what Chief Revenue Officer work involved; connect coordinate revenue-facing functions around a coherent commercial direction with the candidate's own examples of commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence in Real Estate and Leasing.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Revenue Officer career hub](/roles/chief-revenue-officer/)
 
-Review the role-wide approach to coordinate revenue-facing functions around a coherent commercial direction and the evidence expected for that scope.
+
 
 ### [Real Estate and Leasing industry hub](/industries/real-estate-leasing/)
 
-Compare how property ownership, development, brokerage, management, or leasing relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Real Estate and Leasing](/roles/ceo/real-estate-leasing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Revenue Officer remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Operating Officer in Real Estate and Leasing](/roles/coo/real-estate-leasing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Revenue Officer remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Revenue Officer in Agriculture, Food and Forestry](/roles/chief-revenue-officer/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with property ownership, development, brokerage, management, or leasing relationships and identify how the Chief Revenue Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Revenue Officer test the scope of work in Real Estate and Leasing?
 
-Use the opening discussion to understand the specific Real Estate and Leasing employer, not to assume a standard role. Compare coordinate revenue-facing functions around a coherent commercial direction with the stated scope, identify decision partners among owners, tenants, customers, investors, property teams, suppliers, and communities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Real Estate and Leasing employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### What evidence can a Chief Revenue Officer use to explain experience in Real Estate and Leasing?
 
@@ -139,15 +139,15 @@ Select examples that show commercial remit, customer segments, sales and marketi
 
 ### What documents should a Chief Revenue Officer tailor for Real Estate and Leasing opportunities?
 
-Document selection depends on the opportunity. A Chief Revenue Officer may draw from executive resume, commercial leadership profile, pipeline narrative, and biography, but should foreground only material connected to asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### Which outreach choices belong to a Chief Revenue Officer considering Real Estate and Leasing?
 
-Outreach should follow target research, not precede it. The Chief Revenue Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Chief Revenue Officer rely on title alone when targeting Real Estate and Leasing?
 
-No. Compare the role description with the candidate's experience of coordinate revenue-facing functions around a coherent commercial direction and the organization's property ownership, development, brokerage, management, or leasing relationships. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Chief Revenue Officer seeking work in Real Estate and Leasing?
 

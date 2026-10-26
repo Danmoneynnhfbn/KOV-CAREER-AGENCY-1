@@ -4,7 +4,7 @@ KOV helps Board Director candidates considering roles connected to Manufacturing
 
 ## How Board Director work connects with Manufacturing
 
-Readers need to see what Board Director work involved; connect contribute oversight, inquiry, and strategic perspective within collective governance with the candidate's own examples of committee or board remit, preparation, judgment, relevant expertise, and collective contribution in Manufacturing. Not every Manufacturing organization will handle production planning, equipment capacity, quality, workforce capability, and customer demand alike. Confirm how conversion of materials into products through coordinated processes, equipment, people, and quality systems informs this Board Director position. Where appropriate to the agreed service, KOV can help a Board Director candidate prepare and coordinate approved next steps for Manufacturing. The candidate can discuss committee or board remit, preparation, judgment, relevant expertise, and collective contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+Readers need to see what Board Director work involved; connect contribute oversight, inquiry, and strategic perspective within collective governance with the candidate's own examples of committee or board remit, preparation, judgment, relevant expertise, and collective contribution in Manufacturing. Confirm how conversion of materials into products through coordinated processes, equipment, people, and quality systems informs this Board Director position. Where appropriate to the agreed service, KOV can help a Board Director candidate prepare and coordinate approved next steps for Manufacturing. The candidate can discuss committee or board remit, preparation, judgment, relevant expertise, and collective contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Who this Board Director and Manufacturing guide is for
 
@@ -12,11 +12,11 @@ Where implying executive authority for board decisions or claiming confidential 
 
 ## A candidate-led process from first discussion to next steps
 
-For Board Director work in Manufacturing, explain how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance; connect that mandate to evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution. Treat conversion of materials into products through coordinated processes, equipment, people, and quality systems as a question to validate in Manufacturing; the answer helps clarify the Board Director mandate and its production planning, equipment capacity, quality, workforce capability, and customer demand. In Manufacturing, employees, suppliers, customers, engineering, operations, distribution, and ownership may shape the work. A Board Director example should separate direct responsibility from collaboration. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Manufacturing.
+For Board Director work in Manufacturing, explain how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance; connect that mandate to evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution. A Board Director example should separate direct responsibility from collaboration. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Manufacturing.
 
 ## Documents that make Board Director experience relevant here
 
-To assess a Board Director opportunity in Manufacturing, compare the stated remit to the candidate's record of committee or board remit, preparation, judgment, relevant expertise, and collective contribution. Not every Manufacturing organization will handle production planning, equipment capacity, quality, workforce capability, and customer demand alike. Confirm how conversion of materials into products through coordinated processes, equipment, people, and quality systems informs this Board Director position. The service plan should fit the candidate's Board Director priorities; agree research, materials, and any outreach before contact occurs. Keep the Board Director narrative accurate where implying executive authority for board decisions or claiming confidential board outcomes may arise: attribute shared work and disclose only information the candidate may use.
+To assess a Board Director opportunity in Manufacturing, compare the stated remit to the candidate's record of committee or board remit, preparation, judgment, relevant expertise, and collective contribution. Confirm how conversion of materials into products through coordinated processes, equipment, people, and quality systems informs this Board Director position. The service plan should fit the candidate's Board Director priorities; agree research, materials, and any outreach before contact occurs. Keep the Board Director narrative accurate where implying executive authority for board decisions or claiming confidential board outcomes may arise: attribute shared work and disclose only information the candidate may use.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -59,7 +59,7 @@ Good preparation for Board Director work includes a safe way to explain implying
 
 ## Keep research, confidentiality, and outreach aligned
 
-Show the Board Director scope behind the title: how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance, which decisions mattered, and where committee or board remit, preparation, judgment, relevant expertise, and collective contribution demonstrates their contribution. The Manufacturing context involves conversion of materials into products through coordinated processes, equipment, people, and quality systems; examine how that structure affects production planning, equipment capacity, quality, workforce capability, and customer demand before drawing conclusions about the Board Director role. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Manufacturing. Keep the Board Director narrative accurate where implying executive authority for board decisions or claiming confidential board outcomes may arise: attribute shared work and disclose only information the candidate may use.
+Show the Board Director scope behind the title: how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance, which decisions mattered, and where committee or board remit, preparation, judgment, relevant expertise, and collective contribution demonstrates their contribution. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Manufacturing. Keep the Board Director narrative accurate where implying executive authority for board decisions or claiming confidential board outcomes may arise: attribute shared work and disclose only information the candidate may use.
 
 ## Prepare for conversations about Manufacturing work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Board Director career hub](/roles/board-director/)
 
-Review the role-wide approach to contribute oversight, inquiry, and strategic perspective within collective governance and the evidence expected for that scope.
+
 
 ### [Manufacturing industry hub](/industries/manufacturing/)
 
-Compare how conversion of materials into products through coordinated processes, equipment, people, and quality systems affects career planning across functions.
+
 
 ### [Chief Executive Officer in Manufacturing](/roles/ceo/manufacturing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Board Director remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Operating Officer in Manufacturing](/roles/coo/manufacturing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Board Director remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Board Director in Agriculture, Food and Forestry](/roles/board-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with conversion of materials into products through coordinated processes, equipment, people, and quality systems and identify how the Board Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Board Director clarify before considering work in Manufacturing?
 
-A Board Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's conversion of materials into products through coordinated processes, equipment, people, and quality systems. Explore how the role will contribute oversight, inquiry, and strategic perspective within collective governance and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Board Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's conversion of materials into products through coordinated processes, equipment, people, and quality systems. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Board Director describe transferable experience for Manufacturing work?
 
@@ -139,19 +139,19 @@ Select examples that show committee or board remit, preparation, judgment, relev
 
 ### How can a Board Director choose documents for conversations about Manufacturing?
 
-Possible materials include board biography, governance resume, skills matrix, and concise profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to plant or product scope, process decisions, quality or delivery context, team leadership, and improvement work. Each claim should be accurate for this Manufacturing target, and confidential or unauthorized material should be omitted.
+Possible materials include board biography, governance resume, skills matrix, and concise profile. Each claim should be accurate for this Manufacturing target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Board Director plan contact with Manufacturing organizations?
 
-Outreach should follow target research, not precede it. The Board Director candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with committee or board remit, preparation, judgment, relevant expertise, and collective contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Board Director assess fit with Manufacturing responsibilities?
 
-No. Compare the role description with the candidate's experience of contribute oversight, inquiry, and strategic perspective within collective governance and the organization's conversion of materials into products through coordinated processes, equipment, people, and quality systems. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Board Director candidate considering Manufacturing?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Board Director candidate considering Manufacturing, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

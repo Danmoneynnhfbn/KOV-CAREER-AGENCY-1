@@ -45,7 +45,7 @@ Consider document and positioning support for Chief Product Officer materials th
 
 ## Prepare to discuss the Technology, Media and Telecom mandate
 
-A Chief Product Officer candidate should show how product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes supported the work to guide product direction, portfolio choices, and the connection between users and delivery teams, with the Technology, Media and Telecom setting made explicit. Preparation for a Chief Product Officer conversation should address whether the organization sells products, services, content, connectivity, or a mix, and how the role links technical and commercial priorities; relate the response to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality, not speculation about hiring. The candidate decides whether to pursue a Chief Product Officer opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Review each Chief Product Officer example for listing launches without clarifying user need, decision role, trade-offs, and adoption context, then describe the candidate's decisions without overstating their control over CEO, engineering, design, sales, support, customers, and product teams.
+A Chief Product Officer candidate should show how product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes supported the work to guide product direction, portfolio choices, and the connection between users and delivery teams, with the Technology, Media and Telecom setting made explicit. The candidate decides whether to pursue a Chief Product Officer opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Review each Chief Product Officer example for listing launches without clarifying user need, decision role, trade-offs, and adoption context, then describe the candidate's decisions without overstating their control over CEO, engineering, design, sales, support, customers, and product teams.
 
 ## Common positioning mistakes for Chief Product Officer candidates in Technology, Media and Telecom
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Product Officer career hub](/roles/chief-product-officer/)
 
-Review the role-wide approach to guide product direction, portfolio choices, and the connection between users and delivery teams and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Product Officer remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Product Officer remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Product Officer in Agriculture, Food and Forestry](/roles/chief-product-officer/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with digital products, platforms, content, communications, or technology-enabled services and identify how the Chief Product Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Product Officer clarify before considering work in Technology, Media and Telecom?
 
-Use the opening discussion to understand the specific Technology, Media and Telecom employer, not to assume a standard role. Compare guide product direction, portfolio choices, and the connection between users and delivery teams with the stated scope, identify decision partners among users, product and engineering teams, customers, creators, advertisers, partners, and investors, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Technology, Media and Telecom employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Chief Product Officer describe transferable experience for Technology, Media and Telecom work?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### How can KOV and a Chief Product Officer plan contact with Technology, Media and Telecom organizations?
 
-Outreach should follow target research, not precede it. The Chief Product Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Chief Product Officer assess fit with Technology, Media and Telecom responsibilities?
 
-No. Compare the role description with the candidate's experience of guide product direction, portfolio choices, and the connection between users and delivery teams and the organization's digital products, platforms, content, communications, or technology-enabled services. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Chief Product Officer candidate considering Technology, Media and Telecom?
 

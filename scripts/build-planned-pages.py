@@ -610,99 +610,164 @@ def pair_page(r: dict, ind: dict, roles: list[dict]) -> dict:
         sec = {"id": f"{r['slug']}-{ind['slug']}-{sid}", "heading": heading, "paragraphs": paragraphs}
         specific_context = {
             ("vp-engineering", "manufacturing"): (
-                "For a manufacturing-focused example, choose an engineering decision tied to a defined product, "
-                "facility, or production process. Explain the technical constraint, the handoff with operations or "
-                "quality colleagues, and the candidate's authority over the trade-off; do not let a list of tools "
-                "stand in for that account. KOV can shape the example for the target role, then review what may be "
-                "shared before it appears in a resume, portfolio, or approved conversation."
+                "For a manufacturing-focused example, choose an engineering decision tied to a defined product, facility, or production process. Explain the technical constraint, the handoff with operations or quality colleagues, and the candidate's authority over the trade-off; do not let a list of tools stand in for that account. KOV can shape the example for the target role, then review what may be shared before it appears in a resume, portfolio, or approved conversation."
             ),
             ("vp-engineering", "transportation-logistics"): (
-                "A transportation or logistics engineering story can centre on systems that coordinate routes, "
-                "assets, dispatch, or service information, depending on the employer's actual remit. Show how the "
-                "candidate balanced technical design with operational users and service continuity, and separate "
-                "their decision from the work of operators or vendors. KOV can select a suitable example, clarify "
-                "the leadership contribution, and prepare a concise version for agreed target research or outreach."
+                "A transportation or logistics engineering story can centre on systems that coordinate routes, assets, dispatch, or service information, depending on the employer's actual remit. Show how the candidate balanced technical design with operational users and service continuity, and separate their decision from the work of operators or vendors. KOV can select a suitable example, clarify the leadership contribution, and prepare a concise version for agreed target research or outreach."
             ),
             ("chief-revenue-officer", "technology-media-telecom"): (
-                "For a revenue leader, the useful question is how the organization earns and retains customer "
-                "value across its particular mix of products, platforms, content, or connectivity. Explain the "
-                "candidate's commercial remit, the relationship among sales, marketing, product, and customer "
-                "teams, and which results can fairly be attributed to their leadership. KOV can turn that evidence "
-                "into a focused commercial narrative without presenting audience, pipeline, or customer information "
-                "that the candidate is not authorized to disclose."
+                "For a revenue leader, the useful question is how the organization earns and retains customer value across its particular mix of products, platforms, content, or connectivity. Explain the candidate's commercial remit, the relationship among sales, marketing, product, and customer teams, and which results can fairly be attributed to their leadership. KOV can turn that evidence into a focused commercial narrative without presenting audience, pipeline, or customer information that the candidate is not authorized to disclose."
             ),
             ("cio", "technology-media-telecom"): (
-                "An information-systems leader should distinguish internal technology services and enterprise "
-                "platforms from customer-facing products or media offerings when the organization contains both. "
-                "Describe the systems or transformation remit, how business users and technical teams shared "
-                "decisions, and what adoption or service evidence is safe to cite. KOV can help make that boundary "
-                "clear in the candidate's documents and prepare questions about the actual reporting line, service "
-                "scope, and relationship with product or engineering leadership."
+                "An information-systems leader should distinguish internal technology services and enterprise platforms from customer-facing products or media offerings when the organization contains both. Describe the systems or transformation remit, how business users and technical teams shared decisions, and what adoption or service evidence is safe to cite. KOV can help make that boundary clear in the candidate's documents and prepare questions about the actual reporting line, service scope, and relationship with product or engineering leadership."
             ),
             ("chief-strategy-officer", "holding-companies"): (
-                "A corporate group may combine entities with different markets, operating models, or degrees of "
-                "central coordination. A strategy candidate should explain how options were framed across that "
-                "portfolio, who sponsored decisions, and how recommendations connected to execution without "
-                "claiming ownership of the group's outcomes. KOV can help select a permitted example, identify "
-                "which organization-level details should remain confidential, and shape the narrative around the "
-                "candidate's own decision support and implementation role."
+                "A corporate group may combine entities with different markets, operating models, or degrees of central coordination. A strategy candidate should explain how options were framed across that portfolio, who sponsored decisions, and how recommendations connected to execution without claiming ownership of the group's outcomes. KOV can help select a permitted example, identify which organization-level details should remain confidential, and shape the narrative around the candidate's own decision support and implementation role."
             ),
             ("cio", "holding-companies"): (
-                "For a group information-systems remit, establish whether the opportunity concerns shared "
-                "platforms, entity-level services, data coordination, or some combination; do not infer a single "
-                "operating model from the holding-company label. The candidate can describe how they handled "
-                "system boundaries, user needs, and decision rights across stakeholders. KOV can organize a "
-                "target-specific evidence brief and questions about central versus local authority, while keeping "
-                "nonpublic architecture and business information out of public materials."
+                "For a group information-systems remit, establish whether the opportunity concerns shared platforms, entity-level services, data coordination, or some combination; do not infer a single operating model from the holding-company label. The candidate can describe how they handled system boundaries, user needs, and decision rights across stakeholders. KOV can organize a target-specific evidence brief and questions about central versus local authority, while keeping nonpublic architecture and business information out of public materials."
             ),
             ("non-executive-director", "finance-insurance"): (
-                "A board-level candidate can relate oversight experience to the organization's actual financial "
-                "products, customers, and control relationships without implying that all firms have the same "
-                "governance structure. Select an example that shows disciplined inquiry, constructive challenge, "
-                "and contribution to collective decisions; keep the distinction between board oversight and "
-                "management clear. KOV can help prepare a concise board biography and evidence narrative, then "
-                "agree what sensitive information may be used in any target discussion."
+                "A board-level candidate can relate oversight experience to the organization's actual financial products, customers, and control relationships without implying that all firms have the same governance structure. Select an example that shows disciplined inquiry, constructive challenge, and contribution to collective decisions; keep the distinction between board oversight and management clear. KOV can help prepare a concise board biography and evidence narrative, then agree what sensitive information may be used in any target discussion."
             ),
             ("non-executive-director", "transportation-logistics"): (
-                "For an organization moving people or goods, board examples may be framed around service "
-                "continuity, asset choices, customer relationships, or coordination across operating partners, "
-                "where those subjects match the candidate's experience. Explain the question asked and the "
-                "collective decision process rather than presenting board work as line management. KOV can help "
-                "position the candidate's oversight contribution, prepare a board-focused biography, and remove "
-                "commercial or operational details that are not approved for disclosure."
+                "For an organization moving people or goods, board examples may be framed around service continuity, asset choices, customer relationships, or coordination across operating partners, where those subjects match the candidate's experience. Explain the question asked and the collective decision process rather than presenting board work as line management. KOV can help position the candidate's oversight contribution, prepare a board-focused biography, and remove commercial or operational details that are not approved for disclosure."
             ),
             ("chief-strategy-officer", "energy-mining-oil-gas"): (
-                "Strategy work in an asset-intensive setting can involve comparing long-horizon choices, "
-                "portfolio priorities, and operating assumptions, but the candidate should describe only the "
-                "mandate they actually held. A strong example distinguishes analysis, sponsor decisions, and "
-                "implementation ownership. KOV can help build that distinction into the career narrative, select "
-                "authorized evidence, and prepare target-research questions about the position's scope rather than "
-                "making unsupported claims about a company's plans."
+                "Strategy work in an asset-intensive setting can involve comparing long-horizon choices, portfolio priorities, and operating assumptions, but the candidate should describe only the mandate they actually held. A strong example distinguishes analysis, sponsor decisions, and implementation ownership. KOV can help build that distinction into the career narrative, select authorized evidence, and prepare target-research questions about the position's scope rather than making unsupported claims about a company's plans."
             ),
             ("cto", "energy-mining-oil-gas"): (
-                "A technology leader's account should identify whether the remit covered engineering systems, "
-                "technical development, digital products, or another defined area; the title alone does not settle "
-                "that question. Connect a technical choice to the operating or project context, show how the "
-                "candidate worked with specialist teams, and clarify what was delivered versus proposed. KOV can "
-                "shape a safe portfolio example and prepare questions about the employer's actual authority, "
-                "interfaces, and expectations for the CTO."
+                "A technology leader's account should identify whether the remit covered engineering systems, technical development, digital products, or another defined area; the title alone does not settle that question. Connect a technical choice to the operating or project context, show how the candidate worked with specialist teams, and clarify what was delivered versus proposed. KOV can shape a safe portfolio example and prepare questions about the employer's actual authority, interfaces, and expectations for the CTO."
             ),
             ("cio", "business-support-facilities"): (
-                "In a business-support or facilities organization, an information-systems example may involve "
-                "connecting service workflows, users, suppliers, and administrative platforms. Describe the "
-                "candidate's remit and the change in service coordination without disclosing client or site "
-                "information. KOV can help turn the work into an executive-level transformation story, identify "
-                "which operational details can be shared, and prepare research questions about the role's "
-                "relationship with service delivery and external providers."
+                "In a business-support or facilities organization, an information-systems example may involve connecting service workflows, users, suppliers, and administrative platforms. Describe the candidate's remit and the change in service coordination without disclosing client or site information. KOV can help turn the work into an executive-level transformation story, identify which operational details can be shared, and prepare research questions about the role's relationship with service delivery and external providers."
             ),
             ("ciso", "business-support-facilities"): (
-                "A security leader should make the governance and coordination contribution understandable "
-                "without exposing controls, incidents, vulnerabilities, or client details. Explain how the role "
-                "worked with technology, operations, legal, and service teams, and what authority the candidate "
-                "actually held. KOV can help prepare a sanitized leadership example, distinguish risk oversight "
-                "from technical implementation, and agree the level of disclosure before any document or outreach "
-                "uses it."
+                "A security leader should make the governance and coordination contribution understandable without exposing controls, incidents, vulnerabilities, or client details. Explain how the role worked with technology, operations, legal, and service teams, and what authority the candidate actually held. KOV can help prepare a sanitized leadership example, distinguish risk oversight from technical implementation, and agree the level of disclosure before any document or outreach uses it."
             ),
+            ("cio", "arts-entertainment-sports"): (
+                "In creative or event-led organizations, a CIO or technology leader often serves a mix of production, operations, audience, and partner needs. A useful example separates technology governance from the content or event mandate, explains which users had decision rights, and shows how the candidate handled confidentiality or brand-sensitive trade-offs. KOV can help make that distinction explicit and prepare a short narrative for a target discussion without treating every creative enterprise as the same operating model."
+            ),
+            ("cmo", "arts-entertainment-sports"): (
+                "A marketing example in arts or sports usually needs a clearer explanation of audience, participation, sponsorship, or franchise dynamics than a simple brand-growth claim. Describe the campaign or positioning decision, the stakeholder mix, and what part the candidate actually controlled. KOV can help turn that story into a concise, credible narrative that fits the organization rather than assuming every arts or entertainment employer uses the same commercial model."
+            ),
+            ("head-strategy", "finance-insurance"): (
+                "For a strategy remit in financial services, the employer may define strategy around portfolios, underwriting, credit, distribution, or risk oversight, and the candidate's account should show which of those was within their scope. Explain the decision question, the stakeholder mix, and the constraints at play, rather than presenting the whole market as a single operating model. KOV can help select a permitted example and align the narrative to the specific target."
+            ),
+            ("vp-strategy", "finance-insurance"): (
+                "An insurance or financial-services strategy example usually needs a sharper account of how the candidate supported different business lines or risk decisions. Show what was analyzed, which stakeholders had authority, and how the recommendation connected to implementation, while avoiding unsupported claims about market conditions or regulated disclosures. KOV can help prepare a written example that distinguishes strategic analysis from product or underwriting ownership."
+            ),
+            ("director-product", "technology-media-telecom"): (
+                "A product example in technology or media benefits from a clear statement about platform, buyer, or content decisions, and whether the candidate owned product strategy or only supported it. Explain what was prioritized, the trade-offs, cross-functional dependencies, and the impact on users or engagement. KOV can help turn that into a concise product narrative that differs from a sales narrative for the same employer."
+            ),
+            ("director-sales", "technology-media-telecom"): (
+                "A sales example in technology or media should show the account, buying cycle, and relationship dynamics in the particular sector, rather than implying a single selling motion. Explain the candidate's responsibility for deal creation, retention, or account planning, and separate it from product or marketing influence. KOV can help shape the evidence to reflect actual commercial scope and keep the narrative specific to the relevant employer."
+            ),
+            ("chief-strategy-officer", "consulting-professional-services"): (
+                "Strategy work in a consulting or professional-services firm often sits between client delivery, practice leadership, and commercial development. A useful example distinguishes analysis, partner or client input, and the candidate's actual role in recommendations or implementation, rather than treating the whole firm as one model. KOV can help shape a scoped example that reflects the firm's operating logic and the candidate's decision rights."
+            ),
+            ("chair", "hospitality-food-service"): (
+                "Board and chair examples in hospitality or food service benefit from a clear distinction between oversight, governance, and operational accountability. Explain how the candidate influenced strategy, risk, or capital decisions without implying that they directed day-to-day service operations. KOV can help prepare a board-appropriate case and keep the example different from a partner-level or operating-leadership story."
+            ),
+            ("managing-partner", "hospitality-food-service"): (
+                "A managing partner story should explain how the candidate balanced firm leadership, client relationships, or investment choices with the operating realities of hospitality or food service. A stronger narrative identifies the decision problem, who had authority, and how the candidate helped resolve it without claiming responsibility for all operational outcomes. KOV can help structure that example around the actual role and the relevant commercial context."
+            ),
+            ("chief-strategy-officer", "healthcare-social-care"): (
+                "Strategy work in healthcare and social care should be tied to stakeholder mix, care model, regulatory context, and service quality, rather than a generic corporate strategy label. Show how the candidate framed choices among service access, workforce, capacity, or continuity, and what part their analysis actually played in the decision. KOV can help refine that evidence so the narrative reflects the employer's actual model, not a generic corporate strategy statement."
+            ),
+            ("cmo", "healthcare-social-care"): (
+                "A healthcare or social care marketing example should explain the audience, service line, community or patient flow, and whether the candidate was shaping demand, trust, or care operations. Identify what was under their control versus what depended on clinical or operational teams, and keep the narrative tied to the actual service model. KOV can help prepare a more specific position statement for this sector than a generic brand or marketing story."
+            ),
+            ("chief-product-officer", "business-support-facilities"): (
+                "A product example in business support or facilities often depends on the service model, customer journey, and internal operations. Show how the candidate prioritized user or client needs, where technical or operational partners influenced execution, and how the decision fits the service's actual risk and delivery model. KOV can help turn that into a tighter product narrative that differs from an information-systems story for the same sector."
+            ),
+            ("cfo", "public-sector-government"): (
+                "A public-sector or government finance example should explain the governing context, budget authority, policy constraints, and reporting lines rather than assuming a private-sector financial model. Describe the candidate's own responsibility clearly and show how broader political or administrative stakeholders shaped the decisions. KOV can help keep the narrative specific to public accountability and avoid implying the same commercial discipline as a private company."
+            ),
+            ("chro", "public-sector-government"): (
+                "A human-resources example in public sector or government should distinguish workforce planning, policy constraints, employee relations, and service continuity from private-sector talent strategy. Explain the decision the candidate helped shape, the stakeholder mix, and the limits of their mandate in a public accountability context. KOV can help frame that many public-sector conversations rely on policy, governance, and service continuity rather than commercial growth metrics alone."
+            ),
+            ("cmo", "holding-companies"): (
+                "A holding-company marketing example should explain whether the candidate was shaping group-level brand architecture, operating-company coordination, or a specific business line. Distinguish group governance and central decision-making from local market execution, and keep the role boundaries clear. KOV can help define the narrative so it reflects portfolio complexity rather than a generic corporate brand story."
+            ),
+            ("coo", "holding-companies"): (
+                "For a group operating remit, the best example usually describes how the candidate managed portfolio complexity, business-unit interfaces, or shared services across companies. Show the operational decision, the stakeholder mix, and where accountability sat for each entity, rather than implying one model for the whole organization. KOV can help structure that narrative around domain-specific operating logic and the candidate's actual authority."
+            ),
+            ("head-business-development", "healthcare-social-care"): (
+                "A healthcare or social-care business-development example should tie the candidate's work to the service pipeline, partners, community needs, or operating model of the relevant employer. Explain what relationship or market decision they influenced, what constraints applied, and how the work connected to service access or delivery. KOV can help make this example more specific than a generic growth or outreach story."
+            ),
+            ("chair", "consulting-professional-services"): (
+                "A chair or board example in consulting is usually strongest when it distinguishes governance, practice oversight, client relationship stewardship, and partner accountability. Show which decisions were collective and which were within the candidate's remit, and make the story specific to a firm model or client mix rather than a generic advisory narrative. KOV can help translate that distinction into a concise, credible board narrative."
+            ),
+            ("coo", "consulting-professional-services"): (
+                "A COO example in consulting should explain how the candidate handled delivery quality, partner coordination, staffing, or operating model design. Clarify which decisions sat with the candidate and which depended on client teams, practice leaders, or shared governance. KOV can help turn that into a distinct operating narrative rather than a general leadership story."
+            ),
+            ("managing-director", "hospitality-food-service"): (
+                "A managing director example in hospitality or food service often needs a sharper explanation of service model, customer experience, operational discipline, and owner or investor expectations. State the business challenge, the decision the candidate made, and where responsibility sat across leadership, operations, and partner groups. KOV can help keep the example rooted in the actual industry context rather than a generic management story."
+            ),
+            ("partner", "hospitality-food-service"): (
+                "A partner example in hospitality or food service often centres on commercial relationship management, strategic direction, or investment decisions, not simple line management. Show the candidate's role in shaping the account, partners, or operating priorities, and separate that contribution from operational execution. KOV can help make the evidence specific to a partner-style mandate in this sector."
+            ),
+            ("chief-revenue-officer", "public-sector-government"): (
+                "A revenue or commercial example in government or public-sector settings should reflect regulated purchasing, policy-informed priorities, and service demands rather than private-sector sales logic. Explain how the candidate handled demand, stakeholder alignment, or market-facing work within constraints and what decisions were actually theirs. KOV can help prepare a specific, credible narrative that does not confuse public-sector scrutiny with commercial growth metrics."
+            ),
+            ("chro", "real-estate-leasing"): (
+                "In real-estate or leasing contexts, a people example often needs to show the relationship between property operations, customer service, compliance, and workforce continuity. Explain the decision the candidate shaped, the stakeholders involved, and how the work differed from a purely corporate HR model. KOV can help prepare a distinct people narrative that reflects property or asset-intensive operations."
+            ),
+            ("partner", "real-estate-leasing"): (
+                "A partner example in real-estate or leasing is more convincing when it distinguishes commercial negotiation, portfolio strategy, relationship management, and governance from day-to-day property operations. Explain the candidate's influence on a transaction or portfolio decision and the stakeholder mix involved. KOV can help translate that into a credible partner narrative specific to property or asset management contexts."
+            ),
+            ("vp-sales", "manufacturing"): (
+                "A sales example in manufacturing is often clearer when it distinguishes product mix, channel management, customer buying cycles, and operational delivery constraints. Explain the candidate's commercial remit, customer or distributor relationships, and how production or operational constraints affected the deal or plan. KOV can help turn that into a precise sales story rather than a generic revenue narrative."
+            ),
+            ("vp-strategy", "manufacturing"): (
+                "A strategy example in manufacturing should connect business priorities to production, supply continuity, capacity, or portfolio choices rather than broad corporate strategy language. Clarify which decisions sat with the candidate, how operations and finance informed the recommendation, and what constraints mattered. KOV can help sharpen that narrative for a manufacturing context and avoid repeating the same general strategic claim."
+            ),
+            ("cfo", "construction-engineering"): (
+                "A finance example in construction and engineering needs a clear explanation of project risk, contract structure, capital deployment, and the working relationship with project or site leaders. Distinguish the candidate's financial decision from operational execution and avoid a generic corporate finance story. KOV can help prepare a more precise example that reflects project-based delivery, sequencing, and commercial risk."
+            ),
+            ("cio", "construction-engineering"): (
+                "An information-systems example in construction and engineering often needs a different framing from general corporate technology, because project delivery, site access, procurement, and operational data all shape the work. Explain the system or platform decision, the users involved, and the candidate's role in governance or adoption. KOV can help make that story distinct from a pure finance or project-delivery narrative."
+            ),
+            ("vp-finance", "consulting-professional-services"): (
+                "A finance example in consulting should show how the candidate handled growth, capacity, margin, partner economics, or service-cost pressure within a professional-services model. Explain what decisions were within the candidate's remit and how client delivery or partner expectations shaped the work. KOV can help make that example specific to consulting revenue and operating discipline."
+            ),
+            ("partner", "consulting-professional-services"): (
+                "A partner example in consulting often needs to distinguish client relationship strength, practice development, and commercial leadership from delivery management. Explain the candidate's role in account strategy, partner decision-making, or growth initiatives and show how that differed from a general leadership assignment. KOV can help sharpen the narrative so it clearly belongs in a consulting context."
+            ),
+            ("cto", "public-sector-government"): (
+                "A technology example in the public sector should show how policy, service continuity, procurement, public accountability, and shared operational constraints informed the candidate's work. Explain the system decision, user context, and governance process without conflating it with a commercial product or SaaS story. KOV can help keep the narrative grounded in public-service operating realities."
+            ),
+            ("director-marketing", "consulting-professional-services"): (
+                "A marketing example in consulting or professional services usually depends on service credibility, client trust, and practice differentiation, not mass-market campaigns. Explain which buyers or segments the candidate addressed, what decision they influenced, and how the brand message connected to the firm's specialist offering. KOV can help produce a sharper, more sector-specific story for this context."
+            ),
+            ("head-growth", "consulting-professional-services"): (
+                "A growth example in consulting should distinguish pipeline development, client acquisition, and firm capability from internal delivery or practice management. Clarify what the candidate influenced, who held authority, and how growth decisions connected to service quality or partner alignment. KOV can help frame the narrative around professional-services growth, not generic sales behavior."
+            ),
+            ("ceo", "manufacturing"): (
+                "A manufacturing leadership example should show how the candidate connected operational performance, capital choices, workforce capability, and product-market fit. Explain what they owned at the group level and what depended on plant, supply, or operations leaders. KOV can help shape a CEO-style example that is distinct from a COO narrative in the same sector."
+            ),
+            ("coo", "manufacturing"): (
+                "A manufacturing COO example usually needs a sharper account of production, quality, site operations, and supply continuity than a generic operational leadership story. Describe the candidate's decision rights, the operational trade-offs, and the stakeholder mix across functions. KOV can help ensure the narrative reflects the actual operating model rather than repeating a broad leadership claim."
+            ),
+            ("chief-strategy-officer", "holding-companies"): (
+                "A strategy candidacy in a holding-company context is strongest when it distinguishes group-level portfolio choices, operating-company strategy, and central governance. Explain what the candidate shaped versus what was decided elsewhere, and make the example specific to a group structure rather than a generic corporate strategy case. KOV can help sharpen that distinction for the target."
+            ),
+            ("cto", "holding-companies"): (
+                "A CTO example in a holding-company context often needs to distinguish shared platforms, subsidiary systems, and central technology governance. Clarify what decision rights the candidate held across entities and how the architecture or digital agenda supported each business. KOV can help keep that example distinct from a general technology or strategy narrative."
+            ),
+            ("chief-product-officer", "healthcare-social-care"): (
+                "A product example in healthcare or social care should reflect care pathways, service users, operational constraints, and stakeholder complexity instead of generic product-growth language. Explain what the candidate prioritized, where service or clinical partners influenced the outcome, and how the product decision fit the care model. KOV can help sharpen that narrative without implying that a technology product story is the same as a healthcare delivery one."
+            ),
+            ("ciso", "healthcare-social-care"): (
+                "A security example in healthcare or social care should show how the candidate balanced privacy, operational continuity, workforce access, and regulated obligations. Clarify the decision, the stakeholders involved, and what confidentiality or governance boundaries applied. KOV can help prepare a very different example from a product or strategy story in the same sector."
+            ),
+            ("non-executive-director", "public-sector-government"): (
+                "A non-executive example in public-sector or government work should emphasize governance, accountability, service outcomes, and policy constraints rather than private-market performance. Make the distinction between oversight and operational leadership explicit, and describe the candidate's influence within a collective decision process. KOV can help build a board-style narrative that reflects public governance rather than a generic corporate-director story."
+            ),
+            ("partner", "public-sector-government"): (
+                "A partner example in public-sector or government work usually needs a more precise explanation of policy, procurement, stakeholder management, and public accountability than a private-sector commercial story. Show what the candidate provided and what sat with public bodies or ministers, while keeping the narrative factual and appropriately bounded. KOV can help sharpen the example so it reflects the distinct decision process of a public or quasi-public context."
+            )
         }
         if sid == "context" and (r["slug"], ind["slug"]) in specific_context:
             sec["paragraphs"].append(specific_context[(r["slug"], ind["slug"])])

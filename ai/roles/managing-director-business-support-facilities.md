@@ -4,11 +4,11 @@ KOV helps Managing Director candidates considering roles connected to Business S
 
 ## How Managing Director work connects with Business Support and Facilities
 
-A Managing Director candidate should be ready to explain assuming the title means the same authority across employers, countries, or ownership models without revealing confidential details or implying unsupported responsibility. For a Managing Director target, KOV can discuss how executive resume, business leadership biography, mandate summary, and profile support the candidate's account of operating scope, commercial or service accountability, leadership span, and decision authority; external steps require prior agreement. In Business Support and Facilities, internal clients, employees, service teams, suppliers, customers, and contract owners may shape the work. A Managing Director example should separate direct responsibility from collaboration. For Managing Director work in Business Support and Facilities, explain how the candidate could lead a business, division, or organization according to its defined mandate; connect that mandate to evidence of operating scope, commercial or service accountability, leadership span, and decision authority.
+A Managing Director candidate should be ready to explain assuming the title means the same authority across employers, countries, or ownership models without revealing confidential details or implying unsupported responsibility. In Business Support and Facilities, internal clients, employees, service teams, suppliers, customers, and contract owners may shape the work. A Managing Director example should separate direct responsibility from collaboration. For Managing Director work in Business Support and Facilities, explain how the candidate could lead a business, division, or organization according to its defined mandate; connect that mandate to evidence of operating scope, commercial or service accountability, leadership span, and decision authority.
 
 ## Who this Managing Director and Business Support and Facilities guide is for
 
-Readers need to see what Managing Director work involved; connect lead a business, division, or organization according to its defined mandate with the candidate's own examples of operating scope, commercial or service accountability, leadership span, and decision authority in Business Support and Facilities. Use support services, workplace operations, facilities, administration, or outsourced capabilities to frame research about Business Support and Facilities, then ask how a Managing Director will work through service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity. In Business Support and Facilities, internal clients, employees, service teams, suppliers, customers, and contract owners may shape the work. A Managing Director example should separate direct responsibility from collaboration. The service plan should fit the candidate's Managing Director priorities; agree research, materials, and any outreach before contact occurs.
+Readers need to see what Managing Director work involved; connect lead a business, division, or organization according to its defined mandate with the candidate's own examples of operating scope, commercial or service accountability, leadership span, and decision authority in Business Support and Facilities. In Business Support and Facilities, internal clients, employees, service teams, suppliers, customers, and contract owners may shape the work. A Managing Director example should separate direct responsibility from collaboration. The service plan should fit the candidate's Managing Director priorities; agree research, materials, and any outreach before contact occurs.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -33,7 +33,7 @@ Rather than lead with seniority, a Managing Director profile can explain the res
 
 ## Choose the individual services that fit the work
 
-Review each Managing Director example for assuming the title means the same authority across employers, countries, or ownership models, then describe the candidate's decisions without overstating their control over owners, board, CEO, customers, employees, lenders or investors where relevant, and partners. Before presenting service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements, determine how internal clients, employees, service teams, suppliers, customers, and contract owners participated and which details are safe to discuss. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Managing Director position. A precise Managing Director story ties operating scope, commercial or service accountability, leadership span, and decision authority to the mandate of lead a business, division, or organization according to its defined mandate, without suggesting that the title alone establishes fit.
+Review each Managing Director example for assuming the title means the same authority across employers, countries, or ownership models, then describe the candidate's decisions without overstating their control over owners, board, CEO, customers, employees, lenders or investors where relevant, and partners. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Managing Director position. A precise Managing Director story ties operating scope, commercial or service accountability, leadership span, and decision authority to the mandate of lead a business, division, or organization according to its defined mandate, without suggesting that the title alone establishes fit.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Director career hub](/roles/managing-director/)
 
-Review the role-wide approach to lead a business, division, or organization according to its defined mandate and the evidence expected for that scope.
+
 
 ### [Business Support and Facilities industry hub](/industries/business-support-facilities/)
 
-Compare how support services, workplace operations, facilities, administration, or outsourced capabilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Business Support and Facilities](/roles/ceo/business-support-facilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Director remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Operating Officer in Business Support and Facilities](/roles/coo/business-support-facilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Director remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Managing Director in Agriculture, Food and Forestry](/roles/managing-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with support services, workplace operations, facilities, administration, or outsourced capabilities and identify how the Managing Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Managing Director clarify before considering work in Business Support and Facilities?
 
-A Managing Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's support services, workplace operations, facilities, administration, or outsourced capabilities. Explore how the role will lead a business, division, or organization according to its defined mandate and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Managing Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's support services, workplace operations, facilities, administration, or outsourced capabilities. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Managing Director describe transferable experience for Business Support and Facilities work?
 
@@ -139,11 +139,11 @@ Make the connection explicit: the candidate's record of operating scope, commerc
 
 ### How can a Managing Director choose documents for conversations about Business Support and Facilities?
 
-Possible materials include executive resume, business leadership biography, mandate summary, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, business leadership biography, mandate summary, and profile. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Managing Director plan contact with Business Support and Facilities organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Managing Director candidate's service scope; the candidate approves external communication. No one route should be assumed for all Business Support and Facilities employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Business Support and Facilities employers.
 
 ### How can a Managing Director assess fit with Business Support and Facilities responsibilities?
 

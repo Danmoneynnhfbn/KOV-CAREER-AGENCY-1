@@ -85,27 +85,27 @@ Use KOV's London page as a starting point for an agreed UK-focused search discus
 
 ### Saudi Arabia
 
-For Real Estate and Leasing targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Real Estate and Leasing targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Real Estate and Leasing targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### UAE
 
-For Real Estate and Leasing targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Real Estate and Leasing targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Real Estate and Leasing targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### United Kingdom
 
-For Real Estate and Leasing targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Real Estate and Leasing targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Real Estate and Leasing targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Dubai
 
-For Real Estate and Leasing targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Real Estate and Leasing targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Real Estate and Leasing targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Australia
 
-For Real Estate and Leasing targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Real Estate and Leasing targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Real Estate and Leasing targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Africa
 
-For Real Estate and Leasing targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Real Estate and Leasing targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Real Estate and Leasing targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ## Choose an appropriate level of career support
 
@@ -129,107 +129,107 @@ Use the cards to open only the role-and-industry pages currently available. Each
 
 ### [Chief Executive Officer in Real Estate and Leasing](/roles/ceo/real-estate-leasing.html)
 
-Explore how set organization-wide direction and coordinate executive work connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Operating Officer in Real Estate and Leasing](/roles/coo/real-estate-leasing.html)
 
-Explore how align operating functions, delivery systems, and organizational priorities connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Financial Officer in Real Estate and Leasing](/roles/cfo/real-estate-leasing.html)
 
-Explore how lead financial stewardship and connect resource decisions to organizational priorities connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Technology Officer in Real Estate and Leasing](/roles/cto/real-estate-leasing.html)
 
-Explore how set technology direction and connect technical choices with product and business needs connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Information Officer in Real Estate and Leasing](/roles/cio/real-estate-leasing.html)
 
-Explore how guide information systems, digital operations, and technology services for the organization connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Marketing Officer in Real Estate and Leasing](/roles/cmo/real-estate-leasing.html)
 
-Explore how shape marketing strategy, customer understanding, brand, and commercial communication connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Human Resources Officer in Real Estate and Leasing](/roles/chro/real-estate-leasing.html)
 
-Explore how guide people strategy, organizational capability, and workforce-related leadership connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Information Security Officer in Real Estate and Leasing](/roles/ciso/real-estate-leasing.html)
 
-Explore how lead information-security priorities and coordinate risk-informed protection connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [General Counsel / Chief Legal Officer in Real Estate and Leasing](/roles/general-counsel/real-estate-leasing.html)
 
-Explore how lead legal judgment and connect legal advice with organizational decisions connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Revenue Officer in Real Estate and Leasing](/roles/chief-revenue-officer/real-estate-leasing.html)
 
-Explore how coordinate revenue-facing functions around a coherent commercial direction connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Product Officer in Real Estate and Leasing](/roles/chief-product-officer/real-estate-leasing.html)
 
-Explore how guide product direction, portfolio choices, and the connection between users and delivery teams connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Strategy Officer in Real Estate and Leasing](/roles/chief-strategy-officer/real-estate-leasing.html)
 
-Explore how support organization-wide choices by framing options, analysis, and strategic execution connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Board Director in Real Estate and Leasing](/roles/board-director/real-estate-leasing.html)
 
-Explore how contribute oversight, inquiry, and strategic perspective within collective governance connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Non-Executive Director in Real Estate and Leasing](/roles/non-executive-director/real-estate-leasing.html)
 
-Explore how provide independent challenge and strategic contribution distinct from management connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chair in Real Estate and Leasing](/roles/chair/real-estate-leasing.html)
 
-Explore how lead board effectiveness and support clear governance and decision-making connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Managing Director in Real Estate and Leasing](/roles/managing-director/real-estate-leasing.html)
 
-Explore how lead a business, division, or organization according to its defined mandate connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Managing Partner in Real Estate and Leasing](/roles/managing-partner/real-estate-leasing.html)
 
-Explore how combine leadership responsibilities with the governance and professional context of a partnership connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Partner in Real Estate and Leasing](/roles/partner/real-estate-leasing.html)
 
-Explore how develop a practice or business while contributing to a shared ownership or partnership structure connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Vice President of Marketing in Real Estate and Leasing](/roles/vp-marketing/real-estate-leasing.html)
 
-Explore how lead marketing teams and align brand, customer, and commercial priorities connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Vice President of Finance in Real Estate and Leasing](/roles/vp-finance/real-estate-leasing.html)
 
-Explore how lead finance teams and translate financial information into decisions for a business area connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Director of Finance in Real Estate and Leasing](/roles/director-finance/real-estate-leasing.html)
 
-Explore how lead financial planning, reporting, or control activity for a function or organization connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Director of Marketing in Real Estate and Leasing](/roles/director-marketing/real-estate-leasing.html)
 
-Explore how manage campaigns, channels, or marketing programs within a broader strategy connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Director of Legal in Real Estate and Leasing](/roles/director-legal/real-estate-leasing.html)
 
-Explore how manage a legal team, practice area, or legal operations remit connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Head of Legal in Real Estate and Leasing](/roles/head-legal/real-estate-leasing.html)
 
-Explore how lead a legal function or specialist team and advise on decisions within its remit connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Head of Growth in Real Estate and Leasing](/roles/head-growth/real-estate-leasing.html)
 
-Explore how coordinate growth experiments and commercial initiatives for a defined business connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Head of Business Development in Real Estate and Leasing](/roles/head-business-development/real-estate-leasing.html)
 
-Explore how develop relationships and opportunities that support an organization's commercial direction connects with property ownership, development, brokerage, management, or leasing relationships.
+
 
 ## Questions that make a Real Estate and Leasing target more specific
 
@@ -263,7 +263,7 @@ KOV can help candidates organize relevant experience and documents around an agr
 
 ### Can KOV promise an interview with a Real Estate and Leasing organization?
 
-No. KOV does not guarantee interviews, offers, employment, introductions, or timelines. Employers make hiring decisions.
+No. Employers make hiring decisions.
 
 ### How should I compare two Real Estate and Leasing opportunities?
 

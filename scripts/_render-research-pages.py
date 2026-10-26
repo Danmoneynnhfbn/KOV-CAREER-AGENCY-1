@@ -11,6 +11,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data" / "pages"
 BASE_URL = "https://www.kovcareeragency.org"
+HERO_IMAGES = (
+    "/assets/people/leadership-team.jpg",
+    "/assets/people/leadership-meeting.jpg",
+    "/assets/people/executive-woman.jpg",
+    "/assets/people/executive-professional.jpg",
+    "/assets/people/executive-leader.jpg",
+)
 
 # SourceNotes in the records retain the opened URLs and verification context.
 # The reviewed public facts are limited to O*NET and KOV pages opened on 2026-10-23.
@@ -25,6 +32,19 @@ def inline_markdown(value: str) -> str:
     escaped = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", escaped)
     escaped = re.sub(r"\*(.+?)\*", r"<em>\1</em>", escaped)
     return escaped
+
+
+def remove_repeated_market_intro(value: str) -> str:
+    return re.sub(
+        r"(For .+? approved outreach\.)\s+\1(?= Review the relevant existing KOV market page)",
+        r"\1",
+        value,
+    )
+
+
+def hero_image_for(page: dict) -> str:
+    index = sum(ord(char) for char in page["canonical"]) % len(HERO_IMAGES)
+    return HERO_IMAGES[index]
 
 
 def render_section(section: dict) -> str:
@@ -90,9 +110,10 @@ def render_section(section: dict) -> str:
                     '<li data-industry-card>',
                     '<article class="ceo-card">',
                     f'<h3>{esc(card["title"])}</h3>',
-                    f'<p>{inline_markdown(card["text"])}</p>',
                 ]
             )
+            if card.get("text"):
+                parts.append(f'<p>{inline_markdown(card["text"])}</p>')
             if card.get("href"):
                 parts.append(
                     f'<a class="ceo-card-link" href="{esc(card["href"])}">'
@@ -119,10 +140,11 @@ def render_section(section: dict) -> str:
         parts.append("</div>")
         for index, tab in enumerate(tabs):
             hidden = "" if index == 0 else " hidden"
+            text = remove_repeated_market_intro(tab["text"])
             parts.append(
                 f'<div role="tabpanel" data-region-panel id="market-panel-{index}" '
                 f'aria-labelledby="market-tab-{index}"{hidden}>'
-                f'<p>{inline_markdown(tab["text"])}</p></div>'
+                f'<p>{inline_markdown(text)}</p></div>'
             )
         parts.append("</div>")
     parts.append("</section>")
@@ -166,7 +188,8 @@ def markdown_section(section: dict) -> list[str]:
             title = f'[{title}]({card["href"]})'
         lines.extend([f"### {title}", "", card["text"], ""])
     for tab in section.get("tabs", []):
-        lines.extend([f"### {tab['name']}", "", tab["text"], ""])
+        text = remove_repeated_market_intro(tab["text"])
+        lines.extend([f"### {tab['name']}", "", text, ""])
     return lines
 
 
@@ -266,21 +289,18 @@ def render_faqs(faqs: list[dict]) -> str:
     return "\n".join(parts)
 
 
-def design_page_class(page: dict) -> str:
-    canonical = page["canonical"]
-    if canonical in {"/roles/", "/industries/"}:
-        return "ceo-page--overview"
-    if canonical.startswith("/roles/") and canonical.endswith(".html"):
-        return "ceo-page--role-industry"
-    if canonical.startswith("/roles/") and canonical.endswith("/"):
-        return "ceo-page--role-hub"
-    if canonical.startswith("/industries/") and canonical.endswith("/"):
-        return "ceo-page--industry-hub"
-    return "ceo-page--overview"
-
-
 def render_html(page: dict) -> str:
     schema = json.dumps(schema_for(page), ensure_ascii=False, indent=2).replace("</", "<\\/")
+    canonical_path = page["canonical"].rstrip("/")
+    canonical_parts = [part for part in canonical_path.split("/") if part]
+    if len(canonical_parts) == 3 and canonical_parts[0] == "roles":
+        design_group = "role-industry"
+    elif len(canonical_parts) == 2 and canonical_parts[0] == "roles":
+        design_group = "role-hub"
+    elif len(canonical_parts) == 2 and canonical_parts[0] == "industries":
+        design_group = "industry"
+    else:
+        design_group = "overview"
     breadcrumbs = page["breadcrumbs"] + [
         {"name": page["title"], "url": page["canonical"]}
     ]
@@ -296,9 +316,9 @@ def render_html(page: dict) -> str:
     ]
     if page.get("faqs"):
         toc_items.append('<li><a href="#faqs">Frequently asked questions</a></li>')
-    rendered_sections = [
-        render_section(section) for section in page["sections"]
-    ]
+    sections = "\n".join(render_section(section) for section in page["sections"])
+    sections += render_faqs(page.get("faqs", []))
+    first_section_end = sections.find("</section>")
     middle_cta = """
         <aside class="ceo-mid-cta">
           <p class="ceo-label">Talk through the next step</p>
@@ -306,23 +326,35 @@ def render_html(page: dict) -> str:
           <a class="ceo-button ceo-button-primary" href="/contact.html">Arrange a consultation</a>
         </aside>
     """
-    middle_index = 1
-    sections = (
-        "\n".join(rendered_sections[:middle_index])
-        + middle_cta
-        + "\n".join(rendered_sections[middle_index:])
-        + render_faqs(page.get("faqs", []))
-    )
+    if first_section_end >= 0:
+        first_section_end += len("</section>")
+        sections = sections[:first_section_end] + middle_cta + sections[first_section_end:]
     header_links = [
         ("Home", "/"),
-        ("Career services", "/services.html"),
+        ("Individual Career Services", "/candidate-services.html"),
         ("Roles", "/roles/"),
         ("Industries", "/industries/"),
-        ("CEO hub", "/roles/ceo/"),
-        ("Contact", "/contact.html"),
+        ("Private Career Representation", "/services.html"),
+        ("How It Works", "/how-it-works.html"),
+        ("Pricing", "/pricing.html"),
+        ("FAQs", "/faqs.html"),
+        ("Blog", "/blog.html"),
+        ("About", "/about.html"),
+        ("Get Started", "/contact.html"),
     ]
     nav_links = "".join(
         f'<a href="{esc(url)}">{esc(label)}</a>' for label, url in header_links
+    )
+    footer_links = "".join(
+        f'<a href="{esc(url)}">{esc(label)}</a>'
+        for label, url in [
+            ("Home", "/"),
+            ("Career services", "/services.html"),
+            ("Roles", "/roles/"),
+            ("Industries", "/industries/"),
+            ("How It Works", "/how-it-works.html"),
+            ("Contact", "/contact.html"),
+        ]
     )
     return f"""<!doctype html>
 <html lang="en">
@@ -331,19 +363,25 @@ def render_html(page: dict) -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{esc(page["title"])}</title>
   <meta name="description" content="{esc(page["description"])}">
+  <meta name="robots" content="index,follow">
   <link rel="canonical" href="{esc(BASE_URL + page["canonical"])}">
   <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="KOV Career Agency">
   <meta property="og:title" content="{esc(page["title"])}">
   <meta property="og:description" content="{esc(page["description"])}">
   <meta property="og:url" content="{esc(BASE_URL + page["canonical"])}">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{esc(page["title"])}">
   <meta name="twitter:description" content="{esc(page["description"])}">
+  <meta property="og:image" content="{esc(BASE_URL + "/preview.png")}">
+  <meta name="twitter:image" content="{esc(BASE_URL + "/preview.png")}">
   <link rel="stylesheet" href="/assets/design-components.css">
   <link rel="stylesheet" href="/assets/ceo-hubs.css">
   <script type="application/ld+json">{schema}</script>
+  <link rel="stylesheet" href="/assets/research-pages.css">
 </head>
-<body id="top" tabindex="-1" class="ceo-page {design_page_class(page)}">
+<body class="ceo-page kov-design--{design_group}" data-design-group="{design_group}">
   <div class="ceo-progress" data-reading-progress aria-hidden="true"></div>
   <header class="ceo-site-header">
     <div class="ceo-shell ceo-header-inner">
@@ -377,6 +415,7 @@ def render_html(page: dict) -> str:
           </div>
         </div>
         <aside class="ceo-hero-panel">
+          <img class="ceo-hero-image" src="{hero_image_for(page)}" alt="" loading="eager" decoding="async">
           <p class="ceo-label">A considered approach</p>
           <p>Define the role you want, clarify your evidence, and agree the work before any outreach begins.</p>
           <a href="/how-it-works.html">See how KOV works</a>
@@ -389,7 +428,6 @@ def render_html(page: dict) -> str:
         <ol>{"".join(toc_items)}</ol>
       </nav>
       <article class="ceo-prose">
-        <p class="ceo-answer">{inline_markdown(page["answer"])}</p>
         {"".join(f'<p class="ceo-citation">{inline_markdown(fact["text"])} <a href="{esc(fact["url"])}" rel="noopener noreferrer">Source: {esc(fact["source"])}</a></p>' for fact in page.get("sourceFacts", []))}
         {sections}
         <section class="ceo-end-cta">
@@ -406,11 +444,10 @@ def render_html(page: dict) -> str:
       <a class="ceo-brand" href="/"><img src="/kov-logo.png" alt="" width="28" height="28">
         <span>KOV Career Agency</span></a>
       <p>Private career representation and individual career services for professionals.</p>
-      <nav aria-label="Footer navigation">{nav_links}</nav>
+      <nav aria-label="Footer navigation">{footer_links}</nav>
       <p><a href="/privacy.html">Privacy Notice</a> · © 2026 KOV Career Agency</p>
     </div>
   </footer>
-  <a class="ceo-button ceo-button-secondary ceo-back-to-top" href="#top" data-back-to-top>Back to top</a>
   <a class="ceo-button ceo-button-primary ceo-sticky-cta" href="/contact.html">Confidential consultation</a>
   <script src="/assets/design-components.js" defer></script>
   <script src="/assets/ceo-hubs.js" defer></script>

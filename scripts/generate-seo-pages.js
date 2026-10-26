@@ -3,6 +3,25 @@ const path = require('node:path');
 
 const root = path.resolve(__dirname, '..');
 const newOnly = process.argv.includes('--new-only');
+const refreshEntityDatasets = process.argv.includes('--refresh-entity-datasets');
+const entityDatasetCatalogUrl =
+  'https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld';
+const entityDatasetNames = [
+  ['cities', 'GeoNames administrative city and capital candidates'],
+  ['towns', 'GeoNames populated-place records (town candidates)'],
+  ['professional-roles', 'O*NET 31.0 job titles'],
+  ['institutions', 'Wikidata institutions and organizations'],
+  ['job-functions', 'O*NET 31.0 detailed work activities'],
+];
+function entityDatasetReferences() {
+  return entityDatasetNames.map(([id, name]) => ({
+    '@type': 'Dataset',
+    '@id': `${entityDatasetCatalogUrl}#${id}`,
+    name,
+    url: `${entityDatasetCatalogUrl}#${id}`,
+    isPartOf: { '@id': `${entityDatasetCatalogUrl}#catalog` },
+  }));
+}
 const originalPages = JSON.parse(
   fs.readFileSync(path.join(root, 'data', 'seo-pages.json'), 'utf8')
 );
@@ -326,6 +345,7 @@ function renderPage(page) {
         creator: { '@type': 'Organization', name: page.directory.sourceName },
         mainEntityOfPage: { '@id': `${pageUrl}#webpage` },
       }] : []),
+      ...entityDatasetReferences(),
       ...(page.faqs?.length ? [{
         '@type': 'FAQPage',
         '@id': `${pageUrl}#faq`,
@@ -440,6 +460,56 @@ function outputPathFor(page) {
   return path.join(root, route.endsWith('/') ? route + 'index.html' : route);
 }
 
+if (refreshEntityDatasets) {
+  const expectedIds = new Set(entityDatasetNames.map(
+    ([id]) => `${entityDatasetCatalogUrl}#${id}`
+  ));
+  let updated = 0;
+  let missing = 0;
+  for (const page of completePages) {
+    const destination = outputPathFor(page);
+    if (!fs.existsSync(destination)) {
+      missing += 1;
+      continue;
+    }
+    const html = fs.readFileSync(destination, 'utf8');
+    const scriptPattern =
+      /(<script\b(?=[^>]*\btype=["']application\/ld\+json["'])[^>]*>)([\s\S]*?)(<\/script>)/gi;
+    let match;
+    let schema;
+    for (const candidate of html.matchAll(scriptPattern)) {
+      try {
+        const parsed = JSON.parse(candidate[2]);
+        if (Array.isArray(parsed['@graph'])) {
+          match = candidate;
+          schema = parsed;
+          break;
+        }
+      } catch (error) {
+        throw new Error(`Cannot attach shared datasets; invalid JSON-LD in ${destination}: ${error.message}`);
+      }
+    }
+    if (!match) {
+      throw new Error(`Cannot attach shared datasets; JSON-LD graph is missing: ${destination}`);
+    }
+    const graph = schema['@graph'].filter((node) => !expectedIds.has(node['@id']));
+    graph.push(...entityDatasetReferences());
+    schema['@graph'] = graph;
+    const rendered = `${match[1]}${JSON.stringify(schema, null, 2)}${match[3]}`;
+    const nextHtml =
+      html.slice(0, match.index) + rendered +
+      html.slice(match.index + match[0].length);
+    if (nextHtml !== html) {
+      fs.writeFileSync(destination, nextHtml, 'utf8');
+      updated += 1;
+    }
+  }
+  console.log(
+    `Attached ${entityDatasetNames.length} shared dataset references to ${completePages.length - missing} existing SEO pages (${updated} updated); ${missing} source records have no generated HTML page yet.`
+  );
+  process.exit(0);
+}
+
 for (const page of pagesToWrite) {
   if (!/^[a-z0-9-]+$/.test(page.slug) ||
       !expectedCounts.has(page.category)) {
@@ -543,7 +613,9 @@ if (newOnly) {
 
   const searchIndexPath = path.join(root, 'assets', 'site-search-index.js');
   const searchIndex = fs.readFileSync(searchIndexPath, 'utf8');
-  const contentMatch = searchIndex.match(/window\.kovSiteSearchContent = (.*?);\r?\nwindow\.kovSeoPageCatalog = /s);
+  const searchContentPath = path.join(root, 'assets', 'site-search-content.js');
+  const searchContent = fs.readFileSync(searchContentPath, 'utf8');
+  const contentMatch = searchContent.match(/window\.kovSiteSearchContent = (.*);\s*$/s);
   const catalogMatch = searchIndex.match(/window\.kovSeoPageCatalog = (.*);\s*$/s);
   if (!contentMatch || !catalogMatch) {
     throw new Error('Could not parse the existing site-search index.');
@@ -591,8 +663,13 @@ if (newOnly) {
   }
   const indexNewline = searchIndex.includes('\r\n') ? '\r\n' : '\n';
   fs.writeFileSync(
+    searchContentPath,
+    `window.kovSiteSearchContent = ${JSON.stringify(indexedContent)};${indexNewline}`,
+    'utf8'
+  );
+  fs.writeFileSync(
     searchIndexPath,
-    `window.kovSiteSearchContent = ${JSON.stringify(indexedContent)};${indexNewline}window.kovSeoPageCatalog = ${JSON.stringify(catalog)};${indexNewline}`,
+    `window.kovSeoPageCatalog = ${JSON.stringify(catalog)};${indexNewline}`,
     'utf8'
   );
   console.log(`Generated ${pagesToWrite.length} new pages and appended their discovery entries without rewriting existing pages.`);

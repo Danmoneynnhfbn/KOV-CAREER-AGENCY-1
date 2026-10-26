@@ -45,7 +45,7 @@ Consider document and positioning support for Managing Director materials that p
 
 ## Prepare to discuss the Holding Companies and Corporate Groups mandate
 
-To assess a Managing Director opportunity in Holding Companies and Corporate Groups, compare the stated remit to the candidate's record of operating scope, commercial or service accountability, leadership span, and decision authority. Explain how owners, board, CEO, customers, employees, lenders or investors where relevant, and partners contributed to the candidate's work and distinguish that shared context from evidence of operating scope, commercial or service accountability, leadership span, and decision authority. The candidate decides whether to pursue a Managing Director opportunity. KOV can support agreed research and preparation concerning Holding Companies and Corporate Groups. Do not resolve uncertainty about assuming the title means the same authority across employers, countries, or ownership models through assumption; verify the requirement and use only supportable Managing Director claims.
+To assess a Managing Director opportunity in Holding Companies and Corporate Groups, compare the stated remit to the candidate's record of operating scope, commercial or service accountability, leadership span, and decision authority. The candidate decides whether to pursue a Managing Director opportunity. KOV can support agreed research and preparation concerning Holding Companies and Corporate Groups. Do not resolve uncertainty about assuming the title means the same authority across employers, countries, or ownership models through assumption; verify the requirement and use only supportable Managing Director claims.
 
 ## Common positioning mistakes for Managing Director candidates in Holding Companies and Corporate Groups
 
@@ -59,7 +59,7 @@ The Managing Director remit to lead a business, division, or organization accord
 
 ## Keep research, confidentiality, and outreach aligned
 
-Protect credibility in Holding Companies and Corporate Groups by addressing assuming the title means the same authority across employers, countries, or ownership models with a factual account of operating scope, commercial or service accountability, leadership span, and decision authority and its limits. The candidate's record of operating scope, commercial or service accountability, leadership span, and decision authority should be set beside the role of owners, boards, portfolio leaders, finance teams, employees, and external partners, so shared results are attributed fairly. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Managing Director position. Rather than lead with seniority, a Managing Director profile can explain the responsibility to lead a business, division, or organization according to its defined mandate and use portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries as evidence.
+Protect credibility in Holding Companies and Corporate Groups by addressing assuming the title means the same authority across employers, countries, or ownership models with a factual account of operating scope, commercial or service accountability, leadership span, and decision authority and its limits. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Managing Director position. Rather than lead with seniority, a Managing Director profile can explain the responsibility to lead a business, division, or organization according to its defined mandate and use portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries as evidence.
 
 ## Prepare for conversations about Holding Companies and Corporate Groups work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Director career hub](/roles/managing-director/)
 
-Review the role-wide approach to lead a business, division, or organization according to its defined mandate and the evidence expected for that scope.
+
 
 ### [Holding Companies and Corporate Groups industry hub](/industries/holding-companies/)
 
-Compare how ownership or coordination of multiple entities, portfolios, or operating businesses affects career planning across functions.
+
 
 ### [Chief Executive Officer in Holding Companies and Corporate Groups](/roles/ceo/holding-companies.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Director remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Operating Officer in Holding Companies and Corporate Groups](/roles/coo/holding-companies.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Director remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Managing Director in Agriculture, Food and Forestry](/roles/managing-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with ownership or coordination of multiple entities, portfolios, or operating businesses and identify how the Managing Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Managing Director clarify before considering work in Holding Companies and Corporate Groups?
 
-Use the opening discussion to understand the specific Holding Companies and Corporate Groups employer, not to assume a standard role. Compare lead a business, division, or organization according to its defined mandate with the stated scope, identify decision partners among owners, boards, portfolio leaders, finance teams, employees, and external partners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Holding Companies and Corporate Groups employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Managing Director describe transferable experience for Holding Companies and Corporate Groups work?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### How can KOV and a Managing Director plan contact with Holding Companies and Corporate Groups organizations?
 
-Outreach should follow target research, not precede it. The Managing Director candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with operating scope, commercial or service accountability, leadership span, and decision authority is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Managing Director assess fit with Holding Companies and Corporate Groups responsibilities?
 
-Title is only a label. Establish what the employer means by Managing Director in this Holding Companies and Corporate Groups organization and how the person will work with owners, boards, portfolio leaders, finance teams, employees, and external partners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Managing Director candidate considering Holding Companies and Corporate Groups?
 

@@ -8,7 +8,7 @@ Good preparation for Chief Information Officer work includes a safe way to expla
 
 ## Who this Chief Information Officer and Utilities guide is for
 
-A precise Chief Information Officer story ties systems scope, service reliability, data stewardship, transformation, governance, and adoption to the mandate of guide information systems, digital operations, and technology services for the organization, without suggesting that the title alone establishes fit. Explain how CEO, business units, technology teams, users, vendors, and oversight stakeholders contributed to the candidate's work and distinguish that shared context from evidence of systems scope, service reliability, data stewardship, transformation, governance, and adoption. The candidate decides whether to pursue a Chief Information Officer opportunity. KOV can support agreed research and preparation concerning Utilities. Do not resolve uncertainty about collapsing infrastructure, information, product, and digital responsibilities into one vague claim through assumption; verify the requirement and use only supportable Chief Information Officer claims.
+A precise Chief Information Officer story ties systems scope, service reliability, data stewardship, transformation, governance, and adoption to the mandate of guide information systems, digital operations, and technology services for the organization, without suggesting that the title alone establishes fit. The candidate decides whether to pursue a Chief Information Officer opportunity. KOV can support agreed research and preparation concerning Utilities. Do not resolve uncertainty about collapsing infrastructure, information, product, and digital responsibilities into one vague claim through assumption; verify the requirement and use only supportable Chief Information Officer claims.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Information Officer career hub](/roles/cio/)
 
-Review the role-wide approach to guide information systems, digital operations, and technology services for the organization and the evidence expected for that scope.
+
 
 ### [Utilities industry hub](/industries/utilities/)
 
-Compare how essential network or service operations with continuity, infrastructure, and customer responsibilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Utilities](/roles/ceo/utilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Information Officer remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Operating Officer in Utilities](/roles/coo/utilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Information Officer remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Information Officer in Agriculture, Food and Forestry](/roles/cio/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with essential network or service operations with continuity, infrastructure, and customer responsibilities and identify how the Chief Information Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Information Officer test the scope of work in Utilities?
 
-A Chief Information Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's essential network or service operations with continuity, infrastructure, and customer responsibilities. Explore how the role will guide information systems, digital operations, and technology services for the organization and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Information Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's essential network or service operations with continuity, infrastructure, and customer responsibilities. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Chief Information Officer use to explain experience in Utilities?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### Which outreach choices belong to a Chief Information Officer considering Utilities?
 
-Outreach should follow target research, not precede it. The Chief Information Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with systems scope, service reliability, data stewardship, transformation, governance, and adoption is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Chief Information Officer rely on title alone when targeting Utilities?
 
-No. Compare the role description with the candidate's experience of guide information systems, digital operations, and technology services for the organization and the organization's essential network or service operations with continuity, infrastructure, and customer responsibilities. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Chief Information Officer seeking work in Utilities?
 

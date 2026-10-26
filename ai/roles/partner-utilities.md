@@ -12,7 +12,7 @@ A Partner candidate should show how client or commercial contribution, practice 
 
 ## A candidate-led process from first discussion to next steps
 
-For Partner work in Utilities, explain how the candidate could develop a practice or business while contributing to a shared ownership or partnership structure; connect that mandate to evidence of client or commercial contribution, practice leadership, collaboration, and shared responsibilities. Treat essential network or service operations with continuity, infrastructure, and customer responsibilities as a question to validate in Utilities; the answer helps clarify the Partner mandate and its reliability, infrastructure renewal, service access, affordability, and long-term planning. In Utilities, customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders may shape the work. A Partner example should separate direct responsibility from collaboration. A consultation can clarify whether a Partner candidate needs positioning, document support, target research, or approved outreach for Utilities.
+For Partner work in Utilities, explain how the candidate could develop a practice or business while contributing to a shared ownership or partnership structure; connect that mandate to evidence of client or commercial contribution, practice leadership, collaboration, and shared responsibilities. In Utilities, customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders may shape the work. A Partner example should separate direct responsibility from collaboration. A consultation can clarify whether a Partner candidate needs positioning, document support, target research, or approved outreach for Utilities.
 
 ## Documents that make Partner experience relevant here
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Partner materials that present cli
 
 ## Prepare to discuss the Utilities mandate
 
-Where revealing client information or overstating individual ownership of team results affects a career example, substitute an authorized summary that preserves the point about client or commercial contribution, practice leadership, collaboration, and shared responsibilities. The candidate decides whether to pursue a Partner opportunity. KOV can support agreed research and preparation concerning Utilities. Ask what essential network or service operations with continuity, infrastructure, and customer responsibilities means at this particular Utilities organization and how it changes the priorities assigned to a Partner. A Partner candidate should show how client or commercial contribution, practice leadership, collaboration, and shared responsibilities supported the work to develop a practice or business while contributing to a shared ownership or partnership structure, with the Utilities setting made explicit.
+Where revealing client information or overstating individual ownership of team results affects a career example, substitute an authorized summary that preserves the point about client or commercial contribution, practice leadership, collaboration, and shared responsibilities. KOV can support agreed research and preparation concerning Utilities. Ask what essential network or service operations with continuity, infrastructure, and customer responsibilities means at this particular Utilities organization and how it changes the priorities assigned to a Partner. A Partner candidate should show how client or commercial contribution, practice leadership, collaboration, and shared responsibilities supported the work to develop a practice or business while contributing to a shared ownership or partnership structure, with the Utilities setting made explicit.
 
 ## Common positioning mistakes for Partner candidates in Utilities
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Partner career hub](/roles/partner/)
 
-Review the role-wide approach to develop a practice or business while contributing to a shared ownership or partnership structure and the evidence expected for that scope.
+
 
 ### [Utilities industry hub](/industries/utilities/)
 
-Compare how essential network or service operations with continuity, infrastructure, and customer responsibilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Utilities](/roles/ceo/utilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Partner remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Operating Officer in Utilities](/roles/coo/utilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Partner remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Partner in Agriculture, Food and Forestry](/roles/partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with essential network or service operations with continuity, infrastructure, and customer responsibilities and identify how the Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Partner resolve before a target discussion in Utilities?
 
-Use the opening discussion to understand the specific Utilities employer, not to assume a standard role. Compare develop a practice or business while contributing to a shared ownership or partnership structure with the stated scope, identify decision partners among customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Utilities employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Partner career story fit the needs of Utilities?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Partner approve before outreach in Utilities?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Partner candidate's service scope; the candidate approves external communication. No one route should be assumed for all Utilities employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Utilities employers.
 
 ### How should a Partner compare title and remit in Utilities?
 
-Title is only a label. Establish what the employer means by Partner in this Utilities organization and how the person will work with customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Partner with an employer in Utilities?
 

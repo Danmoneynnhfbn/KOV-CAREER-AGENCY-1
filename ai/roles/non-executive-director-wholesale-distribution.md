@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Non-Executive Director career hub](/roles/non-executive-director/)
 
-Review the role-wide approach to provide independent challenge and strategic contribution distinct from management and the evidence expected for that scope.
+
 
 ### [Wholesale and Distribution industry hub](/industries/wholesale-distribution/)
 
-Compare how movement and availability of goods through purchasing, inventory, channel, and delivery relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Wholesale and Distribution](/roles/ceo/wholesale-distribution.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Non-Executive Director remit; consider where each function meets movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Operating Officer in Wholesale and Distribution](/roles/coo/wholesale-distribution.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Non-Executive Director remit; consider where each function meets movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Non-Executive Director in Agriculture, Food and Forestry](/roles/non-executive-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with movement and availability of goods through purchasing, inventory, channel, and delivery relationships and identify how the Non-Executive Director remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Non-Executive Director resolve before a target discussion in Wholesale and Distribution?
 
-Use the opening discussion to understand the specific Wholesale and Distribution employer, not to assume a standard role. Compare provide independent challenge and strategic contribution distinct from management with the stated scope, identify decision partners among suppliers, retailers, business customers, logistics teams, sales, and inventory operators, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Wholesale and Distribution employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Non-Executive Director career story fit the needs of Wholesale and Distribution?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Non-Executive Director approve before outreach in Wholesale and Distribution?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Non-Executive Director candidate's service scope; the candidate approves external communication. No one route should be assumed for all Wholesale and Distribution employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Wholesale and Distribution employers.
 
 ### How should a Non-Executive Director compare title and remit in Wholesale and Distribution?
 

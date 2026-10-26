@@ -63,7 +63,7 @@ The candidate can discuss partner-group mandate, management contribution, practi
 
 ## Prepare for conversations about Real Estate and Leasing work
 
-To assess a Managing Partner opportunity in Real Estate and Leasing, compare the stated remit to the candidate's record of partner-group mandate, management contribution, practice or business scope, and shared decisions. An employer's Real Estate and Leasing model may involve property ownership, development, brokerage, management, or leasing relationships; its implications for asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions should be discussed, not presumed. The candidate decides whether to pursue a Managing Partner opportunity. KOV can support agreed research and preparation concerning Real Estate and Leasing. The candidate can discuss partner-group mandate, management contribution, practice or business scope, and shared decisions while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+To assess a Managing Partner opportunity in Real Estate and Leasing, compare the stated remit to the candidate's record of partner-group mandate, management contribution, practice or business scope, and shared decisions. The candidate decides whether to pursue a Managing Partner opportunity. KOV can support agreed research and preparation concerning Real Estate and Leasing. The candidate can discuss partner-group mandate, management contribution, practice or business scope, and shared decisions while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Partner career hub](/roles/managing-partner/)
 
-Review the role-wide approach to combine leadership responsibilities with the governance and professional context of a partnership and the evidence expected for that scope.
+
 
 ### [Real Estate and Leasing industry hub](/industries/real-estate-leasing/)
 
-Compare how property ownership, development, brokerage, management, or leasing relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Real Estate and Leasing](/roles/ceo/real-estate-leasing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Partner remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Operating Officer in Real Estate and Leasing](/roles/coo/real-estate-leasing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Partner remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Managing Partner in Agriculture, Food and Forestry](/roles/managing-partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with property ownership, development, brokerage, management, or leasing relationships and identify how the Managing Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Managing Partner in Real Estate and Leasing?
 
-Use the opening discussion to understand the specific Real Estate and Leasing employer, not to assume a standard role. Compare combine leadership responsibilities with the governance and professional context of a partnership with the stated scope, identify decision partners among owners, tenants, customers, investors, property teams, suppliers, and communities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Real Estate and Leasing employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a Managing Partner make prior work relevant to Real Estate and Leasing?
 
@@ -139,11 +139,11 @@ Select examples that show partner-group mandate, management contribution, practi
 
 ### Which career materials can help a Managing Partner explore work in Real Estate and Leasing?
 
-Document selection depends on the opportunity. A Managing Partner may draw from partner biography, leadership resume, practice summary, and profile, but should foreground only material connected to asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a Managing Partner contacts an organization in Real Estate and Leasing?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Managing Partner candidate's service scope; the candidate approves external communication. No one route should be assumed for all Real Estate and Leasing employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Real Estate and Leasing employers.
 
 ### What makes a Managing Partner background relevant to work in Real Estate and Leasing?
 

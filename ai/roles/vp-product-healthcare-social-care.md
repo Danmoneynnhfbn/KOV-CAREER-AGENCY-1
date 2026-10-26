@@ -12,7 +12,7 @@ A candidate exploring Healthcare and Social Care should test the assumed link be
 
 ## A candidate-led process from first discussion to next steps
 
-Rather than lead with seniority, a Vice President of Product profile can explain the responsibility to set product priorities and coordinate discovery, planning, and delivery and use service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples as evidence. Not every Healthcare and Social Care organization will handle service quality, workforce coordination, access, continuity, and sensitive information alike. Confirm how care, health-related services, or social support delivered by teams and organizations informs this Vice President of Product position. The candidate decides whether to pursue a Vice President of Product opportunity. KOV can support agreed research and preparation concerning Healthcare and Social Care. Protect credibility in Healthcare and Social Care by addressing listing features shipped without explaining user problem, constraints, or adoption with a factual account of portfolio scope, customer insight, prioritization, team influence, and product outcomes and its limits.
+Rather than lead with seniority, a Vice President of Product profile can explain the responsibility to set product priorities and coordinate discovery, planning, and delivery and use service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples as evidence. The candidate decides whether to pursue a Vice President of Product opportunity. KOV can support agreed research and preparation concerning Healthcare and Social Care. Protect credibility in Healthcare and Social Care by addressing listing features shipped without explaining user problem, constraints, or adoption with a factual account of portfolio scope, customer insight, prioritization, team influence, and product outcomes and its limits.
 
 ## Documents that make Vice President of Product experience relevant here
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Product career hub](/roles/vp-product/)
 
-Review the role-wide approach to set product priorities and coordinate discovery, planning, and delivery and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Product remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Product remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Vice President of Product in Manufacturing](/roles/vp-product/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with care, health-related services, or social support delivered by teams and organizations and identify how the Vice President of Product remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Vice President of Product clarify before considering work in Healthcare and Social Care?
 
-A Vice President of Product candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's care, health-related services, or social support delivered by teams and organizations. Explore how the role will set product priorities and coordinate discovery, planning, and delivery and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Vice President of Product candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's care, health-related services, or social support delivered by teams and organizations. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Vice President of Product describe transferable experience for Healthcare and Social Care work?
 
@@ -139,19 +139,19 @@ Describe an instance where the candidate could set product priorities and coordi
 
 ### How can a Vice President of Product choose documents for conversations about Healthcare and Social Care?
 
-Possible materials include executive resume, product portfolio, leadership narrative, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples. Each claim should be accurate for this Healthcare and Social Care target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, product portfolio, leadership narrative, and profile. Each claim should be accurate for this Healthcare and Social Care target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Vice President of Product plan contact with Healthcare and Social Care organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Vice President of Product candidate's service scope; the candidate approves external communication. No one route should be assumed for all Healthcare and Social Care employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Healthcare and Social Care employers.
 
 ### How can a Vice President of Product assess fit with Healthcare and Social Care responsibilities?
 
-Title is only a label. Establish what the employer means by Vice President of Product in this Healthcare and Social Care organization and how the person will work with people receiving services, families, care professionals, administrators, owners, and community partners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Vice President of Product candidate considering Healthcare and Social Care?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Vice President of Product candidate considering Healthcare and Social Care, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

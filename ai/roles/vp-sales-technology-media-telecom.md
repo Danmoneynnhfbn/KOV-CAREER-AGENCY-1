@@ -45,7 +45,7 @@ Consider document and positioning support for Vice President of Sales materials 
 
 ## Prepare to discuss the Technology, Media and Telecom mandate
 
-The Technology, Media and Telecom context involves digital products, platforms, content, communications, or technology-enabled services; examine how that structure affects product evolution, reliability, audience or customer needs, technical choices, and changing business models before drawing conclusions about the Vice President of Sales role. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Vice President of Sales example should separate direct responsibility from collaboration. Where appropriate to the agreed service, KOV can help a Vice President of Sales candidate prepare and coordinate approved next steps for Technology, Media and Telecom. Before discussing product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality, check whether relying on headline figures without explaining team, territory, offer, and time period could expose sensitive details or blur the candidate's decision boundary.
+The Technology, Media and Telecom context involves digital products, platforms, content, communications, or technology-enabled services; examine how that structure affects product evolution, reliability, audience or customer needs, technical choices, and changing business models before drawing conclusions about the Vice President of Sales role. A Vice President of Sales example should separate direct responsibility from collaboration. Where appropriate to the agreed service, KOV can help a Vice President of Sales candidate prepare and coordinate approved next steps for Technology, Media and Telecom. Before discussing product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality, check whether relying on headline figures without explaining team, territory, offer, and time period could expose sensitive details or blur the candidate's decision boundary.
 
 ## Common positioning mistakes for Vice President of Sales candidates in Technology, Media and Telecom
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Sales career hub](/roles/vp-sales/)
 
-Review the role-wide approach to lead a sales organization and connect market priorities with execution and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Sales remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Sales remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Vice President of Sales in Manufacturing](/roles/vp-sales/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with digital products, platforms, content, communications, or technology-enabled services and identify how the Vice President of Sales remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Vice President of Sales resolve before a target discussion in Technology, Media and Telecom?
 
-A Vice President of Sales candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's digital products, platforms, content, communications, or technology-enabled services. Explore how the role will lead a sales organization and connect market priorities with execution and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Vice President of Sales candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's digital products, platforms, content, communications, or technology-enabled services. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Vice President of Sales career story fit the needs of Technology, Media and Telecom?
 
@@ -139,19 +139,19 @@ Describe an instance where the candidate could lead a sales organization and con
 
 ### What should a Vice President of Sales prepare in writing before targeting Technology, Media and Telecom?
 
-Possible materials include executive resume, sales leadership profile, commercial achievements, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, sales leadership profile, commercial achievements, and profile. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
 
 ### What should a Vice President of Sales approve before outreach in Technology, Media and Telecom?
 
-Outreach should follow target research, not precede it. The Vice President of Sales candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with team scope, customer segments, sales processes, forecasting discipline, and attributable contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a Vice President of Sales compare title and remit in Technology, Media and Telecom?
 
-Title is only a label. Establish what the employer means by Vice President of Sales in this Technology, Media and Telecom organization and how the person will work with users, product and engineering teams, customers, creators, advertisers, partners, and investors. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Vice President of Sales with an employer in Technology, Media and Telecom?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Vice President of Sales candidate considering Technology, Media and Telecom, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

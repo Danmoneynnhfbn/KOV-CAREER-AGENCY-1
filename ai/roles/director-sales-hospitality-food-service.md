@@ -59,15 +59,15 @@ A Director of Sales candidate should be ready to explain claiming results withou
 
 ## Keep research, confidentiality, and outreach aligned
 
-Readers need to see what Director of Sales work involved; connect manage sales teams, accounts, or territories against an agreed commercial plan with the candidate's own examples of customer segment, territory or account scope, team contribution, and sales process in Hospitality and Food Service. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Director of Sales example should separate direct responsibility from collaboration. For a Director of Sales target, KOV can discuss how resume, sales achievement brief, profile, and interview examples support the candidate's account of customer segment, territory or account scope, team contribution, and sales process; external steps require prior agreement. Good preparation for Director of Sales work includes a safe way to explain claiming results without clarifying target, territory, team role, or sales cycle and a clear distinction between fact and inference.
+Readers need to see what Director of Sales work involved; connect manage sales teams, accounts, or territories against an agreed commercial plan with the candidate's own examples of customer segment, territory or account scope, team contribution, and sales process in Hospitality and Food Service. A Director of Sales example should separate direct responsibility from collaboration. For a Director of Sales target, KOV can discuss how resume, sales achievement brief, profile, and interview examples support the candidate's account of customer segment, territory or account scope, team contribution, and sales process; external steps require prior agreement. Good preparation for Director of Sales work includes a safe way to explain claiming results without clarifying target, territory, team role, or sales cycle and a clear distinction between fact and inference.
 
 ## Prepare for conversations about Hospitality and Food Service work
 
-The Director of Sales remit to manage sales teams, accounts, or territories against an agreed commercial plan should be described through decisions and examples, especially evidence of customer segment, territory or account scope, team contribution, and sales process relevant to Hospitality and Food Service. For Hospitality and Food Service, establish whether guest-facing accommodation, food, venue, or experience services delivered through people and operations describes the target employer and how guest experience, operating capacity, service consistency, workforce coordination, and supplier variability is reflected in its Director of Sales mandate. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Director of Sales example should separate direct responsibility from collaboration. Protect credibility in Hospitality and Food Service by addressing claiming results without clarifying target, territory, team role, or sales cycle with a factual account of customer segment, territory or account scope, team contribution, and sales process and its limits.
+The Director of Sales remit to manage sales teams, accounts, or territories against an agreed commercial plan should be described through decisions and examples, especially evidence of customer segment, territory or account scope, team contribution, and sales process relevant to Hospitality and Food Service. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Director of Sales example should separate direct responsibility from collaboration. Protect credibility in Hospitality and Food Service by addressing claiming results without clarifying target, territory, team role, or sales cycle with a factual account of customer segment, territory or account scope, team contribution, and sales process and its limits.
 
 ## Run the search thoughtfully in each target market
 
-In a Hospitality and Food Service target, make the Director of Sales contribution legible: describe how the candidate helped manage sales teams, accounts, or territories against an agreed commercial plan and what supports customer segment, territory or account scope, team contribution, and sales process. For Hospitality and Food Service, establish whether guest-facing accommodation, food, venue, or experience services delivered through people and operations describes the target employer and how guest experience, operating capacity, service consistency, workforce coordination, and supplier variability is reflected in its Director of Sales mandate. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Director of Sales example should separate direct responsibility from collaboration. Keep the Director of Sales narrative accurate where claiming results without clarifying target, territory, team role, or sales cycle may arise: attribute shared work and disclose only information the candidate may use.
+In a Hospitality and Food Service target, make the Director of Sales contribution legible: describe how the candidate helped manage sales teams, accounts, or territories against an agreed commercial plan and what supports customer segment, territory or account scope, team contribution, and sales process. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Director of Sales example should separate direct responsibility from collaboration. Keep the Director of Sales narrative accurate where claiming results without clarifying target, territory, team role, or sales cycle may arise: attribute shared work and disclose only information the candidate may use.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Sales career hub](/roles/director-sales/)
 
-Review the role-wide approach to manage sales teams, accounts, or territories against an agreed commercial plan and the evidence expected for that scope.
+
 
 ### [Hospitality and Food Service industry hub](/industries/hospitality-food-service/)
 
-Compare how guest-facing accommodation, food, venue, or experience services delivered through people and operations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Hospitality and Food Service](/roles/ceo/hospitality-food-service.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Sales remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Operating Officer in Hospitality and Food Service](/roles/coo/hospitality-food-service.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Sales remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Director of Sales in Manufacturing](/roles/director-sales/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with guest-facing accommodation, food, venue, or experience services delivered through people and operations and identify how the Director of Sales remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Director of Sales test the scope of work in Hospitality and Food Service?
 
-A Director of Sales candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. Explore how the role will manage sales teams, accounts, or territories against an agreed commercial plan and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of Sales candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Director of Sales use to explain experience in Hospitality and Food Service?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate customer s
 
 ### What outcome can KOV guarantee for a Director of Sales seeking work in Hospitality and Food Service?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of Sales candidate considering Hospitality and Food Service, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

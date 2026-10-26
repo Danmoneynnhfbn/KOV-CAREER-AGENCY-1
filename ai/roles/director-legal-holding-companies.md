@@ -33,7 +33,7 @@ A Director of Legal candidate should be ready to explain disclosing privileged o
 
 ## Choose the individual services that fit the work
 
-Good preparation for Director of Legal work includes a safe way to explain disclosing privileged or client-sensitive information or implying unheld authority and a clear distinction between fact and inference. Explain how General Counsel, business leaders, legal colleagues, external counsel, and relevant stakeholders contributed to the candidate's work and distinguish that shared context from evidence of practice or advisory scope, team leadership, work prioritization, and business partnership. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Director of Legal position. Position a Director of Legal career by linking manage a legal team, practice area, or legal operations remit to portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries, then clarify which part of that work the candidate actually owned.
+Good preparation for Director of Legal work includes a safe way to explain disclosing privileged or client-sensitive information or implying unheld authority and a clear distinction between fact and inference. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Director of Legal position. Position a Director of Legal career by linking manage a legal team, practice area, or legal operations remit to portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries, then clarify which part of that work the candidate actually owned.
 
 ### [Private career representation](/services.html)
 
@@ -63,7 +63,7 @@ Where appropriate to the agreed service, KOV can help a Director of Legal candid
 
 ## Prepare for conversations about Holding Companies and Corporate Groups work
 
-Do not resolve uncertainty about disclosing privileged or client-sensitive information or implying unheld authority through assumption; verify the requirement and use only supportable Director of Legal claims. An account of portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries should identify the candidate's contribution and the involvement of General Counsel, business leaders, legal colleagues, external counsel, and relevant stakeholders. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Director of Legal position. A Director of Legal candidate should show how practice or advisory scope, team leadership, work prioritization, and business partnership supported the work to manage a legal team, practice area, or legal operations remit, with the Holding Companies and Corporate Groups setting made explicit.
+Do not resolve uncertainty about disclosing privileged or client-sensitive information or implying unheld authority through assumption; verify the requirement and use only supportable Director of Legal claims. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Director of Legal position. A Director of Legal candidate should show how practice or advisory scope, team leadership, work prioritization, and business partnership supported the work to manage a legal team, practice area, or legal operations remit, with the Holding Companies and Corporate Groups setting made explicit.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Legal career hub](/roles/director-legal/)
 
-Review the role-wide approach to manage a legal team, practice area, or legal operations remit and the evidence expected for that scope.
+
 
 ### [Holding Companies and Corporate Groups industry hub](/industries/holding-companies/)
 
-Compare how ownership or coordination of multiple entities, portfolios, or operating businesses affects career planning across functions.
+
 
 ### [Chief Executive Officer in Holding Companies and Corporate Groups](/roles/ceo/holding-companies.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Legal remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Operating Officer in Holding Companies and Corporate Groups](/roles/coo/holding-companies.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Legal remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Director of Legal in Technology, Media and Telecom](/roles/director-legal/technology-media-telecom.html)
 
-Compare digital products, platforms, content, communications, or technology-enabled services with ownership or coordination of multiple entities, portfolios, or operating businesses and identify how the Director of Legal remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Director of Legal test the scope of work in Holding Companies and Corporate Groups?
 
-A Director of Legal candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's ownership or coordination of multiple entities, portfolios, or operating businesses. Explore how the role will manage a legal team, practice area, or legal operations remit and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of Legal candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's ownership or coordination of multiple entities, portfolios, or operating businesses. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Director of Legal use to explain experience in Holding Companies and Corporate Groups?
 
@@ -143,15 +143,15 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### Which outreach choices belong to a Director of Legal considering Holding Companies and Corporate Groups?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of Legal candidate's service scope; the candidate approves external communication. No one route should be assumed for all Holding Companies and Corporate Groups employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Holding Companies and Corporate Groups employers.
 
 ### Can a Director of Legal rely on title alone when targeting Holding Companies and Corporate Groups?
 
-No. Compare the role description with the candidate's experience of manage a legal team, practice area, or legal operations remit and the organization's ownership or coordination of multiple entities, portfolios, or operating businesses. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Director of Legal seeking work in Holding Companies and Corporate Groups?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of Legal candidate considering Holding Companies and Corporate Groups, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

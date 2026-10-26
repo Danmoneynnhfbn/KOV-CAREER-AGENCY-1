@@ -16,7 +16,7 @@ Keep the Head of Growth narrative accurate where claiming all movement as growth
 
 ## Documents that make Head of Growth experience relevant here
 
-Do not resolve uncertainty about claiming all movement as growth impact without describing attribution or context through assumption; verify the requirement and use only supportable Head of Growth claims. Preparation for a Head of Growth conversation should address whether the organization sells products, services, content, connectivity, or a mix, and how the role links technical and commercial priorities; relate the response to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality, not speculation about hiring. Not every Technology, Media and Telecom organization will handle product evolution, reliability, audience or customer needs, technical choices, and changing business models alike. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Head of Growth position. A Head of Growth candidate should show how growth remit, customer insight, channels, collaboration, and attributable learning supported the work to coordinate growth experiments and commercial initiatives for a defined business, with the Technology, Media and Telecom setting made explicit.
+Do not resolve uncertainty about claiming all movement as growth impact without describing attribution or context through assumption; verify the requirement and use only supportable Head of Growth claims. Not every Technology, Media and Telecom organization will handle product evolution, reliability, audience or customer needs, technical choices, and changing business models alike. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Head of Growth position. A Head of Growth candidate should show how growth remit, customer insight, channels, collaboration, and attributable learning supported the work to coordinate growth experiments and commercial initiatives for a defined business, with the Technology, Media and Telecom setting made explicit.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -67,7 +67,7 @@ Before discussing product or platform scope, users served, team collaboration, d
 
 ## Run the search thoughtfully in each target market
 
-Do not resolve uncertainty about claiming all movement as growth impact without describing attribution or context through assumption; verify the requirement and use only supportable Head of Growth claims. The candidate decides whether to pursue a Head of Growth opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. For Technology, Media and Telecom, establish whether digital products, platforms, content, communications, or technology-enabled services describes the target employer and how product evolution, reliability, audience or customer needs, technical choices, and changing business models is reflected in its Head of Growth mandate. Show the Head of Growth scope behind the title: how the candidate could coordinate growth experiments and commercial initiatives for a defined business, which decisions mattered, and where growth remit, customer insight, channels, collaboration, and attributable learning demonstrates their contribution.
+Do not resolve uncertainty about claiming all movement as growth impact without describing attribution or context through assumption; verify the requirement and use only supportable Head of Growth claims. KOV can support agreed research and preparation concerning Technology, Media and Telecom. For Technology, Media and Telecom, establish whether digital products, platforms, content, communications, or technology-enabled services describes the target employer and how product evolution, reliability, audience or customer needs, technical choices, and changing business models is reflected in its Head of Growth mandate. Show the Head of Growth scope behind the title: how the candidate could coordinate growth experiments and commercial initiatives for a defined business, which decisions mattered, and where growth remit, customer insight, channels, collaboration, and attributable learning demonstrates their contribution.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Growth career hub](/roles/head-growth/)
 
-Review the role-wide approach to coordinate growth experiments and commercial initiatives for a defined business and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Growth remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Growth remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Head of Growth in Retail and E-commerce](/roles/head-growth/retail-ecommerce.html)
 
-Compare customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment with digital products, platforms, content, communications, or technology-enabled services and identify how the Head of Growth remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Head of Growth clarify before considering work in Technology, Media and Telecom?
 
-Use the opening discussion to understand the specific Technology, Media and Telecom employer, not to assume a standard role. Compare coordinate growth experiments and commercial initiatives for a defined business with the stated scope, identify decision partners among users, product and engineering teams, customers, creators, advertisers, partners, and investors, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Technology, Media and Telecom employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Head of Growth describe transferable experience for Technology, Media and Telecom work?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Head of Growth assess fit with Technology, Media and Telecom responsibilities?
 
-Title is only a label. Establish what the employer means by Head of Growth in this Technology, Media and Telecom organization and how the person will work with users, product and engineering teams, customers, creators, advertisers, partners, and investors. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Head of Growth candidate considering Technology, Media and Telecom?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Head of Growth candidate considering Technology, Media and Telecom, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

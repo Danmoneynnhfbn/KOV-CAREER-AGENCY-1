@@ -49,7 +49,7 @@ Rather than lead with seniority, a Managing Partner profile can explain the resp
 
 ## Common positioning mistakes for Managing Partner candidates in Technology, Media and Telecom
 
-For Managing Partner materials, manage the risk of presenting partner-group outcomes as individual decisions or ignoring shared governance; support claims with partner-group mandate, management contribution, practice or business scope, and shared decisions and remove details that are not authorized for sharing. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Managing Partner example should separate direct responsibility from collaboration. Not every Technology, Media and Telecom organization will handle product evolution, reliability, audience or customer needs, technical choices, and changing business models alike. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Managing Partner position. For Managing Partner work in Technology, Media and Telecom, explain how the candidate could combine leadership responsibilities with the governance and professional context of a partnership; connect that mandate to evidence of partner-group mandate, management contribution, practice or business scope, and shared decisions.
+For Managing Partner materials, manage the risk of presenting partner-group outcomes as individual decisions or ignoring shared governance; support claims with partner-group mandate, management contribution, practice or business scope, and shared decisions and remove details that are not authorized for sharing. Not every Technology, Media and Telecom organization will handle product evolution, reliability, audience or customer needs, technical choices, and changing business models alike. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Managing Partner position. For Managing Partner work in Technology, Media and Telecom, explain how the candidate could combine leadership responsibilities with the governance and professional context of a partnership; connect that mandate to evidence of partner-group mandate, management contribution, practice or business scope, and shared decisions.
 
 - Treat Technology, Media and Telecom as one uniform employer type; distinguish the actual organization and role.
 - Use a Managing Partner title without explaining combine leadership responsibilities with the governance and professional context of a partnership.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Partner career hub](/roles/managing-partner/)
 
-Review the role-wide approach to combine leadership responsibilities with the governance and professional context of a partnership and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Partner remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Partner remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Managing Partner in Agriculture, Food and Forestry](/roles/managing-partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with digital products, platforms, content, communications, or technology-enabled services and identify how the Managing Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Managing Partner clarify before considering work in Technology, Media and Telecom?
 
-Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the Managing Partner would combine leadership responsibilities with the governance and professional context of a partnership. Ask how users, product and engineering teams, customers, creators, advertisers, partners, and investors participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the Managing Partner would combine leadership responsibilities with the governance and professional context of a partnership. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Managing Partner describe transferable experience for Technology, Media and Telecom work?
 
@@ -139,15 +139,15 @@ Make the connection explicit: the candidate's record of partner-group mandate, m
 
 ### How can a Managing Partner choose documents for conversations about Technology, Media and Telecom?
 
-Document selection depends on the opportunity. A Managing Partner may draw from partner biography, leadership resume, practice summary, and profile, but should foreground only material connected to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Managing Partner plan contact with Technology, Media and Telecom organizations?
 
-Outreach should follow target research, not precede it. The Managing Partner candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with partner-group mandate, management contribution, practice or business scope, and shared decisions is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Managing Partner assess fit with Technology, Media and Telecom responsibilities?
 
-Title is only a label. Establish what the employer means by Managing Partner in this Technology, Media and Telecom organization and how the person will work with users, product and engineering teams, customers, creators, advertisers, partners, and investors. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Managing Partner candidate considering Technology, Media and Telecom?
 

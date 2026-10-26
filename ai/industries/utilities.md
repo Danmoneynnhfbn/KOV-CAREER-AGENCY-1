@@ -85,27 +85,27 @@ Use KOV's London page as a starting point for an agreed UK-focused search discus
 
 ### Saudi Arabia
 
-For Utilities targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Utilities targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Utilities targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### UAE
 
-For Utilities targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Utilities targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Utilities targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### United Kingdom
 
-For Utilities targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Utilities targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Utilities targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Dubai
 
-For Utilities targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Utilities targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Utilities targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Australia
 
-For Utilities targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Utilities targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Utilities targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Africa
 
-For Utilities targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Utilities targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Utilities targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ## Choose an appropriate level of career support
 
@@ -129,91 +129,91 @@ Use the cards to open only the role-and-industry pages currently available. Each
 
 ### [Chief Executive Officer in Utilities](/roles/ceo/utilities.html)
 
-Explore how set organization-wide direction and coordinate executive work connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Operating Officer in Utilities](/roles/coo/utilities.html)
 
-Explore how align operating functions, delivery systems, and organizational priorities connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Financial Officer in Utilities](/roles/cfo/utilities.html)
 
-Explore how lead financial stewardship and connect resource decisions to organizational priorities connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Technology Officer in Utilities](/roles/cto/utilities.html)
 
-Explore how set technology direction and connect technical choices with product and business needs connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Information Officer in Utilities](/roles/cio/utilities.html)
 
-Explore how guide information systems, digital operations, and technology services for the organization connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Marketing Officer in Utilities](/roles/cmo/utilities.html)
 
-Explore how shape marketing strategy, customer understanding, brand, and commercial communication connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Human Resources Officer in Utilities](/roles/chro/utilities.html)
 
-Explore how guide people strategy, organizational capability, and workforce-related leadership connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Information Security Officer in Utilities](/roles/ciso/utilities.html)
 
-Explore how lead information-security priorities and coordinate risk-informed protection connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [General Counsel / Chief Legal Officer in Utilities](/roles/general-counsel/utilities.html)
 
-Explore how lead legal judgment and connect legal advice with organizational decisions connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Revenue Officer in Utilities](/roles/chief-revenue-officer/utilities.html)
 
-Explore how coordinate revenue-facing functions around a coherent commercial direction connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Product Officer in Utilities](/roles/chief-product-officer/utilities.html)
 
-Explore how guide product direction, portfolio choices, and the connection between users and delivery teams connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Strategy Officer in Utilities](/roles/chief-strategy-officer/utilities.html)
 
-Explore how support organization-wide choices by framing options, analysis, and strategic execution connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Board Director in Utilities](/roles/board-director/utilities.html)
 
-Explore how contribute oversight, inquiry, and strategic perspective within collective governance connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Non-Executive Director in Utilities](/roles/non-executive-director/utilities.html)
 
-Explore how provide independent challenge and strategic contribution distinct from management connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chair in Utilities](/roles/chair/utilities.html)
 
-Explore how lead board effectiveness and support clear governance and decision-making connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Managing Director in Utilities](/roles/managing-director/utilities.html)
 
-Explore how lead a business, division, or organization according to its defined mandate connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Managing Partner in Utilities](/roles/managing-partner/utilities.html)
 
-Explore how combine leadership responsibilities with the governance and professional context of a partnership connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Partner in Utilities](/roles/partner/utilities.html)
 
-Explore how develop a practice or business while contributing to a shared ownership or partnership structure connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Vice President of Engineering in Utilities](/roles/vp-engineering/utilities.html)
 
-Explore how lead engineering organization, technical delivery, and capability development connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Vice President of Operations in Utilities](/roles/vp-operations/utilities.html)
 
-Explore how coordinate operational performance across teams, locations, or service lines connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Director of Operations in Utilities](/roles/director-operations/utilities.html)
 
-Explore how manage operational delivery and improve coordination within a defined remit connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Director of Engineering in Utilities](/roles/director-engineering/utilities.html)
 
-Explore how direct engineering teams and coordinate technical execution in a defined area connects with essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ## Questions that make a Utilities target more specific
 
@@ -247,7 +247,7 @@ KOV can help candidates organize relevant experience and documents around an agr
 
 ### Can KOV promise an interview with a Utilities organization?
 
-No. KOV does not guarantee interviews, offers, employment, introductions, or timelines. Employers make hiring decisions.
+No. Employers make hiring decisions.
 
 ### How should I compare two Utilities opportunities?
 

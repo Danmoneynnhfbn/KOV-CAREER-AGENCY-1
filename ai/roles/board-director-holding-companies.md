@@ -16,7 +16,7 @@ A precise Board Director story ties committee or board remit, preparation, judgm
 
 ## Documents that make Board Director experience relevant here
 
-A Board Director candidate should show how committee or board remit, preparation, judgment, relevant expertise, and collective contribution supported the work to contribute oversight, inquiry, and strategic perspective within collective governance, with the Holding Companies and Corporate Groups setting made explicit. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Board Director position. The service plan should fit the candidate's Board Director priorities; agree research, materials, and any outreach before contact occurs. Do not resolve uncertainty about implying executive authority for board decisions or claiming confidential board outcomes through assumption; verify the requirement and use only supportable Board Director claims.
+A Board Director candidate should show how committee or board remit, preparation, judgment, relevant expertise, and collective contribution supported the work to contribute oversight, inquiry, and strategic perspective within collective governance, with the Holding Companies and Corporate Groups setting made explicit. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Board Director position. The service plan should fit the candidate's Board Director priorities; agree research, materials, and any outreach before contact occurs. Do not resolve uncertainty about implying executive authority for board decisions or claiming confidential board outcomes through assumption; verify the requirement and use only supportable Board Director claims.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ A Board Director candidate should show how committee or board remit, preparation
 
 ## Choose the individual services that fit the work
 
-Review each Board Director example for implying executive authority for board decisions or claiming confidential board outcomes, then describe the candidate's decisions without overstating their control over chair, fellow directors, management, owners, stakeholders, and governance professionals. Discuss portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries with care: a Board Director candidate can explain contribution while omitting confidential or identifying facts. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Board Director position. A precise Board Director story ties committee or board remit, preparation, judgment, relevant expertise, and collective contribution to the mandate of contribute oversight, inquiry, and strategic perspective within collective governance, without suggesting that the title alone establishes fit.
+Review each Board Director example for implying executive authority for board decisions or claiming confidential board outcomes, then describe the candidate's decisions without overstating their control over chair, fellow directors, management, owners, stakeholders, and governance professionals. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Board Director position. A precise Board Director story ties committee or board remit, preparation, judgment, relevant expertise, and collective contribution to the mandate of contribute oversight, inquiry, and strategic perspective within collective governance, without suggesting that the title alone establishes fit.
 
 ### [Private career representation](/services.html)
 
@@ -49,7 +49,7 @@ A candidate exploring Holding Companies and Corporate Groups should test the ass
 
 ## Common positioning mistakes for Board Director candidates in Holding Companies and Corporate Groups
 
-Before discussing portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries, check whether implying executive authority for board decisions or claiming confidential board outcomes could expose sensitive details or blur the candidate's decision boundary. Use an example involving portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries to describe the decision, the parties involved, and the candidate's role as a Board Director. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Board Director position. In a Holding Companies and Corporate Groups target, make the Board Director contribution legible: describe how the candidate helped contribute oversight, inquiry, and strategic perspective within collective governance and what supports committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
+Before discussing portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries, check whether implying executive authority for board decisions or claiming confidential board outcomes could expose sensitive details or blur the candidate's decision boundary. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Board Director position. In a Holding Companies and Corporate Groups target, make the Board Director contribution legible: describe how the candidate helped contribute oversight, inquiry, and strategic perspective within collective governance and what supports committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
 
 - Treat Holding Companies and Corporate Groups as one uniform employer type; distinguish the actual organization and role.
 - Use a Board Director title without explaining contribute oversight, inquiry, and strategic perspective within collective governance.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Board Director career hub](/roles/board-director/)
 
-Review the role-wide approach to contribute oversight, inquiry, and strategic perspective within collective governance and the evidence expected for that scope.
+
 
 ### [Holding Companies and Corporate Groups industry hub](/industries/holding-companies/)
 
-Compare how ownership or coordination of multiple entities, portfolios, or operating businesses affects career planning across functions.
+
 
 ### [Chief Executive Officer in Holding Companies and Corporate Groups](/roles/ceo/holding-companies.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Board Director remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Operating Officer in Holding Companies and Corporate Groups](/roles/coo/holding-companies.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Board Director remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Board Director in Agriculture, Food and Forestry](/roles/board-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with ownership or coordination of multiple entities, portfolios, or operating businesses and identify how the Board Director remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Board Director resolve before a target discussion in Holding Companies and Corporate Groups?
 
-Use the opening discussion to understand the specific Holding Companies and Corporate Groups employer, not to assume a standard role. Compare contribute oversight, inquiry, and strategic perspective within collective governance with the stated scope, identify decision partners among owners, boards, portfolio leaders, finance teams, employees, and external partners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Holding Companies and Corporate Groups employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Board Director career story fit the needs of Holding Companies and Corporate Groups?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Board Director approve before outreach in Holding Companies and Corporate Groups?
 
-Outreach should follow target research, not precede it. The Board Director candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with committee or board remit, preparation, judgment, relevant expertise, and collective contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a Board Director compare title and remit in Holding Companies and Corporate Groups?
 

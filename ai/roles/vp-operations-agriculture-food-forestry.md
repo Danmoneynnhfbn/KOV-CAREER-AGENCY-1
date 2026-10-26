@@ -12,7 +12,7 @@ A candidate exploring Agriculture, Food and Forestry should test the assumed lin
 
 ## A candidate-led process from first discussion to next steps
 
-Show the Vice President of Operations scope behind the title: how the candidate could coordinate operational performance across teams, locations, or service lines, which decisions mattered, and where operating remit, workflow choices, service quality, resources, and cross-functional contribution demonstrates their contribution. The Agriculture, Food and Forestry context involves production linked to land, biological cycles, processing, and supply relationships; examine how that structure affects seasonality, input availability, quality variation, and coordination across production stages before drawing conclusions about the Vice President of Operations role. The candidate decides whether to pursue a Vice President of Operations opportunity. KOV can support agreed research and preparation concerning Agriculture, Food and Forestry. Keep the Vice President of Operations narrative accurate where claiming improvements without baseline, scope, constraints, or shared contributors may arise: attribute shared work and disclose only information the candidate may use.
+Show the Vice President of Operations scope behind the title: how the candidate could coordinate operational performance across teams, locations, or service lines, which decisions mattered, and where operating remit, workflow choices, service quality, resources, and cross-functional contribution demonstrates their contribution. The candidate decides whether to pursue a Vice President of Operations opportunity. KOV can support agreed research and preparation concerning Agriculture, Food and Forestry. Keep the Vice President of Operations narrative accurate where claiming improvements without baseline, scope, constraints, or shared contributors may arise: attribute shared work and disclose only information the candidate may use.
 
 ## Documents that make Vice President of Operations experience relevant here
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Operations career hub](/roles/vp-operations/)
 
-Review the role-wide approach to coordinate operational performance across teams, locations, or service lines and the evidence expected for that scope.
+
 
 ### [Agriculture, Food and Forestry industry hub](/industries/agriculture-food-forestry/)
 
-Compare how production linked to land, biological cycles, processing, and supply relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Agriculture, Food and Forestry](/roles/ceo/agriculture-food-forestry.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Operations remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Operations remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Vice President of Operations in Utilities](/roles/vp-operations/utilities.html)
 
-Compare essential network or service operations with continuity, infrastructure, and customer responsibilities with production linked to land, biological cycles, processing, and supply relationships and identify how the Vice President of Operations remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Vice President of Operations resolve before a target discussion in Agriculture, Food and Forestry?
 
-Use the opening discussion to understand the specific Agriculture, Food and Forestry employer, not to assume a standard role. Compare coordinate operational performance across teams, locations, or service lines with the stated scope, identify decision partners among producers, workforce, buyers, processors, logistics partners, and communities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Agriculture, Food and Forestry employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Vice President of Operations career story fit the needs of Agriculture, Food and Forestry?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Vice President of Operations approve before outreach in Agriculture, Food and Forestry?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Vice President of Operations candidate's service scope; the candidate approves external communication. No one route should be assumed for all Agriculture, Food and Forestry employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Agriculture, Food and Forestry employers.
 
 ### How should a Vice President of Operations compare title and remit in Agriculture, Food and Forestry?
 
-No. Compare the role description with the candidate's experience of coordinate operational performance across teams, locations, or service lines and the organization's production linked to land, biological cycles, processing, and supply relationships. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Will KOV secure a meeting for a Vice President of Operations with an employer in Agriculture, Food and Forestry?
 

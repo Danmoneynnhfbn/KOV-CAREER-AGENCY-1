@@ -45,7 +45,7 @@ Consider document and positioning support for Chief Information Officer material
 
 ## Prepare to discuss the Energy, Mining and Oil and Gas mandate
 
-Where collapsing infrastructure, information, product, and digital responsibilities into one vague claim affects a career example, substitute an authorized summary that preserves the point about systems scope, service reliability, data stewardship, transformation, governance, and adoption. The candidate decides whether to pursue a Chief Information Officer opportunity. KOV can support agreed research and preparation concerning Energy, Mining and Oil and Gas. Discuss project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes with care: a Chief Information Officer candidate can explain contribution while omitting confidential or identifying facts. Ask what asset-intensive work spanning development, extraction, generation, processing, or energy services means at this particular Energy, Mining and Oil and Gas organization and how it changes the priorities assigned to a Chief Information Officer.
+Where collapsing infrastructure, information, product, and digital responsibilities into one vague claim affects a career example, substitute an authorized summary that preserves the point about systems scope, service reliability, data stewardship, transformation, governance, and adoption. KOV can support agreed research and preparation concerning Energy, Mining and Oil and Gas. Discuss project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes with care: a Chief Information Officer candidate can explain contribution while omitting confidential or identifying facts. Ask what asset-intensive work spanning development, extraction, generation, processing, or energy services means at this particular Energy, Mining and Oil and Gas organization and how it changes the priorities assigned to a Chief Information Officer.
 
 ## Common positioning mistakes for Chief Information Officer candidates in Energy, Mining and Oil and Gas
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Information Officer career hub](/roles/cio/)
 
-Review the role-wide approach to guide information systems, digital operations, and technology services for the organization and the evidence expected for that scope.
+
 
 ### [Energy, Mining and Oil and Gas industry hub](/industries/energy-mining-oil-gas/)
 
-Compare how asset-intensive work spanning development, extraction, generation, processing, or energy services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Energy, Mining and Oil and Gas](/roles/ceo/energy-mining-oil-gas.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Information Officer remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Operating Officer in Energy, Mining and Oil and Gas](/roles/coo/energy-mining-oil-gas.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Information Officer remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Information Officer in Agriculture, Food and Forestry](/roles/cio/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with asset-intensive work spanning development, extraction, generation, processing, or energy services and identify how the Chief Information Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Information Officer clarify before considering work in Energy, Mining and Oil and Gas?
 
-Use the opening discussion to understand the specific Energy, Mining and Oil and Gas employer, not to assume a standard role. Compare guide information systems, digital operations, and technology services for the organization with the stated scope, identify decision partners among asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Energy, Mining and Oil and Gas employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Chief Information Officer describe transferable experience for Energy, Mining and Oil and Gas work?
 
@@ -143,15 +143,15 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### How can KOV and a Chief Information Officer plan contact with Energy, Mining and Oil and Gas organizations?
 
-Outreach should follow target research, not precede it. The Chief Information Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with systems scope, service reliability, data stewardship, transformation, governance, and adoption is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Chief Information Officer assess fit with Energy, Mining and Oil and Gas responsibilities?
 
-Title is only a label. Establish what the employer means by Chief Information Officer in this Energy, Mining and Oil and Gas organization and how the person will work with asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Chief Information Officer candidate considering Energy, Mining and Oil and Gas?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Information Officer candidate considering Energy, Mining and Oil and Gas, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

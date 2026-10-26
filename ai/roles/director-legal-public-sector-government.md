@@ -4,7 +4,7 @@ KOV helps Director of Legal candidates considering roles connected to Public Sec
 
 ## How Director of Legal work connects with Public Sector and Government
 
-The Public Sector and Government context involves public administration, public programs, or services delivered under a public mandate; examine how that structure affects public purpose, stewardship, transparency, service access, and coordination across institutions before drawing conclusions about the Director of Legal role. In Public Sector and Government, residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders may shape the work. A Director of Legal example should separate direct responsibility from collaboration. KOV can help a Director of Legal candidate organize an agreed search approach for Public Sector and Government, including documents such as resume, legal leadership profile, practice summary, and sanitized examples. For Director of Legal materials, manage the risk of disclosing privileged or client-sensitive information or implying unheld authority; support claims with practice or advisory scope, team leadership, work prioritization, and business partnership and remove details that are not authorized for sharing.
+The Public Sector and Government context involves public administration, public programs, or services delivered under a public mandate; examine how that structure affects public purpose, stewardship, transparency, service access, and coordination across institutions before drawing conclusions about the Director of Legal role. A Director of Legal example should separate direct responsibility from collaboration. KOV can help a Director of Legal candidate organize an agreed search approach for Public Sector and Government, including documents such as resume, legal leadership profile, practice summary, and sanitized examples. For Director of Legal materials, manage the risk of disclosing privileged or client-sensitive information or implying unheld authority; support claims with practice or advisory scope, team leadership, work prioritization, and business partnership and remove details that are not authorized for sharing.
 
 ## Who this Director of Legal and Public Sector and Government guide is for
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Legal career hub](/roles/director-legal/)
 
-Review the role-wide approach to manage a legal team, practice area, or legal operations remit and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Legal remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Legal remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Director of Legal in Technology, Media and Telecom](/roles/director-legal/technology-media-telecom.html)
 
-Compare digital products, platforms, content, communications, or technology-enabled services with public administration, public programs, or services delivered under a public mandate and identify how the Director of Legal remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Director of Legal resolve before a target discussion in Public Sector and Government?
 
-Start with the organization's account of public administration, public programs, or services delivered under a public mandate, then clarify how the Director of Legal would manage a legal team, practice area, or legal operations remit. Ask how residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of public administration, public programs, or services delivered under a public mandate, then clarify how the Director of Legal would manage a legal team, practice area, or legal operations remit. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### Which parts of a Director of Legal career story fit the needs of Public Sector and Government?
 
@@ -139,19 +139,19 @@ Make the connection explicit: the candidate's record of practice or advisory sco
 
 ### What should a Director of Legal prepare in writing before targeting Public Sector and Government?
 
-Document selection depends on the opportunity. A Director of Legal may draw from resume, legal leadership profile, practice summary, and sanitized examples, but should foreground only material connected to program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What should a Director of Legal approve before outreach in Public Sector and Government?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of Legal candidate's service scope; the candidate approves external communication. No one route should be assumed for all Public Sector and Government employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Public Sector and Government employers.
 
 ### How should a Director of Legal compare title and remit in Public Sector and Government?
 
-Title is only a label. Establish what the employer means by Director of Legal in this Public Sector and Government organization and how the person will work with residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Director of Legal with an employer in Public Sector and Government?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of Legal candidate considering Public Sector and Government, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

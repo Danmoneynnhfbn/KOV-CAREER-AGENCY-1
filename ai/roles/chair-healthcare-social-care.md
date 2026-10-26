@@ -45,11 +45,11 @@ Consider document and positioning support for Chair materials that present meeti
 
 ## Prepare to discuss the Healthcare and Social Care mandate
 
-The candidate can discuss meeting leadership, board composition, governance practice, relationships, and transition judgment while protecting confidentiality by omitting names, restricted figures, and other identifying material. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Chair example should separate direct responsibility from collaboration. Not every Healthcare and Social Care organization will handle service quality, workforce coordination, access, continuity, and sensitive information alike. Confirm how care, health-related services, or social support delivered by teams and organizations informs this Chair position. Readers need to see what Chair work involved; connect lead board effectiveness and support clear governance and decision-making with the candidate's own examples of meeting leadership, board composition, governance practice, relationships, and transition judgment in Healthcare and Social Care.
+The candidate can discuss meeting leadership, board composition, governance practice, relationships, and transition judgment while protecting confidentiality by omitting names, restricted figures, and other identifying material. Not every Healthcare and Social Care organization will handle service quality, workforce coordination, access, continuity, and sensitive information alike. Confirm how care, health-related services, or social support delivered by teams and organizations informs this Chair position. Readers need to see what Chair work involved; connect lead board effectiveness and support clear governance and decision-making with the candidate's own examples of meeting leadership, board composition, governance practice, relationships, and transition judgment in Healthcare and Social Care.
 
 ## Common positioning mistakes for Chair candidates in Healthcare and Social Care
 
-For Chair materials, manage the risk of blurring chair and executive accountabilities or taking credit for collective decisions; support claims with meeting leadership, board composition, governance practice, relationships, and transition judgment and remove details that are not authorized for sharing. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Chair example should separate direct responsibility from collaboration. Not every Healthcare and Social Care organization will handle service quality, workforce coordination, access, continuity, and sensitive information alike. Confirm how care, health-related services, or social support delivered by teams and organizations informs this Chair position. For Chair work in Healthcare and Social Care, explain how the candidate could lead board effectiveness and support clear governance and decision-making; connect that mandate to evidence of meeting leadership, board composition, governance practice, relationships, and transition judgment.
+For Chair materials, manage the risk of blurring chair and executive accountabilities or taking credit for collective decisions; support claims with meeting leadership, board composition, governance practice, relationships, and transition judgment and remove details that are not authorized for sharing. Not every Healthcare and Social Care organization will handle service quality, workforce coordination, access, continuity, and sensitive information alike. Confirm how care, health-related services, or social support delivered by teams and organizations informs this Chair position. For Chair work in Healthcare and Social Care, explain how the candidate could lead board effectiveness and support clear governance and decision-making; connect that mandate to evidence of meeting leadership, board composition, governance practice, relationships, and transition judgment.
 
 - Treat Healthcare and Social Care as one uniform employer type; distinguish the actual organization and role.
 - Use a Chair title without explaining lead board effectiveness and support clear governance and decision-making.
@@ -67,7 +67,7 @@ The Chair remit to lead board effectiveness and support clear governance and dec
 
 ## Run the search thoughtfully in each target market
 
-A candidate exploring Healthcare and Social Care should test the assumed link between care, health-related services, or social support delivered by teams and organizations and service quality, workforce coordination, access, continuity, and sensitive information against the actual Chair role description. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Chair example should separate direct responsibility from collaboration. The service plan should fit the candidate's Chair priorities; agree research, materials, and any outreach before contact occurs. Keep the Chair narrative accurate where blurring chair and executive accountabilities or taking credit for collective decisions may arise: attribute shared work and disclose only information the candidate may use.
+A candidate exploring Healthcare and Social Care should test the assumed link between care, health-related services, or social support delivered by teams and organizations and service quality, workforce coordination, access, continuity, and sensitive information against the actual Chair role description. A Chair example should separate direct responsibility from collaboration. The service plan should fit the candidate's Chair priorities; agree research, materials, and any outreach before contact occurs. Keep the Chair narrative accurate where blurring chair and executive accountabilities or taking credit for collective decisions may arise: attribute shared work and disclose only information the candidate may use.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chair career hub](/roles/chair/)
 
-Review the role-wide approach to lead board effectiveness and support clear governance and decision-making and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chair remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chair remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chair in Agriculture, Food and Forestry](/roles/chair/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with care, health-related services, or social support delivered by teams and organizations and identify how the Chair remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Chair resolve before a target discussion in Healthcare and Social Care?
 
-Start with the organization's account of care, health-related services, or social support delivered by teams and organizations, then clarify how the Chair would lead board effectiveness and support clear governance and decision-making. Ask how people receiving services, families, care professionals, administrators, owners, and community partners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of care, health-related services, or social support delivered by teams and organizations, then clarify how the Chair would lead board effectiveness and support clear governance and decision-making. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### Which parts of a Chair career story fit the needs of Healthcare and Social Care?
 
@@ -139,11 +139,11 @@ Select examples that show meeting leadership, board composition, governance prac
 
 ### What should a Chair prepare in writing before targeting Healthcare and Social Care?
 
-Document selection depends on the opportunity. A Chair may draw from chair biography, board resume, governance narrative, and public profile, but should foreground only material connected to service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What should a Chair approve before outreach in Healthcare and Social Care?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chair candidate's service scope; the candidate approves external communication. No one route should be assumed for all Healthcare and Social Care employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Healthcare and Social Care employers.
 
 ### How should a Chair compare title and remit in Healthcare and Social Care?
 

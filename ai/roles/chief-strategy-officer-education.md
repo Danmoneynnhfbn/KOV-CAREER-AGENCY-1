@@ -16,7 +16,7 @@ Do not resolve uncertainty about presenting recommendations as implemented outco
 
 ## Documents that make Chief Strategy Officer experience relevant here
 
-A candidate exploring Education should test the assumed link between learning services delivered through institutions, programs, technology, or educational support and learning aims, access, program delivery, workforce needs, and resource stewardship against the actual Chief Strategy Officer role description. Discuss program or institutional scope, learner or service context, staff leadership, and improvement contribution with care: a Chief Strategy Officer candidate can explain contribution while omitting confidential or identifying facts. The candidate decides whether to pursue a Chief Strategy Officer opportunity. KOV can support agreed research and preparation concerning Education. Protect credibility in Education by addressing presenting recommendations as implemented outcomes or leaving ownership unclear with a factual account of strategy remit, decision support, portfolio choices, implementation links, and influence and its limits.
+A candidate exploring Education should test the assumed link between learning services delivered through institutions, programs, technology, or educational support and learning aims, access, program delivery, workforce needs, and resource stewardship against the actual Chief Strategy Officer role description. The candidate decides whether to pursue a Chief Strategy Officer opportunity. KOV can support agreed research and preparation concerning Education. Protect credibility in Education by addressing presenting recommendations as implemented outcomes or leaving ownership unclear with a factual account of strategy remit, decision support, portfolio choices, implementation links, and influence and its limits.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -63,7 +63,7 @@ In a Education target, make the Chief Strategy Officer contribution legible: des
 
 ## Prepare for conversations about Education work
 
-The Chief Strategy Officer remit to support organization-wide choices by framing options, analysis, and strategic execution should be described through decisions and examples, especially evidence of strategy remit, decision support, portfolio choices, implementation links, and influence relevant to Education. For Education, establish whether learning services delivered through institutions, programs, technology, or educational support describes the target employer and how learning aims, access, program delivery, workforce needs, and resource stewardship is reflected in its Chief Strategy Officer mandate. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Chief Strategy Officer example should separate direct responsibility from collaboration. Protect credibility in Education by addressing presenting recommendations as implemented outcomes or leaving ownership unclear with a factual account of strategy remit, decision support, portfolio choices, implementation links, and influence and its limits.
+The Chief Strategy Officer remit to support organization-wide choices by framing options, analysis, and strategic execution should be described through decisions and examples, especially evidence of strategy remit, decision support, portfolio choices, implementation links, and influence relevant to Education. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Chief Strategy Officer example should separate direct responsibility from collaboration. Protect credibility in Education by addressing presenting recommendations as implemented outcomes or leaving ownership unclear with a factual account of strategy remit, decision support, portfolio choices, implementation links, and influence and its limits.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Strategy Officer career hub](/roles/chief-strategy-officer/)
 
-Review the role-wide approach to support organization-wide choices by framing options, analysis, and strategic execution and the evidence expected for that scope.
+
 
 ### [Education industry hub](/industries/education/)
 
-Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.
+
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Strategy Officer remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Education](/roles/coo/education.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Strategy Officer remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Strategy Officer in Agriculture, Food and Forestry](/roles/chief-strategy-officer/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with learning services delivered through institutions, programs, technology, or educational support and identify how the Chief Strategy Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Strategy Officer test the scope of work in Education?
 
-A Chief Strategy Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. Explore how the role will support organization-wide choices by framing options, analysis, and strategic execution and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Strategy Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Chief Strategy Officer use to explain experience in Education?
 
@@ -143,15 +143,15 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### Which outreach choices belong to a Chief Strategy Officer considering Education?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Strategy Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Education employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Education employers.
 
 ### Can a Chief Strategy Officer rely on title alone when targeting Education?
 
-Title is only a label. Establish what the employer means by Chief Strategy Officer in this Education organization and how the person will work with learners, families, educators, administrators, owners or boards, and community partners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Chief Strategy Officer seeking work in Education?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Strategy Officer candidate considering Education, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

@@ -4,7 +4,7 @@ KOV helps Non-Executive Director candidates considering roles connected to Techn
 
 ## How Non-Executive Director work connects with Technology, Media and Telecom
 
-The candidate decides whether to pursue a Non-Executive Director opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Preparation for a Non-Executive Director conversation should address whether the organization sells products, services, content, connectivity, or a mix, and how the role links technical and commercial priorities; relate the response to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality, not speculation about hiring. To understand the Technology, Media and Telecom target, explore digital products, platforms, content, communications, or technology-enabled services and ask how a Non-Executive Director is expected to respond to product evolution, reliability, audience or customer needs, technical choices, and changing business models. Show the Non-Executive Director scope behind the title: how the candidate could provide independent challenge and strategic contribution distinct from management, which decisions mattered, and where governance experience, constructive challenge, committee contribution, and relevant expertise demonstrates their contribution.
+The candidate decides whether to pursue a Non-Executive Director opportunity. Preparation for a Non-Executive Director conversation should address whether the organization sells products, services, content, connectivity, or a mix, and how the role links technical and commercial priorities; relate the response to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality, not speculation about hiring. To understand the Technology, Media and Telecom target, explore digital products, platforms, content, communications, or technology-enabled services and ask how a Non-Executive Director is expected to respond to product evolution, reliability, audience or customer needs, technical choices, and changing business models. Show the Non-Executive Director scope behind the title: how the candidate could provide independent challenge and strategic contribution distinct from management, which decisions mattered, and where governance experience, constructive challenge, committee contribution, and relevant expertise demonstrates their contribution.
 
 ## Who this Non-Executive Director and Technology, Media and Telecom guide is for
 
@@ -59,7 +59,7 @@ To assess a Non-Executive Director opportunity in Technology, Media and Telecom,
 
 ## Keep research, confidentiality, and outreach aligned
 
-A Non-Executive Director candidate should be ready to explain confusing oversight with operational management or overstating independence without revealing confidential details or implying unsupported responsibility. Candidate-side support from KOV may connect Non-Executive Director positioning, relevant documents, and approved outreach, within the scope the candidate agrees. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Non-Executive Director example should separate direct responsibility from collaboration. Treat digital products, platforms, content, communications, or technology-enabled services as a question to validate in Technology, Media and Telecom; the answer helps clarify the Non-Executive Director mandate and its product evolution, reliability, audience or customer needs, technical choices, and changing business models.
+A Non-Executive Director candidate should be ready to explain confusing oversight with operational management or overstating independence without revealing confidential details or implying unsupported responsibility. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Non-Executive Director example should separate direct responsibility from collaboration. Treat digital products, platforms, content, communications, or technology-enabled services as a question to validate in Technology, Media and Telecom; the answer helps clarify the Non-Executive Director mandate and its product evolution, reliability, audience or customer needs, technical choices, and changing business models.
 
 ## Prepare for conversations about Technology, Media and Telecom work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Non-Executive Director career hub](/roles/non-executive-director/)
 
-Review the role-wide approach to provide independent challenge and strategic contribution distinct from management and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Non-Executive Director remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Non-Executive Director remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Non-Executive Director in Agriculture, Food and Forestry](/roles/non-executive-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with digital products, platforms, content, communications, or technology-enabled services and identify how the Non-Executive Director remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Non-Executive Director resolve before a target discussion in Technology, Media and Telecom?
 
-Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the Non-Executive Director would provide independent challenge and strategic contribution distinct from management. Ask how users, product and engineering teams, customers, creators, advertisers, partners, and investors participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the Non-Executive Director would provide independent challenge and strategic contribution distinct from management. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### Which parts of a Non-Executive Director career story fit the needs of Technology, Media and Telecom?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of governance experience, c
 
 ### What should a Non-Executive Director prepare in writing before targeting Technology, Media and Telecom?
 
-Document selection depends on the opportunity. A Non-Executive Director may draw from board biography, non-executive profile, skills matrix, and governance resume, but should foreground only material connected to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What should a Non-Executive Director approve before outreach in Technology, Media and Telecom?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How should a Non-Executive Director compare title and remit in Technology, Media and Telecom?
 
-Title is only a label. Establish what the employer means by Non-Executive Director in this Technology, Media and Telecom organization and how the person will work with users, product and engineering teams, customers, creators, advertisers, partners, and investors. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Non-Executive Director with an employer in Technology, Media and Telecom?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Non-Executive Director candidate considering Technology, Media and Telecom, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

@@ -49,7 +49,7 @@ Career representation remains candidate-led: KOV can support a General Counsel /
 
 ## Common positioning mistakes for General Counsel / Chief Legal Officer candidates in Energy, Mining and Oil and Gas
 
-Before discussing project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes, check whether confusing legal advice with business decision ownership or disclosing privileged information could expose sensitive details or blur the candidate's decision boundary. Use an example involving project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes to describe the decision, the parties involved, and the candidate's role as a General Counsel / Chief Legal Officer. Not every Energy, Mining and Oil and Gas organization will handle long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand alike. Confirm how asset-intensive work spanning development, extraction, generation, processing, or energy services informs this General Counsel / Chief Legal Officer position. In a Energy, Mining and Oil and Gas target, make the General Counsel / Chief Legal Officer contribution legible: describe how the candidate helped lead legal judgment and connect legal advice with organizational decisions and what supports legal remit, advisory judgment, team scope, governance interaction, and business context.
+Before discussing project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes, check whether confusing legal advice with business decision ownership or disclosing privileged information could expose sensitive details or blur the candidate's decision boundary. Not every Energy, Mining and Oil and Gas organization will handle long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand alike. Confirm how asset-intensive work spanning development, extraction, generation, processing, or energy services informs this General Counsel / Chief Legal Officer position. In a Energy, Mining and Oil and Gas target, make the General Counsel / Chief Legal Officer contribution legible: describe how the candidate helped lead legal judgment and connect legal advice with organizational decisions and what supports legal remit, advisory judgment, team scope, governance interaction, and business context.
 
 - Treat Energy, Mining and Oil and Gas as one uniform employer type; distinguish the actual organization and role.
 - Use a General Counsel / Chief Legal Officer title without explaining lead legal judgment and connect legal advice with organizational decisions.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [General Counsel / Chief Legal Officer career hub](/roles/general-counsel/)
 
-Review the role-wide approach to lead legal judgment and connect legal advice with organizational decisions and the evidence expected for that scope.
+
 
 ### [Energy, Mining and Oil and Gas industry hub](/industries/energy-mining-oil-gas/)
 
-Compare how asset-intensive work spanning development, extraction, generation, processing, or energy services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Energy, Mining and Oil and Gas](/roles/ceo/energy-mining-oil-gas.html)
 
-Contrast set organization-wide direction and coordinate executive work with the General Counsel / Chief Legal Officer remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Operating Officer in Energy, Mining and Oil and Gas](/roles/coo/energy-mining-oil-gas.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the General Counsel / Chief Legal Officer remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [General Counsel / Chief Legal Officer in Agriculture, Food and Forestry](/roles/general-counsel/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with asset-intensive work spanning development, extraction, generation, processing, or energy services and identify how the General Counsel / Chief Legal Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a General Counsel / Chief Legal Officer in Energy, Mining and Oil and Gas?
 
-Start with the organization's account of asset-intensive work spanning development, extraction, generation, processing, or energy services, then clarify how the General Counsel / Chief Legal Officer would lead legal judgment and connect legal advice with organizational decisions. Ask how asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of asset-intensive work spanning development, extraction, generation, processing, or energy services, then clarify how the General Counsel / Chief Legal Officer would lead legal judgment and connect legal advice with organizational decisions. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a General Counsel / Chief Legal Officer make prior work relevant to Energy, Mining and Oil and Gas?
 
@@ -139,11 +139,11 @@ Select examples that show legal remit, advisory judgment, team scope, governance
 
 ### Which career materials can help a General Counsel / Chief Legal Officer explore work in Energy, Mining and Oil and Gas?
 
-Possible materials include executive resume, legal leadership biography, practice summary, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes. Each claim should be accurate for this Energy, Mining and Oil and Gas target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, legal leadership biography, practice summary, and professional profile. Each claim should be accurate for this Energy, Mining and Oil and Gas target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a General Counsel / Chief Legal Officer contacts an organization in Energy, Mining and Oil and Gas?
 
-Outreach should follow target research, not precede it. The General Counsel / Chief Legal Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with legal remit, advisory judgment, team scope, governance interaction, and business context is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a General Counsel / Chief Legal Officer background relevant to work in Energy, Mining and Oil and Gas?
 

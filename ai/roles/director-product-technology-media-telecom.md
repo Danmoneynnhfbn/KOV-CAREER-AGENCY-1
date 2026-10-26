@@ -63,7 +63,7 @@ Position a Director of Product career by linking lead a product area and align c
 
 ## Prepare for conversations about Technology, Media and Telecom work
 
-Career representation remains candidate-led: KOV can support a Director of Product search, while the candidate approves the goals and disclosures. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Director of Product example should separate direct responsibility from collaboration. A candidate exploring Technology, Media and Telecom should test the assumed link between digital products, platforms, content, communications, or technology-enabled services and product evolution, reliability, audience or customer needs, technical choices, and changing business models against the actual Director of Product role description. The Director of Product remit to lead a product area and align customer needs with team delivery should be described through decisions and examples, especially evidence of product scope, discovery, prioritization, stakeholder coordination, and evidence of use relevant to Technology, Media and Telecom.
+Career representation remains candidate-led: KOV can support a Director of Product search, while the candidate approves the goals and disclosures. A Director of Product example should separate direct responsibility from collaboration. A candidate exploring Technology, Media and Telecom should test the assumed link between digital products, platforms, content, communications, or technology-enabled services and product evolution, reliability, audience or customer needs, technical choices, and changing business models against the actual Director of Product role description. The Director of Product remit to lead a product area and align customer needs with team delivery should be described through decisions and examples, especially evidence of product scope, discovery, prioritization, stakeholder coordination, and evidence of use relevant to Technology, Media and Telecom.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Product career hub](/roles/director-product/)
 
-Review the role-wide approach to lead a product area and align customer needs with team delivery and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Product remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Product remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Director of Product in Manufacturing](/roles/director-product/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with digital products, platforms, content, communications, or technology-enabled services and identify how the Director of Product remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Director of Product test the scope of work in Technology, Media and Telecom?
 
-Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the Director of Product would lead a product area and align customer needs with team delivery. Ask how users, product and engineering teams, customers, creators, advertisers, partners, and investors participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the Director of Product would lead a product area and align customer needs with team delivery. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Director of Product use to explain experience in Technology, Media and Telecom?
 
@@ -139,7 +139,7 @@ Describe an instance where the candidate could lead a product area and align cus
 
 ### What documents should a Director of Product tailor for Technology, Media and Telecom opportunities?
 
-Possible materials include resume, product case studies, profile, and concise portfolio. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, product case studies, profile, and concise portfolio. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Director of Product considering Technology, Media and Telecom?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### Can a Director of Product rely on title alone when targeting Technology, Media and Telecom?
 
-No. Compare the role description with the candidate's experience of lead a product area and align customer needs with team delivery and the organization's digital products, platforms, content, communications, or technology-enabled services. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Director of Product seeking work in Technology, Media and Telecom?
 

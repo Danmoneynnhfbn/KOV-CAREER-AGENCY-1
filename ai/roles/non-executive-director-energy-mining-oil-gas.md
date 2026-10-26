@@ -45,7 +45,7 @@ Consider document and positioning support for Non-Executive Director materials t
 
 ## Prepare to discuss the Energy, Mining and Oil and Gas mandate
 
-Protect credibility in Energy, Mining and Oil and Gas by addressing confusing oversight with operational management or overstating independence with a factual account of governance experience, constructive challenge, committee contribution, and relevant expertise and its limits. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Non-Executive Director example should separate direct responsibility from collaboration. An employer's Energy, Mining and Oil and Gas model may involve asset-intensive work spanning development, extraction, generation, processing, or energy services; its implications for long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand should be discussed, not presumed. Readers need to see what Non-Executive Director work involved; connect provide independent challenge and strategic contribution distinct from management with the candidate's own examples of governance experience, constructive challenge, committee contribution, and relevant expertise in Energy, Mining and Oil and Gas.
+Protect credibility in Energy, Mining and Oil and Gas by addressing confusing oversight with operational management or overstating independence with a factual account of governance experience, constructive challenge, committee contribution, and relevant expertise and its limits. A Non-Executive Director example should separate direct responsibility from collaboration. An employer's Energy, Mining and Oil and Gas model may involve asset-intensive work spanning development, extraction, generation, processing, or energy services; its implications for long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand should be discussed, not presumed. Readers need to see what Non-Executive Director work involved; connect provide independent challenge and strategic contribution distinct from management with the candidate's own examples of governance experience, constructive challenge, committee contribution, and relevant expertise in Energy, Mining and Oil and Gas.
 
 ## Common positioning mistakes for Non-Executive Director candidates in Energy, Mining and Oil and Gas
 
@@ -67,7 +67,7 @@ The Energy, Mining and Oil and Gas context involves asset-intensive work spannin
 
 ## Run the search thoughtfully in each target market
 
-The candidate decides whether to pursue a Non-Executive Director opportunity. KOV can support agreed research and preparation concerning Energy, Mining and Oil and Gas. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Non-Executive Director example should separate direct responsibility from collaboration. A candidate exploring Energy, Mining and Oil and Gas should test the assumed link between asset-intensive work spanning development, extraction, generation, processing, or energy services and long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand against the actual Non-Executive Director role description. In a Energy, Mining and Oil and Gas target, make the Non-Executive Director contribution legible: describe how the candidate helped provide independent challenge and strategic contribution distinct from management and what supports governance experience, constructive challenge, committee contribution, and relevant expertise.
+The candidate decides whether to pursue a Non-Executive Director opportunity. A Non-Executive Director example should separate direct responsibility from collaboration. A candidate exploring Energy, Mining and Oil and Gas should test the assumed link between asset-intensive work spanning development, extraction, generation, processing, or energy services and long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand against the actual Non-Executive Director role description. In a Energy, Mining and Oil and Gas target, make the Non-Executive Director contribution legible: describe how the candidate helped provide independent challenge and strategic contribution distinct from management and what supports governance experience, constructive challenge, committee contribution, and relevant expertise.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Non-Executive Director career hub](/roles/non-executive-director/)
 
-Review the role-wide approach to provide independent challenge and strategic contribution distinct from management and the evidence expected for that scope.
+
 
 ### [Energy, Mining and Oil and Gas industry hub](/industries/energy-mining-oil-gas/)
 
-Compare how asset-intensive work spanning development, extraction, generation, processing, or energy services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Energy, Mining and Oil and Gas](/roles/ceo/energy-mining-oil-gas.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Non-Executive Director remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Operating Officer in Energy, Mining and Oil and Gas](/roles/coo/energy-mining-oil-gas.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Non-Executive Director remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Non-Executive Director in Agriculture, Food and Forestry](/roles/non-executive-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with asset-intensive work spanning development, extraction, generation, processing, or energy services and identify how the Non-Executive Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Non-Executive Director clarify before considering work in Energy, Mining and Oil and Gas?
 
-Start with the organization's account of asset-intensive work spanning development, extraction, generation, processing, or energy services, then clarify how the Non-Executive Director would provide independent challenge and strategic contribution distinct from management. Ask how asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of asset-intensive work spanning development, extraction, generation, processing, or energy services, then clarify how the Non-Executive Director would provide independent challenge and strategic contribution distinct from management. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Non-Executive Director describe transferable experience for Energy, Mining and Oil and Gas work?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of governance experience, c
 
 ### How can a Non-Executive Director choose documents for conversations about Energy, Mining and Oil and Gas?
 
-Document selection depends on the opportunity. A Non-Executive Director may draw from board biography, non-executive profile, skills matrix, and governance resume, but should foreground only material connected to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Non-Executive Director plan contact with Energy, Mining and Oil and Gas organizations?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Non-Executive Director assess fit with Energy, Mining and Oil and Gas responsibilities?
 
-Title is only a label. Establish what the employer means by Non-Executive Director in this Energy, Mining and Oil and Gas organization and how the person will work with asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Non-Executive Director candidate considering Energy, Mining and Oil and Gas?
 

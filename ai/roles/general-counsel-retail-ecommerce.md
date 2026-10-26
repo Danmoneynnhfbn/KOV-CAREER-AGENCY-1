@@ -12,11 +12,11 @@ The Retail and E-commerce context involves customer-facing commerce through stor
 
 ## A candidate-led process from first discussion to next steps
 
-Rather than lead with seniority, a General Counsel / Chief Legal Officer profile can explain the responsibility to lead legal judgment and connect legal advice with organizational decisions and use customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution as evidence. Not every Retail and E-commerce organization will handle customer experience, assortment, inventory, channel coordination, and rapid feedback alike. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this General Counsel / Chief Legal Officer position. Candidate-side support from KOV may connect General Counsel / Chief Legal Officer positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Protect credibility in Retail and E-commerce by addressing confusing legal advice with business decision ownership or disclosing privileged information with a factual account of legal remit, advisory judgment, team scope, governance interaction, and business context and its limits.
+Rather than lead with seniority, a General Counsel / Chief Legal Officer profile can explain the responsibility to lead legal judgment and connect legal advice with organizational decisions and use customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution as evidence. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this General Counsel / Chief Legal Officer position. Candidate-side support from KOV may connect General Counsel / Chief Legal Officer positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Protect credibility in Retail and E-commerce by addressing confusing legal advice with business decision ownership or disclosing privileged information with a factual account of legal remit, advisory judgment, team scope, governance interaction, and business context and its limits.
 
 ## Documents that make General Counsel / Chief Legal Officer experience relevant here
 
-In a Retail and E-commerce target, make the General Counsel / Chief Legal Officer contribution legible: describe how the candidate helped lead legal judgment and connect legal advice with organizational decisions and what supports legal remit, advisory judgment, team scope, governance interaction, and business context. In Retail and E-commerce, customers, store or digital teams, suppliers, brand partners, operations, and owners may shape the work. A General Counsel / Chief Legal Officer example should separate direct responsibility from collaboration. KOV can help a General Counsel / Chief Legal Officer candidate organize an agreed search approach for Retail and E-commerce, including documents such as executive resume, legal leadership biography, practice summary, and professional profile. Where confusing legal advice with business decision ownership or disclosing privileged information affects a career example, substitute an authorized summary that preserves the point about legal remit, advisory judgment, team scope, governance interaction, and business context.
+In a Retail and E-commerce target, make the General Counsel / Chief Legal Officer contribution legible: describe how the candidate helped lead legal judgment and connect legal advice with organizational decisions and what supports legal remit, advisory judgment, team scope, governance interaction, and business context. A General Counsel / Chief Legal Officer example should separate direct responsibility from collaboration. KOV can help a General Counsel / Chief Legal Officer candidate organize an agreed search approach for Retail and E-commerce, including documents such as executive resume, legal leadership biography, practice summary, and professional profile. Where confusing legal advice with business decision ownership or disclosing privileged information affects a career example, substitute an authorized summary that preserves the point about legal remit, advisory judgment, team scope, governance interaction, and business context.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ In a Retail and E-commerce target, make the General Counsel / Chief Legal Office
 
 ## Choose the individual services that fit the work
 
-For General Counsel / Chief Legal Officer work in Retail and E-commerce, explain how the candidate could lead legal judgment and connect legal advice with organizational decisions; connect that mandate to evidence of legal remit, advisory judgment, team scope, governance interaction, and business context. To understand the Retail and E-commerce target, explore customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and ask how a General Counsel / Chief Legal Officer is expected to respond to customer experience, assortment, inventory, channel coordination, and rapid feedback. In Retail and E-commerce, customers, store or digital teams, suppliers, brand partners, operations, and owners may shape the work. A General Counsel / Chief Legal Officer example should separate direct responsibility from collaboration. Protect credibility in Retail and E-commerce by addressing confusing legal advice with business decision ownership or disclosing privileged information with a factual account of legal remit, advisory judgment, team scope, governance interaction, and business context and its limits.
+For General Counsel / Chief Legal Officer work in Retail and E-commerce, explain how the candidate could lead legal judgment and connect legal advice with organizational decisions; connect that mandate to evidence of legal remit, advisory judgment, team scope, governance interaction, and business context. In Retail and E-commerce, customers, store or digital teams, suppliers, brand partners, operations, and owners may shape the work. A General Counsel / Chief Legal Officer example should separate direct responsibility from collaboration. Protect credibility in Retail and E-commerce by addressing confusing legal advice with business decision ownership or disclosing privileged information with a factual account of legal remit, advisory judgment, team scope, governance interaction, and business context and its limits.
 
 ### [Private career representation](/services.html)
 
@@ -45,7 +45,7 @@ Consider document and positioning support for General Counsel / Chief Legal Offi
 
 ## Prepare to discuss the Retail and E-commerce mandate
 
-The candidate can discuss legal remit, advisory judgment, team scope, governance interaction, and business context while protecting confidentiality by omitting names, restricted figures, and other identifying material. In Retail and E-commerce, customers, store or digital teams, suppliers, brand partners, operations, and owners may shape the work. A General Counsel / Chief Legal Officer example should separate direct responsibility from collaboration. Not every Retail and E-commerce organization will handle customer experience, assortment, inventory, channel coordination, and rapid feedback alike. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this General Counsel / Chief Legal Officer position. Readers need to see what General Counsel / Chief Legal Officer work involved; connect lead legal judgment and connect legal advice with organizational decisions with the candidate's own examples of legal remit, advisory judgment, team scope, governance interaction, and business context in Retail and E-commerce.
+The candidate can discuss legal remit, advisory judgment, team scope, governance interaction, and business context while protecting confidentiality by omitting names, restricted figures, and other identifying material. Not every Retail and E-commerce organization will handle customer experience, assortment, inventory, channel coordination, and rapid feedback alike. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this General Counsel / Chief Legal Officer position. Readers need to see what General Counsel / Chief Legal Officer work involved; connect lead legal judgment and connect legal advice with organizational decisions with the candidate's own examples of legal remit, advisory judgment, team scope, governance interaction, and business context in Retail and E-commerce.
 
 ## Common positioning mistakes for General Counsel / Chief Legal Officer candidates in Retail and E-commerce
 
@@ -63,7 +63,7 @@ For General Counsel / Chief Legal Officer work in Retail and E-commerce, explain
 
 ## Prepare for conversations about Retail and E-commerce work
 
-To assess a General Counsel / Chief Legal Officer opportunity in Retail and E-commerce, compare the stated remit to the candidate's record of legal remit, advisory judgment, team scope, governance interaction, and business context. An employer's Retail and E-commerce model may involve customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment; its implications for customer experience, assortment, inventory, channel coordination, and rapid feedback should be discussed, not presumed. The candidate decides whether to pursue a General Counsel / Chief Legal Officer opportunity. KOV can support agreed research and preparation concerning Retail and E-commerce. The candidate can discuss legal remit, advisory judgment, team scope, governance interaction, and business context while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+To assess a General Counsel / Chief Legal Officer opportunity in Retail and E-commerce, compare the stated remit to the candidate's record of legal remit, advisory judgment, team scope, governance interaction, and business context. The candidate decides whether to pursue a General Counsel / Chief Legal Officer opportunity. KOV can support agreed research and preparation concerning Retail and E-commerce. The candidate can discuss legal remit, advisory judgment, team scope, governance interaction, and business context while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [General Counsel / Chief Legal Officer career hub](/roles/general-counsel/)
 
-Review the role-wide approach to lead legal judgment and connect legal advice with organizational decisions and the evidence expected for that scope.
+
 
 ### [Retail and E-commerce industry hub](/industries/retail-ecommerce/)
 
-Compare how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment affects career planning across functions.
+
 
 ### [Chief Executive Officer in Retail and E-commerce](/roles/ceo/retail-ecommerce.html)
 
-Contrast set organization-wide direction and coordinate executive work with the General Counsel / Chief Legal Officer remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Operating Officer in Retail and E-commerce](/roles/coo/retail-ecommerce.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the General Counsel / Chief Legal Officer remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [General Counsel / Chief Legal Officer in Agriculture, Food and Forestry](/roles/general-counsel/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and identify how the General Counsel / Chief Legal Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a General Counsel / Chief Legal Officer in Retail and E-commerce?
 
-Start with the organization's account of customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment, then clarify how the General Counsel / Chief Legal Officer would lead legal judgment and connect legal advice with organizational decisions. Ask how customers, store or digital teams, suppliers, brand partners, operations, and owners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment, then clarify how the General Counsel / Chief Legal Officer would lead legal judgment and connect legal advice with organizational decisions. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a General Counsel / Chief Legal Officer make prior work relevant to Retail and E-commerce?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could lead legal judgment and connect l
 
 ### Which career materials can help a General Counsel / Chief Legal Officer explore work in Retail and E-commerce?
 
-Possible materials include executive resume, legal leadership biography, practice summary, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution. Each claim should be accurate for this Retail and E-commerce target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, legal leadership biography, practice summary, and professional profile. Each claim should be accurate for this Retail and E-commerce target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a General Counsel / Chief Legal Officer contacts an organization in Retail and E-commerce?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the General Counsel / Chief Legal Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Retail and E-commerce employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Retail and E-commerce employers.
 
 ### What makes a General Counsel / Chief Legal Officer background relevant to work in Retail and E-commerce?
 
-No. Compare the role description with the candidate's experience of lead legal judgment and connect legal advice with organizational decisions and the organization's customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to General Counsel / Chief Legal Officer outreach in Retail and E-commerce?
 

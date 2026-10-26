@@ -4,7 +4,7 @@ KOV helps Managing Director candidates considering roles connected to Real Estat
 
 ## How Managing Director work connects with Real Estate and Leasing
 
-The candidate can discuss operating scope, commercial or service accountability, leadership span, and decision authority while protecting confidentiality by omitting names, restricted figures, and other identifying material. Discuss asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution with care: a Managing Director candidate can explain contribution while omitting confidential or identifying facts. Not every Real Estate and Leasing organization will handle asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions alike. Confirm how property ownership, development, brokerage, management, or leasing relationships informs this Managing Director position. Readers need to see what Managing Director work involved; connect lead a business, division, or organization according to its defined mandate with the candidate's own examples of operating scope, commercial or service accountability, leadership span, and decision authority in Real Estate and Leasing.
+The candidate can discuss operating scope, commercial or service accountability, leadership span, and decision authority while protecting confidentiality by omitting names, restricted figures, and other identifying material. Not every Real Estate and Leasing organization will handle asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions alike. Confirm how property ownership, development, brokerage, management, or leasing relationships informs this Managing Director position. Readers need to see what Managing Director work involved; connect lead a business, division, or organization according to its defined mandate with the candidate's own examples of operating scope, commercial or service accountability, leadership span, and decision authority in Real Estate and Leasing.
 
 ## Who this Managing Director and Real Estate and Leasing guide is for
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Director career hub](/roles/managing-director/)
 
-Review the role-wide approach to lead a business, division, or organization according to its defined mandate and the evidence expected for that scope.
+
 
 ### [Real Estate and Leasing industry hub](/industries/real-estate-leasing/)
 
-Compare how property ownership, development, brokerage, management, or leasing relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Real Estate and Leasing](/roles/ceo/real-estate-leasing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Director remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Operating Officer in Real Estate and Leasing](/roles/coo/real-estate-leasing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Director remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Managing Director in Agriculture, Food and Forestry](/roles/managing-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with property ownership, development, brokerage, management, or leasing relationships and identify how the Managing Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Managing Director clarify before considering work in Real Estate and Leasing?
 
-A Managing Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's property ownership, development, brokerage, management, or leasing relationships. Explore how the role will lead a business, division, or organization according to its defined mandate and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Managing Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's property ownership, development, brokerage, management, or leasing relationships. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Managing Director describe transferable experience for Real Estate and Leasing work?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could lead a business, division, or org
 
 ### How can a Managing Director choose documents for conversations about Real Estate and Leasing?
 
-Possible materials include executive resume, business leadership biography, mandate summary, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution. Each claim should be accurate for this Real Estate and Leasing target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, business leadership biography, mandate summary, and profile. Each claim should be accurate for this Real Estate and Leasing target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Managing Director plan contact with Real Estate and Leasing organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Managing Director candidate's service scope; the candidate approves external communication. No one route should be assumed for all Real Estate and Leasing employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Real Estate and Leasing employers.
 
 ### How can a Managing Director assess fit with Real Estate and Leasing responsibilities?
 
-Title is only a label. Establish what the employer means by Managing Director in this Real Estate and Leasing organization and how the person will work with owners, tenants, customers, investors, property teams, suppliers, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Managing Director candidate considering Real Estate and Leasing?
 

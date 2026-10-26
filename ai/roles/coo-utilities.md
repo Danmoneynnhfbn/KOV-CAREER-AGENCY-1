@@ -8,7 +8,7 @@ Candidate-side support from KOV may connect Chief Operating Officer positioning,
 
 ## Who this Chief Operating Officer and Utilities guide is for
 
-Protect credibility in Utilities by addressing describing activity without showing scope, dependencies, or the candidate's contribution with a factual account of operating scale, service or product delivery, cross-functional change, and decision rights and its limits. In Utilities, customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders may shape the work. A Chief Operating Officer example should separate direct responsibility from collaboration. Use essential network or service operations with continuity, infrastructure, and customer responsibilities to frame research about Utilities, then ask how a Chief Operating Officer will work through reliability, infrastructure renewal, service access, affordability, and long-term planning. In a Utilities target, make the Chief Operating Officer contribution legible: describe how the candidate helped align operating functions, delivery systems, and organizational priorities and what supports operating scale, service or product delivery, cross-functional change, and decision rights.
+Protect credibility in Utilities by addressing describing activity without showing scope, dependencies, or the candidate's contribution with a factual account of operating scale, service or product delivery, cross-functional change, and decision rights and its limits. A Chief Operating Officer example should separate direct responsibility from collaboration. Use essential network or service operations with continuity, infrastructure, and customer responsibilities to frame research about Utilities, then ask how a Chief Operating Officer will work through reliability, infrastructure renewal, service access, affordability, and long-term planning. In a Utilities target, make the Chief Operating Officer contribution legible: describe how the candidate helped align operating functions, delivery systems, and organizational priorities and what supports operating scale, service or product delivery, cross-functional change, and decision rights.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Chief Operating Officer materials 
 
 ## Prepare to discuss the Utilities mandate
 
-A candidate exploring Utilities should test the assumed link between essential network or service operations with continuity, infrastructure, and customer responsibilities and reliability, infrastructure renewal, service access, affordability, and long-term planning against the actual Chief Operating Officer role description. In Utilities, customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders may shape the work. A Chief Operating Officer example should separate direct responsibility from collaboration. For a Chief Operating Officer target, KOV can discuss how executive resume, operating-impact summary, leadership biography, and profile support the candidate's account of operating scale, service or product delivery, cross-functional change, and decision rights; external steps require prior agreement. Review each Chief Operating Officer example for describing activity without showing scope, dependencies, or the candidate's contribution, then describe the candidate's decisions without overstating their control over CEO, functional leaders, frontline managers, suppliers, employees, and customers.
+A candidate exploring Utilities should test the assumed link between essential network or service operations with continuity, infrastructure, and customer responsibilities and reliability, infrastructure renewal, service access, affordability, and long-term planning against the actual Chief Operating Officer role description. A Chief Operating Officer example should separate direct responsibility from collaboration. For a Chief Operating Officer target, KOV can discuss how executive resume, operating-impact summary, leadership biography, and profile support the candidate's account of operating scale, service or product delivery, cross-functional change, and decision rights; external steps require prior agreement. Review each Chief Operating Officer example for describing activity without showing scope, dependencies, or the candidate's contribution, then describe the candidate's decisions without overstating their control over CEO, functional leaders, frontline managers, suppliers, employees, and customers.
 
 ## Common positioning mistakes for Chief Operating Officer candidates in Utilities
 
@@ -67,7 +67,7 @@ The candidate can discuss operating scale, service or product delivery, cross-fu
 
 ## Run the search thoughtfully in each target market
 
-Position a Chief Operating Officer career by linking align operating functions, delivery systems, and organizational priorities to service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination, then clarify which part of that work the candidate actually owned. Not every Utilities organization will handle reliability, infrastructure renewal, service access, affordability, and long-term planning alike. Confirm how essential network or service operations with continuity, infrastructure, and customer responsibilities informs this Chief Operating Officer position. KOV works with the candidate to agree which Chief Operating Officer targets matter, how executive resume, operating-impact summary, leadership biography, and profile will be used, and whether communication is authorized. Good preparation for Chief Operating Officer work includes a safe way to explain describing activity without showing scope, dependencies, or the candidate's contribution and a clear distinction between fact and inference.
+Position a Chief Operating Officer career by linking align operating functions, delivery systems, and organizational priorities to service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination, then clarify which part of that work the candidate actually owned. Confirm how essential network or service operations with continuity, infrastructure, and customer responsibilities informs this Chief Operating Officer position. KOV works with the candidate to agree which Chief Operating Officer targets matter, how executive resume, operating-impact summary, leadership biography, and profile will be used, and whether communication is authorized. Good preparation for Chief Operating Officer work includes a safe way to explain describing activity without showing scope, dependencies, or the candidate's contribution and a clear distinction between fact and inference.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Operating Officer career hub](/roles/coo/)
 
-Review the role-wide approach to align operating functions, delivery systems, and organizational priorities and the evidence expected for that scope.
+
 
 ### [Utilities industry hub](/industries/utilities/)
 
-Compare how essential network or service operations with continuity, infrastructure, and customer responsibilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Utilities](/roles/ceo/utilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Operating Officer remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Financial Officer in Utilities](/roles/cfo/utilities.html)
 
-Contrast lead financial stewardship and connect resource decisions to organizational priorities with the Chief Operating Officer remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with essential network or service operations with continuity, infrastructure, and customer responsibilities and identify how the Chief Operating Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Operating Officer test the scope of work in Utilities?
 
-Use the opening discussion to understand the specific Utilities employer, not to assume a standard role. Compare align operating functions, delivery systems, and organizational priorities with the stated scope, identify decision partners among customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Utilities employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### What evidence can a Chief Operating Officer use to explain experience in Utilities?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could align operating functions, delive
 
 ### What documents should a Chief Operating Officer tailor for Utilities opportunities?
 
-Document selection depends on the opportunity. A Chief Operating Officer may draw from executive resume, operating-impact summary, leadership biography, and profile, but should foreground only material connected to service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### Which outreach choices belong to a Chief Operating Officer considering Utilities?
 
-Outreach should follow target research, not precede it. The Chief Operating Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with operating scale, service or product delivery, cross-functional change, and decision rights is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Chief Operating Officer rely on title alone when targeting Utilities?
 
-Title is only a label. Establish what the employer means by Chief Operating Officer in this Utilities organization and how the person will work with customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Chief Operating Officer seeking work in Utilities?
 

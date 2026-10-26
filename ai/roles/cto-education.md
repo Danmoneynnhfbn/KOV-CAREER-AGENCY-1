@@ -4,7 +4,7 @@ KOV helps Chief Technology Officer candidates considering roles connected to Edu
 
 ## How Chief Technology Officer work connects with Education
 
-The Chief Technology Officer remit to set technology direction and connect technical choices with product and business needs should be described through decisions and examples, especially evidence of technology strategy, architecture or product scope, delivery, teams, risk, and measurable contribution relevant to Education. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Chief Technology Officer position. Where appropriate to the agreed service, KOV can help a Chief Technology Officer candidate prepare and coordinate approved next steps for Education. A Chief Technology Officer candidate should be ready to explain using tool lists as a substitute for leadership remit, delivery context, and trade-offs without revealing confidential details or implying unsupported responsibility.
+The Chief Technology Officer remit to set technology direction and connect technical choices with product and business needs should be described through decisions and examples, especially evidence of technology strategy, architecture or product scope, delivery, teams, risk, and measurable contribution relevant to Education. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Chief Technology Officer position. Where appropriate to the agreed service, KOV can help a Chief Technology Officer candidate prepare and coordinate approved next steps for Education. A Chief Technology Officer candidate should be ready to explain using tool lists as a substitute for leadership remit, delivery context, and trade-offs without revealing confidential details or implying unsupported responsibility.
 
 ## Who this Chief Technology Officer and Education guide is for
 
@@ -12,7 +12,7 @@ Where appropriate to the agreed service, KOV can help a Chief Technology Officer
 
 ## A candidate-led process from first discussion to next steps
 
-Show the Chief Technology Officer scope behind the title: how the candidate could set technology direction and connect technical choices with product and business needs, which decisions mattered, and where technology strategy, architecture or product scope, delivery, teams, risk, and measurable contribution demonstrates their contribution. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Chief Technology Officer position. The candidate decides whether to pursue a Chief Technology Officer opportunity. KOV can support agreed research and preparation concerning Education. Where using tool lists as a substitute for leadership remit, delivery context, and trade-offs affects a career example, substitute an authorized summary that preserves the point about technology strategy, architecture or product scope, delivery, teams, risk, and measurable contribution.
+Show the Chief Technology Officer scope behind the title: how the candidate could set technology direction and connect technical choices with product and business needs, which decisions mattered, and where technology strategy, architecture or product scope, delivery, teams, risk, and measurable contribution demonstrates their contribution. The candidate decides whether to pursue a Chief Technology Officer opportunity. KOV can support agreed research and preparation concerning Education. Where using tool lists as a substitute for leadership remit, delivery context, and trade-offs affects a career example, substitute an authorized summary that preserves the point about technology strategy, architecture or product scope, delivery, teams, risk, and measurable contribution.
 
 ## Documents that make Chief Technology Officer experience relevant here
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Technology Officer career hub](/roles/cto/)
 
-Review the role-wide approach to set technology direction and connect technical choices with product and business needs and the evidence expected for that scope.
+
 
 ### [Education industry hub](/industries/education/)
 
-Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.
+
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Technology Officer remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Education](/roles/coo/education.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Technology Officer remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Technology Officer in Agriculture, Food and Forestry](/roles/cto/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with learning services delivered through institutions, programs, technology, or educational support and identify how the Chief Technology Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Technology Officer in Education?
 
-Start with the organization's account of learning services delivered through institutions, programs, technology, or educational support, then clarify how the Chief Technology Officer would set technology direction and connect technical choices with product and business needs. Ask how learners, families, educators, administrators, owners or boards, and community partners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of learning services delivered through institutions, programs, technology, or educational support, then clarify how the Chief Technology Officer would set technology direction and connect technical choices with product and business needs. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Chief Technology Officer make prior work relevant to Education?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of technology strategy, arc
 
 ### Which career materials can help a Chief Technology Officer explore work in Education?
 
-Possible materials include executive resume, technology leadership profile, portfolio summary, and LinkedIn profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or institutional scope, learner or service context, staff leadership, and improvement contribution. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, technology leadership profile, portfolio summary, and LinkedIn profile. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Chief Technology Officer contacts an organization in Education?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### What makes a Chief Technology Officer background relevant to work in Education?
 
-Title is only a label. Establish what the employer means by Chief Technology Officer in this Education organization and how the person will work with learners, families, educators, administrators, owners or boards, and community partners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Does KOV control employer responses to Chief Technology Officer outreach in Education?
 

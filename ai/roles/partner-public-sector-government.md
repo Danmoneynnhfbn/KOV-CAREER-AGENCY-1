@@ -4,11 +4,11 @@ KOV helps Partner candidates considering roles connected to Public Sector and Go
 
 ## How Partner work connects with Public Sector and Government
 
-Where revealing client information or overstating individual ownership of team results affects a career example, substitute an authorized summary that preserves the point about client or commercial contribution, practice leadership, collaboration, and shared responsibilities. In Public Sector and Government, residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders may shape the work. A Partner example should separate direct responsibility from collaboration. An employer's Public Sector and Government model may involve public administration, public programs, or services delivered under a public mandate; its implications for public purpose, stewardship, transparency, service access, and coordination across institutions should be discussed, not presumed. The Partner remit to develop a practice or business while contributing to a shared ownership or partnership structure should be described through decisions and examples, especially evidence of client or commercial contribution, practice leadership, collaboration, and shared responsibilities relevant to Public Sector and Government.
+Where revealing client information or overstating individual ownership of team results affects a career example, substitute an authorized summary that preserves the point about client or commercial contribution, practice leadership, collaboration, and shared responsibilities. A Partner example should separate direct responsibility from collaboration. An employer's Public Sector and Government model may involve public administration, public programs, or services delivered under a public mandate; its implications for public purpose, stewardship, transparency, service access, and coordination across institutions should be discussed, not presumed. The Partner remit to develop a practice or business while contributing to a shared ownership or partnership structure should be described through decisions and examples, especially evidence of client or commercial contribution, practice leadership, collaboration, and shared responsibilities relevant to Public Sector and Government.
 
 ## Who this Partner and Public Sector and Government guide is for
 
-For Partner work in Public Sector and Government, explain how the candidate could develop a practice or business while contributing to a shared ownership or partnership structure; connect that mandate to evidence of client or commercial contribution, practice leadership, collaboration, and shared responsibilities. Not every Public Sector and Government organization will handle public purpose, stewardship, transparency, service access, and coordination across institutions alike. Confirm how public administration, public programs, or services delivered under a public mandate informs this Partner position. KOV's service scope for a Partner candidate can include document preparation and agreed search activity, but cannot promise an employer's response. For Partner materials, manage the risk of revealing client information or overstating individual ownership of team results; support claims with client or commercial contribution, practice leadership, collaboration, and shared responsibilities and remove details that are not authorized for sharing.
+For Partner work in Public Sector and Government, explain how the candidate could develop a practice or business while contributing to a shared ownership or partnership structure; connect that mandate to evidence of client or commercial contribution, practice leadership, collaboration, and shared responsibilities. Confirm how public administration, public programs, or services delivered under a public mandate informs this Partner position. KOV's service scope for a Partner candidate can include document preparation and agreed search activity, but cannot promise an employer's response. For Partner materials, manage the risk of revealing client information or overstating individual ownership of team results; support claims with client or commercial contribution, practice leadership, collaboration, and shared responsibilities and remove details that are not authorized for sharing.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Partner career hub](/roles/partner/)
 
-Review the role-wide approach to develop a practice or business while contributing to a shared ownership or partnership structure and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Partner remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Partner remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Partner in Agriculture, Food and Forestry](/roles/partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with public administration, public programs, or services delivered under a public mandate and identify how the Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Partner resolve before a target discussion in Public Sector and Government?
 
-A Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. Explore how the role will develop a practice or business while contributing to a shared ownership or partnership structure and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Partner career story fit the needs of Public Sector and Government?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of client or commercial con
 
 ### What should a Partner prepare in writing before targeting Public Sector and Government?
 
-Possible materials include partner biography, practice profile, selected work summary, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
+Possible materials include partner biography, practice profile, selected work summary, and professional profile. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
 
 ### What should a Partner approve before outreach in Public Sector and Government?
 

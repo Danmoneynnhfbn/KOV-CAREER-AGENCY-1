@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chair career hub](/roles/chair/)
 
-Review the role-wide approach to lead board effectiveness and support clear governance and decision-making and the evidence expected for that scope.
+
 
 ### [Legal Services industry hub](/industries/legal-services/)
 
-Compare how legal advice, representation, transactions, dispute work, or related professional services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Legal Services](/roles/ceo/legal-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chair remit; consider where each function meets legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Operating Officer in Legal Services](/roles/coo/legal-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chair remit; consider where each function meets legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chair in Agriculture, Food and Forestry](/roles/chair/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with legal advice, representation, transactions, dispute work, or related professional services and identify how the Chair remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chair clarify before considering work in Legal Services?
 
-Use the opening discussion to understand the specific Legal Services employer, not to assume a standard role. Compare lead board effectiveness and support clear governance and decision-making with the stated scope, identify decision partners among clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Legal Services employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Chair describe transferable experience for Legal Services work?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### How can KOV and a Chair plan contact with Legal Services organizations?
 
-Outreach should follow target research, not precede it. The Chair candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with meeting leadership, board composition, governance practice, relationships, and transition judgment is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Chair assess fit with Legal Services responsibilities?
 

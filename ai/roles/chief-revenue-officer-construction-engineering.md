@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Revenue Officer career hub](/roles/chief-revenue-officer/)
 
-Review the role-wide approach to coordinate revenue-facing functions around a coherent commercial direction and the evidence expected for that scope.
+
 
 ### [Construction and Engineering industry hub](/industries/construction-engineering/)
 
-Compare how project-based delivery involving design, procurement, technical coordination, and site execution affects career planning across functions.
+
 
 ### [Chief Executive Officer in Construction and Engineering](/roles/ceo/construction-engineering.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Revenue Officer remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Operating Officer in Construction and Engineering](/roles/coo/construction-engineering.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Revenue Officer remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Revenue Officer in Agriculture, Food and Forestry](/roles/chief-revenue-officer/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with project-based delivery involving design, procurement, technical coordination, and site execution and identify how the Chief Revenue Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Revenue Officer test the scope of work in Construction and Engineering?
 
-Start with the organization's account of project-based delivery involving design, procurement, technical coordination, and site execution, then clarify how the Chief Revenue Officer would coordinate revenue-facing functions around a coherent commercial direction. Ask how clients, project teams, designers, contractors, suppliers, workers, and asset users participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of project-based delivery involving design, procurement, technical coordination, and site execution, then clarify how the Chief Revenue Officer would coordinate revenue-facing functions around a coherent commercial direction. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Chief Revenue Officer use to explain experience in Construction and Engineering?
 
@@ -139,11 +139,11 @@ Select examples that show commercial remit, customer segments, sales and marketi
 
 ### What documents should a Chief Revenue Officer tailor for Construction and Engineering opportunities?
 
-Possible materials include executive resume, commercial leadership profile, pipeline narrative, and biography. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to project complexity, commercial or technical decisions, interface management, delivery contribution, and lessons learned. Each claim should be accurate for this Construction and Engineering target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, commercial leadership profile, pipeline narrative, and biography. Each claim should be accurate for this Construction and Engineering target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Chief Revenue Officer considering Construction and Engineering?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Revenue Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Construction and Engineering employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Construction and Engineering employers.
 
 ### Can a Chief Revenue Officer rely on title alone when targeting Construction and Engineering?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate commercial
 
 ### What outcome can KOV guarantee for a Chief Revenue Officer seeking work in Construction and Engineering?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Revenue Officer candidate considering Construction and Engineering, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

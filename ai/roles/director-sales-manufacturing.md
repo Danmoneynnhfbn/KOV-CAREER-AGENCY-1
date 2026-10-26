@@ -16,7 +16,7 @@ A precise Director of Sales story ties customer segment, territory or account sc
 
 ## Documents that make Director of Sales experience relevant here
 
-A Director of Sales candidate should show how customer segment, territory or account scope, team contribution, and sales process supported the work to manage sales teams, accounts, or territories against an agreed commercial plan, with the Manufacturing setting made explicit. Not every Manufacturing organization will handle production planning, equipment capacity, quality, workforce capability, and customer demand alike. Confirm how conversion of materials into products through coordinated processes, equipment, people, and quality systems informs this Director of Sales position. Candidate-side support from KOV may connect Director of Sales positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Do not resolve uncertainty about claiming results without clarifying target, territory, team role, or sales cycle through assumption; verify the requirement and use only supportable Director of Sales claims.
+A Director of Sales candidate should show how customer segment, territory or account scope, team contribution, and sales process supported the work to manage sales teams, accounts, or territories against an agreed commercial plan, with the Manufacturing setting made explicit. Confirm how conversion of materials into products through coordinated processes, equipment, people, and quality systems informs this Director of Sales position. Candidate-side support from KOV may connect Director of Sales positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Do not resolve uncertainty about claiming results without clarifying target, territory, team role, or sales cycle through assumption; verify the requirement and use only supportable Director of Sales claims.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ Consider document and positioning support for Director of Sales materials that p
 
 ## Prepare to discuss the Manufacturing mandate
 
-Review each Director of Sales example for claiming results without clarifying target, territory, team role, or sales cycle, then describe the candidate's decisions without overstating their control over sales executives, marketing, product, customers, and channel partners. KOV works with the candidate to agree which Director of Sales targets matter, how resume, sales achievement brief, profile, and interview examples will be used, and whether communication is authorized. In Manufacturing, employees, suppliers, customers, engineering, operations, distribution, and ownership may shape the work. A Director of Sales example should separate direct responsibility from collaboration. In a Manufacturing target, make the Director of Sales contribution legible: describe how the candidate helped manage sales teams, accounts, or territories against an agreed commercial plan and what supports customer segment, territory or account scope, team contribution, and sales process.
+Review each Director of Sales example for claiming results without clarifying target, territory, team role, or sales cycle, then describe the candidate's decisions without overstating their control over sales executives, marketing, product, customers, and channel partners. In Manufacturing, employees, suppliers, customers, engineering, operations, distribution, and ownership may shape the work. A Director of Sales example should separate direct responsibility from collaboration. In a Manufacturing target, make the Director of Sales contribution legible: describe how the candidate helped manage sales teams, accounts, or territories against an agreed commercial plan and what supports customer segment, territory or account scope, team contribution, and sales process.
 
 ## Common positioning mistakes for Director of Sales candidates in Manufacturing
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Sales career hub](/roles/director-sales/)
 
-Review the role-wide approach to manage sales teams, accounts, or territories against an agreed commercial plan and the evidence expected for that scope.
+
 
 ### [Manufacturing industry hub](/industries/manufacturing/)
 
-Compare how conversion of materials into products through coordinated processes, equipment, people, and quality systems affects career planning across functions.
+
 
 ### [Chief Executive Officer in Manufacturing](/roles/ceo/manufacturing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Sales remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Operating Officer in Manufacturing](/roles/coo/manufacturing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Sales remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Director of Sales in Wholesale and Distribution](/roles/director-sales/wholesale-distribution.html)
 
-Compare movement and availability of goods through purchasing, inventory, channel, and delivery relationships with conversion of materials into products through coordinated processes, equipment, people, and quality systems and identify how the Director of Sales remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Director of Sales clarify before considering work in Manufacturing?
 
-A Director of Sales candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's conversion of materials into products through coordinated processes, equipment, people, and quality systems. Explore how the role will manage sales teams, accounts, or territories against an agreed commercial plan and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of Sales candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's conversion of materials into products through coordinated processes, equipment, people, and quality systems. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Director of Sales describe transferable experience for Manufacturing work?
 
@@ -139,7 +139,7 @@ Select examples that show customer segment, territory or account scope, team con
 
 ### How can a Director of Sales choose documents for conversations about Manufacturing?
 
-Possible materials include resume, sales achievement brief, profile, and interview examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to plant or product scope, process decisions, quality or delivery context, team leadership, and improvement work. Each claim should be accurate for this Manufacturing target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, sales achievement brief, profile, and interview examples. Each claim should be accurate for this Manufacturing target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Director of Sales plan contact with Manufacturing organizations?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Director of Sales assess fit with Manufacturing responsibilities?
 
-No. Compare the role description with the candidate's experience of manage sales teams, accounts, or territories against an agreed commercial plan and the organization's conversion of materials into products through coordinated processes, equipment, people, and quality systems. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Director of Sales candidate considering Manufacturing?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of Sales candidate considering Manufacturing, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

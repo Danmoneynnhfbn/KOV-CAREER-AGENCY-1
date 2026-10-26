@@ -85,27 +85,27 @@ Use KOV's London page as a starting point for an agreed UK-focused search discus
 
 ### Saudi Arabia
 
-For Holding Companies and Corporate Groups targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Holding Companies and Corporate Groups targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Holding Companies and Corporate Groups targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### UAE
 
-For Holding Companies and Corporate Groups targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Holding Companies and Corporate Groups targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Holding Companies and Corporate Groups targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### United Kingdom
 
-For Holding Companies and Corporate Groups targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Holding Companies and Corporate Groups targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Holding Companies and Corporate Groups targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Dubai
 
-For Holding Companies and Corporate Groups targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Holding Companies and Corporate Groups targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Holding Companies and Corporate Groups targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Australia
 
-For Holding Companies and Corporate Groups targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Holding Companies and Corporate Groups targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Holding Companies and Corporate Groups targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Africa
 
-For Holding Companies and Corporate Groups targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Holding Companies and Corporate Groups targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Holding Companies and Corporate Groups targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ## Choose an appropriate level of career support
 
@@ -129,99 +129,99 @@ Use the cards to open only the role-and-industry pages currently available. Each
 
 ### [Chief Executive Officer in Holding Companies and Corporate Groups](/roles/ceo/holding-companies.html)
 
-Explore how set organization-wide direction and coordinate executive work connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Operating Officer in Holding Companies and Corporate Groups](/roles/coo/holding-companies.html)
 
-Explore how align operating functions, delivery systems, and organizational priorities connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Financial Officer in Holding Companies and Corporate Groups](/roles/cfo/holding-companies.html)
 
-Explore how lead financial stewardship and connect resource decisions to organizational priorities connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Technology Officer in Holding Companies and Corporate Groups](/roles/cto/holding-companies.html)
 
-Explore how set technology direction and connect technical choices with product and business needs connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Information Officer in Holding Companies and Corporate Groups](/roles/cio/holding-companies.html)
 
-Explore how guide information systems, digital operations, and technology services for the organization connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Marketing Officer in Holding Companies and Corporate Groups](/roles/cmo/holding-companies.html)
 
-Explore how shape marketing strategy, customer understanding, brand, and commercial communication connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Human Resources Officer in Holding Companies and Corporate Groups](/roles/chro/holding-companies.html)
 
-Explore how guide people strategy, organizational capability, and workforce-related leadership connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Information Security Officer in Holding Companies and Corporate Groups](/roles/ciso/holding-companies.html)
 
-Explore how lead information-security priorities and coordinate risk-informed protection connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [General Counsel / Chief Legal Officer in Holding Companies and Corporate Groups](/roles/general-counsel/holding-companies.html)
 
-Explore how lead legal judgment and connect legal advice with organizational decisions connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Revenue Officer in Holding Companies and Corporate Groups](/roles/chief-revenue-officer/holding-companies.html)
 
-Explore how coordinate revenue-facing functions around a coherent commercial direction connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Product Officer in Holding Companies and Corporate Groups](/roles/chief-product-officer/holding-companies.html)
 
-Explore how guide product direction, portfolio choices, and the connection between users and delivery teams connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Strategy Officer in Holding Companies and Corporate Groups](/roles/chief-strategy-officer/holding-companies.html)
 
-Explore how support organization-wide choices by framing options, analysis, and strategic execution connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Board Director in Holding Companies and Corporate Groups](/roles/board-director/holding-companies.html)
 
-Explore how contribute oversight, inquiry, and strategic perspective within collective governance connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Non-Executive Director in Holding Companies and Corporate Groups](/roles/non-executive-director/holding-companies.html)
 
-Explore how provide independent challenge and strategic contribution distinct from management connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chair in Holding Companies and Corporate Groups](/roles/chair/holding-companies.html)
 
-Explore how lead board effectiveness and support clear governance and decision-making connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Managing Director in Holding Companies and Corporate Groups](/roles/managing-director/holding-companies.html)
 
-Explore how lead a business, division, or organization according to its defined mandate connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Managing Partner in Holding Companies and Corporate Groups](/roles/managing-partner/holding-companies.html)
 
-Explore how combine leadership responsibilities with the governance and professional context of a partnership connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Partner in Holding Companies and Corporate Groups](/roles/partner/holding-companies.html)
 
-Explore how develop a practice or business while contributing to a shared ownership or partnership structure connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Vice President of Finance in Holding Companies and Corporate Groups](/roles/vp-finance/holding-companies.html)
 
-Explore how lead finance teams and translate financial information into decisions for a business area connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Vice President of Strategy in Holding Companies and Corporate Groups](/roles/vp-strategy/holding-companies.html)
 
-Explore how frame strategic choices and connect planning with operating decisions connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Director of Finance in Holding Companies and Corporate Groups](/roles/director-finance/holding-companies.html)
 
-Explore how lead financial planning, reporting, or control activity for a function or organization connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Director of Legal in Holding Companies and Corporate Groups](/roles/director-legal/holding-companies.html)
 
-Explore how manage a legal team, practice area, or legal operations remit connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Head of Legal in Holding Companies and Corporate Groups](/roles/head-legal/holding-companies.html)
 
-Explore how lead a legal function or specialist team and advise on decisions within its remit connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Head of Strategy in Holding Companies and Corporate Groups](/roles/head-strategy/holding-companies.html)
 
-Explore how coordinate planning and strategic analysis for an organization or business unit connects with ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ## Questions that make a Holding Companies and Corporate Groups target more specific
 
@@ -255,7 +255,7 @@ KOV can help candidates organize relevant experience and documents around an agr
 
 ### Can KOV promise an interview with a Holding Companies and Corporate Groups organization?
 
-No. KOV does not guarantee interviews, offers, employment, introductions, or timelines. Employers make hiring decisions.
+No. Employers make hiring decisions.
 
 ### How should I compare two Holding Companies and Corporate Groups opportunities?
 

@@ -4,7 +4,7 @@ KOV helps Partner candidates considering roles connected to Other Services conne
 
 ## How Partner work connects with Other Services
 
-Good preparation for Partner work includes a safe way to explain revealing client information or overstating individual ownership of team results and a clear distinction between fact and inference. Where appropriate to the agreed service, KOV can help a Partner candidate prepare and coordinate approved next steps for Other Services. In Other Services, customers or members, employees, service providers, owners, suppliers, and communities may shape the work. A Partner example should separate direct responsibility from collaboration. For Partner work in Other Services, explain how the candidate could develop a practice or business while contributing to a shared ownership or partnership structure; connect that mandate to evidence of client or commercial contribution, practice leadership, collaboration, and shared responsibilities.
+Good preparation for Partner work includes a safe way to explain revealing client information or overstating individual ownership of team results and a clear distinction between fact and inference. In Other Services, customers or members, employees, service providers, owners, suppliers, and communities may shape the work. A Partner example should separate direct responsibility from collaboration. For Partner work in Other Services, explain how the candidate could develop a practice or business while contributing to a shared ownership or partnership structure; connect that mandate to evidence of client or commercial contribution, practice leadership, collaboration, and shared responsibilities.
 
 ## Who this Partner and Other Services guide is for
 
@@ -16,7 +16,7 @@ Keep the Partner narrative accurate where revealing client information or overst
 
 ## Documents that make Partner experience relevant here
 
-Career representation remains candidate-led: KOV can support a Partner search, while the candidate approves the goals and disclosures. In Other Services, customers or members, employees, service providers, owners, suppliers, and communities may shape the work. A Partner example should separate direct responsibility from collaboration. To understand the Other Services target, explore personal, repair, membership, community, or specialized services not covered by the other target sectors and ask how a Partner is expected to respond to service consistency, relationship quality, capacity, trust, and adaptation to customer needs. Readers need to see what Partner work involved; connect develop a practice or business while contributing to a shared ownership or partnership structure with the candidate's own examples of client or commercial contribution, practice leadership, collaboration, and shared responsibilities in Other Services.
+Career representation remains candidate-led: KOV can support a Partner search, while the candidate approves the goals and disclosures. A Partner example should separate direct responsibility from collaboration. To understand the Other Services target, explore personal, repair, membership, community, or specialized services not covered by the other target sectors and ask how a Partner is expected to respond to service consistency, relationship quality, capacity, trust, and adaptation to customer needs. Readers need to see what Partner work involved; connect develop a practice or business while contributing to a shared ownership or partnership structure with the candidate's own examples of client or commercial contribution, practice leadership, collaboration, and shared responsibilities in Other Services.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ Career representation remains candidate-led: KOV can support a Partner search, w
 
 ## Choose the individual services that fit the work
 
-Research for a Partner in Other Services becomes more focused when the candidate investigates service consistency, relationship quality, capacity, trust, and adaptation to customer needs alongside personal, repair, membership, community, or specialized services not covered by the other target sectors. Map the Other Services relationships among customers or members, employees, service providers, owners, suppliers, and communities; verify actual authority instead of inferring a reporting line. The candidate decides whether to pursue a Partner opportunity. KOV can support agreed research and preparation concerning Other Services. Good preparation for Partner work includes a safe way to explain revealing client information or overstating individual ownership of team results and a clear distinction between fact and inference.
+Research for a Partner in Other Services becomes more focused when the candidate investigates service consistency, relationship quality, capacity, trust, and adaptation to customer needs alongside personal, repair, membership, community, or specialized services not covered by the other target sectors. The candidate decides whether to pursue a Partner opportunity. KOV can support agreed research and preparation concerning Other Services. Good preparation for Partner work includes a safe way to explain revealing client information or overstating individual ownership of team results and a clear distinction between fact and inference.
 
 ### [Private career representation](/services.html)
 
@@ -59,11 +59,11 @@ Readers need to see what Partner work involved; connect develop a practice or bu
 
 ## Keep research, confidentiality, and outreach aligned
 
-Do not resolve uncertainty about revealing client information or overstating individual ownership of team results through assumption; verify the requirement and use only supportable Partner claims. The candidate decides whether to pursue a Partner opportunity. KOV can support agreed research and preparation concerning Other Services. The candidate's record of client or commercial contribution, practice leadership, collaboration, and shared responsibilities should be set beside the role of customers or members, employees, service providers, owners, suppliers, and communities, so shared results are attributed fairly. A Partner candidate should show how client or commercial contribution, practice leadership, collaboration, and shared responsibilities supported the work to develop a practice or business while contributing to a shared ownership or partnership structure, with the Other Services setting made explicit.
+Do not resolve uncertainty about revealing client information or overstating individual ownership of team results through assumption; verify the requirement and use only supportable Partner claims. KOV can support agreed research and preparation concerning Other Services. The candidate's record of client or commercial contribution, practice leadership, collaboration, and shared responsibilities should be set beside the role of customers or members, employees, service providers, owners, suppliers, and communities, so shared results are attributed fairly. A Partner candidate should show how client or commercial contribution, practice leadership, collaboration, and shared responsibilities supported the work to develop a practice or business while contributing to a shared ownership or partnership structure, with the Other Services setting made explicit.
 
 ## Prepare for conversations about Other Services work
 
-Where revealing client information or overstating individual ownership of team results affects a career example, substitute an authorized summary that preserves the point about client or commercial contribution, practice leadership, collaboration, and shared responsibilities. The candidate decides whether to pursue a Partner opportunity. KOV can support agreed research and preparation concerning Other Services. Before presenting service portfolio, customer or member context, team scope, delivery decisions, and substantiated outcomes, determine how customers or members, employees, service providers, owners, suppliers, and communities participated and which details are safe to discuss. A precise Partner story ties client or commercial contribution, practice leadership, collaboration, and shared responsibilities to the mandate of develop a practice or business while contributing to a shared ownership or partnership structure, without suggesting that the title alone establishes fit.
+Where revealing client information or overstating individual ownership of team results affects a career example, substitute an authorized summary that preserves the point about client or commercial contribution, practice leadership, collaboration, and shared responsibilities. KOV can support agreed research and preparation concerning Other Services. Before presenting service portfolio, customer or member context, team scope, delivery decisions, and substantiated outcomes, determine how customers or members, employees, service providers, owners, suppliers, and communities participated and which details are safe to discuss. A precise Partner story ties client or commercial contribution, practice leadership, collaboration, and shared responsibilities to the mandate of develop a practice or business while contributing to a shared ownership or partnership structure, without suggesting that the title alone establishes fit.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Partner career hub](/roles/partner/)
 
-Review the role-wide approach to develop a practice or business while contributing to a shared ownership or partnership structure and the evidence expected for that scope.
+
 
 ### [Other Services industry hub](/industries/other-services/)
 
-Compare how personal, repair, membership, community, or specialized services not covered by the other target sectors affects career planning across functions.
+
 
 ### [Chief Executive Officer in Other Services](/roles/ceo/other-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Partner remit; consider where each function meets personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chief Operating Officer in Other Services](/roles/coo/other-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Partner remit; consider where each function meets personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Partner in Agriculture, Food and Forestry](/roles/partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with personal, repair, membership, community, or specialized services not covered by the other target sectors and identify how the Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Partner clarify before considering work in Other Services?
 
-Start with the organization's account of personal, repair, membership, community, or specialized services not covered by the other target sectors, then clarify how the Partner would develop a practice or business while contributing to a shared ownership or partnership structure. Ask how customers or members, employees, service providers, owners, suppliers, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of personal, repair, membership, community, or specialized services not covered by the other target sectors, then clarify how the Partner would develop a practice or business while contributing to a shared ownership or partnership structure. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Partner describe transferable experience for Other Services work?
 
@@ -139,7 +139,7 @@ Describe an instance where the candidate could develop a practice or business wh
 
 ### How can a Partner choose documents for conversations about Other Services?
 
-Document selection depends on the opportunity. A Partner may draw from partner biography, practice profile, selected work summary, and professional profile, but should foreground only material connected to service portfolio, customer or member context, team scope, delivery decisions, and substantiated outcomes. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Partner plan contact with Other Services organizations?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Partner assess fit with Other Services responsibilities?
 
-No. Compare the role description with the candidate's experience of develop a practice or business while contributing to a shared ownership or partnership structure and the organization's personal, repair, membership, community, or specialized services not covered by the other target sectors. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Partner candidate considering Other Services?
 

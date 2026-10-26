@@ -49,7 +49,7 @@ Good preparation for Chief Operating Officer work includes a safe way to explain
 
 ## Common positioning mistakes for Chief Operating Officer candidates in Education
 
-In a Education target, make the Chief Operating Officer contribution legible: describe how the candidate helped align operating functions, delivery systems, and organizational priorities and what supports operating scale, service or product delivery, cross-functional change, and decision rights. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Chief Operating Officer position. Where appropriate to the agreed service, KOV can help a Chief Operating Officer candidate prepare and coordinate approved next steps for Education. Before discussing program or institutional scope, learner or service context, staff leadership, and improvement contribution, check whether describing activity without showing scope, dependencies, or the candidate's contribution could expose sensitive details or blur the candidate's decision boundary.
+In a Education target, make the Chief Operating Officer contribution legible: describe how the candidate helped align operating functions, delivery systems, and organizational priorities and what supports operating scale, service or product delivery, cross-functional change, and decision rights. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Chief Operating Officer position. Where appropriate to the agreed service, KOV can help a Chief Operating Officer candidate prepare and coordinate approved next steps for Education. Before discussing program or institutional scope, learner or service context, staff leadership, and improvement contribution, check whether describing activity without showing scope, dependencies, or the candidate's contribution could expose sensitive details or blur the candidate's decision boundary.
 
 - Treat Education as one uniform employer type; distinguish the actual organization and role.
 - Use a Chief Operating Officer title without explaining align operating functions, delivery systems, and organizational priorities.
@@ -63,7 +63,7 @@ Review each Chief Operating Officer example for describing activity without show
 
 ## Prepare for conversations about Education work
 
-A consultation can clarify whether a Chief Operating Officer candidate needs positioning, document support, target research, or approved outreach for Education. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Chief Operating Officer example should separate direct responsibility from collaboration. To understand the Education target, explore learning services delivered through institutions, programs, technology, or educational support and ask how a Chief Operating Officer is expected to respond to learning aims, access, program delivery, workforce needs, and resource stewardship. The Chief Operating Officer remit to align operating functions, delivery systems, and organizational priorities should be described through decisions and examples, especially evidence of operating scale, service or product delivery, cross-functional change, and decision rights relevant to Education.
+A consultation can clarify whether a Chief Operating Officer candidate needs positioning, document support, target research, or approved outreach for Education. A Chief Operating Officer example should separate direct responsibility from collaboration. To understand the Education target, explore learning services delivered through institutions, programs, technology, or educational support and ask how a Chief Operating Officer is expected to respond to learning aims, access, program delivery, workforce needs, and resource stewardship. The Chief Operating Officer remit to align operating functions, delivery systems, and organizational priorities should be described through decisions and examples, especially evidence of operating scale, service or product delivery, cross-functional change, and decision rights relevant to Education.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Operating Officer career hub](/roles/coo/)
 
-Review the role-wide approach to align operating functions, delivery systems, and organizational priorities and the evidence expected for that scope.
+
 
 ### [Education industry hub](/industries/education/)
 
-Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.
+
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Operating Officer remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Financial Officer in Education](/roles/cfo/education.html)
 
-Contrast lead financial stewardship and connect resource decisions to organizational priorities with the Chief Operating Officer remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with learning services delivered through institutions, programs, technology, or educational support and identify how the Chief Operating Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Operating Officer clarify before considering work in Education?
 
-A Chief Operating Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. Explore how the role will align operating functions, delivery systems, and organizational priorities and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Operating Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Chief Operating Officer describe transferable experience for Education work?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could align operating functions, delive
 
 ### How can a Chief Operating Officer choose documents for conversations about Education?
 
-Possible materials include executive resume, operating-impact summary, leadership biography, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or institutional scope, learner or service context, staff leadership, and improvement contribution. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, operating-impact summary, leadership biography, and profile. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Chief Operating Officer plan contact with Education organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Operating Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Education employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Education employers.
 
 ### How can a Chief Operating Officer assess fit with Education responsibilities?
 
-Title is only a label. Establish what the employer means by Chief Operating Officer in this Education organization and how the person will work with learners, families, educators, administrators, owners or boards, and community partners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Chief Operating Officer candidate considering Education?
 

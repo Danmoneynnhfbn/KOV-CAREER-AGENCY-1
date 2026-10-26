@@ -63,7 +63,7 @@ A precise Chief Strategy Officer story ties strategy remit, decision support, po
 
 ## Prepare for conversations about Arts, Entertainment and Sports work
 
-The Chief Strategy Officer remit to support organization-wide choices by framing options, analysis, and strategic execution should be described through decisions and examples, especially evidence of strategy remit, decision support, portfolio choices, implementation links, and influence relevant to Arts, Entertainment and Sports. To understand the Arts, Entertainment and Sports target, explore creative, cultural, event, audience, or sporting activity supported by teams and organizations and ask how a Chief Strategy Officer is expected to respond to creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions. In Arts, Entertainment and Sports, audiences, participants, creators, athletes, sponsors, venues, partners, and communities may shape the work. A Chief Strategy Officer example should separate direct responsibility from collaboration. Before discussing program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available, check whether presenting recommendations as implemented outcomes or leaving ownership unclear could expose sensitive details or blur the candidate's decision boundary.
+The Chief Strategy Officer remit to support organization-wide choices by framing options, analysis, and strategic execution should be described through decisions and examples, especially evidence of strategy remit, decision support, portfolio choices, implementation links, and influence relevant to Arts, Entertainment and Sports. In Arts, Entertainment and Sports, audiences, participants, creators, athletes, sponsors, venues, partners, and communities may shape the work. A Chief Strategy Officer example should separate direct responsibility from collaboration. Before discussing program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available, check whether presenting recommendations as implemented outcomes or leaving ownership unclear could expose sensitive details or blur the candidate's decision boundary.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Strategy Officer career hub](/roles/chief-strategy-officer/)
 
-Review the role-wide approach to support organization-wide choices by framing options, analysis, and strategic execution and the evidence expected for that scope.
+
 
 ### [Arts, Entertainment and Sports industry hub](/industries/arts-entertainment-sports/)
 
-Compare how creative, cultural, event, audience, or sporting activity supported by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Arts, Entertainment and Sports](/roles/ceo/arts-entertainment-sports.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Strategy Officer remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Operating Officer in Arts, Entertainment and Sports](/roles/coo/arts-entertainment-sports.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Strategy Officer remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Strategy Officer in Agriculture, Food and Forestry](/roles/chief-strategy-officer/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with creative, cultural, event, audience, or sporting activity supported by teams and organizations and identify how the Chief Strategy Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Strategy Officer in Arts, Entertainment and Sports?
 
-Start with the organization's account of creative, cultural, event, audience, or sporting activity supported by teams and organizations, then clarify how the Chief Strategy Officer would support organization-wide choices by framing options, analysis, and strategic execution. Ask how audiences, participants, creators, athletes, sponsors, venues, partners, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of creative, cultural, event, audience, or sporting activity supported by teams and organizations, then clarify how the Chief Strategy Officer would support organization-wide choices by framing options, analysis, and strategic execution. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Chief Strategy Officer make prior work relevant to Arts, Entertainment and Sports?
 
@@ -139,15 +139,15 @@ Make the connection explicit: the candidate's record of strategy remit, decision
 
 ### Which career materials can help a Chief Strategy Officer explore work in Arts, Entertainment and Sports?
 
-Possible materials include executive resume, strategy portfolio, executive biography, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available. Each claim should be accurate for this Arts, Entertainment and Sports target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, strategy portfolio, executive biography, and profile. Each claim should be accurate for this Arts, Entertainment and Sports target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Chief Strategy Officer contacts an organization in Arts, Entertainment and Sports?
 
-Outreach should follow target research, not precede it. The Chief Strategy Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with strategy remit, decision support, portfolio choices, implementation links, and influence is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Chief Strategy Officer background relevant to work in Arts, Entertainment and Sports?
 
-Title is only a label. Establish what the employer means by Chief Strategy Officer in this Arts, Entertainment and Sports organization and how the person will work with audiences, participants, creators, athletes, sponsors, venues, partners, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Does KOV control employer responses to Chief Strategy Officer outreach in Arts, Entertainment and Sports?
 

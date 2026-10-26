@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Revenue Officer career hub](/roles/chief-revenue-officer/)
 
-Review the role-wide approach to coordinate revenue-facing functions around a coherent commercial direction and the evidence expected for that scope.
+
 
 ### [Utilities industry hub](/industries/utilities/)
 
-Compare how essential network or service operations with continuity, infrastructure, and customer responsibilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Utilities](/roles/ceo/utilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Revenue Officer remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Operating Officer in Utilities](/roles/coo/utilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Revenue Officer remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Revenue Officer in Agriculture, Food and Forestry](/roles/chief-revenue-officer/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with essential network or service operations with continuity, infrastructure, and customer responsibilities and identify how the Chief Revenue Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Revenue Officer test the scope of work in Utilities?
 
-Start with the organization's account of essential network or service operations with continuity, infrastructure, and customer responsibilities, then clarify how the Chief Revenue Officer would coordinate revenue-facing functions around a coherent commercial direction. Ask how customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of essential network or service operations with continuity, infrastructure, and customer responsibilities, then clarify how the Chief Revenue Officer would coordinate revenue-facing functions around a coherent commercial direction. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Chief Revenue Officer use to explain experience in Utilities?
 
@@ -139,7 +139,7 @@ Select examples that show commercial remit, customer segments, sales and marketi
 
 ### What documents should a Chief Revenue Officer tailor for Utilities opportunities?
 
-Possible materials include executive resume, commercial leadership profile, pipeline narrative, and biography. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination. Each claim should be accurate for this Utilities target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, commercial leadership profile, pipeline narrative, and biography. Each claim should be accurate for this Utilities target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Chief Revenue Officer considering Utilities?
 

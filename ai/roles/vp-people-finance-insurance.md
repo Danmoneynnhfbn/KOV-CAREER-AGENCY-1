@@ -8,7 +8,7 @@ To assess a Vice President of People opportunity in Finance and Insurance, compa
 
 ## Who this Vice President of People and Finance and Insurance guide is for
 
-Do not resolve uncertainty about including identifiable employee matters or claims without appropriate context through assumption; verify the requirement and use only supportable Vice President of People claims. In Finance and Insurance, customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders may shape the work. A Vice President of People example should separate direct responsibility from collaboration. An employer's Finance and Insurance model may involve financial products and services supported by customer relationships, information, operations, and oversight; its implications for trust, information handling, product suitability, operational resilience, and competing customer and business needs should be discussed, not presumed. In a Finance and Insurance target, make the Vice President of People contribution legible: describe how the candidate helped lead people programs and partner with managers on organizational capability and what supports people agenda, organization design, manager support, program scope, and employee experience.
+Do not resolve uncertainty about including identifiable employee matters or claims without appropriate context through assumption; verify the requirement and use only supportable Vice President of People claims. A Vice President of People example should separate direct responsibility from collaboration. An employer's Finance and Insurance model may involve financial products and services supported by customer relationships, information, operations, and oversight; its implications for trust, information handling, product suitability, operational resilience, and competing customer and business needs should be discussed, not presumed. In a Finance and Insurance target, make the Vice President of People contribution legible: describe how the candidate helped lead people programs and partner with managers on organizational capability and what supports people agenda, organization design, manager support, program scope, and employee experience.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -63,7 +63,7 @@ Good preparation for Vice President of People work includes a safe way to explai
 
 ## Prepare for conversations about Finance and Insurance work
 
-The Finance and Insurance context involves financial products and services supported by customer relationships, information, operations, and oversight; examine how that structure affects trust, information handling, product suitability, operational resilience, and competing customer and business needs before drawing conclusions about the Vice President of People role. Discuss business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes with care: a Vice President of People candidate can explain contribution while omitting confidential or identifying facts. The candidate decides whether to pursue a Vice President of People opportunity. KOV can support agreed research and preparation concerning Finance and Insurance. Review each Vice President of People example for including identifiable employee matters or claims without appropriate context, then describe the candidate's decisions without overstating their control over CHRO, executives, people teams, employees, line managers, and advisers.
+The Finance and Insurance context involves financial products and services supported by customer relationships, information, operations, and oversight; examine how that structure affects trust, information handling, product suitability, operational resilience, and competing customer and business needs before drawing conclusions about the Vice President of People role. The candidate decides whether to pursue a Vice President of People opportunity. KOV can support agreed research and preparation concerning Finance and Insurance. Review each Vice President of People example for including identifiable employee matters or claims without appropriate context, then describe the candidate's decisions without overstating their control over CHRO, executives, people teams, employees, line managers, and advisers.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of People career hub](/roles/vp-people/)
 
-Review the role-wide approach to lead people programs and partner with managers on organizational capability and the evidence expected for that scope.
+
 
 ### [Finance and Insurance industry hub](/industries/finance-insurance/)
 
-Compare how financial products and services supported by customer relationships, information, operations, and oversight affects career planning across functions.
+
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of People remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Finance and Insurance](/roles/coo/finance-insurance.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of People remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Vice President of People in Manufacturing](/roles/vp-people/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with financial products and services supported by customer relationships, information, operations, and oversight and identify how the Vice President of People remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Vice President of People resolve before a target discussion in Finance and Insurance?
 
-A Vice President of People candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's financial products and services supported by customer relationships, information, operations, and oversight. Explore how the role will lead people programs and partner with managers on organizational capability and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Vice President of People candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's financial products and services supported by customer relationships, information, operations, and oversight. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Vice President of People career story fit the needs of Finance and Insurance?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of people agenda, organizat
 
 ### What should a Vice President of People prepare in writing before targeting Finance and Insurance?
 
-Possible materials include executive resume, people leadership portfolio, biography, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes. Each claim should be accurate for this Finance and Insurance target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, people leadership portfolio, biography, and profile. Each claim should be accurate for this Finance and Insurance target, and confidential or unauthorized material should be omitted.
 
 ### What should a Vice President of People approve before outreach in Finance and Insurance?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate people age
 
 ### Will KOV secure a meeting for a Vice President of People with an employer in Finance and Insurance?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Vice President of People candidate considering Finance and Insurance, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

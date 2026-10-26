@@ -12,7 +12,7 @@ To assess a Vice President of Finance opportunity in Holding Companies and Corpo
 
 ## A candidate-led process from first discussion to next steps
 
-Keep the Vice President of Finance narrative accurate where disclosing sensitive figures or presenting forecasts as realized results may arise: attribute shared work and disclose only information the candidate may use. The service plan should fit the candidate's Vice President of Finance priorities; agree research, materials, and any outreach before contact occurs. In Holding Companies and Corporate Groups, owners, boards, portfolio leaders, finance teams, employees, and external partners may shape the work. A Vice President of Finance example should separate direct responsibility from collaboration. Use ownership or coordination of multiple entities, portfolios, or operating businesses to frame research about Holding Companies and Corporate Groups, then ask how a Vice President of Finance will work through delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences.
+Keep the Vice President of Finance narrative accurate where disclosing sensitive figures or presenting forecasts as realized results may arise: attribute shared work and disclose only information the candidate may use. In Holding Companies and Corporate Groups, owners, boards, portfolio leaders, finance teams, employees, and external partners may shape the work. A Vice President of Finance example should separate direct responsibility from collaboration. Use ownership or coordination of multiple entities, portfolios, or operating businesses to frame research about Holding Companies and Corporate Groups, then ask how a Vice President of Finance will work through delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences.
 
 ## Documents that make Vice President of Finance experience relevant here
 
@@ -33,7 +33,7 @@ The candidate can discuss planning scope, financial controls, analysis, resource
 
 ## Choose the individual services that fit the work
 
-A precise Vice President of Finance story ties planning scope, financial controls, analysis, resource decisions, and communication to the mandate of lead finance teams and translate financial information into decisions for a business area, without suggesting that the title alone establishes fit. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Vice President of Finance position. KOV works with the candidate to agree which Vice President of Finance targets matter, how executive resume, finance leadership summary, profile, and selected achievement examples will be used, and whether communication is authorized. Review each Vice President of Finance example for disclosing sensitive figures or presenting forecasts as realized results, then describe the candidate's decisions without overstating their control over CFO, business leaders, finance colleagues, auditors where relevant, and owners.
+A precise Vice President of Finance story ties planning scope, financial controls, analysis, resource decisions, and communication to the mandate of lead finance teams and translate financial information into decisions for a business area, without suggesting that the title alone establishes fit. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Vice President of Finance position. KOV works with the candidate to agree which Vice President of Finance targets matter, how executive resume, finance leadership summary, profile, and selected achievement examples will be used, and whether communication is authorized. Review each Vice President of Finance example for disclosing sensitive figures or presenting forecasts as realized results, then describe the candidate's decisions without overstating their control over CFO, business leaders, finance colleagues, auditors where relevant, and owners.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Finance career hub](/roles/vp-finance/)
 
-Review the role-wide approach to lead finance teams and translate financial information into decisions for a business area and the evidence expected for that scope.
+
 
 ### [Holding Companies and Corporate Groups industry hub](/industries/holding-companies/)
 
-Compare how ownership or coordination of multiple entities, portfolios, or operating businesses affects career planning across functions.
+
 
 ### [Chief Executive Officer in Holding Companies and Corporate Groups](/roles/ceo/holding-companies.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Finance remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Operating Officer in Holding Companies and Corporate Groups](/roles/coo/holding-companies.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Finance remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Vice President of Finance in Manufacturing](/roles/vp-finance/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with ownership or coordination of multiple entities, portfolios, or operating businesses and identify how the Vice President of Finance remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Vice President of Finance clarify before considering work in Holding Companies and Corporate Groups?
 
-Use the opening discussion to understand the specific Holding Companies and Corporate Groups employer, not to assume a standard role. Compare lead finance teams and translate financial information into decisions for a business area with the stated scope, identify decision partners among owners, boards, portfolio leaders, finance teams, employees, and external partners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Holding Companies and Corporate Groups employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Vice President of Finance describe transferable experience for Holding Companies and Corporate Groups work?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### How can KOV and a Vice President of Finance plan contact with Holding Companies and Corporate Groups organizations?
 
-Outreach should follow target research, not precede it. The Vice President of Finance candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with planning scope, financial controls, analysis, resource decisions, and communication is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Vice President of Finance assess fit with Holding Companies and Corporate Groups responsibilities?
 
-Title is only a label. Establish what the employer means by Vice President of Finance in this Holding Companies and Corporate Groups organization and how the person will work with owners, boards, portfolio leaders, finance teams, employees, and external partners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Vice President of Finance candidate considering Holding Companies and Corporate Groups?
 

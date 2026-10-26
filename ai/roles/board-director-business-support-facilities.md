@@ -45,7 +45,7 @@ Consider document and positioning support for Board Director materials that pres
 
 ## Prepare to discuss the Business Support and Facilities mandate
 
-The candidate can discuss committee or board remit, preparation, judgment, relevant expertise, and collective contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material. In Business Support and Facilities, internal clients, employees, service teams, suppliers, customers, and contract owners may shape the work. A Board Director example should separate direct responsibility from collaboration. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Board Director position. Readers need to see what Board Director work involved; connect contribute oversight, inquiry, and strategic perspective within collective governance with the candidate's own examples of committee or board remit, preparation, judgment, relevant expertise, and collective contribution in Business Support and Facilities.
+The candidate can discuss committee or board remit, preparation, judgment, relevant expertise, and collective contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Board Director position. Readers need to see what Board Director work involved; connect contribute oversight, inquiry, and strategic perspective within collective governance with the candidate's own examples of committee or board remit, preparation, judgment, relevant expertise, and collective contribution in Business Support and Facilities.
 
 ## Common positioning mistakes for Board Director candidates in Business Support and Facilities
 
@@ -63,7 +63,7 @@ Before discussing service portfolio, team or site scope, vendor coordination, cu
 
 ## Prepare for conversations about Business Support and Facilities work
 
-For Board Director work in Business Support and Facilities, explain how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance; connect that mandate to evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution. In Business Support and Facilities, internal clients, employees, service teams, suppliers, customers, and contract owners may shape the work. A Board Director example should separate direct responsibility from collaboration. KOV can help a Board Director candidate organize an agreed search approach for Business Support and Facilities, including documents such as board biography, governance resume, skills matrix, and concise profile. The candidate can discuss committee or board remit, preparation, judgment, relevant expertise, and collective contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+For Board Director work in Business Support and Facilities, explain how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance; connect that mandate to evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution. A Board Director example should separate direct responsibility from collaboration. KOV can help a Board Director candidate organize an agreed search approach for Business Support and Facilities, including documents such as board biography, governance resume, skills matrix, and concise profile. The candidate can discuss committee or board remit, preparation, judgment, relevant expertise, and collective contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Board Director career hub](/roles/board-director/)
 
-Review the role-wide approach to contribute oversight, inquiry, and strategic perspective within collective governance and the evidence expected for that scope.
+
 
 ### [Business Support and Facilities industry hub](/industries/business-support-facilities/)
 
-Compare how support services, workplace operations, facilities, administration, or outsourced capabilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Business Support and Facilities](/roles/ceo/business-support-facilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Board Director remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Operating Officer in Business Support and Facilities](/roles/coo/business-support-facilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Board Director remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Board Director in Agriculture, Food and Forestry](/roles/board-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with support services, workplace operations, facilities, administration, or outsourced capabilities and identify how the Board Director remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Board Director resolve before a target discussion in Business Support and Facilities?
 
-Start with the organization's account of support services, workplace operations, facilities, administration, or outsourced capabilities, then clarify how the Board Director would contribute oversight, inquiry, and strategic perspective within collective governance. Ask how internal clients, employees, service teams, suppliers, customers, and contract owners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of support services, workplace operations, facilities, administration, or outsourced capabilities, then clarify how the Board Director would contribute oversight, inquiry, and strategic perspective within collective governance. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### Which parts of a Board Director career story fit the needs of Business Support and Facilities?
 
@@ -139,19 +139,19 @@ Make the connection explicit: the candidate's record of committee or board remit
 
 ### What should a Board Director prepare in writing before targeting Business Support and Facilities?
 
-Document selection depends on the opportunity. A Board Director may draw from board biography, governance resume, skills matrix, and concise profile, but should foreground only material connected to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What should a Board Director approve before outreach in Business Support and Facilities?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Board Director candidate's service scope; the candidate approves external communication. No one route should be assumed for all Business Support and Facilities employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Business Support and Facilities employers.
 
 ### How should a Board Director compare title and remit in Business Support and Facilities?
 
-Title is only a label. Establish what the employer means by Board Director in this Business Support and Facilities organization and how the person will work with internal clients, employees, service teams, suppliers, customers, and contract owners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Board Director with an employer in Business Support and Facilities?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Board Director candidate considering Business Support and Facilities, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

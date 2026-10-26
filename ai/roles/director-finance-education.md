@@ -12,7 +12,7 @@ KOV can help a Director of Finance candidate organize an agreed search approach 
 
 ## A candidate-led process from first discussion to next steps
 
-For Director of Finance work in Education, explain how the candidate could lead financial planning, reporting, or control activity for a function or organization; connect that mandate to evidence of team responsibility, planning cycle, reporting scope, decision support, and controls. Use learning services delivered through institutions, programs, technology, or educational support to frame research about Education, then ask how a Director of Finance will work through learning aims, access, program delivery, workforce needs, and resource stewardship. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Director of Finance example should separate direct responsibility from collaboration. Candidate-side support from KOV may connect Director of Finance positioning, relevant documents, and approved outreach, within the scope the candidate agrees.
+For Director of Finance work in Education, explain how the candidate could lead financial planning, reporting, or control activity for a function or organization; connect that mandate to evidence of team responsibility, planning cycle, reporting scope, decision support, and controls. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Director of Finance example should separate direct responsibility from collaboration. Candidate-side support from KOV may connect Director of Finance positioning, relevant documents, and approved outreach, within the scope the candidate agrees.
 
 ## Documents that make Director of Finance experience relevant here
 
@@ -45,11 +45,11 @@ Consider document and positioning support for Director of Finance materials that
 
 ## Prepare to discuss the Education mandate
 
-Readers need to see what Director of Finance work involved; connect lead financial planning, reporting, or control activity for a function or organization with the candidate's own examples of team responsibility, planning cycle, reporting scope, decision support, and controls in Education. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Director of Finance position. For a Director of Finance target, KOV can discuss how resume, finance achievement brief, professional profile, and interview examples support the candidate's account of team responsibility, planning cycle, reporting scope, decision support, and controls; external steps require prior agreement. The candidate can discuss team responsibility, planning cycle, reporting scope, decision support, and controls while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+Readers need to see what Director of Finance work involved; connect lead financial planning, reporting, or control activity for a function or organization with the candidate's own examples of team responsibility, planning cycle, reporting scope, decision support, and controls in Education. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Director of Finance position. For a Director of Finance target, KOV can discuss how resume, finance achievement brief, professional profile, and interview examples support the candidate's account of team responsibility, planning cycle, reporting scope, decision support, and controls; external steps require prior agreement. The candidate can discuss team responsibility, planning cycle, reporting scope, decision support, and controls while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Common positioning mistakes for Director of Finance candidates in Education
 
-Before discussing program or institutional scope, learner or service context, staff leadership, and improvement contribution, check whether sharing nonpublic financial details or overstating sign-off authority could expose sensitive details or blur the candidate's decision boundary. Use an example involving program or institutional scope, learner or service context, staff leadership, and improvement contribution to describe the decision, the parties involved, and the candidate's role as a Director of Finance. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Director of Finance position. In a Education target, make the Director of Finance contribution legible: describe how the candidate helped lead financial planning, reporting, or control activity for a function or organization and what supports team responsibility, planning cycle, reporting scope, decision support, and controls.
+Before discussing program or institutional scope, learner or service context, staff leadership, and improvement contribution, check whether sharing nonpublic financial details or overstating sign-off authority could expose sensitive details or blur the candidate's decision boundary. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Director of Finance position. In a Education target, make the Director of Finance contribution legible: describe how the candidate helped lead financial planning, reporting, or control activity for a function or organization and what supports team responsibility, planning cycle, reporting scope, decision support, and controls.
 
 - Treat Education as one uniform employer type; distinguish the actual organization and role.
 - Use a Director of Finance title without explaining lead financial planning, reporting, or control activity for a function or organization.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Finance career hub](/roles/director-finance/)
 
-Review the role-wide approach to lead financial planning, reporting, or control activity for a function or organization and the evidence expected for that scope.
+
 
 ### [Education industry hub](/industries/education/)
 
-Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.
+
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Finance remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Education](/roles/coo/education.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Finance remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Director of Finance in Manufacturing](/roles/director-finance/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with learning services delivered through institutions, programs, technology, or educational support and identify how the Director of Finance remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Director of Finance resolve before a target discussion in Education?
 
-A Director of Finance candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. Explore how the role will lead financial planning, reporting, or control activity for a function or organization and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of Finance candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Director of Finance career story fit the needs of Education?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could lead financial planning, reportin
 
 ### What should a Director of Finance prepare in writing before targeting Education?
 
-Possible materials include resume, finance achievement brief, professional profile, and interview examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or institutional scope, learner or service context, staff leadership, and improvement contribution. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, finance achievement brief, professional profile, and interview examples. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted.
 
 ### What should a Director of Finance approve before outreach in Education?
 
-Outreach should follow target research, not precede it. The Director of Finance candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with team responsibility, planning cycle, reporting scope, decision support, and controls is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a Director of Finance compare title and remit in Education?
 
-Title is only a label. Establish what the employer means by Director of Finance in this Education organization and how the person will work with learners, families, educators, administrators, owners or boards, and community partners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Director of Finance with an employer in Education?
 

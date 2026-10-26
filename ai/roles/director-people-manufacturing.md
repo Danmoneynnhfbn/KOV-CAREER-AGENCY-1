@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of People career hub](/roles/director-people/)
 
-Review the role-wide approach to lead a people function or program and support managers through organizational change and the evidence expected for that scope.
+
 
 ### [Manufacturing industry hub](/industries/manufacturing/)
 
-Compare how conversion of materials into products through coordinated processes, equipment, people, and quality systems affects career planning across functions.
+
 
 ### [Chief Executive Officer in Manufacturing](/roles/ceo/manufacturing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of People remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Operating Officer in Manufacturing](/roles/coo/manufacturing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of People remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Director of People in Retail and E-commerce](/roles/director-people/retail-ecommerce.html)
 
-Compare customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment with conversion of materials into products through coordinated processes, equipment, people, and quality systems and identify how the Director of People remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Director of People resolve before a target discussion in Manufacturing?
 
-Use the opening discussion to understand the specific Manufacturing employer, not to assume a standard role. Compare lead a people function or program and support managers through organizational change with the stated scope, identify decision partners among employees, suppliers, customers, engineering, operations, distribution, and ownership, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Manufacturing employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Director of People career story fit the needs of Manufacturing?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Director of People approve before outreach in Manufacturing?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of People candidate's service scope; the candidate approves external communication. No one route should be assumed for all Manufacturing employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Manufacturing employers.
 
 ### How should a Director of People compare title and remit in Manufacturing?
 
-Title is only a label. Establish what the employer means by Director of People in this Manufacturing organization and how the person will work with employees, suppliers, customers, engineering, operations, distribution, and ownership. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Director of People with an employer in Manufacturing?
 

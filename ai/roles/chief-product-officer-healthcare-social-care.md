@@ -12,7 +12,7 @@ Position a Chief Product Officer career by linking guide product direction, port
 
 ## A candidate-led process from first discussion to next steps
 
-The candidate can discuss product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes while protecting confidentiality by omitting names, restricted figures, and other identifying material. The service plan should fit the candidate's Chief Product Officer priorities; agree research, materials, and any outreach before contact occurs. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Chief Product Officer example should separate direct responsibility from collaboration. Treat care, health-related services, or social support delivered by teams and organizations as a question to validate in Healthcare and Social Care; the answer helps clarify the Chief Product Officer mandate and its service quality, workforce coordination, access, continuity, and sensitive information.
+The candidate can discuss product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes while protecting confidentiality by omitting names, restricted figures, and other identifying material. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Chief Product Officer example should separate direct responsibility from collaboration. Treat care, health-related services, or social support delivered by teams and organizations as a question to validate in Healthcare and Social Care; the answer helps clarify the Chief Product Officer mandate and its service quality, workforce coordination, access, continuity, and sensitive information.
 
 ## Documents that make Chief Product Officer experience relevant here
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Product Officer career hub](/roles/chief-product-officer/)
 
-Review the role-wide approach to guide product direction, portfolio choices, and the connection between users and delivery teams and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Product Officer remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Product Officer remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Product Officer in Agriculture, Food and Forestry](/roles/chief-product-officer/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with care, health-related services, or social support delivered by teams and organizations and identify how the Chief Product Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Product Officer in Healthcare and Social Care?
 
-Start with the organization's account of care, health-related services, or social support delivered by teams and organizations, then clarify how the Chief Product Officer would guide product direction, portfolio choices, and the connection between users and delivery teams. Ask how people receiving services, families, care professionals, administrators, owners, and community partners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of care, health-related services, or social support delivered by teams and organizations, then clarify how the Chief Product Officer would guide product direction, portfolio choices, and the connection between users and delivery teams. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Chief Product Officer make prior work relevant to Healthcare and Social Care?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could guide product direction, portfoli
 
 ### Which career materials can help a Chief Product Officer explore work in Healthcare and Social Care?
 
-Possible materials include executive resume, product portfolio narrative, leadership biography, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples. Each claim should be accurate for this Healthcare and Social Care target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, product portfolio narrative, leadership biography, and profile. Each claim should be accurate for this Healthcare and Social Care target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Chief Product Officer contacts an organization in Healthcare and Social Care?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Product Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Healthcare and Social Care employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Healthcare and Social Care employers.
 
 ### What makes a Chief Product Officer background relevant to work in Healthcare and Social Care?
 
-No. Compare the role description with the candidate's experience of guide product direction, portfolio choices, and the connection between users and delivery teams and the organization's care, health-related services, or social support delivered by teams and organizations. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Chief Product Officer outreach in Healthcare and Social Care?
 

@@ -85,27 +85,27 @@ Use KOV's London page as a starting point for an agreed UK-focused search discus
 
 ### Saudi Arabia
 
-For Other Services targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Other Services targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Other Services targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### UAE
 
-For Other Services targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Other Services targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Other Services targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### United Kingdom
 
-For Other Services targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Other Services targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Other Services targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Dubai
 
-For Other Services targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Other Services targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Other Services targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Australia
 
-For Other Services targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Other Services targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Other Services targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Africa
 
-For Other Services targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Other Services targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Other Services targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ## Choose an appropriate level of career support
 
@@ -129,79 +129,79 @@ Use the cards to open only the role-and-industry pages currently available. Each
 
 ### [Chief Executive Officer in Other Services](/roles/ceo/other-services.html)
 
-Explore how set organization-wide direction and coordinate executive work connects with personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chief Operating Officer in Other Services](/roles/coo/other-services.html)
 
-Explore how align operating functions, delivery systems, and organizational priorities connects with personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chief Financial Officer in Other Services](/roles/cfo/other-services.html)
 
-Explore how lead financial stewardship and connect resource decisions to organizational priorities connects with personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chief Technology Officer in Other Services](/roles/cto/other-services.html)
 
-Explore how set technology direction and connect technical choices with product and business needs connects with personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chief Information Officer in Other Services](/roles/cio/other-services.html)
 
-Explore how guide information systems, digital operations, and technology services for the organization connects with personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chief Marketing Officer in Other Services](/roles/cmo/other-services.html)
 
-Explore how shape marketing strategy, customer understanding, brand, and commercial communication connects with personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chief Human Resources Officer in Other Services](/roles/chro/other-services.html)
 
-Explore how guide people strategy, organizational capability, and workforce-related leadership connects with personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chief Information Security Officer in Other Services](/roles/ciso/other-services.html)
 
-Explore how lead information-security priorities and coordinate risk-informed protection connects with personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [General Counsel / Chief Legal Officer in Other Services](/roles/general-counsel/other-services.html)
 
-Explore how lead legal judgment and connect legal advice with organizational decisions connects with personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chief Revenue Officer in Other Services](/roles/chief-revenue-officer/other-services.html)
 
-Explore how coordinate revenue-facing functions around a coherent commercial direction connects with personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chief Product Officer in Other Services](/roles/chief-product-officer/other-services.html)
 
-Explore how guide product direction, portfolio choices, and the connection between users and delivery teams connects with personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chief Strategy Officer in Other Services](/roles/chief-strategy-officer/other-services.html)
 
-Explore how support organization-wide choices by framing options, analysis, and strategic execution connects with personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Board Director in Other Services](/roles/board-director/other-services.html)
 
-Explore how contribute oversight, inquiry, and strategic perspective within collective governance connects with personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Non-Executive Director in Other Services](/roles/non-executive-director/other-services.html)
 
-Explore how provide independent challenge and strategic contribution distinct from management connects with personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chair in Other Services](/roles/chair/other-services.html)
 
-Explore how lead board effectiveness and support clear governance and decision-making connects with personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Managing Director in Other Services](/roles/managing-director/other-services.html)
 
-Explore how lead a business, division, or organization according to its defined mandate connects with personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Managing Partner in Other Services](/roles/managing-partner/other-services.html)
 
-Explore how combine leadership responsibilities with the governance and professional context of a partnership connects with personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Partner in Other Services](/roles/partner/other-services.html)
 
-Explore how develop a practice or business while contributing to a shared ownership or partnership structure connects with personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Head of Growth in Other Services](/roles/head-growth/other-services.html)
 
-Explore how coordinate growth experiments and commercial initiatives for a defined business connects with personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ## Questions that make a Other Services target more specific
 
@@ -235,7 +235,7 @@ KOV can help candidates organize relevant experience and documents around an agr
 
 ### Can KOV promise an interview with a Other Services organization?
 
-No. KOV does not guarantee interviews, offers, employment, introductions, or timelines. Employers make hiring decisions.
+No. Employers make hiring decisions.
 
 ### How should I compare two Other Services opportunities?
 

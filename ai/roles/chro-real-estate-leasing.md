@@ -45,7 +45,7 @@ Consider document and positioning support for Chief Human Resources Officer mate
 
 ## Prepare to discuss the Real Estate and Leasing mandate
 
-A Chief Human Resources Officer candidate should be ready to explain using confidential employee details or presenting team-wide change as an individual result without revealing confidential details or implying unsupported responsibility. Before presenting asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution, determine how owners, tenants, customers, investors, property teams, suppliers, and communities participated and which details are safe to discuss. Not every Real Estate and Leasing organization will handle asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions alike. Confirm how property ownership, development, brokerage, management, or leasing relationships informs this Chief Human Resources Officer position. The Chief Human Resources Officer remit to guide people strategy, organizational capability, and workforce-related leadership should be described through decisions and examples, especially evidence of people agenda, organization design, leadership support, workforce programs, and measured contribution relevant to Real Estate and Leasing.
+A Chief Human Resources Officer candidate should be ready to explain using confidential employee details or presenting team-wide change as an individual result without revealing confidential details or implying unsupported responsibility. Not every Real Estate and Leasing organization will handle asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions alike. Confirm how property ownership, development, brokerage, management, or leasing relationships informs this Chief Human Resources Officer position. The Chief Human Resources Officer remit to guide people strategy, organizational capability, and workforce-related leadership should be described through decisions and examples, especially evidence of people agenda, organization design, leadership support, workforce programs, and measured contribution relevant to Real Estate and Leasing.
 
 ## Common positioning mistakes for Chief Human Resources Officer candidates in Real Estate and Leasing
 
@@ -59,7 +59,7 @@ The candidate can discuss people agenda, organization design, leadership support
 
 ## Keep research, confidentiality, and outreach aligned
 
-Show the Chief Human Resources Officer scope behind the title: how the candidate could guide people strategy, organizational capability, and workforce-related leadership, which decisions mattered, and where people agenda, organization design, leadership support, workforce programs, and measured contribution demonstrates their contribution. An employer's Real Estate and Leasing model may involve property ownership, development, brokerage, management, or leasing relationships; its implications for asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions should be discussed, not presumed. The candidate decides whether to pursue a Chief Human Resources Officer opportunity. KOV can support agreed research and preparation concerning Real Estate and Leasing. Review each Chief Human Resources Officer example for using confidential employee details or presenting team-wide change as an individual result, then describe the candidate's decisions without overstating their control over CEO, board or owners, employees, people teams, line leaders, and external advisers.
+Show the Chief Human Resources Officer scope behind the title: how the candidate could guide people strategy, organizational capability, and workforce-related leadership, which decisions mattered, and where people agenda, organization design, leadership support, workforce programs, and measured contribution demonstrates their contribution. The candidate decides whether to pursue a Chief Human Resources Officer opportunity. KOV can support agreed research and preparation concerning Real Estate and Leasing. Review each Chief Human Resources Officer example for using confidential employee details or presenting team-wide change as an individual result, then describe the candidate's decisions without overstating their control over CEO, board or owners, employees, people teams, line leaders, and external advisers.
 
 ## Prepare for conversations about Real Estate and Leasing work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Human Resources Officer career hub](/roles/chro/)
 
-Review the role-wide approach to guide people strategy, organizational capability, and workforce-related leadership and the evidence expected for that scope.
+
 
 ### [Real Estate and Leasing industry hub](/industries/real-estate-leasing/)
 
-Compare how property ownership, development, brokerage, management, or leasing relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Real Estate and Leasing](/roles/ceo/real-estate-leasing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Human Resources Officer remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Operating Officer in Real Estate and Leasing](/roles/coo/real-estate-leasing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Human Resources Officer remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Human Resources Officer in Agriculture, Food and Forestry](/roles/chro/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with property ownership, development, brokerage, management, or leasing relationships and identify how the Chief Human Resources Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Human Resources Officer in Real Estate and Leasing?
 
-Use the opening discussion to understand the specific Real Estate and Leasing employer, not to assume a standard role. Compare guide people strategy, organizational capability, and workforce-related leadership with the stated scope, identify decision partners among owners, tenants, customers, investors, property teams, suppliers, and communities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Real Estate and Leasing employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a Chief Human Resources Officer make prior work relevant to Real Estate and Leasing?
 
@@ -139,7 +139,7 @@ Describe an instance where the candidate could guide people strategy, organizati
 
 ### Which career materials can help a Chief Human Resources Officer explore work in Real Estate and Leasing?
 
-Document selection depends on the opportunity. A Chief Human Resources Officer may draw from executive resume, people-leadership profile, biography, and selected program summary, but should foreground only material connected to asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a Chief Human Resources Officer contacts an organization in Real Estate and Leasing?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### What makes a Chief Human Resources Officer background relevant to work in Real Estate and Leasing?
 
-No. Compare the role description with the candidate's experience of guide people strategy, organizational capability, and workforce-related leadership and the organization's property ownership, development, brokerage, management, or leasing relationships. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Chief Human Resources Officer outreach in Real Estate and Leasing?
 

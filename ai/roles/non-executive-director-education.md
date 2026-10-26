@@ -4,15 +4,15 @@ KOV helps Non-Executive Director candidates considering roles connected to Educa
 
 ## How Non-Executive Director work connects with Education
 
-Readers need to see what Non-Executive Director work involved; connect provide independent challenge and strategic contribution distinct from management with the candidate's own examples of governance experience, constructive challenge, committee contribution, and relevant expertise in Education. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Non-Executive Director position. For a Non-Executive Director target, KOV can discuss how board biography, non-executive profile, skills matrix, and governance resume support the candidate's account of governance experience, constructive challenge, committee contribution, and relevant expertise; external steps require prior agreement. The candidate can discuss governance experience, constructive challenge, committee contribution, and relevant expertise while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+Readers need to see what Non-Executive Director work involved; connect provide independent challenge and strategic contribution distinct from management with the candidate's own examples of governance experience, constructive challenge, committee contribution, and relevant expertise in Education. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Non-Executive Director position. For a Non-Executive Director target, KOV can discuss how board biography, non-executive profile, skills matrix, and governance resume support the candidate's account of governance experience, constructive challenge, committee contribution, and relevant expertise; external steps require prior agreement. The candidate can discuss governance experience, constructive challenge, committee contribution, and relevant expertise while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Who this Non-Executive Director and Education guide is for
 
-Review each Non-Executive Director example for confusing oversight with operational management or overstating independence, then describe the candidate's decisions without overstating their control over chair, board colleagues, CEO, management, shareholders or members, and stakeholders. The candidate decides whether to pursue a Non-Executive Director opportunity. KOV can support agreed research and preparation concerning Education. Discuss program or institutional scope, learner or service context, staff leadership, and improvement contribution with care: a Non-Executive Director candidate can explain contribution while omitting confidential or identifying facts. Treat learning services delivered through institutions, programs, technology, or educational support as a question to validate in Education; the answer helps clarify the Non-Executive Director mandate and its learning aims, access, program delivery, workforce needs, and resource stewardship.
+Review each Non-Executive Director example for confusing oversight with operational management or overstating independence, then describe the candidate's decisions without overstating their control over chair, board colleagues, CEO, management, shareholders or members, and stakeholders. KOV can support agreed research and preparation concerning Education. Discuss program or institutional scope, learner or service context, staff leadership, and improvement contribution with care: a Non-Executive Director candidate can explain contribution while omitting confidential or identifying facts. Treat learning services delivered through institutions, programs, technology, or educational support as a question to validate in Education; the answer helps clarify the Non-Executive Director mandate and its learning aims, access, program delivery, workforce needs, and resource stewardship.
 
 ## A candidate-led process from first discussion to next steps
 
-Rather than lead with seniority, a Non-Executive Director profile can explain the responsibility to provide independent challenge and strategic contribution distinct from management and use program or institutional scope, learner or service context, staff leadership, and improvement contribution as evidence. An employer's Education model may involve learning services delivered through institutions, programs, technology, or educational support; its implications for learning aims, access, program delivery, workforce needs, and resource stewardship should be discussed, not presumed. The candidate decides whether to pursue a Non-Executive Director opportunity. KOV can support agreed research and preparation concerning Education. Good preparation for Non-Executive Director work includes a safe way to explain confusing oversight with operational management or overstating independence and a clear distinction between fact and inference.
+Rather than lead with seniority, a Non-Executive Director profile can explain the responsibility to provide independent challenge and strategic contribution distinct from management and use program or institutional scope, learner or service context, staff leadership, and improvement contribution as evidence. The candidate decides whether to pursue a Non-Executive Director opportunity. KOV can support agreed research and preparation concerning Education. Good preparation for Non-Executive Director work includes a safe way to explain confusing oversight with operational management or overstating independence and a clear distinction between fact and inference.
 
 ## Documents that make Non-Executive Director experience relevant here
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Non-Executive Director career hub](/roles/non-executive-director/)
 
-Review the role-wide approach to provide independent challenge and strategic contribution distinct from management and the evidence expected for that scope.
+
 
 ### [Education industry hub](/industries/education/)
 
-Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.
+
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Non-Executive Director remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Education](/roles/coo/education.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Non-Executive Director remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Non-Executive Director in Agriculture, Food and Forestry](/roles/non-executive-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with learning services delivered through institutions, programs, technology, or educational support and identify how the Non-Executive Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Non-Executive Director in Education?
 
-A Non-Executive Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. Explore how the role will provide independent challenge and strategic contribution distinct from management and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Non-Executive Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Non-Executive Director make prior work relevant to Education?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What must be agreed before a Non-Executive Director contacts an organization in Education?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Non-Executive Director candidate's service scope; the candidate approves external communication. No one route should be assumed for all Education employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Education employers.
 
 ### What makes a Non-Executive Director background relevant to work in Education?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate governance
 
 ### Does KOV control employer responses to Non-Executive Director outreach in Education?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Non-Executive Director candidate considering Education, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Human Resources Officer career hub](/roles/chro/)
 
-Review the role-wide approach to guide people strategy, organizational capability, and workforce-related leadership and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Human Resources Officer remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Human Resources Officer remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Human Resources Officer in Agriculture, Food and Forestry](/roles/chro/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with public administration, public programs, or services delivered under a public mandate and identify how the Chief Human Resources Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Human Resources Officer clarify before considering work in Public Sector and Government?
 
-Start with the organization's account of public administration, public programs, or services delivered under a public mandate, then clarify how the Chief Human Resources Officer would guide people strategy, organizational capability, and workforce-related leadership. Ask how residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of public administration, public programs, or services delivered under a public mandate, then clarify how the Chief Human Resources Officer would guide people strategy, organizational capability, and workforce-related leadership. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Chief Human Resources Officer describe transferable experience for Public Sector and Government work?
 
@@ -139,15 +139,15 @@ Make the connection explicit: the candidate's record of people agenda, organizat
 
 ### How can a Chief Human Resources Officer choose documents for conversations about Public Sector and Government?
 
-Document selection depends on the opportunity. A Chief Human Resources Officer may draw from executive resume, people-leadership profile, biography, and selected program summary, but should foreground only material connected to program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Chief Human Resources Officer plan contact with Public Sector and Government organizations?
 
-Outreach should follow target research, not precede it. The Chief Human Resources Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with people agenda, organization design, leadership support, workforce programs, and measured contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Chief Human Resources Officer assess fit with Public Sector and Government responsibilities?
 
-Title is only a label. Establish what the employer means by Chief Human Resources Officer in this Public Sector and Government organization and how the person will work with residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Chief Human Resources Officer candidate considering Public Sector and Government?
 

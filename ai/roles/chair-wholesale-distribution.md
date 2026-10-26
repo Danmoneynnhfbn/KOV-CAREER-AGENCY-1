@@ -59,7 +59,7 @@ Good preparation for Chair work includes a safe way to explain blurring chair an
 
 ## Keep research, confidentiality, and outreach aligned
 
-In a Wholesale and Distribution target, make the Chair contribution legible: describe how the candidate helped lead board effectiveness and support clear governance and decision-making and what supports meeting leadership, board composition, governance practice, relationships, and transition judgment. Treat movement and availability of goods through purchasing, inventory, channel, and delivery relationships as a question to validate in Wholesale and Distribution; the answer helps clarify the Chair mandate and its availability, working capital, fulfillment coordination, customer terms, and supplier variability. Map the Wholesale and Distribution relationships among suppliers, retailers, business customers, logistics teams, sales, and inventory operators; verify actual authority instead of inferring a reporting line. The candidate decides whether to pursue a Chair opportunity. KOV can support agreed research and preparation concerning Wholesale and Distribution.
+In a Wholesale and Distribution target, make the Chair contribution legible: describe how the candidate helped lead board effectiveness and support clear governance and decision-making and what supports meeting leadership, board composition, governance practice, relationships, and transition judgment. Map the Wholesale and Distribution relationships among suppliers, retailers, business customers, logistics teams, sales, and inventory operators; verify actual authority instead of inferring a reporting line. The candidate decides whether to pursue a Chair opportunity. KOV can support agreed research and preparation concerning Wholesale and Distribution.
 
 ## Prepare for conversations about Wholesale and Distribution work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chair career hub](/roles/chair/)
 
-Review the role-wide approach to lead board effectiveness and support clear governance and decision-making and the evidence expected for that scope.
+
 
 ### [Wholesale and Distribution industry hub](/industries/wholesale-distribution/)
 
-Compare how movement and availability of goods through purchasing, inventory, channel, and delivery relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Wholesale and Distribution](/roles/ceo/wholesale-distribution.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chair remit; consider where each function meets movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Operating Officer in Wholesale and Distribution](/roles/coo/wholesale-distribution.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chair remit; consider where each function meets movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chair in Agriculture, Food and Forestry](/roles/chair/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with movement and availability of goods through purchasing, inventory, channel, and delivery relationships and identify how the Chair remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Chair resolve before a target discussion in Wholesale and Distribution?
 
-Use the opening discussion to understand the specific Wholesale and Distribution employer, not to assume a standard role. Compare lead board effectiveness and support clear governance and decision-making with the stated scope, identify decision partners among suppliers, retailers, business customers, logistics teams, sales, and inventory operators, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Wholesale and Distribution employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Chair career story fit the needs of Wholesale and Distribution?
 
@@ -143,15 +143,15 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Chair approve before outreach in Wholesale and Distribution?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chair candidate's service scope; the candidate approves external communication. No one route should be assumed for all Wholesale and Distribution employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Wholesale and Distribution employers.
 
 ### How should a Chair compare title and remit in Wholesale and Distribution?
 
-Title is only a label. Establish what the employer means by Chair in this Wholesale and Distribution organization and how the person will work with suppliers, retailers, business customers, logistics teams, sales, and inventory operators. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Chair with an employer in Wholesale and Distribution?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chair candidate considering Wholesale and Distribution, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

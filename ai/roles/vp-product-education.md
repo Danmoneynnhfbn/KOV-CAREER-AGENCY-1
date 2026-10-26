@@ -16,7 +16,7 @@ Good preparation for Vice President of Product work includes a safe way to expla
 
 ## Documents that make Vice President of Product experience relevant here
 
-The service plan should fit the candidate's Vice President of Product priorities; agree research, materials, and any outreach before contact occurs. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Vice President of Product example should separate direct responsibility from collaboration. Research for a Vice President of Product in Education becomes more focused when the candidate investigates learning aims, access, program delivery, workforce needs, and resource stewardship alongside learning services delivered through institutions, programs, technology, or educational support. Readers need to see what Vice President of Product work involved; connect set product priorities and coordinate discovery, planning, and delivery with the candidate's own examples of portfolio scope, customer insight, prioritization, team influence, and product outcomes in Education.
+The service plan should fit the candidate's Vice President of Product priorities; agree research, materials, and any outreach before contact occurs. A Vice President of Product example should separate direct responsibility from collaboration. Research for a Vice President of Product in Education becomes more focused when the candidate investigates learning aims, access, program delivery, workforce needs, and resource stewardship alongside learning services delivered through institutions, programs, technology, or educational support. Readers need to see what Vice President of Product work involved; connect set product priorities and coordinate discovery, planning, and delivery with the candidate's own examples of portfolio scope, customer insight, prioritization, team influence, and product outcomes in Education.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -59,11 +59,11 @@ Readers need to see what Vice President of Product work involved; connect set pr
 
 ## Keep research, confidentiality, and outreach aligned
 
-Where listing features shipped without explaining user problem, constraints, or adoption affects a career example, substitute an authorized summary that preserves the point about portfolio scope, customer insight, prioritization, team influence, and product outcomes. Consider how learners, families, educators, administrators, owners or boards, and community partners interact with a Vice President of Product; use examples of program or institutional scope, learner or service context, staff leadership, and improvement contribution to show judgment and collaboration. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Vice President of Product position. Show the Vice President of Product scope behind the title: how the candidate could set product priorities and coordinate discovery, planning, and delivery, which decisions mattered, and where portfolio scope, customer insight, prioritization, team influence, and product outcomes demonstrates their contribution.
+Where listing features shipped without explaining user problem, constraints, or adoption affects a career example, substitute an authorized summary that preserves the point about portfolio scope, customer insight, prioritization, team influence, and product outcomes. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Vice President of Product position. Show the Vice President of Product scope behind the title: how the candidate could set product priorities and coordinate discovery, planning, and delivery, which decisions mattered, and where portfolio scope, customer insight, prioritization, team influence, and product outcomes demonstrates their contribution.
 
 ## Prepare for conversations about Education work
 
-Keep the Vice President of Product narrative accurate where listing features shipped without explaining user problem, constraints, or adoption may arise: attribute shared work and disclose only information the candidate may use. Preparation for a Vice President of Product conversation should address the institution type, learner groups, decision structure, and whether the role leads academic, operational, commercial, or support work; relate the response to program or institutional scope, learner or service context, staff leadership, and improvement contribution, not speculation about hiring. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Vice President of Product position. To assess a Vice President of Product opportunity in Education, compare the stated remit to the candidate's record of portfolio scope, customer insight, prioritization, team influence, and product outcomes.
+Keep the Vice President of Product narrative accurate where listing features shipped without explaining user problem, constraints, or adoption may arise: attribute shared work and disclose only information the candidate may use. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Vice President of Product position. To assess a Vice President of Product opportunity in Education, compare the stated remit to the candidate's record of portfolio scope, customer insight, prioritization, team influence, and product outcomes.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Product career hub](/roles/vp-product/)
 
-Review the role-wide approach to set product priorities and coordinate discovery, planning, and delivery and the evidence expected for that scope.
+
 
 ### [Education industry hub](/industries/education/)
 
-Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.
+
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Product remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Education](/roles/coo/education.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Product remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Vice President of Product in Manufacturing](/roles/vp-product/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with learning services delivered through institutions, programs, technology, or educational support and identify how the Vice President of Product remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Vice President of Product test the scope of work in Education?
 
-A Vice President of Product candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. Explore how the role will set product priorities and coordinate discovery, planning, and delivery and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Vice President of Product candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Vice President of Product use to explain experience in Education?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### Which outreach choices belong to a Vice President of Product considering Education?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Vice President of Product candidate's service scope; the candidate approves external communication. No one route should be assumed for all Education employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Education employers.
 
 ### Can a Vice President of Product rely on title alone when targeting Education?
 
-No. Compare the role description with the candidate's experience of set product priorities and coordinate discovery, planning, and delivery and the organization's learning services delivered through institutions, programs, technology, or educational support. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Vice President of Product seeking work in Education?
 

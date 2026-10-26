@@ -8,7 +8,7 @@ Do not resolve uncertainty about claiming sole credit for collective outcomes or
 
 ## Who this Chief Executive Officer and Retail and E-commerce guide is for
 
-Readers need to see what Chief Executive Officer work involved; connect set organization-wide direction and coordinate executive work with the candidate's own examples of mandate, governance interface, operating scope, and attributable outcomes in Retail and E-commerce. Treat customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment as a question to validate in Retail and E-commerce; the answer helps clarify the Chief Executive Officer mandate and its customer experience, assortment, inventory, channel coordination, and rapid feedback. In Retail and E-commerce, customers, store or digital teams, suppliers, brand partners, operations, and owners may shape the work. A Chief Executive Officer example should separate direct responsibility from collaboration. Career representation remains candidate-led: KOV can support a Chief Executive Officer search, while the candidate approves the goals and disclosures.
+Readers need to see what Chief Executive Officer work involved; connect set organization-wide direction and coordinate executive work with the candidate's own examples of mandate, governance interface, operating scope, and attributable outcomes in Retail and E-commerce. In Retail and E-commerce, customers, store or digital teams, suppliers, brand partners, operations, and owners may shape the work. A Chief Executive Officer example should separate direct responsibility from collaboration. Career representation remains candidate-led: KOV can support a Chief Executive Officer search, while the candidate approves the goals and disclosures.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Executive Officer career hub](/roles/ceo/)
 
-Review the role-wide approach to set organization-wide direction and coordinate executive work and the evidence expected for that scope.
+
 
 ### [Retail and E-commerce industry hub](/industries/retail-ecommerce/)
 
-Compare how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment affects career planning across functions.
+
 
 ### [Chief Operating Officer in Retail and E-commerce](/roles/coo/retail-ecommerce.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Executive Officer remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Financial Officer in Retail and E-commerce](/roles/cfo/retail-ecommerce.html)
 
-Contrast lead financial stewardship and connect resource decisions to organizational priorities with the Chief Executive Officer remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Executive Officer in Agriculture, Food and Forestry](/roles/ceo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and identify how the Chief Executive Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Executive Officer clarify before considering work in Retail and E-commerce?
 
-Start with the organization's account of customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment, then clarify how the Chief Executive Officer would set organization-wide direction and coordinate executive work. Ask how customers, store or digital teams, suppliers, brand partners, operations, and owners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment, then clarify how the Chief Executive Officer would set organization-wide direction and coordinate executive work. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Chief Executive Officer describe transferable experience for Retail and E-commerce work?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could set organization-wide direction a
 
 ### How can a Chief Executive Officer choose documents for conversations about Retail and E-commerce?
 
-Document selection depends on the opportunity. A Chief Executive Officer may draw from executive resume, board biography, leadership summary, and professional profile, but should foreground only material connected to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Chief Executive Officer plan contact with Retail and E-commerce organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Executive Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Retail and E-commerce employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Retail and E-commerce employers.
 
 ### How can a Chief Executive Officer assess fit with Retail and E-commerce responsibilities?
 
-No. Compare the role description with the candidate's experience of set organization-wide direction and coordinate executive work and the organization's customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Chief Executive Officer candidate considering Retail and E-commerce?
 

@@ -63,7 +63,7 @@ Where appropriate to the agreed service, KOV can help a Vice President of Strate
 
 ## Prepare for conversations about Finance and Insurance work
 
-Research for a Vice President of Strategy in Finance and Insurance becomes more focused when the candidate investigates trust, information handling, product suitability, operational resilience, and competing customer and business needs alongside financial products and services supported by customer relationships, information, operations, and oversight. Discuss business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes with care: a Vice President of Strategy candidate can explain contribution while omitting confidential or identifying facts. The candidate decides whether to pursue a Vice President of Strategy opportunity. KOV can support agreed research and preparation concerning Finance and Insurance. Keep the Vice President of Strategy narrative accurate where claiming strategy outcomes without distinguishing recommendation, sponsorship, and execution may arise: attribute shared work and disclose only information the candidate may use.
+Research for a Vice President of Strategy in Finance and Insurance becomes more focused when the candidate investigates trust, information handling, product suitability, operational resilience, and competing customer and business needs alongside financial products and services supported by customer relationships, information, operations, and oversight. The candidate decides whether to pursue a Vice President of Strategy opportunity. KOV can support agreed research and preparation concerning Finance and Insurance. Keep the Vice President of Strategy narrative accurate where claiming strategy outcomes without distinguishing recommendation, sponsorship, and execution may arise: attribute shared work and disclose only information the candidate may use.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Strategy career hub](/roles/vp-strategy/)
 
-Review the role-wide approach to frame strategic choices and connect planning with operating decisions and the evidence expected for that scope.
+
 
 ### [Finance and Insurance industry hub](/industries/finance-insurance/)
 
-Compare how financial products and services supported by customer relationships, information, operations, and oversight affects career planning across functions.
+
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Strategy remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Finance and Insurance](/roles/coo/finance-insurance.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Strategy remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Vice President of Strategy in Energy, Mining and Oil and Gas](/roles/vp-strategy/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with financial products and services supported by customer relationships, information, operations, and oversight and identify how the Vice President of Strategy remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Vice President of Strategy in Finance and Insurance?
 
-A Vice President of Strategy candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's financial products and services supported by customer relationships, information, operations, and oversight. Explore how the role will frame strategic choices and connect planning with operating decisions and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Vice President of Strategy candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's financial products and services supported by customer relationships, information, operations, and oversight. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Vice President of Strategy make prior work relevant to Finance and Insurance?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### What makes a Vice President of Strategy background relevant to work in Finance and Insurance?
 
-No. Compare the role description with the candidate's experience of frame strategic choices and connect planning with operating decisions and the organization's financial products and services supported by customer relationships, information, operations, and oversight. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Vice President of Strategy outreach in Finance and Insurance?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Vice President of Strategy candidate considering Finance and Insurance, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

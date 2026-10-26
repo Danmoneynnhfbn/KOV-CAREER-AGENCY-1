@@ -4,7 +4,7 @@ KOV helps Chair candidates considering roles connected to Hospitality and Food S
 
 ## How Chair work connects with Hospitality and Food Service
 
-Readers need to see what Chair work involved; connect lead board effectiveness and support clear governance and decision-making with the candidate's own examples of meeting leadership, board composition, governance practice, relationships, and transition judgment in Hospitality and Food Service. Not every Hospitality and Food Service organization will handle guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alike. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Chair position. KOV works with the candidate to agree which Chair targets matter, how chair biography, board resume, governance narrative, and public profile will be used, and whether communication is authorized. The candidate can discuss meeting leadership, board composition, governance practice, relationships, and transition judgment while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+Readers need to see what Chair work involved; connect lead board effectiveness and support clear governance and decision-making with the candidate's own examples of meeting leadership, board composition, governance practice, relationships, and transition judgment in Hospitality and Food Service. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Chair position. KOV works with the candidate to agree which Chair targets matter, how chair biography, board resume, governance narrative, and public profile will be used, and whether communication is authorized. The candidate can discuss meeting leadership, board composition, governance practice, relationships, and transition judgment while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Who this Chair and Hospitality and Food Service guide is for
 
@@ -16,7 +16,7 @@ Readers need to see what Chair work involved; connect lead board effectiveness a
 
 ## Documents that make Chair experience relevant here
 
-Research for a Chair in Hospitality and Food Service becomes more focused when the candidate investigates guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alongside guest-facing accommodation, food, venue, or experience services delivered through people and operations. Before presenting venue or service scope, team leadership, guest context, service design, and attributable operating contributions, determine how guests, employees, suppliers, owners, local partners, and service teams participated and which details are safe to discuss. The candidate decides whether to pursue a Chair opportunity. KOV can support agreed research and preparation concerning Hospitality and Food Service. Do not resolve uncertainty about blurring chair and executive accountabilities or taking credit for collective decisions through assumption; verify the requirement and use only supportable Chair claims.
+Research for a Chair in Hospitality and Food Service becomes more focused when the candidate investigates guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alongside guest-facing accommodation, food, venue, or experience services delivered through people and operations. The candidate decides whether to pursue a Chair opportunity. KOV can support agreed research and preparation concerning Hospitality and Food Service. Do not resolve uncertainty about blurring chair and executive accountabilities or taking credit for collective decisions through assumption; verify the requirement and use only supportable Chair claims.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -49,7 +49,7 @@ Where blurring chair and executive accountabilities or taking credit for collect
 
 ## Common positioning mistakes for Chair candidates in Hospitality and Food Service
 
-Keep the Chair narrative accurate where blurring chair and executive accountabilities or taking credit for collective decisions may arise: attribute shared work and disclose only information the candidate may use. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Chair example should separate direct responsibility from collaboration. An employer's Hospitality and Food Service model may involve guest-facing accommodation, food, venue, or experience services delivered through people and operations; its implications for guest experience, operating capacity, service consistency, workforce coordination, and supplier variability should be discussed, not presumed. For Chair work in Hospitality and Food Service, explain how the candidate could lead board effectiveness and support clear governance and decision-making; connect that mandate to evidence of meeting leadership, board composition, governance practice, relationships, and transition judgment.
+Keep the Chair narrative accurate where blurring chair and executive accountabilities or taking credit for collective decisions may arise: attribute shared work and disclose only information the candidate may use. A Chair example should separate direct responsibility from collaboration. An employer's Hospitality and Food Service model may involve guest-facing accommodation, food, venue, or experience services delivered through people and operations; its implications for guest experience, operating capacity, service consistency, workforce coordination, and supplier variability should be discussed, not presumed. For Chair work in Hospitality and Food Service, explain how the candidate could lead board effectiveness and support clear governance and decision-making; connect that mandate to evidence of meeting leadership, board composition, governance practice, relationships, and transition judgment.
 
 - Treat Hospitality and Food Service as one uniform employer type; distinguish the actual organization and role.
 - Use a Chair title without explaining lead board effectiveness and support clear governance and decision-making.
@@ -63,7 +63,7 @@ The Hospitality and Food Service context involves guest-facing accommodation, fo
 
 ## Prepare for conversations about Hospitality and Food Service work
 
-Keep the Chair narrative accurate where blurring chair and executive accountabilities or taking credit for collective decisions may arise: attribute shared work and disclose only information the candidate may use. Preparation for a Chair conversation should address the properties, concepts, service channels, and team responsibilities included in the role; relate the response to venue or service scope, team leadership, guest context, service design, and attributable operating contributions, not speculation about hiring. Not every Hospitality and Food Service organization will handle guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alike. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Chair position. To assess a Chair opportunity in Hospitality and Food Service, compare the stated remit to the candidate's record of meeting leadership, board composition, governance practice, relationships, and transition judgment.
+Keep the Chair narrative accurate where blurring chair and executive accountabilities or taking credit for collective decisions may arise: attribute shared work and disclose only information the candidate may use. Not every Hospitality and Food Service organization will handle guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alike. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Chair position. To assess a Chair opportunity in Hospitality and Food Service, compare the stated remit to the candidate's record of meeting leadership, board composition, governance practice, relationships, and transition judgment.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chair career hub](/roles/chair/)
 
-Review the role-wide approach to lead board effectiveness and support clear governance and decision-making and the evidence expected for that scope.
+
 
 ### [Hospitality and Food Service industry hub](/industries/hospitality-food-service/)
 
-Compare how guest-facing accommodation, food, venue, or experience services delivered through people and operations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Hospitality and Food Service](/roles/ceo/hospitality-food-service.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chair remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Operating Officer in Hospitality and Food Service](/roles/coo/hospitality-food-service.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chair remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chair in Agriculture, Food and Forestry](/roles/chair/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with guest-facing accommodation, food, venue, or experience services delivered through people and operations and identify how the Chair remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chair clarify before considering work in Hospitality and Food Service?
 
-Use the opening discussion to understand the specific Hospitality and Food Service employer, not to assume a standard role. Compare lead board effectiveness and support clear governance and decision-making with the stated scope, identify decision partners among guests, employees, suppliers, owners, local partners, and service teams, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Hospitality and Food Service employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Chair describe transferable experience for Hospitality and Food Service work?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### How can KOV and a Chair plan contact with Hospitality and Food Service organizations?
 
-Outreach should follow target research, not precede it. The Chair candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with meeting leadership, board composition, governance practice, relationships, and transition judgment is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Chair assess fit with Hospitality and Food Service responsibilities?
 
-Title is only a label. Establish what the employer means by Chair in this Hospitality and Food Service organization and how the person will work with guests, employees, suppliers, owners, local partners, and service teams. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Chair candidate considering Hospitality and Food Service?
 

@@ -85,27 +85,27 @@ Use KOV's London page as a starting point for an agreed UK-focused search discus
 
 ### Saudi Arabia
 
-For Arts, Entertainment and Sports targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Arts, Entertainment and Sports targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Arts, Entertainment and Sports targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### UAE
 
-For Arts, Entertainment and Sports targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Arts, Entertainment and Sports targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Arts, Entertainment and Sports targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### United Kingdom
 
-For Arts, Entertainment and Sports targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Arts, Entertainment and Sports targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Arts, Entertainment and Sports targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Dubai
 
-For Arts, Entertainment and Sports targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Arts, Entertainment and Sports targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Arts, Entertainment and Sports targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Australia
 
-For Arts, Entertainment and Sports targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Arts, Entertainment and Sports targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Arts, Entertainment and Sports targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Africa
 
-For Arts, Entertainment and Sports targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Arts, Entertainment and Sports targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Arts, Entertainment and Sports targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ## Choose an appropriate level of career support
 
@@ -129,95 +129,95 @@ Use the cards to open only the role-and-industry pages currently available. Each
 
 ### [Chief Executive Officer in Arts, Entertainment and Sports](/roles/ceo/arts-entertainment-sports.html)
 
-Explore how set organization-wide direction and coordinate executive work connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Operating Officer in Arts, Entertainment and Sports](/roles/coo/arts-entertainment-sports.html)
 
-Explore how align operating functions, delivery systems, and organizational priorities connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Financial Officer in Arts, Entertainment and Sports](/roles/cfo/arts-entertainment-sports.html)
 
-Explore how lead financial stewardship and connect resource decisions to organizational priorities connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Technology Officer in Arts, Entertainment and Sports](/roles/cto/arts-entertainment-sports.html)
 
-Explore how set technology direction and connect technical choices with product and business needs connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Information Officer in Arts, Entertainment and Sports](/roles/cio/arts-entertainment-sports.html)
 
-Explore how guide information systems, digital operations, and technology services for the organization connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Marketing Officer in Arts, Entertainment and Sports](/roles/cmo/arts-entertainment-sports.html)
 
-Explore how shape marketing strategy, customer understanding, brand, and commercial communication connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Human Resources Officer in Arts, Entertainment and Sports](/roles/chro/arts-entertainment-sports.html)
 
-Explore how guide people strategy, organizational capability, and workforce-related leadership connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Information Security Officer in Arts, Entertainment and Sports](/roles/ciso/arts-entertainment-sports.html)
 
-Explore how lead information-security priorities and coordinate risk-informed protection connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [General Counsel / Chief Legal Officer in Arts, Entertainment and Sports](/roles/general-counsel/arts-entertainment-sports.html)
 
-Explore how lead legal judgment and connect legal advice with organizational decisions connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Revenue Officer in Arts, Entertainment and Sports](/roles/chief-revenue-officer/arts-entertainment-sports.html)
 
-Explore how coordinate revenue-facing functions around a coherent commercial direction connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Product Officer in Arts, Entertainment and Sports](/roles/chief-product-officer/arts-entertainment-sports.html)
 
-Explore how guide product direction, portfolio choices, and the connection between users and delivery teams connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Strategy Officer in Arts, Entertainment and Sports](/roles/chief-strategy-officer/arts-entertainment-sports.html)
 
-Explore how support organization-wide choices by framing options, analysis, and strategic execution connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Board Director in Arts, Entertainment and Sports](/roles/board-director/arts-entertainment-sports.html)
 
-Explore how contribute oversight, inquiry, and strategic perspective within collective governance connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Non-Executive Director in Arts, Entertainment and Sports](/roles/non-executive-director/arts-entertainment-sports.html)
 
-Explore how provide independent challenge and strategic contribution distinct from management connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chair in Arts, Entertainment and Sports](/roles/chair/arts-entertainment-sports.html)
 
-Explore how lead board effectiveness and support clear governance and decision-making connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Managing Director in Arts, Entertainment and Sports](/roles/managing-director/arts-entertainment-sports.html)
 
-Explore how lead a business, division, or organization according to its defined mandate connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Managing Partner in Arts, Entertainment and Sports](/roles/managing-partner/arts-entertainment-sports.html)
 
-Explore how combine leadership responsibilities with the governance and professional context of a partnership connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Partner in Arts, Entertainment and Sports](/roles/partner/arts-entertainment-sports.html)
 
-Explore how develop a practice or business while contributing to a shared ownership or partnership structure connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Vice President of Marketing in Arts, Entertainment and Sports](/roles/vp-marketing/arts-entertainment-sports.html)
 
-Explore how lead marketing teams and align brand, customer, and commercial priorities connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Vice President of Product in Arts, Entertainment and Sports](/roles/vp-product/arts-entertainment-sports.html)
 
-Explore how set product priorities and coordinate discovery, planning, and delivery connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Director of Marketing in Arts, Entertainment and Sports](/roles/director-marketing/arts-entertainment-sports.html)
 
-Explore how manage campaigns, channels, or marketing programs within a broader strategy connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Director of Product in Arts, Entertainment and Sports](/roles/director-product/arts-entertainment-sports.html)
 
-Explore how lead a product area and align customer needs with team delivery connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Head of Growth in Arts, Entertainment and Sports](/roles/head-growth/arts-entertainment-sports.html)
 
-Explore how coordinate growth experiments and commercial initiatives for a defined business connects with creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ## Questions that make a Arts, Entertainment and Sports target more specific
 
@@ -251,7 +251,7 @@ KOV can help candidates organize relevant experience and documents around an agr
 
 ### Can KOV promise an interview with a Arts, Entertainment and Sports organization?
 
-No. KOV does not guarantee interviews, offers, employment, introductions, or timelines. Employers make hiring decisions.
+No. Employers make hiring decisions.
 
 ### How should I compare two Arts, Entertainment and Sports opportunities?
 

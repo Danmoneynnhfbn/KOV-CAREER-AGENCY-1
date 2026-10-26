@@ -8,7 +8,7 @@ The candidate can discuss team or site scope, process ownership, service standar
 
 ## Who this Director of Operations and Business Support and Facilities guide is for
 
-Readers need to see what Director of Operations work involved; connect manage operational delivery and improve coordination within a defined remit with the candidate's own examples of team or site scope, process ownership, service standards, and improvement contribution in Business Support and Facilities. An employer's Business Support and Facilities model may involve support services, workplace operations, facilities, administration, or outsourced capabilities; its implications for service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity should be discussed, not presumed. Map the Business Support and Facilities relationships among internal clients, employees, service teams, suppliers, customers, and contract owners; verify actual authority instead of inferring a reporting line. The candidate decides whether to pursue a Director of Operations opportunity. KOV can support agreed research and preparation concerning Business Support and Facilities.
+Readers need to see what Director of Operations work involved; connect manage operational delivery and improve coordination within a defined remit with the candidate's own examples of team or site scope, process ownership, service standards, and improvement contribution in Business Support and Facilities. Map the Business Support and Facilities relationships among internal clients, employees, service teams, suppliers, customers, and contract owners; verify actual authority instead of inferring a reporting line. The candidate decides whether to pursue a Director of Operations opportunity. KOV can support agreed research and preparation concerning Business Support and Facilities.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Director of Operations materials t
 
 ## Prepare to discuss the Business Support and Facilities mandate
 
-The candidate can discuss team or site scope, process ownership, service standards, and improvement contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material. In Business Support and Facilities, internal clients, employees, service teams, suppliers, customers, and contract owners may shape the work. A Director of Operations example should separate direct responsibility from collaboration. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Director of Operations position. Readers need to see what Director of Operations work involved; connect manage operational delivery and improve coordination within a defined remit with the candidate's own examples of team or site scope, process ownership, service standards, and improvement contribution in Business Support and Facilities.
+The candidate can discuss team or site scope, process ownership, service standards, and improvement contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Director of Operations position. Readers need to see what Director of Operations work involved; connect manage operational delivery and improve coordination within a defined remit with the candidate's own examples of team or site scope, process ownership, service standards, and improvement contribution in Business Support and Facilities.
 
 ## Common positioning mistakes for Director of Operations candidates in Business Support and Facilities
 
@@ -67,7 +67,7 @@ Show the Director of Operations scope behind the title: how the candidate could 
 
 ## Run the search thoughtfully in each target market
 
-A candidate exploring Business Support and Facilities should test the assumed link between support services, workplace operations, facilities, administration, or outsourced capabilities and service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity against the actual Director of Operations role description. In Business Support and Facilities, internal clients, employees, service teams, suppliers, customers, and contract owners may shape the work. A Director of Operations example should separate direct responsibility from collaboration. A consultation can clarify whether a Director of Operations candidate needs positioning, document support, target research, or approved outreach for Business Support and Facilities. Keep the Director of Operations narrative accurate where describing process work without the operating context or the candidate's authority may arise: attribute shared work and disclose only information the candidate may use.
+A candidate exploring Business Support and Facilities should test the assumed link between support services, workplace operations, facilities, administration, or outsourced capabilities and service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity against the actual Director of Operations role description. A Director of Operations example should separate direct responsibility from collaboration. A consultation can clarify whether a Director of Operations candidate needs positioning, document support, target research, or approved outreach for Business Support and Facilities. Keep the Director of Operations narrative accurate where describing process work without the operating context or the candidate's authority may arise: attribute shared work and disclose only information the candidate may use.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Operations career hub](/roles/director-operations/)
 
-Review the role-wide approach to manage operational delivery and improve coordination within a defined remit and the evidence expected for that scope.
+
 
 ### [Business Support and Facilities industry hub](/industries/business-support-facilities/)
 
-Compare how support services, workplace operations, facilities, administration, or outsourced capabilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Business Support and Facilities](/roles/ceo/business-support-facilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Operations remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Operating Officer in Business Support and Facilities](/roles/coo/business-support-facilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Operations remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Director of Operations in Agriculture, Food and Forestry](/roles/director-operations/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with support services, workplace operations, facilities, administration, or outsourced capabilities and identify how the Director of Operations remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Director of Operations in Business Support and Facilities?
 
-Use the opening discussion to understand the specific Business Support and Facilities employer, not to assume a standard role. Compare manage operational delivery and improve coordination within a defined remit with the stated scope, identify decision partners among internal clients, employees, service teams, suppliers, customers, and contract owners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Business Support and Facilities employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a Director of Operations make prior work relevant to Business Support and Facilities?
 
@@ -139,15 +139,15 @@ Make the connection explicit: the candidate's record of team or site scope, proc
 
 ### Which career materials can help a Director of Operations explore work in Business Support and Facilities?
 
-Document selection depends on the opportunity. A Director of Operations may draw from resume, operations achievement summary, professional profile, and interview examples, but should foreground only material connected to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a Director of Operations contacts an organization in Business Support and Facilities?
 
-Outreach should follow target research, not precede it. The Director of Operations candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with team or site scope, process ownership, service standards, and improvement contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Director of Operations background relevant to work in Business Support and Facilities?
 
-Title is only a label. Establish what the employer means by Director of Operations in this Business Support and Facilities organization and how the person will work with internal clients, employees, service teams, suppliers, customers, and contract owners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Does KOV control employer responses to Director of Operations outreach in Business Support and Facilities?
 

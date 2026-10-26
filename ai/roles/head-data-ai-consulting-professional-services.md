@@ -12,7 +12,7 @@ The Head of Data and AI remit to lead data capabilities and coordinate responsib
 
 ## A candidate-led process from first discussion to next steps
 
-For Head of Data and AI work in Consulting and Other Professional Services, explain how the candidate could lead data capabilities and coordinate responsible application of analytical or AI work; connect that mandate to evidence of data products, team scope, quality practices, governance partnership, and decision value. Use expertise-led advisory or delivery work provided to organizations or individuals to frame research about Consulting and Other Professional Services, then ask how a Head of Data and AI will work through expertise, client expectations, capacity, project economics, and consistent delivery across engagements. In Consulting and Other Professional Services, clients, practitioners, project teams, partners or owners, suppliers, and professional communities may shape the work. A Head of Data and AI example should separate direct responsibility from collaboration. The candidate decides whether to pursue a Head of Data and AI opportunity. KOV can support agreed research and preparation concerning Consulting and Other Professional Services.
+For Head of Data and AI work in Consulting and Other Professional Services, explain how the candidate could lead data capabilities and coordinate responsible application of analytical or AI work; connect that mandate to evidence of data products, team scope, quality practices, governance partnership, and decision value. A Head of Data and AI example should separate direct responsibility from collaboration. The candidate decides whether to pursue a Head of Data and AI opportunity. KOV can support agreed research and preparation concerning Consulting and Other Professional Services.
 
 ## Documents that make Head of Data and AI experience relevant here
 
@@ -59,11 +59,11 @@ For Head of Data and AI materials, manage the risk of exposing sensitive dataset
 
 ## Keep research, confidentiality, and outreach aligned
 
-Rather than lead with seniority, a Head of Data and AI profile can explain the responsibility to lead data capabilities and coordinate responsible application of analytical or AI work and use service line, client or project context, team leadership, delivery model, and authorized outcomes as evidence. Not every Consulting and Other Professional Services organization will handle expertise, client expectations, capacity, project economics, and consistent delivery across engagements alike. Confirm how expertise-led advisory or delivery work provided to organizations or individuals informs this Head of Data and AI position. Candidate-side support from KOV may connect Head of Data and AI positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Protect credibility in Consulting and Other Professional Services by addressing exposing sensitive datasets, overstating model capability, or omitting human oversight with a factual account of data products, team scope, quality practices, governance partnership, and decision value and its limits.
+Rather than lead with seniority, a Head of Data and AI profile can explain the responsibility to lead data capabilities and coordinate responsible application of analytical or AI work and use service line, client or project context, team leadership, delivery model, and authorized outcomes as evidence. Confirm how expertise-led advisory or delivery work provided to organizations or individuals informs this Head of Data and AI position. Candidate-side support from KOV may connect Head of Data and AI positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Protect credibility in Consulting and Other Professional Services by addressing exposing sensitive datasets, overstating model capability, or omitting human oversight with a factual account of data products, team scope, quality practices, governance partnership, and decision value and its limits.
 
 ## Prepare for conversations about Consulting and Other Professional Services work
 
-The candidate decides whether to pursue a Head of Data and AI opportunity. KOV can support agreed research and preparation concerning Consulting and Other Professional Services. Discuss service line, client or project context, team leadership, delivery model, and authorized outcomes with care: a Head of Data and AI candidate can explain contribution while omitting confidential or identifying facts. To understand the Consulting and Other Professional Services target, explore expertise-led advisory or delivery work provided to organizations or individuals and ask how a Head of Data and AI is expected to respond to expertise, client expectations, capacity, project economics, and consistent delivery across engagements. Readers need to see what Head of Data and AI work involved; connect lead data capabilities and coordinate responsible application of analytical or AI work with the candidate's own examples of data products, team scope, quality practices, governance partnership, and decision value in Consulting and Other Professional Services.
+The candidate decides whether to pursue a Head of Data and AI opportunity. Discuss service line, client or project context, team leadership, delivery model, and authorized outcomes with care: a Head of Data and AI candidate can explain contribution while omitting confidential or identifying facts. To understand the Consulting and Other Professional Services target, explore expertise-led advisory or delivery work provided to organizations or individuals and ask how a Head of Data and AI is expected to respond to expertise, client expectations, capacity, project economics, and consistent delivery across engagements. Readers need to see what Head of Data and AI work involved; connect lead data capabilities and coordinate responsible application of analytical or AI work with the candidate's own examples of data products, team scope, quality practices, governance partnership, and decision value in Consulting and Other Professional Services.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Data and AI career hub](/roles/head-data-ai/)
 
-Review the role-wide approach to lead data capabilities and coordinate responsible application of analytical or AI work and the evidence expected for that scope.
+
 
 ### [Consulting and Other Professional Services industry hub](/industries/consulting-professional-services/)
 
-Compare how expertise-led advisory or delivery work provided to organizations or individuals affects career planning across functions.
+
 
 ### [Chief Executive Officer in Consulting and Other Professional Services](/roles/ceo/consulting-professional-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Data and AI remit; consider where each function meets expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chief Operating Officer in Consulting and Other Professional Services](/roles/coo/consulting-professional-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Data and AI remit; consider where each function meets expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Head of Data and AI in Manufacturing](/roles/head-data-ai/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with expertise-led advisory or delivery work provided to organizations or individuals and identify how the Head of Data and AI remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Head of Data and AI clarify before considering work in Consulting and Other Professional Services?
 
-A Head of Data and AI candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's expertise-led advisory or delivery work provided to organizations or individuals. Explore how the role will lead data capabilities and coordinate responsible application of analytical or AI work and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Head of Data and AI candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's expertise-led advisory or delivery work provided to organizations or individuals. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Head of Data and AI describe transferable experience for Consulting and Other Professional Services work?
 
@@ -139,19 +139,19 @@ Describe an instance where the candidate could lead data capabilities and coordi
 
 ### How can a Head of Data and AI choose documents for conversations about Consulting and Other Professional Services?
 
-Possible materials include resume, data leadership portfolio, project summaries, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service line, client or project context, team leadership, delivery model, and authorized outcomes. Each claim should be accurate for this Consulting and Other Professional Services target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, data leadership portfolio, project summaries, and professional profile. Each claim should be accurate for this Consulting and Other Professional Services target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Head of Data and AI plan contact with Consulting and Other Professional Services organizations?
 
-Outreach should follow target research, not precede it. The Head of Data and AI candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with data products, team scope, quality practices, governance partnership, and decision value is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Head of Data and AI assess fit with Consulting and Other Professional Services responsibilities?
 
-Title is only a label. Establish what the employer means by Head of Data and AI in this Consulting and Other Professional Services organization and how the person will work with clients, practitioners, project teams, partners or owners, suppliers, and professional communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Head of Data and AI candidate considering Consulting and Other Professional Services?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Head of Data and AI candidate considering Consulting and Other Professional Services, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

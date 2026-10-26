@@ -4,7 +4,7 @@ KOV helps Vice President of Strategy candidates considering roles connected to E
 
 ## How Vice President of Strategy work connects with Energy, Mining and Oil and Gas
 
-The Energy, Mining and Oil and Gas context involves asset-intensive work spanning development, extraction, generation, processing, or energy services; examine how that structure affects long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand before drawing conclusions about the Vice President of Strategy role. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Vice President of Strategy example should separate direct responsibility from collaboration. KOV can help a Vice President of Strategy candidate organize an agreed search approach for Energy, Mining and Oil and Gas, including documents such as executive resume, strategy portfolio, decision narrative, and profile. For Vice President of Strategy materials, manage the risk of claiming strategy outcomes without distinguishing recommendation, sponsorship, and execution; support claims with analysis, option framing, stakeholder alignment, implementation, and decision influence and remove details that are not authorized for sharing.
+The Energy, Mining and Oil and Gas context involves asset-intensive work spanning development, extraction, generation, processing, or energy services; examine how that structure affects long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand before drawing conclusions about the Vice President of Strategy role. A Vice President of Strategy example should separate direct responsibility from collaboration. KOV can help a Vice President of Strategy candidate organize an agreed search approach for Energy, Mining and Oil and Gas, including documents such as executive resume, strategy portfolio, decision narrative, and profile. For Vice President of Strategy materials, manage the risk of claiming strategy outcomes without distinguishing recommendation, sponsorship, and execution; support claims with analysis, option framing, stakeholder alignment, implementation, and decision influence and remove details that are not authorized for sharing.
 
 ## Who this Vice President of Strategy and Energy, Mining and Oil and Gas guide is for
 
@@ -33,7 +33,7 @@ Readers need to see what Vice President of Strategy work involved; connect frame
 
 ## Choose the individual services that fit the work
 
-Good preparation for Vice President of Strategy work includes a safe way to explain claiming strategy outcomes without distinguishing recommendation, sponsorship, and execution and a clear distinction between fact and inference. An account of project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes should identify the candidate's contribution and the involvement of CEO or CSO, finance, business leaders, board or owners where relevant, and teams. Not every Energy, Mining and Oil and Gas organization will handle long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand alike. Confirm how asset-intensive work spanning development, extraction, generation, processing, or energy services informs this Vice President of Strategy position. Position a Vice President of Strategy career by linking frame strategic choices and connect planning with operating decisions to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes, then clarify which part of that work the candidate actually owned.
+Good preparation for Vice President of Strategy work includes a safe way to explain claiming strategy outcomes without distinguishing recommendation, sponsorship, and execution and a clear distinction between fact and inference. Not every Energy, Mining and Oil and Gas organization will handle long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand alike. Confirm how asset-intensive work spanning development, extraction, generation, processing, or energy services informs this Vice President of Strategy position. Position a Vice President of Strategy career by linking frame strategic choices and connect planning with operating decisions to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes, then clarify which part of that work the candidate actually owned.
 
 ### [Private career representation](/services.html)
 
@@ -59,7 +59,7 @@ Protect credibility in Energy, Mining and Oil and Gas by addressing claiming str
 
 ## Keep research, confidentiality, and outreach aligned
 
-In a Energy, Mining and Oil and Gas target, make the Vice President of Strategy contribution legible: describe how the candidate helped frame strategic choices and connect planning with operating decisions and what supports analysis, option framing, stakeholder alignment, implementation, and decision influence. Use asset-intensive work spanning development, extraction, generation, processing, or energy services to frame research about Energy, Mining and Oil and Gas, then ask how a Vice President of Strategy will work through long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Vice President of Strategy example should separate direct responsibility from collaboration. Candidate-side support from KOV may connect Vice President of Strategy positioning, relevant documents, and approved outreach, within the scope the candidate agrees.
+In a Energy, Mining and Oil and Gas target, make the Vice President of Strategy contribution legible: describe how the candidate helped frame strategic choices and connect planning with operating decisions and what supports analysis, option framing, stakeholder alignment, implementation, and decision influence. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Vice President of Strategy example should separate direct responsibility from collaboration. Candidate-side support from KOV may connect Vice President of Strategy positioning, relevant documents, and approved outreach, within the scope the candidate agrees.
 
 ## Prepare for conversations about Energy, Mining and Oil and Gas work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Strategy career hub](/roles/vp-strategy/)
 
-Review the role-wide approach to frame strategic choices and connect planning with operating decisions and the evidence expected for that scope.
+
 
 ### [Energy, Mining and Oil and Gas industry hub](/industries/energy-mining-oil-gas/)
 
-Compare how asset-intensive work spanning development, extraction, generation, processing, or energy services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Energy, Mining and Oil and Gas](/roles/ceo/energy-mining-oil-gas.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Strategy remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Operating Officer in Energy, Mining and Oil and Gas](/roles/coo/energy-mining-oil-gas.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Strategy remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Vice President of Strategy in Manufacturing](/roles/vp-strategy/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with asset-intensive work spanning development, extraction, generation, processing, or energy services and identify how the Vice President of Strategy remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Vice President of Strategy test the scope of work in Energy, Mining and Oil and Gas?
 
-A Vice President of Strategy candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's asset-intensive work spanning development, extraction, generation, processing, or energy services. Explore how the role will frame strategic choices and connect planning with operating decisions and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Vice President of Strategy candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's asset-intensive work spanning development, extraction, generation, processing, or energy services. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Vice President of Strategy use to explain experience in Energy, Mining and Oil and Gas?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### Which outreach choices belong to a Vice President of Strategy considering Energy, Mining and Oil and Gas?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Vice President of Strategy candidate's service scope; the candidate approves external communication. No one route should be assumed for all Energy, Mining and Oil and Gas employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Energy, Mining and Oil and Gas employers.
 
 ### Can a Vice President of Strategy rely on title alone when targeting Energy, Mining and Oil and Gas?
 
-Title is only a label. Establish what the employer means by Vice President of Strategy in this Energy, Mining and Oil and Gas organization and how the person will work with asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Vice President of Strategy seeking work in Energy, Mining and Oil and Gas?
 

@@ -16,7 +16,7 @@ A candidate exploring Technology, Media and Telecom should test the assumed link
 
 ## Documents that make Chief Human Resources Officer experience relevant here
 
-In a Technology, Media and Telecom target, make the Chief Human Resources Officer contribution legible: describe how the candidate helped guide people strategy, organizational capability, and workforce-related leadership and what supports people agenda, organization design, leadership support, workforce programs, and measured contribution. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Chief Human Resources Officer example should separate direct responsibility from collaboration. KOV's service scope for a Chief Human Resources Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. A Chief Human Resources Officer candidate should be ready to explain using confidential employee details or presenting team-wide change as an individual result without revealing confidential details or implying unsupported responsibility.
+In a Technology, Media and Telecom target, make the Chief Human Resources Officer contribution legible: describe how the candidate helped guide people strategy, organizational capability, and workforce-related leadership and what supports people agenda, organization design, leadership support, workforce programs, and measured contribution. A Chief Human Resources Officer example should separate direct responsibility from collaboration. KOV's service scope for a Chief Human Resources Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. A Chief Human Resources Officer candidate should be ready to explain using confidential employee details or presenting team-wide change as an individual result without revealing confidential details or implying unsupported responsibility.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ Consider document and positioning support for Chief Human Resources Officer mate
 
 ## Prepare to discuss the Technology, Media and Telecom mandate
 
-Review each Chief Human Resources Officer example for using confidential employee details or presenting team-wide change as an individual result, then describe the candidate's decisions without overstating their control over CEO, board or owners, employees, people teams, line leaders, and external advisers. For a Chief Human Resources Officer target, KOV can discuss how executive resume, people-leadership profile, biography, and selected program summary support the candidate's account of people agenda, organization design, leadership support, workforce programs, and measured contribution; external steps require prior agreement. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Chief Human Resources Officer example should separate direct responsibility from collaboration. In a Technology, Media and Telecom target, make the Chief Human Resources Officer contribution legible: describe how the candidate helped guide people strategy, organizational capability, and workforce-related leadership and what supports people agenda, organization design, leadership support, workforce programs, and measured contribution.
+Review each Chief Human Resources Officer example for using confidential employee details or presenting team-wide change as an individual result, then describe the candidate's decisions without overstating their control over CEO, board or owners, employees, people teams, line leaders, and external advisers. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Chief Human Resources Officer example should separate direct responsibility from collaboration. In a Technology, Media and Telecom target, make the Chief Human Resources Officer contribution legible: describe how the candidate helped guide people strategy, organizational capability, and workforce-related leadership and what supports people agenda, organization design, leadership support, workforce programs, and measured contribution.
 
 ## Common positioning mistakes for Chief Human Resources Officer candidates in Technology, Media and Telecom
 
@@ -63,7 +63,7 @@ The Technology, Media and Telecom context involves digital products, platforms, 
 
 ## Prepare for conversations about Technology, Media and Telecom work
 
-Keep the Chief Human Resources Officer narrative accurate where using confidential employee details or presenting team-wide change as an individual result may arise: attribute shared work and disclose only information the candidate may use. Preparation for a Chief Human Resources Officer conversation should address whether the organization sells products, services, content, connectivity, or a mix, and how the role links technical and commercial priorities; relate the response to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality, not speculation about hiring. Not every Technology, Media and Telecom organization will handle product evolution, reliability, audience or customer needs, technical choices, and changing business models alike. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Chief Human Resources Officer position. To assess a Chief Human Resources Officer opportunity in Technology, Media and Telecom, compare the stated remit to the candidate's record of people agenda, organization design, leadership support, workforce programs, and measured contribution.
+Keep the Chief Human Resources Officer narrative accurate where using confidential employee details or presenting team-wide change as an individual result may arise: attribute shared work and disclose only information the candidate may use. Not every Technology, Media and Telecom organization will handle product evolution, reliability, audience or customer needs, technical choices, and changing business models alike. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Chief Human Resources Officer position. To assess a Chief Human Resources Officer opportunity in Technology, Media and Telecom, compare the stated remit to the candidate's record of people agenda, organization design, leadership support, workforce programs, and measured contribution.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Human Resources Officer career hub](/roles/chro/)
 
-Review the role-wide approach to guide people strategy, organizational capability, and workforce-related leadership and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Human Resources Officer remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Human Resources Officer remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Human Resources Officer in Agriculture, Food and Forestry](/roles/chro/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with digital products, platforms, content, communications, or technology-enabled services and identify how the Chief Human Resources Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Human Resources Officer clarify before considering work in Technology, Media and Telecom?
 
-Use the opening discussion to understand the specific Technology, Media and Telecom employer, not to assume a standard role. Compare guide people strategy, organizational capability, and workforce-related leadership with the stated scope, identify decision partners among users, product and engineering teams, customers, creators, advertisers, partners, and investors, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Technology, Media and Telecom employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Chief Human Resources Officer describe transferable experience for Technology, Media and Telecom work?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Chief Human Resources Officer assess fit with Technology, Media and Telecom responsibilities?
 
-No. Compare the role description with the candidate's experience of guide people strategy, organizational capability, and workforce-related leadership and the organization's digital products, platforms, content, communications, or technology-enabled services. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Chief Human Resources Officer candidate considering Technology, Media and Telecom?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Human Resources Officer candidate considering Technology, Media and Telecom, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

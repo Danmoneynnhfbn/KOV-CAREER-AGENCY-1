@@ -33,7 +33,7 @@ Rather than lead with seniority, a Chief Financial Officer profile can explain t
 
 ## Choose the individual services that fit the work
 
-The candidate decides whether to pursue a Chief Financial Officer opportunity. KOV can support agreed research and preparation concerning Hospitality and Food Service. Use an example involving venue or service scope, team leadership, guest context, service design, and attributable operating contributions to describe the decision, the parties involved, and the candidate's role as a Chief Financial Officer. A candidate exploring Hospitality and Food Service should test the assumed link between guest-facing accommodation, food, venue, or experience services delivered through people and operations and guest experience, operating capacity, service consistency, workforce coordination, and supplier variability against the actual Chief Financial Officer role description. In a Hospitality and Food Service target, make the Chief Financial Officer contribution legible: describe how the candidate helped lead financial stewardship and connect resource decisions to organizational priorities and what supports financial leadership scope, planning, controls, capital or resource choices, and communication.
+The candidate decides whether to pursue a Chief Financial Officer opportunity. Use an example involving venue or service scope, team leadership, guest context, service design, and attributable operating contributions to describe the decision, the parties involved, and the candidate's role as a Chief Financial Officer. A candidate exploring Hospitality and Food Service should test the assumed link between guest-facing accommodation, food, venue, or experience services delivered through people and operations and guest experience, operating capacity, service consistency, workforce coordination, and supplier variability against the actual Chief Financial Officer role description. In a Hospitality and Food Service target, make the Chief Financial Officer contribution legible: describe how the candidate helped lead financial stewardship and connect resource decisions to organizational priorities and what supports financial leadership scope, planning, controls, capital or resource choices, and communication.
 
 ### [Private career representation](/services.html)
 
@@ -63,7 +63,7 @@ The Chief Financial Officer remit to lead financial stewardship and connect reso
 
 ## Prepare for conversations about Hospitality and Food Service work
 
-For Chief Financial Officer work in Hospitality and Food Service, explain how the candidate could lead financial stewardship and connect resource decisions to organizational priorities; connect that mandate to evidence of financial leadership scope, planning, controls, capital or resource choices, and communication. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Chief Financial Officer example should separate direct responsibility from collaboration. KOV's service scope for a Chief Financial Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Before discussing venue or service scope, team leadership, guest context, service design, and attributable operating contributions, check whether presenting financial outcomes without context, attribution, or permission to disclose could expose sensitive details or blur the candidate's decision boundary.
+For Chief Financial Officer work in Hospitality and Food Service, explain how the candidate could lead financial stewardship and connect resource decisions to organizational priorities; connect that mandate to evidence of financial leadership scope, planning, controls, capital or resource choices, and communication. A Chief Financial Officer example should separate direct responsibility from collaboration. KOV's service scope for a Chief Financial Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Before discussing venue or service scope, team leadership, guest context, service design, and attributable operating contributions, check whether presenting financial outcomes without context, attribution, or permission to disclose could expose sensitive details or blur the candidate's decision boundary.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Financial Officer career hub](/roles/cfo/)
 
-Review the role-wide approach to lead financial stewardship and connect resource decisions to organizational priorities and the evidence expected for that scope.
+
 
 ### [Hospitality and Food Service industry hub](/industries/hospitality-food-service/)
 
-Compare how guest-facing accommodation, food, venue, or experience services delivered through people and operations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Hospitality and Food Service](/roles/ceo/hospitality-food-service.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Financial Officer remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Operating Officer in Hospitality and Food Service](/roles/coo/hospitality-food-service.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Financial Officer remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Financial Officer in Agriculture, Food and Forestry](/roles/cfo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with guest-facing accommodation, food, venue, or experience services delivered through people and operations and identify how the Chief Financial Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Financial Officer clarify before considering work in Hospitality and Food Service?
 
-Use the opening discussion to understand the specific Hospitality and Food Service employer, not to assume a standard role. Compare lead financial stewardship and connect resource decisions to organizational priorities with the stated scope, identify decision partners among guests, employees, suppliers, owners, local partners, and service teams, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Hospitality and Food Service employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Chief Financial Officer describe transferable experience for Hospitality and Food Service work?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### How can KOV and a Chief Financial Officer plan contact with Hospitality and Food Service organizations?
 
-Outreach should follow target research, not precede it. The Chief Financial Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with financial leadership scope, planning, controls, capital or resource choices, and communication is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Chief Financial Officer assess fit with Hospitality and Food Service responsibilities?
 
-No. Compare the role description with the candidate's experience of lead financial stewardship and connect resource decisions to organizational priorities and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Chief Financial Officer candidate considering Hospitality and Food Service?
 

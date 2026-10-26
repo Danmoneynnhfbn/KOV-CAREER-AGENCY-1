@@ -63,7 +63,7 @@ A candidate exploring Agriculture, Food and Forestry should test the assumed lin
 
 ## Prepare for conversations about Agriculture, Food and Forestry work
 
-The candidate decides whether to pursue a Non-Executive Director opportunity. KOV can support agreed research and preparation concerning Agriculture, Food and Forestry. Map the Agriculture, Food and Forestry relationships among producers, workforce, buyers, processors, logistics partners, and communities; verify actual authority instead of inferring a reporting line. A candidate exploring Agriculture, Food and Forestry should test the assumed link between production linked to land, biological cycles, processing, and supply relationships and seasonality, input availability, quality variation, and coordination across production stages against the actual Non-Executive Director role description. The Non-Executive Director remit to provide independent challenge and strategic contribution distinct from management should be described through decisions and examples, especially evidence of governance experience, constructive challenge, committee contribution, and relevant expertise relevant to Agriculture, Food and Forestry.
+The candidate decides whether to pursue a Non-Executive Director opportunity. Map the Agriculture, Food and Forestry relationships among producers, workforce, buyers, processors, logistics partners, and communities; verify actual authority instead of inferring a reporting line. A candidate exploring Agriculture, Food and Forestry should test the assumed link between production linked to land, biological cycles, processing, and supply relationships and seasonality, input availability, quality variation, and coordination across production stages against the actual Non-Executive Director role description. The Non-Executive Director remit to provide independent challenge and strategic contribution distinct from management should be described through decisions and examples, especially evidence of governance experience, constructive challenge, committee contribution, and relevant expertise relevant to Agriculture, Food and Forestry.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Non-Executive Director career hub](/roles/non-executive-director/)
 
-Review the role-wide approach to provide independent challenge and strategic contribution distinct from management and the evidence expected for that scope.
+
 
 ### [Agriculture, Food and Forestry industry hub](/industries/agriculture-food-forestry/)
 
-Compare how production linked to land, biological cycles, processing, and supply relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Agriculture, Food and Forestry](/roles/ceo/agriculture-food-forestry.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Non-Executive Director remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Non-Executive Director remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Non-Executive Director in Energy, Mining and Oil and Gas](/roles/non-executive-director/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with production linked to land, biological cycles, processing, and supply relationships and identify how the Non-Executive Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Non-Executive Director in Agriculture, Food and Forestry?
 
-A Non-Executive Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's production linked to land, biological cycles, processing, and supply relationships. Explore how the role will provide independent challenge and strategic contribution distinct from management and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Non-Executive Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's production linked to land, biological cycles, processing, and supply relationships. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Non-Executive Director make prior work relevant to Agriculture, Food and Forestry?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### What makes a Non-Executive Director background relevant to work in Agriculture, Food and Forestry?
 
-No. Compare the role description with the candidate's experience of provide independent challenge and strategic contribution distinct from management and the organization's production linked to land, biological cycles, processing, and supply relationships. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Non-Executive Director outreach in Agriculture, Food and Forestry?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Non-Executive Director candidate considering Agriculture, Food and Forestry, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

@@ -4,7 +4,7 @@ KOV helps Director of Engineering candidates considering roles connected to Cons
 
 ## How Director of Engineering work connects with Construction and Engineering
 
-Good preparation for Director of Engineering work includes a safe way to explain over-indexing on hands-on tools while omitting leadership scope and outcomes and a clear distinction between fact and inference. For a Director of Engineering target, KOV can discuss how resume, technical leadership portfolio, profile, and delivery examples support the candidate's account of technical scope, team leadership, delivery choices, quality practices, and cross-team work; external steps require prior agreement. In Construction and Engineering, clients, project teams, designers, contractors, suppliers, workers, and asset users may shape the work. A Director of Engineering example should separate direct responsibility from collaboration. For Director of Engineering work in Construction and Engineering, explain how the candidate could direct engineering teams and coordinate technical execution in a defined area; connect that mandate to evidence of technical scope, team leadership, delivery choices, quality practices, and cross-team work.
+Good preparation for Director of Engineering work includes a safe way to explain over-indexing on hands-on tools while omitting leadership scope and outcomes and a clear distinction between fact and inference. In Construction and Engineering, clients, project teams, designers, contractors, suppliers, workers, and asset users may shape the work. A Director of Engineering example should separate direct responsibility from collaboration. For Director of Engineering work in Construction and Engineering, explain how the candidate could direct engineering teams and coordinate technical execution in a defined area; connect that mandate to evidence of technical scope, team leadership, delivery choices, quality practices, and cross-team work.
 
 ## Who this Director of Engineering and Construction and Engineering guide is for
 
@@ -12,7 +12,7 @@ KOV works with the candidate to agree which Director of Engineering targets matt
 
 ## A candidate-led process from first discussion to next steps
 
-Review each Director of Engineering example for over-indexing on hands-on tools while omitting leadership scope and outcomes, then describe the candidate's decisions without overstating their control over VP or CTO, engineering teams, product, security, operations, and users. Candidate-side support from KOV may connect Director of Engineering positioning, relevant documents, and approved outreach, within the scope the candidate agrees. In Construction and Engineering, clients, project teams, designers, contractors, suppliers, workers, and asset users may shape the work. A Director of Engineering example should separate direct responsibility from collaboration. Ask what project-based delivery involving design, procurement, technical coordination, and site execution means at this particular Construction and Engineering organization and how it changes the priorities assigned to a Director of Engineering.
+Review each Director of Engineering example for over-indexing on hands-on tools while omitting leadership scope and outcomes, then describe the candidate's decisions without overstating their control over VP or CTO, engineering teams, product, security, operations, and users. In Construction and Engineering, clients, project teams, designers, contractors, suppliers, workers, and asset users may shape the work. A Director of Engineering example should separate direct responsibility from collaboration. Ask what project-based delivery involving design, procurement, technical coordination, and site execution means at this particular Construction and Engineering organization and how it changes the priorities assigned to a Director of Engineering.
 
 ## Documents that make Director of Engineering experience relevant here
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Director of Engineering materials 
 
 ## Prepare to discuss the Construction and Engineering mandate
 
-The candidate decides whether to pursue a Director of Engineering opportunity. KOV can support agreed research and preparation concerning Construction and Engineering. The candidate's record of technical scope, team leadership, delivery choices, quality practices, and cross-team work should be set beside the role of clients, project teams, designers, contractors, suppliers, workers, and asset users, so shared results are attributed fairly. Research for a Director of Engineering in Construction and Engineering becomes more focused when the candidate investigates scope control, sequencing, interfaces, safety-minded work, and coordination across project phases alongside project-based delivery involving design, procurement, technical coordination, and site execution. Rather than lead with seniority, a Director of Engineering profile can explain the responsibility to direct engineering teams and coordinate technical execution in a defined area and use project complexity, commercial or technical decisions, interface management, delivery contribution, and lessons learned as evidence.
+The candidate decides whether to pursue a Director of Engineering opportunity. The candidate's record of technical scope, team leadership, delivery choices, quality practices, and cross-team work should be set beside the role of clients, project teams, designers, contractors, suppliers, workers, and asset users, so shared results are attributed fairly. Research for a Director of Engineering in Construction and Engineering becomes more focused when the candidate investigates scope control, sequencing, interfaces, safety-minded work, and coordination across project phases alongside project-based delivery involving design, procurement, technical coordination, and site execution. Rather than lead with seniority, a Director of Engineering profile can explain the responsibility to direct engineering teams and coordinate technical execution in a defined area and use project complexity, commercial or technical decisions, interface management, delivery contribution, and lessons learned as evidence.
 
 ## Common positioning mistakes for Director of Engineering candidates in Construction and Engineering
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Engineering career hub](/roles/director-engineering/)
 
-Review the role-wide approach to direct engineering teams and coordinate technical execution in a defined area and the evidence expected for that scope.
+
 
 ### [Construction and Engineering industry hub](/industries/construction-engineering/)
 
-Compare how project-based delivery involving design, procurement, technical coordination, and site execution affects career planning across functions.
+
 
 ### [Chief Executive Officer in Construction and Engineering](/roles/ceo/construction-engineering.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Engineering remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Operating Officer in Construction and Engineering](/roles/coo/construction-engineering.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Engineering remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Director of Engineering in Energy, Mining and Oil and Gas](/roles/director-engineering/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with project-based delivery involving design, procurement, technical coordination, and site execution and identify how the Director of Engineering remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Director of Engineering in Construction and Engineering?
 
-Start with the organization's account of project-based delivery involving design, procurement, technical coordination, and site execution, then clarify how the Director of Engineering would direct engineering teams and coordinate technical execution in a defined area. Ask how clients, project teams, designers, contractors, suppliers, workers, and asset users participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of project-based delivery involving design, procurement, technical coordination, and site execution, then clarify how the Director of Engineering would direct engineering teams and coordinate technical execution in a defined area. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Director of Engineering make prior work relevant to Construction and Engineering?
 
@@ -139,11 +139,11 @@ Select examples that show technical scope, team leadership, delivery choices, qu
 
 ### Which career materials can help a Director of Engineering explore work in Construction and Engineering?
 
-Possible materials include resume, technical leadership portfolio, profile, and delivery examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to project complexity, commercial or technical decisions, interface management, delivery contribution, and lessons learned. Each claim should be accurate for this Construction and Engineering target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, technical leadership portfolio, profile, and delivery examples. Each claim should be accurate for this Construction and Engineering target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Director of Engineering contacts an organization in Construction and Engineering?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of Engineering candidate's service scope; the candidate approves external communication. No one route should be assumed for all Construction and Engineering employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Construction and Engineering employers.
 
 ### What makes a Director of Engineering background relevant to work in Construction and Engineering?
 

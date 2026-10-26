@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Marketing Officer career hub](/roles/cmo/)
 
-Review the role-wide approach to shape marketing strategy, customer understanding, brand, and commercial communication and the evidence expected for that scope.
+
 
 ### [Arts, Entertainment and Sports industry hub](/industries/arts-entertainment-sports/)
 
-Compare how creative, cultural, event, audience, or sporting activity supported by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Arts, Entertainment and Sports](/roles/ceo/arts-entertainment-sports.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Marketing Officer remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Operating Officer in Arts, Entertainment and Sports](/roles/coo/arts-entertainment-sports.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Marketing Officer remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Marketing Officer in Agriculture, Food and Forestry](/roles/cmo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with creative, cultural, event, audience, or sporting activity supported by teams and organizations and identify how the Chief Marketing Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Marketing Officer test the scope of work in Arts, Entertainment and Sports?
 
-Start with the organization's account of creative, cultural, event, audience, or sporting activity supported by teams and organizations, then clarify how the Chief Marketing Officer would shape marketing strategy, customer understanding, brand, and commercial communication. Ask how audiences, participants, creators, athletes, sponsors, venues, partners, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of creative, cultural, event, audience, or sporting activity supported by teams and organizations, then clarify how the Chief Marketing Officer would shape marketing strategy, customer understanding, brand, and commercial communication. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Chief Marketing Officer use to explain experience in Arts, Entertainment and Sports?
 
@@ -139,11 +139,11 @@ Select examples that show market context, customer insight, portfolio decisions,
 
 ### What documents should a Chief Marketing Officer tailor for Arts, Entertainment and Sports opportunities?
 
-Possible materials include executive resume, brand and growth narrative, leadership biography, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available. Each claim should be accurate for this Arts, Entertainment and Sports target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, brand and growth narrative, leadership biography, and profile. Each claim should be accurate for this Arts, Entertainment and Sports target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Chief Marketing Officer considering Arts, Entertainment and Sports?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Marketing Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Arts, Entertainment and Sports employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Arts, Entertainment and Sports employers.
 
 ### Can a Chief Marketing Officer rely on title alone when targeting Arts, Entertainment and Sports?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate market con
 
 ### What outcome can KOV guarantee for a Chief Marketing Officer seeking work in Arts, Entertainment and Sports?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Marketing Officer candidate considering Arts, Entertainment and Sports, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

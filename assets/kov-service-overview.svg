@@ -7,5 +7,5 @@
   <g fill="#111920" stroke="#e4b184" stroke-width="2"><circle cx="100" cy="700" r="30"/><circle cx="320" cy="430" r="38"/><circle cx="445" cy="560" r="28"/><circle cx="620" cy="260" r="34"/></g>
   <g fill="#f7f2e9" font-family="Arial,sans-serif"><text x="64" y="768" font-size="17" letter-spacing="2">DEFINE</text><text x="274" y="505" font-size="17" letter-spacing="2">RESEARCH</text><text x="394" y="620" font-size="17" letter-spacing="2">POSITION</text><text x="560" y="330" font-size="17" letter-spacing="2">CONNECT</text></g>
   <text x="54" y="92" fill="#e4b184" font-family="Arial,sans-serif" font-size="16" letter-spacing="4">KOV / SEARCH INTELLIGENCE</text>
-  <text x="54" y="890" fill="#fff" font-family="Georgia,serif" font-size="42" font-style="italic">Research first. Human judgement throughout.</text>
+  <text fill="#fff" font-family="Georgia,serif" font-size="34" font-style="italic"><tspan x="54" y="856">Research first. Human judgement</tspan><tspan x="54" y="900">throughout.</tspan></text>
 </svg>

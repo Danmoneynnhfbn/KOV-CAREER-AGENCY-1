@@ -8,7 +8,7 @@ Readers need to see what Board Director work involved; connect contribute oversi
 
 ## Who this Board Director and Energy, Mining and Oil and Gas guide is for
 
-Before discussing project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes, check whether implying executive authority for board decisions or claiming confidential board outcomes could expose sensitive details or blur the candidate's decision boundary. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Board Director example should separate direct responsibility from collaboration. Not every Energy, Mining and Oil and Gas organization will handle long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand alike. Confirm how asset-intensive work spanning development, extraction, generation, processing, or energy services informs this Board Director position. In a Energy, Mining and Oil and Gas target, make the Board Director contribution legible: describe how the candidate helped contribute oversight, inquiry, and strategic perspective within collective governance and what supports committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
+Before discussing project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes, check whether implying executive authority for board decisions or claiming confidential board outcomes could expose sensitive details or blur the candidate's decision boundary. Not every Energy, Mining and Oil and Gas organization will handle long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand alike. Confirm how asset-intensive work spanning development, extraction, generation, processing, or energy services informs this Board Director position. In a Energy, Mining and Oil and Gas target, make the Board Director contribution legible: describe how the candidate helped contribute oversight, inquiry, and strategic perspective within collective governance and what supports committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -33,7 +33,7 @@ In a Energy, Mining and Oil and Gas target, make the Board Director contribution
 
 ## Choose the individual services that fit the work
 
-Career representation remains candidate-led: KOV can support a Board Director search, while the candidate approves the goals and disclosures. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Board Director example should separate direct responsibility from collaboration. A candidate exploring Energy, Mining and Oil and Gas should test the assumed link between asset-intensive work spanning development, extraction, generation, processing, or energy services and long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand against the actual Board Director role description. For Board Director work in Energy, Mining and Oil and Gas, explain how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance; connect that mandate to evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
+Career representation remains candidate-led: KOV can support a Board Director search, while the candidate approves the goals and disclosures. A Board Director example should separate direct responsibility from collaboration. A candidate exploring Energy, Mining and Oil and Gas should test the assumed link between asset-intensive work spanning development, extraction, generation, processing, or energy services and long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand against the actual Board Director role description. For Board Director work in Energy, Mining and Oil and Gas, explain how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance; connect that mandate to evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
 
 ### [Private career representation](/services.html)
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Board Director materials that pres
 
 ## Prepare to discuss the Energy, Mining and Oil and Gas mandate
 
-Readers need to see what Board Director work involved; connect contribute oversight, inquiry, and strategic perspective within collective governance with the candidate's own examples of committee or board remit, preparation, judgment, relevant expertise, and collective contribution in Energy, Mining and Oil and Gas. Not every Energy, Mining and Oil and Gas organization will handle long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand alike. Confirm how asset-intensive work spanning development, extraction, generation, processing, or energy services informs this Board Director position. KOV's service scope for a Board Director candidate can include document preparation and agreed search activity, but cannot promise an employer's response. The candidate can discuss committee or board remit, preparation, judgment, relevant expertise, and collective contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+Readers need to see what Board Director work involved; connect contribute oversight, inquiry, and strategic perspective within collective governance with the candidate's own examples of committee or board remit, preparation, judgment, relevant expertise, and collective contribution in Energy, Mining and Oil and Gas. Confirm how asset-intensive work spanning development, extraction, generation, processing, or energy services informs this Board Director position. KOV's service scope for a Board Director candidate can include document preparation and agreed search activity, but cannot promise an employer's response. The candidate can discuss committee or board remit, preparation, judgment, relevant expertise, and collective contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Common positioning mistakes for Board Director candidates in Energy, Mining and Oil and Gas
 
@@ -67,7 +67,7 @@ Good preparation for Board Director work includes a safe way to explain implying
 
 ## Run the search thoughtfully in each target market
 
-Candidate-side support from KOV may connect Board Director positioning, relevant documents, and approved outreach, within the scope the candidate agrees. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Board Director example should separate direct responsibility from collaboration. A candidate exploring Energy, Mining and Oil and Gas should test the assumed link between asset-intensive work spanning development, extraction, generation, processing, or energy services and long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand against the actual Board Director role description. In a Energy, Mining and Oil and Gas target, make the Board Director contribution legible: describe how the candidate helped contribute oversight, inquiry, and strategic perspective within collective governance and what supports committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
+Candidate-side support from KOV may connect Board Director positioning, relevant documents, and approved outreach, within the scope the candidate agrees. A Board Director example should separate direct responsibility from collaboration. A candidate exploring Energy, Mining and Oil and Gas should test the assumed link between asset-intensive work spanning development, extraction, generation, processing, or energy services and long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand against the actual Board Director role description. In a Energy, Mining and Oil and Gas target, make the Board Director contribution legible: describe how the candidate helped contribute oversight, inquiry, and strategic perspective within collective governance and what supports committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Board Director career hub](/roles/board-director/)
 
-Review the role-wide approach to contribute oversight, inquiry, and strategic perspective within collective governance and the evidence expected for that scope.
+
 
 ### [Energy, Mining and Oil and Gas industry hub](/industries/energy-mining-oil-gas/)
 
-Compare how asset-intensive work spanning development, extraction, generation, processing, or energy services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Energy, Mining and Oil and Gas](/roles/ceo/energy-mining-oil-gas.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Board Director remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Operating Officer in Energy, Mining and Oil and Gas](/roles/coo/energy-mining-oil-gas.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Board Director remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Board Director in Agriculture, Food and Forestry](/roles/board-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with asset-intensive work spanning development, extraction, generation, processing, or energy services and identify how the Board Director remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Board Director test the scope of work in Energy, Mining and Oil and Gas?
 
-Use the opening discussion to understand the specific Energy, Mining and Oil and Gas employer, not to assume a standard role. Compare contribute oversight, inquiry, and strategic perspective within collective governance with the stated scope, identify decision partners among asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Energy, Mining and Oil and Gas employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### What evidence can a Board Director use to explain experience in Energy, Mining and Oil and Gas?
 
@@ -139,19 +139,19 @@ Describe an instance where the candidate could contribute oversight, inquiry, an
 
 ### What documents should a Board Director tailor for Energy, Mining and Oil and Gas opportunities?
 
-Document selection depends on the opportunity. A Board Director may draw from board biography, governance resume, skills matrix, and concise profile, but should foreground only material connected to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### Which outreach choices belong to a Board Director considering Energy, Mining and Oil and Gas?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Board Director candidate's service scope; the candidate approves external communication. No one route should be assumed for all Energy, Mining and Oil and Gas employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Energy, Mining and Oil and Gas employers.
 
 ### Can a Board Director rely on title alone when targeting Energy, Mining and Oil and Gas?
 
-Title is only a label. Establish what the employer means by Board Director in this Energy, Mining and Oil and Gas organization and how the person will work with asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Board Director seeking work in Energy, Mining and Oil and Gas?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Board Director candidate considering Energy, Mining and Oil and Gas, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

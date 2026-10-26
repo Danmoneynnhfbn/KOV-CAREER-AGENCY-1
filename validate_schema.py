@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Validate sitemap coverage, canonical URLs, and embedded JSON-LD."""
 
+import argparse
 import json
 import re
 import sys
+import unicodedata
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -13,6 +15,16 @@ ROOT = Path(__file__).resolve().parent
 BASE_URL = "https://www.kovcareeragency.org"
 SITEMAP_NAMESPACE = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 PAGE_CATEGORIES = {"services", "markets", "roles", "industries", "resources"}
+ENTITY_DATASET_URL = (
+    f"{BASE_URL}/data/seo-entity-datasets.jsonld"
+)
+ENTITY_DATASET_MINIMUMS = {
+    "cities": ("Place", 1000),
+    "towns": ("Place", 1323),
+    "professional-roles": ("Occupation", 1095),
+    "institutions": ("Organization", 486),
+    "job-functions": ("DefinedTerm", 200),
+}
 
 
 class VisitorTextParser(HTMLParser):
@@ -96,8 +108,194 @@ def attribute_values(tags: list[str], attribute: str) -> list[str]:
     return values
 
 
+def validate_entity_catalog(errors: list[str]) -> bool:
+    catalog_path = ROOT / "data" / "seo-entity-datasets.jsonld"
+    if not catalog_path.is_file():
+        errors.append("Shared SEO entity JSON-LD catalog is missing.")
+        return False
+    try:
+        schema = json.loads(catalog_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as error:
+        errors.append(f"Shared SEO entity JSON-LD catalog is invalid: {error}")
+        return False
+    graph = schema.get("@graph") if isinstance(schema, dict) else None
+    if (
+        not isinstance(schema, dict)
+        or schema.get("@context") != "https://schema.org"
+        or not isinstance(graph, list)
+    ):
+        errors.append("Shared SEO entity catalog must be a Schema.org JSON-LD graph.")
+        return False
+    nodes_by_id = {}
+    for node in graph:
+        if not isinstance(node, dict) or not isinstance(node.get("@id"), str):
+            errors.append("Shared SEO entity catalog has a graph node without a stable @id.")
+            continue
+        if node["@id"] in nodes_by_id:
+            errors.append(f"Shared SEO entity catalog duplicates @id {node['@id']}.")
+        nodes_by_id[node["@id"]] = node
+
+    catalog = nodes_by_id.get(f"{ENTITY_DATASET_URL}#catalog")
+    if not catalog or catalog.get("@type") != "DataCatalog":
+        errors.append("Shared SEO entity catalog has no DataCatalog root.")
+    else:
+        expected_dataset_ids = {
+            f"{ENTITY_DATASET_URL}#{dataset_id}"
+            for dataset_id in ENTITY_DATASET_MINIMUMS
+        }
+        catalog_dataset_ids = {
+            item.get("@id") for item in catalog.get("hasPart", [])
+            if isinstance(item, dict)
+        }
+        if catalog_dataset_ids != expected_dataset_ids:
+            errors.append("DataCatalog does not reference exactly the shared datasets.")
+    for dataset_id, (entity_type, minimum) in ENTITY_DATASET_MINIMUMS.items():
+        dataset = nodes_by_id.get(f"{ENTITY_DATASET_URL}#{dataset_id}")
+        if not dataset or dataset.get("@type") != "Dataset":
+            errors.append(f"Shared SEO entity catalog is missing dataset {dataset_id}.")
+            continue
+        records = dataset.get("about")
+        if not isinstance(records, list):
+            errors.append(f"{dataset_id} does not reference its complete records.")
+            continue
+        record_ids = [
+            item.get("@id") for item in records
+            if isinstance(item, dict) and isinstance(item.get("@id"), str)
+        ]
+        if len(record_ids) != len(records) or len(record_ids) < minimum:
+            errors.append(
+                f"{dataset_id} has {len(record_ids)} referenced records; expected at least {minimum}."
+            )
+        if len(record_ids) != len(set(record_ids)):
+            errors.append(f"{dataset_id} contains duplicate record references.")
+        if dataset.get("numberOfItems") != len(record_ids):
+            errors.append(f"{dataset_id} numberOfItems does not match its references.")
+        if not dataset.get("license") or not dataset.get("citation") or not dataset.get("creator"):
+            errors.append(f"{dataset_id} is missing a source citation, credit, or license.")
+        labels = []
+        for record_id in record_ids:
+            entity = nodes_by_id.get(record_id)
+            if not entity:
+                errors.append(f"{dataset_id} references missing entity {record_id}.")
+                continue
+            if entity.get("@type") != entity_type:
+                errors.append(f"{dataset_id} entity {record_id} has the wrong Schema.org type.")
+            name = entity.get("name")
+            if not isinstance(name, str) or not name.strip():
+                errors.append(f"{dataset_id} entity {record_id} has no name.")
+                continue
+            labels.append(
+                unicodedata.normalize("NFKC", re.sub(r"\s+", " ", name).strip()).casefold()
+            )
+        if dataset_id in {"professional-roles", "institutions", "job-functions"}:
+            if len(labels) != len(set(labels)):
+                errors.append(f"{dataset_id} contains duplicate normalized names.")
+        print(f"Shared {dataset_id} dataset: {len(record_ids)} records.")
+    return True
+
+
+def validate_entity_dataset_pages(errors: list[str]) -> int:
+    sitemap_path = ROOT / "sitemap.xml"
+    try:
+        sitemap_root = ElementTree.parse(sitemap_path).getroot()
+    except (OSError, ElementTree.ParseError) as error:
+        errors.append(f"Cannot read sitemap for dataset-page validation: {error}")
+        return 0
+    urls = [
+        (node.text or "").strip()
+        for node in sitemap_root.findall("s:url/s:loc", SITEMAP_NAMESPACE)
+    ]
+    checked = 0
+    for url in urls:
+        parsed = urlsplit(url)
+        relative_path = parsed.path.lstrip("/") or "index.html"
+        if relative_path.endswith("/"):
+            relative_path += "index.html"
+        if relative_path.split("/", 1)[0] not in PAGE_CATEGORIES:
+            continue
+        page_path = ROOT / relative_path
+        if not page_path.is_file():
+            errors.append(f"{relative_path}: sitemap SEO page is missing.")
+            continue
+        checked += 1
+        source = page_path.read_text(encoding="utf-8")
+        scripts = re.findall(
+            r"<script\b(?=[^>]*\btype\s*=\s*([\"'])application/ld\+json\1)"
+            r"[^>]*>(.*?)</script>",
+            source,
+            re.I | re.S,
+        )
+        page_dataset_counts: dict[str, int] = {}
+        for index, (_, block) in enumerate(scripts, start=1):
+            try:
+                schema = json.loads(block.strip())
+            except json.JSONDecodeError as error:
+                errors.append(
+                    f"{relative_path}: JSON-LD block {index} is invalid: {error}"
+                )
+                continue
+            graph = schema.get("@graph", []) if isinstance(schema, dict) else []
+            if not isinstance(graph, list):
+                continue
+            for node in graph:
+                if not isinstance(node, dict):
+                    continue
+                node_id = node.get("@id")
+                if node_id in {
+                    f"{ENTITY_DATASET_URL}#{dataset_id}"
+                    for dataset_id in ENTITY_DATASET_MINIMUMS
+                }:
+                    page_dataset_counts[node_id] = page_dataset_counts.get(node_id, 0) + 1
+                    if node.get("@type") != "Dataset" or node.get("url") != node_id:
+                        errors.append(
+                            f"{relative_path}: invalid shared dataset reference {node_id}."
+                        )
+        expected = {
+            f"{ENTITY_DATASET_URL}#{dataset_id}"
+            for dataset_id in ENTITY_DATASET_MINIMUMS
+        }
+        missing = expected - page_dataset_counts.keys()
+        if missing:
+            errors.append(
+                f"{relative_path}: missing shared datasets: "
+                + ", ".join(sorted(missing))
+            )
+        duplicates = sorted(
+            dataset_id
+            for dataset_id, count in page_dataset_counts.items()
+            if count != 1
+        )
+        if duplicates:
+            errors.append(
+                f"{relative_path}: duplicate shared dataset references: "
+                + ", ".join(duplicates)
+            )
+    print(f"SEO pages checked for all shared dataset references: {checked}")
+    return checked
+
+
 def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--entity-datasets-only",
+        action="store_true",
+        help="validate the shared catalog and its references on generated SEO pages",
+    )
+    args = parser.parse_args()
+    if args.entity_datasets_only:
+        errors: list[str] = []
+        validate_entity_catalog(errors)
+        validate_entity_dataset_pages(errors)
+        if errors:
+            print(f"VALIDATION FAILED ({len(errors)} issue(s))")
+            for error in errors:
+                print(f"- {error}")
+            return 1
+        print("VALIDATION PASSED: full shared datasets and all generated SEO-page references.")
+        return 0
+
     errors = []
+    validate_entity_catalog(errors)
     sitemap_path = ROOT / "sitemap.xml"
     sitemap_root = ElementTree.parse(sitemap_path).getroot()
     urls = [
@@ -135,6 +333,12 @@ def main() -> int:
     search_index = (
         search_index_path.read_text(encoding="utf-8")
         if search_index_path.is_file()
+        else ""
+    )
+    search_content_path = ROOT / "assets" / "site-search-content.js"
+    search_content = (
+        search_content_path.read_text(encoding="utf-8")
+        if search_content_path.is_file()
         else ""
     )
     robots_path = ROOT / "robots.txt"
@@ -226,6 +430,20 @@ def main() -> int:
             if not isinstance(schema, dict) or "@graph" not in schema:
                 continue
             nodes = graph if isinstance(graph, list) else []
+            if relative_path.split("/", 1)[0] in PAGE_CATEGORIES:
+                node_ids = {
+                    node.get("@id"): node for node in nodes if isinstance(node, dict)
+                }
+                for dataset_id in ENTITY_DATASET_MINIMUMS:
+                    reference = node_ids.get(f"{ENTITY_DATASET_URL}#{dataset_id}")
+                    if not reference or reference.get("@type") != "Dataset":
+                        errors.append(
+                            f"{relative_path}: JSON-LD is missing shared dataset reference {dataset_id}."
+                        )
+                    elif reference.get("url") != f"{ENTITY_DATASET_URL}#{dataset_id}":
+                        errors.append(
+                            f"{relative_path}: {dataset_id} does not link to the shared full dataset."
+                        )
             organization = next(
                 (
                     node for node in nodes
@@ -295,14 +513,17 @@ def main() -> int:
     if len(canonical_urls) != len(set(canonical_urls)):
         errors.append("Multiple sitemap pages share a canonical URL.")
     content_marker = "window.kovSiteSearchContent = "
-    catalog_marker = ";\nwindow.kovSeoPageCatalog = "
-    if content_marker not in search_index or catalog_marker not in search_index:
-        errors.append("Generated site-search index is missing its content or catalog.")
+    catalog_marker = "window.kovSeoPageCatalog = "
+    if content_marker not in search_content or catalog_marker not in search_index:
+        errors.append("Generated site-search data is missing its content or catalog.")
     else:
-        content_text, catalog_text = search_index.split(catalog_marker, 1)
         try:
-            indexed_content = json.loads(content_text.split(content_marker, 1)[1])
-            catalog = json.loads(catalog_text.rsplit(";", 1)[0].strip())
+            indexed_content = json.loads(
+                search_content.split(content_marker, 1)[1].rsplit(";", 1)[0].strip()
+            )
+            catalog = json.loads(
+                search_index.split(catalog_marker, 1)[1].rsplit(";", 1)[0].strip()
+            )
         except json.JSONDecodeError as error:
             errors.append(f"Generated site-search index contains invalid JSON: {error}")
         else:

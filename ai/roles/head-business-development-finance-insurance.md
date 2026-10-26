@@ -8,7 +8,7 @@ Rather than lead with seniority, a Head of Business Development profile can expl
 
 ## Who this Head of Business Development and Finance and Insurance guide is for
 
-A Head of Business Development candidate should be ready to explain presenting discussions as signed business or revealing sensitive counterpart information without revealing confidential details or implying unsupported responsibility. The candidate decides whether to pursue a Head of Business Development opportunity. KOV can support agreed research and preparation concerning Finance and Insurance. For Finance and Insurance, establish whether financial products and services supported by customer relationships, information, operations, and oversight describes the target employer and how trust, information handling, product suitability, operational resilience, and competing customer and business needs is reflected in its Head of Business Development mandate. A precise Head of Business Development story ties market focus, partnerships, opportunity pipeline, negotiation role, and attributable contribution to the mandate of develop relationships and opportunities that support an organization's commercial direction, without suggesting that the title alone establishes fit.
+A Head of Business Development candidate should be ready to explain presenting discussions as signed business or revealing sensitive counterpart information without revealing confidential details or implying unsupported responsibility. KOV can support agreed research and preparation concerning Finance and Insurance. For Finance and Insurance, establish whether financial products and services supported by customer relationships, information, operations, and oversight describes the target employer and how trust, information handling, product suitability, operational resilience, and competing customer and business needs is reflected in its Head of Business Development mandate. A precise Head of Business Development story ties market focus, partnerships, opportunity pipeline, negotiation role, and attributable contribution to the mandate of develop relationships and opportunities that support an organization's commercial direction, without suggesting that the title alone establishes fit.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -59,7 +59,7 @@ Where presenting discussions as signed business or revealing sensitive counterpa
 
 ## Keep research, confidentiality, and outreach aligned
 
-For Head of Business Development work in Finance and Insurance, explain how the candidate could develop relationships and opportunities that support an organization's commercial direction; connect that mandate to evidence of market focus, partnerships, opportunity pipeline, negotiation role, and attributable contribution. Treat financial products and services supported by customer relationships, information, operations, and oversight as a question to validate in Finance and Insurance; the answer helps clarify the Head of Business Development mandate and its trust, information handling, product suitability, operational resilience, and competing customer and business needs. Use an example involving business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes to describe the decision, the parties involved, and the candidate's role as a Head of Business Development. The candidate decides whether to pursue a Head of Business Development opportunity. KOV can support agreed research and preparation concerning Finance and Insurance.
+For Head of Business Development work in Finance and Insurance, explain how the candidate could develop relationships and opportunities that support an organization's commercial direction; connect that mandate to evidence of market focus, partnerships, opportunity pipeline, negotiation role, and attributable contribution. Use an example involving business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes to describe the decision, the parties involved, and the candidate's role as a Head of Business Development. The candidate decides whether to pursue a Head of Business Development opportunity. KOV can support agreed research and preparation concerning Finance and Insurance.
 
 ## Prepare for conversations about Finance and Insurance work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Business Development career hub](/roles/head-business-development/)
 
-Review the role-wide approach to develop relationships and opportunities that support an organization's commercial direction and the evidence expected for that scope.
+
 
 ### [Finance and Insurance industry hub](/industries/finance-insurance/)
 
-Compare how financial products and services supported by customer relationships, information, operations, and oversight affects career planning across functions.
+
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Business Development remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Finance and Insurance](/roles/coo/finance-insurance.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Business Development remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Head of Business Development in Energy, Mining and Oil and Gas](/roles/head-business-development/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with financial products and services supported by customer relationships, information, operations, and oversight and identify how the Head of Business Development remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Head of Business Development clarify before considering work in Finance and Insurance?
 
-Start with the organization's account of financial products and services supported by customer relationships, information, operations, and oversight, then clarify how the Head of Business Development would develop relationships and opportunities that support an organization's commercial direction. Ask how customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of financial products and services supported by customer relationships, information, operations, and oversight, then clarify how the Head of Business Development would develop relationships and opportunities that support an organization's commercial direction. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Head of Business Development describe transferable experience for Finance and Insurance work?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could develop relationships and opportu
 
 ### How can a Head of Business Development choose documents for conversations about Finance and Insurance?
 
-Document selection depends on the opportunity. A Head of Business Development may draw from resume, partnership portfolio, business-development narrative, and profile, but should foreground only material connected to business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Head of Business Development plan contact with Finance and Insurance organizations?
 
-Outreach should follow target research, not precede it. The Head of Business Development candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with market focus, partnerships, opportunity pipeline, negotiation role, and attributable contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Head of Business Development assess fit with Finance and Insurance responsibilities?
 
-No. Compare the role description with the candidate's experience of develop relationships and opportunities that support an organization's commercial direction and the organization's financial products and services supported by customer relationships, information, operations, and oversight. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Head of Business Development candidate considering Finance and Insurance?
 

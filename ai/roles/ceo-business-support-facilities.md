@@ -8,7 +8,7 @@ Position a Chief Executive Officer career by linking set organization-wide direc
 
 ## Who this Chief Executive Officer and Business Support and Facilities guide is for
 
-Position a Chief Executive Officer career by linking set organization-wide direction and coordinate executive work to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements, then clarify which part of that work the candidate actually owned. Before presenting service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements, determine how internal clients, employees, service teams, suppliers, customers, and contract owners participated and which details are safe to discuss. The candidate decides whether to pursue a Chief Executive Officer opportunity. KOV can support agreed research and preparation concerning Business Support and Facilities. Review each Chief Executive Officer example for claiming sole credit for collective outcomes or relying on title instead of mandate, then describe the candidate's decisions without overstating their control over board members, owners, executive colleagues, employees, customers, and external partners.
+Position a Chief Executive Officer career by linking set organization-wide direction and coordinate executive work to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements, then clarify which part of that work the candidate actually owned. The candidate decides whether to pursue a Chief Executive Officer opportunity. KOV can support agreed research and preparation concerning Business Support and Facilities. Review each Chief Executive Officer example for claiming sole credit for collective outcomes or relying on title instead of mandate, then describe the candidate's decisions without overstating their control over board members, owners, executive colleagues, employees, customers, and external partners.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -33,7 +33,7 @@ Do not resolve uncertainty about claiming sole credit for collective outcomes or
 
 ## Choose the individual services that fit the work
 
-Research for a Chief Executive Officer in Business Support and Facilities becomes more focused when the candidate investigates service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alongside support services, workplace operations, facilities, administration, or outsourced capabilities. In Business Support and Facilities, internal clients, employees, service teams, suppliers, customers, and contract owners may shape the work. A Chief Executive Officer example should separate direct responsibility from collaboration. The service plan should fit the candidate's Chief Executive Officer priorities; agree research, materials, and any outreach before contact occurs. Good preparation for Chief Executive Officer work includes a safe way to explain claiming sole credit for collective outcomes or relying on title instead of mandate and a clear distinction between fact and inference.
+Research for a Chief Executive Officer in Business Support and Facilities becomes more focused when the candidate investigates service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alongside support services, workplace operations, facilities, administration, or outsourced capabilities. A Chief Executive Officer example should separate direct responsibility from collaboration. The service plan should fit the candidate's Chief Executive Officer priorities; agree research, materials, and any outreach before contact occurs. Good preparation for Chief Executive Officer work includes a safe way to explain claiming sole credit for collective outcomes or relying on title instead of mandate and a clear distinction between fact and inference.
 
 ### [Private career representation](/services.html)
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Chief Executive Officer materials 
 
 ## Prepare to discuss the Business Support and Facilities mandate
 
-Protect credibility in Business Support and Facilities by addressing claiming sole credit for collective outcomes or relying on title instead of mandate with a factual account of mandate, governance interface, operating scope, and attributable outcomes and its limits. In Business Support and Facilities, internal clients, employees, service teams, suppliers, customers, and contract owners may shape the work. A Chief Executive Officer example should separate direct responsibility from collaboration. An employer's Business Support and Facilities model may involve support services, workplace operations, facilities, administration, or outsourced capabilities; its implications for service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity should be discussed, not presumed. Readers need to see what Chief Executive Officer work involved; connect set organization-wide direction and coordinate executive work with the candidate's own examples of mandate, governance interface, operating scope, and attributable outcomes in Business Support and Facilities.
+Protect credibility in Business Support and Facilities by addressing claiming sole credit for collective outcomes or relying on title instead of mandate with a factual account of mandate, governance interface, operating scope, and attributable outcomes and its limits. A Chief Executive Officer example should separate direct responsibility from collaboration. An employer's Business Support and Facilities model may involve support services, workplace operations, facilities, administration, or outsourced capabilities; its implications for service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity should be discussed, not presumed. Readers need to see what Chief Executive Officer work involved; connect set organization-wide direction and coordinate executive work with the candidate's own examples of mandate, governance interface, operating scope, and attributable outcomes in Business Support and Facilities.
 
 ## Common positioning mistakes for Chief Executive Officer candidates in Business Support and Facilities
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Executive Officer career hub](/roles/ceo/)
 
-Review the role-wide approach to set organization-wide direction and coordinate executive work and the evidence expected for that scope.
+
 
 ### [Business Support and Facilities industry hub](/industries/business-support-facilities/)
 
-Compare how support services, workplace operations, facilities, administration, or outsourced capabilities affects career planning across functions.
+
 
 ### [Chief Operating Officer in Business Support and Facilities](/roles/coo/business-support-facilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Executive Officer remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Financial Officer in Business Support and Facilities](/roles/cfo/business-support-facilities.html)
 
-Contrast lead financial stewardship and connect resource decisions to organizational priorities with the Chief Executive Officer remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Executive Officer in Agriculture, Food and Forestry](/roles/ceo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with support services, workplace operations, facilities, administration, or outsourced capabilities and identify how the Chief Executive Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Executive Officer test the scope of work in Business Support and Facilities?
 
-Start with the organization's account of support services, workplace operations, facilities, administration, or outsourced capabilities, then clarify how the Chief Executive Officer would set organization-wide direction and coordinate executive work. Ask how internal clients, employees, service teams, suppliers, customers, and contract owners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of support services, workplace operations, facilities, administration, or outsourced capabilities, then clarify how the Chief Executive Officer would set organization-wide direction and coordinate executive work. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Chief Executive Officer use to explain experience in Business Support and Facilities?
 
@@ -139,11 +139,11 @@ Select examples that show mandate, governance interface, operating scope, and at
 
 ### What documents should a Chief Executive Officer tailor for Business Support and Facilities opportunities?
 
-Possible materials include executive resume, board biography, leadership summary, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, board biography, leadership summary, and professional profile. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Chief Executive Officer considering Business Support and Facilities?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Executive Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Business Support and Facilities employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Business Support and Facilities employers.
 
 ### Can a Chief Executive Officer rely on title alone when targeting Business Support and Facilities?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate mandate, g
 
 ### What outcome can KOV guarantee for a Chief Executive Officer seeking work in Business Support and Facilities?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Executive Officer candidate considering Business Support and Facilities, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

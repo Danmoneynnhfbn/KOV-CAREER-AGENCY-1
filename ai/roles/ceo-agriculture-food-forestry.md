@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Executive Officer career hub](/roles/ceo/)
 
-Review the role-wide approach to set organization-wide direction and coordinate executive work and the evidence expected for that scope.
+
 
 ### [Agriculture, Food and Forestry industry hub](/industries/agriculture-food-forestry/)
 
-Compare how production linked to land, biological cycles, processing, and supply relationships affects career planning across functions.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Executive Officer remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Financial Officer in Agriculture, Food and Forestry](/roles/cfo/agriculture-food-forestry.html)
 
-Contrast lead financial stewardship and connect resource decisions to organizational priorities with the Chief Executive Officer remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Executive Officer in Energy, Mining and Oil and Gas](/roles/ceo/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with production linked to land, biological cycles, processing, and supply relationships and identify how the Chief Executive Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Chief Executive Officer resolve before a target discussion in Agriculture, Food and Forestry?
 
-A Chief Executive Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's production linked to land, biological cycles, processing, and supply relationships. Explore how the role will set organization-wide direction and coordinate executive work and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Executive Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's production linked to land, biological cycles, processing, and supply relationships. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Chief Executive Officer career story fit the needs of Agriculture, Food and Forestry?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of mandate, governance inte
 
 ### What should a Chief Executive Officer prepare in writing before targeting Agriculture, Food and Forestry?
 
-Possible materials include executive resume, board biography, leadership summary, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to resource planning, safety-minded operations, supplier relationships, yield or quality context, and continuity decisions. Each claim should be accurate for this Agriculture, Food and Forestry target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, board biography, leadership summary, and professional profile. Each claim should be accurate for this Agriculture, Food and Forestry target, and confidential or unauthorized material should be omitted.
 
 ### What should a Chief Executive Officer approve before outreach in Agriculture, Food and Forestry?
 

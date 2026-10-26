@@ -4,7 +4,7 @@ KOV helps Vice President of Marketing candidates considering roles connected to 
 
 ## How Vice President of Marketing work connects with Consulting and Other Professional Services
 
-The candidate can discuss market insight, team leadership, portfolio decisions, channel mix, and attributable evidence while protecting confidentiality by omitting names, restricted figures, and other identifying material. Discuss service line, client or project context, team leadership, delivery model, and authorized outcomes with care: a Vice President of Marketing candidate can explain contribution while omitting confidential or identifying facts. Not every Consulting and Other Professional Services organization will handle expertise, client expectations, capacity, project economics, and consistent delivery across engagements alike. Confirm how expertise-led advisory or delivery work provided to organizations or individuals informs this Vice President of Marketing position. Readers need to see what Vice President of Marketing work involved; connect lead marketing teams and align brand, customer, and commercial priorities with the candidate's own examples of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence in Consulting and Other Professional Services.
+The candidate can discuss market insight, team leadership, portfolio decisions, channel mix, and attributable evidence while protecting confidentiality by omitting names, restricted figures, and other identifying material. Not every Consulting and Other Professional Services organization will handle expertise, client expectations, capacity, project economics, and consistent delivery across engagements alike. Confirm how expertise-led advisory or delivery work provided to organizations or individuals informs this Vice President of Marketing position. Readers need to see what Vice President of Marketing work involved; connect lead marketing teams and align brand, customer, and commercial priorities with the candidate's own examples of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence in Consulting and Other Professional Services.
 
 ## Who this Vice President of Marketing and Consulting and Other Professional Services guide is for
 
@@ -12,7 +12,7 @@ The Consulting and Other Professional Services context involves expertise-led ad
 
 ## A candidate-led process from first discussion to next steps
 
-Review each Vice President of Marketing example for claiming campaign results without describing audience, contribution, and measurement context, then describe the candidate's decisions without overstating their control over CEO or CMO, sales, product, agencies, customers, and marketing teams. Candidate-side support from KOV may connect Vice President of Marketing positioning, relevant documents, and approved outreach, within the scope the candidate agrees. In Consulting and Other Professional Services, clients, practitioners, project teams, partners or owners, suppliers, and professional communities may shape the work. A Vice President of Marketing example should separate direct responsibility from collaboration. Ask what expertise-led advisory or delivery work provided to organizations or individuals means at this particular Consulting and Other Professional Services organization and how it changes the priorities assigned to a Vice President of Marketing.
+Review each Vice President of Marketing example for claiming campaign results without describing audience, contribution, and measurement context, then describe the candidate's decisions without overstating their control over CEO or CMO, sales, product, agencies, customers, and marketing teams. In Consulting and Other Professional Services, clients, practitioners, project teams, partners or owners, suppliers, and professional communities may shape the work. A Vice President of Marketing example should separate direct responsibility from collaboration. Ask what expertise-led advisory or delivery work provided to organizations or individuals means at this particular Consulting and Other Professional Services organization and how it changes the priorities assigned to a Vice President of Marketing.
 
 ## Documents that make Vice President of Marketing experience relevant here
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Marketing career hub](/roles/vp-marketing/)
 
-Review the role-wide approach to lead marketing teams and align brand, customer, and commercial priorities and the evidence expected for that scope.
+
 
 ### [Consulting and Other Professional Services industry hub](/industries/consulting-professional-services/)
 
-Compare how expertise-led advisory or delivery work provided to organizations or individuals affects career planning across functions.
+
 
 ### [Chief Executive Officer in Consulting and Other Professional Services](/roles/ceo/consulting-professional-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Marketing remit; consider where each function meets expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chief Operating Officer in Consulting and Other Professional Services](/roles/coo/consulting-professional-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Marketing remit; consider where each function meets expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Vice President of Marketing in Retail and E-commerce](/roles/vp-marketing/retail-ecommerce.html)
 
-Compare customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment with expertise-led advisory or delivery work provided to organizations or individuals and identify how the Vice President of Marketing remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Vice President of Marketing in Consulting and Other Professional Services?
 
-A Vice President of Marketing candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's expertise-led advisory or delivery work provided to organizations or individuals. Explore how the role will lead marketing teams and align brand, customer, and commercial priorities and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Vice President of Marketing candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's expertise-led advisory or delivery work provided to organizations or individuals. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Vice President of Marketing make prior work relevant to Consulting and Other Professional Services?
 

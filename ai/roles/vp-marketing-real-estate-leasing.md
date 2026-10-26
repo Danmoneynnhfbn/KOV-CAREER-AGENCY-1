@@ -45,7 +45,7 @@ Consider document and positioning support for Vice President of Marketing materi
 
 ## Prepare to discuss the Real Estate and Leasing mandate
 
-Before discussing asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution, check whether claiming campaign results without describing audience, contribution, and measurement context could expose sensitive details or blur the candidate's decision boundary. In Real Estate and Leasing, owners, tenants, customers, investors, property teams, suppliers, and communities may shape the work. A Vice President of Marketing example should separate direct responsibility from collaboration. Use property ownership, development, brokerage, management, or leasing relationships to frame research about Real Estate and Leasing, then ask how a Vice President of Marketing will work through asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions. Readers need to see what Vice President of Marketing work involved; connect lead marketing teams and align brand, customer, and commercial priorities with the candidate's own examples of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence in Real Estate and Leasing.
+Before discussing asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution, check whether claiming campaign results without describing audience, contribution, and measurement context could expose sensitive details or blur the candidate's decision boundary. A Vice President of Marketing example should separate direct responsibility from collaboration. Use property ownership, development, brokerage, management, or leasing relationships to frame research about Real Estate and Leasing, then ask how a Vice President of Marketing will work through asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions. Readers need to see what Vice President of Marketing work involved; connect lead marketing teams and align brand, customer, and commercial priorities with the candidate's own examples of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence in Real Estate and Leasing.
 
 ## Common positioning mistakes for Vice President of Marketing candidates in Real Estate and Leasing
 
@@ -59,7 +59,7 @@ The Vice President of Marketing remit to lead marketing teams and align brand, c
 
 ## Keep research, confidentiality, and outreach aligned
 
-Where claiming campaign results without describing audience, contribution, and measurement context affects a career example, substitute an authorized summary that preserves the point about market insight, team leadership, portfolio decisions, channel mix, and attributable evidence. The candidate decides whether to pursue a Vice President of Marketing opportunity. KOV can support agreed research and preparation concerning Real Estate and Leasing. Explain how CEO or CMO, sales, product, agencies, customers, and marketing teams contributed to the candidate's work and distinguish that shared context from evidence of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence. To assess a Vice President of Marketing opportunity in Real Estate and Leasing, compare the stated remit to the candidate's record of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence.
+Where claiming campaign results without describing audience, contribution, and measurement context affects a career example, substitute an authorized summary that preserves the point about market insight, team leadership, portfolio decisions, channel mix, and attributable evidence. KOV can support agreed research and preparation concerning Real Estate and Leasing. Explain how CEO or CMO, sales, product, agencies, customers, and marketing teams contributed to the candidate's work and distinguish that shared context from evidence of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence. To assess a Vice President of Marketing opportunity in Real Estate and Leasing, compare the stated remit to the candidate's record of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence.
 
 ## Prepare for conversations about Real Estate and Leasing work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Marketing career hub](/roles/vp-marketing/)
 
-Review the role-wide approach to lead marketing teams and align brand, customer, and commercial priorities and the evidence expected for that scope.
+
 
 ### [Real Estate and Leasing industry hub](/industries/real-estate-leasing/)
 
-Compare how property ownership, development, brokerage, management, or leasing relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Real Estate and Leasing](/roles/ceo/real-estate-leasing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Marketing remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Operating Officer in Real Estate and Leasing](/roles/coo/real-estate-leasing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Marketing remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Vice President of Marketing in Retail and E-commerce](/roles/vp-marketing/retail-ecommerce.html)
 
-Compare customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment with property ownership, development, brokerage, management, or leasing relationships and identify how the Vice President of Marketing remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Vice President of Marketing clarify before considering work in Real Estate and Leasing?
 
-A Vice President of Marketing candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's property ownership, development, brokerage, management, or leasing relationships. Explore how the role will lead marketing teams and align brand, customer, and commercial priorities and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Vice President of Marketing candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's property ownership, development, brokerage, management, or leasing relationships. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Vice President of Marketing describe transferable experience for Real Estate and Leasing work?
 
@@ -139,7 +139,7 @@ Describe an instance where the candidate could lead marketing teams and align br
 
 ### How can a Vice President of Marketing choose documents for conversations about Real Estate and Leasing?
 
-Possible materials include executive resume, marketing portfolio, leadership summary, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution. Each claim should be accurate for this Real Estate and Leasing target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, marketing portfolio, leadership summary, and profile. Each claim should be accurate for this Real Estate and Leasing target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Vice President of Marketing plan contact with Real Estate and Leasing organizations?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Vice President of Marketing assess fit with Real Estate and Leasing responsibilities?
 
-Title is only a label. Establish what the employer means by Vice President of Marketing in this Real Estate and Leasing organization and how the person will work with owners, tenants, customers, investors, property teams, suppliers, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Vice President of Marketing candidate considering Real Estate and Leasing?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Vice President of Marketing candidate considering Real Estate and Leasing, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Technology Officer career hub](/roles/cto/)
 
-Review the role-wide approach to set technology direction and connect technical choices with product and business needs and the evidence expected for that scope.
+
 
 ### [Other Services industry hub](/industries/other-services/)
 
-Compare how personal, repair, membership, community, or specialized services not covered by the other target sectors affects career planning across functions.
+
 
 ### [Chief Executive Officer in Other Services](/roles/ceo/other-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Technology Officer remit; consider where each function meets personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chief Operating Officer in Other Services](/roles/coo/other-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Technology Officer remit; consider where each function meets personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chief Technology Officer in Agriculture, Food and Forestry](/roles/cto/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with personal, repair, membership, community, or specialized services not covered by the other target sectors and identify how the Chief Technology Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Chief Technology Officer resolve before a target discussion in Other Services?
 
-Start with the organization's account of personal, repair, membership, community, or specialized services not covered by the other target sectors, then clarify how the Chief Technology Officer would set technology direction and connect technical choices with product and business needs. Ask how customers or members, employees, service providers, owners, suppliers, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of personal, repair, membership, community, or specialized services not covered by the other target sectors, then clarify how the Chief Technology Officer would set technology direction and connect technical choices with product and business needs. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### Which parts of a Chief Technology Officer career story fit the needs of Other Services?
 
@@ -139,7 +139,7 @@ Select examples that show technology strategy, architecture or product scope, de
 
 ### What should a Chief Technology Officer prepare in writing before targeting Other Services?
 
-Document selection depends on the opportunity. A Chief Technology Officer may draw from executive resume, technology leadership profile, portfolio summary, and LinkedIn profile, but should foreground only material connected to service portfolio, customer or member context, team scope, delivery decisions, and substantiated outcomes. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What should a Chief Technology Officer approve before outreach in Other Services?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate technology
 
 ### Will KOV secure a meeting for a Chief Technology Officer with an employer in Other Services?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Technology Officer candidate considering Other Services, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

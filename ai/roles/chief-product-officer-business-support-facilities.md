@@ -45,11 +45,11 @@ Consider document and positioning support for Chief Product Officer materials th
 
 ## Prepare to discuss the Business Support and Facilities mandate
 
-Research for a Chief Product Officer in Business Support and Facilities becomes more focused when the candidate investigates service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alongside support services, workplace operations, facilities, administration, or outsourced capabilities. In Business Support and Facilities, internal clients, employees, service teams, suppliers, customers, and contract owners may shape the work. A Chief Product Officer example should separate direct responsibility from collaboration. Where appropriate to the agreed service, KOV can help a Chief Product Officer candidate prepare and coordinate approved next steps for Business Support and Facilities. The candidate can discuss product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+Research for a Chief Product Officer in Business Support and Facilities becomes more focused when the candidate investigates service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alongside support services, workplace operations, facilities, administration, or outsourced capabilities. A Chief Product Officer example should separate direct responsibility from collaboration. Where appropriate to the agreed service, KOV can help a Chief Product Officer candidate prepare and coordinate approved next steps for Business Support and Facilities. The candidate can discuss product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Common positioning mistakes for Chief Product Officer candidates in Business Support and Facilities
 
-Do not resolve uncertainty about listing launches without clarifying user need, decision role, trade-offs, and adoption context through assumption; verify the requirement and use only supportable Chief Product Officer claims. The candidate decides whether to pursue a Chief Product Officer opportunity. KOV can support agreed research and preparation concerning Business Support and Facilities. Discuss service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements with care: a Chief Product Officer candidate can explain contribution while omitting confidential or identifying facts. Ask what support services, workplace operations, facilities, administration, or outsourced capabilities means at this particular Business Support and Facilities organization and how it changes the priorities assigned to a Chief Product Officer.
+Do not resolve uncertainty about listing launches without clarifying user need, decision role, trade-offs, and adoption context through assumption; verify the requirement and use only supportable Chief Product Officer claims. KOV can support agreed research and preparation concerning Business Support and Facilities. Discuss service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements with care: a Chief Product Officer candidate can explain contribution while omitting confidential or identifying facts. Ask what support services, workplace operations, facilities, administration, or outsourced capabilities means at this particular Business Support and Facilities organization and how it changes the priorities assigned to a Chief Product Officer.
 
 - Treat Business Support and Facilities as one uniform employer type; distinguish the actual organization and role.
 - Use a Chief Product Officer title without explaining guide product direction, portfolio choices, and the connection between users and delivery teams.
@@ -59,7 +59,7 @@ Do not resolve uncertainty about listing launches without clarifying user need, 
 
 ## Keep research, confidentiality, and outreach aligned
 
-Show the Chief Product Officer scope behind the title: how the candidate could guide product direction, portfolio choices, and the connection between users and delivery teams, which decisions mattered, and where product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes demonstrates their contribution. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Chief Product Officer position. The candidate decides whether to pursue a Chief Product Officer opportunity. KOV can support agreed research and preparation concerning Business Support and Facilities. Where listing launches without clarifying user need, decision role, trade-offs, and adoption context affects a career example, substitute an authorized summary that preserves the point about product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes.
+Show the Chief Product Officer scope behind the title: how the candidate could guide product direction, portfolio choices, and the connection between users and delivery teams, which decisions mattered, and where product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes demonstrates their contribution. The candidate decides whether to pursue a Chief Product Officer opportunity. KOV can support agreed research and preparation concerning Business Support and Facilities. Where listing launches without clarifying user need, decision role, trade-offs, and adoption context affects a career example, substitute an authorized summary that preserves the point about product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes.
 
 ## Prepare for conversations about Business Support and Facilities work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Product Officer career hub](/roles/chief-product-officer/)
 
-Review the role-wide approach to guide product direction, portfolio choices, and the connection between users and delivery teams and the evidence expected for that scope.
+
 
 ### [Business Support and Facilities industry hub](/industries/business-support-facilities/)
 
-Compare how support services, workplace operations, facilities, administration, or outsourced capabilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Business Support and Facilities](/roles/ceo/business-support-facilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Product Officer remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Operating Officer in Business Support and Facilities](/roles/coo/business-support-facilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Product Officer remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Product Officer in Agriculture, Food and Forestry](/roles/chief-product-officer/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with support services, workplace operations, facilities, administration, or outsourced capabilities and identify how the Chief Product Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Product Officer in Business Support and Facilities?
 
-Start with the organization's account of support services, workplace operations, facilities, administration, or outsourced capabilities, then clarify how the Chief Product Officer would guide product direction, portfolio choices, and the connection between users and delivery teams. Ask how internal clients, employees, service teams, suppliers, customers, and contract owners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of support services, workplace operations, facilities, administration, or outsourced capabilities, then clarify how the Chief Product Officer would guide product direction, portfolio choices, and the connection between users and delivery teams. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Chief Product Officer make prior work relevant to Business Support and Facilities?
 
@@ -139,11 +139,11 @@ Select examples that show product strategy, portfolio scope, discovery, prioriti
 
 ### Which career materials can help a Chief Product Officer explore work in Business Support and Facilities?
 
-Possible materials include executive resume, product portfolio narrative, leadership biography, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, product portfolio narrative, leadership biography, and profile. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Chief Product Officer contacts an organization in Business Support and Facilities?
 
-Outreach should follow target research, not precede it. The Chief Product Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Chief Product Officer background relevant to work in Business Support and Facilities?
 

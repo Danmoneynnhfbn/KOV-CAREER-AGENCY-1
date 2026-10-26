@@ -49,7 +49,7 @@ For Vice President of Finance materials, manage the risk of disclosing sensitive
 
 ## Common positioning mistakes for Vice President of Finance candidates in Manufacturing
 
-Keep the Vice President of Finance narrative accurate where disclosing sensitive figures or presenting forecasts as realized results may arise: attribute shared work and disclose only information the candidate may use. Candidate-side support from KOV may connect Vice President of Finance positioning, relevant documents, and approved outreach, within the scope the candidate agrees. In Manufacturing, employees, suppliers, customers, engineering, operations, distribution, and ownership may shape the work. A Vice President of Finance example should separate direct responsibility from collaboration. Ask what conversion of materials into products through coordinated processes, equipment, people, and quality systems means at this particular Manufacturing organization and how it changes the priorities assigned to a Vice President of Finance.
+Keep the Vice President of Finance narrative accurate where disclosing sensitive figures or presenting forecasts as realized results may arise: attribute shared work and disclose only information the candidate may use. In Manufacturing, employees, suppliers, customers, engineering, operations, distribution, and ownership may shape the work. A Vice President of Finance example should separate direct responsibility from collaboration. Ask what conversion of materials into products through coordinated processes, equipment, people, and quality systems means at this particular Manufacturing organization and how it changes the priorities assigned to a Vice President of Finance.
 
 - Treat Manufacturing as one uniform employer type; distinguish the actual organization and role.
 - Use a Vice President of Finance title without explaining lead finance teams and translate financial information into decisions for a business area.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Finance career hub](/roles/vp-finance/)
 
-Review the role-wide approach to lead finance teams and translate financial information into decisions for a business area and the evidence expected for that scope.
+
 
 ### [Manufacturing industry hub](/industries/manufacturing/)
 
-Compare how conversion of materials into products through coordinated processes, equipment, people, and quality systems affects career planning across functions.
+
 
 ### [Chief Executive Officer in Manufacturing](/roles/ceo/manufacturing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Finance remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Operating Officer in Manufacturing](/roles/coo/manufacturing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Finance remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Vice President of Finance in Technology, Media and Telecom](/roles/vp-finance/technology-media-telecom.html)
 
-Compare digital products, platforms, content, communications, or technology-enabled services with conversion of materials into products through coordinated processes, equipment, people, and quality systems and identify how the Vice President of Finance remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Vice President of Finance in Manufacturing?
 
-A Vice President of Finance candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's conversion of materials into products through coordinated processes, equipment, people, and quality systems. Explore how the role will lead finance teams and translate financial information into decisions for a business area and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Vice President of Finance candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's conversion of materials into products through coordinated processes, equipment, people, and quality systems. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Vice President of Finance make prior work relevant to Manufacturing?
 
@@ -143,15 +143,15 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What must be agreed before a Vice President of Finance contacts an organization in Manufacturing?
 
-Outreach should follow target research, not precede it. The Vice President of Finance candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with planning scope, financial controls, analysis, resource decisions, and communication is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Vice President of Finance background relevant to work in Manufacturing?
 
-No. Compare the role description with the candidate's experience of lead finance teams and translate financial information into decisions for a business area and the organization's conversion of materials into products through coordinated processes, equipment, people, and quality systems. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Vice President of Finance outreach in Manufacturing?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Vice President of Finance candidate considering Manufacturing, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

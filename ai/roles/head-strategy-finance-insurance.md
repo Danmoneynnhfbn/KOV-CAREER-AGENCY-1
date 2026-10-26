@@ -4,7 +4,7 @@ KOV helps Head of Strategy candidates considering roles connected to Finance and
 
 ## How Head of Strategy work connects with Finance and Insurance
 
-A Head of Strategy candidate should be ready to explain taking credit for decisions made by sponsors or treating planning as implementation without revealing confidential details or implying unsupported responsibility. Where appropriate to the agreed service, KOV can help a Head of Strategy candidate prepare and coordinate approved next steps for Finance and Insurance. In Finance and Insurance, customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders may shape the work. A Head of Strategy example should separate direct responsibility from collaboration. For Head of Strategy work in Finance and Insurance, explain how the candidate could coordinate planning and strategic analysis for an organization or business unit; connect that mandate to evidence of problem framing, analysis, stakeholder alignment, recommendation, and implementation support.
+A Head of Strategy candidate should be ready to explain taking credit for decisions made by sponsors or treating planning as implementation without revealing confidential details or implying unsupported responsibility. In Finance and Insurance, customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders may shape the work. A Head of Strategy example should separate direct responsibility from collaboration. For Head of Strategy work in Finance and Insurance, explain how the candidate could coordinate planning and strategic analysis for an organization or business unit; connect that mandate to evidence of problem framing, analysis, stakeholder alignment, recommendation, and implementation support.
 
 ## Who this Head of Strategy and Finance and Insurance guide is for
 
@@ -12,11 +12,11 @@ A precise Head of Strategy story ties problem framing, analysis, stakeholder ali
 
 ## A candidate-led process from first discussion to next steps
 
-Keep the Head of Strategy narrative accurate where taking credit for decisions made by sponsors or treating planning as implementation may arise: attribute shared work and disclose only information the candidate may use. Candidate-side support from KOV may connect Head of Strategy positioning, relevant documents, and approved outreach, within the scope the candidate agrees. In Finance and Insurance, customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders may shape the work. A Head of Strategy example should separate direct responsibility from collaboration. Use financial products and services supported by customer relationships, information, operations, and oversight to frame research about Finance and Insurance, then ask how a Head of Strategy will work through trust, information handling, product suitability, operational resilience, and competing customer and business needs.
+Keep the Head of Strategy narrative accurate where taking credit for decisions made by sponsors or treating planning as implementation may arise: attribute shared work and disclose only information the candidate may use. In Finance and Insurance, customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders may shape the work. A Head of Strategy example should separate direct responsibility from collaboration. Use financial products and services supported by customer relationships, information, operations, and oversight to frame research about Finance and Insurance, then ask how a Head of Strategy will work through trust, information handling, product suitability, operational resilience, and competing customer and business needs.
 
 ## Documents that make Head of Strategy experience relevant here
 
-Do not resolve uncertainty about taking credit for decisions made by sponsors or treating planning as implementation through assumption; verify the requirement and use only supportable Head of Strategy claims. The candidate's record of problem framing, analysis, stakeholder alignment, recommendation, and implementation support should be set beside the role of customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders, so shared results are attributed fairly. Not every Finance and Insurance organization will handle trust, information handling, product suitability, operational resilience, and competing customer and business needs alike. Confirm how financial products and services supported by customer relationships, information, operations, and oversight informs this Head of Strategy position. A Head of Strategy candidate should show how problem framing, analysis, stakeholder alignment, recommendation, and implementation support supported the work to coordinate planning and strategic analysis for an organization or business unit, with the Finance and Insurance setting made explicit.
+Do not resolve uncertainty about taking credit for decisions made by sponsors or treating planning as implementation through assumption; verify the requirement and use only supportable Head of Strategy claims. Not every Finance and Insurance organization will handle trust, information handling, product suitability, operational resilience, and competing customer and business needs alike. Confirm how financial products and services supported by customer relationships, information, operations, and oversight informs this Head of Strategy position. A Head of Strategy candidate should show how problem framing, analysis, stakeholder alignment, recommendation, and implementation support supported the work to coordinate planning and strategic analysis for an organization or business unit, with the Finance and Insurance setting made explicit.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -59,7 +59,7 @@ A precise Head of Strategy story ties problem framing, analysis, stakeholder ali
 
 ## Keep research, confidentiality, and outreach aligned
 
-The candidate can discuss problem framing, analysis, stakeholder alignment, recommendation, and implementation support while protecting confidentiality by omitting names, restricted figures, and other identifying material. The candidate decides whether to pursue a Head of Strategy opportunity. KOV can support agreed research and preparation concerning Finance and Insurance. Use an example involving business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes to describe the decision, the parties involved, and the candidate's role as a Head of Strategy. Treat financial products and services supported by customer relationships, information, operations, and oversight as a question to validate in Finance and Insurance; the answer helps clarify the Head of Strategy mandate and its trust, information handling, product suitability, operational resilience, and competing customer and business needs.
+The candidate can discuss problem framing, analysis, stakeholder alignment, recommendation, and implementation support while protecting confidentiality by omitting names, restricted figures, and other identifying material. KOV can support agreed research and preparation concerning Finance and Insurance. Use an example involving business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes to describe the decision, the parties involved, and the candidate's role as a Head of Strategy. Treat financial products and services supported by customer relationships, information, operations, and oversight as a question to validate in Finance and Insurance; the answer helps clarify the Head of Strategy mandate and its trust, information handling, product suitability, operational resilience, and competing customer and business needs.
 
 ## Prepare for conversations about Finance and Insurance work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Strategy career hub](/roles/head-strategy/)
 
-Review the role-wide approach to coordinate planning and strategic analysis for an organization or business unit and the evidence expected for that scope.
+
 
 ### [Finance and Insurance industry hub](/industries/finance-insurance/)
 
-Compare how financial products and services supported by customer relationships, information, operations, and oversight affects career planning across functions.
+
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Strategy remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Finance and Insurance](/roles/coo/finance-insurance.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Strategy remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Head of Strategy in Energy, Mining and Oil and Gas](/roles/head-strategy/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with financial products and services supported by customer relationships, information, operations, and oversight and identify how the Head of Strategy remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Head of Strategy in Finance and Insurance?
 
-A Head of Strategy candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's financial products and services supported by customer relationships, information, operations, and oversight. Explore how the role will coordinate planning and strategic analysis for an organization or business unit and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Head of Strategy candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's financial products and services supported by customer relationships, information, operations, and oversight. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Head of Strategy make prior work relevant to Finance and Insurance?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### What makes a Head of Strategy background relevant to work in Finance and Insurance?
 
-No. Compare the role description with the candidate's experience of coordinate planning and strategic analysis for an organization or business unit and the organization's financial products and services supported by customer relationships, information, operations, and oversight. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Head of Strategy outreach in Finance and Insurance?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Head of Strategy candidate considering Finance and Insurance, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

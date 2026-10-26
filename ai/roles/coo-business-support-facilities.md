@@ -4,7 +4,7 @@ KOV helps Chief Operating Officer candidates considering roles connected to Busi
 
 ## How Chief Operating Officer work connects with Business Support and Facilities
 
-Readers need to see what Chief Operating Officer work involved; connect align operating functions, delivery systems, and organizational priorities with the candidate's own examples of operating scale, service or product delivery, cross-functional change, and decision rights in Business Support and Facilities. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Chief Operating Officer position. Where appropriate to the agreed service, KOV can help a Chief Operating Officer candidate prepare and coordinate approved next steps for Business Support and Facilities. The candidate can discuss operating scale, service or product delivery, cross-functional change, and decision rights while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+Readers need to see what Chief Operating Officer work involved; connect align operating functions, delivery systems, and organizational priorities with the candidate's own examples of operating scale, service or product delivery, cross-functional change, and decision rights in Business Support and Facilities. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Chief Operating Officer position. Where appropriate to the agreed service, KOV can help a Chief Operating Officer candidate prepare and coordinate approved next steps for Business Support and Facilities. The candidate can discuss operating scale, service or product delivery, cross-functional change, and decision rights while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Who this Chief Operating Officer and Business Support and Facilities guide is for
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Operating Officer career hub](/roles/coo/)
 
-Review the role-wide approach to align operating functions, delivery systems, and organizational priorities and the evidence expected for that scope.
+
 
 ### [Business Support and Facilities industry hub](/industries/business-support-facilities/)
 
-Compare how support services, workplace operations, facilities, administration, or outsourced capabilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Business Support and Facilities](/roles/ceo/business-support-facilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Operating Officer remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Financial Officer in Business Support and Facilities](/roles/cfo/business-support-facilities.html)
 
-Contrast lead financial stewardship and connect resource decisions to organizational priorities with the Chief Operating Officer remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with support services, workplace operations, facilities, administration, or outsourced capabilities and identify how the Chief Operating Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Operating Officer in Business Support and Facilities?
 
-Use the opening discussion to understand the specific Business Support and Facilities employer, not to assume a standard role. Compare align operating functions, delivery systems, and organizational priorities with the stated scope, identify decision partners among internal clients, employees, service teams, suppliers, customers, and contract owners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Business Support and Facilities employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a Chief Operating Officer make prior work relevant to Business Support and Facilities?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of operating scale, service
 
 ### Which career materials can help a Chief Operating Officer explore work in Business Support and Facilities?
 
-Document selection depends on the opportunity. A Chief Operating Officer may draw from executive resume, operating-impact summary, leadership biography, and profile, but should foreground only material connected to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a Chief Operating Officer contacts an organization in Business Support and Facilities?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### What makes a Chief Operating Officer background relevant to work in Business Support and Facilities?
 
-Title is only a label. Establish what the employer means by Chief Operating Officer in this Business Support and Facilities organization and how the person will work with internal clients, employees, service teams, suppliers, customers, and contract owners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Does KOV control employer responses to Chief Operating Officer outreach in Business Support and Facilities?
 

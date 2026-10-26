@@ -1,6 +1,10 @@
 (() => {
   if (window.kovSiteSearchReady) return;
   window.kovSiteSearchReady = true;
+  const searchScriptUrl = document.currentScript?.src;
+  const contentScriptUrl = searchScriptUrl
+    ? new URL('site-search-content.js', searchScriptUrl).href
+    : 'assets/site-search-content.js';
 
   if (!window.kovThemeStylesRequested) {
     const currentScript = document.currentScript;
@@ -112,7 +116,7 @@
 
   function normalizeLegacyFooter() {
     const footer = document.querySelector('footer');
-    if (!footer) return;
+    if (!footer || footer.classList.contains('kov-uniform-footer')) return;
 
     const container = footer.querySelector(':scope > .mx-auto') || footer;
     if (container.querySelector('.kov-footer-bottom-bar')) return;
@@ -163,7 +167,7 @@
   function addFooterCategories() {
     const catalog = window.kovSeoPageCatalog || [];
     const footer = document.querySelector('footer');
-    if (!footer || !catalog.length) return;
+    if (!footer || footer.classList.contains('kov-uniform-footer') || !catalog.length) return;
 
     const container = footer.querySelector(':scope > .mx-auto') || footer;
     const audienceFooter = container.querySelector('[data-audience-footer]');
@@ -262,12 +266,15 @@
   const stopWords = new Set(['a', 'an', 'and', 'are', 'can', 'do', 'for', 'find', 'get', 'help', 'how', 'i', 'in', 'is', 'me', 'my', 'of', 'on', 'or', 'the', 'to', 'what', 'where', 'who', 'with', 'you', 'your']);
   const normalize = (value) => value.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
   const words = (value) => normalize(value).split(/\s+/).filter(Boolean);
-  const bundledContent = window.kovSiteSearchContent || {};
   const pageContent = new Map();
-  for (const page of pages) {
-    const raw = bundledContent[page.href];
-    if (raw) pageContent.set(page.href, { raw, normalized: normalize(raw) });
+  function cacheBundledContent() {
+    const bundledContent = window.kovSiteSearchContent || {};
+    for (const page of pages) {
+      const raw = bundledContent[page.href];
+      if (raw) pageContent.set(page.href, { raw, normalized: normalize(raw) });
+    }
   }
+  cacheBundledContent();
   let pageIndexPromise;
 
   function indexCurrentPage() {
@@ -287,21 +294,31 @@
 
   function loadPageIndex() {
     if (!pageIndexPromise) {
-      pageIndexPromise = location.protocol === 'file:' ? Promise.resolve() : Promise.all(pages.map(async (page) => {
-        try {
-          const response = await fetch(localPageHref(page.href), { credentials: 'same-origin' });
-          if (!response.ok) return;
-          const parsed = new DOMParser().parseFromString(await response.text(), 'text/html');
-          parsed.querySelectorAll('script, style, noscript, template, svg, .site-search-dialog, .kov-topic-nav').forEach((element) => element.remove());
-          const bodyText = (parsed.body?.innerText || parsed.body?.textContent || '').replace(/\s+/g, ' ').trim();
-          const imageText = [...parsed.querySelectorAll('img[alt]')].map((image) => image.alt).join(' ');
-          const description = parsed.querySelector('meta[name="description"]')?.content || '';
-          const raw = `${parsed.title} ${description} ${bodyText} ${imageText}`.replace(/\s+/g, ' ').trim();
-          pageContent.set(page.href, { raw, normalized: normalize(raw) });
-        } catch (error) {
+      pageIndexPromise = new Promise((resolve, reject) => {
+        if (window.kovSiteSearchContent) {
+          cacheBundledContent();
+          resolve();
           return;
         }
-      }));
+
+        const contentScript = document.createElement('script');
+        contentScript.src = contentScriptUrl;
+        contentScript.async = true;
+        contentScript.addEventListener('load', () => {
+          if (!window.kovSiteSearchContent) {
+            pageIndexPromise = null;
+            reject(new Error('The KOV search content file did not initialize.'));
+            return;
+          }
+          cacheBundledContent();
+          resolve();
+        }, { once: true });
+        contentScript.addEventListener('error', () => {
+          pageIndexPromise = null;
+          reject(new Error(`Failed to load KOV search content: ${contentScript.src}`));
+        }, { once: true });
+        document.head.append(contentScript);
+      });
     }
     return pageIndexPromise;
   }
@@ -481,6 +498,9 @@
     status.textContent = 'Indexing page content...';
     loadPageIndex().then(() => {
       if (dialog.open) renderResults(input.value);
+    }).catch((error) => {
+      console.error('Unable to load KOV search content:', error);
+      if (dialog.open) status.textContent = 'Search content could not be loaded. Please try again.';
     });
   }
 

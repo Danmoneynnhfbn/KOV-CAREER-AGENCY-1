@@ -12,7 +12,7 @@ Position a Non-Executive Director career by linking provide independent challeng
 
 ## A candidate-led process from first discussion to next steps
 
-The Non-Executive Director remit to provide independent challenge and strategic contribution distinct from management should be described through decisions and examples, especially evidence of governance experience, constructive challenge, committee contribution, and relevant expertise relevant to Consulting and Other Professional Services. In Consulting and Other Professional Services, clients, practitioners, project teams, partners or owners, suppliers, and professional communities may shape the work. A Non-Executive Director example should separate direct responsibility from collaboration. KOV works with the candidate to agree which Non-Executive Director targets matter, how board biography, non-executive profile, skills matrix, and governance resume will be used, and whether communication is authorized. Review each Non-Executive Director example for confusing oversight with operational management or overstating independence, then describe the candidate's decisions without overstating their control over chair, board colleagues, CEO, management, shareholders or members, and stakeholders.
+The Non-Executive Director remit to provide independent challenge and strategic contribution distinct from management should be described through decisions and examples, especially evidence of governance experience, constructive challenge, committee contribution, and relevant expertise relevant to Consulting and Other Professional Services. A Non-Executive Director example should separate direct responsibility from collaboration. KOV works with the candidate to agree which Non-Executive Director targets matter, how board biography, non-executive profile, skills matrix, and governance resume will be used, and whether communication is authorized. Review each Non-Executive Director example for confusing oversight with operational management or overstating independence, then describe the candidate's decisions without overstating their control over chair, board colleagues, CEO, management, shareholders or members, and stakeholders.
 
 ## Documents that make Non-Executive Director experience relevant here
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Non-Executive Director materials t
 
 ## Prepare to discuss the Consulting and Other Professional Services mandate
 
-The candidate can discuss governance experience, constructive challenge, committee contribution, and relevant expertise while protecting confidentiality by omitting names, restricted figures, and other identifying material. Map the Consulting and Other Professional Services relationships among clients, practitioners, project teams, partners or owners, suppliers, and professional communities; verify actual authority instead of inferring a reporting line. Not every Consulting and Other Professional Services organization will handle expertise, client expectations, capacity, project economics, and consistent delivery across engagements alike. Confirm how expertise-led advisory or delivery work provided to organizations or individuals informs this Non-Executive Director position. Readers need to see what Non-Executive Director work involved; connect provide independent challenge and strategic contribution distinct from management with the candidate's own examples of governance experience, constructive challenge, committee contribution, and relevant expertise in Consulting and Other Professional Services.
+The candidate can discuss governance experience, constructive challenge, committee contribution, and relevant expertise while protecting confidentiality by omitting names, restricted figures, and other identifying material. Not every Consulting and Other Professional Services organization will handle expertise, client expectations, capacity, project economics, and consistent delivery across engagements alike. Confirm how expertise-led advisory or delivery work provided to organizations or individuals informs this Non-Executive Director position. Readers need to see what Non-Executive Director work involved; connect provide independent challenge and strategic contribution distinct from management with the candidate's own examples of governance experience, constructive challenge, committee contribution, and relevant expertise in Consulting and Other Professional Services.
 
 ## Common positioning mistakes for Non-Executive Director candidates in Consulting and Other Professional Services
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Non-Executive Director career hub](/roles/non-executive-director/)
 
-Review the role-wide approach to provide independent challenge and strategic contribution distinct from management and the evidence expected for that scope.
+
 
 ### [Consulting and Other Professional Services industry hub](/industries/consulting-professional-services/)
 
-Compare how expertise-led advisory or delivery work provided to organizations or individuals affects career planning across functions.
+
 
 ### [Chief Executive Officer in Consulting and Other Professional Services](/roles/ceo/consulting-professional-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Non-Executive Director remit; consider where each function meets expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chief Operating Officer in Consulting and Other Professional Services](/roles/coo/consulting-professional-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Non-Executive Director remit; consider where each function meets expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Non-Executive Director in Agriculture, Food and Forestry](/roles/non-executive-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with expertise-led advisory or delivery work provided to organizations or individuals and identify how the Non-Executive Director remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Non-Executive Director resolve before a target discussion in Consulting and Other Professional Services?
 
-A Non-Executive Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's expertise-led advisory or delivery work provided to organizations or individuals. Explore how the role will provide independent challenge and strategic contribution distinct from management and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Non-Executive Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's expertise-led advisory or delivery work provided to organizations or individuals. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Non-Executive Director career story fit the needs of Consulting and Other Professional Services?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could provide independent challenge and
 
 ### What should a Non-Executive Director prepare in writing before targeting Consulting and Other Professional Services?
 
-Possible materials include board biography, non-executive profile, skills matrix, and governance resume. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service line, client or project context, team leadership, delivery model, and authorized outcomes. Each claim should be accurate for this Consulting and Other Professional Services target, and confidential or unauthorized material should be omitted.
+Possible materials include board biography, non-executive profile, skills matrix, and governance resume. Each claim should be accurate for this Consulting and Other Professional Services target, and confidential or unauthorized material should be omitted.
 
 ### What should a Non-Executive Director approve before outreach in Consulting and Other Professional Services?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Non-Executive Director candidate's service scope; the candidate approves external communication. No one route should be assumed for all Consulting and Other Professional Services employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Consulting and Other Professional Services employers.
 
 ### How should a Non-Executive Director compare title and remit in Consulting and Other Professional Services?
 
-Title is only a label. Establish what the employer means by Non-Executive Director in this Consulting and Other Professional Services organization and how the person will work with clients, practitioners, project teams, partners or owners, suppliers, and professional communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Non-Executive Director with an employer in Consulting and Other Professional Services?
 

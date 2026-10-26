@@ -33,7 +33,7 @@ Keep the Board Director narrative accurate where implying executive authority fo
 
 ## Choose the individual services that fit the work
 
-A Board Director candidate should be ready to explain implying executive authority for board decisions or claiming confidential board outcomes without revealing confidential details or implying unsupported responsibility. The service plan should fit the candidate's Board Director priorities; agree research, materials, and any outreach before contact occurs. In Construction and Engineering, clients, project teams, designers, contractors, suppliers, workers, and asset users may shape the work. A Board Director example should separate direct responsibility from collaboration. The Board Director remit to contribute oversight, inquiry, and strategic perspective within collective governance should be described through decisions and examples, especially evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution relevant to Construction and Engineering.
+A Board Director candidate should be ready to explain implying executive authority for board decisions or claiming confidential board outcomes without revealing confidential details or implying unsupported responsibility. In Construction and Engineering, clients, project teams, designers, contractors, suppliers, workers, and asset users may shape the work. A Board Director example should separate direct responsibility from collaboration. The Board Director remit to contribute oversight, inquiry, and strategic perspective within collective governance should be described through decisions and examples, especially evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution relevant to Construction and Engineering.
 
 ### [Private career representation](/services.html)
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Board Director materials that pres
 
 ## Prepare to discuss the Construction and Engineering mandate
 
-The Board Director remit to contribute oversight, inquiry, and strategic perspective within collective governance should be described through decisions and examples, especially evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution relevant to Construction and Engineering. Not every Construction and Engineering organization will handle scope control, sequencing, interfaces, safety-minded work, and coordination across project phases alike. Confirm how project-based delivery involving design, procurement, technical coordination, and site execution informs this Board Director position. KOV can help a Board Director candidate organize an agreed search approach for Construction and Engineering, including documents such as board biography, governance resume, skills matrix, and concise profile. A Board Director candidate should be ready to explain implying executive authority for board decisions or claiming confidential board outcomes without revealing confidential details or implying unsupported responsibility.
+The Board Director remit to contribute oversight, inquiry, and strategic perspective within collective governance should be described through decisions and examples, especially evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution relevant to Construction and Engineering. Confirm how project-based delivery involving design, procurement, technical coordination, and site execution informs this Board Director position. KOV can help a Board Director candidate organize an agreed search approach for Construction and Engineering, including documents such as board biography, governance resume, skills matrix, and concise profile. A Board Director candidate should be ready to explain implying executive authority for board decisions or claiming confidential board outcomes without revealing confidential details or implying unsupported responsibility.
 
 ## Common positioning mistakes for Board Director candidates in Construction and Engineering
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Board Director career hub](/roles/board-director/)
 
-Review the role-wide approach to contribute oversight, inquiry, and strategic perspective within collective governance and the evidence expected for that scope.
+
 
 ### [Construction and Engineering industry hub](/industries/construction-engineering/)
 
-Compare how project-based delivery involving design, procurement, technical coordination, and site execution affects career planning across functions.
+
 
 ### [Chief Executive Officer in Construction and Engineering](/roles/ceo/construction-engineering.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Board Director remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Operating Officer in Construction and Engineering](/roles/coo/construction-engineering.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Board Director remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Board Director in Agriculture, Food and Forestry](/roles/board-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with project-based delivery involving design, procurement, technical coordination, and site execution and identify how the Board Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Board Director clarify before considering work in Construction and Engineering?
 
-Use the opening discussion to understand the specific Construction and Engineering employer, not to assume a standard role. Compare contribute oversight, inquiry, and strategic perspective within collective governance with the stated scope, identify decision partners among clients, project teams, designers, contractors, suppliers, workers, and asset users, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Construction and Engineering employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Board Director describe transferable experience for Construction and Engineering work?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### How can KOV and a Board Director plan contact with Construction and Engineering organizations?
 
-Outreach should follow target research, not precede it. The Board Director candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with committee or board remit, preparation, judgment, relevant expertise, and collective contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Board Director assess fit with Construction and Engineering responsibilities?
 
-No. Compare the role description with the candidate's experience of contribute oversight, inquiry, and strategic perspective within collective governance and the organization's project-based delivery involving design, procurement, technical coordination, and site execution. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Board Director candidate considering Construction and Engineering?
 

@@ -63,7 +63,7 @@ KOV works with the candidate to agree which Director of Marketing targets matter
 
 ## Prepare for conversations about Finance and Insurance work
 
-Do not resolve uncertainty about presenting campaign metrics without explaining objectives or contribution through assumption; verify the requirement and use only supportable Director of Marketing claims. Explain how CMO or VP, sales, product, agencies, customers, and marketing colleagues contributed to the candidate's work and distinguish that shared context from evidence of audience, channel choices, budget or team remit, collaboration, and attributable results. Not every Finance and Insurance organization will handle trust, information handling, product suitability, operational resilience, and competing customer and business needs alike. Confirm how financial products and services supported by customer relationships, information, operations, and oversight informs this Director of Marketing position. A Director of Marketing candidate should show how audience, channel choices, budget or team remit, collaboration, and attributable results supported the work to manage campaigns, channels, or marketing programs within a broader strategy, with the Finance and Insurance setting made explicit.
+Do not resolve uncertainty about presenting campaign metrics without explaining objectives or contribution through assumption; verify the requirement and use only supportable Director of Marketing claims. Not every Finance and Insurance organization will handle trust, information handling, product suitability, operational resilience, and competing customer and business needs alike. Confirm how financial products and services supported by customer relationships, information, operations, and oversight informs this Director of Marketing position. A Director of Marketing candidate should show how audience, channel choices, budget or team remit, collaboration, and attributable results supported the work to manage campaigns, channels, or marketing programs within a broader strategy, with the Finance and Insurance setting made explicit.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Marketing career hub](/roles/director-marketing/)
 
-Review the role-wide approach to manage campaigns, channels, or marketing programs within a broader strategy and the evidence expected for that scope.
+
 
 ### [Finance and Insurance industry hub](/industries/finance-insurance/)
 
-Compare how financial products and services supported by customer relationships, information, operations, and oversight affects career planning across functions.
+
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Marketing remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Finance and Insurance](/roles/coo/finance-insurance.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Marketing remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Director of Marketing in Retail and E-commerce](/roles/director-marketing/retail-ecommerce.html)
 
-Compare customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment with financial products and services supported by customer relationships, information, operations, and oversight and identify how the Director of Marketing remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Director of Marketing in Finance and Insurance?
 
-A Director of Marketing candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's financial products and services supported by customer relationships, information, operations, and oversight. Explore how the role will manage campaigns, channels, or marketing programs within a broader strategy and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of Marketing candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's financial products and services supported by customer relationships, information, operations, and oversight. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Director of Marketing make prior work relevant to Finance and Insurance?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What must be agreed before a Director of Marketing contacts an organization in Finance and Insurance?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of Marketing candidate's service scope; the candidate approves external communication. No one route should be assumed for all Finance and Insurance employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Finance and Insurance employers.
 
 ### What makes a Director of Marketing background relevant to work in Finance and Insurance?
 
-No. Compare the role description with the candidate's experience of manage campaigns, channels, or marketing programs within a broader strategy and the organization's financial products and services supported by customer relationships, information, operations, and oversight. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Director of Marketing outreach in Finance and Insurance?
 

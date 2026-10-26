@@ -12,7 +12,7 @@ For Chief Operating Officer work in Legal Services, explain how the candidate co
 
 ## A candidate-led process from first discussion to next steps
 
-In a Legal Services target, make the Chief Operating Officer contribution legible: describe how the candidate helped align operating functions, delivery systems, and organizational priorities and what supports operating scale, service or product delivery, cross-functional change, and decision rights. Use legal advice, representation, transactions, dispute work, or related professional services to frame research about Legal Services, then ask how a Chief Operating Officer will work through professional judgment, client service, confidentiality, practice operations, and shared leadership. Use an example involving practice or business scope, client-service context, team leadership, governance interface, and authorized examples to describe the decision, the parties involved, and the candidate's role as a Chief Operating Officer. The candidate decides whether to pursue a Chief Operating Officer opportunity. KOV can support agreed research and preparation concerning Legal Services.
+In a Legal Services target, make the Chief Operating Officer contribution legible: describe how the candidate helped align operating functions, delivery systems, and organizational priorities and what supports operating scale, service or product delivery, cross-functional change, and decision rights. Use an example involving practice or business scope, client-service context, team leadership, governance interface, and authorized examples to describe the decision, the parties involved, and the candidate's role as a Chief Operating Officer. The candidate decides whether to pursue a Chief Operating Officer opportunity. KOV can support agreed research and preparation concerning Legal Services.
 
 ## Documents that make Chief Operating Officer experience relevant here
 
@@ -63,11 +63,11 @@ Good preparation for Chief Operating Officer work includes a safe way to explain
 
 ## Prepare for conversations about Legal Services work
 
-For Chief Operating Officer work in Legal Services, explain how the candidate could align operating functions, delivery systems, and organizational priorities; connect that mandate to evidence of operating scale, service or product delivery, cross-functional change, and decision rights. In Legal Services, clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities may shape the work. A Chief Operating Officer example should separate direct responsibility from collaboration. For a Chief Operating Officer target, KOV can discuss how executive resume, operating-impact summary, leadership biography, and profile support the candidate's account of operating scale, service or product delivery, cross-functional change, and decision rights; external steps require prior agreement. The candidate can discuss operating scale, service or product delivery, cross-functional change, and decision rights while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+For Chief Operating Officer work in Legal Services, explain how the candidate could align operating functions, delivery systems, and organizational priorities; connect that mandate to evidence of operating scale, service or product delivery, cross-functional change, and decision rights. A Chief Operating Officer example should separate direct responsibility from collaboration. For a Chief Operating Officer target, KOV can discuss how executive resume, operating-impact summary, leadership biography, and profile support the candidate's account of operating scale, service or product delivery, cross-functional change, and decision rights; external steps require prior agreement. The candidate can discuss operating scale, service or product delivery, cross-functional change, and decision rights while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Run the search thoughtfully in each target market
 
-The service plan should fit the candidate's Chief Operating Officer priorities; agree research, materials, and any outreach before contact occurs. In Legal Services, clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities may shape the work. A Chief Operating Officer example should separate direct responsibility from collaboration. To understand the Legal Services target, explore legal advice, representation, transactions, dispute work, or related professional services and ask how a Chief Operating Officer is expected to respond to professional judgment, client service, confidentiality, practice operations, and shared leadership. In a Legal Services target, make the Chief Operating Officer contribution legible: describe how the candidate helped align operating functions, delivery systems, and organizational priorities and what supports operating scale, service or product delivery, cross-functional change, and decision rights.
+The service plan should fit the candidate's Chief Operating Officer priorities; agree research, materials, and any outreach before contact occurs. A Chief Operating Officer example should separate direct responsibility from collaboration. To understand the Legal Services target, explore legal advice, representation, transactions, dispute work, or related professional services and ask how a Chief Operating Officer is expected to respond to professional judgment, client service, confidentiality, practice operations, and shared leadership. In a Legal Services target, make the Chief Operating Officer contribution legible: describe how the candidate helped align operating functions, delivery systems, and organizational priorities and what supports operating scale, service or product delivery, cross-functional change, and decision rights.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Operating Officer career hub](/roles/coo/)
 
-Review the role-wide approach to align operating functions, delivery systems, and organizational priorities and the evidence expected for that scope.
+
 
 ### [Legal Services industry hub](/industries/legal-services/)
 
-Compare how legal advice, representation, transactions, dispute work, or related professional services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Legal Services](/roles/ceo/legal-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Operating Officer remit; consider where each function meets legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Financial Officer in Legal Services](/roles/cfo/legal-services.html)
 
-Contrast lead financial stewardship and connect resource decisions to organizational priorities with the Chief Operating Officer remit; consider where each function meets legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with legal advice, representation, transactions, dispute work, or related professional services and identify how the Chief Operating Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Operating Officer in Legal Services?
 
-Use the opening discussion to understand the specific Legal Services employer, not to assume a standard role. Compare align operating functions, delivery systems, and organizational priorities with the stated scope, identify decision partners among clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Legal Services employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a Chief Operating Officer make prior work relevant to Legal Services?
 
@@ -139,11 +139,11 @@ Select examples that show operating scale, service or product delivery, cross-fu
 
 ### Which career materials can help a Chief Operating Officer explore work in Legal Services?
 
-Document selection depends on the opportunity. A Chief Operating Officer may draw from executive resume, operating-impact summary, leadership biography, and profile, but should foreground only material connected to practice or business scope, client-service context, team leadership, governance interface, and authorized examples. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a Chief Operating Officer contacts an organization in Legal Services?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Operating Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Legal Services employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Legal Services employers.
 
 ### What makes a Chief Operating Officer background relevant to work in Legal Services?
 

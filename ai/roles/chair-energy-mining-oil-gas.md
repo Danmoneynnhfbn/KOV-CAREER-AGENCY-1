@@ -49,7 +49,7 @@ Do not resolve uncertainty about blurring chair and executive accountabilities o
 
 ## Common positioning mistakes for Chair candidates in Energy, Mining and Oil and Gas
 
-For Chair work in Energy, Mining and Oil and Gas, explain how the candidate could lead board effectiveness and support clear governance and decision-making; connect that mandate to evidence of meeting leadership, board composition, governance practice, relationships, and transition judgment. Not every Energy, Mining and Oil and Gas organization will handle long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand alike. Confirm how asset-intensive work spanning development, extraction, generation, processing, or energy services informs this Chair position. KOV's service scope for a Chair candidate can include document preparation and agreed search activity, but cannot promise an employer's response. For Chair materials, manage the risk of blurring chair and executive accountabilities or taking credit for collective decisions; support claims with meeting leadership, board composition, governance practice, relationships, and transition judgment and remove details that are not authorized for sharing.
+For Chair work in Energy, Mining and Oil and Gas, explain how the candidate could lead board effectiveness and support clear governance and decision-making; connect that mandate to evidence of meeting leadership, board composition, governance practice, relationships, and transition judgment. Confirm how asset-intensive work spanning development, extraction, generation, processing, or energy services informs this Chair position. KOV's service scope for a Chair candidate can include document preparation and agreed search activity, but cannot promise an employer's response. For Chair materials, manage the risk of blurring chair and executive accountabilities or taking credit for collective decisions; support claims with meeting leadership, board composition, governance practice, relationships, and transition judgment and remove details that are not authorized for sharing.
 
 - Treat Energy, Mining and Oil and Gas as one uniform employer type; distinguish the actual organization and role.
 - Use a Chair title without explaining lead board effectiveness and support clear governance and decision-making.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chair career hub](/roles/chair/)
 
-Review the role-wide approach to lead board effectiveness and support clear governance and decision-making and the evidence expected for that scope.
+
 
 ### [Energy, Mining and Oil and Gas industry hub](/industries/energy-mining-oil-gas/)
 
-Compare how asset-intensive work spanning development, extraction, generation, processing, or energy services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Energy, Mining and Oil and Gas](/roles/ceo/energy-mining-oil-gas.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chair remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Operating Officer in Energy, Mining and Oil and Gas](/roles/coo/energy-mining-oil-gas.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chair remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chair in Agriculture, Food and Forestry](/roles/chair/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with asset-intensive work spanning development, extraction, generation, processing, or energy services and identify how the Chair remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chair in Energy, Mining and Oil and Gas?
 
-Use the opening discussion to understand the specific Energy, Mining and Oil and Gas employer, not to assume a standard role. Compare lead board effectiveness and support clear governance and decision-making with the stated scope, identify decision partners among asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Energy, Mining and Oil and Gas employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a Chair make prior work relevant to Energy, Mining and Oil and Gas?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could lead board effectiveness and supp
 
 ### Which career materials can help a Chair explore work in Energy, Mining and Oil and Gas?
 
-Document selection depends on the opportunity. A Chair may draw from chair biography, board resume, governance narrative, and public profile, but should foreground only material connected to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a Chair contacts an organization in Energy, Mining and Oil and Gas?
 
-Outreach should follow target research, not precede it. The Chair candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with meeting leadership, board composition, governance practice, relationships, and transition judgment is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Chair background relevant to work in Energy, Mining and Oil and Gas?
 
-No. Compare the role description with the candidate's experience of lead board effectiveness and support clear governance and decision-making and the organization's asset-intensive work spanning development, extraction, generation, processing, or energy services. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Chair outreach in Energy, Mining and Oil and Gas?
 

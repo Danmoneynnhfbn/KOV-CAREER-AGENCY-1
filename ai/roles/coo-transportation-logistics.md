@@ -16,7 +16,7 @@ Do not resolve uncertainty about describing activity without showing scope, depe
 
 ## Documents that make Chief Operating Officer experience relevant here
 
-The Transportation and Logistics context involves movement, handling, and coordination of people or goods across routes and operating networks; examine how that structure affects network coordination, service windows, asset availability, safety-minded decisions, and disruption response before drawing conclusions about the Chief Operating Officer role. Explain how CEO, functional leaders, frontline managers, suppliers, employees, and customers contributed to the candidate's work and distinguish that shared context from evidence of operating scale, service or product delivery, cross-functional change, and decision rights. The candidate decides whether to pursue a Chief Operating Officer opportunity. KOV can support agreed research and preparation concerning Transportation and Logistics. Review each Chief Operating Officer example for describing activity without showing scope, dependencies, or the candidate's contribution, then describe the candidate's decisions without overstating their control over CEO, functional leaders, frontline managers, suppliers, employees, and customers.
+The Transportation and Logistics context involves movement, handling, and coordination of people or goods across routes and operating networks; examine how that structure affects network coordination, service windows, asset availability, safety-minded decisions, and disruption response before drawing conclusions about the Chief Operating Officer role. The candidate decides whether to pursue a Chief Operating Officer opportunity. KOV can support agreed research and preparation concerning Transportation and Logistics. Review each Chief Operating Officer example for describing activity without showing scope, dependencies, or the candidate's contribution, then describe the candidate's decisions without overstating their control over CEO, functional leaders, frontline managers, suppliers, employees, and customers.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -59,7 +59,7 @@ KOV works with the candidate to agree which Chief Operating Officer targets matt
 
 ## Keep research, confidentiality, and outreach aligned
 
-Readers need to see what Chief Operating Officer work involved; connect align operating functions, delivery systems, and organizational priorities with the candidate's own examples of operating scale, service or product delivery, cross-functional change, and decision rights in Transportation and Logistics. In Transportation and Logistics, customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities may shape the work. A Chief Operating Officer example should separate direct responsibility from collaboration. KOV works with the candidate to agree which Chief Operating Officer targets matter, how executive resume, operating-impact summary, leadership biography, and profile will be used, and whether communication is authorized. Good preparation for Chief Operating Officer work includes a safe way to explain describing activity without showing scope, dependencies, or the candidate's contribution and a clear distinction between fact and inference.
+Readers need to see what Chief Operating Officer work involved; connect align operating functions, delivery systems, and organizational priorities with the candidate's own examples of operating scale, service or product delivery, cross-functional change, and decision rights in Transportation and Logistics. A Chief Operating Officer example should separate direct responsibility from collaboration. KOV works with the candidate to agree which Chief Operating Officer targets matter, how executive resume, operating-impact summary, leadership biography, and profile will be used, and whether communication is authorized. Good preparation for Chief Operating Officer work includes a safe way to explain describing activity without showing scope, dependencies, or the candidate's contribution and a clear distinction between fact and inference.
 
 ## Prepare for conversations about Transportation and Logistics work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Operating Officer career hub](/roles/coo/)
 
-Review the role-wide approach to align operating functions, delivery systems, and organizational priorities and the evidence expected for that scope.
+
 
 ### [Transportation and Logistics industry hub](/industries/transportation-logistics/)
 
-Compare how movement, handling, and coordination of people or goods across routes and operating networks affects career planning across functions.
+
 
 ### [Chief Executive Officer in Transportation and Logistics](/roles/ceo/transportation-logistics.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Operating Officer remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Financial Officer in Transportation and Logistics](/roles/cfo/transportation-logistics.html)
 
-Contrast lead financial stewardship and connect resource decisions to organizational priorities with the Chief Operating Officer remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with movement, handling, and coordination of people or goods across routes and operating networks and identify how the Chief Operating Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Chief Operating Officer resolve before a target discussion in Transportation and Logistics?
 
-Use the opening discussion to understand the specific Transportation and Logistics employer, not to assume a standard role. Compare align operating functions, delivery systems, and organizational priorities with the stated scope, identify decision partners among customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Transportation and Logistics employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Chief Operating Officer career story fit the needs of Transportation and Logistics?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How should a Chief Operating Officer compare title and remit in Transportation and Logistics?
 
-No. Compare the role description with the candidate's experience of align operating functions, delivery systems, and organizational priorities and the organization's movement, handling, and coordination of people or goods across routes and operating networks. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Will KOV secure a meeting for a Chief Operating Officer with an employer in Transportation and Logistics?
 

@@ -4,7 +4,7 @@ KOV helps Managing Partner candidates considering roles connected to Constructio
 
 ## How Managing Partner work connects with Construction and Engineering
 
-The candidate can discuss partner-group mandate, management contribution, practice or business scope, and shared decisions while protecting confidentiality by omitting names, restricted figures, and other identifying material. Discuss project complexity, commercial or technical decisions, interface management, delivery contribution, and lessons learned with care: a Managing Partner candidate can explain contribution while omitting confidential or identifying facts. Not every Construction and Engineering organization will handle scope control, sequencing, interfaces, safety-minded work, and coordination across project phases alike. Confirm how project-based delivery involving design, procurement, technical coordination, and site execution informs this Managing Partner position. Readers need to see what Managing Partner work involved; connect combine leadership responsibilities with the governance and professional context of a partnership with the candidate's own examples of partner-group mandate, management contribution, practice or business scope, and shared decisions in Construction and Engineering.
+The candidate can discuss partner-group mandate, management contribution, practice or business scope, and shared decisions while protecting confidentiality by omitting names, restricted figures, and other identifying material. Not every Construction and Engineering organization will handle scope control, sequencing, interfaces, safety-minded work, and coordination across project phases alike. Confirm how project-based delivery involving design, procurement, technical coordination, and site execution informs this Managing Partner position. Readers need to see what Managing Partner work involved; connect combine leadership responsibilities with the governance and professional context of a partnership with the candidate's own examples of partner-group mandate, management contribution, practice or business scope, and shared decisions in Construction and Engineering.
 
 ## Who this Managing Partner and Construction and Engineering guide is for
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Partner career hub](/roles/managing-partner/)
 
-Review the role-wide approach to combine leadership responsibilities with the governance and professional context of a partnership and the evidence expected for that scope.
+
 
 ### [Construction and Engineering industry hub](/industries/construction-engineering/)
 
-Compare how project-based delivery involving design, procurement, technical coordination, and site execution affects career planning across functions.
+
 
 ### [Chief Executive Officer in Construction and Engineering](/roles/ceo/construction-engineering.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Partner remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Operating Officer in Construction and Engineering](/roles/coo/construction-engineering.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Partner remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Managing Partner in Agriculture, Food and Forestry](/roles/managing-partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with project-based delivery involving design, procurement, technical coordination, and site execution and identify how the Managing Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Managing Partner test the scope of work in Construction and Engineering?
 
-Start with the organization's account of project-based delivery involving design, procurement, technical coordination, and site execution, then clarify how the Managing Partner would combine leadership responsibilities with the governance and professional context of a partnership. Ask how clients, project teams, designers, contractors, suppliers, workers, and asset users participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of project-based delivery involving design, procurement, technical coordination, and site execution, then clarify how the Managing Partner would combine leadership responsibilities with the governance and professional context of a partnership. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Managing Partner use to explain experience in Construction and Engineering?
 
@@ -139,19 +139,19 @@ Describe an instance where the candidate could combine leadership responsibiliti
 
 ### What documents should a Managing Partner tailor for Construction and Engineering opportunities?
 
-Possible materials include partner biography, leadership resume, practice summary, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to project complexity, commercial or technical decisions, interface management, delivery contribution, and lessons learned. Each claim should be accurate for this Construction and Engineering target, and confidential or unauthorized material should be omitted.
+Possible materials include partner biography, leadership resume, practice summary, and profile. Each claim should be accurate for this Construction and Engineering target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Managing Partner considering Construction and Engineering?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Managing Partner candidate's service scope; the candidate approves external communication. No one route should be assumed for all Construction and Engineering employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Construction and Engineering employers.
 
 ### Can a Managing Partner rely on title alone when targeting Construction and Engineering?
 
-No. Compare the role description with the candidate's experience of combine leadership responsibilities with the governance and professional context of a partnership and the organization's project-based delivery involving design, procurement, technical coordination, and site execution. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Managing Partner seeking work in Construction and Engineering?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Managing Partner candidate considering Construction and Engineering, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

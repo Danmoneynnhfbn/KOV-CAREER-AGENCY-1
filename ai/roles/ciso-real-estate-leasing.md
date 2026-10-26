@@ -45,7 +45,7 @@ Consider document and positioning support for Chief Information Security Officer
 
 ## Prepare to discuss the Real Estate and Leasing mandate
 
-For Chief Information Security Officer materials, manage the risk of exposing sensitive controls or incidents, or overstating personal responsibility for shared security work; support claims with security remit, risk decisions, operating model, incident leadership where authorized, and adoption and remove details that are not authorized for sharing. The candidate decides whether to pursue a Chief Information Security Officer opportunity. KOV can support agreed research and preparation concerning Real Estate and Leasing. Before presenting asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution, determine how owners, tenants, customers, investors, property teams, suppliers, and communities participated and which details are safe to discuss. Use property ownership, development, brokerage, management, or leasing relationships to frame research about Real Estate and Leasing, then ask how a Chief Information Security Officer will work through asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions.
+For Chief Information Security Officer materials, manage the risk of exposing sensitive controls or incidents, or overstating personal responsibility for shared security work; support claims with security remit, risk decisions, operating model, incident leadership where authorized, and adoption and remove details that are not authorized for sharing. KOV can support agreed research and preparation concerning Real Estate and Leasing. Before presenting asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution, determine how owners, tenants, customers, investors, property teams, suppliers, and communities participated and which details are safe to discuss. Use property ownership, development, brokerage, management, or leasing relationships to frame research about Real Estate and Leasing, then ask how a Chief Information Security Officer will work through asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions.
 
 ## Common positioning mistakes for Chief Information Security Officer candidates in Real Estate and Leasing
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Information Security Officer career hub](/roles/ciso/)
 
-Review the role-wide approach to lead information-security priorities and coordinate risk-informed protection and the evidence expected for that scope.
+
 
 ### [Real Estate and Leasing industry hub](/industries/real-estate-leasing/)
 
-Compare how property ownership, development, brokerage, management, or leasing relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Real Estate and Leasing](/roles/ceo/real-estate-leasing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Information Security Officer remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Operating Officer in Real Estate and Leasing](/roles/coo/real-estate-leasing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Information Security Officer remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Information Security Officer in Agriculture, Food and Forestry](/roles/ciso/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with property ownership, development, brokerage, management, or leasing relationships and identify how the Chief Information Security Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Information Security Officer in Real Estate and Leasing?
 
-A Chief Information Security Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's property ownership, development, brokerage, management, or leasing relationships. Explore how the role will lead information-security priorities and coordinate risk-informed protection and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Information Security Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's property ownership, development, brokerage, management, or leasing relationships. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Chief Information Security Officer make prior work relevant to Real Estate and Leasing?
 
@@ -143,15 +143,15 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What must be agreed before a Chief Information Security Officer contacts an organization in Real Estate and Leasing?
 
-Outreach should follow target research, not precede it. The Chief Information Security Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with security remit, risk decisions, operating model, incident leadership where authorized, and adoption is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Chief Information Security Officer background relevant to work in Real Estate and Leasing?
 
-Title is only a label. Establish what the employer means by Chief Information Security Officer in this Real Estate and Leasing organization and how the person will work with owners, tenants, customers, investors, property teams, suppliers, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Does KOV control employer responses to Chief Information Security Officer outreach in Real Estate and Leasing?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Information Security Officer candidate considering Real Estate and Leasing, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

@@ -12,11 +12,11 @@ Good preparation for Vice President of Engineering work includes a safe way to e
 
 ## A candidate-led process from first discussion to next steps
 
-Keep the Vice President of Engineering narrative accurate where substituting technology keywords for evidence of scale, decisions, and delivery conditions may arise: attribute shared work and disclose only information the candidate may use. Candidate-side support from KOV may connect Vice President of Engineering positioning, relevant documents, and approved outreach, within the scope the candidate agrees. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Vice President of Engineering example should separate direct responsibility from collaboration. Use asset-intensive work spanning development, extraction, generation, processing, or energy services to frame research about Energy, Mining and Oil and Gas, then ask how a Vice President of Engineering will work through long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand.
+Keep the Vice President of Engineering narrative accurate where substituting technology keywords for evidence of scale, decisions, and delivery conditions may arise: attribute shared work and disclose only information the candidate may use. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Vice President of Engineering example should separate direct responsibility from collaboration. Use asset-intensive work spanning development, extraction, generation, processing, or energy services to frame research about Energy, Mining and Oil and Gas, then ask how a Vice President of Engineering will work through long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand.
 
 ## Documents that make Vice President of Engineering experience relevant here
 
-Protect credibility in Energy, Mining and Oil and Gas by addressing substituting technology keywords for evidence of scale, decisions, and delivery conditions with a factual account of engineering scope, architecture choices, delivery systems, people leadership, and operational outcomes and its limits. The candidate decides whether to pursue a Vice President of Engineering opportunity. KOV can support agreed research and preparation concerning Energy, Mining and Oil and Gas. Discuss project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes with care: a Vice President of Engineering candidate can explain contribution while omitting confidential or identifying facts. Position a Vice President of Engineering career by linking lead engineering organization, technical delivery, and capability development to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes, then clarify which part of that work the candidate actually owned.
+Protect credibility in Energy, Mining and Oil and Gas by addressing substituting technology keywords for evidence of scale, decisions, and delivery conditions with a factual account of engineering scope, architecture choices, delivery systems, people leadership, and operational outcomes and its limits. KOV can support agreed research and preparation concerning Energy, Mining and Oil and Gas. Discuss project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes with care: a Vice President of Engineering candidate can explain contribution while omitting confidential or identifying facts. Position a Vice President of Engineering career by linking lead engineering organization, technical delivery, and capability development to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes, then clarify which part of that work the candidate actually owned.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ Consider document and positioning support for Vice President of Engineering mate
 
 ## Prepare to discuss the Energy, Mining and Oil and Gas mandate
 
-Protect credibility in Energy, Mining and Oil and Gas by addressing substituting technology keywords for evidence of scale, decisions, and delivery conditions with a factual account of engineering scope, architecture choices, delivery systems, people leadership, and operational outcomes and its limits. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Vice President of Engineering example should separate direct responsibility from collaboration. An employer's Energy, Mining and Oil and Gas model may involve asset-intensive work spanning development, extraction, generation, processing, or energy services; its implications for long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand should be discussed, not presumed. Readers need to see what Vice President of Engineering work involved; connect lead engineering organization, technical delivery, and capability development with the candidate's own examples of engineering scope, architecture choices, delivery systems, people leadership, and operational outcomes in Energy, Mining and Oil and Gas.
+Protect credibility in Energy, Mining and Oil and Gas by addressing substituting technology keywords for evidence of scale, decisions, and delivery conditions with a factual account of engineering scope, architecture choices, delivery systems, people leadership, and operational outcomes and its limits. A Vice President of Engineering example should separate direct responsibility from collaboration. An employer's Energy, Mining and Oil and Gas model may involve asset-intensive work spanning development, extraction, generation, processing, or energy services; its implications for long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand should be discussed, not presumed. Readers need to see what Vice President of Engineering work involved; connect lead engineering organization, technical delivery, and capability development with the candidate's own examples of engineering scope, architecture choices, delivery systems, people leadership, and operational outcomes in Energy, Mining and Oil and Gas.
 
 ## Common positioning mistakes for Vice President of Engineering candidates in Energy, Mining and Oil and Gas
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Engineering career hub](/roles/vp-engineering/)
 
-Review the role-wide approach to lead engineering organization, technical delivery, and capability development and the evidence expected for that scope.
+
 
 ### [Energy, Mining and Oil and Gas industry hub](/industries/energy-mining-oil-gas/)
 
-Compare how asset-intensive work spanning development, extraction, generation, processing, or energy services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Energy, Mining and Oil and Gas](/roles/ceo/energy-mining-oil-gas.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Engineering remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Operating Officer in Energy, Mining and Oil and Gas](/roles/coo/energy-mining-oil-gas.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Engineering remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Vice President of Engineering in Utilities](/roles/vp-engineering/utilities.html)
 
-Compare essential network or service operations with continuity, infrastructure, and customer responsibilities with asset-intensive work spanning development, extraction, generation, processing, or energy services and identify how the Vice President of Engineering remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Vice President of Engineering in Energy, Mining and Oil and Gas?
 
-Start with the organization's account of asset-intensive work spanning development, extraction, generation, processing, or energy services, then clarify how the Vice President of Engineering would lead engineering organization, technical delivery, and capability development. Ask how asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of asset-intensive work spanning development, extraction, generation, processing, or energy services, then clarify how the Vice President of Engineering would lead engineering organization, technical delivery, and capability development. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Vice President of Engineering make prior work relevant to Energy, Mining and Oil and Gas?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could lead engineering organization, te
 
 ### Which career materials can help a Vice President of Engineering explore work in Energy, Mining and Oil and Gas?
 
-Possible materials include executive resume, engineering leadership profile, portfolio summary, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes. Each claim should be accurate for this Energy, Mining and Oil and Gas target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, engineering leadership profile, portfolio summary, and profile. Each claim should be accurate for this Energy, Mining and Oil and Gas target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Vice President of Engineering contacts an organization in Energy, Mining and Oil and Gas?
 
-Outreach should follow target research, not precede it. The Vice President of Engineering candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with engineering scope, architecture choices, delivery systems, people leadership, and operational outcomes is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Vice President of Engineering background relevant to work in Energy, Mining and Oil and Gas?
 
-No. Compare the role description with the candidate's experience of lead engineering organization, technical delivery, and capability development and the organization's asset-intensive work spanning development, extraction, generation, processing, or energy services. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Vice President of Engineering outreach in Energy, Mining and Oil and Gas?
 

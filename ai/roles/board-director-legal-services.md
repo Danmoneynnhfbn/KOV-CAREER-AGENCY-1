@@ -12,7 +12,7 @@ A Board Director candidate should show how committee or board remit, preparation
 
 ## A candidate-led process from first discussion to next steps
 
-In a Legal Services target, make the Board Director contribution legible: describe how the candidate helped contribute oversight, inquiry, and strategic perspective within collective governance and what supports committee or board remit, preparation, judgment, relevant expertise, and collective contribution. Treat legal advice, representation, transactions, dispute work, or related professional services as a question to validate in Legal Services; the answer helps clarify the Board Director mandate and its professional judgment, client service, confidentiality, practice operations, and shared leadership. Consider how clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities interact with a Board Director; use examples of practice or business scope, client-service context, team leadership, governance interface, and authorized examples to show judgment and collaboration. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Legal Services.
+In a Legal Services target, make the Board Director contribution legible: describe how the candidate helped contribute oversight, inquiry, and strategic perspective within collective governance and what supports committee or board remit, preparation, judgment, relevant expertise, and collective contribution. Consider how clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities interact with a Board Director; use examples of practice or business scope, client-service context, team leadership, governance interface, and authorized examples to show judgment and collaboration. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Legal Services.
 
 ## Documents that make Board Director experience relevant here
 
@@ -33,7 +33,7 @@ A Board Director candidate should be ready to explain implying executive authori
 
 ## Choose the individual services that fit the work
 
-Position a Board Director career by linking contribute oversight, inquiry, and strategic perspective within collective governance to practice or business scope, client-service context, team leadership, governance interface, and authorized examples, then clarify which part of that work the candidate actually owned. Not every Legal Services organization will handle professional judgment, client service, confidentiality, practice operations, and shared leadership alike. Confirm how legal advice, representation, transactions, dispute work, or related professional services informs this Board Director position. Where appropriate to the agreed service, KOV can help a Board Director candidate prepare and coordinate approved next steps for Legal Services. Good preparation for Board Director work includes a safe way to explain implying executive authority for board decisions or claiming confidential board outcomes and a clear distinction between fact and inference.
+Position a Board Director career by linking contribute oversight, inquiry, and strategic perspective within collective governance to practice or business scope, client-service context, team leadership, governance interface, and authorized examples, then clarify which part of that work the candidate actually owned. Confirm how legal advice, representation, transactions, dispute work, or related professional services informs this Board Director position. Where appropriate to the agreed service, KOV can help a Board Director candidate prepare and coordinate approved next steps for Legal Services. Good preparation for Board Director work includes a safe way to explain implying executive authority for board decisions or claiming confidential board outcomes and a clear distinction between fact and inference.
 
 ### [Private career representation](/services.html)
 
@@ -49,7 +49,7 @@ To assess a Board Director opportunity in Legal Services, compare the stated rem
 
 ## Common positioning mistakes for Board Director candidates in Legal Services
 
-A precise Board Director story ties committee or board remit, preparation, judgment, relevant expertise, and collective contribution to the mandate of contribute oversight, inquiry, and strategic perspective within collective governance, without suggesting that the title alone establishes fit. Before presenting practice or business scope, client-service context, team leadership, governance interface, and authorized examples, determine how clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities participated and which details are safe to discuss. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Legal Services. Do not resolve uncertainty about implying executive authority for board decisions or claiming confidential board outcomes through assumption; verify the requirement and use only supportable Board Director claims.
+A precise Board Director story ties committee or board remit, preparation, judgment, relevant expertise, and collective contribution to the mandate of contribute oversight, inquiry, and strategic perspective within collective governance, without suggesting that the title alone establishes fit. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Legal Services. Do not resolve uncertainty about implying executive authority for board decisions or claiming confidential board outcomes through assumption; verify the requirement and use only supportable Board Director claims.
 
 - Treat Legal Services as one uniform employer type; distinguish the actual organization and role.
 - Use a Board Director title without explaining contribute oversight, inquiry, and strategic perspective within collective governance.
@@ -63,7 +63,7 @@ Do not resolve uncertainty about implying executive authority for board decision
 
 ## Prepare for conversations about Legal Services work
 
-Candidate-side support from KOV may connect Board Director positioning, relevant documents, and approved outreach, within the scope the candidate agrees. In Legal Services, clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities may shape the work. A Board Director example should separate direct responsibility from collaboration. A candidate exploring Legal Services should test the assumed link between legal advice, representation, transactions, dispute work, or related professional services and professional judgment, client service, confidentiality, practice operations, and shared leadership against the actual Board Director role description. The Board Director remit to contribute oversight, inquiry, and strategic perspective within collective governance should be described through decisions and examples, especially evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution relevant to Legal Services.
+Candidate-side support from KOV may connect Board Director positioning, relevant documents, and approved outreach, within the scope the candidate agrees. A Board Director example should separate direct responsibility from collaboration. A candidate exploring Legal Services should test the assumed link between legal advice, representation, transactions, dispute work, or related professional services and professional judgment, client service, confidentiality, practice operations, and shared leadership against the actual Board Director role description. The Board Director remit to contribute oversight, inquiry, and strategic perspective within collective governance should be described through decisions and examples, especially evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution relevant to Legal Services.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Board Director career hub](/roles/board-director/)
 
-Review the role-wide approach to contribute oversight, inquiry, and strategic perspective within collective governance and the evidence expected for that scope.
+
 
 ### [Legal Services industry hub](/industries/legal-services/)
 
-Compare how legal advice, representation, transactions, dispute work, or related professional services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Legal Services](/roles/ceo/legal-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Board Director remit; consider where each function meets legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Operating Officer in Legal Services](/roles/coo/legal-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Board Director remit; consider where each function meets legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Board Director in Agriculture, Food and Forestry](/roles/board-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with legal advice, representation, transactions, dispute work, or related professional services and identify how the Board Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Board Director clarify before considering work in Legal Services?
 
-A Board Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's legal advice, representation, transactions, dispute work, or related professional services. Explore how the role will contribute oversight, inquiry, and strategic perspective within collective governance and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Board Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's legal advice, representation, transactions, dispute work, or related professional services. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Board Director describe transferable experience for Legal Services work?
 
@@ -139,19 +139,19 @@ Describe an instance where the candidate could contribute oversight, inquiry, an
 
 ### How can a Board Director choose documents for conversations about Legal Services?
 
-Possible materials include board biography, governance resume, skills matrix, and concise profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to practice or business scope, client-service context, team leadership, governance interface, and authorized examples. Each claim should be accurate for this Legal Services target, and confidential or unauthorized material should be omitted.
+Possible materials include board biography, governance resume, skills matrix, and concise profile. Each claim should be accurate for this Legal Services target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Board Director plan contact with Legal Services organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Board Director candidate's service scope; the candidate approves external communication. No one route should be assumed for all Legal Services employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Legal Services employers.
 
 ### How can a Board Director assess fit with Legal Services responsibilities?
 
-Title is only a label. Establish what the employer means by Board Director in this Legal Services organization and how the person will work with clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Board Director candidate considering Legal Services?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Board Director candidate considering Legal Services, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

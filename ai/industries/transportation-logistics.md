@@ -85,27 +85,27 @@ Use KOV's London page as a starting point for an agreed UK-focused search discus
 
 ### Saudi Arabia
 
-For Transportation and Logistics targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Transportation and Logistics targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Transportation and Logistics targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### UAE
 
-For Transportation and Logistics targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Transportation and Logistics targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Transportation and Logistics targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### United Kingdom
 
-For Transportation and Logistics targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Transportation and Logistics targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Transportation and Logistics targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Dubai
 
-For Transportation and Logistics targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Transportation and Logistics targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Transportation and Logistics targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Australia
 
-For Transportation and Logistics targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Transportation and Logistics targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Transportation and Logistics targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Africa
 
-For Transportation and Logistics targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Transportation and Logistics targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Transportation and Logistics targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ## Choose an appropriate level of career support
 
@@ -129,103 +129,103 @@ Use the cards to open only the role-and-industry pages currently available. Each
 
 ### [Chief Executive Officer in Transportation and Logistics](/roles/ceo/transportation-logistics.html)
 
-Explore how set organization-wide direction and coordinate executive work connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Operating Officer in Transportation and Logistics](/roles/coo/transportation-logistics.html)
 
-Explore how align operating functions, delivery systems, and organizational priorities connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Financial Officer in Transportation and Logistics](/roles/cfo/transportation-logistics.html)
 
-Explore how lead financial stewardship and connect resource decisions to organizational priorities connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Technology Officer in Transportation and Logistics](/roles/cto/transportation-logistics.html)
 
-Explore how set technology direction and connect technical choices with product and business needs connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Information Officer in Transportation and Logistics](/roles/cio/transportation-logistics.html)
 
-Explore how guide information systems, digital operations, and technology services for the organization connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Marketing Officer in Transportation and Logistics](/roles/cmo/transportation-logistics.html)
 
-Explore how shape marketing strategy, customer understanding, brand, and commercial communication connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Human Resources Officer in Transportation and Logistics](/roles/chro/transportation-logistics.html)
 
-Explore how guide people strategy, organizational capability, and workforce-related leadership connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Information Security Officer in Transportation and Logistics](/roles/ciso/transportation-logistics.html)
 
-Explore how lead information-security priorities and coordinate risk-informed protection connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [General Counsel / Chief Legal Officer in Transportation and Logistics](/roles/general-counsel/transportation-logistics.html)
 
-Explore how lead legal judgment and connect legal advice with organizational decisions connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Revenue Officer in Transportation and Logistics](/roles/chief-revenue-officer/transportation-logistics.html)
 
-Explore how coordinate revenue-facing functions around a coherent commercial direction connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Product Officer in Transportation and Logistics](/roles/chief-product-officer/transportation-logistics.html)
 
-Explore how guide product direction, portfolio choices, and the connection between users and delivery teams connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Strategy Officer in Transportation and Logistics](/roles/chief-strategy-officer/transportation-logistics.html)
 
-Explore how support organization-wide choices by framing options, analysis, and strategic execution connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Board Director in Transportation and Logistics](/roles/board-director/transportation-logistics.html)
 
-Explore how contribute oversight, inquiry, and strategic perspective within collective governance connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Non-Executive Director in Transportation and Logistics](/roles/non-executive-director/transportation-logistics.html)
 
-Explore how provide independent challenge and strategic contribution distinct from management connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chair in Transportation and Logistics](/roles/chair/transportation-logistics.html)
 
-Explore how lead board effectiveness and support clear governance and decision-making connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Managing Director in Transportation and Logistics](/roles/managing-director/transportation-logistics.html)
 
-Explore how lead a business, division, or organization according to its defined mandate connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Managing Partner in Transportation and Logistics](/roles/managing-partner/transportation-logistics.html)
 
-Explore how combine leadership responsibilities with the governance and professional context of a partnership connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Partner in Transportation and Logistics](/roles/partner/transportation-logistics.html)
 
-Explore how develop a practice or business while contributing to a shared ownership or partnership structure connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Vice President of Engineering in Transportation and Logistics](/roles/vp-engineering/transportation-logistics.html)
 
-Explore how lead engineering organization, technical delivery, and capability development connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Vice President of Operations in Transportation and Logistics](/roles/vp-operations/transportation-logistics.html)
 
-Explore how coordinate operational performance across teams, locations, or service lines connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Vice President of Product in Transportation and Logistics](/roles/vp-product/transportation-logistics.html)
 
-Explore how set product priorities and coordinate discovery, planning, and delivery connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Director of Operations in Transportation and Logistics](/roles/director-operations/transportation-logistics.html)
 
-Explore how manage operational delivery and improve coordination within a defined remit connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Director of Engineering in Transportation and Logistics](/roles/director-engineering/transportation-logistics.html)
 
-Explore how direct engineering teams and coordinate technical execution in a defined area connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Director of Product in Transportation and Logistics](/roles/director-product/transportation-logistics.html)
 
-Explore how lead a product area and align customer needs with team delivery connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Head of Compliance in Transportation and Logistics](/roles/head-compliance/transportation-logistics.html)
 
-Explore how coordinate compliance programs and support consistent interpretation of organizational obligations connects with movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ## Questions that make a Transportation and Logistics target more specific
 
@@ -259,7 +259,7 @@ KOV can help candidates organize relevant experience and documents around an agr
 
 ### Can KOV promise an interview with a Transportation and Logistics organization?
 
-No. KOV does not guarantee interviews, offers, employment, introductions, or timelines. Employers make hiring decisions.
+No. Employers make hiring decisions.
 
 ### How should I compare two Transportation and Logistics opportunities?
 

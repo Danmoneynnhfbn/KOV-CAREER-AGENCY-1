@@ -63,7 +63,7 @@ Research for a Vice President of Engineering in Technology, Media and Telecom be
 
 ## Prepare for conversations about Technology, Media and Telecom work
 
-For Vice President of Engineering work in Technology, Media and Telecom, explain how the candidate could lead engineering organization, technical delivery, and capability development; connect that mandate to evidence of engineering scope, architecture choices, delivery systems, people leadership, and operational outcomes. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Vice President of Engineering example should separate direct responsibility from collaboration. Where appropriate to the agreed service, KOV can help a Vice President of Engineering candidate prepare and coordinate approved next steps for Technology, Media and Telecom. The candidate can discuss engineering scope, architecture choices, delivery systems, people leadership, and operational outcomes while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+For Vice President of Engineering work in Technology, Media and Telecom, explain how the candidate could lead engineering organization, technical delivery, and capability development; connect that mandate to evidence of engineering scope, architecture choices, delivery systems, people leadership, and operational outcomes. A Vice President of Engineering example should separate direct responsibility from collaboration. Where appropriate to the agreed service, KOV can help a Vice President of Engineering candidate prepare and coordinate approved next steps for Technology, Media and Telecom. The candidate can discuss engineering scope, architecture choices, delivery systems, people leadership, and operational outcomes while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Engineering career hub](/roles/vp-engineering/)
 
-Review the role-wide approach to lead engineering organization, technical delivery, and capability development and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Engineering remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Engineering remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Vice President of Engineering in Energy, Mining and Oil and Gas](/roles/vp-engineering/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with digital products, platforms, content, communications, or technology-enabled services and identify how the Vice President of Engineering remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Vice President of Engineering test the scope of work in Technology, Media and Telecom?
 
-Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the Vice President of Engineering would lead engineering organization, technical delivery, and capability development. Ask how users, product and engineering teams, customers, creators, advertisers, partners, and investors participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the Vice President of Engineering would lead engineering organization, technical delivery, and capability development. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Vice President of Engineering use to explain experience in Technology, Media and Telecom?
 
@@ -139,11 +139,11 @@ Select examples that show engineering scope, architecture choices, delivery syst
 
 ### What documents should a Vice President of Engineering tailor for Technology, Media and Telecom opportunities?
 
-Possible materials include executive resume, engineering leadership profile, portfolio summary, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, engineering leadership profile, portfolio summary, and profile. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Vice President of Engineering considering Technology, Media and Telecom?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Vice President of Engineering candidate's service scope; the candidate approves external communication. No one route should be assumed for all Technology, Media and Telecom employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Technology, Media and Telecom employers.
 
 ### Can a Vice President of Engineering rely on title alone when targeting Technology, Media and Telecom?
 

@@ -45,11 +45,11 @@ Consider document and positioning support for Director of Sales materials that p
 
 ## Prepare to discuss the Retail and E-commerce mandate
 
-The candidate decides whether to pursue a Director of Sales opportunity. KOV can support agreed research and preparation concerning Retail and E-commerce. Preparation for a Director of Sales conversation should address the channel mix, customer segment, operating footprint, and whether the remit centers on brand, product, service, or fulfillment; relate the response to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution, not speculation about hiring. A candidate exploring Retail and E-commerce should test the assumed link between customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and customer experience, assortment, inventory, channel coordination, and rapid feedback against the actual Director of Sales role description. Rather than lead with seniority, a Director of Sales profile can explain the responsibility to manage sales teams, accounts, or territories against an agreed commercial plan and use customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution as evidence.
+The candidate decides whether to pursue a Director of Sales opportunity. Preparation for a Director of Sales conversation should address the channel mix, customer segment, operating footprint, and whether the remit centers on brand, product, service, or fulfillment; relate the response to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution, not speculation about hiring. A candidate exploring Retail and E-commerce should test the assumed link between customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and customer experience, assortment, inventory, channel coordination, and rapid feedback against the actual Director of Sales role description. Rather than lead with seniority, a Director of Sales profile can explain the responsibility to manage sales teams, accounts, or territories against an agreed commercial plan and use customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution as evidence.
 
 ## Common positioning mistakes for Director of Sales candidates in Retail and E-commerce
 
-The Director of Sales remit to manage sales teams, accounts, or territories against an agreed commercial plan should be described through decisions and examples, especially evidence of customer segment, territory or account scope, team contribution, and sales process relevant to Retail and E-commerce. Use customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment to frame research about Retail and E-commerce, then ask how a Director of Sales will work through customer experience, assortment, inventory, channel coordination, and rapid feedback. In Retail and E-commerce, customers, store or digital teams, suppliers, brand partners, operations, and owners may shape the work. A Director of Sales example should separate direct responsibility from collaboration. Candidate-side support from KOV may connect Director of Sales positioning, relevant documents, and approved outreach, within the scope the candidate agrees.
+The Director of Sales remit to manage sales teams, accounts, or territories against an agreed commercial plan should be described through decisions and examples, especially evidence of customer segment, territory or account scope, team contribution, and sales process relevant to Retail and E-commerce. In Retail and E-commerce, customers, store or digital teams, suppliers, brand partners, operations, and owners may shape the work. A Director of Sales example should separate direct responsibility from collaboration. Candidate-side support from KOV may connect Director of Sales positioning, relevant documents, and approved outreach, within the scope the candidate agrees.
 
 - Treat Retail and E-commerce as one uniform employer type; distinguish the actual organization and role.
 - Use a Director of Sales title without explaining manage sales teams, accounts, or territories against an agreed commercial plan.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Sales career hub](/roles/director-sales/)
 
-Review the role-wide approach to manage sales teams, accounts, or territories against an agreed commercial plan and the evidence expected for that scope.
+
 
 ### [Retail and E-commerce industry hub](/industries/retail-ecommerce/)
 
-Compare how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment affects career planning across functions.
+
 
 ### [Chief Executive Officer in Retail and E-commerce](/roles/ceo/retail-ecommerce.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Sales remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Operating Officer in Retail and E-commerce](/roles/coo/retail-ecommerce.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Sales remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Director of Sales in Manufacturing](/roles/director-sales/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and identify how the Director of Sales remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Director of Sales resolve before a target discussion in Retail and E-commerce?
 
-Use the opening discussion to understand the specific Retail and E-commerce employer, not to assume a standard role. Compare manage sales teams, accounts, or territories against an agreed commercial plan with the stated scope, identify decision partners among customers, store or digital teams, suppliers, brand partners, operations, and owners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Retail and E-commerce employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Director of Sales career story fit the needs of Retail and E-commerce?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Director of Sales approve before outreach in Retail and E-commerce?
 
-Outreach should follow target research, not precede it. The Director of Sales candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with customer segment, territory or account scope, team contribution, and sales process is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a Director of Sales compare title and remit in Retail and E-commerce?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate customer s
 
 ### Will KOV secure a meeting for a Director of Sales with an employer in Retail and E-commerce?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of Sales candidate considering Retail and E-commerce, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

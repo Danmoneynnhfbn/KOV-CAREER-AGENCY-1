@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Information Security Officer career hub](/roles/ciso/)
 
-Review the role-wide approach to lead information-security priorities and coordinate risk-informed protection and the evidence expected for that scope.
+
 
 ### [Energy, Mining and Oil and Gas industry hub](/industries/energy-mining-oil-gas/)
 
-Compare how asset-intensive work spanning development, extraction, generation, processing, or energy services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Energy, Mining and Oil and Gas](/roles/ceo/energy-mining-oil-gas.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Information Security Officer remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Operating Officer in Energy, Mining and Oil and Gas](/roles/coo/energy-mining-oil-gas.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Information Security Officer remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Information Security Officer in Agriculture, Food and Forestry](/roles/ciso/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with asset-intensive work spanning development, extraction, generation, processing, or energy services and identify how the Chief Information Security Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Chief Information Security Officer resolve before a target discussion in Energy, Mining and Oil and Gas?
 
-A Chief Information Security Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's asset-intensive work spanning development, extraction, generation, processing, or energy services. Explore how the role will lead information-security priorities and coordinate risk-informed protection and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Information Security Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's asset-intensive work spanning development, extraction, generation, processing, or energy services. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Chief Information Security Officer career story fit the needs of Energy, Mining and Oil and Gas?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of security remit, risk dec
 
 ### What should a Chief Information Security Officer prepare in writing before targeting Energy, Mining and Oil and Gas?
 
-Possible materials include executive resume, security leadership summary, profile, and sanitized case examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes. Each claim should be accurate for this Energy, Mining and Oil and Gas target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, security leadership summary, profile, and sanitized case examples. Each claim should be accurate for this Energy, Mining and Oil and Gas target, and confidential or unauthorized material should be omitted.
 
 ### What should a Chief Information Security Officer approve before outreach in Energy, Mining and Oil and Gas?
 

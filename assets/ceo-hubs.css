@@ -12,11 +12,12 @@
 .ceo-prose ul,.ceo-prose ol{padding-left:1.35rem;color:#4e4b48;line-height:1.7}
 .ceo-prose li+li{margin-top:.55rem}
 .ceo-label{font-size:.68rem;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b3642b}
-.ceo-section{padding:clamp(3.5rem,7vw,6.5rem) 0;border-bottom:1px solid #e7e1d8}
+.ceo-section{padding:clamp(2.75rem,5vw,4.75rem) 0;border-bottom:1px solid #e7e1d8}
 .ceo-hero{background:#f1ece3;position:relative;overflow:hidden}
 .ceo-hero h1{max-width:17ch;font:500 clamp(2.7rem,6vw,5.2rem)/1.04 Fraunces,Georgia,serif;letter-spacing:-.04em}
 .ceo-hero-lead{max-width:65ch;font-size:1.16rem;line-height:1.75;color:#4e4b48}
 .ceo-hero-panel{border:1px solid #dcd3c7;background:#fff9;border-radius:1rem;padding:1.5rem;line-height:1.7}
+.ceo-hero-image{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:.65rem;margin-bottom:1rem}
 .ceo-hero-panel a{color:#8b4b22;font-weight:700}
 .ceo-hero-actions{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1.5rem}
 .ceo-button{display:inline-flex;align-items:center;justify-content:center;min-height:2.75rem;padding:.75rem 1.15rem;border-radius:999px;font-size:.8rem;font-weight:700;text-decoration:none}

@@ -204,6 +204,11 @@
   object-fit: contain;
 }
 
+.seo-hero-art img.seo-hero-photo {
+  height: 340px;
+  object-fit: cover;
+}
+
 .seo-hero-art figcaption {
   position: relative;
   margin-top: 14px;

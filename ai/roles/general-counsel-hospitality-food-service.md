@@ -4,7 +4,7 @@ KOV helps General Counsel / Chief Legal Officer candidates considering roles con
 
 ## How General Counsel / Chief Legal Officer work connects with Hospitality and Food Service
 
-The General Counsel / Chief Legal Officer remit to lead legal judgment and connect legal advice with organizational decisions should be described through decisions and examples, especially evidence of legal remit, advisory judgment, team scope, governance interaction, and business context relevant to Hospitality and Food Service. Not every Hospitality and Food Service organization will handle guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alike. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this General Counsel / Chief Legal Officer position. KOV can help a General Counsel / Chief Legal Officer candidate organize an agreed search approach for Hospitality and Food Service, including documents such as executive resume, legal leadership biography, practice summary, and professional profile. A General Counsel / Chief Legal Officer candidate should be ready to explain confusing legal advice with business decision ownership or disclosing privileged information without revealing confidential details or implying unsupported responsibility.
+The General Counsel / Chief Legal Officer remit to lead legal judgment and connect legal advice with organizational decisions should be described through decisions and examples, especially evidence of legal remit, advisory judgment, team scope, governance interaction, and business context relevant to Hospitality and Food Service. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this General Counsel / Chief Legal Officer position. KOV can help a General Counsel / Chief Legal Officer candidate organize an agreed search approach for Hospitality and Food Service, including documents such as executive resume, legal leadership biography, practice summary, and professional profile. A General Counsel / Chief Legal Officer candidate should be ready to explain confusing legal advice with business decision ownership or disclosing privileged information without revealing confidential details or implying unsupported responsibility.
 
 ## Who this General Counsel / Chief Legal Officer and Hospitality and Food Service guide is for
 
@@ -16,7 +16,7 @@ A precise General Counsel / Chief Legal Officer story ties legal remit, advisory
 
 ## Documents that make General Counsel / Chief Legal Officer experience relevant here
 
-Readers need to see what General Counsel / Chief Legal Officer work involved; connect lead legal judgment and connect legal advice with organizational decisions with the candidate's own examples of legal remit, advisory judgment, team scope, governance interaction, and business context in Hospitality and Food Service. For Hospitality and Food Service, establish whether guest-facing accommodation, food, venue, or experience services delivered through people and operations describes the target employer and how guest experience, operating capacity, service consistency, workforce coordination, and supplier variability is reflected in its General Counsel / Chief Legal Officer mandate. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A General Counsel / Chief Legal Officer example should separate direct responsibility from collaboration. Where confusing legal advice with business decision ownership or disclosing privileged information affects a career example, substitute an authorized summary that preserves the point about legal remit, advisory judgment, team scope, governance interaction, and business context.
+Readers need to see what General Counsel / Chief Legal Officer work involved; connect lead legal judgment and connect legal advice with organizational decisions with the candidate's own examples of legal remit, advisory judgment, team scope, governance interaction, and business context in Hospitality and Food Service. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A General Counsel / Chief Legal Officer example should separate direct responsibility from collaboration. Where confusing legal advice with business decision ownership or disclosing privileged information affects a career example, substitute an authorized summary that preserves the point about legal remit, advisory judgment, team scope, governance interaction, and business context.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ Readers need to see what General Counsel / Chief Legal Officer work involved; co
 
 ## Choose the individual services that fit the work
 
-For General Counsel / Chief Legal Officer work in Hospitality and Food Service, explain how the candidate could lead legal judgment and connect legal advice with organizational decisions; connect that mandate to evidence of legal remit, advisory judgment, team scope, governance interaction, and business context. To understand the Hospitality and Food Service target, explore guest-facing accommodation, food, venue, or experience services delivered through people and operations and ask how a General Counsel / Chief Legal Officer is expected to respond to guest experience, operating capacity, service consistency, workforce coordination, and supplier variability. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A General Counsel / Chief Legal Officer example should separate direct responsibility from collaboration. Protect credibility in Hospitality and Food Service by addressing confusing legal advice with business decision ownership or disclosing privileged information with a factual account of legal remit, advisory judgment, team scope, governance interaction, and business context and its limits.
+For General Counsel / Chief Legal Officer work in Hospitality and Food Service, explain how the candidate could lead legal judgment and connect legal advice with organizational decisions; connect that mandate to evidence of legal remit, advisory judgment, team scope, governance interaction, and business context. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A General Counsel / Chief Legal Officer example should separate direct responsibility from collaboration. Protect credibility in Hospitality and Food Service by addressing confusing legal advice with business decision ownership or disclosing privileged information with a factual account of legal remit, advisory judgment, team scope, governance interaction, and business context and its limits.
 
 ### [Private career representation](/services.html)
 
@@ -49,7 +49,7 @@ Career representation remains candidate-led: KOV can support a General Counsel /
 
 ## Common positioning mistakes for General Counsel / Chief Legal Officer candidates in Hospitality and Food Service
 
-For General Counsel / Chief Legal Officer materials, manage the risk of confusing legal advice with business decision ownership or disclosing privileged information; support claims with legal remit, advisory judgment, team scope, governance interaction, and business context and remove details that are not authorized for sharing. Map the Hospitality and Food Service relationships among guests, employees, suppliers, owners, local partners, and service teams; verify actual authority instead of inferring a reporting line. Not every Hospitality and Food Service organization will handle guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alike. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this General Counsel / Chief Legal Officer position. For General Counsel / Chief Legal Officer work in Hospitality and Food Service, explain how the candidate could lead legal judgment and connect legal advice with organizational decisions; connect that mandate to evidence of legal remit, advisory judgment, team scope, governance interaction, and business context.
+For General Counsel / Chief Legal Officer materials, manage the risk of confusing legal advice with business decision ownership or disclosing privileged information; support claims with legal remit, advisory judgment, team scope, governance interaction, and business context and remove details that are not authorized for sharing. Not every Hospitality and Food Service organization will handle guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alike. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this General Counsel / Chief Legal Officer position. For General Counsel / Chief Legal Officer work in Hospitality and Food Service, explain how the candidate could lead legal judgment and connect legal advice with organizational decisions; connect that mandate to evidence of legal remit, advisory judgment, team scope, governance interaction, and business context.
 
 - Treat Hospitality and Food Service as one uniform employer type; distinguish the actual organization and role.
 - Use a General Counsel / Chief Legal Officer title without explaining lead legal judgment and connect legal advice with organizational decisions.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [General Counsel / Chief Legal Officer career hub](/roles/general-counsel/)
 
-Review the role-wide approach to lead legal judgment and connect legal advice with organizational decisions and the evidence expected for that scope.
+
 
 ### [Hospitality and Food Service industry hub](/industries/hospitality-food-service/)
 
-Compare how guest-facing accommodation, food, venue, or experience services delivered through people and operations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Hospitality and Food Service](/roles/ceo/hospitality-food-service.html)
 
-Contrast set organization-wide direction and coordinate executive work with the General Counsel / Chief Legal Officer remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Operating Officer in Hospitality and Food Service](/roles/coo/hospitality-food-service.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the General Counsel / Chief Legal Officer remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [General Counsel / Chief Legal Officer in Agriculture, Food and Forestry](/roles/general-counsel/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with guest-facing accommodation, food, venue, or experience services delivered through people and operations and identify how the General Counsel / Chief Legal Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a General Counsel / Chief Legal Officer in Hospitality and Food Service?
 
-A General Counsel / Chief Legal Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. Explore how the role will lead legal judgment and connect legal advice with organizational decisions and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A General Counsel / Chief Legal Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a General Counsel / Chief Legal Officer make prior work relevant to Hospitality and Food Service?
 

@@ -85,27 +85,27 @@ Use KOV's London page as a starting point for an agreed UK-focused search discus
 
 ### Saudi Arabia
 
-For Education targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Education targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Education targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### UAE
 
-For Education targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Education targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Education targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### United Kingdom
 
-For Education targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Education targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Education targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Dubai
 
-For Education targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Education targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Education targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Australia
 
-For Education targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Education targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Education targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Africa
 
-For Education targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Education targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Education targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ## Choose an appropriate level of career support
 
@@ -129,99 +129,99 @@ Use the cards to open only the role-and-industry pages currently available. Each
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Explore how set organization-wide direction and coordinate executive work connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Education](/roles/coo/education.html)
 
-Explore how align operating functions, delivery systems, and organizational priorities connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Financial Officer in Education](/roles/cfo/education.html)
 
-Explore how lead financial stewardship and connect resource decisions to organizational priorities connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Technology Officer in Education](/roles/cto/education.html)
 
-Explore how set technology direction and connect technical choices with product and business needs connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Information Officer in Education](/roles/cio/education.html)
 
-Explore how guide information systems, digital operations, and technology services for the organization connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Marketing Officer in Education](/roles/cmo/education.html)
 
-Explore how shape marketing strategy, customer understanding, brand, and commercial communication connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Human Resources Officer in Education](/roles/chro/education.html)
 
-Explore how guide people strategy, organizational capability, and workforce-related leadership connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Information Security Officer in Education](/roles/ciso/education.html)
 
-Explore how lead information-security priorities and coordinate risk-informed protection connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [General Counsel / Chief Legal Officer in Education](/roles/general-counsel/education.html)
 
-Explore how lead legal judgment and connect legal advice with organizational decisions connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Revenue Officer in Education](/roles/chief-revenue-officer/education.html)
 
-Explore how coordinate revenue-facing functions around a coherent commercial direction connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Product Officer in Education](/roles/chief-product-officer/education.html)
 
-Explore how guide product direction, portfolio choices, and the connection between users and delivery teams connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Strategy Officer in Education](/roles/chief-strategy-officer/education.html)
 
-Explore how support organization-wide choices by framing options, analysis, and strategic execution connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Board Director in Education](/roles/board-director/education.html)
 
-Explore how contribute oversight, inquiry, and strategic perspective within collective governance connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Non-Executive Director in Education](/roles/non-executive-director/education.html)
 
-Explore how provide independent challenge and strategic contribution distinct from management connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chair in Education](/roles/chair/education.html)
 
-Explore how lead board effectiveness and support clear governance and decision-making connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Managing Director in Education](/roles/managing-director/education.html)
 
-Explore how lead a business, division, or organization according to its defined mandate connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Managing Partner in Education](/roles/managing-partner/education.html)
 
-Explore how combine leadership responsibilities with the governance and professional context of a partnership connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Partner in Education](/roles/partner/education.html)
 
-Explore how develop a practice or business while contributing to a shared ownership or partnership structure connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Vice President of People in Education](/roles/vp-people/education.html)
 
-Explore how lead people programs and partner with managers on organizational capability connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Vice President of Product in Education](/roles/vp-product/education.html)
 
-Explore how set product priorities and coordinate discovery, planning, and delivery connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Director of Finance in Education](/roles/director-finance/education.html)
 
-Explore how lead financial planning, reporting, or control activity for a function or organization connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Director of People in Education](/roles/director-people/education.html)
 
-Explore how lead a people function or program and support managers through organizational change connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Director of Product in Education](/roles/director-product/education.html)
 
-Explore how lead a product area and align customer needs with team delivery connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Head of Data and AI in Education](/roles/head-data-ai/education.html)
 
-Explore how lead data capabilities and coordinate responsible application of analytical or AI work connects with learning services delivered through institutions, programs, technology, or educational support.
+
 
 ## Questions that make a Education target more specific
 
@@ -255,7 +255,7 @@ KOV can help candidates organize relevant experience and documents around an agr
 
 ### Can KOV promise an interview with a Education organization?
 
-No. KOV does not guarantee interviews, offers, employment, introductions, or timelines. Employers make hiring decisions.
+No. Employers make hiring decisions.
 
 ### How should I compare two Education opportunities?
 

@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Business Development career hub](/roles/head-business-development/)
 
-Review the role-wide approach to develop relationships and opportunities that support an organization's commercial direction and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Business Development remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Business Development remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Head of Business Development in Energy, Mining and Oil and Gas](/roles/head-business-development/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with digital products, platforms, content, communications, or technology-enabled services and identify how the Head of Business Development remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Head of Business Development resolve before a target discussion in Technology, Media and Telecom?
 
-Use the opening discussion to understand the specific Technology, Media and Telecom employer, not to assume a standard role. Compare develop relationships and opportunities that support an organization's commercial direction with the stated scope, identify decision partners among users, product and engineering teams, customers, creators, advertisers, partners, and investors, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Technology, Media and Telecom employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Head of Business Development career story fit the needs of Technology, Media and Telecom?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Head of Business Development approve before outreach in Technology, Media and Telecom?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Head of Business Development candidate's service scope; the candidate approves external communication. No one route should be assumed for all Technology, Media and Telecom employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Technology, Media and Telecom employers.
 
 ### How should a Head of Business Development compare title and remit in Technology, Media and Telecom?
 

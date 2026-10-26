@@ -16,7 +16,7 @@ A precise Board Director story ties committee or board remit, preparation, judgm
 
 ## Documents that make Board Director experience relevant here
 
-In a Public Sector and Government target, make the Board Director contribution legible: describe how the candidate helped contribute oversight, inquiry, and strategic perspective within collective governance and what supports committee or board remit, preparation, judgment, relevant expertise, and collective contribution. In Public Sector and Government, residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders may shape the work. A Board Director example should separate direct responsibility from collaboration. KOV can help a Board Director candidate organize an agreed search approach for Public Sector and Government, including documents such as board biography, governance resume, skills matrix, and concise profile. Where implying executive authority for board decisions or claiming confidential board outcomes affects a career example, substitute an authorized summary that preserves the point about committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
+In a Public Sector and Government target, make the Board Director contribution legible: describe how the candidate helped contribute oversight, inquiry, and strategic perspective within collective governance and what supports committee or board remit, preparation, judgment, relevant expertise, and collective contribution. A Board Director example should separate direct responsibility from collaboration. KOV can help a Board Director candidate organize an agreed search approach for Public Sector and Government, including documents such as board biography, governance resume, skills matrix, and concise profile. Where implying executive authority for board decisions or claiming confidential board outcomes affects a career example, substitute an authorized summary that preserves the point about committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ In a Public Sector and Government target, make the Board Director contribution l
 
 ## Choose the individual services that fit the work
 
-Protect credibility in Public Sector and Government by addressing implying executive authority for board decisions or claiming confidential board outcomes with a factual account of committee or board remit, preparation, judgment, relevant expertise, and collective contribution and its limits. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Public Sector and Government. To understand the Public Sector and Government target, explore public administration, public programs, or services delivered under a public mandate and ask how a Board Director is expected to respond to public purpose, stewardship, transparency, service access, and coordination across institutions. Show the Board Director scope behind the title: how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance, which decisions mattered, and where committee or board remit, preparation, judgment, relevant expertise, and collective contribution demonstrates their contribution.
+Protect credibility in Public Sector and Government by addressing implying executive authority for board decisions or claiming confidential board outcomes with a factual account of committee or board remit, preparation, judgment, relevant expertise, and collective contribution and its limits. KOV can support agreed research and preparation concerning Public Sector and Government. To understand the Public Sector and Government target, explore public administration, public programs, or services delivered under a public mandate and ask how a Board Director is expected to respond to public purpose, stewardship, transparency, service access, and coordination across institutions. Show the Board Director scope behind the title: how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance, which decisions mattered, and where committee or board remit, preparation, judgment, relevant expertise, and collective contribution demonstrates their contribution.
 
 ### [Private career representation](/services.html)
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Board Director materials that pres
 
 ## Prepare to discuss the Public Sector and Government mandate
 
-The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Public Sector and Government. Consider how residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders interact with a Board Director; use examples of program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context to show judgment and collaboration. Research for a Board Director in Public Sector and Government becomes more focused when the candidate investigates public purpose, stewardship, transparency, service access, and coordination across institutions alongside public administration, public programs, or services delivered under a public mandate. Show the Board Director scope behind the title: how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance, which decisions mattered, and where committee or board remit, preparation, judgment, relevant expertise, and collective contribution demonstrates their contribution.
+The candidate decides whether to pursue a Board Director opportunity. Consider how residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders interact with a Board Director; use examples of program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context to show judgment and collaboration. Research for a Board Director in Public Sector and Government becomes more focused when the candidate investigates public purpose, stewardship, transparency, service access, and coordination across institutions alongside public administration, public programs, or services delivered under a public mandate. Show the Board Director scope behind the title: how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance, which decisions mattered, and where committee or board remit, preparation, judgment, relevant expertise, and collective contribution demonstrates their contribution.
 
 ## Common positioning mistakes for Board Director candidates in Public Sector and Government
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Board Director career hub](/roles/board-director/)
 
-Review the role-wide approach to contribute oversight, inquiry, and strategic perspective within collective governance and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Board Director remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Board Director remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Board Director in Agriculture, Food and Forestry](/roles/board-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with public administration, public programs, or services delivered under a public mandate and identify how the Board Director remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Board Director test the scope of work in Public Sector and Government?
 
-Start with the organization's account of public administration, public programs, or services delivered under a public mandate, then clarify how the Board Director would contribute oversight, inquiry, and strategic perspective within collective governance. Ask how residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of public administration, public programs, or services delivered under a public mandate, then clarify how the Board Director would contribute oversight, inquiry, and strategic perspective within collective governance. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Board Director use to explain experience in Public Sector and Government?
 
@@ -139,7 +139,7 @@ Describe an instance where the candidate could contribute oversight, inquiry, an
 
 ### What documents should a Board Director tailor for Public Sector and Government opportunities?
 
-Possible materials include board biography, governance resume, skills matrix, and concise profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
+Possible materials include board biography, governance resume, skills matrix, and concise profile. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Board Director considering Public Sector and Government?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### Can a Board Director rely on title alone when targeting Public Sector and Government?
 
-No. Compare the role description with the candidate's experience of contribute oversight, inquiry, and strategic perspective within collective governance and the organization's public administration, public programs, or services delivered under a public mandate. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Board Director seeking work in Public Sector and Government?
 

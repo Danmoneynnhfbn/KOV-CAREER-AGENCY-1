@@ -8,15 +8,15 @@ A precise Head of Data and AI story ties data products, team scope, quality prac
 
 ## Who this Head of Data and AI and Technology, Media and Telecom guide is for
 
-Readers need to see what Head of Data and AI work involved; connect lead data capabilities and coordinate responsible application of analytical or AI work with the candidate's own examples of data products, team scope, quality practices, governance partnership, and decision value in Technology, Media and Telecom. Use digital products, platforms, content, communications, or technology-enabled services to frame research about Technology, Media and Telecom, then ask how a Head of Data and AI will work through product evolution, reliability, audience or customer needs, technical choices, and changing business models. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Head of Data and AI example should separate direct responsibility from collaboration. Candidate-side support from KOV may connect Head of Data and AI positioning, relevant documents, and approved outreach, within the scope the candidate agrees.
+Readers need to see what Head of Data and AI work involved; connect lead data capabilities and coordinate responsible application of analytical or AI work with the candidate's own examples of data products, team scope, quality practices, governance partnership, and decision value in Technology, Media and Telecom. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Head of Data and AI example should separate direct responsibility from collaboration. Candidate-side support from KOV may connect Head of Data and AI positioning, relevant documents, and approved outreach, within the scope the candidate agrees.
 
 ## A candidate-led process from first discussion to next steps
 
-Show the Head of Data and AI scope behind the title: how the candidate could lead data capabilities and coordinate responsible application of analytical or AI work, which decisions mattered, and where data products, team scope, quality practices, governance partnership, and decision value demonstrates their contribution. Not every Technology, Media and Telecom organization will handle product evolution, reliability, audience or customer needs, technical choices, and changing business models alike. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Head of Data and AI position. Candidate-side support from KOV may connect Head of Data and AI positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Where exposing sensitive datasets, overstating model capability, or omitting human oversight affects a career example, substitute an authorized summary that preserves the point about data products, team scope, quality practices, governance partnership, and decision value.
+Show the Head of Data and AI scope behind the title: how the candidate could lead data capabilities and coordinate responsible application of analytical or AI work, which decisions mattered, and where data products, team scope, quality practices, governance partnership, and decision value demonstrates their contribution. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Head of Data and AI position. Candidate-side support from KOV may connect Head of Data and AI positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Where exposing sensitive datasets, overstating model capability, or omitting human oversight affects a career example, substitute an authorized summary that preserves the point about data products, team scope, quality practices, governance partnership, and decision value.
 
 ## Documents that make Head of Data and AI experience relevant here
 
-The candidate decides whether to pursue a Head of Data and AI opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Head of Data and AI example should separate direct responsibility from collaboration. Research for a Head of Data and AI in Technology, Media and Telecom becomes more focused when the candidate investigates product evolution, reliability, audience or customer needs, technical choices, and changing business models alongside digital products, platforms, content, communications, or technology-enabled services. Readers need to see what Head of Data and AI work involved; connect lead data capabilities and coordinate responsible application of analytical or AI work with the candidate's own examples of data products, team scope, quality practices, governance partnership, and decision value in Technology, Media and Telecom.
+The candidate decides whether to pursue a Head of Data and AI opportunity. A Head of Data and AI example should separate direct responsibility from collaboration. Research for a Head of Data and AI in Technology, Media and Telecom becomes more focused when the candidate investigates product evolution, reliability, audience or customer needs, technical choices, and changing business models alongside digital products, platforms, content, communications, or technology-enabled services. Readers need to see what Head of Data and AI work involved; connect lead data capabilities and coordinate responsible application of analytical or AI work with the candidate's own examples of data products, team scope, quality practices, governance partnership, and decision value in Technology, Media and Telecom.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -67,7 +67,7 @@ Rather than lead with seniority, a Head of Data and AI profile can explain the r
 
 ## Run the search thoughtfully in each target market
 
-The candidate can discuss data products, team scope, quality practices, governance partnership, and decision value while protecting confidentiality by omitting names, restricted figures, and other identifying material. The candidate decides whether to pursue a Head of Data and AI opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Map the Technology, Media and Telecom relationships among users, product and engineering teams, customers, creators, advertisers, partners, and investors; verify actual authority instead of inferring a reporting line. Readers need to see what Head of Data and AI work involved; connect lead data capabilities and coordinate responsible application of analytical or AI work with the candidate's own examples of data products, team scope, quality practices, governance partnership, and decision value in Technology, Media and Telecom.
+The candidate can discuss data products, team scope, quality practices, governance partnership, and decision value while protecting confidentiality by omitting names, restricted figures, and other identifying material. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Map the Technology, Media and Telecom relationships among users, product and engineering teams, customers, creators, advertisers, partners, and investors; verify actual authority instead of inferring a reporting line. Readers need to see what Head of Data and AI work involved; connect lead data capabilities and coordinate responsible application of analytical or AI work with the candidate's own examples of data products, team scope, quality practices, governance partnership, and decision value in Technology, Media and Telecom.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Data and AI career hub](/roles/head-data-ai/)
 
-Review the role-wide approach to lead data capabilities and coordinate responsible application of analytical or AI work and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Data and AI remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Data and AI remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Head of Data and AI in Manufacturing](/roles/head-data-ai/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with digital products, platforms, content, communications, or technology-enabled services and identify how the Head of Data and AI remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Head of Data and AI test the scope of work in Technology, Media and Telecom?
 
-Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the Head of Data and AI would lead data capabilities and coordinate responsible application of analytical or AI work. Ask how users, product and engineering teams, customers, creators, advertisers, partners, and investors participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the Head of Data and AI would lead data capabilities and coordinate responsible application of analytical or AI work. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Head of Data and AI use to explain experience in Technology, Media and Telecom?
 
@@ -139,7 +139,7 @@ Select examples that show data products, team scope, quality practices, governan
 
 ### What documents should a Head of Data and AI tailor for Technology, Media and Telecom opportunities?
 
-Possible materials include resume, data leadership portfolio, project summaries, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, data leadership portfolio, project summaries, and professional profile. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Head of Data and AI considering Technology, Media and Telecom?
 

@@ -8,7 +8,7 @@ Position a Chief Operating Officer career by linking align operating functions, 
 
 ## Who this Chief Operating Officer and Wholesale and Distribution guide is for
 
-Do not resolve uncertainty about describing activity without showing scope, dependencies, or the candidate's contribution through assumption; verify the requirement and use only supportable Chief Operating Officer claims. The service plan should fit the candidate's Chief Operating Officer priorities; agree research, materials, and any outreach before contact occurs. In Wholesale and Distribution, suppliers, retailers, business customers, logistics teams, sales, and inventory operators may shape the work. A Chief Operating Officer example should separate direct responsibility from collaboration. Ask what movement and availability of goods through purchasing, inventory, channel, and delivery relationships means at this particular Wholesale and Distribution organization and how it changes the priorities assigned to a Chief Operating Officer.
+Do not resolve uncertainty about describing activity without showing scope, dependencies, or the candidate's contribution through assumption; verify the requirement and use only supportable Chief Operating Officer claims. In Wholesale and Distribution, suppliers, retailers, business customers, logistics teams, sales, and inventory operators may shape the work. A Chief Operating Officer example should separate direct responsibility from collaboration. Ask what movement and availability of goods through purchasing, inventory, channel, and delivery relationships means at this particular Wholesale and Distribution organization and how it changes the priorities assigned to a Chief Operating Officer.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Operating Officer career hub](/roles/coo/)
 
-Review the role-wide approach to align operating functions, delivery systems, and organizational priorities and the evidence expected for that scope.
+
 
 ### [Wholesale and Distribution industry hub](/industries/wholesale-distribution/)
 
-Compare how movement and availability of goods through purchasing, inventory, channel, and delivery relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Wholesale and Distribution](/roles/ceo/wholesale-distribution.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Operating Officer remit; consider where each function meets movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Financial Officer in Wholesale and Distribution](/roles/cfo/wholesale-distribution.html)
 
-Contrast lead financial stewardship and connect resource decisions to organizational priorities with the Chief Operating Officer remit; consider where each function meets movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with movement and availability of goods through purchasing, inventory, channel, and delivery relationships and identify how the Chief Operating Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Operating Officer in Wholesale and Distribution?
 
-Start with the organization's account of movement and availability of goods through purchasing, inventory, channel, and delivery relationships, then clarify how the Chief Operating Officer would align operating functions, delivery systems, and organizational priorities. Ask how suppliers, retailers, business customers, logistics teams, sales, and inventory operators participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of movement and availability of goods through purchasing, inventory, channel, and delivery relationships, then clarify how the Chief Operating Officer would align operating functions, delivery systems, and organizational priorities. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Chief Operating Officer make prior work relevant to Wholesale and Distribution?
 
@@ -139,15 +139,15 @@ Make the connection explicit: the candidate's record of operating scale, service
 
 ### Which career materials can help a Chief Operating Officer explore work in Wholesale and Distribution?
 
-Possible materials include executive resume, operating-impact summary, leadership biography, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to channel or category scope, inventory and service context, commercial coordination, and customer outcomes. Each claim should be accurate for this Wholesale and Distribution target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, operating-impact summary, leadership biography, and profile. Each claim should be accurate for this Wholesale and Distribution target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Chief Operating Officer contacts an organization in Wholesale and Distribution?
 
-Outreach should follow target research, not precede it. The Chief Operating Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with operating scale, service or product delivery, cross-functional change, and decision rights is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Chief Operating Officer background relevant to work in Wholesale and Distribution?
 
-Title is only a label. Establish what the employer means by Chief Operating Officer in this Wholesale and Distribution organization and how the person will work with suppliers, retailers, business customers, logistics teams, sales, and inventory operators. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Does KOV control employer responses to Chief Operating Officer outreach in Wholesale and Distribution?
 

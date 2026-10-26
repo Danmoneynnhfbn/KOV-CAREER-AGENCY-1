@@ -45,7 +45,7 @@ Consider document and positioning support for Vice President of People materials
 
 ## Prepare to discuss the Retail and E-commerce mandate
 
-The candidate decides whether to pursue a Vice President of People opportunity. KOV can support agreed research and preparation concerning Retail and E-commerce. Consider how customers, store or digital teams, suppliers, brand partners, operations, and owners interact with a Vice President of People; use examples of customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution to show judgment and collaboration. A candidate exploring Retail and E-commerce should test the assumed link between customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and customer experience, assortment, inventory, channel coordination, and rapid feedback against the actual Vice President of People role description. Show the Vice President of People scope behind the title: how the candidate could lead people programs and partner with managers on organizational capability, which decisions mattered, and where people agenda, organization design, manager support, program scope, and employee experience demonstrates their contribution.
+The candidate decides whether to pursue a Vice President of People opportunity. Consider how customers, store or digital teams, suppliers, brand partners, operations, and owners interact with a Vice President of People; use examples of customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution to show judgment and collaboration. A candidate exploring Retail and E-commerce should test the assumed link between customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and customer experience, assortment, inventory, channel coordination, and rapid feedback against the actual Vice President of People role description. Show the Vice President of People scope behind the title: how the candidate could lead people programs and partner with managers on organizational capability, which decisions mattered, and where people agenda, organization design, manager support, program scope, and employee experience demonstrates their contribution.
 
 ## Common positioning mistakes for Vice President of People candidates in Retail and E-commerce
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of People career hub](/roles/vp-people/)
 
-Review the role-wide approach to lead people programs and partner with managers on organizational capability and the evidence expected for that scope.
+
 
 ### [Retail and E-commerce industry hub](/industries/retail-ecommerce/)
 
-Compare how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment affects career planning across functions.
+
 
 ### [Chief Executive Officer in Retail and E-commerce](/roles/ceo/retail-ecommerce.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of People remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Operating Officer in Retail and E-commerce](/roles/coo/retail-ecommerce.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of People remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Vice President of People in Manufacturing](/roles/vp-people/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and identify how the Vice President of People remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Vice President of People resolve before a target discussion in Retail and E-commerce?
 
-A Vice President of People candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment. Explore how the role will lead people programs and partner with managers on organizational capability and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Vice President of People candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Vice President of People career story fit the needs of Retail and E-commerce?
 
@@ -139,19 +139,19 @@ Describe an instance where the candidate could lead people programs and partner 
 
 ### What should a Vice President of People prepare in writing before targeting Retail and E-commerce?
 
-Possible materials include executive resume, people leadership portfolio, biography, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution. Each claim should be accurate for this Retail and E-commerce target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, people leadership portfolio, biography, and profile. Each claim should be accurate for this Retail and E-commerce target, and confidential or unauthorized material should be omitted.
 
 ### What should a Vice President of People approve before outreach in Retail and E-commerce?
 
-Outreach should follow target research, not precede it. The Vice President of People candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with people agenda, organization design, manager support, program scope, and employee experience is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a Vice President of People compare title and remit in Retail and E-commerce?
 
-Title is only a label. Establish what the employer means by Vice President of People in this Retail and E-commerce organization and how the person will work with customers, store or digital teams, suppliers, brand partners, operations, and owners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Vice President of People with an employer in Retail and E-commerce?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Vice President of People candidate considering Retail and E-commerce, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

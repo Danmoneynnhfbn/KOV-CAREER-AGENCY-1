@@ -85,27 +85,27 @@ Use KOV's London page as a starting point for an agreed UK-focused search discus
 
 ### Saudi Arabia
 
-For Technology, Media and Telecom targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Technology, Media and Telecom targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Technology, Media and Telecom targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### UAE
 
-For Technology, Media and Telecom targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Technology, Media and Telecom targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Technology, Media and Telecom targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### United Kingdom
 
-For Technology, Media and Telecom targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Technology, Media and Telecom targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Technology, Media and Telecom targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Dubai
 
-For Technology, Media and Telecom targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Technology, Media and Telecom targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Technology, Media and Telecom targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Australia
 
-For Technology, Media and Telecom targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Technology, Media and Telecom targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Technology, Media and Telecom targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Africa
 
-For Technology, Media and Telecom targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Technology, Media and Telecom targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Technology, Media and Telecom targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ## Choose an appropriate level of career support
 
@@ -129,155 +129,155 @@ Use the cards to open only the role-and-industry pages currently available. Each
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Explore how set organization-wide direction and coordinate executive work connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Explore how align operating functions, delivery systems, and organizational priorities connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Financial Officer in Technology, Media and Telecom](/roles/cfo/technology-media-telecom.html)
 
-Explore how lead financial stewardship and connect resource decisions to organizational priorities connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Technology Officer in Technology, Media and Telecom](/roles/cto/technology-media-telecom.html)
 
-Explore how set technology direction and connect technical choices with product and business needs connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Information Officer in Technology, Media and Telecom](/roles/cio/technology-media-telecom.html)
 
-Explore how guide information systems, digital operations, and technology services for the organization connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Marketing Officer in Technology, Media and Telecom](/roles/cmo/technology-media-telecom.html)
 
-Explore how shape marketing strategy, customer understanding, brand, and commercial communication connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Human Resources Officer in Technology, Media and Telecom](/roles/chro/technology-media-telecom.html)
 
-Explore how guide people strategy, organizational capability, and workforce-related leadership connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Information Security Officer in Technology, Media and Telecom](/roles/ciso/technology-media-telecom.html)
 
-Explore how lead information-security priorities and coordinate risk-informed protection connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [General Counsel / Chief Legal Officer in Technology, Media and Telecom](/roles/general-counsel/technology-media-telecom.html)
 
-Explore how lead legal judgment and connect legal advice with organizational decisions connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Revenue Officer in Technology, Media and Telecom](/roles/chief-revenue-officer/technology-media-telecom.html)
 
-Explore how coordinate revenue-facing functions around a coherent commercial direction connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Product Officer in Technology, Media and Telecom](/roles/chief-product-officer/technology-media-telecom.html)
 
-Explore how guide product direction, portfolio choices, and the connection between users and delivery teams connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Strategy Officer in Technology, Media and Telecom](/roles/chief-strategy-officer/technology-media-telecom.html)
 
-Explore how support organization-wide choices by framing options, analysis, and strategic execution connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Board Director in Technology, Media and Telecom](/roles/board-director/technology-media-telecom.html)
 
-Explore how contribute oversight, inquiry, and strategic perspective within collective governance connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Non-Executive Director in Technology, Media and Telecom](/roles/non-executive-director/technology-media-telecom.html)
 
-Explore how provide independent challenge and strategic contribution distinct from management connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chair in Technology, Media and Telecom](/roles/chair/technology-media-telecom.html)
 
-Explore how lead board effectiveness and support clear governance and decision-making connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Managing Director in Technology, Media and Telecom](/roles/managing-director/technology-media-telecom.html)
 
-Explore how lead a business, division, or organization according to its defined mandate connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Managing Partner in Technology, Media and Telecom](/roles/managing-partner/technology-media-telecom.html)
 
-Explore how combine leadership responsibilities with the governance and professional context of a partnership connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Partner in Technology, Media and Telecom](/roles/partner/technology-media-telecom.html)
 
-Explore how develop a practice or business while contributing to a shared ownership or partnership structure connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Vice President of Sales in Technology, Media and Telecom](/roles/vp-sales/technology-media-telecom.html)
 
-Explore how lead a sales organization and connect market priorities with execution connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Vice President of Marketing in Technology, Media and Telecom](/roles/vp-marketing/technology-media-telecom.html)
 
-Explore how lead marketing teams and align brand, customer, and commercial priorities connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Vice President of Engineering in Technology, Media and Telecom](/roles/vp-engineering/technology-media-telecom.html)
 
-Explore how lead engineering organization, technical delivery, and capability development connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Vice President of Finance in Technology, Media and Telecom](/roles/vp-finance/technology-media-telecom.html)
 
-Explore how lead finance teams and translate financial information into decisions for a business area connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Vice President of People in Technology, Media and Telecom](/roles/vp-people/technology-media-telecom.html)
 
-Explore how lead people programs and partner with managers on organizational capability connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Vice President of Product in Technology, Media and Telecom](/roles/vp-product/technology-media-telecom.html)
 
-Explore how set product priorities and coordinate discovery, planning, and delivery connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Vice President of Strategy in Technology, Media and Telecom](/roles/vp-strategy/technology-media-telecom.html)
 
-Explore how frame strategic choices and connect planning with operating decisions connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Director of Finance in Technology, Media and Telecom](/roles/director-finance/technology-media-telecom.html)
 
-Explore how lead financial planning, reporting, or control activity for a function or organization connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Director of Engineering in Technology, Media and Telecom](/roles/director-engineering/technology-media-telecom.html)
 
-Explore how direct engineering teams and coordinate technical execution in a defined area connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Director of Marketing in Technology, Media and Telecom](/roles/director-marketing/technology-media-telecom.html)
 
-Explore how manage campaigns, channels, or marketing programs within a broader strategy connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Director of Sales in Technology, Media and Telecom](/roles/director-sales/technology-media-telecom.html)
 
-Explore how manage sales teams, accounts, or territories against an agreed commercial plan connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Director of People in Technology, Media and Telecom](/roles/director-people/technology-media-telecom.html)
 
-Explore how lead a people function or program and support managers through organizational change connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Director of Product in Technology, Media and Telecom](/roles/director-product/technology-media-telecom.html)
 
-Explore how lead a product area and align customer needs with team delivery connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Director of Legal in Technology, Media and Telecom](/roles/director-legal/technology-media-telecom.html)
 
-Explore how manage a legal team, practice area, or legal operations remit connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Head of Legal in Technology, Media and Telecom](/roles/head-legal/technology-media-telecom.html)
 
-Explore how lead a legal function or specialist team and advise on decisions within its remit connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Head of Growth in Technology, Media and Telecom](/roles/head-growth/technology-media-telecom.html)
 
-Explore how coordinate growth experiments and commercial initiatives for a defined business connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Head of Strategy in Technology, Media and Telecom](/roles/head-strategy/technology-media-telecom.html)
 
-Explore how coordinate planning and strategic analysis for an organization or business unit connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Head of Data and AI in Technology, Media and Telecom](/roles/head-data-ai/technology-media-telecom.html)
 
-Explore how lead data capabilities and coordinate responsible application of analytical or AI work connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Head of Compliance in Technology, Media and Telecom](/roles/head-compliance/technology-media-telecom.html)
 
-Explore how coordinate compliance programs and support consistent interpretation of organizational obligations connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Head of Business Development in Technology, Media and Telecom](/roles/head-business-development/technology-media-telecom.html)
 
-Explore how develop relationships and opportunities that support an organization's commercial direction connects with digital products, platforms, content, communications, or technology-enabled services.
+
 
 ## Questions that make a Technology, Media and Telecom target more specific
 
@@ -311,7 +311,7 @@ KOV can help candidates organize relevant experience and documents around an agr
 
 ### Can KOV promise an interview with a Technology, Media and Telecom organization?
 
-No. KOV does not guarantee interviews, offers, employment, introductions, or timelines. Employers make hiring decisions.
+No. Employers make hiring decisions.
 
 ### How should I compare two Technology, Media and Telecom opportunities?
 

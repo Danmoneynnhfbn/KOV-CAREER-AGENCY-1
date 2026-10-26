@@ -8,7 +8,7 @@ A consultation can clarify whether a Head of Compliance candidate needs position
 
 ## Who this Head of Compliance and Energy, Mining and Oil and Gas guide is for
 
-Readers need to see what Head of Compliance work involved; connect coordinate compliance programs and support consistent interpretation of organizational obligations with the candidate's own examples of program remit, monitoring or training scope, issue handling, escalation, and cross-team work in Energy, Mining and Oil and Gas. Treat asset-intensive work spanning development, extraction, generation, processing, or energy services as a question to validate in Energy, Mining and Oil and Gas; the answer helps clarify the Head of Compliance mandate and its long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Head of Compliance example should separate direct responsibility from collaboration. The candidate decides whether to pursue a Head of Compliance opportunity. KOV can support agreed research and preparation concerning Energy, Mining and Oil and Gas.
+Readers need to see what Head of Compliance work involved; connect coordinate compliance programs and support consistent interpretation of organizational obligations with the candidate's own examples of program remit, monitoring or training scope, issue handling, escalation, and cross-team work in Energy, Mining and Oil and Gas. A Head of Compliance example should separate direct responsibility from collaboration. The candidate decides whether to pursue a Head of Compliance opportunity. KOV can support agreed research and preparation concerning Energy, Mining and Oil and Gas.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -49,7 +49,7 @@ For Head of Compliance materials, manage the risk of making jurisdictional claim
 
 ## Common positioning mistakes for Head of Compliance candidates in Energy, Mining and Oil and Gas
 
-Keep the Head of Compliance narrative accurate where making jurisdictional claims without qualification or disclosing sensitive case details may arise: attribute shared work and disclose only information the candidate may use. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Head of Compliance example should separate direct responsibility from collaboration. An employer's Energy, Mining and Oil and Gas model may involve asset-intensive work spanning development, extraction, generation, processing, or energy services; its implications for long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand should be discussed, not presumed. For Head of Compliance work in Energy, Mining and Oil and Gas, explain how the candidate could coordinate compliance programs and support consistent interpretation of organizational obligations; connect that mandate to evidence of program remit, monitoring or training scope, issue handling, escalation, and cross-team work.
+Keep the Head of Compliance narrative accurate where making jurisdictional claims without qualification or disclosing sensitive case details may arise: attribute shared work and disclose only information the candidate may use. A Head of Compliance example should separate direct responsibility from collaboration. An employer's Energy, Mining and Oil and Gas model may involve asset-intensive work spanning development, extraction, generation, processing, or energy services; its implications for long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand should be discussed, not presumed. For Head of Compliance work in Energy, Mining and Oil and Gas, explain how the candidate could coordinate compliance programs and support consistent interpretation of organizational obligations; connect that mandate to evidence of program remit, monitoring or training scope, issue handling, escalation, and cross-team work.
 
 - Treat Energy, Mining and Oil and Gas as one uniform employer type; distinguish the actual organization and role.
 - Use a Head of Compliance title without explaining coordinate compliance programs and support consistent interpretation of organizational obligations.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Compliance career hub](/roles/head-compliance/)
 
-Review the role-wide approach to coordinate compliance programs and support consistent interpretation of organizational obligations and the evidence expected for that scope.
+
 
 ### [Energy, Mining and Oil and Gas industry hub](/industries/energy-mining-oil-gas/)
 
-Compare how asset-intensive work spanning development, extraction, generation, processing, or energy services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Energy, Mining and Oil and Gas](/roles/ceo/energy-mining-oil-gas.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Compliance remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Operating Officer in Energy, Mining and Oil and Gas](/roles/coo/energy-mining-oil-gas.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Compliance remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Head of Compliance in Manufacturing](/roles/head-compliance/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with asset-intensive work spanning development, extraction, generation, processing, or energy services and identify how the Head of Compliance remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Head of Compliance clarify before considering work in Energy, Mining and Oil and Gas?
 
-Use the opening discussion to understand the specific Energy, Mining and Oil and Gas employer, not to assume a standard role. Compare coordinate compliance programs and support consistent interpretation of organizational obligations with the stated scope, identify decision partners among asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Energy, Mining and Oil and Gas employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Head of Compliance describe transferable experience for Energy, Mining and Oil and Gas work?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### How can KOV and a Head of Compliance plan contact with Energy, Mining and Oil and Gas organizations?
 
-Outreach should follow target research, not precede it. The Head of Compliance candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with program remit, monitoring or training scope, issue handling, escalation, and cross-team work is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Head of Compliance assess fit with Energy, Mining and Oil and Gas responsibilities?
 
-Title is only a label. Establish what the employer means by Head of Compliance in this Energy, Mining and Oil and Gas organization and how the person will work with asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Head of Compliance candidate considering Energy, Mining and Oil and Gas?
 

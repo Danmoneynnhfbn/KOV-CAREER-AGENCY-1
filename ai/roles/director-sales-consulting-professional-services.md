@@ -45,7 +45,7 @@ Consider document and positioning support for Director of Sales materials that p
 
 ## Prepare to discuss the Consulting and Other Professional Services mandate
 
-The candidate can discuss customer segment, territory or account scope, team contribution, and sales process while protecting confidentiality by omitting names, restricted figures, and other identifying material. Where appropriate to the agreed service, KOV can help a Director of Sales candidate prepare and coordinate approved next steps for Consulting and Other Professional Services. In Consulting and Other Professional Services, clients, practitioners, project teams, partners or owners, suppliers, and professional communities may shape the work. A Director of Sales example should separate direct responsibility from collaboration. In a Consulting and Other Professional Services target, make the Director of Sales contribution legible: describe how the candidate helped manage sales teams, accounts, or territories against an agreed commercial plan and what supports customer segment, territory or account scope, team contribution, and sales process.
+The candidate can discuss customer segment, territory or account scope, team contribution, and sales process while protecting confidentiality by omitting names, restricted figures, and other identifying material. In Consulting and Other Professional Services, clients, practitioners, project teams, partners or owners, suppliers, and professional communities may shape the work. A Director of Sales example should separate direct responsibility from collaboration. In a Consulting and Other Professional Services target, make the Director of Sales contribution legible: describe how the candidate helped manage sales teams, accounts, or territories against an agreed commercial plan and what supports customer segment, territory or account scope, team contribution, and sales process.
 
 ## Common positioning mistakes for Director of Sales candidates in Consulting and Other Professional Services
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Sales career hub](/roles/director-sales/)
 
-Review the role-wide approach to manage sales teams, accounts, or territories against an agreed commercial plan and the evidence expected for that scope.
+
 
 ### [Consulting and Other Professional Services industry hub](/industries/consulting-professional-services/)
 
-Compare how expertise-led advisory or delivery work provided to organizations or individuals affects career planning across functions.
+
 
 ### [Chief Executive Officer in Consulting and Other Professional Services](/roles/ceo/consulting-professional-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Sales remit; consider where each function meets expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chief Operating Officer in Consulting and Other Professional Services](/roles/coo/consulting-professional-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Sales remit; consider where each function meets expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Director of Sales in Manufacturing](/roles/director-sales/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with expertise-led advisory or delivery work provided to organizations or individuals and identify how the Director of Sales remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Director of Sales clarify before considering work in Consulting and Other Professional Services?
 
-A Director of Sales candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's expertise-led advisory or delivery work provided to organizations or individuals. Explore how the role will manage sales teams, accounts, or territories against an agreed commercial plan and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of Sales candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's expertise-led advisory or delivery work provided to organizations or individuals. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Director of Sales describe transferable experience for Consulting and Other Professional Services work?
 
@@ -139,7 +139,7 @@ Describe an instance where the candidate could manage sales teams, accounts, or 
 
 ### How can a Director of Sales choose documents for conversations about Consulting and Other Professional Services?
 
-Possible materials include resume, sales achievement brief, profile, and interview examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service line, client or project context, team leadership, delivery model, and authorized outcomes. Each claim should be accurate for this Consulting and Other Professional Services target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, sales achievement brief, profile, and interview examples. Each claim should be accurate for this Consulting and Other Professional Services target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Director of Sales plan contact with Consulting and Other Professional Services organizations?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Director of Sales assess fit with Consulting and Other Professional Services responsibilities?
 
-Title is only a label. Establish what the employer means by Director of Sales in this Consulting and Other Professional Services organization and how the person will work with clients, practitioners, project teams, partners or owners, suppliers, and professional communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Director of Sales candidate considering Consulting and Other Professional Services?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of Sales candidate considering Consulting and Other Professional Services, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

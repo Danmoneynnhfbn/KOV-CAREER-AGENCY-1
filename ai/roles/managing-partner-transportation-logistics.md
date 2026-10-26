@@ -16,7 +16,7 @@ Research for a Managing Partner in Transportation and Logistics becomes more foc
 
 ## Documents that make Managing Partner experience relevant here
 
-A Managing Partner candidate should show how partner-group mandate, management contribution, practice or business scope, and shared decisions supported the work to combine leadership responsibilities with the governance and professional context of a partnership, with the Transportation and Logistics setting made explicit. Not every Transportation and Logistics organization will handle network coordination, service windows, asset availability, safety-minded decisions, and disruption response alike. Confirm how movement, handling, and coordination of people or goods across routes and operating networks informs this Managing Partner position. The service plan should fit the candidate's Managing Partner priorities; agree research, materials, and any outreach before contact occurs. Do not resolve uncertainty about presenting partner-group outcomes as individual decisions or ignoring shared governance through assumption; verify the requirement and use only supportable Managing Partner claims.
+A Managing Partner candidate should show how partner-group mandate, management contribution, practice or business scope, and shared decisions supported the work to combine leadership responsibilities with the governance and professional context of a partnership, with the Transportation and Logistics setting made explicit. Confirm how movement, handling, and coordination of people or goods across routes and operating networks informs this Managing Partner position. The service plan should fit the candidate's Managing Partner priorities; agree research, materials, and any outreach before contact occurs. Do not resolve uncertainty about presenting partner-group outcomes as individual decisions or ignoring shared governance through assumption; verify the requirement and use only supportable Managing Partner claims.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ A Managing Partner candidate should show how partner-group mandate, management c
 
 ## Choose the individual services that fit the work
 
-Good preparation for Managing Partner work includes a safe way to explain presenting partner-group outcomes as individual decisions or ignoring shared governance and a clear distinction between fact and inference. An account of route or network scope, service performance context, asset choices, workforce coordination, and customer communication should identify the candidate's contribution and the involvement of partners, practice leaders, employees, clients, committees, and external stakeholders. Not every Transportation and Logistics organization will handle network coordination, service windows, asset availability, safety-minded decisions, and disruption response alike. Confirm how movement, handling, and coordination of people or goods across routes and operating networks informs this Managing Partner position. Position a Managing Partner career by linking combine leadership responsibilities with the governance and professional context of a partnership to route or network scope, service performance context, asset choices, workforce coordination, and customer communication, then clarify which part of that work the candidate actually owned.
+Good preparation for Managing Partner work includes a safe way to explain presenting partner-group outcomes as individual decisions or ignoring shared governance and a clear distinction between fact and inference. Not every Transportation and Logistics organization will handle network coordination, service windows, asset availability, safety-minded decisions, and disruption response alike. Confirm how movement, handling, and coordination of people or goods across routes and operating networks informs this Managing Partner position. Position a Managing Partner career by linking combine leadership responsibilities with the governance and professional context of a partnership to route or network scope, service performance context, asset choices, workforce coordination, and customer communication, then clarify which part of that work the candidate actually owned.
 
 ### [Private career representation](/services.html)
 
@@ -59,11 +59,11 @@ KOV works with the candidate to agree which Managing Partner targets matter, how
 
 ## Keep research, confidentiality, and outreach aligned
 
-Rather than lead with seniority, a Managing Partner profile can explain the responsibility to combine leadership responsibilities with the governance and professional context of a partnership and use route or network scope, service performance context, asset choices, workforce coordination, and customer communication as evidence. An employer's Transportation and Logistics model may involve movement, handling, and coordination of people or goods across routes and operating networks; its implications for network coordination, service windows, asset availability, safety-minded decisions, and disruption response should be discussed, not presumed. The candidate decides whether to pursue a Managing Partner opportunity. KOV can support agreed research and preparation concerning Transportation and Logistics. Good preparation for Managing Partner work includes a safe way to explain presenting partner-group outcomes as individual decisions or ignoring shared governance and a clear distinction between fact and inference.
+Rather than lead with seniority, a Managing Partner profile can explain the responsibility to combine leadership responsibilities with the governance and professional context of a partnership and use route or network scope, service performance context, asset choices, workforce coordination, and customer communication as evidence. The candidate decides whether to pursue a Managing Partner opportunity. KOV can support agreed research and preparation concerning Transportation and Logistics. Good preparation for Managing Partner work includes a safe way to explain presenting partner-group outcomes as individual decisions or ignoring shared governance and a clear distinction between fact and inference.
 
 ## Prepare for conversations about Transportation and Logistics work
 
-Keep the Managing Partner narrative accurate where presenting partner-group outcomes as individual decisions or ignoring shared governance may arise: attribute shared work and disclose only information the candidate may use. The candidate's record of partner-group mandate, management contribution, practice or business scope, and shared decisions should be set beside the role of customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities, so shared results are attributed fairly. Not every Transportation and Logistics organization will handle network coordination, service windows, asset availability, safety-minded decisions, and disruption response alike. Confirm how movement, handling, and coordination of people or goods across routes and operating networks informs this Managing Partner position. To assess a Managing Partner opportunity in Transportation and Logistics, compare the stated remit to the candidate's record of partner-group mandate, management contribution, practice or business scope, and shared decisions.
+Keep the Managing Partner narrative accurate where presenting partner-group outcomes as individual decisions or ignoring shared governance may arise: attribute shared work and disclose only information the candidate may use. Not every Transportation and Logistics organization will handle network coordination, service windows, asset availability, safety-minded decisions, and disruption response alike. Confirm how movement, handling, and coordination of people or goods across routes and operating networks informs this Managing Partner position. To assess a Managing Partner opportunity in Transportation and Logistics, compare the stated remit to the candidate's record of partner-group mandate, management contribution, practice or business scope, and shared decisions.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Partner career hub](/roles/managing-partner/)
 
-Review the role-wide approach to combine leadership responsibilities with the governance and professional context of a partnership and the evidence expected for that scope.
+
 
 ### [Transportation and Logistics industry hub](/industries/transportation-logistics/)
 
-Compare how movement, handling, and coordination of people or goods across routes and operating networks affects career planning across functions.
+
 
 ### [Chief Executive Officer in Transportation and Logistics](/roles/ceo/transportation-logistics.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Partner remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Operating Officer in Transportation and Logistics](/roles/coo/transportation-logistics.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Partner remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Managing Partner in Agriculture, Food and Forestry](/roles/managing-partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with movement, handling, and coordination of people or goods across routes and operating networks and identify how the Managing Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Managing Partner in Transportation and Logistics?
 
-Start with the organization's account of movement, handling, and coordination of people or goods across routes and operating networks, then clarify how the Managing Partner would combine leadership responsibilities with the governance and professional context of a partnership. Ask how customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of movement, handling, and coordination of people or goods across routes and operating networks, then clarify how the Managing Partner would combine leadership responsibilities with the governance and professional context of a partnership. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Managing Partner make prior work relevant to Transportation and Logistics?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of partner-group mandate, m
 
 ### Which career materials can help a Managing Partner explore work in Transportation and Logistics?
 
-Possible materials include partner biography, leadership resume, practice summary, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to route or network scope, service performance context, asset choices, workforce coordination, and customer communication. Each claim should be accurate for this Transportation and Logistics target, and confidential or unauthorized material should be omitted.
+Possible materials include partner biography, leadership resume, practice summary, and profile. Each claim should be accurate for this Transportation and Logistics target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Managing Partner contacts an organization in Transportation and Logistics?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### What makes a Managing Partner background relevant to work in Transportation and Logistics?
 
-Title is only a label. Establish what the employer means by Managing Partner in this Transportation and Logistics organization and how the person will work with customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Does KOV control employer responses to Managing Partner outreach in Transportation and Logistics?
 

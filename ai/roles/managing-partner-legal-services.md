@@ -8,7 +8,7 @@ For Managing Partner materials, manage the risk of presenting partner-group outc
 
 ## Who this Managing Partner and Legal Services guide is for
 
-Protect credibility in Legal Services by addressing presenting partner-group outcomes as individual decisions or ignoring shared governance with a factual account of partner-group mandate, management contribution, practice or business scope, and shared decisions and its limits. In Legal Services, clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities may shape the work. A Managing Partner example should separate direct responsibility from collaboration. Use legal advice, representation, transactions, dispute work, or related professional services to frame research about Legal Services, then ask how a Managing Partner will work through professional judgment, client service, confidentiality, practice operations, and shared leadership. In a Legal Services target, make the Managing Partner contribution legible: describe how the candidate helped combine leadership responsibilities with the governance and professional context of a partnership and what supports partner-group mandate, management contribution, practice or business scope, and shared decisions.
+Protect credibility in Legal Services by addressing presenting partner-group outcomes as individual decisions or ignoring shared governance with a factual account of partner-group mandate, management contribution, practice or business scope, and shared decisions and its limits. A Managing Partner example should separate direct responsibility from collaboration. Use legal advice, representation, transactions, dispute work, or related professional services to frame research about Legal Services, then ask how a Managing Partner will work through professional judgment, client service, confidentiality, practice operations, and shared leadership. In a Legal Services target, make the Managing Partner contribution legible: describe how the candidate helped combine leadership responsibilities with the governance and professional context of a partnership and what supports partner-group mandate, management contribution, practice or business scope, and shared decisions.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Partner career hub](/roles/managing-partner/)
 
-Review the role-wide approach to combine leadership responsibilities with the governance and professional context of a partnership and the evidence expected for that scope.
+
 
 ### [Legal Services industry hub](/industries/legal-services/)
 
-Compare how legal advice, representation, transactions, dispute work, or related professional services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Legal Services](/roles/ceo/legal-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Partner remit; consider where each function meets legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Operating Officer in Legal Services](/roles/coo/legal-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Partner remit; consider where each function meets legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Managing Partner in Agriculture, Food and Forestry](/roles/managing-partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with legal advice, representation, transactions, dispute work, or related professional services and identify how the Managing Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Managing Partner clarify before considering work in Legal Services?
 
-A Managing Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's legal advice, representation, transactions, dispute work, or related professional services. Explore how the role will combine leadership responsibilities with the governance and professional context of a partnership and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Managing Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's legal advice, representation, transactions, dispute work, or related professional services. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Managing Partner describe transferable experience for Legal Services work?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could combine leadership responsibiliti
 
 ### How can a Managing Partner choose documents for conversations about Legal Services?
 
-Possible materials include partner biography, leadership resume, practice summary, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to practice or business scope, client-service context, team leadership, governance interface, and authorized examples. Each claim should be accurate for this Legal Services target, and confidential or unauthorized material should be omitted.
+Possible materials include partner biography, leadership resume, practice summary, and profile. Each claim should be accurate for this Legal Services target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Managing Partner plan contact with Legal Services organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Managing Partner candidate's service scope; the candidate approves external communication. No one route should be assumed for all Legal Services employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Legal Services employers.
 
 ### How can a Managing Partner assess fit with Legal Services responsibilities?
 
-Title is only a label. Establish what the employer means by Managing Partner in this Legal Services organization and how the person will work with clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Managing Partner candidate considering Legal Services?
 

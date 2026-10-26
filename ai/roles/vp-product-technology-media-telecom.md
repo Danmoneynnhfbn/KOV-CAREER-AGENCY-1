@@ -16,7 +16,7 @@ Good preparation for Vice President of Product work includes a safe way to expla
 
 ## Documents that make Vice President of Product experience relevant here
 
-In a Technology, Media and Telecom target, make the Vice President of Product contribution legible: describe how the candidate helped set product priorities and coordinate discovery, planning, and delivery and what supports portfolio scope, customer insight, prioritization, team influence, and product outcomes. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Vice President of Product example should separate direct responsibility from collaboration. KOV's service scope for a Vice President of Product candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Where listing features shipped without explaining user problem, constraints, or adoption affects a career example, substitute an authorized summary that preserves the point about portfolio scope, customer insight, prioritization, team influence, and product outcomes.
+In a Technology, Media and Telecom target, make the Vice President of Product contribution legible: describe how the candidate helped set product priorities and coordinate discovery, planning, and delivery and what supports portfolio scope, customer insight, prioritization, team influence, and product outcomes. A Vice President of Product example should separate direct responsibility from collaboration. KOV's service scope for a Vice President of Product candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Where listing features shipped without explaining user problem, constraints, or adoption affects a career example, substitute an authorized summary that preserves the point about portfolio scope, customer insight, prioritization, team influence, and product outcomes.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ In a Technology, Media and Telecom target, make the Vice President of Product co
 
 ## Choose the individual services that fit the work
 
-The candidate can discuss portfolio scope, customer insight, prioritization, team influence, and product outcomes while protecting confidentiality by omitting names, restricted figures, and other identifying material. The candidate decides whether to pursue a Vice President of Product opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Discuss product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality with care: a Vice President of Product candidate can explain contribution while omitting confidential or identifying facts. Readers need to see what Vice President of Product work involved; connect set product priorities and coordinate discovery, planning, and delivery with the candidate's own examples of portfolio scope, customer insight, prioritization, team influence, and product outcomes in Technology, Media and Telecom.
+The candidate can discuss portfolio scope, customer insight, prioritization, team influence, and product outcomes while protecting confidentiality by omitting names, restricted figures, and other identifying material. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Discuss product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality with care: a Vice President of Product candidate can explain contribution while omitting confidential or identifying facts. Readers need to see what Vice President of Product work involved; connect set product priorities and coordinate discovery, planning, and delivery with the candidate's own examples of portfolio scope, customer insight, prioritization, team influence, and product outcomes in Technology, Media and Telecom.
 
 ### [Private career representation](/services.html)
 
@@ -67,7 +67,7 @@ Review each Vice President of Product example for listing features shipped witho
 
 ## Run the search thoughtfully in each target market
 
-Good preparation for Vice President of Product work includes a safe way to explain listing features shipped without explaining user problem, constraints, or adoption and a clear distinction between fact and inference. The candidate decides whether to pursue a Vice President of Product opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Discuss product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality with care: a Vice President of Product candidate can explain contribution while omitting confidential or identifying facts. The Vice President of Product remit to set product priorities and coordinate discovery, planning, and delivery should be described through decisions and examples, especially evidence of portfolio scope, customer insight, prioritization, team influence, and product outcomes relevant to Technology, Media and Telecom.
+Good preparation for Vice President of Product work includes a safe way to explain listing features shipped without explaining user problem, constraints, or adoption and a clear distinction between fact and inference. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Discuss product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality with care: a Vice President of Product candidate can explain contribution while omitting confidential or identifying facts. The Vice President of Product remit to set product priorities and coordinate discovery, planning, and delivery should be described through decisions and examples, especially evidence of portfolio scope, customer insight, prioritization, team influence, and product outcomes relevant to Technology, Media and Telecom.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Product career hub](/roles/vp-product/)
 
-Review the role-wide approach to set product priorities and coordinate discovery, planning, and delivery and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Product remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Product remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Vice President of Product in Manufacturing](/roles/vp-product/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with digital products, platforms, content, communications, or technology-enabled services and identify how the Vice President of Product remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Vice President of Product in Technology, Media and Telecom?
 
-Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the Vice President of Product would set product priorities and coordinate discovery, planning, and delivery. Ask how users, product and engineering teams, customers, creators, advertisers, partners, and investors participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the Vice President of Product would set product priorities and coordinate discovery, planning, and delivery. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Vice President of Product make prior work relevant to Technology, Media and Telecom?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could set product priorities and coordi
 
 ### Which career materials can help a Vice President of Product explore work in Technology, Media and Telecom?
 
-Possible materials include executive resume, product portfolio, leadership narrative, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, product portfolio, leadership narrative, and profile. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Vice President of Product contacts an organization in Technology, Media and Telecom?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Vice President of Product candidate's service scope; the candidate approves external communication. No one route should be assumed for all Technology, Media and Telecom employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Technology, Media and Telecom employers.
 
 ### What makes a Vice President of Product background relevant to work in Technology, Media and Telecom?
 
-No. Compare the role description with the candidate's experience of set product priorities and coordinate discovery, planning, and delivery and the organization's digital products, platforms, content, communications, or technology-enabled services. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Vice President of Product outreach in Technology, Media and Telecom?
 

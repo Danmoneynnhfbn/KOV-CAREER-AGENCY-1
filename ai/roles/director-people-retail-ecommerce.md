@@ -67,7 +67,7 @@ Review each Director of People example for using sensitive workforce information
 
 ## Run the search thoughtfully in each target market
 
-In a Retail and E-commerce target, make the Director of People contribution legible: describe how the candidate helped lead a people function or program and support managers through organizational change and what supports program scope, manager partnership, team responsibilities, and people-related outcomes. Research for a Director of People in Retail and E-commerce becomes more focused when the candidate investigates customer experience, assortment, inventory, channel coordination, and rapid feedback alongside customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment. In Retail and E-commerce, customers, store or digital teams, suppliers, brand partners, operations, and owners may shape the work. A Director of People example should separate direct responsibility from collaboration. Review each Director of People example for using sensitive workforce information or broad claims without context, then describe the candidate's decisions without overstating their control over CHRO or VP, employees, line leaders, people teams, and advisers.
+In a Retail and E-commerce target, make the Director of People contribution legible: describe how the candidate helped lead a people function or program and support managers through organizational change and what supports program scope, manager partnership, team responsibilities, and people-related outcomes. In Retail and E-commerce, customers, store or digital teams, suppliers, brand partners, operations, and owners may shape the work. A Director of People example should separate direct responsibility from collaboration. Review each Director of People example for using sensitive workforce information or broad claims without context, then describe the candidate's decisions without overstating their control over CHRO or VP, employees, line leaders, people teams, and advisers.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of People career hub](/roles/director-people/)
 
-Review the role-wide approach to lead a people function or program and support managers through organizational change and the evidence expected for that scope.
+
 
 ### [Retail and E-commerce industry hub](/industries/retail-ecommerce/)
 
-Compare how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment affects career planning across functions.
+
 
 ### [Chief Executive Officer in Retail and E-commerce](/roles/ceo/retail-ecommerce.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of People remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Operating Officer in Retail and E-commerce](/roles/coo/retail-ecommerce.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of People remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Director of People in Manufacturing](/roles/director-people/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and identify how the Director of People remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Director of People clarify before considering work in Retail and E-commerce?
 
-A Director of People candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment. Explore how the role will lead a people function or program and support managers through organizational change and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of People candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Director of People describe transferable experience for Retail and E-commerce work?
 
@@ -139,7 +139,7 @@ Describe an instance where the candidate could lead a people function or program
 
 ### How can a Director of People choose documents for conversations about Retail and E-commerce?
 
-Possible materials include resume, people-program portfolio, profile, and selected examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution. Each claim should be accurate for this Retail and E-commerce target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, people-program portfolio, profile, and selected examples. Each claim should be accurate for this Retail and E-commerce target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Director of People plan contact with Retail and E-commerce organizations?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Director of People assess fit with Retail and E-commerce responsibilities?
 
-Title is only a label. Establish what the employer means by Director of People in this Retail and E-commerce organization and how the person will work with customers, store or digital teams, suppliers, brand partners, operations, and owners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Director of People candidate considering Retail and E-commerce?
 

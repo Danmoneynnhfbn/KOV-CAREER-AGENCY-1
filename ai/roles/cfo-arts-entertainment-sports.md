@@ -4,7 +4,7 @@ KOV helps Chief Financial Officer candidates considering roles connected to Arts
 
 ## How Chief Financial Officer work connects with Arts, Entertainment and Sports
 
-For Chief Financial Officer materials, manage the risk of presenting financial outcomes without context, attribution, or permission to disclose; support claims with financial leadership scope, planning, controls, capital or resource choices, and communication and remove details that are not authorized for sharing. In Arts, Entertainment and Sports, audiences, participants, creators, athletes, sponsors, venues, partners, and communities may shape the work. A Chief Financial Officer example should separate direct responsibility from collaboration. Use creative, cultural, event, audience, or sporting activity supported by teams and organizations to frame research about Arts, Entertainment and Sports, then ask how a Chief Financial Officer will work through creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions. The Chief Financial Officer remit to lead financial stewardship and connect resource decisions to organizational priorities should be described through decisions and examples, especially evidence of financial leadership scope, planning, controls, capital or resource choices, and communication relevant to Arts, Entertainment and Sports.
+For Chief Financial Officer materials, manage the risk of presenting financial outcomes without context, attribution, or permission to disclose; support claims with financial leadership scope, planning, controls, capital or resource choices, and communication and remove details that are not authorized for sharing. A Chief Financial Officer example should separate direct responsibility from collaboration. Use creative, cultural, event, audience, or sporting activity supported by teams and organizations to frame research about Arts, Entertainment and Sports, then ask how a Chief Financial Officer will work through creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions. The Chief Financial Officer remit to lead financial stewardship and connect resource decisions to organizational priorities should be described through decisions and examples, especially evidence of financial leadership scope, planning, controls, capital or resource choices, and communication relevant to Arts, Entertainment and Sports.
 
 ## Who this Chief Financial Officer and Arts, Entertainment and Sports guide is for
 
@@ -33,7 +33,7 @@ The service plan should fit the candidate's Chief Financial Officer priorities; 
 
 ## Choose the individual services that fit the work
 
-Position a Chief Financial Officer career by linking lead financial stewardship and connect resource decisions to organizational priorities to program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available, then clarify which part of that work the candidate actually owned. Not every Arts, Entertainment and Sports organization will handle creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions alike. Confirm how creative, cultural, event, audience, or sporting activity supported by teams and organizations informs this Chief Financial Officer position. For a Chief Financial Officer target, KOV can discuss how executive resume, finance leadership profile, board biography, and achievement summary support the candidate's account of financial leadership scope, planning, controls, capital or resource choices, and communication; external steps require prior agreement. Good preparation for Chief Financial Officer work includes a safe way to explain presenting financial outcomes without context, attribution, or permission to disclose and a clear distinction between fact and inference.
+Position a Chief Financial Officer career by linking lead financial stewardship and connect resource decisions to organizational priorities to program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available, then clarify which part of that work the candidate actually owned. Confirm how creative, cultural, event, audience, or sporting activity supported by teams and organizations informs this Chief Financial Officer position. For a Chief Financial Officer target, KOV can discuss how executive resume, finance leadership profile, board biography, and achievement summary support the candidate's account of financial leadership scope, planning, controls, capital or resource choices, and communication; external steps require prior agreement. Good preparation for Chief Financial Officer work includes a safe way to explain presenting financial outcomes without context, attribution, or permission to disclose and a clear distinction between fact and inference.
 
 ### [Private career representation](/services.html)
 
@@ -63,7 +63,7 @@ Before discussing program or event scope, audiences served, partnership work, te
 
 ## Prepare for conversations about Arts, Entertainment and Sports work
 
-To assess a Chief Financial Officer opportunity in Arts, Entertainment and Sports, compare the stated remit to the candidate's record of financial leadership scope, planning, controls, capital or resource choices, and communication. An employer's Arts, Entertainment and Sports model may involve creative, cultural, event, audience, or sporting activity supported by teams and organizations; its implications for creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions should be discussed, not presumed. The candidate decides whether to pursue a Chief Financial Officer opportunity. KOV can support agreed research and preparation concerning Arts, Entertainment and Sports. The candidate can discuss financial leadership scope, planning, controls, capital or resource choices, and communication while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+To assess a Chief Financial Officer opportunity in Arts, Entertainment and Sports, compare the stated remit to the candidate's record of financial leadership scope, planning, controls, capital or resource choices, and communication. The candidate decides whether to pursue a Chief Financial Officer opportunity. KOV can support agreed research and preparation concerning Arts, Entertainment and Sports. The candidate can discuss financial leadership scope, planning, controls, capital or resource choices, and communication while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Financial Officer career hub](/roles/cfo/)
 
-Review the role-wide approach to lead financial stewardship and connect resource decisions to organizational priorities and the evidence expected for that scope.
+
 
 ### [Arts, Entertainment and Sports industry hub](/industries/arts-entertainment-sports/)
 
-Compare how creative, cultural, event, audience, or sporting activity supported by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Arts, Entertainment and Sports](/roles/ceo/arts-entertainment-sports.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Financial Officer remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Operating Officer in Arts, Entertainment and Sports](/roles/coo/arts-entertainment-sports.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Financial Officer remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Financial Officer in Agriculture, Food and Forestry](/roles/cfo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with creative, cultural, event, audience, or sporting activity supported by teams and organizations and identify how the Chief Financial Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Financial Officer clarify before considering work in Arts, Entertainment and Sports?
 
-Start with the organization's account of creative, cultural, event, audience, or sporting activity supported by teams and organizations, then clarify how the Chief Financial Officer would lead financial stewardship and connect resource decisions to organizational priorities. Ask how audiences, participants, creators, athletes, sponsors, venues, partners, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of creative, cultural, event, audience, or sporting activity supported by teams and organizations, then clarify how the Chief Financial Officer would lead financial stewardship and connect resource decisions to organizational priorities. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Chief Financial Officer describe transferable experience for Arts, Entertainment and Sports work?
 
@@ -139,7 +139,7 @@ Describe an instance where the candidate could lead financial stewardship and co
 
 ### How can a Chief Financial Officer choose documents for conversations about Arts, Entertainment and Sports?
 
-Document selection depends on the opportunity. A Chief Financial Officer may draw from executive resume, finance leadership profile, board biography, and achievement summary, but should foreground only material connected to program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Chief Financial Officer plan contact with Arts, Entertainment and Sports organizations?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Chief Financial Officer assess fit with Arts, Entertainment and Sports responsibilities?
 
-No. Compare the role description with the candidate's experience of lead financial stewardship and connect resource decisions to organizational priorities and the organization's creative, cultural, event, audience, or sporting activity supported by teams and organizations. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Chief Financial Officer candidate considering Arts, Entertainment and Sports?
 

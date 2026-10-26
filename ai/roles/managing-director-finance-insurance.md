@@ -4,7 +4,7 @@ KOV helps Managing Director candidates considering roles connected to Finance an
 
 ## How Managing Director work connects with Finance and Insurance
 
-A Managing Director candidate should be ready to explain assuming the title means the same authority across employers, countries, or ownership models without revealing confidential details or implying unsupported responsibility. Where appropriate to the agreed service, KOV can help a Managing Director candidate prepare and coordinate approved next steps for Finance and Insurance. In Finance and Insurance, customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders may shape the work. A Managing Director example should separate direct responsibility from collaboration. For Managing Director work in Finance and Insurance, explain how the candidate could lead a business, division, or organization according to its defined mandate; connect that mandate to evidence of operating scope, commercial or service accountability, leadership span, and decision authority.
+A Managing Director candidate should be ready to explain assuming the title means the same authority across employers, countries, or ownership models without revealing confidential details or implying unsupported responsibility. In Finance and Insurance, customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders may shape the work. A Managing Director example should separate direct responsibility from collaboration. For Managing Director work in Finance and Insurance, explain how the candidate could lead a business, division, or organization according to its defined mandate; connect that mandate to evidence of operating scope, commercial or service accountability, leadership span, and decision authority.
 
 ## Who this Managing Director and Finance and Insurance guide is for
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Director career hub](/roles/managing-director/)
 
-Review the role-wide approach to lead a business, division, or organization according to its defined mandate and the evidence expected for that scope.
+
 
 ### [Finance and Insurance industry hub](/industries/finance-insurance/)
 
-Compare how financial products and services supported by customer relationships, information, operations, and oversight affects career planning across functions.
+
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Director remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Finance and Insurance](/roles/coo/finance-insurance.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Director remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Managing Director in Agriculture, Food and Forestry](/roles/managing-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with financial products and services supported by customer relationships, information, operations, and oversight and identify how the Managing Director remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Managing Director test the scope of work in Finance and Insurance?
 
-A Managing Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's financial products and services supported by customer relationships, information, operations, and oversight. Explore how the role will lead a business, division, or organization according to its defined mandate and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Managing Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's financial products and services supported by customer relationships, information, operations, and oversight. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Managing Director use to explain experience in Finance and Insurance?
 

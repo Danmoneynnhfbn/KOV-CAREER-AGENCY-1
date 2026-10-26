@@ -49,7 +49,7 @@ To assess a Chief Information Security Officer opportunity in Technology, Media 
 
 ## Common positioning mistakes for Chief Information Security Officer candidates in Technology, Media and Telecom
 
-Where exposing sensitive controls or incidents, or overstating personal responsibility for shared security work affects a career example, substitute an authorized summary that preserves the point about security remit, risk decisions, operating model, incident leadership where authorized, and adoption. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Chief Information Security Officer example should separate direct responsibility from collaboration. Use digital products, platforms, content, communications, or technology-enabled services to frame research about Technology, Media and Telecom, then ask how a Chief Information Security Officer will work through product evolution, reliability, audience or customer needs, technical choices, and changing business models. For Chief Information Security Officer work in Technology, Media and Telecom, explain how the candidate could lead information-security priorities and coordinate risk-informed protection; connect that mandate to evidence of security remit, risk decisions, operating model, incident leadership where authorized, and adoption.
+Where exposing sensitive controls or incidents, or overstating personal responsibility for shared security work affects a career example, substitute an authorized summary that preserves the point about security remit, risk decisions, operating model, incident leadership where authorized, and adoption. A Chief Information Security Officer example should separate direct responsibility from collaboration. Use digital products, platforms, content, communications, or technology-enabled services to frame research about Technology, Media and Telecom, then ask how a Chief Information Security Officer will work through product evolution, reliability, audience or customer needs, technical choices, and changing business models. For Chief Information Security Officer work in Technology, Media and Telecom, explain how the candidate could lead information-security priorities and coordinate risk-informed protection; connect that mandate to evidence of security remit, risk decisions, operating model, incident leadership where authorized, and adoption.
 
 - Treat Technology, Media and Telecom as one uniform employer type; distinguish the actual organization and role.
 - Use a Chief Information Security Officer title without explaining lead information-security priorities and coordinate risk-informed protection.
@@ -59,7 +59,7 @@ Where exposing sensitive controls or incidents, or overstating personal responsi
 
 ## Keep research, confidentiality, and outreach aligned
 
-In a Technology, Media and Telecom target, make the Chief Information Security Officer contribution legible: describe how the candidate helped lead information-security priorities and coordinate risk-informed protection and what supports security remit, risk decisions, operating model, incident leadership where authorized, and adoption. Treat digital products, platforms, content, communications, or technology-enabled services as a question to validate in Technology, Media and Telecom; the answer helps clarify the Chief Information Security Officer mandate and its product evolution, reliability, audience or customer needs, technical choices, and changing business models. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Chief Information Security Officer example should separate direct responsibility from collaboration. A consultation can clarify whether a Chief Information Security Officer candidate needs positioning, document support, target research, or approved outreach for Technology, Media and Telecom.
+In a Technology, Media and Telecom target, make the Chief Information Security Officer contribution legible: describe how the candidate helped lead information-security priorities and coordinate risk-informed protection and what supports security remit, risk decisions, operating model, incident leadership where authorized, and adoption. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Chief Information Security Officer example should separate direct responsibility from collaboration. A consultation can clarify whether a Chief Information Security Officer candidate needs positioning, document support, target research, or approved outreach for Technology, Media and Telecom.
 
 ## Prepare for conversations about Technology, Media and Telecom work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Information Security Officer career hub](/roles/ciso/)
 
-Review the role-wide approach to lead information-security priorities and coordinate risk-informed protection and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Information Security Officer remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Information Security Officer remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Information Security Officer in Agriculture, Food and Forestry](/roles/ciso/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with digital products, platforms, content, communications, or technology-enabled services and identify how the Chief Information Security Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Information Security Officer clarify before considering work in Technology, Media and Telecom?
 
-Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the Chief Information Security Officer would lead information-security priorities and coordinate risk-informed protection. Ask how users, product and engineering teams, customers, creators, advertisers, partners, and investors participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the Chief Information Security Officer would lead information-security priorities and coordinate risk-informed protection. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Chief Information Security Officer describe transferable experience for Technology, Media and Telecom work?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could lead information-security priorit
 
 ### How can a Chief Information Security Officer choose documents for conversations about Technology, Media and Telecom?
 
-Document selection depends on the opportunity. A Chief Information Security Officer may draw from executive resume, security leadership summary, profile, and sanitized case examples, but should foreground only material connected to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Chief Information Security Officer plan contact with Technology, Media and Telecom organizations?
 
-Outreach should follow target research, not precede it. The Chief Information Security Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with security remit, risk decisions, operating model, incident leadership where authorized, and adoption is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Chief Information Security Officer assess fit with Technology, Media and Telecom responsibilities?
 
-No. Compare the role description with the candidate's experience of lead information-security priorities and coordinate risk-informed protection and the organization's digital products, platforms, content, communications, or technology-enabled services. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Chief Information Security Officer candidate considering Technology, Media and Telecom?
 

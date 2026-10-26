@@ -12,7 +12,7 @@ For a Chief Financial Officer target, KOV can discuss how executive resume, fina
 
 ## A candidate-led process from first discussion to next steps
 
-A Chief Financial Officer candidate should be ready to explain presenting financial outcomes without context, attribution, or permission to disclose without revealing confidential details or implying unsupported responsibility. The candidate decides whether to pursue a Chief Financial Officer opportunity. KOV can support agreed research and preparation concerning Public Sector and Government. Consider how residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders interact with a Chief Financial Officer; use examples of program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context to show judgment and collaboration. Treat public administration, public programs, or services delivered under a public mandate as a question to validate in Public Sector and Government; the answer helps clarify the Chief Financial Officer mandate and its public purpose, stewardship, transparency, service access, and coordination across institutions.
+A Chief Financial Officer candidate should be ready to explain presenting financial outcomes without context, attribution, or permission to disclose without revealing confidential details or implying unsupported responsibility. KOV can support agreed research and preparation concerning Public Sector and Government. Consider how residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders interact with a Chief Financial Officer; use examples of program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context to show judgment and collaboration. Treat public administration, public programs, or services delivered under a public mandate as a question to validate in Public Sector and Government; the answer helps clarify the Chief Financial Officer mandate and its public purpose, stewardship, transparency, service access, and coordination across institutions.
 
 ## Documents that make Chief Financial Officer experience relevant here
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Financial Officer career hub](/roles/cfo/)
 
-Review the role-wide approach to lead financial stewardship and connect resource decisions to organizational priorities and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Financial Officer remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Financial Officer remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Financial Officer in Agriculture, Food and Forestry](/roles/cfo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with public administration, public programs, or services delivered under a public mandate and identify how the Chief Financial Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Financial Officer clarify before considering work in Public Sector and Government?
 
-Start with the organization's account of public administration, public programs, or services delivered under a public mandate, then clarify how the Chief Financial Officer would lead financial stewardship and connect resource decisions to organizational priorities. Ask how residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of public administration, public programs, or services delivered under a public mandate, then clarify how the Chief Financial Officer would lead financial stewardship and connect resource decisions to organizational priorities. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Chief Financial Officer describe transferable experience for Public Sector and Government work?
 
@@ -139,19 +139,19 @@ Make the connection explicit: the candidate's record of financial leadership sco
 
 ### How can a Chief Financial Officer choose documents for conversations about Public Sector and Government?
 
-Document selection depends on the opportunity. A Chief Financial Officer may draw from executive resume, finance leadership profile, board biography, and achievement summary, but should foreground only material connected to program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Chief Financial Officer plan contact with Public Sector and Government organizations?
 
-Outreach should follow target research, not precede it. The Chief Financial Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with financial leadership scope, planning, controls, capital or resource choices, and communication is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Chief Financial Officer assess fit with Public Sector and Government responsibilities?
 
-Title is only a label. Establish what the employer means by Chief Financial Officer in this Public Sector and Government organization and how the person will work with residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Chief Financial Officer candidate considering Public Sector and Government?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Financial Officer candidate considering Public Sector and Government, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

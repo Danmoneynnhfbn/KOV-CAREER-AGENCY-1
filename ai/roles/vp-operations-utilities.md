@@ -45,7 +45,7 @@ Consider document and positioning support for Vice President of Operations mater
 
 ## Prepare to discuss the Utilities mandate
 
-To assess a Vice President of Operations opportunity in Utilities, compare the stated remit to the candidate's record of operating remit, workflow choices, service quality, resources, and cross-functional contribution. An account of service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination should identify the candidate's contribution and the involvement of COO or business leader, site teams, customers, suppliers, and functional partners. The candidate decides whether to pursue a Vice President of Operations opportunity. KOV can support agreed research and preparation concerning Utilities. Good preparation for Vice President of Operations work includes a safe way to explain claiming improvements without baseline, scope, constraints, or shared contributors and a clear distinction between fact and inference.
+To assess a Vice President of Operations opportunity in Utilities, compare the stated remit to the candidate's record of operating remit, workflow choices, service quality, resources, and cross-functional contribution. The candidate decides whether to pursue a Vice President of Operations opportunity. KOV can support agreed research and preparation concerning Utilities. Good preparation for Vice President of Operations work includes a safe way to explain claiming improvements without baseline, scope, constraints, or shared contributors and a clear distinction between fact and inference.
 
 ## Common positioning mistakes for Vice President of Operations candidates in Utilities
 
@@ -63,7 +63,7 @@ A candidate exploring Utilities should test the assumed link between essential n
 
 ## Prepare for conversations about Utilities work
 
-The candidate decides whether to pursue a Vice President of Operations opportunity. KOV can support agreed research and preparation concerning Utilities. Map the Utilities relationships among customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders; verify actual authority instead of inferring a reporting line. A candidate exploring Utilities should test the assumed link between essential network or service operations with continuity, infrastructure, and customer responsibilities and reliability, infrastructure renewal, service access, affordability, and long-term planning against the actual Vice President of Operations role description. The Vice President of Operations remit to coordinate operational performance across teams, locations, or service lines should be described through decisions and examples, especially evidence of operating remit, workflow choices, service quality, resources, and cross-functional contribution relevant to Utilities.
+The candidate decides whether to pursue a Vice President of Operations opportunity. Map the Utilities relationships among customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders; verify actual authority instead of inferring a reporting line. A candidate exploring Utilities should test the assumed link between essential network or service operations with continuity, infrastructure, and customer responsibilities and reliability, infrastructure renewal, service access, affordability, and long-term planning against the actual Vice President of Operations role description. The Vice President of Operations remit to coordinate operational performance across teams, locations, or service lines should be described through decisions and examples, especially evidence of operating remit, workflow choices, service quality, resources, and cross-functional contribution relevant to Utilities.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Operations career hub](/roles/vp-operations/)
 
-Review the role-wide approach to coordinate operational performance across teams, locations, or service lines and the evidence expected for that scope.
+
 
 ### [Utilities industry hub](/industries/utilities/)
 
-Compare how essential network or service operations with continuity, infrastructure, and customer responsibilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Utilities](/roles/ceo/utilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Operations remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Operating Officer in Utilities](/roles/coo/utilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Operations remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Vice President of Operations in Agriculture, Food and Forestry](/roles/vp-operations/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with essential network or service operations with continuity, infrastructure, and customer responsibilities and identify how the Vice President of Operations remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Vice President of Operations clarify before considering work in Utilities?
 
-Start with the organization's account of essential network or service operations with continuity, infrastructure, and customer responsibilities, then clarify how the Vice President of Operations would coordinate operational performance across teams, locations, or service lines. Ask how customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of essential network or service operations with continuity, infrastructure, and customer responsibilities, then clarify how the Vice President of Operations would coordinate operational performance across teams, locations, or service lines. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Vice President of Operations describe transferable experience for Utilities work?
 
@@ -139,15 +139,15 @@ Make the connection explicit: the candidate's record of operating remit, workflo
 
 ### How can a Vice President of Operations choose documents for conversations about Utilities?
 
-Document selection depends on the opportunity. A Vice President of Operations may draw from executive resume, operating portfolio, achievement summary, and profile, but should foreground only material connected to service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Vice President of Operations plan contact with Utilities organizations?
 
-Outreach should follow target research, not precede it. The Vice President of Operations candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with operating remit, workflow choices, service quality, resources, and cross-functional contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Vice President of Operations assess fit with Utilities responsibilities?
 
-Title is only a label. Establish what the employer means by Vice President of Operations in this Utilities organization and how the person will work with customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Vice President of Operations candidate considering Utilities?
 

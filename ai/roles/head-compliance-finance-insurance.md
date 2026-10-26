@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Compliance career hub](/roles/head-compliance/)
 
-Review the role-wide approach to coordinate compliance programs and support consistent interpretation of organizational obligations and the evidence expected for that scope.
+
 
 ### [Finance and Insurance industry hub](/industries/finance-insurance/)
 
-Compare how financial products and services supported by customer relationships, information, operations, and oversight affects career planning across functions.
+
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Compliance remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Finance and Insurance](/roles/coo/finance-insurance.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Compliance remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Head of Compliance in Energy, Mining and Oil and Gas](/roles/head-compliance/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with financial products and services supported by customer relationships, information, operations, and oversight and identify how the Head of Compliance remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Head of Compliance resolve before a target discussion in Finance and Insurance?
 
-A Head of Compliance candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's financial products and services supported by customer relationships, information, operations, and oversight. Explore how the role will coordinate compliance programs and support consistent interpretation of organizational obligations and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Head of Compliance candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's financial products and services supported by customer relationships, information, operations, and oversight. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Head of Compliance career story fit the needs of Finance and Insurance?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of program remit, monitorin
 
 ### What should a Head of Compliance prepare in writing before targeting Finance and Insurance?
 
-Possible materials include resume, compliance leadership profile, program summary, and sanitized examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes. Each claim should be accurate for this Finance and Insurance target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, compliance leadership profile, program summary, and sanitized examples. Each claim should be accurate for this Finance and Insurance target, and confidential or unauthorized material should be omitted.
 
 ### What should a Head of Compliance approve before outreach in Finance and Insurance?
 

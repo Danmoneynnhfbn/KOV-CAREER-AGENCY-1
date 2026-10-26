@@ -4,11 +4,11 @@ KOV helps Chief Human Resources Officer candidates considering roles connected t
 
 ## How Chief Human Resources Officer work connects with Hospitality and Food Service
 
-Keep the Chief Human Resources Officer narrative accurate where using confidential employee details or presenting team-wide change as an individual result may arise: attribute shared work and disclose only information the candidate may use. The candidate decides whether to pursue a Chief Human Resources Officer opportunity. KOV can support agreed research and preparation concerning Hospitality and Food Service. An account of venue or service scope, team leadership, guest context, service design, and attributable operating contributions should identify the candidate's contribution and the involvement of CEO, board or owners, employees, people teams, line leaders, and external advisers. Treat guest-facing accommodation, food, venue, or experience services delivered through people and operations as a question to validate in Hospitality and Food Service; the answer helps clarify the Chief Human Resources Officer mandate and its guest experience, operating capacity, service consistency, workforce coordination, and supplier variability.
+Keep the Chief Human Resources Officer narrative accurate where using confidential employee details or presenting team-wide change as an individual result may arise: attribute shared work and disclose only information the candidate may use. KOV can support agreed research and preparation concerning Hospitality and Food Service. An account of venue or service scope, team leadership, guest context, service design, and attributable operating contributions should identify the candidate's contribution and the involvement of CEO, board or owners, employees, people teams, line leaders, and external advisers. Treat guest-facing accommodation, food, venue, or experience services delivered through people and operations as a question to validate in Hospitality and Food Service; the answer helps clarify the Chief Human Resources Officer mandate and its guest experience, operating capacity, service consistency, workforce coordination, and supplier variability.
 
 ## Who this Chief Human Resources Officer and Hospitality and Food Service guide is for
 
-A precise Chief Human Resources Officer story ties people agenda, organization design, leadership support, workforce programs, and measured contribution to the mandate of guide people strategy, organizational capability, and workforce-related leadership, without suggesting that the title alone establishes fit. An account of venue or service scope, team leadership, guest context, service design, and attributable operating contributions should identify the candidate's contribution and the involvement of CEO, board or owners, employees, people teams, line leaders, and external advisers. The candidate decides whether to pursue a Chief Human Resources Officer opportunity. KOV can support agreed research and preparation concerning Hospitality and Food Service. A Chief Human Resources Officer candidate should be ready to explain using confidential employee details or presenting team-wide change as an individual result without revealing confidential details or implying unsupported responsibility.
+A precise Chief Human Resources Officer story ties people agenda, organization design, leadership support, workforce programs, and measured contribution to the mandate of guide people strategy, organizational capability, and workforce-related leadership, without suggesting that the title alone establishes fit. The candidate decides whether to pursue a Chief Human Resources Officer opportunity. KOV can support agreed research and preparation concerning Hospitality and Food Service. A Chief Human Resources Officer candidate should be ready to explain using confidential employee details or presenting team-wide change as an individual result without revealing confidential details or implying unsupported responsibility.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -33,7 +33,7 @@ To assess a Chief Human Resources Officer opportunity in Hospitality and Food Se
 
 ## Choose the individual services that fit the work
 
-Research for a Chief Human Resources Officer in Hospitality and Food Service becomes more focused when the candidate investigates guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alongside guest-facing accommodation, food, venue, or experience services delivered through people and operations. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Chief Human Resources Officer example should separate direct responsibility from collaboration. The service plan should fit the candidate's Chief Human Resources Officer priorities; agree research, materials, and any outreach before contact occurs. Good preparation for Chief Human Resources Officer work includes a safe way to explain using confidential employee details or presenting team-wide change as an individual result and a clear distinction between fact and inference.
+Research for a Chief Human Resources Officer in Hospitality and Food Service becomes more focused when the candidate investigates guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alongside guest-facing accommodation, food, venue, or experience services delivered through people and operations. A Chief Human Resources Officer example should separate direct responsibility from collaboration. The service plan should fit the candidate's Chief Human Resources Officer priorities; agree research, materials, and any outreach before contact occurs. Good preparation for Chief Human Resources Officer work includes a safe way to explain using confidential employee details or presenting team-wide change as an individual result and a clear distinction between fact and inference.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Human Resources Officer career hub](/roles/chro/)
 
-Review the role-wide approach to guide people strategy, organizational capability, and workforce-related leadership and the evidence expected for that scope.
+
 
 ### [Hospitality and Food Service industry hub](/industries/hospitality-food-service/)
 
-Compare how guest-facing accommodation, food, venue, or experience services delivered through people and operations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Hospitality and Food Service](/roles/ceo/hospitality-food-service.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Human Resources Officer remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Operating Officer in Hospitality and Food Service](/roles/coo/hospitality-food-service.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Human Resources Officer remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Human Resources Officer in Agriculture, Food and Forestry](/roles/chro/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with guest-facing accommodation, food, venue, or experience services delivered through people and operations and identify how the Chief Human Resources Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Human Resources Officer clarify before considering work in Hospitality and Food Service?
 
-Use the opening discussion to understand the specific Hospitality and Food Service employer, not to assume a standard role. Compare guide people strategy, organizational capability, and workforce-related leadership with the stated scope, identify decision partners among guests, employees, suppliers, owners, local partners, and service teams, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Hospitality and Food Service employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Chief Human Resources Officer describe transferable experience for Hospitality and Food Service work?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### How can KOV and a Chief Human Resources Officer plan contact with Hospitality and Food Service organizations?
 
-Outreach should follow target research, not precede it. The Chief Human Resources Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with people agenda, organization design, leadership support, workforce programs, and measured contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Chief Human Resources Officer assess fit with Hospitality and Food Service responsibilities?
 
-No. Compare the role description with the candidate's experience of guide people strategy, organizational capability, and workforce-related leadership and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Chief Human Resources Officer candidate considering Hospitality and Food Service?
 

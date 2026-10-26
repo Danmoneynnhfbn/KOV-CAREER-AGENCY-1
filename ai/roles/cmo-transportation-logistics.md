@@ -63,7 +63,7 @@ Show the Chief Marketing Officer scope behind the title: how the candidate could
 
 ## Prepare for conversations about Transportation and Logistics work
 
-Do not resolve uncertainty about claiming revenue or brand movement without describing attribution and surrounding factors through assumption; verify the requirement and use only supportable Chief Marketing Officer claims. The candidate decides whether to pursue a Chief Marketing Officer opportunity. KOV can support agreed research and preparation concerning Transportation and Logistics. An account of route or network scope, service performance context, asset choices, workforce coordination, and customer communication should identify the candidate's contribution and the involvement of CEO, sales and product teams, customers, agencies, employees, and channel partners. Position a Chief Marketing Officer career by linking shape marketing strategy, customer understanding, brand, and commercial communication to route or network scope, service performance context, asset choices, workforce coordination, and customer communication, then clarify which part of that work the candidate actually owned.
+Do not resolve uncertainty about claiming revenue or brand movement without describing attribution and surrounding factors through assumption; verify the requirement and use only supportable Chief Marketing Officer claims. KOV can support agreed research and preparation concerning Transportation and Logistics. An account of route or network scope, service performance context, asset choices, workforce coordination, and customer communication should identify the candidate's contribution and the involvement of CEO, sales and product teams, customers, agencies, employees, and channel partners. Position a Chief Marketing Officer career by linking shape marketing strategy, customer understanding, brand, and commercial communication to route or network scope, service performance context, asset choices, workforce coordination, and customer communication, then clarify which part of that work the candidate actually owned.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Marketing Officer career hub](/roles/cmo/)
 
-Review the role-wide approach to shape marketing strategy, customer understanding, brand, and commercial communication and the evidence expected for that scope.
+
 
 ### [Transportation and Logistics industry hub](/industries/transportation-logistics/)
 
-Compare how movement, handling, and coordination of people or goods across routes and operating networks affects career planning across functions.
+
 
 ### [Chief Executive Officer in Transportation and Logistics](/roles/ceo/transportation-logistics.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Marketing Officer remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Operating Officer in Transportation and Logistics](/roles/coo/transportation-logistics.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Marketing Officer remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Marketing Officer in Agriculture, Food and Forestry](/roles/cmo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with movement, handling, and coordination of people or goods across routes and operating networks and identify how the Chief Marketing Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Marketing Officer test the scope of work in Transportation and Logistics?
 
-Start with the organization's account of movement, handling, and coordination of people or goods across routes and operating networks, then clarify how the Chief Marketing Officer would shape marketing strategy, customer understanding, brand, and commercial communication. Ask how customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of movement, handling, and coordination of people or goods across routes and operating networks, then clarify how the Chief Marketing Officer would shape marketing strategy, customer understanding, brand, and commercial communication. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Chief Marketing Officer use to explain experience in Transportation and Logistics?
 
@@ -139,11 +139,11 @@ Select examples that show market context, customer insight, portfolio decisions,
 
 ### What documents should a Chief Marketing Officer tailor for Transportation and Logistics opportunities?
 
-Possible materials include executive resume, brand and growth narrative, leadership biography, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to route or network scope, service performance context, asset choices, workforce coordination, and customer communication. Each claim should be accurate for this Transportation and Logistics target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, brand and growth narrative, leadership biography, and profile. Each claim should be accurate for this Transportation and Logistics target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Chief Marketing Officer considering Transportation and Logistics?
 
-Outreach should follow target research, not precede it. The Chief Marketing Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with market context, customer insight, portfolio decisions, team leadership, and attributable contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Chief Marketing Officer rely on title alone when targeting Transportation and Logistics?
 

@@ -59,7 +59,7 @@ Readers need to see what Head of Growth work involved; connect coordinate growth
 
 ## Keep research, confidentiality, and outreach aligned
 
-Where claiming all movement as growth impact without describing attribution or context affects a career example, substitute an authorized summary that preserves the point about growth remit, customer insight, channels, collaboration, and attributable learning. Use an example involving service line, client or project context, team leadership, delivery model, and authorized outcomes to describe the decision, the parties involved, and the candidate's role as a Head of Growth. Not every Consulting and Other Professional Services organization will handle expertise, client expectations, capacity, project economics, and consistent delivery across engagements alike. Confirm how expertise-led advisory or delivery work provided to organizations or individuals informs this Head of Growth position. Show the Head of Growth scope behind the title: how the candidate could coordinate growth experiments and commercial initiatives for a defined business, which decisions mattered, and where growth remit, customer insight, channels, collaboration, and attributable learning demonstrates their contribution.
+Where claiming all movement as growth impact without describing attribution or context affects a career example, substitute an authorized summary that preserves the point about growth remit, customer insight, channels, collaboration, and attributable learning. Not every Consulting and Other Professional Services organization will handle expertise, client expectations, capacity, project economics, and consistent delivery across engagements alike. Confirm how expertise-led advisory or delivery work provided to organizations or individuals informs this Head of Growth position. Show the Head of Growth scope behind the title: how the candidate could coordinate growth experiments and commercial initiatives for a defined business, which decisions mattered, and where growth remit, customer insight, channels, collaboration, and attributable learning demonstrates their contribution.
 
 ## Prepare for conversations about Consulting and Other Professional Services work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Growth career hub](/roles/head-growth/)
 
-Review the role-wide approach to coordinate growth experiments and commercial initiatives for a defined business and the evidence expected for that scope.
+
 
 ### [Consulting and Other Professional Services industry hub](/industries/consulting-professional-services/)
 
-Compare how expertise-led advisory or delivery work provided to organizations or individuals affects career planning across functions.
+
 
 ### [Chief Executive Officer in Consulting and Other Professional Services](/roles/ceo/consulting-professional-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Growth remit; consider where each function meets expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chief Operating Officer in Consulting and Other Professional Services](/roles/coo/consulting-professional-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Growth remit; consider where each function meets expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Head of Growth in Retail and E-commerce](/roles/head-growth/retail-ecommerce.html)
 
-Compare customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment with expertise-led advisory or delivery work provided to organizations or individuals and identify how the Head of Growth remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Head of Growth resolve before a target discussion in Consulting and Other Professional Services?
 
-Start with the organization's account of expertise-led advisory or delivery work provided to organizations or individuals, then clarify how the Head of Growth would coordinate growth experiments and commercial initiatives for a defined business. Ask how clients, practitioners, project teams, partners or owners, suppliers, and professional communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of expertise-led advisory or delivery work provided to organizations or individuals, then clarify how the Head of Growth would coordinate growth experiments and commercial initiatives for a defined business. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### Which parts of a Head of Growth career story fit the needs of Consulting and Other Professional Services?
 
@@ -139,11 +139,11 @@ Select examples that show growth remit, customer insight, channels, collaboratio
 
 ### What should a Head of Growth prepare in writing before targeting Consulting and Other Professional Services?
 
-Document selection depends on the opportunity. A Head of Growth may draw from resume, growth portfolio, experiment summaries, and professional profile, but should foreground only material connected to service line, client or project context, team leadership, delivery model, and authorized outcomes. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What should a Head of Growth approve before outreach in Consulting and Other Professional Services?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Head of Growth candidate's service scope; the candidate approves external communication. No one route should be assumed for all Consulting and Other Professional Services employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Consulting and Other Professional Services employers.
 
 ### How should a Head of Growth compare title and remit in Consulting and Other Professional Services?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate growth rem
 
 ### Will KOV secure a meeting for a Head of Growth with an employer in Consulting and Other Professional Services?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Head of Growth candidate considering Consulting and Other Professional Services, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

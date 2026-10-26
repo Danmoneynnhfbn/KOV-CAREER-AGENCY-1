@@ -12,11 +12,11 @@ A Partner candidate should show how client or commercial contribution, practice 
 
 ## A candidate-led process from first discussion to next steps
 
-Rather than lead with seniority, a Partner profile can explain the responsibility to develop a practice or business while contributing to a shared ownership or partnership structure and use practice or business scope, client-service context, team leadership, governance interface, and authorized examples as evidence. Not every Legal Services organization will handle professional judgment, client service, confidentiality, practice operations, and shared leadership alike. Confirm how legal advice, representation, transactions, dispute work, or related professional services informs this Partner position. Candidate-side support from KOV may connect Partner positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Protect credibility in Legal Services by addressing revealing client information or overstating individual ownership of team results with a factual account of client or commercial contribution, practice leadership, collaboration, and shared responsibilities and its limits.
+Rather than lead with seniority, a Partner profile can explain the responsibility to develop a practice or business while contributing to a shared ownership or partnership structure and use practice or business scope, client-service context, team leadership, governance interface, and authorized examples as evidence. Confirm how legal advice, representation, transactions, dispute work, or related professional services informs this Partner position. Candidate-side support from KOV may connect Partner positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Protect credibility in Legal Services by addressing revealing client information or overstating individual ownership of team results with a factual account of client or commercial contribution, practice leadership, collaboration, and shared responsibilities and its limits.
 
 ## Documents that make Partner experience relevant here
 
-In a Legal Services target, make the Partner contribution legible: describe how the candidate helped develop a practice or business while contributing to a shared ownership or partnership structure and what supports client or commercial contribution, practice leadership, collaboration, and shared responsibilities. In Legal Services, clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities may shape the work. A Partner example should separate direct responsibility from collaboration. KOV's service scope for a Partner candidate can include document preparation and agreed search activity, but cannot promise an employer's response. A Partner candidate should be ready to explain revealing client information or overstating individual ownership of team results without revealing confidential details or implying unsupported responsibility.
+In a Legal Services target, make the Partner contribution legible: describe how the candidate helped develop a practice or business while contributing to a shared ownership or partnership structure and what supports client or commercial contribution, practice leadership, collaboration, and shared responsibilities. A Partner example should separate direct responsibility from collaboration. KOV's service scope for a Partner candidate can include document preparation and agreed search activity, but cannot promise an employer's response. A Partner candidate should be ready to explain revealing client information or overstating individual ownership of team results without revealing confidential details or implying unsupported responsibility.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ Consider document and positioning support for Partner materials that present cli
 
 ## Prepare to discuss the Legal Services mandate
 
-The candidate can discuss client or commercial contribution, practice leadership, collaboration, and shared responsibilities while protecting confidentiality by omitting names, restricted figures, and other identifying material. In Legal Services, clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities may shape the work. A Partner example should separate direct responsibility from collaboration. Not every Legal Services organization will handle professional judgment, client service, confidentiality, practice operations, and shared leadership alike. Confirm how legal advice, representation, transactions, dispute work, or related professional services informs this Partner position. Readers need to see what Partner work involved; connect develop a practice or business while contributing to a shared ownership or partnership structure with the candidate's own examples of client or commercial contribution, practice leadership, collaboration, and shared responsibilities in Legal Services.
+The candidate can discuss client or commercial contribution, practice leadership, collaboration, and shared responsibilities while protecting confidentiality by omitting names, restricted figures, and other identifying material. Not every Legal Services organization will handle professional judgment, client service, confidentiality, practice operations, and shared leadership alike. Confirm how legal advice, representation, transactions, dispute work, or related professional services informs this Partner position. Readers need to see what Partner work involved; connect develop a practice or business while contributing to a shared ownership or partnership structure with the candidate's own examples of client or commercial contribution, practice leadership, collaboration, and shared responsibilities in Legal Services.
 
 ## Common positioning mistakes for Partner candidates in Legal Services
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Partner career hub](/roles/partner/)
 
-Review the role-wide approach to develop a practice or business while contributing to a shared ownership or partnership structure and the evidence expected for that scope.
+
 
 ### [Legal Services industry hub](/industries/legal-services/)
 
-Compare how legal advice, representation, transactions, dispute work, or related professional services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Legal Services](/roles/ceo/legal-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Partner remit; consider where each function meets legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Operating Officer in Legal Services](/roles/coo/legal-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Partner remit; consider where each function meets legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Partner in Agriculture, Food and Forestry](/roles/partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with legal advice, representation, transactions, dispute work, or related professional services and identify how the Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Partner clarify before considering work in Legal Services?
 
-Use the opening discussion to understand the specific Legal Services employer, not to assume a standard role. Compare develop a practice or business while contributing to a shared ownership or partnership structure with the stated scope, identify decision partners among clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Legal Services employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Partner describe transferable experience for Legal Services work?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Partner assess fit with Legal Services responsibilities?
 
-Title is only a label. Establish what the employer means by Partner in this Legal Services organization and how the person will work with clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Partner candidate considering Legal Services?
 

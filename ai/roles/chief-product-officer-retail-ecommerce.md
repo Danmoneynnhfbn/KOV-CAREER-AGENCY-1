@@ -12,11 +12,11 @@ The Chief Product Officer remit to guide product direction, portfolio choices, a
 
 ## A candidate-led process from first discussion to next steps
 
-Protect credibility in Retail and E-commerce by addressing listing launches without clarifying user need, decision role, trade-offs, and adoption context with a factual account of product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes and its limits. Use an example involving customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution to describe the decision, the parties involved, and the candidate's role as a Chief Product Officer. Not every Retail and E-commerce organization will handle customer experience, assortment, inventory, channel coordination, and rapid feedback alike. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this Chief Product Officer position. Rather than lead with seniority, a Chief Product Officer profile can explain the responsibility to guide product direction, portfolio choices, and the connection between users and delivery teams and use customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution as evidence.
+Protect credibility in Retail and E-commerce by addressing listing launches without clarifying user need, decision role, trade-offs, and adoption context with a factual account of product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes and its limits. Not every Retail and E-commerce organization will handle customer experience, assortment, inventory, channel coordination, and rapid feedback alike. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this Chief Product Officer position. Rather than lead with seniority, a Chief Product Officer profile can explain the responsibility to guide product direction, portfolio choices, and the connection between users and delivery teams and use customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution as evidence.
 
 ## Documents that make Chief Product Officer experience relevant here
 
-Keep the Chief Product Officer narrative accurate where listing launches without clarifying user need, decision role, trade-offs, and adoption context may arise: attribute shared work and disclose only information the candidate may use. An account of customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution should identify the candidate's contribution and the involvement of CEO, engineering, design, sales, support, customers, and product teams. Not every Retail and E-commerce organization will handle customer experience, assortment, inventory, channel coordination, and rapid feedback alike. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this Chief Product Officer position. To assess a Chief Product Officer opportunity in Retail and E-commerce, compare the stated remit to the candidate's record of product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes.
+Keep the Chief Product Officer narrative accurate where listing launches without clarifying user need, decision role, trade-offs, and adoption context may arise: attribute shared work and disclose only information the candidate may use. Not every Retail and E-commerce organization will handle customer experience, assortment, inventory, channel coordination, and rapid feedback alike. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this Chief Product Officer position. To assess a Chief Product Officer opportunity in Retail and E-commerce, compare the stated remit to the candidate's record of product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ Keep the Chief Product Officer narrative accurate where listing launches without
 
 ## Choose the individual services that fit the work
 
-Do not resolve uncertainty about listing launches without clarifying user need, decision role, trade-offs, and adoption context through assumption; verify the requirement and use only supportable Chief Product Officer claims. The candidate decides whether to pursue a Chief Product Officer opportunity. KOV can support agreed research and preparation concerning Retail and E-commerce. For Retail and E-commerce, establish whether customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment describes the target employer and how customer experience, assortment, inventory, channel coordination, and rapid feedback is reflected in its Chief Product Officer mandate. Show the Chief Product Officer scope behind the title: how the candidate could guide product direction, portfolio choices, and the connection between users and delivery teams, which decisions mattered, and where product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes demonstrates their contribution.
+Do not resolve uncertainty about listing launches without clarifying user need, decision role, trade-offs, and adoption context through assumption; verify the requirement and use only supportable Chief Product Officer claims. KOV can support agreed research and preparation concerning Retail and E-commerce. For Retail and E-commerce, establish whether customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment describes the target employer and how customer experience, assortment, inventory, channel coordination, and rapid feedback is reflected in its Chief Product Officer mandate. Show the Chief Product Officer scope behind the title: how the candidate could guide product direction, portfolio choices, and the connection between users and delivery teams, which decisions mattered, and where product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes demonstrates their contribution.
 
 ### [Private career representation](/services.html)
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Chief Product Officer materials th
 
 ## Prepare to discuss the Retail and E-commerce mandate
 
-Keep the Chief Product Officer narrative accurate where listing launches without clarifying user need, decision role, trade-offs, and adoption context may arise: attribute shared work and disclose only information the candidate may use. The candidate decides whether to pursue a Chief Product Officer opportunity. KOV can support agreed research and preparation concerning Retail and E-commerce. To understand the Retail and E-commerce target, explore customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and ask how a Chief Product Officer is expected to respond to customer experience, assortment, inventory, channel coordination, and rapid feedback. A Chief Product Officer candidate should show how product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes supported the work to guide product direction, portfolio choices, and the connection between users and delivery teams, with the Retail and E-commerce setting made explicit.
+Keep the Chief Product Officer narrative accurate where listing launches without clarifying user need, decision role, trade-offs, and adoption context may arise: attribute shared work and disclose only information the candidate may use. KOV can support agreed research and preparation concerning Retail and E-commerce. To understand the Retail and E-commerce target, explore customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and ask how a Chief Product Officer is expected to respond to customer experience, assortment, inventory, channel coordination, and rapid feedback. A Chief Product Officer candidate should show how product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes supported the work to guide product direction, portfolio choices, and the connection between users and delivery teams, with the Retail and E-commerce setting made explicit.
 
 ## Common positioning mistakes for Chief Product Officer candidates in Retail and E-commerce
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Product Officer career hub](/roles/chief-product-officer/)
 
-Review the role-wide approach to guide product direction, portfolio choices, and the connection between users and delivery teams and the evidence expected for that scope.
+
 
 ### [Retail and E-commerce industry hub](/industries/retail-ecommerce/)
 
-Compare how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment affects career planning across functions.
+
 
 ### [Chief Executive Officer in Retail and E-commerce](/roles/ceo/retail-ecommerce.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Product Officer remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Operating Officer in Retail and E-commerce](/roles/coo/retail-ecommerce.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Product Officer remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Product Officer in Agriculture, Food and Forestry](/roles/chief-product-officer/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and identify how the Chief Product Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Product Officer in Retail and E-commerce?
 
-Start with the organization's account of customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment, then clarify how the Chief Product Officer would guide product direction, portfolio choices, and the connection between users and delivery teams. Ask how customers, store or digital teams, suppliers, brand partners, operations, and owners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment, then clarify how the Chief Product Officer would guide product direction, portfolio choices, and the connection between users and delivery teams. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Chief Product Officer make prior work relevant to Retail and E-commerce?
 
@@ -139,19 +139,19 @@ Describe an instance where the candidate could guide product direction, portfoli
 
 ### Which career materials can help a Chief Product Officer explore work in Retail and E-commerce?
 
-Possible materials include executive resume, product portfolio narrative, leadership biography, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution. Each claim should be accurate for this Retail and E-commerce target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, product portfolio narrative, leadership biography, and profile. Each claim should be accurate for this Retail and E-commerce target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Chief Product Officer contacts an organization in Retail and E-commerce?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Product Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Retail and E-commerce employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Retail and E-commerce employers.
 
 ### What makes a Chief Product Officer background relevant to work in Retail and E-commerce?
 
-No. Compare the role description with the candidate's experience of guide product direction, portfolio choices, and the connection between users and delivery teams and the organization's customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Chief Product Officer outreach in Retail and E-commerce?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Product Officer candidate considering Retail and E-commerce, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

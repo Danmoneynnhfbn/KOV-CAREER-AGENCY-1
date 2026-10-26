@@ -16,7 +16,7 @@ Do not resolve uncertainty about claiming strategy outcomes without distinguishi
 
 ## Documents that make Vice President of Strategy experience relevant here
 
-The candidate decides whether to pursue a Vice President of Strategy opportunity. KOV can support agreed research and preparation concerning Manufacturing. In Manufacturing, employees, suppliers, customers, engineering, operations, distribution, and ownership may shape the work. A Vice President of Strategy example should separate direct responsibility from collaboration. A candidate exploring Manufacturing should test the assumed link between conversion of materials into products through coordinated processes, equipment, people, and quality systems and production planning, equipment capacity, quality, workforce capability, and customer demand against the actual Vice President of Strategy role description. Readers need to see what Vice President of Strategy work involved; connect frame strategic choices and connect planning with operating decisions with the candidate's own examples of analysis, option framing, stakeholder alignment, implementation, and decision influence in Manufacturing.
+The candidate decides whether to pursue a Vice President of Strategy opportunity. A Vice President of Strategy example should separate direct responsibility from collaboration. A candidate exploring Manufacturing should test the assumed link between conversion of materials into products through coordinated processes, equipment, people, and quality systems and production planning, equipment capacity, quality, workforce capability, and customer demand against the actual Vice President of Strategy role description. Readers need to see what Vice President of Strategy work involved; connect frame strategic choices and connect planning with operating decisions with the candidate's own examples of analysis, option framing, stakeholder alignment, implementation, and decision influence in Manufacturing.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ Consider document and positioning support for Vice President of Strategy materia
 
 ## Prepare to discuss the Manufacturing mandate
 
-A Vice President of Strategy candidate should be ready to explain claiming strategy outcomes without distinguishing recommendation, sponsorship, and execution without revealing confidential details or implying unsupported responsibility. Before presenting plant or product scope, process decisions, quality or delivery context, team leadership, and improvement work, determine how employees, suppliers, customers, engineering, operations, distribution, and ownership participated and which details are safe to discuss. Not every Manufacturing organization will handle production planning, equipment capacity, quality, workforce capability, and customer demand alike. Confirm how conversion of materials into products through coordinated processes, equipment, people, and quality systems informs this Vice President of Strategy position. The Vice President of Strategy remit to frame strategic choices and connect planning with operating decisions should be described through decisions and examples, especially evidence of analysis, option framing, stakeholder alignment, implementation, and decision influence relevant to Manufacturing.
+A Vice President of Strategy candidate should be ready to explain claiming strategy outcomes without distinguishing recommendation, sponsorship, and execution without revealing confidential details or implying unsupported responsibility. Not every Manufacturing organization will handle production planning, equipment capacity, quality, workforce capability, and customer demand alike. Confirm how conversion of materials into products through coordinated processes, equipment, people, and quality systems informs this Vice President of Strategy position. The Vice President of Strategy remit to frame strategic choices and connect planning with operating decisions should be described through decisions and examples, especially evidence of analysis, option framing, stakeholder alignment, implementation, and decision influence relevant to Manufacturing.
 
 ## Common positioning mistakes for Vice President of Strategy candidates in Manufacturing
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Strategy career hub](/roles/vp-strategy/)
 
-Review the role-wide approach to frame strategic choices and connect planning with operating decisions and the evidence expected for that scope.
+
 
 ### [Manufacturing industry hub](/industries/manufacturing/)
 
-Compare how conversion of materials into products through coordinated processes, equipment, people, and quality systems affects career planning across functions.
+
 
 ### [Chief Executive Officer in Manufacturing](/roles/ceo/manufacturing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Strategy remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Operating Officer in Manufacturing](/roles/coo/manufacturing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Strategy remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Vice President of Strategy in Energy, Mining and Oil and Gas](/roles/vp-strategy/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with conversion of materials into products through coordinated processes, equipment, people, and quality systems and identify how the Vice President of Strategy remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Vice President of Strategy clarify before considering work in Manufacturing?
 
-A Vice President of Strategy candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's conversion of materials into products through coordinated processes, equipment, people, and quality systems. Explore how the role will frame strategic choices and connect planning with operating decisions and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Vice President of Strategy candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's conversion of materials into products through coordinated processes, equipment, people, and quality systems. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Vice President of Strategy describe transferable experience for Manufacturing work?
 
@@ -139,15 +139,15 @@ Select examples that show analysis, option framing, stakeholder alignment, imple
 
 ### How can a Vice President of Strategy choose documents for conversations about Manufacturing?
 
-Possible materials include executive resume, strategy portfolio, decision narrative, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to plant or product scope, process decisions, quality or delivery context, team leadership, and improvement work. Each claim should be accurate for this Manufacturing target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, strategy portfolio, decision narrative, and profile. Each claim should be accurate for this Manufacturing target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Vice President of Strategy plan contact with Manufacturing organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Vice President of Strategy candidate's service scope; the candidate approves external communication. No one route should be assumed for all Manufacturing employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Manufacturing employers.
 
 ### How can a Vice President of Strategy assess fit with Manufacturing responsibilities?
 
-No. Compare the role description with the candidate's experience of frame strategic choices and connect planning with operating decisions and the organization's conversion of materials into products through coordinated processes, equipment, people, and quality systems. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Vice President of Strategy candidate considering Manufacturing?
 

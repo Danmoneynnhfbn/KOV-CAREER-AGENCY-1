@@ -12,7 +12,7 @@ A candidate exploring Real Estate and Leasing should test the assumed link betwe
 
 ## A candidate-led process from first discussion to next steps
 
-Where sharing nonpublic financial details or overstating sign-off authority affects a career example, substitute an authorized summary that preserves the point about team responsibility, planning cycle, reporting scope, decision support, and controls. Preparation for a Director of Finance conversation should address whether the organization owns, develops, leases, manages, or advises on assets and which part of that work the role leads; relate the response to asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution, not speculation about hiring. Not every Real Estate and Leasing organization will handle asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions alike. Confirm how property ownership, development, brokerage, management, or leasing relationships informs this Director of Finance position. Show the Director of Finance scope behind the title: how the candidate could lead financial planning, reporting, or control activity for a function or organization, which decisions mattered, and where team responsibility, planning cycle, reporting scope, decision support, and controls demonstrates their contribution.
+Where sharing nonpublic financial details or overstating sign-off authority affects a career example, substitute an authorized summary that preserves the point about team responsibility, planning cycle, reporting scope, decision support, and controls. Not every Real Estate and Leasing organization will handle asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions alike. Confirm how property ownership, development, brokerage, management, or leasing relationships informs this Director of Finance position. Show the Director of Finance scope behind the title: how the candidate could lead financial planning, reporting, or control activity for a function or organization, which decisions mattered, and where team responsibility, planning cycle, reporting scope, decision support, and controls demonstrates their contribution.
 
 ## Documents that make Director of Finance experience relevant here
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Finance career hub](/roles/director-finance/)
 
-Review the role-wide approach to lead financial planning, reporting, or control activity for a function or organization and the evidence expected for that scope.
+
 
 ### [Real Estate and Leasing industry hub](/industries/real-estate-leasing/)
 
-Compare how property ownership, development, brokerage, management, or leasing relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Real Estate and Leasing](/roles/ceo/real-estate-leasing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Finance remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Operating Officer in Real Estate and Leasing](/roles/coo/real-estate-leasing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Finance remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Director of Finance in Manufacturing](/roles/director-finance/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with property ownership, development, brokerage, management, or leasing relationships and identify how the Director of Finance remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Director of Finance clarify before considering work in Real Estate and Leasing?
 
-Start with the organization's account of property ownership, development, brokerage, management, or leasing relationships, then clarify how the Director of Finance would lead financial planning, reporting, or control activity for a function or organization. Ask how owners, tenants, customers, investors, property teams, suppliers, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of property ownership, development, brokerage, management, or leasing relationships, then clarify how the Director of Finance would lead financial planning, reporting, or control activity for a function or organization. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Director of Finance describe transferable experience for Real Estate and Leasing work?
 
@@ -139,11 +139,11 @@ Select examples that show team responsibility, planning cycle, reporting scope, 
 
 ### How can a Director of Finance choose documents for conversations about Real Estate and Leasing?
 
-Document selection depends on the opportunity. A Director of Finance may draw from resume, finance achievement brief, professional profile, and interview examples, but should foreground only material connected to asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Director of Finance plan contact with Real Estate and Leasing organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of Finance candidate's service scope; the candidate approves external communication. No one route should be assumed for all Real Estate and Leasing employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Real Estate and Leasing employers.
 
 ### How can a Director of Finance assess fit with Real Estate and Leasing responsibilities?
 

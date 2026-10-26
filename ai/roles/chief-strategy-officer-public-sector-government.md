@@ -12,7 +12,7 @@ Keep the Chief Strategy Officer narrative accurate where presenting recommendati
 
 ## A candidate-led process from first discussion to next steps
 
-Keep the Chief Strategy Officer narrative accurate where presenting recommendations as implemented outcomes or leaving ownership unclear may arise: attribute shared work and disclose only information the candidate may use. The candidate decides whether to pursue a Chief Strategy Officer opportunity. KOV can support agreed research and preparation concerning Public Sector and Government. The candidate's record of strategy remit, decision support, portfolio choices, implementation links, and influence should be set beside the role of residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders, so shared results are attributed fairly. To assess a Chief Strategy Officer opportunity in Public Sector and Government, compare the stated remit to the candidate's record of strategy remit, decision support, portfolio choices, implementation links, and influence.
+Keep the Chief Strategy Officer narrative accurate where presenting recommendations as implemented outcomes or leaving ownership unclear may arise: attribute shared work and disclose only information the candidate may use. KOV can support agreed research and preparation concerning Public Sector and Government. The candidate's record of strategy remit, decision support, portfolio choices, implementation links, and influence should be set beside the role of residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders, so shared results are attributed fairly. To assess a Chief Strategy Officer opportunity in Public Sector and Government, compare the stated remit to the candidate's record of strategy remit, decision support, portfolio choices, implementation links, and influence.
 
 ## Documents that make Chief Strategy Officer experience relevant here
 
@@ -33,7 +33,7 @@ Rather than lead with seniority, a Chief Strategy Officer profile can explain th
 
 ## Choose the individual services that fit the work
 
-A precise Chief Strategy Officer story ties strategy remit, decision support, portfolio choices, implementation links, and influence to the mandate of support organization-wide choices by framing options, analysis, and strategic execution, without suggesting that the title alone establishes fit. Not every Public Sector and Government organization will handle public purpose, stewardship, transparency, service access, and coordination across institutions alike. Confirm how public administration, public programs, or services delivered under a public mandate informs this Chief Strategy Officer position. KOV works with the candidate to agree which Chief Strategy Officer targets matter, how executive resume, strategy portfolio, executive biography, and profile will be used, and whether communication is authorized. Review each Chief Strategy Officer example for presenting recommendations as implemented outcomes or leaving ownership unclear, then describe the candidate's decisions without overstating their control over CEO, board or owners, finance, business leaders, employees, and external partners.
+A precise Chief Strategy Officer story ties strategy remit, decision support, portfolio choices, implementation links, and influence to the mandate of support organization-wide choices by framing options, analysis, and strategic execution, without suggesting that the title alone establishes fit. Confirm how public administration, public programs, or services delivered under a public mandate informs this Chief Strategy Officer position. KOV works with the candidate to agree which Chief Strategy Officer targets matter, how executive resume, strategy portfolio, executive biography, and profile will be used, and whether communication is authorized. Review each Chief Strategy Officer example for presenting recommendations as implemented outcomes or leaving ownership unclear, then describe the candidate's decisions without overstating their control over CEO, board or owners, finance, business leaders, employees, and external partners.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Strategy Officer career hub](/roles/chief-strategy-officer/)
 
-Review the role-wide approach to support organization-wide choices by framing options, analysis, and strategic execution and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Strategy Officer remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Strategy Officer remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Strategy Officer in Agriculture, Food and Forestry](/roles/chief-strategy-officer/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with public administration, public programs, or services delivered under a public mandate and identify how the Chief Strategy Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Strategy Officer test the scope of work in Public Sector and Government?
 
-A Chief Strategy Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. Explore how the role will support organization-wide choices by framing options, analysis, and strategic execution and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Strategy Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Chief Strategy Officer use to explain experience in Public Sector and Government?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### Which outreach choices belong to a Chief Strategy Officer considering Public Sector and Government?
 
-Outreach should follow target research, not precede it. The Chief Strategy Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with strategy remit, decision support, portfolio choices, implementation links, and influence is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Chief Strategy Officer rely on title alone when targeting Public Sector and Government?
 

@@ -59,7 +59,7 @@ For Chief Revenue Officer materials, manage the risk of claiming all commercial 
 
 ## Keep research, confidentiality, and outreach aligned
 
-For Chief Revenue Officer work in Retail and E-commerce, explain how the candidate could coordinate revenue-facing functions around a coherent commercial direction; connect that mandate to evidence of commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence. An employer's Retail and E-commerce model may involve customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment; its implications for customer experience, assortment, inventory, channel coordination, and rapid feedback should be discussed, not presumed. Consider how customers, store or digital teams, suppliers, brand partners, operations, and owners interact with a Chief Revenue Officer; use examples of customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution to show judgment and collaboration. The candidate decides whether to pursue a Chief Revenue Officer opportunity. KOV can support agreed research and preparation concerning Retail and E-commerce.
+For Chief Revenue Officer work in Retail and E-commerce, explain how the candidate could coordinate revenue-facing functions around a coherent commercial direction; connect that mandate to evidence of commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence. Consider how customers, store or digital teams, suppliers, brand partners, operations, and owners interact with a Chief Revenue Officer; use examples of customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution to show judgment and collaboration. The candidate decides whether to pursue a Chief Revenue Officer opportunity. KOV can support agreed research and preparation concerning Retail and E-commerce.
 
 ## Prepare for conversations about Retail and E-commerce work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Revenue Officer career hub](/roles/chief-revenue-officer/)
 
-Review the role-wide approach to coordinate revenue-facing functions around a coherent commercial direction and the evidence expected for that scope.
+
 
 ### [Retail and E-commerce industry hub](/industries/retail-ecommerce/)
 
-Compare how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment affects career planning across functions.
+
 
 ### [Chief Executive Officer in Retail and E-commerce](/roles/ceo/retail-ecommerce.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Revenue Officer remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Operating Officer in Retail and E-commerce](/roles/coo/retail-ecommerce.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Revenue Officer remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Revenue Officer in Agriculture, Food and Forestry](/roles/chief-revenue-officer/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and identify how the Chief Revenue Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Chief Revenue Officer resolve before a target discussion in Retail and E-commerce?
 
-A Chief Revenue Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment. Explore how the role will coordinate revenue-facing functions around a coherent commercial direction and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Revenue Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Chief Revenue Officer career story fit the needs of Retail and E-commerce?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of commercial remit, custom
 
 ### What should a Chief Revenue Officer prepare in writing before targeting Retail and E-commerce?
 
-Possible materials include executive resume, commercial leadership profile, pipeline narrative, and biography. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution. Each claim should be accurate for this Retail and E-commerce target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, commercial leadership profile, pipeline narrative, and biography. Each claim should be accurate for this Retail and E-commerce target, and confidential or unauthorized material should be omitted.
 
 ### What should a Chief Revenue Officer approve before outreach in Retail and E-commerce?
 

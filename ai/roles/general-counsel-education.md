@@ -8,7 +8,7 @@ Rather than lead with seniority, a General Counsel / Chief Legal Officer profile
 
 ## Who this General Counsel / Chief Legal Officer and Education guide is for
 
-For General Counsel / Chief Legal Officer materials, manage the risk of confusing legal advice with business decision ownership or disclosing privileged information; support claims with legal remit, advisory judgment, team scope, governance interaction, and business context and remove details that are not authorized for sharing. Use an example involving program or institutional scope, learner or service context, staff leadership, and improvement contribution to describe the decision, the parties involved, and the candidate's role as a General Counsel / Chief Legal Officer. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this General Counsel / Chief Legal Officer position. For General Counsel / Chief Legal Officer work in Education, explain how the candidate could lead legal judgment and connect legal advice with organizational decisions; connect that mandate to evidence of legal remit, advisory judgment, team scope, governance interaction, and business context.
+For General Counsel / Chief Legal Officer materials, manage the risk of confusing legal advice with business decision ownership or disclosing privileged information; support claims with legal remit, advisory judgment, team scope, governance interaction, and business context and remove details that are not authorized for sharing. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this General Counsel / Chief Legal Officer position. For General Counsel / Chief Legal Officer work in Education, explain how the candidate could lead legal judgment and connect legal advice with organizational decisions; connect that mandate to evidence of legal remit, advisory judgment, team scope, governance interaction, and business context.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [General Counsel / Chief Legal Officer career hub](/roles/general-counsel/)
 
-Review the role-wide approach to lead legal judgment and connect legal advice with organizational decisions and the evidence expected for that scope.
+
 
 ### [Education industry hub](/industries/education/)
 
-Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.
+
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Contrast set organization-wide direction and coordinate executive work with the General Counsel / Chief Legal Officer remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Education](/roles/coo/education.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the General Counsel / Chief Legal Officer remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [General Counsel / Chief Legal Officer in Agriculture, Food and Forestry](/roles/general-counsel/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with learning services delivered through institutions, programs, technology, or educational support and identify how the General Counsel / Chief Legal Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a General Counsel / Chief Legal Officer test the scope of work in Education?
 
-Use the opening discussion to understand the specific Education employer, not to assume a standard role. Compare lead legal judgment and connect legal advice with organizational decisions with the stated scope, identify decision partners among learners, families, educators, administrators, owners or boards, and community partners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Education employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### What evidence can a General Counsel / Chief Legal Officer use to explain experience in Education?
 
@@ -139,11 +139,11 @@ Make the connection explicit: the candidate's record of legal remit, advisory ju
 
 ### What documents should a General Counsel / Chief Legal Officer tailor for Education opportunities?
 
-Document selection depends on the opportunity. A General Counsel / Chief Legal Officer may draw from executive resume, legal leadership biography, practice summary, and professional profile, but should foreground only material connected to program or institutional scope, learner or service context, staff leadership, and improvement contribution. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### Which outreach choices belong to a General Counsel / Chief Legal Officer considering Education?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the General Counsel / Chief Legal Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Education employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Education employers.
 
 ### Can a General Counsel / Chief Legal Officer rely on title alone when targeting Education?
 

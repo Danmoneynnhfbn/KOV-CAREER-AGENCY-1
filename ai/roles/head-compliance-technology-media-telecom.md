@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Compliance career hub](/roles/head-compliance/)
 
-Review the role-wide approach to coordinate compliance programs and support consistent interpretation of organizational obligations and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Compliance remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Compliance remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Head of Compliance in Energy, Mining and Oil and Gas](/roles/head-compliance/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with digital products, platforms, content, communications, or technology-enabled services and identify how the Head of Compliance remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Head of Compliance test the scope of work in Technology, Media and Telecom?
 
-A Head of Compliance candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's digital products, platforms, content, communications, or technology-enabled services. Explore how the role will coordinate compliance programs and support consistent interpretation of organizational obligations and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Head of Compliance candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's digital products, platforms, content, communications, or technology-enabled services. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Head of Compliance use to explain experience in Technology, Media and Telecom?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### Which outreach choices belong to a Head of Compliance considering Technology, Media and Telecom?
 
-Outreach should follow target research, not precede it. The Head of Compliance candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with program remit, monitoring or training scope, issue handling, escalation, and cross-team work is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Head of Compliance rely on title alone when targeting Technology, Media and Telecom?
 

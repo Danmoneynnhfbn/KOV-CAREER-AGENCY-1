@@ -16,7 +16,7 @@ For Chief Revenue Officer work in Wholesale and Distribution, explain how the ca
 
 ## Documents that make Chief Revenue Officer experience relevant here
 
-The Wholesale and Distribution context involves movement and availability of goods through purchasing, inventory, channel, and delivery relationships; examine how that structure affects availability, working capital, fulfillment coordination, customer terms, and supplier variability before drawing conclusions about the Chief Revenue Officer role. Before presenting channel or category scope, inventory and service context, commercial coordination, and customer outcomes, determine how suppliers, retailers, business customers, logistics teams, sales, and inventory operators participated and which details are safe to discuss. The candidate decides whether to pursue a Chief Revenue Officer opportunity. KOV can support agreed research and preparation concerning Wholesale and Distribution. Good preparation for Chief Revenue Officer work includes a safe way to explain claiming all commercial outcomes without defining team, market, timing, or attribution and a clear distinction between fact and inference.
+The Wholesale and Distribution context involves movement and availability of goods through purchasing, inventory, channel, and delivery relationships; examine how that structure affects availability, working capital, fulfillment coordination, customer terms, and supplier variability before drawing conclusions about the Chief Revenue Officer role. The candidate decides whether to pursue a Chief Revenue Officer opportunity. KOV can support agreed research and preparation concerning Wholesale and Distribution. Good preparation for Chief Revenue Officer work includes a safe way to explain claiming all commercial outcomes without defining team, market, timing, or attribution and a clear distinction between fact and inference.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ The Wholesale and Distribution context involves movement and availability of goo
 
 ## Choose the individual services that fit the work
 
-Where claiming all commercial outcomes without defining team, market, timing, or attribution affects a career example, substitute an authorized summary that preserves the point about commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence. The candidate decides whether to pursue a Chief Revenue Officer opportunity. KOV can support agreed research and preparation concerning Wholesale and Distribution. To understand the Wholesale and Distribution target, explore movement and availability of goods through purchasing, inventory, channel, and delivery relationships and ask how a Chief Revenue Officer is expected to respond to availability, working capital, fulfillment coordination, customer terms, and supplier variability. Rather than lead with seniority, a Chief Revenue Officer profile can explain the responsibility to coordinate revenue-facing functions around a coherent commercial direction and use channel or category scope, inventory and service context, commercial coordination, and customer outcomes as evidence.
+Where claiming all commercial outcomes without defining team, market, timing, or attribution affects a career example, substitute an authorized summary that preserves the point about commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence. KOV can support agreed research and preparation concerning Wholesale and Distribution. To understand the Wholesale and Distribution target, explore movement and availability of goods through purchasing, inventory, channel, and delivery relationships and ask how a Chief Revenue Officer is expected to respond to availability, working capital, fulfillment coordination, customer terms, and supplier variability. Rather than lead with seniority, a Chief Revenue Officer profile can explain the responsibility to coordinate revenue-facing functions around a coherent commercial direction and use channel or category scope, inventory and service context, commercial coordination, and customer outcomes as evidence.
 
 ### [Private career representation](/services.html)
 
@@ -63,7 +63,7 @@ The Chief Revenue Officer remit to coordinate revenue-facing functions around a 
 
 ## Prepare for conversations about Wholesale and Distribution work
 
-The Chief Revenue Officer remit to coordinate revenue-facing functions around a coherent commercial direction should be described through decisions and examples, especially evidence of commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence relevant to Wholesale and Distribution. To understand the Wholesale and Distribution target, explore movement and availability of goods through purchasing, inventory, channel, and delivery relationships and ask how a Chief Revenue Officer is expected to respond to availability, working capital, fulfillment coordination, customer terms, and supplier variability. In Wholesale and Distribution, suppliers, retailers, business customers, logistics teams, sales, and inventory operators may shape the work. A Chief Revenue Officer example should separate direct responsibility from collaboration. Before discussing channel or category scope, inventory and service context, commercial coordination, and customer outcomes, check whether claiming all commercial outcomes without defining team, market, timing, or attribution could expose sensitive details or blur the candidate's decision boundary.
+The Chief Revenue Officer remit to coordinate revenue-facing functions around a coherent commercial direction should be described through decisions and examples, especially evidence of commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence relevant to Wholesale and Distribution. In Wholesale and Distribution, suppliers, retailers, business customers, logistics teams, sales, and inventory operators may shape the work. A Chief Revenue Officer example should separate direct responsibility from collaboration. Before discussing channel or category scope, inventory and service context, commercial coordination, and customer outcomes, check whether claiming all commercial outcomes without defining team, market, timing, or attribution could expose sensitive details or blur the candidate's decision boundary.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Revenue Officer career hub](/roles/chief-revenue-officer/)
 
-Review the role-wide approach to coordinate revenue-facing functions around a coherent commercial direction and the evidence expected for that scope.
+
 
 ### [Wholesale and Distribution industry hub](/industries/wholesale-distribution/)
 
-Compare how movement and availability of goods through purchasing, inventory, channel, and delivery relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Wholesale and Distribution](/roles/ceo/wholesale-distribution.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Revenue Officer remit; consider where each function meets movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Operating Officer in Wholesale and Distribution](/roles/coo/wholesale-distribution.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Revenue Officer remit; consider where each function meets movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Revenue Officer in Agriculture, Food and Forestry](/roles/chief-revenue-officer/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with movement and availability of goods through purchasing, inventory, channel, and delivery relationships and identify how the Chief Revenue Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Chief Revenue Officer resolve before a target discussion in Wholesale and Distribution?
 
-A Chief Revenue Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's movement and availability of goods through purchasing, inventory, channel, and delivery relationships. Explore how the role will coordinate revenue-facing functions around a coherent commercial direction and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Revenue Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's movement and availability of goods through purchasing, inventory, channel, and delivery relationships. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Chief Revenue Officer career story fit the needs of Wholesale and Distribution?
 
@@ -139,19 +139,19 @@ Select examples that show commercial remit, customer segments, sales and marketi
 
 ### What should a Chief Revenue Officer prepare in writing before targeting Wholesale and Distribution?
 
-Possible materials include executive resume, commercial leadership profile, pipeline narrative, and biography. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to channel or category scope, inventory and service context, commercial coordination, and customer outcomes. Each claim should be accurate for this Wholesale and Distribution target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, commercial leadership profile, pipeline narrative, and biography. Each claim should be accurate for this Wholesale and Distribution target, and confidential or unauthorized material should be omitted.
 
 ### What should a Chief Revenue Officer approve before outreach in Wholesale and Distribution?
 
-Outreach should follow target research, not precede it. The Chief Revenue Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a Chief Revenue Officer compare title and remit in Wholesale and Distribution?
 
-No. Compare the role description with the candidate's experience of coordinate revenue-facing functions around a coherent commercial direction and the organization's movement and availability of goods through purchasing, inventory, channel, and delivery relationships. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Will KOV secure a meeting for a Chief Revenue Officer with an employer in Wholesale and Distribution?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Revenue Officer candidate considering Wholesale and Distribution, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

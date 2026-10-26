@@ -4,7 +4,7 @@ KOV helps Managing Partner candidates considering roles connected to Business Su
 
 ## How Managing Partner work connects with Business Support and Facilities
 
-A Managing Partner candidate should be ready to explain presenting partner-group outcomes as individual decisions or ignoring shared governance without revealing confidential details or implying unsupported responsibility. Map the Business Support and Facilities relationships among internal clients, employees, service teams, suppliers, customers, and contract owners; verify actual authority instead of inferring a reporting line. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Managing Partner position. The Managing Partner remit to combine leadership responsibilities with the governance and professional context of a partnership should be described through decisions and examples, especially evidence of partner-group mandate, management contribution, practice or business scope, and shared decisions relevant to Business Support and Facilities.
+A Managing Partner candidate should be ready to explain presenting partner-group outcomes as individual decisions or ignoring shared governance without revealing confidential details or implying unsupported responsibility. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Managing Partner position. The Managing Partner remit to combine leadership responsibilities with the governance and professional context of a partnership should be described through decisions and examples, especially evidence of partner-group mandate, management contribution, practice or business scope, and shared decisions relevant to Business Support and Facilities.
 
 ## Who this Managing Partner and Business Support and Facilities guide is for
 
@@ -16,7 +16,7 @@ Review each Managing Partner example for presenting partner-group outcomes as in
 
 ## Documents that make Managing Partner experience relevant here
 
-Do not resolve uncertainty about presenting partner-group outcomes as individual decisions or ignoring shared governance through assumption; verify the requirement and use only supportable Managing Partner claims. The candidate's record of partner-group mandate, management contribution, practice or business scope, and shared decisions should be set beside the role of internal clients, employees, service teams, suppliers, customers, and contract owners, so shared results are attributed fairly. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Managing Partner position. A Managing Partner candidate should show how partner-group mandate, management contribution, practice or business scope, and shared decisions supported the work to combine leadership responsibilities with the governance and professional context of a partnership, with the Business Support and Facilities setting made explicit.
+Do not resolve uncertainty about presenting partner-group outcomes as individual decisions or ignoring shared governance through assumption; verify the requirement and use only supportable Managing Partner claims. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Managing Partner position. A Managing Partner candidate should show how partner-group mandate, management contribution, practice or business scope, and shared decisions supported the work to combine leadership responsibilities with the governance and professional context of a partnership, with the Business Support and Facilities setting made explicit.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -67,7 +67,7 @@ The Managing Partner remit to combine leadership responsibilities with the gover
 
 ## Run the search thoughtfully in each target market
 
-Review each Managing Partner example for presenting partner-group outcomes as individual decisions or ignoring shared governance, then describe the candidate's decisions without overstating their control over partners, practice leaders, employees, clients, committees, and external stakeholders. An account of service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements should identify the candidate's contribution and the involvement of partners, practice leaders, employees, clients, committees, and external stakeholders. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Managing Partner position. A precise Managing Partner story ties partner-group mandate, management contribution, practice or business scope, and shared decisions to the mandate of combine leadership responsibilities with the governance and professional context of a partnership, without suggesting that the title alone establishes fit.
+Review each Managing Partner example for presenting partner-group outcomes as individual decisions or ignoring shared governance, then describe the candidate's decisions without overstating their control over partners, practice leaders, employees, clients, committees, and external stakeholders. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Managing Partner position. A precise Managing Partner story ties partner-group mandate, management contribution, practice or business scope, and shared decisions to the mandate of combine leadership responsibilities with the governance and professional context of a partnership, without suggesting that the title alone establishes fit.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Partner career hub](/roles/managing-partner/)
 
-Review the role-wide approach to combine leadership responsibilities with the governance and professional context of a partnership and the evidence expected for that scope.
+
 
 ### [Business Support and Facilities industry hub](/industries/business-support-facilities/)
 
-Compare how support services, workplace operations, facilities, administration, or outsourced capabilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Business Support and Facilities](/roles/ceo/business-support-facilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Partner remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Operating Officer in Business Support and Facilities](/roles/coo/business-support-facilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Partner remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Managing Partner in Agriculture, Food and Forestry](/roles/managing-partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with support services, workplace operations, facilities, administration, or outsourced capabilities and identify how the Managing Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Managing Partner test the scope of work in Business Support and Facilities?
 
-Start with the organization's account of support services, workplace operations, facilities, administration, or outsourced capabilities, then clarify how the Managing Partner would combine leadership responsibilities with the governance and professional context of a partnership. Ask how internal clients, employees, service teams, suppliers, customers, and contract owners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of support services, workplace operations, facilities, administration, or outsourced capabilities, then clarify how the Managing Partner would combine leadership responsibilities with the governance and professional context of a partnership. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Managing Partner use to explain experience in Business Support and Facilities?
 
@@ -139,11 +139,11 @@ Select examples that show partner-group mandate, management contribution, practi
 
 ### What documents should a Managing Partner tailor for Business Support and Facilities opportunities?
 
-Possible materials include partner biography, leadership resume, practice summary, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
+Possible materials include partner biography, leadership resume, practice summary, and profile. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Managing Partner considering Business Support and Facilities?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Managing Partner candidate's service scope; the candidate approves external communication. No one route should be assumed for all Business Support and Facilities employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Business Support and Facilities employers.
 
 ### Can a Managing Partner rely on title alone when targeting Business Support and Facilities?
 

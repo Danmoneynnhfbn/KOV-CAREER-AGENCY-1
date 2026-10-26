@@ -59,7 +59,7 @@ For a Chief Executive Officer target, KOV can discuss how executive resume, boar
 
 ## Keep research, confidentiality, and outreach aligned
 
-Readers need to see what Chief Executive Officer work involved; connect set organization-wide direction and coordinate executive work with the candidate's own examples of mandate, governance interface, operating scope, and attributable outcomes in Real Estate and Leasing. In Real Estate and Leasing, owners, tenants, customers, investors, property teams, suppliers, and communities may shape the work. A Chief Executive Officer example should separate direct responsibility from collaboration. KOV can help a Chief Executive Officer candidate organize an agreed search approach for Real Estate and Leasing, including documents such as executive resume, board biography, leadership summary, and professional profile. For Chief Executive Officer materials, manage the risk of claiming sole credit for collective outcomes or relying on title instead of mandate; support claims with mandate, governance interface, operating scope, and attributable outcomes and remove details that are not authorized for sharing.
+Readers need to see what Chief Executive Officer work involved; connect set organization-wide direction and coordinate executive work with the candidate's own examples of mandate, governance interface, operating scope, and attributable outcomes in Real Estate and Leasing. A Chief Executive Officer example should separate direct responsibility from collaboration. KOV can help a Chief Executive Officer candidate organize an agreed search approach for Real Estate and Leasing, including documents such as executive resume, board biography, leadership summary, and professional profile. For Chief Executive Officer materials, manage the risk of claiming sole credit for collective outcomes or relying on title instead of mandate; support claims with mandate, governance interface, operating scope, and attributable outcomes and remove details that are not authorized for sharing.
 
 ## Prepare for conversations about Real Estate and Leasing work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Executive Officer career hub](/roles/ceo/)
 
-Review the role-wide approach to set organization-wide direction and coordinate executive work and the evidence expected for that scope.
+
 
 ### [Real Estate and Leasing industry hub](/industries/real-estate-leasing/)
 
-Compare how property ownership, development, brokerage, management, or leasing relationships affects career planning across functions.
+
 
 ### [Chief Operating Officer in Real Estate and Leasing](/roles/coo/real-estate-leasing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Executive Officer remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Financial Officer in Real Estate and Leasing](/roles/cfo/real-estate-leasing.html)
 
-Contrast lead financial stewardship and connect resource decisions to organizational priorities with the Chief Executive Officer remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Executive Officer in Agriculture, Food and Forestry](/roles/ceo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with property ownership, development, brokerage, management, or leasing relationships and identify how the Chief Executive Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Executive Officer test the scope of work in Real Estate and Leasing?
 
-A Chief Executive Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's property ownership, development, brokerage, management, or leasing relationships. Explore how the role will set organization-wide direction and coordinate executive work and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Executive Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's property ownership, development, brokerage, management, or leasing relationships. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Chief Executive Officer use to explain experience in Real Estate and Leasing?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### Can a Chief Executive Officer rely on title alone when targeting Real Estate and Leasing?
 
-No. Compare the role description with the candidate's experience of set organization-wide direction and coordinate executive work and the organization's property ownership, development, brokerage, management, or leasing relationships. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Chief Executive Officer seeking work in Real Estate and Leasing?
 

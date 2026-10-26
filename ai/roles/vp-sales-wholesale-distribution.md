@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Sales career hub](/roles/vp-sales/)
 
-Review the role-wide approach to lead a sales organization and connect market priorities with execution and the evidence expected for that scope.
+
 
 ### [Wholesale and Distribution industry hub](/industries/wholesale-distribution/)
 
-Compare how movement and availability of goods through purchasing, inventory, channel, and delivery relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Wholesale and Distribution](/roles/ceo/wholesale-distribution.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Sales remit; consider where each function meets movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Operating Officer in Wholesale and Distribution](/roles/coo/wholesale-distribution.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Sales remit; consider where each function meets movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Vice President of Sales in Manufacturing](/roles/vp-sales/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with movement and availability of goods through purchasing, inventory, channel, and delivery relationships and identify how the Vice President of Sales remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Vice President of Sales test the scope of work in Wholesale and Distribution?
 
-Start with the organization's account of movement and availability of goods through purchasing, inventory, channel, and delivery relationships, then clarify how the Vice President of Sales would lead a sales organization and connect market priorities with execution. Ask how suppliers, retailers, business customers, logistics teams, sales, and inventory operators participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of movement and availability of goods through purchasing, inventory, channel, and delivery relationships, then clarify how the Vice President of Sales would lead a sales organization and connect market priorities with execution. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Vice President of Sales use to explain experience in Wholesale and Distribution?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of team scope, customer seg
 
 ### What documents should a Vice President of Sales tailor for Wholesale and Distribution opportunities?
 
-Possible materials include executive resume, sales leadership profile, commercial achievements, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to channel or category scope, inventory and service context, commercial coordination, and customer outcomes. Each claim should be accurate for this Wholesale and Distribution target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, sales leadership profile, commercial achievements, and profile. Each claim should be accurate for this Wholesale and Distribution target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Vice President of Sales considering Wholesale and Distribution?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### Can a Vice President of Sales rely on title alone when targeting Wholesale and Distribution?
 
-Title is only a label. Establish what the employer means by Vice President of Sales in this Wholesale and Distribution organization and how the person will work with suppliers, retailers, business customers, logistics teams, sales, and inventory operators. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Vice President of Sales seeking work in Wholesale and Distribution?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Vice President of Sales candidate considering Wholesale and Distribution, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

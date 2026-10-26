@@ -12,7 +12,7 @@ The Education context involves learning services delivered through institutions,
 
 ## A candidate-led process from first discussion to next steps
 
-Keep the Chief Product Officer narrative accurate where listing launches without clarifying user need, decision role, trade-offs, and adoption context may arise: attribute shared work and disclose only information the candidate may use. The service plan should fit the candidate's Chief Product Officer priorities; agree research, materials, and any outreach before contact occurs. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Chief Product Officer example should separate direct responsibility from collaboration. Use learning services delivered through institutions, programs, technology, or educational support to frame research about Education, then ask how a Chief Product Officer will work through learning aims, access, program delivery, workforce needs, and resource stewardship.
+Keep the Chief Product Officer narrative accurate where listing launches without clarifying user need, decision role, trade-offs, and adoption context may arise: attribute shared work and disclose only information the candidate may use. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Chief Product Officer example should separate direct responsibility from collaboration. Use learning services delivered through institutions, programs, technology, or educational support to frame research about Education, then ask how a Chief Product Officer will work through learning aims, access, program delivery, workforce needs, and resource stewardship.
 
 ## Documents that make Chief Product Officer experience relevant here
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Product Officer career hub](/roles/chief-product-officer/)
 
-Review the role-wide approach to guide product direction, portfolio choices, and the connection between users and delivery teams and the evidence expected for that scope.
+
 
 ### [Education industry hub](/industries/education/)
 
-Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.
+
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Product Officer remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Education](/roles/coo/education.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Product Officer remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Product Officer in Agriculture, Food and Forestry](/roles/chief-product-officer/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with learning services delivered through institutions, programs, technology, or educational support and identify how the Chief Product Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Product Officer in Education?
 
-A Chief Product Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. Explore how the role will guide product direction, portfolio choices, and the connection between users and delivery teams and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Product Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Chief Product Officer make prior work relevant to Education?
 
@@ -143,15 +143,15 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What must be agreed before a Chief Product Officer contacts an organization in Education?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Product Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Education employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Education employers.
 
 ### What makes a Chief Product Officer background relevant to work in Education?
 
-No. Compare the role description with the candidate's experience of guide product direction, portfolio choices, and the connection between users and delivery teams and the organization's learning services delivered through institutions, programs, technology, or educational support. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Chief Product Officer outreach in Education?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Product Officer candidate considering Education, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

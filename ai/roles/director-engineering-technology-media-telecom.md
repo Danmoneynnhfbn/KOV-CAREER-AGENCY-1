@@ -12,7 +12,7 @@ Position a Director of Engineering career by linking direct engineering teams an
 
 ## A candidate-led process from first discussion to next steps
 
-Where over-indexing on hands-on tools while omitting leadership scope and outcomes affects a career example, substitute an authorized summary that preserves the point about technical scope, team leadership, delivery choices, quality practices, and cross-team work. The candidate's record of technical scope, team leadership, delivery choices, quality practices, and cross-team work should be set beside the role of users, product and engineering teams, customers, creators, advertisers, partners, and investors, so shared results are attributed fairly. Not every Technology, Media and Telecom organization will handle product evolution, reliability, audience or customer needs, technical choices, and changing business models alike. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Director of Engineering position. Show the Director of Engineering scope behind the title: how the candidate could direct engineering teams and coordinate technical execution in a defined area, which decisions mattered, and where technical scope, team leadership, delivery choices, quality practices, and cross-team work demonstrates their contribution.
+Where over-indexing on hands-on tools while omitting leadership scope and outcomes affects a career example, substitute an authorized summary that preserves the point about technical scope, team leadership, delivery choices, quality practices, and cross-team work. Not every Technology, Media and Telecom organization will handle product evolution, reliability, audience or customer needs, technical choices, and changing business models alike. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Director of Engineering position. Show the Director of Engineering scope behind the title: how the candidate could direct engineering teams and coordinate technical execution in a defined area, which decisions mattered, and where technical scope, team leadership, delivery choices, quality practices, and cross-team work demonstrates their contribution.
 
 ## Documents that make Director of Engineering experience relevant here
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Director of Engineering materials 
 
 ## Prepare to discuss the Technology, Media and Telecom mandate
 
-A candidate exploring Technology, Media and Telecom should test the assumed link between digital products, platforms, content, communications, or technology-enabled services and product evolution, reliability, audience or customer needs, technical choices, and changing business models against the actual Director of Engineering role description. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Director of Engineering example should separate direct responsibility from collaboration. KOV works with the candidate to agree which Director of Engineering targets matter, how resume, technical leadership portfolio, profile, and delivery examples will be used, and whether communication is authorized. Review each Director of Engineering example for over-indexing on hands-on tools while omitting leadership scope and outcomes, then describe the candidate's decisions without overstating their control over VP or CTO, engineering teams, product, security, operations, and users.
+A candidate exploring Technology, Media and Telecom should test the assumed link between digital products, platforms, content, communications, or technology-enabled services and product evolution, reliability, audience or customer needs, technical choices, and changing business models against the actual Director of Engineering role description. A Director of Engineering example should separate direct responsibility from collaboration. KOV works with the candidate to agree which Director of Engineering targets matter, how resume, technical leadership portfolio, profile, and delivery examples will be used, and whether communication is authorized. Review each Director of Engineering example for over-indexing on hands-on tools while omitting leadership scope and outcomes, then describe the candidate's decisions without overstating their control over VP or CTO, engineering teams, product, security, operations, and users.
 
 ## Common positioning mistakes for Director of Engineering candidates in Technology, Media and Telecom
 
@@ -67,7 +67,7 @@ The candidate can discuss technical scope, team leadership, delivery choices, qu
 
 ## Run the search thoughtfully in each target market
 
-Research for a Director of Engineering in Technology, Media and Telecom becomes more focused when the candidate investigates product evolution, reliability, audience or customer needs, technical choices, and changing business models alongside digital products, platforms, content, communications, or technology-enabled services. Discuss product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality with care: a Director of Engineering candidate can explain contribution while omitting confidential or identifying facts. The candidate decides whether to pursue a Director of Engineering opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Good preparation for Director of Engineering work includes a safe way to explain over-indexing on hands-on tools while omitting leadership scope and outcomes and a clear distinction between fact and inference.
+Research for a Director of Engineering in Technology, Media and Telecom becomes more focused when the candidate investigates product evolution, reliability, audience or customer needs, technical choices, and changing business models alongside digital products, platforms, content, communications, or technology-enabled services. The candidate decides whether to pursue a Director of Engineering opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Good preparation for Director of Engineering work includes a safe way to explain over-indexing on hands-on tools while omitting leadership scope and outcomes and a clear distinction between fact and inference.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Engineering career hub](/roles/director-engineering/)
 
-Review the role-wide approach to direct engineering teams and coordinate technical execution in a defined area and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Engineering remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Engineering remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Director of Engineering in Energy, Mining and Oil and Gas](/roles/director-engineering/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with digital products, platforms, content, communications, or technology-enabled services and identify how the Director of Engineering remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Director of Engineering resolve before a target discussion in Technology, Media and Telecom?
 
-Use the opening discussion to understand the specific Technology, Media and Telecom employer, not to assume a standard role. Compare direct engineering teams and coordinate technical execution in a defined area with the stated scope, identify decision partners among users, product and engineering teams, customers, creators, advertisers, partners, and investors, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Technology, Media and Telecom employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Director of Engineering career story fit the needs of Technology, Media and Telecom?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How should a Director of Engineering compare title and remit in Technology, Media and Telecom?
 
-No. Compare the role description with the candidate's experience of direct engineering teams and coordinate technical execution in a defined area and the organization's digital products, platforms, content, communications, or technology-enabled services. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Will KOV secure a meeting for a Director of Engineering with an employer in Technology, Media and Telecom?
 

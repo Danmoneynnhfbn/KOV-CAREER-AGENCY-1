@@ -9,6 +9,7 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parents[1]
 SITEMAP = ROOT / "sitemap.xml"
 OUTPUT = ROOT / "assets" / "site-search-index.js"
+CONTENT_OUTPUT = ROOT / "assets" / "site-search-content.js"
 SKIPPED_TAGS = {"script", "style", "noscript", "template", "svg"}
 VOID_TAGS = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"}
 SEO_PAGE_GROUPS = {
@@ -111,10 +112,14 @@ def build_index():
                 "category": category,
             })
 
-    OUTPUT.write_text(
+    CONTENT_OUTPUT.write_text(
         "window.kovSiteSearchContent = "
         + json.dumps(content, ensure_ascii=True, separators=(",", ":"))
-        + ";\nwindow.kovSeoPageCatalog = "
+        + ";\n",
+        encoding="utf-8",
+    )
+    OUTPUT.write_text(
+        "window.kovSeoPageCatalog = "
         + json.dumps(seo_pages, ensure_ascii=True, separators=(",", ":"))
         + ";\n",
         encoding="utf-8",

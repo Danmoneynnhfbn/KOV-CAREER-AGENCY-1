@@ -63,7 +63,7 @@ Good preparation for Director of Legal work includes a safe way to explain discl
 
 ## Prepare for conversations about Legal Services work
 
-Keep the Director of Legal narrative accurate where disclosing privileged or client-sensitive information or implying unheld authority may arise: attribute shared work and disclose only information the candidate may use. Preparation for a Director of Legal conversation should address the employing entity, service model, role mandate, decision rights, and any qualification or authorization requirement; relate the response to practice or business scope, client-service context, team leadership, governance interface, and authorized examples, not speculation about hiring. Not every Legal Services organization will handle professional judgment, client service, confidentiality, practice operations, and shared leadership alike. Confirm how legal advice, representation, transactions, dispute work, or related professional services informs this Director of Legal position. To assess a Director of Legal opportunity in Legal Services, compare the stated remit to the candidate's record of practice or advisory scope, team leadership, work prioritization, and business partnership.
+Keep the Director of Legal narrative accurate where disclosing privileged or client-sensitive information or implying unheld authority may arise: attribute shared work and disclose only information the candidate may use. Not every Legal Services organization will handle professional judgment, client service, confidentiality, practice operations, and shared leadership alike. Confirm how legal advice, representation, transactions, dispute work, or related professional services informs this Director of Legal position. To assess a Director of Legal opportunity in Legal Services, compare the stated remit to the candidate's record of practice or advisory scope, team leadership, work prioritization, and business partnership.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Legal career hub](/roles/director-legal/)
 
-Review the role-wide approach to manage a legal team, practice area, or legal operations remit and the evidence expected for that scope.
+
 
 ### [Legal Services industry hub](/industries/legal-services/)
 
-Compare how legal advice, representation, transactions, dispute work, or related professional services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Legal Services](/roles/ceo/legal-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Legal remit; consider where each function meets legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Operating Officer in Legal Services](/roles/coo/legal-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Legal remit; consider where each function meets legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Director of Legal in Technology, Media and Telecom](/roles/director-legal/technology-media-telecom.html)
 
-Compare digital products, platforms, content, communications, or technology-enabled services with legal advice, representation, transactions, dispute work, or related professional services and identify how the Director of Legal remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Director of Legal resolve before a target discussion in Legal Services?
 
-A Director of Legal candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's legal advice, representation, transactions, dispute work, or related professional services. Explore how the role will manage a legal team, practice area, or legal operations remit and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of Legal candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's legal advice, representation, transactions, dispute work, or related professional services. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Director of Legal career story fit the needs of Legal Services?
 
@@ -139,15 +139,15 @@ Select examples that show practice or advisory scope, team leadership, work prio
 
 ### What should a Director of Legal prepare in writing before targeting Legal Services?
 
-Possible materials include resume, legal leadership profile, practice summary, and sanitized examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to practice or business scope, client-service context, team leadership, governance interface, and authorized examples. Each claim should be accurate for this Legal Services target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, legal leadership profile, practice summary, and sanitized examples. Each claim should be accurate for this Legal Services target, and confidential or unauthorized material should be omitted.
 
 ### What should a Director of Legal approve before outreach in Legal Services?
 
-Outreach should follow target research, not precede it. The Director of Legal candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with practice or advisory scope, team leadership, work prioritization, and business partnership is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a Director of Legal compare title and remit in Legal Services?
 
-No. Compare the role description with the candidate's experience of manage a legal team, practice area, or legal operations remit and the organization's legal advice, representation, transactions, dispute work, or related professional services. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Will KOV secure a meeting for a Director of Legal with an employer in Legal Services?
 

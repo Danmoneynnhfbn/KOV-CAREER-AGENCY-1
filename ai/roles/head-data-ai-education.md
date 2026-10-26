@@ -12,7 +12,7 @@ For Head of Data and AI work in Education, explain how the candidate could lead 
 
 ## A candidate-led process from first discussion to next steps
 
-The Head of Data and AI remit to lead data capabilities and coordinate responsible application of analytical or AI work should be described through decisions and examples, especially evidence of data products, team scope, quality practices, governance partnership, and decision value relevant to Education. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Head of Data and AI example should separate direct responsibility from collaboration. For a Head of Data and AI target, KOV can discuss how resume, data leadership portfolio, project summaries, and professional profile support the candidate's account of data products, team scope, quality practices, governance partnership, and decision value; external steps require prior agreement. The candidate can discuss data products, team scope, quality practices, governance partnership, and decision value while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+The Head of Data and AI remit to lead data capabilities and coordinate responsible application of analytical or AI work should be described through decisions and examples, especially evidence of data products, team scope, quality practices, governance partnership, and decision value relevant to Education. A Head of Data and AI example should separate direct responsibility from collaboration. For a Head of Data and AI target, KOV can discuss how resume, data leadership portfolio, project summaries, and professional profile support the candidate's account of data products, team scope, quality practices, governance partnership, and decision value; external steps require prior agreement. The candidate can discuss data products, team scope, quality practices, governance partnership, and decision value while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Documents that make Head of Data and AI experience relevant here
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Head of Data and AI materials that
 
 ## Prepare to discuss the Education mandate
 
-A candidate exploring Education should test the assumed link between learning services delivered through institutions, programs, technology, or educational support and learning aims, access, program delivery, workforce needs, and resource stewardship against the actual Head of Data and AI role description. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Head of Data and AI example should separate direct responsibility from collaboration. KOV's service scope for a Head of Data and AI candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Review each Head of Data and AI example for exposing sensitive datasets, overstating model capability, or omitting human oversight, then describe the candidate's decisions without overstating their control over technology and business leaders, analysts, engineers, users, legal or risk colleagues.
+A candidate exploring Education should test the assumed link between learning services delivered through institutions, programs, technology, or educational support and learning aims, access, program delivery, workforce needs, and resource stewardship against the actual Head of Data and AI role description. A Head of Data and AI example should separate direct responsibility from collaboration. KOV's service scope for a Head of Data and AI candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Review each Head of Data and AI example for exposing sensitive datasets, overstating model capability, or omitting human oversight, then describe the candidate's decisions without overstating their control over technology and business leaders, analysts, engineers, users, legal or risk colleagues.
 
 ## Common positioning mistakes for Head of Data and AI candidates in Education
 
@@ -63,7 +63,7 @@ Do not resolve uncertainty about exposing sensitive datasets, overstating model 
 
 ## Prepare for conversations about Education work
 
-The Education context involves learning services delivered through institutions, programs, technology, or educational support; examine how that structure affects learning aims, access, program delivery, workforce needs, and resource stewardship before drawing conclusions about the Head of Data and AI role. An account of program or institutional scope, learner or service context, staff leadership, and improvement contribution should identify the candidate's contribution and the involvement of technology and business leaders, analysts, engineers, users, legal or risk colleagues. The candidate decides whether to pursue a Head of Data and AI opportunity. KOV can support agreed research and preparation concerning Education. Good preparation for Head of Data and AI work includes a safe way to explain exposing sensitive datasets, overstating model capability, or omitting human oversight and a clear distinction between fact and inference.
+The Education context involves learning services delivered through institutions, programs, technology, or educational support; examine how that structure affects learning aims, access, program delivery, workforce needs, and resource stewardship before drawing conclusions about the Head of Data and AI role. The candidate decides whether to pursue a Head of Data and AI opportunity. KOV can support agreed research and preparation concerning Education. Good preparation for Head of Data and AI work includes a safe way to explain exposing sensitive datasets, overstating model capability, or omitting human oversight and a clear distinction between fact and inference.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Data and AI career hub](/roles/head-data-ai/)
 
-Review the role-wide approach to lead data capabilities and coordinate responsible application of analytical or AI work and the evidence expected for that scope.
+
 
 ### [Education industry hub](/industries/education/)
 
-Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.
+
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Data and AI remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Education](/roles/coo/education.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Data and AI remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Head of Data and AI in Manufacturing](/roles/head-data-ai/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with learning services delivered through institutions, programs, technology, or educational support and identify how the Head of Data and AI remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Head of Data and AI resolve before a target discussion in Education?
 
-A Head of Data and AI candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. Explore how the role will lead data capabilities and coordinate responsible application of analytical or AI work and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Head of Data and AI candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Head of Data and AI career story fit the needs of Education?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could lead data capabilities and coordi
 
 ### What should a Head of Data and AI prepare in writing before targeting Education?
 
-Possible materials include resume, data leadership portfolio, project summaries, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or institutional scope, learner or service context, staff leadership, and improvement contribution. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, data leadership portfolio, project summaries, and professional profile. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted.
 
 ### What should a Head of Data and AI approve before outreach in Education?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Head of Data and AI candidate's service scope; the candidate approves external communication. No one route should be assumed for all Education employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Education employers.
 
 ### How should a Head of Data and AI compare title and remit in Education?
 
-Title is only a label. Establish what the employer means by Head of Data and AI in this Education organization and how the person will work with learners, families, educators, administrators, owners or boards, and community partners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Head of Data and AI with an employer in Education?
 

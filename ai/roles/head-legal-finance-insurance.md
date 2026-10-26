@@ -12,11 +12,11 @@ The candidate can discuss advisory scope, team structure, work management, risk 
 
 ## A candidate-led process from first discussion to next steps
 
-Show the Head of Legal scope behind the title: how the candidate could lead a legal function or specialist team and advise on decisions within its remit, which decisions mattered, and where advisory scope, team structure, work management, risk judgment, and stakeholder partnership demonstrates their contribution. The Finance and Insurance context involves financial products and services supported by customer relationships, information, operations, and oversight; examine how that structure affects trust, information handling, product suitability, operational resilience, and competing customer and business needs before drawing conclusions about the Head of Legal role. The candidate decides whether to pursue a Head of Legal opportunity. KOV can support agreed research and preparation concerning Finance and Insurance. Keep the Head of Legal narrative accurate where sharing privileged material or implying that legal advice alone owned business decisions may arise: attribute shared work and disclose only information the candidate may use.
+Show the Head of Legal scope behind the title: how the candidate could lead a legal function or specialist team and advise on decisions within its remit, which decisions mattered, and where advisory scope, team structure, work management, risk judgment, and stakeholder partnership demonstrates their contribution. The candidate decides whether to pursue a Head of Legal opportunity. KOV can support agreed research and preparation concerning Finance and Insurance. Keep the Head of Legal narrative accurate where sharing privileged material or implying that legal advice alone owned business decisions may arise: attribute shared work and disclose only information the candidate may use.
 
 ## Documents that make Head of Legal experience relevant here
 
-In a Finance and Insurance target, make the Head of Legal contribution legible: describe how the candidate helped lead a legal function or specialist team and advise on decisions within its remit and what supports advisory scope, team structure, work management, risk judgment, and stakeholder partnership. In Finance and Insurance, customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders may shape the work. A Head of Legal example should separate direct responsibility from collaboration. KOV works with the candidate to agree which Head of Legal targets matter, how legal leadership resume, practice biography, role summary, and discreet examples will be used, and whether communication is authorized. A Head of Legal candidate should be ready to explain sharing privileged material or implying that legal advice alone owned business decisions without revealing confidential details or implying unsupported responsibility.
+In a Finance and Insurance target, make the Head of Legal contribution legible: describe how the candidate helped lead a legal function or specialist team and advise on decisions within its remit and what supports advisory scope, team structure, work management, risk judgment, and stakeholder partnership. A Head of Legal example should separate direct responsibility from collaboration. KOV works with the candidate to agree which Head of Legal targets matter, how legal leadership resume, practice biography, role summary, and discreet examples will be used, and whether communication is authorized. A Head of Legal candidate should be ready to explain sharing privileged material or implying that legal advice alone owned business decisions without revealing confidential details or implying unsupported responsibility.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Legal career hub](/roles/head-legal/)
 
-Review the role-wide approach to lead a legal function or specialist team and advise on decisions within its remit and the evidence expected for that scope.
+
 
 ### [Finance and Insurance industry hub](/industries/finance-insurance/)
 
-Compare how financial products and services supported by customer relationships, information, operations, and oversight affects career planning across functions.
+
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Legal remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Finance and Insurance](/roles/coo/finance-insurance.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Legal remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Head of Legal in Technology, Media and Telecom](/roles/head-legal/technology-media-telecom.html)
 
-Compare digital products, platforms, content, communications, or technology-enabled services with financial products and services supported by customer relationships, information, operations, and oversight and identify how the Head of Legal remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Head of Legal in Finance and Insurance?
 
-A Head of Legal candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's financial products and services supported by customer relationships, information, operations, and oversight. Explore how the role will lead a legal function or specialist team and advise on decisions within its remit and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Head of Legal candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's financial products and services supported by customer relationships, information, operations, and oversight. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Head of Legal make prior work relevant to Finance and Insurance?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What must be agreed before a Head of Legal contacts an organization in Finance and Insurance?
 
-Outreach should follow target research, not precede it. The Head of Legal candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with advisory scope, team structure, work management, risk judgment, and stakeholder partnership is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Head of Legal background relevant to work in Finance and Insurance?
 
-No. Compare the role description with the candidate's experience of lead a legal function or specialist team and advise on decisions within its remit and the organization's financial products and services supported by customer relationships, information, operations, and oversight. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Head of Legal outreach in Finance and Insurance?
 

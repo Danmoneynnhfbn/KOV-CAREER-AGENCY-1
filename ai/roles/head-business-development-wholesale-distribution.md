@@ -33,7 +33,7 @@ For Head of Business Development work in Wholesale and Distribution, explain how
 
 ## Choose the individual services that fit the work
 
-The candidate decides whether to pursue a Head of Business Development opportunity. KOV can support agreed research and preparation concerning Wholesale and Distribution. Consider how suppliers, retailers, business customers, logistics teams, sales, and inventory operators interact with a Head of Business Development; use examples of channel or category scope, inventory and service context, commercial coordination, and customer outcomes to show judgment and collaboration. To understand the Wholesale and Distribution target, explore movement and availability of goods through purchasing, inventory, channel, and delivery relationships and ask how a Head of Business Development is expected to respond to availability, working capital, fulfillment coordination, customer terms, and supplier variability. In a Wholesale and Distribution target, make the Head of Business Development contribution legible: describe how the candidate helped develop relationships and opportunities that support an organization's commercial direction and what supports market focus, partnerships, opportunity pipeline, negotiation role, and attributable contribution.
+The candidate decides whether to pursue a Head of Business Development opportunity. Consider how suppliers, retailers, business customers, logistics teams, sales, and inventory operators interact with a Head of Business Development; use examples of channel or category scope, inventory and service context, commercial coordination, and customer outcomes to show judgment and collaboration. To understand the Wholesale and Distribution target, explore movement and availability of goods through purchasing, inventory, channel, and delivery relationships and ask how a Head of Business Development is expected to respond to availability, working capital, fulfillment coordination, customer terms, and supplier variability. In a Wholesale and Distribution target, make the Head of Business Development contribution legible: describe how the candidate helped develop relationships and opportunities that support an organization's commercial direction and what supports market focus, partnerships, opportunity pipeline, negotiation role, and attributable contribution.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Business Development career hub](/roles/head-business-development/)
 
-Review the role-wide approach to develop relationships and opportunities that support an organization's commercial direction and the evidence expected for that scope.
+
 
 ### [Wholesale and Distribution industry hub](/industries/wholesale-distribution/)
 
-Compare how movement and availability of goods through purchasing, inventory, channel, and delivery relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Wholesale and Distribution](/roles/ceo/wholesale-distribution.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Business Development remit; consider where each function meets movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Operating Officer in Wholesale and Distribution](/roles/coo/wholesale-distribution.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Business Development remit; consider where each function meets movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Head of Business Development in Energy, Mining and Oil and Gas](/roles/head-business-development/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with movement and availability of goods through purchasing, inventory, channel, and delivery relationships and identify how the Head of Business Development remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Head of Business Development test the scope of work in Wholesale and Distribution?
 
-Use the opening discussion to understand the specific Wholesale and Distribution employer, not to assume a standard role. Compare develop relationships and opportunities that support an organization's commercial direction with the stated scope, identify decision partners among suppliers, retailers, business customers, logistics teams, sales, and inventory operators, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Wholesale and Distribution employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### What evidence can a Head of Business Development use to explain experience in Wholesale and Distribution?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could develop relationships and opportu
 
 ### What documents should a Head of Business Development tailor for Wholesale and Distribution opportunities?
 
-Document selection depends on the opportunity. A Head of Business Development may draw from resume, partnership portfolio, business-development narrative, and profile, but should foreground only material connected to channel or category scope, inventory and service context, commercial coordination, and customer outcomes. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### Which outreach choices belong to a Head of Business Development considering Wholesale and Distribution?
 
-Outreach should follow target research, not precede it. The Head of Business Development candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with market focus, partnerships, opportunity pipeline, negotiation role, and attributable contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Head of Business Development rely on title alone when targeting Wholesale and Distribution?
 
-Title is only a label. Establish what the employer means by Head of Business Development in this Wholesale and Distribution organization and how the person will work with suppliers, retailers, business customers, logistics teams, sales, and inventory operators. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Head of Business Development seeking work in Wholesale and Distribution?
 

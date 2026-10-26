@@ -49,7 +49,7 @@ The Non-Executive Director remit to provide independent challenge and strategic 
 
 ## Common positioning mistakes for Non-Executive Director candidates in Holding Companies and Corporate Groups
 
-In a Holding Companies and Corporate Groups target, make the Non-Executive Director contribution legible: describe how the candidate helped provide independent challenge and strategic contribution distinct from management and what supports governance experience, constructive challenge, committee contribution, and relevant expertise. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Non-Executive Director position. KOV's service scope for a Non-Executive Director candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Before discussing portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries, check whether confusing oversight with operational management or overstating independence could expose sensitive details or blur the candidate's decision boundary.
+In a Holding Companies and Corporate Groups target, make the Non-Executive Director contribution legible: describe how the candidate helped provide independent challenge and strategic contribution distinct from management and what supports governance experience, constructive challenge, committee contribution, and relevant expertise. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Non-Executive Director position. KOV's service scope for a Non-Executive Director candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Before discussing portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries, check whether confusing oversight with operational management or overstating independence could expose sensitive details or blur the candidate's decision boundary.
 
 - Treat Holding Companies and Corporate Groups as one uniform employer type; distinguish the actual organization and role.
 - Use a Non-Executive Director title without explaining provide independent challenge and strategic contribution distinct from management.
@@ -59,7 +59,7 @@ In a Holding Companies and Corporate Groups target, make the Non-Executive Direc
 
 ## Keep research, confidentiality, and outreach aligned
 
-Protect credibility in Holding Companies and Corporate Groups by addressing confusing oversight with operational management or overstating independence with a factual account of governance experience, constructive challenge, committee contribution, and relevant expertise and its limits. Preparation for a Non-Executive Director conversation should address which entities the role covers, what decisions are centralized, and where operating-company leaders retain authority; relate the response to portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries, not speculation about hiring. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Non-Executive Director position. Rather than lead with seniority, a Non-Executive Director profile can explain the responsibility to provide independent challenge and strategic contribution distinct from management and use portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries as evidence.
+Protect credibility in Holding Companies and Corporate Groups by addressing confusing oversight with operational management or overstating independence with a factual account of governance experience, constructive challenge, committee contribution, and relevant expertise and its limits. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Non-Executive Director position. Rather than lead with seniority, a Non-Executive Director profile can explain the responsibility to provide independent challenge and strategic contribution distinct from management and use portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries as evidence.
 
 ## Prepare for conversations about Holding Companies and Corporate Groups work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Non-Executive Director career hub](/roles/non-executive-director/)
 
-Review the role-wide approach to provide independent challenge and strategic contribution distinct from management and the evidence expected for that scope.
+
 
 ### [Holding Companies and Corporate Groups industry hub](/industries/holding-companies/)
 
-Compare how ownership or coordination of multiple entities, portfolios, or operating businesses affects career planning across functions.
+
 
 ### [Chief Executive Officer in Holding Companies and Corporate Groups](/roles/ceo/holding-companies.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Non-Executive Director remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Operating Officer in Holding Companies and Corporate Groups](/roles/coo/holding-companies.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Non-Executive Director remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Non-Executive Director in Agriculture, Food and Forestry](/roles/non-executive-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with ownership or coordination of multiple entities, portfolios, or operating businesses and identify how the Non-Executive Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Non-Executive Director clarify before considering work in Holding Companies and Corporate Groups?
 
-A Non-Executive Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's ownership or coordination of multiple entities, portfolios, or operating businesses. Explore how the role will provide independent challenge and strategic contribution distinct from management and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Non-Executive Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's ownership or coordination of multiple entities, portfolios, or operating businesses. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Non-Executive Director describe transferable experience for Holding Companies and Corporate Groups work?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of governance experience, c
 
 ### How can a Non-Executive Director choose documents for conversations about Holding Companies and Corporate Groups?
 
-Possible materials include board biography, non-executive profile, skills matrix, and governance resume. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries. Each claim should be accurate for this Holding Companies and Corporate Groups target, and confidential or unauthorized material should be omitted.
+Possible materials include board biography, non-executive profile, skills matrix, and governance resume. Each claim should be accurate for this Holding Companies and Corporate Groups target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Non-Executive Director plan contact with Holding Companies and Corporate Groups organizations?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate governance
 
 ### What can KOV promise a Non-Executive Director candidate considering Holding Companies and Corporate Groups?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Non-Executive Director candidate considering Holding Companies and Corporate Groups, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

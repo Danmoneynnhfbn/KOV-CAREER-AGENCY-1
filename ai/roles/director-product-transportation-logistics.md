@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Product career hub](/roles/director-product/)
 
-Review the role-wide approach to lead a product area and align customer needs with team delivery and the evidence expected for that scope.
+
 
 ### [Transportation and Logistics industry hub](/industries/transportation-logistics/)
 
-Compare how movement, handling, and coordination of people or goods across routes and operating networks affects career planning across functions.
+
 
 ### [Chief Executive Officer in Transportation and Logistics](/roles/ceo/transportation-logistics.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Product remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Operating Officer in Transportation and Logistics](/roles/coo/transportation-logistics.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Product remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Director of Product in Manufacturing](/roles/director-product/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with movement, handling, and coordination of people or goods across routes and operating networks and identify how the Director of Product remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Director of Product resolve before a target discussion in Transportation and Logistics?
 
-Use the opening discussion to understand the specific Transportation and Logistics employer, not to assume a standard role. Compare lead a product area and align customer needs with team delivery with the stated scope, identify decision partners among customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Transportation and Logistics employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Director of Product career story fit the needs of Transportation and Logistics?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How should a Director of Product compare title and remit in Transportation and Logistics?
 
-Title is only a label. Establish what the employer means by Director of Product in this Transportation and Logistics organization and how the person will work with customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Director of Product with an employer in Transportation and Logistics?
 

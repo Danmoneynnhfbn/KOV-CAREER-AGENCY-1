@@ -49,7 +49,7 @@ A candidate exploring Agriculture, Food and Forestry should test the assumed lin
 
 ## Common positioning mistakes for Chief Financial Officer candidates in Agriculture, Food and Forestry
 
-A precise Chief Financial Officer story ties financial leadership scope, planning, controls, capital or resource choices, and communication to the mandate of lead financial stewardship and connect resource decisions to organizational priorities, without suggesting that the title alone establishes fit. Before presenting resource planning, safety-minded operations, supplier relationships, yield or quality context, and continuity decisions, determine how producers, workforce, buyers, processors, logistics partners, and communities participated and which details are safe to discuss. The candidate decides whether to pursue a Chief Financial Officer opportunity. KOV can support agreed research and preparation concerning Agriculture, Food and Forestry. A Chief Financial Officer candidate should be ready to explain presenting financial outcomes without context, attribution, or permission to disclose without revealing confidential details or implying unsupported responsibility.
+A precise Chief Financial Officer story ties financial leadership scope, planning, controls, capital or resource choices, and communication to the mandate of lead financial stewardship and connect resource decisions to organizational priorities, without suggesting that the title alone establishes fit. The candidate decides whether to pursue a Chief Financial Officer opportunity. KOV can support agreed research and preparation concerning Agriculture, Food and Forestry. A Chief Financial Officer candidate should be ready to explain presenting financial outcomes without context, attribution, or permission to disclose without revealing confidential details or implying unsupported responsibility.
 
 - Treat Agriculture, Food and Forestry as one uniform employer type; distinguish the actual organization and role.
 - Use a Chief Financial Officer title without explaining lead financial stewardship and connect resource decisions to organizational priorities.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Financial Officer career hub](/roles/cfo/)
 
-Review the role-wide approach to lead financial stewardship and connect resource decisions to organizational priorities and the evidence expected for that scope.
+
 
 ### [Agriculture, Food and Forestry industry hub](/industries/agriculture-food-forestry/)
 
-Compare how production linked to land, biological cycles, processing, and supply relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Agriculture, Food and Forestry](/roles/ceo/agriculture-food-forestry.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Financial Officer remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Financial Officer remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Financial Officer in Energy, Mining and Oil and Gas](/roles/cfo/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with production linked to land, biological cycles, processing, and supply relationships and identify how the Chief Financial Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Financial Officer in Agriculture, Food and Forestry?
 
-Start with the organization's account of production linked to land, biological cycles, processing, and supply relationships, then clarify how the Chief Financial Officer would lead financial stewardship and connect resource decisions to organizational priorities. Ask how producers, workforce, buyers, processors, logistics partners, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of production linked to land, biological cycles, processing, and supply relationships, then clarify how the Chief Financial Officer would lead financial stewardship and connect resource decisions to organizational priorities. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Chief Financial Officer make prior work relevant to Agriculture, Food and Forestry?
 
@@ -139,11 +139,11 @@ Select examples that show financial leadership scope, planning, controls, capita
 
 ### Which career materials can help a Chief Financial Officer explore work in Agriculture, Food and Forestry?
 
-Possible materials include executive resume, finance leadership profile, board biography, and achievement summary. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to resource planning, safety-minded operations, supplier relationships, yield or quality context, and continuity decisions. Each claim should be accurate for this Agriculture, Food and Forestry target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, finance leadership profile, board biography, and achievement summary. Each claim should be accurate for this Agriculture, Food and Forestry target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Chief Financial Officer contacts an organization in Agriculture, Food and Forestry?
 
-Outreach should follow target research, not precede it. The Chief Financial Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with financial leadership scope, planning, controls, capital or resource choices, and communication is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Chief Financial Officer background relevant to work in Agriculture, Food and Forestry?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate financial 
 
 ### Does KOV control employer responses to Chief Financial Officer outreach in Agriculture, Food and Forestry?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Financial Officer candidate considering Agriculture, Food and Forestry, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

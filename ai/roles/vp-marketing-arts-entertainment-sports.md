@@ -16,7 +16,7 @@ KOV's service scope for a Vice President of Marketing candidate can include docu
 
 ## Documents that make Vice President of Marketing experience relevant here
 
-A candidate exploring Arts, Entertainment and Sports should test the assumed link between creative, cultural, event, audience, or sporting activity supported by teams and organizations and creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions against the actual Vice President of Marketing role description. Before presenting program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available, determine how audiences, participants, creators, athletes, sponsors, venues, partners, and communities participated and which details are safe to discuss. The candidate decides whether to pursue a Vice President of Marketing opportunity. KOV can support agreed research and preparation concerning Arts, Entertainment and Sports. Protect credibility in Arts, Entertainment and Sports by addressing claiming campaign results without describing audience, contribution, and measurement context with a factual account of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence and its limits.
+A candidate exploring Arts, Entertainment and Sports should test the assumed link between creative, cultural, event, audience, or sporting activity supported by teams and organizations and creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions against the actual Vice President of Marketing role description. The candidate decides whether to pursue a Vice President of Marketing opportunity. KOV can support agreed research and preparation concerning Arts, Entertainment and Sports. Protect credibility in Arts, Entertainment and Sports by addressing claiming campaign results without describing audience, contribution, and measurement context with a factual account of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence and its limits.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Marketing career hub](/roles/vp-marketing/)
 
-Review the role-wide approach to lead marketing teams and align brand, customer, and commercial priorities and the evidence expected for that scope.
+
 
 ### [Arts, Entertainment and Sports industry hub](/industries/arts-entertainment-sports/)
 
-Compare how creative, cultural, event, audience, or sporting activity supported by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Arts, Entertainment and Sports](/roles/ceo/arts-entertainment-sports.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Marketing remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Operating Officer in Arts, Entertainment and Sports](/roles/coo/arts-entertainment-sports.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Marketing remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Vice President of Marketing in Retail and E-commerce](/roles/vp-marketing/retail-ecommerce.html)
 
-Compare customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment with creative, cultural, event, audience, or sporting activity supported by teams and organizations and identify how the Vice President of Marketing remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Vice President of Marketing in Arts, Entertainment and Sports?
 
-Start with the organization's account of creative, cultural, event, audience, or sporting activity supported by teams and organizations, then clarify how the Vice President of Marketing would lead marketing teams and align brand, customer, and commercial priorities. Ask how audiences, participants, creators, athletes, sponsors, venues, partners, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of creative, cultural, event, audience, or sporting activity supported by teams and organizations, then clarify how the Vice President of Marketing would lead marketing teams and align brand, customer, and commercial priorities. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Vice President of Marketing make prior work relevant to Arts, Entertainment and Sports?
 
@@ -139,19 +139,19 @@ Make the connection explicit: the candidate's record of market insight, team lea
 
 ### Which career materials can help a Vice President of Marketing explore work in Arts, Entertainment and Sports?
 
-Possible materials include executive resume, marketing portfolio, leadership summary, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available. Each claim should be accurate for this Arts, Entertainment and Sports target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, marketing portfolio, leadership summary, and profile. Each claim should be accurate for this Arts, Entertainment and Sports target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Vice President of Marketing contacts an organization in Arts, Entertainment and Sports?
 
-Outreach should follow target research, not precede it. The Vice President of Marketing candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with market insight, team leadership, portfolio decisions, channel mix, and attributable evidence is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Vice President of Marketing background relevant to work in Arts, Entertainment and Sports?
 
-Title is only a label. Establish what the employer means by Vice President of Marketing in this Arts, Entertainment and Sports organization and how the person will work with audiences, participants, creators, athletes, sponsors, venues, partners, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Does KOV control employer responses to Vice President of Marketing outreach in Arts, Entertainment and Sports?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Vice President of Marketing candidate considering Arts, Entertainment and Sports, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

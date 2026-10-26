@@ -63,7 +63,7 @@ Protect credibility in Arts, Entertainment and Sports by addressing describing a
 
 ## Prepare for conversations about Arts, Entertainment and Sports work
 
-Do not resolve uncertainty about describing activity without showing scope, dependencies, or the candidate's contribution through assumption; verify the requirement and use only supportable Chief Operating Officer claims. The candidate decides whether to pursue a Chief Operating Officer opportunity. KOV can support agreed research and preparation concerning Arts, Entertainment and Sports. Explain how CEO, functional leaders, frontline managers, suppliers, employees, and customers contributed to the candidate's work and distinguish that shared context from evidence of operating scale, service or product delivery, cross-functional change, and decision rights. Position a Chief Operating Officer career by linking align operating functions, delivery systems, and organizational priorities to program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available, then clarify which part of that work the candidate actually owned.
+Do not resolve uncertainty about describing activity without showing scope, dependencies, or the candidate's contribution through assumption; verify the requirement and use only supportable Chief Operating Officer claims. KOV can support agreed research and preparation concerning Arts, Entertainment and Sports. Explain how CEO, functional leaders, frontline managers, suppliers, employees, and customers contributed to the candidate's work and distinguish that shared context from evidence of operating scale, service or product delivery, cross-functional change, and decision rights. Position a Chief Operating Officer career by linking align operating functions, delivery systems, and organizational priorities to program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available, then clarify which part of that work the candidate actually owned.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Operating Officer career hub](/roles/coo/)
 
-Review the role-wide approach to align operating functions, delivery systems, and organizational priorities and the evidence expected for that scope.
+
 
 ### [Arts, Entertainment and Sports industry hub](/industries/arts-entertainment-sports/)
 
-Compare how creative, cultural, event, audience, or sporting activity supported by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Arts, Entertainment and Sports](/roles/ceo/arts-entertainment-sports.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Operating Officer remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Financial Officer in Arts, Entertainment and Sports](/roles/cfo/arts-entertainment-sports.html)
 
-Contrast lead financial stewardship and connect resource decisions to organizational priorities with the Chief Operating Officer remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with creative, cultural, event, audience, or sporting activity supported by teams and organizations and identify how the Chief Operating Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Chief Operating Officer resolve before a target discussion in Arts, Entertainment and Sports?
 
-Use the opening discussion to understand the specific Arts, Entertainment and Sports employer, not to assume a standard role. Compare align operating functions, delivery systems, and organizational priorities with the stated scope, identify decision partners among audiences, participants, creators, athletes, sponsors, venues, partners, and communities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Arts, Entertainment and Sports employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Chief Operating Officer career story fit the needs of Arts, Entertainment and Sports?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Chief Operating Officer approve before outreach in Arts, Entertainment and Sports?
 
-Outreach should follow target research, not precede it. The Chief Operating Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with operating scale, service or product delivery, cross-functional change, and decision rights is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a Chief Operating Officer compare title and remit in Arts, Entertainment and Sports?
 
-Title is only a label. Establish what the employer means by Chief Operating Officer in this Arts, Entertainment and Sports organization and how the person will work with audiences, participants, creators, athletes, sponsors, venues, partners, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Chief Operating Officer with an employer in Arts, Entertainment and Sports?
 

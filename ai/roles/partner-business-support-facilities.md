@@ -63,11 +63,11 @@ In a Business Support and Facilities target, make the Partner contribution legib
 
 ## Prepare for conversations about Business Support and Facilities work
 
-For Partner work in Business Support and Facilities, explain how the candidate could develop a practice or business while contributing to a shared ownership or partnership structure; connect that mandate to evidence of client or commercial contribution, practice leadership, collaboration, and shared responsibilities. In Business Support and Facilities, internal clients, employees, service teams, suppliers, customers, and contract owners may shape the work. A Partner example should separate direct responsibility from collaboration. KOV can help a Partner candidate organize an agreed search approach for Business Support and Facilities, including documents such as partner biography, practice profile, selected work summary, and professional profile. Before discussing service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements, check whether revealing client information or overstating individual ownership of team results could expose sensitive details or blur the candidate's decision boundary.
+For Partner work in Business Support and Facilities, explain how the candidate could develop a practice or business while contributing to a shared ownership or partnership structure; connect that mandate to evidence of client or commercial contribution, practice leadership, collaboration, and shared responsibilities. A Partner example should separate direct responsibility from collaboration. KOV can help a Partner candidate organize an agreed search approach for Business Support and Facilities, including documents such as partner biography, practice profile, selected work summary, and professional profile. Before discussing service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements, check whether revealing client information or overstating individual ownership of team results could expose sensitive details or blur the candidate's decision boundary.
 
 ## Run the search thoughtfully in each target market
 
-A consultation can clarify whether a Partner candidate needs positioning, document support, target research, or approved outreach for Business Support and Facilities. In Business Support and Facilities, internal clients, employees, service teams, suppliers, customers, and contract owners may shape the work. A Partner example should separate direct responsibility from collaboration. A candidate exploring Business Support and Facilities should test the assumed link between support services, workplace operations, facilities, administration, or outsourced capabilities and service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity against the actual Partner role description. In a Business Support and Facilities target, make the Partner contribution legible: describe how the candidate helped develop a practice or business while contributing to a shared ownership or partnership structure and what supports client or commercial contribution, practice leadership, collaboration, and shared responsibilities.
+A consultation can clarify whether a Partner candidate needs positioning, document support, target research, or approved outreach for Business Support and Facilities. A Partner example should separate direct responsibility from collaboration. A candidate exploring Business Support and Facilities should test the assumed link between support services, workplace operations, facilities, administration, or outsourced capabilities and service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity against the actual Partner role description. In a Business Support and Facilities target, make the Partner contribution legible: describe how the candidate helped develop a practice or business while contributing to a shared ownership or partnership structure and what supports client or commercial contribution, practice leadership, collaboration, and shared responsibilities.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Partner career hub](/roles/partner/)
 
-Review the role-wide approach to develop a practice or business while contributing to a shared ownership or partnership structure and the evidence expected for that scope.
+
 
 ### [Business Support and Facilities industry hub](/industries/business-support-facilities/)
 
-Compare how support services, workplace operations, facilities, administration, or outsourced capabilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Business Support and Facilities](/roles/ceo/business-support-facilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Partner remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Operating Officer in Business Support and Facilities](/roles/coo/business-support-facilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Partner remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Partner in Agriculture, Food and Forestry](/roles/partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with support services, workplace operations, facilities, administration, or outsourced capabilities and identify how the Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Partner resolve before a target discussion in Business Support and Facilities?
 
-A Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's support services, workplace operations, facilities, administration, or outsourced capabilities. Explore how the role will develop a practice or business while contributing to a shared ownership or partnership structure and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's support services, workplace operations, facilities, administration, or outsourced capabilities. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Partner career story fit the needs of Business Support and Facilities?
 
@@ -139,11 +139,11 @@ Make the connection explicit: the candidate's record of client or commercial con
 
 ### What should a Partner prepare in writing before targeting Business Support and Facilities?
 
-Possible materials include partner biography, practice profile, selected work summary, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
+Possible materials include partner biography, practice profile, selected work summary, and professional profile. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
 
 ### What should a Partner approve before outreach in Business Support and Facilities?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Partner candidate's service scope; the candidate approves external communication. No one route should be assumed for all Business Support and Facilities employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Business Support and Facilities employers.
 
 ### How should a Partner compare title and remit in Business Support and Facilities?
 

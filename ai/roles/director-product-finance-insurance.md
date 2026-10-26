@@ -59,7 +59,7 @@ For Director of Product materials, manage the risk of confusing product activity
 
 ## Keep research, confidentiality, and outreach aligned
 
-Readers need to see what Director of Product work involved; connect lead a product area and align customer needs with team delivery with the candidate's own examples of product scope, discovery, prioritization, stakeholder coordination, and evidence of use in Finance and Insurance. In Finance and Insurance, customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders may shape the work. A Director of Product example should separate direct responsibility from collaboration. For a Director of Product target, KOV can discuss how resume, product case studies, profile, and concise portfolio support the candidate's account of product scope, discovery, prioritization, stakeholder coordination, and evidence of use; external steps require prior agreement. For Director of Product materials, manage the risk of confusing product activity with product outcomes or disclosing confidential roadmaps; support claims with product scope, discovery, prioritization, stakeholder coordination, and evidence of use and remove details that are not authorized for sharing.
+Readers need to see what Director of Product work involved; connect lead a product area and align customer needs with team delivery with the candidate's own examples of product scope, discovery, prioritization, stakeholder coordination, and evidence of use in Finance and Insurance. A Director of Product example should separate direct responsibility from collaboration. For a Director of Product target, KOV can discuss how resume, product case studies, profile, and concise portfolio support the candidate's account of product scope, discovery, prioritization, stakeholder coordination, and evidence of use; external steps require prior agreement. For Director of Product materials, manage the risk of confusing product activity with product outcomes or disclosing confidential roadmaps; support claims with product scope, discovery, prioritization, stakeholder coordination, and evidence of use and remove details that are not authorized for sharing.
 
 ## Prepare for conversations about Finance and Insurance work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Product career hub](/roles/director-product/)
 
-Review the role-wide approach to lead a product area and align customer needs with team delivery and the evidence expected for that scope.
+
 
 ### [Finance and Insurance industry hub](/industries/finance-insurance/)
 
-Compare how financial products and services supported by customer relationships, information, operations, and oversight affects career planning across functions.
+
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Product remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Finance and Insurance](/roles/coo/finance-insurance.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Product remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Director of Product in Manufacturing](/roles/director-product/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with financial products and services supported by customer relationships, information, operations, and oversight and identify how the Director of Product remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Director of Product resolve before a target discussion in Finance and Insurance?
 
-Use the opening discussion to understand the specific Finance and Insurance employer, not to assume a standard role. Compare lead a product area and align customer needs with team delivery with the stated scope, identify decision partners among customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Finance and Insurance employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Director of Product career story fit the needs of Finance and Insurance?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Director of Product approve before outreach in Finance and Insurance?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of Product candidate's service scope; the candidate approves external communication. No one route should be assumed for all Finance and Insurance employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Finance and Insurance employers.
 
 ### How should a Director of Product compare title and remit in Finance and Insurance?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate product sc
 
 ### Will KOV secure a meeting for a Director of Product with an employer in Finance and Insurance?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of Product candidate considering Finance and Insurance, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

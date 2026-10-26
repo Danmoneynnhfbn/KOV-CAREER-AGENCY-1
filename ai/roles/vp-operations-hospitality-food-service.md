@@ -33,7 +33,7 @@ Show the Vice President of Operations scope behind the title: how the candidate 
 
 ## Choose the individual services that fit the work
 
-The candidate decides whether to pursue a Vice President of Operations opportunity. KOV can support agreed research and preparation concerning Hospitality and Food Service. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Vice President of Operations example should separate direct responsibility from collaboration. Research for a Vice President of Operations in Hospitality and Food Service becomes more focused when the candidate investigates guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alongside guest-facing accommodation, food, venue, or experience services delivered through people and operations. For Vice President of Operations work in Hospitality and Food Service, explain how the candidate could coordinate operational performance across teams, locations, or service lines; connect that mandate to evidence of operating remit, workflow choices, service quality, resources, and cross-functional contribution.
+The candidate decides whether to pursue a Vice President of Operations opportunity. A Vice President of Operations example should separate direct responsibility from collaboration. Research for a Vice President of Operations in Hospitality and Food Service becomes more focused when the candidate investigates guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alongside guest-facing accommodation, food, venue, or experience services delivered through people and operations. For Vice President of Operations work in Hospitality and Food Service, explain how the candidate could coordinate operational performance across teams, locations, or service lines; connect that mandate to evidence of operating remit, workflow choices, service quality, resources, and cross-functional contribution.
 
 ### [Private career representation](/services.html)
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Vice President of Operations mater
 
 ## Prepare to discuss the Hospitality and Food Service mandate
 
-Research for a Vice President of Operations in Hospitality and Food Service becomes more focused when the candidate investigates guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alongside guest-facing accommodation, food, venue, or experience services delivered through people and operations. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Vice President of Operations example should separate direct responsibility from collaboration. Where appropriate to the agreed service, KOV can help a Vice President of Operations candidate prepare and coordinate approved next steps for Hospitality and Food Service. The candidate can discuss operating remit, workflow choices, service quality, resources, and cross-functional contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+Research for a Vice President of Operations in Hospitality and Food Service becomes more focused when the candidate investigates guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alongside guest-facing accommodation, food, venue, or experience services delivered through people and operations. A Vice President of Operations example should separate direct responsibility from collaboration. Where appropriate to the agreed service, KOV can help a Vice President of Operations candidate prepare and coordinate approved next steps for Hospitality and Food Service. The candidate can discuss operating remit, workflow choices, service quality, resources, and cross-functional contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Common positioning mistakes for Vice President of Operations candidates in Hospitality and Food Service
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Operations career hub](/roles/vp-operations/)
 
-Review the role-wide approach to coordinate operational performance across teams, locations, or service lines and the evidence expected for that scope.
+
 
 ### [Hospitality and Food Service industry hub](/industries/hospitality-food-service/)
 
-Compare how guest-facing accommodation, food, venue, or experience services delivered through people and operations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Hospitality and Food Service](/roles/ceo/hospitality-food-service.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Operations remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Operating Officer in Hospitality and Food Service](/roles/coo/hospitality-food-service.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Operations remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Vice President of Operations in Agriculture, Food and Forestry](/roles/vp-operations/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with guest-facing accommodation, food, venue, or experience services delivered through people and operations and identify how the Vice President of Operations remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Vice President of Operations test the scope of work in Hospitality and Food Service?
 
-A Vice President of Operations candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. Explore how the role will coordinate operational performance across teams, locations, or service lines and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Vice President of Operations candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Vice President of Operations use to explain experience in Hospitality and Food Service?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### Can a Vice President of Operations rely on title alone when targeting Hospitality and Food Service?
 
-Title is only a label. Establish what the employer means by Vice President of Operations in this Hospitality and Food Service organization and how the person will work with guests, employees, suppliers, owners, local partners, and service teams. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Vice President of Operations seeking work in Hospitality and Food Service?
 

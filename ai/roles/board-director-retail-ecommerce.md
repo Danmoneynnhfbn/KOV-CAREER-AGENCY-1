@@ -4,7 +4,7 @@ KOV helps Board Director candidates considering roles connected to Retail and E-
 
 ## How Board Director work connects with Retail and E-commerce
 
-The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Retail and E-commerce. Use an example involving customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution to describe the decision, the parties involved, and the candidate's role as a Board Director. A candidate exploring Retail and E-commerce should test the assumed link between customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and customer experience, assortment, inventory, channel coordination, and rapid feedback against the actual Board Director role description. Rather than lead with seniority, a Board Director profile can explain the responsibility to contribute oversight, inquiry, and strategic perspective within collective governance and use customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution as evidence.
+The candidate decides whether to pursue a Board Director opportunity. Use an example involving customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution to describe the decision, the parties involved, and the candidate's role as a Board Director. A candidate exploring Retail and E-commerce should test the assumed link between customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and customer experience, assortment, inventory, channel coordination, and rapid feedback against the actual Board Director role description. Rather than lead with seniority, a Board Director profile can explain the responsibility to contribute oversight, inquiry, and strategic perspective within collective governance and use customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution as evidence.
 
 ## Who this Board Director and Retail and E-commerce guide is for
 
@@ -16,7 +16,7 @@ Where implying executive authority for board decisions or claiming confidential 
 
 ## Documents that make Board Director experience relevant here
 
-Do not resolve uncertainty about implying executive authority for board decisions or claiming confidential board outcomes through assumption; verify the requirement and use only supportable Board Director claims. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Retail and E-commerce. Before presenting customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution, determine how customers, store or digital teams, suppliers, brand partners, operations, and owners participated and which details are safe to discuss. Position a Board Director career by linking contribute oversight, inquiry, and strategic perspective within collective governance to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution, then clarify which part of that work the candidate actually owned.
+Do not resolve uncertainty about implying executive authority for board decisions or claiming confidential board outcomes through assumption; verify the requirement and use only supportable Board Director claims. KOV can support agreed research and preparation concerning Retail and E-commerce. Before presenting customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution, determine how customers, store or digital teams, suppliers, brand partners, operations, and owners participated and which details are safe to discuss. Position a Board Director career by linking contribute oversight, inquiry, and strategic perspective within collective governance to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution, then clarify which part of that work the candidate actually owned.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ Do not resolve uncertainty about implying executive authority for board decision
 
 ## Choose the individual services that fit the work
 
-For Board Director work in Retail and E-commerce, explain how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance; connect that mandate to evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution. To understand the Retail and E-commerce target, explore customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and ask how a Board Director is expected to respond to customer experience, assortment, inventory, channel coordination, and rapid feedback. In Retail and E-commerce, customers, store or digital teams, suppliers, brand partners, operations, and owners may shape the work. A Board Director example should separate direct responsibility from collaboration. Protect credibility in Retail and E-commerce by addressing implying executive authority for board decisions or claiming confidential board outcomes with a factual account of committee or board remit, preparation, judgment, relevant expertise, and collective contribution and its limits.
+For Board Director work in Retail and E-commerce, explain how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance; connect that mandate to evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution. In Retail and E-commerce, customers, store or digital teams, suppliers, brand partners, operations, and owners may shape the work. A Board Director example should separate direct responsibility from collaboration. Protect credibility in Retail and E-commerce by addressing implying executive authority for board decisions or claiming confidential board outcomes with a factual account of committee or board remit, preparation, judgment, relevant expertise, and collective contribution and its limits.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Board Director career hub](/roles/board-director/)
 
-Review the role-wide approach to contribute oversight, inquiry, and strategic perspective within collective governance and the evidence expected for that scope.
+
 
 ### [Retail and E-commerce industry hub](/industries/retail-ecommerce/)
 
-Compare how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment affects career planning across functions.
+
 
 ### [Chief Executive Officer in Retail and E-commerce](/roles/ceo/retail-ecommerce.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Board Director remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Operating Officer in Retail and E-commerce](/roles/coo/retail-ecommerce.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Board Director remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Board Director in Agriculture, Food and Forestry](/roles/board-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and identify how the Board Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Board Director in Retail and E-commerce?
 
-Start with the organization's account of customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment, then clarify how the Board Director would contribute oversight, inquiry, and strategic perspective within collective governance. Ask how customers, store or digital teams, suppliers, brand partners, operations, and owners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment, then clarify how the Board Director would contribute oversight, inquiry, and strategic perspective within collective governance. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Board Director make prior work relevant to Retail and E-commerce?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could contribute oversight, inquiry, an
 
 ### Which career materials can help a Board Director explore work in Retail and E-commerce?
 
-Possible materials include board biography, governance resume, skills matrix, and concise profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution. Each claim should be accurate for this Retail and E-commerce target, and confidential or unauthorized material should be omitted.
+Possible materials include board biography, governance resume, skills matrix, and concise profile. Each claim should be accurate for this Retail and E-commerce target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Board Director contacts an organization in Retail and E-commerce?
 
-Outreach should follow target research, not precede it. The Board Director candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with committee or board remit, preparation, judgment, relevant expertise, and collective contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Board Director background relevant to work in Retail and E-commerce?
 
-No. Compare the role description with the candidate's experience of contribute oversight, inquiry, and strategic perspective within collective governance and the organization's customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Board Director outreach in Retail and E-commerce?
 

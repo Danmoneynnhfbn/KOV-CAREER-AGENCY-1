@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Human Resources Officer career hub](/roles/chro/)
 
-Review the role-wide approach to guide people strategy, organizational capability, and workforce-related leadership and the evidence expected for that scope.
+
 
 ### [Finance and Insurance industry hub](/industries/finance-insurance/)
 
-Compare how financial products and services supported by customer relationships, information, operations, and oversight affects career planning across functions.
+
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Human Resources Officer remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Finance and Insurance](/roles/coo/finance-insurance.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Human Resources Officer remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Human Resources Officer in Agriculture, Food and Forestry](/roles/chro/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with financial products and services supported by customer relationships, information, operations, and oversight and identify how the Chief Human Resources Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Human Resources Officer in Finance and Insurance?
 
-A Chief Human Resources Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's financial products and services supported by customer relationships, information, operations, and oversight. Explore how the role will guide people strategy, organizational capability, and workforce-related leadership and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Human Resources Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's financial products and services supported by customer relationships, information, operations, and oversight. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Chief Human Resources Officer make prior work relevant to Finance and Insurance?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What must be agreed before a Chief Human Resources Officer contacts an organization in Finance and Insurance?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Human Resources Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Finance and Insurance employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Finance and Insurance employers.
 
 ### What makes a Chief Human Resources Officer background relevant to work in Finance and Insurance?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate people age
 
 ### Does KOV control employer responses to Chief Human Resources Officer outreach in Finance and Insurance?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Human Resources Officer candidate considering Finance and Insurance, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

@@ -45,7 +45,7 @@ Consider document and positioning support for Head of Business Development mater
 
 ## Prepare to discuss the Real Estate and Leasing mandate
 
-Protect credibility in Real Estate and Leasing by addressing presenting discussions as signed business or revealing sensitive counterpart information with a factual account of market focus, partnerships, opportunity pipeline, negotiation role, and attributable contribution and its limits. In Real Estate and Leasing, owners, tenants, customers, investors, property teams, suppliers, and communities may shape the work. A Head of Business Development example should separate direct responsibility from collaboration. An employer's Real Estate and Leasing model may involve property ownership, development, brokerage, management, or leasing relationships; its implications for asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions should be discussed, not presumed. Readers need to see what Head of Business Development work involved; connect develop relationships and opportunities that support an organization's commercial direction with the candidate's own examples of market focus, partnerships, opportunity pipeline, negotiation role, and attributable contribution in Real Estate and Leasing.
+Protect credibility in Real Estate and Leasing by addressing presenting discussions as signed business or revealing sensitive counterpart information with a factual account of market focus, partnerships, opportunity pipeline, negotiation role, and attributable contribution and its limits. A Head of Business Development example should separate direct responsibility from collaboration. An employer's Real Estate and Leasing model may involve property ownership, development, brokerage, management, or leasing relationships; its implications for asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions should be discussed, not presumed. Readers need to see what Head of Business Development work involved; connect develop relationships and opportunities that support an organization's commercial direction with the candidate's own examples of market focus, partnerships, opportunity pipeline, negotiation role, and attributable contribution in Real Estate and Leasing.
 
 ## Common positioning mistakes for Head of Business Development candidates in Real Estate and Leasing
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Business Development career hub](/roles/head-business-development/)
 
-Review the role-wide approach to develop relationships and opportunities that support an organization's commercial direction and the evidence expected for that scope.
+
 
 ### [Real Estate and Leasing industry hub](/industries/real-estate-leasing/)
 
-Compare how property ownership, development, brokerage, management, or leasing relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Real Estate and Leasing](/roles/ceo/real-estate-leasing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Business Development remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Operating Officer in Real Estate and Leasing](/roles/coo/real-estate-leasing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Business Development remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Head of Business Development in Energy, Mining and Oil and Gas](/roles/head-business-development/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with property ownership, development, brokerage, management, or leasing relationships and identify how the Head of Business Development remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Head of Business Development test the scope of work in Real Estate and Leasing?
 
-A Head of Business Development candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's property ownership, development, brokerage, management, or leasing relationships. Explore how the role will develop relationships and opportunities that support an organization's commercial direction and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Head of Business Development candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's property ownership, development, brokerage, management, or leasing relationships. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Head of Business Development use to explain experience in Real Estate and Leasing?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### Which outreach choices belong to a Head of Business Development considering Real Estate and Leasing?
 
-Outreach should follow target research, not precede it. The Head of Business Development candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with market focus, partnerships, opportunity pipeline, negotiation role, and attributable contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Head of Business Development rely on title alone when targeting Real Estate and Leasing?
 
-Title is only a label. Establish what the employer means by Head of Business Development in this Real Estate and Leasing organization and how the person will work with owners, tenants, customers, investors, property teams, suppliers, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Head of Business Development seeking work in Real Estate and Leasing?
 

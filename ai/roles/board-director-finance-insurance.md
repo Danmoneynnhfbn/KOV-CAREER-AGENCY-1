@@ -33,7 +33,7 @@ Do not resolve uncertainty about implying executive authority for board decision
 
 ## Choose the individual services that fit the work
 
-Research for a Board Director in Finance and Insurance becomes more focused when the candidate investigates trust, information handling, product suitability, operational resilience, and competing customer and business needs alongside financial products and services supported by customer relationships, information, operations, and oversight. In Finance and Insurance, customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders may shape the work. A Board Director example should separate direct responsibility from collaboration. Career representation remains candidate-led: KOV can support a Board Director search, while the candidate approves the goals and disclosures. Good preparation for Board Director work includes a safe way to explain implying executive authority for board decisions or claiming confidential board outcomes and a clear distinction between fact and inference.
+Research for a Board Director in Finance and Insurance becomes more focused when the candidate investigates trust, information handling, product suitability, operational resilience, and competing customer and business needs alongside financial products and services supported by customer relationships, information, operations, and oversight. A Board Director example should separate direct responsibility from collaboration. Career representation remains candidate-led: KOV can support a Board Director search, while the candidate approves the goals and disclosures. Good preparation for Board Director work includes a safe way to explain implying executive authority for board decisions or claiming confidential board outcomes and a clear distinction between fact and inference.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Board Director career hub](/roles/board-director/)
 
-Review the role-wide approach to contribute oversight, inquiry, and strategic perspective within collective governance and the evidence expected for that scope.
+
 
 ### [Finance and Insurance industry hub](/industries/finance-insurance/)
 
-Compare how financial products and services supported by customer relationships, information, operations, and oversight affects career planning across functions.
+
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Board Director remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Finance and Insurance](/roles/coo/finance-insurance.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Board Director remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Board Director in Agriculture, Food and Forestry](/roles/board-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with financial products and services supported by customer relationships, information, operations, and oversight and identify how the Board Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Board Director in Finance and Insurance?
 
-Start with the organization's account of financial products and services supported by customer relationships, information, operations, and oversight, then clarify how the Board Director would contribute oversight, inquiry, and strategic perspective within collective governance. Ask how customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of financial products and services supported by customer relationships, information, operations, and oversight, then clarify how the Board Director would contribute oversight, inquiry, and strategic perspective within collective governance. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Board Director make prior work relevant to Finance and Insurance?
 
@@ -139,19 +139,19 @@ Describe an instance where the candidate could contribute oversight, inquiry, an
 
 ### Which career materials can help a Board Director explore work in Finance and Insurance?
 
-Possible materials include board biography, governance resume, skills matrix, and concise profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes. Each claim should be accurate for this Finance and Insurance target, and confidential or unauthorized material should be omitted.
+Possible materials include board biography, governance resume, skills matrix, and concise profile. Each claim should be accurate for this Finance and Insurance target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Board Director contacts an organization in Finance and Insurance?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Board Director candidate's service scope; the candidate approves external communication. No one route should be assumed for all Finance and Insurance employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Finance and Insurance employers.
 
 ### What makes a Board Director background relevant to work in Finance and Insurance?
 
-No. Compare the role description with the candidate's experience of contribute oversight, inquiry, and strategic perspective within collective governance and the organization's financial products and services supported by customer relationships, information, operations, and oversight. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Board Director outreach in Finance and Insurance?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Board Director candidate considering Finance and Insurance, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

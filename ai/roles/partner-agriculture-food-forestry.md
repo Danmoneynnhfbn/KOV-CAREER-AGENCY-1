@@ -8,7 +8,7 @@ Position a Partner career by linking develop a practice or business while contri
 
 ## Who this Partner and Agriculture, Food and Forestry guide is for
 
-Good preparation for Partner work includes a safe way to explain revealing client information or overstating individual ownership of team results and a clear distinction between fact and inference. The candidate decides whether to pursue a Partner opportunity. KOV can support agreed research and preparation concerning Agriculture, Food and Forestry. To understand the Agriculture, Food and Forestry target, explore production linked to land, biological cycles, processing, and supply relationships and ask how a Partner is expected to respond to seasonality, input availability, quality variation, and coordination across production stages. A precise Partner story ties client or commercial contribution, practice leadership, collaboration, and shared responsibilities to the mandate of develop a practice or business while contributing to a shared ownership or partnership structure, without suggesting that the title alone establishes fit.
+Good preparation for Partner work includes a safe way to explain revealing client information or overstating individual ownership of team results and a clear distinction between fact and inference. KOV can support agreed research and preparation concerning Agriculture, Food and Forestry. To understand the Agriculture, Food and Forestry target, explore production linked to land, biological cycles, processing, and supply relationships and ask how a Partner is expected to respond to seasonality, input availability, quality variation, and coordination across production stages. A precise Partner story ties client or commercial contribution, practice leadership, collaboration, and shared responsibilities to the mandate of develop a practice or business while contributing to a shared ownership or partnership structure, without suggesting that the title alone establishes fit.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -63,7 +63,7 @@ KOV works with the candidate to agree which Partner targets matter, how partner 
 
 ## Prepare for conversations about Agriculture, Food and Forestry work
 
-To assess a Partner opportunity in Agriculture, Food and Forestry, compare the stated remit to the candidate's record of client or commercial contribution, practice leadership, collaboration, and shared responsibilities. Not every Agriculture, Food and Forestry organization will handle seasonality, input availability, quality variation, and coordination across production stages alike. Confirm how production linked to land, biological cycles, processing, and supply relationships informs this Partner position. A consultation can clarify whether a Partner candidate needs positioning, document support, target research, or approved outreach for Agriculture, Food and Forestry. Keep the Partner narrative accurate where revealing client information or overstating individual ownership of team results may arise: attribute shared work and disclose only information the candidate may use.
+To assess a Partner opportunity in Agriculture, Food and Forestry, compare the stated remit to the candidate's record of client or commercial contribution, practice leadership, collaboration, and shared responsibilities. Confirm how production linked to land, biological cycles, processing, and supply relationships informs this Partner position. A consultation can clarify whether a Partner candidate needs positioning, document support, target research, or approved outreach for Agriculture, Food and Forestry. Keep the Partner narrative accurate where revealing client information or overstating individual ownership of team results may arise: attribute shared work and disclose only information the candidate may use.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Partner career hub](/roles/partner/)
 
-Review the role-wide approach to develop a practice or business while contributing to a shared ownership or partnership structure and the evidence expected for that scope.
+
 
 ### [Agriculture, Food and Forestry industry hub](/industries/agriculture-food-forestry/)
 
-Compare how production linked to land, biological cycles, processing, and supply relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Agriculture, Food and Forestry](/roles/ceo/agriculture-food-forestry.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Partner remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Partner remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Partner in Energy, Mining and Oil and Gas](/roles/partner/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with production linked to land, biological cycles, processing, and supply relationships and identify how the Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Partner resolve before a target discussion in Agriculture, Food and Forestry?
 
-Start with the organization's account of production linked to land, biological cycles, processing, and supply relationships, then clarify how the Partner would develop a practice or business while contributing to a shared ownership or partnership structure. Ask how producers, workforce, buyers, processors, logistics partners, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of production linked to land, biological cycles, processing, and supply relationships, then clarify how the Partner would develop a practice or business while contributing to a shared ownership or partnership structure. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### Which parts of a Partner career story fit the needs of Agriculture, Food and Forestry?
 
@@ -139,19 +139,19 @@ Make the connection explicit: the candidate's record of client or commercial con
 
 ### What should a Partner prepare in writing before targeting Agriculture, Food and Forestry?
 
-Document selection depends on the opportunity. A Partner may draw from partner biography, practice profile, selected work summary, and professional profile, but should foreground only material connected to resource planning, safety-minded operations, supplier relationships, yield or quality context, and continuity decisions. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What should a Partner approve before outreach in Agriculture, Food and Forestry?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Partner candidate's service scope; the candidate approves external communication. No one route should be assumed for all Agriculture, Food and Forestry employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Agriculture, Food and Forestry employers.
 
 ### How should a Partner compare title and remit in Agriculture, Food and Forestry?
 
-Title is only a label. Establish what the employer means by Partner in this Agriculture, Food and Forestry organization and how the person will work with producers, workforce, buyers, processors, logistics partners, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Partner with an employer in Agriculture, Food and Forestry?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Partner candidate considering Agriculture, Food and Forestry, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

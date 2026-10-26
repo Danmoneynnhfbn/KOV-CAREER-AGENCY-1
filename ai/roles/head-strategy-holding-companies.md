@@ -4,7 +4,7 @@ KOV helps Head of Strategy candidates considering roles connected to Holding Com
 
 ## How Head of Strategy work connects with Holding Companies and Corporate Groups
 
-A Head of Strategy candidate should be ready to explain taking credit for decisions made by sponsors or treating planning as implementation without revealing confidential details or implying unsupported responsibility. In Holding Companies and Corporate Groups, owners, boards, portfolio leaders, finance teams, employees, and external partners may shape the work. A Head of Strategy example should separate direct responsibility from collaboration. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Head of Strategy position. The Head of Strategy remit to coordinate planning and strategic analysis for an organization or business unit should be described through decisions and examples, especially evidence of problem framing, analysis, stakeholder alignment, recommendation, and implementation support relevant to Holding Companies and Corporate Groups.
+A Head of Strategy candidate should be ready to explain taking credit for decisions made by sponsors or treating planning as implementation without revealing confidential details or implying unsupported responsibility. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Head of Strategy position. The Head of Strategy remit to coordinate planning and strategic analysis for an organization or business unit should be described through decisions and examples, especially evidence of problem framing, analysis, stakeholder alignment, recommendation, and implementation support relevant to Holding Companies and Corporate Groups.
 
 ## Who this Head of Strategy and Holding Companies and Corporate Groups guide is for
 
@@ -16,7 +16,7 @@ Protect credibility in Holding Companies and Corporate Groups by addressing taki
 
 ## Documents that make Head of Strategy experience relevant here
 
-Readers need to see what Head of Strategy work involved; connect coordinate planning and strategic analysis for an organization or business unit with the candidate's own examples of problem framing, analysis, stakeholder alignment, recommendation, and implementation support in Holding Companies and Corporate Groups. To understand the Holding Companies and Corporate Groups target, explore ownership or coordination of multiple entities, portfolios, or operating businesses and ask how a Head of Strategy is expected to respond to delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences. In Holding Companies and Corporate Groups, owners, boards, portfolio leaders, finance teams, employees, and external partners may shape the work. A Head of Strategy example should separate direct responsibility from collaboration. For Head of Strategy materials, manage the risk of taking credit for decisions made by sponsors or treating planning as implementation; support claims with problem framing, analysis, stakeholder alignment, recommendation, and implementation support and remove details that are not authorized for sharing.
+Readers need to see what Head of Strategy work involved; connect coordinate planning and strategic analysis for an organization or business unit with the candidate's own examples of problem framing, analysis, stakeholder alignment, recommendation, and implementation support in Holding Companies and Corporate Groups. In Holding Companies and Corporate Groups, owners, boards, portfolio leaders, finance teams, employees, and external partners may shape the work. A Head of Strategy example should separate direct responsibility from collaboration. For Head of Strategy materials, manage the risk of taking credit for decisions made by sponsors or treating planning as implementation; support claims with problem framing, analysis, stakeholder alignment, recommendation, and implementation support and remove details that are not authorized for sharing.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ Consider document and positioning support for Head of Strategy materials that pr
 
 ## Prepare to discuss the Holding Companies and Corporate Groups mandate
 
-To assess a Head of Strategy opportunity in Holding Companies and Corporate Groups, compare the stated remit to the candidate's record of problem framing, analysis, stakeholder alignment, recommendation, and implementation support. Explain how CEO or CSO, finance, business leaders, teams, and board or owners when appropriate contributed to the candidate's work and distinguish that shared context from evidence of problem framing, analysis, stakeholder alignment, recommendation, and implementation support. The candidate decides whether to pursue a Head of Strategy opportunity. KOV can support agreed research and preparation concerning Holding Companies and Corporate Groups. Good preparation for Head of Strategy work includes a safe way to explain taking credit for decisions made by sponsors or treating planning as implementation and a clear distinction between fact and inference.
+To assess a Head of Strategy opportunity in Holding Companies and Corporate Groups, compare the stated remit to the candidate's record of problem framing, analysis, stakeholder alignment, recommendation, and implementation support. The candidate decides whether to pursue a Head of Strategy opportunity. KOV can support agreed research and preparation concerning Holding Companies and Corporate Groups. Good preparation for Head of Strategy work includes a safe way to explain taking credit for decisions made by sponsors or treating planning as implementation and a clear distinction between fact and inference.
 
 ## Common positioning mistakes for Head of Strategy candidates in Holding Companies and Corporate Groups
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Strategy career hub](/roles/head-strategy/)
 
-Review the role-wide approach to coordinate planning and strategic analysis for an organization or business unit and the evidence expected for that scope.
+
 
 ### [Holding Companies and Corporate Groups industry hub](/industries/holding-companies/)
 
-Compare how ownership or coordination of multiple entities, portfolios, or operating businesses affects career planning across functions.
+
 
 ### [Chief Executive Officer in Holding Companies and Corporate Groups](/roles/ceo/holding-companies.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Strategy remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Operating Officer in Holding Companies and Corporate Groups](/roles/coo/holding-companies.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Strategy remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Head of Strategy in Energy, Mining and Oil and Gas](/roles/head-strategy/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with ownership or coordination of multiple entities, portfolios, or operating businesses and identify how the Head of Strategy remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Head of Strategy resolve before a target discussion in Holding Companies and Corporate Groups?
 
-Start with the organization's account of ownership or coordination of multiple entities, portfolios, or operating businesses, then clarify how the Head of Strategy would coordinate planning and strategic analysis for an organization or business unit. Ask how owners, boards, portfolio leaders, finance teams, employees, and external partners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of ownership or coordination of multiple entities, portfolios, or operating businesses, then clarify how the Head of Strategy would coordinate planning and strategic analysis for an organization or business unit. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### Which parts of a Head of Strategy career story fit the needs of Holding Companies and Corporate Groups?
 
@@ -139,7 +139,7 @@ Describe an instance where the candidate could coordinate planning and strategic
 
 ### What should a Head of Strategy prepare in writing before targeting Holding Companies and Corporate Groups?
 
-Document selection depends on the opportunity. A Head of Strategy may draw from resume, strategy portfolio, planning narrative, and profile, but should foreground only material connected to portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What should a Head of Strategy approve before outreach in Holding Companies and Corporate Groups?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How should a Head of Strategy compare title and remit in Holding Companies and Corporate Groups?
 
-No. Compare the role description with the candidate's experience of coordinate planning and strategic analysis for an organization or business unit and the organization's ownership or coordination of multiple entities, portfolios, or operating businesses. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Will KOV secure a meeting for a Head of Strategy with an employer in Holding Companies and Corporate Groups?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Head of Strategy candidate considering Holding Companies and Corporate Groups, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

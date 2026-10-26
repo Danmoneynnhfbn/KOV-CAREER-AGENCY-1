@@ -33,7 +33,7 @@ Review each Head of Strategy example for taking credit for decisions made by spo
 
 ## Choose the individual services that fit the work
 
-Review each Head of Strategy example for taking credit for decisions made by sponsors or treating planning as implementation, then describe the candidate's decisions without overstating their control over CEO or CSO, finance, business leaders, teams, and board or owners when appropriate. Discuss service line, client or project context, team leadership, delivery model, and authorized outcomes with care: a Head of Strategy candidate can explain contribution while omitting confidential or identifying facts. Not every Consulting and Other Professional Services organization will handle expertise, client expectations, capacity, project economics, and consistent delivery across engagements alike. Confirm how expertise-led advisory or delivery work provided to organizations or individuals informs this Head of Strategy position. A precise Head of Strategy story ties problem framing, analysis, stakeholder alignment, recommendation, and implementation support to the mandate of coordinate planning and strategic analysis for an organization or business unit, without suggesting that the title alone establishes fit.
+Review each Head of Strategy example for taking credit for decisions made by sponsors or treating planning as implementation, then describe the candidate's decisions without overstating their control over CEO or CSO, finance, business leaders, teams, and board or owners when appropriate. Not every Consulting and Other Professional Services organization will handle expertise, client expectations, capacity, project economics, and consistent delivery across engagements alike. Confirm how expertise-led advisory or delivery work provided to organizations or individuals informs this Head of Strategy position. A precise Head of Strategy story ties problem framing, analysis, stakeholder alignment, recommendation, and implementation support to the mandate of coordinate planning and strategic analysis for an organization or business unit, without suggesting that the title alone establishes fit.
 
 ### [Private career representation](/services.html)
 
@@ -63,7 +63,7 @@ Where appropriate to the agreed service, KOV can help a Head of Strategy candida
 
 ## Prepare for conversations about Consulting and Other Professional Services work
 
-For Head of Strategy work in Consulting and Other Professional Services, explain how the candidate could coordinate planning and strategic analysis for an organization or business unit; connect that mandate to evidence of problem framing, analysis, stakeholder alignment, recommendation, and implementation support. In Consulting and Other Professional Services, clients, practitioners, project teams, partners or owners, suppliers, and professional communities may shape the work. A Head of Strategy example should separate direct responsibility from collaboration. KOV can help a Head of Strategy candidate organize an agreed search approach for Consulting and Other Professional Services, including documents such as resume, strategy portfolio, planning narrative, and profile. The candidate can discuss problem framing, analysis, stakeholder alignment, recommendation, and implementation support while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+For Head of Strategy work in Consulting and Other Professional Services, explain how the candidate could coordinate planning and strategic analysis for an organization or business unit; connect that mandate to evidence of problem framing, analysis, stakeholder alignment, recommendation, and implementation support. A Head of Strategy example should separate direct responsibility from collaboration. KOV can help a Head of Strategy candidate organize an agreed search approach for Consulting and Other Professional Services, including documents such as resume, strategy portfolio, planning narrative, and profile. The candidate can discuss problem framing, analysis, stakeholder alignment, recommendation, and implementation support while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Strategy career hub](/roles/head-strategy/)
 
-Review the role-wide approach to coordinate planning and strategic analysis for an organization or business unit and the evidence expected for that scope.
+
 
 ### [Consulting and Other Professional Services industry hub](/industries/consulting-professional-services/)
 
-Compare how expertise-led advisory or delivery work provided to organizations or individuals affects career planning across functions.
+
 
 ### [Chief Executive Officer in Consulting and Other Professional Services](/roles/ceo/consulting-professional-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Strategy remit; consider where each function meets expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chief Operating Officer in Consulting and Other Professional Services](/roles/coo/consulting-professional-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Strategy remit; consider where each function meets expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Head of Strategy in Energy, Mining and Oil and Gas](/roles/head-strategy/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with expertise-led advisory or delivery work provided to organizations or individuals and identify how the Head of Strategy remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Head of Strategy in Consulting and Other Professional Services?
 
-Start with the organization's account of expertise-led advisory or delivery work provided to organizations or individuals, then clarify how the Head of Strategy would coordinate planning and strategic analysis for an organization or business unit. Ask how clients, practitioners, project teams, partners or owners, suppliers, and professional communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of expertise-led advisory or delivery work provided to organizations or individuals, then clarify how the Head of Strategy would coordinate planning and strategic analysis for an organization or business unit. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Head of Strategy make prior work relevant to Consulting and Other Professional Services?
 
@@ -139,15 +139,15 @@ Make the connection explicit: the candidate's record of problem framing, analysi
 
 ### Which career materials can help a Head of Strategy explore work in Consulting and Other Professional Services?
 
-Possible materials include resume, strategy portfolio, planning narrative, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service line, client or project context, team leadership, delivery model, and authorized outcomes. Each claim should be accurate for this Consulting and Other Professional Services target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, strategy portfolio, planning narrative, and profile. Each claim should be accurate for this Consulting and Other Professional Services target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Head of Strategy contacts an organization in Consulting and Other Professional Services?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Head of Strategy candidate's service scope; the candidate approves external communication. No one route should be assumed for all Consulting and Other Professional Services employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Consulting and Other Professional Services employers.
 
 ### What makes a Head of Strategy background relevant to work in Consulting and Other Professional Services?
 
-Title is only a label. Establish what the employer means by Head of Strategy in this Consulting and Other Professional Services organization and how the person will work with clients, practitioners, project teams, partners or owners, suppliers, and professional communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Does KOV control employer responses to Head of Strategy outreach in Consulting and Other Professional Services?
 

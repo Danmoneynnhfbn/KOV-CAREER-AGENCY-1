@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Human Resources Officer career hub](/roles/chro/)
 
-Review the role-wide approach to guide people strategy, organizational capability, and workforce-related leadership and the evidence expected for that scope.
+
 
 ### [Business Support and Facilities industry hub](/industries/business-support-facilities/)
 
-Compare how support services, workplace operations, facilities, administration, or outsourced capabilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Business Support and Facilities](/roles/ceo/business-support-facilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Human Resources Officer remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Operating Officer in Business Support and Facilities](/roles/coo/business-support-facilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Human Resources Officer remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Human Resources Officer in Agriculture, Food and Forestry](/roles/chro/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with support services, workplace operations, facilities, administration, or outsourced capabilities and identify how the Chief Human Resources Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Human Resources Officer in Business Support and Facilities?
 
-A Chief Human Resources Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's support services, workplace operations, facilities, administration, or outsourced capabilities. Explore how the role will guide people strategy, organizational capability, and workforce-related leadership and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Human Resources Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's support services, workplace operations, facilities, administration, or outsourced capabilities. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Chief Human Resources Officer make prior work relevant to Business Support and Facilities?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### What makes a Chief Human Resources Officer background relevant to work in Business Support and Facilities?
 
-No. Compare the role description with the candidate's experience of guide people strategy, organizational capability, and workforce-related leadership and the organization's support services, workplace operations, facilities, administration, or outsourced capabilities. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Chief Human Resources Officer outreach in Business Support and Facilities?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Human Resources Officer candidate considering Business Support and Facilities, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

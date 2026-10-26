@@ -8,7 +8,7 @@ Good preparation for Chief Information Security Officer work includes a safe way
 
 ## Who this Chief Information Security Officer and Healthcare and Social Care guide is for
 
-Protect credibility in Healthcare and Social Care by addressing exposing sensitive controls or incidents, or overstating personal responsibility for shared security work with a factual account of security remit, risk decisions, operating model, incident leadership where authorized, and adoption and its limits. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Chief Information Security Officer example should separate direct responsibility from collaboration. Use care, health-related services, or social support delivered by teams and organizations to frame research about Healthcare and Social Care, then ask how a Chief Information Security Officer will work through service quality, workforce coordination, access, continuity, and sensitive information. In a Healthcare and Social Care target, make the Chief Information Security Officer contribution legible: describe how the candidate helped lead information-security priorities and coordinate risk-informed protection and what supports security remit, risk decisions, operating model, incident leadership where authorized, and adoption.
+Protect credibility in Healthcare and Social Care by addressing exposing sensitive controls or incidents, or overstating personal responsibility for shared security work with a factual account of security remit, risk decisions, operating model, incident leadership where authorized, and adoption and its limits. A Chief Information Security Officer example should separate direct responsibility from collaboration. Use care, health-related services, or social support delivered by teams and organizations to frame research about Healthcare and Social Care, then ask how a Chief Information Security Officer will work through service quality, workforce coordination, access, continuity, and sensitive information. In a Healthcare and Social Care target, make the Chief Information Security Officer contribution legible: describe how the candidate helped lead information-security priorities and coordinate risk-informed protection and what supports security remit, risk decisions, operating model, incident leadership where authorized, and adoption.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -16,7 +16,7 @@ For a Chief Information Security Officer target, KOV can discuss how executive r
 
 ## Documents that make Chief Information Security Officer experience relevant here
 
-To assess a Chief Information Security Officer opportunity in Healthcare and Social Care, compare the stated remit to the candidate's record of security remit, risk decisions, operating model, incident leadership where authorized, and adoption. Not every Healthcare and Social Care organization will handle service quality, workforce coordination, access, continuity, and sensitive information alike. Confirm how care, health-related services, or social support delivered by teams and organizations informs this Chief Information Security Officer position. The candidate decides whether to pursue a Chief Information Security Officer opportunity. KOV can support agreed research and preparation concerning Healthcare and Social Care. Keep the Chief Information Security Officer narrative accurate where exposing sensitive controls or incidents, or overstating personal responsibility for shared security work may arise: attribute shared work and disclose only information the candidate may use.
+To assess a Chief Information Security Officer opportunity in Healthcare and Social Care, compare the stated remit to the candidate's record of security remit, risk decisions, operating model, incident leadership where authorized, and adoption. The candidate decides whether to pursue a Chief Information Security Officer opportunity. KOV can support agreed research and preparation concerning Healthcare and Social Care. Keep the Chief Information Security Officer narrative accurate where exposing sensitive controls or incidents, or overstating personal responsibility for shared security work may arise: attribute shared work and disclose only information the candidate may use.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -49,7 +49,7 @@ A consultation can clarify whether a Chief Information Security Officer candidat
 
 ## Common positioning mistakes for Chief Information Security Officer candidates in Healthcare and Social Care
 
-Protect credibility in Healthcare and Social Care by addressing exposing sensitive controls or incidents, or overstating personal responsibility for shared security work with a factual account of security remit, risk decisions, operating model, incident leadership where authorized, and adoption and its limits. The candidate decides whether to pursue a Chief Information Security Officer opportunity. KOV can support agreed research and preparation concerning Healthcare and Social Care. Before presenting service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples, determine how people receiving services, families, care professionals, administrators, owners, and community partners participated and which details are safe to discuss. Use care, health-related services, or social support delivered by teams and organizations to frame research about Healthcare and Social Care, then ask how a Chief Information Security Officer will work through service quality, workforce coordination, access, continuity, and sensitive information.
+Protect credibility in Healthcare and Social Care by addressing exposing sensitive controls or incidents, or overstating personal responsibility for shared security work with a factual account of security remit, risk decisions, operating model, incident leadership where authorized, and adoption and its limits. KOV can support agreed research and preparation concerning Healthcare and Social Care. Before presenting service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples, determine how people receiving services, families, care professionals, administrators, owners, and community partners participated and which details are safe to discuss. Use care, health-related services, or social support delivered by teams and organizations to frame research about Healthcare and Social Care, then ask how a Chief Information Security Officer will work through service quality, workforce coordination, access, continuity, and sensitive information.
 
 - Treat Healthcare and Social Care as one uniform employer type; distinguish the actual organization and role.
 - Use a Chief Information Security Officer title without explaining lead information-security priorities and coordinate risk-informed protection.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Information Security Officer career hub](/roles/ciso/)
 
-Review the role-wide approach to lead information-security priorities and coordinate risk-informed protection and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Information Security Officer remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Information Security Officer remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Information Security Officer in Agriculture, Food and Forestry](/roles/ciso/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with care, health-related services, or social support delivered by teams and organizations and identify how the Chief Information Security Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Information Security Officer in Healthcare and Social Care?
 
-Start with the organization's account of care, health-related services, or social support delivered by teams and organizations, then clarify how the Chief Information Security Officer would lead information-security priorities and coordinate risk-informed protection. Ask how people receiving services, families, care professionals, administrators, owners, and community partners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of care, health-related services, or social support delivered by teams and organizations, then clarify how the Chief Information Security Officer would lead information-security priorities and coordinate risk-informed protection. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Chief Information Security Officer make prior work relevant to Healthcare and Social Care?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of security remit, risk dec
 
 ### Which career materials can help a Chief Information Security Officer explore work in Healthcare and Social Care?
 
-Possible materials include executive resume, security leadership summary, profile, and sanitized case examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples. Each claim should be accurate for this Healthcare and Social Care target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, security leadership summary, profile, and sanitized case examples. Each claim should be accurate for this Healthcare and Social Care target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Chief Information Security Officer contacts an organization in Healthcare and Social Care?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### What makes a Chief Information Security Officer background relevant to work in Healthcare and Social Care?
 
-Title is only a label. Establish what the employer means by Chief Information Security Officer in this Healthcare and Social Care organization and how the person will work with people receiving services, families, care professionals, administrators, owners, and community partners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Does KOV control employer responses to Chief Information Security Officer outreach in Healthcare and Social Care?
 

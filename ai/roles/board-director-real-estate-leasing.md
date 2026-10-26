@@ -33,7 +33,7 @@ Where implying executive authority for board decisions or claiming confidential 
 
 ## Choose the individual services that fit the work
 
-The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Real Estate and Leasing. Map the Real Estate and Leasing relationships among owners, tenants, customers, investors, property teams, suppliers, and communities; verify actual authority instead of inferring a reporting line. Research for a Board Director in Real Estate and Leasing becomes more focused when the candidate investigates asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions alongside property ownership, development, brokerage, management, or leasing relationships. For Board Director work in Real Estate and Leasing, explain how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance; connect that mandate to evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
+The candidate decides whether to pursue a Board Director opportunity. Map the Real Estate and Leasing relationships among owners, tenants, customers, investors, property teams, suppliers, and communities; verify actual authority instead of inferring a reporting line. Research for a Board Director in Real Estate and Leasing becomes more focused when the candidate investigates asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions alongside property ownership, development, brokerage, management, or leasing relationships. For Board Director work in Real Estate and Leasing, explain how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance; connect that mandate to evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
 
 ### [Private career representation](/services.html)
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Board Director materials that pres
 
 ## Prepare to discuss the Real Estate and Leasing mandate
 
-Readers need to see what Board Director work involved; connect contribute oversight, inquiry, and strategic perspective within collective governance with the candidate's own examples of committee or board remit, preparation, judgment, relevant expertise, and collective contribution in Real Estate and Leasing. Not every Real Estate and Leasing organization will handle asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions alike. Confirm how property ownership, development, brokerage, management, or leasing relationships informs this Board Director position. For a Board Director target, KOV can discuss how board biography, governance resume, skills matrix, and concise profile support the candidate's account of committee or board remit, preparation, judgment, relevant expertise, and collective contribution; external steps require prior agreement. The candidate can discuss committee or board remit, preparation, judgment, relevant expertise, and collective contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+Readers need to see what Board Director work involved; connect contribute oversight, inquiry, and strategic perspective within collective governance with the candidate's own examples of committee or board remit, preparation, judgment, relevant expertise, and collective contribution in Real Estate and Leasing. Confirm how property ownership, development, brokerage, management, or leasing relationships informs this Board Director position. For a Board Director target, KOV can discuss how board biography, governance resume, skills matrix, and concise profile support the candidate's account of committee or board remit, preparation, judgment, relevant expertise, and collective contribution; external steps require prior agreement. The candidate can discuss committee or board remit, preparation, judgment, relevant expertise, and collective contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Common positioning mistakes for Board Director candidates in Real Estate and Leasing
 
@@ -63,7 +63,7 @@ KOV can help a Board Director candidate organize an agreed search approach for R
 
 ## Prepare for conversations about Real Estate and Leasing work
 
-Keep the Board Director narrative accurate where implying executive authority for board decisions or claiming confidential board outcomes may arise: attribute shared work and disclose only information the candidate may use. The candidate's record of committee or board remit, preparation, judgment, relevant expertise, and collective contribution should be set beside the role of owners, tenants, customers, investors, property teams, suppliers, and communities, so shared results are attributed fairly. Not every Real Estate and Leasing organization will handle asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions alike. Confirm how property ownership, development, brokerage, management, or leasing relationships informs this Board Director position. To assess a Board Director opportunity in Real Estate and Leasing, compare the stated remit to the candidate's record of committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
+Keep the Board Director narrative accurate where implying executive authority for board decisions or claiming confidential board outcomes may arise: attribute shared work and disclose only information the candidate may use. Not every Real Estate and Leasing organization will handle asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions alike. Confirm how property ownership, development, brokerage, management, or leasing relationships informs this Board Director position. To assess a Board Director opportunity in Real Estate and Leasing, compare the stated remit to the candidate's record of committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Board Director career hub](/roles/board-director/)
 
-Review the role-wide approach to contribute oversight, inquiry, and strategic perspective within collective governance and the evidence expected for that scope.
+
 
 ### [Real Estate and Leasing industry hub](/industries/real-estate-leasing/)
 
-Compare how property ownership, development, brokerage, management, or leasing relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Real Estate and Leasing](/roles/ceo/real-estate-leasing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Board Director remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Operating Officer in Real Estate and Leasing](/roles/coo/real-estate-leasing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Board Director remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Board Director in Agriculture, Food and Forestry](/roles/board-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with property ownership, development, brokerage, management, or leasing relationships and identify how the Board Director remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Board Director test the scope of work in Real Estate and Leasing?
 
-A Board Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's property ownership, development, brokerage, management, or leasing relationships. Explore how the role will contribute oversight, inquiry, and strategic perspective within collective governance and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Board Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's property ownership, development, brokerage, management, or leasing relationships. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Board Director use to explain experience in Real Estate and Leasing?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### Which outreach choices belong to a Board Director considering Real Estate and Leasing?
 
-Outreach should follow target research, not precede it. The Board Director candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with committee or board remit, preparation, judgment, relevant expertise, and collective contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Board Director rely on title alone when targeting Real Estate and Leasing?
 

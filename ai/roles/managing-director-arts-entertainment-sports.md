@@ -45,7 +45,7 @@ Consider document and positioning support for Managing Director materials that p
 
 ## Prepare to discuss the Arts, Entertainment and Sports mandate
 
-Keep the Managing Director narrative accurate where assuming the title means the same authority across employers, countries, or ownership models may arise: attribute shared work and disclose only information the candidate may use. The candidate decides whether to pursue a Managing Director opportunity. KOV can support agreed research and preparation concerning Arts, Entertainment and Sports. To understand the Arts, Entertainment and Sports target, explore creative, cultural, event, audience, or sporting activity supported by teams and organizations and ask how a Managing Director is expected to respond to creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions. A Managing Director candidate should show how operating scope, commercial or service accountability, leadership span, and decision authority supported the work to lead a business, division, or organization according to its defined mandate, with the Arts, Entertainment and Sports setting made explicit.
+Keep the Managing Director narrative accurate where assuming the title means the same authority across employers, countries, or ownership models may arise: attribute shared work and disclose only information the candidate may use. KOV can support agreed research and preparation concerning Arts, Entertainment and Sports. To understand the Arts, Entertainment and Sports target, explore creative, cultural, event, audience, or sporting activity supported by teams and organizations and ask how a Managing Director is expected to respond to creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions. A Managing Director candidate should show how operating scope, commercial or service accountability, leadership span, and decision authority supported the work to lead a business, division, or organization according to its defined mandate, with the Arts, Entertainment and Sports setting made explicit.
 
 ## Common positioning mistakes for Managing Director candidates in Arts, Entertainment and Sports
 
@@ -59,7 +59,7 @@ Good preparation for Managing Director work includes a safe way to explain assum
 
 ## Keep research, confidentiality, and outreach aligned
 
-Show the Managing Director scope behind the title: how the candidate could lead a business, division, or organization according to its defined mandate, which decisions mattered, and where operating scope, commercial or service accountability, leadership span, and decision authority demonstrates their contribution. Not every Arts, Entertainment and Sports organization will handle creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions alike. Confirm how creative, cultural, event, audience, or sporting activity supported by teams and organizations informs this Managing Director position. Candidate-side support from KOV may connect Managing Director positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Where assuming the title means the same authority across employers, countries, or ownership models affects a career example, substitute an authorized summary that preserves the point about operating scope, commercial or service accountability, leadership span, and decision authority.
+Show the Managing Director scope behind the title: how the candidate could lead a business, division, or organization according to its defined mandate, which decisions mattered, and where operating scope, commercial or service accountability, leadership span, and decision authority demonstrates their contribution. Confirm how creative, cultural, event, audience, or sporting activity supported by teams and organizations informs this Managing Director position. Candidate-side support from KOV may connect Managing Director positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Where assuming the title means the same authority across employers, countries, or ownership models affects a career example, substitute an authorized summary that preserves the point about operating scope, commercial or service accountability, leadership span, and decision authority.
 
 ## Prepare for conversations about Arts, Entertainment and Sports work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Director career hub](/roles/managing-director/)
 
-Review the role-wide approach to lead a business, division, or organization according to its defined mandate and the evidence expected for that scope.
+
 
 ### [Arts, Entertainment and Sports industry hub](/industries/arts-entertainment-sports/)
 
-Compare how creative, cultural, event, audience, or sporting activity supported by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Arts, Entertainment and Sports](/roles/ceo/arts-entertainment-sports.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Director remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Operating Officer in Arts, Entertainment and Sports](/roles/coo/arts-entertainment-sports.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Director remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Managing Director in Agriculture, Food and Forestry](/roles/managing-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with creative, cultural, event, audience, or sporting activity supported by teams and organizations and identify how the Managing Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Managing Director in Arts, Entertainment and Sports?
 
-A Managing Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's creative, cultural, event, audience, or sporting activity supported by teams and organizations. Explore how the role will lead a business, division, or organization according to its defined mandate and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Managing Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's creative, cultural, event, audience, or sporting activity supported by teams and organizations. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Managing Director make prior work relevant to Arts, Entertainment and Sports?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### What makes a Managing Director background relevant to work in Arts, Entertainment and Sports?
 
-Title is only a label. Establish what the employer means by Managing Director in this Arts, Entertainment and Sports organization and how the person will work with audiences, participants, creators, athletes, sponsors, venues, partners, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Does KOV control employer responses to Managing Director outreach in Arts, Entertainment and Sports?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Managing Director candidate considering Arts, Entertainment and Sports, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

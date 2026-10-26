@@ -16,7 +16,7 @@ Research for a Chair in Holding Companies and Corporate Groups becomes more focu
 
 ## Documents that make Chair experience relevant here
 
-Keep the Chair narrative accurate where blurring chair and executive accountabilities or taking credit for collective decisions may arise: attribute shared work and disclose only information the candidate may use. An account of portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries should identify the candidate's contribution and the involvement of directors, CEO, owners, members, committees, and relevant stakeholder groups. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Chair position. To assess a Chair opportunity in Holding Companies and Corporate Groups, compare the stated remit to the candidate's record of meeting leadership, board composition, governance practice, relationships, and transition judgment.
+Keep the Chair narrative accurate where blurring chair and executive accountabilities or taking credit for collective decisions may arise: attribute shared work and disclose only information the candidate may use. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this Chair position. To assess a Chair opportunity in Holding Companies and Corporate Groups, compare the stated remit to the candidate's record of meeting leadership, board composition, governance practice, relationships, and transition judgment.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -67,7 +67,7 @@ The candidate can discuss meeting leadership, board composition, governance prac
 
 ## Run the search thoughtfully in each target market
 
-The service plan should fit the candidate's Chair priorities; agree research, materials, and any outreach before contact occurs. In Holding Companies and Corporate Groups, owners, boards, portfolio leaders, finance teams, employees, and external partners may shape the work. A Chair example should separate direct responsibility from collaboration. Research for a Chair in Holding Companies and Corporate Groups becomes more focused when the candidate investigates delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alongside ownership or coordination of multiple entities, portfolios, or operating businesses. In a Holding Companies and Corporate Groups target, make the Chair contribution legible: describe how the candidate helped lead board effectiveness and support clear governance and decision-making and what supports meeting leadership, board composition, governance practice, relationships, and transition judgment.
+The service plan should fit the candidate's Chair priorities; agree research, materials, and any outreach before contact occurs. A Chair example should separate direct responsibility from collaboration. Research for a Chair in Holding Companies and Corporate Groups becomes more focused when the candidate investigates delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alongside ownership or coordination of multiple entities, portfolios, or operating businesses. In a Holding Companies and Corporate Groups target, make the Chair contribution legible: describe how the candidate helped lead board effectiveness and support clear governance and decision-making and what supports meeting leadership, board composition, governance practice, relationships, and transition judgment.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chair career hub](/roles/chair/)
 
-Review the role-wide approach to lead board effectiveness and support clear governance and decision-making and the evidence expected for that scope.
+
 
 ### [Holding Companies and Corporate Groups industry hub](/industries/holding-companies/)
 
-Compare how ownership or coordination of multiple entities, portfolios, or operating businesses affects career planning across functions.
+
 
 ### [Chief Executive Officer in Holding Companies and Corporate Groups](/roles/ceo/holding-companies.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chair remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Operating Officer in Holding Companies and Corporate Groups](/roles/coo/holding-companies.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chair remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chair in Agriculture, Food and Forestry](/roles/chair/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with ownership or coordination of multiple entities, portfolios, or operating businesses and identify how the Chair remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chair clarify before considering work in Holding Companies and Corporate Groups?
 
-Start with the organization's account of ownership or coordination of multiple entities, portfolios, or operating businesses, then clarify how the Chair would lead board effectiveness and support clear governance and decision-making. Ask how owners, boards, portfolio leaders, finance teams, employees, and external partners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of ownership or coordination of multiple entities, portfolios, or operating businesses, then clarify how the Chair would lead board effectiveness and support clear governance and decision-making. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Chair describe transferable experience for Holding Companies and Corporate Groups work?
 
@@ -139,15 +139,15 @@ Make the connection explicit: the candidate's record of meeting leadership, boar
 
 ### How can a Chair choose documents for conversations about Holding Companies and Corporate Groups?
 
-Document selection depends on the opportunity. A Chair may draw from chair biography, board resume, governance narrative, and public profile, but should foreground only material connected to portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Chair plan contact with Holding Companies and Corporate Groups organizations?
 
-Outreach should follow target research, not precede it. The Chair candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with meeting leadership, board composition, governance practice, relationships, and transition judgment is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Chair assess fit with Holding Companies and Corporate Groups responsibilities?
 
-Title is only a label. Establish what the employer means by Chair in this Holding Companies and Corporate Groups organization and how the person will work with owners, boards, portfolio leaders, finance teams, employees, and external partners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Chair candidate considering Holding Companies and Corporate Groups?
 

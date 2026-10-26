@@ -59,7 +59,7 @@ A precise Head of Growth story ties growth remit, customer insight, channels, co
 
 ## Keep research, confidentiality, and outreach aligned
 
-The candidate can discuss growth remit, customer insight, channels, collaboration, and attributable learning while protecting confidentiality by omitting names, restricted figures, and other identifying material. The candidate decides whether to pursue a Head of Growth opportunity. KOV can support agreed research and preparation concerning Real Estate and Leasing. Consider how owners, tenants, customers, investors, property teams, suppliers, and communities interact with a Head of Growth; use examples of asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution to show judgment and collaboration. Treat property ownership, development, brokerage, management, or leasing relationships as a question to validate in Real Estate and Leasing; the answer helps clarify the Head of Growth mandate and its asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions.
+The candidate can discuss growth remit, customer insight, channels, collaboration, and attributable learning while protecting confidentiality by omitting names, restricted figures, and other identifying material. KOV can support agreed research and preparation concerning Real Estate and Leasing. Consider how owners, tenants, customers, investors, property teams, suppliers, and communities interact with a Head of Growth; use examples of asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution to show judgment and collaboration. Treat property ownership, development, brokerage, management, or leasing relationships as a question to validate in Real Estate and Leasing; the answer helps clarify the Head of Growth mandate and its asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions.
 
 ## Prepare for conversations about Real Estate and Leasing work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Growth career hub](/roles/head-growth/)
 
-Review the role-wide approach to coordinate growth experiments and commercial initiatives for a defined business and the evidence expected for that scope.
+
 
 ### [Real Estate and Leasing industry hub](/industries/real-estate-leasing/)
 
-Compare how property ownership, development, brokerage, management, or leasing relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Real Estate and Leasing](/roles/ceo/real-estate-leasing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Growth remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Operating Officer in Real Estate and Leasing](/roles/coo/real-estate-leasing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Growth remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Head of Growth in Retail and E-commerce](/roles/head-growth/retail-ecommerce.html)
 
-Compare customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment with property ownership, development, brokerage, management, or leasing relationships and identify how the Head of Growth remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Head of Growth test the scope of work in Real Estate and Leasing?
 
-Start with the organization's account of property ownership, development, brokerage, management, or leasing relationships, then clarify how the Head of Growth would coordinate growth experiments and commercial initiatives for a defined business. Ask how owners, tenants, customers, investors, property teams, suppliers, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of property ownership, development, brokerage, management, or leasing relationships, then clarify how the Head of Growth would coordinate growth experiments and commercial initiatives for a defined business. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Head of Growth use to explain experience in Real Estate and Leasing?
 
@@ -139,11 +139,11 @@ Select examples that show growth remit, customer insight, channels, collaboratio
 
 ### What documents should a Head of Growth tailor for Real Estate and Leasing opportunities?
 
-Possible materials include resume, growth portfolio, experiment summaries, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution. Each claim should be accurate for this Real Estate and Leasing target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, growth portfolio, experiment summaries, and professional profile. Each claim should be accurate for this Real Estate and Leasing target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Head of Growth considering Real Estate and Leasing?
 
-Outreach should follow target research, not precede it. The Head of Growth candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with growth remit, customer insight, channels, collaboration, and attributable learning is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Head of Growth rely on title alone when targeting Real Estate and Leasing?
 

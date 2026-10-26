@@ -205,7 +205,7 @@ KOV describes Private Career Representation as its primary managed service and o
 
 The difference matters because a service name is not a scope agreement. Confirm which deliverables, meetings, research, approvals, and communication are included; what you must provide; and what is explicitly outside the work. If a document is part of a representation engagement, confirm whether it is included or quoted separately. KOV’s public service page describes separate individual offerings, so do not assume every document is bundled into representation.
 
-For a CEO resume, organize evidence around mandate, scope, decisions, and contribution. For a LinkedIn profile, consider what you want public while a search is active. For a board biography, select governance evidence that is accurate and appropriate to the target. A coaching discussion can focus on career direction or preparation. A negotiation-support inquiry should clarify its boundaries, and you should seek qualified legal or financial advice for specialist questions.
+For a CEO resume, organize evidence around mandate, scope, decisions, and contribution. For a board biography, select governance evidence that is accurate and appropriate to the target. A coaching discussion can focus on career direction or preparation. A negotiation-support inquiry should clarify its boundaries, and you should seek qualified legal or financial advice for specialist questions.
 
 The purpose of an initial service conversation is to match the task to the work, not to push every candidate into a large engagement. Explain the decision you want help with, the material you already have, the audience, and the constraints. KOV can then discuss whether an individual service or managed representation is suitable and confirm terms before work begins. Source: KOV Career Agency.
 
@@ -246,7 +246,7 @@ Check the specific organization, location, remit, eligibility, and any professio
 
 ### Africa
 
-Assess each country and employer individually. Confirm the relevant jurisdiction and role requirements for the actual opportunity.
+Assess each country and employer individually. Assess each country and employer individually. Confirm the relevant jurisdiction and role requirements for the actual opportunity.
 
 ## Frequently asked questions
 
@@ -256,7 +256,7 @@ Depending on agreed scope, KOV may support assessment and fit, target research, 
 
 ### Does KOV guarantee interviews or a CEO appointment?
 
-No. Employers control their hiring decisions. KOV does not guarantee interviews, offers, employment, or a timeline.
+No. KOV does not guarantee interviews, offers, employment, or a timeline.
 
 ### How should a CEO describe board-facing experience?
 

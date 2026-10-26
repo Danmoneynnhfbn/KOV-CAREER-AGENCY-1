@@ -33,7 +33,7 @@ Before discussing practice or business scope, client-service context, team leade
 
 ## Choose the individual services that fit the work
 
-Position a Non-Executive Director career by linking provide independent challenge and strategic contribution distinct from management to practice or business scope, client-service context, team leadership, governance interface, and authorized examples, then clarify which part of that work the candidate actually owned. Not every Legal Services organization will handle professional judgment, client service, confidentiality, practice operations, and shared leadership alike. Confirm how legal advice, representation, transactions, dispute work, or related professional services informs this Non-Executive Director position. KOV works with the candidate to agree which Non-Executive Director targets matter, how board biography, non-executive profile, skills matrix, and governance resume will be used, and whether communication is authorized. Good preparation for Non-Executive Director work includes a safe way to explain confusing oversight with operational management or overstating independence and a clear distinction between fact and inference.
+Position a Non-Executive Director career by linking provide independent challenge and strategic contribution distinct from management to practice or business scope, client-service context, team leadership, governance interface, and authorized examples, then clarify which part of that work the candidate actually owned. Confirm how legal advice, representation, transactions, dispute work, or related professional services informs this Non-Executive Director position. KOV works with the candidate to agree which Non-Executive Director targets matter, how board biography, non-executive profile, skills matrix, and governance resume will be used, and whether communication is authorized. Good preparation for Non-Executive Director work includes a safe way to explain confusing oversight with operational management or overstating independence and a clear distinction between fact and inference.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Non-Executive Director career hub](/roles/non-executive-director/)
 
-Review the role-wide approach to provide independent challenge and strategic contribution distinct from management and the evidence expected for that scope.
+
 
 ### [Legal Services industry hub](/industries/legal-services/)
 
-Compare how legal advice, representation, transactions, dispute work, or related professional services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Legal Services](/roles/ceo/legal-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Non-Executive Director remit; consider where each function meets legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Operating Officer in Legal Services](/roles/coo/legal-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Non-Executive Director remit; consider where each function meets legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Non-Executive Director in Agriculture, Food and Forestry](/roles/non-executive-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with legal advice, representation, transactions, dispute work, or related professional services and identify how the Non-Executive Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Non-Executive Director in Legal Services?
 
-Use the opening discussion to understand the specific Legal Services employer, not to assume a standard role. Compare provide independent challenge and strategic contribution distinct from management with the stated scope, identify decision partners among clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Legal Services employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a Non-Executive Director make prior work relevant to Legal Services?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could provide independent challenge and
 
 ### Which career materials can help a Non-Executive Director explore work in Legal Services?
 
-Document selection depends on the opportunity. A Non-Executive Director may draw from board biography, non-executive profile, skills matrix, and governance resume, but should foreground only material connected to practice or business scope, client-service context, team leadership, governance interface, and authorized examples. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a Non-Executive Director contacts an organization in Legal Services?
 
-Outreach should follow target research, not precede it. The Non-Executive Director candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with governance experience, constructive challenge, committee contribution, and relevant expertise is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Non-Executive Director background relevant to work in Legal Services?
 
-No. Compare the role description with the candidate's experience of provide independent challenge and strategic contribution distinct from management and the organization's legal advice, representation, transactions, dispute work, or related professional services. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Non-Executive Director outreach in Legal Services?
 

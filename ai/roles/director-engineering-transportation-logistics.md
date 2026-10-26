@@ -4,7 +4,7 @@ KOV helps Director of Engineering candidates considering roles connected to Tran
 
 ## How Director of Engineering work connects with Transportation and Logistics
 
-The Director of Engineering remit to direct engineering teams and coordinate technical execution in a defined area should be described through decisions and examples, especially evidence of technical scope, team leadership, delivery choices, quality practices, and cross-team work relevant to Transportation and Logistics. Not every Transportation and Logistics organization will handle network coordination, service windows, asset availability, safety-minded decisions, and disruption response alike. Confirm how movement, handling, and coordination of people or goods across routes and operating networks informs this Director of Engineering position. Where appropriate to the agreed service, KOV can help a Director of Engineering candidate prepare and coordinate approved next steps for Transportation and Logistics. A Director of Engineering candidate should be ready to explain over-indexing on hands-on tools while omitting leadership scope and outcomes without revealing confidential details or implying unsupported responsibility.
+The Director of Engineering remit to direct engineering teams and coordinate technical execution in a defined area should be described through decisions and examples, especially evidence of technical scope, team leadership, delivery choices, quality practices, and cross-team work relevant to Transportation and Logistics. Confirm how movement, handling, and coordination of people or goods across routes and operating networks informs this Director of Engineering position. Where appropriate to the agreed service, KOV can help a Director of Engineering candidate prepare and coordinate approved next steps for Transportation and Logistics. A Director of Engineering candidate should be ready to explain over-indexing on hands-on tools while omitting leadership scope and outcomes without revealing confidential details or implying unsupported responsibility.
 
 ## Who this Director of Engineering and Transportation and Logistics guide is for
 
@@ -12,7 +12,7 @@ Protect credibility in Transportation and Logistics by addressing over-indexing 
 
 ## A candidate-led process from first discussion to next steps
 
-The Director of Engineering remit to direct engineering teams and coordinate technical execution in a defined area should be described through decisions and examples, especially evidence of technical scope, team leadership, delivery choices, quality practices, and cross-team work relevant to Transportation and Logistics. In Transportation and Logistics, customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities may shape the work. A Director of Engineering example should separate direct responsibility from collaboration. Where appropriate to the agreed service, KOV can help a Director of Engineering candidate prepare and coordinate approved next steps for Transportation and Logistics. Review each Director of Engineering example for over-indexing on hands-on tools while omitting leadership scope and outcomes, then describe the candidate's decisions without overstating their control over VP or CTO, engineering teams, product, security, operations, and users.
+The Director of Engineering remit to direct engineering teams and coordinate technical execution in a defined area should be described through decisions and examples, especially evidence of technical scope, team leadership, delivery choices, quality practices, and cross-team work relevant to Transportation and Logistics. A Director of Engineering example should separate direct responsibility from collaboration. Where appropriate to the agreed service, KOV can help a Director of Engineering candidate prepare and coordinate approved next steps for Transportation and Logistics. Review each Director of Engineering example for over-indexing on hands-on tools while omitting leadership scope and outcomes, then describe the candidate's decisions without overstating their control over VP or CTO, engineering teams, product, security, operations, and users.
 
 ## Documents that make Director of Engineering experience relevant here
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Engineering career hub](/roles/director-engineering/)
 
-Review the role-wide approach to direct engineering teams and coordinate technical execution in a defined area and the evidence expected for that scope.
+
 
 ### [Transportation and Logistics industry hub](/industries/transportation-logistics/)
 
-Compare how movement, handling, and coordination of people or goods across routes and operating networks affects career planning across functions.
+
 
 ### [Chief Executive Officer in Transportation and Logistics](/roles/ceo/transportation-logistics.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Engineering remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Operating Officer in Transportation and Logistics](/roles/coo/transportation-logistics.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Engineering remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Director of Engineering in Energy, Mining and Oil and Gas](/roles/director-engineering/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with movement, handling, and coordination of people or goods across routes and operating networks and identify how the Director of Engineering remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Director of Engineering test the scope of work in Transportation and Logistics?
 
-Use the opening discussion to understand the specific Transportation and Logistics employer, not to assume a standard role. Compare direct engineering teams and coordinate technical execution in a defined area with the stated scope, identify decision partners among customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Transportation and Logistics employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### What evidence can a Director of Engineering use to explain experience in Transportation and Logistics?
 
@@ -139,11 +139,11 @@ Make the connection explicit: the candidate's record of technical scope, team le
 
 ### What documents should a Director of Engineering tailor for Transportation and Logistics opportunities?
 
-Document selection depends on the opportunity. A Director of Engineering may draw from resume, technical leadership portfolio, profile, and delivery examples, but should foreground only material connected to route or network scope, service performance context, asset choices, workforce coordination, and customer communication. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### Which outreach choices belong to a Director of Engineering considering Transportation and Logistics?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of Engineering candidate's service scope; the candidate approves external communication. No one route should be assumed for all Transportation and Logistics employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Transportation and Logistics employers.
 
 ### Can a Director of Engineering rely on title alone when targeting Transportation and Logistics?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate technical 
 
 ### What outcome can KOV guarantee for a Director of Engineering seeking work in Transportation and Logistics?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of Engineering candidate considering Transportation and Logistics, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

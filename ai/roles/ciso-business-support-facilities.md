@@ -61,7 +61,7 @@ Good preparation for Chief Information Security Officer work includes a safe way
 
 ## Keep research, confidentiality, and outreach aligned
 
-Rather than lead with seniority, a Chief Information Security Officer profile can explain the responsibility to lead information-security priorities and coordinate risk-informed protection and use service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements as evidence. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Chief Information Security Officer position. The candidate decides whether to pursue a Chief Information Security Officer opportunity. KOV can support agreed research and preparation concerning Business Support and Facilities. Protect credibility in Business Support and Facilities by addressing exposing sensitive controls or incidents, or overstating personal responsibility for shared security work with a factual account of security remit, risk decisions, operating model, incident leadership where authorized, and adoption and its limits.
+Rather than lead with seniority, a Chief Information Security Officer profile can explain the responsibility to lead information-security priorities and coordinate risk-informed protection and use service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements as evidence. The candidate decides whether to pursue a Chief Information Security Officer opportunity. KOV can support agreed research and preparation concerning Business Support and Facilities. Protect credibility in Business Support and Facilities by addressing exposing sensitive controls or incidents, or overstating personal responsibility for shared security work with a factual account of security remit, risk decisions, operating model, incident leadership where authorized, and adoption and its limits.
 
 ## Prepare for conversations about Business Support and Facilities work
 
@@ -111,29 +111,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Information Security Officer career hub](/roles/ciso/)
 
-Review the role-wide approach to lead information-security priorities and coordinate risk-informed protection and the evidence expected for that scope.
+
 
 ### [Business Support and Facilities industry hub](/industries/business-support-facilities/)
 
-Compare how support services, workplace operations, facilities, administration, or outsourced capabilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Business Support and Facilities](/roles/ceo/business-support-facilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Information Security Officer remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Operating Officer in Business Support and Facilities](/roles/coo/business-support-facilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Information Security Officer remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Information Security Officer in Agriculture, Food and Forestry](/roles/ciso/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with support services, workplace operations, facilities, administration, or outsourced capabilities and identify how the Chief Information Security Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Information Security Officer test the scope of work in Business Support and Facilities?
 
-Start with the organization's account of support services, workplace operations, facilities, administration, or outsourced capabilities, then clarify how the Chief Information Security Officer would lead information-security priorities and coordinate risk-informed protection. Ask how internal clients, employees, service teams, suppliers, customers, and contract owners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of support services, workplace operations, facilities, administration, or outsourced capabilities, then clarify how the Chief Information Security Officer would lead information-security priorities and coordinate risk-informed protection. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Chief Information Security Officer use to explain experience in Business Support and Facilities?
 
@@ -141,7 +141,7 @@ Select examples that show security remit, risk decisions, operating model, incid
 
 ### What documents should a Chief Information Security Officer tailor for Business Support and Facilities opportunities?
 
-Possible materials include executive resume, security leadership summary, profile, and sanitized case examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, security leadership summary, profile, and sanitized case examples. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Chief Information Security Officer considering Business Support and Facilities?
 

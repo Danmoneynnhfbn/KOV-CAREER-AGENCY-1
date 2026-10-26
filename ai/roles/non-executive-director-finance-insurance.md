@@ -51,7 +51,7 @@ A Non-Executive Director candidate should show how governance experience, constr
 
 ## Common positioning mistakes for Non-Executive Director candidates in Finance and Insurance
 
-Protect credibility in Finance and Insurance by addressing confusing oversight with operational management or overstating independence with a factual account of governance experience, constructive challenge, committee contribution, and relevant expertise and its limits. The candidate decides whether to pursue a Non-Executive Director opportunity. KOV can support agreed research and preparation concerning Finance and Insurance. Before presenting business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes, determine how customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders participated and which details are safe to discuss. Use financial products and services supported by customer relationships, information, operations, and oversight to frame research about Finance and Insurance, then ask how a Non-Executive Director will work through trust, information handling, product suitability, operational resilience, and competing customer and business needs.
+Protect credibility in Finance and Insurance by addressing confusing oversight with operational management or overstating independence with a factual account of governance experience, constructive challenge, committee contribution, and relevant expertise and its limits. KOV can support agreed research and preparation concerning Finance and Insurance. Before presenting business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes, determine how customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders participated and which details are safe to discuss. Use financial products and services supported by customer relationships, information, operations, and oversight to frame research about Finance and Insurance, then ask how a Non-Executive Director will work through trust, information handling, product suitability, operational resilience, and competing customer and business needs.
 
 - Treat Finance and Insurance as one uniform employer type; distinguish the actual organization and role.
 - Use a Non-Executive Director title without explaining provide independent challenge and strategic contribution distinct from management.
@@ -69,7 +69,7 @@ Do not resolve uncertainty about confusing oversight with operational management
 
 ## Run the search thoughtfully in each target market
 
-A Non-Executive Director candidate should be ready to explain confusing oversight with operational management or overstating independence without revealing confidential details or implying unsupported responsibility. The candidate decides whether to pursue a Non-Executive Director opportunity. KOV can support agreed research and preparation concerning Finance and Insurance. Discuss business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes with care: a Non-Executive Director candidate can explain contribution while omitting confidential or identifying facts. The Non-Executive Director remit to provide independent challenge and strategic contribution distinct from management should be described through decisions and examples, especially evidence of governance experience, constructive challenge, committee contribution, and relevant expertise relevant to Finance and Insurance.
+A Non-Executive Director candidate should be ready to explain confusing oversight with operational management or overstating independence without revealing confidential details or implying unsupported responsibility. KOV can support agreed research and preparation concerning Finance and Insurance. Discuss business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes with care: a Non-Executive Director candidate can explain contribution while omitting confidential or identifying facts. The Non-Executive Director remit to provide independent challenge and strategic contribution distinct from management should be described through decisions and examples, especially evidence of governance experience, constructive challenge, committee contribution, and relevant expertise relevant to Finance and Insurance.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -111,29 +111,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Non-Executive Director career hub](/roles/non-executive-director/)
 
-Review the role-wide approach to provide independent challenge and strategic contribution distinct from management and the evidence expected for that scope.
+
 
 ### [Finance and Insurance industry hub](/industries/finance-insurance/)
 
-Compare how financial products and services supported by customer relationships, information, operations, and oversight affects career planning across functions.
+
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Non-Executive Director remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Finance and Insurance](/roles/coo/finance-insurance.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Non-Executive Director remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Non-Executive Director in Agriculture, Food and Forestry](/roles/non-executive-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with financial products and services supported by customer relationships, information, operations, and oversight and identify how the Non-Executive Director remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Non-Executive Director test the scope of work in Finance and Insurance?
 
-Start with the organization's account of financial products and services supported by customer relationships, information, operations, and oversight, then clarify how the Non-Executive Director would provide independent challenge and strategic contribution distinct from management. Ask how customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of financial products and services supported by customer relationships, information, operations, and oversight, then clarify how the Non-Executive Director would provide independent challenge and strategic contribution distinct from management. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Non-Executive Director use to explain experience in Finance and Insurance?
 
@@ -141,7 +141,7 @@ Select examples that show governance experience, constructive challenge, committ
 
 ### What documents should a Non-Executive Director tailor for Finance and Insurance opportunities?
 
-Possible materials include board biography, non-executive profile, skills matrix, and governance resume. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes. Each claim should be accurate for this Finance and Insurance target, and confidential or unauthorized material should be omitted.
+Possible materials include board biography, non-executive profile, skills matrix, and governance resume. Each claim should be accurate for this Finance and Insurance target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Non-Executive Director considering Finance and Insurance?
 

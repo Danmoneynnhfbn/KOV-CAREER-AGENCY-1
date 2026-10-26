@@ -66,7 +66,8 @@
         "Separate board oversight, executive-team decisions, and your personal remit.",
         "Show the scope you can substantiate: teams, budgets, markets, products, risk, or transformation.",
         "Connect decisions to outcomes only where you can support the figures and attribution."
-      ]
+      ],
+      "lead": ""
     },
     {
       "id": "mandate-fit",
@@ -82,7 +83,8 @@
         "What scale, ownership, and operating context fit your experience and preferences?",
         "Which evidence would help an employer assess your fit?",
         "What conditions would cause you to decline a role?"
-      ]
+      ],
+      "lead": ""
     },
     {
       "id": "working-with-kov",
@@ -146,7 +148,8 @@
         "heading": "How we rewrite a CEO’s summary",
         "before": "Led company growth and improved performance.",
         "after": "Set the growth priorities, aligned executive ownership and investment, and reported progress against the agreed operating measures."
-      }
+      },
+      "lead": ""
     },
     {
       "id": "evidence-ledger",
@@ -162,7 +165,8 @@
         "Use consistent dates, titles, and organization names across documents.",
         "Mark estimates clearly in private notes and do not publish unsupported metrics.",
         "Retain a version history so approved facts remain consistent."
-      ]
+      ],
+      "lead": ""
     },
     {
       "id": "industry-pathways",
@@ -178,7 +182,8 @@
           "href": "/roles/ceo/legal-services.html",
           "linkText": "Explore CEO roles in legal services"
         }
-      ]
+      ],
+      "lead": ""
     },
     {
       "id": "ceo-search",
@@ -194,7 +199,8 @@
         "Track what has been researched, what has been approved, and what has been shared.",
         "Prepare a concise explanation of why this move and why this organization.",
         "Reassess priorities when new information changes the fit."
-      ]
+      ],
+      "lead": ""
     },
     {
       "id": "board-and-recruiter-review",
@@ -209,7 +215,8 @@
         "Support achievements with context, dates, and defensible evidence.",
         "Explain how you work with peers, owners, boards, and employees.",
         "Ask which stages and stakeholders are part of this specific process."
-      ]
+      ],
+      "lead": ""
     },
     {
       "id": "interview-preparation",
@@ -226,7 +233,8 @@
         "Prepare examples that show judgment, execution, and reflection.",
         "Decide in advance what confidential details you will not disclose.",
         "Close by confirming the next step and who will follow up."
-      ]
+      ],
+      "lead": ""
     },
     {
       "id": "career-positioning",
@@ -235,7 +243,8 @@
         "A next-role narrative should connect what you have led to what you want to lead next. Explain which capabilities transfer, which parts of the new environment are unfamiliar, and how you would learn them. Avoid presenting a move between industries as automatic equivalence.",
         "Keep a short version for introductions and a fuller version for interviews. Both should use the same facts as your resume and profile. A useful structure is: the leadership challenge you handle well, the evidence that supports it, the environment where you want to apply it, and the question you want to explore with the organization.",
         "Avoid leading with an explanation of why you are leaving unless it is relevant to the conversation. Focus first on the work you want to do and the experience that supports it. If you discuss a difficult departure, stay factual, protect confidential information, and show what you learned without criticizing former colleagues."
-      ]
+      ],
+      "lead": ""
     },
     {
       "id": "assess-the-opportunity",
@@ -252,7 +261,8 @@
         "What would you need to learn in the first months to lead effectively?",
         "Which conditions or commitments should be confirmed in writing?",
         "Is the role still aligned with your priorities after the latest information?"
-      ]
+      ],
+      "lead": ""
     },
     {
       "id": "common-mistakes",
@@ -265,7 +275,9 @@
         "Assuming board, owner, or recruiter expectations: ask how this process works.",
         "Treating a public profile as a complete search strategy: align it with the private plan you choose.",
         "Describing a desired outcome as guaranteed: distinguish your work from an employer’s decision."
-      ]
+      ],
+      "lead": "",
+      "paragraphs": []
     },
     {
       "id": "market-planning",
@@ -274,7 +286,8 @@
         "A cross-border search can involve different legal entities, role titles, work authorization, governance expectations, and disclosure practices. Confirm those details for the specific employer and jurisdiction using current, authoritative material before acting. This guide does not make country-specific claims or replace legal, immigration, or tax advice.",
         "For a market-specific plan, record the target location, the basis for your eligibility, terminology used in current vacancies, and any local requirements that need independent confirmation. Keep assumptions separate from verified facts.",
         "When comparing locations, also check whether the role is based in one country or has a regional remit, where decisions are made, and how the employer describes its reporting structure. Confirm practical details directly rather than relying on a generic market summary."
-      ]
+      ],
+      "lead": ""
     },
     {
       "id": "transition-planning",
@@ -283,7 +296,8 @@
         "A CEO’s departure or move may involve employees, customers, partners, owners, boards, and ongoing commitments. The appropriate transition depends on your situation and obligations. Do not disclose a planned move or use employer information without first considering the confidentiality and contractual boundaries that apply to you.",
         "Before announcing a search or accepting an offer, review relevant agreements and policies with a qualified adviser where needed. Consider notice requirements, restrictions, ownership of work materials, confidentiality, references, and any commitments that could affect a start date. This guide does not interpret contracts or provide legal advice.",
         "When a transition is appropriate, prepare a clear handover approach that protects legitimate business information and respects the people involved. Keep public messaging factual and aligned with what the organization has approved. A careful transition can support professional relationships without promising how others will respond."
-      ]
+      ],
+      "lead": ""
     },
     {
       "id": "related-pages",
@@ -295,7 +309,8 @@
         "CEO in legal services: /roles/ceo/legal-services.html",
         "Private career representation: /services.html",
         "Career strategy for senior leaders: /career-strategy-senior-leaders.html"
-      ]
+      ],
+      "lead": ""
     },
     {
       "id": "service-selection",
@@ -303,7 +318,7 @@
       "paragraphs": [
         "KOV describes Private Career Representation as its primary managed service and offers separate Individual Career Services. A CEO who wants a candidate-side search process can ask about assessment, agreed targets, research, positioning, professional outreach, and follow-up. Someone with a defined search who only needs a document or coaching task can ask about the relevant individual service instead.",
         "The difference matters because a service name is not a scope agreement. Confirm which deliverables, meetings, research, approvals, and communication are included; what you must provide; and what is explicitly outside the work. If a document is part of a representation engagement, confirm whether it is included or quoted separately. KOV’s public service page describes separate individual offerings, so do not assume every document is bundled into representation.",
-        "For a CEO resume, organize evidence around mandate, scope, decisions, and contribution. For a LinkedIn profile, consider what you want public while a search is active. For a board biography, select governance evidence that is accurate and appropriate to the target. A coaching discussion can focus on career direction or preparation. A negotiation-support inquiry should clarify its boundaries, and you should seek qualified legal or financial advice for specialist questions.",
+        "For a CEO resume, organize evidence around mandate, scope, decisions, and contribution. For a board biography, select governance evidence that is accurate and appropriate to the target. A coaching discussion can focus on career direction or preparation. A negotiation-support inquiry should clarify its boundaries, and you should seek qualified legal or financial advice for specialist questions.",
         "The purpose of an initial service conversation is to match the task to the work, not to push every candidate into a large engagement. Explain the decision you want help with, the material you already have, the audience, and the constraints. KOV can then discuss whether an individual service or managed representation is suitable and confirm terms before work begins. Source: KOV Career Agency."
       ],
       "table": {
@@ -344,7 +359,8 @@
             "Role scope and decision factors; obtain specialist advice as needed"
           ]
         ]
-      }
+      },
+      "lead": ""
     },
     {
       "id": "market-tabs",
@@ -376,9 +392,10 @@
         },
         {
           "name": "Africa",
-          "text": "Assess each country and employer individually. Confirm the relevant jurisdiction and role requirements for the actual opportunity."
+          "text": "Assess each country and employer individually. Assess each country and employer individually. Confirm the relevant jurisdiction and role requirements for the actual opportunity."
         }
-      ]
+      ],
+      "lead": ""
     }
   ],
   "faqs": [
@@ -388,7 +405,7 @@
     },
     {
       "question": "Does KOV guarantee interviews or a CEO appointment?",
-      "answer": "No. Employers control their hiring decisions. KOV does not guarantee interviews, offers, employment, or a timeline."
+      "answer": "No. KOV does not guarantee interviews, offers, employment, or a timeline."
     },
     {
       "question": "How should a CEO describe board-facing experience?",

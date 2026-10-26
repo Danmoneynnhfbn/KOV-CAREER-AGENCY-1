@@ -4,7 +4,7 @@ KOV helps Managing Partner candidates considering roles connected to Finance and
 
 ## How Managing Partner work connects with Finance and Insurance
 
-The Managing Partner remit to combine leadership responsibilities with the governance and professional context of a partnership should be described through decisions and examples, especially evidence of partner-group mandate, management contribution, practice or business scope, and shared decisions relevant to Finance and Insurance. Not every Finance and Insurance organization will handle trust, information handling, product suitability, operational resilience, and competing customer and business needs alike. Confirm how financial products and services supported by customer relationships, information, operations, and oversight informs this Managing Partner position. KOV can help a Managing Partner candidate organize an agreed search approach for Finance and Insurance, including documents such as partner biography, leadership resume, practice summary, and profile. A Managing Partner candidate should be ready to explain presenting partner-group outcomes as individual decisions or ignoring shared governance without revealing confidential details or implying unsupported responsibility.
+The Managing Partner remit to combine leadership responsibilities with the governance and professional context of a partnership should be described through decisions and examples, especially evidence of partner-group mandate, management contribution, practice or business scope, and shared decisions relevant to Finance and Insurance. Confirm how financial products and services supported by customer relationships, information, operations, and oversight informs this Managing Partner position. KOV can help a Managing Partner candidate organize an agreed search approach for Finance and Insurance, including documents such as partner biography, leadership resume, practice summary, and profile. A Managing Partner candidate should be ready to explain presenting partner-group outcomes as individual decisions or ignoring shared governance without revealing confidential details or implying unsupported responsibility.
 
 ## Who this Managing Partner and Finance and Insurance guide is for
 
@@ -16,7 +16,7 @@ The Managing Partner remit to combine leadership responsibilities with the gover
 
 ## Documents that make Managing Partner experience relevant here
 
-Readers need to see what Managing Partner work involved; connect combine leadership responsibilities with the governance and professional context of a partnership with the candidate's own examples of partner-group mandate, management contribution, practice or business scope, and shared decisions in Finance and Insurance. To understand the Finance and Insurance target, explore financial products and services supported by customer relationships, information, operations, and oversight and ask how a Managing Partner is expected to respond to trust, information handling, product suitability, operational resilience, and competing customer and business needs. In Finance and Insurance, customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders may shape the work. A Managing Partner example should separate direct responsibility from collaboration. For Managing Partner materials, manage the risk of presenting partner-group outcomes as individual decisions or ignoring shared governance; support claims with partner-group mandate, management contribution, practice or business scope, and shared decisions and remove details that are not authorized for sharing.
+Readers need to see what Managing Partner work involved; connect combine leadership responsibilities with the governance and professional context of a partnership with the candidate's own examples of partner-group mandate, management contribution, practice or business scope, and shared decisions in Finance and Insurance. In Finance and Insurance, customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders may shape the work. A Managing Partner example should separate direct responsibility from collaboration. For Managing Partner materials, manage the risk of presenting partner-group outcomes as individual decisions or ignoring shared governance; support claims with partner-group mandate, management contribution, practice or business scope, and shared decisions and remove details that are not authorized for sharing.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Partner career hub](/roles/managing-partner/)
 
-Review the role-wide approach to combine leadership responsibilities with the governance and professional context of a partnership and the evidence expected for that scope.
+
 
 ### [Finance and Insurance industry hub](/industries/finance-insurance/)
 
-Compare how financial products and services supported by customer relationships, information, operations, and oversight affects career planning across functions.
+
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Partner remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Finance and Insurance](/roles/coo/finance-insurance.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Partner remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Managing Partner in Agriculture, Food and Forestry](/roles/managing-partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with financial products and services supported by customer relationships, information, operations, and oversight and identify how the Managing Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Managing Partner clarify before considering work in Finance and Insurance?
 
-Start with the organization's account of financial products and services supported by customer relationships, information, operations, and oversight, then clarify how the Managing Partner would combine leadership responsibilities with the governance and professional context of a partnership. Ask how customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of financial products and services supported by customer relationships, information, operations, and oversight, then clarify how the Managing Partner would combine leadership responsibilities with the governance and professional context of a partnership. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Managing Partner describe transferable experience for Finance and Insurance work?
 
@@ -139,7 +139,7 @@ Describe an instance where the candidate could combine leadership responsibiliti
 
 ### How can a Managing Partner choose documents for conversations about Finance and Insurance?
 
-Document selection depends on the opportunity. A Managing Partner may draw from partner biography, leadership resume, practice summary, and profile, but should foreground only material connected to business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Managing Partner plan contact with Finance and Insurance organizations?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Managing Partner assess fit with Finance and Insurance responsibilities?
 
-No. Compare the role description with the candidate's experience of combine leadership responsibilities with the governance and professional context of a partnership and the organization's financial products and services supported by customer relationships, information, operations, and oversight. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Managing Partner candidate considering Finance and Insurance?
 

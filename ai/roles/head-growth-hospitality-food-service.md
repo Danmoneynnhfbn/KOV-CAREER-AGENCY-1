@@ -12,7 +12,7 @@ In a Hospitality and Food Service target, make the Head of Growth contribution l
 
 ## A candidate-led process from first discussion to next steps
 
-Rather than lead with seniority, a Head of Growth profile can explain the responsibility to coordinate growth experiments and commercial initiatives for a defined business and use venue or service scope, team leadership, guest context, service design, and attributable operating contributions as evidence. Not every Hospitality and Food Service organization will handle guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alike. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Head of Growth position. The candidate decides whether to pursue a Head of Growth opportunity. KOV can support agreed research and preparation concerning Hospitality and Food Service. Protect credibility in Hospitality and Food Service by addressing claiming all movement as growth impact without describing attribution or context with a factual account of growth remit, customer insight, channels, collaboration, and attributable learning and its limits.
+Rather than lead with seniority, a Head of Growth profile can explain the responsibility to coordinate growth experiments and commercial initiatives for a defined business and use venue or service scope, team leadership, guest context, service design, and attributable operating contributions as evidence. The candidate decides whether to pursue a Head of Growth opportunity. KOV can support agreed research and preparation concerning Hospitality and Food Service. Protect credibility in Hospitality and Food Service by addressing claiming all movement as growth impact without describing attribution or context with a factual account of growth remit, customer insight, channels, collaboration, and attributable learning and its limits.
 
 ## Documents that make Head of Growth experience relevant here
 
@@ -67,7 +67,7 @@ Good preparation for Head of Growth work includes a safe way to explain claiming
 
 ## Run the search thoughtfully in each target market
 
-Review each Head of Growth example for claiming all movement as growth impact without describing attribution or context, then describe the candidate's decisions without overstating their control over CEO or CRO, marketing, sales, product, analytics, and customers. A consultation can clarify whether a Head of Growth candidate needs positioning, document support, target research, or approved outreach for Hospitality and Food Service. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Head of Growth example should separate direct responsibility from collaboration. Readers need to see what Head of Growth work involved; connect coordinate growth experiments and commercial initiatives for a defined business with the candidate's own examples of growth remit, customer insight, channels, collaboration, and attributable learning in Hospitality and Food Service.
+Review each Head of Growth example for claiming all movement as growth impact without describing attribution or context, then describe the candidate's decisions without overstating their control over CEO or CRO, marketing, sales, product, analytics, and customers. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Head of Growth example should separate direct responsibility from collaboration. Readers need to see what Head of Growth work involved; connect coordinate growth experiments and commercial initiatives for a defined business with the candidate's own examples of growth remit, customer insight, channels, collaboration, and attributable learning in Hospitality and Food Service.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Growth career hub](/roles/head-growth/)
 
-Review the role-wide approach to coordinate growth experiments and commercial initiatives for a defined business and the evidence expected for that scope.
+
 
 ### [Hospitality and Food Service industry hub](/industries/hospitality-food-service/)
 
-Compare how guest-facing accommodation, food, venue, or experience services delivered through people and operations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Hospitality and Food Service](/roles/ceo/hospitality-food-service.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Growth remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Operating Officer in Hospitality and Food Service](/roles/coo/hospitality-food-service.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Growth remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Head of Growth in Retail and E-commerce](/roles/head-growth/retail-ecommerce.html)
 
-Compare customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment with guest-facing accommodation, food, venue, or experience services delivered through people and operations and identify how the Head of Growth remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Head of Growth clarify before considering work in Hospitality and Food Service?
 
-A Head of Growth candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. Explore how the role will coordinate growth experiments and commercial initiatives for a defined business and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Head of Growth candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Head of Growth describe transferable experience for Hospitality and Food Service work?
 
@@ -139,7 +139,7 @@ Describe an instance where the candidate could coordinate growth experiments and
 
 ### How can a Head of Growth choose documents for conversations about Hospitality and Food Service?
 
-Possible materials include resume, growth portfolio, experiment summaries, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to venue or service scope, team leadership, guest context, service design, and attributable operating contributions. Each claim should be accurate for this Hospitality and Food Service target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, growth portfolio, experiment summaries, and professional profile. Each claim should be accurate for this Hospitality and Food Service target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Head of Growth plan contact with Hospitality and Food Service organizations?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Head of Growth assess fit with Hospitality and Food Service responsibilities?
 
-Title is only a label. Establish what the employer means by Head of Growth in this Hospitality and Food Service organization and how the person will work with guests, employees, suppliers, owners, local partners, and service teams. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Head of Growth candidate considering Hospitality and Food Service?
 

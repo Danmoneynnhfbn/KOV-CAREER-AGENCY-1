@@ -8,7 +8,7 @@ Keep the Partner narrative accurate where revealing client information or overst
 
 ## Who this Partner and Healthcare and Social Care guide is for
 
-Good preparation for Partner work includes a safe way to explain revealing client information or overstating individual ownership of team results and a clear distinction between fact and inference. Career representation remains candidate-led: KOV can support a Partner search, while the candidate approves the goals and disclosures. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Partner example should separate direct responsibility from collaboration. Treat care, health-related services, or social support delivered by teams and organizations as a question to validate in Healthcare and Social Care; the answer helps clarify the Partner mandate and its service quality, workforce coordination, access, continuity, and sensitive information.
+Good preparation for Partner work includes a safe way to explain revealing client information or overstating individual ownership of team results and a clear distinction between fact and inference. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Partner example should separate direct responsibility from collaboration. Treat care, health-related services, or social support delivered by teams and organizations as a question to validate in Healthcare and Social Care; the answer helps clarify the Partner mandate and its service quality, workforce coordination, access, continuity, and sensitive information.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -33,7 +33,7 @@ Research for a Partner in Healthcare and Social Care becomes more focused when t
 
 ## Choose the individual services that fit the work
 
-Position a Partner career by linking develop a practice or business while contributing to a shared ownership or partnership structure to service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples, then clarify which part of that work the candidate actually owned. Not every Healthcare and Social Care organization will handle service quality, workforce coordination, access, continuity, and sensitive information alike. Confirm how care, health-related services, or social support delivered by teams and organizations informs this Partner position. KOV works with the candidate to agree which Partner targets matter, how partner biography, practice profile, selected work summary, and professional profile will be used, and whether communication is authorized. Good preparation for Partner work includes a safe way to explain revealing client information or overstating individual ownership of team results and a clear distinction between fact and inference.
+Position a Partner career by linking develop a practice or business while contributing to a shared ownership or partnership structure to service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples, then clarify which part of that work the candidate actually owned. Confirm how care, health-related services, or social support delivered by teams and organizations informs this Partner position. KOV works with the candidate to agree which Partner targets matter, how partner biography, practice profile, selected work summary, and professional profile will be used, and whether communication is authorized. Good preparation for Partner work includes a safe way to explain revealing client information or overstating individual ownership of team results and a clear distinction between fact and inference.
 
 ### [Private career representation](/services.html)
 
@@ -59,7 +59,7 @@ KOV's service scope for a Partner candidate can include document preparation and
 
 ## Keep research, confidentiality, and outreach aligned
 
-Readers need to see what Partner work involved; connect develop a practice or business while contributing to a shared ownership or partnership structure with the candidate's own examples of client or commercial contribution, practice leadership, collaboration, and shared responsibilities in Healthcare and Social Care. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Partner example should separate direct responsibility from collaboration. KOV's service scope for a Partner candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Good preparation for Partner work includes a safe way to explain revealing client information or overstating individual ownership of team results and a clear distinction between fact and inference.
+Readers need to see what Partner work involved; connect develop a practice or business while contributing to a shared ownership or partnership structure with the candidate's own examples of client or commercial contribution, practice leadership, collaboration, and shared responsibilities in Healthcare and Social Care. A Partner example should separate direct responsibility from collaboration. KOV's service scope for a Partner candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Good preparation for Partner work includes a safe way to explain revealing client information or overstating individual ownership of team results and a clear distinction between fact and inference.
 
 ## Prepare for conversations about Healthcare and Social Care work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Partner career hub](/roles/partner/)
 
-Review the role-wide approach to develop a practice or business while contributing to a shared ownership or partnership structure and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Partner remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Partner remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Partner in Agriculture, Food and Forestry](/roles/partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with care, health-related services, or social support delivered by teams and organizations and identify how the Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Partner test the scope of work in Healthcare and Social Care?
 
-A Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's care, health-related services, or social support delivered by teams and organizations. Explore how the role will develop a practice or business while contributing to a shared ownership or partnership structure and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's care, health-related services, or social support delivered by teams and organizations. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Partner use to explain experience in Healthcare and Social Care?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### Which outreach choices belong to a Partner considering Healthcare and Social Care?
 
-Outreach should follow target research, not precede it. The Partner candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with client or commercial contribution, practice leadership, collaboration, and shared responsibilities is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Partner rely on title alone when targeting Healthcare and Social Care?
 
-No. Compare the role description with the candidate's experience of develop a practice or business while contributing to a shared ownership or partnership structure and the organization's care, health-related services, or social support delivered by teams and organizations. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Partner seeking work in Healthcare and Social Care?
 

@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Finance career hub](/roles/vp-finance/)
 
-Review the role-wide approach to lead finance teams and translate financial information into decisions for a business area and the evidence expected for that scope.
+
 
 ### [Finance and Insurance industry hub](/industries/finance-insurance/)
 
-Compare how financial products and services supported by customer relationships, information, operations, and oversight affects career planning across functions.
+
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Finance remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Finance and Insurance](/roles/coo/finance-insurance.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Finance remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Vice President of Finance in Manufacturing](/roles/vp-finance/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with financial products and services supported by customer relationships, information, operations, and oversight and identify how the Vice President of Finance remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Vice President of Finance test the scope of work in Finance and Insurance?
 
-Start with the organization's account of financial products and services supported by customer relationships, information, operations, and oversight, then clarify how the Vice President of Finance would lead finance teams and translate financial information into decisions for a business area. Ask how customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of financial products and services supported by customer relationships, information, operations, and oversight, then clarify how the Vice President of Finance would lead finance teams and translate financial information into decisions for a business area. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Vice President of Finance use to explain experience in Finance and Insurance?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of planning scope, financia
 
 ### What documents should a Vice President of Finance tailor for Finance and Insurance opportunities?
 
-Possible materials include executive resume, finance leadership summary, profile, and selected achievement examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes. Each claim should be accurate for this Finance and Insurance target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, finance leadership summary, profile, and selected achievement examples. Each claim should be accurate for this Finance and Insurance target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Vice President of Finance considering Finance and Insurance?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### Can a Vice President of Finance rely on title alone when targeting Finance and Insurance?
 
-Title is only a label. Establish what the employer means by Vice President of Finance in this Finance and Insurance organization and how the person will work with customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Vice President of Finance seeking work in Finance and Insurance?
 

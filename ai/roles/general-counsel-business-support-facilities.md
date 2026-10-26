@@ -8,7 +8,7 @@ Readers need to see what General Counsel / Chief Legal Officer work involved; co
 
 ## Who this General Counsel / Chief Legal Officer and Business Support and Facilities guide is for
 
-Readers need to see what General Counsel / Chief Legal Officer work involved; connect lead legal judgment and connect legal advice with organizational decisions with the candidate's own examples of legal remit, advisory judgment, team scope, governance interaction, and business context in Business Support and Facilities. Treat support services, workplace operations, facilities, administration, or outsourced capabilities as a question to validate in Business Support and Facilities; the answer helps clarify the General Counsel / Chief Legal Officer mandate and its service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity. In Business Support and Facilities, internal clients, employees, service teams, suppliers, customers, and contract owners may shape the work. A General Counsel / Chief Legal Officer example should separate direct responsibility from collaboration. A consultation can clarify whether a General Counsel / Chief Legal Officer candidate needs positioning, document support, target research, or approved outreach for Business Support and Facilities.
+Readers need to see what General Counsel / Chief Legal Officer work involved; connect lead legal judgment and connect legal advice with organizational decisions with the candidate's own examples of legal remit, advisory judgment, team scope, governance interaction, and business context in Business Support and Facilities. In Business Support and Facilities, internal clients, employees, service teams, suppliers, customers, and contract owners may shape the work. A General Counsel / Chief Legal Officer example should separate direct responsibility from collaboration. A consultation can clarify whether a General Counsel / Chief Legal Officer candidate needs positioning, document support, target research, or approved outreach for Business Support and Facilities.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [General Counsel / Chief Legal Officer career hub](/roles/general-counsel/)
 
-Review the role-wide approach to lead legal judgment and connect legal advice with organizational decisions and the evidence expected for that scope.
+
 
 ### [Business Support and Facilities industry hub](/industries/business-support-facilities/)
 
-Compare how support services, workplace operations, facilities, administration, or outsourced capabilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Business Support and Facilities](/roles/ceo/business-support-facilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the General Counsel / Chief Legal Officer remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Operating Officer in Business Support and Facilities](/roles/coo/business-support-facilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the General Counsel / Chief Legal Officer remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [General Counsel / Chief Legal Officer in Agriculture, Food and Forestry](/roles/general-counsel/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with support services, workplace operations, facilities, administration, or outsourced capabilities and identify how the General Counsel / Chief Legal Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a General Counsel / Chief Legal Officer test the scope of work in Business Support and Facilities?
 
-Start with the organization's account of support services, workplace operations, facilities, administration, or outsourced capabilities, then clarify how the General Counsel / Chief Legal Officer would lead legal judgment and connect legal advice with organizational decisions. Ask how internal clients, employees, service teams, suppliers, customers, and contract owners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of support services, workplace operations, facilities, administration, or outsourced capabilities, then clarify how the General Counsel / Chief Legal Officer would lead legal judgment and connect legal advice with organizational decisions. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a General Counsel / Chief Legal Officer use to explain experience in Business Support and Facilities?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of legal remit, advisory ju
 
 ### What documents should a General Counsel / Chief Legal Officer tailor for Business Support and Facilities opportunities?
 
-Possible materials include executive resume, legal leadership biography, practice summary, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, legal leadership biography, practice summary, and professional profile. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a General Counsel / Chief Legal Officer considering Business Support and Facilities?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### Can a General Counsel / Chief Legal Officer rely on title alone when targeting Business Support and Facilities?
 
-Title is only a label. Establish what the employer means by General Counsel / Chief Legal Officer in this Business Support and Facilities organization and how the person will work with internal clients, employees, service teams, suppliers, customers, and contract owners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a General Counsel / Chief Legal Officer seeking work in Business Support and Facilities?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a General Counsel / Chief Legal Officer candidate considering Business Support and Facilities, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

@@ -45,7 +45,7 @@ Consider document and positioning support for Chief Information Officer material
 
 ## Prepare to discuss the Public Sector and Government mandate
 
-A Chief Information Officer candidate should show how systems scope, service reliability, data stewardship, transformation, governance, and adoption supported the work to guide information systems, digital operations, and technology services for the organization, with the Public Sector and Government setting made explicit. The candidate's record of systems scope, service reliability, data stewardship, transformation, governance, and adoption should be set beside the role of residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders, so shared results are attributed fairly. The candidate decides whether to pursue a Chief Information Officer opportunity. KOV can support agreed research and preparation concerning Public Sector and Government. Where collapsing infrastructure, information, product, and digital responsibilities into one vague claim affects a career example, substitute an authorized summary that preserves the point about systems scope, service reliability, data stewardship, transformation, governance, and adoption.
+A Chief Information Officer candidate should show how systems scope, service reliability, data stewardship, transformation, governance, and adoption supported the work to guide information systems, digital operations, and technology services for the organization, with the Public Sector and Government setting made explicit. The candidate decides whether to pursue a Chief Information Officer opportunity. KOV can support agreed research and preparation concerning Public Sector and Government. Where collapsing infrastructure, information, product, and digital responsibilities into one vague claim affects a career example, substitute an authorized summary that preserves the point about systems scope, service reliability, data stewardship, transformation, governance, and adoption.
 
 ## Common positioning mistakes for Chief Information Officer candidates in Public Sector and Government
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Information Officer career hub](/roles/cio/)
 
-Review the role-wide approach to guide information systems, digital operations, and technology services for the organization and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Information Officer remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Information Officer remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Information Officer in Agriculture, Food and Forestry](/roles/cio/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with public administration, public programs, or services delivered under a public mandate and identify how the Chief Information Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Information Officer clarify before considering work in Public Sector and Government?
 
-A Chief Information Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. Explore how the role will guide information systems, digital operations, and technology services for the organization and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Information Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Chief Information Officer describe transferable experience for Public Sector and Government work?
 
@@ -139,15 +139,15 @@ Select examples that show systems scope, service reliability, data stewardship, 
 
 ### How can a Chief Information Officer choose documents for conversations about Public Sector and Government?
 
-Possible materials include executive resume, transformation summary, professional biography, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, transformation summary, professional biography, and profile. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Chief Information Officer plan contact with Public Sector and Government organizations?
 
-Outreach should follow target research, not precede it. The Chief Information Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with systems scope, service reliability, data stewardship, transformation, governance, and adoption is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Chief Information Officer assess fit with Public Sector and Government responsibilities?
 
-No. Compare the role description with the candidate's experience of guide information systems, digital operations, and technology services for the organization and the organization's public administration, public programs, or services delivered under a public mandate. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Chief Information Officer candidate considering Public Sector and Government?
 

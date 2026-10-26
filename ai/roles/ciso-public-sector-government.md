@@ -45,7 +45,7 @@ Consider document and positioning support for Chief Information Security Officer
 
 ## Prepare to discuss the Public Sector and Government mandate
 
-A candidate exploring Public Sector and Government should test the assumed link between public administration, public programs, or services delivered under a public mandate and public purpose, stewardship, transparency, service access, and coordination across institutions against the actual Chief Information Security Officer role description. In Public Sector and Government, residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders may shape the work. A Chief Information Security Officer example should separate direct responsibility from collaboration. KOV's service scope for a Chief Information Security Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Review each Chief Information Security Officer example for exposing sensitive controls or incidents, or overstating personal responsibility for shared security work, then describe the candidate's decisions without overstating their control over CEO, technology teams, risk and legal colleagues, employees, customers, and oversight bodies as applicable.
+A candidate exploring Public Sector and Government should test the assumed link between public administration, public programs, or services delivered under a public mandate and public purpose, stewardship, transparency, service access, and coordination across institutions against the actual Chief Information Security Officer role description. A Chief Information Security Officer example should separate direct responsibility from collaboration. KOV's service scope for a Chief Information Security Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Review each Chief Information Security Officer example for exposing sensitive controls or incidents, or overstating personal responsibility for shared security work, then describe the candidate's decisions without overstating their control over CEO, technology teams, risk and legal colleagues, employees, customers, and oversight bodies as applicable.
 
 ## Common positioning mistakes for Chief Information Security Officer candidates in Public Sector and Government
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Information Security Officer career hub](/roles/ciso/)
 
-Review the role-wide approach to lead information-security priorities and coordinate risk-informed protection and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Information Security Officer remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Information Security Officer remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Information Security Officer in Agriculture, Food and Forestry](/roles/ciso/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with public administration, public programs, or services delivered under a public mandate and identify how the Chief Information Security Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Information Security Officer clarify before considering work in Public Sector and Government?
 
-A Chief Information Security Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. Explore how the role will lead information-security priorities and coordinate risk-informed protection and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Information Security Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Chief Information Security Officer describe transferable experience for Public Sector and Government work?
 
@@ -139,11 +139,11 @@ Make the connection explicit: the candidate's record of security remit, risk dec
 
 ### How can a Chief Information Security Officer choose documents for conversations about Public Sector and Government?
 
-Possible materials include executive resume, security leadership summary, profile, and sanitized case examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, security leadership summary, profile, and sanitized case examples. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Chief Information Security Officer plan contact with Public Sector and Government organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Information Security Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Public Sector and Government employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Public Sector and Government employers.
 
 ### How can a Chief Information Security Officer assess fit with Public Sector and Government responsibilities?
 

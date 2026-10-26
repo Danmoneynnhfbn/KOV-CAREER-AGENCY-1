@@ -85,27 +85,27 @@ Use KOV's London page as a starting point for an agreed UK-focused search discus
 
 ### Saudi Arabia
 
-For Retail and E-commerce targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Retail and E-commerce targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Retail and E-commerce targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### UAE
 
-For Retail and E-commerce targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Retail and E-commerce targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Retail and E-commerce targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### United Kingdom
 
-For Retail and E-commerce targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Retail and E-commerce targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Retail and E-commerce targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Dubai
 
-For Retail and E-commerce targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Retail and E-commerce targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Retail and E-commerce targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Australia
 
-For Retail and E-commerce targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Retail and E-commerce targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Retail and E-commerce targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Africa
 
-For Retail and E-commerce targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Retail and E-commerce targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Retail and E-commerce targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ## Choose an appropriate level of career support
 
@@ -129,123 +129,123 @@ Use the cards to open only the role-and-industry pages currently available. Each
 
 ### [Chief Executive Officer in Retail and E-commerce](/roles/ceo/retail-ecommerce.html)
 
-Explore how set organization-wide direction and coordinate executive work connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Operating Officer in Retail and E-commerce](/roles/coo/retail-ecommerce.html)
 
-Explore how align operating functions, delivery systems, and organizational priorities connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Financial Officer in Retail and E-commerce](/roles/cfo/retail-ecommerce.html)
 
-Explore how lead financial stewardship and connect resource decisions to organizational priorities connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Technology Officer in Retail and E-commerce](/roles/cto/retail-ecommerce.html)
 
-Explore how set technology direction and connect technical choices with product and business needs connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Information Officer in Retail and E-commerce](/roles/cio/retail-ecommerce.html)
 
-Explore how guide information systems, digital operations, and technology services for the organization connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Marketing Officer in Retail and E-commerce](/roles/cmo/retail-ecommerce.html)
 
-Explore how shape marketing strategy, customer understanding, brand, and commercial communication connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Human Resources Officer in Retail and E-commerce](/roles/chro/retail-ecommerce.html)
 
-Explore how guide people strategy, organizational capability, and workforce-related leadership connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Information Security Officer in Retail and E-commerce](/roles/ciso/retail-ecommerce.html)
 
-Explore how lead information-security priorities and coordinate risk-informed protection connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [General Counsel / Chief Legal Officer in Retail and E-commerce](/roles/general-counsel/retail-ecommerce.html)
 
-Explore how lead legal judgment and connect legal advice with organizational decisions connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Revenue Officer in Retail and E-commerce](/roles/chief-revenue-officer/retail-ecommerce.html)
 
-Explore how coordinate revenue-facing functions around a coherent commercial direction connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Product Officer in Retail and E-commerce](/roles/chief-product-officer/retail-ecommerce.html)
 
-Explore how guide product direction, portfolio choices, and the connection between users and delivery teams connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Strategy Officer in Retail and E-commerce](/roles/chief-strategy-officer/retail-ecommerce.html)
 
-Explore how support organization-wide choices by framing options, analysis, and strategic execution connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Board Director in Retail and E-commerce](/roles/board-director/retail-ecommerce.html)
 
-Explore how contribute oversight, inquiry, and strategic perspective within collective governance connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Non-Executive Director in Retail and E-commerce](/roles/non-executive-director/retail-ecommerce.html)
 
-Explore how provide independent challenge and strategic contribution distinct from management connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chair in Retail and E-commerce](/roles/chair/retail-ecommerce.html)
 
-Explore how lead board effectiveness and support clear governance and decision-making connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Managing Director in Retail and E-commerce](/roles/managing-director/retail-ecommerce.html)
 
-Explore how lead a business, division, or organization according to its defined mandate connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Managing Partner in Retail and E-commerce](/roles/managing-partner/retail-ecommerce.html)
 
-Explore how combine leadership responsibilities with the governance and professional context of a partnership connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Partner in Retail and E-commerce](/roles/partner/retail-ecommerce.html)
 
-Explore how develop a practice or business while contributing to a shared ownership or partnership structure connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Vice President of Sales in Retail and E-commerce](/roles/vp-sales/retail-ecommerce.html)
 
-Explore how lead a sales organization and connect market priorities with execution connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Vice President of Marketing in Retail and E-commerce](/roles/vp-marketing/retail-ecommerce.html)
 
-Explore how lead marketing teams and align brand, customer, and commercial priorities connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Vice President of Operations in Retail and E-commerce](/roles/vp-operations/retail-ecommerce.html)
 
-Explore how coordinate operational performance across teams, locations, or service lines connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Vice President of People in Retail and E-commerce](/roles/vp-people/retail-ecommerce.html)
 
-Explore how lead people programs and partner with managers on organizational capability connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Vice President of Product in Retail and E-commerce](/roles/vp-product/retail-ecommerce.html)
 
-Explore how set product priorities and coordinate discovery, planning, and delivery connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Director of Operations in Retail and E-commerce](/roles/director-operations/retail-ecommerce.html)
 
-Explore how manage operational delivery and improve coordination within a defined remit connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Director of Marketing in Retail and E-commerce](/roles/director-marketing/retail-ecommerce.html)
 
-Explore how manage campaigns, channels, or marketing programs within a broader strategy connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Director of Sales in Retail and E-commerce](/roles/director-sales/retail-ecommerce.html)
 
-Explore how manage sales teams, accounts, or territories against an agreed commercial plan connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Director of People in Retail and E-commerce](/roles/director-people/retail-ecommerce.html)
 
-Explore how lead a people function or program and support managers through organizational change connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Director of Product in Retail and E-commerce](/roles/director-product/retail-ecommerce.html)
 
-Explore how lead a product area and align customer needs with team delivery connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Head of Growth in Retail and E-commerce](/roles/head-growth/retail-ecommerce.html)
 
-Explore how coordinate growth experiments and commercial initiatives for a defined business connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Head of Data and AI in Retail and E-commerce](/roles/head-data-ai/retail-ecommerce.html)
 
-Explore how lead data capabilities and coordinate responsible application of analytical or AI work connects with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ## Questions that make a Retail and E-commerce target more specific
 
@@ -279,7 +279,7 @@ KOV can help candidates organize relevant experience and documents around an agr
 
 ### Can KOV promise an interview with a Retail and E-commerce organization?
 
-No. KOV does not guarantee interviews, offers, employment, introductions, or timelines. Employers make hiring decisions.
+No. Employers make hiring decisions.
 
 ### How should I compare two Retail and E-commerce opportunities?
 

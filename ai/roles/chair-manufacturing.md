@@ -4,7 +4,7 @@ KOV helps Chair candidates considering roles connected to Manufacturing connect 
 
 ## How Chair work connects with Manufacturing
 
-Where blurring chair and executive accountabilities or taking credit for collective decisions affects a career example, substitute an authorized summary that preserves the point about meeting leadership, board composition, governance practice, relationships, and transition judgment. In Manufacturing, employees, suppliers, customers, engineering, operations, distribution, and ownership may shape the work. A Chair example should separate direct responsibility from collaboration. An employer's Manufacturing model may involve conversion of materials into products through coordinated processes, equipment, people, and quality systems; its implications for production planning, equipment capacity, quality, workforce capability, and customer demand should be discussed, not presumed. The Chair remit to lead board effectiveness and support clear governance and decision-making should be described through decisions and examples, especially evidence of meeting leadership, board composition, governance practice, relationships, and transition judgment relevant to Manufacturing.
+Where blurring chair and executive accountabilities or taking credit for collective decisions affects a career example, substitute an authorized summary that preserves the point about meeting leadership, board composition, governance practice, relationships, and transition judgment. A Chair example should separate direct responsibility from collaboration. An employer's Manufacturing model may involve conversion of materials into products through coordinated processes, equipment, people, and quality systems; its implications for production planning, equipment capacity, quality, workforce capability, and customer demand should be discussed, not presumed. The Chair remit to lead board effectiveness and support clear governance and decision-making should be described through decisions and examples, especially evidence of meeting leadership, board composition, governance practice, relationships, and transition judgment relevant to Manufacturing.
 
 ## Who this Chair and Manufacturing guide is for
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Chair materials that present meeti
 
 ## Prepare to discuss the Manufacturing mandate
 
-The Chair remit to lead board effectiveness and support clear governance and decision-making should be described through decisions and examples, especially evidence of meeting leadership, board composition, governance practice, relationships, and transition judgment relevant to Manufacturing. Not every Manufacturing organization will handle production planning, equipment capacity, quality, workforce capability, and customer demand alike. Confirm how conversion of materials into products through coordinated processes, equipment, people, and quality systems informs this Chair position. KOV can help a Chair candidate organize an agreed search approach for Manufacturing, including documents such as chair biography, board resume, governance narrative, and public profile. A Chair candidate should be ready to explain blurring chair and executive accountabilities or taking credit for collective decisions without revealing confidential details or implying unsupported responsibility.
+The Chair remit to lead board effectiveness and support clear governance and decision-making should be described through decisions and examples, especially evidence of meeting leadership, board composition, governance practice, relationships, and transition judgment relevant to Manufacturing. Confirm how conversion of materials into products through coordinated processes, equipment, people, and quality systems informs this Chair position. KOV can help a Chair candidate organize an agreed search approach for Manufacturing, including documents such as chair biography, board resume, governance narrative, and public profile. A Chair candidate should be ready to explain blurring chair and executive accountabilities or taking credit for collective decisions without revealing confidential details or implying unsupported responsibility.
 
 ## Common positioning mistakes for Chair candidates in Manufacturing
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chair career hub](/roles/chair/)
 
-Review the role-wide approach to lead board effectiveness and support clear governance and decision-making and the evidence expected for that scope.
+
 
 ### [Manufacturing industry hub](/industries/manufacturing/)
 
-Compare how conversion of materials into products through coordinated processes, equipment, people, and quality systems affects career planning across functions.
+
 
 ### [Chief Executive Officer in Manufacturing](/roles/ceo/manufacturing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chair remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Operating Officer in Manufacturing](/roles/coo/manufacturing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chair remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chair in Agriculture, Food and Forestry](/roles/chair/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with conversion of materials into products through coordinated processes, equipment, people, and quality systems and identify how the Chair remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chair clarify before considering work in Manufacturing?
 
-Start with the organization's account of conversion of materials into products through coordinated processes, equipment, people, and quality systems, then clarify how the Chair would lead board effectiveness and support clear governance and decision-making. Ask how employees, suppliers, customers, engineering, operations, distribution, and ownership participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of conversion of materials into products through coordinated processes, equipment, people, and quality systems, then clarify how the Chair would lead board effectiveness and support clear governance and decision-making. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Chair describe transferable experience for Manufacturing work?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of meeting leadership, boar
 
 ### How can a Chair choose documents for conversations about Manufacturing?
 
-Document selection depends on the opportunity. A Chair may draw from chair biography, board resume, governance narrative, and public profile, but should foreground only material connected to plant or product scope, process decisions, quality or delivery context, team leadership, and improvement work. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Chair plan contact with Manufacturing organizations?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Chair assess fit with Manufacturing responsibilities?
 
-Title is only a label. Establish what the employer means by Chair in this Manufacturing organization and how the person will work with employees, suppliers, customers, engineering, operations, distribution, and ownership. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Chair candidate considering Manufacturing?
 

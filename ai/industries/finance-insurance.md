@@ -85,27 +85,27 @@ Use KOV's London page as a starting point for an agreed UK-focused search discus
 
 ### Saudi Arabia
 
-For Finance and Insurance targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Finance and Insurance targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Finance and Insurance targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### UAE
 
-For Finance and Insurance targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Finance and Insurance targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Finance and Insurance targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### United Kingdom
 
-For Finance and Insurance targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Finance and Insurance targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Finance and Insurance targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Dubai
 
-For Finance and Insurance targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Finance and Insurance targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Finance and Insurance targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Australia
 
-For Finance and Insurance targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Finance and Insurance targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Finance and Insurance targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Africa
 
-For Finance and Insurance targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Finance and Insurance targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Finance and Insurance targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ## Choose an appropriate level of career support
 
@@ -129,155 +129,155 @@ Use the cards to open only the role-and-industry pages currently available. Each
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Explore how set organization-wide direction and coordinate executive work connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Finance and Insurance](/roles/coo/finance-insurance.html)
 
-Explore how align operating functions, delivery systems, and organizational priorities connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Financial Officer in Finance and Insurance](/roles/cfo/finance-insurance.html)
 
-Explore how lead financial stewardship and connect resource decisions to organizational priorities connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Technology Officer in Finance and Insurance](/roles/cto/finance-insurance.html)
 
-Explore how set technology direction and connect technical choices with product and business needs connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Information Officer in Finance and Insurance](/roles/cio/finance-insurance.html)
 
-Explore how guide information systems, digital operations, and technology services for the organization connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Marketing Officer in Finance and Insurance](/roles/cmo/finance-insurance.html)
 
-Explore how shape marketing strategy, customer understanding, brand, and commercial communication connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Human Resources Officer in Finance and Insurance](/roles/chro/finance-insurance.html)
 
-Explore how guide people strategy, organizational capability, and workforce-related leadership connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Information Security Officer in Finance and Insurance](/roles/ciso/finance-insurance.html)
 
-Explore how lead information-security priorities and coordinate risk-informed protection connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [General Counsel / Chief Legal Officer in Finance and Insurance](/roles/general-counsel/finance-insurance.html)
 
-Explore how lead legal judgment and connect legal advice with organizational decisions connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Revenue Officer in Finance and Insurance](/roles/chief-revenue-officer/finance-insurance.html)
 
-Explore how coordinate revenue-facing functions around a coherent commercial direction connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Product Officer in Finance and Insurance](/roles/chief-product-officer/finance-insurance.html)
 
-Explore how guide product direction, portfolio choices, and the connection between users and delivery teams connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Strategy Officer in Finance and Insurance](/roles/chief-strategy-officer/finance-insurance.html)
 
-Explore how support organization-wide choices by framing options, analysis, and strategic execution connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Board Director in Finance and Insurance](/roles/board-director/finance-insurance.html)
 
-Explore how contribute oversight, inquiry, and strategic perspective within collective governance connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Non-Executive Director in Finance and Insurance](/roles/non-executive-director/finance-insurance.html)
 
-Explore how provide independent challenge and strategic contribution distinct from management connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chair in Finance and Insurance](/roles/chair/finance-insurance.html)
 
-Explore how lead board effectiveness and support clear governance and decision-making connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Managing Director in Finance and Insurance](/roles/managing-director/finance-insurance.html)
 
-Explore how lead a business, division, or organization according to its defined mandate connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Managing Partner in Finance and Insurance](/roles/managing-partner/finance-insurance.html)
 
-Explore how combine leadership responsibilities with the governance and professional context of a partnership connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Partner in Finance and Insurance](/roles/partner/finance-insurance.html)
 
-Explore how develop a practice or business while contributing to a shared ownership or partnership structure connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Vice President of Sales in Finance and Insurance](/roles/vp-sales/finance-insurance.html)
 
-Explore how lead a sales organization and connect market priorities with execution connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Vice President of Marketing in Finance and Insurance](/roles/vp-marketing/finance-insurance.html)
 
-Explore how lead marketing teams and align brand, customer, and commercial priorities connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Vice President of Engineering in Finance and Insurance](/roles/vp-engineering/finance-insurance.html)
 
-Explore how lead engineering organization, technical delivery, and capability development connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Vice President of Finance in Finance and Insurance](/roles/vp-finance/finance-insurance.html)
 
-Explore how lead finance teams and translate financial information into decisions for a business area connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Vice President of People in Finance and Insurance](/roles/vp-people/finance-insurance.html)
 
-Explore how lead people programs and partner with managers on organizational capability connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Vice President of Product in Finance and Insurance](/roles/vp-product/finance-insurance.html)
 
-Explore how set product priorities and coordinate discovery, planning, and delivery connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Vice President of Strategy in Finance and Insurance](/roles/vp-strategy/finance-insurance.html)
 
-Explore how frame strategic choices and connect planning with operating decisions connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Director of Finance in Finance and Insurance](/roles/director-finance/finance-insurance.html)
 
-Explore how lead financial planning, reporting, or control activity for a function or organization connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Director of Engineering in Finance and Insurance](/roles/director-engineering/finance-insurance.html)
 
-Explore how direct engineering teams and coordinate technical execution in a defined area connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Director of Marketing in Finance and Insurance](/roles/director-marketing/finance-insurance.html)
 
-Explore how manage campaigns, channels, or marketing programs within a broader strategy connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Director of Sales in Finance and Insurance](/roles/director-sales/finance-insurance.html)
 
-Explore how manage sales teams, accounts, or territories against an agreed commercial plan connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Director of People in Finance and Insurance](/roles/director-people/finance-insurance.html)
 
-Explore how lead a people function or program and support managers through organizational change connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Director of Product in Finance and Insurance](/roles/director-product/finance-insurance.html)
 
-Explore how lead a product area and align customer needs with team delivery connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Director of Legal in Finance and Insurance](/roles/director-legal/finance-insurance.html)
 
-Explore how manage a legal team, practice area, or legal operations remit connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Head of Legal in Finance and Insurance](/roles/head-legal/finance-insurance.html)
 
-Explore how lead a legal function or specialist team and advise on decisions within its remit connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Head of Growth in Finance and Insurance](/roles/head-growth/finance-insurance.html)
 
-Explore how coordinate growth experiments and commercial initiatives for a defined business connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Head of Strategy in Finance and Insurance](/roles/head-strategy/finance-insurance.html)
 
-Explore how coordinate planning and strategic analysis for an organization or business unit connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Head of Data and AI in Finance and Insurance](/roles/head-data-ai/finance-insurance.html)
 
-Explore how lead data capabilities and coordinate responsible application of analytical or AI work connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Head of Compliance in Finance and Insurance](/roles/head-compliance/finance-insurance.html)
 
-Explore how coordinate compliance programs and support consistent interpretation of organizational obligations connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Head of Business Development in Finance and Insurance](/roles/head-business-development/finance-insurance.html)
 
-Explore how develop relationships and opportunities that support an organization's commercial direction connects with financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ## Questions that make a Finance and Insurance target more specific
 
@@ -311,7 +311,7 @@ KOV can help candidates organize relevant experience and documents around an agr
 
 ### Can KOV promise an interview with a Finance and Insurance organization?
 
-No. KOV does not guarantee interviews, offers, employment, introductions, or timelines. Employers make hiring decisions.
+No. Employers make hiring decisions.
 
 ### How should I compare two Finance and Insurance opportunities?
 

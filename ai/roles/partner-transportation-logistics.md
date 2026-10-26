@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Partner career hub](/roles/partner/)
 
-Review the role-wide approach to develop a practice or business while contributing to a shared ownership or partnership structure and the evidence expected for that scope.
+
 
 ### [Transportation and Logistics industry hub](/industries/transportation-logistics/)
 
-Compare how movement, handling, and coordination of people or goods across routes and operating networks affects career planning across functions.
+
 
 ### [Chief Executive Officer in Transportation and Logistics](/roles/ceo/transportation-logistics.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Partner remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Operating Officer in Transportation and Logistics](/roles/coo/transportation-logistics.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Partner remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Partner in Agriculture, Food and Forestry](/roles/partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with movement, handling, and coordination of people or goods across routes and operating networks and identify how the Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Partner test the scope of work in Transportation and Logistics?
 
-A Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's movement, handling, and coordination of people or goods across routes and operating networks. Explore how the role will develop a practice or business while contributing to a shared ownership or partnership structure and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's movement, handling, and coordination of people or goods across routes and operating networks. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Partner use to explain experience in Transportation and Logistics?
 
@@ -143,15 +143,15 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### Which outreach choices belong to a Partner considering Transportation and Logistics?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Partner candidate's service scope; the candidate approves external communication. No one route should be assumed for all Transportation and Logistics employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Transportation and Logistics employers.
 
 ### Can a Partner rely on title alone when targeting Transportation and Logistics?
 
-Title is only a label. Establish what the employer means by Partner in this Transportation and Logistics organization and how the person will work with customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Partner seeking work in Transportation and Logistics?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Partner candidate considering Transportation and Logistics, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

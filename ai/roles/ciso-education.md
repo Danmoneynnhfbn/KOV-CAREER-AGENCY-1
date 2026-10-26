@@ -4,11 +4,11 @@ KOV helps Chief Information Security Officer candidates considering roles connec
 
 ## How Chief Information Security Officer work connects with Education
 
-A Chief Information Security Officer candidate should show how security remit, risk decisions, operating model, incident leadership where authorized, and adoption supported the work to lead information-security priorities and coordinate risk-informed protection, with the Education setting made explicit. Explain how CEO, technology teams, risk and legal colleagues, employees, customers, and oversight bodies as applicable contributed to the candidate's work and distinguish that shared context from evidence of security remit, risk decisions, operating model, incident leadership where authorized, and adoption. The candidate decides whether to pursue a Chief Information Security Officer opportunity. KOV can support agreed research and preparation concerning Education. Where exposing sensitive controls or incidents, or overstating personal responsibility for shared security work affects a career example, substitute an authorized summary that preserves the point about security remit, risk decisions, operating model, incident leadership where authorized, and adoption.
+A Chief Information Security Officer candidate should show how security remit, risk decisions, operating model, incident leadership where authorized, and adoption supported the work to lead information-security priorities and coordinate risk-informed protection, with the Education setting made explicit. The candidate decides whether to pursue a Chief Information Security Officer opportunity. KOV can support agreed research and preparation concerning Education. Where exposing sensitive controls or incidents, or overstating personal responsibility for shared security work affects a career example, substitute an authorized summary that preserves the point about security remit, risk decisions, operating model, incident leadership where authorized, and adoption.
 
 ## Who this Chief Information Security Officer and Education guide is for
 
-For Chief Information Security Officer work in Education, explain how the candidate could lead information-security priorities and coordinate risk-informed protection; connect that mandate to evidence of security remit, risk decisions, operating model, incident leadership where authorized, and adoption. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Chief Information Security Officer position. For a Chief Information Security Officer target, KOV can discuss how executive resume, security leadership summary, profile, and sanitized case examples support the candidate's account of security remit, risk decisions, operating model, incident leadership where authorized, and adoption; external steps require prior agreement. For Chief Information Security Officer materials, manage the risk of exposing sensitive controls or incidents, or overstating personal responsibility for shared security work; support claims with security remit, risk decisions, operating model, incident leadership where authorized, and adoption and remove details that are not authorized for sharing.
+For Chief Information Security Officer work in Education, explain how the candidate could lead information-security priorities and coordinate risk-informed protection; connect that mandate to evidence of security remit, risk decisions, operating model, incident leadership where authorized, and adoption. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Chief Information Security Officer position. For a Chief Information Security Officer target, KOV can discuss how executive resume, security leadership summary, profile, and sanitized case examples support the candidate's account of security remit, risk decisions, operating model, incident leadership where authorized, and adoption; external steps require prior agreement. For Chief Information Security Officer materials, manage the risk of exposing sensitive controls or incidents, or overstating personal responsibility for shared security work; support claims with security remit, risk decisions, operating model, incident leadership where authorized, and adoption and remove details that are not authorized for sharing.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -49,7 +49,7 @@ The Chief Information Security Officer remit to lead information-security priori
 
 ## Common positioning mistakes for Chief Information Security Officer candidates in Education
 
-Before discussing program or institutional scope, learner or service context, staff leadership, and improvement contribution, check whether exposing sensitive controls or incidents, or overstating personal responsibility for shared security work could expose sensitive details or blur the candidate's decision boundary. Use an example involving program or institutional scope, learner or service context, staff leadership, and improvement contribution to describe the decision, the parties involved, and the candidate's role as a Chief Information Security Officer. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Chief Information Security Officer position. In a Education target, make the Chief Information Security Officer contribution legible: describe how the candidate helped lead information-security priorities and coordinate risk-informed protection and what supports security remit, risk decisions, operating model, incident leadership where authorized, and adoption.
+Before discussing program or institutional scope, learner or service context, staff leadership, and improvement contribution, check whether exposing sensitive controls or incidents, or overstating personal responsibility for shared security work could expose sensitive details or blur the candidate's decision boundary. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Chief Information Security Officer position. In a Education target, make the Chief Information Security Officer contribution legible: describe how the candidate helped lead information-security priorities and coordinate risk-informed protection and what supports security remit, risk decisions, operating model, incident leadership where authorized, and adoption.
 
 - Treat Education as one uniform employer type; distinguish the actual organization and role.
 - Use a Chief Information Security Officer title without explaining lead information-security priorities and coordinate risk-informed protection.
@@ -59,7 +59,7 @@ Before discussing program or institutional scope, learner or service context, st
 
 ## Keep research, confidentiality, and outreach aligned
 
-Readers need to see what Chief Information Security Officer work involved; connect lead information-security priorities and coordinate risk-informed protection with the candidate's own examples of security remit, risk decisions, operating model, incident leadership where authorized, and adoption in Education. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Chief Information Security Officer example should separate direct responsibility from collaboration. KOV's service scope for a Chief Information Security Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Good preparation for Chief Information Security Officer work includes a safe way to explain exposing sensitive controls or incidents, or overstating personal responsibility for shared security work and a clear distinction between fact and inference.
+Readers need to see what Chief Information Security Officer work involved; connect lead information-security priorities and coordinate risk-informed protection with the candidate's own examples of security remit, risk decisions, operating model, incident leadership where authorized, and adoption in Education. A Chief Information Security Officer example should separate direct responsibility from collaboration. KOV's service scope for a Chief Information Security Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Good preparation for Chief Information Security Officer work includes a safe way to explain exposing sensitive controls or incidents, or overstating personal responsibility for shared security work and a clear distinction between fact and inference.
 
 ## Prepare for conversations about Education work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Information Security Officer career hub](/roles/ciso/)
 
-Review the role-wide approach to lead information-security priorities and coordinate risk-informed protection and the evidence expected for that scope.
+
 
 ### [Education industry hub](/industries/education/)
 
-Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.
+
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Information Security Officer remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Education](/roles/coo/education.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Information Security Officer remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Information Security Officer in Agriculture, Food and Forestry](/roles/ciso/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with learning services delivered through institutions, programs, technology, or educational support and identify how the Chief Information Security Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Information Security Officer clarify before considering work in Education?
 
-A Chief Information Security Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. Explore how the role will lead information-security priorities and coordinate risk-informed protection and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Information Security Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Chief Information Security Officer describe transferable experience for Education work?
 
@@ -139,11 +139,11 @@ Make the connection explicit: the candidate's record of security remit, risk dec
 
 ### How can a Chief Information Security Officer choose documents for conversations about Education?
 
-Possible materials include executive resume, security leadership summary, profile, and sanitized case examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or institutional scope, learner or service context, staff leadership, and improvement contribution. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, security leadership summary, profile, and sanitized case examples. Each claim should be accurate for this Education target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Chief Information Security Officer plan contact with Education organizations?
 
-Outreach should follow target research, not precede it. The Chief Information Security Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with security remit, risk decisions, operating model, incident leadership where authorized, and adoption is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Chief Information Security Officer assess fit with Education responsibilities?
 

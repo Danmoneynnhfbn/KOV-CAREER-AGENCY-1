@@ -4,7 +4,7 @@ KOV helps Board Director candidates considering roles connected to Transportatio
 
 ## How Board Director work connects with Transportation and Logistics
 
-A Board Director candidate should be ready to explain implying executive authority for board decisions or claiming confidential board outcomes without revealing confidential details or implying unsupported responsibility. KOV can help a Board Director candidate organize an agreed search approach for Transportation and Logistics, including documents such as board biography, governance resume, skills matrix, and concise profile. In Transportation and Logistics, customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities may shape the work. A Board Director example should separate direct responsibility from collaboration. For Board Director work in Transportation and Logistics, explain how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance; connect that mandate to evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
+A Board Director candidate should be ready to explain implying executive authority for board decisions or claiming confidential board outcomes without revealing confidential details or implying unsupported responsibility. In Transportation and Logistics, customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities may shape the work. A Board Director example should separate direct responsibility from collaboration. For Board Director work in Transportation and Logistics, explain how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance; connect that mandate to evidence of committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
 
 ## Who this Board Director and Transportation and Logistics guide is for
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Board Director materials that pres
 
 ## Prepare to discuss the Transportation and Logistics mandate
 
-Good preparation for Board Director work includes a safe way to explain implying executive authority for board decisions or claiming confidential board outcomes and a clear distinction between fact and inference. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Transportation and Logistics. For Transportation and Logistics, establish whether movement, handling, and coordination of people or goods across routes and operating networks describes the target employer and how network coordination, service windows, asset availability, safety-minded decisions, and disruption response is reflected in its Board Director mandate. To assess a Board Director opportunity in Transportation and Logistics, compare the stated remit to the candidate's record of committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
+Good preparation for Board Director work includes a safe way to explain implying executive authority for board decisions or claiming confidential board outcomes and a clear distinction between fact and inference. KOV can support agreed research and preparation concerning Transportation and Logistics. For Transportation and Logistics, establish whether movement, handling, and coordination of people or goods across routes and operating networks describes the target employer and how network coordination, service windows, asset availability, safety-minded decisions, and disruption response is reflected in its Board Director mandate. To assess a Board Director opportunity in Transportation and Logistics, compare the stated remit to the candidate's record of committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
 
 ## Common positioning mistakes for Board Director candidates in Transportation and Logistics
 
@@ -59,7 +59,7 @@ Position a Board Director career by linking contribute oversight, inquiry, and s
 
 ## Keep research, confidentiality, and outreach aligned
 
-Where implying executive authority for board decisions or claiming confidential board outcomes affects a career example, substitute an authorized summary that preserves the point about committee or board remit, preparation, judgment, relevant expertise, and collective contribution. Consider how customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities interact with a Board Director; use examples of route or network scope, service performance context, asset choices, workforce coordination, and customer communication to show judgment and collaboration. Not every Transportation and Logistics organization will handle network coordination, service windows, asset availability, safety-minded decisions, and disruption response alike. Confirm how movement, handling, and coordination of people or goods across routes and operating networks informs this Board Director position. Show the Board Director scope behind the title: how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance, which decisions mattered, and where committee or board remit, preparation, judgment, relevant expertise, and collective contribution demonstrates their contribution.
+Where implying executive authority for board decisions or claiming confidential board outcomes affects a career example, substitute an authorized summary that preserves the point about committee or board remit, preparation, judgment, relevant expertise, and collective contribution. Not every Transportation and Logistics organization will handle network coordination, service windows, asset availability, safety-minded decisions, and disruption response alike. Confirm how movement, handling, and coordination of people or goods across routes and operating networks informs this Board Director position. Show the Board Director scope behind the title: how the candidate could contribute oversight, inquiry, and strategic perspective within collective governance, which decisions mattered, and where committee or board remit, preparation, judgment, relevant expertise, and collective contribution demonstrates their contribution.
 
 ## Prepare for conversations about Transportation and Logistics work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Board Director career hub](/roles/board-director/)
 
-Review the role-wide approach to contribute oversight, inquiry, and strategic perspective within collective governance and the evidence expected for that scope.
+
 
 ### [Transportation and Logistics industry hub](/industries/transportation-logistics/)
 
-Compare how movement, handling, and coordination of people or goods across routes and operating networks affects career planning across functions.
+
 
 ### [Chief Executive Officer in Transportation and Logistics](/roles/ceo/transportation-logistics.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Board Director remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Operating Officer in Transportation and Logistics](/roles/coo/transportation-logistics.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Board Director remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Board Director in Agriculture, Food and Forestry](/roles/board-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with movement, handling, and coordination of people or goods across routes and operating networks and identify how the Board Director remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Board Director resolve before a target discussion in Transportation and Logistics?
 
-Use the opening discussion to understand the specific Transportation and Logistics employer, not to assume a standard role. Compare contribute oversight, inquiry, and strategic perspective within collective governance with the stated scope, identify decision partners among customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Transportation and Logistics employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Board Director career story fit the needs of Transportation and Logistics?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Board Director approve before outreach in Transportation and Logistics?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Board Director candidate's service scope; the candidate approves external communication. No one route should be assumed for all Transportation and Logistics employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Transportation and Logistics employers.
 
 ### How should a Board Director compare title and remit in Transportation and Logistics?
 
-Title is only a label. Establish what the employer means by Board Director in this Transportation and Logistics organization and how the person will work with customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Board Director with an employer in Transportation and Logistics?
 

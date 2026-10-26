@@ -12,7 +12,7 @@ The Hospitality and Food Service context involves guest-facing accommodation, fo
 
 ## A candidate-led process from first discussion to next steps
 
-Rather than lead with seniority, a Non-Executive Director profile can explain the responsibility to provide independent challenge and strategic contribution distinct from management and use venue or service scope, team leadership, guest context, service design, and attributable operating contributions as evidence. Not every Hospitality and Food Service organization will handle guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alike. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Non-Executive Director position. Career representation remains candidate-led: KOV can support a Non-Executive Director search, while the candidate approves the goals and disclosures. Protect credibility in Hospitality and Food Service by addressing confusing oversight with operational management or overstating independence with a factual account of governance experience, constructive challenge, committee contribution, and relevant expertise and its limits.
+Rather than lead with seniority, a Non-Executive Director profile can explain the responsibility to provide independent challenge and strategic contribution distinct from management and use venue or service scope, team leadership, guest context, service design, and attributable operating contributions as evidence. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Non-Executive Director position. Career representation remains candidate-led: KOV can support a Non-Executive Director search, while the candidate approves the goals and disclosures. Protect credibility in Hospitality and Food Service by addressing confusing oversight with operational management or overstating independence with a factual account of governance experience, constructive challenge, committee contribution, and relevant expertise and its limits.
 
 ## Documents that make Non-Executive Director experience relevant here
 
@@ -49,7 +49,7 @@ Do not resolve uncertainty about confusing oversight with operational management
 
 ## Common positioning mistakes for Non-Executive Director candidates in Hospitality and Food Service
 
-In a Hospitality and Food Service target, make the Non-Executive Director contribution legible: describe how the candidate helped provide independent challenge and strategic contribution distinct from management and what supports governance experience, constructive challenge, committee contribution, and relevant expertise. Not every Hospitality and Food Service organization will handle guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alike. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Non-Executive Director position. KOV works with the candidate to agree which Non-Executive Director targets matter, how board biography, non-executive profile, skills matrix, and governance resume will be used, and whether communication is authorized. Before discussing venue or service scope, team leadership, guest context, service design, and attributable operating contributions, check whether confusing oversight with operational management or overstating independence could expose sensitive details or blur the candidate's decision boundary.
+In a Hospitality and Food Service target, make the Non-Executive Director contribution legible: describe how the candidate helped provide independent challenge and strategic contribution distinct from management and what supports governance experience, constructive challenge, committee contribution, and relevant expertise. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Non-Executive Director position. KOV works with the candidate to agree which Non-Executive Director targets matter, how board biography, non-executive profile, skills matrix, and governance resume will be used, and whether communication is authorized. Before discussing venue or service scope, team leadership, guest context, service design, and attributable operating contributions, check whether confusing oversight with operational management or overstating independence could expose sensitive details or blur the candidate's decision boundary.
 
 - Treat Hospitality and Food Service as one uniform employer type; distinguish the actual organization and role.
 - Use a Non-Executive Director title without explaining provide independent challenge and strategic contribution distinct from management.
@@ -67,7 +67,7 @@ A Non-Executive Director candidate should be ready to explain confusing oversigh
 
 ## Run the search thoughtfully in each target market
 
-In a Hospitality and Food Service target, make the Non-Executive Director contribution legible: describe how the candidate helped provide independent challenge and strategic contribution distinct from management and what supports governance experience, constructive challenge, committee contribution, and relevant expertise. For Hospitality and Food Service, establish whether guest-facing accommodation, food, venue, or experience services delivered through people and operations describes the target employer and how guest experience, operating capacity, service consistency, workforce coordination, and supplier variability is reflected in its Non-Executive Director mandate. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Non-Executive Director example should separate direct responsibility from collaboration. Keep the Non-Executive Director narrative accurate where confusing oversight with operational management or overstating independence may arise: attribute shared work and disclose only information the candidate may use.
+In a Hospitality and Food Service target, make the Non-Executive Director contribution legible: describe how the candidate helped provide independent challenge and strategic contribution distinct from management and what supports governance experience, constructive challenge, committee contribution, and relevant expertise. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Non-Executive Director example should separate direct responsibility from collaboration. Keep the Non-Executive Director narrative accurate where confusing oversight with operational management or overstating independence may arise: attribute shared work and disclose only information the candidate may use.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Non-Executive Director career hub](/roles/non-executive-director/)
 
-Review the role-wide approach to provide independent challenge and strategic contribution distinct from management and the evidence expected for that scope.
+
 
 ### [Hospitality and Food Service industry hub](/industries/hospitality-food-service/)
 
-Compare how guest-facing accommodation, food, venue, or experience services delivered through people and operations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Hospitality and Food Service](/roles/ceo/hospitality-food-service.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Non-Executive Director remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Operating Officer in Hospitality and Food Service](/roles/coo/hospitality-food-service.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Non-Executive Director remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Non-Executive Director in Agriculture, Food and Forestry](/roles/non-executive-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with guest-facing accommodation, food, venue, or experience services delivered through people and operations and identify how the Non-Executive Director remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Non-Executive Director resolve before a target discussion in Hospitality and Food Service?
 
-Start with the organization's account of guest-facing accommodation, food, venue, or experience services delivered through people and operations, then clarify how the Non-Executive Director would provide independent challenge and strategic contribution distinct from management. Ask how guests, employees, suppliers, owners, local partners, and service teams participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of guest-facing accommodation, food, venue, or experience services delivered through people and operations, then clarify how the Non-Executive Director would provide independent challenge and strategic contribution distinct from management. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### Which parts of a Non-Executive Director career story fit the needs of Hospitality and Food Service?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of governance experience, c
 
 ### What should a Non-Executive Director prepare in writing before targeting Hospitality and Food Service?
 
-Document selection depends on the opportunity. A Non-Executive Director may draw from board biography, non-executive profile, skills matrix, and governance resume, but should foreground only material connected to venue or service scope, team leadership, guest context, service design, and attributable operating contributions. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What should a Non-Executive Director approve before outreach in Hospitality and Food Service?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How should a Non-Executive Director compare title and remit in Hospitality and Food Service?
 
-Title is only a label. Establish what the employer means by Non-Executive Director in this Hospitality and Food Service organization and how the person will work with guests, employees, suppliers, owners, local partners, and service teams. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Non-Executive Director with an employer in Hospitality and Food Service?
 

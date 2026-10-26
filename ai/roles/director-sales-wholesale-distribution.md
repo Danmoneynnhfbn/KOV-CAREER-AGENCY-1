@@ -16,7 +16,7 @@ The candidate can discuss customer segment, territory or account scope, team con
 
 ## Documents that make Director of Sales experience relevant here
 
-Where claiming results without clarifying target, territory, team role, or sales cycle affects a career example, substitute an authorized summary that preserves the point about customer segment, territory or account scope, team contribution, and sales process. The candidate decides whether to pursue a Director of Sales opportunity. KOV can support agreed research and preparation concerning Wholesale and Distribution. Explain how sales executives, marketing, product, customers, and channel partners contributed to the candidate's work and distinguish that shared context from evidence of customer segment, territory or account scope, team contribution, and sales process. A precise Director of Sales story ties customer segment, territory or account scope, team contribution, and sales process to the mandate of manage sales teams, accounts, or territories against an agreed commercial plan, without suggesting that the title alone establishes fit.
+Where claiming results without clarifying target, territory, team role, or sales cycle affects a career example, substitute an authorized summary that preserves the point about customer segment, territory or account scope, team contribution, and sales process. KOV can support agreed research and preparation concerning Wholesale and Distribution. Explain how sales executives, marketing, product, customers, and channel partners contributed to the candidate's work and distinguish that shared context from evidence of customer segment, territory or account scope, team contribution, and sales process. A precise Director of Sales story ties customer segment, territory or account scope, team contribution, and sales process to the mandate of manage sales teams, accounts, or territories against an agreed commercial plan, without suggesting that the title alone establishes fit.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -63,11 +63,11 @@ For Director of Sales materials, manage the risk of claiming results without cla
 
 ## Prepare for conversations about Wholesale and Distribution work
 
-The Director of Sales remit to manage sales teams, accounts, or territories against an agreed commercial plan should be described through decisions and examples, especially evidence of customer segment, territory or account scope, team contribution, and sales process relevant to Wholesale and Distribution. To understand the Wholesale and Distribution target, explore movement and availability of goods through purchasing, inventory, channel, and delivery relationships and ask how a Director of Sales is expected to respond to availability, working capital, fulfillment coordination, customer terms, and supplier variability. In Wholesale and Distribution, suppliers, retailers, business customers, logistics teams, sales, and inventory operators may shape the work. A Director of Sales example should separate direct responsibility from collaboration. Before discussing channel or category scope, inventory and service context, commercial coordination, and customer outcomes, check whether claiming results without clarifying target, territory, team role, or sales cycle could expose sensitive details or blur the candidate's decision boundary.
+The Director of Sales remit to manage sales teams, accounts, or territories against an agreed commercial plan should be described through decisions and examples, especially evidence of customer segment, territory or account scope, team contribution, and sales process relevant to Wholesale and Distribution. In Wholesale and Distribution, suppliers, retailers, business customers, logistics teams, sales, and inventory operators may shape the work. A Director of Sales example should separate direct responsibility from collaboration. Before discussing channel or category scope, inventory and service context, commercial coordination, and customer outcomes, check whether claiming results without clarifying target, territory, team role, or sales cycle could expose sensitive details or blur the candidate's decision boundary.
 
 ## Run the search thoughtfully in each target market
 
-A candidate exploring Wholesale and Distribution should test the assumed link between movement and availability of goods through purchasing, inventory, channel, and delivery relationships and availability, working capital, fulfillment coordination, customer terms, and supplier variability against the actual Director of Sales role description. In Wholesale and Distribution, suppliers, retailers, business customers, logistics teams, sales, and inventory operators may shape the work. A Director of Sales example should separate direct responsibility from collaboration. The candidate decides whether to pursue a Director of Sales opportunity. KOV can support agreed research and preparation concerning Wholesale and Distribution. Keep the Director of Sales narrative accurate where claiming results without clarifying target, territory, team role, or sales cycle may arise: attribute shared work and disclose only information the candidate may use.
+A candidate exploring Wholesale and Distribution should test the assumed link between movement and availability of goods through purchasing, inventory, channel, and delivery relationships and availability, working capital, fulfillment coordination, customer terms, and supplier variability against the actual Director of Sales role description. The candidate decides whether to pursue a Director of Sales opportunity. KOV can support agreed research and preparation concerning Wholesale and Distribution. Keep the Director of Sales narrative accurate where claiming results without clarifying target, territory, team role, or sales cycle may arise: attribute shared work and disclose only information the candidate may use.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Sales career hub](/roles/director-sales/)
 
-Review the role-wide approach to manage sales teams, accounts, or territories against an agreed commercial plan and the evidence expected for that scope.
+
 
 ### [Wholesale and Distribution industry hub](/industries/wholesale-distribution/)
 
-Compare how movement and availability of goods through purchasing, inventory, channel, and delivery relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Wholesale and Distribution](/roles/ceo/wholesale-distribution.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Sales remit; consider where each function meets movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Operating Officer in Wholesale and Distribution](/roles/coo/wholesale-distribution.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Sales remit; consider where each function meets movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Director of Sales in Manufacturing](/roles/director-sales/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with movement and availability of goods through purchasing, inventory, channel, and delivery relationships and identify how the Director of Sales remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Director of Sales clarify before considering work in Wholesale and Distribution?
 
-Start with the organization's account of movement and availability of goods through purchasing, inventory, channel, and delivery relationships, then clarify how the Director of Sales would manage sales teams, accounts, or territories against an agreed commercial plan. Ask how suppliers, retailers, business customers, logistics teams, sales, and inventory operators participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of movement and availability of goods through purchasing, inventory, channel, and delivery relationships, then clarify how the Director of Sales would manage sales teams, accounts, or territories against an agreed commercial plan. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Director of Sales describe transferable experience for Wholesale and Distribution work?
 
@@ -139,11 +139,11 @@ Select examples that show customer segment, territory or account scope, team con
 
 ### How can a Director of Sales choose documents for conversations about Wholesale and Distribution?
 
-Document selection depends on the opportunity. A Director of Sales may draw from resume, sales achievement brief, profile, and interview examples, but should foreground only material connected to channel or category scope, inventory and service context, commercial coordination, and customer outcomes. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Director of Sales plan contact with Wholesale and Distribution organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of Sales candidate's service scope; the candidate approves external communication. No one route should be assumed for all Wholesale and Distribution employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Wholesale and Distribution employers.
 
 ### How can a Director of Sales assess fit with Wholesale and Distribution responsibilities?
 

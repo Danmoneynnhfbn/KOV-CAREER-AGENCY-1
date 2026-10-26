@@ -8,7 +8,7 @@ The Finance and Insurance context involves financial products and services suppo
 
 ## Who this Head of Growth and Finance and Insurance guide is for
 
-Protect credibility in Finance and Insurance by addressing claiming all movement as growth impact without describing attribution or context with a factual account of growth remit, customer insight, channels, collaboration, and attributable learning and its limits. The service plan should fit the candidate's Head of Growth priorities; agree research, materials, and any outreach before contact occurs. In Finance and Insurance, customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders may shape the work. A Head of Growth example should separate direct responsibility from collaboration. Use financial products and services supported by customer relationships, information, operations, and oversight to frame research about Finance and Insurance, then ask how a Head of Growth will work through trust, information handling, product suitability, operational resilience, and competing customer and business needs.
+Protect credibility in Finance and Insurance by addressing claiming all movement as growth impact without describing attribution or context with a factual account of growth remit, customer insight, channels, collaboration, and attributable learning and its limits. In Finance and Insurance, customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders may shape the work. A Head of Growth example should separate direct responsibility from collaboration. Use financial products and services supported by customer relationships, information, operations, and oversight to frame research about Finance and Insurance, then ask how a Head of Growth will work through trust, information handling, product suitability, operational resilience, and competing customer and business needs.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -33,7 +33,7 @@ Candidate-side support from KOV may connect Head of Growth positioning, relevant
 
 ## Choose the individual services that fit the work
 
-Good preparation for Head of Growth work includes a safe way to explain claiming all movement as growth impact without describing attribution or context and a clear distinction between fact and inference. An account of business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes should identify the candidate's contribution and the involvement of CEO or CRO, marketing, sales, product, analytics, and customers. Not every Finance and Insurance organization will handle trust, information handling, product suitability, operational resilience, and competing customer and business needs alike. Confirm how financial products and services supported by customer relationships, information, operations, and oversight informs this Head of Growth position. Position a Head of Growth career by linking coordinate growth experiments and commercial initiatives for a defined business to business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes, then clarify which part of that work the candidate actually owned.
+Good preparation for Head of Growth work includes a safe way to explain claiming all movement as growth impact without describing attribution or context and a clear distinction between fact and inference. Not every Finance and Insurance organization will handle trust, information handling, product suitability, operational resilience, and competing customer and business needs alike. Confirm how financial products and services supported by customer relationships, information, operations, and oversight informs this Head of Growth position. Position a Head of Growth career by linking coordinate growth experiments and commercial initiatives for a defined business to business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes, then clarify which part of that work the candidate actually owned.
 
 ### [Private career representation](/services.html)
 
@@ -49,7 +49,7 @@ The Head of Growth remit to coordinate growth experiments and commercial initiat
 
 ## Common positioning mistakes for Head of Growth candidates in Finance and Insurance
 
-A precise Head of Growth story ties growth remit, customer insight, channels, collaboration, and attributable learning to the mandate of coordinate growth experiments and commercial initiatives for a defined business, without suggesting that the title alone establishes fit. Before presenting business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes, determine how customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders participated and which details are safe to discuss. The candidate decides whether to pursue a Head of Growth opportunity. KOV can support agreed research and preparation concerning Finance and Insurance. Good preparation for Head of Growth work includes a safe way to explain claiming all movement as growth impact without describing attribution or context and a clear distinction between fact and inference.
+A precise Head of Growth story ties growth remit, customer insight, channels, collaboration, and attributable learning to the mandate of coordinate growth experiments and commercial initiatives for a defined business, without suggesting that the title alone establishes fit. The candidate decides whether to pursue a Head of Growth opportunity. KOV can support agreed research and preparation concerning Finance and Insurance. Good preparation for Head of Growth work includes a safe way to explain claiming all movement as growth impact without describing attribution or context and a clear distinction between fact and inference.
 
 - Treat Finance and Insurance as one uniform employer type; distinguish the actual organization and role.
 - Use a Head of Growth title without explaining coordinate growth experiments and commercial initiatives for a defined business.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Growth career hub](/roles/head-growth/)
 
-Review the role-wide approach to coordinate growth experiments and commercial initiatives for a defined business and the evidence expected for that scope.
+
 
 ### [Finance and Insurance industry hub](/industries/finance-insurance/)
 
-Compare how financial products and services supported by customer relationships, information, operations, and oversight affects career planning across functions.
+
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Growth remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Finance and Insurance](/roles/coo/finance-insurance.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Growth remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Head of Growth in Retail and E-commerce](/roles/head-growth/retail-ecommerce.html)
 
-Compare customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment with financial products and services supported by customer relationships, information, operations, and oversight and identify how the Head of Growth remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Head of Growth in Finance and Insurance?
 
-A Head of Growth candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's financial products and services supported by customer relationships, information, operations, and oversight. Explore how the role will coordinate growth experiments and commercial initiatives for a defined business and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Head of Growth candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's financial products and services supported by customer relationships, information, operations, and oversight. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Head of Growth make prior work relevant to Finance and Insurance?
 

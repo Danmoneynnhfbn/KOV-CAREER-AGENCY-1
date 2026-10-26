@@ -4,7 +4,7 @@ KOV helps Director of Product candidates considering roles connected to Retail a
 
 ## How Director of Product work connects with Retail and E-commerce
 
-Readers need to see what Director of Product work involved; connect lead a product area and align customer needs with team delivery with the candidate's own examples of product scope, discovery, prioritization, stakeholder coordination, and evidence of use in Retail and E-commerce. Not every Retail and E-commerce organization will handle customer experience, assortment, inventory, channel coordination, and rapid feedback alike. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this Director of Product position. KOV's service scope for a Director of Product candidate can include document preparation and agreed search activity, but cannot promise an employer's response. The candidate can discuss product scope, discovery, prioritization, stakeholder coordination, and evidence of use while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+Readers need to see what Director of Product work involved; connect lead a product area and align customer needs with team delivery with the candidate's own examples of product scope, discovery, prioritization, stakeholder coordination, and evidence of use in Retail and E-commerce. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this Director of Product position. KOV's service scope for a Director of Product candidate can include document preparation and agreed search activity, but cannot promise an employer's response. The candidate can discuss product scope, discovery, prioritization, stakeholder coordination, and evidence of use while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Who this Director of Product and Retail and E-commerce guide is for
 
@@ -33,7 +33,7 @@ Review each Director of Product example for confusing product activity with prod
 
 ## Choose the individual services that fit the work
 
-Position a Director of Product career by linking lead a product area and align customer needs with team delivery to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution, then clarify which part of that work the candidate actually owned. Not every Retail and E-commerce organization will handle customer experience, assortment, inventory, channel coordination, and rapid feedback alike. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this Director of Product position. Where appropriate to the agreed service, KOV can help a Director of Product candidate prepare and coordinate approved next steps for Retail and E-commerce. Good preparation for Director of Product work includes a safe way to explain confusing product activity with product outcomes or disclosing confidential roadmaps and a clear distinction between fact and inference.
+Position a Director of Product career by linking lead a product area and align customer needs with team delivery to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution, then clarify which part of that work the candidate actually owned. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this Director of Product position. Where appropriate to the agreed service, KOV can help a Director of Product candidate prepare and coordinate approved next steps for Retail and E-commerce. Good preparation for Director of Product work includes a safe way to explain confusing product activity with product outcomes or disclosing confidential roadmaps and a clear distinction between fact and inference.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Product career hub](/roles/director-product/)
 
-Review the role-wide approach to lead a product area and align customer needs with team delivery and the evidence expected for that scope.
+
 
 ### [Retail and E-commerce industry hub](/industries/retail-ecommerce/)
 
-Compare how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment affects career planning across functions.
+
 
 ### [Chief Executive Officer in Retail and E-commerce](/roles/ceo/retail-ecommerce.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Product remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Operating Officer in Retail and E-commerce](/roles/coo/retail-ecommerce.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Product remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Director of Product in Manufacturing](/roles/director-product/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and identify how the Director of Product remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Director of Product test the scope of work in Retail and E-commerce?
 
-A Director of Product candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment. Explore how the role will lead a product area and align customer needs with team delivery and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of Product candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Director of Product use to explain experience in Retail and E-commerce?
 

@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Partner career hub](/roles/managing-partner/)
 
-Review the role-wide approach to combine leadership responsibilities with the governance and professional context of a partnership and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Partner remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Partner remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Managing Partner in Agriculture, Food and Forestry](/roles/managing-partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with care, health-related services, or social support delivered by teams and organizations and identify how the Managing Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Managing Partner in Healthcare and Social Care?
 
-Use the opening discussion to understand the specific Healthcare and Social Care employer, not to assume a standard role. Compare combine leadership responsibilities with the governance and professional context of a partnership with the stated scope, identify decision partners among people receiving services, families, care professionals, administrators, owners, and community partners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Healthcare and Social Care employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a Managing Partner make prior work relevant to Healthcare and Social Care?
 
@@ -139,11 +139,11 @@ Select examples that show partner-group mandate, management contribution, practi
 
 ### Which career materials can help a Managing Partner explore work in Healthcare and Social Care?
 
-Document selection depends on the opportunity. A Managing Partner may draw from partner biography, leadership resume, practice summary, and profile, but should foreground only material connected to service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a Managing Partner contacts an organization in Healthcare and Social Care?
 
-Outreach should follow target research, not precede it. The Managing Partner candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with partner-group mandate, management contribution, practice or business scope, and shared decisions is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Managing Partner background relevant to work in Healthcare and Social Care?
 

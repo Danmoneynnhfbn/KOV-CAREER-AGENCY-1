@@ -12,7 +12,7 @@ A Head of Business Development candidate should be ready to explain presenting d
 
 ## A candidate-led process from first discussion to next steps
 
-For Head of Business Development work in Healthcare and Social Care, explain how the candidate could develop relationships and opportunities that support an organization's commercial direction; connect that mandate to evidence of market focus, partnerships, opportunity pipeline, negotiation role, and attributable contribution. Treat care, health-related services, or social support delivered by teams and organizations as a question to validate in Healthcare and Social Care; the answer helps clarify the Head of Business Development mandate and its service quality, workforce coordination, access, continuity, and sensitive information. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Head of Business Development example should separate direct responsibility from collaboration. A consultation can clarify whether a Head of Business Development candidate needs positioning, document support, target research, or approved outreach for Healthcare and Social Care.
+For Head of Business Development work in Healthcare and Social Care, explain how the candidate could develop relationships and opportunities that support an organization's commercial direction; connect that mandate to evidence of market focus, partnerships, opportunity pipeline, negotiation role, and attributable contribution. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Head of Business Development example should separate direct responsibility from collaboration. A consultation can clarify whether a Head of Business Development candidate needs positioning, document support, target research, or approved outreach for Healthcare and Social Care.
 
 ## Documents that make Head of Business Development experience relevant here
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Business Development career hub](/roles/head-business-development/)
 
-Review the role-wide approach to develop relationships and opportunities that support an organization's commercial direction and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Business Development remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Business Development remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Head of Business Development in Energy, Mining and Oil and Gas](/roles/head-business-development/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with care, health-related services, or social support delivered by teams and organizations and identify how the Head of Business Development remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Head of Business Development test the scope of work in Healthcare and Social Care?
 
-Use the opening discussion to understand the specific Healthcare and Social Care employer, not to assume a standard role. Compare develop relationships and opportunities that support an organization's commercial direction with the stated scope, identify decision partners among people receiving services, families, care professionals, administrators, owners, and community partners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Healthcare and Social Care employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### What evidence can a Head of Business Development use to explain experience in Healthcare and Social Care?
 
@@ -139,15 +139,15 @@ Select examples that show market focus, partnerships, opportunity pipeline, nego
 
 ### What documents should a Head of Business Development tailor for Healthcare and Social Care opportunities?
 
-Document selection depends on the opportunity. A Head of Business Development may draw from resume, partnership portfolio, business-development narrative, and profile, but should foreground only material connected to service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### Which outreach choices belong to a Head of Business Development considering Healthcare and Social Care?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Head of Business Development candidate's service scope; the candidate approves external communication. No one route should be assumed for all Healthcare and Social Care employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Healthcare and Social Care employers.
 
 ### Can a Head of Business Development rely on title alone when targeting Healthcare and Social Care?
 
-No. Compare the role description with the candidate's experience of develop relationships and opportunities that support an organization's commercial direction and the organization's care, health-related services, or social support delivered by teams and organizations. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Head of Business Development seeking work in Healthcare and Social Care?
 

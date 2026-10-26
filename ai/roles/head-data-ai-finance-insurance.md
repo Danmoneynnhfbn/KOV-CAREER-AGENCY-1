@@ -4,7 +4,7 @@ KOV helps Head of Data and AI candidates considering roles connected to Finance 
 
 ## How Head of Data and AI work connects with Finance and Insurance
 
-The candidate can discuss data products, team scope, quality practices, governance partnership, and decision value while protecting confidentiality by omitting names, restricted figures, and other identifying material. Before presenting business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes, determine how customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders participated and which details are safe to discuss. Not every Finance and Insurance organization will handle trust, information handling, product suitability, operational resilience, and competing customer and business needs alike. Confirm how financial products and services supported by customer relationships, information, operations, and oversight informs this Head of Data and AI position. Readers need to see what Head of Data and AI work involved; connect lead data capabilities and coordinate responsible application of analytical or AI work with the candidate's own examples of data products, team scope, quality practices, governance partnership, and decision value in Finance and Insurance.
+The candidate can discuss data products, team scope, quality practices, governance partnership, and decision value while protecting confidentiality by omitting names, restricted figures, and other identifying material. Not every Finance and Insurance organization will handle trust, information handling, product suitability, operational resilience, and competing customer and business needs alike. Confirm how financial products and services supported by customer relationships, information, operations, and oversight informs this Head of Data and AI position. Readers need to see what Head of Data and AI work involved; connect lead data capabilities and coordinate responsible application of analytical or AI work with the candidate's own examples of data products, team scope, quality practices, governance partnership, and decision value in Finance and Insurance.
 
 ## Who this Head of Data and AI and Finance and Insurance guide is for
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Data and AI career hub](/roles/head-data-ai/)
 
-Review the role-wide approach to lead data capabilities and coordinate responsible application of analytical or AI work and the evidence expected for that scope.
+
 
 ### [Finance and Insurance industry hub](/industries/finance-insurance/)
 
-Compare how financial products and services supported by customer relationships, information, operations, and oversight affects career planning across functions.
+
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Data and AI remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Finance and Insurance](/roles/coo/finance-insurance.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Data and AI remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Head of Data and AI in Manufacturing](/roles/head-data-ai/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with financial products and services supported by customer relationships, information, operations, and oversight and identify how the Head of Data and AI remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Head of Data and AI clarify before considering work in Finance and Insurance?
 
-Start with the organization's account of financial products and services supported by customer relationships, information, operations, and oversight, then clarify how the Head of Data and AI would lead data capabilities and coordinate responsible application of analytical or AI work. Ask how customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of financial products and services supported by customer relationships, information, operations, and oversight, then clarify how the Head of Data and AI would lead data capabilities and coordinate responsible application of analytical or AI work. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Head of Data and AI describe transferable experience for Finance and Insurance work?
 
@@ -139,7 +139,7 @@ Select examples that show data products, team scope, quality practices, governan
 
 ### How can a Head of Data and AI choose documents for conversations about Finance and Insurance?
 
-Document selection depends on the opportunity. A Head of Data and AI may draw from resume, data leadership portfolio, project summaries, and professional profile, but should foreground only material connected to business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Head of Data and AI plan contact with Finance and Insurance organizations?
 

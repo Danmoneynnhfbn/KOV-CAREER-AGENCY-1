@@ -4,11 +4,11 @@ KOV helps Managing Director candidates considering roles connected to Technology
 
 ## How Managing Director work connects with Technology, Media and Telecom
 
-For Managing Director materials, manage the risk of assuming the title means the same authority across employers, countries, or ownership models; support claims with operating scope, commercial or service accountability, leadership span, and decision authority and remove details that are not authorized for sharing. The candidate decides whether to pursue a Managing Director opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. An account of product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality should identify the candidate's contribution and the involvement of owners, board, CEO, customers, employees, lenders or investors where relevant, and partners. Use digital products, platforms, content, communications, or technology-enabled services to frame research about Technology, Media and Telecom, then ask how a Managing Director will work through product evolution, reliability, audience or customer needs, technical choices, and changing business models.
+For Managing Director materials, manage the risk of assuming the title means the same authority across employers, countries, or ownership models; support claims with operating scope, commercial or service accountability, leadership span, and decision authority and remove details that are not authorized for sharing. KOV can support agreed research and preparation concerning Technology, Media and Telecom. An account of product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality should identify the candidate's contribution and the involvement of owners, board, CEO, customers, employees, lenders or investors where relevant, and partners. Use digital products, platforms, content, communications, or technology-enabled services to frame research about Technology, Media and Telecom, then ask how a Managing Director will work through product evolution, reliability, audience or customer needs, technical choices, and changing business models.
 
 ## Who this Managing Director and Technology, Media and Telecom guide is for
 
-The Managing Director remit to lead a business, division, or organization according to its defined mandate should be described through decisions and examples, especially evidence of operating scope, commercial or service accountability, leadership span, and decision authority relevant to Technology, Media and Telecom. An employer's Technology, Media and Telecom model may involve digital products, platforms, content, communications, or technology-enabled services; its implications for product evolution, reliability, audience or customer needs, technical choices, and changing business models should be discussed, not presumed. Discuss product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality with care: a Managing Director candidate can explain contribution while omitting confidential or identifying facts. The candidate decides whether to pursue a Managing Director opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom.
+The Managing Director remit to lead a business, division, or organization according to its defined mandate should be described through decisions and examples, especially evidence of operating scope, commercial or service accountability, leadership span, and decision authority relevant to Technology, Media and Telecom. Discuss product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality with care: a Managing Director candidate can explain contribution while omitting confidential or identifying facts. The candidate decides whether to pursue a Managing Director opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -67,7 +67,7 @@ The candidate can discuss operating scope, commercial or service accountability,
 
 ## Run the search thoughtfully in each target market
 
-In a Technology, Media and Telecom target, make the Managing Director contribution legible: describe how the candidate helped lead a business, division, or organization according to its defined mandate and what supports operating scope, commercial or service accountability, leadership span, and decision authority. Research for a Managing Director in Technology, Media and Telecom becomes more focused when the candidate investigates product evolution, reliability, audience or customer needs, technical choices, and changing business models alongside digital products, platforms, content, communications, or technology-enabled services. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Managing Director example should separate direct responsibility from collaboration. Review each Managing Director example for assuming the title means the same authority across employers, countries, or ownership models, then describe the candidate's decisions without overstating their control over owners, board, CEO, customers, employees, lenders or investors where relevant, and partners.
+In a Technology, Media and Telecom target, make the Managing Director contribution legible: describe how the candidate helped lead a business, division, or organization according to its defined mandate and what supports operating scope, commercial or service accountability, leadership span, and decision authority. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Managing Director example should separate direct responsibility from collaboration. Review each Managing Director example for assuming the title means the same authority across employers, countries, or ownership models, then describe the candidate's decisions without overstating their control over owners, board, CEO, customers, employees, lenders or investors where relevant, and partners.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Director career hub](/roles/managing-director/)
 
-Review the role-wide approach to lead a business, division, or organization according to its defined mandate and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Director remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Director remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Managing Director in Agriculture, Food and Forestry](/roles/managing-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with digital products, platforms, content, communications, or technology-enabled services and identify how the Managing Director remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Managing Director resolve before a target discussion in Technology, Media and Telecom?
 
-Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the Managing Director would lead a business, division, or organization according to its defined mandate. Ask how users, product and engineering teams, customers, creators, advertisers, partners, and investors participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the Managing Director would lead a business, division, or organization according to its defined mandate. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### Which parts of a Managing Director career story fit the needs of Technology, Media and Telecom?
 
@@ -139,19 +139,19 @@ Describe an instance where the candidate could lead a business, division, or org
 
 ### What should a Managing Director prepare in writing before targeting Technology, Media and Telecom?
 
-Document selection depends on the opportunity. A Managing Director may draw from executive resume, business leadership biography, mandate summary, and profile, but should foreground only material connected to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What should a Managing Director approve before outreach in Technology, Media and Telecom?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Managing Director candidate's service scope; the candidate approves external communication. No one route should be assumed for all Technology, Media and Telecom employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Technology, Media and Telecom employers.
 
 ### How should a Managing Director compare title and remit in Technology, Media and Telecom?
 
-No. Compare the role description with the candidate's experience of lead a business, division, or organization according to its defined mandate and the organization's digital products, platforms, content, communications, or technology-enabled services. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Will KOV secure a meeting for a Managing Director with an employer in Technology, Media and Telecom?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Managing Director candidate considering Technology, Media and Telecom, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

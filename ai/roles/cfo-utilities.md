@@ -16,7 +16,7 @@ Good preparation for Chief Financial Officer work includes a safe way to explain
 
 ## Documents that make Chief Financial Officer experience relevant here
 
-The candidate decides whether to pursue a Chief Financial Officer opportunity. KOV can support agreed research and preparation concerning Utilities. Discuss service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination with care: a Chief Financial Officer candidate can explain contribution while omitting confidential or identifying facts. To understand the Utilities target, explore essential network or service operations with continuity, infrastructure, and customer responsibilities and ask how a Chief Financial Officer is expected to respond to reliability, infrastructure renewal, service access, affordability, and long-term planning. The Chief Financial Officer remit to lead financial stewardship and connect resource decisions to organizational priorities should be described through decisions and examples, especially evidence of financial leadership scope, planning, controls, capital or resource choices, and communication relevant to Utilities.
+The candidate decides whether to pursue a Chief Financial Officer opportunity. Discuss service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination with care: a Chief Financial Officer candidate can explain contribution while omitting confidential or identifying facts. To understand the Utilities target, explore essential network or service operations with continuity, infrastructure, and customer responsibilities and ask how a Chief Financial Officer is expected to respond to reliability, infrastructure renewal, service access, affordability, and long-term planning. The Chief Financial Officer remit to lead financial stewardship and connect resource decisions to organizational priorities should be described through decisions and examples, especially evidence of financial leadership scope, planning, controls, capital or resource choices, and communication relevant to Utilities.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ Consider document and positioning support for Chief Financial Officer materials 
 
 ## Prepare to discuss the Utilities mandate
 
-Protect credibility in Utilities by addressing presenting financial outcomes without context, attribution, or permission to disclose with a factual account of financial leadership scope, planning, controls, capital or resource choices, and communication and its limits. In Utilities, customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders may shape the work. A Chief Financial Officer example should separate direct responsibility from collaboration. An employer's Utilities model may involve essential network or service operations with continuity, infrastructure, and customer responsibilities; its implications for reliability, infrastructure renewal, service access, affordability, and long-term planning should be discussed, not presumed. Readers need to see what Chief Financial Officer work involved; connect lead financial stewardship and connect resource decisions to organizational priorities with the candidate's own examples of financial leadership scope, planning, controls, capital or resource choices, and communication in Utilities.
+Protect credibility in Utilities by addressing presenting financial outcomes without context, attribution, or permission to disclose with a factual account of financial leadership scope, planning, controls, capital or resource choices, and communication and its limits. A Chief Financial Officer example should separate direct responsibility from collaboration. An employer's Utilities model may involve essential network or service operations with continuity, infrastructure, and customer responsibilities; its implications for reliability, infrastructure renewal, service access, affordability, and long-term planning should be discussed, not presumed. Readers need to see what Chief Financial Officer work involved; connect lead financial stewardship and connect resource decisions to organizational priorities with the candidate's own examples of financial leadership scope, planning, controls, capital or resource choices, and communication in Utilities.
 
 ## Common positioning mistakes for Chief Financial Officer candidates in Utilities
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Financial Officer career hub](/roles/cfo/)
 
-Review the role-wide approach to lead financial stewardship and connect resource decisions to organizational priorities and the evidence expected for that scope.
+
 
 ### [Utilities industry hub](/industries/utilities/)
 
-Compare how essential network or service operations with continuity, infrastructure, and customer responsibilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Utilities](/roles/ceo/utilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Financial Officer remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Operating Officer in Utilities](/roles/coo/utilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Financial Officer remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Financial Officer in Agriculture, Food and Forestry](/roles/cfo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with essential network or service operations with continuity, infrastructure, and customer responsibilities and identify how the Chief Financial Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Financial Officer in Utilities?
 
-A Chief Financial Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's essential network or service operations with continuity, infrastructure, and customer responsibilities. Explore how the role will lead financial stewardship and connect resource decisions to organizational priorities and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Financial Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's essential network or service operations with continuity, infrastructure, and customer responsibilities. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Chief Financial Officer make prior work relevant to Utilities?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What must be agreed before a Chief Financial Officer contacts an organization in Utilities?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Financial Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Utilities employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Utilities employers.
 
 ### What makes a Chief Financial Officer background relevant to work in Utilities?
 

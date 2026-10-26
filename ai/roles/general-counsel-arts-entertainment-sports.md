@@ -16,7 +16,7 @@ A General Counsel / Chief Legal Officer candidate should be ready to explain con
 
 ## A candidate-led process from first discussion to next steps
 
-Review each General Counsel / Chief Legal Officer example for confusing legal advice with business decision ownership or disclosing privileged information, then describe the candidate's decisions without overstating their control over CEO, board or owners, business leaders, legal colleagues, regulators where relevant, and outside advisers. A consultation can clarify whether a General Counsel / Chief Legal Officer candidate needs positioning, document support, target research, or approved outreach for Arts, Entertainment and Sports. In Arts, Entertainment and Sports, audiences, participants, creators, athletes, sponsors, venues, partners, and communities may shape the work. A General Counsel / Chief Legal Officer example should separate direct responsibility from collaboration. Ask what creative, cultural, event, audience, or sporting activity supported by teams and organizations means at this particular Arts, Entertainment and Sports organization and how it changes the priorities assigned to a General Counsel / Chief Legal Officer.
+Review each General Counsel / Chief Legal Officer example for confusing legal advice with business decision ownership or disclosing privileged information, then describe the candidate's decisions without overstating their control over CEO, board or owners, business leaders, legal colleagues, regulators where relevant, and outside advisers. In Arts, Entertainment and Sports, audiences, participants, creators, athletes, sponsors, venues, partners, and communities may shape the work. A General Counsel / Chief Legal Officer example should separate direct responsibility from collaboration. Ask what creative, cultural, event, audience, or sporting activity supported by teams and organizations means at this particular Arts, Entertainment and Sports organization and how it changes the priorities assigned to a General Counsel / Chief Legal Officer.
 
 ## Documents that make General Counsel / Chief Legal Officer experience relevant here
 
@@ -113,29 +113,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [General Counsel / Chief Legal Officer career hub](/roles/general-counsel/)
 
-Review the role-wide approach to lead legal judgment and connect legal advice with organizational decisions and the evidence expected for that scope.
+
 
 ### [Arts, Entertainment and Sports industry hub](/industries/arts-entertainment-sports/)
 
-Compare how creative, cultural, event, audience, or sporting activity supported by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Arts, Entertainment and Sports](/roles/ceo/arts-entertainment-sports.html)
 
-Contrast set organization-wide direction and coordinate executive work with the General Counsel / Chief Legal Officer remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Operating Officer in Arts, Entertainment and Sports](/roles/coo/arts-entertainment-sports.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the General Counsel / Chief Legal Officer remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [General Counsel / Chief Legal Officer in Agriculture, Food and Forestry](/roles/general-counsel/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with creative, cultural, event, audience, or sporting activity supported by teams and organizations and identify how the General Counsel / Chief Legal Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a General Counsel / Chief Legal Officer test the scope of work in Arts, Entertainment and Sports?
 
-A General Counsel / Chief Legal Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's creative, cultural, event, audience, or sporting activity supported by teams and organizations. Explore how the role will lead legal judgment and connect legal advice with organizational decisions and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A General Counsel / Chief Legal Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's creative, cultural, event, audience, or sporting activity supported by teams and organizations. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a General Counsel / Chief Legal Officer use to explain experience in Arts, Entertainment and Sports?
 
@@ -151,11 +151,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### Can a General Counsel / Chief Legal Officer rely on title alone when targeting Arts, Entertainment and Sports?
 
-No. Compare the role description with the candidate's experience of lead legal judgment and connect legal advice with organizational decisions and the organization's creative, cultural, event, audience, or sporting activity supported by teams and organizations. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a General Counsel / Chief Legal Officer seeking work in Arts, Entertainment and Sports?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a General Counsel / Chief Legal Officer candidate considering Arts, Entertainment and Sports, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

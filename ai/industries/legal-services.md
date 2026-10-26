@@ -103,27 +103,27 @@ Use KOV's London page as a starting point for an agreed UK-focused search discus
 
 ### Saudi Arabia
 
-For Legal Services targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Legal Services targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Legal Services targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### UAE
 
-For Legal Services targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Legal Services targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Legal Services targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### United Kingdom
 
-For Legal Services targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Legal Services targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Legal Services targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Dubai
 
-For Legal Services targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Legal Services targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Legal Services targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Australia
 
-For Legal Services targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Legal Services targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Legal Services targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Africa
 
-For Legal Services targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Legal Services targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Legal Services targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ## Choose an appropriate level of career support
 
@@ -149,87 +149,87 @@ Use the cards to open only the role-and-industry pages currently available. Each
 
 ### [Chief Executive Officer in Legal Services](/roles/ceo/legal-services.html)
 
-Explore how set organization-wide direction and coordinate executive work connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Operating Officer in Legal Services](/roles/coo/legal-services.html)
 
-Explore how align operating functions, delivery systems, and organizational priorities connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Financial Officer in Legal Services](/roles/cfo/legal-services.html)
 
-Explore how lead financial stewardship and connect resource decisions to organizational priorities connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Technology Officer in Legal Services](/roles/cto/legal-services.html)
 
-Explore how set technology direction and connect technical choices with product and business needs connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Information Officer in Legal Services](/roles/cio/legal-services.html)
 
-Explore how guide information systems, digital operations, and technology services for the organization connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Marketing Officer in Legal Services](/roles/cmo/legal-services.html)
 
-Explore how shape marketing strategy, customer understanding, brand, and commercial communication connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Human Resources Officer in Legal Services](/roles/chro/legal-services.html)
 
-Explore how guide people strategy, organizational capability, and workforce-related leadership connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Information Security Officer in Legal Services](/roles/ciso/legal-services.html)
 
-Explore how lead information-security priorities and coordinate risk-informed protection connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [General Counsel / Chief Legal Officer in Legal Services](/roles/general-counsel/legal-services.html)
 
-Explore how lead legal judgment and connect legal advice with organizational decisions connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Revenue Officer in Legal Services](/roles/chief-revenue-officer/legal-services.html)
 
-Explore how coordinate revenue-facing functions around a coherent commercial direction connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Product Officer in Legal Services](/roles/chief-product-officer/legal-services.html)
 
-Explore how guide product direction, portfolio choices, and the connection between users and delivery teams connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Strategy Officer in Legal Services](/roles/chief-strategy-officer/legal-services.html)
 
-Explore how support organization-wide choices by framing options, analysis, and strategic execution connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Board Director in Legal Services](/roles/board-director/legal-services.html)
 
-Explore how contribute oversight, inquiry, and strategic perspective within collective governance connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Non-Executive Director in Legal Services](/roles/non-executive-director/legal-services.html)
 
-Explore how provide independent challenge and strategic contribution distinct from management connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chair in Legal Services](/roles/chair/legal-services.html)
 
-Explore how lead board effectiveness and support clear governance and decision-making connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Managing Director in Legal Services](/roles/managing-director/legal-services.html)
 
-Explore how lead a business, division, or organization according to its defined mandate connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Managing Partner in Legal Services](/roles/managing-partner/legal-services.html)
 
-Explore how combine leadership responsibilities with the governance and professional context of a partnership connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Partner in Legal Services](/roles/partner/legal-services.html)
 
-Explore how develop a practice or business while contributing to a shared ownership or partnership structure connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Director of Legal in Legal Services](/roles/director-legal/legal-services.html)
 
-Explore how manage a legal team, practice area, or legal operations remit connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Head of Legal in Legal Services](/roles/head-legal/legal-services.html)
 
-Explore how lead a legal function or specialist team and advise on decisions within its remit connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Head of Compliance in Legal Services](/roles/head-compliance/legal-services.html)
 
-Explore how coordinate compliance programs and support consistent interpretation of organizational obligations connects with legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ## Questions that make a Legal Services target more specific
 
@@ -263,7 +263,7 @@ KOV can help candidates organize relevant experience and documents around an agr
 
 ### Can KOV promise an interview with a Legal Services organization?
 
-No. KOV does not guarantee interviews, offers, employment, introductions, or timelines. Employers make hiring decisions.
+No. Employers make hiring decisions.
 
 ### How should I compare two Legal Services opportunities?
 

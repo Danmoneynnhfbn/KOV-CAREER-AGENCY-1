@@ -49,7 +49,7 @@ Review each Managing Director example for assuming the title means the same auth
 
 ## Common positioning mistakes for Managing Director candidates in Energy, Mining and Oil and Gas
 
-Before discussing project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes, check whether assuming the title means the same authority across employers, countries, or ownership models could expose sensitive details or blur the candidate's decision boundary. Use an example involving project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes to describe the decision, the parties involved, and the candidate's role as a Managing Director. Not every Energy, Mining and Oil and Gas organization will handle long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand alike. Confirm how asset-intensive work spanning development, extraction, generation, processing, or energy services informs this Managing Director position. In a Energy, Mining and Oil and Gas target, make the Managing Director contribution legible: describe how the candidate helped lead a business, division, or organization according to its defined mandate and what supports operating scope, commercial or service accountability, leadership span, and decision authority.
+Before discussing project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes, check whether assuming the title means the same authority across employers, countries, or ownership models could expose sensitive details or blur the candidate's decision boundary. Not every Energy, Mining and Oil and Gas organization will handle long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand alike. Confirm how asset-intensive work spanning development, extraction, generation, processing, or energy services informs this Managing Director position. In a Energy, Mining and Oil and Gas target, make the Managing Director contribution legible: describe how the candidate helped lead a business, division, or organization according to its defined mandate and what supports operating scope, commercial or service accountability, leadership span, and decision authority.
 
 - Treat Energy, Mining and Oil and Gas as one uniform employer type; distinguish the actual organization and role.
 - Use a Managing Director title without explaining lead a business, division, or organization according to its defined mandate.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Director career hub](/roles/managing-director/)
 
-Review the role-wide approach to lead a business, division, or organization according to its defined mandate and the evidence expected for that scope.
+
 
 ### [Energy, Mining and Oil and Gas industry hub](/industries/energy-mining-oil-gas/)
 
-Compare how asset-intensive work spanning development, extraction, generation, processing, or energy services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Energy, Mining and Oil and Gas](/roles/ceo/energy-mining-oil-gas.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Director remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Operating Officer in Energy, Mining and Oil and Gas](/roles/coo/energy-mining-oil-gas.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Director remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Managing Director in Agriculture, Food and Forestry](/roles/managing-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with asset-intensive work spanning development, extraction, generation, processing, or energy services and identify how the Managing Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Managing Director clarify before considering work in Energy, Mining and Oil and Gas?
 
-A Managing Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's asset-intensive work spanning development, extraction, generation, processing, or energy services. Explore how the role will lead a business, division, or organization according to its defined mandate and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Managing Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's asset-intensive work spanning development, extraction, generation, processing, or energy services. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Managing Director describe transferable experience for Energy, Mining and Oil and Gas work?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of operating scope, commerc
 
 ### How can a Managing Director choose documents for conversations about Energy, Mining and Oil and Gas?
 
-Possible materials include executive resume, business leadership biography, mandate summary, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes. Each claim should be accurate for this Energy, Mining and Oil and Gas target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, business leadership biography, mandate summary, and profile. Each claim should be accurate for this Energy, Mining and Oil and Gas target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Managing Director plan contact with Energy, Mining and Oil and Gas organizations?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate operating 
 
 ### What can KOV promise a Managing Director candidate considering Energy, Mining and Oil and Gas?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Managing Director candidate considering Energy, Mining and Oil and Gas, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

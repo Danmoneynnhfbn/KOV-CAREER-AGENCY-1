@@ -33,7 +33,7 @@ A Chief Financial Officer candidate should show how financial leadership scope, 
 
 ## Choose the individual services that fit the work
 
-A Chief Financial Officer candidate should be ready to explain presenting financial outcomes without context, attribution, or permission to disclose without revealing confidential details or implying unsupported responsibility. A consultation can clarify whether a Chief Financial Officer candidate needs positioning, document support, target research, or approved outreach for Technology, Media and Telecom. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Chief Financial Officer example should separate direct responsibility from collaboration. The Chief Financial Officer remit to lead financial stewardship and connect resource decisions to organizational priorities should be described through decisions and examples, especially evidence of financial leadership scope, planning, controls, capital or resource choices, and communication relevant to Technology, Media and Telecom.
+A Chief Financial Officer candidate should be ready to explain presenting financial outcomes without context, attribution, or permission to disclose without revealing confidential details or implying unsupported responsibility. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Chief Financial Officer example should separate direct responsibility from collaboration. The Chief Financial Officer remit to lead financial stewardship and connect resource decisions to organizational priorities should be described through decisions and examples, especially evidence of financial leadership scope, planning, controls, capital or resource choices, and communication relevant to Technology, Media and Telecom.
 
 ### [Private career representation](/services.html)
 
@@ -49,7 +49,7 @@ A candidate exploring Technology, Media and Telecom should test the assumed link
 
 ## Common positioning mistakes for Chief Financial Officer candidates in Technology, Media and Telecom
 
-A Chief Financial Officer candidate should be ready to explain presenting financial outcomes without context, attribution, or permission to disclose without revealing confidential details or implying unsupported responsibility. The candidate decides whether to pursue a Chief Financial Officer opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. For Technology, Media and Telecom, establish whether digital products, platforms, content, communications, or technology-enabled services describes the target employer and how product evolution, reliability, audience or customer needs, technical choices, and changing business models is reflected in its Chief Financial Officer mandate. A precise Chief Financial Officer story ties financial leadership scope, planning, controls, capital or resource choices, and communication to the mandate of lead financial stewardship and connect resource decisions to organizational priorities, without suggesting that the title alone establishes fit.
+A Chief Financial Officer candidate should be ready to explain presenting financial outcomes without context, attribution, or permission to disclose without revealing confidential details or implying unsupported responsibility. KOV can support agreed research and preparation concerning Technology, Media and Telecom. For Technology, Media and Telecom, establish whether digital products, platforms, content, communications, or technology-enabled services describes the target employer and how product evolution, reliability, audience or customer needs, technical choices, and changing business models is reflected in its Chief Financial Officer mandate. A precise Chief Financial Officer story ties financial leadership scope, planning, controls, capital or resource choices, and communication to the mandate of lead financial stewardship and connect resource decisions to organizational priorities, without suggesting that the title alone establishes fit.
 
 - Treat Technology, Media and Telecom as one uniform employer type; distinguish the actual organization and role.
 - Use a Chief Financial Officer title without explaining lead financial stewardship and connect resource decisions to organizational priorities.
@@ -59,11 +59,11 @@ A Chief Financial Officer candidate should be ready to explain presenting financ
 
 ## Keep research, confidentiality, and outreach aligned
 
-Readers need to see what Chief Financial Officer work involved; connect lead financial stewardship and connect resource decisions to organizational priorities with the candidate's own examples of financial leadership scope, planning, controls, capital or resource choices, and communication in Technology, Media and Telecom. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Chief Financial Officer example should separate direct responsibility from collaboration. KOV's service scope for a Chief Financial Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. For Chief Financial Officer materials, manage the risk of presenting financial outcomes without context, attribution, or permission to disclose; support claims with financial leadership scope, planning, controls, capital or resource choices, and communication and remove details that are not authorized for sharing.
+Readers need to see what Chief Financial Officer work involved; connect lead financial stewardship and connect resource decisions to organizational priorities with the candidate's own examples of financial leadership scope, planning, controls, capital or resource choices, and communication in Technology, Media and Telecom. A Chief Financial Officer example should separate direct responsibility from collaboration. KOV's service scope for a Chief Financial Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. For Chief Financial Officer materials, manage the risk of presenting financial outcomes without context, attribution, or permission to disclose; support claims with financial leadership scope, planning, controls, capital or resource choices, and communication and remove details that are not authorized for sharing.
 
 ## Prepare for conversations about Technology, Media and Telecom work
 
-To assess a Chief Financial Officer opportunity in Technology, Media and Telecom, compare the stated remit to the candidate's record of financial leadership scope, planning, controls, capital or resource choices, and communication. Not every Technology, Media and Telecom organization will handle product evolution, reliability, audience or customer needs, technical choices, and changing business models alike. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Chief Financial Officer position. The candidate decides whether to pursue a Chief Financial Officer opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Keep the Chief Financial Officer narrative accurate where presenting financial outcomes without context, attribution, or permission to disclose may arise: attribute shared work and disclose only information the candidate may use.
+To assess a Chief Financial Officer opportunity in Technology, Media and Telecom, compare the stated remit to the candidate's record of financial leadership scope, planning, controls, capital or resource choices, and communication. The candidate decides whether to pursue a Chief Financial Officer opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Keep the Chief Financial Officer narrative accurate where presenting financial outcomes without context, attribution, or permission to disclose may arise: attribute shared work and disclose only information the candidate may use.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Financial Officer career hub](/roles/cfo/)
 
-Review the role-wide approach to lead financial stewardship and connect resource decisions to organizational priorities and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Financial Officer remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Financial Officer remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Financial Officer in Agriculture, Food and Forestry](/roles/cfo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with digital products, platforms, content, communications, or technology-enabled services and identify how the Chief Financial Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Financial Officer clarify before considering work in Technology, Media and Telecom?
 
-A Chief Financial Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's digital products, platforms, content, communications, or technology-enabled services. Explore how the role will lead financial stewardship and connect resource decisions to organizational priorities and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Financial Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's digital products, platforms, content, communications, or technology-enabled services. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Chief Financial Officer describe transferable experience for Technology, Media and Telecom work?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of financial leadership sco
 
 ### How can a Chief Financial Officer choose documents for conversations about Technology, Media and Telecom?
 
-Possible materials include executive resume, finance leadership profile, board biography, and achievement summary. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, finance leadership profile, board biography, and achievement summary. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Chief Financial Officer plan contact with Technology, Media and Telecom organizations?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate financial 
 
 ### What can KOV promise a Chief Financial Officer candidate considering Technology, Media and Telecom?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Financial Officer candidate considering Technology, Media and Telecom, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

@@ -8,7 +8,7 @@ A consultation can clarify whether a Vice President of Finance candidate needs p
 
 ## Who this Vice President of Finance and Public Sector and Government guide is for
 
-For Vice President of Finance work in Public Sector and Government, explain how the candidate could lead finance teams and translate financial information into decisions for a business area; connect that mandate to evidence of planning scope, financial controls, analysis, resource decisions, and communication. Not every Public Sector and Government organization will handle public purpose, stewardship, transparency, service access, and coordination across institutions alike. Confirm how public administration, public programs, or services delivered under a public mandate informs this Vice President of Finance position. KOV's service scope for a Vice President of Finance candidate can include document preparation and agreed search activity, but cannot promise an employer's response. For Vice President of Finance materials, manage the risk of disclosing sensitive figures or presenting forecasts as realized results; support claims with planning scope, financial controls, analysis, resource decisions, and communication and remove details that are not authorized for sharing.
+For Vice President of Finance work in Public Sector and Government, explain how the candidate could lead finance teams and translate financial information into decisions for a business area; connect that mandate to evidence of planning scope, financial controls, analysis, resource decisions, and communication. Confirm how public administration, public programs, or services delivered under a public mandate informs this Vice President of Finance position. KOV's service scope for a Vice President of Finance candidate can include document preparation and agreed search activity, but cannot promise an employer's response. For Vice President of Finance materials, manage the risk of disclosing sensitive figures or presenting forecasts as realized results; support claims with planning scope, financial controls, analysis, resource decisions, and communication and remove details that are not authorized for sharing.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -33,7 +33,7 @@ Review each Vice President of Finance example for disclosing sensitive figures o
 
 ## Choose the individual services that fit the work
 
-Do not resolve uncertainty about disclosing sensitive figures or presenting forecasts as realized results through assumption; verify the requirement and use only supportable Vice President of Finance claims. The candidate decides whether to pursue a Vice President of Finance opportunity. KOV can support agreed research and preparation concerning Public Sector and Government. For Public Sector and Government, establish whether public administration, public programs, or services delivered under a public mandate describes the target employer and how public purpose, stewardship, transparency, service access, and coordination across institutions is reflected in its Vice President of Finance mandate. Show the Vice President of Finance scope behind the title: how the candidate could lead finance teams and translate financial information into decisions for a business area, which decisions mattered, and where planning scope, financial controls, analysis, resource decisions, and communication demonstrates their contribution.
+Do not resolve uncertainty about disclosing sensitive figures or presenting forecasts as realized results through assumption; verify the requirement and use only supportable Vice President of Finance claims. KOV can support agreed research and preparation concerning Public Sector and Government. For Public Sector and Government, establish whether public administration, public programs, or services delivered under a public mandate describes the target employer and how public purpose, stewardship, transparency, service access, and coordination across institutions is reflected in its Vice President of Finance mandate. Show the Vice President of Finance scope behind the title: how the candidate could lead finance teams and translate financial information into decisions for a business area, which decisions mattered, and where planning scope, financial controls, analysis, resource decisions, and communication demonstrates their contribution.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Finance career hub](/roles/vp-finance/)
 
-Review the role-wide approach to lead finance teams and translate financial information into decisions for a business area and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Finance remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Finance remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Vice President of Finance in Manufacturing](/roles/vp-finance/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with public administration, public programs, or services delivered under a public mandate and identify how the Vice President of Finance remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Vice President of Finance in Public Sector and Government?
 
-Start with the organization's account of public administration, public programs, or services delivered under a public mandate, then clarify how the Vice President of Finance would lead finance teams and translate financial information into decisions for a business area. Ask how residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of public administration, public programs, or services delivered under a public mandate, then clarify how the Vice President of Finance would lead finance teams and translate financial information into decisions for a business area. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Vice President of Finance make prior work relevant to Public Sector and Government?
 
@@ -139,7 +139,7 @@ Select examples that show planning scope, financial controls, analysis, resource
 
 ### Which career materials can help a Vice President of Finance explore work in Public Sector and Government?
 
-Possible materials include executive resume, finance leadership summary, profile, and selected achievement examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, finance leadership summary, profile, and selected achievement examples. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Vice President of Finance contacts an organization in Public Sector and Government?
 

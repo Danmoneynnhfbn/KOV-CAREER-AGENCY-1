@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Operating Officer career hub](/roles/coo/)
 
-Review the role-wide approach to align operating functions, delivery systems, and organizational priorities and the evidence expected for that scope.
+
 
 ### [Construction and Engineering industry hub](/industries/construction-engineering/)
 
-Compare how project-based delivery involving design, procurement, technical coordination, and site execution affects career planning across functions.
+
 
 ### [Chief Executive Officer in Construction and Engineering](/roles/ceo/construction-engineering.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Operating Officer remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Financial Officer in Construction and Engineering](/roles/cfo/construction-engineering.html)
 
-Contrast lead financial stewardship and connect resource decisions to organizational priorities with the Chief Operating Officer remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with project-based delivery involving design, procurement, technical coordination, and site execution and identify how the Chief Operating Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Operating Officer clarify before considering work in Construction and Engineering?
 
-Start with the organization's account of project-based delivery involving design, procurement, technical coordination, and site execution, then clarify how the Chief Operating Officer would align operating functions, delivery systems, and organizational priorities. Ask how clients, project teams, designers, contractors, suppliers, workers, and asset users participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of project-based delivery involving design, procurement, technical coordination, and site execution, then clarify how the Chief Operating Officer would align operating functions, delivery systems, and organizational priorities. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Chief Operating Officer describe transferable experience for Construction and Engineering work?
 
@@ -139,15 +139,15 @@ Make the connection explicit: the candidate's record of operating scale, service
 
 ### How can a Chief Operating Officer choose documents for conversations about Construction and Engineering?
 
-Document selection depends on the opportunity. A Chief Operating Officer may draw from executive resume, operating-impact summary, leadership biography, and profile, but should foreground only material connected to project complexity, commercial or technical decisions, interface management, delivery contribution, and lessons learned. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Chief Operating Officer plan contact with Construction and Engineering organizations?
 
-Outreach should follow target research, not precede it. The Chief Operating Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with operating scale, service or product delivery, cross-functional change, and decision rights is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Chief Operating Officer assess fit with Construction and Engineering responsibilities?
 
-Title is only a label. Establish what the employer means by Chief Operating Officer in this Construction and Engineering organization and how the person will work with clients, project teams, designers, contractors, suppliers, workers, and asset users. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Chief Operating Officer candidate considering Construction and Engineering?
 

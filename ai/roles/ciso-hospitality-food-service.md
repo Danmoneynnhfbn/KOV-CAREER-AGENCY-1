@@ -16,7 +16,7 @@ Readers need to see what Chief Information Security Officer work involved; conne
 
 ## Documents that make Chief Information Security Officer experience relevant here
 
-A Chief Information Security Officer candidate should show how security remit, risk decisions, operating model, incident leadership where authorized, and adoption supported the work to lead information-security priorities and coordinate risk-informed protection, with the Hospitality and Food Service setting made explicit. Not every Hospitality and Food Service organization will handle guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alike. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Chief Information Security Officer position. The service plan should fit the candidate's Chief Information Security Officer priorities; agree research, materials, and any outreach before contact occurs. Do not resolve uncertainty about exposing sensitive controls or incidents, or overstating personal responsibility for shared security work through assumption; verify the requirement and use only supportable Chief Information Security Officer claims.
+A Chief Information Security Officer candidate should show how security remit, risk decisions, operating model, incident leadership where authorized, and adoption supported the work to lead information-security priorities and coordinate risk-informed protection, with the Hospitality and Food Service setting made explicit. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Chief Information Security Officer position. The service plan should fit the candidate's Chief Information Security Officer priorities; agree research, materials, and any outreach before contact occurs. Do not resolve uncertainty about exposing sensitive controls or incidents, or overstating personal responsibility for shared security work through assumption; verify the requirement and use only supportable Chief Information Security Officer claims.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ Consider document and positioning support for Chief Information Security Officer
 
 ## Prepare to discuss the Hospitality and Food Service mandate
 
-To assess a Chief Information Security Officer opportunity in Hospitality and Food Service, compare the stated remit to the candidate's record of security remit, risk decisions, operating model, incident leadership where authorized, and adoption. An account of venue or service scope, team leadership, guest context, service design, and attributable operating contributions should identify the candidate's contribution and the involvement of CEO, technology teams, risk and legal colleagues, employees, customers, and oversight bodies as applicable. The candidate decides whether to pursue a Chief Information Security Officer opportunity. KOV can support agreed research and preparation concerning Hospitality and Food Service. Do not resolve uncertainty about exposing sensitive controls or incidents, or overstating personal responsibility for shared security work through assumption; verify the requirement and use only supportable Chief Information Security Officer claims.
+To assess a Chief Information Security Officer opportunity in Hospitality and Food Service, compare the stated remit to the candidate's record of security remit, risk decisions, operating model, incident leadership where authorized, and adoption. The candidate decides whether to pursue a Chief Information Security Officer opportunity. KOV can support agreed research and preparation concerning Hospitality and Food Service. Do not resolve uncertainty about exposing sensitive controls or incidents, or overstating personal responsibility for shared security work through assumption; verify the requirement and use only supportable Chief Information Security Officer claims.
 
 ## Common positioning mistakes for Chief Information Security Officer candidates in Hospitality and Food Service
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Information Security Officer career hub](/roles/ciso/)
 
-Review the role-wide approach to lead information-security priorities and coordinate risk-informed protection and the evidence expected for that scope.
+
 
 ### [Hospitality and Food Service industry hub](/industries/hospitality-food-service/)
 
-Compare how guest-facing accommodation, food, venue, or experience services delivered through people and operations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Hospitality and Food Service](/roles/ceo/hospitality-food-service.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Information Security Officer remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Operating Officer in Hospitality and Food Service](/roles/coo/hospitality-food-service.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Information Security Officer remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Information Security Officer in Agriculture, Food and Forestry](/roles/ciso/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with guest-facing accommodation, food, venue, or experience services delivered through people and operations and identify how the Chief Information Security Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Information Security Officer clarify before considering work in Hospitality and Food Service?
 
-Start with the organization's account of guest-facing accommodation, food, venue, or experience services delivered through people and operations, then clarify how the Chief Information Security Officer would lead information-security priorities and coordinate risk-informed protection. Ask how guests, employees, suppliers, owners, local partners, and service teams participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of guest-facing accommodation, food, venue, or experience services delivered through people and operations, then clarify how the Chief Information Security Officer would lead information-security priorities and coordinate risk-informed protection. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Chief Information Security Officer describe transferable experience for Hospitality and Food Service work?
 
@@ -139,19 +139,19 @@ Describe an instance where the candidate could lead information-security priorit
 
 ### How can a Chief Information Security Officer choose documents for conversations about Hospitality and Food Service?
 
-Document selection depends on the opportunity. A Chief Information Security Officer may draw from executive resume, security leadership summary, profile, and sanitized case examples, but should foreground only material connected to venue or service scope, team leadership, guest context, service design, and attributable operating contributions. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Chief Information Security Officer plan contact with Hospitality and Food Service organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Information Security Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Hospitality and Food Service employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Hospitality and Food Service employers.
 
 ### How can a Chief Information Security Officer assess fit with Hospitality and Food Service responsibilities?
 
-No. Compare the role description with the candidate's experience of lead information-security priorities and coordinate risk-informed protection and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Chief Information Security Officer candidate considering Hospitality and Food Service?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Information Security Officer candidate considering Hospitality and Food Service, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

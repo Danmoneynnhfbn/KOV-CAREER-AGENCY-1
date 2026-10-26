@@ -12,7 +12,7 @@ Research for a Managing Director in Utilities becomes more focused when the cand
 
 ## A candidate-led process from first discussion to next steps
 
-In a Utilities target, make the Managing Director contribution legible: describe how the candidate helped lead a business, division, or organization according to its defined mandate and what supports operating scope, commercial or service accountability, leadership span, and decision authority. Treat essential network or service operations with continuity, infrastructure, and customer responsibilities as a question to validate in Utilities; the answer helps clarify the Managing Director mandate and its reliability, infrastructure renewal, service access, affordability, and long-term planning. Consider how customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders interact with a Managing Director; use examples of service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination to show judgment and collaboration. The candidate decides whether to pursue a Managing Director opportunity. KOV can support agreed research and preparation concerning Utilities.
+In a Utilities target, make the Managing Director contribution legible: describe how the candidate helped lead a business, division, or organization according to its defined mandate and what supports operating scope, commercial or service accountability, leadership span, and decision authority. Consider how customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders interact with a Managing Director; use examples of service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination to show judgment and collaboration. The candidate decides whether to pursue a Managing Director opportunity. KOV can support agreed research and preparation concerning Utilities.
 
 ## Documents that make Managing Director experience relevant here
 
@@ -49,7 +49,7 @@ Good preparation for Managing Director work includes a safe way to explain assum
 
 ## Common positioning mistakes for Managing Director candidates in Utilities
 
-Keep the Managing Director narrative accurate where assuming the title means the same authority across employers, countries, or ownership models may arise: attribute shared work and disclose only information the candidate may use. The candidate decides whether to pursue a Managing Director opportunity. KOV can support agreed research and preparation concerning Utilities. In Utilities, customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders may shape the work. A Managing Director example should separate direct responsibility from collaboration. Ask what essential network or service operations with continuity, infrastructure, and customer responsibilities means at this particular Utilities organization and how it changes the priorities assigned to a Managing Director.
+Keep the Managing Director narrative accurate where assuming the title means the same authority across employers, countries, or ownership models may arise: attribute shared work and disclose only information the candidate may use. In Utilities, customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders may shape the work. A Managing Director example should separate direct responsibility from collaboration. Ask what essential network or service operations with continuity, infrastructure, and customer responsibilities means at this particular Utilities organization and how it changes the priorities assigned to a Managing Director.
 
 - Treat Utilities as one uniform employer type; distinguish the actual organization and role.
 - Use a Managing Director title without explaining lead a business, division, or organization according to its defined mandate.
@@ -59,15 +59,15 @@ Keep the Managing Director narrative accurate where assuming the title means the
 
 ## Keep research, confidentiality, and outreach aligned
 
-Rather than lead with seniority, a Managing Director profile can explain the responsibility to lead a business, division, or organization according to its defined mandate and use service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination as evidence. Not every Utilities organization will handle reliability, infrastructure renewal, service access, affordability, and long-term planning alike. Confirm how essential network or service operations with continuity, infrastructure, and customer responsibilities informs this Managing Director position. Candidate-side support from KOV may connect Managing Director positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Protect credibility in Utilities by addressing assuming the title means the same authority across employers, countries, or ownership models with a factual account of operating scope, commercial or service accountability, leadership span, and decision authority and its limits.
+Rather than lead with seniority, a Managing Director profile can explain the responsibility to lead a business, division, or organization according to its defined mandate and use service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination as evidence. Confirm how essential network or service operations with continuity, infrastructure, and customer responsibilities informs this Managing Director position. Candidate-side support from KOV may connect Managing Director positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Protect credibility in Utilities by addressing assuming the title means the same authority across employers, countries, or ownership models with a factual account of operating scope, commercial or service accountability, leadership span, and decision authority and its limits.
 
 ## Prepare for conversations about Utilities work
 
-For Managing Director work in Utilities, explain how the candidate could lead a business, division, or organization according to its defined mandate; connect that mandate to evidence of operating scope, commercial or service accountability, leadership span, and decision authority. In Utilities, customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders may shape the work. A Managing Director example should separate direct responsibility from collaboration. KOV can help a Managing Director candidate organize an agreed search approach for Utilities, including documents such as executive resume, business leadership biography, mandate summary, and profile. Protect credibility in Utilities by addressing assuming the title means the same authority across employers, countries, or ownership models with a factual account of operating scope, commercial or service accountability, leadership span, and decision authority and its limits.
+For Managing Director work in Utilities, explain how the candidate could lead a business, division, or organization according to its defined mandate; connect that mandate to evidence of operating scope, commercial or service accountability, leadership span, and decision authority. A Managing Director example should separate direct responsibility from collaboration. KOV can help a Managing Director candidate organize an agreed search approach for Utilities, including documents such as executive resume, business leadership biography, mandate summary, and profile. Protect credibility in Utilities by addressing assuming the title means the same authority across employers, countries, or ownership models with a factual account of operating scope, commercial or service accountability, leadership span, and decision authority and its limits.
 
 ## Run the search thoughtfully in each target market
 
-Good preparation for Managing Director work includes a safe way to explain assuming the title means the same authority across employers, countries, or ownership models and a clear distinction between fact and inference. Discuss service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination with care: a Managing Director candidate can explain contribution while omitting confidential or identifying facts. Not every Utilities organization will handle reliability, infrastructure renewal, service access, affordability, and long-term planning alike. Confirm how essential network or service operations with continuity, infrastructure, and customer responsibilities informs this Managing Director position. Position a Managing Director career by linking lead a business, division, or organization according to its defined mandate to service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination, then clarify which part of that work the candidate actually owned.
+Good preparation for Managing Director work includes a safe way to explain assuming the title means the same authority across employers, countries, or ownership models and a clear distinction between fact and inference. Not every Utilities organization will handle reliability, infrastructure renewal, service access, affordability, and long-term planning alike. Confirm how essential network or service operations with continuity, infrastructure, and customer responsibilities informs this Managing Director position. Position a Managing Director career by linking lead a business, division, or organization according to its defined mandate to service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination, then clarify which part of that work the candidate actually owned.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Director career hub](/roles/managing-director/)
 
-Review the role-wide approach to lead a business, division, or organization according to its defined mandate and the evidence expected for that scope.
+
 
 ### [Utilities industry hub](/industries/utilities/)
 
-Compare how essential network or service operations with continuity, infrastructure, and customer responsibilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Utilities](/roles/ceo/utilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Director remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Operating Officer in Utilities](/roles/coo/utilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Director remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Managing Director in Agriculture, Food and Forestry](/roles/managing-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with essential network or service operations with continuity, infrastructure, and customer responsibilities and identify how the Managing Director remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Managing Director test the scope of work in Utilities?
 
-Start with the organization's account of essential network or service operations with continuity, infrastructure, and customer responsibilities, then clarify how the Managing Director would lead a business, division, or organization according to its defined mandate. Ask how customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of essential network or service operations with continuity, infrastructure, and customer responsibilities, then clarify how the Managing Director would lead a business, division, or organization according to its defined mandate. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Managing Director use to explain experience in Utilities?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could lead a business, division, or org
 
 ### What documents should a Managing Director tailor for Utilities opportunities?
 
-Possible materials include executive resume, business leadership biography, mandate summary, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination. Each claim should be accurate for this Utilities target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, business leadership biography, mandate summary, and profile. Each claim should be accurate for this Utilities target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Managing Director considering Utilities?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Managing Director candidate's service scope; the candidate approves external communication. No one route should be assumed for all Utilities employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Utilities employers.
 
 ### Can a Managing Director rely on title alone when targeting Utilities?
 
-No. Compare the role description with the candidate's experience of lead a business, division, or organization according to its defined mandate and the organization's essential network or service operations with continuity, infrastructure, and customer responsibilities. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Managing Director seeking work in Utilities?
 

@@ -8,7 +8,7 @@ To assess a Vice President of People opportunity in Healthcare and Social Care, 
 
 ## Who this Vice President of People and Healthcare and Social Care guide is for
 
-For Vice President of People materials, manage the risk of including identifiable employee matters or claims without appropriate context; support claims with people agenda, organization design, manager support, program scope, and employee experience and remove details that are not authorized for sharing. Consider how people receiving services, families, care professionals, administrators, owners, and community partners interact with a Vice President of People; use examples of service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples to show judgment and collaboration. Not every Healthcare and Social Care organization will handle service quality, workforce coordination, access, continuity, and sensitive information alike. Confirm how care, health-related services, or social support delivered by teams and organizations informs this Vice President of People position. For Vice President of People work in Healthcare and Social Care, explain how the candidate could lead people programs and partner with managers on organizational capability; connect that mandate to evidence of people agenda, organization design, manager support, program scope, and employee experience.
+For Vice President of People materials, manage the risk of including identifiable employee matters or claims without appropriate context; support claims with people agenda, organization design, manager support, program scope, and employee experience and remove details that are not authorized for sharing. Not every Healthcare and Social Care organization will handle service quality, workforce coordination, access, continuity, and sensitive information alike. Confirm how care, health-related services, or social support delivered by teams and organizations informs this Vice President of People position. For Vice President of People work in Healthcare and Social Care, explain how the candidate could lead people programs and partner with managers on organizational capability; connect that mandate to evidence of people agenda, organization design, manager support, program scope, and employee experience.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of People career hub](/roles/vp-people/)
 
-Review the role-wide approach to lead people programs and partner with managers on organizational capability and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of People remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of People remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Vice President of People in Manufacturing](/roles/vp-people/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with care, health-related services, or social support delivered by teams and organizations and identify how the Vice President of People remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Vice President of People in Healthcare and Social Care?
 
-Use the opening discussion to understand the specific Healthcare and Social Care employer, not to assume a standard role. Compare lead people programs and partner with managers on organizational capability with the stated scope, identify decision partners among people receiving services, families, care professionals, administrators, owners, and community partners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Healthcare and Social Care employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a Vice President of People make prior work relevant to Healthcare and Social Care?
 
@@ -139,11 +139,11 @@ Select examples that show people agenda, organization design, manager support, p
 
 ### Which career materials can help a Vice President of People explore work in Healthcare and Social Care?
 
-Document selection depends on the opportunity. A Vice President of People may draw from executive resume, people leadership portfolio, biography, and profile, but should foreground only material connected to service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a Vice President of People contacts an organization in Healthcare and Social Care?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Vice President of People candidate's service scope; the candidate approves external communication. No one route should be assumed for all Healthcare and Social Care employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Healthcare and Social Care employers.
 
 ### What makes a Vice President of People background relevant to work in Healthcare and Social Care?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate people age
 
 ### Does KOV control employer responses to Vice President of People outreach in Healthcare and Social Care?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Vice President of People candidate considering Healthcare and Social Care, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

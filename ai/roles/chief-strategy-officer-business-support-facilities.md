@@ -8,7 +8,7 @@ For Chief Strategy Officer materials, manage the risk of presenting recommendati
 
 ## Who this Chief Strategy Officer and Business Support and Facilities guide is for
 
-Readers need to see what Chief Strategy Officer work involved; connect support organization-wide choices by framing options, analysis, and strategic execution with the candidate's own examples of strategy remit, decision support, portfolio choices, implementation links, and influence in Business Support and Facilities. Treat support services, workplace operations, facilities, administration, or outsourced capabilities as a question to validate in Business Support and Facilities; the answer helps clarify the Chief Strategy Officer mandate and its service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity. In Business Support and Facilities, internal clients, employees, service teams, suppliers, customers, and contract owners may shape the work. A Chief Strategy Officer example should separate direct responsibility from collaboration. The service plan should fit the candidate's Chief Strategy Officer priorities; agree research, materials, and any outreach before contact occurs.
+Readers need to see what Chief Strategy Officer work involved; connect support organization-wide choices by framing options, analysis, and strategic execution with the candidate's own examples of strategy remit, decision support, portfolio choices, implementation links, and influence in Business Support and Facilities. In Business Support and Facilities, internal clients, employees, service teams, suppliers, customers, and contract owners may shape the work. A Chief Strategy Officer example should separate direct responsibility from collaboration. The service plan should fit the candidate's Chief Strategy Officer priorities; agree research, materials, and any outreach before contact occurs.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -16,7 +16,7 @@ For Chief Strategy Officer materials, manage the risk of presenting recommendati
 
 ## Documents that make Chief Strategy Officer experience relevant here
 
-To assess a Chief Strategy Officer opportunity in Business Support and Facilities, compare the stated remit to the candidate's record of strategy remit, decision support, portfolio choices, implementation links, and influence. An employer's Business Support and Facilities model may involve support services, workplace operations, facilities, administration, or outsourced capabilities; its implications for service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity should be discussed, not presumed. The candidate decides whether to pursue a Chief Strategy Officer opportunity. KOV can support agreed research and preparation concerning Business Support and Facilities. The candidate can discuss strategy remit, decision support, portfolio choices, implementation links, and influence while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+To assess a Chief Strategy Officer opportunity in Business Support and Facilities, compare the stated remit to the candidate's record of strategy remit, decision support, portfolio choices, implementation links, and influence. The candidate decides whether to pursue a Chief Strategy Officer opportunity. KOV can support agreed research and preparation concerning Business Support and Facilities. The candidate can discuss strategy remit, decision support, portfolio choices, implementation links, and influence while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -63,7 +63,7 @@ Research for a Chief Strategy Officer in Business Support and Facilities becomes
 
 ## Prepare for conversations about Business Support and Facilities work
 
-A Chief Strategy Officer candidate should show how strategy remit, decision support, portfolio choices, implementation links, and influence supported the work to support organization-wide choices by framing options, analysis, and strategic execution, with the Business Support and Facilities setting made explicit. The Business Support and Facilities context involves support services, workplace operations, facilities, administration, or outsourced capabilities; examine how that structure affects service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity before drawing conclusions about the Chief Strategy Officer role. The candidate decides whether to pursue a Chief Strategy Officer opportunity. KOV can support agreed research and preparation concerning Business Support and Facilities. Good preparation for Chief Strategy Officer work includes a safe way to explain presenting recommendations as implemented outcomes or leaving ownership unclear and a clear distinction between fact and inference.
+A Chief Strategy Officer candidate should show how strategy remit, decision support, portfolio choices, implementation links, and influence supported the work to support organization-wide choices by framing options, analysis, and strategic execution, with the Business Support and Facilities setting made explicit. The candidate decides whether to pursue a Chief Strategy Officer opportunity. KOV can support agreed research and preparation concerning Business Support and Facilities. Good preparation for Chief Strategy Officer work includes a safe way to explain presenting recommendations as implemented outcomes or leaving ownership unclear and a clear distinction between fact and inference.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Strategy Officer career hub](/roles/chief-strategy-officer/)
 
-Review the role-wide approach to support organization-wide choices by framing options, analysis, and strategic execution and the evidence expected for that scope.
+
 
 ### [Business Support and Facilities industry hub](/industries/business-support-facilities/)
 
-Compare how support services, workplace operations, facilities, administration, or outsourced capabilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Business Support and Facilities](/roles/ceo/business-support-facilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Strategy Officer remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Operating Officer in Business Support and Facilities](/roles/coo/business-support-facilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Strategy Officer remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Strategy Officer in Agriculture, Food and Forestry](/roles/chief-strategy-officer/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with support services, workplace operations, facilities, administration, or outsourced capabilities and identify how the Chief Strategy Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Strategy Officer in Business Support and Facilities?
 
-Start with the organization's account of support services, workplace operations, facilities, administration, or outsourced capabilities, then clarify how the Chief Strategy Officer would support organization-wide choices by framing options, analysis, and strategic execution. Ask how internal clients, employees, service teams, suppliers, customers, and contract owners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of support services, workplace operations, facilities, administration, or outsourced capabilities, then clarify how the Chief Strategy Officer would support organization-wide choices by framing options, analysis, and strategic execution. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Chief Strategy Officer make prior work relevant to Business Support and Facilities?
 
@@ -139,11 +139,11 @@ Select examples that show strategy remit, decision support, portfolio choices, i
 
 ### Which career materials can help a Chief Strategy Officer explore work in Business Support and Facilities?
 
-Possible materials include executive resume, strategy portfolio, executive biography, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, strategy portfolio, executive biography, and profile. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Chief Strategy Officer contacts an organization in Business Support and Facilities?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Strategy Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Business Support and Facilities employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Business Support and Facilities employers.
 
 ### What makes a Chief Strategy Officer background relevant to work in Business Support and Facilities?
 

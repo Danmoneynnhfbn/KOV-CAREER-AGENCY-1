@@ -12,7 +12,7 @@ Where sharing nonpublic financial details or overstating sign-off authority affe
 
 ## A candidate-led process from first discussion to next steps
 
-For Director of Finance work in Public Sector and Government, explain how the candidate could lead financial planning, reporting, or control activity for a function or organization; connect that mandate to evidence of team responsibility, planning cycle, reporting scope, decision support, and controls. Treat public administration, public programs, or services delivered under a public mandate as a question to validate in Public Sector and Government; the answer helps clarify the Director of Finance mandate and its public purpose, stewardship, transparency, service access, and coordination across institutions. Map the Public Sector and Government relationships among residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders; verify actual authority instead of inferring a reporting line. The candidate decides whether to pursue a Director of Finance opportunity. KOV can support agreed research and preparation concerning Public Sector and Government.
+For Director of Finance work in Public Sector and Government, explain how the candidate could lead financial planning, reporting, or control activity for a function or organization; connect that mandate to evidence of team responsibility, planning cycle, reporting scope, decision support, and controls. Map the Public Sector and Government relationships among residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders; verify actual authority instead of inferring a reporting line. The candidate decides whether to pursue a Director of Finance opportunity. KOV can support agreed research and preparation concerning Public Sector and Government.
 
 ## Documents that make Director of Finance experience relevant here
 
@@ -59,7 +59,7 @@ The Public Sector and Government context involves public administration, public 
 
 ## Keep research, confidentiality, and outreach aligned
 
-Protect credibility in Public Sector and Government by addressing sharing nonpublic financial details or overstating sign-off authority with a factual account of team responsibility, planning cycle, reporting scope, decision support, and controls and its limits. The candidate's record of team responsibility, planning cycle, reporting scope, decision support, and controls should be set beside the role of residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders, so shared results are attributed fairly. Not every Public Sector and Government organization will handle public purpose, stewardship, transparency, service access, and coordination across institutions alike. Confirm how public administration, public programs, or services delivered under a public mandate informs this Director of Finance position. Rather than lead with seniority, a Director of Finance profile can explain the responsibility to lead financial planning, reporting, or control activity for a function or organization and use program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context as evidence.
+Protect credibility in Public Sector and Government by addressing sharing nonpublic financial details or overstating sign-off authority with a factual account of team responsibility, planning cycle, reporting scope, decision support, and controls and its limits. Not every Public Sector and Government organization will handle public purpose, stewardship, transparency, service access, and coordination across institutions alike. Confirm how public administration, public programs, or services delivered under a public mandate informs this Director of Finance position. Rather than lead with seniority, a Director of Finance profile can explain the responsibility to lead financial planning, reporting, or control activity for a function or organization and use program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context as evidence.
 
 ## Prepare for conversations about Public Sector and Government work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Finance career hub](/roles/director-finance/)
 
-Review the role-wide approach to lead financial planning, reporting, or control activity for a function or organization and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Finance remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Finance remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Director of Finance in Manufacturing](/roles/director-finance/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with public administration, public programs, or services delivered under a public mandate and identify how the Director of Finance remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Director of Finance test the scope of work in Public Sector and Government?
 
-A Director of Finance candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. Explore how the role will lead financial planning, reporting, or control activity for a function or organization and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of Finance candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Director of Finance use to explain experience in Public Sector and Government?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### Which outreach choices belong to a Director of Finance considering Public Sector and Government?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of Finance candidate's service scope; the candidate approves external communication. No one route should be assumed for all Public Sector and Government employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Public Sector and Government employers.
 
 ### Can a Director of Finance rely on title alone when targeting Public Sector and Government?
 
-No. Compare the role description with the candidate's experience of lead financial planning, reporting, or control activity for a function or organization and the organization's public administration, public programs, or services delivered under a public mandate. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Director of Finance seeking work in Public Sector and Government?
 

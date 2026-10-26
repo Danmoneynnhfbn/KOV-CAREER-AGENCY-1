@@ -12,11 +12,11 @@ Position a Chief Product Officer career by linking guide product direction, port
 
 ## A candidate-led process from first discussion to next steps
 
-Protect credibility in Energy, Mining and Oil and Gas by addressing listing launches without clarifying user need, decision role, trade-offs, and adoption context with a factual account of product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes and its limits. The candidate decides whether to pursue a Chief Product Officer opportunity. KOV can support agreed research and preparation concerning Energy, Mining and Oil and Gas. Explain how CEO, engineering, design, sales, support, customers, and product teams contributed to the candidate's work and distinguish that shared context from evidence of product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes. A Chief Product Officer candidate should show how product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes supported the work to guide product direction, portfolio choices, and the connection between users and delivery teams, with the Energy, Mining and Oil and Gas setting made explicit.
+Protect credibility in Energy, Mining and Oil and Gas by addressing listing launches without clarifying user need, decision role, trade-offs, and adoption context with a factual account of product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes and its limits. KOV can support agreed research and preparation concerning Energy, Mining and Oil and Gas. Explain how CEO, engineering, design, sales, support, customers, and product teams contributed to the candidate's work and distinguish that shared context from evidence of product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes. A Chief Product Officer candidate should show how product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes supported the work to guide product direction, portfolio choices, and the connection between users and delivery teams, with the Energy, Mining and Oil and Gas setting made explicit.
 
 ## Documents that make Chief Product Officer experience relevant here
 
-Good preparation for Chief Product Officer work includes a safe way to explain listing launches without clarifying user need, decision role, trade-offs, and adoption context and a clear distinction between fact and inference. The candidate decides whether to pursue a Chief Product Officer opportunity. KOV can support agreed research and preparation concerning Energy, Mining and Oil and Gas. Before presenting project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes, determine how asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders participated and which details are safe to discuss. Position a Chief Product Officer career by linking guide product direction, portfolio choices, and the connection between users and delivery teams to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes, then clarify which part of that work the candidate actually owned.
+Good preparation for Chief Product Officer work includes a safe way to explain listing launches without clarifying user need, decision role, trade-offs, and adoption context and a clear distinction between fact and inference. KOV can support agreed research and preparation concerning Energy, Mining and Oil and Gas. Before presenting project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes, determine how asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders participated and which details are safe to discuss. Position a Chief Product Officer career by linking guide product direction, portfolio choices, and the connection between users and delivery teams to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes, then clarify which part of that work the candidate actually owned.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Product Officer career hub](/roles/chief-product-officer/)
 
-Review the role-wide approach to guide product direction, portfolio choices, and the connection between users and delivery teams and the evidence expected for that scope.
+
 
 ### [Energy, Mining and Oil and Gas industry hub](/industries/energy-mining-oil-gas/)
 
-Compare how asset-intensive work spanning development, extraction, generation, processing, or energy services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Energy, Mining and Oil and Gas](/roles/ceo/energy-mining-oil-gas.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Product Officer remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Operating Officer in Energy, Mining and Oil and Gas](/roles/coo/energy-mining-oil-gas.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Product Officer remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Product Officer in Agriculture, Food and Forestry](/roles/chief-product-officer/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with asset-intensive work spanning development, extraction, generation, processing, or energy services and identify how the Chief Product Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Product Officer in Energy, Mining and Oil and Gas?
 
-Start with the organization's account of asset-intensive work spanning development, extraction, generation, processing, or energy services, then clarify how the Chief Product Officer would guide product direction, portfolio choices, and the connection between users and delivery teams. Ask how asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of asset-intensive work spanning development, extraction, generation, processing, or energy services, then clarify how the Chief Product Officer would guide product direction, portfolio choices, and the connection between users and delivery teams. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Chief Product Officer make prior work relevant to Energy, Mining and Oil and Gas?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could guide product direction, portfoli
 
 ### Which career materials can help a Chief Product Officer explore work in Energy, Mining and Oil and Gas?
 
-Possible materials include executive resume, product portfolio narrative, leadership biography, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes. Each claim should be accurate for this Energy, Mining and Oil and Gas target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, product portfolio narrative, leadership biography, and profile. Each claim should be accurate for this Energy, Mining and Oil and Gas target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Chief Product Officer contacts an organization in Energy, Mining and Oil and Gas?
 
-Outreach should follow target research, not precede it. The Chief Product Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Chief Product Officer background relevant to work in Energy, Mining and Oil and Gas?
 
-No. Compare the role description with the candidate's experience of guide product direction, portfolio choices, and the connection between users and delivery teams and the organization's asset-intensive work spanning development, extraction, generation, processing, or energy services. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Chief Product Officer outreach in Energy, Mining and Oil and Gas?
 

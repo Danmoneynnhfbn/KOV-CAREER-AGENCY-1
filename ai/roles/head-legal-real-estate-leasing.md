@@ -4,7 +4,7 @@ KOV helps Head of Legal candidates considering roles connected to Real Estate an
 
 ## How Head of Legal work connects with Real Estate and Leasing
 
-The candidate decides whether to pursue a Head of Legal opportunity. KOV can support agreed research and preparation concerning Real Estate and Leasing. The candidate's record of advisory scope, team structure, work management, risk judgment, and stakeholder partnership should be set beside the role of owners, tenants, customers, investors, property teams, suppliers, and communities, so shared results are attributed fairly. Research for a Head of Legal in Real Estate and Leasing becomes more focused when the candidate investigates asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions alongside property ownership, development, brokerage, management, or leasing relationships. Show the Head of Legal scope behind the title: how the candidate could lead a legal function or specialist team and advise on decisions within its remit, which decisions mattered, and where advisory scope, team structure, work management, risk judgment, and stakeholder partnership demonstrates their contribution.
+The candidate decides whether to pursue a Head of Legal opportunity. The candidate's record of advisory scope, team structure, work management, risk judgment, and stakeholder partnership should be set beside the role of owners, tenants, customers, investors, property teams, suppliers, and communities, so shared results are attributed fairly. Research for a Head of Legal in Real Estate and Leasing becomes more focused when the candidate investigates asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions alongside property ownership, development, brokerage, management, or leasing relationships. Show the Head of Legal scope behind the title: how the candidate could lead a legal function or specialist team and advise on decisions within its remit, which decisions mattered, and where advisory scope, team structure, work management, risk judgment, and stakeholder partnership demonstrates their contribution.
 
 ## Who this Head of Legal and Real Estate and Leasing guide is for
 
@@ -16,7 +16,7 @@ Do not resolve uncertainty about sharing privileged material or implying that le
 
 ## Documents that make Head of Legal experience relevant here
 
-A Head of Legal candidate should show how advisory scope, team structure, work management, risk judgment, and stakeholder partnership supported the work to lead a legal function or specialist team and advise on decisions within its remit, with the Real Estate and Leasing setting made explicit. Not every Real Estate and Leasing organization will handle asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions alike. Confirm how property ownership, development, brokerage, management, or leasing relationships informs this Head of Legal position. Career representation remains candidate-led: KOV can support a Head of Legal search, while the candidate approves the goals and disclosures. Do not resolve uncertainty about sharing privileged material or implying that legal advice alone owned business decisions through assumption; verify the requirement and use only supportable Head of Legal claims.
+A Head of Legal candidate should show how advisory scope, team structure, work management, risk judgment, and stakeholder partnership supported the work to lead a legal function or specialist team and advise on decisions within its remit, with the Real Estate and Leasing setting made explicit. Confirm how property ownership, development, brokerage, management, or leasing relationships informs this Head of Legal position. Career representation remains candidate-led: KOV can support a Head of Legal search, while the candidate approves the goals and disclosures. Do not resolve uncertainty about sharing privileged material or implying that legal advice alone owned business decisions through assumption; verify the requirement and use only supportable Head of Legal claims.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Legal career hub](/roles/head-legal/)
 
-Review the role-wide approach to lead a legal function or specialist team and advise on decisions within its remit and the evidence expected for that scope.
+
 
 ### [Real Estate and Leasing industry hub](/industries/real-estate-leasing/)
 
-Compare how property ownership, development, brokerage, management, or leasing relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Real Estate and Leasing](/roles/ceo/real-estate-leasing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Legal remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Operating Officer in Real Estate and Leasing](/roles/coo/real-estate-leasing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Legal remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Head of Legal in Technology, Media and Telecom](/roles/head-legal/technology-media-telecom.html)
 
-Compare digital products, platforms, content, communications, or technology-enabled services with property ownership, development, brokerage, management, or leasing relationships and identify how the Head of Legal remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Head of Legal in Real Estate and Leasing?
 
-Start with the organization's account of property ownership, development, brokerage, management, or leasing relationships, then clarify how the Head of Legal would lead a legal function or specialist team and advise on decisions within its remit. Ask how owners, tenants, customers, investors, property teams, suppliers, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of property ownership, development, brokerage, management, or leasing relationships, then clarify how the Head of Legal would lead a legal function or specialist team and advise on decisions within its remit. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Head of Legal make prior work relevant to Real Estate and Leasing?
 
@@ -139,11 +139,11 @@ Select examples that show advisory scope, team structure, work management, risk 
 
 ### Which career materials can help a Head of Legal explore work in Real Estate and Leasing?
 
-Possible materials include legal leadership resume, practice biography, role summary, and discreet examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution. Each claim should be accurate for this Real Estate and Leasing target, and confidential or unauthorized material should be omitted.
+Possible materials include legal leadership resume, practice biography, role summary, and discreet examples. Each claim should be accurate for this Real Estate and Leasing target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Head of Legal contacts an organization in Real Estate and Leasing?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Head of Legal candidate's service scope; the candidate approves external communication. No one route should be assumed for all Real Estate and Leasing employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Real Estate and Leasing employers.
 
 ### What makes a Head of Legal background relevant to work in Real Estate and Leasing?
 

@@ -12,7 +12,7 @@ Where relying on headline figures without explaining team, territory, offer, and
 
 ## A candidate-led process from first discussion to next steps
 
-For Vice President of Sales work in Manufacturing, explain how the candidate could lead a sales organization and connect market priorities with execution; connect that mandate to evidence of team scope, customer segments, sales processes, forecasting discipline, and attributable contribution. Treat conversion of materials into products through coordinated processes, equipment, people, and quality systems as a question to validate in Manufacturing; the answer helps clarify the Vice President of Sales mandate and its production planning, equipment capacity, quality, workforce capability, and customer demand. Map the Manufacturing relationships among employees, suppliers, customers, engineering, operations, distribution, and ownership; verify actual authority instead of inferring a reporting line. The candidate decides whether to pursue a Vice President of Sales opportunity. KOV can support agreed research and preparation concerning Manufacturing.
+For Vice President of Sales work in Manufacturing, explain how the candidate could lead a sales organization and connect market priorities with execution; connect that mandate to evidence of team scope, customer segments, sales processes, forecasting discipline, and attributable contribution. Map the Manufacturing relationships among employees, suppliers, customers, engineering, operations, distribution, and ownership; verify actual authority instead of inferring a reporting line. The candidate decides whether to pursue a Vice President of Sales opportunity. KOV can support agreed research and preparation concerning Manufacturing.
 
 ## Documents that make Vice President of Sales experience relevant here
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Sales career hub](/roles/vp-sales/)
 
-Review the role-wide approach to lead a sales organization and connect market priorities with execution and the evidence expected for that scope.
+
 
 ### [Manufacturing industry hub](/industries/manufacturing/)
 
-Compare how conversion of materials into products through coordinated processes, equipment, people, and quality systems affects career planning across functions.
+
 
 ### [Chief Executive Officer in Manufacturing](/roles/ceo/manufacturing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Sales remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Operating Officer in Manufacturing](/roles/coo/manufacturing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Sales remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Vice President of Sales in Wholesale and Distribution](/roles/vp-sales/wholesale-distribution.html)
 
-Compare movement and availability of goods through purchasing, inventory, channel, and delivery relationships with conversion of materials into products through coordinated processes, equipment, people, and quality systems and identify how the Vice President of Sales remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Vice President of Sales clarify before considering work in Manufacturing?
 
-A Vice President of Sales candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's conversion of materials into products through coordinated processes, equipment, people, and quality systems. Explore how the role will lead a sales organization and connect market priorities with execution and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Vice President of Sales candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's conversion of materials into products through coordinated processes, equipment, people, and quality systems. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Vice President of Sales describe transferable experience for Manufacturing work?
 
@@ -139,19 +139,19 @@ Select examples that show team scope, customer segments, sales processes, foreca
 
 ### How can a Vice President of Sales choose documents for conversations about Manufacturing?
 
-Possible materials include executive resume, sales leadership profile, commercial achievements, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to plant or product scope, process decisions, quality or delivery context, team leadership, and improvement work. Each claim should be accurate for this Manufacturing target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, sales leadership profile, commercial achievements, and profile. Each claim should be accurate for this Manufacturing target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Vice President of Sales plan contact with Manufacturing organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Vice President of Sales candidate's service scope; the candidate approves external communication. No one route should be assumed for all Manufacturing employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Manufacturing employers.
 
 ### How can a Vice President of Sales assess fit with Manufacturing responsibilities?
 
-No. Compare the role description with the candidate's experience of lead a sales organization and connect market priorities with execution and the organization's conversion of materials into products through coordinated processes, equipment, people, and quality systems. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Vice President of Sales candidate considering Manufacturing?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Vice President of Sales candidate considering Manufacturing, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

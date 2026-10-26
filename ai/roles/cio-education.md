@@ -49,7 +49,7 @@ Readers need to see what Chief Information Officer work involved; connect guide 
 
 ## Common positioning mistakes for Chief Information Officer candidates in Education
 
-In a Education target, make the Chief Information Officer contribution legible: describe how the candidate helped guide information systems, digital operations, and technology services for the organization and what supports systems scope, service reliability, data stewardship, transformation, governance, and adoption. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Chief Information Officer position. KOV's service scope for a Chief Information Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Before discussing program or institutional scope, learner or service context, staff leadership, and improvement contribution, check whether collapsing infrastructure, information, product, and digital responsibilities into one vague claim could expose sensitive details or blur the candidate's decision boundary.
+In a Education target, make the Chief Information Officer contribution legible: describe how the candidate helped guide information systems, digital operations, and technology services for the organization and what supports systems scope, service reliability, data stewardship, transformation, governance, and adoption. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Chief Information Officer position. KOV's service scope for a Chief Information Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Before discussing program or institutional scope, learner or service context, staff leadership, and improvement contribution, check whether collapsing infrastructure, information, product, and digital responsibilities into one vague claim could expose sensitive details or blur the candidate's decision boundary.
 
 - Treat Education as one uniform employer type; distinguish the actual organization and role.
 - Use a Chief Information Officer title without explaining guide information systems, digital operations, and technology services for the organization.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Information Officer career hub](/roles/cio/)
 
-Review the role-wide approach to guide information systems, digital operations, and technology services for the organization and the evidence expected for that scope.
+
 
 ### [Education industry hub](/industries/education/)
 
-Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.
+
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Information Officer remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Education](/roles/coo/education.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Information Officer remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Information Officer in Agriculture, Food and Forestry](/roles/cio/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with learning services delivered through institutions, programs, technology, or educational support and identify how the Chief Information Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Information Officer clarify before considering work in Education?
 
-Start with the organization's account of learning services delivered through institutions, programs, technology, or educational support, then clarify how the Chief Information Officer would guide information systems, digital operations, and technology services for the organization. Ask how learners, families, educators, administrators, owners or boards, and community partners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of learning services delivered through institutions, programs, technology, or educational support, then clarify how the Chief Information Officer would guide information systems, digital operations, and technology services for the organization. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Chief Information Officer describe transferable experience for Education work?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of systems scope, service r
 
 ### How can a Chief Information Officer choose documents for conversations about Education?
 
-Document selection depends on the opportunity. A Chief Information Officer may draw from executive resume, transformation summary, professional biography, and profile, but should foreground only material connected to program or institutional scope, learner or service context, staff leadership, and improvement contribution. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Chief Information Officer plan contact with Education organizations?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Chief Information Officer assess fit with Education responsibilities?
 
-Title is only a label. Establish what the employer means by Chief Information Officer in this Education organization and how the person will work with learners, families, educators, administrators, owners or boards, and community partners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Chief Information Officer candidate considering Education?
 

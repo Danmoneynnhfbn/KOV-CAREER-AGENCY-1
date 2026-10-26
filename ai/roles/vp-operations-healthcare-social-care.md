@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Operations career hub](/roles/vp-operations/)
 
-Review the role-wide approach to coordinate operational performance across teams, locations, or service lines and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Operations remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Operations remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Vice President of Operations in Agriculture, Food and Forestry](/roles/vp-operations/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with care, health-related services, or social support delivered by teams and organizations and identify how the Vice President of Operations remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Vice President of Operations in Healthcare and Social Care?
 
-A Vice President of Operations candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's care, health-related services, or social support delivered by teams and organizations. Explore how the role will coordinate operational performance across teams, locations, or service lines and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Vice President of Operations candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's care, health-related services, or social support delivered by teams and organizations. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Vice President of Operations make prior work relevant to Healthcare and Social Care?
 

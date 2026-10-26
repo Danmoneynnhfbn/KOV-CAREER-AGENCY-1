@@ -85,27 +85,27 @@ Use KOV's London page as a starting point for an agreed UK-focused search discus
 
 ### Saudi Arabia
 
-For Consulting and Other Professional Services targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Consulting and Other Professional Services targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Consulting and Other Professional Services targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### UAE
 
-For Consulting and Other Professional Services targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Consulting and Other Professional Services targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Consulting and Other Professional Services targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### United Kingdom
 
-For Consulting and Other Professional Services targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Consulting and Other Professional Services targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Consulting and Other Professional Services targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Dubai
 
-For Consulting and Other Professional Services targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Consulting and Other Professional Services targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Consulting and Other Professional Services targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Australia
 
-For Consulting and Other Professional Services targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Consulting and Other Professional Services targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Consulting and Other Professional Services targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Africa
 
-For Consulting and Other Professional Services targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Consulting and Other Professional Services targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Consulting and Other Professional Services targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ## Choose an appropriate level of career support
 
@@ -129,123 +129,123 @@ Use the cards to open only the role-and-industry pages currently available. Each
 
 ### [Chief Executive Officer in Consulting and Other Professional Services](/roles/ceo/consulting-professional-services.html)
 
-Explore how set organization-wide direction and coordinate executive work connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chief Operating Officer in Consulting and Other Professional Services](/roles/coo/consulting-professional-services.html)
 
-Explore how align operating functions, delivery systems, and organizational priorities connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chief Financial Officer in Consulting and Other Professional Services](/roles/cfo/consulting-professional-services.html)
 
-Explore how lead financial stewardship and connect resource decisions to organizational priorities connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chief Technology Officer in Consulting and Other Professional Services](/roles/cto/consulting-professional-services.html)
 
-Explore how set technology direction and connect technical choices with product and business needs connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chief Information Officer in Consulting and Other Professional Services](/roles/cio/consulting-professional-services.html)
 
-Explore how guide information systems, digital operations, and technology services for the organization connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chief Marketing Officer in Consulting and Other Professional Services](/roles/cmo/consulting-professional-services.html)
 
-Explore how shape marketing strategy, customer understanding, brand, and commercial communication connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chief Human Resources Officer in Consulting and Other Professional Services](/roles/chro/consulting-professional-services.html)
 
-Explore how guide people strategy, organizational capability, and workforce-related leadership connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chief Information Security Officer in Consulting and Other Professional Services](/roles/ciso/consulting-professional-services.html)
 
-Explore how lead information-security priorities and coordinate risk-informed protection connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [General Counsel / Chief Legal Officer in Consulting and Other Professional Services](/roles/general-counsel/consulting-professional-services.html)
 
-Explore how lead legal judgment and connect legal advice with organizational decisions connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chief Revenue Officer in Consulting and Other Professional Services](/roles/chief-revenue-officer/consulting-professional-services.html)
 
-Explore how coordinate revenue-facing functions around a coherent commercial direction connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chief Product Officer in Consulting and Other Professional Services](/roles/chief-product-officer/consulting-professional-services.html)
 
-Explore how guide product direction, portfolio choices, and the connection between users and delivery teams connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chief Strategy Officer in Consulting and Other Professional Services](/roles/chief-strategy-officer/consulting-professional-services.html)
 
-Explore how support organization-wide choices by framing options, analysis, and strategic execution connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Board Director in Consulting and Other Professional Services](/roles/board-director/consulting-professional-services.html)
 
-Explore how contribute oversight, inquiry, and strategic perspective within collective governance connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Non-Executive Director in Consulting and Other Professional Services](/roles/non-executive-director/consulting-professional-services.html)
 
-Explore how provide independent challenge and strategic contribution distinct from management connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chair in Consulting and Other Professional Services](/roles/chair/consulting-professional-services.html)
 
-Explore how lead board effectiveness and support clear governance and decision-making connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Managing Director in Consulting and Other Professional Services](/roles/managing-director/consulting-professional-services.html)
 
-Explore how lead a business, division, or organization according to its defined mandate connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Managing Partner in Consulting and Other Professional Services](/roles/managing-partner/consulting-professional-services.html)
 
-Explore how combine leadership responsibilities with the governance and professional context of a partnership connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Partner in Consulting and Other Professional Services](/roles/partner/consulting-professional-services.html)
 
-Explore how develop a practice or business while contributing to a shared ownership or partnership structure connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Vice President of Sales in Consulting and Other Professional Services](/roles/vp-sales/consulting-professional-services.html)
 
-Explore how lead a sales organization and connect market priorities with execution connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Vice President of Marketing in Consulting and Other Professional Services](/roles/vp-marketing/consulting-professional-services.html)
 
-Explore how lead marketing teams and align brand, customer, and commercial priorities connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Vice President of Finance in Consulting and Other Professional Services](/roles/vp-finance/consulting-professional-services.html)
 
-Explore how lead finance teams and translate financial information into decisions for a business area connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Vice President of Strategy in Consulting and Other Professional Services](/roles/vp-strategy/consulting-professional-services.html)
 
-Explore how frame strategic choices and connect planning with operating decisions connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Director of Marketing in Consulting and Other Professional Services](/roles/director-marketing/consulting-professional-services.html)
 
-Explore how manage campaigns, channels, or marketing programs within a broader strategy connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Director of Sales in Consulting and Other Professional Services](/roles/director-sales/consulting-professional-services.html)
 
-Explore how manage sales teams, accounts, or territories against an agreed commercial plan connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Director of Legal in Consulting and Other Professional Services](/roles/director-legal/consulting-professional-services.html)
 
-Explore how manage a legal team, practice area, or legal operations remit connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Head of Legal in Consulting and Other Professional Services](/roles/head-legal/consulting-professional-services.html)
 
-Explore how lead a legal function or specialist team and advise on decisions within its remit connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Head of Growth in Consulting and Other Professional Services](/roles/head-growth/consulting-professional-services.html)
 
-Explore how coordinate growth experiments and commercial initiatives for a defined business connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Head of Strategy in Consulting and Other Professional Services](/roles/head-strategy/consulting-professional-services.html)
 
-Explore how coordinate planning and strategic analysis for an organization or business unit connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Head of Data and AI in Consulting and Other Professional Services](/roles/head-data-ai/consulting-professional-services.html)
 
-Explore how lead data capabilities and coordinate responsible application of analytical or AI work connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Head of Business Development in Consulting and Other Professional Services](/roles/head-business-development/consulting-professional-services.html)
 
-Explore how develop relationships and opportunities that support an organization's commercial direction connects with expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ## Questions that make a Consulting and Other Professional Services target more specific
 
@@ -279,7 +279,7 @@ KOV can help candidates organize relevant experience and documents around an agr
 
 ### Can KOV promise an interview with a Consulting and Other Professional Services organization?
 
-No. KOV does not guarantee interviews, offers, employment, introductions, or timelines. Employers make hiring decisions.
+No. Employers make hiring decisions.
 
 ### How should I compare two Consulting and Other Professional Services opportunities?
 

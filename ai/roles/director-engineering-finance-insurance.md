@@ -16,7 +16,7 @@ The candidate can discuss technical scope, team leadership, delivery choices, qu
 
 ## Documents that make Director of Engineering experience relevant here
 
-A Director of Engineering candidate should show how technical scope, team leadership, delivery choices, quality practices, and cross-team work supported the work to direct engineering teams and coordinate technical execution in a defined area, with the Finance and Insurance setting made explicit. Not every Finance and Insurance organization will handle trust, information handling, product suitability, operational resilience, and competing customer and business needs alike. Confirm how financial products and services supported by customer relationships, information, operations, and oversight informs this Director of Engineering position. Career representation remains candidate-led: KOV can support a Director of Engineering search, while the candidate approves the goals and disclosures. Do not resolve uncertainty about over-indexing on hands-on tools while omitting leadership scope and outcomes through assumption; verify the requirement and use only supportable Director of Engineering claims.
+A Director of Engineering candidate should show how technical scope, team leadership, delivery choices, quality practices, and cross-team work supported the work to direct engineering teams and coordinate technical execution in a defined area, with the Finance and Insurance setting made explicit. Confirm how financial products and services supported by customer relationships, information, operations, and oversight informs this Director of Engineering position. Career representation remains candidate-led: KOV can support a Director of Engineering search, while the candidate approves the goals and disclosures. Do not resolve uncertainty about over-indexing on hands-on tools while omitting leadership scope and outcomes through assumption; verify the requirement and use only supportable Director of Engineering claims.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -59,7 +59,7 @@ Do not resolve uncertainty about over-indexing on hands-on tools while omitting 
 
 ## Keep research, confidentiality, and outreach aligned
 
-For Director of Engineering work in Finance and Insurance, explain how the candidate could direct engineering teams and coordinate technical execution in a defined area; connect that mandate to evidence of technical scope, team leadership, delivery choices, quality practices, and cross-team work. Use financial products and services supported by customer relationships, information, operations, and oversight to frame research about Finance and Insurance, then ask how a Director of Engineering will work through trust, information handling, product suitability, operational resilience, and competing customer and business needs. Use an example involving business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes to describe the decision, the parties involved, and the candidate's role as a Director of Engineering. The candidate decides whether to pursue a Director of Engineering opportunity. KOV can support agreed research and preparation concerning Finance and Insurance.
+For Director of Engineering work in Finance and Insurance, explain how the candidate could direct engineering teams and coordinate technical execution in a defined area; connect that mandate to evidence of technical scope, team leadership, delivery choices, quality practices, and cross-team work. Use an example involving business or portfolio scope, decision processes, customer context, control partnership, and carefully attributable outcomes to describe the decision, the parties involved, and the candidate's role as a Director of Engineering. The candidate decides whether to pursue a Director of Engineering opportunity. KOV can support agreed research and preparation concerning Finance and Insurance.
 
 ## Prepare for conversations about Finance and Insurance work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Engineering career hub](/roles/director-engineering/)
 
-Review the role-wide approach to direct engineering teams and coordinate technical execution in a defined area and the evidence expected for that scope.
+
 
 ### [Finance and Insurance industry hub](/industries/finance-insurance/)
 
-Compare how financial products and services supported by customer relationships, information, operations, and oversight affects career planning across functions.
+
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Engineering remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Finance and Insurance](/roles/coo/finance-insurance.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Engineering remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Director of Engineering in Energy, Mining and Oil and Gas](/roles/director-engineering/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with financial products and services supported by customer relationships, information, operations, and oversight and identify how the Director of Engineering remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Director of Engineering clarify before considering work in Finance and Insurance?
 
-Use the opening discussion to understand the specific Finance and Insurance employer, not to assume a standard role. Compare direct engineering teams and coordinate technical execution in a defined area with the stated scope, identify decision partners among customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Finance and Insurance employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Director of Engineering describe transferable experience for Finance and Insurance work?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate technical 
 
 ### What can KOV promise a Director of Engineering candidate considering Finance and Insurance?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of Engineering candidate considering Finance and Insurance, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

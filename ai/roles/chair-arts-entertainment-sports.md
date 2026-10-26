@@ -45,7 +45,7 @@ Consider document and positioning support for Chair materials that present meeti
 
 ## Prepare to discuss the Arts, Entertainment and Sports mandate
 
-Before discussing program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available, check whether blurring chair and executive accountabilities or taking credit for collective decisions could expose sensitive details or blur the candidate's decision boundary. Where appropriate to the agreed service, KOV can help a Chair candidate prepare and coordinate approved next steps for Arts, Entertainment and Sports. In Arts, Entertainment and Sports, audiences, participants, creators, athletes, sponsors, venues, partners, and communities may shape the work. A Chair example should separate direct responsibility from collaboration. In a Arts, Entertainment and Sports target, make the Chair contribution legible: describe how the candidate helped lead board effectiveness and support clear governance and decision-making and what supports meeting leadership, board composition, governance practice, relationships, and transition judgment.
+Before discussing program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available, check whether blurring chair and executive accountabilities or taking credit for collective decisions could expose sensitive details or blur the candidate's decision boundary. In Arts, Entertainment and Sports, audiences, participants, creators, athletes, sponsors, venues, partners, and communities may shape the work. A Chair example should separate direct responsibility from collaboration. In a Arts, Entertainment and Sports target, make the Chair contribution legible: describe how the candidate helped lead board effectiveness and support clear governance and decision-making and what supports meeting leadership, board composition, governance practice, relationships, and transition judgment.
 
 ## Common positioning mistakes for Chair candidates in Arts, Entertainment and Sports
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chair career hub](/roles/chair/)
 
-Review the role-wide approach to lead board effectiveness and support clear governance and decision-making and the evidence expected for that scope.
+
 
 ### [Arts, Entertainment and Sports industry hub](/industries/arts-entertainment-sports/)
 
-Compare how creative, cultural, event, audience, or sporting activity supported by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Arts, Entertainment and Sports](/roles/ceo/arts-entertainment-sports.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chair remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Operating Officer in Arts, Entertainment and Sports](/roles/coo/arts-entertainment-sports.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chair remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chair in Agriculture, Food and Forestry](/roles/chair/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with creative, cultural, event, audience, or sporting activity supported by teams and organizations and identify how the Chair remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chair in Arts, Entertainment and Sports?
 
-A Chair candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's creative, cultural, event, audience, or sporting activity supported by teams and organizations. Explore how the role will lead board effectiveness and support clear governance and decision-making and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chair candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's creative, cultural, event, audience, or sporting activity supported by teams and organizations. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Chair make prior work relevant to Arts, Entertainment and Sports?
 
@@ -143,15 +143,15 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What must be agreed before a Chair contacts an organization in Arts, Entertainment and Sports?
 
-Outreach should follow target research, not precede it. The Chair candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with meeting leadership, board composition, governance practice, relationships, and transition judgment is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Chair background relevant to work in Arts, Entertainment and Sports?
 
-No. Compare the role description with the candidate's experience of lead board effectiveness and support clear governance and decision-making and the organization's creative, cultural, event, audience, or sporting activity supported by teams and organizations. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Chair outreach in Arts, Entertainment and Sports?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chair candidate considering Arts, Entertainment and Sports, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

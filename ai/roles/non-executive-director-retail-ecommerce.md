@@ -67,7 +67,7 @@ Readers need to see what Non-Executive Director work involved; connect provide i
 
 ## Run the search thoughtfully in each target market
 
-The candidate decides whether to pursue a Non-Executive Director opportunity. KOV can support agreed research and preparation concerning Retail and E-commerce. Map the Retail and E-commerce relationships among customers, store or digital teams, suppliers, brand partners, operations, and owners; verify actual authority instead of inferring a reporting line. A candidate exploring Retail and E-commerce should test the assumed link between customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and customer experience, assortment, inventory, channel coordination, and rapid feedback against the actual Non-Executive Director role description. In a Retail and E-commerce target, make the Non-Executive Director contribution legible: describe how the candidate helped provide independent challenge and strategic contribution distinct from management and what supports governance experience, constructive challenge, committee contribution, and relevant expertise.
+The candidate decides whether to pursue a Non-Executive Director opportunity. Map the Retail and E-commerce relationships among customers, store or digital teams, suppliers, brand partners, operations, and owners; verify actual authority instead of inferring a reporting line. A candidate exploring Retail and E-commerce should test the assumed link between customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and customer experience, assortment, inventory, channel coordination, and rapid feedback against the actual Non-Executive Director role description. In a Retail and E-commerce target, make the Non-Executive Director contribution legible: describe how the candidate helped provide independent challenge and strategic contribution distinct from management and what supports governance experience, constructive challenge, committee contribution, and relevant expertise.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Non-Executive Director career hub](/roles/non-executive-director/)
 
-Review the role-wide approach to provide independent challenge and strategic contribution distinct from management and the evidence expected for that scope.
+
 
 ### [Retail and E-commerce industry hub](/industries/retail-ecommerce/)
 
-Compare how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment affects career planning across functions.
+
 
 ### [Chief Executive Officer in Retail and E-commerce](/roles/ceo/retail-ecommerce.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Non-Executive Director remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Operating Officer in Retail and E-commerce](/roles/coo/retail-ecommerce.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Non-Executive Director remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Non-Executive Director in Agriculture, Food and Forestry](/roles/non-executive-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and identify how the Non-Executive Director remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Non-Executive Director test the scope of work in Retail and E-commerce?
 
-Start with the organization's account of customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment, then clarify how the Non-Executive Director would provide independent challenge and strategic contribution distinct from management. Ask how customers, store or digital teams, suppliers, brand partners, operations, and owners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment, then clarify how the Non-Executive Director would provide independent challenge and strategic contribution distinct from management. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Non-Executive Director use to explain experience in Retail and E-commerce?
 
@@ -139,19 +139,19 @@ Make the connection explicit: the candidate's record of governance experience, c
 
 ### What documents should a Non-Executive Director tailor for Retail and E-commerce opportunities?
 
-Possible materials include board biography, non-executive profile, skills matrix, and governance resume. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution. Each claim should be accurate for this Retail and E-commerce target, and confidential or unauthorized material should be omitted.
+Possible materials include board biography, non-executive profile, skills matrix, and governance resume. Each claim should be accurate for this Retail and E-commerce target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Non-Executive Director considering Retail and E-commerce?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Non-Executive Director candidate's service scope; the candidate approves external communication. No one route should be assumed for all Retail and E-commerce employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Retail and E-commerce employers.
 
 ### Can a Non-Executive Director rely on title alone when targeting Retail and E-commerce?
 
-Title is only a label. Establish what the employer means by Non-Executive Director in this Retail and E-commerce organization and how the person will work with customers, store or digital teams, suppliers, brand partners, operations, and owners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Non-Executive Director seeking work in Retail and E-commerce?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Non-Executive Director candidate considering Retail and E-commerce, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

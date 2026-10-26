@@ -12,7 +12,7 @@ Where blurring chair and executive accountabilities or taking credit for collect
 
 ## A candidate-led process from first discussion to next steps
 
-Protect credibility in Business Support and Facilities by addressing blurring chair and executive accountabilities or taking credit for collective decisions with a factual account of meeting leadership, board composition, governance practice, relationships, and transition judgment and its limits. Consider how internal clients, employees, service teams, suppliers, customers, and contract owners interact with a Chair; use examples of service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements to show judgment and collaboration. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Chair position. Rather than lead with seniority, a Chair profile can explain the responsibility to lead board effectiveness and support clear governance and decision-making and use service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements as evidence.
+Protect credibility in Business Support and Facilities by addressing blurring chair and executive accountabilities or taking credit for collective decisions with a factual account of meeting leadership, board composition, governance practice, relationships, and transition judgment and its limits. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Chair position. Rather than lead with seniority, a Chair profile can explain the responsibility to lead board effectiveness and support clear governance and decision-making and use service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements as evidence.
 
 ## Documents that make Chair experience relevant here
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chair career hub](/roles/chair/)
 
-Review the role-wide approach to lead board effectiveness and support clear governance and decision-making and the evidence expected for that scope.
+
 
 ### [Business Support and Facilities industry hub](/industries/business-support-facilities/)
 
-Compare how support services, workplace operations, facilities, administration, or outsourced capabilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Business Support and Facilities](/roles/ceo/business-support-facilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chair remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Operating Officer in Business Support and Facilities](/roles/coo/business-support-facilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chair remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chair in Agriculture, Food and Forestry](/roles/chair/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with support services, workplace operations, facilities, administration, or outsourced capabilities and identify how the Chair remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chair test the scope of work in Business Support and Facilities?
 
-Start with the organization's account of support services, workplace operations, facilities, administration, or outsourced capabilities, then clarify how the Chair would lead board effectiveness and support clear governance and decision-making. Ask how internal clients, employees, service teams, suppliers, customers, and contract owners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of support services, workplace operations, facilities, administration, or outsourced capabilities, then clarify how the Chair would lead board effectiveness and support clear governance and decision-making. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Chair use to explain experience in Business Support and Facilities?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of meeting leadership, boar
 
 ### What documents should a Chair tailor for Business Support and Facilities opportunities?
 
-Possible materials include chair biography, board resume, governance narrative, and public profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
+Possible materials include chair biography, board resume, governance narrative, and public profile. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Chair considering Business Support and Facilities?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### Can a Chair rely on title alone when targeting Business Support and Facilities?
 
-Title is only a label. Establish what the employer means by Chair in this Business Support and Facilities organization and how the person will work with internal clients, employees, service teams, suppliers, customers, and contract owners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Chair seeking work in Business Support and Facilities?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chair candidate considering Business Support and Facilities, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

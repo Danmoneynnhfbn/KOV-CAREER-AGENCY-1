@@ -8,11 +8,11 @@ Before discussing venue or service scope, team leadership, guest context, servic
 
 ## Who this Board Director and Hospitality and Food Service guide is for
 
-Keep the Board Director narrative accurate where implying executive authority for board decisions or claiming confidential board outcomes may arise: attribute shared work and disclose only information the candidate may use. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Hospitality and Food Service. Discuss venue or service scope, team leadership, guest context, service design, and attributable operating contributions with care: a Board Director candidate can explain contribution while omitting confidential or identifying facts. Ask what guest-facing accommodation, food, venue, or experience services delivered through people and operations means at this particular Hospitality and Food Service organization and how it changes the priorities assigned to a Board Director.
+Keep the Board Director narrative accurate where implying executive authority for board decisions or claiming confidential board outcomes may arise: attribute shared work and disclose only information the candidate may use. KOV can support agreed research and preparation concerning Hospitality and Food Service. Discuss venue or service scope, team leadership, guest context, service design, and attributable operating contributions with care: a Board Director candidate can explain contribution while omitting confidential or identifying facts. Ask what guest-facing accommodation, food, venue, or experience services delivered through people and operations means at this particular Hospitality and Food Service organization and how it changes the priorities assigned to a Board Director.
 
 ## A candidate-led process from first discussion to next steps
 
-Do not resolve uncertainty about implying executive authority for board decisions or claiming confidential board outcomes through assumption; verify the requirement and use only supportable Board Director claims. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Hospitality and Food Service. Consider how guests, employees, suppliers, owners, local partners, and service teams interact with a Board Director; use examples of venue or service scope, team leadership, guest context, service design, and attributable operating contributions to show judgment and collaboration. Use guest-facing accommodation, food, venue, or experience services delivered through people and operations to frame research about Hospitality and Food Service, then ask how a Board Director will work through guest experience, operating capacity, service consistency, workforce coordination, and supplier variability.
+Do not resolve uncertainty about implying executive authority for board decisions or claiming confidential board outcomes through assumption; verify the requirement and use only supportable Board Director claims. KOV can support agreed research and preparation concerning Hospitality and Food Service. Consider how guests, employees, suppliers, owners, local partners, and service teams interact with a Board Director; use examples of venue or service scope, team leadership, guest context, service design, and attributable operating contributions to show judgment and collaboration. Use guest-facing accommodation, food, venue, or experience services delivered through people and operations to frame research about Hospitality and Food Service, then ask how a Board Director will work through guest experience, operating capacity, service consistency, workforce coordination, and supplier variability.
 
 ## Documents that make Board Director experience relevant here
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Board Director career hub](/roles/board-director/)
 
-Review the role-wide approach to contribute oversight, inquiry, and strategic perspective within collective governance and the evidence expected for that scope.
+
 
 ### [Hospitality and Food Service industry hub](/industries/hospitality-food-service/)
 
-Compare how guest-facing accommodation, food, venue, or experience services delivered through people and operations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Hospitality and Food Service](/roles/ceo/hospitality-food-service.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Board Director remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Operating Officer in Hospitality and Food Service](/roles/coo/hospitality-food-service.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Board Director remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Board Director in Agriculture, Food and Forestry](/roles/board-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with guest-facing accommodation, food, venue, or experience services delivered through people and operations and identify how the Board Director remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Board Director test the scope of work in Hospitality and Food Service?
 
-Use the opening discussion to understand the specific Hospitality and Food Service employer, not to assume a standard role. Compare contribute oversight, inquiry, and strategic perspective within collective governance with the stated scope, identify decision partners among guests, employees, suppliers, owners, local partners, and service teams, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Hospitality and Food Service employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### What evidence can a Board Director use to explain experience in Hospitality and Food Service?
 
@@ -139,11 +139,11 @@ Make the connection explicit: the candidate's record of committee or board remit
 
 ### What documents should a Board Director tailor for Hospitality and Food Service opportunities?
 
-Document selection depends on the opportunity. A Board Director may draw from board biography, governance resume, skills matrix, and concise profile, but should foreground only material connected to venue or service scope, team leadership, guest context, service design, and attributable operating contributions. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### Which outreach choices belong to a Board Director considering Hospitality and Food Service?
 
-Outreach should follow target research, not precede it. The Board Director candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with committee or board remit, preparation, judgment, relevant expertise, and collective contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Board Director rely on title alone when targeting Hospitality and Food Service?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate committee 
 
 ### What outcome can KOV guarantee for a Board Director seeking work in Hospitality and Food Service?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Board Director candidate considering Hospitality and Food Service, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

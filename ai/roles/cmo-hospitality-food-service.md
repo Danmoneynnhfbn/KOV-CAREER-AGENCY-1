@@ -8,7 +8,7 @@ Position a Chief Marketing Officer career by linking shape marketing strategy, c
 
 ## Who this Chief Marketing Officer and Hospitality and Food Service guide is for
 
-For Chief Marketing Officer work in Hospitality and Food Service, explain how the candidate could shape marketing strategy, customer understanding, brand, and commercial communication; connect that mandate to evidence of market context, customer insight, portfolio decisions, team leadership, and attributable contribution. Not every Hospitality and Food Service organization will handle guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alike. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Chief Marketing Officer position. KOV's service scope for a Chief Marketing Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. For Chief Marketing Officer materials, manage the risk of claiming revenue or brand movement without describing attribution and surrounding factors; support claims with market context, customer insight, portfolio decisions, team leadership, and attributable contribution and remove details that are not authorized for sharing.
+For Chief Marketing Officer work in Hospitality and Food Service, explain how the candidate could shape marketing strategy, customer understanding, brand, and commercial communication; connect that mandate to evidence of market context, customer insight, portfolio decisions, team leadership, and attributable contribution. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Chief Marketing Officer position. KOV's service scope for a Chief Marketing Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. For Chief Marketing Officer materials, manage the risk of claiming revenue or brand movement without describing attribution and surrounding factors; support claims with market context, customer insight, portfolio decisions, team leadership, and attributable contribution and remove details that are not authorized for sharing.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -49,7 +49,7 @@ A precise Chief Marketing Officer story ties market context, customer insight, p
 
 ## Common positioning mistakes for Chief Marketing Officer candidates in Hospitality and Food Service
 
-Keep the Chief Marketing Officer narrative accurate where claiming revenue or brand movement without describing attribution and surrounding factors may arise: attribute shared work and disclose only information the candidate may use. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Chief Marketing Officer example should separate direct responsibility from collaboration. An employer's Hospitality and Food Service model may involve guest-facing accommodation, food, venue, or experience services delivered through people and operations; its implications for guest experience, operating capacity, service consistency, workforce coordination, and supplier variability should be discussed, not presumed. For Chief Marketing Officer work in Hospitality and Food Service, explain how the candidate could shape marketing strategy, customer understanding, brand, and commercial communication; connect that mandate to evidence of market context, customer insight, portfolio decisions, team leadership, and attributable contribution.
+Keep the Chief Marketing Officer narrative accurate where claiming revenue or brand movement without describing attribution and surrounding factors may arise: attribute shared work and disclose only information the candidate may use. A Chief Marketing Officer example should separate direct responsibility from collaboration. An employer's Hospitality and Food Service model may involve guest-facing accommodation, food, venue, or experience services delivered through people and operations; its implications for guest experience, operating capacity, service consistency, workforce coordination, and supplier variability should be discussed, not presumed. For Chief Marketing Officer work in Hospitality and Food Service, explain how the candidate could shape marketing strategy, customer understanding, brand, and commercial communication; connect that mandate to evidence of market context, customer insight, portfolio decisions, team leadership, and attributable contribution.
 
 - Treat Hospitality and Food Service as one uniform employer type; distinguish the actual organization and role.
 - Use a Chief Marketing Officer title without explaining shape marketing strategy, customer understanding, brand, and commercial communication.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Marketing Officer career hub](/roles/cmo/)
 
-Review the role-wide approach to shape marketing strategy, customer understanding, brand, and commercial communication and the evidence expected for that scope.
+
 
 ### [Hospitality and Food Service industry hub](/industries/hospitality-food-service/)
 
-Compare how guest-facing accommodation, food, venue, or experience services delivered through people and operations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Hospitality and Food Service](/roles/ceo/hospitality-food-service.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Marketing Officer remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Operating Officer in Hospitality and Food Service](/roles/coo/hospitality-food-service.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Marketing Officer remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Marketing Officer in Agriculture, Food and Forestry](/roles/cmo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with guest-facing accommodation, food, venue, or experience services delivered through people and operations and identify how the Chief Marketing Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Chief Marketing Officer resolve before a target discussion in Hospitality and Food Service?
 
-Start with the organization's account of guest-facing accommodation, food, venue, or experience services delivered through people and operations, then clarify how the Chief Marketing Officer would shape marketing strategy, customer understanding, brand, and commercial communication. Ask how guests, employees, suppliers, owners, local partners, and service teams participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of guest-facing accommodation, food, venue, or experience services delivered through people and operations, then clarify how the Chief Marketing Officer would shape marketing strategy, customer understanding, brand, and commercial communication. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### Which parts of a Chief Marketing Officer career story fit the needs of Hospitality and Food Service?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could shape marketing strategy, custome
 
 ### What should a Chief Marketing Officer prepare in writing before targeting Hospitality and Food Service?
 
-Document selection depends on the opportunity. A Chief Marketing Officer may draw from executive resume, brand and growth narrative, leadership biography, and profile, but should foreground only material connected to venue or service scope, team leadership, guest context, service design, and attributable operating contributions. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What should a Chief Marketing Officer approve before outreach in Hospitality and Food Service?
 
-Outreach should follow target research, not precede it. The Chief Marketing Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with market context, customer insight, portfolio decisions, team leadership, and attributable contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a Chief Marketing Officer compare title and remit in Hospitality and Food Service?
 
-No. Compare the role description with the candidate's experience of shape marketing strategy, customer understanding, brand, and commercial communication and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Will KOV secure a meeting for a Chief Marketing Officer with an employer in Hospitality and Food Service?
 

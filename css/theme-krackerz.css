@@ -12,3 +12,11 @@ body[data-theme="krackerz"] {
   --kov-design-container: 72rem;
   --kov-design-section-space: clamp(3.25rem, 6vw, 6.5rem);
 }
+
+body.kov-design--role-industry[data-theme="krackerz"] {
+  --kov-design-paper: #f8f7f2;
+  --kov-design-ink: #20201d;
+  --kov-design-accent: #d8ff36;
+  --kov-design-accent-soft: #f3f7df;
+  --kov-design-line: rgba(32, 32, 29, .14);
+}

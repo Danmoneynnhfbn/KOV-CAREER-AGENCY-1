@@ -4,7 +4,7 @@ KOV helps Director of Operations candidates considering roles connected to Retai
 
 ## How Director of Operations work connects with Retail and E-commerce
 
-The candidate can discuss team or site scope, process ownership, service standards, and improvement contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material. Discuss customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution with care: a Director of Operations candidate can explain contribution while omitting confidential or identifying facts. Not every Retail and E-commerce organization will handle customer experience, assortment, inventory, channel coordination, and rapid feedback alike. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this Director of Operations position. Readers need to see what Director of Operations work involved; connect manage operational delivery and improve coordination within a defined remit with the candidate's own examples of team or site scope, process ownership, service standards, and improvement contribution in Retail and E-commerce.
+The candidate can discuss team or site scope, process ownership, service standards, and improvement contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material. Not every Retail and E-commerce organization will handle customer experience, assortment, inventory, channel coordination, and rapid feedback alike. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this Director of Operations position. Readers need to see what Director of Operations work involved; connect manage operational delivery and improve coordination within a defined remit with the candidate's own examples of team or site scope, process ownership, service standards, and improvement contribution in Retail and E-commerce.
 
 ## Who this Director of Operations and Retail and E-commerce guide is for
 
@@ -49,7 +49,7 @@ A Director of Operations candidate should show how team or site scope, process o
 
 ## Common positioning mistakes for Director of Operations candidates in Retail and E-commerce
 
-The Director of Operations remit to manage operational delivery and improve coordination within a defined remit should be described through decisions and examples, especially evidence of team or site scope, process ownership, service standards, and improvement contribution relevant to Retail and E-commerce. Treat customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment as a question to validate in Retail and E-commerce; the answer helps clarify the Director of Operations mandate and its customer experience, assortment, inventory, channel coordination, and rapid feedback. In Retail and E-commerce, customers, store or digital teams, suppliers, brand partners, operations, and owners may shape the work. A Director of Operations example should separate direct responsibility from collaboration. Career representation remains candidate-led: KOV can support a Director of Operations search, while the candidate approves the goals and disclosures.
+The Director of Operations remit to manage operational delivery and improve coordination within a defined remit should be described through decisions and examples, especially evidence of team or site scope, process ownership, service standards, and improvement contribution relevant to Retail and E-commerce. In Retail and E-commerce, customers, store or digital teams, suppliers, brand partners, operations, and owners may shape the work. A Director of Operations example should separate direct responsibility from collaboration. Career representation remains candidate-led: KOV can support a Director of Operations search, while the candidate approves the goals and disclosures.
 
 - Treat Retail and E-commerce as one uniform employer type; distinguish the actual organization and role.
 - Use a Director of Operations title without explaining manage operational delivery and improve coordination within a defined remit.
@@ -63,7 +63,7 @@ For Director of Operations materials, manage the risk of describing process work
 
 ## Prepare for conversations about Retail and E-commerce work
 
-A Director of Operations candidate should show how team or site scope, process ownership, service standards, and improvement contribution supported the work to manage operational delivery and improve coordination within a defined remit, with the Retail and E-commerce setting made explicit. Not every Retail and E-commerce organization will handle customer experience, assortment, inventory, channel coordination, and rapid feedback alike. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this Director of Operations position. The service plan should fit the candidate's Director of Operations priorities; agree research, materials, and any outreach before contact occurs. Do not resolve uncertainty about describing process work without the operating context or the candidate's authority through assumption; verify the requirement and use only supportable Director of Operations claims.
+A Director of Operations candidate should show how team or site scope, process ownership, service standards, and improvement contribution supported the work to manage operational delivery and improve coordination within a defined remit, with the Retail and E-commerce setting made explicit. Confirm how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment informs this Director of Operations position. The service plan should fit the candidate's Director of Operations priorities; agree research, materials, and any outreach before contact occurs. Do not resolve uncertainty about describing process work without the operating context or the candidate's authority through assumption; verify the requirement and use only supportable Director of Operations claims.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Operations career hub](/roles/director-operations/)
 
-Review the role-wide approach to manage operational delivery and improve coordination within a defined remit and the evidence expected for that scope.
+
 
 ### [Retail and E-commerce industry hub](/industries/retail-ecommerce/)
 
-Compare how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment affects career planning across functions.
+
 
 ### [Chief Executive Officer in Retail and E-commerce](/roles/ceo/retail-ecommerce.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Operations remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Operating Officer in Retail and E-commerce](/roles/coo/retail-ecommerce.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Operations remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Director of Operations in Agriculture, Food and Forestry](/roles/director-operations/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and identify how the Director of Operations remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Director of Operations clarify before considering work in Retail and E-commerce?
 
-A Director of Operations candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment. Explore how the role will manage operational delivery and improve coordination within a defined remit and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of Operations candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Director of Operations describe transferable experience for Retail and E-commerce work?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of team or site scope, proc
 
 ### How can a Director of Operations choose documents for conversations about Retail and E-commerce?
 
-Possible materials include resume, operations achievement summary, professional profile, and interview examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution. Each claim should be accurate for this Retail and E-commerce target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, operations achievement summary, professional profile, and interview examples. Each claim should be accurate for this Retail and E-commerce target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Director of Operations plan contact with Retail and E-commerce organizations?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate team or si
 
 ### What can KOV promise a Director of Operations candidate considering Retail and E-commerce?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of Operations candidate considering Retail and E-commerce, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

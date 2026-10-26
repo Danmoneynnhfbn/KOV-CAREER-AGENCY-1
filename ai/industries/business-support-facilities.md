@@ -85,27 +85,27 @@ Use KOV's London page as a starting point for an agreed UK-focused search discus
 
 ### Saudi Arabia
 
-For Business Support and Facilities targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Business Support and Facilities targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Business Support and Facilities targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### UAE
 
-For Business Support and Facilities targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Business Support and Facilities targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Business Support and Facilities targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### United Kingdom
 
-For Business Support and Facilities targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Business Support and Facilities targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Business Support and Facilities targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Dubai
 
-For Business Support and Facilities targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Business Support and Facilities targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Business Support and Facilities targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Australia
 
-For Business Support and Facilities targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Business Support and Facilities targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Business Support and Facilities targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Africa
 
-For Business Support and Facilities targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Business Support and Facilities targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Business Support and Facilities targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ## Choose an appropriate level of career support
 
@@ -129,91 +129,91 @@ Use the cards to open only the role-and-industry pages currently available. Each
 
 ### [Chief Executive Officer in Business Support and Facilities](/roles/ceo/business-support-facilities.html)
 
-Explore how set organization-wide direction and coordinate executive work connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Operating Officer in Business Support and Facilities](/roles/coo/business-support-facilities.html)
 
-Explore how align operating functions, delivery systems, and organizational priorities connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Financial Officer in Business Support and Facilities](/roles/cfo/business-support-facilities.html)
 
-Explore how lead financial stewardship and connect resource decisions to organizational priorities connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Technology Officer in Business Support and Facilities](/roles/cto/business-support-facilities.html)
 
-Explore how set technology direction and connect technical choices with product and business needs connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Information Officer in Business Support and Facilities](/roles/cio/business-support-facilities.html)
 
-Explore how guide information systems, digital operations, and technology services for the organization connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Marketing Officer in Business Support and Facilities](/roles/cmo/business-support-facilities.html)
 
-Explore how shape marketing strategy, customer understanding, brand, and commercial communication connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Human Resources Officer in Business Support and Facilities](/roles/chro/business-support-facilities.html)
 
-Explore how guide people strategy, organizational capability, and workforce-related leadership connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Information Security Officer in Business Support and Facilities](/roles/ciso/business-support-facilities.html)
 
-Explore how lead information-security priorities and coordinate risk-informed protection connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [General Counsel / Chief Legal Officer in Business Support and Facilities](/roles/general-counsel/business-support-facilities.html)
 
-Explore how lead legal judgment and connect legal advice with organizational decisions connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Revenue Officer in Business Support and Facilities](/roles/chief-revenue-officer/business-support-facilities.html)
 
-Explore how coordinate revenue-facing functions around a coherent commercial direction connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Product Officer in Business Support and Facilities](/roles/chief-product-officer/business-support-facilities.html)
 
-Explore how guide product direction, portfolio choices, and the connection between users and delivery teams connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Strategy Officer in Business Support and Facilities](/roles/chief-strategy-officer/business-support-facilities.html)
 
-Explore how support organization-wide choices by framing options, analysis, and strategic execution connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Board Director in Business Support and Facilities](/roles/board-director/business-support-facilities.html)
 
-Explore how contribute oversight, inquiry, and strategic perspective within collective governance connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Non-Executive Director in Business Support and Facilities](/roles/non-executive-director/business-support-facilities.html)
 
-Explore how provide independent challenge and strategic contribution distinct from management connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chair in Business Support and Facilities](/roles/chair/business-support-facilities.html)
 
-Explore how lead board effectiveness and support clear governance and decision-making connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Managing Director in Business Support and Facilities](/roles/managing-director/business-support-facilities.html)
 
-Explore how lead a business, division, or organization according to its defined mandate connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Managing Partner in Business Support and Facilities](/roles/managing-partner/business-support-facilities.html)
 
-Explore how combine leadership responsibilities with the governance and professional context of a partnership connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Partner in Business Support and Facilities](/roles/partner/business-support-facilities.html)
 
-Explore how develop a practice or business while contributing to a shared ownership or partnership structure connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Vice President of Operations in Business Support and Facilities](/roles/vp-operations/business-support-facilities.html)
 
-Explore how coordinate operational performance across teams, locations, or service lines connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Vice President of People in Business Support and Facilities](/roles/vp-people/business-support-facilities.html)
 
-Explore how lead people programs and partner with managers on organizational capability connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Director of Operations in Business Support and Facilities](/roles/director-operations/business-support-facilities.html)
 
-Explore how manage operational delivery and improve coordination within a defined remit connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Director of People in Business Support and Facilities](/roles/director-people/business-support-facilities.html)
 
-Explore how lead a people function or program and support managers through organizational change connects with support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ## Questions that make a Business Support and Facilities target more specific
 
@@ -247,7 +247,7 @@ KOV can help candidates organize relevant experience and documents around an agr
 
 ### Can KOV promise an interview with a Business Support and Facilities organization?
 
-No. KOV does not guarantee interviews, offers, employment, introductions, or timelines. Employers make hiring decisions.
+No. Employers make hiring decisions.
 
 ### How should I compare two Business Support and Facilities opportunities?
 

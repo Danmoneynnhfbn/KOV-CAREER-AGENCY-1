@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Financial Officer career hub](/roles/cfo/)
 
-Review the role-wide approach to lead financial stewardship and connect resource decisions to organizational priorities and the evidence expected for that scope.
+
 
 ### [Business Support and Facilities industry hub](/industries/business-support-facilities/)
 
-Compare how support services, workplace operations, facilities, administration, or outsourced capabilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Business Support and Facilities](/roles/ceo/business-support-facilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Financial Officer remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Operating Officer in Business Support and Facilities](/roles/coo/business-support-facilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Financial Officer remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Financial Officer in Agriculture, Food and Forestry](/roles/cfo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with support services, workplace operations, facilities, administration, or outsourced capabilities and identify how the Chief Financial Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Financial Officer test the scope of work in Business Support and Facilities?
 
-Use the opening discussion to understand the specific Business Support and Facilities employer, not to assume a standard role. Compare lead financial stewardship and connect resource decisions to organizational priorities with the stated scope, identify decision partners among internal clients, employees, service teams, suppliers, customers, and contract owners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Business Support and Facilities employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### What evidence can a Chief Financial Officer use to explain experience in Business Support and Facilities?
 
@@ -139,7 +139,7 @@ Select examples that show financial leadership scope, planning, controls, capita
 
 ### What documents should a Chief Financial Officer tailor for Business Support and Facilities opportunities?
 
-Document selection depends on the opportunity. A Chief Financial Officer may draw from executive resume, finance leadership profile, board biography, and achievement summary, but should foreground only material connected to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### Which outreach choices belong to a Chief Financial Officer considering Business Support and Facilities?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### Can a Chief Financial Officer rely on title alone when targeting Business Support and Facilities?
 
-No. Compare the role description with the candidate's experience of lead financial stewardship and connect resource decisions to organizational priorities and the organization's support services, workplace operations, facilities, administration, or outsourced capabilities. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Chief Financial Officer seeking work in Business Support and Facilities?
 

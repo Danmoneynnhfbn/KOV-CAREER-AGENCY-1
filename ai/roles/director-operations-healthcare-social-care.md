@@ -33,7 +33,7 @@ For Director of Operations materials, manage the risk of describing process work
 
 ## Choose the individual services that fit the work
 
-Keep the Director of Operations narrative accurate where describing process work without the operating context or the candidate's authority may arise: attribute shared work and disclose only information the candidate may use. The candidate decides whether to pursue a Director of Operations opportunity. KOV can support agreed research and preparation concerning Healthcare and Social Care. For Healthcare and Social Care, establish whether care, health-related services, or social support delivered by teams and organizations describes the target employer and how service quality, workforce coordination, access, continuity, and sensitive information is reflected in its Director of Operations mandate. Rather than lead with seniority, a Director of Operations profile can explain the responsibility to manage operational delivery and improve coordination within a defined remit and use service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples as evidence.
+Keep the Director of Operations narrative accurate where describing process work without the operating context or the candidate's authority may arise: attribute shared work and disclose only information the candidate may use. KOV can support agreed research and preparation concerning Healthcare and Social Care. For Healthcare and Social Care, establish whether care, health-related services, or social support delivered by teams and organizations describes the target employer and how service quality, workforce coordination, access, continuity, and sensitive information is reflected in its Director of Operations mandate. Rather than lead with seniority, a Director of Operations profile can explain the responsibility to manage operational delivery and improve coordination within a defined remit and use service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples as evidence.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Operations career hub](/roles/director-operations/)
 
-Review the role-wide approach to manage operational delivery and improve coordination within a defined remit and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Operations remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Operations remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Director of Operations in Agriculture, Food and Forestry](/roles/director-operations/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with care, health-related services, or social support delivered by teams and organizations and identify how the Director of Operations remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Director of Operations resolve before a target discussion in Healthcare and Social Care?
 
-Start with the organization's account of care, health-related services, or social support delivered by teams and organizations, then clarify how the Director of Operations would manage operational delivery and improve coordination within a defined remit. Ask how people receiving services, families, care professionals, administrators, owners, and community partners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of care, health-related services, or social support delivered by teams and organizations, then clarify how the Director of Operations would manage operational delivery and improve coordination within a defined remit. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### Which parts of a Director of Operations career story fit the needs of Healthcare and Social Care?
 
@@ -139,7 +139,7 @@ Select examples that show team or site scope, process ownership, service standar
 
 ### What should a Director of Operations prepare in writing before targeting Healthcare and Social Care?
 
-Document selection depends on the opportunity. A Director of Operations may draw from resume, operations achievement summary, professional profile, and interview examples, but should foreground only material connected to service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What should a Director of Operations approve before outreach in Healthcare and Social Care?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate team or si
 
 ### Will KOV secure a meeting for a Director of Operations with an employer in Healthcare and Social Care?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of Operations candidate considering Healthcare and Social Care, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

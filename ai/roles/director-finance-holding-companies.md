@@ -8,7 +8,7 @@ A precise Director of Finance story ties team responsibility, planning cycle, re
 
 ## Who this Director of Finance and Holding Companies and Corporate Groups guide is for
 
-Review each Director of Finance example for sharing nonpublic financial details or overstating sign-off authority, then describe the candidate's decisions without overstating their control over CFO, department leaders, finance teams, auditors where relevant, and managers. The candidate decides whether to pursue a Director of Finance opportunity. KOV can support agreed research and preparation concerning Holding Companies and Corporate Groups. Before presenting portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries, determine how owners, boards, portfolio leaders, finance teams, employees, and external partners participated and which details are safe to discuss. Treat ownership or coordination of multiple entities, portfolios, or operating businesses as a question to validate in Holding Companies and Corporate Groups; the answer helps clarify the Director of Finance mandate and its delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences.
+Review each Director of Finance example for sharing nonpublic financial details or overstating sign-off authority, then describe the candidate's decisions without overstating their control over CFO, department leaders, finance teams, auditors where relevant, and managers. KOV can support agreed research and preparation concerning Holding Companies and Corporate Groups. Before presenting portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries, determine how owners, boards, portfolio leaders, finance teams, employees, and external partners participated and which details are safe to discuss. Treat ownership or coordination of multiple entities, portfolios, or operating businesses as a question to validate in Holding Companies and Corporate Groups; the answer helps clarify the Director of Finance mandate and its delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -16,7 +16,7 @@ Show the Director of Finance scope behind the title: how the candidate could lea
 
 ## Documents that make Director of Finance experience relevant here
 
-Candidate-side support from KOV may connect Director of Finance positioning, relevant documents, and approved outreach, within the scope the candidate agrees. In Holding Companies and Corporate Groups, owners, boards, portfolio leaders, finance teams, employees, and external partners may shape the work. A Director of Finance example should separate direct responsibility from collaboration. Research for a Director of Finance in Holding Companies and Corporate Groups becomes more focused when the candidate investigates delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alongside ownership or coordination of multiple entities, portfolios, or operating businesses. Readers need to see what Director of Finance work involved; connect lead financial planning, reporting, or control activity for a function or organization with the candidate's own examples of team responsibility, planning cycle, reporting scope, decision support, and controls in Holding Companies and Corporate Groups.
+Candidate-side support from KOV may connect Director of Finance positioning, relevant documents, and approved outreach, within the scope the candidate agrees. A Director of Finance example should separate direct responsibility from collaboration. Research for a Director of Finance in Holding Companies and Corporate Groups becomes more focused when the candidate investigates delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alongside ownership or coordination of multiple entities, portfolios, or operating businesses. Readers need to see what Director of Finance work involved; connect lead financial planning, reporting, or control activity for a function or organization with the candidate's own examples of team responsibility, planning cycle, reporting scope, decision support, and controls in Holding Companies and Corporate Groups.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ Candidate-side support from KOV may connect Director of Finance positioning, rel
 
 ## Choose the individual services that fit the work
 
-Career representation remains candidate-led: KOV can support a Director of Finance search, while the candidate approves the goals and disclosures. In Holding Companies and Corporate Groups, owners, boards, portfolio leaders, finance teams, employees, and external partners may shape the work. A Director of Finance example should separate direct responsibility from collaboration. To understand the Holding Companies and Corporate Groups target, explore ownership or coordination of multiple entities, portfolios, or operating businesses and ask how a Director of Finance is expected to respond to delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences. For Director of Finance work in Holding Companies and Corporate Groups, explain how the candidate could lead financial planning, reporting, or control activity for a function or organization; connect that mandate to evidence of team responsibility, planning cycle, reporting scope, decision support, and controls.
+Career representation remains candidate-led: KOV can support a Director of Finance search, while the candidate approves the goals and disclosures. A Director of Finance example should separate direct responsibility from collaboration. To understand the Holding Companies and Corporate Groups target, explore ownership or coordination of multiple entities, portfolios, or operating businesses and ask how a Director of Finance is expected to respond to delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences. For Director of Finance work in Holding Companies and Corporate Groups, explain how the candidate could lead financial planning, reporting, or control activity for a function or organization; connect that mandate to evidence of team responsibility, planning cycle, reporting scope, decision support, and controls.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Finance career hub](/roles/director-finance/)
 
-Review the role-wide approach to lead financial planning, reporting, or control activity for a function or organization and the evidence expected for that scope.
+
 
 ### [Holding Companies and Corporate Groups industry hub](/industries/holding-companies/)
 
-Compare how ownership or coordination of multiple entities, portfolios, or operating businesses affects career planning across functions.
+
 
 ### [Chief Executive Officer in Holding Companies and Corporate Groups](/roles/ceo/holding-companies.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Finance remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Operating Officer in Holding Companies and Corporate Groups](/roles/coo/holding-companies.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Finance remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Director of Finance in Manufacturing](/roles/director-finance/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with ownership or coordination of multiple entities, portfolios, or operating businesses and identify how the Director of Finance remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Director of Finance in Holding Companies and Corporate Groups?
 
-Start with the organization's account of ownership or coordination of multiple entities, portfolios, or operating businesses, then clarify how the Director of Finance would lead financial planning, reporting, or control activity for a function or organization. Ask how owners, boards, portfolio leaders, finance teams, employees, and external partners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of ownership or coordination of multiple entities, portfolios, or operating businesses, then clarify how the Director of Finance would lead financial planning, reporting, or control activity for a function or organization. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Director of Finance make prior work relevant to Holding Companies and Corporate Groups?
 
@@ -139,15 +139,15 @@ Make the connection explicit: the candidate's record of team responsibility, pla
 
 ### Which career materials can help a Director of Finance explore work in Holding Companies and Corporate Groups?
 
-Possible materials include resume, finance achievement brief, professional profile, and interview examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries. Each claim should be accurate for this Holding Companies and Corporate Groups target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, finance achievement brief, professional profile, and interview examples. Each claim should be accurate for this Holding Companies and Corporate Groups target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Director of Finance contacts an organization in Holding Companies and Corporate Groups?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of Finance candidate's service scope; the candidate approves external communication. No one route should be assumed for all Holding Companies and Corporate Groups employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Holding Companies and Corporate Groups employers.
 
 ### What makes a Director of Finance background relevant to work in Holding Companies and Corporate Groups?
 
-Title is only a label. Establish what the employer means by Director of Finance in this Holding Companies and Corporate Groups organization and how the person will work with owners, boards, portfolio leaders, finance teams, employees, and external partners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Does KOV control employer responses to Director of Finance outreach in Holding Companies and Corporate Groups?
 

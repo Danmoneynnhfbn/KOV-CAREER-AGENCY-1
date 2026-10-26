@@ -63,7 +63,7 @@ Keep the Chief Executive Officer narrative accurate where claiming sole credit f
 
 ## Prepare for conversations about Hospitality and Food Service work
 
-For Chief Executive Officer work in Hospitality and Food Service, explain how the candidate could set organization-wide direction and coordinate executive work; connect that mandate to evidence of mandate, governance interface, operating scope, and attributable outcomes. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Chief Executive Officer example should separate direct responsibility from collaboration. KOV's service scope for a Chief Executive Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Before discussing venue or service scope, team leadership, guest context, service design, and attributable operating contributions, check whether claiming sole credit for collective outcomes or relying on title instead of mandate could expose sensitive details or blur the candidate's decision boundary.
+For Chief Executive Officer work in Hospitality and Food Service, explain how the candidate could set organization-wide direction and coordinate executive work; connect that mandate to evidence of mandate, governance interface, operating scope, and attributable outcomes. A Chief Executive Officer example should separate direct responsibility from collaboration. KOV's service scope for a Chief Executive Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Before discussing venue or service scope, team leadership, guest context, service design, and attributable operating contributions, check whether claiming sole credit for collective outcomes or relying on title instead of mandate could expose sensitive details or blur the candidate's decision boundary.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Executive Officer career hub](/roles/ceo/)
 
-Review the role-wide approach to set organization-wide direction and coordinate executive work and the evidence expected for that scope.
+
 
 ### [Hospitality and Food Service industry hub](/industries/hospitality-food-service/)
 
-Compare how guest-facing accommodation, food, venue, or experience services delivered through people and operations affects career planning across functions.
+
 
 ### [Chief Operating Officer in Hospitality and Food Service](/roles/coo/hospitality-food-service.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Executive Officer remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Financial Officer in Hospitality and Food Service](/roles/cfo/hospitality-food-service.html)
 
-Contrast lead financial stewardship and connect resource decisions to organizational priorities with the Chief Executive Officer remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Executive Officer in Agriculture, Food and Forestry](/roles/ceo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with guest-facing accommodation, food, venue, or experience services delivered through people and operations and identify how the Chief Executive Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Executive Officer test the scope of work in Hospitality and Food Service?
 
-A Chief Executive Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. Explore how the role will set organization-wide direction and coordinate executive work and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Executive Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Chief Executive Officer use to explain experience in Hospitality and Food Service?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### Which outreach choices belong to a Chief Executive Officer considering Hospitality and Food Service?
 
-Outreach should follow target research, not precede it. The Chief Executive Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with mandate, governance interface, operating scope, and attributable outcomes is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Chief Executive Officer rely on title alone when targeting Hospitality and Food Service?
 
-Title is only a label. Establish what the employer means by Chief Executive Officer in this Hospitality and Food Service organization and how the person will work with guests, employees, suppliers, owners, local partners, and service teams. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Chief Executive Officer seeking work in Hospitality and Food Service?
 

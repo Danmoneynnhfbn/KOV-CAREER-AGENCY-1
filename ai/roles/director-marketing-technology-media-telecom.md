@@ -8,15 +8,15 @@ Keep the Director of Marketing narrative accurate where presenting campaign metr
 
 ## Who this Director of Marketing and Technology, Media and Telecom guide is for
 
-Good preparation for Director of Marketing work includes a safe way to explain presenting campaign metrics without explaining objectives or contribution and a clear distinction between fact and inference. The candidate decides whether to pursue a Director of Marketing opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. To understand the Technology, Media and Telecom target, explore digital products, platforms, content, communications, or technology-enabled services and ask how a Director of Marketing is expected to respond to product evolution, reliability, audience or customer needs, technical choices, and changing business models. A precise Director of Marketing story ties audience, channel choices, budget or team remit, collaboration, and attributable results to the mandate of manage campaigns, channels, or marketing programs within a broader strategy, without suggesting that the title alone establishes fit.
+Good preparation for Director of Marketing work includes a safe way to explain presenting campaign metrics without explaining objectives or contribution and a clear distinction between fact and inference. KOV can support agreed research and preparation concerning Technology, Media and Telecom. To understand the Technology, Media and Telecom target, explore digital products, platforms, content, communications, or technology-enabled services and ask how a Director of Marketing is expected to respond to product evolution, reliability, audience or customer needs, technical choices, and changing business models. A precise Director of Marketing story ties audience, channel choices, budget or team remit, collaboration, and attributable results to the mandate of manage campaigns, channels, or marketing programs within a broader strategy, without suggesting that the title alone establishes fit.
 
 ## A candidate-led process from first discussion to next steps
 
-Protect credibility in Technology, Media and Telecom by addressing presenting campaign metrics without explaining objectives or contribution with a factual account of audience, channel choices, budget or team remit, collaboration, and attributable results and its limits. Use an example involving product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality to describe the decision, the parties involved, and the candidate's role as a Director of Marketing. Not every Technology, Media and Telecom organization will handle product evolution, reliability, audience or customer needs, technical choices, and changing business models alike. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Director of Marketing position. Rather than lead with seniority, a Director of Marketing profile can explain the responsibility to manage campaigns, channels, or marketing programs within a broader strategy and use product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality as evidence.
+Protect credibility in Technology, Media and Telecom by addressing presenting campaign metrics without explaining objectives or contribution with a factual account of audience, channel choices, budget or team remit, collaboration, and attributable results and its limits. Not every Technology, Media and Telecom organization will handle product evolution, reliability, audience or customer needs, technical choices, and changing business models alike. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Director of Marketing position. Rather than lead with seniority, a Director of Marketing profile can explain the responsibility to manage campaigns, channels, or marketing programs within a broader strategy and use product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality as evidence.
 
 ## Documents that make Director of Marketing experience relevant here
 
-A Director of Marketing candidate should show how audience, channel choices, budget or team remit, collaboration, and attributable results supported the work to manage campaigns, channels, or marketing programs within a broader strategy, with the Technology, Media and Telecom setting made explicit. Not every Technology, Media and Telecom organization will handle product evolution, reliability, audience or customer needs, technical choices, and changing business models alike. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Director of Marketing position. Candidate-side support from KOV may connect Director of Marketing positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Do not resolve uncertainty about presenting campaign metrics without explaining objectives or contribution through assumption; verify the requirement and use only supportable Director of Marketing claims.
+A Director of Marketing candidate should show how audience, channel choices, budget or team remit, collaboration, and attributable results supported the work to manage campaigns, channels, or marketing programs within a broader strategy, with the Technology, Media and Telecom setting made explicit. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Director of Marketing position. Candidate-side support from KOV may connect Director of Marketing positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Do not resolve uncertainty about presenting campaign metrics without explaining objectives or contribution through assumption; verify the requirement and use only supportable Director of Marketing claims.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Marketing career hub](/roles/director-marketing/)
 
-Review the role-wide approach to manage campaigns, channels, or marketing programs within a broader strategy and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Marketing remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Marketing remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Director of Marketing in Retail and E-commerce](/roles/director-marketing/retail-ecommerce.html)
 
-Compare customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment with digital products, platforms, content, communications, or technology-enabled services and identify how the Director of Marketing remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Director of Marketing test the scope of work in Technology, Media and Telecom?
 
-A Director of Marketing candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's digital products, platforms, content, communications, or technology-enabled services. Explore how the role will manage campaigns, channels, or marketing programs within a broader strategy and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of Marketing candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's digital products, platforms, content, communications, or technology-enabled services. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Director of Marketing use to explain experience in Technology, Media and Telecom?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### Can a Director of Marketing rely on title alone when targeting Technology, Media and Telecom?
 
-No. Compare the role description with the candidate's experience of manage campaigns, channels, or marketing programs within a broader strategy and the organization's digital products, platforms, content, communications, or technology-enabled services. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Director of Marketing seeking work in Technology, Media and Telecom?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of Marketing candidate considering Technology, Media and Telecom, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

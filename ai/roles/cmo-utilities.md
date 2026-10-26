@@ -12,7 +12,7 @@ The Utilities context involves essential network or service operations with cont
 
 ## A candidate-led process from first discussion to next steps
 
-For Chief Marketing Officer materials, manage the risk of claiming revenue or brand movement without describing attribution and surrounding factors; support claims with market context, customer insight, portfolio decisions, team leadership, and attributable contribution and remove details that are not authorized for sharing. The candidate decides whether to pursue a Chief Marketing Officer opportunity. KOV can support agreed research and preparation concerning Utilities. The candidate's record of market context, customer insight, portfolio decisions, team leadership, and attributable contribution should be set beside the role of customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders, so shared results are attributed fairly. To assess a Chief Marketing Officer opportunity in Utilities, compare the stated remit to the candidate's record of market context, customer insight, portfolio decisions, team leadership, and attributable contribution.
+For Chief Marketing Officer materials, manage the risk of claiming revenue or brand movement without describing attribution and surrounding factors; support claims with market context, customer insight, portfolio decisions, team leadership, and attributable contribution and remove details that are not authorized for sharing. KOV can support agreed research and preparation concerning Utilities. The candidate's record of market context, customer insight, portfolio decisions, team leadership, and attributable contribution should be set beside the role of customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders, so shared results are attributed fairly. To assess a Chief Marketing Officer opportunity in Utilities, compare the stated remit to the candidate's record of market context, customer insight, portfolio decisions, team leadership, and attributable contribution.
 
 ## Documents that make Chief Marketing Officer experience relevant here
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Marketing Officer career hub](/roles/cmo/)
 
-Review the role-wide approach to shape marketing strategy, customer understanding, brand, and commercial communication and the evidence expected for that scope.
+
 
 ### [Utilities industry hub](/industries/utilities/)
 
-Compare how essential network or service operations with continuity, infrastructure, and customer responsibilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Utilities](/roles/ceo/utilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Marketing Officer remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Operating Officer in Utilities](/roles/coo/utilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Marketing Officer remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Marketing Officer in Agriculture, Food and Forestry](/roles/cmo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with essential network or service operations with continuity, infrastructure, and customer responsibilities and identify how the Chief Marketing Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Marketing Officer clarify before considering work in Utilities?
 
-Use the opening discussion to understand the specific Utilities employer, not to assume a standard role. Compare shape marketing strategy, customer understanding, brand, and commercial communication with the stated scope, identify decision partners among customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Utilities employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Chief Marketing Officer describe transferable experience for Utilities work?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### How can KOV and a Chief Marketing Officer plan contact with Utilities organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Marketing Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Utilities employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Utilities employers.
 
 ### How can a Chief Marketing Officer assess fit with Utilities responsibilities?
 
-No. Compare the role description with the candidate's experience of shape marketing strategy, customer understanding, brand, and commercial communication and the organization's essential network or service operations with continuity, infrastructure, and customer responsibilities. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Chief Marketing Officer candidate considering Utilities?
 

@@ -8,7 +8,7 @@ A consultation can clarify whether a Board Director candidate needs positioning,
 
 ## Who this Board Director and Agriculture, Food and Forestry guide is for
 
-Before discussing resource planning, safety-minded operations, supplier relationships, yield or quality context, and continuity decisions, check whether implying executive authority for board decisions or claiming confidential board outcomes could expose sensitive details or blur the candidate's decision boundary. In Agriculture, Food and Forestry, producers, workforce, buyers, processors, logistics partners, and communities may shape the work. A Board Director example should separate direct responsibility from collaboration. Not every Agriculture, Food and Forestry organization will handle seasonality, input availability, quality variation, and coordination across production stages alike. Confirm how production linked to land, biological cycles, processing, and supply relationships informs this Board Director position. In a Agriculture, Food and Forestry target, make the Board Director contribution legible: describe how the candidate helped contribute oversight, inquiry, and strategic perspective within collective governance and what supports committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
+Before discussing resource planning, safety-minded operations, supplier relationships, yield or quality context, and continuity decisions, check whether implying executive authority for board decisions or claiming confidential board outcomes could expose sensitive details or blur the candidate's decision boundary. Not every Agriculture, Food and Forestry organization will handle seasonality, input availability, quality variation, and coordination across production stages alike. Confirm how production linked to land, biological cycles, processing, and supply relationships informs this Board Director position. In a Agriculture, Food and Forestry target, make the Board Director contribution legible: describe how the candidate helped contribute oversight, inquiry, and strategic perspective within collective governance and what supports committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -33,7 +33,7 @@ For Board Director work in Agriculture, Food and Forestry, explain how the candi
 
 ## Choose the individual services that fit the work
 
-The candidate can discuss committee or board remit, preparation, judgment, relevant expertise, and collective contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Agriculture, Food and Forestry. Before presenting resource planning, safety-minded operations, supplier relationships, yield or quality context, and continuity decisions, determine how producers, workforce, buyers, processors, logistics partners, and communities participated and which details are safe to discuss. Readers need to see what Board Director work involved; connect contribute oversight, inquiry, and strategic perspective within collective governance with the candidate's own examples of committee or board remit, preparation, judgment, relevant expertise, and collective contribution in Agriculture, Food and Forestry.
+The candidate can discuss committee or board remit, preparation, judgment, relevant expertise, and collective contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material. KOV can support agreed research and preparation concerning Agriculture, Food and Forestry. Before presenting resource planning, safety-minded operations, supplier relationships, yield or quality context, and continuity decisions, determine how producers, workforce, buyers, processors, logistics partners, and communities participated and which details are safe to discuss. Readers need to see what Board Director work involved; connect contribute oversight, inquiry, and strategic perspective within collective governance with the candidate's own examples of committee or board remit, preparation, judgment, relevant expertise, and collective contribution in Agriculture, Food and Forestry.
 
 ### [Private career representation](/services.html)
 
@@ -67,7 +67,7 @@ Protect credibility in Agriculture, Food and Forestry by addressing implying exe
 
 ## Run the search thoughtfully in each target market
 
-A precise Board Director story ties committee or board remit, preparation, judgment, relevant expertise, and collective contribution to the mandate of contribute oversight, inquiry, and strategic perspective within collective governance, without suggesting that the title alone establishes fit. Not every Agriculture, Food and Forestry organization will handle seasonality, input availability, quality variation, and coordination across production stages alike. Confirm how production linked to land, biological cycles, processing, and supply relationships informs this Board Director position. Where appropriate to the agreed service, KOV can help a Board Director candidate prepare and coordinate approved next steps for Agriculture, Food and Forestry. Review each Board Director example for implying executive authority for board decisions or claiming confidential board outcomes, then describe the candidate's decisions without overstating their control over chair, fellow directors, management, owners, stakeholders, and governance professionals.
+A precise Board Director story ties committee or board remit, preparation, judgment, relevant expertise, and collective contribution to the mandate of contribute oversight, inquiry, and strategic perspective within collective governance, without suggesting that the title alone establishes fit. Confirm how production linked to land, biological cycles, processing, and supply relationships informs this Board Director position. Where appropriate to the agreed service, KOV can help a Board Director candidate prepare and coordinate approved next steps for Agriculture, Food and Forestry. Review each Board Director example for implying executive authority for board decisions or claiming confidential board outcomes, then describe the candidate's decisions without overstating their control over chair, fellow directors, management, owners, stakeholders, and governance professionals.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Board Director career hub](/roles/board-director/)
 
-Review the role-wide approach to contribute oversight, inquiry, and strategic perspective within collective governance and the evidence expected for that scope.
+
 
 ### [Agriculture, Food and Forestry industry hub](/industries/agriculture-food-forestry/)
 
-Compare how production linked to land, biological cycles, processing, and supply relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Agriculture, Food and Forestry](/roles/ceo/agriculture-food-forestry.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Board Director remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Board Director remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Board Director in Energy, Mining and Oil and Gas](/roles/board-director/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with production linked to land, biological cycles, processing, and supply relationships and identify how the Board Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Board Director in Agriculture, Food and Forestry?
 
-Use the opening discussion to understand the specific Agriculture, Food and Forestry employer, not to assume a standard role. Compare contribute oversight, inquiry, and strategic perspective within collective governance with the stated scope, identify decision partners among producers, workforce, buyers, processors, logistics partners, and communities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Agriculture, Food and Forestry employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a Board Director make prior work relevant to Agriculture, Food and Forestry?
 
@@ -139,11 +139,11 @@ Select examples that show committee or board remit, preparation, judgment, relev
 
 ### Which career materials can help a Board Director explore work in Agriculture, Food and Forestry?
 
-Document selection depends on the opportunity. A Board Director may draw from board biography, governance resume, skills matrix, and concise profile, but should foreground only material connected to resource planning, safety-minded operations, supplier relationships, yield or quality context, and continuity decisions. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a Board Director contacts an organization in Agriculture, Food and Forestry?
 
-Outreach should follow target research, not precede it. The Board Director candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with committee or board remit, preparation, judgment, relevant expertise, and collective contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Board Director background relevant to work in Agriculture, Food and Forestry?
 

@@ -12,7 +12,7 @@ A precise Head of Strategy story ties problem framing, analysis, stakeholder ali
 
 ## A candidate-led process from first discussion to next steps
 
-Show the Head of Strategy scope behind the title: how the candidate could coordinate planning and strategic analysis for an organization or business unit, which decisions mattered, and where problem framing, analysis, stakeholder alignment, recommendation, and implementation support demonstrates their contribution. The Energy, Mining and Oil and Gas context involves asset-intensive work spanning development, extraction, generation, processing, or energy services; examine how that structure affects long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand before drawing conclusions about the Head of Strategy role. The candidate decides whether to pursue a Head of Strategy opportunity. KOV can support agreed research and preparation concerning Energy, Mining and Oil and Gas. Keep the Head of Strategy narrative accurate where taking credit for decisions made by sponsors or treating planning as implementation may arise: attribute shared work and disclose only information the candidate may use.
+Show the Head of Strategy scope behind the title: how the candidate could coordinate planning and strategic analysis for an organization or business unit, which decisions mattered, and where problem framing, analysis, stakeholder alignment, recommendation, and implementation support demonstrates their contribution. The candidate decides whether to pursue a Head of Strategy opportunity. KOV can support agreed research and preparation concerning Energy, Mining and Oil and Gas. Keep the Head of Strategy narrative accurate where taking credit for decisions made by sponsors or treating planning as implementation may arise: attribute shared work and disclose only information the candidate may use.
 
 ## Documents that make Head of Strategy experience relevant here
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Strategy career hub](/roles/head-strategy/)
 
-Review the role-wide approach to coordinate planning and strategic analysis for an organization or business unit and the evidence expected for that scope.
+
 
 ### [Energy, Mining and Oil and Gas industry hub](/industries/energy-mining-oil-gas/)
 
-Compare how asset-intensive work spanning development, extraction, generation, processing, or energy services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Energy, Mining and Oil and Gas](/roles/ceo/energy-mining-oil-gas.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Strategy remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Operating Officer in Energy, Mining and Oil and Gas](/roles/coo/energy-mining-oil-gas.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Strategy remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Head of Strategy in Manufacturing](/roles/head-strategy/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with asset-intensive work spanning development, extraction, generation, processing, or energy services and identify how the Head of Strategy remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Head of Strategy test the scope of work in Energy, Mining and Oil and Gas?
 
-Use the opening discussion to understand the specific Energy, Mining and Oil and Gas employer, not to assume a standard role. Compare coordinate planning and strategic analysis for an organization or business unit with the stated scope, identify decision partners among asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Energy, Mining and Oil and Gas employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### What evidence can a Head of Strategy use to explain experience in Energy, Mining and Oil and Gas?
 
@@ -139,15 +139,15 @@ Select examples that show problem framing, analysis, stakeholder alignment, reco
 
 ### What documents should a Head of Strategy tailor for Energy, Mining and Oil and Gas opportunities?
 
-Document selection depends on the opportunity. A Head of Strategy may draw from resume, strategy portfolio, planning narrative, and profile, but should foreground only material connected to project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### Which outreach choices belong to a Head of Strategy considering Energy, Mining and Oil and Gas?
 
-Outreach should follow target research, not precede it. The Head of Strategy candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with problem framing, analysis, stakeholder alignment, recommendation, and implementation support is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Head of Strategy rely on title alone when targeting Energy, Mining and Oil and Gas?
 
-No. Compare the role description with the candidate's experience of coordinate planning and strategic analysis for an organization or business unit and the organization's asset-intensive work spanning development, extraction, generation, processing, or energy services. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Head of Strategy seeking work in Energy, Mining and Oil and Gas?
 

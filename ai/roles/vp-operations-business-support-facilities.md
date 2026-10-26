@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Operations career hub](/roles/vp-operations/)
 
-Review the role-wide approach to coordinate operational performance across teams, locations, or service lines and the evidence expected for that scope.
+
 
 ### [Business Support and Facilities industry hub](/industries/business-support-facilities/)
 
-Compare how support services, workplace operations, facilities, administration, or outsourced capabilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Business Support and Facilities](/roles/ceo/business-support-facilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Operations remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Operating Officer in Business Support and Facilities](/roles/coo/business-support-facilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Operations remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Vice President of Operations in Agriculture, Food and Forestry](/roles/vp-operations/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with support services, workplace operations, facilities, administration, or outsourced capabilities and identify how the Vice President of Operations remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Vice President of Operations resolve before a target discussion in Business Support and Facilities?
 
-Use the opening discussion to understand the specific Business Support and Facilities employer, not to assume a standard role. Compare coordinate operational performance across teams, locations, or service lines with the stated scope, identify decision partners among internal clients, employees, service teams, suppliers, customers, and contract owners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Business Support and Facilities employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Vice President of Operations career story fit the needs of Business Support and Facilities?
 

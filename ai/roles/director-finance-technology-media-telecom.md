@@ -8,7 +8,7 @@ A precise Director of Finance story ties team responsibility, planning cycle, re
 
 ## Who this Director of Finance and Technology, Media and Telecom guide is for
 
-Do not resolve uncertainty about sharing nonpublic financial details or overstating sign-off authority through assumption; verify the requirement and use only supportable Director of Finance claims. Career representation remains candidate-led: KOV can support a Director of Finance search, while the candidate approves the goals and disclosures. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Director of Finance example should separate direct responsibility from collaboration. Ask what digital products, platforms, content, communications, or technology-enabled services means at this particular Technology, Media and Telecom organization and how it changes the priorities assigned to a Director of Finance.
+Do not resolve uncertainty about sharing nonpublic financial details or overstating sign-off authority through assumption; verify the requirement and use only supportable Director of Finance claims. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Director of Finance example should separate direct responsibility from collaboration. Ask what digital products, platforms, content, communications, or technology-enabled services means at this particular Technology, Media and Telecom organization and how it changes the priorities assigned to a Director of Finance.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Finance career hub](/roles/director-finance/)
 
-Review the role-wide approach to lead financial planning, reporting, or control activity for a function or organization and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Finance remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Finance remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Director of Finance in Manufacturing](/roles/director-finance/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with digital products, platforms, content, communications, or technology-enabled services and identify how the Director of Finance remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Director of Finance test the scope of work in Technology, Media and Telecom?
 
-Use the opening discussion to understand the specific Technology, Media and Telecom employer, not to assume a standard role. Compare lead financial planning, reporting, or control activity for a function or organization with the stated scope, identify decision partners among users, product and engineering teams, customers, creators, advertisers, partners, and investors, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Technology, Media and Telecom employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### What evidence can a Director of Finance use to explain experience in Technology, Media and Telecom?
 
@@ -139,11 +139,11 @@ Make the connection explicit: the candidate's record of team responsibility, pla
 
 ### What documents should a Director of Finance tailor for Technology, Media and Telecom opportunities?
 
-Document selection depends on the opportunity. A Director of Finance may draw from resume, finance achievement brief, professional profile, and interview examples, but should foreground only material connected to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### Which outreach choices belong to a Director of Finance considering Technology, Media and Telecom?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of Finance candidate's service scope; the candidate approves external communication. No one route should be assumed for all Technology, Media and Telecom employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Technology, Media and Telecom employers.
 
 ### Can a Director of Finance rely on title alone when targeting Technology, Media and Telecom?
 

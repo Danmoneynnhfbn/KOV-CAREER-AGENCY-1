@@ -45,7 +45,7 @@ Consider document and positioning support for Non-Executive Director materials t
 
 ## Prepare to discuss the Manufacturing mandate
 
-The candidate decides whether to pursue a Non-Executive Director opportunity. KOV can support agreed research and preparation concerning Manufacturing. The candidate's record of governance experience, constructive challenge, committee contribution, and relevant expertise should be set beside the role of employees, suppliers, customers, engineering, operations, distribution, and ownership, so shared results are attributed fairly. A candidate exploring Manufacturing should test the assumed link between conversion of materials into products through coordinated processes, equipment, people, and quality systems and production planning, equipment capacity, quality, workforce capability, and customer demand against the actual Non-Executive Director role description. Rather than lead with seniority, a Non-Executive Director profile can explain the responsibility to provide independent challenge and strategic contribution distinct from management and use plant or product scope, process decisions, quality or delivery context, team leadership, and improvement work as evidence.
+The candidate decides whether to pursue a Non-Executive Director opportunity. The candidate's record of governance experience, constructive challenge, committee contribution, and relevant expertise should be set beside the role of employees, suppliers, customers, engineering, operations, distribution, and ownership, so shared results are attributed fairly. A candidate exploring Manufacturing should test the assumed link between conversion of materials into products through coordinated processes, equipment, people, and quality systems and production planning, equipment capacity, quality, workforce capability, and customer demand against the actual Non-Executive Director role description. Rather than lead with seniority, a Non-Executive Director profile can explain the responsibility to provide independent challenge and strategic contribution distinct from management and use plant or product scope, process decisions, quality or delivery context, team leadership, and improvement work as evidence.
 
 ## Common positioning mistakes for Non-Executive Director candidates in Manufacturing
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Non-Executive Director career hub](/roles/non-executive-director/)
 
-Review the role-wide approach to provide independent challenge and strategic contribution distinct from management and the evidence expected for that scope.
+
 
 ### [Manufacturing industry hub](/industries/manufacturing/)
 
-Compare how conversion of materials into products through coordinated processes, equipment, people, and quality systems affects career planning across functions.
+
 
 ### [Chief Executive Officer in Manufacturing](/roles/ceo/manufacturing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Non-Executive Director remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Operating Officer in Manufacturing](/roles/coo/manufacturing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Non-Executive Director remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Non-Executive Director in Agriculture, Food and Forestry](/roles/non-executive-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with conversion of materials into products through coordinated processes, equipment, people, and quality systems and identify how the Non-Executive Director remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Non-Executive Director test the scope of work in Manufacturing?
 
-Use the opening discussion to understand the specific Manufacturing employer, not to assume a standard role. Compare provide independent challenge and strategic contribution distinct from management with the stated scope, identify decision partners among employees, suppliers, customers, engineering, operations, distribution, and ownership, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Manufacturing employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### What evidence can a Non-Executive Director use to explain experience in Manufacturing?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could provide independent challenge and
 
 ### What documents should a Non-Executive Director tailor for Manufacturing opportunities?
 
-Document selection depends on the opportunity. A Non-Executive Director may draw from board biography, non-executive profile, skills matrix, and governance resume, but should foreground only material connected to plant or product scope, process decisions, quality or delivery context, team leadership, and improvement work. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### Which outreach choices belong to a Non-Executive Director considering Manufacturing?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Non-Executive Director candidate's service scope; the candidate approves external communication. No one route should be assumed for all Manufacturing employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Manufacturing employers.
 
 ### Can a Non-Executive Director rely on title alone when targeting Manufacturing?
 
-Title is only a label. Establish what the employer means by Non-Executive Director in this Manufacturing organization and how the person will work with employees, suppliers, customers, engineering, operations, distribution, and ownership. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Non-Executive Director seeking work in Manufacturing?
 

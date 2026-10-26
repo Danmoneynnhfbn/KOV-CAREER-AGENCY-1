@@ -59,11 +59,11 @@ Protect credibility in Arts, Entertainment and Sports by addressing presenting p
 
 ## Keep research, confidentiality, and outreach aligned
 
-Readers need to see what Managing Partner work involved; connect combine leadership responsibilities with the governance and professional context of a partnership with the candidate's own examples of partner-group mandate, management contribution, practice or business scope, and shared decisions in Arts, Entertainment and Sports. In Arts, Entertainment and Sports, audiences, participants, creators, athletes, sponsors, venues, partners, and communities may shape the work. A Managing Partner example should separate direct responsibility from collaboration. KOV works with the candidate to agree which Managing Partner targets matter, how partner biography, leadership resume, practice summary, and profile will be used, and whether communication is authorized. A Managing Partner candidate should be ready to explain presenting partner-group outcomes as individual decisions or ignoring shared governance without revealing confidential details or implying unsupported responsibility.
+Readers need to see what Managing Partner work involved; connect combine leadership responsibilities with the governance and professional context of a partnership with the candidate's own examples of partner-group mandate, management contribution, practice or business scope, and shared decisions in Arts, Entertainment and Sports. A Managing Partner example should separate direct responsibility from collaboration. KOV works with the candidate to agree which Managing Partner targets matter, how partner biography, leadership resume, practice summary, and profile will be used, and whether communication is authorized. A Managing Partner candidate should be ready to explain presenting partner-group outcomes as individual decisions or ignoring shared governance without revealing confidential details or implying unsupported responsibility.
 
 ## Prepare for conversations about Arts, Entertainment and Sports work
 
-To assess a Managing Partner opportunity in Arts, Entertainment and Sports, compare the stated remit to the candidate's record of partner-group mandate, management contribution, practice or business scope, and shared decisions. Not every Arts, Entertainment and Sports organization will handle creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions alike. Confirm how creative, cultural, event, audience, or sporting activity supported by teams and organizations informs this Managing Partner position. Candidate-side support from KOV may connect Managing Partner positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Keep the Managing Partner narrative accurate where presenting partner-group outcomes as individual decisions or ignoring shared governance may arise: attribute shared work and disclose only information the candidate may use.
+To assess a Managing Partner opportunity in Arts, Entertainment and Sports, compare the stated remit to the candidate's record of partner-group mandate, management contribution, practice or business scope, and shared decisions. Confirm how creative, cultural, event, audience, or sporting activity supported by teams and organizations informs this Managing Partner position. Candidate-side support from KOV may connect Managing Partner positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Keep the Managing Partner narrative accurate where presenting partner-group outcomes as individual decisions or ignoring shared governance may arise: attribute shared work and disclose only information the candidate may use.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Partner career hub](/roles/managing-partner/)
 
-Review the role-wide approach to combine leadership responsibilities with the governance and professional context of a partnership and the evidence expected for that scope.
+
 
 ### [Arts, Entertainment and Sports industry hub](/industries/arts-entertainment-sports/)
 
-Compare how creative, cultural, event, audience, or sporting activity supported by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Arts, Entertainment and Sports](/roles/ceo/arts-entertainment-sports.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Partner remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Operating Officer in Arts, Entertainment and Sports](/roles/coo/arts-entertainment-sports.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Partner remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Managing Partner in Agriculture, Food and Forestry](/roles/managing-partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with creative, cultural, event, audience, or sporting activity supported by teams and organizations and identify how the Managing Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Managing Partner clarify before considering work in Arts, Entertainment and Sports?
 
-Use the opening discussion to understand the specific Arts, Entertainment and Sports employer, not to assume a standard role. Compare combine leadership responsibilities with the governance and professional context of a partnership with the stated scope, identify decision partners among audiences, participants, creators, athletes, sponsors, venues, partners, and communities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Arts, Entertainment and Sports employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Managing Partner describe transferable experience for Arts, Entertainment and Sports work?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Managing Partner assess fit with Arts, Entertainment and Sports responsibilities?
 
-Title is only a label. Establish what the employer means by Managing Partner in this Arts, Entertainment and Sports organization and how the person will work with audiences, participants, creators, athletes, sponsors, venues, partners, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Managing Partner candidate considering Arts, Entertainment and Sports?
 

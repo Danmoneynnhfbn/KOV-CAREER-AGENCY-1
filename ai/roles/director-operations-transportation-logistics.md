@@ -4,7 +4,7 @@ KOV helps Director of Operations candidates considering roles connected to Trans
 
 ## How Director of Operations work connects with Transportation and Logistics
 
-A Director of Operations candidate should be ready to explain describing process work without the operating context or the candidate's authority without revealing confidential details or implying unsupported responsibility. KOV works with the candidate to agree which Director of Operations targets matter, how resume, operations achievement summary, professional profile, and interview examples will be used, and whether communication is authorized. In Transportation and Logistics, customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities may shape the work. A Director of Operations example should separate direct responsibility from collaboration. For Director of Operations work in Transportation and Logistics, explain how the candidate could manage operational delivery and improve coordination within a defined remit; connect that mandate to evidence of team or site scope, process ownership, service standards, and improvement contribution.
+A Director of Operations candidate should be ready to explain describing process work without the operating context or the candidate's authority without revealing confidential details or implying unsupported responsibility. In Transportation and Logistics, customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities may shape the work. A Director of Operations example should separate direct responsibility from collaboration. For Director of Operations work in Transportation and Logistics, explain how the candidate could manage operational delivery and improve coordination within a defined remit; connect that mandate to evidence of team or site scope, process ownership, service standards, and improvement contribution.
 
 ## Who this Director of Operations and Transportation and Logistics guide is for
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Director of Operations materials t
 
 ## Prepare to discuss the Transportation and Logistics mandate
 
-Before discussing route or network scope, service performance context, asset choices, workforce coordination, and customer communication, check whether describing process work without the operating context or the candidate's authority could expose sensitive details or blur the candidate's decision boundary. KOV's service scope for a Director of Operations candidate can include document preparation and agreed search activity, but cannot promise an employer's response. In Transportation and Logistics, customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities may shape the work. A Director of Operations example should separate direct responsibility from collaboration. In a Transportation and Logistics target, make the Director of Operations contribution legible: describe how the candidate helped manage operational delivery and improve coordination within a defined remit and what supports team or site scope, process ownership, service standards, and improvement contribution.
+Before discussing route or network scope, service performance context, asset choices, workforce coordination, and customer communication, check whether describing process work without the operating context or the candidate's authority could expose sensitive details or blur the candidate's decision boundary. In Transportation and Logistics, customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities may shape the work. A Director of Operations example should separate direct responsibility from collaboration. In a Transportation and Logistics target, make the Director of Operations contribution legible: describe how the candidate helped manage operational delivery and improve coordination within a defined remit and what supports team or site scope, process ownership, service standards, and improvement contribution.
 
 ## Common positioning mistakes for Director of Operations candidates in Transportation and Logistics
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Operations career hub](/roles/director-operations/)
 
-Review the role-wide approach to manage operational delivery and improve coordination within a defined remit and the evidence expected for that scope.
+
 
 ### [Transportation and Logistics industry hub](/industries/transportation-logistics/)
 
-Compare how movement, handling, and coordination of people or goods across routes and operating networks affects career planning across functions.
+
 
 ### [Chief Executive Officer in Transportation and Logistics](/roles/ceo/transportation-logistics.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Operations remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Operating Officer in Transportation and Logistics](/roles/coo/transportation-logistics.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Operations remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Director of Operations in Agriculture, Food and Forestry](/roles/director-operations/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with movement, handling, and coordination of people or goods across routes and operating networks and identify how the Director of Operations remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Director of Operations in Transportation and Logistics?
 
-Start with the organization's account of movement, handling, and coordination of people or goods across routes and operating networks, then clarify how the Director of Operations would manage operational delivery and improve coordination within a defined remit. Ask how customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of movement, handling, and coordination of people or goods across routes and operating networks, then clarify how the Director of Operations would manage operational delivery and improve coordination within a defined remit. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Director of Operations make prior work relevant to Transportation and Logistics?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could manage operational delivery and i
 
 ### Which career materials can help a Director of Operations explore work in Transportation and Logistics?
 
-Possible materials include resume, operations achievement summary, professional profile, and interview examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to route or network scope, service performance context, asset choices, workforce coordination, and customer communication. Each claim should be accurate for this Transportation and Logistics target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, operations achievement summary, professional profile, and interview examples. Each claim should be accurate for this Transportation and Logistics target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Director of Operations contacts an organization in Transportation and Logistics?
 
-Outreach should follow target research, not precede it. The Director of Operations candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with team or site scope, process ownership, service standards, and improvement contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Director of Operations background relevant to work in Transportation and Logistics?
 
-No. Compare the role description with the candidate's experience of manage operational delivery and improve coordination within a defined remit and the organization's movement, handling, and coordination of people or goods across routes and operating networks. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Director of Operations outreach in Transportation and Logistics?
 

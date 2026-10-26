@@ -67,7 +67,7 @@ Where substituting technology keywords for evidence of scale, decisions, and del
 
 ## Run the search thoughtfully in each target market
 
-Protect credibility in Utilities by addressing substituting technology keywords for evidence of scale, decisions, and delivery conditions with a factual account of engineering scope, architecture choices, delivery systems, people leadership, and operational outcomes and its limits. The candidate decides whether to pursue a Vice President of Engineering opportunity. KOV can support agreed research and preparation concerning Utilities. To understand the Utilities target, explore essential network or service operations with continuity, infrastructure, and customer responsibilities and ask how a Vice President of Engineering is expected to respond to reliability, infrastructure renewal, service access, affordability, and long-term planning. Show the Vice President of Engineering scope behind the title: how the candidate could lead engineering organization, technical delivery, and capability development, which decisions mattered, and where engineering scope, architecture choices, delivery systems, people leadership, and operational outcomes demonstrates their contribution.
+Protect credibility in Utilities by addressing substituting technology keywords for evidence of scale, decisions, and delivery conditions with a factual account of engineering scope, architecture choices, delivery systems, people leadership, and operational outcomes and its limits. KOV can support agreed research and preparation concerning Utilities. To understand the Utilities target, explore essential network or service operations with continuity, infrastructure, and customer responsibilities and ask how a Vice President of Engineering is expected to respond to reliability, infrastructure renewal, service access, affordability, and long-term planning. Show the Vice President of Engineering scope behind the title: how the candidate could lead engineering organization, technical delivery, and capability development, which decisions mattered, and where engineering scope, architecture choices, delivery systems, people leadership, and operational outcomes demonstrates their contribution.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Engineering career hub](/roles/vp-engineering/)
 
-Review the role-wide approach to lead engineering organization, technical delivery, and capability development and the evidence expected for that scope.
+
 
 ### [Utilities industry hub](/industries/utilities/)
 
-Compare how essential network or service operations with continuity, infrastructure, and customer responsibilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Utilities](/roles/ceo/utilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Engineering remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Operating Officer in Utilities](/roles/coo/utilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Engineering remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Vice President of Engineering in Energy, Mining and Oil and Gas](/roles/vp-engineering/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with essential network or service operations with continuity, infrastructure, and customer responsibilities and identify how the Vice President of Engineering remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Vice President of Engineering resolve before a target discussion in Utilities?
 
-Start with the organization's account of essential network or service operations with continuity, infrastructure, and customer responsibilities, then clarify how the Vice President of Engineering would lead engineering organization, technical delivery, and capability development. Ask how customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of essential network or service operations with continuity, infrastructure, and customer responsibilities, then clarify how the Vice President of Engineering would lead engineering organization, technical delivery, and capability development. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### Which parts of a Vice President of Engineering career story fit the needs of Utilities?
 
@@ -139,15 +139,15 @@ Make the connection explicit: the candidate's record of engineering scope, archi
 
 ### What should a Vice President of Engineering prepare in writing before targeting Utilities?
 
-Document selection depends on the opportunity. A Vice President of Engineering may draw from executive resume, engineering leadership profile, portfolio summary, and profile, but should foreground only material connected to service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What should a Vice President of Engineering approve before outreach in Utilities?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Vice President of Engineering candidate's service scope; the candidate approves external communication. No one route should be assumed for all Utilities employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Utilities employers.
 
 ### How should a Vice President of Engineering compare title and remit in Utilities?
 
-Title is only a label. Establish what the employer means by Vice President of Engineering in this Utilities organization and how the person will work with customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Vice President of Engineering with an employer in Utilities?
 

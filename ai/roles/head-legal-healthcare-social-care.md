@@ -4,7 +4,7 @@ KOV helps Head of Legal candidates considering roles connected to Healthcare and
 
 ## How Head of Legal work connects with Healthcare and Social Care
 
-A candidate exploring Healthcare and Social Care should test the assumed link between care, health-related services, or social support delivered by teams and organizations and service quality, workforce coordination, access, continuity, and sensitive information against the actual Head of Legal role description. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Head of Legal example should separate direct responsibility from collaboration. KOV can help a Head of Legal candidate organize an agreed search approach for Healthcare and Social Care, including documents such as legal leadership resume, practice biography, role summary, and discreet examples. Good preparation for Head of Legal work includes a safe way to explain sharing privileged material or implying that legal advice alone owned business decisions and a clear distinction between fact and inference.
+A candidate exploring Healthcare and Social Care should test the assumed link between care, health-related services, or social support delivered by teams and organizations and service quality, workforce coordination, access, continuity, and sensitive information against the actual Head of Legal role description. A Head of Legal example should separate direct responsibility from collaboration. KOV can help a Head of Legal candidate organize an agreed search approach for Healthcare and Social Care, including documents such as legal leadership resume, practice biography, role summary, and discreet examples. Good preparation for Head of Legal work includes a safe way to explain sharing privileged material or implying that legal advice alone owned business decisions and a clear distinction between fact and inference.
 
 ## Who this Head of Legal and Healthcare and Social Care guide is for
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Legal career hub](/roles/head-legal/)
 
-Review the role-wide approach to lead a legal function or specialist team and advise on decisions within its remit and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Legal remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Legal remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Head of Legal in Technology, Media and Telecom](/roles/head-legal/technology-media-telecom.html)
 
-Compare digital products, platforms, content, communications, or technology-enabled services with care, health-related services, or social support delivered by teams and organizations and identify how the Head of Legal remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Head of Legal in Healthcare and Social Care?
 
-Start with the organization's account of care, health-related services, or social support delivered by teams and organizations, then clarify how the Head of Legal would lead a legal function or specialist team and advise on decisions within its remit. Ask how people receiving services, families, care professionals, administrators, owners, and community partners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of care, health-related services, or social support delivered by teams and organizations, then clarify how the Head of Legal would lead a legal function or specialist team and advise on decisions within its remit. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Head of Legal make prior work relevant to Healthcare and Social Care?
 
@@ -139,15 +139,15 @@ Make the connection explicit: the candidate's record of advisory scope, team str
 
 ### Which career materials can help a Head of Legal explore work in Healthcare and Social Care?
 
-Possible materials include legal leadership resume, practice biography, role summary, and discreet examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples. Each claim should be accurate for this Healthcare and Social Care target, and confidential or unauthorized material should be omitted.
+Possible materials include legal leadership resume, practice biography, role summary, and discreet examples. Each claim should be accurate for this Healthcare and Social Care target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Head of Legal contacts an organization in Healthcare and Social Care?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Head of Legal candidate's service scope; the candidate approves external communication. No one route should be assumed for all Healthcare and Social Care employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Healthcare and Social Care employers.
 
 ### What makes a Head of Legal background relevant to work in Healthcare and Social Care?
 
-Title is only a label. Establish what the employer means by Head of Legal in this Healthcare and Social Care organization and how the person will work with people receiving services, families, care professionals, administrators, owners, and community partners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Does KOV control employer responses to Head of Legal outreach in Healthcare and Social Care?
 

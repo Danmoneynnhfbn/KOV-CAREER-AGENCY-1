@@ -16,7 +16,7 @@ Keep the Director of People narrative accurate where using sensitive workforce i
 
 ## Documents that make Director of People experience relevant here
 
-Research for a Director of People in Business Support and Facilities becomes more focused when the candidate investigates service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alongside support services, workplace operations, facilities, administration, or outsourced capabilities. Before presenting service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements, determine how internal clients, employees, service teams, suppliers, customers, and contract owners participated and which details are safe to discuss. The candidate decides whether to pursue a Director of People opportunity. KOV can support agreed research and preparation concerning Business Support and Facilities. Do not resolve uncertainty about using sensitive workforce information or broad claims without context through assumption; verify the requirement and use only supportable Director of People claims.
+Research for a Director of People in Business Support and Facilities becomes more focused when the candidate investigates service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alongside support services, workplace operations, facilities, administration, or outsourced capabilities. The candidate decides whether to pursue a Director of People opportunity. KOV can support agreed research and preparation concerning Business Support and Facilities. Do not resolve uncertainty about using sensitive workforce information or broad claims without context through assumption; verify the requirement and use only supportable Director of People claims.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of People career hub](/roles/director-people/)
 
-Review the role-wide approach to lead a people function or program and support managers through organizational change and the evidence expected for that scope.
+
 
 ### [Business Support and Facilities industry hub](/industries/business-support-facilities/)
 
-Compare how support services, workplace operations, facilities, administration, or outsourced capabilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Business Support and Facilities](/roles/ceo/business-support-facilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of People remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Operating Officer in Business Support and Facilities](/roles/coo/business-support-facilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of People remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Director of People in Manufacturing](/roles/director-people/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with support services, workplace operations, facilities, administration, or outsourced capabilities and identify how the Director of People remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Director of People resolve before a target discussion in Business Support and Facilities?
 
-A Director of People candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's support services, workplace operations, facilities, administration, or outsourced capabilities. Explore how the role will lead a people function or program and support managers through organizational change and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of People candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's support services, workplace operations, facilities, administration, or outsourced capabilities. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Director of People career story fit the needs of Business Support and Facilities?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of program scope, manager p
 
 ### What should a Director of People prepare in writing before targeting Business Support and Facilities?
 
-Possible materials include resume, people-program portfolio, profile, and selected examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, people-program portfolio, profile, and selected examples. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
 
 ### What should a Director of People approve before outreach in Business Support and Facilities?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate program sc
 
 ### Will KOV secure a meeting for a Director of People with an employer in Business Support and Facilities?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of People candidate considering Business Support and Facilities, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

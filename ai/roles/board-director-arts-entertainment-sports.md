@@ -4,7 +4,7 @@ KOV helps Board Director candidates considering roles connected to Arts, Enterta
 
 ## How Board Director work connects with Arts, Entertainment and Sports
 
-Readers need to see what Board Director work involved; connect contribute oversight, inquiry, and strategic perspective within collective governance with the candidate's own examples of committee or board remit, preparation, judgment, relevant expertise, and collective contribution in Arts, Entertainment and Sports. Not every Arts, Entertainment and Sports organization will handle creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions alike. Confirm how creative, cultural, event, audience, or sporting activity supported by teams and organizations informs this Board Director position. KOV works with the candidate to agree which Board Director targets matter, how board biography, governance resume, skills matrix, and concise profile will be used, and whether communication is authorized. The candidate can discuss committee or board remit, preparation, judgment, relevant expertise, and collective contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+Readers need to see what Board Director work involved; connect contribute oversight, inquiry, and strategic perspective within collective governance with the candidate's own examples of committee or board remit, preparation, judgment, relevant expertise, and collective contribution in Arts, Entertainment and Sports. Confirm how creative, cultural, event, audience, or sporting activity supported by teams and organizations informs this Board Director position. KOV works with the candidate to agree which Board Director targets matter, how board biography, governance resume, skills matrix, and concise profile will be used, and whether communication is authorized. The candidate can discuss committee or board remit, preparation, judgment, relevant expertise, and collective contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Who this Board Director and Arts, Entertainment and Sports guide is for
 
@@ -33,7 +33,7 @@ Show the Board Director scope behind the title: how the candidate could contribu
 
 ## Choose the individual services that fit the work
 
-The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Arts, Entertainment and Sports. Use an example involving program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available to describe the decision, the parties involved, and the candidate's role as a Board Director. A candidate exploring Arts, Entertainment and Sports should test the assumed link between creative, cultural, event, audience, or sporting activity supported by teams and organizations and creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions against the actual Board Director role description. In a Arts, Entertainment and Sports target, make the Board Director contribution legible: describe how the candidate helped contribute oversight, inquiry, and strategic perspective within collective governance and what supports committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
+The candidate decides whether to pursue a Board Director opportunity. Use an example involving program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available to describe the decision, the parties involved, and the candidate's role as a Board Director. A candidate exploring Arts, Entertainment and Sports should test the assumed link between creative, cultural, event, audience, or sporting activity supported by teams and organizations and creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions against the actual Board Director role description. In a Arts, Entertainment and Sports target, make the Board Director contribution legible: describe how the candidate helped contribute oversight, inquiry, and strategic perspective within collective governance and what supports committee or board remit, preparation, judgment, relevant expertise, and collective contribution.
 
 ### [Private career representation](/services.html)
 
@@ -49,7 +49,7 @@ The Board Director remit to contribute oversight, inquiry, and strategic perspec
 
 ## Common positioning mistakes for Board Director candidates in Arts, Entertainment and Sports
 
-Keep the Board Director narrative accurate where implying executive authority for board decisions or claiming confidential board outcomes may arise: attribute shared work and disclose only information the candidate may use. The candidate decides whether to pursue a Board Director opportunity. KOV can support agreed research and preparation concerning Arts, Entertainment and Sports. In Arts, Entertainment and Sports, audiences, participants, creators, athletes, sponsors, venues, partners, and communities may shape the work. A Board Director example should separate direct responsibility from collaboration. Ask what creative, cultural, event, audience, or sporting activity supported by teams and organizations means at this particular Arts, Entertainment and Sports organization and how it changes the priorities assigned to a Board Director.
+Keep the Board Director narrative accurate where implying executive authority for board decisions or claiming confidential board outcomes may arise: attribute shared work and disclose only information the candidate may use. In Arts, Entertainment and Sports, audiences, participants, creators, athletes, sponsors, venues, partners, and communities may shape the work. A Board Director example should separate direct responsibility from collaboration. Ask what creative, cultural, event, audience, or sporting activity supported by teams and organizations means at this particular Arts, Entertainment and Sports organization and how it changes the priorities assigned to a Board Director.
 
 - Treat Arts, Entertainment and Sports as one uniform employer type; distinguish the actual organization and role.
 - Use a Board Director title without explaining contribute oversight, inquiry, and strategic perspective within collective governance.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Board Director career hub](/roles/board-director/)
 
-Review the role-wide approach to contribute oversight, inquiry, and strategic perspective within collective governance and the evidence expected for that scope.
+
 
 ### [Arts, Entertainment and Sports industry hub](/industries/arts-entertainment-sports/)
 
-Compare how creative, cultural, event, audience, or sporting activity supported by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Arts, Entertainment and Sports](/roles/ceo/arts-entertainment-sports.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Board Director remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Operating Officer in Arts, Entertainment and Sports](/roles/coo/arts-entertainment-sports.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Board Director remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Board Director in Agriculture, Food and Forestry](/roles/board-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with creative, cultural, event, audience, or sporting activity supported by teams and organizations and identify how the Board Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Board Director clarify before considering work in Arts, Entertainment and Sports?
 
-Use the opening discussion to understand the specific Arts, Entertainment and Sports employer, not to assume a standard role. Compare contribute oversight, inquiry, and strategic perspective within collective governance with the stated scope, identify decision partners among audiences, participants, creators, athletes, sponsors, venues, partners, and communities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Arts, Entertainment and Sports employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Board Director describe transferable experience for Arts, Entertainment and Sports work?
 

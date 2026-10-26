@@ -16,7 +16,7 @@ Show the Chief Operating Officer scope behind the title: how the candidate could
 
 ## Documents that make Chief Operating Officer experience relevant here
 
-Good preparation for Chief Operating Officer work includes a safe way to explain describing activity without showing scope, dependencies, or the candidate's contribution and a clear distinction between fact and inference. The candidate decides whether to pursue a Chief Operating Officer opportunity. KOV can support agreed research and preparation concerning Public Sector and Government. Before presenting program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context, determine how residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders participated and which details are safe to discuss. Position a Chief Operating Officer career by linking align operating functions, delivery systems, and organizational priorities to program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context, then clarify which part of that work the candidate actually owned.
+Good preparation for Chief Operating Officer work includes a safe way to explain describing activity without showing scope, dependencies, or the candidate's contribution and a clear distinction between fact and inference. KOV can support agreed research and preparation concerning Public Sector and Government. Before presenting program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context, determine how residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders participated and which details are safe to discuss. Position a Chief Operating Officer career by linking align operating functions, delivery systems, and organizational priorities to program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context, then clarify which part of that work the candidate actually owned.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ Consider document and positioning support for Chief Operating Officer materials 
 
 ## Prepare to discuss the Public Sector and Government mandate
 
-Review each Chief Operating Officer example for describing activity without showing scope, dependencies, or the candidate's contribution, then describe the candidate's decisions without overstating their control over CEO, functional leaders, frontline managers, suppliers, employees, and customers. KOV works with the candidate to agree which Chief Operating Officer targets matter, how executive resume, operating-impact summary, leadership biography, and profile will be used, and whether communication is authorized. In Public Sector and Government, residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders may shape the work. A Chief Operating Officer example should separate direct responsibility from collaboration. In a Public Sector and Government target, make the Chief Operating Officer contribution legible: describe how the candidate helped align operating functions, delivery systems, and organizational priorities and what supports operating scale, service or product delivery, cross-functional change, and decision rights.
+Review each Chief Operating Officer example for describing activity without showing scope, dependencies, or the candidate's contribution, then describe the candidate's decisions without overstating their control over CEO, functional leaders, frontline managers, suppliers, employees, and customers. In Public Sector and Government, residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders may shape the work. A Chief Operating Officer example should separate direct responsibility from collaboration. In a Public Sector and Government target, make the Chief Operating Officer contribution legible: describe how the candidate helped align operating functions, delivery systems, and organizational priorities and what supports operating scale, service or product delivery, cross-functional change, and decision rights.
 
 ## Common positioning mistakes for Chief Operating Officer candidates in Public Sector and Government
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Operating Officer career hub](/roles/coo/)
 
-Review the role-wide approach to align operating functions, delivery systems, and organizational priorities and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Operating Officer remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Financial Officer in Public Sector and Government](/roles/cfo/public-sector-government.html)
 
-Contrast lead financial stewardship and connect resource decisions to organizational priorities with the Chief Operating Officer remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with public administration, public programs, or services delivered under a public mandate and identify how the Chief Operating Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Operating Officer test the scope of work in Public Sector and Government?
 
-Start with the organization's account of public administration, public programs, or services delivered under a public mandate, then clarify how the Chief Operating Officer would align operating functions, delivery systems, and organizational priorities. Ask how residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of public administration, public programs, or services delivered under a public mandate, then clarify how the Chief Operating Officer would align operating functions, delivery systems, and organizational priorities. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Chief Operating Officer use to explain experience in Public Sector and Government?
 
@@ -139,19 +139,19 @@ Describe an instance where the candidate could align operating functions, delive
 
 ### What documents should a Chief Operating Officer tailor for Public Sector and Government opportunities?
 
-Possible materials include executive resume, operating-impact summary, leadership biography, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, operating-impact summary, leadership biography, and profile. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Chief Operating Officer considering Public Sector and Government?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Operating Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Public Sector and Government employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Public Sector and Government employers.
 
 ### Can a Chief Operating Officer rely on title alone when targeting Public Sector and Government?
 
-No. Compare the role description with the candidate's experience of align operating functions, delivery systems, and organizational priorities and the organization's public administration, public programs, or services delivered under a public mandate. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Chief Operating Officer seeking work in Public Sector and Government?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Operating Officer candidate considering Public Sector and Government, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

@@ -49,7 +49,7 @@ A Chief Operating Officer candidate should show how operating scale, service or 
 
 ## Common positioning mistakes for Chief Operating Officer candidates in Finance and Insurance
 
-For Chief Operating Officer work in Finance and Insurance, explain how the candidate could align operating functions, delivery systems, and organizational priorities; connect that mandate to evidence of operating scale, service or product delivery, cross-functional change, and decision rights. Not every Finance and Insurance organization will handle trust, information handling, product suitability, operational resilience, and competing customer and business needs alike. Confirm how financial products and services supported by customer relationships, information, operations, and oversight informs this Chief Operating Officer position. KOV works with the candidate to agree which Chief Operating Officer targets matter, how executive resume, operating-impact summary, leadership biography, and profile will be used, and whether communication is authorized. For Chief Operating Officer materials, manage the risk of describing activity without showing scope, dependencies, or the candidate's contribution; support claims with operating scale, service or product delivery, cross-functional change, and decision rights and remove details that are not authorized for sharing.
+For Chief Operating Officer work in Finance and Insurance, explain how the candidate could align operating functions, delivery systems, and organizational priorities; connect that mandate to evidence of operating scale, service or product delivery, cross-functional change, and decision rights. Confirm how financial products and services supported by customer relationships, information, operations, and oversight informs this Chief Operating Officer position. KOV works with the candidate to agree which Chief Operating Officer targets matter, how executive resume, operating-impact summary, leadership biography, and profile will be used, and whether communication is authorized. For Chief Operating Officer materials, manage the risk of describing activity without showing scope, dependencies, or the candidate's contribution; support claims with operating scale, service or product delivery, cross-functional change, and decision rights and remove details that are not authorized for sharing.
 
 - Treat Finance and Insurance as one uniform employer type; distinguish the actual organization and role.
 - Use a Chief Operating Officer title without explaining align operating functions, delivery systems, and organizational priorities.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Operating Officer career hub](/roles/coo/)
 
-Review the role-wide approach to align operating functions, delivery systems, and organizational priorities and the evidence expected for that scope.
+
 
 ### [Finance and Insurance industry hub](/industries/finance-insurance/)
 
-Compare how financial products and services supported by customer relationships, information, operations, and oversight affects career planning across functions.
+
 
 ### [Chief Executive Officer in Finance and Insurance](/roles/ceo/finance-insurance.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Operating Officer remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Financial Officer in Finance and Insurance](/roles/cfo/finance-insurance.html)
 
-Contrast lead financial stewardship and connect resource decisions to organizational priorities with the Chief Operating Officer remit; consider where each function meets financial products and services supported by customer relationships, information, operations, and oversight.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with financial products and services supported by customer relationships, information, operations, and oversight and identify how the Chief Operating Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Operating Officer clarify before considering work in Finance and Insurance?
 
-Use the opening discussion to understand the specific Finance and Insurance employer, not to assume a standard role. Compare align operating functions, delivery systems, and organizational priorities with the stated scope, identify decision partners among customers, advisors, product teams, investors, counterparties, employees, and oversight stakeholders, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Finance and Insurance employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Chief Operating Officer describe transferable experience for Finance and Insurance work?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### How can KOV and a Chief Operating Officer plan contact with Finance and Insurance organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Operating Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Finance and Insurance employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Finance and Insurance employers.
 
 ### How can a Chief Operating Officer assess fit with Finance and Insurance responsibilities?
 
-No. Compare the role description with the candidate's experience of align operating functions, delivery systems, and organizational priorities and the organization's financial products and services supported by customer relationships, information, operations, and oversight. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Chief Operating Officer candidate considering Finance and Insurance?
 

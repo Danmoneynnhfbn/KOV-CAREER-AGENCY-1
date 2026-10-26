@@ -8,11 +8,11 @@ Keep the Director of Operations narrative accurate where describing process work
 
 ## Who this Director of Operations and Utilities guide is for
 
-Readers need to see what Director of Operations work involved; connect manage operational delivery and improve coordination within a defined remit with the candidate's own examples of team or site scope, process ownership, service standards, and improvement contribution in Utilities. Use essential network or service operations with continuity, infrastructure, and customer responsibilities to frame research about Utilities, then ask how a Director of Operations will work through reliability, infrastructure renewal, service access, affordability, and long-term planning. In Utilities, customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders may shape the work. A Director of Operations example should separate direct responsibility from collaboration. The candidate decides whether to pursue a Director of Operations opportunity. KOV can support agreed research and preparation concerning Utilities.
+Readers need to see what Director of Operations work involved; connect manage operational delivery and improve coordination within a defined remit with the candidate's own examples of team or site scope, process ownership, service standards, and improvement contribution in Utilities. A Director of Operations example should separate direct responsibility from collaboration. The candidate decides whether to pursue a Director of Operations opportunity. KOV can support agreed research and preparation concerning Utilities.
 
 ## A candidate-led process from first discussion to next steps
 
-Where describing process work without the operating context or the candidate's authority affects a career example, substitute an authorized summary that preserves the point about team or site scope, process ownership, service standards, and improvement contribution. The candidate decides whether to pursue a Director of Operations opportunity. KOV can support agreed research and preparation concerning Utilities. The candidate's record of team or site scope, process ownership, service standards, and improvement contribution should be set beside the role of customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders, so shared results are attributed fairly. To assess a Director of Operations opportunity in Utilities, compare the stated remit to the candidate's record of team or site scope, process ownership, service standards, and improvement contribution.
+Where describing process work without the operating context or the candidate's authority affects a career example, substitute an authorized summary that preserves the point about team or site scope, process ownership, service standards, and improvement contribution. KOV can support agreed research and preparation concerning Utilities. The candidate's record of team or site scope, process ownership, service standards, and improvement contribution should be set beside the role of customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders, so shared results are attributed fairly. To assess a Director of Operations opportunity in Utilities, compare the stated remit to the candidate's record of team or site scope, process ownership, service standards, and improvement contribution.
 
 ## Documents that make Director of Operations experience relevant here
 
@@ -33,7 +33,7 @@ For Director of Operations materials, manage the risk of describing process work
 
 ## Choose the individual services that fit the work
 
-A candidate exploring Utilities should test the assumed link between essential network or service operations with continuity, infrastructure, and customer responsibilities and reliability, infrastructure renewal, service access, affordability, and long-term planning against the actual Director of Operations role description. Map the Utilities relationships among customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders; verify actual authority instead of inferring a reporting line. The candidate decides whether to pursue a Director of Operations opportunity. KOV can support agreed research and preparation concerning Utilities. Do not resolve uncertainty about describing process work without the operating context or the candidate's authority through assumption; verify the requirement and use only supportable Director of Operations claims.
+A candidate exploring Utilities should test the assumed link between essential network or service operations with continuity, infrastructure, and customer responsibilities and reliability, infrastructure renewal, service access, affordability, and long-term planning against the actual Director of Operations role description. The candidate decides whether to pursue a Director of Operations opportunity. KOV can support agreed research and preparation concerning Utilities. Do not resolve uncertainty about describing process work without the operating context or the candidate's authority through assumption; verify the requirement and use only supportable Director of Operations claims.
 
 ### [Private career representation](/services.html)
 
@@ -67,7 +67,7 @@ To assess a Director of Operations opportunity in Utilities, compare the stated 
 
 ## Run the search thoughtfully in each target market
 
-Keep the Director of Operations narrative accurate where describing process work without the operating context or the candidate's authority may arise: attribute shared work and disclose only information the candidate may use. Career representation remains candidate-led: KOV can support a Director of Operations search, while the candidate approves the goals and disclosures. In Utilities, customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders may shape the work. A Director of Operations example should separate direct responsibility from collaboration. Readers need to see what Director of Operations work involved; connect manage operational delivery and improve coordination within a defined remit with the candidate's own examples of team or site scope, process ownership, service standards, and improvement contribution in Utilities.
+Keep the Director of Operations narrative accurate where describing process work without the operating context or the candidate's authority may arise: attribute shared work and disclose only information the candidate may use. In Utilities, customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders may shape the work. A Director of Operations example should separate direct responsibility from collaboration. Readers need to see what Director of Operations work involved; connect manage operational delivery and improve coordination within a defined remit with the candidate's own examples of team or site scope, process ownership, service standards, and improvement contribution in Utilities.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Operations career hub](/roles/director-operations/)
 
-Review the role-wide approach to manage operational delivery and improve coordination within a defined remit and the evidence expected for that scope.
+
 
 ### [Utilities industry hub](/industries/utilities/)
 
-Compare how essential network or service operations with continuity, infrastructure, and customer responsibilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Utilities](/roles/ceo/utilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Operations remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Operating Officer in Utilities](/roles/coo/utilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Operations remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Director of Operations in Agriculture, Food and Forestry](/roles/director-operations/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with essential network or service operations with continuity, infrastructure, and customer responsibilities and identify how the Director of Operations remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Director of Operations clarify before considering work in Utilities?
 
-A Director of Operations candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's essential network or service operations with continuity, infrastructure, and customer responsibilities. Explore how the role will manage operational delivery and improve coordination within a defined remit and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of Operations candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's essential network or service operations with continuity, infrastructure, and customer responsibilities. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Director of Operations describe transferable experience for Utilities work?
 
@@ -139,7 +139,7 @@ Select examples that show team or site scope, process ownership, service standar
 
 ### How can a Director of Operations choose documents for conversations about Utilities?
 
-Possible materials include resume, operations achievement summary, professional profile, and interview examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination. Each claim should be accurate for this Utilities target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, operations achievement summary, professional profile, and interview examples. Each claim should be accurate for this Utilities target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Director of Operations plan contact with Utilities organizations?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Director of Operations assess fit with Utilities responsibilities?
 
-No. Compare the role description with the candidate's experience of manage operational delivery and improve coordination within a defined remit and the organization's essential network or service operations with continuity, infrastructure, and customer responsibilities. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Director of Operations candidate considering Utilities?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of Operations candidate considering Utilities, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

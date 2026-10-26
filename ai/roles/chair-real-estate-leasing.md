@@ -4,11 +4,11 @@ KOV helps Chair candidates considering roles connected to Real Estate and Leasin
 
 ## How Chair work connects with Real Estate and Leasing
 
-Where blurring chair and executive accountabilities or taking credit for collective decisions affects a career example, substitute an authorized summary that preserves the point about meeting leadership, board composition, governance practice, relationships, and transition judgment. The candidate decides whether to pursue a Chair opportunity. KOV can support agreed research and preparation concerning Real Estate and Leasing. Ask what property ownership, development, brokerage, management, or leasing relationships means at this particular Real Estate and Leasing organization and how it changes the priorities assigned to a Chair. A Chair candidate should show how meeting leadership, board composition, governance practice, relationships, and transition judgment supported the work to lead board effectiveness and support clear governance and decision-making, with the Real Estate and Leasing setting made explicit.
+Where blurring chair and executive accountabilities or taking credit for collective decisions affects a career example, substitute an authorized summary that preserves the point about meeting leadership, board composition, governance practice, relationships, and transition judgment. KOV can support agreed research and preparation concerning Real Estate and Leasing. Ask what property ownership, development, brokerage, management, or leasing relationships means at this particular Real Estate and Leasing organization and how it changes the priorities assigned to a Chair. A Chair candidate should show how meeting leadership, board composition, governance practice, relationships, and transition judgment supported the work to lead board effectiveness and support clear governance and decision-making, with the Real Estate and Leasing setting made explicit.
 
 ## Who this Chair and Real Estate and Leasing guide is for
 
-A Chair candidate should be ready to explain blurring chair and executive accountabilities or taking credit for collective decisions without revealing confidential details or implying unsupported responsibility. The candidate decides whether to pursue a Chair opportunity. KOV can support agreed research and preparation concerning Real Estate and Leasing. For Real Estate and Leasing, establish whether property ownership, development, brokerage, management, or leasing relationships describes the target employer and how asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions is reflected in its Chair mandate. A precise Chair story ties meeting leadership, board composition, governance practice, relationships, and transition judgment to the mandate of lead board effectiveness and support clear governance and decision-making, without suggesting that the title alone establishes fit.
+A Chair candidate should be ready to explain blurring chair and executive accountabilities or taking credit for collective decisions without revealing confidential details or implying unsupported responsibility. KOV can support agreed research and preparation concerning Real Estate and Leasing. For Real Estate and Leasing, establish whether property ownership, development, brokerage, management, or leasing relationships describes the target employer and how asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions is reflected in its Chair mandate. A precise Chair story ties meeting leadership, board composition, governance practice, relationships, and transition judgment to the mandate of lead board effectiveness and support clear governance and decision-making, without suggesting that the title alone establishes fit.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -59,7 +59,7 @@ In a Real Estate and Leasing target, make the Chair contribution legible: descri
 
 ## Keep research, confidentiality, and outreach aligned
 
-The candidate can discuss meeting leadership, board composition, governance practice, relationships, and transition judgment while protecting confidentiality by omitting names, restricted figures, and other identifying material. The candidate decides whether to pursue a Chair opportunity. KOV can support agreed research and preparation concerning Real Estate and Leasing. Consider how owners, tenants, customers, investors, property teams, suppliers, and communities interact with a Chair; use examples of asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution to show judgment and collaboration. Treat property ownership, development, brokerage, management, or leasing relationships as a question to validate in Real Estate and Leasing; the answer helps clarify the Chair mandate and its asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions.
+The candidate can discuss meeting leadership, board composition, governance practice, relationships, and transition judgment while protecting confidentiality by omitting names, restricted figures, and other identifying material. KOV can support agreed research and preparation concerning Real Estate and Leasing. Consider how owners, tenants, customers, investors, property teams, suppliers, and communities interact with a Chair; use examples of asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution to show judgment and collaboration. Treat property ownership, development, brokerage, management, or leasing relationships as a question to validate in Real Estate and Leasing; the answer helps clarify the Chair mandate and its asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions.
 
 ## Prepare for conversations about Real Estate and Leasing work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chair career hub](/roles/chair/)
 
-Review the role-wide approach to lead board effectiveness and support clear governance and decision-making and the evidence expected for that scope.
+
 
 ### [Real Estate and Leasing industry hub](/industries/real-estate-leasing/)
 
-Compare how property ownership, development, brokerage, management, or leasing relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Real Estate and Leasing](/roles/ceo/real-estate-leasing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chair remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Operating Officer in Real Estate and Leasing](/roles/coo/real-estate-leasing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chair remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chair in Agriculture, Food and Forestry](/roles/chair/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with property ownership, development, brokerage, management, or leasing relationships and identify how the Chair remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Chair resolve before a target discussion in Real Estate and Leasing?
 
-A Chair candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's property ownership, development, brokerage, management, or leasing relationships. Explore how the role will lead board effectiveness and support clear governance and decision-making and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chair candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's property ownership, development, brokerage, management, or leasing relationships. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Chair career story fit the needs of Real Estate and Leasing?
 
@@ -139,11 +139,11 @@ Make the connection explicit: the candidate's record of meeting leadership, boar
 
 ### What should a Chair prepare in writing before targeting Real Estate and Leasing?
 
-Possible materials include chair biography, board resume, governance narrative, and public profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution. Each claim should be accurate for this Real Estate and Leasing target, and confidential or unauthorized material should be omitted.
+Possible materials include chair biography, board resume, governance narrative, and public profile. Each claim should be accurate for this Real Estate and Leasing target, and confidential or unauthorized material should be omitted.
 
 ### What should a Chair approve before outreach in Real Estate and Leasing?
 
-Outreach should follow target research, not precede it. The Chair candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with meeting leadership, board composition, governance practice, relationships, and transition judgment is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a Chair compare title and remit in Real Estate and Leasing?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate meeting le
 
 ### Will KOV secure a meeting for a Chair with an employer in Real Estate and Leasing?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chair candidate considering Real Estate and Leasing, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

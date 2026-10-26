@@ -8,7 +8,7 @@ Rather than lead with seniority, a Chief Marketing Officer profile can explain t
 
 ## Who this Chief Marketing Officer and Energy, Mining and Oil and Gas guide is for
 
-Readers need to see what Chief Marketing Officer work involved; connect shape marketing strategy, customer understanding, brand, and commercial communication with the candidate's own examples of market context, customer insight, portfolio decisions, team leadership, and attributable contribution in Energy, Mining and Oil and Gas. Treat asset-intensive work spanning development, extraction, generation, processing, or energy services as a question to validate in Energy, Mining and Oil and Gas; the answer helps clarify the Chief Marketing Officer mandate and its long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Chief Marketing Officer example should separate direct responsibility from collaboration. The service plan should fit the candidate's Chief Marketing Officer priorities; agree research, materials, and any outreach before contact occurs.
+Readers need to see what Chief Marketing Officer work involved; connect shape marketing strategy, customer understanding, brand, and commercial communication with the candidate's own examples of market context, customer insight, portfolio decisions, team leadership, and attributable contribution in Energy, Mining and Oil and Gas. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Chief Marketing Officer example should separate direct responsibility from collaboration. The service plan should fit the candidate's Chief Marketing Officer priorities; agree research, materials, and any outreach before contact occurs.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Chief Marketing Officer materials 
 
 ## Prepare to discuss the Energy, Mining and Oil and Gas mandate
 
-Research for a Chief Marketing Officer in Energy, Mining and Oil and Gas becomes more focused when the candidate investigates long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand alongside asset-intensive work spanning development, extraction, generation, processing, or energy services. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Chief Marketing Officer example should separate direct responsibility from collaboration. Where appropriate to the agreed service, KOV can help a Chief Marketing Officer candidate prepare and coordinate approved next steps for Energy, Mining and Oil and Gas. The candidate can discuss market context, customer insight, portfolio decisions, team leadership, and attributable contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+Research for a Chief Marketing Officer in Energy, Mining and Oil and Gas becomes more focused when the candidate investigates long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand alongside asset-intensive work spanning development, extraction, generation, processing, or energy services. A Chief Marketing Officer example should separate direct responsibility from collaboration. Where appropriate to the agreed service, KOV can help a Chief Marketing Officer candidate prepare and coordinate approved next steps for Energy, Mining and Oil and Gas. The candidate can discuss market context, customer insight, portfolio decisions, team leadership, and attributable contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Common positioning mistakes for Chief Marketing Officer candidates in Energy, Mining and Oil and Gas
 
@@ -59,7 +59,7 @@ Review each Chief Marketing Officer example for claiming revenue or brand moveme
 
 ## Keep research, confidentiality, and outreach aligned
 
-In a Energy, Mining and Oil and Gas target, make the Chief Marketing Officer contribution legible: describe how the candidate helped shape marketing strategy, customer understanding, brand, and commercial communication and what supports market context, customer insight, portfolio decisions, team leadership, and attributable contribution. Treat asset-intensive work spanning development, extraction, generation, processing, or energy services as a question to validate in Energy, Mining and Oil and Gas; the answer helps clarify the Chief Marketing Officer mandate and its long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Chief Marketing Officer example should separate direct responsibility from collaboration. Career representation remains candidate-led: KOV can support a Chief Marketing Officer search, while the candidate approves the goals and disclosures.
+In a Energy, Mining and Oil and Gas target, make the Chief Marketing Officer contribution legible: describe how the candidate helped shape marketing strategy, customer understanding, brand, and commercial communication and what supports market context, customer insight, portfolio decisions, team leadership, and attributable contribution. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Chief Marketing Officer example should separate direct responsibility from collaboration. Career representation remains candidate-led: KOV can support a Chief Marketing Officer search, while the candidate approves the goals and disclosures.
 
 ## Prepare for conversations about Energy, Mining and Oil and Gas work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Marketing Officer career hub](/roles/cmo/)
 
-Review the role-wide approach to shape marketing strategy, customer understanding, brand, and commercial communication and the evidence expected for that scope.
+
 
 ### [Energy, Mining and Oil and Gas industry hub](/industries/energy-mining-oil-gas/)
 
-Compare how asset-intensive work spanning development, extraction, generation, processing, or energy services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Energy, Mining and Oil and Gas](/roles/ceo/energy-mining-oil-gas.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Marketing Officer remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Operating Officer in Energy, Mining and Oil and Gas](/roles/coo/energy-mining-oil-gas.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Marketing Officer remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Marketing Officer in Agriculture, Food and Forestry](/roles/cmo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with asset-intensive work spanning development, extraction, generation, processing, or energy services and identify how the Chief Marketing Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Marketing Officer test the scope of work in Energy, Mining and Oil and Gas?
 
-A Chief Marketing Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's asset-intensive work spanning development, extraction, generation, processing, or energy services. Explore how the role will shape marketing strategy, customer understanding, brand, and commercial communication and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Marketing Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's asset-intensive work spanning development, extraction, generation, processing, or energy services. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Chief Marketing Officer use to explain experience in Energy, Mining and Oil and Gas?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### Which outreach choices belong to a Chief Marketing Officer considering Energy, Mining and Oil and Gas?
 
-Outreach should follow target research, not precede it. The Chief Marketing Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with market context, customer insight, portfolio decisions, team leadership, and attributable contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Chief Marketing Officer rely on title alone when targeting Energy, Mining and Oil and Gas?
 
-Title is only a label. Establish what the employer means by Chief Marketing Officer in this Energy, Mining and Oil and Gas organization and how the person will work with asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Chief Marketing Officer seeking work in Energy, Mining and Oil and Gas?
 

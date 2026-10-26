@@ -4,11 +4,11 @@ KOV helps Vice President of People candidates considering roles connected to Bus
 
 ## How Vice President of People work connects with Business Support and Facilities
 
-The candidate decides whether to pursue a Vice President of People opportunity. KOV can support agreed research and preparation concerning Business Support and Facilities. The candidate's record of people agenda, organization design, manager support, program scope, and employee experience should be set beside the role of internal clients, employees, service teams, suppliers, customers, and contract owners, so shared results are attributed fairly. To understand the Business Support and Facilities target, explore support services, workplace operations, facilities, administration, or outsourced capabilities and ask how a Vice President of People is expected to respond to service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity. Show the Vice President of People scope behind the title: how the candidate could lead people programs and partner with managers on organizational capability, which decisions mattered, and where people agenda, organization design, manager support, program scope, and employee experience demonstrates their contribution.
+The candidate decides whether to pursue a Vice President of People opportunity. The candidate's record of people agenda, organization design, manager support, program scope, and employee experience should be set beside the role of internal clients, employees, service teams, suppliers, customers, and contract owners, so shared results are attributed fairly. To understand the Business Support and Facilities target, explore support services, workplace operations, facilities, administration, or outsourced capabilities and ask how a Vice President of People is expected to respond to service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity. Show the Vice President of People scope behind the title: how the candidate could lead people programs and partner with managers on organizational capability, which decisions mattered, and where people agenda, organization design, manager support, program scope, and employee experience demonstrates their contribution.
 
 ## Who this Vice President of People and Business Support and Facilities guide is for
 
-In a Business Support and Facilities target, make the Vice President of People contribution legible: describe how the candidate helped lead people programs and partner with managers on organizational capability and what supports people agenda, organization design, manager support, program scope, and employee experience. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Vice President of People position. KOV can help a Vice President of People candidate organize an agreed search approach for Business Support and Facilities, including documents such as executive resume, people leadership portfolio, biography, and profile. Before discussing service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements, check whether including identifiable employee matters or claims without appropriate context could expose sensitive details or blur the candidate's decision boundary.
+In a Business Support and Facilities target, make the Vice President of People contribution legible: describe how the candidate helped lead people programs and partner with managers on organizational capability and what supports people agenda, organization design, manager support, program scope, and employee experience. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Vice President of People position. KOV can help a Vice President of People candidate organize an agreed search approach for Business Support and Facilities, including documents such as executive resume, people leadership portfolio, biography, and profile. Before discussing service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements, check whether including identifiable employee matters or claims without appropriate context could expose sensitive details or blur the candidate's decision boundary.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -33,7 +33,7 @@ Protect credibility in Business Support and Facilities by addressing including i
 
 ## Choose the individual services that fit the work
 
-Good preparation for Vice President of People work includes a safe way to explain including identifiable employee matters or claims without appropriate context and a clear distinction between fact and inference. Explain how CHRO, executives, people teams, employees, line managers, and advisers contributed to the candidate's work and distinguish that shared context from evidence of people agenda, organization design, manager support, program scope, and employee experience. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Vice President of People position. Position a Vice President of People career by linking lead people programs and partner with managers on organizational capability to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements, then clarify which part of that work the candidate actually owned.
+Good preparation for Vice President of People work includes a safe way to explain including identifiable employee matters or claims without appropriate context and a clear distinction between fact and inference. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Vice President of People position. Position a Vice President of People career by linking lead people programs and partner with managers on organizational capability to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements, then clarify which part of that work the candidate actually owned.
 
 ### [Private career representation](/services.html)
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Vice President of People materials
 
 ## Prepare to discuss the Business Support and Facilities mandate
 
-Do not resolve uncertainty about including identifiable employee matters or claims without appropriate context through assumption; verify the requirement and use only supportable Vice President of People claims. The candidate decides whether to pursue a Vice President of People opportunity. KOV can support agreed research and preparation concerning Business Support and Facilities. To understand the Business Support and Facilities target, explore support services, workplace operations, facilities, administration, or outsourced capabilities and ask how a Vice President of People is expected to respond to service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity. To assess a Vice President of People opportunity in Business Support and Facilities, compare the stated remit to the candidate's record of people agenda, organization design, manager support, program scope, and employee experience.
+Do not resolve uncertainty about including identifiable employee matters or claims without appropriate context through assumption; verify the requirement and use only supportable Vice President of People claims. KOV can support agreed research and preparation concerning Business Support and Facilities. To understand the Business Support and Facilities target, explore support services, workplace operations, facilities, administration, or outsourced capabilities and ask how a Vice President of People is expected to respond to service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity. To assess a Vice President of People opportunity in Business Support and Facilities, compare the stated remit to the candidate's record of people agenda, organization design, manager support, program scope, and employee experience.
 
 ## Common positioning mistakes for Vice President of People candidates in Business Support and Facilities
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of People career hub](/roles/vp-people/)
 
-Review the role-wide approach to lead people programs and partner with managers on organizational capability and the evidence expected for that scope.
+
 
 ### [Business Support and Facilities industry hub](/industries/business-support-facilities/)
 
-Compare how support services, workplace operations, facilities, administration, or outsourced capabilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Business Support and Facilities](/roles/ceo/business-support-facilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of People remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Operating Officer in Business Support and Facilities](/roles/coo/business-support-facilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of People remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Vice President of People in Manufacturing](/roles/vp-people/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with support services, workplace operations, facilities, administration, or outsourced capabilities and identify how the Vice President of People remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Vice President of People resolve before a target discussion in Business Support and Facilities?
 
-A Vice President of People candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's support services, workplace operations, facilities, administration, or outsourced capabilities. Explore how the role will lead people programs and partner with managers on organizational capability and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Vice President of People candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's support services, workplace operations, facilities, administration, or outsourced capabilities. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Vice President of People career story fit the needs of Business Support and Facilities?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could lead people programs and partner 
 
 ### What should a Vice President of People prepare in writing before targeting Business Support and Facilities?
 
-Possible materials include executive resume, people leadership portfolio, biography, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, people leadership portfolio, biography, and profile. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
 
 ### What should a Vice President of People approve before outreach in Business Support and Facilities?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Vice President of People candidate's service scope; the candidate approves external communication. No one route should be assumed for all Business Support and Facilities employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Business Support and Facilities employers.
 
 ### How should a Vice President of People compare title and remit in Business Support and Facilities?
 
-Title is only a label. Establish what the employer means by Vice President of People in this Business Support and Facilities organization and how the person will work with internal clients, employees, service teams, suppliers, customers, and contract owners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Vice President of People with an employer in Business Support and Facilities?
 

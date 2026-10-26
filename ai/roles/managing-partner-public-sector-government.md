@@ -8,7 +8,7 @@ Protect credibility in Public Sector and Government by addressing presenting par
 
 ## Who this Managing Partner and Public Sector and Government guide is for
 
-Protect credibility in Public Sector and Government by addressing presenting partner-group outcomes as individual decisions or ignoring shared governance with a factual account of partner-group mandate, management contribution, practice or business scope, and shared decisions and its limits. The service plan should fit the candidate's Managing Partner priorities; agree research, materials, and any outreach before contact occurs. In Public Sector and Government, residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders may shape the work. A Managing Partner example should separate direct responsibility from collaboration. Use public administration, public programs, or services delivered under a public mandate to frame research about Public Sector and Government, then ask how a Managing Partner will work through public purpose, stewardship, transparency, service access, and coordination across institutions.
+Protect credibility in Public Sector and Government by addressing presenting partner-group outcomes as individual decisions or ignoring shared governance with a factual account of partner-group mandate, management contribution, practice or business scope, and shared decisions and its limits. In Public Sector and Government, residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders may shape the work. A Managing Partner example should separate direct responsibility from collaboration. Use public administration, public programs, or services delivered under a public mandate to frame research about Public Sector and Government, then ask how a Managing Partner will work through public purpose, stewardship, transparency, service access, and coordination across institutions.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Managing Partner materials that pr
 
 ## Prepare to discuss the Public Sector and Government mandate
 
-A candidate exploring Public Sector and Government should test the assumed link between public administration, public programs, or services delivered under a public mandate and public purpose, stewardship, transparency, service access, and coordination across institutions against the actual Managing Partner role description. In Public Sector and Government, residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders may shape the work. A Managing Partner example should separate direct responsibility from collaboration. For a Managing Partner target, KOV can discuss how partner biography, leadership resume, practice summary, and profile support the candidate's account of partner-group mandate, management contribution, practice or business scope, and shared decisions; external steps require prior agreement. Review each Managing Partner example for presenting partner-group outcomes as individual decisions or ignoring shared governance, then describe the candidate's decisions without overstating their control over partners, practice leaders, employees, clients, committees, and external stakeholders.
+A candidate exploring Public Sector and Government should test the assumed link between public administration, public programs, or services delivered under a public mandate and public purpose, stewardship, transparency, service access, and coordination across institutions against the actual Managing Partner role description. A Managing Partner example should separate direct responsibility from collaboration. For a Managing Partner target, KOV can discuss how partner biography, leadership resume, practice summary, and profile support the candidate's account of partner-group mandate, management contribution, practice or business scope, and shared decisions; external steps require prior agreement. Review each Managing Partner example for presenting partner-group outcomes as individual decisions or ignoring shared governance, then describe the candidate's decisions without overstating their control over partners, practice leaders, employees, clients, committees, and external stakeholders.
 
 ## Common positioning mistakes for Managing Partner candidates in Public Sector and Government
 
@@ -63,7 +63,7 @@ KOV can help a Managing Partner candidate organize an agreed search approach for
 
 ## Prepare for conversations about Public Sector and Government work
 
-To assess a Managing Partner opportunity in Public Sector and Government, compare the stated remit to the candidate's record of partner-group mandate, management contribution, practice or business scope, and shared decisions. Not every Public Sector and Government organization will handle public purpose, stewardship, transparency, service access, and coordination across institutions alike. Confirm how public administration, public programs, or services delivered under a public mandate informs this Managing Partner position. Career representation remains candidate-led: KOV can support a Managing Partner search, while the candidate approves the goals and disclosures. Keep the Managing Partner narrative accurate where presenting partner-group outcomes as individual decisions or ignoring shared governance may arise: attribute shared work and disclose only information the candidate may use.
+To assess a Managing Partner opportunity in Public Sector and Government, compare the stated remit to the candidate's record of partner-group mandate, management contribution, practice or business scope, and shared decisions. Confirm how public administration, public programs, or services delivered under a public mandate informs this Managing Partner position. Career representation remains candidate-led: KOV can support a Managing Partner search, while the candidate approves the goals and disclosures. Keep the Managing Partner narrative accurate where presenting partner-group outcomes as individual decisions or ignoring shared governance may arise: attribute shared work and disclose only information the candidate may use.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Partner career hub](/roles/managing-partner/)
 
-Review the role-wide approach to combine leadership responsibilities with the governance and professional context of a partnership and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Partner remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Partner remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Managing Partner in Agriculture, Food and Forestry](/roles/managing-partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with public administration, public programs, or services delivered under a public mandate and identify how the Managing Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Managing Partner clarify before considering work in Public Sector and Government?
 
-A Managing Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. Explore how the role will combine leadership responsibilities with the governance and professional context of a partnership and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Managing Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Managing Partner describe transferable experience for Public Sector and Government work?
 
@@ -139,7 +139,7 @@ Make the connection explicit: the candidate's record of partner-group mandate, m
 
 ### How can a Managing Partner choose documents for conversations about Public Sector and Government?
 
-Possible materials include partner biography, leadership resume, practice summary, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
+Possible materials include partner biography, leadership resume, practice summary, and profile. Each claim should be accurate for this Public Sector and Government target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Managing Partner plan contact with Public Sector and Government organizations?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate partner-gr
 
 ### What can KOV promise a Managing Partner candidate considering Public Sector and Government?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Managing Partner candidate considering Public Sector and Government, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

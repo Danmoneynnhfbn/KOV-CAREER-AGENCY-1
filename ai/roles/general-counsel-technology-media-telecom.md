@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [General Counsel / Chief Legal Officer career hub](/roles/general-counsel/)
 
-Review the role-wide approach to lead legal judgment and connect legal advice with organizational decisions and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the General Counsel / Chief Legal Officer remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the General Counsel / Chief Legal Officer remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [General Counsel / Chief Legal Officer in Agriculture, Food and Forestry](/roles/general-counsel/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with digital products, platforms, content, communications, or technology-enabled services and identify how the General Counsel / Chief Legal Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a General Counsel / Chief Legal Officer in Technology, Media and Telecom?
 
-Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the General Counsel / Chief Legal Officer would lead legal judgment and connect legal advice with organizational decisions. Ask how users, product and engineering teams, customers, creators, advertisers, partners, and investors participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the General Counsel / Chief Legal Officer would lead legal judgment and connect legal advice with organizational decisions. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a General Counsel / Chief Legal Officer make prior work relevant to Technology, Media and Telecom?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could lead legal judgment and connect l
 
 ### Which career materials can help a General Counsel / Chief Legal Officer explore work in Technology, Media and Telecom?
 
-Possible materials include executive resume, legal leadership biography, practice summary, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, legal leadership biography, practice summary, and professional profile. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a General Counsel / Chief Legal Officer contacts an organization in Technology, Media and Telecom?
 
-Outreach should follow target research, not precede it. The General Counsel / Chief Legal Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with legal remit, advisory judgment, team scope, governance interaction, and business context is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a General Counsel / Chief Legal Officer background relevant to work in Technology, Media and Telecom?
 
-No. Compare the role description with the candidate's experience of lead legal judgment and connect legal advice with organizational decisions and the organization's digital products, platforms, content, communications, or technology-enabled services. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to General Counsel / Chief Legal Officer outreach in Technology, Media and Telecom?
 

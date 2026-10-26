@@ -63,7 +63,7 @@ A precise Chief Strategy Officer story ties strategy remit, decision support, po
 
 ## Prepare for conversations about Wholesale and Distribution work
 
-For Chief Strategy Officer work in Wholesale and Distribution, explain how the candidate could support organization-wide choices by framing options, analysis, and strategic execution; connect that mandate to evidence of strategy remit, decision support, portfolio choices, implementation links, and influence. In Wholesale and Distribution, suppliers, retailers, business customers, logistics teams, sales, and inventory operators may shape the work. A Chief Strategy Officer example should separate direct responsibility from collaboration. KOV's service scope for a Chief Strategy Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Before discussing channel or category scope, inventory and service context, commercial coordination, and customer outcomes, check whether presenting recommendations as implemented outcomes or leaving ownership unclear could expose sensitive details or blur the candidate's decision boundary.
+For Chief Strategy Officer work in Wholesale and Distribution, explain how the candidate could support organization-wide choices by framing options, analysis, and strategic execution; connect that mandate to evidence of strategy remit, decision support, portfolio choices, implementation links, and influence. A Chief Strategy Officer example should separate direct responsibility from collaboration. KOV's service scope for a Chief Strategy Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Before discussing channel or category scope, inventory and service context, commercial coordination, and customer outcomes, check whether presenting recommendations as implemented outcomes or leaving ownership unclear could expose sensitive details or blur the candidate's decision boundary.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Strategy Officer career hub](/roles/chief-strategy-officer/)
 
-Review the role-wide approach to support organization-wide choices by framing options, analysis, and strategic execution and the evidence expected for that scope.
+
 
 ### [Wholesale and Distribution industry hub](/industries/wholesale-distribution/)
 
-Compare how movement and availability of goods through purchasing, inventory, channel, and delivery relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Wholesale and Distribution](/roles/ceo/wholesale-distribution.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Strategy Officer remit; consider where each function meets movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Operating Officer in Wholesale and Distribution](/roles/coo/wholesale-distribution.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Strategy Officer remit; consider where each function meets movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Strategy Officer in Agriculture, Food and Forestry](/roles/chief-strategy-officer/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with movement and availability of goods through purchasing, inventory, channel, and delivery relationships and identify how the Chief Strategy Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Strategy Officer test the scope of work in Wholesale and Distribution?
 
-Start with the organization's account of movement and availability of goods through purchasing, inventory, channel, and delivery relationships, then clarify how the Chief Strategy Officer would support organization-wide choices by framing options, analysis, and strategic execution. Ask how suppliers, retailers, business customers, logistics teams, sales, and inventory operators participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of movement and availability of goods through purchasing, inventory, channel, and delivery relationships, then clarify how the Chief Strategy Officer would support organization-wide choices by framing options, analysis, and strategic execution. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Chief Strategy Officer use to explain experience in Wholesale and Distribution?
 
@@ -139,7 +139,7 @@ Select examples that show strategy remit, decision support, portfolio choices, i
 
 ### What documents should a Chief Strategy Officer tailor for Wholesale and Distribution opportunities?
 
-Possible materials include executive resume, strategy portfolio, executive biography, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to channel or category scope, inventory and service context, commercial coordination, and customer outcomes. Each claim should be accurate for this Wholesale and Distribution target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, strategy portfolio, executive biography, and profile. Each claim should be accurate for this Wholesale and Distribution target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Chief Strategy Officer considering Wholesale and Distribution?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate strategy r
 
 ### What outcome can KOV guarantee for a Chief Strategy Officer seeking work in Wholesale and Distribution?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Strategy Officer candidate considering Wholesale and Distribution, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

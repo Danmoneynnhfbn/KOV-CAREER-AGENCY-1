@@ -4,11 +4,11 @@ KOV helps Head of Strategy candidates considering roles connected to Technology,
 
 ## How Head of Strategy work connects with Technology, Media and Telecom
 
-Where taking credit for decisions made by sponsors or treating planning as implementation affects a career example, substitute an authorized summary that preserves the point about problem framing, analysis, stakeholder alignment, recommendation, and implementation support. The candidate decides whether to pursue a Head of Strategy opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Ask what digital products, platforms, content, communications, or technology-enabled services means at this particular Technology, Media and Telecom organization and how it changes the priorities assigned to a Head of Strategy. A Head of Strategy candidate should show how problem framing, analysis, stakeholder alignment, recommendation, and implementation support supported the work to coordinate planning and strategic analysis for an organization or business unit, with the Technology, Media and Telecom setting made explicit.
+Where taking credit for decisions made by sponsors or treating planning as implementation affects a career example, substitute an authorized summary that preserves the point about problem framing, analysis, stakeholder alignment, recommendation, and implementation support. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Ask what digital products, platforms, content, communications, or technology-enabled services means at this particular Technology, Media and Telecom organization and how it changes the priorities assigned to a Head of Strategy. A Head of Strategy candidate should show how problem framing, analysis, stakeholder alignment, recommendation, and implementation support supported the work to coordinate planning and strategic analysis for an organization or business unit, with the Technology, Media and Telecom setting made explicit.
 
 ## Who this Head of Strategy and Technology, Media and Telecom guide is for
 
-Review each Head of Strategy example for taking credit for decisions made by sponsors or treating planning as implementation, then describe the candidate's decisions without overstating their control over CEO or CSO, finance, business leaders, teams, and board or owners when appropriate. The candidate decides whether to pursue a Head of Strategy opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. To understand the Technology, Media and Telecom target, explore digital products, platforms, content, communications, or technology-enabled services and ask how a Head of Strategy is expected to respond to product evolution, reliability, audience or customer needs, technical choices, and changing business models. Position a Head of Strategy career by linking coordinate planning and strategic analysis for an organization or business unit to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality, then clarify which part of that work the candidate actually owned.
+Review each Head of Strategy example for taking credit for decisions made by sponsors or treating planning as implementation, then describe the candidate's decisions without overstating their control over CEO or CSO, finance, business leaders, teams, and board or owners when appropriate. KOV can support agreed research and preparation concerning Technology, Media and Telecom. To understand the Technology, Media and Telecom target, explore digital products, platforms, content, communications, or technology-enabled services and ask how a Head of Strategy is expected to respond to product evolution, reliability, audience or customer needs, technical choices, and changing business models. Position a Head of Strategy career by linking coordinate planning and strategic analysis for an organization or business unit to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality, then clarify which part of that work the candidate actually owned.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Strategy career hub](/roles/head-strategy/)
 
-Review the role-wide approach to coordinate planning and strategic analysis for an organization or business unit and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Strategy remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Strategy remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Head of Strategy in Energy, Mining and Oil and Gas](/roles/head-strategy/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with digital products, platforms, content, communications, or technology-enabled services and identify how the Head of Strategy remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Head of Strategy in Technology, Media and Telecom?
 
-Use the opening discussion to understand the specific Technology, Media and Telecom employer, not to assume a standard role. Compare coordinate planning and strategic analysis for an organization or business unit with the stated scope, identify decision partners among users, product and engineering teams, customers, creators, advertisers, partners, and investors, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Technology, Media and Telecom employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a Head of Strategy make prior work relevant to Technology, Media and Telecom?
 
@@ -139,15 +139,15 @@ Make the connection explicit: the candidate's record of problem framing, analysi
 
 ### Which career materials can help a Head of Strategy explore work in Technology, Media and Telecom?
 
-Document selection depends on the opportunity. A Head of Strategy may draw from resume, strategy portfolio, planning narrative, and profile, but should foreground only material connected to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a Head of Strategy contacts an organization in Technology, Media and Telecom?
 
-Outreach should follow target research, not precede it. The Head of Strategy candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with problem framing, analysis, stakeholder alignment, recommendation, and implementation support is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Head of Strategy background relevant to work in Technology, Media and Telecom?
 
-Title is only a label. Establish what the employer means by Head of Strategy in this Technology, Media and Telecom organization and how the person will work with users, product and engineering teams, customers, creators, advertisers, partners, and investors. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Does KOV control employer responses to Head of Strategy outreach in Technology, Media and Telecom?
 

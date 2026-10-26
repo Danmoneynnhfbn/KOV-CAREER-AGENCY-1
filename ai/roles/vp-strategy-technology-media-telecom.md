@@ -63,7 +63,7 @@ Where appropriate to the agreed service, KOV can help a Vice President of Strate
 
 ## Prepare for conversations about Technology, Media and Telecom work
 
-The Vice President of Strategy remit to frame strategic choices and connect planning with operating decisions should be described through decisions and examples, especially evidence of analysis, option framing, stakeholder alignment, implementation, and decision influence relevant to Technology, Media and Telecom. Research for a Vice President of Strategy in Technology, Media and Telecom becomes more focused when the candidate investigates product evolution, reliability, audience or customer needs, technical choices, and changing business models alongside digital products, platforms, content, communications, or technology-enabled services. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Vice President of Strategy example should separate direct responsibility from collaboration. Do not resolve uncertainty about claiming strategy outcomes without distinguishing recommendation, sponsorship, and execution through assumption; verify the requirement and use only supportable Vice President of Strategy claims.
+The Vice President of Strategy remit to frame strategic choices and connect planning with operating decisions should be described through decisions and examples, especially evidence of analysis, option framing, stakeholder alignment, implementation, and decision influence relevant to Technology, Media and Telecom. In Technology, Media and Telecom, users, product and engineering teams, customers, creators, advertisers, partners, and investors may shape the work. A Vice President of Strategy example should separate direct responsibility from collaboration. Do not resolve uncertainty about claiming strategy outcomes without distinguishing recommendation, sponsorship, and execution through assumption; verify the requirement and use only supportable Vice President of Strategy claims.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Strategy career hub](/roles/vp-strategy/)
 
-Review the role-wide approach to frame strategic choices and connect planning with operating decisions and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Strategy remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Strategy remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Vice President of Strategy in Energy, Mining and Oil and Gas](/roles/vp-strategy/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with digital products, platforms, content, communications, or technology-enabled services and identify how the Vice President of Strategy remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Vice President of Strategy resolve before a target discussion in Technology, Media and Telecom?
 
-A Vice President of Strategy candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's digital products, platforms, content, communications, or technology-enabled services. Explore how the role will frame strategic choices and connect planning with operating decisions and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Vice President of Strategy candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's digital products, platforms, content, communications, or technology-enabled services. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Vice President of Strategy career story fit the needs of Technology, Media and Telecom?
 
@@ -139,11 +139,11 @@ Make the connection explicit: the candidate's record of analysis, option framing
 
 ### What should a Vice President of Strategy prepare in writing before targeting Technology, Media and Telecom?
 
-Possible materials include executive resume, strategy portfolio, decision narrative, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, strategy portfolio, decision narrative, and profile. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
 
 ### What should a Vice President of Strategy approve before outreach in Technology, Media and Telecom?
 
-Outreach should follow target research, not precede it. The Vice President of Strategy candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with analysis, option framing, stakeholder alignment, implementation, and decision influence is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a Vice President of Strategy compare title and remit in Technology, Media and Telecom?
 

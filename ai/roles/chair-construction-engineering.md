@@ -33,7 +33,7 @@ The Chair remit to lead board effectiveness and support clear governance and dec
 
 ## Choose the individual services that fit the work
 
-For Chair work in Construction and Engineering, explain how the candidate could lead board effectiveness and support clear governance and decision-making; connect that mandate to evidence of meeting leadership, board composition, governance practice, relationships, and transition judgment. For Construction and Engineering, establish whether project-based delivery involving design, procurement, technical coordination, and site execution describes the target employer and how scope control, sequencing, interfaces, safety-minded work, and coordination across project phases is reflected in its Chair mandate. In Construction and Engineering, clients, project teams, designers, contractors, suppliers, workers, and asset users may shape the work. A Chair example should separate direct responsibility from collaboration. Do not resolve uncertainty about blurring chair and executive accountabilities or taking credit for collective decisions through assumption; verify the requirement and use only supportable Chair claims.
+For Chair work in Construction and Engineering, explain how the candidate could lead board effectiveness and support clear governance and decision-making; connect that mandate to evidence of meeting leadership, board composition, governance practice, relationships, and transition judgment. In Construction and Engineering, clients, project teams, designers, contractors, suppliers, workers, and asset users may shape the work. A Chair example should separate direct responsibility from collaboration. Do not resolve uncertainty about blurring chair and executive accountabilities or taking credit for collective decisions through assumption; verify the requirement and use only supportable Chair claims.
 
 ### [Private career representation](/services.html)
 
@@ -67,7 +67,7 @@ Protect credibility in Construction and Engineering by addressing blurring chair
 
 ## Run the search thoughtfully in each target market
 
-The candidate decides whether to pursue a Chair opportunity. KOV can support agreed research and preparation concerning Construction and Engineering. In Construction and Engineering, clients, project teams, designers, contractors, suppliers, workers, and asset users may shape the work. A Chair example should separate direct responsibility from collaboration. To understand the Construction and Engineering target, explore project-based delivery involving design, procurement, technical coordination, and site execution and ask how a Chair is expected to respond to scope control, sequencing, interfaces, safety-minded work, and coordination across project phases. In a Construction and Engineering target, make the Chair contribution legible: describe how the candidate helped lead board effectiveness and support clear governance and decision-making and what supports meeting leadership, board composition, governance practice, relationships, and transition judgment.
+The candidate decides whether to pursue a Chair opportunity. A Chair example should separate direct responsibility from collaboration. To understand the Construction and Engineering target, explore project-based delivery involving design, procurement, technical coordination, and site execution and ask how a Chair is expected to respond to scope control, sequencing, interfaces, safety-minded work, and coordination across project phases. In a Construction and Engineering target, make the Chair contribution legible: describe how the candidate helped lead board effectiveness and support clear governance and decision-making and what supports meeting leadership, board composition, governance practice, relationships, and transition judgment.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chair career hub](/roles/chair/)
 
-Review the role-wide approach to lead board effectiveness and support clear governance and decision-making and the evidence expected for that scope.
+
 
 ### [Construction and Engineering industry hub](/industries/construction-engineering/)
 
-Compare how project-based delivery involving design, procurement, technical coordination, and site execution affects career planning across functions.
+
 
 ### [Chief Executive Officer in Construction and Engineering](/roles/ceo/construction-engineering.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chair remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Operating Officer in Construction and Engineering](/roles/coo/construction-engineering.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chair remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chair in Agriculture, Food and Forestry](/roles/chair/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with project-based delivery involving design, procurement, technical coordination, and site execution and identify how the Chair remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chair test the scope of work in Construction and Engineering?
 
-A Chair candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's project-based delivery involving design, procurement, technical coordination, and site execution. Explore how the role will lead board effectiveness and support clear governance and decision-making and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chair candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's project-based delivery involving design, procurement, technical coordination, and site execution. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Chair use to explain experience in Construction and Engineering?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### Can a Chair rely on title alone when targeting Construction and Engineering?
 
-No. Compare the role description with the candidate's experience of lead board effectiveness and support clear governance and decision-making and the organization's project-based delivery involving design, procurement, technical coordination, and site execution. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Chair seeking work in Construction and Engineering?
 

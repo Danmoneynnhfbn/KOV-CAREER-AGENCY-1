@@ -8,7 +8,7 @@ Rather than lead with seniority, a General Counsel / Chief Legal Officer profile
 
 ## Who this General Counsel / Chief Legal Officer and Healthcare and Social Care guide is for
 
-Good preparation for General Counsel / Chief Legal Officer work includes a safe way to explain confusing legal advice with business decision ownership or disclosing privileged information and a clear distinction between fact and inference. The candidate decides whether to pursue a General Counsel / Chief Legal Officer opportunity. KOV can support agreed research and preparation concerning Healthcare and Social Care. To understand the Healthcare and Social Care target, explore care, health-related services, or social support delivered by teams and organizations and ask how a General Counsel / Chief Legal Officer is expected to respond to service quality, workforce coordination, access, continuity, and sensitive information. A precise General Counsel / Chief Legal Officer story ties legal remit, advisory judgment, team scope, governance interaction, and business context to the mandate of lead legal judgment and connect legal advice with organizational decisions, without suggesting that the title alone establishes fit.
+Good preparation for General Counsel / Chief Legal Officer work includes a safe way to explain confusing legal advice with business decision ownership or disclosing privileged information and a clear distinction between fact and inference. KOV can support agreed research and preparation concerning Healthcare and Social Care. To understand the Healthcare and Social Care target, explore care, health-related services, or social support delivered by teams and organizations and ask how a General Counsel / Chief Legal Officer is expected to respond to service quality, workforce coordination, access, continuity, and sensitive information. A precise General Counsel / Chief Legal Officer story ties legal remit, advisory judgment, team scope, governance interaction, and business context to the mandate of lead legal judgment and connect legal advice with organizational decisions, without suggesting that the title alone establishes fit.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [General Counsel / Chief Legal Officer career hub](/roles/general-counsel/)
 
-Review the role-wide approach to lead legal judgment and connect legal advice with organizational decisions and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the General Counsel / Chief Legal Officer remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the General Counsel / Chief Legal Officer remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [General Counsel / Chief Legal Officer in Agriculture, Food and Forestry](/roles/general-counsel/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with care, health-related services, or social support delivered by teams and organizations and identify how the General Counsel / Chief Legal Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a General Counsel / Chief Legal Officer in Healthcare and Social Care?
 
-Start with the organization's account of care, health-related services, or social support delivered by teams and organizations, then clarify how the General Counsel / Chief Legal Officer would lead legal judgment and connect legal advice with organizational decisions. Ask how people receiving services, families, care professionals, administrators, owners, and community partners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of care, health-related services, or social support delivered by teams and organizations, then clarify how the General Counsel / Chief Legal Officer would lead legal judgment and connect legal advice with organizational decisions. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a General Counsel / Chief Legal Officer make prior work relevant to Healthcare and Social Care?
 
@@ -139,19 +139,19 @@ Describe an instance where the candidate could lead legal judgment and connect l
 
 ### Which career materials can help a General Counsel / Chief Legal Officer explore work in Healthcare and Social Care?
 
-Possible materials include executive resume, legal leadership biography, practice summary, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples. Each claim should be accurate for this Healthcare and Social Care target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, legal leadership biography, practice summary, and professional profile. Each claim should be accurate for this Healthcare and Social Care target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a General Counsel / Chief Legal Officer contacts an organization in Healthcare and Social Care?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the General Counsel / Chief Legal Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Healthcare and Social Care employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Healthcare and Social Care employers.
 
 ### What makes a General Counsel / Chief Legal Officer background relevant to work in Healthcare and Social Care?
 
-No. Compare the role description with the candidate's experience of lead legal judgment and connect legal advice with organizational decisions and the organization's care, health-related services, or social support delivered by teams and organizations. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to General Counsel / Chief Legal Officer outreach in Healthcare and Social Care?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a General Counsel / Chief Legal Officer candidate considering Healthcare and Social Care, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

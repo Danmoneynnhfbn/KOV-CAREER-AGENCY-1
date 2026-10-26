@@ -49,7 +49,7 @@ Where revealing client information or overstating individual ownership of team r
 
 ## Common positioning mistakes for Partner candidates in Construction and Engineering
 
-A Partner candidate should be ready to explain revealing client information or overstating individual ownership of team results without revealing confidential details or implying unsupported responsibility. The candidate decides whether to pursue a Partner opportunity. KOV can support agreed research and preparation concerning Construction and Engineering. For Construction and Engineering, establish whether project-based delivery involving design, procurement, technical coordination, and site execution describes the target employer and how scope control, sequencing, interfaces, safety-minded work, and coordination across project phases is reflected in its Partner mandate. A precise Partner story ties client or commercial contribution, practice leadership, collaboration, and shared responsibilities to the mandate of develop a practice or business while contributing to a shared ownership or partnership structure, without suggesting that the title alone establishes fit.
+A Partner candidate should be ready to explain revealing client information or overstating individual ownership of team results without revealing confidential details or implying unsupported responsibility. KOV can support agreed research and preparation concerning Construction and Engineering. For Construction and Engineering, establish whether project-based delivery involving design, procurement, technical coordination, and site execution describes the target employer and how scope control, sequencing, interfaces, safety-minded work, and coordination across project phases is reflected in its Partner mandate. A precise Partner story ties client or commercial contribution, practice leadership, collaboration, and shared responsibilities to the mandate of develop a practice or business while contributing to a shared ownership or partnership structure, without suggesting that the title alone establishes fit.
 
 - Treat Construction and Engineering as one uniform employer type; distinguish the actual organization and role.
 - Use a Partner title without explaining develop a practice or business while contributing to a shared ownership or partnership structure.
@@ -67,7 +67,7 @@ In a Construction and Engineering target, make the Partner contribution legible:
 
 ## Run the search thoughtfully in each target market
 
-The candidate decides whether to pursue a Partner opportunity. KOV can support agreed research and preparation concerning Construction and Engineering. Consider how clients, project teams, designers, contractors, suppliers, workers, and asset users interact with a Partner; use examples of project complexity, commercial or technical decisions, interface management, delivery contribution, and lessons learned to show judgment and collaboration. Research for a Partner in Construction and Engineering becomes more focused when the candidate investigates scope control, sequencing, interfaces, safety-minded work, and coordination across project phases alongside project-based delivery involving design, procurement, technical coordination, and site execution. For Partner work in Construction and Engineering, explain how the candidate could develop a practice or business while contributing to a shared ownership or partnership structure; connect that mandate to evidence of client or commercial contribution, practice leadership, collaboration, and shared responsibilities.
+The candidate decides whether to pursue a Partner opportunity. Consider how clients, project teams, designers, contractors, suppliers, workers, and asset users interact with a Partner; use examples of project complexity, commercial or technical decisions, interface management, delivery contribution, and lessons learned to show judgment and collaboration. Research for a Partner in Construction and Engineering becomes more focused when the candidate investigates scope control, sequencing, interfaces, safety-minded work, and coordination across project phases alongside project-based delivery involving design, procurement, technical coordination, and site execution. For Partner work in Construction and Engineering, explain how the candidate could develop a practice or business while contributing to a shared ownership or partnership structure; connect that mandate to evidence of client or commercial contribution, practice leadership, collaboration, and shared responsibilities.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Partner career hub](/roles/partner/)
 
-Review the role-wide approach to develop a practice or business while contributing to a shared ownership or partnership structure and the evidence expected for that scope.
+
 
 ### [Construction and Engineering industry hub](/industries/construction-engineering/)
 
-Compare how project-based delivery involving design, procurement, technical coordination, and site execution affects career planning across functions.
+
 
 ### [Chief Executive Officer in Construction and Engineering](/roles/ceo/construction-engineering.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Partner remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Operating Officer in Construction and Engineering](/roles/coo/construction-engineering.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Partner remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Partner in Agriculture, Food and Forestry](/roles/partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with project-based delivery involving design, procurement, technical coordination, and site execution and identify how the Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Partner in Construction and Engineering?
 
-A Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's project-based delivery involving design, procurement, technical coordination, and site execution. Explore how the role will develop a practice or business while contributing to a shared ownership or partnership structure and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's project-based delivery involving design, procurement, technical coordination, and site execution. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Partner make prior work relevant to Construction and Engineering?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What must be agreed before a Partner contacts an organization in Construction and Engineering?
 
-Outreach should follow target research, not precede it. The Partner candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with client or commercial contribution, practice leadership, collaboration, and shared responsibilities is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Partner background relevant to work in Construction and Engineering?
 
-No. Compare the role description with the candidate's experience of develop a practice or business while contributing to a shared ownership or partnership structure and the organization's project-based delivery involving design, procurement, technical coordination, and site execution. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Partner outreach in Construction and Engineering?
 

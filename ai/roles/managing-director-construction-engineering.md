@@ -8,7 +8,7 @@ The service plan should fit the candidate's Managing Director priorities; agree 
 
 ## Who this Managing Director and Construction and Engineering guide is for
 
-Protect credibility in Construction and Engineering by addressing assuming the title means the same authority across employers, countries, or ownership models with a factual account of operating scope, commercial or service accountability, leadership span, and decision authority and its limits. In Construction and Engineering, clients, project teams, designers, contractors, suppliers, workers, and asset users may shape the work. A Managing Director example should separate direct responsibility from collaboration. Use project-based delivery involving design, procurement, technical coordination, and site execution to frame research about Construction and Engineering, then ask how a Managing Director will work through scope control, sequencing, interfaces, safety-minded work, and coordination across project phases. In a Construction and Engineering target, make the Managing Director contribution legible: describe how the candidate helped lead a business, division, or organization according to its defined mandate and what supports operating scope, commercial or service accountability, leadership span, and decision authority.
+Protect credibility in Construction and Engineering by addressing assuming the title means the same authority across employers, countries, or ownership models with a factual account of operating scope, commercial or service accountability, leadership span, and decision authority and its limits. A Managing Director example should separate direct responsibility from collaboration. Use project-based delivery involving design, procurement, technical coordination, and site execution to frame research about Construction and Engineering, then ask how a Managing Director will work through scope control, sequencing, interfaces, safety-minded work, and coordination across project phases. In a Construction and Engineering target, make the Managing Director contribution legible: describe how the candidate helped lead a business, division, or organization according to its defined mandate and what supports operating scope, commercial or service accountability, leadership span, and decision authority.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -33,7 +33,7 @@ The Construction and Engineering context involves project-based delivery involvi
 
 ## Choose the individual services that fit the work
 
-Review each Managing Director example for assuming the title means the same authority across employers, countries, or ownership models, then describe the candidate's decisions without overstating their control over owners, board, CEO, customers, employees, lenders or investors where relevant, and partners. Before presenting project complexity, commercial or technical decisions, interface management, delivery contribution, and lessons learned, determine how clients, project teams, designers, contractors, suppliers, workers, and asset users participated and which details are safe to discuss. Not every Construction and Engineering organization will handle scope control, sequencing, interfaces, safety-minded work, and coordination across project phases alike. Confirm how project-based delivery involving design, procurement, technical coordination, and site execution informs this Managing Director position. A precise Managing Director story ties operating scope, commercial or service accountability, leadership span, and decision authority to the mandate of lead a business, division, or organization according to its defined mandate, without suggesting that the title alone establishes fit.
+Review each Managing Director example for assuming the title means the same authority across employers, countries, or ownership models, then describe the candidate's decisions without overstating their control over owners, board, CEO, customers, employees, lenders or investors where relevant, and partners. Not every Construction and Engineering organization will handle scope control, sequencing, interfaces, safety-minded work, and coordination across project phases alike. Confirm how project-based delivery involving design, procurement, technical coordination, and site execution informs this Managing Director position. A precise Managing Director story ties operating scope, commercial or service accountability, leadership span, and decision authority to the mandate of lead a business, division, or organization according to its defined mandate, without suggesting that the title alone establishes fit.
 
 ### [Private career representation](/services.html)
 
@@ -45,7 +45,7 @@ Consider document and positioning support for Managing Director materials that p
 
 ## Prepare to discuss the Construction and Engineering mandate
 
-A Managing Director candidate should be ready to explain assuming the title means the same authority across employers, countries, or ownership models without revealing confidential details or implying unsupported responsibility. Before presenting project complexity, commercial or technical decisions, interface management, delivery contribution, and lessons learned, determine how clients, project teams, designers, contractors, suppliers, workers, and asset users participated and which details are safe to discuss. Not every Construction and Engineering organization will handle scope control, sequencing, interfaces, safety-minded work, and coordination across project phases alike. Confirm how project-based delivery involving design, procurement, technical coordination, and site execution informs this Managing Director position. The Managing Director remit to lead a business, division, or organization according to its defined mandate should be described through decisions and examples, especially evidence of operating scope, commercial or service accountability, leadership span, and decision authority relevant to Construction and Engineering.
+A Managing Director candidate should be ready to explain assuming the title means the same authority across employers, countries, or ownership models without revealing confidential details or implying unsupported responsibility. Not every Construction and Engineering organization will handle scope control, sequencing, interfaces, safety-minded work, and coordination across project phases alike. Confirm how project-based delivery involving design, procurement, technical coordination, and site execution informs this Managing Director position. The Managing Director remit to lead a business, division, or organization according to its defined mandate should be described through decisions and examples, especially evidence of operating scope, commercial or service accountability, leadership span, and decision authority relevant to Construction and Engineering.
 
 ## Common positioning mistakes for Managing Director candidates in Construction and Engineering
 
@@ -67,7 +67,7 @@ A Managing Director candidate should be ready to explain assuming the title mean
 
 ## Run the search thoughtfully in each target market
 
-The candidate decides whether to pursue a Managing Director opportunity. KOV can support agreed research and preparation concerning Construction and Engineering. Consider how clients, project teams, designers, contractors, suppliers, workers, and asset users interact with a Managing Director; use examples of project complexity, commercial or technical decisions, interface management, delivery contribution, and lessons learned to show judgment and collaboration. Research for a Managing Director in Construction and Engineering becomes more focused when the candidate investigates scope control, sequencing, interfaces, safety-minded work, and coordination across project phases alongside project-based delivery involving design, procurement, technical coordination, and site execution. For Managing Director work in Construction and Engineering, explain how the candidate could lead a business, division, or organization according to its defined mandate; connect that mandate to evidence of operating scope, commercial or service accountability, leadership span, and decision authority.
+The candidate decides whether to pursue a Managing Director opportunity. Consider how clients, project teams, designers, contractors, suppliers, workers, and asset users interact with a Managing Director; use examples of project complexity, commercial or technical decisions, interface management, delivery contribution, and lessons learned to show judgment and collaboration. Research for a Managing Director in Construction and Engineering becomes more focused when the candidate investigates scope control, sequencing, interfaces, safety-minded work, and coordination across project phases alongside project-based delivery involving design, procurement, technical coordination, and site execution. For Managing Director work in Construction and Engineering, explain how the candidate could lead a business, division, or organization according to its defined mandate; connect that mandate to evidence of operating scope, commercial or service accountability, leadership span, and decision authority.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Director career hub](/roles/managing-director/)
 
-Review the role-wide approach to lead a business, division, or organization according to its defined mandate and the evidence expected for that scope.
+
 
 ### [Construction and Engineering industry hub](/industries/construction-engineering/)
 
-Compare how project-based delivery involving design, procurement, technical coordination, and site execution affects career planning across functions.
+
 
 ### [Chief Executive Officer in Construction and Engineering](/roles/ceo/construction-engineering.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Director remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Operating Officer in Construction and Engineering](/roles/coo/construction-engineering.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Director remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Managing Director in Agriculture, Food and Forestry](/roles/managing-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with project-based delivery involving design, procurement, technical coordination, and site execution and identify how the Managing Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Managing Director in Construction and Engineering?
 
-Use the opening discussion to understand the specific Construction and Engineering employer, not to assume a standard role. Compare lead a business, division, or organization according to its defined mandate with the stated scope, identify decision partners among clients, project teams, designers, contractors, suppliers, workers, and asset users, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Construction and Engineering employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a Managing Director make prior work relevant to Construction and Engineering?
 
@@ -139,7 +139,7 @@ Describe an instance where the candidate could lead a business, division, or org
 
 ### Which career materials can help a Managing Director explore work in Construction and Engineering?
 
-Document selection depends on the opportunity. A Managing Director may draw from executive resume, business leadership biography, mandate summary, and profile, but should foreground only material connected to project complexity, commercial or technical decisions, interface management, delivery contribution, and lessons learned. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a Managing Director contacts an organization in Construction and Engineering?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### What makes a Managing Director background relevant to work in Construction and Engineering?
 
-No. Compare the role description with the candidate's experience of lead a business, division, or organization according to its defined mandate and the organization's project-based delivery involving design, procurement, technical coordination, and site execution. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Managing Director outreach in Construction and Engineering?
 

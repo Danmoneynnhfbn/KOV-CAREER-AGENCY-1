@@ -12,7 +12,7 @@ A Director of Product candidate should show how product scope, discovery, priori
 
 ## A candidate-led process from first discussion to next steps
 
-The Director of Product remit to lead a product area and align customer needs with team delivery should be described through decisions and examples, especially evidence of product scope, discovery, prioritization, stakeholder coordination, and evidence of use relevant to Healthcare and Social Care. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Director of Product example should separate direct responsibility from collaboration. Where appropriate to the agreed service, KOV can help a Director of Product candidate prepare and coordinate approved next steps for Healthcare and Social Care. The candidate can discuss product scope, discovery, prioritization, stakeholder coordination, and evidence of use while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+The Director of Product remit to lead a product area and align customer needs with team delivery should be described through decisions and examples, especially evidence of product scope, discovery, prioritization, stakeholder coordination, and evidence of use relevant to Healthcare and Social Care. A Director of Product example should separate direct responsibility from collaboration. Where appropriate to the agreed service, KOV can help a Director of Product candidate prepare and coordinate approved next steps for Healthcare and Social Care. The candidate can discuss product scope, discovery, prioritization, stakeholder coordination, and evidence of use while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Documents that make Director of Product experience relevant here
 
@@ -49,7 +49,7 @@ Keep the Director of Product narrative accurate where confusing product activity
 
 ## Common positioning mistakes for Director of Product candidates in Healthcare and Social Care
 
-For Director of Product work in Healthcare and Social Care, explain how the candidate could lead a product area and align customer needs with team delivery; connect that mandate to evidence of product scope, discovery, prioritization, stakeholder coordination, and evidence of use. Not every Healthcare and Social Care organization will handle service quality, workforce coordination, access, continuity, and sensitive information alike. Confirm how care, health-related services, or social support delivered by teams and organizations informs this Director of Product position. KOV's service scope for a Director of Product candidate can include document preparation and agreed search activity, but cannot promise an employer's response. For Director of Product materials, manage the risk of confusing product activity with product outcomes or disclosing confidential roadmaps; support claims with product scope, discovery, prioritization, stakeholder coordination, and evidence of use and remove details that are not authorized for sharing.
+For Director of Product work in Healthcare and Social Care, explain how the candidate could lead a product area and align customer needs with team delivery; connect that mandate to evidence of product scope, discovery, prioritization, stakeholder coordination, and evidence of use. Confirm how care, health-related services, or social support delivered by teams and organizations informs this Director of Product position. KOV's service scope for a Director of Product candidate can include document preparation and agreed search activity, but cannot promise an employer's response. For Director of Product materials, manage the risk of confusing product activity with product outcomes or disclosing confidential roadmaps; support claims with product scope, discovery, prioritization, stakeholder coordination, and evidence of use and remove details that are not authorized for sharing.
 
 - Treat Healthcare and Social Care as one uniform employer type; distinguish the actual organization and role.
 - Use a Director of Product title without explaining lead a product area and align customer needs with team delivery.
@@ -59,7 +59,7 @@ For Director of Product work in Healthcare and Social Care, explain how the cand
 
 ## Keep research, confidentiality, and outreach aligned
 
-Where confusing product activity with product outcomes or disclosing confidential roadmaps affects a career example, substitute an authorized summary that preserves the point about product scope, discovery, prioritization, stakeholder coordination, and evidence of use. Consider how people receiving services, families, care professionals, administrators, owners, and community partners interact with a Director of Product; use examples of service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples to show judgment and collaboration. Not every Healthcare and Social Care organization will handle service quality, workforce coordination, access, continuity, and sensitive information alike. Confirm how care, health-related services, or social support delivered by teams and organizations informs this Director of Product position. Show the Director of Product scope behind the title: how the candidate could lead a product area and align customer needs with team delivery, which decisions mattered, and where product scope, discovery, prioritization, stakeholder coordination, and evidence of use demonstrates their contribution.
+Where confusing product activity with product outcomes or disclosing confidential roadmaps affects a career example, substitute an authorized summary that preserves the point about product scope, discovery, prioritization, stakeholder coordination, and evidence of use. Not every Healthcare and Social Care organization will handle service quality, workforce coordination, access, continuity, and sensitive information alike. Confirm how care, health-related services, or social support delivered by teams and organizations informs this Director of Product position. Show the Director of Product scope behind the title: how the candidate could lead a product area and align customer needs with team delivery, which decisions mattered, and where product scope, discovery, prioritization, stakeholder coordination, and evidence of use demonstrates their contribution.
 
 ## Prepare for conversations about Healthcare and Social Care work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Product career hub](/roles/director-product/)
 
-Review the role-wide approach to lead a product area and align customer needs with team delivery and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Product remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Product remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Director of Product in Manufacturing](/roles/director-product/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with care, health-related services, or social support delivered by teams and organizations and identify how the Director of Product remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Director of Product in Healthcare and Social Care?
 
-Start with the organization's account of care, health-related services, or social support delivered by teams and organizations, then clarify how the Director of Product would lead a product area and align customer needs with team delivery. Ask how people receiving services, families, care professionals, administrators, owners, and community partners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of care, health-related services, or social support delivered by teams and organizations, then clarify how the Director of Product would lead a product area and align customer needs with team delivery. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Director of Product make prior work relevant to Healthcare and Social Care?
 
@@ -139,15 +139,15 @@ Make the connection explicit: the candidate's record of product scope, discovery
 
 ### Which career materials can help a Director of Product explore work in Healthcare and Social Care?
 
-Possible materials include resume, product case studies, profile, and concise portfolio. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples. Each claim should be accurate for this Healthcare and Social Care target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, product case studies, profile, and concise portfolio. Each claim should be accurate for this Healthcare and Social Care target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Director of Product contacts an organization in Healthcare and Social Care?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of Product candidate's service scope; the candidate approves external communication. No one route should be assumed for all Healthcare and Social Care employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Healthcare and Social Care employers.
 
 ### What makes a Director of Product background relevant to work in Healthcare and Social Care?
 
-Title is only a label. Establish what the employer means by Director of Product in this Healthcare and Social Care organization and how the person will work with people receiving services, families, care professionals, administrators, owners, and community partners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Does KOV control employer responses to Director of Product outreach in Healthcare and Social Care?
 

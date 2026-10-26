@@ -33,7 +33,7 @@ A candidate exploring Technology, Media and Telecom should test the assumed link
 
 ## Choose the individual services that fit the work
 
-Keep the Director of Legal narrative accurate where disclosing privileged or client-sensitive information or implying unheld authority may arise: attribute shared work and disclose only information the candidate may use. The candidate decides whether to pursue a Director of Legal opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. For Technology, Media and Telecom, establish whether digital products, platforms, content, communications, or technology-enabled services describes the target employer and how product evolution, reliability, audience or customer needs, technical choices, and changing business models is reflected in its Director of Legal mandate. Rather than lead with seniority, a Director of Legal profile can explain the responsibility to manage a legal team, practice area, or legal operations remit and use product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality as evidence.
+Keep the Director of Legal narrative accurate where disclosing privileged or client-sensitive information or implying unheld authority may arise: attribute shared work and disclose only information the candidate may use. KOV can support agreed research and preparation concerning Technology, Media and Telecom. For Technology, Media and Telecom, establish whether digital products, platforms, content, communications, or technology-enabled services describes the target employer and how product evolution, reliability, audience or customer needs, technical choices, and changing business models is reflected in its Director of Legal mandate. Rather than lead with seniority, a Director of Legal profile can explain the responsibility to manage a legal team, practice area, or legal operations remit and use product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality as evidence.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Legal career hub](/roles/director-legal/)
 
-Review the role-wide approach to manage a legal team, practice area, or legal operations remit and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Legal remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Legal remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Director of Legal in Finance and Insurance](/roles/director-legal/finance-insurance.html)
 
-Compare financial products and services supported by customer relationships, information, operations, and oversight with digital products, platforms, content, communications, or technology-enabled services and identify how the Director of Legal remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Director of Legal resolve before a target discussion in Technology, Media and Telecom?
 
-A Director of Legal candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's digital products, platforms, content, communications, or technology-enabled services. Explore how the role will manage a legal team, practice area, or legal operations remit and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of Legal candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's digital products, platforms, content, communications, or technology-enabled services. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Director of Legal career story fit the needs of Technology, Media and Telecom?
 
@@ -139,19 +139,19 @@ Select examples that show practice or advisory scope, team leadership, work prio
 
 ### What should a Director of Legal prepare in writing before targeting Technology, Media and Telecom?
 
-Possible materials include resume, legal leadership profile, practice summary, and sanitized examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, legal leadership profile, practice summary, and sanitized examples. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
 
 ### What should a Director of Legal approve before outreach in Technology, Media and Telecom?
 
-Outreach should follow target research, not precede it. The Director of Legal candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with practice or advisory scope, team leadership, work prioritization, and business partnership is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a Director of Legal compare title and remit in Technology, Media and Telecom?
 
-No. Compare the role description with the candidate's experience of manage a legal team, practice area, or legal operations remit and the organization's digital products, platforms, content, communications, or technology-enabled services. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Will KOV secure a meeting for a Director of Legal with an employer in Technology, Media and Telecom?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of Legal candidate considering Technology, Media and Telecom, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

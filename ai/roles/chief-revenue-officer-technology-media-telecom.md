@@ -1,159 +1,92 @@
 # Chief Revenue Officer career representation in Technology, Media and Telecom
 
-KOV helps Chief Revenue Officer candidates considering roles connected to Technology, Media and Telecom connect their actual leadership remit with digital products, platforms, content, communications, or technology-enabled services. The work begins with target fit and evidence, then may include agreed research, professional positioning, approved outreach, and follow-up. The candidate retains control of decisions; employers make hiring decisions.
+For Technology, Media and Telecom, KOV helps a Chief Revenue Officer candidate turn monetization decisions, commercial operations, and growth execution into a clear executive story for digital and platform businesses.
 
 ## How Chief Revenue Officer work connects with Technology, Media and Telecom
 
-A consultation can clarify whether a Chief Revenue Officer candidate needs positioning, document support, target research, or approved outreach for Technology, Media and Telecom. The candidate's record of commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence should be set beside the role of users, product and engineering teams, customers, creators, advertisers, partners, and investors, so shared results are attributed fairly. Research for a Chief Revenue Officer in Technology, Media and Telecom becomes more focused when the candidate investigates product evolution, reliability, audience or customer needs, technical choices, and changing business models alongside digital products, platforms, content, communications, or technology-enabled services. Show the Chief Revenue Officer scope behind the title: how the candidate could coordinate revenue-facing functions around a coherent commercial direction, which decisions mattered, and where commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence demonstrates their contribution.
+The revenue story in technology, media, and telecom is usually about how a business converts product, audience, and customer relationships into sustainable growth. A strong Chief Revenue Officer narrative shows how pricing, packaging, segmentation, retention, and channel strategy shaped commercial outcomes across a digital, media, or communications business.
 
-For a revenue leader, the useful question is how the organization earns and retains customer value across its particular mix of products, platforms, content, or connectivity. Explain the candidate's commercial remit, the relationship among sales, marketing, product, and customer teams, and which results can fairly be attributed to their leadership. KOV can turn that evidence into a focused commercial narrative without presenting audience, pipeline, or customer information that the candidate is not authorized to disclose.
+KOV helps the candidate position that work around the real commercial model rather than as a generic sales story. The best version explains where the candidate owned the revenue strategy, how they aligned product, marketing, customer success, and sales, and how they influenced pipeline discipline or customer economics.
 
 ## Who this Chief Revenue Officer and Technology, Media and Telecom guide is for
 
-Where appropriate to the agreed service, KOV can help a Chief Revenue Officer candidate prepare and coordinate approved next steps for Technology, Media and Telecom. Explain how CEO, sales, marketing, customer success, product teams, customers, and channel partners contributed to the candidate's work and distinguish that shared context from evidence of commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence. Research for a Chief Revenue Officer in Technology, Media and Telecom becomes more focused when the candidate investigates product evolution, reliability, audience or customer needs, technical choices, and changing business models alongside digital products, platforms, content, communications, or technology-enabled services. To assess a Chief Revenue Officer opportunity in Technology, Media and Telecom, compare the stated remit to the candidate's record of commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence.
+This guide fits commercial leaders who have shaped revenue strategy inside digital products, platform businesses, media operations, or communications organizations. The most credible examples show how the candidate designed pricing, customer expansion, channel strategy, or retention work in businesses where product, engineering, and customer teams had to move together.
 
-## A candidate-led process from first discussion to next steps
+Candidates should be prepared to define their own remit clearly: whether they led go-to-market planning, customer expansion, commercial operations, monetization design, or full revenue transformation. That specificity matters because the same title can sit in very different models depending on the product, market, and channel mix.
 
-Where appropriate to the agreed service, KOV can help a Chief Revenue Officer candidate prepare and coordinate approved next steps for Technology, Media and Telecom. Before presenting product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality, determine how users, product and engineering teams, customers, creators, advertisers, partners, and investors participated and which details are safe to discuss. Research for a Chief Revenue Officer in Technology, Media and Telecom becomes more focused when the candidate investigates product evolution, reliability, audience or customer needs, technical choices, and changing business models alongside digital products, platforms, content, communications, or technology-enabled services. A precise Chief Revenue Officer story ties commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence to the mandate of coordinate revenue-facing functions around a coherent commercial direction, without suggesting that the title alone establishes fit.
+## How KOV shapes the search for this Technology, Media and Telecom role
 
-## Documents that make Chief Revenue Officer experience relevant here
+In technology, media, and telecom, the strongest commercial narratives explain the real revenue engine behind the business: subscriptions, advertising, customer expansion, channel economics, or enterprise growth. KOV helps sharpen that distinction by clarifying the company’s monetization model, product maturity, customer mix, and commercial structure before the story is presented publicly.
 
-Review each Chief Revenue Officer example for claiming all commercial outcomes without defining team, market, timing, or attribution, then describe the candidate's decisions without overstating their control over CEO, sales, marketing, customer success, product teams, customers, and channel partners. KOV can help a Chief Revenue Officer candidate organize an agreed search approach for Technology, Media and Telecom, including documents such as executive resume, commercial leadership profile, pipeline narrative, and biography. Consider how users, product and engineering teams, customers, creators, advertisers, partners, and investors interact with a Chief Revenue Officer; use examples of product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality to show judgment and collaboration. Use digital products, platforms, content, communications, or technology-enabled services to frame research about Technology, Media and Telecom, then ask how a Chief Revenue Officer will work through product evolution, reliability, audience or customer needs, technical choices, and changing business models.
+We also separate direct revenue ownership from the work of sales operations, marketing, product, customer success, and channel partners. The result is a clearer story about accountability, decision-making, and business impact rather than a generic leadership summary.
 
-| Document | Emphasis for this target | Review before sharing |
-| --- | --- | --- |
-| Resume or CV | commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence in the context of digital products, platforms, content, communications, or technology-enabled services. | Check facts, attribution, dates, and confidentiality. |
-| Professional biography | Summarize the Chief Revenue Officer remit and relevance to Technology, Media and Telecom. | Confirm audience and level of detail. |
-| Career evidence brief | Choose examples that demonstrate product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. | Use authorized information only. |
-| Online profile | Keep public role positioning coherent with your target. | Review visibility and public disclosures. |
+## What employers in Technology, Media and Telecom look for
 
-### How we sharpen a Chief Revenue Officer summary for Technology, Media and Telecom
+In technology, media, and telecom, employers often want a Chief Revenue Officer who can explain the commercial engine behind the business, not simply the sales team structure or campaign activity. The most compelling profiles show how pricing, packaging, customer segments, channels, retention, and cross-functional execution aligned to the company’s real monetization model.
 
-**Before:** Senior professional with a broad record of leading teams and delivering change.
+That matters because digital and platform businesses often require a very different story from more traditional enterprise or product businesses. Candidates need to show whether they drove subscription growth, advertising economics, enterprise expansion, product-led revenue, or broader commercial transformation, and how that connected to actual business performance.
 
-**After:** Chief Revenue Officer with a clear remit to coordinate revenue-facing functions around a coherent commercial direction, supported by examples of product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality.
+## How KOV runs the search in each market
 
-## Choose the individual services that fit the work
+KOV shapes the target list and message according to the type of revenue model in the target market. In some situations, the emphasis is on enterprise and platform growth, while in others it is on subscription performance, digital audience monetization, channel strategy, or a more service-based commercial model. The goal is to make the candidate’s story feel specific to the employer and its growth logic rather than interchangeable with any other large-scale revenue role.
 
-Review each Chief Revenue Officer example for claiming all commercial outcomes without defining team, market, timing, or attribution, then describe the candidate's decisions without overstating their control over CEO, sales, marketing, customer success, product teams, customers, and channel partners. The service plan should fit the candidate's Chief Revenue Officer priorities; agree research, materials, and any outreach before contact occurs. Discuss product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality with care: a Chief Revenue Officer candidate can explain contribution while omitting confidential or identifying facts. Readers need to see what Chief Revenue Officer work involved; connect coordinate revenue-facing functions around a coherent commercial direction with the candidate's own examples of commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence in Technology, Media and Telecom.
+The practical search approach includes landing the strongest commercial proof points, clarifying direct ownership versus partner-led work, and presenting decisions in a way that is easy for a hiring company to understand. That helps the employer see where the candidate’s commercial judgment actually sat and what kind of business context they can bring to the role.
 
-### [Private career representation](/services.html)
+## Common mistakes we correct
 
-Discuss how agreed research and positioning could support a Chief Revenue Officer search connected with Technology, Media and Telecom, including approvals for any outreach.
+A recurring issue is making the revenue narrative sound too generic, as if it could belong to any SaaS or growth company. In this sector, employers want to understand the actual monetization model, customer or audience behavior, and the candidate’s accountability for commercial outcomes. A leadership story that lacks that context can feel polished but not persuasive.
 
-### [Individual career services](/candidate-services.html)
+KOV also helps remove language that suggests broad commercial ownership without specifying the real levers involved. The stronger version explains what changed, how the candidate influenced it, and why the outcome mattered in that particular business model.
 
-Consider document and positioning support for Chief Revenue Officer materials that present commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence in a way relevant to digital products, platforms, content, communications, or technology-enabled services.
+## Why commercial model clarity matters for a Chief Revenue Officer story
 
-## Prepare to discuss the Technology, Media and Telecom mandate
+A Chief Revenue Officer in Technology, Media and Telecom usually needs to show more than ? growth leadership? in the abstract.
 
-Review each Chief Revenue Officer example for claiming all commercial outcomes without defining team, market, timing, or attribution, then describe the candidate's decisions without overstating their control over CEO, sales, marketing, customer success, product teams, customers, and channel partners. The candidate decides whether to pursue a Chief Revenue Officer opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. For Technology, Media and Telecom, establish whether digital products, platforms, content, communications, or technology-enabled services describes the target employer and how product evolution, reliability, audience or customer needs, technical choices, and changing business models is reflected in its Chief Revenue Officer mandate. A Chief Revenue Officer candidate should show how commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence supported the work to coordinate revenue-facing functions around a coherent commercial direction, with the Technology, Media and Telecom setting made explicit.
+KOV helps the candidate translate those realities into a clear executive story. We focus on direct accountability: whether the candidate shaped pricing architecture, product-led growth, customer expansion, enterprise partnerships, or advertising or telecom monetization; how they aligned sales, marketing, customer success, and product teams; and what commercial decisions they influenced. The result is a story grounded in the real business model rather than a generic growth narrative.
 
-## Common positioning mistakes for Chief Revenue Officer candidates in Technology, Media and Telecom
+This framing also protects the candidate from weak language around broad commercial ownership when the real value sat in monetization design, retention strategy, or channel performance. In a sector defined by fast product cycles and multiple acquisition routes, a credible CRO profile needs to show commercial judgment, business-model understanding, and a clear sense of how the organization creates and sustains revenue. That allows employers to see where the candidate fits and why their experience is useful in a particular digital or platform environment.
 
-A Chief Revenue Officer candidate should show how commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence supported the work to coordinate revenue-facing functions around a coherent commercial direction, with the Technology, Media and Telecom setting made explicit. To understand the Technology, Media and Telecom target, explore digital products, platforms, content, communications, or technology-enabled services and ask how a Chief Revenue Officer is expected to respond to product evolution, reliability, audience or customer needs, technical choices, and changing business models. An account of product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality should identify the candidate's contribution and the involvement of CEO, sales, marketing, customer success, product teams, customers, and channel partners. Review each Chief Revenue Officer example for claiming all commercial outcomes without defining team, market, timing, or attribution, then describe the candidate's decisions without overstating their control over CEO, sales, marketing, customer success, product teams, customers, and channel partners.
+## How KOV structures the search for a revenue leader in this sector
 
-- Treat Technology, Media and Telecom as one uniform employer type; distinguish the actual organization and role.
-- Use a Chief Revenue Officer title without explaining coordinate revenue-facing functions around a coherent commercial direction.
-- Present product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality without clarifying personal contribution or context.
-- Assume a specific recruiter, board, or hiring route without confirming it for the opportunity.
-- Disclose restricted information to demonstrate credibility; use an authorized summary instead.
+The strongest search process for a Chief Revenue Officer in Technology, Media and Telecom starts with the business model, not just the job title. KOV works from the candidate? s real commercial footprint: whether the employer sells to enterprise buyers, pursues digital subscribers, monetizes an audience, or blends direct sales with platform or partner-led growth.
 
-## Keep research, confidentiality, and outreach aligned
+From there, KOV helps frame the candidate? s track record in a business-specific way. The goal is to translate product mix, pricing logic, quantity of revenue motions, customer churn pressures, and cross-functional decision-making into language that hiring leaders actually understand.
 
-Protect credibility in Technology, Media and Telecom by addressing claiming all commercial outcomes without defining team, market, timing, or attribution with a factual account of commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence and its limits. Preparation for a Chief Revenue Officer conversation should address whether the organization sells products, services, content, connectivity, or a mix, and how the role links technical and commercial priorities; relate the response to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality, not speculation about hiring. Not every Technology, Media and Telecom organization will handle product evolution, reliability, audience or customer needs, technical choices, and changing business models alike. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Chief Revenue Officer position. Rather than lead with seniority, a Chief Revenue Officer profile can explain the responsibility to coordinate revenue-facing functions around a coherent commercial direction and use product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality as evidence.
+This is especially important in technology, media, and telecom because the same revenue title often sits in very different models. Some employers prioritize enterprise expansion and retention, others monetize digital products or platforms, and some require coordination across media, partnerships, or network-based offerings. KOV?
 
-## Prepare for conversations about Technology, Media and Telecom work
+## What a strong Chief Revenue Officer profile looks like in this market
 
-A Chief Revenue Officer candidate should be ready to explain claiming all commercial outcomes without defining team, market, timing, or attribution without revealing confidential details or implying unsupported responsibility. An account of product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality should identify the candidate's contribution and the involvement of CEO, sales, marketing, customer success, product teams, customers, and channel partners. An employer's Technology, Media and Telecom model may involve digital products, platforms, content, communications, or technology-enabled services; its implications for product evolution, reliability, audience or customer needs, technical choices, and changing business models should be discussed, not presumed. A Chief Revenue Officer candidate should show how commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence supported the work to coordinate revenue-facing functions around a coherent commercial direction, with the Technology, Media and Telecom setting made explicit.
+A persuasive profile in Technology, Media and Telecom makes the revenue engine visible. It explains the markets served, the customer or audience model, the core commercial levers, and the candidate? s direct accountability.
 
-## Run the search thoughtfully in each target market
+The decision quality also matters. Employers want to understand whether the candidate drove performance through structural commercial design, operating discipline, or cross-functional execution. KOV helps the candidate present that evidence in a disciplined way so that one example supports the next and the final narrative reads as a leader who understands growth economics, not just revenue reporting.
 
-Rather than lead with seniority, a Chief Revenue Officer profile can explain the responsibility to coordinate revenue-facing functions around a coherent commercial direction and use product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality as evidence. The candidate's record of commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence should be set beside the role of users, product and engineering teams, customers, creators, advertisers, partners, and investors, so shared results are attributed fairly. For a Chief Revenue Officer target, KOV can discuss how executive resume, commercial leadership profile, pipeline narrative, and biography support the candidate's account of commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence; external steps require prior agreement. Where claiming all commercial outcomes without defining team, market, timing, or attribution affects a career example, substitute an authorized summary that preserves the point about commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence.
-
-### [Dubai market guidance](/markets/executive-job-search-dubai.html)
-
-Consider whether Dubai fits this Chief Revenue Officer target in Technology, Media and Telecom; compare the proposed work with coordinate revenue-facing functions around a coherent commercial direction before discussing approved next steps.
-
-### [United Kingdom market guidance](/markets/executive-job-search-london.html)
-
-Use KOV's London page to start a discussion of Chief Revenue Officer opportunities connected with Technology, Media and Telecom, then verify the role's location and scope.
-
-### Saudi Arabia
-
-Saudi Arabia: assess how coordinate revenue-facing functions around a coherent commercial direction relates to digital products, platforms, content, communications, or technology-enabled services; confirm local role questions and agree any outreach before contact.
-
-### UAE
-
-UAE: assess how coordinate revenue-facing functions around a coherent commercial direction relates to digital products, platforms, content, communications, or technology-enabled services; confirm local role questions and agree any outreach before contact.
-
-### United Kingdom
-
-United Kingdom: assess how coordinate revenue-facing functions around a coherent commercial direction relates to digital products, platforms, content, communications, or technology-enabled services; confirm local role questions and agree any outreach before contact.
-
-### Dubai
-
-Dubai: assess how coordinate revenue-facing functions around a coherent commercial direction relates to digital products, platforms, content, communications, or technology-enabled services; confirm local role questions and agree any outreach before contact.
-
-### Australia
-
-Australia: assess how coordinate revenue-facing functions around a coherent commercial direction relates to digital products, platforms, content, communications, or technology-enabled services; confirm local role questions and agree any outreach before contact.
-
-### Africa
-
-Africa: assess how coordinate revenue-facing functions around a coherent commercial direction relates to digital products, platforms, content, communications, or technology-enabled services; confirm local role questions and agree any outreach before contact.
-
-## Related role and industry guides
-
-Compare coordinate revenue-facing functions around a coherent commercial direction with the operating context of Technology, Media and Telecom (digital products, platforms, content, communications, or technology-enabled services); the separate hub pages add detail about each side of that decision.
-
-Adjacent functions may share stakeholders, but the candidate should test each remit against product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality and their own evidence before selecting a target.
-
-### [Chief Revenue Officer career hub](/roles/chief-revenue-officer/)
-
-Review the role-wide approach to coordinate revenue-facing functions around a coherent commercial direction and the evidence expected for that scope.
-
-### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
-
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
-
-### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
-
-Contrast set organization-wide direction and coordinate executive work with the Chief Revenue Officer remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
-
-### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
-
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Revenue Officer remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
-
-### [Chief Revenue Officer in Agriculture, Food and Forestry](/roles/chief-revenue-officer/agriculture-food-forestry.html)
-
-Compare production linked to land, biological cycles, processing, and supply relationships with digital products, platforms, content, communications, or technology-enabled services and identify how the Chief Revenue Officer remit changes.
+When the narrative is precise, the candidate is easier to evaluate. Employers can see the business model, the scope of accountability, and the kind of decisions the candidate would bring to a new role. That clarity is often the difference between a story that sounds polished and one that feels genuinely relevant in a competitive market.
 
 ## Frequently asked questions
 
-### What should a Chief Revenue Officer clarify before considering work in Technology, Media and Telecom?
+### What should a Chief Revenue Officer emphasize in Technology, Media and Telecom?
 
-Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the Chief Revenue Officer would coordinate revenue-facing functions around a coherent commercial direction. Ask how users, product and engineering teams, customers, creators, advertisers, partners, and investors participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Prioritize the commercial model, customer behavior, pricing or packaging decisions, and the cross-functional coordination required to execute a revenue plan. A strong answer explains how the candidate influenced product-led, subscription, advertising, channel, or enterprise growth and how that connects with the target employer’s business model.
 
-### How should a Chief Revenue Officer describe transferable experience for Technology, Media and Telecom work?
+### How should commercial experience be translated for digital or platform businesses?
 
-Select examples that show commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence and relate them to the particular employer's product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Explain the situation, the candidate's contribution, and what others did; then state why the experience transfers to Technology, Media and Telecom without claiming every organization operates alike.
+Link the candidate’s examples to monetization, customer segments, retention, and operational discipline rather than listing campaigns or sales metrics in isolation. This is where KOV helps shape a story that reads as revenue leadership with clear accountability and commercial context.
 
-### How can a Chief Revenue Officer choose documents for conversations about Technology, Media and Telecom?
+### Which documents are most useful for a Chief Revenue Officer target in this sector?
 
-Document selection depends on the opportunity. A Chief Revenue Officer may draw from executive resume, commercial leadership profile, pipeline narrative, and biography, but should foreground only material connected to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Keep the account consistent across versions and adjust emphasis without changing facts.
+An executive résumé, biography, and selected commercial examples usually work best when they show business model understanding and growth leadership. The strongest documents emphasize the employer’s product or service context, customer segments, and the candidate’s role in commercial execution or transformation.
 
-### How can KOV and a Chief Revenue Officer plan contact with Technology, Media and Telecom organizations?
+### How does KOV handle outreach for a Chief Revenue Officer candidate?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Revenue Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Technology, Media and Telecom employers.
+KOV can support the agreed service process with target identification, messaging, and outreach planning while the candidate remains responsible for final approval of external communications. No promise is made that any specific employer will engage or hire the candidate.
 
-### How can a Chief Revenue Officer assess fit with Technology, Media and Telecom responsibilities?
+### What is the biggest risk in a commercial résumé for technology, media, or telecom?
 
-A title cannot demonstrate fit by itself. The candidate should relate commercial remit, customer segments, sales and marketing coordination, team scope, and attributable evidence to the employer's stated needs, clarify how digital products, platforms, content, communications, or technology-enabled services shapes the work, and distinguish prior direct responsibility from capabilities that could transfer.
+The biggest risk is sounding generic instead of business-specific. A stronger story explains the monetization model, customer or audience dynamics, competitive context, and the candidate’s direct role in making growth or retention happen.
 
-### What can KOV promise a Chief Revenue Officer candidate considering Technology, Media and Telecom?
+### Can KOV help a Chief Revenue Officer determine if a Technology, Media and Telecom opportunity fits?
 
-No specific Technology, Media and Telecom introduction can be promised. KOV's role is to support the candidate within an agreed service scope; employers control their decisions and the candidate retains approval of any outreach.
+Yes, within the service process we can help the candidate assess likely scope, decision environment, and the strongest positioning for the target employer. We do not guarantee an outcome and employers make the final hiring decisions.
 
 ## Contact KOV
 

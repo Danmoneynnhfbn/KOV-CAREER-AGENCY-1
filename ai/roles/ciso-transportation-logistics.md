@@ -16,7 +16,7 @@ In a Transportation and Logistics target, make the Chief Information Security Of
 
 ## Documents that make Chief Information Security Officer experience relevant here
 
-A candidate exploring Transportation and Logistics should test the assumed link between movement, handling, and coordination of people or goods across routes and operating networks and network coordination, service windows, asset availability, safety-minded decisions, and disruption response against the actual Chief Information Security Officer role description. Explain how CEO, technology teams, risk and legal colleagues, employees, customers, and oversight bodies as applicable contributed to the candidate's work and distinguish that shared context from evidence of security remit, risk decisions, operating model, incident leadership where authorized, and adoption. The candidate decides whether to pursue a Chief Information Security Officer opportunity. KOV can support agreed research and preparation concerning Transportation and Logistics. Where exposing sensitive controls or incidents, or overstating personal responsibility for shared security work affects a career example, substitute an authorized summary that preserves the point about security remit, risk decisions, operating model, incident leadership where authorized, and adoption.
+A candidate exploring Transportation and Logistics should test the assumed link between movement, handling, and coordination of people or goods across routes and operating networks and network coordination, service windows, asset availability, safety-minded decisions, and disruption response against the actual Chief Information Security Officer role description. The candidate decides whether to pursue a Chief Information Security Officer opportunity. KOV can support agreed research and preparation concerning Transportation and Logistics. Where exposing sensitive controls or incidents, or overstating personal responsibility for shared security work affects a career example, substitute an authorized summary that preserves the point about security remit, risk decisions, operating model, incident leadership where authorized, and adoption.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Information Security Officer career hub](/roles/ciso/)
 
-Review the role-wide approach to lead information-security priorities and coordinate risk-informed protection and the evidence expected for that scope.
+
 
 ### [Transportation and Logistics industry hub](/industries/transportation-logistics/)
 
-Compare how movement, handling, and coordination of people or goods across routes and operating networks affects career planning across functions.
+
 
 ### [Chief Executive Officer in Transportation and Logistics](/roles/ceo/transportation-logistics.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Information Security Officer remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Operating Officer in Transportation and Logistics](/roles/coo/transportation-logistics.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Information Security Officer remit; consider where each function meets movement, handling, and coordination of people or goods across routes and operating networks.
+
 
 ### [Chief Information Security Officer in Agriculture, Food and Forestry](/roles/ciso/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with movement, handling, and coordination of people or goods across routes and operating networks and identify how the Chief Information Security Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Information Security Officer in Transportation and Logistics?
 
-Start with the organization's account of movement, handling, and coordination of people or goods across routes and operating networks, then clarify how the Chief Information Security Officer would lead information-security priorities and coordinate risk-informed protection. Ask how customers, operators, drivers, dispatch teams, asset owners, suppliers, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of movement, handling, and coordination of people or goods across routes and operating networks, then clarify how the Chief Information Security Officer would lead information-security priorities and coordinate risk-informed protection. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Chief Information Security Officer make prior work relevant to Transportation and Logistics?
 
@@ -139,7 +139,7 @@ Select examples that show security remit, risk decisions, operating model, incid
 
 ### Which career materials can help a Chief Information Security Officer explore work in Transportation and Logistics?
 
-Possible materials include executive resume, security leadership summary, profile, and sanitized case examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to route or network scope, service performance context, asset choices, workforce coordination, and customer communication. Each claim should be accurate for this Transportation and Logistics target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, security leadership summary, profile, and sanitized case examples. Each claim should be accurate for this Transportation and Logistics target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Chief Information Security Officer contacts an organization in Transportation and Logistics?
 

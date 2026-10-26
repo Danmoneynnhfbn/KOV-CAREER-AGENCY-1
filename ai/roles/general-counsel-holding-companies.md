@@ -33,7 +33,7 @@ The candidate can discuss legal remit, advisory judgment, team scope, governance
 
 ## Choose the individual services that fit the work
 
-A precise General Counsel / Chief Legal Officer story ties legal remit, advisory judgment, team scope, governance interaction, and business context to the mandate of lead legal judgment and connect legal advice with organizational decisions, without suggesting that the title alone establishes fit. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this General Counsel / Chief Legal Officer position. KOV's service scope for a General Counsel / Chief Legal Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Review each General Counsel / Chief Legal Officer example for confusing legal advice with business decision ownership or disclosing privileged information, then describe the candidate's decisions without overstating their control over CEO, board or owners, business leaders, legal colleagues, regulators where relevant, and outside advisers.
+A precise General Counsel / Chief Legal Officer story ties legal remit, advisory judgment, team scope, governance interaction, and business context to the mandate of lead legal judgment and connect legal advice with organizational decisions, without suggesting that the title alone establishes fit. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this General Counsel / Chief Legal Officer position. KOV's service scope for a General Counsel / Chief Legal Officer candidate can include document preparation and agreed search activity, but cannot promise an employer's response. Review each General Counsel / Chief Legal Officer example for confusing legal advice with business decision ownership or disclosing privileged information, then describe the candidate's decisions without overstating their control over CEO, board or owners, business leaders, legal colleagues, regulators where relevant, and outside advisers.
 
 ### [Private career representation](/services.html)
 
@@ -67,7 +67,7 @@ The candidate can discuss legal remit, advisory judgment, team scope, governance
 
 ## Run the search thoughtfully in each target market
 
-Good preparation for General Counsel / Chief Legal Officer work includes a safe way to explain confusing legal advice with business decision ownership or disclosing privileged information and a clear distinction between fact and inference. Discuss portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries with care: a General Counsel / Chief Legal Officer candidate can explain contribution while omitting confidential or identifying facts. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this General Counsel / Chief Legal Officer position. Position a General Counsel / Chief Legal Officer career by linking lead legal judgment and connect legal advice with organizational decisions to portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries, then clarify which part of that work the candidate actually owned.
+Good preparation for General Counsel / Chief Legal Officer work includes a safe way to explain confusing legal advice with business decision ownership or disclosing privileged information and a clear distinction between fact and inference. Not every Holding Companies and Corporate Groups organization will handle delegated authority, portfolio priorities, governance interfaces, shared services, and entity-level differences alike. Confirm how ownership or coordination of multiple entities, portfolios, or operating businesses informs this General Counsel / Chief Legal Officer position. Position a General Counsel / Chief Legal Officer career by linking lead legal judgment and connect legal advice with organizational decisions to portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries, then clarify which part of that work the candidate actually owned.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [General Counsel / Chief Legal Officer career hub](/roles/general-counsel/)
 
-Review the role-wide approach to lead legal judgment and connect legal advice with organizational decisions and the evidence expected for that scope.
+
 
 ### [Holding Companies and Corporate Groups industry hub](/industries/holding-companies/)
 
-Compare how ownership or coordination of multiple entities, portfolios, or operating businesses affects career planning across functions.
+
 
 ### [Chief Executive Officer in Holding Companies and Corporate Groups](/roles/ceo/holding-companies.html)
 
-Contrast set organization-wide direction and coordinate executive work with the General Counsel / Chief Legal Officer remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Operating Officer in Holding Companies and Corporate Groups](/roles/coo/holding-companies.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the General Counsel / Chief Legal Officer remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [General Counsel / Chief Legal Officer in Agriculture, Food and Forestry](/roles/general-counsel/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with ownership or coordination of multiple entities, portfolios, or operating businesses and identify how the General Counsel / Chief Legal Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a General Counsel / Chief Legal Officer resolve before a target discussion in Holding Companies and Corporate Groups?
 
-A General Counsel / Chief Legal Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's ownership or coordination of multiple entities, portfolios, or operating businesses. Explore how the role will lead legal judgment and connect legal advice with organizational decisions and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A General Counsel / Chief Legal Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's ownership or coordination of multiple entities, portfolios, or operating businesses. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a General Counsel / Chief Legal Officer career story fit the needs of Holding Companies and Corporate Groups?
 
@@ -139,19 +139,19 @@ Select examples that show legal remit, advisory judgment, team scope, governance
 
 ### What should a General Counsel / Chief Legal Officer prepare in writing before targeting Holding Companies and Corporate Groups?
 
-Possible materials include executive resume, legal leadership biography, practice summary, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to portfolio or entity scope, oversight relationships, capital or operating choices, and contribution boundaries. Each claim should be accurate for this Holding Companies and Corporate Groups target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, legal leadership biography, practice summary, and professional profile. Each claim should be accurate for this Holding Companies and Corporate Groups target, and confidential or unauthorized material should be omitted.
 
 ### What should a General Counsel / Chief Legal Officer approve before outreach in Holding Companies and Corporate Groups?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the General Counsel / Chief Legal Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Holding Companies and Corporate Groups employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Holding Companies and Corporate Groups employers.
 
 ### How should a General Counsel / Chief Legal Officer compare title and remit in Holding Companies and Corporate Groups?
 
-No. Compare the role description with the candidate's experience of lead legal judgment and connect legal advice with organizational decisions and the organization's ownership or coordination of multiple entities, portfolios, or operating businesses. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Will KOV secure a meeting for a General Counsel / Chief Legal Officer with an employer in Holding Companies and Corporate Groups?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a General Counsel / Chief Legal Officer candidate considering Holding Companies and Corporate Groups, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

@@ -4,7 +4,7 @@ KOV helps Director of People candidates considering roles connected to Healthcar
 
 ## How Director of People work connects with Healthcare and Social Care
 
-Protect credibility in Healthcare and Social Care by addressing using sensitive workforce information or broad claims without context with a factual account of program scope, manager partnership, team responsibilities, and people-related outcomes and its limits. The candidate decides whether to pursue a Director of People opportunity. KOV can support agreed research and preparation concerning Healthcare and Social Care. Before presenting service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples, determine how people receiving services, families, care professionals, administrators, owners, and community partners participated and which details are safe to discuss. Ask what care, health-related services, or social support delivered by teams and organizations means at this particular Healthcare and Social Care organization and how it changes the priorities assigned to a Director of People.
+Protect credibility in Healthcare and Social Care by addressing using sensitive workforce information or broad claims without context with a factual account of program scope, manager partnership, team responsibilities, and people-related outcomes and its limits. KOV can support agreed research and preparation concerning Healthcare and Social Care. Before presenting service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples, determine how people receiving services, families, care professionals, administrators, owners, and community partners participated and which details are safe to discuss. Ask what care, health-related services, or social support delivered by teams and organizations means at this particular Healthcare and Social Care organization and how it changes the priorities assigned to a Director of People.
 
 ## Who this Director of People and Healthcare and Social Care guide is for
 
@@ -49,7 +49,7 @@ Where using sensitive workforce information or broad claims without context affe
 
 ## Common positioning mistakes for Director of People candidates in Healthcare and Social Care
 
-The Director of People remit to lead a people function or program and support managers through organizational change should be described through decisions and examples, especially evidence of program scope, manager partnership, team responsibilities, and people-related outcomes relevant to Healthcare and Social Care. An employer's Healthcare and Social Care model may involve care, health-related services, or social support delivered by teams and organizations; its implications for service quality, workforce coordination, access, continuity, and sensitive information should be discussed, not presumed. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Director of People example should separate direct responsibility from collaboration. Candidate-side support from KOV may connect Director of People positioning, relevant documents, and approved outreach, within the scope the candidate agrees.
+The Director of People remit to lead a people function or program and support managers through organizational change should be described through decisions and examples, especially evidence of program scope, manager partnership, team responsibilities, and people-related outcomes relevant to Healthcare and Social Care. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Director of People example should separate direct responsibility from collaboration. Candidate-side support from KOV may connect Director of People positioning, relevant documents, and approved outreach, within the scope the candidate agrees.
 
 - Treat Healthcare and Social Care as one uniform employer type; distinguish the actual organization and role.
 - Use a Director of People title without explaining lead a people function or program and support managers through organizational change.
@@ -67,7 +67,7 @@ Good preparation for Director of People work includes a safe way to explain usin
 
 ## Run the search thoughtfully in each target market
 
-The service plan should fit the candidate's Director of People priorities; agree research, materials, and any outreach before contact occurs. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Director of People example should separate direct responsibility from collaboration. To understand the Healthcare and Social Care target, explore care, health-related services, or social support delivered by teams and organizations and ask how a Director of People is expected to respond to service quality, workforce coordination, access, continuity, and sensitive information. In a Healthcare and Social Care target, make the Director of People contribution legible: describe how the candidate helped lead a people function or program and support managers through organizational change and what supports program scope, manager partnership, team responsibilities, and people-related outcomes.
+The service plan should fit the candidate's Director of People priorities; agree research, materials, and any outreach before contact occurs. A Director of People example should separate direct responsibility from collaboration. To understand the Healthcare and Social Care target, explore care, health-related services, or social support delivered by teams and organizations and ask how a Director of People is expected to respond to service quality, workforce coordination, access, continuity, and sensitive information. In a Healthcare and Social Care target, make the Director of People contribution legible: describe how the candidate helped lead a people function or program and support managers through organizational change and what supports program scope, manager partnership, team responsibilities, and people-related outcomes.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of People career hub](/roles/director-people/)
 
-Review the role-wide approach to lead a people function or program and support managers through organizational change and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of People remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of People remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Director of People in Manufacturing](/roles/director-people/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with care, health-related services, or social support delivered by teams and organizations and identify how the Director of People remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Director of People clarify before considering work in Healthcare and Social Care?
 
-A Director of People candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's care, health-related services, or social support delivered by teams and organizations. Explore how the role will lead a people function or program and support managers through organizational change and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of People candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's care, health-related services, or social support delivered by teams and organizations. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Director of People describe transferable experience for Healthcare and Social Care work?
 
@@ -139,7 +139,7 @@ Select examples that show program scope, manager partnership, team responsibilit
 
 ### How can a Director of People choose documents for conversations about Healthcare and Social Care?
 
-Possible materials include resume, people-program portfolio, profile, and selected examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples. Each claim should be accurate for this Healthcare and Social Care target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, people-program portfolio, profile, and selected examples. Each claim should be accurate for this Healthcare and Social Care target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Director of People plan contact with Healthcare and Social Care organizations?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Director of People assess fit with Healthcare and Social Care responsibilities?
 
-No. Compare the role description with the candidate's experience of lead a people function or program and support managers through organizational change and the organization's care, health-related services, or social support delivered by teams and organizations. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Director of People candidate considering Healthcare and Social Care?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Director of People candidate considering Healthcare and Social Care, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

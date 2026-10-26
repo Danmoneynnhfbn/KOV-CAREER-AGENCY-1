@@ -8,7 +8,7 @@ Before discussing plant or product scope, process decisions, quality or delivery
 
 ## Who this Managing Partner and Manufacturing guide is for
 
-Readers need to see what Managing Partner work involved; connect combine leadership responsibilities with the governance and professional context of a partnership with the candidate's own examples of partner-group mandate, management contribution, practice or business scope, and shared decisions in Manufacturing. Use conversion of materials into products through coordinated processes, equipment, people, and quality systems to frame research about Manufacturing, then ask how a Managing Partner will work through production planning, equipment capacity, quality, workforce capability, and customer demand. In Manufacturing, employees, suppliers, customers, engineering, operations, distribution, and ownership may shape the work. A Managing Partner example should separate direct responsibility from collaboration. Career representation remains candidate-led: KOV can support a Managing Partner search, while the candidate approves the goals and disclosures.
+Readers need to see what Managing Partner work involved; connect combine leadership responsibilities with the governance and professional context of a partnership with the candidate's own examples of partner-group mandate, management contribution, practice or business scope, and shared decisions in Manufacturing. In Manufacturing, employees, suppliers, customers, engineering, operations, distribution, and ownership may shape the work. A Managing Partner example should separate direct responsibility from collaboration. Career representation remains candidate-led: KOV can support a Managing Partner search, while the candidate approves the goals and disclosures.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -59,7 +59,7 @@ Where presenting partner-group outcomes as individual decisions or ignoring shar
 
 ## Keep research, confidentiality, and outreach aligned
 
-Show the Managing Partner scope behind the title: how the candidate could combine leadership responsibilities with the governance and professional context of a partnership, which decisions mattered, and where partner-group mandate, management contribution, practice or business scope, and shared decisions demonstrates their contribution. Not every Manufacturing organization will handle production planning, equipment capacity, quality, workforce capability, and customer demand alike. Confirm how conversion of materials into products through coordinated processes, equipment, people, and quality systems informs this Managing Partner position. Career representation remains candidate-led: KOV can support a Managing Partner search, while the candidate approves the goals and disclosures. Where presenting partner-group outcomes as individual decisions or ignoring shared governance affects a career example, substitute an authorized summary that preserves the point about partner-group mandate, management contribution, practice or business scope, and shared decisions.
+Show the Managing Partner scope behind the title: how the candidate could combine leadership responsibilities with the governance and professional context of a partnership, which decisions mattered, and where partner-group mandate, management contribution, practice or business scope, and shared decisions demonstrates their contribution. Confirm how conversion of materials into products through coordinated processes, equipment, people, and quality systems informs this Managing Partner position. Career representation remains candidate-led: KOV can support a Managing Partner search, while the candidate approves the goals and disclosures. Where presenting partner-group outcomes as individual decisions or ignoring shared governance affects a career example, substitute an authorized summary that preserves the point about partner-group mandate, management contribution, practice or business scope, and shared decisions.
 
 ## Prepare for conversations about Manufacturing work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Partner career hub](/roles/managing-partner/)
 
-Review the role-wide approach to combine leadership responsibilities with the governance and professional context of a partnership and the evidence expected for that scope.
+
 
 ### [Manufacturing industry hub](/industries/manufacturing/)
 
-Compare how conversion of materials into products through coordinated processes, equipment, people, and quality systems affects career planning across functions.
+
 
 ### [Chief Executive Officer in Manufacturing](/roles/ceo/manufacturing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Partner remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Operating Officer in Manufacturing](/roles/coo/manufacturing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Partner remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Managing Partner in Agriculture, Food and Forestry](/roles/managing-partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with conversion of materials into products through coordinated processes, equipment, people, and quality systems and identify how the Managing Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Managing Partner resolve before a target discussion in Manufacturing?
 
-A Managing Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's conversion of materials into products through coordinated processes, equipment, people, and quality systems. Explore how the role will combine leadership responsibilities with the governance and professional context of a partnership and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Managing Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's conversion of materials into products through coordinated processes, equipment, people, and quality systems. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Managing Partner career story fit the needs of Manufacturing?
 
@@ -139,19 +139,19 @@ Describe an instance where the candidate could combine leadership responsibiliti
 
 ### What should a Managing Partner prepare in writing before targeting Manufacturing?
 
-Possible materials include partner biography, leadership resume, practice summary, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to plant or product scope, process decisions, quality or delivery context, team leadership, and improvement work. Each claim should be accurate for this Manufacturing target, and confidential or unauthorized material should be omitted.
+Possible materials include partner biography, leadership resume, practice summary, and profile. Each claim should be accurate for this Manufacturing target, and confidential or unauthorized material should be omitted.
 
 ### What should a Managing Partner approve before outreach in Manufacturing?
 
-Outreach should follow target research, not precede it. The Managing Partner candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with partner-group mandate, management contribution, practice or business scope, and shared decisions is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a Managing Partner compare title and remit in Manufacturing?
 
-Title is only a label. Establish what the employer means by Managing Partner in this Manufacturing organization and how the person will work with employees, suppliers, customers, engineering, operations, distribution, and ownership. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Managing Partner with an employer in Manufacturing?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Managing Partner candidate considering Manufacturing, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

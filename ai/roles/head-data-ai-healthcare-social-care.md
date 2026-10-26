@@ -45,7 +45,7 @@ Consider document and positioning support for Head of Data and AI materials that
 
 ## Prepare to discuss the Healthcare and Social Care mandate
 
-A Head of Data and AI candidate should show how data products, team scope, quality practices, governance partnership, and decision value supported the work to lead data capabilities and coordinate responsible application of analytical or AI work, with the Healthcare and Social Care setting made explicit. The candidate's record of data products, team scope, quality practices, governance partnership, and decision value should be set beside the role of people receiving services, families, care professionals, administrators, owners, and community partners, so shared results are attributed fairly. The candidate decides whether to pursue a Head of Data and AI opportunity. KOV can support agreed research and preparation concerning Healthcare and Social Care. Review each Head of Data and AI example for exposing sensitive datasets, overstating model capability, or omitting human oversight, then describe the candidate's decisions without overstating their control over technology and business leaders, analysts, engineers, users, legal or risk colleagues.
+A Head of Data and AI candidate should show how data products, team scope, quality practices, governance partnership, and decision value supported the work to lead data capabilities and coordinate responsible application of analytical or AI work, with the Healthcare and Social Care setting made explicit. The candidate decides whether to pursue a Head of Data and AI opportunity. KOV can support agreed research and preparation concerning Healthcare and Social Care. Review each Head of Data and AI example for exposing sensitive datasets, overstating model capability, or omitting human oversight, then describe the candidate's decisions without overstating their control over technology and business leaders, analysts, engineers, users, legal or risk colleagues.
 
 ## Common positioning mistakes for Head of Data and AI candidates in Healthcare and Social Care
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Data and AI career hub](/roles/head-data-ai/)
 
-Review the role-wide approach to lead data capabilities and coordinate responsible application of analytical or AI work and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Data and AI remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Data and AI remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Head of Data and AI in Manufacturing](/roles/head-data-ai/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with care, health-related services, or social support delivered by teams and organizations and identify how the Head of Data and AI remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Head of Data and AI resolve before a target discussion in Healthcare and Social Care?
 
-Start with the organization's account of care, health-related services, or social support delivered by teams and organizations, then clarify how the Head of Data and AI would lead data capabilities and coordinate responsible application of analytical or AI work. Ask how people receiving services, families, care professionals, administrators, owners, and community partners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of care, health-related services, or social support delivered by teams and organizations, then clarify how the Head of Data and AI would lead data capabilities and coordinate responsible application of analytical or AI work. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### Which parts of a Head of Data and AI career story fit the needs of Healthcare and Social Care?
 
@@ -139,11 +139,11 @@ Select examples that show data products, team scope, quality practices, governan
 
 ### What should a Head of Data and AI prepare in writing before targeting Healthcare and Social Care?
 
-Document selection depends on the opportunity. A Head of Data and AI may draw from resume, data leadership portfolio, project summaries, and professional profile, but should foreground only material connected to service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What should a Head of Data and AI approve before outreach in Healthcare and Social Care?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Head of Data and AI candidate's service scope; the candidate approves external communication. No one route should be assumed for all Healthcare and Social Care employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Healthcare and Social Care employers.
 
 ### How should a Head of Data and AI compare title and remit in Healthcare and Social Care?
 

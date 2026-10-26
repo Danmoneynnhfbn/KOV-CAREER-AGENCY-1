@@ -4,7 +4,7 @@ KOV helps Chief Marketing Officer candidates considering roles connected to Real
 
 ## How Chief Marketing Officer work connects with Real Estate and Leasing
 
-The candidate can discuss market context, customer insight, portfolio decisions, team leadership, and attributable contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material. Discuss asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution with care: a Chief Marketing Officer candidate can explain contribution while omitting confidential or identifying facts. Not every Real Estate and Leasing organization will handle asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions alike. Confirm how property ownership, development, brokerage, management, or leasing relationships informs this Chief Marketing Officer position. Readers need to see what Chief Marketing Officer work involved; connect shape marketing strategy, customer understanding, brand, and commercial communication with the candidate's own examples of market context, customer insight, portfolio decisions, team leadership, and attributable contribution in Real Estate and Leasing.
+The candidate can discuss market context, customer insight, portfolio decisions, team leadership, and attributable contribution while protecting confidentiality by omitting names, restricted figures, and other identifying material. Not every Real Estate and Leasing organization will handle asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions alike. Confirm how property ownership, development, brokerage, management, or leasing relationships informs this Chief Marketing Officer position. Readers need to see what Chief Marketing Officer work involved; connect shape marketing strategy, customer understanding, brand, and commercial communication with the candidate's own examples of market context, customer insight, portfolio decisions, team leadership, and attributable contribution in Real Estate and Leasing.
 
 ## Who this Chief Marketing Officer and Real Estate and Leasing guide is for
 
@@ -33,7 +33,7 @@ A consultation can clarify whether a Chief Marketing Officer candidate needs pos
 
 ## Choose the individual services that fit the work
 
-For Chief Marketing Officer work in Real Estate and Leasing, explain how the candidate could shape marketing strategy, customer understanding, brand, and commercial communication; connect that mandate to evidence of market context, customer insight, portfolio decisions, team leadership, and attributable contribution. To understand the Real Estate and Leasing target, explore property ownership, development, brokerage, management, or leasing relationships and ask how a Chief Marketing Officer is expected to respond to asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions. In Real Estate and Leasing, owners, tenants, customers, investors, property teams, suppliers, and communities may shape the work. A Chief Marketing Officer example should separate direct responsibility from collaboration. Protect credibility in Real Estate and Leasing by addressing claiming revenue or brand movement without describing attribution and surrounding factors with a factual account of market context, customer insight, portfolio decisions, team leadership, and attributable contribution and its limits.
+For Chief Marketing Officer work in Real Estate and Leasing, explain how the candidate could shape marketing strategy, customer understanding, brand, and commercial communication; connect that mandate to evidence of market context, customer insight, portfolio decisions, team leadership, and attributable contribution. A Chief Marketing Officer example should separate direct responsibility from collaboration. KOV can help a Chief Marketing Officer candidate organize an agreed search approach for Real Estate and Leasing, including documents such as executive resume, brand and growth narrative, leadership biography, and profile. Before discussing asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution, check whether claiming revenue or brand movement without describing attribution and surrounding factors could expose sensitive details or blur the candidate's decision boundary. Protect credibility in Real Estate and Leasing by addressing claiming revenue or brand movement without describing attribution and surrounding factors with a factual account of market context, customer insight, portfolio decisions, team leadership, and attributable contribution and its limits.
 
 ### [Private career representation](/services.html)
 
@@ -63,7 +63,7 @@ Keep the Chief Marketing Officer narrative accurate where claiming revenue or br
 
 ## Prepare for conversations about Real Estate and Leasing work
 
-For Chief Marketing Officer work in Real Estate and Leasing, explain how the candidate could shape marketing strategy, customer understanding, brand, and commercial communication; connect that mandate to evidence of market context, customer insight, portfolio decisions, team leadership, and attributable contribution. In Real Estate and Leasing, owners, tenants, customers, investors, property teams, suppliers, and communities may shape the work. A Chief Marketing Officer example should separate direct responsibility from collaboration. KOV can help a Chief Marketing Officer candidate organize an agreed search approach for Real Estate and Leasing, including documents such as executive resume, brand and growth narrative, leadership biography, and profile. Before discussing asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution, check whether claiming revenue or brand movement without describing attribution and surrounding factors could expose sensitive details or blur the candidate's decision boundary.
+For Chief Marketing Officer work in Real Estate and Leasing, explain how the candidate could shape marketing strategy, customer understanding, brand, and commercial communication; connect that mandate to evidence of market context, customer insight, portfolio decisions, team leadership, and attributable contribution. A Chief Marketing Officer example should separate direct responsibility from collaboration. KOV can help a Chief Marketing Officer candidate organize an agreed search approach for Real Estate and Leasing, including documents such as executive resume, brand and growth narrative, leadership biography, and profile. Before discussing asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution, check whether claiming revenue or brand movement without describing attribution and surrounding factors could expose sensitive details or blur the candidate's decision boundary.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Marketing Officer career hub](/roles/cmo/)
 
-Review the role-wide approach to shape marketing strategy, customer understanding, brand, and commercial communication and the evidence expected for that scope.
+
 
 ### [Real Estate and Leasing industry hub](/industries/real-estate-leasing/)
 
-Compare how property ownership, development, brokerage, management, or leasing relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Real Estate and Leasing](/roles/ceo/real-estate-leasing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Marketing Officer remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Operating Officer in Real Estate and Leasing](/roles/coo/real-estate-leasing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Marketing Officer remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Marketing Officer in Agriculture, Food and Forestry](/roles/cmo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with property ownership, development, brokerage, management, or leasing relationships and identify how the Chief Marketing Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Marketing Officer test the scope of work in Real Estate and Leasing?
 
-A Chief Marketing Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's property ownership, development, brokerage, management, or leasing relationships. Explore how the role will shape marketing strategy, customer understanding, brand, and commercial communication and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Marketing Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's property ownership, development, brokerage, management, or leasing relationships. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Chief Marketing Officer use to explain experience in Real Estate and Leasing?
 

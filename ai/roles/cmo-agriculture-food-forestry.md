@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Marketing Officer career hub](/roles/cmo/)
 
-Review the role-wide approach to shape marketing strategy, customer understanding, brand, and commercial communication and the evidence expected for that scope.
+
 
 ### [Agriculture, Food and Forestry industry hub](/industries/agriculture-food-forestry/)
 
-Compare how production linked to land, biological cycles, processing, and supply relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Agriculture, Food and Forestry](/roles/ceo/agriculture-food-forestry.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Marketing Officer remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Marketing Officer remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Marketing Officer in Energy, Mining and Oil and Gas](/roles/cmo/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with production linked to land, biological cycles, processing, and supply relationships and identify how the Chief Marketing Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Chief Marketing Officer resolve before a target discussion in Agriculture, Food and Forestry?
 
-A Chief Marketing Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's production linked to land, biological cycles, processing, and supply relationships. Explore how the role will shape marketing strategy, customer understanding, brand, and commercial communication and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Marketing Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's production linked to land, biological cycles, processing, and supply relationships. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### Which parts of a Chief Marketing Officer career story fit the needs of Agriculture, Food and Forestry?
 
@@ -139,7 +139,7 @@ Select examples that show market context, customer insight, portfolio decisions,
 
 ### What should a Chief Marketing Officer prepare in writing before targeting Agriculture, Food and Forestry?
 
-Possible materials include executive resume, brand and growth narrative, leadership biography, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to resource planning, safety-minded operations, supplier relationships, yield or quality context, and continuity decisions. Each claim should be accurate for this Agriculture, Food and Forestry target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, brand and growth narrative, leadership biography, and profile. Each claim should be accurate for this Agriculture, Food and Forestry target, and confidential or unauthorized material should be omitted.
 
 ### What should a Chief Marketing Officer approve before outreach in Agriculture, Food and Forestry?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How should a Chief Marketing Officer compare title and remit in Agriculture, Food and Forestry?
 
-No. Compare the role description with the candidate's experience of shape marketing strategy, customer understanding, brand, and commercial communication and the organization's production linked to land, biological cycles, processing, and supply relationships. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Will KOV secure a meeting for a Chief Marketing Officer with an employer in Agriculture, Food and Forestry?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Marketing Officer candidate considering Agriculture, Food and Forestry, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

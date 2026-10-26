@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Non-Executive Director career hub](/roles/non-executive-director/)
 
-Review the role-wide approach to provide independent challenge and strategic contribution distinct from management and the evidence expected for that scope.
+
 
 ### [Construction and Engineering industry hub](/industries/construction-engineering/)
 
-Compare how project-based delivery involving design, procurement, technical coordination, and site execution affects career planning across functions.
+
 
 ### [Chief Executive Officer in Construction and Engineering](/roles/ceo/construction-engineering.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Non-Executive Director remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Operating Officer in Construction and Engineering](/roles/coo/construction-engineering.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Non-Executive Director remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Non-Executive Director in Agriculture, Food and Forestry](/roles/non-executive-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with project-based delivery involving design, procurement, technical coordination, and site execution and identify how the Non-Executive Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Non-Executive Director in Construction and Engineering?
 
-Start with the organization's account of project-based delivery involving design, procurement, technical coordination, and site execution, then clarify how the Non-Executive Director would provide independent challenge and strategic contribution distinct from management. Ask how clients, project teams, designers, contractors, suppliers, workers, and asset users participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of project-based delivery involving design, procurement, technical coordination, and site execution, then clarify how the Non-Executive Director would provide independent challenge and strategic contribution distinct from management. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Non-Executive Director make prior work relevant to Construction and Engineering?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could provide independent challenge and
 
 ### Which career materials can help a Non-Executive Director explore work in Construction and Engineering?
 
-Possible materials include board biography, non-executive profile, skills matrix, and governance resume. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to project complexity, commercial or technical decisions, interface management, delivery contribution, and lessons learned. Each claim should be accurate for this Construction and Engineering target, and confidential or unauthorized material should be omitted.
+Possible materials include board biography, non-executive profile, skills matrix, and governance resume. Each claim should be accurate for this Construction and Engineering target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Non-Executive Director contacts an organization in Construction and Engineering?
 
-Outreach should follow target research, not precede it. The Non-Executive Director candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with governance experience, constructive challenge, committee contribution, and relevant expertise is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Non-Executive Director background relevant to work in Construction and Engineering?
 
-No. Compare the role description with the candidate's experience of provide independent challenge and strategic contribution distinct from management and the organization's project-based delivery involving design, procurement, technical coordination, and site execution. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Non-Executive Director outreach in Construction and Engineering?
 

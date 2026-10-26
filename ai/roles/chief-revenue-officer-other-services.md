@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Revenue Officer career hub](/roles/chief-revenue-officer/)
 
-Review the role-wide approach to coordinate revenue-facing functions around a coherent commercial direction and the evidence expected for that scope.
+
 
 ### [Other Services industry hub](/industries/other-services/)
 
-Compare how personal, repair, membership, community, or specialized services not covered by the other target sectors affects career planning across functions.
+
 
 ### [Chief Executive Officer in Other Services](/roles/ceo/other-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Revenue Officer remit; consider where each function meets personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chief Operating Officer in Other Services](/roles/coo/other-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Revenue Officer remit; consider where each function meets personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chief Revenue Officer in Agriculture, Food and Forestry](/roles/chief-revenue-officer/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with personal, repair, membership, community, or specialized services not covered by the other target sectors and identify how the Chief Revenue Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Chief Revenue Officer resolve before a target discussion in Other Services?
 
-Start with the organization's account of personal, repair, membership, community, or specialized services not covered by the other target sectors, then clarify how the Chief Revenue Officer would coordinate revenue-facing functions around a coherent commercial direction. Ask how customers or members, employees, service providers, owners, suppliers, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of personal, repair, membership, community, or specialized services not covered by the other target sectors, then clarify how the Chief Revenue Officer would coordinate revenue-facing functions around a coherent commercial direction. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### Which parts of a Chief Revenue Officer career story fit the needs of Other Services?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could coordinate revenue-facing functio
 
 ### What should a Chief Revenue Officer prepare in writing before targeting Other Services?
 
-Document selection depends on the opportunity. A Chief Revenue Officer may draw from executive resume, commercial leadership profile, pipeline narrative, and biography, but should foreground only material connected to service portfolio, customer or member context, team scope, delivery decisions, and substantiated outcomes. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What should a Chief Revenue Officer approve before outreach in Other Services?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Revenue Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Other Services employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Other Services employers.
 
 ### How should a Chief Revenue Officer compare title and remit in Other Services?
 
-No. Compare the role description with the candidate's experience of coordinate revenue-facing functions around a coherent commercial direction and the organization's personal, repair, membership, community, or specialized services not covered by the other target sectors. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Will KOV secure a meeting for a Chief Revenue Officer with an employer in Other Services?
 

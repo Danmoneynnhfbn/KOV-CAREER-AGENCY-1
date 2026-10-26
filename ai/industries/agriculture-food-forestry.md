@@ -85,27 +85,27 @@ Use KOV's London page as a starting point for an agreed UK-focused search discus
 
 ### Saudi Arabia
 
-For Agriculture, Food and Forestry targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Agriculture, Food and Forestry targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Agriculture, Food and Forestry targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### UAE
 
-For Agriculture, Food and Forestry targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Agriculture, Food and Forestry targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Agriculture, Food and Forestry targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### United Kingdom
 
-For Agriculture, Food and Forestry targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Agriculture, Food and Forestry targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Agriculture, Food and Forestry targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Dubai
 
-For Agriculture, Food and Forestry targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Agriculture, Food and Forestry targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Agriculture, Food and Forestry targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Australia
 
-For Agriculture, Food and Forestry targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Agriculture, Food and Forestry targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Agriculture, Food and Forestry targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Africa
 
-For Agriculture, Food and Forestry targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Agriculture, Food and Forestry targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Agriculture, Food and Forestry targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ## Choose an appropriate level of career support
 
@@ -129,83 +129,83 @@ Use the cards to open only the role-and-industry pages currently available. Each
 
 ### [Chief Executive Officer in Agriculture, Food and Forestry](/roles/ceo/agriculture-food-forestry.html)
 
-Explore how set organization-wide direction and coordinate executive work connects with production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Explore how align operating functions, delivery systems, and organizational priorities connects with production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Financial Officer in Agriculture, Food and Forestry](/roles/cfo/agriculture-food-forestry.html)
 
-Explore how lead financial stewardship and connect resource decisions to organizational priorities connects with production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Technology Officer in Agriculture, Food and Forestry](/roles/cto/agriculture-food-forestry.html)
 
-Explore how set technology direction and connect technical choices with product and business needs connects with production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Information Officer in Agriculture, Food and Forestry](/roles/cio/agriculture-food-forestry.html)
 
-Explore how guide information systems, digital operations, and technology services for the organization connects with production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Marketing Officer in Agriculture, Food and Forestry](/roles/cmo/agriculture-food-forestry.html)
 
-Explore how shape marketing strategy, customer understanding, brand, and commercial communication connects with production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Human Resources Officer in Agriculture, Food and Forestry](/roles/chro/agriculture-food-forestry.html)
 
-Explore how guide people strategy, organizational capability, and workforce-related leadership connects with production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Information Security Officer in Agriculture, Food and Forestry](/roles/ciso/agriculture-food-forestry.html)
 
-Explore how lead information-security priorities and coordinate risk-informed protection connects with production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [General Counsel / Chief Legal Officer in Agriculture, Food and Forestry](/roles/general-counsel/agriculture-food-forestry.html)
 
-Explore how lead legal judgment and connect legal advice with organizational decisions connects with production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Revenue Officer in Agriculture, Food and Forestry](/roles/chief-revenue-officer/agriculture-food-forestry.html)
 
-Explore how coordinate revenue-facing functions around a coherent commercial direction connects with production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Product Officer in Agriculture, Food and Forestry](/roles/chief-product-officer/agriculture-food-forestry.html)
 
-Explore how guide product direction, portfolio choices, and the connection between users and delivery teams connects with production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Strategy Officer in Agriculture, Food and Forestry](/roles/chief-strategy-officer/agriculture-food-forestry.html)
 
-Explore how support organization-wide choices by framing options, analysis, and strategic execution connects with production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Board Director in Agriculture, Food and Forestry](/roles/board-director/agriculture-food-forestry.html)
 
-Explore how contribute oversight, inquiry, and strategic perspective within collective governance connects with production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Non-Executive Director in Agriculture, Food and Forestry](/roles/non-executive-director/agriculture-food-forestry.html)
 
-Explore how provide independent challenge and strategic contribution distinct from management connects with production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chair in Agriculture, Food and Forestry](/roles/chair/agriculture-food-forestry.html)
 
-Explore how lead board effectiveness and support clear governance and decision-making connects with production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Managing Director in Agriculture, Food and Forestry](/roles/managing-director/agriculture-food-forestry.html)
 
-Explore how lead a business, division, or organization according to its defined mandate connects with production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Managing Partner in Agriculture, Food and Forestry](/roles/managing-partner/agriculture-food-forestry.html)
 
-Explore how combine leadership responsibilities with the governance and professional context of a partnership connects with production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Partner in Agriculture, Food and Forestry](/roles/partner/agriculture-food-forestry.html)
 
-Explore how develop a practice or business while contributing to a shared ownership or partnership structure connects with production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Vice President of Operations in Agriculture, Food and Forestry](/roles/vp-operations/agriculture-food-forestry.html)
 
-Explore how coordinate operational performance across teams, locations, or service lines connects with production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Director of Operations in Agriculture, Food and Forestry](/roles/director-operations/agriculture-food-forestry.html)
 
-Explore how manage operational delivery and improve coordination within a defined remit connects with production linked to land, biological cycles, processing, and supply relationships.
+
 
 ## Questions that make a Agriculture, Food and Forestry target more specific
 
@@ -239,7 +239,7 @@ KOV can help candidates organize relevant experience and documents around an agr
 
 ### Can KOV promise an interview with a Agriculture, Food and Forestry organization?
 
-No. KOV does not guarantee interviews, offers, employment, introductions, or timelines. Employers make hiring decisions.
+No. Employers make hiring decisions.
 
 ### How should I compare two Agriculture, Food and Forestry opportunities?
 

@@ -33,7 +33,7 @@ The Manufacturing context involves conversion of materials into products through
 
 ## Choose the individual services that fit the work
 
-For Director of Engineering work in Manufacturing, explain how the candidate could direct engineering teams and coordinate technical execution in a defined area; connect that mandate to evidence of technical scope, team leadership, delivery choices, quality practices, and cross-team work. For Manufacturing, establish whether conversion of materials into products through coordinated processes, equipment, people, and quality systems describes the target employer and how production planning, equipment capacity, quality, workforce capability, and customer demand is reflected in its Director of Engineering mandate. In Manufacturing, employees, suppliers, customers, engineering, operations, distribution, and ownership may shape the work. A Director of Engineering example should separate direct responsibility from collaboration. Do not resolve uncertainty about over-indexing on hands-on tools while omitting leadership scope and outcomes through assumption; verify the requirement and use only supportable Director of Engineering claims.
+For Director of Engineering work in Manufacturing, explain how the candidate could direct engineering teams and coordinate technical execution in a defined area; connect that mandate to evidence of technical scope, team leadership, delivery choices, quality practices, and cross-team work. In Manufacturing, employees, suppliers, customers, engineering, operations, distribution, and ownership may shape the work. A Director of Engineering example should separate direct responsibility from collaboration. Do not resolve uncertainty about over-indexing on hands-on tools while omitting leadership scope and outcomes through assumption; verify the requirement and use only supportable Director of Engineering claims.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Engineering career hub](/roles/director-engineering/)
 
-Review the role-wide approach to direct engineering teams and coordinate technical execution in a defined area and the evidence expected for that scope.
+
 
 ### [Manufacturing industry hub](/industries/manufacturing/)
 
-Compare how conversion of materials into products through coordinated processes, equipment, people, and quality systems affects career planning across functions.
+
 
 ### [Chief Executive Officer in Manufacturing](/roles/ceo/manufacturing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Engineering remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Operating Officer in Manufacturing](/roles/coo/manufacturing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Engineering remit; consider where each function meets conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Director of Engineering in Energy, Mining and Oil and Gas](/roles/director-engineering/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with conversion of materials into products through coordinated processes, equipment, people, and quality systems and identify how the Director of Engineering remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Director of Engineering test the scope of work in Manufacturing?
 
-Use the opening discussion to understand the specific Manufacturing employer, not to assume a standard role. Compare direct engineering teams and coordinate technical execution in a defined area with the stated scope, identify decision partners among employees, suppliers, customers, engineering, operations, distribution, and ownership, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Manufacturing employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### What evidence can a Director of Engineering use to explain experience in Manufacturing?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could direct engineering teams and coor
 
 ### What documents should a Director of Engineering tailor for Manufacturing opportunities?
 
-Document selection depends on the opportunity. A Director of Engineering may draw from resume, technical leadership portfolio, profile, and delivery examples, but should foreground only material connected to plant or product scope, process decisions, quality or delivery context, team leadership, and improvement work. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### Which outreach choices belong to a Director of Engineering considering Manufacturing?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of Engineering candidate's service scope; the candidate approves external communication. No one route should be assumed for all Manufacturing employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Manufacturing employers.
 
 ### Can a Director of Engineering rely on title alone when targeting Manufacturing?
 
-Title is only a label. Establish what the employer means by Director of Engineering in this Manufacturing organization and how the person will work with employees, suppliers, customers, engineering, operations, distribution, and ownership. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Director of Engineering seeking work in Manufacturing?
 

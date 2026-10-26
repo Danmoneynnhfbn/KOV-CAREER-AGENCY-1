@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Human Resources Officer career hub](/roles/chro/)
 
-Review the role-wide approach to guide people strategy, organizational capability, and workforce-related leadership and the evidence expected for that scope.
+
 
 ### [Legal Services industry hub](/industries/legal-services/)
 
-Compare how legal advice, representation, transactions, dispute work, or related professional services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Legal Services](/roles/ceo/legal-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Human Resources Officer remit; consider where each function meets legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Operating Officer in Legal Services](/roles/coo/legal-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Human Resources Officer remit; consider where each function meets legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Human Resources Officer in Agriculture, Food and Forestry](/roles/chro/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with legal advice, representation, transactions, dispute work, or related professional services and identify how the Chief Human Resources Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Human Resources Officer clarify before considering work in Legal Services?
 
-Start with the organization's account of legal advice, representation, transactions, dispute work, or related professional services, then clarify how the Chief Human Resources Officer would guide people strategy, organizational capability, and workforce-related leadership. Ask how clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of legal advice, representation, transactions, dispute work, or related professional services, then clarify how the Chief Human Resources Officer would guide people strategy, organizational capability, and workforce-related leadership. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Chief Human Resources Officer describe transferable experience for Legal Services work?
 
@@ -139,11 +139,11 @@ Select examples that show people agenda, organization design, leadership support
 
 ### How can a Chief Human Resources Officer choose documents for conversations about Legal Services?
 
-Document selection depends on the opportunity. A Chief Human Resources Officer may draw from executive resume, people-leadership profile, biography, and selected program summary, but should foreground only material connected to practice or business scope, client-service context, team leadership, governance interface, and authorized examples. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Chief Human Resources Officer plan contact with Legal Services organizations?
 
-Outreach should follow target research, not precede it. The Chief Human Resources Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with people agenda, organization design, leadership support, workforce programs, and measured contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Chief Human Resources Officer assess fit with Legal Services responsibilities?
 

@@ -4,7 +4,7 @@ KOV helps Vice President of Strategy candidates considering roles connected to P
 
 ## How Vice President of Strategy work connects with Public Sector and Government
 
-Readers need to see what Vice President of Strategy work involved; connect frame strategic choices and connect planning with operating decisions with the candidate's own examples of analysis, option framing, stakeholder alignment, implementation, and decision influence in Public Sector and Government. Not every Public Sector and Government organization will handle public purpose, stewardship, transparency, service access, and coordination across institutions alike. Confirm how public administration, public programs, or services delivered under a public mandate informs this Vice President of Strategy position. KOV's service scope for a Vice President of Strategy candidate can include document preparation and agreed search activity, but cannot promise an employer's response. The candidate can discuss analysis, option framing, stakeholder alignment, implementation, and decision influence while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+Readers need to see what Vice President of Strategy work involved; connect frame strategic choices and connect planning with operating decisions with the candidate's own examples of analysis, option framing, stakeholder alignment, implementation, and decision influence in Public Sector and Government. Confirm how public administration, public programs, or services delivered under a public mandate informs this Vice President of Strategy position. KOV's service scope for a Vice President of Strategy candidate can include document preparation and agreed search activity, but cannot promise an employer's response. The candidate can discuss analysis, option framing, stakeholder alignment, implementation, and decision influence while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Who this Vice President of Strategy and Public Sector and Government guide is for
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Strategy career hub](/roles/vp-strategy/)
 
-Review the role-wide approach to frame strategic choices and connect planning with operating decisions and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Strategy remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Strategy remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Vice President of Strategy in Energy, Mining and Oil and Gas](/roles/vp-strategy/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with public administration, public programs, or services delivered under a public mandate and identify how the Vice President of Strategy remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Vice President of Strategy resolve before a target discussion in Public Sector and Government?
 
-Use the opening discussion to understand the specific Public Sector and Government employer, not to assume a standard role. Compare frame strategic choices and connect planning with operating decisions with the stated scope, identify decision partners among residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Public Sector and Government employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Vice President of Strategy career story fit the needs of Public Sector and Government?
 
@@ -143,15 +143,15 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Vice President of Strategy approve before outreach in Public Sector and Government?
 
-Outreach should follow target research, not precede it. The Vice President of Strategy candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with analysis, option framing, stakeholder alignment, implementation, and decision influence is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a Vice President of Strategy compare title and remit in Public Sector and Government?
 
-No. Compare the role description with the candidate's experience of frame strategic choices and connect planning with operating decisions and the organization's public administration, public programs, or services delivered under a public mandate. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Will KOV secure a meeting for a Vice President of Strategy with an employer in Public Sector and Government?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Vice President of Strategy candidate considering Public Sector and Government, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

@@ -4,7 +4,7 @@ KOV helps Head of Legal candidates considering roles connected to Technology, Me
 
 ## How Head of Legal work connects with Technology, Media and Telecom
 
-A Head of Legal candidate should show how advisory scope, team structure, work management, risk judgment, and stakeholder partnership supported the work to lead a legal function or specialist team and advise on decisions within its remit, with the Technology, Media and Telecom setting made explicit. Explain how CEO or General Counsel, business leaders, legal colleagues, outside counsel, and governance stakeholders contributed to the candidate's work and distinguish that shared context from evidence of advisory scope, team structure, work management, risk judgment, and stakeholder partnership. The candidate decides whether to pursue a Head of Legal opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Review each Head of Legal example for sharing privileged material or implying that legal advice alone owned business decisions, then describe the candidate's decisions without overstating their control over CEO or General Counsel, business leaders, legal colleagues, outside counsel, and governance stakeholders.
+A Head of Legal candidate should show how advisory scope, team structure, work management, risk judgment, and stakeholder partnership supported the work to lead a legal function or specialist team and advise on decisions within its remit, with the Technology, Media and Telecom setting made explicit. The candidate decides whether to pursue a Head of Legal opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Review each Head of Legal example for sharing privileged material or implying that legal advice alone owned business decisions, then describe the candidate's decisions without overstating their control over CEO or General Counsel, business leaders, legal colleagues, outside counsel, and governance stakeholders.
 
 ## Who this Head of Legal and Technology, Media and Telecom guide is for
 
@@ -49,7 +49,7 @@ The Head of Legal remit to lead a legal function or specialist team and advise o
 
 ## Common positioning mistakes for Head of Legal candidates in Technology, Media and Telecom
 
-A precise Head of Legal story ties advisory scope, team structure, work management, risk judgment, and stakeholder partnership to the mandate of lead a legal function or specialist team and advise on decisions within its remit, without suggesting that the title alone establishes fit. Before presenting product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality, determine how users, product and engineering teams, customers, creators, advertisers, partners, and investors participated and which details are safe to discuss. The candidate decides whether to pursue a Head of Legal opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Good preparation for Head of Legal work includes a safe way to explain sharing privileged material or implying that legal advice alone owned business decisions and a clear distinction between fact and inference.
+A precise Head of Legal story ties advisory scope, team structure, work management, risk judgment, and stakeholder partnership to the mandate of lead a legal function or specialist team and advise on decisions within its remit, without suggesting that the title alone establishes fit. The candidate decides whether to pursue a Head of Legal opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Good preparation for Head of Legal work includes a safe way to explain sharing privileged material or implying that legal advice alone owned business decisions and a clear distinction between fact and inference.
 
 - Treat Technology, Media and Telecom as one uniform employer type; distinguish the actual organization and role.
 - Use a Head of Legal title without explaining lead a legal function or specialist team and advise on decisions within its remit.
@@ -59,7 +59,7 @@ A precise Head of Legal story ties advisory scope, team structure, work manageme
 
 ## Keep research, confidentiality, and outreach aligned
 
-Protect credibility in Technology, Media and Telecom by addressing sharing privileged material or implying that legal advice alone owned business decisions with a factual account of advisory scope, team structure, work management, risk judgment, and stakeholder partnership and its limits. The candidate's record of advisory scope, team structure, work management, risk judgment, and stakeholder partnership should be set beside the role of users, product and engineering teams, customers, creators, advertisers, partners, and investors, so shared results are attributed fairly. Not every Technology, Media and Telecom organization will handle product evolution, reliability, audience or customer needs, technical choices, and changing business models alike. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Head of Legal position. Rather than lead with seniority, a Head of Legal profile can explain the responsibility to lead a legal function or specialist team and advise on decisions within its remit and use product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality as evidence.
+Protect credibility in Technology, Media and Telecom by addressing sharing privileged material or implying that legal advice alone owned business decisions with a factual account of advisory scope, team structure, work management, risk judgment, and stakeholder partnership and its limits. Not every Technology, Media and Telecom organization will handle product evolution, reliability, audience or customer needs, technical choices, and changing business models alike. Confirm how digital products, platforms, content, communications, or technology-enabled services informs this Head of Legal position. Rather than lead with seniority, a Head of Legal profile can explain the responsibility to lead a legal function or specialist team and advise on decisions within its remit and use product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality as evidence.
 
 ## Prepare for conversations about Technology, Media and Telecom work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Legal career hub](/roles/head-legal/)
 
-Review the role-wide approach to lead a legal function or specialist team and advise on decisions within its remit and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Legal remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Legal remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Head of Legal in Finance and Insurance](/roles/head-legal/finance-insurance.html)
 
-Compare financial products and services supported by customer relationships, information, operations, and oversight with digital products, platforms, content, communications, or technology-enabled services and identify how the Head of Legal remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Head of Legal test the scope of work in Technology, Media and Telecom?
 
-Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the Head of Legal would lead a legal function or specialist team and advise on decisions within its remit. Ask how users, product and engineering teams, customers, creators, advertisers, partners, and investors participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of digital products, platforms, content, communications, or technology-enabled services, then clarify how the Head of Legal would lead a legal function or specialist team and advise on decisions within its remit. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Head of Legal use to explain experience in Technology, Media and Telecom?
 
@@ -139,11 +139,11 @@ Select examples that show advisory scope, team structure, work management, risk 
 
 ### What documents should a Head of Legal tailor for Technology, Media and Telecom opportunities?
 
-Possible materials include legal leadership resume, practice biography, role summary, and discreet examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
+Possible materials include legal leadership resume, practice biography, role summary, and discreet examples. Each claim should be accurate for this Technology, Media and Telecom target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Head of Legal considering Technology, Media and Telecom?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Head of Legal candidate's service scope; the candidate approves external communication. No one route should be assumed for all Technology, Media and Telecom employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Technology, Media and Telecom employers.
 
 ### Can a Head of Legal rely on title alone when targeting Technology, Media and Telecom?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate advisory s
 
 ### What outcome can KOV guarantee for a Head of Legal seeking work in Technology, Media and Telecom?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Head of Legal candidate considering Technology, Media and Telecom, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

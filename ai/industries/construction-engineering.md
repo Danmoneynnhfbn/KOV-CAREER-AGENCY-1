@@ -85,27 +85,27 @@ Use KOV's London page as a starting point for an agreed UK-focused search discus
 
 ### Saudi Arabia
 
-For Construction and Engineering targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Construction and Engineering targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Construction and Engineering targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### UAE
 
-For Construction and Engineering targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Construction and Engineering targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Construction and Engineering targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### United Kingdom
 
-For Construction and Engineering targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Construction and Engineering targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Construction and Engineering targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Dubai
 
-For Construction and Engineering targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Construction and Engineering targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Construction and Engineering targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Australia
 
-For Construction and Engineering targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Construction and Engineering targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Construction and Engineering targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Africa
 
-For Construction and Engineering targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Construction and Engineering targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Construction and Engineering targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ## Choose an appropriate level of career support
 
@@ -129,87 +129,87 @@ Use the cards to open only the role-and-industry pages currently available. Each
 
 ### [Chief Executive Officer in Construction and Engineering](/roles/ceo/construction-engineering.html)
 
-Explore how set organization-wide direction and coordinate executive work connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Operating Officer in Construction and Engineering](/roles/coo/construction-engineering.html)
 
-Explore how align operating functions, delivery systems, and organizational priorities connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Financial Officer in Construction and Engineering](/roles/cfo/construction-engineering.html)
 
-Explore how lead financial stewardship and connect resource decisions to organizational priorities connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Technology Officer in Construction and Engineering](/roles/cto/construction-engineering.html)
 
-Explore how set technology direction and connect technical choices with product and business needs connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Information Officer in Construction and Engineering](/roles/cio/construction-engineering.html)
 
-Explore how guide information systems, digital operations, and technology services for the organization connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Marketing Officer in Construction and Engineering](/roles/cmo/construction-engineering.html)
 
-Explore how shape marketing strategy, customer understanding, brand, and commercial communication connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Human Resources Officer in Construction and Engineering](/roles/chro/construction-engineering.html)
 
-Explore how guide people strategy, organizational capability, and workforce-related leadership connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Information Security Officer in Construction and Engineering](/roles/ciso/construction-engineering.html)
 
-Explore how lead information-security priorities and coordinate risk-informed protection connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [General Counsel / Chief Legal Officer in Construction and Engineering](/roles/general-counsel/construction-engineering.html)
 
-Explore how lead legal judgment and connect legal advice with organizational decisions connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Revenue Officer in Construction and Engineering](/roles/chief-revenue-officer/construction-engineering.html)
 
-Explore how coordinate revenue-facing functions around a coherent commercial direction connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Product Officer in Construction and Engineering](/roles/chief-product-officer/construction-engineering.html)
 
-Explore how guide product direction, portfolio choices, and the connection between users and delivery teams connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Strategy Officer in Construction and Engineering](/roles/chief-strategy-officer/construction-engineering.html)
 
-Explore how support organization-wide choices by framing options, analysis, and strategic execution connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Board Director in Construction and Engineering](/roles/board-director/construction-engineering.html)
 
-Explore how contribute oversight, inquiry, and strategic perspective within collective governance connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Non-Executive Director in Construction and Engineering](/roles/non-executive-director/construction-engineering.html)
 
-Explore how provide independent challenge and strategic contribution distinct from management connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chair in Construction and Engineering](/roles/chair/construction-engineering.html)
 
-Explore how lead board effectiveness and support clear governance and decision-making connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Managing Director in Construction and Engineering](/roles/managing-director/construction-engineering.html)
 
-Explore how lead a business, division, or organization according to its defined mandate connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Managing Partner in Construction and Engineering](/roles/managing-partner/construction-engineering.html)
 
-Explore how combine leadership responsibilities with the governance and professional context of a partnership connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Partner in Construction and Engineering](/roles/partner/construction-engineering.html)
 
-Explore how develop a practice or business while contributing to a shared ownership or partnership structure connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Vice President of Engineering in Construction and Engineering](/roles/vp-engineering/construction-engineering.html)
 
-Explore how lead engineering organization, technical delivery, and capability development connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Director of Engineering in Construction and Engineering](/roles/director-engineering/construction-engineering.html)
 
-Explore how direct engineering teams and coordinate technical execution in a defined area connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Head of Business Development in Construction and Engineering](/roles/head-business-development/construction-engineering.html)
 
-Explore how develop relationships and opportunities that support an organization's commercial direction connects with project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ## Questions that make a Construction and Engineering target more specific
 
@@ -243,7 +243,7 @@ KOV can help candidates organize relevant experience and documents around an agr
 
 ### Can KOV promise an interview with a Construction and Engineering organization?
 
-No. KOV does not guarantee interviews, offers, employment, introductions, or timelines. Employers make hiring decisions.
+No. Employers make hiring decisions.
 
 ### How should I compare two Construction and Engineering opportunities?
 

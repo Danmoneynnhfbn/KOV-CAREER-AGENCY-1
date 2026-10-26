@@ -33,7 +33,7 @@ The candidate can discuss partner-group mandate, management contribution, practi
 
 ## Choose the individual services that fit the work
 
-For Managing Partner work in Other Services, explain how the candidate could combine leadership responsibilities with the governance and professional context of a partnership; connect that mandate to evidence of partner-group mandate, management contribution, practice or business scope, and shared decisions. For Other Services, establish whether personal, repair, membership, community, or specialized services not covered by the other target sectors describes the target employer and how service consistency, relationship quality, capacity, trust, and adaptation to customer needs is reflected in its Managing Partner mandate. In Other Services, customers or members, employees, service providers, owners, suppliers, and communities may shape the work. A Managing Partner example should separate direct responsibility from collaboration. Do not resolve uncertainty about presenting partner-group outcomes as individual decisions or ignoring shared governance through assumption; verify the requirement and use only supportable Managing Partner claims.
+For Managing Partner work in Other Services, explain how the candidate could combine leadership responsibilities with the governance and professional context of a partnership; connect that mandate to evidence of partner-group mandate, management contribution, practice or business scope, and shared decisions. In Other Services, customers or members, employees, service providers, owners, suppliers, and communities may shape the work. A Managing Partner example should separate direct responsibility from collaboration. Do not resolve uncertainty about presenting partner-group outcomes as individual decisions or ignoring shared governance through assumption; verify the requirement and use only supportable Managing Partner claims.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Partner career hub](/roles/managing-partner/)
 
-Review the role-wide approach to combine leadership responsibilities with the governance and professional context of a partnership and the evidence expected for that scope.
+
 
 ### [Other Services industry hub](/industries/other-services/)
 
-Compare how personal, repair, membership, community, or specialized services not covered by the other target sectors affects career planning across functions.
+
 
 ### [Chief Executive Officer in Other Services](/roles/ceo/other-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Partner remit; consider where each function meets personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chief Operating Officer in Other Services](/roles/coo/other-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Partner remit; consider where each function meets personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Managing Partner in Agriculture, Food and Forestry](/roles/managing-partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with personal, repair, membership, community, or specialized services not covered by the other target sectors and identify how the Managing Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Managing Partner clarify before considering work in Other Services?
 
-A Managing Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's personal, repair, membership, community, or specialized services not covered by the other target sectors. Explore how the role will combine leadership responsibilities with the governance and professional context of a partnership and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Managing Partner candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's personal, repair, membership, community, or specialized services not covered by the other target sectors. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Managing Partner describe transferable experience for Other Services work?
 
@@ -139,11 +139,11 @@ Make the connection explicit: the candidate's record of partner-group mandate, m
 
 ### How can a Managing Partner choose documents for conversations about Other Services?
 
-Possible materials include partner biography, leadership resume, practice summary, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service portfolio, customer or member context, team scope, delivery decisions, and substantiated outcomes. Each claim should be accurate for this Other Services target, and confidential or unauthorized material should be omitted.
+Possible materials include partner biography, leadership resume, practice summary, and profile. Each claim should be accurate for this Other Services target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Managing Partner plan contact with Other Services organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Managing Partner candidate's service scope; the candidate approves external communication. No one route should be assumed for all Other Services employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Other Services employers.
 
 ### How can a Managing Partner assess fit with Other Services responsibilities?
 

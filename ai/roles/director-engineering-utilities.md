@@ -8,7 +8,7 @@ Protect credibility in Utilities by addressing over-indexing on hands-on tools w
 
 ## Who this Director of Engineering and Utilities guide is for
 
-Position a Director of Engineering career by linking direct engineering teams and coordinate technical execution in a defined area to service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination, then clarify which part of that work the candidate actually owned. Discuss service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination with care: a Director of Engineering candidate can explain contribution while omitting confidential or identifying facts. The candidate decides whether to pursue a Director of Engineering opportunity. KOV can support agreed research and preparation concerning Utilities. The candidate can discuss technical scope, team leadership, delivery choices, quality practices, and cross-team work while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+Position a Director of Engineering career by linking direct engineering teams and coordinate technical execution in a defined area to service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination, then clarify which part of that work the candidate actually owned. The candidate decides whether to pursue a Director of Engineering opportunity. KOV can support agreed research and preparation concerning Utilities. The candidate can discuss technical scope, team leadership, delivery choices, quality practices, and cross-team work while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -49,7 +49,7 @@ Research for a Director of Engineering in Utilities becomes more focused when th
 
 ## Common positioning mistakes for Director of Engineering candidates in Utilities
 
-The Director of Engineering remit to direct engineering teams and coordinate technical execution in a defined area should be described through decisions and examples, especially evidence of technical scope, team leadership, delivery choices, quality practices, and cross-team work relevant to Utilities. Use essential network or service operations with continuity, infrastructure, and customer responsibilities to frame research about Utilities, then ask how a Director of Engineering will work through reliability, infrastructure renewal, service access, affordability, and long-term planning. In Utilities, customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders may shape the work. A Director of Engineering example should separate direct responsibility from collaboration. The service plan should fit the candidate's Director of Engineering priorities; agree research, materials, and any outreach before contact occurs.
+The Director of Engineering remit to direct engineering teams and coordinate technical execution in a defined area should be described through decisions and examples, especially evidence of technical scope, team leadership, delivery choices, quality practices, and cross-team work relevant to Utilities. In Utilities, customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders may shape the work. A Director of Engineering example should separate direct responsibility from collaboration. The service plan should fit the candidate's Director of Engineering priorities; agree research, materials, and any outreach before contact occurs.
 
 - Treat Utilities as one uniform employer type; distinguish the actual organization and role.
 - Use a Director of Engineering title without explaining direct engineering teams and coordinate technical execution in a defined area.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Engineering career hub](/roles/director-engineering/)
 
-Review the role-wide approach to direct engineering teams and coordinate technical execution in a defined area and the evidence expected for that scope.
+
 
 ### [Utilities industry hub](/industries/utilities/)
 
-Compare how essential network or service operations with continuity, infrastructure, and customer responsibilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Utilities](/roles/ceo/utilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Engineering remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Chief Operating Officer in Utilities](/roles/coo/utilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Engineering remit; consider where each function meets essential network or service operations with continuity, infrastructure, and customer responsibilities.
+
 
 ### [Director of Engineering in Energy, Mining and Oil and Gas](/roles/director-engineering/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with essential network or service operations with continuity, infrastructure, and customer responsibilities and identify how the Director of Engineering remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Director of Engineering resolve before a target discussion in Utilities?
 
-Start with the organization's account of essential network or service operations with continuity, infrastructure, and customer responsibilities, then clarify how the Director of Engineering would direct engineering teams and coordinate technical execution in a defined area. Ask how customers, communities, technical operators, owners, public bodies, suppliers, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of essential network or service operations with continuity, infrastructure, and customer responsibilities, then clarify how the Director of Engineering would direct engineering teams and coordinate technical execution in a defined area. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### Which parts of a Director of Engineering career story fit the needs of Utilities?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could direct engineering teams and coor
 
 ### What should a Director of Engineering prepare in writing before targeting Utilities?
 
-Document selection depends on the opportunity. A Director of Engineering may draw from resume, technical leadership portfolio, profile, and delivery examples, but should foreground only material connected to service scope, asset or network decisions, continuity planning, stakeholder communication, and team coordination. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What should a Director of Engineering approve before outreach in Utilities?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of Engineering candidate's service scope; the candidate approves external communication. No one route should be assumed for all Utilities employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Utilities employers.
 
 ### How should a Director of Engineering compare title and remit in Utilities?
 
-No. Compare the role description with the candidate's experience of direct engineering teams and coordinate technical execution in a defined area and the organization's essential network or service operations with continuity, infrastructure, and customer responsibilities. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Will KOV secure a meeting for a Director of Engineering with an employer in Utilities?
 

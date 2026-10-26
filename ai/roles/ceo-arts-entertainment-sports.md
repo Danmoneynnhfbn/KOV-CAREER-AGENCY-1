@@ -8,7 +8,7 @@ To assess a Chief Executive Officer opportunity in Arts, Entertainment and Sport
 
 ## Who this Chief Executive Officer and Arts, Entertainment and Sports guide is for
 
-The Chief Executive Officer remit to set organization-wide direction and coordinate executive work should be described through decisions and examples, especially evidence of mandate, governance interface, operating scope, and attributable outcomes relevant to Arts, Entertainment and Sports. Treat creative, cultural, event, audience, or sporting activity supported by teams and organizations as a question to validate in Arts, Entertainment and Sports; the answer helps clarify the Chief Executive Officer mandate and its creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions. Before presenting program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available, determine how audiences, participants, creators, athletes, sponsors, venues, partners, and communities participated and which details are safe to discuss. The candidate decides whether to pursue a Chief Executive Officer opportunity. KOV can support agreed research and preparation concerning Arts, Entertainment and Sports.
+The Chief Executive Officer remit to set organization-wide direction and coordinate executive work should be described through decisions and examples, especially evidence of mandate, governance interface, operating scope, and attributable outcomes relevant to Arts, Entertainment and Sports. Before presenting program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available, determine how audiences, participants, creators, athletes, sponsors, venues, partners, and communities participated and which details are safe to discuss. The candidate decides whether to pursue a Chief Executive Officer opportunity. KOV can support agreed research and preparation concerning Arts, Entertainment and Sports.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -33,7 +33,7 @@ Protect credibility in Arts, Entertainment and Sports by addressing claiming sol
 
 ## Choose the individual services that fit the work
 
-Career representation remains candidate-led: KOV can support a Chief Executive Officer search, while the candidate approves the goals and disclosures. In Arts, Entertainment and Sports, audiences, participants, creators, athletes, sponsors, venues, partners, and communities may shape the work. A Chief Executive Officer example should separate direct responsibility from collaboration. Research for a Chief Executive Officer in Arts, Entertainment and Sports becomes more focused when the candidate investigates creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions alongside creative, cultural, event, audience, or sporting activity supported by teams and organizations. For Chief Executive Officer work in Arts, Entertainment and Sports, explain how the candidate could set organization-wide direction and coordinate executive work; connect that mandate to evidence of mandate, governance interface, operating scope, and attributable outcomes.
+Career representation remains candidate-led: KOV can support a Chief Executive Officer search, while the candidate approves the goals and disclosures. A Chief Executive Officer example should separate direct responsibility from collaboration. Research for a Chief Executive Officer in Arts, Entertainment and Sports becomes more focused when the candidate investigates creative or sporting purpose, audience engagement, event execution, partnerships, and resource decisions alongside creative, cultural, event, audience, or sporting activity supported by teams and organizations. For Chief Executive Officer work in Arts, Entertainment and Sports, explain how the candidate could set organization-wide direction and coordinate executive work; connect that mandate to evidence of mandate, governance interface, operating scope, and attributable outcomes.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Executive Officer career hub](/roles/ceo/)
 
-Review the role-wide approach to set organization-wide direction and coordinate executive work and the evidence expected for that scope.
+
 
 ### [Arts, Entertainment and Sports industry hub](/industries/arts-entertainment-sports/)
 
-Compare how creative, cultural, event, audience, or sporting activity supported by teams and organizations affects career planning across functions.
+
 
 ### [Chief Operating Officer in Arts, Entertainment and Sports](/roles/coo/arts-entertainment-sports.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Executive Officer remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Financial Officer in Arts, Entertainment and Sports](/roles/cfo/arts-entertainment-sports.html)
 
-Contrast lead financial stewardship and connect resource decisions to organizational priorities with the Chief Executive Officer remit; consider where each function meets creative, cultural, event, audience, or sporting activity supported by teams and organizations.
+
 
 ### [Chief Executive Officer in Agriculture, Food and Forestry](/roles/ceo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with creative, cultural, event, audience, or sporting activity supported by teams and organizations and identify how the Chief Executive Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Executive Officer test the scope of work in Arts, Entertainment and Sports?
 
-Start with the organization's account of creative, cultural, event, audience, or sporting activity supported by teams and organizations, then clarify how the Chief Executive Officer would set organization-wide direction and coordinate executive work. Ask how audiences, participants, creators, athletes, sponsors, venues, partners, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of creative, cultural, event, audience, or sporting activity supported by teams and organizations, then clarify how the Chief Executive Officer would set organization-wide direction and coordinate executive work. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Chief Executive Officer use to explain experience in Arts, Entertainment and Sports?
 
@@ -139,19 +139,19 @@ Make the connection explicit: the candidate's record of mandate, governance inte
 
 ### What documents should a Chief Executive Officer tailor for Arts, Entertainment and Sports opportunities?
 
-Possible materials include executive resume, board biography, leadership summary, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to program or event scope, audiences served, partnership work, team coordination, and measurable contribution where available. Each claim should be accurate for this Arts, Entertainment and Sports target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, board biography, leadership summary, and professional profile. Each claim should be accurate for this Arts, Entertainment and Sports target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Chief Executive Officer considering Arts, Entertainment and Sports?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Executive Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Arts, Entertainment and Sports employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Arts, Entertainment and Sports employers.
 
 ### Can a Chief Executive Officer rely on title alone when targeting Arts, Entertainment and Sports?
 
-Title is only a label. Establish what the employer means by Chief Executive Officer in this Arts, Entertainment and Sports organization and how the person will work with audiences, participants, creators, athletes, sponsors, venues, partners, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Chief Executive Officer seeking work in Arts, Entertainment and Sports?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Executive Officer candidate considering Arts, Entertainment and Sports, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

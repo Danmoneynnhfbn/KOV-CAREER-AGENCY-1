@@ -12,7 +12,7 @@ For a Managing Partner target, KOV can discuss how partner biography, leadership
 
 ## A candidate-led process from first discussion to next steps
 
-In a Agriculture, Food and Forestry target, make the Managing Partner contribution legible: describe how the candidate helped combine leadership responsibilities with the governance and professional context of a partnership and what supports partner-group mandate, management contribution, practice or business scope, and shared decisions. Treat production linked to land, biological cycles, processing, and supply relationships as a question to validate in Agriculture, Food and Forestry; the answer helps clarify the Managing Partner mandate and its seasonality, input availability, quality variation, and coordination across production stages. Use an example involving resource planning, safety-minded operations, supplier relationships, yield or quality context, and continuity decisions to describe the decision, the parties involved, and the candidate's role as a Managing Partner. The candidate decides whether to pursue a Managing Partner opportunity. KOV can support agreed research and preparation concerning Agriculture, Food and Forestry.
+In a Agriculture, Food and Forestry target, make the Managing Partner contribution legible: describe how the candidate helped combine leadership responsibilities with the governance and professional context of a partnership and what supports partner-group mandate, management contribution, practice or business scope, and shared decisions. Use an example involving resource planning, safety-minded operations, supplier relationships, yield or quality context, and continuity decisions to describe the decision, the parties involved, and the candidate's role as a Managing Partner. The candidate decides whether to pursue a Managing Partner opportunity. KOV can support agreed research and preparation concerning Agriculture, Food and Forestry.
 
 ## Documents that make Managing Partner experience relevant here
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Partner career hub](/roles/managing-partner/)
 
-Review the role-wide approach to combine leadership responsibilities with the governance and professional context of a partnership and the evidence expected for that scope.
+
 
 ### [Agriculture, Food and Forestry industry hub](/industries/agriculture-food-forestry/)
 
-Compare how production linked to land, biological cycles, processing, and supply relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Agriculture, Food and Forestry](/roles/ceo/agriculture-food-forestry.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Partner remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Partner remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Managing Partner in Energy, Mining and Oil and Gas](/roles/managing-partner/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with production linked to land, biological cycles, processing, and supply relationships and identify how the Managing Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Managing Partner in Agriculture, Food and Forestry?
 
-Start with the organization's account of production linked to land, biological cycles, processing, and supply relationships, then clarify how the Managing Partner would combine leadership responsibilities with the governance and professional context of a partnership. Ask how producers, workforce, buyers, processors, logistics partners, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of production linked to land, biological cycles, processing, and supply relationships, then clarify how the Managing Partner would combine leadership responsibilities with the governance and professional context of a partnership. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Managing Partner make prior work relevant to Agriculture, Food and Forestry?
 
@@ -139,19 +139,19 @@ Describe an instance where the candidate could combine leadership responsibiliti
 
 ### Which career materials can help a Managing Partner explore work in Agriculture, Food and Forestry?
 
-Possible materials include partner biography, leadership resume, practice summary, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to resource planning, safety-minded operations, supplier relationships, yield or quality context, and continuity decisions. Each claim should be accurate for this Agriculture, Food and Forestry target, and confidential or unauthorized material should be omitted.
+Possible materials include partner biography, leadership resume, practice summary, and profile. Each claim should be accurate for this Agriculture, Food and Forestry target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Managing Partner contacts an organization in Agriculture, Food and Forestry?
 
-Outreach should follow target research, not precede it. The Managing Partner candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with partner-group mandate, management contribution, practice or business scope, and shared decisions is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Managing Partner background relevant to work in Agriculture, Food and Forestry?
 
-No. Compare the role description with the candidate's experience of combine leadership responsibilities with the governance and professional context of a partnership and the organization's production linked to land, biological cycles, processing, and supply relationships. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Managing Partner outreach in Agriculture, Food and Forestry?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Managing Partner candidate considering Agriculture, Food and Forestry, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

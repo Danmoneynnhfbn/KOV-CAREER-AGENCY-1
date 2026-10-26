@@ -8,7 +8,7 @@ Show the Chair scope behind the title: how the candidate could lead board effect
 
 ## Who this Chair and Agriculture, Food and Forestry guide is for
 
-A Chair candidate should be ready to explain blurring chair and executive accountabilities or taking credit for collective decisions without revealing confidential details or implying unsupported responsibility. The candidate decides whether to pursue a Chair opportunity. KOV can support agreed research and preparation concerning Agriculture, Food and Forestry. For Agriculture, Food and Forestry, establish whether production linked to land, biological cycles, processing, and supply relationships describes the target employer and how seasonality, input availability, quality variation, and coordination across production stages is reflected in its Chair mandate. A precise Chair story ties meeting leadership, board composition, governance practice, relationships, and transition judgment to the mandate of lead board effectiveness and support clear governance and decision-making, without suggesting that the title alone establishes fit.
+A Chair candidate should be ready to explain blurring chair and executive accountabilities or taking credit for collective decisions without revealing confidential details or implying unsupported responsibility. KOV can support agreed research and preparation concerning Agriculture, Food and Forestry. For Agriculture, Food and Forestry, establish whether production linked to land, biological cycles, processing, and supply relationships describes the target employer and how seasonality, input availability, quality variation, and coordination across production stages is reflected in its Chair mandate. A precise Chair story ties meeting leadership, board composition, governance practice, relationships, and transition judgment to the mandate of lead board effectiveness and support clear governance and decision-making, without suggesting that the title alone establishes fit.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chair career hub](/roles/chair/)
 
-Review the role-wide approach to lead board effectiveness and support clear governance and decision-making and the evidence expected for that scope.
+
 
 ### [Agriculture, Food and Forestry industry hub](/industries/agriculture-food-forestry/)
 
-Compare how production linked to land, biological cycles, processing, and supply relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Agriculture, Food and Forestry](/roles/ceo/agriculture-food-forestry.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chair remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chair remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chair in Energy, Mining and Oil and Gas](/roles/chair/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with production linked to land, biological cycles, processing, and supply relationships and identify how the Chair remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chair clarify before considering work in Agriculture, Food and Forestry?
 
-Start with the organization's account of production linked to land, biological cycles, processing, and supply relationships, then clarify how the Chair would lead board effectiveness and support clear governance and decision-making. Ask how producers, workforce, buyers, processors, logistics partners, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of production linked to land, biological cycles, processing, and supply relationships, then clarify how the Chair would lead board effectiveness and support clear governance and decision-making. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Chair describe transferable experience for Agriculture, Food and Forestry work?
 
@@ -139,19 +139,19 @@ Make the connection explicit: the candidate's record of meeting leadership, boar
 
 ### How can a Chair choose documents for conversations about Agriculture, Food and Forestry?
 
-Document selection depends on the opportunity. A Chair may draw from chair biography, board resume, governance narrative, and public profile, but should foreground only material connected to resource planning, safety-minded operations, supplier relationships, yield or quality context, and continuity decisions. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Chair plan contact with Agriculture, Food and Forestry organizations?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chair candidate's service scope; the candidate approves external communication. No one route should be assumed for all Agriculture, Food and Forestry employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Agriculture, Food and Forestry employers.
 
 ### How can a Chair assess fit with Agriculture, Food and Forestry responsibilities?
 
-Title is only a label. Establish what the employer means by Chair in this Agriculture, Food and Forestry organization and how the person will work with producers, workforce, buyers, processors, logistics partners, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Chair candidate considering Agriculture, Food and Forestry?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chair candidate considering Agriculture, Food and Forestry, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

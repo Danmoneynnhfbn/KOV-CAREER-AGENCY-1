@@ -4,7 +4,7 @@ KOV helps Vice President of People candidates considering roles connected to Edu
 
 ## How Vice President of People work connects with Education
 
-The candidate decides whether to pursue a Vice President of People opportunity. KOV can support agreed research and preparation concerning Education. Preparation for a Vice President of People conversation should address the institution type, learner groups, decision structure, and whether the role leads academic, operational, commercial, or support work; relate the response to program or institutional scope, learner or service context, staff leadership, and improvement contribution, not speculation about hiring. Research for a Vice President of People in Education becomes more focused when the candidate investigates learning aims, access, program delivery, workforce needs, and resource stewardship alongside learning services delivered through institutions, programs, technology, or educational support. Show the Vice President of People scope behind the title: how the candidate could lead people programs and partner with managers on organizational capability, which decisions mattered, and where people agenda, organization design, manager support, program scope, and employee experience demonstrates their contribution.
+The candidate decides whether to pursue a Vice President of People opportunity. Preparation for a Vice President of People conversation should address the institution type, learner groups, decision structure, and whether the role leads academic, operational, commercial, or support work; relate the response to program or institutional scope, learner or service context, staff leadership, and improvement contribution, not speculation about hiring. Research for a Vice President of People in Education becomes more focused when the candidate investigates learning aims, access, program delivery, workforce needs, and resource stewardship alongside learning services delivered through institutions, programs, technology, or educational support. Show the Vice President of People scope behind the title: how the candidate could lead people programs and partner with managers on organizational capability, which decisions mattered, and where people agenda, organization design, manager support, program scope, and employee experience demonstrates their contribution.
 
 ## Who this Vice President of People and Education guide is for
 
@@ -33,7 +33,7 @@ Before discussing program or institutional scope, learner or service context, st
 
 ## Choose the individual services that fit the work
 
-A precise Vice President of People story ties people agenda, organization design, manager support, program scope, and employee experience to the mandate of lead people programs and partner with managers on organizational capability, without suggesting that the title alone establishes fit. Not every Education organization will handle learning aims, access, program delivery, workforce needs, and resource stewardship alike. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Vice President of People position. KOV can help a Vice President of People candidate organize an agreed search approach for Education, including documents such as executive resume, people leadership portfolio, biography, and profile. Review each Vice President of People example for including identifiable employee matters or claims without appropriate context, then describe the candidate's decisions without overstating their control over CHRO, executives, people teams, employees, line managers, and advisers.
+A precise Vice President of People story ties people agenda, organization design, manager support, program scope, and employee experience to the mandate of lead people programs and partner with managers on organizational capability, without suggesting that the title alone establishes fit. Confirm how learning services delivered through institutions, programs, technology, or educational support informs this Vice President of People position. KOV can help a Vice President of People candidate organize an agreed search approach for Education, including documents such as executive resume, people leadership portfolio, biography, and profile. Review each Vice President of People example for including identifiable employee matters or claims without appropriate context, then describe the candidate's decisions without overstating their control over CHRO, executives, people teams, employees, line managers, and advisers.
 
 ### [Private career representation](/services.html)
 
@@ -59,7 +59,7 @@ The Education context involves learning services delivered through institutions,
 
 ## Keep research, confidentiality, and outreach aligned
 
-Keep the Vice President of People narrative accurate where including identifiable employee matters or claims without appropriate context may arise: attribute shared work and disclose only information the candidate may use. The candidate decides whether to pursue a Vice President of People opportunity. KOV can support agreed research and preparation concerning Education. An account of program or institutional scope, learner or service context, staff leadership, and improvement contribution should identify the candidate's contribution and the involvement of CHRO, executives, people teams, employees, line managers, and advisers. To assess a Vice President of People opportunity in Education, compare the stated remit to the candidate's record of people agenda, organization design, manager support, program scope, and employee experience.
+Keep the Vice President of People narrative accurate where including identifiable employee matters or claims without appropriate context may arise: attribute shared work and disclose only information the candidate may use. KOV can support agreed research and preparation concerning Education. An account of program or institutional scope, learner or service context, staff leadership, and improvement contribution should identify the candidate's contribution and the involvement of CHRO, executives, people teams, employees, line managers, and advisers. To assess a Vice President of People opportunity in Education, compare the stated remit to the candidate's record of people agenda, organization design, manager support, program scope, and employee experience.
 
 ## Prepare for conversations about Education work
 
@@ -67,7 +67,7 @@ Keep the Vice President of People narrative accurate where including identifiabl
 
 ## Run the search thoughtfully in each target market
 
-Research for a Vice President of People in Education becomes more focused when the candidate investigates learning aims, access, program delivery, workforce needs, and resource stewardship alongside learning services delivered through institutions, programs, technology, or educational support. Before presenting program or institutional scope, learner or service context, staff leadership, and improvement contribution, determine how learners, families, educators, administrators, owners or boards, and community partners participated and which details are safe to discuss. The candidate decides whether to pursue a Vice President of People opportunity. KOV can support agreed research and preparation concerning Education. Good preparation for Vice President of People work includes a safe way to explain including identifiable employee matters or claims without appropriate context and a clear distinction between fact and inference.
+Research for a Vice President of People in Education becomes more focused when the candidate investigates learning aims, access, program delivery, workforce needs, and resource stewardship alongside learning services delivered through institutions, programs, technology, or educational support. The candidate decides whether to pursue a Vice President of People opportunity. KOV can support agreed research and preparation concerning Education. Good preparation for Vice President of People work includes a safe way to explain including identifiable employee matters or claims without appropriate context and a clear distinction between fact and inference.
 
 ### [Dubai market guidance](/markets/executive-job-search-dubai.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of People career hub](/roles/vp-people/)
 
-Review the role-wide approach to lead people programs and partner with managers on organizational capability and the evidence expected for that scope.
+
 
 ### [Education industry hub](/industries/education/)
 
-Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.
+
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of People remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Education](/roles/coo/education.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of People remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Vice President of People in Manufacturing](/roles/vp-people/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with learning services delivered through institutions, programs, technology, or educational support and identify how the Vice President of People remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Vice President of People in Education?
 
-A Vice President of People candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. Explore how the role will lead people programs and partner with managers on organizational capability and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Vice President of People candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's learning services delivered through institutions, programs, technology, or educational support. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Vice President of People make prior work relevant to Education?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate people age
 
 ### Does KOV control employer responses to Vice President of People outreach in Education?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Vice President of People candidate considering Education, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

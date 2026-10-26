@@ -33,7 +33,7 @@ Before discussing program or service scope, stakeholder communication, team lead
 
 ## Choose the individual services that fit the work
 
-A candidate exploring Public Sector and Government should test the assumed link between public administration, public programs, or services delivered under a public mandate and public purpose, stewardship, transparency, service access, and coordination across institutions against the actual General Counsel / Chief Legal Officer role description. Map the Public Sector and Government relationships among residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders; verify actual authority instead of inferring a reporting line. The candidate decides whether to pursue a General Counsel / Chief Legal Officer opportunity. KOV can support agreed research and preparation concerning Public Sector and Government. Do not resolve uncertainty about confusing legal advice with business decision ownership or disclosing privileged information through assumption; verify the requirement and use only supportable General Counsel / Chief Legal Officer claims.
+A candidate exploring Public Sector and Government should test the assumed link between public administration, public programs, or services delivered under a public mandate and public purpose, stewardship, transparency, service access, and coordination across institutions against the actual General Counsel / Chief Legal Officer role description. The candidate decides whether to pursue a General Counsel / Chief Legal Officer opportunity. KOV can support agreed research and preparation concerning Public Sector and Government. Do not resolve uncertainty about confusing legal advice with business decision ownership or disclosing privileged information through assumption; verify the requirement and use only supportable General Counsel / Chief Legal Officer claims.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [General Counsel / Chief Legal Officer career hub](/roles/general-counsel/)
 
-Review the role-wide approach to lead legal judgment and connect legal advice with organizational decisions and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the General Counsel / Chief Legal Officer remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the General Counsel / Chief Legal Officer remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [General Counsel / Chief Legal Officer in Agriculture, Food and Forestry](/roles/general-counsel/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with public administration, public programs, or services delivered under a public mandate and identify how the General Counsel / Chief Legal Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a General Counsel / Chief Legal Officer in Public Sector and Government?
 
-A General Counsel / Chief Legal Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. Explore how the role will lead legal judgment and connect legal advice with organizational decisions and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A General Counsel / Chief Legal Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's public administration, public programs, or services delivered under a public mandate. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a General Counsel / Chief Legal Officer make prior work relevant to Public Sector and Government?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What must be agreed before a General Counsel / Chief Legal Officer contacts an organization in Public Sector and Government?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the General Counsel / Chief Legal Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Public Sector and Government employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Public Sector and Government employers.
 
 ### What makes a General Counsel / Chief Legal Officer background relevant to work in Public Sector and Government?
 

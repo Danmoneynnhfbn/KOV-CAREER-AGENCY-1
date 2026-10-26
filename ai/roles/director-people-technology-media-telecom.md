@@ -63,7 +63,7 @@ The Director of People remit to lead a people function or program and support ma
 
 ## Prepare for conversations about Technology, Media and Telecom work
 
-Keep the Director of People narrative accurate where using sensitive workforce information or broad claims without context may arise: attribute shared work and disclose only information the candidate may use. The candidate decides whether to pursue a Director of People opportunity. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Discuss product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality with care: a Director of People candidate can explain contribution while omitting confidential or identifying facts. A precise Director of People story ties program scope, manager partnership, team responsibilities, and people-related outcomes to the mandate of lead a people function or program and support managers through organizational change, without suggesting that the title alone establishes fit.
+Keep the Director of People narrative accurate where using sensitive workforce information or broad claims without context may arise: attribute shared work and disclose only information the candidate may use. KOV can support agreed research and preparation concerning Technology, Media and Telecom. Discuss product or platform scope, users served, team collaboration, delivery decisions, and evidence of adoption or service quality with care: a Director of People candidate can explain contribution while omitting confidential or identifying facts. A precise Director of People story ties program scope, manager partnership, team responsibilities, and people-related outcomes to the mandate of lead a people function or program and support managers through organizational change, without suggesting that the title alone establishes fit.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of People career hub](/roles/director-people/)
 
-Review the role-wide approach to lead a people function or program and support managers through organizational change and the evidence expected for that scope.
+
 
 ### [Technology, Media and Telecom industry hub](/industries/technology-media-telecom/)
 
-Compare how digital products, platforms, content, communications, or technology-enabled services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Technology, Media and Telecom](/roles/ceo/technology-media-telecom.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of People remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Chief Operating Officer in Technology, Media and Telecom](/roles/coo/technology-media-telecom.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of People remit; consider where each function meets digital products, platforms, content, communications, or technology-enabled services.
+
 
 ### [Director of People in Manufacturing](/roles/director-people/manufacturing.html)
 
-Compare conversion of materials into products through coordinated processes, equipment, people, and quality systems with digital products, platforms, content, communications, or technology-enabled services and identify how the Director of People remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Director of People test the scope of work in Technology, Media and Telecom?
 
-A Director of People candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's digital products, platforms, content, communications, or technology-enabled services. Explore how the role will lead a people function or program and support managers through organizational change and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Director of People candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's digital products, platforms, content, communications, or technology-enabled services. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Director of People use to explain experience in Technology, Media and Telecom?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### Which outreach choices belong to a Director of People considering Technology, Media and Telecom?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of People candidate's service scope; the candidate approves external communication. No one route should be assumed for all Technology, Media and Telecom employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Technology, Media and Telecom employers.
 
 ### Can a Director of People rely on title alone when targeting Technology, Media and Telecom?
 
-Title is only a label. Establish what the employer means by Director of People in this Technology, Media and Telecom organization and how the person will work with users, product and engineering teams, customers, creators, advertisers, partners, and investors. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Director of People seeking work in Technology, Media and Telecom?
 

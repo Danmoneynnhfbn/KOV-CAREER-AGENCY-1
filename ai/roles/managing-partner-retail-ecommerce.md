@@ -16,7 +16,7 @@ A precise Managing Partner story ties partner-group mandate, management contribu
 
 ## Documents that make Managing Partner experience relevant here
 
-Readers need to see what Managing Partner work involved; connect combine leadership responsibilities with the governance and professional context of a partnership with the candidate's own examples of partner-group mandate, management contribution, practice or business scope, and shared decisions in Retail and E-commerce. To understand the Retail and E-commerce target, explore customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and ask how a Managing Partner is expected to respond to customer experience, assortment, inventory, channel coordination, and rapid feedback. In Retail and E-commerce, customers, store or digital teams, suppliers, brand partners, operations, and owners may shape the work. A Managing Partner example should separate direct responsibility from collaboration. For Managing Partner materials, manage the risk of presenting partner-group outcomes as individual decisions or ignoring shared governance; support claims with partner-group mandate, management contribution, practice or business scope, and shared decisions and remove details that are not authorized for sharing.
+Readers need to see what Managing Partner work involved; connect combine leadership responsibilities with the governance and professional context of a partnership with the candidate's own examples of partner-group mandate, management contribution, practice or business scope, and shared decisions in Retail and E-commerce. In Retail and E-commerce, customers, store or digital teams, suppliers, brand partners, operations, and owners may shape the work. A Managing Partner example should separate direct responsibility from collaboration. For Managing Partner materials, manage the risk of presenting partner-group outcomes as individual decisions or ignoring shared governance; support claims with partner-group mandate, management contribution, practice or business scope, and shared decisions and remove details that are not authorized for sharing.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -49,7 +49,7 @@ A precise Managing Partner story ties partner-group mandate, management contribu
 
 ## Common positioning mistakes for Managing Partner candidates in Retail and E-commerce
 
-Review each Managing Partner example for presenting partner-group outcomes as individual decisions or ignoring shared governance, then describe the candidate's decisions without overstating their control over partners, practice leaders, employees, clients, committees, and external stakeholders. The candidate decides whether to pursue a Managing Partner opportunity. KOV can support agreed research and preparation concerning Retail and E-commerce. To understand the Retail and E-commerce target, explore customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and ask how a Managing Partner is expected to respond to customer experience, assortment, inventory, channel coordination, and rapid feedback. Position a Managing Partner career by linking combine leadership responsibilities with the governance and professional context of a partnership to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution, then clarify which part of that work the candidate actually owned.
+Review each Managing Partner example for presenting partner-group outcomes as individual decisions or ignoring shared governance, then describe the candidate's decisions without overstating their control over partners, practice leaders, employees, clients, committees, and external stakeholders. KOV can support agreed research and preparation concerning Retail and E-commerce. To understand the Retail and E-commerce target, explore customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and ask how a Managing Partner is expected to respond to customer experience, assortment, inventory, channel coordination, and rapid feedback. Position a Managing Partner career by linking combine leadership responsibilities with the governance and professional context of a partnership to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution, then clarify which part of that work the candidate actually owned.
 
 - Treat Retail and E-commerce as one uniform employer type; distinguish the actual organization and role.
 - Use a Managing Partner title without explaining combine leadership responsibilities with the governance and professional context of a partnership.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Partner career hub](/roles/managing-partner/)
 
-Review the role-wide approach to combine leadership responsibilities with the governance and professional context of a partnership and the evidence expected for that scope.
+
 
 ### [Retail and E-commerce industry hub](/industries/retail-ecommerce/)
 
-Compare how customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment affects career planning across functions.
+
 
 ### [Chief Executive Officer in Retail and E-commerce](/roles/ceo/retail-ecommerce.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Partner remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Chief Operating Officer in Retail and E-commerce](/roles/coo/retail-ecommerce.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Partner remit; consider where each function meets customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment.
+
 
 ### [Managing Partner in Agriculture, Food and Forestry](/roles/managing-partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment and identify how the Managing Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Managing Partner in Retail and E-commerce?
 
-Start with the organization's account of customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment, then clarify how the Managing Partner would combine leadership responsibilities with the governance and professional context of a partnership. Ask how customers, store or digital teams, suppliers, brand partners, operations, and owners participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment, then clarify how the Managing Partner would combine leadership responsibilities with the governance and professional context of a partnership. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How can a Managing Partner make prior work relevant to Retail and E-commerce?
 
@@ -139,11 +139,11 @@ Select examples that show partner-group mandate, management contribution, practi
 
 ### Which career materials can help a Managing Partner explore work in Retail and E-commerce?
 
-Possible materials include partner biography, leadership resume, practice summary, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to customer or category scope, channel decisions, team leadership, service context, and attributable commercial contribution. Each claim should be accurate for this Retail and E-commerce target, and confidential or unauthorized material should be omitted.
+Possible materials include partner biography, leadership resume, practice summary, and profile. Each claim should be accurate for this Retail and E-commerce target, and confidential or unauthorized material should be omitted.
 
 ### What must be agreed before a Managing Partner contacts an organization in Retail and E-commerce?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Managing Partner candidate's service scope; the candidate approves external communication. No one route should be assumed for all Retail and E-commerce employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Retail and E-commerce employers.
 
 ### What makes a Managing Partner background relevant to work in Retail and E-commerce?
 

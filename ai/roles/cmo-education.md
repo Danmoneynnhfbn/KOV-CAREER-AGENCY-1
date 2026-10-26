@@ -16,7 +16,7 @@ Where appropriate to the agreed service, KOV can help a Chief Marketing Officer 
 
 ## Documents that make Chief Marketing Officer experience relevant here
 
-Readers need to see what Chief Marketing Officer work involved; connect shape marketing strategy, customer understanding, brand, and commercial communication with the candidate's own examples of market context, customer insight, portfolio decisions, team leadership, and attributable contribution in Education. Research for a Chief Marketing Officer in Education becomes more focused when the candidate investigates learning aims, access, program delivery, workforce needs, and resource stewardship alongside learning services delivered through institutions, programs, technology, or educational support. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Chief Marketing Officer example should separate direct responsibility from collaboration. Keep the Chief Marketing Officer narrative accurate where claiming revenue or brand movement without describing attribution and surrounding factors may arise: attribute shared work and disclose only information the candidate may use.
+Readers need to see what Chief Marketing Officer work involved; connect shape marketing strategy, customer understanding, brand, and commercial communication with the candidate's own examples of market context, customer insight, portfolio decisions, team leadership, and attributable contribution in Education. In Education, learners, families, educators, administrators, owners or boards, and community partners may shape the work. A Chief Marketing Officer example should separate direct responsibility from collaboration. Keep the Chief Marketing Officer narrative accurate where claiming revenue or brand movement without describing attribution and surrounding factors may arise: attribute shared work and disclose only information the candidate may use.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ Readers need to see what Chief Marketing Officer work involved; connect shape ma
 
 ## Choose the individual services that fit the work
 
-A Chief Marketing Officer candidate should be ready to explain claiming revenue or brand movement without describing attribution and surrounding factors without revealing confidential details or implying unsupported responsibility. The candidate decides whether to pursue a Chief Marketing Officer opportunity. KOV can support agreed research and preparation concerning Education. Map the Education relationships among learners, families, educators, administrators, owners or boards, and community partners; verify actual authority instead of inferring a reporting line. The Chief Marketing Officer remit to shape marketing strategy, customer understanding, brand, and commercial communication should be described through decisions and examples, especially evidence of market context, customer insight, portfolio decisions, team leadership, and attributable contribution relevant to Education.
+A Chief Marketing Officer candidate should be ready to explain claiming revenue or brand movement without describing attribution and surrounding factors without revealing confidential details or implying unsupported responsibility. KOV can support agreed research and preparation concerning Education. Map the Education relationships among learners, families, educators, administrators, owners or boards, and community partners; verify actual authority instead of inferring a reporting line. The Chief Marketing Officer remit to shape marketing strategy, customer understanding, brand, and commercial communication should be described through decisions and examples, especially evidence of market context, customer insight, portfolio decisions, team leadership, and attributable contribution relevant to Education.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Marketing Officer career hub](/roles/cmo/)
 
-Review the role-wide approach to shape marketing strategy, customer understanding, brand, and commercial communication and the evidence expected for that scope.
+
 
 ### [Education industry hub](/industries/education/)
 
-Compare how learning services delivered through institutions, programs, technology, or educational support affects career planning across functions.
+
 
 ### [Chief Executive Officer in Education](/roles/ceo/education.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Marketing Officer remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Operating Officer in Education](/roles/coo/education.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Marketing Officer remit; consider where each function meets learning services delivered through institutions, programs, technology, or educational support.
+
 
 ### [Chief Marketing Officer in Agriculture, Food and Forestry](/roles/cmo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with learning services delivered through institutions, programs, technology, or educational support and identify how the Chief Marketing Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Marketing Officer test the scope of work in Education?
 
-Use the opening discussion to understand the specific Education employer, not to assume a standard role. Compare shape marketing strategy, customer understanding, brand, and commercial communication with the stated scope, identify decision partners among learners, families, educators, administrators, owners or boards, and community partners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Education employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### What evidence can a Chief Marketing Officer use to explain experience in Education?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could shape marketing strategy, custome
 
 ### What documents should a Chief Marketing Officer tailor for Education opportunities?
 
-Document selection depends on the opportunity. A Chief Marketing Officer may draw from executive resume, brand and growth narrative, leadership biography, and profile, but should foreground only material connected to program or institutional scope, learner or service context, staff leadership, and improvement contribution. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### Which outreach choices belong to a Chief Marketing Officer considering Education?
 
-Outreach should follow target research, not precede it. The Chief Marketing Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with market context, customer insight, portfolio decisions, team leadership, and attributable contribution is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Chief Marketing Officer rely on title alone when targeting Education?
 
-Title is only a label. Establish what the employer means by Chief Marketing Officer in this Education organization and how the person will work with learners, families, educators, administrators, owners or boards, and community partners. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What outcome can KOV guarantee for a Chief Marketing Officer seeking work in Education?
 

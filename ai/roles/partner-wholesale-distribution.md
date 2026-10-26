@@ -16,7 +16,7 @@ For a Partner target, KOV can discuss how partner biography, practice profile, s
 
 ## Documents that make Partner experience relevant here
 
-The Wholesale and Distribution context involves movement and availability of goods through purchasing, inventory, channel, and delivery relationships; examine how that structure affects availability, working capital, fulfillment coordination, customer terms, and supplier variability before drawing conclusions about the Partner role. An account of channel or category scope, inventory and service context, commercial coordination, and customer outcomes should identify the candidate's contribution and the involvement of other partners, clients, colleagues, employees, referral sources, and practice leaders. The candidate decides whether to pursue a Partner opportunity. KOV can support agreed research and preparation concerning Wholesale and Distribution. Review each Partner example for revealing client information or overstating individual ownership of team results, then describe the candidate's decisions without overstating their control over other partners, clients, colleagues, employees, referral sources, and practice leaders.
+The Wholesale and Distribution context involves movement and availability of goods through purchasing, inventory, channel, and delivery relationships; examine how that structure affects availability, working capital, fulfillment coordination, customer terms, and supplier variability before drawing conclusions about the Partner role. The candidate decides whether to pursue a Partner opportunity. KOV can support agreed research and preparation concerning Wholesale and Distribution. Review each Partner example for revealing client information or overstating individual ownership of team results, then describe the candidate's decisions without overstating their control over other partners, clients, colleagues, employees, referral sources, and practice leaders.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ Consider document and positioning support for Partner materials that present cli
 
 ## Prepare to discuss the Wholesale and Distribution mandate
 
-Before discussing channel or category scope, inventory and service context, commercial coordination, and customer outcomes, check whether revealing client information or overstating individual ownership of team results could expose sensitive details or blur the candidate's decision boundary. In Wholesale and Distribution, suppliers, retailers, business customers, logistics teams, sales, and inventory operators may shape the work. A Partner example should separate direct responsibility from collaboration. Use movement and availability of goods through purchasing, inventory, channel, and delivery relationships to frame research about Wholesale and Distribution, then ask how a Partner will work through availability, working capital, fulfillment coordination, customer terms, and supplier variability. Readers need to see what Partner work involved; connect develop a practice or business while contributing to a shared ownership or partnership structure with the candidate's own examples of client or commercial contribution, practice leadership, collaboration, and shared responsibilities in Wholesale and Distribution.
+Before discussing channel or category scope, inventory and service context, commercial coordination, and customer outcomes, check whether revealing client information or overstating individual ownership of team results could expose sensitive details or blur the candidate's decision boundary. A Partner example should separate direct responsibility from collaboration. Use movement and availability of goods through purchasing, inventory, channel, and delivery relationships to frame research about Wholesale and Distribution, then ask how a Partner will work through availability, working capital, fulfillment coordination, customer terms, and supplier variability. Readers need to see what Partner work involved; connect develop a practice or business while contributing to a shared ownership or partnership structure with the candidate's own examples of client or commercial contribution, practice leadership, collaboration, and shared responsibilities in Wholesale and Distribution.
 
 ## Common positioning mistakes for Partner candidates in Wholesale and Distribution
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Partner career hub](/roles/partner/)
 
-Review the role-wide approach to develop a practice or business while contributing to a shared ownership or partnership structure and the evidence expected for that scope.
+
 
 ### [Wholesale and Distribution industry hub](/industries/wholesale-distribution/)
 
-Compare how movement and availability of goods through purchasing, inventory, channel, and delivery relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Wholesale and Distribution](/roles/ceo/wholesale-distribution.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Partner remit; consider where each function meets movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Operating Officer in Wholesale and Distribution](/roles/coo/wholesale-distribution.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Partner remit; consider where each function meets movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Partner in Agriculture, Food and Forestry](/roles/partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with movement and availability of goods through purchasing, inventory, channel, and delivery relationships and identify how the Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Partner test the scope of work in Wholesale and Distribution?
 
-Start with the organization's account of movement and availability of goods through purchasing, inventory, channel, and delivery relationships, then clarify how the Partner would develop a practice or business while contributing to a shared ownership or partnership structure. Ask how suppliers, retailers, business customers, logistics teams, sales, and inventory operators participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of movement and availability of goods through purchasing, inventory, channel, and delivery relationships, then clarify how the Partner would develop a practice or business while contributing to a shared ownership or partnership structure. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Partner use to explain experience in Wholesale and Distribution?
 
@@ -139,11 +139,11 @@ Select examples that show client or commercial contribution, practice leadership
 
 ### What documents should a Partner tailor for Wholesale and Distribution opportunities?
 
-Possible materials include partner biography, practice profile, selected work summary, and professional profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to channel or category scope, inventory and service context, commercial coordination, and customer outcomes. Each claim should be accurate for this Wholesale and Distribution target, and confidential or unauthorized material should be omitted.
+Possible materials include partner biography, practice profile, selected work summary, and professional profile. Each claim should be accurate for this Wholesale and Distribution target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Partner considering Wholesale and Distribution?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Partner candidate's service scope; the candidate approves external communication. No one route should be assumed for all Wholesale and Distribution employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Wholesale and Distribution employers.
 
 ### Can a Partner rely on title alone when targeting Wholesale and Distribution?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate client or 
 
 ### What outcome can KOV guarantee for a Partner seeking work in Wholesale and Distribution?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Partner candidate considering Wholesale and Distribution, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

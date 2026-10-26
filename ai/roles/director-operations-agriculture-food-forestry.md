@@ -8,7 +8,7 @@ Where describing process work without the operating context or the candidate's a
 
 ## Who this Director of Operations and Agriculture, Food and Forestry guide is for
 
-Review each Director of Operations example for describing process work without the operating context or the candidate's authority, then describe the candidate's decisions without overstating their control over executives, managers, frontline teams, suppliers, and customers. The candidate decides whether to pursue a Director of Operations opportunity. KOV can support agreed research and preparation concerning Agriculture, Food and Forestry. To understand the Agriculture, Food and Forestry target, explore production linked to land, biological cycles, processing, and supply relationships and ask how a Director of Operations is expected to respond to seasonality, input availability, quality variation, and coordination across production stages. Position a Director of Operations career by linking manage operational delivery and improve coordination within a defined remit to resource planning, safety-minded operations, supplier relationships, yield or quality context, and continuity decisions, then clarify which part of that work the candidate actually owned.
+Review each Director of Operations example for describing process work without the operating context or the candidate's authority, then describe the candidate's decisions without overstating their control over executives, managers, frontline teams, suppliers, and customers. KOV can support agreed research and preparation concerning Agriculture, Food and Forestry. To understand the Agriculture, Food and Forestry target, explore production linked to land, biological cycles, processing, and supply relationships and ask how a Director of Operations is expected to respond to seasonality, input availability, quality variation, and coordination across production stages. Position a Director of Operations career by linking manage operational delivery and improve coordination within a defined remit to resource planning, safety-minded operations, supplier relationships, yield or quality context, and continuity decisions, then clarify which part of that work the candidate actually owned.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -49,7 +49,7 @@ Review each Director of Operations example for describing process work without t
 
 ## Common positioning mistakes for Director of Operations candidates in Agriculture, Food and Forestry
 
-For Director of Operations materials, manage the risk of describing process work without the operating context or the candidate's authority; support claims with team or site scope, process ownership, service standards, and improvement contribution and remove details that are not authorized for sharing. In Agriculture, Food and Forestry, producers, workforce, buyers, processors, logistics partners, and communities may shape the work. A Director of Operations example should separate direct responsibility from collaboration. Not every Agriculture, Food and Forestry organization will handle seasonality, input availability, quality variation, and coordination across production stages alike. Confirm how production linked to land, biological cycles, processing, and supply relationships informs this Director of Operations position. For Director of Operations work in Agriculture, Food and Forestry, explain how the candidate could manage operational delivery and improve coordination within a defined remit; connect that mandate to evidence of team or site scope, process ownership, service standards, and improvement contribution.
+For Director of Operations materials, manage the risk of describing process work without the operating context or the candidate's authority; support claims with team or site scope, process ownership, service standards, and improvement contribution and remove details that are not authorized for sharing. Not every Agriculture, Food and Forestry organization will handle seasonality, input availability, quality variation, and coordination across production stages alike. Confirm how production linked to land, biological cycles, processing, and supply relationships informs this Director of Operations position. For Director of Operations work in Agriculture, Food and Forestry, explain how the candidate could manage operational delivery and improve coordination within a defined remit; connect that mandate to evidence of team or site scope, process ownership, service standards, and improvement contribution.
 
 - Treat Agriculture, Food and Forestry as one uniform employer type; distinguish the actual organization and role.
 - Use a Director of Operations title without explaining manage operational delivery and improve coordination within a defined remit.
@@ -63,7 +63,7 @@ The Director of Operations remit to manage operational delivery and improve coor
 
 ## Prepare for conversations about Agriculture, Food and Forestry work
 
-The candidate decides whether to pursue a Director of Operations opportunity. KOV can support agreed research and preparation concerning Agriculture, Food and Forestry. Map the Agriculture, Food and Forestry relationships among producers, workforce, buyers, processors, logistics partners, and communities; verify actual authority instead of inferring a reporting line. A candidate exploring Agriculture, Food and Forestry should test the assumed link between production linked to land, biological cycles, processing, and supply relationships and seasonality, input availability, quality variation, and coordination across production stages against the actual Director of Operations role description. The Director of Operations remit to manage operational delivery and improve coordination within a defined remit should be described through decisions and examples, especially evidence of team or site scope, process ownership, service standards, and improvement contribution relevant to Agriculture, Food and Forestry.
+The candidate decides whether to pursue a Director of Operations opportunity. Map the Agriculture, Food and Forestry relationships among producers, workforce, buyers, processors, logistics partners, and communities; verify actual authority instead of inferring a reporting line. A candidate exploring Agriculture, Food and Forestry should test the assumed link between production linked to land, biological cycles, processing, and supply relationships and seasonality, input availability, quality variation, and coordination across production stages against the actual Director of Operations role description. The Director of Operations remit to manage operational delivery and improve coordination within a defined remit should be described through decisions and examples, especially evidence of team or site scope, process ownership, service standards, and improvement contribution relevant to Agriculture, Food and Forestry.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Director of Operations career hub](/roles/director-operations/)
 
-Review the role-wide approach to manage operational delivery and improve coordination within a defined remit and the evidence expected for that scope.
+
 
 ### [Agriculture, Food and Forestry industry hub](/industries/agriculture-food-forestry/)
 
-Compare how production linked to land, biological cycles, processing, and supply relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Agriculture, Food and Forestry](/roles/ceo/agriculture-food-forestry.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Director of Operations remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Director of Operations remit; consider where each function meets production linked to land, biological cycles, processing, and supply relationships.
+
 
 ### [Director of Operations in Utilities](/roles/director-operations/utilities.html)
 
-Compare essential network or service operations with continuity, infrastructure, and customer responsibilities with production linked to land, biological cycles, processing, and supply relationships and identify how the Director of Operations remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Director of Operations test the scope of work in Agriculture, Food and Forestry?
 
-Start with the organization's account of production linked to land, biological cycles, processing, and supply relationships, then clarify how the Director of Operations would manage operational delivery and improve coordination within a defined remit. Ask how producers, workforce, buyers, processors, logistics partners, and communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of production linked to land, biological cycles, processing, and supply relationships, then clarify how the Director of Operations would manage operational delivery and improve coordination within a defined remit. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Director of Operations use to explain experience in Agriculture, Food and Forestry?
 
@@ -139,11 +139,11 @@ Select examples that show team or site scope, process ownership, service standar
 
 ### What documents should a Director of Operations tailor for Agriculture, Food and Forestry opportunities?
 
-Possible materials include resume, operations achievement summary, professional profile, and interview examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to resource planning, safety-minded operations, supplier relationships, yield or quality context, and continuity decisions. Each claim should be accurate for this Agriculture, Food and Forestry target, and confidential or unauthorized material should be omitted.
+Possible materials include resume, operations achievement summary, professional profile, and interview examples. Each claim should be accurate for this Agriculture, Food and Forestry target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Director of Operations considering Agriculture, Food and Forestry?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Director of Operations candidate's service scope; the candidate approves external communication. No one route should be assumed for all Agriculture, Food and Forestry employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Agriculture, Food and Forestry employers.
 
 ### Can a Director of Operations rely on title alone when targeting Agriculture, Food and Forestry?
 

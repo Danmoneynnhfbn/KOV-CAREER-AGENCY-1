@@ -33,7 +33,7 @@ A Vice President of Marketing candidate should show how market insight, team lea
 
 ## Choose the individual services that fit the work
 
-For Vice President of Marketing work in Healthcare and Social Care, explain how the candidate could lead marketing teams and align brand, customer, and commercial priorities; connect that mandate to evidence of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence. For Healthcare and Social Care, establish whether care, health-related services, or social support delivered by teams and organizations describes the target employer and how service quality, workforce coordination, access, continuity, and sensitive information is reflected in its Vice President of Marketing mandate. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Vice President of Marketing example should separate direct responsibility from collaboration. Do not resolve uncertainty about claiming campaign results without describing audience, contribution, and measurement context through assumption; verify the requirement and use only supportable Vice President of Marketing claims.
+For Vice President of Marketing work in Healthcare and Social Care, explain how the candidate could lead marketing teams and align brand, customer, and commercial priorities; connect that mandate to evidence of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Vice President of Marketing example should separate direct responsibility from collaboration. Do not resolve uncertainty about claiming campaign results without describing audience, contribution, and measurement context through assumption; verify the requirement and use only supportable Vice President of Marketing claims.
 
 ### [Private career representation](/services.html)
 
@@ -59,7 +59,7 @@ A Vice President of Marketing candidate should be ready to explain claiming camp
 
 ## Keep research, confidentiality, and outreach aligned
 
-Readers need to see what Vice President of Marketing work involved; connect lead marketing teams and align brand, customer, and commercial priorities with the candidate's own examples of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence in Healthcare and Social Care. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Vice President of Marketing example should separate direct responsibility from collaboration. For a Vice President of Marketing target, KOV can discuss how executive resume, marketing portfolio, leadership summary, and profile support the candidate's account of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence; external steps require prior agreement. Good preparation for Vice President of Marketing work includes a safe way to explain claiming campaign results without describing audience, contribution, and measurement context and a clear distinction between fact and inference.
+Readers need to see what Vice President of Marketing work involved; connect lead marketing teams and align brand, customer, and commercial priorities with the candidate's own examples of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence in Healthcare and Social Care. A Vice President of Marketing example should separate direct responsibility from collaboration. For a Vice President of Marketing target, KOV can discuss how executive resume, marketing portfolio, leadership summary, and profile support the candidate's account of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence; external steps require prior agreement. Good preparation for Vice President of Marketing work includes a safe way to explain claiming campaign results without describing audience, contribution, and measurement context and a clear distinction between fact and inference.
 
 ## Prepare for conversations about Healthcare and Social Care work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Marketing career hub](/roles/vp-marketing/)
 
-Review the role-wide approach to lead marketing teams and align brand, customer, and commercial priorities and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Marketing remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Marketing remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Vice President of Marketing in Retail and E-commerce](/roles/vp-marketing/retail-ecommerce.html)
 
-Compare customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment with care, health-related services, or social support delivered by teams and organizations and identify how the Vice President of Marketing remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Vice President of Marketing in Healthcare and Social Care?
 
-Use the opening discussion to understand the specific Healthcare and Social Care employer, not to assume a standard role. Compare lead marketing teams and align brand, customer, and commercial priorities with the stated scope, identify decision partners among people receiving services, families, care professionals, administrators, owners, and community partners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Healthcare and Social Care employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a Vice President of Marketing make prior work relevant to Healthcare and Social Care?
 
@@ -139,19 +139,19 @@ Describe an instance where the candidate could lead marketing teams and align br
 
 ### Which career materials can help a Vice President of Marketing explore work in Healthcare and Social Care?
 
-Document selection depends on the opportunity. A Vice President of Marketing may draw from executive resume, marketing portfolio, leadership summary, and profile, but should foreground only material connected to service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a Vice President of Marketing contacts an organization in Healthcare and Social Care?
 
-Outreach should follow target research, not precede it. The Vice President of Marketing candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with market insight, team leadership, portfolio decisions, channel mix, and attributable evidence is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Vice President of Marketing background relevant to work in Healthcare and Social Care?
 
-No. Compare the role description with the candidate's experience of lead marketing teams and align brand, customer, and commercial priorities and the organization's care, health-related services, or social support delivered by teams and organizations. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Vice President of Marketing outreach in Healthcare and Social Care?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Vice President of Marketing candidate considering Healthcare and Social Care, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

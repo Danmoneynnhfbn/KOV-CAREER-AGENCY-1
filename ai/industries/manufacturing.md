@@ -85,27 +85,27 @@ Use KOV's London page as a starting point for an agreed UK-focused search discus
 
 ### Saudi Arabia
 
-For Manufacturing targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Manufacturing targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Manufacturing targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### UAE
 
-For Manufacturing targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Manufacturing targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Manufacturing targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### United Kingdom
 
-For Manufacturing targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Manufacturing targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Manufacturing targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Dubai
 
-For Manufacturing targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Manufacturing targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Manufacturing targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Australia
 
-For Manufacturing targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Manufacturing targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Manufacturing targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Africa
 
-For Manufacturing targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Manufacturing targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Manufacturing targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ## Choose an appropriate level of career support
 
@@ -129,139 +129,139 @@ Use the cards to open only the role-and-industry pages currently available. Each
 
 ### [Chief Executive Officer in Manufacturing](/roles/ceo/manufacturing.html)
 
-Explore how set organization-wide direction and coordinate executive work connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Operating Officer in Manufacturing](/roles/coo/manufacturing.html)
 
-Explore how align operating functions, delivery systems, and organizational priorities connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Financial Officer in Manufacturing](/roles/cfo/manufacturing.html)
 
-Explore how lead financial stewardship and connect resource decisions to organizational priorities connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Technology Officer in Manufacturing](/roles/cto/manufacturing.html)
 
-Explore how set technology direction and connect technical choices with product and business needs connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Information Officer in Manufacturing](/roles/cio/manufacturing.html)
 
-Explore how guide information systems, digital operations, and technology services for the organization connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Marketing Officer in Manufacturing](/roles/cmo/manufacturing.html)
 
-Explore how shape marketing strategy, customer understanding, brand, and commercial communication connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Human Resources Officer in Manufacturing](/roles/chro/manufacturing.html)
 
-Explore how guide people strategy, organizational capability, and workforce-related leadership connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Information Security Officer in Manufacturing](/roles/ciso/manufacturing.html)
 
-Explore how lead information-security priorities and coordinate risk-informed protection connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [General Counsel / Chief Legal Officer in Manufacturing](/roles/general-counsel/manufacturing.html)
 
-Explore how lead legal judgment and connect legal advice with organizational decisions connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Revenue Officer in Manufacturing](/roles/chief-revenue-officer/manufacturing.html)
 
-Explore how coordinate revenue-facing functions around a coherent commercial direction connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Product Officer in Manufacturing](/roles/chief-product-officer/manufacturing.html)
 
-Explore how guide product direction, portfolio choices, and the connection between users and delivery teams connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chief Strategy Officer in Manufacturing](/roles/chief-strategy-officer/manufacturing.html)
 
-Explore how support organization-wide choices by framing options, analysis, and strategic execution connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Board Director in Manufacturing](/roles/board-director/manufacturing.html)
 
-Explore how contribute oversight, inquiry, and strategic perspective within collective governance connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Non-Executive Director in Manufacturing](/roles/non-executive-director/manufacturing.html)
 
-Explore how provide independent challenge and strategic contribution distinct from management connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Chair in Manufacturing](/roles/chair/manufacturing.html)
 
-Explore how lead board effectiveness and support clear governance and decision-making connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Managing Director in Manufacturing](/roles/managing-director/manufacturing.html)
 
-Explore how lead a business, division, or organization according to its defined mandate connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Managing Partner in Manufacturing](/roles/managing-partner/manufacturing.html)
 
-Explore how combine leadership responsibilities with the governance and professional context of a partnership connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Partner in Manufacturing](/roles/partner/manufacturing.html)
 
-Explore how develop a practice or business while contributing to a shared ownership or partnership structure connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Vice President of Sales in Manufacturing](/roles/vp-sales/manufacturing.html)
 
-Explore how lead a sales organization and connect market priorities with execution connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Vice President of Engineering in Manufacturing](/roles/vp-engineering/manufacturing.html)
 
-Explore how lead engineering organization, technical delivery, and capability development connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Vice President of Operations in Manufacturing](/roles/vp-operations/manufacturing.html)
 
-Explore how coordinate operational performance across teams, locations, or service lines connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Vice President of Finance in Manufacturing](/roles/vp-finance/manufacturing.html)
 
-Explore how lead finance teams and translate financial information into decisions for a business area connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Vice President of People in Manufacturing](/roles/vp-people/manufacturing.html)
 
-Explore how lead people programs and partner with managers on organizational capability connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Vice President of Product in Manufacturing](/roles/vp-product/manufacturing.html)
 
-Explore how set product priorities and coordinate discovery, planning, and delivery connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Vice President of Strategy in Manufacturing](/roles/vp-strategy/manufacturing.html)
 
-Explore how frame strategic choices and connect planning with operating decisions connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Director of Operations in Manufacturing](/roles/director-operations/manufacturing.html)
 
-Explore how manage operational delivery and improve coordination within a defined remit connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Director of Finance in Manufacturing](/roles/director-finance/manufacturing.html)
 
-Explore how lead financial planning, reporting, or control activity for a function or organization connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Director of Engineering in Manufacturing](/roles/director-engineering/manufacturing.html)
 
-Explore how direct engineering teams and coordinate technical execution in a defined area connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Director of Sales in Manufacturing](/roles/director-sales/manufacturing.html)
 
-Explore how manage sales teams, accounts, or territories against an agreed commercial plan connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Director of People in Manufacturing](/roles/director-people/manufacturing.html)
 
-Explore how lead a people function or program and support managers through organizational change connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Director of Product in Manufacturing](/roles/director-product/manufacturing.html)
 
-Explore how lead a product area and align customer needs with team delivery connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Head of Strategy in Manufacturing](/roles/head-strategy/manufacturing.html)
 
-Explore how coordinate planning and strategic analysis for an organization or business unit connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Head of Data and AI in Manufacturing](/roles/head-data-ai/manufacturing.html)
 
-Explore how lead data capabilities and coordinate responsible application of analytical or AI work connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ### [Head of Compliance in Manufacturing](/roles/head-compliance/manufacturing.html)
 
-Explore how coordinate compliance programs and support consistent interpretation of organizational obligations connects with conversion of materials into products through coordinated processes, equipment, people, and quality systems.
+
 
 ## Questions that make a Manufacturing target more specific
 
@@ -295,7 +295,7 @@ KOV can help candidates organize relevant experience and documents around an agr
 
 ### Can KOV promise an interview with a Manufacturing organization?
 
-No. KOV does not guarantee interviews, offers, employment, introductions, or timelines. Employers make hiring decisions.
+No. Employers make hiring decisions.
 
 ### How should I compare two Manufacturing opportunities?
 

@@ -16,7 +16,7 @@ A Chief Marketing Officer candidate should be ready to explain claiming revenue 
 
 ## Documents that make Chief Marketing Officer experience relevant here
 
-A Chief Marketing Officer candidate should show how market context, customer insight, portfolio decisions, team leadership, and attributable contribution supported the work to shape marketing strategy, customer understanding, brand, and commercial communication, with the Construction and Engineering setting made explicit. Not every Construction and Engineering organization will handle scope control, sequencing, interfaces, safety-minded work, and coordination across project phases alike. Confirm how project-based delivery involving design, procurement, technical coordination, and site execution informs this Chief Marketing Officer position. Candidate-side support from KOV may connect Chief Marketing Officer positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Do not resolve uncertainty about claiming revenue or brand movement without describing attribution and surrounding factors through assumption; verify the requirement and use only supportable Chief Marketing Officer claims.
+A Chief Marketing Officer candidate should show how market context, customer insight, portfolio decisions, team leadership, and attributable contribution supported the work to shape marketing strategy, customer understanding, brand, and commercial communication, with the Construction and Engineering setting made explicit. Confirm how project-based delivery involving design, procurement, technical coordination, and site execution informs this Chief Marketing Officer position. Candidate-side support from KOV may connect Chief Marketing Officer positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Do not resolve uncertainty about claiming revenue or brand movement without describing attribution and surrounding factors through assumption; verify the requirement and use only supportable Chief Marketing Officer claims.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ Consider document and positioning support for Chief Marketing Officer materials 
 
 ## Prepare to discuss the Construction and Engineering mandate
 
-Protect credibility in Construction and Engineering by addressing claiming revenue or brand movement without describing attribution and surrounding factors with a factual account of market context, customer insight, portfolio decisions, team leadership, and attributable contribution and its limits. In Construction and Engineering, clients, project teams, designers, contractors, suppliers, workers, and asset users may shape the work. A Chief Marketing Officer example should separate direct responsibility from collaboration. An employer's Construction and Engineering model may involve project-based delivery involving design, procurement, technical coordination, and site execution; its implications for scope control, sequencing, interfaces, safety-minded work, and coordination across project phases should be discussed, not presumed. Readers need to see what Chief Marketing Officer work involved; connect shape marketing strategy, customer understanding, brand, and commercial communication with the candidate's own examples of market context, customer insight, portfolio decisions, team leadership, and attributable contribution in Construction and Engineering.
+Protect credibility in Construction and Engineering by addressing claiming revenue or brand movement without describing attribution and surrounding factors with a factual account of market context, customer insight, portfolio decisions, team leadership, and attributable contribution and its limits. A Chief Marketing Officer example should separate direct responsibility from collaboration. An employer's Construction and Engineering model may involve project-based delivery involving design, procurement, technical coordination, and site execution; its implications for scope control, sequencing, interfaces, safety-minded work, and coordination across project phases should be discussed, not presumed. Readers need to see what Chief Marketing Officer work involved; connect shape marketing strategy, customer understanding, brand, and commercial communication with the candidate's own examples of market context, customer insight, portfolio decisions, team leadership, and attributable contribution in Construction and Engineering.
 
 ## Common positioning mistakes for Chief Marketing Officer candidates in Construction and Engineering
 
@@ -63,7 +63,7 @@ For Chief Marketing Officer work in Construction and Engineering, explain how th
 
 ## Prepare for conversations about Construction and Engineering work
 
-Career representation remains candidate-led: KOV can support a Chief Marketing Officer search, while the candidate approves the goals and disclosures. In Construction and Engineering, clients, project teams, designers, contractors, suppliers, workers, and asset users may shape the work. A Chief Marketing Officer example should separate direct responsibility from collaboration. Research for a Chief Marketing Officer in Construction and Engineering becomes more focused when the candidate investigates scope control, sequencing, interfaces, safety-minded work, and coordination across project phases alongside project-based delivery involving design, procurement, technical coordination, and site execution. The Chief Marketing Officer remit to shape marketing strategy, customer understanding, brand, and commercial communication should be described through decisions and examples, especially evidence of market context, customer insight, portfolio decisions, team leadership, and attributable contribution relevant to Construction and Engineering.
+Career representation remains candidate-led: KOV can support a Chief Marketing Officer search, while the candidate approves the goals and disclosures. A Chief Marketing Officer example should separate direct responsibility from collaboration. Research for a Chief Marketing Officer in Construction and Engineering becomes more focused when the candidate investigates scope control, sequencing, interfaces, safety-minded work, and coordination across project phases alongside project-based delivery involving design, procurement, technical coordination, and site execution. The Chief Marketing Officer remit to shape marketing strategy, customer understanding, brand, and commercial communication should be described through decisions and examples, especially evidence of market context, customer insight, portfolio decisions, team leadership, and attributable contribution relevant to Construction and Engineering.
 
 ## Run the search thoughtfully in each target market
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Marketing Officer career hub](/roles/cmo/)
 
-Review the role-wide approach to shape marketing strategy, customer understanding, brand, and commercial communication and the evidence expected for that scope.
+
 
 ### [Construction and Engineering industry hub](/industries/construction-engineering/)
 
-Compare how project-based delivery involving design, procurement, technical coordination, and site execution affects career planning across functions.
+
 
 ### [Chief Executive Officer in Construction and Engineering](/roles/ceo/construction-engineering.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Marketing Officer remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Operating Officer in Construction and Engineering](/roles/coo/construction-engineering.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Marketing Officer remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Marketing Officer in Agriculture, Food and Forestry](/roles/cmo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with project-based delivery involving design, procurement, technical coordination, and site execution and identify how the Chief Marketing Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Marketing Officer in Construction and Engineering?
 
-A Chief Marketing Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's project-based delivery involving design, procurement, technical coordination, and site execution. Explore how the role will shape marketing strategy, customer understanding, brand, and commercial communication and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Marketing Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's project-based delivery involving design, procurement, technical coordination, and site execution. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a Chief Marketing Officer make prior work relevant to Construction and Engineering?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What must be agreed before a Chief Marketing Officer contacts an organization in Construction and Engineering?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chief Marketing Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Construction and Engineering employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Construction and Engineering employers.
 
 ### What makes a Chief Marketing Officer background relevant to work in Construction and Engineering?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate market con
 
 ### Does KOV control employer responses to Chief Marketing Officer outreach in Construction and Engineering?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Marketing Officer candidate considering Construction and Engineering, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

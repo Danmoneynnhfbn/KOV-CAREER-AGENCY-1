@@ -134,11 +134,62 @@
       "worksFor": {
         "@id": "https://www.kovcareeragency.org/#organization"
       }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#cities",
+      "name": "GeoNames administrative city and capital candidates",
+      "url": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#cities",
+      "isPartOf": {
+        "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#catalog"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#towns",
+      "name": "GeoNames populated-place records (town candidates)",
+      "url": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#towns",
+      "isPartOf": {
+        "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#catalog"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#professional-roles",
+      "name": "O*NET 31.0 job titles",
+      "url": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#professional-roles",
+      "isPartOf": {
+        "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#catalog"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#institutions",
+      "name": "Wikidata institutions and organizations",
+      "url": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#institutions",
+      "isPartOf": {
+        "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#catalog"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#job-functions",
+      "name": "O*NET 31.0 detailed work activities",
+      "url": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#job-functions",
+      "isPartOf": {
+        "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#catalog"
+      }
     }
   ]
 }</script>
+<link rel="stylesheet" href="/css/design-system.css">
+<link rel="stylesheet" href="/css/theme-neutomni.css">
+  <link rel="stylesheet" href="/assets/research-pages.css">
+<meta name="robots" content="index,follow">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="KOV Career Agency">
 </head>
-<body id="top" tabindex="-1" class="ceo-page ceo-page--overview">
+<body class="ceo-page kov-design--overview" data-design-group="overview" data-theme="neutomni">
   <div class="ceo-progress" data-reading-progress aria-hidden="true"></div>
   <header class="ceo-site-header">
     <div class="ceo-shell ceo-header-inner">
@@ -146,7 +197,7 @@
         <img src="/kov-logo.png" alt="KOV" width="32" height="32">
         <span>KOV <span>Career Agency</span></span>
       </a>
-      <nav class="ceo-desktop-nav" aria-label="Main navigation"><a href="/">Home</a><a href="/services.html">Career services</a><a href="/roles/">Roles</a><a href="/industries/">Industries</a><a href="/roles/ceo/">CEO hub</a><a href="/contact.html">Contact</a></nav>
+      <nav class="ceo-desktop-nav" aria-label="Main navigation"><a href="/">Home</a><a href="/candidate-services.html">Individual Career Services</a><a href="/roles/">Roles</a><a href="/industries/">Industries</a><a href="/services.html">Private Career Representation</a><a href="/how-it-works.html">How It Works</a><a href="/pricing.html">Pricing</a><a href="/faqs.html">FAQs</a><a href="/blog.html">Blog</a><a href="/about.html">About</a><a href="/contact.html">Get Started</a></nav>
       <button type="button" class="ceo-mobile-toggle" data-ceo-menu-open
         aria-expanded="false" aria-controls="ceo-mobile-menu">Menu</button>
     </div>
@@ -154,7 +205,7 @@
       aria-hidden="true" hidden>
       <div class="ceo-shell">
         <button type="button" data-ceo-menu-close>Close menu</button>
-        <a href="/">Home</a><a href="/services.html">Career services</a><a href="/roles/">Roles</a><a href="/industries/">Industries</a><a href="/roles/ceo/">CEO hub</a><a href="/contact.html">Contact</a>
+        <a href="/">Home</a><a href="/candidate-services.html">Individual Career Services</a><a href="/roles/">Roles</a><a href="/industries/">Industries</a><a href="/services.html">Private Career Representation</a><a href="/how-it-works.html">How It Works</a><a href="/pricing.html">Pricing</a><a href="/faqs.html">FAQs</a><a href="/blog.html">Blog</a><a href="/about.html">About</a><a href="/contact.html">Get Started</a>
       </div>
     </nav>
   </header>
@@ -172,6 +223,7 @@
           </div>
         </div>
         <aside class="ceo-hero-panel">
+          <img class="ceo-hero-image" src="/assets/people/executive-woman.jpg" alt="" loading="eager" decoding="async">
           <p class="ceo-label">A considered approach</p>
           <p>Define the role you want, clarify your evidence, and agree the work before any outreach begins.</p>
           <a href="/how-it-works.html">See how KOV works</a>
@@ -350,7 +402,8 @@
           <p>Discuss fit, priorities, and the support you are considering. Scope and terms are agreed before work begins.</p>
           <a class="ceo-button ceo-button-primary" href="/contact.html">Arrange a consultation</a>
         </aside>
-    <section class="ceo-content-section" id="industry-context">
+    
+<section class="ceo-content-section" id="industry-context">
 <h2>Use context without overgeneralizing</h2>
 <p>An industry label alone cannot establish what a particular organization needs, how a hiring decision will be made, or what qualifications apply. Treat context as a prompt for better questions. Review the actual role description, understand the responsibilities, and confirm any requirements with the employer or relevant authority.</p>
 <p>When preparing your career narrative, explain the specific environment, stakeholders, work, and outcomes you can substantiate. If the experience is adjacent rather than direct, describe the transferable elements and the learning curve without presenting them as identical.</p>
@@ -474,9 +527,10 @@
       <p><a href="/privacy.html">Privacy Notice</a> · © 2026 KOV Career Agency</p>
     </div>
   </footer>
-  <a class="ceo-button ceo-button-secondary ceo-back-to-top" href="#top" data-back-to-top>Back to top</a>
   <a class="ceo-button ceo-button-primary ceo-sticky-cta" href="/contact.html">Confidential consultation</a>
   <script src="/assets/design-components.js" defer></script>
   <script src="/assets/ceo-hubs.js" defer></script>
+<script src="/js/site.js" defer></script>
+<script src="../assets/uniform-footer.js?v=9"></script>
 </body>
 </html>

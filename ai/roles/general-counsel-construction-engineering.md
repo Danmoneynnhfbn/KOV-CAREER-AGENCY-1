@@ -49,7 +49,7 @@ The General Counsel / Chief Legal Officer remit to lead legal judgment and conne
 
 ## Common positioning mistakes for General Counsel / Chief Legal Officer candidates in Construction and Engineering
 
-Before discussing project complexity, commercial or technical decisions, interface management, delivery contribution, and lessons learned, check whether confusing legal advice with business decision ownership or disclosing privileged information could expose sensitive details or blur the candidate's decision boundary. Consider how clients, project teams, designers, contractors, suppliers, workers, and asset users interact with a General Counsel / Chief Legal Officer; use examples of project complexity, commercial or technical decisions, interface management, delivery contribution, and lessons learned to show judgment and collaboration. Not every Construction and Engineering organization will handle scope control, sequencing, interfaces, safety-minded work, and coordination across project phases alike. Confirm how project-based delivery involving design, procurement, technical coordination, and site execution informs this General Counsel / Chief Legal Officer position. In a Construction and Engineering target, make the General Counsel / Chief Legal Officer contribution legible: describe how the candidate helped lead legal judgment and connect legal advice with organizational decisions and what supports legal remit, advisory judgment, team scope, governance interaction, and business context.
+Before discussing project complexity, commercial or technical decisions, interface management, delivery contribution, and lessons learned, check whether confusing legal advice with business decision ownership or disclosing privileged information could expose sensitive details or blur the candidate's decision boundary. Not every Construction and Engineering organization will handle scope control, sequencing, interfaces, safety-minded work, and coordination across project phases alike. Confirm how project-based delivery involving design, procurement, technical coordination, and site execution informs this General Counsel / Chief Legal Officer position. In a Construction and Engineering target, make the General Counsel / Chief Legal Officer contribution legible: describe how the candidate helped lead legal judgment and connect legal advice with organizational decisions and what supports legal remit, advisory judgment, team scope, governance interaction, and business context.
 
 - Treat Construction and Engineering as one uniform employer type; distinguish the actual organization and role.
 - Use a General Counsel / Chief Legal Officer title without explaining lead legal judgment and connect legal advice with organizational decisions.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [General Counsel / Chief Legal Officer career hub](/roles/general-counsel/)
 
-Review the role-wide approach to lead legal judgment and connect legal advice with organizational decisions and the evidence expected for that scope.
+
 
 ### [Construction and Engineering industry hub](/industries/construction-engineering/)
 
-Compare how project-based delivery involving design, procurement, technical coordination, and site execution affects career planning across functions.
+
 
 ### [Chief Executive Officer in Construction and Engineering](/roles/ceo/construction-engineering.html)
 
-Contrast set organization-wide direction and coordinate executive work with the General Counsel / Chief Legal Officer remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [Chief Operating Officer in Construction and Engineering](/roles/coo/construction-engineering.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the General Counsel / Chief Legal Officer remit; consider where each function meets project-based delivery involving design, procurement, technical coordination, and site execution.
+
 
 ### [General Counsel / Chief Legal Officer in Agriculture, Food and Forestry](/roles/general-counsel/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with project-based delivery involving design, procurement, technical coordination, and site execution and identify how the General Counsel / Chief Legal Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a General Counsel / Chief Legal Officer resolve before a target discussion in Construction and Engineering?
 
-Use the opening discussion to understand the specific Construction and Engineering employer, not to assume a standard role. Compare lead legal judgment and connect legal advice with organizational decisions with the stated scope, identify decision partners among clients, project teams, designers, contractors, suppliers, workers, and asset users, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Construction and Engineering employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a General Counsel / Chief Legal Officer career story fit the needs of Construction and Engineering?
 
@@ -143,15 +143,15 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a General Counsel / Chief Legal Officer approve before outreach in Construction and Engineering?
 
-Outreach should follow target research, not precede it. The General Counsel / Chief Legal Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with legal remit, advisory judgment, team scope, governance interaction, and business context is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a General Counsel / Chief Legal Officer compare title and remit in Construction and Engineering?
 
-No. Compare the role description with the candidate's experience of lead legal judgment and connect legal advice with organizational decisions and the organization's project-based delivery involving design, procurement, technical coordination, and site execution. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Will KOV secure a meeting for a General Counsel / Chief Legal Officer with an employer in Construction and Engineering?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a General Counsel / Chief Legal Officer candidate considering Construction and Engineering, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

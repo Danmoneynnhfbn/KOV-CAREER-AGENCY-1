@@ -12,7 +12,7 @@ KOV works with the candidate to agree which Vice President of Engineering target
 
 ## A candidate-led process from first discussion to next steps
 
-Review each Vice President of Engineering example for substituting technology keywords for evidence of scale, decisions, and delivery conditions, then describe the candidate's decisions without overstating their control over CTO or product leadership, engineering teams, security, users, and business stakeholders. The candidate decides whether to pursue a Vice President of Engineering opportunity. KOV can support agreed research and preparation concerning Healthcare and Social Care. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Vice President of Engineering example should separate direct responsibility from collaboration. Ask what care, health-related services, or social support delivered by teams and organizations means at this particular Healthcare and Social Care organization and how it changes the priorities assigned to a Vice President of Engineering.
+Review each Vice President of Engineering example for substituting technology keywords for evidence of scale, decisions, and delivery conditions, then describe the candidate's decisions without overstating their control over CTO or product leadership, engineering teams, security, users, and business stakeholders. In Healthcare and Social Care, people receiving services, families, care professionals, administrators, owners, and community partners may shape the work. A Vice President of Engineering example should separate direct responsibility from collaboration. Ask what care, health-related services, or social support delivered by teams and organizations means at this particular Healthcare and Social Care organization and how it changes the priorities assigned to a Vice President of Engineering.
 
 ## Documents that make Vice President of Engineering experience relevant here
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Engineering career hub](/roles/vp-engineering/)
 
-Review the role-wide approach to lead engineering organization, technical delivery, and capability development and the evidence expected for that scope.
+
 
 ### [Healthcare and Social Care industry hub](/industries/healthcare-social-care/)
 
-Compare how care, health-related services, or social support delivered by teams and organizations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Healthcare and Social Care](/roles/ceo/healthcare-social-care.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Engineering remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Chief Operating Officer in Healthcare and Social Care](/roles/coo/healthcare-social-care.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Engineering remit; consider where each function meets care, health-related services, or social support delivered by teams and organizations.
+
 
 ### [Vice President of Engineering in Energy, Mining and Oil and Gas](/roles/vp-engineering/energy-mining-oil-gas.html)
 
-Compare asset-intensive work spanning development, extraction, generation, processing, or energy services with care, health-related services, or social support delivered by teams and organizations and identify how the Vice President of Engineering remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Vice President of Engineering in Healthcare and Social Care?
 
-Use the opening discussion to understand the specific Healthcare and Social Care employer, not to assume a standard role. Compare lead engineering organization, technical delivery, and capability development with the stated scope, identify decision partners among people receiving services, families, care professionals, administrators, owners, and community partners, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Healthcare and Social Care employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a Vice President of Engineering make prior work relevant to Healthcare and Social Care?
 
@@ -139,11 +139,11 @@ Select examples that show engineering scope, architecture choices, delivery syst
 
 ### Which career materials can help a Vice President of Engineering explore work in Healthcare and Social Care?
 
-Document selection depends on the opportunity. A Vice President of Engineering may draw from executive resume, engineering leadership profile, portfolio summary, and profile, but should foreground only material connected to service or organizational scope, team leadership, quality context, collaboration, and privacy-conscious examples. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a Vice President of Engineering contacts an organization in Healthcare and Social Care?
 
-Outreach should follow target research, not precede it. The Vice President of Engineering candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with engineering scope, architecture choices, delivery systems, people leadership, and operational outcomes is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Vice President of Engineering background relevant to work in Healthcare and Social Care?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate engineerin
 
 ### Does KOV control employer responses to Vice President of Engineering outreach in Healthcare and Social Care?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Vice President of Engineering candidate considering Healthcare and Social Care, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

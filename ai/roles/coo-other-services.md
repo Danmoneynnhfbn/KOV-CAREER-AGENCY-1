@@ -33,7 +33,7 @@ To assess a Chief Operating Officer opportunity in Other Services, compare the s
 
 ## Choose the individual services that fit the work
 
-A precise Chief Operating Officer story ties operating scale, service or product delivery, cross-functional change, and decision rights to the mandate of align operating functions, delivery systems, and organizational priorities, without suggesting that the title alone establishes fit. Not every Other Services organization will handle service consistency, relationship quality, capacity, trust, and adaptation to customer needs alike. Confirm how personal, repair, membership, community, or specialized services not covered by the other target sectors informs this Chief Operating Officer position. For a Chief Operating Officer target, KOV can discuss how executive resume, operating-impact summary, leadership biography, and profile support the candidate's account of operating scale, service or product delivery, cross-functional change, and decision rights; external steps require prior agreement. Review each Chief Operating Officer example for describing activity without showing scope, dependencies, or the candidate's contribution, then describe the candidate's decisions without overstating their control over CEO, functional leaders, frontline managers, suppliers, employees, and customers.
+A precise Chief Operating Officer story ties operating scale, service or product delivery, cross-functional change, and decision rights to the mandate of align operating functions, delivery systems, and organizational priorities, without suggesting that the title alone establishes fit. Confirm how personal, repair, membership, community, or specialized services not covered by the other target sectors informs this Chief Operating Officer position. For a Chief Operating Officer target, KOV can discuss how executive resume, operating-impact summary, leadership biography, and profile support the candidate's account of operating scale, service or product delivery, cross-functional change, and decision rights; external steps require prior agreement. Review each Chief Operating Officer example for describing activity without showing scope, dependencies, or the candidate's contribution, then describe the candidate's decisions without overstating their control over CEO, functional leaders, frontline managers, suppliers, employees, and customers.
 
 ### [Private career representation](/services.html)
 
@@ -49,7 +49,7 @@ The service plan should fit the candidate's Chief Operating Officer priorities; 
 
 ## Common positioning mistakes for Chief Operating Officer candidates in Other Services
 
-For Chief Operating Officer materials, manage the risk of describing activity without showing scope, dependencies, or the candidate's contribution; support claims with operating scale, service or product delivery, cross-functional change, and decision rights and remove details that are not authorized for sharing. In Other Services, customers or members, employees, service providers, owners, suppliers, and communities may shape the work. A Chief Operating Officer example should separate direct responsibility from collaboration. Not every Other Services organization will handle service consistency, relationship quality, capacity, trust, and adaptation to customer needs alike. Confirm how personal, repair, membership, community, or specialized services not covered by the other target sectors informs this Chief Operating Officer position. For Chief Operating Officer work in Other Services, explain how the candidate could align operating functions, delivery systems, and organizational priorities; connect that mandate to evidence of operating scale, service or product delivery, cross-functional change, and decision rights.
+For Chief Operating Officer materials, manage the risk of describing activity without showing scope, dependencies, or the candidate's contribution; support claims with operating scale, service or product delivery, cross-functional change, and decision rights and remove details that are not authorized for sharing. Not every Other Services organization will handle service consistency, relationship quality, capacity, trust, and adaptation to customer needs alike. Confirm how personal, repair, membership, community, or specialized services not covered by the other target sectors informs this Chief Operating Officer position. For Chief Operating Officer work in Other Services, explain how the candidate could align operating functions, delivery systems, and organizational priorities; connect that mandate to evidence of operating scale, service or product delivery, cross-functional change, and decision rights.
 
 - Treat Other Services as one uniform employer type; distinguish the actual organization and role.
 - Use a Chief Operating Officer title without explaining align operating functions, delivery systems, and organizational priorities.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Operating Officer career hub](/roles/coo/)
 
-Review the role-wide approach to align operating functions, delivery systems, and organizational priorities and the evidence expected for that scope.
+
 
 ### [Other Services industry hub](/industries/other-services/)
 
-Compare how personal, repair, membership, community, or specialized services not covered by the other target sectors affects career planning across functions.
+
 
 ### [Chief Executive Officer in Other Services](/roles/ceo/other-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Operating Officer remit; consider where each function meets personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chief Financial Officer in Other Services](/roles/cfo/other-services.html)
 
-Contrast lead financial stewardship and connect resource decisions to organizational priorities with the Chief Operating Officer remit; consider where each function meets personal, repair, membership, community, or specialized services not covered by the other target sectors.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with personal, repair, membership, community, or specialized services not covered by the other target sectors and identify how the Chief Operating Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Chief Operating Officer in Other Services?
 
-Use the opening discussion to understand the specific Other Services employer, not to assume a standard role. Compare align operating functions, delivery systems, and organizational priorities with the stated scope, identify decision partners among customers or members, employees, service providers, owners, suppliers, and communities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Other Services employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a Chief Operating Officer make prior work relevant to Other Services?
 
@@ -139,15 +139,15 @@ Make the connection explicit: the candidate's record of operating scale, service
 
 ### Which career materials can help a Chief Operating Officer explore work in Other Services?
 
-Document selection depends on the opportunity. A Chief Operating Officer may draw from executive resume, operating-impact summary, leadership biography, and profile, but should foreground only material connected to service portfolio, customer or member context, team scope, delivery decisions, and substantiated outcomes. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a Chief Operating Officer contacts an organization in Other Services?
 
-Outreach should follow target research, not precede it. The Chief Operating Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with operating scale, service or product delivery, cross-functional change, and decision rights is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### What makes a Chief Operating Officer background relevant to work in Other Services?
 
-Title is only a label. Establish what the employer means by Chief Operating Officer in this Other Services organization and how the person will work with customers or members, employees, service providers, owners, suppliers, and communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Does KOV control employer responses to Chief Operating Officer outreach in Other Services?
 

@@ -45,7 +45,7 @@ Consider document and positioning support for Chief Operating Officer materials 
 
 ## Prepare to discuss the Holding Companies and Corporate Groups mandate
 
-A Chief Operating Officer candidate should show how operating scale, service or product delivery, cross-functional change, and decision rights supported the work to align operating functions, delivery systems, and organizational priorities, with the Holding Companies and Corporate Groups setting made explicit. The candidate's record of operating scale, service or product delivery, cross-functional change, and decision rights should be set beside the role of owners, boards, portfolio leaders, finance teams, employees, and external partners, so shared results are attributed fairly. The candidate decides whether to pursue a Chief Operating Officer opportunity. KOV can support agreed research and preparation concerning Holding Companies and Corporate Groups. Where describing activity without showing scope, dependencies, or the candidate's contribution affects a career example, substitute an authorized summary that preserves the point about operating scale, service or product delivery, cross-functional change, and decision rights.
+A Chief Operating Officer candidate should show how operating scale, service or product delivery, cross-functional change, and decision rights supported the work to align operating functions, delivery systems, and organizational priorities, with the Holding Companies and Corporate Groups setting made explicit. The candidate decides whether to pursue a Chief Operating Officer opportunity. KOV can support agreed research and preparation concerning Holding Companies and Corporate Groups. Where describing activity without showing scope, dependencies, or the candidate's contribution affects a career example, substitute an authorized summary that preserves the point about operating scale, service or product delivery, cross-functional change, and decision rights.
 
 ## Common positioning mistakes for Chief Operating Officer candidates in Holding Companies and Corporate Groups
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Operating Officer career hub](/roles/coo/)
 
-Review the role-wide approach to align operating functions, delivery systems, and organizational priorities and the evidence expected for that scope.
+
 
 ### [Holding Companies and Corporate Groups industry hub](/industries/holding-companies/)
 
-Compare how ownership or coordination of multiple entities, portfolios, or operating businesses affects career planning across functions.
+
 
 ### [Chief Executive Officer in Holding Companies and Corporate Groups](/roles/ceo/holding-companies.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Operating Officer remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Financial Officer in Holding Companies and Corporate Groups](/roles/cfo/holding-companies.html)
 
-Contrast lead financial stewardship and connect resource decisions to organizational priorities with the Chief Operating Officer remit; consider where each function meets ownership or coordination of multiple entities, portfolios, or operating businesses.
+
 
 ### [Chief Operating Officer in Agriculture, Food and Forestry](/roles/coo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with ownership or coordination of multiple entities, portfolios, or operating businesses and identify how the Chief Operating Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Chief Operating Officer test the scope of work in Holding Companies and Corporate Groups?
 
-A Chief Operating Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's ownership or coordination of multiple entities, portfolios, or operating businesses. Explore how the role will align operating functions, delivery systems, and organizational priorities and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Chief Operating Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's ownership or coordination of multiple entities, portfolios, or operating businesses. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### What evidence can a Chief Operating Officer use to explain experience in Holding Companies and Corporate Groups?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### Which outreach choices belong to a Chief Operating Officer considering Holding Companies and Corporate Groups?
 
-Outreach should follow target research, not precede it. The Chief Operating Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with operating scale, service or product delivery, cross-functional change, and decision rights is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Chief Operating Officer rely on title alone when targeting Holding Companies and Corporate Groups?
 
-No. Compare the role description with the candidate's experience of align operating functions, delivery systems, and organizational priorities and the organization's ownership or coordination of multiple entities, portfolios, or operating businesses. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Chief Operating Officer seeking work in Holding Companies and Corporate Groups?
 

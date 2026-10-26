@@ -1,0 +1,28 @@
+{
+  "name": "kov-career-agency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "about-B4yZO3YV.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danmoneynnhfbn/KOV-CAREER-AGENCY-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Danmoneynnhfbn/KOV-CAREER-AGENCY-1/issues"
+  },
+  "homepage": "https://github.com/Danmoneynnhfbn/KOV-CAREER-AGENCY-1#readme",
+  "dependencies": {
+    "playwright": "^1.64.1"
+  }
+}

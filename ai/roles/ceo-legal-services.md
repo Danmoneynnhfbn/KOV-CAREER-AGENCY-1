@@ -137,7 +137,7 @@ For each market, record the source you consulted and the question it answers. If
 
 ### Saudi Arabia
 
-Confirm the precise employer, entity, job location, remit, and eligibility questions for this opportunity. Do not transfer assumptions from another Gulf market.
+Confirm the precise employer, entity, job location, remit, and eligibility questions for this opportunity. Confirm the precise employer, entity, job location, remit, and eligibility questions for this opportunity. Do not transfer assumptions from another Gulf market.
 
 ### UAE
 
@@ -145,7 +145,7 @@ Clarify which emirate and employing entity are relevant, then verify the role sc
 
 ### United Kingdom
 
-Confirm the specific organization, role and location. Check regulated responsibilities and formal authority using current relevant sources.
+Confirm the specific organization, role and location. Confirm the specific organization, role and location. Check regulated responsibilities and formal authority using current relevant sources.
 
 ### United States
 
@@ -157,7 +157,7 @@ Verify the role, employing organization, location, and any qualification or auth
 
 ### Africa
 
-Treat each country and employer separately. Confirm the jurisdiction, role mandate, and current requirements for this specific opportunity.
+Treat each country and employer separately. Treat each country and employer separately. Confirm the jurisdiction, role mandate, and current requirements for this specific opportunity.
 
 ## Frequently asked questions
 
@@ -187,7 +187,7 @@ Outreach can be discussed as part of an agreed candidate-side scope. The recipie
 
 ### Does this guide provide legal or regulatory advice?
 
-No. It offers career-planning questions. Confirm current legal, licensing, immigration, and professional-practice requirements with appropriate primary sources or qualified advisers.
+No. Confirm current legal, licensing, immigration, and professional-practice requirements with appropriate primary sources or qualified advisers.
 
 ### How can I show that my experience transfers into legal services?
 

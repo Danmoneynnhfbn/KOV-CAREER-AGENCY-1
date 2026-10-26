@@ -33,7 +33,7 @@ A candidate exploring Consulting and Other Professional Services should test the
 
 ## Choose the individual services that fit the work
 
-For Chair materials, manage the risk of blurring chair and executive accountabilities or taking credit for collective decisions; support claims with meeting leadership, board composition, governance practice, relationships, and transition judgment and remove details that are not authorized for sharing. The candidate decides whether to pursue a Chair opportunity. KOV can support agreed research and preparation concerning Consulting and Other Professional Services. Ask what expertise-led advisory or delivery work provided to organizations or individuals means at this particular Consulting and Other Professional Services organization and how it changes the priorities assigned to a Chair. Rather than lead with seniority, a Chair profile can explain the responsibility to lead board effectiveness and support clear governance and decision-making and use service line, client or project context, team leadership, delivery model, and authorized outcomes as evidence.
+For Chair materials, manage the risk of blurring chair and executive accountabilities or taking credit for collective decisions; support claims with meeting leadership, board composition, governance practice, relationships, and transition judgment and remove details that are not authorized for sharing. KOV can support agreed research and preparation concerning Consulting and Other Professional Services. Ask what expertise-led advisory or delivery work provided to organizations or individuals means at this particular Consulting and Other Professional Services organization and how it changes the priorities assigned to a Chair. Rather than lead with seniority, a Chair profile can explain the responsibility to lead board effectiveness and support clear governance and decision-making and use service line, client or project context, team leadership, delivery model, and authorized outcomes as evidence.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chair career hub](/roles/chair/)
 
-Review the role-wide approach to lead board effectiveness and support clear governance and decision-making and the evidence expected for that scope.
+
 
 ### [Consulting and Other Professional Services industry hub](/industries/consulting-professional-services/)
 
-Compare how expertise-led advisory or delivery work provided to organizations or individuals affects career planning across functions.
+
 
 ### [Chief Executive Officer in Consulting and Other Professional Services](/roles/ceo/consulting-professional-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chair remit; consider where each function meets expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chief Operating Officer in Consulting and Other Professional Services](/roles/coo/consulting-professional-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chair remit; consider where each function meets expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chair in Agriculture, Food and Forestry](/roles/chair/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with expertise-led advisory or delivery work provided to organizations or individuals and identify how the Chair remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Chair resolve before a target discussion in Consulting and Other Professional Services?
 
-Use the opening discussion to understand the specific Consulting and Other Professional Services employer, not to assume a standard role. Compare lead board effectiveness and support clear governance and decision-making with the stated scope, identify decision partners among clients, practitioners, project teams, partners or owners, suppliers, and professional communities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Consulting and Other Professional Services employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Chair career story fit the needs of Consulting and Other Professional Services?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Chair approve before outreach in Consulting and Other Professional Services?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Chair candidate's service scope; the candidate approves external communication. No one route should be assumed for all Consulting and Other Professional Services employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Consulting and Other Professional Services employers.
 
 ### How should a Chair compare title and remit in Consulting and Other Professional Services?
 
-Title is only a label. Establish what the employer means by Chair in this Consulting and Other Professional Services organization and how the person will work with clients, practitioners, project teams, partners or owners, suppliers, and professional communities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### Will KOV secure a meeting for a Chair with an employer in Consulting and Other Professional Services?
 

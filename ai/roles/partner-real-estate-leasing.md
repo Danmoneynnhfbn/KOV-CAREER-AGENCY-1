@@ -45,7 +45,7 @@ Consider document and positioning support for Partner materials that present cli
 
 ## Prepare to discuss the Real Estate and Leasing mandate
 
-Before discussing asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution, check whether revealing client information or overstating individual ownership of team results could expose sensitive details or blur the candidate's decision boundary. The candidate decides whether to pursue a Partner opportunity. KOV can support agreed research and preparation concerning Real Estate and Leasing. Explain how other partners, clients, colleagues, employees, referral sources, and practice leaders contributed to the candidate's work and distinguish that shared context from evidence of client or commercial contribution, practice leadership, collaboration, and shared responsibilities. Use property ownership, development, brokerage, management, or leasing relationships to frame research about Real Estate and Leasing, then ask how a Partner will work through asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions.
+Before discussing asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution, check whether revealing client information or overstating individual ownership of team results could expose sensitive details or blur the candidate's decision boundary. KOV can support agreed research and preparation concerning Real Estate and Leasing. Explain how other partners, clients, colleagues, employees, referral sources, and practice leaders contributed to the candidate's work and distinguish that shared context from evidence of client or commercial contribution, practice leadership, collaboration, and shared responsibilities. Use property ownership, development, brokerage, management, or leasing relationships to frame research about Real Estate and Leasing, then ask how a Partner will work through asset decisions, occupancy or customer needs, capital planning, service coordination, and market conditions.
 
 ## Common positioning mistakes for Partner candidates in Real Estate and Leasing
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Partner career hub](/roles/partner/)
 
-Review the role-wide approach to develop a practice or business while contributing to a shared ownership or partnership structure and the evidence expected for that scope.
+
 
 ### [Real Estate and Leasing industry hub](/industries/real-estate-leasing/)
 
-Compare how property ownership, development, brokerage, management, or leasing relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Real Estate and Leasing](/roles/ceo/real-estate-leasing.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Partner remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Chief Operating Officer in Real Estate and Leasing](/roles/coo/real-estate-leasing.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Partner remit; consider where each function meets property ownership, development, brokerage, management, or leasing relationships.
+
 
 ### [Partner in Agriculture, Food and Forestry](/roles/partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with property ownership, development, brokerage, management, or leasing relationships and identify how the Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a Partner in Real Estate and Leasing?
 
-Use the opening discussion to understand the specific Real Estate and Leasing employer, not to assume a standard role. Compare develop a practice or business while contributing to a shared ownership or partnership structure with the stated scope, identify decision partners among owners, tenants, customers, investors, property teams, suppliers, and communities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Real Estate and Leasing employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How can a Partner make prior work relevant to Real Estate and Leasing?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could develop a practice or business wh
 
 ### Which career materials can help a Partner explore work in Real Estate and Leasing?
 
-Document selection depends on the opportunity. A Partner may draw from partner biography, practice profile, selected work summary, and professional profile, but should foreground only material connected to asset or portfolio scope, customer and tenant relationships, project or operations decisions, and attributable contribution. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### What must be agreed before a Partner contacts an organization in Real Estate and Leasing?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Partner candidate's service scope; the candidate approves external communication. No one route should be assumed for all Real Estate and Leasing employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Real Estate and Leasing employers.
 
 ### What makes a Partner background relevant to work in Real Estate and Leasing?
 
-No. Compare the role description with the candidate's experience of develop a practice or business while contributing to a shared ownership or partnership structure and the organization's property ownership, development, brokerage, management, or leasing relationships. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to Partner outreach in Real Estate and Leasing?
 

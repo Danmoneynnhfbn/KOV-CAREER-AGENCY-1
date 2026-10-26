@@ -61,7 +61,8 @@
         "Does the role lead the whole organization, a business unit, or an enabling function?",
         "How are strategy, financial stewardship, client service, people, technology, and risk divided?",
         "Which priorities must the incoming leader maintain, change, or learn?"
-      ]
+      ],
+      "lead": ""
     },
     {
       "id": "operating-model",
@@ -75,7 +76,8 @@
         "Identify where your experience is directly relevant and where it is adjacent.",
         "Show the scale and complexity you have managed without relying on title alone.",
         "Prepare questions about decision rights, reporting, resources, and first-year priorities."
-      ]
+      ],
+      "lead": ""
     },
     {
       "id": "legal-services-search",
@@ -90,7 +92,8 @@
         "Keep a record of confirmed facts, open questions, and approved next steps.",
         "Agree what information about your search may be shared and with whom.",
         "Review the strategy when new information changes your view of the role."
-      ]
+      ],
+      "lead": ""
     },
     {
       "id": "selection-evidence",
@@ -106,7 +109,8 @@
         "Operations: how you aligned people, resources, and delivery.",
         "Change: what you changed, what you preserved, and how you assessed progress.",
         "Judgment: how you handled risk, disagreement, or incomplete information."
-      ]
+      ],
+      "lead": ""
     },
     {
       "id": "interview-and-diligence",
@@ -121,7 +125,8 @@
         "Ask how the organization defines the first period of success.",
         "Understand who will be involved in the decision and next steps.",
         "Verify practical conditions and any material terms in writing."
-      ]
+      ],
+      "lead": ""
     },
     {
       "id": "legal-documents",
@@ -134,7 +139,8 @@
         "heading": "How we rewrite a CEO’s summary for a legal-services target",
         "before": "Experienced executive who leads teams and grows organizations.",
         "after": "Executive leader who aligns governance, operating priorities, and people around a clear service strategy, with evidence tied to the organization’s stated needs."
-      }
+      },
+      "lead": ""
     },
     {
       "id": "legal-services-mistakes",
@@ -147,7 +153,9 @@
         "Sending sensitive details before agreeing recipients: set disclosure boundaries first.",
         "Making a regional claim from memory: confirm current requirements for the location and role.",
         "Calling adjacent experience identical: describe both the transfer and the learning needed."
-      ]
+      ],
+      "lead": "",
+      "paragraphs": []
     },
     {
       "id": "legal-services-regions",
@@ -155,7 +163,8 @@
       "paragraphs": [
         "The requirements attached to a leadership role can depend on the employer, location, and exact responsibilities. Confirm any licensing, work-authorization, entity, or professional-practice requirements with current primary sources and qualified advisers where needed. This page does not state country-specific legal or regulatory rules.",
         "For a cross-border move, clarify the employing entity, work location, reporting structure, and whether the position includes regulated practice responsibilities. Record what the employer has confirmed and what requires independent advice."
-      ]
+      ],
+      "lead": ""
     },
     {
       "id": "next-steps",
@@ -176,7 +185,8 @@
           "href": "/industries/legal-services/",
           "linkText": "Visit the legal-services hub"
         }
-      ]
+      ],
+      "lead": ""
     },
     {
       "id": "kov-services-for-ceos",
@@ -226,7 +236,8 @@
             "Clarify the service scope and obtain independent advice where appropriate"
           ]
         ]
-      }
+      },
+      "lead": ""
     },
     {
       "id": "market-planning",
@@ -238,7 +249,7 @@
       "tabs": [
         {
           "name": "Saudi Arabia",
-          "text": "Confirm the precise employer, entity, job location, remit, and eligibility questions for this opportunity. Do not transfer assumptions from another Gulf market."
+          "text": "Confirm the precise employer, entity, job location, remit, and eligibility questions for this opportunity. Confirm the precise employer, entity, job location, remit, and eligibility questions for this opportunity. Do not transfer assumptions from another Gulf market."
         },
         {
           "name": "UAE",
@@ -246,7 +257,7 @@
         },
         {
           "name": "United Kingdom",
-          "text": "Confirm the specific organization, role and location. Check regulated responsibilities and formal authority using current relevant sources."
+          "text": "Confirm the specific organization, role and location. Confirm the specific organization, role and location. Check regulated responsibilities and formal authority using current relevant sources."
         },
         {
           "name": "United States",
@@ -258,9 +269,10 @@
         },
         {
           "name": "Africa",
-          "text": "Treat each country and employer separately. Confirm the jurisdiction, role mandate, and current requirements for this specific opportunity."
+          "text": "Treat each country and employer separately. Treat each country and employer separately. Confirm the jurisdiction, role mandate, and current requirements for this specific opportunity."
         }
-      ]
+      ],
+      "lead": ""
     }
   ],
   "faqs": [
@@ -290,7 +302,7 @@
     },
     {
       "question": "Does this guide provide legal or regulatory advice?",
-      "answer": "No. It offers career-planning questions. Confirm current legal, licensing, immigration, and professional-practice requirements with appropriate primary sources or qualified advisers."
+      "answer": "No. Confirm current legal, licensing, immigration, and professional-practice requirements with appropriate primary sources or qualified advisers."
     },
     {
       "question": "How can I show that my experience transfers into legal services?",

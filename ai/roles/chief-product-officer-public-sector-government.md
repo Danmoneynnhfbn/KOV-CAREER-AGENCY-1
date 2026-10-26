@@ -16,7 +16,7 @@ The Public Sector and Government context involves public administration, public 
 
 ## Documents that make Chief Product Officer experience relevant here
 
-A Chief Product Officer candidate should show how product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes supported the work to guide product direction, portfolio choices, and the connection between users and delivery teams, with the Public Sector and Government setting made explicit. An employer's Public Sector and Government model may involve public administration, public programs, or services delivered under a public mandate; its implications for public purpose, stewardship, transparency, service access, and coordination across institutions should be discussed, not presumed. The candidate decides whether to pursue a Chief Product Officer opportunity. KOV can support agreed research and preparation concerning Public Sector and Government. A Chief Product Officer candidate should be ready to explain listing launches without clarifying user need, decision role, trade-offs, and adoption context without revealing confidential details or implying unsupported responsibility.
+A Chief Product Officer candidate should show how product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes supported the work to guide product direction, portfolio choices, and the connection between users and delivery teams, with the Public Sector and Government setting made explicit. The candidate decides whether to pursue a Chief Product Officer opportunity. KOV can support agreed research and preparation concerning Public Sector and Government. A Chief Product Officer candidate should be ready to explain listing launches without clarifying user need, decision role, trade-offs, and adoption context without revealing confidential details or implying unsupported responsibility.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Product Officer career hub](/roles/chief-product-officer/)
 
-Review the role-wide approach to guide product direction, portfolio choices, and the connection between users and delivery teams and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Product Officer remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Product Officer remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Product Officer in Agriculture, Food and Forestry](/roles/chief-product-officer/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with public administration, public programs, or services delivered under a public mandate and identify how the Chief Product Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Chief Product Officer clarify before considering work in Public Sector and Government?
 
-Start with the organization's account of public administration, public programs, or services delivered under a public mandate, then clarify how the Chief Product Officer would guide product direction, portfolio choices, and the connection between users and delivery teams. Ask how residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of public administration, public programs, or services delivered under a public mandate, then clarify how the Chief Product Officer would guide product direction, portfolio choices, and the connection between users and delivery teams. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### How should a Chief Product Officer describe transferable experience for Public Sector and Government work?
 
@@ -139,11 +139,11 @@ Select examples that show product strategy, portfolio scope, discovery, prioriti
 
 ### How can a Chief Product Officer choose documents for conversations about Public Sector and Government?
 
-Document selection depends on the opportunity. A Chief Product Officer may draw from executive resume, product portfolio narrative, leadership biography, and profile, but should foreground only material connected to program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### How can KOV and a Chief Product Officer plan contact with Public Sector and Government organizations?
 
-Outreach should follow target research, not precede it. The Chief Product Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with product strategy, portfolio scope, discovery, prioritization, delivery partnerships, and outcomes is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Chief Product Officer assess fit with Public Sector and Government responsibilities?
 
@@ -151,7 +151,7 @@ A title cannot demonstrate fit by itself. The candidate should relate product st
 
 ### What can KOV promise a Chief Product Officer candidate considering Public Sector and Government?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Chief Product Officer candidate considering Public Sector and Government, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

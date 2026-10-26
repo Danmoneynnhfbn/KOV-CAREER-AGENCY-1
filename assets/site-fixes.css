@@ -1,5 +1,3 @@
-@import url("/assets/design-components.css");
-
 :root {
   color-scheme: light dark;
   --background: #f7f3ee;
@@ -3332,8 +3330,12 @@ footer a[href]:not([class*="bg-"]):not([class*="border-b"]):not([class*="rounded
 }
 
 .kov-uniform-footer-content {
-  padding-top: 0.9rem;
-  padding-bottom: 0.65rem;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1288px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1.4rem 24px 1rem;
 }
 
 .kov-uniform-footer-columns {
@@ -3355,6 +3357,74 @@ footer a[href]:not([class*="bg-"]):not([class*="border-b"]):not([class*="rounded
   letter-spacing: 0.12em;
   line-height: 1.25;
   text-transform: uppercase;
+}
+
+.kov-uniform-footer-inquiry h2 {
+  margin: 0 0 6px;
+  color: #38414a;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.kov-uniform-footer-form {
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.kov-uniform-footer-form label {
+  display: grid;
+  gap: 3px;
+  color: #515a61;
+  font-size: 0.72rem;
+  line-height: 1.3;
+}
+
+.kov-uniform-footer-form input:not([type="hidden"]):not([type="checkbox"]),
+.kov-uniform-footer-form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  padding: 7px 9px;
+  border: 1px solid #d9d3c9;
+  border-radius: 4px;
+  background: #fff;
+  color: #101821;
+  font: inherit;
+}
+
+.kov-uniform-footer-form button {
+  justify-self: start;
+  padding: 8px 14px;
+  border: 0;
+  border-radius: 999px;
+  background: #101821;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.kov-uniform-footer-form button:hover,
+.kov-uniform-footer-form button:focus-visible {
+  background: #303c47;
+}
+
+.kov-uniform-footer-form [data-web3forms-status] {
+  min-height: 1em;
+  margin: 0;
+  color: #515a61;
+  font-size: 0.72rem;
+  line-height: 1.3;
+}
+
+.kov-uniform-footer-form .kov-footer-honeypot {
+  display: none;
 }
 
 .kov-uniform-footer-columns ul {
@@ -3417,7 +3487,7 @@ footer a[href]:not([class*="bg-"]):not([class*="border-b"]):not([class*="rounded
 
 .kov-uniform-footer-topic-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 6px 16px;
   align-items: start;
 }
@@ -3432,6 +3502,14 @@ footer a[href]:not([class*="bg-"]):not([class*="border-b"]):not([class*="rounded
   font-weight: 600;
   line-height: 1.3;
   cursor: pointer;
+}
+
+.kov-uniform-footer-topic h3 {
+  margin: 0;
+  color: #38414a;
+  font-size: 0.67rem;
+  font-weight: 600;
+  line-height: 1.3;
 }
 
 .kov-uniform-footer-topic > ul {
@@ -3458,7 +3536,7 @@ footer a[href]:not([class*="bg-"]):not([class*="border-b"]):not([class*="rounded
 
 .kov-uniform-footer-bottom {
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   align-items: center;
   gap: 12px 18px;
   margin-top: 10px;
@@ -3469,8 +3547,12 @@ footer a[href]:not([class*="bg-"]):not([class*="border-b"]):not([class*="rounded
   line-height: 1.3;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   .kov-uniform-footer-brand {
+    grid-column: 1 / -1;
+  }
+
+  .kov-uniform-footer-inquiry {
     grid-column: 1 / -1;
   }
 
@@ -3486,6 +3568,14 @@ footer a[href]:not([class*="bg-"]):not([class*="border-b"]):not([class*="rounded
   .kov-uniform-footer-topic-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 9px 16px;
+  }
+
+  .kov-uniform-footer-bottom {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .kov-uniform-footer-bottom > span:last-child {
+    display: none;
   }
 
 }
@@ -3513,6 +3603,12 @@ footer a[href]:not([class*="bg-"]):not([class*="border-b"]):not([class*="rounded
   .kov-uniform-footer-topic > summary {
     font-size: 0.67rem !important;
     line-height: 1.3 !important;
+  }
+
+  .kov-uniform-footer-topic h3 {
+    font-size: 0.67rem !important;
+    line-height: 1.3 !important;
+    letter-spacing: normal !important;
   }
 
   .kov-uniform-footer-brand [class~="text-[12px]"] {

@@ -85,27 +85,27 @@ Use KOV's London page as a starting point for an agreed UK-focused search discus
 
 ### Saudi Arabia
 
-For Hospitality and Food Service targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Hospitality and Food Service targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Hospitality and Food Service targets in Saudi Arabia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### UAE
 
-For Hospitality and Food Service targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Hospitality and Food Service targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Hospitality and Food Service targets in UAE, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### United Kingdom
 
-For Hospitality and Food Service targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Hospitality and Food Service targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Hospitality and Food Service targets in United Kingdom, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Dubai
 
-For Hospitality and Food Service targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Hospitality and Food Service targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Hospitality and Food Service targets in Dubai, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Australia
 
-For Hospitality and Food Service targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Hospitality and Food Service targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Hospitality and Food Service targets in Australia, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ### Africa
 
-For Hospitality and Food Service targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
+For Hospitality and Food Service targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. For Hospitality and Food Service targets in Africa, KOV's search planning starts by naming the role and location, checking the employer's stated context, and agreeing research, documents, disclosure boundaries, and approved outreach. Review the relevant existing KOV market page and verify local requirements with current qualified sources.
 
 ## Choose an appropriate level of career support
 
@@ -129,103 +129,103 @@ Use the cards to open only the role-and-industry pages currently available. Each
 
 ### [Chief Executive Officer in Hospitality and Food Service](/roles/ceo/hospitality-food-service.html)
 
-Explore how set organization-wide direction and coordinate executive work connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Operating Officer in Hospitality and Food Service](/roles/coo/hospitality-food-service.html)
 
-Explore how align operating functions, delivery systems, and organizational priorities connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Financial Officer in Hospitality and Food Service](/roles/cfo/hospitality-food-service.html)
 
-Explore how lead financial stewardship and connect resource decisions to organizational priorities connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Technology Officer in Hospitality and Food Service](/roles/cto/hospitality-food-service.html)
 
-Explore how set technology direction and connect technical choices with product and business needs connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Information Officer in Hospitality and Food Service](/roles/cio/hospitality-food-service.html)
 
-Explore how guide information systems, digital operations, and technology services for the organization connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Marketing Officer in Hospitality and Food Service](/roles/cmo/hospitality-food-service.html)
 
-Explore how shape marketing strategy, customer understanding, brand, and commercial communication connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Human Resources Officer in Hospitality and Food Service](/roles/chro/hospitality-food-service.html)
 
-Explore how guide people strategy, organizational capability, and workforce-related leadership connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Information Security Officer in Hospitality and Food Service](/roles/ciso/hospitality-food-service.html)
 
-Explore how lead information-security priorities and coordinate risk-informed protection connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [General Counsel / Chief Legal Officer in Hospitality and Food Service](/roles/general-counsel/hospitality-food-service.html)
 
-Explore how lead legal judgment and connect legal advice with organizational decisions connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Revenue Officer in Hospitality and Food Service](/roles/chief-revenue-officer/hospitality-food-service.html)
 
-Explore how coordinate revenue-facing functions around a coherent commercial direction connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Product Officer in Hospitality and Food Service](/roles/chief-product-officer/hospitality-food-service.html)
 
-Explore how guide product direction, portfolio choices, and the connection between users and delivery teams connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Strategy Officer in Hospitality and Food Service](/roles/chief-strategy-officer/hospitality-food-service.html)
 
-Explore how support organization-wide choices by framing options, analysis, and strategic execution connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Board Director in Hospitality and Food Service](/roles/board-director/hospitality-food-service.html)
 
-Explore how contribute oversight, inquiry, and strategic perspective within collective governance connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Non-Executive Director in Hospitality and Food Service](/roles/non-executive-director/hospitality-food-service.html)
 
-Explore how provide independent challenge and strategic contribution distinct from management connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chair in Hospitality and Food Service](/roles/chair/hospitality-food-service.html)
 
-Explore how lead board effectiveness and support clear governance and decision-making connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Managing Director in Hospitality and Food Service](/roles/managing-director/hospitality-food-service.html)
 
-Explore how lead a business, division, or organization according to its defined mandate connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Managing Partner in Hospitality and Food Service](/roles/managing-partner/hospitality-food-service.html)
 
-Explore how combine leadership responsibilities with the governance and professional context of a partnership connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Partner in Hospitality and Food Service](/roles/partner/hospitality-food-service.html)
 
-Explore how develop a practice or business while contributing to a shared ownership or partnership structure connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Vice President of Sales in Hospitality and Food Service](/roles/vp-sales/hospitality-food-service.html)
 
-Explore how lead a sales organization and connect market priorities with execution connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Vice President of Marketing in Hospitality and Food Service](/roles/vp-marketing/hospitality-food-service.html)
 
-Explore how lead marketing teams and align brand, customer, and commercial priorities connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Vice President of Operations in Hospitality and Food Service](/roles/vp-operations/hospitality-food-service.html)
 
-Explore how coordinate operational performance across teams, locations, or service lines connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Director of Operations in Hospitality and Food Service](/roles/director-operations/hospitality-food-service.html)
 
-Explore how manage operational delivery and improve coordination within a defined remit connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Director of Marketing in Hospitality and Food Service](/roles/director-marketing/hospitality-food-service.html)
 
-Explore how manage campaigns, channels, or marketing programs within a broader strategy connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Director of Sales in Hospitality and Food Service](/roles/director-sales/hospitality-food-service.html)
 
-Explore how manage sales teams, accounts, or territories against an agreed commercial plan connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Head of Growth in Hospitality and Food Service](/roles/head-growth/hospitality-food-service.html)
 
-Explore how coordinate growth experiments and commercial initiatives for a defined business connects with guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ## Questions that make a Hospitality and Food Service target more specific
 
@@ -259,7 +259,7 @@ KOV can help candidates organize relevant experience and documents around an agr
 
 ### Can KOV promise an interview with a Hospitality and Food Service organization?
 
-No. KOV does not guarantee interviews, offers, employment, introductions, or timelines. Employers make hiring decisions.
+No. Employers make hiring decisions.
 
 ### How should I compare two Hospitality and Food Service opportunities?
 

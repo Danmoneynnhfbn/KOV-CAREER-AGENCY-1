@@ -59,7 +59,7 @@ Research for a Head of Legal in Consulting and Other Professional Services becom
 
 ## Keep research, confidentiality, and outreach aligned
 
-For Head of Legal materials, manage the risk of sharing privileged material or implying that legal advice alone owned business decisions; support claims with advisory scope, team structure, work management, risk judgment, and stakeholder partnership and remove details that are not authorized for sharing. The candidate decides whether to pursue a Head of Legal opportunity. KOV can support agreed research and preparation concerning Consulting and Other Professional Services. An account of service line, client or project context, team leadership, delivery model, and authorized outcomes should identify the candidate's contribution and the involvement of CEO or General Counsel, business leaders, legal colleagues, outside counsel, and governance stakeholders. To assess a Head of Legal opportunity in Consulting and Other Professional Services, compare the stated remit to the candidate's record of advisory scope, team structure, work management, risk judgment, and stakeholder partnership.
+For Head of Legal materials, manage the risk of sharing privileged material or implying that legal advice alone owned business decisions; support claims with advisory scope, team structure, work management, risk judgment, and stakeholder partnership and remove details that are not authorized for sharing. KOV can support agreed research and preparation concerning Consulting and Other Professional Services. An account of service line, client or project context, team leadership, delivery model, and authorized outcomes should identify the candidate's contribution and the involvement of CEO or General Counsel, business leaders, legal colleagues, outside counsel, and governance stakeholders. To assess a Head of Legal opportunity in Consulting and Other Professional Services, compare the stated remit to the candidate's record of advisory scope, team structure, work management, risk judgment, and stakeholder partnership.
 
 ## Prepare for conversations about Consulting and Other Professional Services work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Legal career hub](/roles/head-legal/)
 
-Review the role-wide approach to lead a legal function or specialist team and advise on decisions within its remit and the evidence expected for that scope.
+
 
 ### [Consulting and Other Professional Services industry hub](/industries/consulting-professional-services/)
 
-Compare how expertise-led advisory or delivery work provided to organizations or individuals affects career planning across functions.
+
 
 ### [Chief Executive Officer in Consulting and Other Professional Services](/roles/ceo/consulting-professional-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Legal remit; consider where each function meets expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Chief Operating Officer in Consulting and Other Professional Services](/roles/coo/consulting-professional-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Legal remit; consider where each function meets expertise-led advisory or delivery work provided to organizations or individuals.
+
 
 ### [Head of Legal in Technology, Media and Telecom](/roles/head-legal/technology-media-telecom.html)
 
-Compare digital products, platforms, content, communications, or technology-enabled services with expertise-led advisory or delivery work provided to organizations or individuals and identify how the Head of Legal remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Head of Legal test the scope of work in Consulting and Other Professional Services?
 
-Start with the organization's account of expertise-led advisory or delivery work provided to organizations or individuals, then clarify how the Head of Legal would lead a legal function or specialist team and advise on decisions within its remit. Ask how clients, practitioners, project teams, partners or owners, suppliers, and professional communities participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of expertise-led advisory or delivery work provided to organizations or individuals, then clarify how the Head of Legal would lead a legal function or specialist team and advise on decisions within its remit. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Head of Legal use to explain experience in Consulting and Other Professional Services?
 
@@ -139,7 +139,7 @@ Select examples that show advisory scope, team structure, work management, risk 
 
 ### What documents should a Head of Legal tailor for Consulting and Other Professional Services opportunities?
 
-Possible materials include legal leadership resume, practice biography, role summary, and discreet examples. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service line, client or project context, team leadership, delivery model, and authorized outcomes. Each claim should be accurate for this Consulting and Other Professional Services target, and confidential or unauthorized material should be omitted.
+Possible materials include legal leadership resume, practice biography, role summary, and discreet examples. Each claim should be accurate for this Consulting and Other Professional Services target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Head of Legal considering Consulting and Other Professional Services?
 

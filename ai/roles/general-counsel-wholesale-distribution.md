@@ -45,11 +45,11 @@ Consider document and positioning support for General Counsel / Chief Legal Offi
 
 ## Prepare to discuss the Wholesale and Distribution mandate
 
-The candidate can discuss legal remit, advisory judgment, team scope, governance interaction, and business context while protecting confidentiality by omitting names, restricted figures, and other identifying material. In Wholesale and Distribution, suppliers, retailers, business customers, logistics teams, sales, and inventory operators may shape the work. A General Counsel / Chief Legal Officer example should separate direct responsibility from collaboration. Not every Wholesale and Distribution organization will handle availability, working capital, fulfillment coordination, customer terms, and supplier variability alike. Confirm how movement and availability of goods through purchasing, inventory, channel, and delivery relationships informs this General Counsel / Chief Legal Officer position. Readers need to see what General Counsel / Chief Legal Officer work involved; connect lead legal judgment and connect legal advice with organizational decisions with the candidate's own examples of legal remit, advisory judgment, team scope, governance interaction, and business context in Wholesale and Distribution.
+The candidate can discuss legal remit, advisory judgment, team scope, governance interaction, and business context while protecting confidentiality by omitting names, restricted figures, and other identifying material. Not every Wholesale and Distribution organization will handle availability, working capital, fulfillment coordination, customer terms, and supplier variability alike. Confirm how movement and availability of goods through purchasing, inventory, channel, and delivery relationships informs this General Counsel / Chief Legal Officer position. Readers need to see what General Counsel / Chief Legal Officer work involved; connect lead legal judgment and connect legal advice with organizational decisions with the candidate's own examples of legal remit, advisory judgment, team scope, governance interaction, and business context in Wholesale and Distribution.
 
 ## Common positioning mistakes for General Counsel / Chief Legal Officer candidates in Wholesale and Distribution
 
-Where confusing legal advice with business decision ownership or disclosing privileged information affects a career example, substitute an authorized summary that preserves the point about legal remit, advisory judgment, team scope, governance interaction, and business context. The candidate decides whether to pursue a General Counsel / Chief Legal Officer opportunity. KOV can support agreed research and preparation concerning Wholesale and Distribution. In Wholesale and Distribution, suppliers, retailers, business customers, logistics teams, sales, and inventory operators may shape the work. A General Counsel / Chief Legal Officer example should separate direct responsibility from collaboration. Use movement and availability of goods through purchasing, inventory, channel, and delivery relationships to frame research about Wholesale and Distribution, then ask how a General Counsel / Chief Legal Officer will work through availability, working capital, fulfillment coordination, customer terms, and supplier variability.
+Where confusing legal advice with business decision ownership or disclosing privileged information affects a career example, substitute an authorized summary that preserves the point about legal remit, advisory judgment, team scope, governance interaction, and business context. In Wholesale and Distribution, suppliers, retailers, business customers, logistics teams, sales, and inventory operators may shape the work. A General Counsel / Chief Legal Officer example should separate direct responsibility from collaboration. Use movement and availability of goods through purchasing, inventory, channel, and delivery relationships to frame research about Wholesale and Distribution, then ask how a General Counsel / Chief Legal Officer will work through availability, working capital, fulfillment coordination, customer terms, and supplier variability.
 
 - Treat Wholesale and Distribution as one uniform employer type; distinguish the actual organization and role.
 - Use a General Counsel / Chief Legal Officer title without explaining lead legal judgment and connect legal advice with organizational decisions.
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [General Counsel / Chief Legal Officer career hub](/roles/general-counsel/)
 
-Review the role-wide approach to lead legal judgment and connect legal advice with organizational decisions and the evidence expected for that scope.
+
 
 ### [Wholesale and Distribution industry hub](/industries/wholesale-distribution/)
 
-Compare how movement and availability of goods through purchasing, inventory, channel, and delivery relationships affects career planning across functions.
+
 
 ### [Chief Executive Officer in Wholesale and Distribution](/roles/ceo/wholesale-distribution.html)
 
-Contrast set organization-wide direction and coordinate executive work with the General Counsel / Chief Legal Officer remit; consider where each function meets movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [Chief Operating Officer in Wholesale and Distribution](/roles/coo/wholesale-distribution.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the General Counsel / Chief Legal Officer remit; consider where each function meets movement and availability of goods through purchasing, inventory, channel, and delivery relationships.
+
 
 ### [General Counsel / Chief Legal Officer in Agriculture, Food and Forestry](/roles/general-counsel/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with movement and availability of goods through purchasing, inventory, channel, and delivery relationships and identify how the General Counsel / Chief Legal Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### What belongs on the first-discussion agenda for a General Counsel / Chief Legal Officer in Wholesale and Distribution?
 
-A General Counsel / Chief Legal Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's movement and availability of goods through purchasing, inventory, channel, and delivery relationships. Explore how the role will lead legal judgment and connect legal advice with organizational decisions and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A General Counsel / Chief Legal Officer candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's movement and availability of goods through purchasing, inventory, channel, and delivery relationships. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How can a General Counsel / Chief Legal Officer make prior work relevant to Wholesale and Distribution?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What must be agreed before a General Counsel / Chief Legal Officer contacts an organization in Wholesale and Distribution?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the General Counsel / Chief Legal Officer candidate's service scope; the candidate approves external communication. No one route should be assumed for all Wholesale and Distribution employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Wholesale and Distribution employers.
 
 ### What makes a General Counsel / Chief Legal Officer background relevant to work in Wholesale and Distribution?
 
-No. Compare the role description with the candidate's experience of lead legal judgment and connect legal advice with organizational decisions and the organization's movement and availability of goods through purchasing, inventory, channel, and delivery relationships. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Does KOV control employer responses to General Counsel / Chief Legal Officer outreach in Wholesale and Distribution?
 

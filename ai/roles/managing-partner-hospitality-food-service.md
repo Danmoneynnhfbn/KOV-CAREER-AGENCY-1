@@ -4,7 +4,7 @@ KOV helps Managing Partner candidates considering roles connected to Hospitality
 
 ## How Managing Partner work connects with Hospitality and Food Service
 
-Readers need to see what Managing Partner work involved; connect combine leadership responsibilities with the governance and professional context of a partnership with the candidate's own examples of partner-group mandate, management contribution, practice or business scope, and shared decisions in Hospitality and Food Service. Not every Hospitality and Food Service organization will handle guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alike. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Managing Partner position. KOV's service scope for a Managing Partner candidate can include document preparation and agreed search activity, but cannot promise an employer's response. The candidate can discuss partner-group mandate, management contribution, practice or business scope, and shared decisions while protecting confidentiality by omitting names, restricted figures, and other identifying material.
+Readers need to see what Managing Partner work involved; connect combine leadership responsibilities with the governance and professional context of a partnership with the candidate's own examples of partner-group mandate, management contribution, practice or business scope, and shared decisions in Hospitality and Food Service. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Managing Partner position. KOV's service scope for a Managing Partner candidate can include document preparation and agreed search activity, but cannot promise an employer's response. The candidate can discuss partner-group mandate, management contribution, practice or business scope, and shared decisions while protecting confidentiality by omitting names, restricted figures, and other identifying material.
 
 ## Who this Managing Partner and Hospitality and Food Service guide is for
 
@@ -49,7 +49,7 @@ Position a Managing Partner career by linking combine leadership responsibilitie
 
 ## Common positioning mistakes for Managing Partner candidates in Hospitality and Food Service
 
-Keep the Managing Partner narrative accurate where presenting partner-group outcomes as individual decisions or ignoring shared governance may arise: attribute shared work and disclose only information the candidate may use. Career representation remains candidate-led: KOV can support a Managing Partner search, while the candidate approves the goals and disclosures. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Managing Partner example should separate direct responsibility from collaboration. Ask what guest-facing accommodation, food, venue, or experience services delivered through people and operations means at this particular Hospitality and Food Service organization and how it changes the priorities assigned to a Managing Partner.
+Keep the Managing Partner narrative accurate where presenting partner-group outcomes as individual decisions or ignoring shared governance may arise: attribute shared work and disclose only information the candidate may use. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Managing Partner example should separate direct responsibility from collaboration. Ask what guest-facing accommodation, food, venue, or experience services delivered through people and operations means at this particular Hospitality and Food Service organization and how it changes the priorities assigned to a Managing Partner.
 
 - Treat Hospitality and Food Service as one uniform employer type; distinguish the actual organization and role.
 - Use a Managing Partner title without explaining combine leadership responsibilities with the governance and professional context of a partnership.
@@ -59,7 +59,7 @@ Keep the Managing Partner narrative accurate where presenting partner-group outc
 
 ## Keep research, confidentiality, and outreach aligned
 
-Readers need to see what Managing Partner work involved; connect combine leadership responsibilities with the governance and professional context of a partnership with the candidate's own examples of partner-group mandate, management contribution, practice or business scope, and shared decisions in Hospitality and Food Service. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Managing Partner example should separate direct responsibility from collaboration. KOV can help a Managing Partner candidate organize an agreed search approach for Hospitality and Food Service, including documents such as partner biography, leadership resume, practice summary, and profile. For Managing Partner materials, manage the risk of presenting partner-group outcomes as individual decisions or ignoring shared governance; support claims with partner-group mandate, management contribution, practice or business scope, and shared decisions and remove details that are not authorized for sharing.
+Readers need to see what Managing Partner work involved; connect combine leadership responsibilities with the governance and professional context of a partnership with the candidate's own examples of partner-group mandate, management contribution, practice or business scope, and shared decisions in Hospitality and Food Service. A Managing Partner example should separate direct responsibility from collaboration. KOV can help a Managing Partner candidate organize an agreed search approach for Hospitality and Food Service, including documents such as partner biography, leadership resume, practice summary, and profile. For Managing Partner materials, manage the risk of presenting partner-group outcomes as individual decisions or ignoring shared governance; support claims with partner-group mandate, management contribution, practice or business scope, and shared decisions and remove details that are not authorized for sharing.
 
 ## Prepare for conversations about Hospitality and Food Service work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Managing Partner career hub](/roles/managing-partner/)
 
-Review the role-wide approach to combine leadership responsibilities with the governance and professional context of a partnership and the evidence expected for that scope.
+
 
 ### [Hospitality and Food Service industry hub](/industries/hospitality-food-service/)
 
-Compare how guest-facing accommodation, food, venue, or experience services delivered through people and operations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Hospitality and Food Service](/roles/ceo/hospitality-food-service.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Managing Partner remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Operating Officer in Hospitality and Food Service](/roles/coo/hospitality-food-service.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Managing Partner remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Managing Partner in Agriculture, Food and Forestry](/roles/managing-partner/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with guest-facing accommodation, food, venue, or experience services delivered through people and operations and identify how the Managing Partner remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Managing Partner clarify before considering work in Hospitality and Food Service?
 
-Use the opening discussion to understand the specific Hospitality and Food Service employer, not to assume a standard role. Compare combine leadership responsibilities with the governance and professional context of a partnership with the stated scope, identify decision partners among guests, employees, suppliers, owners, local partners, and service teams, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Hospitality and Food Service employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Managing Partner describe transferable experience for Hospitality and Food Service work?
 
@@ -143,7 +143,7 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### How can KOV and a Managing Partner plan contact with Hospitality and Food Service organizations?
 
-Outreach should follow target research, not precede it. The Managing Partner candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with partner-group mandate, management contribution, practice or business scope, and shared decisions is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How can a Managing Partner assess fit with Hospitality and Food Service responsibilities?
 

@@ -16,7 +16,7 @@ Where appropriate to the agreed service, KOV can help a Non-Executive Director c
 
 ## Documents that make Non-Executive Director experience relevant here
 
-Do not resolve uncertainty about confusing oversight with operational management or overstating independence through assumption; verify the requirement and use only supportable Non-Executive Director claims. Preparation for a Non-Executive Director conversation should address which services are in scope, whether delivery is internal or contracted, and how service priorities are agreed; relate the response to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements, not speculation about hiring. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Non-Executive Director position. A Non-Executive Director candidate should show how governance experience, constructive challenge, committee contribution, and relevant expertise supported the work to provide independent challenge and strategic contribution distinct from management, with the Business Support and Facilities setting made explicit.
+Do not resolve uncertainty about confusing oversight with operational management or overstating independence through assumption; verify the requirement and use only supportable Non-Executive Director claims. Not every Business Support and Facilities organization will handle service levels, cost and capacity decisions, vendor relationships, workplace needs, and continuity alike. Confirm how support services, workplace operations, facilities, administration, or outsourced capabilities informs this Non-Executive Director position. A Non-Executive Director candidate should show how governance experience, constructive challenge, committee contribution, and relevant expertise supported the work to provide independent challenge and strategic contribution distinct from management, with the Business Support and Facilities setting made explicit.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Non-Executive Director career hub](/roles/non-executive-director/)
 
-Review the role-wide approach to provide independent challenge and strategic contribution distinct from management and the evidence expected for that scope.
+
 
 ### [Business Support and Facilities industry hub](/industries/business-support-facilities/)
 
-Compare how support services, workplace operations, facilities, administration, or outsourced capabilities affects career planning across functions.
+
 
 ### [Chief Executive Officer in Business Support and Facilities](/roles/ceo/business-support-facilities.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Non-Executive Director remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Chief Operating Officer in Business Support and Facilities](/roles/coo/business-support-facilities.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Non-Executive Director remit; consider where each function meets support services, workplace operations, facilities, administration, or outsourced capabilities.
+
 
 ### [Non-Executive Director in Agriculture, Food and Forestry](/roles/non-executive-director/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with support services, workplace operations, facilities, administration, or outsourced capabilities and identify how the Non-Executive Director remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Non-Executive Director clarify before considering work in Business Support and Facilities?
 
-A Non-Executive Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's support services, workplace operations, facilities, administration, or outsourced capabilities. Explore how the role will provide independent challenge and strategic contribution distinct from management and what experience is considered relevant. A clear brief helps the candidate compare the position with personal goals and constraints.
+A Non-Executive Director candidate can test whether the opportunity fits by asking about authority, reporting, priorities, and the organization's support services, workplace operations, facilities, administration, or outsourced capabilities. A clear brief helps the candidate compare the position with personal goals and constraints.
 
 ### How should a Non-Executive Director describe transferable experience for Business Support and Facilities work?
 
@@ -139,7 +139,7 @@ Select examples that show governance experience, constructive challenge, committ
 
 ### How can a Non-Executive Director choose documents for conversations about Business Support and Facilities?
 
-Possible materials include board biography, non-executive profile, skills matrix, and governance resume. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to service portfolio, team or site scope, vendor coordination, customer feedback, and operational improvements. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
+Possible materials include board biography, non-executive profile, skills matrix, and governance resume. Each claim should be accurate for this Business Support and Facilities target, and confidential or unauthorized material should be omitted.
 
 ### How can KOV and a Non-Executive Director plan contact with Business Support and Facilities organizations?
 
@@ -147,11 +147,11 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Non-Executive Director assess fit with Business Support and Facilities responsibilities?
 
-No. Compare the role description with the candidate's experience of provide independent challenge and strategic contribution distinct from management and the organization's support services, workplace operations, facilities, administration, or outsourced capabilities. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What can KOV promise a Non-Executive Director candidate considering Business Support and Facilities?
 
-No. KOV can discuss agreed research, positioning, and approved outreach for a Non-Executive Director candidate considering Business Support and Facilities, but cannot promise a meeting or introduction. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
+No. The employer decides whether to respond or hire, and the candidate authorizes any external communication.
 
 ## Contact KOV
 

@@ -8,7 +8,7 @@ A precise Vice President of Marketing story ties market insight, team leadership
 
 ## Who this Vice President of Marketing and Hospitality and Food Service guide is for
 
-The Vice President of Marketing remit to lead marketing teams and align brand, customer, and commercial priorities should be described through decisions and examples, especially evidence of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence relevant to Hospitality and Food Service. An employer's Hospitality and Food Service model may involve guest-facing accommodation, food, venue, or experience services delivered through people and operations; its implications for guest experience, operating capacity, service consistency, workforce coordination, and supplier variability should be discussed, not presumed. Discuss venue or service scope, team leadership, guest context, service design, and attributable operating contributions with care: a Vice President of Marketing candidate can explain contribution while omitting confidential or identifying facts. The candidate decides whether to pursue a Vice President of Marketing opportunity. KOV can support agreed research and preparation concerning Hospitality and Food Service.
+The Vice President of Marketing remit to lead marketing teams and align brand, customer, and commercial priorities should be described through decisions and examples, especially evidence of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence relevant to Hospitality and Food Service. Discuss venue or service scope, team leadership, guest context, service design, and attributable operating contributions with care: a Vice President of Marketing candidate can explain contribution while omitting confidential or identifying facts. The candidate decides whether to pursue a Vice President of Marketing opportunity. KOV can support agreed research and preparation concerning Hospitality and Food Service.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -16,7 +16,7 @@ Research for a Vice President of Marketing in Hospitality and Food Service becom
 
 ## Documents that make Vice President of Marketing experience relevant here
 
-Keep the Vice President of Marketing narrative accurate where claiming campaign results without describing audience, contribution, and measurement context may arise: attribute shared work and disclose only information the candidate may use. Explain how CEO or CMO, sales, product, agencies, customers, and marketing teams contributed to the candidate's work and distinguish that shared context from evidence of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence. Not every Hospitality and Food Service organization will handle guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alike. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Vice President of Marketing position. To assess a Vice President of Marketing opportunity in Hospitality and Food Service, compare the stated remit to the candidate's record of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence.
+Keep the Vice President of Marketing narrative accurate where claiming campaign results without describing audience, contribution, and measurement context may arise: attribute shared work and disclose only information the candidate may use. Not every Hospitality and Food Service organization will handle guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alike. Confirm how guest-facing accommodation, food, venue, or experience services delivered through people and operations informs this Vice President of Marketing position. To assess a Vice President of Marketing opportunity in Hospitality and Food Service, compare the stated remit to the candidate's record of market insight, team leadership, portfolio decisions, channel mix, and attributable evidence.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ Keep the Vice President of Marketing narrative accurate where claiming campaign 
 
 ## Choose the individual services that fit the work
 
-Research for a Vice President of Marketing in Hospitality and Food Service becomes more focused when the candidate investigates guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alongside guest-facing accommodation, food, venue, or experience services delivered through people and operations. In Hospitality and Food Service, guests, employees, suppliers, owners, local partners, and service teams may shape the work. A Vice President of Marketing example should separate direct responsibility from collaboration. Candidate-side support from KOV may connect Vice President of Marketing positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Good preparation for Vice President of Marketing work includes a safe way to explain claiming campaign results without describing audience, contribution, and measurement context and a clear distinction between fact and inference.
+Research for a Vice President of Marketing in Hospitality and Food Service becomes more focused when the candidate investigates guest experience, operating capacity, service consistency, workforce coordination, and supplier variability alongside guest-facing accommodation, food, venue, or experience services delivered through people and operations. A Vice President of Marketing example should separate direct responsibility from collaboration. Candidate-side support from KOV may connect Vice President of Marketing positioning, relevant documents, and approved outreach, within the scope the candidate agrees. Good preparation for Vice President of Marketing work includes a safe way to explain claiming campaign results without describing audience, contribution, and measurement context and a clear distinction between fact and inference.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Vice President of Marketing career hub](/roles/vp-marketing/)
 
-Review the role-wide approach to lead marketing teams and align brand, customer, and commercial priorities and the evidence expected for that scope.
+
 
 ### [Hospitality and Food Service industry hub](/industries/hospitality-food-service/)
 
-Compare how guest-facing accommodation, food, venue, or experience services delivered through people and operations affects career planning across functions.
+
 
 ### [Chief Executive Officer in Hospitality and Food Service](/roles/ceo/hospitality-food-service.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Vice President of Marketing remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Chief Operating Officer in Hospitality and Food Service](/roles/coo/hospitality-food-service.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Vice President of Marketing remit; consider where each function meets guest-facing accommodation, food, venue, or experience services delivered through people and operations.
+
 
 ### [Vice President of Marketing in Retail and E-commerce](/roles/vp-marketing/retail-ecommerce.html)
 
-Compare customer-facing commerce through stores, digital channels, merchandising, service, and fulfillment with guest-facing accommodation, food, venue, or experience services delivered through people and operations and identify how the Vice President of Marketing remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Vice President of Marketing test the scope of work in Hospitality and Food Service?
 
-Start with the organization's account of guest-facing accommodation, food, venue, or experience services delivered through people and operations, then clarify how the Vice President of Marketing would lead marketing teams and align brand, customer, and commercial priorities. Ask how guests, employees, suppliers, owners, local partners, and service teams participate, which decisions are assigned to the role, and what evidence the employer wants to discuss. Record unanswered questions about location and working conditions before deciding whether to proceed.
+Start with the organization's account of guest-facing accommodation, food, venue, or experience services delivered through people and operations, then clarify how the Vice President of Marketing would lead marketing teams and align brand, customer, and commercial priorities. Record unanswered questions about location and working conditions before deciding whether to proceed.
 
 ### What evidence can a Vice President of Marketing use to explain experience in Hospitality and Food Service?
 
@@ -139,15 +139,15 @@ Describe an instance where the candidate could lead marketing teams and align br
 
 ### What documents should a Vice President of Marketing tailor for Hospitality and Food Service opportunities?
 
-Possible materials include executive resume, marketing portfolio, leadership summary, and profile. Choose the resume, biography, or supporting example that best explains the candidate's scope and relevance to venue or service scope, team leadership, guest context, service design, and attributable operating contributions. Each claim should be accurate for this Hospitality and Food Service target, and confidential or unauthorized material should be omitted.
+Possible materials include executive resume, marketing portfolio, leadership summary, and profile. Each claim should be accurate for this Hospitality and Food Service target, and confidential or unauthorized material should be omitted.
 
 ### Which outreach choices belong to a Vice President of Marketing considering Hospitality and Food Service?
 
-First define the target and recipient, then agree the message and what may be disclosed. KOV can discuss research or outreach where included in the Vice President of Marketing candidate's service scope; the candidate approves external communication. No one route should be assumed for all Hospitality and Food Service employers.
+First define the target and recipient, then agree the message and what may be disclosed. No one route should be assumed for all Hospitality and Food Service employers.
 
 ### Can a Vice President of Marketing rely on title alone when targeting Hospitality and Food Service?
 
-No. Compare the role description with the candidate's experience of lead marketing teams and align brand, customer, and commercial priorities and the organization's guest-facing accommodation, food, venue, or experience services delivered through people and operations. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Vice President of Marketing seeking work in Hospitality and Food Service?
 

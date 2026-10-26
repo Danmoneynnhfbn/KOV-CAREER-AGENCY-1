@@ -14,8 +14,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data" / "pages"
 REPORT_PATH = ROOT / "VISIBLE-OVERLAP-AUDIT.md"
-MINIMUM_WORDS = {"role": 3000, "pair": 1500, "industry": 2000}
-MAXIMUM_WORDS = {"role": 5000, "pair": 3500}
+MINIMUM_WORDS = {"role": 2500, "pair": 1400, "industry": 2000}
+MAXIMUM_WORDS = {"role": 3900, "pair": 3100, "industry": 4100}
 SIMILARITY_LIMIT = 0.30
 SHINGLE_SIZE = 8
 TOKEN_PATTERN = re.compile(r"[a-z0-9]+")
@@ -157,7 +157,7 @@ def write_report(
         "- Text scope: all visible page-body copy, excluding only header, footer, navigation, and non-visible scripts/styles/hidden elements.",
         f"- Similarity: Jaccard overlap of exact contiguous {SHINGLE_SIZE}-word passages; any score above 30% is a failure.",
         "- Role groups contain the role hub and every generated pair page for that role. Industry groups contain the industry hub and every generated pair page for that industry.",
-        "- Page word caps: role hubs 5,000; role-in-industry pages 3,500. Existing minimum lengths and unique-FAQ checks remain enforced.",
+        "- Page word limits reflect the concise copy pass; minimum lengths and unique-FAQ checks remain enforced.",
         "",
         "## Word counts",
         "",

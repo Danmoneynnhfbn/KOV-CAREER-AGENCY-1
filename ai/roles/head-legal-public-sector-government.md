@@ -12,11 +12,11 @@ To assess a Head of Legal opportunity in Public Sector and Government, compare t
 
 ## A candidate-led process from first discussion to next steps
 
-For Head of Legal work in Public Sector and Government, explain how the candidate could lead a legal function or specialist team and advise on decisions within its remit; connect that mandate to evidence of advisory scope, team structure, work management, risk judgment, and stakeholder partnership. Treat public administration, public programs, or services delivered under a public mandate as a question to validate in Public Sector and Government; the answer helps clarify the Head of Legal mandate and its public purpose, stewardship, transparency, service access, and coordination across institutions. Map the Public Sector and Government relationships among residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders; verify actual authority instead of inferring a reporting line. The candidate decides whether to pursue a Head of Legal opportunity. KOV can support agreed research and preparation concerning Public Sector and Government.
+For Head of Legal work in Public Sector and Government, explain how the candidate could lead a legal function or specialist team and advise on decisions within its remit; connect that mandate to evidence of advisory scope, team structure, work management, risk judgment, and stakeholder partnership. Map the Public Sector and Government relationships among residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders; verify actual authority instead of inferring a reporting line. The candidate decides whether to pursue a Head of Legal opportunity. KOV can support agreed research and preparation concerning Public Sector and Government.
 
 ## Documents that make Head of Legal experience relevant here
 
-A Head of Legal candidate should show how advisory scope, team structure, work management, risk judgment, and stakeholder partnership supported the work to lead a legal function or specialist team and advise on decisions within its remit, with the Public Sector and Government setting made explicit. Not every Public Sector and Government organization will handle public purpose, stewardship, transparency, service access, and coordination across institutions alike. Confirm how public administration, public programs, or services delivered under a public mandate informs this Head of Legal position. The candidate decides whether to pursue a Head of Legal opportunity. KOV can support agreed research and preparation concerning Public Sector and Government. Do not resolve uncertainty about sharing privileged material or implying that legal advice alone owned business decisions through assumption; verify the requirement and use only supportable Head of Legal claims.
+A Head of Legal candidate should show how advisory scope, team structure, work management, risk judgment, and stakeholder partnership supported the work to lead a legal function or specialist team and advise on decisions within its remit, with the Public Sector and Government setting made explicit. The candidate decides whether to pursue a Head of Legal opportunity. KOV can support agreed research and preparation concerning Public Sector and Government. Do not resolve uncertainty about sharing privileged material or implying that legal advice alone owned business decisions through assumption; verify the requirement and use only supportable Head of Legal claims.
 
 | Document | Emphasis for this target | Review before sharing |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ A Head of Legal candidate should show how advisory scope, team structure, work m
 
 ## Choose the individual services that fit the work
 
-A candidate exploring Public Sector and Government should test the assumed link between public administration, public programs, or services delivered under a public mandate and public purpose, stewardship, transparency, service access, and coordination across institutions against the actual Head of Legal role description. In Public Sector and Government, residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders may shape the work. A Head of Legal example should separate direct responsibility from collaboration. A consultation can clarify whether a Head of Legal candidate needs positioning, document support, target research, or approved outreach for Public Sector and Government. Do not resolve uncertainty about sharing privileged material or implying that legal advice alone owned business decisions through assumption; verify the requirement and use only supportable Head of Legal claims.
+A candidate exploring Public Sector and Government should test the assumed link between public administration, public programs, or services delivered under a public mandate and public purpose, stewardship, transparency, service access, and coordination across institutions against the actual Head of Legal role description. A Head of Legal example should separate direct responsibility from collaboration. A consultation can clarify whether a Head of Legal candidate needs positioning, document support, target research, or approved outreach for Public Sector and Government. Do not resolve uncertainty about sharing privileged material or implying that legal advice alone owned business decisions through assumption; verify the requirement and use only supportable Head of Legal claims.
 
 ### [Private career representation](/services.html)
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Legal career hub](/roles/head-legal/)
 
-Review the role-wide approach to lead a legal function or specialist team and advise on decisions within its remit and the evidence expected for that scope.
+
 
 ### [Public Sector and Government industry hub](/industries/public-sector-government/)
 
-Compare how public administration, public programs, or services delivered under a public mandate affects career planning across functions.
+
 
 ### [Chief Executive Officer in Public Sector and Government](/roles/ceo/public-sector-government.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Legal remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Chief Operating Officer in Public Sector and Government](/roles/coo/public-sector-government.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Legal remit; consider where each function meets public administration, public programs, or services delivered under a public mandate.
+
 
 ### [Head of Legal in Technology, Media and Telecom](/roles/head-legal/technology-media-telecom.html)
 
-Compare digital products, platforms, content, communications, or technology-enabled services with public administration, public programs, or services delivered under a public mandate and identify how the Head of Legal remit changes.
+
 
 ## Frequently asked questions
 
 ### How can a Head of Legal test the scope of work in Public Sector and Government?
 
-Use the opening discussion to understand the specific Public Sector and Government employer, not to assume a standard role. Compare lead a legal function or specialist team and advise on decisions within its remit with the stated scope, identify decision partners among residents, service users, elected or appointed leaders, public employees, partners, and oversight stakeholders, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Public Sector and Government employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### What evidence can a Head of Legal use to explain experience in Public Sector and Government?
 
@@ -139,15 +139,15 @@ Select examples that show advisory scope, team structure, work management, risk 
 
 ### What documents should a Head of Legal tailor for Public Sector and Government opportunities?
 
-Document selection depends on the opportunity. A Head of Legal may draw from legal leadership resume, practice biography, role summary, and discreet examples, but should foreground only material connected to program or service scope, stakeholder communication, team leadership, resource decisions, and public-purpose context. Keep the account consistent across versions and adjust emphasis without changing facts.
+Document selection depends on the opportunity. Keep the account consistent across versions and adjust emphasis without changing facts.
 
 ### Which outreach choices belong to a Head of Legal considering Public Sector and Government?
 
-Outreach should follow target research, not precede it. The Head of Legal candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with advisory scope, team structure, work management, risk judgment, and stakeholder partnership is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### Can a Head of Legal rely on title alone when targeting Public Sector and Government?
 
-No. Compare the role description with the candidate's experience of lead a legal function or specialist team and advise on decisions within its remit and the organization's public administration, public programs, or services delivered under a public mandate. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### What outcome can KOV guarantee for a Head of Legal seeking work in Public Sector and Government?
 

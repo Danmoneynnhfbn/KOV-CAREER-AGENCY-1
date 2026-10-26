@@ -8,11 +8,11 @@ Show the Head of Legal scope behind the title: how the candidate could lead a le
 
 ## Who this Head of Legal and Legal Services guide is for
 
-Protect credibility in Legal Services by addressing sharing privileged material or implying that legal advice alone owned business decisions with a factual account of advisory scope, team structure, work management, risk judgment, and stakeholder partnership and its limits. The candidate decides whether to pursue a Head of Legal opportunity. KOV can support agreed research and preparation concerning Legal Services. Map the Legal Services relationships among clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities; verify actual authority instead of inferring a reporting line. Use legal advice, representation, transactions, dispute work, or related professional services to frame research about Legal Services, then ask how a Head of Legal will work through professional judgment, client service, confidentiality, practice operations, and shared leadership.
+Protect credibility in Legal Services by addressing sharing privileged material or implying that legal advice alone owned business decisions with a factual account of advisory scope, team structure, work management, risk judgment, and stakeholder partnership and its limits. KOV can support agreed research and preparation concerning Legal Services. Map the Legal Services relationships among clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities; verify actual authority instead of inferring a reporting line. Use legal advice, representation, transactions, dispute work, or related professional services to frame research about Legal Services, then ask how a Head of Legal will work through professional judgment, client service, confidentiality, practice operations, and shared leadership.
 
 ## A candidate-led process from first discussion to next steps
 
-Show the Head of Legal scope behind the title: how the candidate could lead a legal function or specialist team and advise on decisions within its remit, which decisions mattered, and where advisory scope, team structure, work management, risk judgment, and stakeholder partnership demonstrates their contribution. The Legal Services context involves legal advice, representation, transactions, dispute work, or related professional services; examine how that structure affects professional judgment, client service, confidentiality, practice operations, and shared leadership before drawing conclusions about the Head of Legal role. The candidate decides whether to pursue a Head of Legal opportunity. KOV can support agreed research and preparation concerning Legal Services. Keep the Head of Legal narrative accurate where sharing privileged material or implying that legal advice alone owned business decisions may arise: attribute shared work and disclose only information the candidate may use.
+Show the Head of Legal scope behind the title: how the candidate could lead a legal function or specialist team and advise on decisions within its remit, which decisions mattered, and where advisory scope, team structure, work management, risk judgment, and stakeholder partnership demonstrates their contribution. The candidate decides whether to pursue a Head of Legal opportunity. KOV can support agreed research and preparation concerning Legal Services. Keep the Head of Legal narrative accurate where sharing privileged material or implying that legal advice alone owned business decisions may arise: attribute shared work and disclose only information the candidate may use.
 
 ## Documents that make Head of Legal experience relevant here
 
@@ -49,7 +49,7 @@ For Head of Legal materials, manage the risk of sharing privileged material or i
 
 ## Common positioning mistakes for Head of Legal candidates in Legal Services
 
-Good preparation for Head of Legal work includes a safe way to explain sharing privileged material or implying that legal advice alone owned business decisions and a clear distinction between fact and inference. The candidate decides whether to pursue a Head of Legal opportunity. KOV can support agreed research and preparation concerning Legal Services. To understand the Legal Services target, explore legal advice, representation, transactions, dispute work, or related professional services and ask how a Head of Legal is expected to respond to professional judgment, client service, confidentiality, practice operations, and shared leadership. A precise Head of Legal story ties advisory scope, team structure, work management, risk judgment, and stakeholder partnership to the mandate of lead a legal function or specialist team and advise on decisions within its remit, without suggesting that the title alone establishes fit.
+Good preparation for Head of Legal work includes a safe way to explain sharing privileged material or implying that legal advice alone owned business decisions and a clear distinction between fact and inference. KOV can support agreed research and preparation concerning Legal Services. To understand the Legal Services target, explore legal advice, representation, transactions, dispute work, or related professional services and ask how a Head of Legal is expected to respond to professional judgment, client service, confidentiality, practice operations, and shared leadership. A precise Head of Legal story ties advisory scope, team structure, work management, risk judgment, and stakeholder partnership to the mandate of lead a legal function or specialist team and advise on decisions within its remit, without suggesting that the title alone establishes fit.
 
 - Treat Legal Services as one uniform employer type; distinguish the actual organization and role.
 - Use a Head of Legal title without explaining lead a legal function or specialist team and advise on decisions within its remit.
@@ -59,7 +59,7 @@ Good preparation for Head of Legal work includes a safe way to explain sharing p
 
 ## Keep research, confidentiality, and outreach aligned
 
-Readers need to see what Head of Legal work involved; connect lead a legal function or specialist team and advise on decisions within its remit with the candidate's own examples of advisory scope, team structure, work management, risk judgment, and stakeholder partnership in Legal Services. In Legal Services, clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities may shape the work. A Head of Legal example should separate direct responsibility from collaboration. KOV works with the candidate to agree which Head of Legal targets matter, how legal leadership resume, practice biography, role summary, and discreet examples will be used, and whether communication is authorized. A Head of Legal candidate should be ready to explain sharing privileged material or implying that legal advice alone owned business decisions without revealing confidential details or implying unsupported responsibility.
+Readers need to see what Head of Legal work involved; connect lead a legal function or specialist team and advise on decisions within its remit with the candidate's own examples of advisory scope, team structure, work management, risk judgment, and stakeholder partnership in Legal Services. A Head of Legal example should separate direct responsibility from collaboration. KOV works with the candidate to agree which Head of Legal targets matter, how legal leadership resume, practice biography, role summary, and discreet examples will be used, and whether communication is authorized. A Head of Legal candidate should be ready to explain sharing privileged material or implying that legal advice alone owned business decisions without revealing confidential details or implying unsupported responsibility.
 
 ## Prepare for conversations about Legal Services work
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Head of Legal career hub](/roles/head-legal/)
 
-Review the role-wide approach to lead a legal function or specialist team and advise on decisions within its remit and the evidence expected for that scope.
+
 
 ### [Legal Services industry hub](/industries/legal-services/)
 
-Compare how legal advice, representation, transactions, dispute work, or related professional services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Legal Services](/roles/ceo/legal-services.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Head of Legal remit; consider where each function meets legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Chief Operating Officer in Legal Services](/roles/coo/legal-services.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Head of Legal remit; consider where each function meets legal advice, representation, transactions, dispute work, or related professional services.
+
 
 ### [Head of Legal in Technology, Media and Telecom](/roles/head-legal/technology-media-telecom.html)
 
-Compare digital products, platforms, content, communications, or technology-enabled services with legal advice, representation, transactions, dispute work, or related professional services and identify how the Head of Legal remit changes.
+
 
 ## Frequently asked questions
 
 ### What should a Head of Legal clarify before considering work in Legal Services?
 
-Use the opening discussion to understand the specific Legal Services employer, not to assume a standard role. Compare lead a legal function or specialist team and advise on decisions within its remit with the stated scope, identify decision partners among clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Legal Services employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### How should a Head of Legal describe transferable experience for Legal Services work?
 
@@ -147,7 +147,7 @@ Consider the specific organization, the candidate's preferences, and the agreed 
 
 ### How can a Head of Legal assess fit with Legal Services responsibilities?
 
-Title is only a label. Establish what the employer means by Head of Legal in this Legal Services organization and how the person will work with clients, lawyers, professional staff, partners or owners, business leaders, and relevant authorities. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
+Title is only a label. Then assess the candidate's evidence against the actual responsibilities and decision boundaries.
 
 ### What can KOV promise a Head of Legal candidate considering Legal Services?
 

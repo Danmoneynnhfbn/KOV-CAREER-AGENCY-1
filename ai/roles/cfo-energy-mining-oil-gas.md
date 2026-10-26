@@ -4,11 +4,11 @@ KOV helps Chief Financial Officer candidates considering roles connected to Ener
 
 ## How Chief Financial Officer work connects with Energy, Mining and Oil and Gas
 
-For Chief Financial Officer materials, manage the risk of presenting financial outcomes without context, attribution, or permission to disclose; support claims with financial leadership scope, planning, controls, capital or resource choices, and communication and remove details that are not authorized for sharing. In Energy, Mining and Oil and Gas, asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders may shape the work. A Chief Financial Officer example should separate direct responsibility from collaboration. Use asset-intensive work spanning development, extraction, generation, processing, or energy services to frame research about Energy, Mining and Oil and Gas, then ask how a Chief Financial Officer will work through long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand. The Chief Financial Officer remit to lead financial stewardship and connect resource decisions to organizational priorities should be described through decisions and examples, especially evidence of financial leadership scope, planning, controls, capital or resource choices, and communication relevant to Energy, Mining and Oil and Gas.
+For Chief Financial Officer materials, manage the risk of presenting financial outcomes without context, attribution, or permission to disclose; support claims with financial leadership scope, planning, controls, capital or resource choices, and communication and remove details that are not authorized for sharing. A Chief Financial Officer example should separate direct responsibility from collaboration. Use asset-intensive work spanning development, extraction, generation, processing, or energy services to frame research about Energy, Mining and Oil and Gas, then ask how a Chief Financial Officer will work through long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand. The Chief Financial Officer remit to lead financial stewardship and connect resource decisions to organizational priorities should be described through decisions and examples, especially evidence of financial leadership scope, planning, controls, capital or resource choices, and communication relevant to Energy, Mining and Oil and Gas.
 
 ## Who this Chief Financial Officer and Energy, Mining and Oil and Gas guide is for
 
-For Chief Financial Officer materials, manage the risk of presenting financial outcomes without context, attribution, or permission to disclose; support claims with financial leadership scope, planning, controls, capital or resource choices, and communication and remove details that are not authorized for sharing. Use an example involving project and asset scope, operating discipline, risk communication, workforce leadership, and substantiated delivery outcomes to describe the decision, the parties involved, and the candidate's role as a Chief Financial Officer. Not every Energy, Mining and Oil and Gas organization will handle long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand alike. Confirm how asset-intensive work spanning development, extraction, generation, processing, or energy services informs this Chief Financial Officer position. For Chief Financial Officer work in Energy, Mining and Oil and Gas, explain how the candidate could lead financial stewardship and connect resource decisions to organizational priorities; connect that mandate to evidence of financial leadership scope, planning, controls, capital or resource choices, and communication.
+For Chief Financial Officer materials, manage the risk of presenting financial outcomes without context, attribution, or permission to disclose; support claims with financial leadership scope, planning, controls, capital or resource choices, and communication and remove details that are not authorized for sharing. Not every Energy, Mining and Oil and Gas organization will handle long-lived assets, capital choices, operational continuity, workforce coordination, and changing demand alike. Confirm how asset-intensive work spanning development, extraction, generation, processing, or energy services informs this Chief Financial Officer position. For Chief Financial Officer work in Energy, Mining and Oil and Gas, explain how the candidate could lead financial stewardship and connect resource decisions to organizational priorities; connect that mandate to evidence of financial leadership scope, planning, controls, capital or resource choices, and communication.
 
 ## A candidate-led process from first discussion to next steps
 
@@ -109,29 +109,29 @@ Adjacent functions may share stakeholders, but the candidate should test each re
 
 ### [Chief Financial Officer career hub](/roles/cfo/)
 
-Review the role-wide approach to lead financial stewardship and connect resource decisions to organizational priorities and the evidence expected for that scope.
+
 
 ### [Energy, Mining and Oil and Gas industry hub](/industries/energy-mining-oil-gas/)
 
-Compare how asset-intensive work spanning development, extraction, generation, processing, or energy services affects career planning across functions.
+
 
 ### [Chief Executive Officer in Energy, Mining and Oil and Gas](/roles/ceo/energy-mining-oil-gas.html)
 
-Contrast set organization-wide direction and coordinate executive work with the Chief Financial Officer remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Operating Officer in Energy, Mining and Oil and Gas](/roles/coo/energy-mining-oil-gas.html)
 
-Contrast align operating functions, delivery systems, and organizational priorities with the Chief Financial Officer remit; consider where each function meets asset-intensive work spanning development, extraction, generation, processing, or energy services.
+
 
 ### [Chief Financial Officer in Agriculture, Food and Forestry](/roles/cfo/agriculture-food-forestry.html)
 
-Compare production linked to land, biological cycles, processing, and supply relationships with asset-intensive work spanning development, extraction, generation, processing, or energy services and identify how the Chief Financial Officer remit changes.
+
 
 ## Frequently asked questions
 
 ### Which questions should a Chief Financial Officer resolve before a target discussion in Energy, Mining and Oil and Gas?
 
-Use the opening discussion to understand the specific Energy, Mining and Oil and Gas employer, not to assume a standard role. Compare lead financial stewardship and connect resource decisions to organizational priorities with the stated scope, identify decision partners among asset owners, technical teams, contractors, customers, communities, investors, and oversight stakeholders, and ask what outcomes the candidate would be expected to influence. KOV can help organize this preparation within an agreed service.
+Use the opening discussion to understand the specific Energy, Mining and Oil and Gas employer, not to assume a standard role. KOV can help organize this preparation within an agreed service.
 
 ### Which parts of a Chief Financial Officer career story fit the needs of Energy, Mining and Oil and Gas?
 
@@ -143,11 +143,11 @@ Begin with the candidate's accurate career record, then decide whether a resume,
 
 ### What should a Chief Financial Officer approve before outreach in Energy, Mining and Oil and Gas?
 
-Outreach should follow target research, not precede it. The Chief Financial Officer candidate and KOV can agree whether contact is suitable, who may receive it, and how the candidate's experience with financial leadership scope, planning, controls, capital or resource choices, and communication is presented. The candidate retains approval of any external message.
+Outreach should follow target research, not precede it. The candidate retains approval of any external message.
 
 ### How should a Chief Financial Officer compare title and remit in Energy, Mining and Oil and Gas?
 
-No. Compare the role description with the candidate's experience of lead financial stewardship and connect resource decisions to organizational priorities and the organization's asset-intensive work spanning development, extraction, generation, processing, or energy services. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
+No. A familiar title may cover a different mandate, so confirm authority, stakeholders, and expected contribution before judging whether the experience fits.
 
 ### Will KOV secure a meeting for a Chief Financial Officer with an employer in Energy, Mining and Oil and Gas?
 
