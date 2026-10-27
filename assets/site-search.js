@@ -60,12 +60,56 @@
     'healthcare-executive-search.html',
     'executive-hiring-fintech.html',
   ]);
-  pages.splice(
-    0,
-    pages.length,
-    ...pages.filter((page) => !movedLandingPages.has(page.href)),
-    ...(window.kovSeoPageCatalog || [])
-  );
+  const basePages = pages.filter((page) => !movedLandingPages.has(page.href));
+  pages.splice(0, pages.length, ...basePages);
+  let catalogPromise;
+  let catalogMerged = false;
+
+  function mergePageCatalog() {
+    if (catalogMerged) return;
+    if (!Array.isArray(window.kovSeoPageCatalog)) {
+      throw new Error('The KOV page catalog did not initialize.');
+    }
+    pages.splice(0, pages.length, ...basePages, ...window.kovSeoPageCatalog);
+    catalogMerged = true;
+  }
+
+  function loadPageCatalog() {
+    if (Array.isArray(window.kovSeoPageCatalog)) {
+      mergePageCatalog();
+      return Promise.resolve();
+    }
+    if (!catalogPromise) {
+      catalogPromise = new Promise((resolve, reject) => {
+        const catalogScript = document.querySelector('script[src*="site-search-index.js"]') ||
+          document.createElement('script');
+        const isNewScript = !catalogScript.isConnected;
+        const onLoad = () => {
+          try {
+            mergePageCatalog();
+            resolve();
+          } catch (error) {
+            reject(error);
+          }
+        };
+        catalogScript.addEventListener('load', onLoad, { once: true });
+        catalogScript.addEventListener('error', () => {
+          catalogScript.remove();
+          reject(new Error(`Failed to load the KOV page catalog: ${catalogScript.src}`));
+        }, { once: true });
+        if (isNewScript) {
+          catalogScript.src = new URL('assets/site-search-index.js', location.origin).href;
+          catalogScript.async = true;
+          document.head.append(catalogScript);
+        }
+      }).catch((error) => {
+        catalogPromise = null;
+        throw error;
+      });
+    }
+    return catalogPromise;
+  }
+
   const categoryLabels = new Map([
     ['services', 'Core services'],
     ['markets', 'Geography and markets'],
@@ -111,6 +155,33 @@
 
     menu.append(summary, panel);
     return menu;
+  }
+
+  function addPageTopicNavigation() {
+    const header = document.querySelector('.two-sided-page > header, .min-h-screen header, body > header, header');
+    if (!header || !window.kovSeoPageCatalog?.length) return;
+
+    const navigation = header.querySelector('.kov-nav') || [...header.querySelectorAll('nav')].find((nav) =>
+      !nav.classList.contains('kov-mobile-nav') &&
+      !nav.classList.contains('site-mobile-menu-nav') &&
+      !nav.closest('.site-mobile-menu')
+    );
+    if (navigation && !navigation.querySelector('.kov-topic-nav')) {
+      const desktopNavigation = makePageNavigation(false);
+      const topicAction = navigation.querySelector('.kov-nav-cta, a[href="contact.html"]');
+      navigation.insertBefore(desktopNavigation, topicAction || null);
+    }
+
+    const mobileNavigation = header.querySelector(
+      '.seo-mobile-menu nav, .site-mobile-menu-nav, .kov-mobile-nav, [data-mobile-menu-nav]'
+    ) || document.querySelector(
+      '.seo-mobile-menu nav, .site-mobile-menu-nav, .kov-mobile-nav, [data-mobile-menu-nav]'
+    );
+    if (mobileNavigation && !mobileNavigation.querySelector('.kov-topic-nav')) {
+      const mobileMenu = makePageNavigation(true);
+      const mobileAction = mobileNavigation.querySelector('a[href="contact.html"], .kov-nav-cta');
+      mobileNavigation.insertBefore(mobileMenu, mobileAction || null);
+    }
   }
 
   function normalizeLegacyFooter() {
@@ -289,7 +360,9 @@
 
   function loadPageIndex() {
     if (!pageIndexPromise) {
-      pageIndexPromise = location.protocol === 'file:' ? Promise.resolve() : Promise.all(pages.map(async (page) => {
+      pageIndexPromise = location.protocol === 'file:'
+        ? Promise.resolve()
+        : loadPageCatalog().then(() => Promise.all(pages.map(async (page) => {
         try {
           const response = await fetch(localPageHref(page.href), { credentials: 'same-origin' });
           if (!response.ok) return;
@@ -303,7 +376,7 @@
         } catch (error) {
           return;
         }
-      }));
+      })));
     }
     return pageIndexPromise;
   }
@@ -475,14 +548,17 @@
 
   function openSearch(trigger) {
     activeTrigger = trigger;
-    indexCurrentPage();
     renderResults('');
     if (typeof dialog.showModal === 'function') dialog.showModal();
     else dialog.setAttribute('open', '');
     window.requestAnimationFrame(() => input.focus());
     status.textContent = 'Indexing page content...';
     loadPageIndex().then(() => {
+      indexCurrentPage();
       if (dialog.open) renderResults(input.value);
+    }).catch((error) => {
+      console.error('Unable to load KOV search content:', error);
+      if (dialog.open) status.textContent = 'Search content could not be loaded. Please try again.';
     });
   }
 
@@ -532,7 +608,6 @@
   }
 
   normalizeLegacyFooter();
-  addFooterCategories();
 
   closeButton.addEventListener('click', () => dialog.close());
   dialog.addEventListener('click', (event) => {
