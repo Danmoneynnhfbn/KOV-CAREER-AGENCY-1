@@ -10,6 +10,7 @@ from urllib.parse import urlsplit
 from xml.etree import ElementTree
 
 BASE_URL = "https://www.kovcareeragency.org"
+DATA_CATALOG_URL = f"{BASE_URL}/datasets/catalog.jsonld"
 SITEMAP_NAMESPACE = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 SERVICE_CATEGORIES = {"services", "markets", "roles", "industries"}
 
@@ -43,6 +44,31 @@ def upsert_link(source: str, rel: str, href: str) -> str:
     )
 
 
+def upsert_catalog_link(source: str) -> str:
+    for match in re.finditer(r"<link\b[^>]*>", source, re.I):
+        tag = match.group(0)
+        rel_match = re.search(r'\brel\s*=\s*(["\'])(.*?)\1', tag, re.I | re.S)
+        type_match = re.search(r'\btype\s*=\s*(["\'])(.*?)\1', tag, re.I | re.S)
+        if (
+            rel_match
+            and rel_match.group(2).lower() == "alternate"
+            and type_match
+            and type_match.group(2).lower() == "application/ld+json"
+        ):
+            updated = replace_attribute(tag, "href", DATA_CATALOG_URL)
+            return source[:match.start()] + updated + source[match.end():]
+    return re.sub(
+        r"</head>",
+        (
+            '  <link rel="alternate" type="application/ld+json" '
+            f'href="{DATA_CATALOG_URL}">\n</head>'
+        ),
+        source,
+        count=1,
+        flags=re.I,
+    )
+
+
 def upsert_meta(source: str, attribute: str, key: str, content: str) -> str:
     pattern = re.compile(r"<meta\b[^>]*>", re.I)
     for match in pattern.finditer(source):
@@ -60,7 +86,7 @@ def upsert_meta(source: str, attribute: str, key: str, content: str) -> str:
 
 def canonical_url(location: str) -> str:
     parsed = urlsplit(location)
-    if parsed.scheme != "https" or parsed.netloc.lower() != "kovcareeragency.org":
+    if parsed.scheme != "https" or parsed.netloc.lower() != "www.kovcareeragency.org":
         raise ValueError(f"Unexpected sitemap URL: {location}")
     return f"{BASE_URL}{parsed.path or '/'}"
 
@@ -178,6 +204,7 @@ def page_schema(
         "about": {"@id": f"{BASE_URL}/#organization"},
         "publisher": {"@id": f"{BASE_URL}/#organization"},
         "breadcrumb": {"@id": f"{page_url}#breadcrumb"},
+        "mentions": {"@id": f"{DATA_CATALOG_URL}#catalog"},
     }
 
     if page_type == "FAQPage":
@@ -246,6 +273,7 @@ def normalize_page(path: Path, relative_path: str, page_url: str, dry_run: bool)
     faqs = extract_visible_faqs(source) if relative_path == "faqs.html" else []
 
     updated = upsert_link(source, "canonical", page_url)
+    updated = upsert_catalog_link(updated)
     for key, value in (
         ("og:type", "website"),
         ("og:site_name", "KOV Career Agency"),

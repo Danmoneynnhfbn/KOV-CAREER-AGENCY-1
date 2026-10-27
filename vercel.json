@@ -7,6 +7,8 @@
       "config": {
         "includeFiles": [
           "**/*.{html,xml,css,js,png,jpg,jpeg,webp,gif,svg,ico}",
+          "datasets/*.json",
+          "datasets/*.jsonld",
           ".private_admin/blogpostcheck.html",
           "llms.txt",
           "robots.txt"

@@ -93,6 +93,12 @@ KOV agrees scope, markets, deliverables, fees, approvals, and reporting before w
 - [Why KOV Career Agency](https://www.kovcareeragency.org/resources/why-kov-approach.html): Understand KOV's founder-led model, research-first approach, distinct candidate and employer services, and agreed engagement scope.
 - [Contact KOV Career Agency](https://www.kovcareeragency.org/resources/contact-kov.html): Contact KOV Career Agency to discuss private executive career support or global talent sourcing and agree a suitable next step.
 
+## Data catalog
+
+- [KOV data catalog](https://www.kovcareeragency.org/datasets/catalog.jsonld): Shared JSON-LD catalog and complete linked job-title and occupation feeds. The supplied city/town records are catalogued but not redistributed because the supplied license prohibits public bulk exposure without written permission. No institution dataset was present in the supplied files.
+- [Job titles dataset](https://www.kovcareeragency.org/datasets/job-titles.json): Complete supplied list; 73,380 records. Source/license attribution was not included in the source file.
+- [Occupations dataset](https://www.kovcareeragency.org/datasets/occupations.json): Complete supplied list; 1,155 records. Source/license attribution was not included in the source file.
+
 ## Entity
 
 - Organization: KOV Career Agency

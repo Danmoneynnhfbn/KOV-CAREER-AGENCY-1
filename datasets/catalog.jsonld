@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "DataCatalog",
+      "@id": "https://www.kovcareeragency.org/datasets/catalog.jsonld#catalog",
+      "name": "KOV Career Agency data catalog",
+      "url": "https://www.kovcareeragency.org/datasets/catalog.jsonld",
+      "description": "Catalog of supplied geographic and occupational data. The city source is described but not distributed; no institution dataset was present in the supplied project files.",
+      "dataset": [
+        {
+          "@id": "https://www.kovcareeragency.org/datasets/catalog.jsonld#cities-and-towns"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/datasets/catalog.jsonld#job-titles"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/datasets/catalog.jsonld#occupations"
+        }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://www.kovcareeragency.org/datasets/catalog.jsonld#cities-and-towns",
+      "name": "Cities and towns source data (not publicly distributed)",
+      "description": "The supplied source contains 50,250 records with unique IDs. Its accompanying Simplemaps/Pareto license prohibits public bulk redistribution without prior written permission, so no record feed is provided.",
+      "isPartOf": {
+        "@id": "https://www.kovcareeragency.org/datasets/catalog.jsonld#catalog"
+      },
+      "numberOfItems": 50250,
+      "citation": "Pareto Software, LLC (Simplemaps) source-data license, effective February 5, 2026.",
+      "variableMeasured": [
+        "city",
+        "country",
+        "iso2",
+        "iso3",
+        "admin_name",
+        "lat",
+        "lng"
+      ],
+      "conditionsOfAccess": "Complete records are withheld from public distribution under the supplied license. Written redistribution permission is required."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://www.kovcareeragency.org/datasets/catalog.jsonld#job-titles",
+      "name": "Supplied job titles",
+      "description": "Complete job-title list from the supplied project file job-titles.txt. The file did not include source attribution or license metadata.",
+      "isPartOf": {
+        "@id": "https://www.kovcareeragency.org/datasets/catalog.jsonld#catalog"
+      },
+      "numberOfItems": 73380,
+      "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.kovcareeragency.org/datasets/job-titles.json",
+        "encodingFormat": "application/json"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://www.kovcareeragency.org/datasets/catalog.jsonld#occupations",
+      "name": "Supplied occupations",
+      "description": "Complete occupations list from the supplied project file occupations.csv. The file did not include source attribution or license metadata.",
+      "isPartOf": {
+        "@id": "https://www.kovcareeragency.org/datasets/catalog.jsonld#catalog"
+      },
+      "numberOfItems": 1155,
+      "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.kovcareeragency.org/datasets/occupations.json",
+        "encodingFormat": "application/json"
+      }
+    }
+  ]
+}

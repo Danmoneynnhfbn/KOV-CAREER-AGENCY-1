@@ -43,6 +43,28 @@ class BackendApiTests(unittest.TestCase):
         self.assertEqual(self.client.get("/blogpostcheck.html").status_code, 404)
         self.assertEqual(self.client.get("/.private_admin/blogpostcheck.html").status_code, 404)
 
+    def test_public_dataset_feeds_hide_unlicensed_source_files(self) -> None:
+        catalog = self.client.get("/datasets/catalog.jsonld")
+        job_titles = self.client.get("/datasets/job-titles.json")
+        occupations = self.client.get("/datasets/occupations.json")
+
+        self.assertEqual(catalog.status_code, 200)
+        self.assertEqual(catalog.headers["content-type"], "application/ld+json")
+        self.assertEqual(job_titles.status_code, 200)
+        self.assertEqual(occupations.status_code, 200)
+        self.assertEqual(len(job_titles.json()["records"]), 73380)
+        self.assertEqual(len(occupations.json()["records"]), 1155)
+        self.assertEqual(
+            self.client.get(
+                "/town-role-insitutution/town%20-cities/worldcities.csv"
+            ).status_code,
+            404,
+        )
+        self.assertEqual(
+            self.client.get("/town-role-insitutution/job-titles.txt").status_code,
+            404,
+        )
+
     def test_admin_console_and_api_require_the_configured_admin_identity(self) -> None:
         identities = (
             ("anonymous", backend_api.HTTPException(

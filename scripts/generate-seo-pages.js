@@ -2,6 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const root = path.resolve(__dirname, '..');
+const dataCatalogUrl = 'https://www.kovcareeragency.org/datasets/catalog.jsonld';
 const originalPages = JSON.parse(
   fs.readFileSync(path.join(root, 'data', 'seo-pages.json'), 'utf8')
 );
@@ -317,6 +318,7 @@ function renderPage(page) {
         isPartOf: { '@id': 'https://www.kovcareeragency.org/#website' },
         about: { '@id': 'https://www.kovcareeragency.org/#organization' },
         breadcrumb: { '@id': `${pageUrl}#breadcrumb` },
+        mentions: { '@id': `${dataCatalogUrl}#catalog` },
       },
       { ...breadcrumb, '@id': `${pageUrl}#breadcrumb` },
       ...(isServicePage ? [{
@@ -340,6 +342,7 @@ function renderPage(page) {
   <meta name="robots" content="index,follow">
   <meta name="author" content="KOV Career Agency">
   <link rel="canonical" href="${pageUrl}">
+  <link rel="alternate" type="application/ld+json" href="${dataCatalogUrl}">
   <link rel="icon" type="image/png" href="${rootAsset('kov-logo.png')}">
   <link rel="stylesheet" href="${rootAsset('assets/styles-DateywTe.css')}">
   <link rel="stylesheet" href="${rootAsset('assets/site-fixes.css?v=15')}">
@@ -587,6 +590,13 @@ for (const [category, label] of groupLabels) {
   }
 }
 llmsSections.push(
+  '',
+  '## Data catalog',
+  '',
+  '- [KOV data catalog](https://www.kovcareeragency.org/datasets/catalog.jsonld): Shared JSON-LD catalog and complete linked job-title and occupation feeds. The supplied city/town records are catalogued but not redistributed because the supplied license prohibits public bulk exposure without written permission. No institution dataset was present in the supplied files.',
+  '- [Job titles dataset](https://www.kovcareeragency.org/datasets/job-titles.json): Complete supplied list; 73,380 records. Source/license attribution was not included in the source file.',
+  '- [Occupations dataset](https://www.kovcareeragency.org/datasets/occupations.json): Complete supplied list; 1,155 records. Source/license attribution was not included in the source file.',
+  '',
   '',
   '## Entity',
   '',
