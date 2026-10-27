@@ -15,141 +15,98 @@
     return value.startsWith('/') ? value : rootPrefix() + value;
   };
 
-  function hasFaqContent(container) {
-    const heading = [...container.querySelectorAll('h1, h2, h3, h4')].find((item) =>
-      /\b(?:frequently asked questions|faqs?|common questions)\b/i.test(item.textContent || '')
-    );
-    if (!heading) return false;
+  function removeCompactFaqsOutsideHomePage() {
+    const pathname = window.location.pathname.replace(/\/+$/, '').toLowerCase() || '/';
+    if (pathname === '/' || pathname === '/index.html') return;
 
-    return Boolean(container.querySelector(
-      'details, [itemtype*="Question"], [itemprop="mainEntity"], [class*="faq-item"], [class*="faq-list"], [data-faq-item]'
-    ));
-  }
-
-  function removeDuplicateCompactFaqs() {
     const compactFaqs = [...document.querySelectorAll('section#faq.faq-compact-shell')];
-    if (!compactFaqs.length) return;
-
-    let observer;
-    const removeDuplicates = () => {
-      compactFaqs.forEach((compactFaq) => {
-        if (!compactFaq.isConnected) return;
-        const main = compactFaq.closest('main') || document.body;
-        const existingFaq = [...main.querySelectorAll('section, article, [role="region"], .ceo-content-section, .kov-service-faq')]
-          .some((section) => section !== compactFaq && !compactFaq.contains(section) && hasFaqContent(section));
-        if (existingFaq) compactFaq.remove();
-      });
-      if (observer && !compactFaqs.some((section) => section.isConnected)) observer.disconnect();
-    };
-
-    removeDuplicates();
-    if (compactFaqs.some((section) => section.isConnected)) {
-      observer = new MutationObserver(removeDuplicates);
-      observer.observe(document.body, { childList: true, subtree: true });
-    }
+    compactFaqs.forEach((compactFaq) => compactFaq.remove());
   }
 
   const footer = document.createElement('footer');
-  footer.className = 'kov-uniform-footer border-t border-[#e7e1d8] bg-[#f7f3ee] text-[#101821]';
+  footer.className = 'kov-uniform-footer';
   footer.innerHTML = `
-    <div class="kov-uniform-footer-content mx-auto max-w-[1240px] px-6 py-10 lg:px-8">
+    <div class="kov-uniform-footer-content">
       <div class="kov-uniform-footer-columns">
         <section class="kov-uniform-footer-brand">
           <div class="flex items-center gap-2.5">
             <img src="${resolveHref('kov-logo.png')}" alt="KOV" class="h-7 w-7 object-contain" />
-            <span class="text-[13px] font-medium uppercase tracking-[0.22em] text-[#101821]">KOV Career Agency</span>
+            <span class="text-[12px] font-medium uppercase tracking-[0.18em] text-ink">KOV Career Agency</span>
           </div>
-          <p class="mt-4 max-w-[20rem] text-[13px] leading-relaxed text-[#4d5966]">
+          <p>
             Private Career Representation and separate Individual Career Services for professionals.
           </p>
         </section>
         <section>
-          <h2>For professionals</h2>
-          <ul class="mt-4 space-y-2 text-[13px] text-[#4d5966]">
-            <li><a href="${resolveHref('candidate-services.html')}" class="hover:text-[#101821]">Individual Career Services</a></li>
-            <li><a href="${resolveHref('services.html')}" class="hover:text-[#101821]">Private Career Representation</a></li>
-            <li><a href="${resolveHref('how-it-works.html')}" class="hover:text-[#101821]">How It Works</a></li>
-            <li><a href="${resolveHref('pricing.html')}" class="hover:text-[#101821]">Pricing</a></li>
+          <h2>For Professionals</h2>
+          <ul>
+            <li><a href="${resolveHref('candidate-services.html')}">Individual Career Services</a></li>
+            <li><a href="${resolveHref('services.html')}">Private Career Representation</a></li>
+            <li><a href="${resolveHref('how-it-works.html')}">How It Works</a></li>
+            <li><a href="${resolveHref('pricing.html')}">Pricing</a></li>
           </ul>
         </section>
         <section>
-          <h2>Direct inquiry</h2>
-          <div class="mt-4 space-y-2 text-[13px] text-[#4d5966]">
-            <a href="mailto:daniel@kovcareeragency.org?subject=Inquiry%20%E2%80%94%20Private%20Representation" class="block hover:text-[#101821] underline-offset-2 hover:underline">daniel@kovcareeragency.org</a>
-            <a href="${resolveHref('contact.html')}" class="block hover:text-[#101821] underline-offset-2 hover:underline">Contact KOV</a>
-            <p>Daniel Ade, Founder</p>
-            <a href="${resolveHref('privacy.html')}" class="block hover:text-[#101821] underline-offset-2 hover:underline">Privacy Notice</a>
-          </div>
-        </section>
-        <section class="kov-uniform-footer-inquiry">
-          <h2>Send an inquiry</h2>
-          <form action="https://api.web3forms.com/submit" method="POST" data-web3forms-form class="kov-uniform-footer-form" aria-label="Quick inquiry form">
-            <input type="hidden" name="access_key" value="9c099b99-7549-4719-9643-8ec16c9d3a70">
-            <input type="hidden" name="subject" value="Website inquiry - KOV Career Agency">
-            <input type="hidden" name="from_name" value="KOV Career Agency website">
-            <input type="checkbox" name="botcheck" class="kov-footer-honeypot" tabindex="-1" autocomplete="off">
-            <label class="grid gap-1 text-[12px]">
-              <span>Your name</span>
-              <input name="name" type="text" autocomplete="name" required maxlength="120" class="w-full rounded-md border border-[#d9d3c9] bg-white px-3 py-2 text-[13px] text-[#101821]">
-            </label>
-            <label class="grid gap-1 text-[12px]">
-              <span>Email</span>
-              <input name="email" type="email" autocomplete="email" required maxlength="254" class="w-full rounded-md border border-[#d9d3c9] bg-white px-3 py-2 text-[13px] text-[#101821]">
-            </label>
-            <label class="grid gap-1 text-[12px]">
-              <span>Message</span>
-              <textarea name="message" required maxlength="3000" rows="3" class="w-full resize-y rounded-md border border-[#d9d3c9] bg-white px-3 py-2 text-[13px] text-[#101821]"></textarea>
-            </label>
-            <button type="submit" class="justify-self-start rounded-full bg-[#101821] px-4 py-2 text-[11px] font-medium uppercase tracking-[0.12em] text-white hover:bg-[#303c47]">Send inquiry</button>
-            <p data-web3forms-status role="status" aria-live="polite" class="text-[12px] text-[#4d5966]"></p>
-          </form>
+          <h2>Direct Inquiry</h2>
+          <ul>
+            <li><a href="mailto:daniel@kovcareeragency.org?subject=Inquiry%20%E2%80%94%20Private%20Representation">daniel@kovcareeragency.org</a></li>
+            <li><a href="${resolveHref('contact.html')}">Contact KOV</a></li>
+            <li><a href="${resolveHref('about.html')}">Daniel Ade, Founder</a></li>
+            <li><a href="${resolveHref('privacy.html')}">Privacy Notice</a></li>
+          </ul>
         </section>
       </div>
 
-      <div class="kov-uniform-footer-explore">
+      <nav class="kov-uniform-footer-explore" aria-label="Explore the page directory">
         <h2 data-kov-footer-page-count>Explore the page directory</h2>
         <div class="kov-uniform-footer-topic-grid" data-kov-footer-page-categories>
-          <div class="kov-uniform-footer-topic">
-            <h3>Core services</h3>
-            <ul class="mt-3 space-y-2 text-[13px] text-[#4d5966]">
-              <li><a href="${resolveHref('candidate-services.html')}">Individual Career Services</a></li>
-              <li><a href="${resolveHref('services.html')}">Private Career Representation</a></li>
-            </ul>
-          </div>
-          <div class="kov-uniform-footer-topic">
-            <h3>Seniority and roles</h3>
-            <ul class="mt-3 space-y-2 text-[13px] text-[#4d5966]">
-              <li><a href="${resolveHref('roles/')}">Roles</a></li>
-            </ul>
-          </div>
-          <div class="kov-uniform-footer-topic">
-            <h3>Proof and next steps</h3>
-            <ul class="mt-3 space-y-2 text-[13px] text-[#4d5966]">
-              <li><a href="${resolveHref('faqs.html')}">FAQs</a></li>
-              <li><a href="${resolveHref('blog.html')}">Blog</a></li>
-              <li><a href="${resolveHref('about.html')}">About</a></li>
-            </ul>
-          </div>
-          <div class="kov-uniform-footer-topic">
-            <h3>Geography and markets</h3>
-            <ul class="mt-3 space-y-2 text-[13px] text-[#4d5966]">
-              <li><a href="${resolveHref('countries-we-serve.html')}">Countries We Serve</a></li>
-              <li><a href="${resolveHref('markets/executive-job-search-dubai.html')}">Executive Search in Dubai</a></li>
-            </ul>
-          </div>
+          <details class="kov-uniform-footer-topic"><summary>Core services</summary><ul><li><a href="${resolveHref('candidate-services.html')}">Individual Career Services</a></li><li><a href="${resolveHref('services.html')}">Private Career Representation</a></li></ul></details>
+          <details class="kov-uniform-footer-topic"><summary>Seniority and roles</summary><ul><li><a href="${resolveHref('roles/')}">Roles</a></li></ul></details>
+          <details class="kov-uniform-footer-topic"><summary>Geography and markets</summary><ul><li><a href="${resolveHref('countries-we-serve.html')}">Countries We Serve</a></li></ul></details>
+          <details class="kov-uniform-footer-topic"><summary>Proof and next steps</summary><ul><li><a href="${resolveHref('faqs.html')}">FAQs</a></li><li><a href="${resolveHref('blog.html')}">Blog</a></li><li><a href="${resolveHref('about.html')}">About</a></li></ul></details>
         </div>
-      </div>
+      </nav>
 
-      <div class="kov-uniform-footer-bottom">
+      <div class="kov-uniform-footer-bottom" data-kov-footer-legal-row>
         <span>© 2026 KOV Career Agency. All rights reserved.</span>
-        <span class="hidden md:inline-block">Private career representation and individual career services for professionals.</span>
       </div>
     </div>
   `;
 
   const existingFooters = [...document.querySelectorAll('footer')];
+  const existingTranslateWidget = document.getElementById('kov-translate-widget');
   existingFooters.forEach((node) => node.remove());
   document.body.appendChild(footer);
+  if (existingTranslateWidget) {
+    footer.querySelector('[data-kov-footer-legal-row]').append(existingTranslateWidget);
+  }
+  document.querySelectorAll('.ceo-sticky-cta').forEach((button) => button.remove());
+
+  const placeTranslateWidget = () => {
+    const widget = document.getElementById('kov-translate-widget');
+    const legalRow = footer.querySelector('[data-kov-footer-legal-row]');
+    if (!widget || !legalRow) return false;
+    if (!legalRow.contains(widget)) legalRow.append(widget);
+    return true;
+  };
+
+  if (!placeTranslateWidget()) {
+    const observer = new MutationObserver(() => {
+      if (placeTranslateWidget()) {
+        observer.disconnect();
+        window.clearTimeout(observerTimeout);
+      }
+    });
+    const observerTimeout = window.setTimeout(() => observer.disconnect(), 15000);
+    observer.observe(document.body, { childList: true, subtree: true });
+  }
+
+  if (!document.querySelector('script[src*="assets/google-translate.js"]')) {
+    const translateScript = document.createElement('script');
+    translateScript.src = resolveHref('assets/google-translate.js');
+    translateScript.async = true;
+    document.head.append(translateScript);
+  }
 
   function populateFooterPageCatalog() {
     const catalog = window.kovSeoPageCatalog;
@@ -159,8 +116,8 @@
     const groups = [
       { category: 'services', label: 'Core services' },
       { category: 'roles', label: 'Seniority and roles' },
-      { category: 'resources', label: 'Proof and next steps' },
       { category: 'markets', label: 'Geography and markets' },
+      { category: 'resources', label: 'Proof and next steps' },
     ];
     const directoryLinks = {
       services: [
@@ -184,10 +141,8 @@
     categoryGrid.replaceChildren();
 
     groups.forEach(({ category, label }) => {
-      const topic = document.createElement('div');
+      const topic = document.createElement('details');
       topic.className = 'kov-uniform-footer-topic';
-      const details = document.createElement('details');
-      details.className = 'kov-footer-category';
       const summary = document.createElement('summary');
       summary.textContent = label;
       const list = document.createElement('ul');
@@ -226,13 +181,16 @@
         appendEntry(industries, industryList);
       }
 
-      details.append(summary, list);
-      topic.append(details);
+      topic.append(summary, list);
       categoryGrid.append(topic);
     });
 
     const countHeading = footer.querySelector('[data-kov-footer-page-count]');
-    if (countHeading) countHeading.textContent = `Explore all ${listedCount} pages`;
+    if (countHeading) {
+      countHeading.textContent = `Explore all ${listedCount} pages`;
+      footer.querySelector('.kov-uniform-footer-explore')
+        ?.setAttribute('aria-label', `Explore all ${listedCount} pages`);
+    }
     footer.setAttribute('aria-label', `KOV Career Agency footer with ${listedCount} page links`);
   }
 
@@ -252,42 +210,6 @@
     document.head.append(catalogScript);
   }
 
-  removeDuplicateCompactFaqs();
+  removeCompactFaqsOutsideHomePage();
   loadFooterPageCatalog();
-
-  document.querySelectorAll('[data-web3forms-form]').forEach((form) => {
-    form.addEventListener('submit', async (event) => {
-      event.preventDefault();
-      if (!form.reportValidity()) return;
-
-      const submitButton = form.querySelector('button[type="submit"]');
-      const status = form.querySelector('[data-web3forms-status]');
-      const originalText = submitButton.textContent;
-      submitButton.disabled = true;
-      submitButton.textContent = 'Sending...';
-      status.textContent = '';
-
-      try {
-        const response = await fetch(form.action, {
-          method: 'POST',
-          body: new FormData(form),
-          headers: { Accept: 'application/json' },
-        });
-        const result = await response.json();
-        if (!response.ok || !result.success) {
-          throw new Error(result.message || 'Your message could not be sent. Please try again.');
-        }
-        form.reset();
-        status.textContent = 'Thank you. Your message has been sent.';
-      } catch (error) {
-        console.error('Web3Forms submission failed:', error);
-        status.textContent = error instanceof Error
-          ? error.message
-          : 'Your message could not be sent. Please try again.';
-      } finally {
-        submitButton.disabled = false;
-        submitButton.textContent = originalText;
-      }
-    });
-  });
 })();

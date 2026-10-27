@@ -1,4 +1,7 @@
 (() => {
+  if (window.kovGoogleTranslateLoaded) return;
+  window.kovGoogleTranslateLoaded = true;
+
   const style = document.createElement("style");
   style.textContent = `
     #kov-translate-widget {
@@ -86,9 +89,11 @@
   }
 
   const footer = document.querySelector("footer");
+  const uniformFooterBar = footer?.querySelector(".kov-uniform-footer-bottom[data-kov-footer-legal-row]");
   const footerContainer = footer?.querySelector(":scope > .mx-auto") || footer;
   const footerBars = footerContainer ? [...footerContainer.querySelectorAll(".kov-footer-bottom-bar")] : [];
-  let footerBar = footerContainer?.querySelector("[data-kov-footer-legal-row]") ||
+  let footerBar = uniformFooterBar ||
+    footerContainer?.querySelector("[data-kov-footer-legal-row]") ||
     footerBars[0] ||
     footerContainer?.querySelector(".kov-footer-bottom-bar") ||
     null;
@@ -99,25 +104,36 @@
   }
 
   if (footer && footerContainer && footerBar) {
-    const legal = footerContainer.querySelector(".kov-legal") ||
-      Array.from(footerContainer.querySelectorAll("p, span")).find((element) => element.textContent.includes("©"));
-    const privacyLink = Array.from(footerContainer.querySelectorAll('a[href*="privacy.html"]'))
-      .find((link) => link.textContent.trim() === "Privacy Notice");
+    if (uniformFooterBar) {
+      if (!footerBar.contains(widget)) footerBar.appendChild(widget);
+    } else {
+      const legal = footerContainer.querySelector(".kov-legal") ||
+        Array.from(footerContainer.querySelectorAll("p, span")).find((element) => element.textContent.includes("©"));
+      const privacyLink = Array.from(footerContainer.querySelectorAll('a[href*="privacy.html"]'))
+        .find((link) => link.textContent.trim() === "Privacy Notice");
 
-    if (legal && !footerBar.contains(legal)) footerBar.prepend(legal);
-    if (privacyLink && !footerBar.contains(privacyLink)) {
-      privacyLink.className = "kov-footer-privacy-link";
-      footerBar.appendChild(privacyLink);
+      if (legal && !footerBar.contains(legal)) footerBar.prepend(legal);
+      if (privacyLink && !footerBar.contains(privacyLink)) {
+        privacyLink.className = "kov-footer-privacy-link";
+        footerBar.appendChild(privacyLink);
+      }
+      if (!footerBar.contains(widget)) footerBar.appendChild(widget);
+
+      footerBars.filter((bar) => bar !== footerBar).forEach((bar) => {
+        while (bar.firstChild) footerBar.appendChild(bar.firstChild);
+        bar.remove();
+      });
     }
-    if (!footerBar.contains(widget)) footerBar.appendChild(widget);
-
-    footerBars.filter((bar) => bar !== footerBar).forEach((bar) => {
-      while (bar.firstChild) footerBar.appendChild(bar.firstChild);
-      bar.remove();
-    });
   } else {
     document.body.appendChild(widget);
   }
+
+  window.setTimeout(() => {
+    const uniformFooterBar = document.querySelector(".kov-uniform-footer-bottom[data-kov-footer-legal-row]");
+    if (uniformFooterBar && !uniformFooterBar.contains(widget)) {
+      uniformFooterBar.appendChild(widget);
+    }
+  }, 0);
 
   window.googleTranslateElementInit = () => {
     new google.translate.TranslateElement(
@@ -133,5 +149,8 @@
   const googleScript = document.createElement("script");
   googleScript.src = "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
   googleScript.async = true;
+  googleScript.addEventListener("error", () => {
+    console.error("Failed to load the Google Translate widget.");
+  }, { once: true });
   document.head.appendChild(googleScript);
 })();
