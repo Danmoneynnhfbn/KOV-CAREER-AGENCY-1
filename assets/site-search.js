@@ -5,6 +5,9 @@
   const contentScriptUrl = searchScriptUrl
     ? new URL('site-search-content.js', searchScriptUrl).href
     : 'assets/site-search-content.js';
+  const catalogScriptUrl = searchScriptUrl
+    ? new URL('site-search-index.js', searchScriptUrl).href
+    : 'assets/site-search-index.js';
 
   if (!window.kovThemeStylesRequested) {
     const currentScript = document.currentScript;
@@ -61,12 +64,6 @@
     'reverse-recruiting-ctos.html',
     'reverse-recruiting-cmos.html',
   ]);
-  pages.splice(
-    0,
-    pages.length,
-    ...pages.filter((page) => !movedLandingPages.has(page.href)),
-    ...(window.kovSeoPageCatalog || [])
-  );
   const categoryLabels = new Map([
     ['services', 'Core services'],
     ['markets', 'Geography and markets'],
@@ -276,6 +273,66 @@
   }
   cacheBundledContent();
   let pageIndexPromise;
+  let catalogPagesAdded = false;
+  let catalogPromise;
+
+  function addCatalogPages() {
+    if (catalogPagesAdded) return;
+    if (!Array.isArray(window.kovSeoPageCatalog)) {
+      throw new Error('The KOV page catalog did not initialize.');
+    }
+
+    pages.splice(
+      0,
+      pages.length,
+      ...pages.filter((page) => !movedLandingPages.has(page.href)),
+      ...window.kovSeoPageCatalog
+    );
+    catalogPagesAdded = true;
+  }
+
+  function loadSiteSearchCatalog() {
+    if (Array.isArray(window.kovSeoPageCatalog)) {
+      addCatalogPages();
+      return Promise.resolve();
+    }
+
+    if (!catalogPromise) {
+      catalogPromise = new Promise((resolve, reject) => {
+        const catalogScript = document.querySelector('script[src*="site-search-index.js"]') ||
+          document.createElement('script');
+        const isNewScript = !catalogScript.isConnected;
+        const settleLoad = () => {
+          if (!Array.isArray(window.kovSeoPageCatalog)) {
+            catalogScript.remove();
+            reject(new Error('The KOV page catalog did not initialize.'));
+            return;
+          }
+          try {
+            addCatalogPages();
+            resolve();
+          } catch (error) {
+            reject(error);
+          }
+        };
+        catalogScript.addEventListener('load', settleLoad, { once: true });
+        catalogScript.addEventListener('error', () => {
+          catalogScript.remove();
+          reject(new Error(`Failed to load the KOV page catalog: ${catalogScript.src}`));
+        }, { once: true });
+        if (isNewScript) {
+          catalogScript.src = catalogScriptUrl;
+          catalogScript.async = true;
+          document.head.append(catalogScript);
+        }
+      }).catch((error) => {
+        catalogPromise = null;
+        throw error;
+      });
+    }
+
+    return catalogPromise;
+  }
 
   function indexCurrentPage() {
     const pathParts = location.pathname.split('/').filter(Boolean);
@@ -294,30 +351,33 @@
 
   function loadPageIndex() {
     if (!pageIndexPromise) {
-      pageIndexPromise = new Promise((resolve, reject) => {
+      pageIndexPromise = loadSiteSearchCatalog().then(() => {
+        indexCurrentPage();
         if (window.kovSiteSearchContent) {
           cacheBundledContent();
-          resolve();
           return;
         }
 
-        const contentScript = document.createElement('script');
-        contentScript.src = contentScriptUrl;
-        contentScript.async = true;
-        contentScript.addEventListener('load', () => {
-          if (!window.kovSiteSearchContent) {
-            pageIndexPromise = null;
-            reject(new Error('The KOV search content file did not initialize.'));
-            return;
-          }
-          cacheBundledContent();
-          resolve();
-        }, { once: true });
-        contentScript.addEventListener('error', () => {
-          pageIndexPromise = null;
-          reject(new Error(`Failed to load KOV search content: ${contentScript.src}`));
-        }, { once: true });
-        document.head.append(contentScript);
+        return new Promise((resolve, reject) => {
+          const contentScript = document.createElement('script');
+          contentScript.src = contentScriptUrl;
+          contentScript.async = true;
+          contentScript.addEventListener('load', () => {
+            if (!window.kovSiteSearchContent) {
+              reject(new Error('The KOV search content file did not initialize.'));
+              return;
+            }
+            cacheBundledContent();
+            resolve();
+          }, { once: true });
+          contentScript.addEventListener('error', () => {
+            reject(new Error(`Failed to load KOV search content: ${contentScript.src}`));
+          }, { once: true });
+          document.head.append(contentScript);
+        });
+      }).catch((error) => {
+        pageIndexPromise = null;
+        throw error;
       });
     }
     return pageIndexPromise;
@@ -490,7 +550,6 @@
 
   function openSearch(trigger) {
     activeTrigger = trigger;
-    indexCurrentPage();
     renderResults('');
     if (typeof dialog.showModal === 'function') dialog.showModal();
     else dialog.setAttribute('open', '');

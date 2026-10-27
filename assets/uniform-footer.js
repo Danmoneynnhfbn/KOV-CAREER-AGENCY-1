@@ -15,12 +15,133 @@
     return value.startsWith('/') ? value : rootPrefix() + value;
   };
 
-  function removeCompactFaqsOutsideHomePage() {
-    const pathname = window.location.pathname.replace(/\/+$/, '').toLowerCase() || '/';
-    if (pathname === '/' || pathname === '/index.html') return;
+  function getFaqSections(main) {
+    const sections = new Set(
+      [...main.querySelectorAll('[id], .faq-compact-shell')]
+        .filter((element) => element.id.toLowerCase() === 'faq' || element.classList.contains('faq-compact-shell'))
+    );
+    const faqHeading = /^(?:frequently asked questions?|common questions|faqs?)(?:\b|:|—|-)/i;
+    [...main.querySelectorAll('h1, h2, h3, h4')].forEach((heading) => {
+      if (!faqHeading.test(heading.textContent.trim())) return;
+      const section = heading.closest('section, article') || heading.parentElement;
+      if (section) sections.add(section);
+    });
 
-    const compactFaqs = [...document.querySelectorAll('section#faq.faq-compact-shell')];
-    compactFaqs.forEach((compactFaq) => compactFaq.remove());
+    return [...sections]
+      .filter((section) => ![...sections].some((other) => other !== section && other.contains(section)))
+      .sort((left, right) => left.compareDocumentPosition(right) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1);
+  }
+
+  function normalizeFaqSection(section) {
+    section.id = 'faq';
+    section.classList.add('faq-compact-shell');
+
+    let inner = section.querySelector(':scope > .mx-auto');
+    if (!inner) {
+      inner = document.createElement('div');
+      inner.className = 'mx-auto';
+      while (section.firstChild) inner.append(section.firstChild);
+      section.append(inner);
+    }
+
+    let list = inner.querySelector(':scope > .faq-compact-list');
+    const topLevelDetails = [...inner.querySelectorAll('details')]
+      .filter((details) => !details.parentElement.closest('details'));
+    if (!list && topLevelDetails.length) {
+      const detailsParent = topLevelDetails[0].parentElement;
+      if (detailsParent !== inner) {
+        list = detailsParent;
+        list.classList.add('faq-compact-list');
+      } else {
+        list = document.createElement('div');
+        list.className = 'faq-compact-list';
+        inner.insertBefore(list, topLevelDetails[0]);
+        topLevelDetails.forEach((details) => list.append(details));
+      }
+    }
+
+    if (!list) {
+      list = document.createElement('div');
+      list.className = 'faq-compact-list';
+      inner.append(list);
+    } else {
+      list.classList.add('faq-compact-list');
+    }
+
+    inner.querySelectorAll('details').forEach((details) => {
+      details.classList.add('faq-compact-item');
+    });
+    return list;
+  }
+
+  function createDefaultFaqSection() {
+    const section = document.createElement('section');
+    section.id = 'faq';
+    section.className = 'faq-compact-shell';
+    section.innerHTML = `
+      <div class="mx-auto">
+        <p class="faq-compact-kicker">Frequently Asked Questions</p>
+        <h2>Common questions from professionals.</h2>
+        <div class="faq-compact-list">
+          <details class="faq-compact-item">
+            <summary>Who is KOV for?</summary>
+            <p>KOV works with senior and experienced professionals, including executives, specialists, and leaders exploring a career move.</p>
+          </details>
+          <details class="faq-compact-item">
+            <summary>What does KOV actually do?</summary>
+            <p>KOV researches target employers, prepares positioning, supports agreed professional outreach, and helps clients navigate search and interview conversations.</p>
+          </details>
+          <details class="faq-compact-item">
+            <summary>Is this confidential?</summary>
+            <p>Yes. The work is designed to be discreet, with scope and communication boundaries agreed before outreach begins.</p>
+          </details>
+          <details class="faq-compact-item">
+            <summary>Does KOV guarantee interviews or jobs?</summary>
+            <p>No. KOV does not guarantee interviews, offers, employment, or timelines. Employers make hiring decisions.</p>
+          </details>
+          <details class="faq-compact-item">
+            <summary>How do fees work?</summary>
+            <p>Fees depend on the scope agreed before work begins and are confirmed in writing.</p>
+          </details>
+          <details class="faq-compact-item">
+            <summary>What is the next step?</summary>
+            <p>Start with a focused inquiry to discuss fit, scope, and the services relevant to your situation.</p>
+          </details>
+        </div>
+        <p class="faq-compact-more"><a href="${resolveHref('faq/index.html')}">More questions in our FAQ Library</a></p>
+      </div>
+    `;
+    return section;
+  }
+
+  function ensureSingleUniformFaq(footerElement) {
+    const main = document.querySelector('main');
+    const faqSections = main ? getFaqSections(main) : [];
+    if (!faqSections.length) {
+      const faq = createDefaultFaqSection();
+      if (main) main.append(faq);
+      else footerElement.before(faq);
+      return;
+    }
+
+    const primarySection = faqSections[0];
+    const primaryList = normalizeFaqSection(primarySection);
+    const questionTitles = new Set(
+      [...primaryList.querySelectorAll(':scope > details > summary')]
+        .map((summary) => summary.textContent.trim().toLowerCase())
+    );
+
+    faqSections.slice(1).forEach((duplicateSection) => {
+      const duplicateList = normalizeFaqSection(duplicateSection);
+      [...duplicateList.querySelectorAll(':scope > details')].forEach((details) => {
+        const title = details.querySelector(':scope > summary')?.textContent.trim().toLowerCase();
+        if (title && !questionTitles.has(title)) {
+          questionTitles.add(title);
+          primaryList.append(details);
+        }
+      });
+      duplicateSection.remove();
+    });
   }
 
   const footer = document.createElement('footer');
@@ -55,6 +176,20 @@
             <li><a href="${resolveHref('privacy.html')}">Privacy Notice</a></li>
           </ul>
         </section>
+        <section class="kov-uniform-footer-inquiry">
+          <h2>Quick Inquiry</h2>
+          <form class="kov-uniform-footer-form" action="https://api.web3forms.com/submit" method="POST" data-kov-footer-form>
+            <input type="hidden" name="access_key" value="9c099b99-7549-4719-9643-8ec16c9d3a70">
+            <input type="hidden" name="subject" value="Website footer inquiry - KOV Career Agency">
+            <input type="hidden" name="from_name" value="KOV Career Agency website footer">
+            <input type="checkbox" name="botcheck" class="kov-footer-honeypot" tabindex="-1" autocomplete="off">
+            <label>Name<input name="name" type="text" autocomplete="name" required maxlength="120"></label>
+            <label>Email<input name="email" type="email" autocomplete="email" required maxlength="254"></label>
+            <label class="kov-footer-message">Message<textarea name="message" required maxlength="1500" rows="2"></textarea></label>
+            <button type="submit">Send inquiry</button>
+            <p data-web3forms-status role="status" aria-live="polite"></p>
+          </form>
+        </section>
       </div>
 
       <nav class="kov-uniform-footer-explore" aria-label="Explore the page directory">
@@ -81,6 +216,36 @@
     footer.querySelector('[data-kov-footer-legal-row]').append(existingTranslateWidget);
   }
   document.querySelectorAll('.ceo-sticky-cta').forEach((button) => button.remove());
+  ensureSingleUniformFaq(footer);
+
+  const footerForm = footer.querySelector('[data-kov-footer-form]');
+  footerForm?.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const submitButton = footerForm.querySelector('button[type="submit"]');
+    const status = footerForm.querySelector('[data-web3forms-status]');
+    if (!submitButton || !status) return;
+
+    submitButton.disabled = true;
+    status.textContent = 'Sending your inquiry...';
+    try {
+      const response = await fetch(footerForm.action, {
+        method: 'POST',
+        body: new FormData(footerForm),
+        headers: { Accept: 'application/json' },
+      });
+      const result = await response.json();
+      if (!response.ok || !result.success) {
+        throw new Error(result.message || `Request failed with status ${response.status}`);
+      }
+      status.textContent = 'Thank you. Your inquiry has been sent.';
+      footerForm.reset();
+    } catch (error) {
+      status.textContent = 'We could not send your inquiry. Please email daniel@kovcareeragency.org.';
+      console.error('Failed to send the KOV footer inquiry.', error);
+    } finally {
+      submitButton.disabled = false;
+    }
+  });
 
   const placeTranslateWidget = () => {
     const widget = document.getElementById('kov-translate-widget');
@@ -108,10 +273,11 @@
     document.head.append(translateScript);
   }
 
+  let footerCatalogRendered = false;
   function populateFooterPageCatalog() {
     const catalog = window.kovSeoPageCatalog;
     const categoryGrid = footer.querySelector('[data-kov-footer-page-categories]');
-    if (!Array.isArray(catalog) || !catalog.length || !categoryGrid) return;
+    if (footerCatalogRendered || !Array.isArray(catalog) || !catalog.length || !categoryGrid) return;
 
     const groups = [
       { category: 'services', label: 'Core services' },
@@ -138,11 +304,16 @@
     const industries = catalog.filter((page) => page.category === 'industries');
     const listedHrefs = new Set();
     let listedCount = 0;
+    const openTopics = new Set(
+      [...categoryGrid.querySelectorAll(':scope > details[open]')]
+        .map((topic) => topic.querySelector('summary')?.textContent)
+    );
     categoryGrid.replaceChildren();
 
     groups.forEach(({ category, label }) => {
       const topic = document.createElement('details');
       topic.className = 'kov-uniform-footer-topic';
+      topic.open = openTopics.has(label);
       const summary = document.createElement('summary');
       summary.textContent = label;
       const list = document.createElement('ul');
@@ -192,24 +363,39 @@
         ?.setAttribute('aria-label', `Explore all ${listedCount} pages`);
     }
     footer.setAttribute('aria-label', `KOV Career Agency footer with ${listedCount} page links`);
+    footerCatalogRendered = true;
   }
 
+  let footerCatalogRequested = false;
   function loadFooterPageCatalog() {
     if (Array.isArray(window.kovSeoPageCatalog) && window.kovSeoPageCatalog.length) {
       populateFooterPageCatalog();
       return;
     }
 
-    const catalogScript = document.createElement('script');
-    catalogScript.src = resolveHref('assets/site-search-index.js');
-    catalogScript.async = true;
+    if (footerCatalogRequested) return;
+    footerCatalogRequested = true;
+
+    const catalogScript = document.querySelector('script[src*="assets/site-search-index.js"]') ||
+      document.createElement('script');
+    const isNewScript = !catalogScript.isConnected;
     catalogScript.addEventListener('load', populateFooterPageCatalog, { once: true });
     catalogScript.addEventListener('error', () => {
+      footerCatalogRequested = false;
       console.error(`Failed to load the KOV footer page catalog: ${catalogScript.src}`);
     }, { once: true });
-    document.head.append(catalogScript);
+    if (isNewScript) {
+      catalogScript.src = resolveHref('assets/site-search-index.js');
+      catalogScript.async = true;
+      document.head.append(catalogScript);
+    }
   }
 
-  removeCompactFaqsOutsideHomePage();
-  loadFooterPageCatalog();
+  footer.querySelector('[data-kov-footer-page-categories]')
+    ?.addEventListener('toggle', (event) => {
+      if (event.target instanceof HTMLDetailsElement && event.target.open) {
+        loadFooterPageCatalog();
+      }
+    }, true);
+
 })();
