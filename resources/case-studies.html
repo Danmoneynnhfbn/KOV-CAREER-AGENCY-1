@@ -44,7 +44,8 @@
       "name": "KOV Career Agency",
       "alternateName": [
         "KOV Career",
-        "KovCareer"
+        "KovCareer",
+        "KOV"
       ],
       "url": "https://www.kovcareeragency.org/",
       "logo": {
@@ -55,10 +56,29 @@
       "email": "daniel@kovcareeragency.org",
       "founder": {
         "@id": "https://www.kovcareeragency.org/#founder"
-      }
+      },
+      "sameAs": [
+        "https://www.reddit.com/user/KOV_CAREER_AGENCY/"
+      ],
+      "description": "An independent career agency providing candidate-side career representation and individual career services.",
+      "knowsAbout": [
+        "Career development",
+        "Professional profile assessment",
+        "Resume and CV services",
+        "LinkedIn profile optimization",
+        "Executive career representation",
+        "Career transitions",
+        "Professional positioning",
+        "Leadership opportunities",
+        "International career opportunities",
+        "Professional visibility",
+        "Job-search strategy"
+      ]
     },
     {
-      "@type": "Person",
+      "@type": [
+        "Person"
+      ],
       "@id": "https://www.kovcareeragency.org/#founder",
       "name": "Adekunle Ayotoba Daniel",
       "alternateName": "Daniel Ade",
@@ -68,13 +88,38 @@
       }
     },
     {
-      "@type": "WebSite",
+      "@type": [
+        "WebSite"
+      ],
       "@id": "https://www.kovcareeragency.org/#website",
       "name": "KOV Career Agency",
       "url": "https://www.kovcareeragency.org/",
       "publisher": {
         "@id": "https://www.kovcareeragency.org/#organization"
-      }
+      },
+      "hasPart": {
+        "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#catalog"
+      },
+      "mentions": [
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#countries"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-titles"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupations"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#country-list"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupation-list"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-title-terms"
+        }
+      ]
     },
     {
       "@type": [
@@ -88,15 +133,34 @@
       "isPartOf": {
         "@id": "https://www.kovcareeragency.org/#website"
       },
-      "about": {
-        "@id": "https://www.kovcareeragency.org/#organization"
-      },
+      "about": [
+        {
+          "@id": "https://www.kovcareeragency.org/#organization"
+        }
+      ],
       "breadcrumb": {
         "@id": "https://www.kovcareeragency.org/resources/case-studies.html#breadcrumb"
-      }
+      },
+      "publisher": {
+        "@id": "https://www.kovcareeragency.org/#organization"
+      },
+      "mentions": [
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-5f51def372401eaf6da3"
+        }
+      ],
+      "keywords": [
+        "Career development",
+        "Professional positioning"
+      ]
     },
     {
-      "@type": "BreadcrumbList",
+      "@type": [
+        "BreadcrumbList"
+      ],
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -186,6 +250,26 @@
       "url": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#job-functions",
       "isPartOf": {
         "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#catalog"
+      }
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753",
+      "name": "Career development",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/resources/case-studies.html#webpage"
+      }
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-5f51def372401eaf6da3",
+      "name": "Professional positioning",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/resources/case-studies.html#webpage"
       }
     }
   ]

@@ -1,29 +1,39 @@
 <!doctype html>
 <html lang="en"><head>
-<script type="application/ld+json">{
+<script type="application/ld+json" data-kov="discovery">{
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": [
         "ProfessionalService",
-        "EmploymentAgency"
+        "Organization"
       ],
       "@id": "https://www.kovcareeragency.org/#organization",
       "name": "KOV Career Agency",
       "alternateName": [
         "KOV",
         "KOV Career Agency Private Career Representation",
-        "KOV Reverse Recruiting"
+        "KOV Reverse Recruiting",
+        "KOV Career"
       ],
       "url": "https://www.kovcareeragency.org/",
       "logo": "https://www.kovcareeragency.org/kov-logo.png",
       "image": "https://www.kovcareeragency.org/preview.png",
       "email": "daniel@kovcareeragency.org",
-      "description": "KOV Career Agency is an independent, founder-led career representation and talent advisory service for senior and experienced professionals. It offers Private Career Representation (reverse recruiting on the candidate's side: target-company research, decision-maker research, positioning, recruiter and hiring-manager outreach and follow-up) and seven separate Individual Career Services: resume and CV, LinkedIn, career documents, portfolio, personal career website, career positioning and career coaching. KOV works for the candidate, never for corporate HR, and works remotely with professionals in global markets.",
+      "description": [
+        "KOV Career Agency is an independent, founder-led career representation and talent advisory service for senior and experienced professionals. It offers Private Career Representation (reverse recruiting on the candidate's side: target-company research, decision-maker research, positioning, recruiter and hiring-manager outreach and follow-up) and seven separate Individual Career Services: resume and CV, LinkedIn, career documents, portfolio, personal career website, career positioning and career coaching. KOV works for the candidate, never for corporate HR, and works remotely with professionals in global markets.",
+        "An independent career agency providing candidate-side career representation and individual career services."
+      ],
       "slogan": "Private career representation for professionals",
-      "founder": {
-        "@id": "https://www.kovcareeragency.org/#founder"
-      },
+      "founder": [
+        {
+          "@id": "https://www.kovcareeragency.org/#founder"
+        },
+        {
+          "@type": "Person",
+          "name": "Daniel Ade"
+        }
+      ],
       "areaServed": [
         {
           "@type": "Place",
@@ -1181,7 +1191,7 @@
         },
         {
           "@type": "Audience",
-          "audienceType": "FP&A Professionals"
+          "audienceType": "FP\u0026A Professionals"
         },
         {
           "@type": "Audience",
@@ -3018,7 +3028,17 @@
         "KOV private career representation",
         "KOV individual career services",
         "kovcareeragency.org",
-        "career support in Nigeria"
+        "career support in Nigeria",
+        "Career development",
+        "Professional profile assessment",
+        "Resume and CV services",
+        "Executive career representation",
+        "Career transitions",
+        "Professional positioning",
+        "Leadership opportunities",
+        "International career opportunities",
+        "Professional visibility",
+        "Job-search strategy"
       ],
       "availableLanguage": [
         "English"
@@ -3043,7 +3063,7 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Resume and CV Writing & Optimization",
+              "name": "Resume and CV Writing \u0026 Optimization",
               "description": "Organises and sharpens a resume or CV so recruiters can quickly understand the professional's skills and experience.",
               "url": "https://www.kovcareeragency.org/candidate-services.html"
             }
@@ -3088,7 +3108,7 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Career Positioning & Optimization",
+              "name": "Career Positioning \u0026 Optimization",
               "description": "Identifies suitable roles and markets, finds gaps in how a background is presented, and sets out a practical plan.",
               "url": "https://www.kovcareeragency.org/candidate-services.html"
             }
@@ -3106,11 +3126,22 @@
       }
     },
     {
-      "@type": "Person",
+      "@type": [
+        "Person"
+      ],
       "@id": "https://www.kovcareeragency.org/#founder",
-      "name": "Daniel Ade",
-      "alternateName": "Adekunle Ayotoba Daniel",
-      "jobTitle": "Founder & Principal Agent",
+      "name": [
+        "Daniel Ade",
+        "Adekunle Ayotoba Daniel"
+      ],
+      "alternateName": [
+        "Adekunle Ayotoba Daniel",
+        "Daniel Ade"
+      ],
+      "jobTitle": [
+        "Founder \u0026 Principal Agent",
+        "Founder and Principal Agent"
+      ],
       "url": "https://www.kovcareeragency.org/about.html",
       "worksFor": {
         "@id": "https://www.kovcareeragency.org/#organization"
@@ -3182,26 +3213,40 @@
       ]
     },
     {
-      "@type": "WebSite",
+      "@type": [
+        "WebSite"
+      ],
       "@id": "https://www.kovcareeragency.org/#website",
       "url": "https://www.kovcareeragency.org/",
       "name": "KOV Career Agency",
       "publisher": {
         "@id": "https://www.kovcareeragency.org/#organization"
       },
-      "inLanguage": "en"
-    }
-  ]
-}</script>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Individual Career Services FAQ, Part 2 | KOV Career Agency</title>
-<meta name="description" content="60 questions and answers about individual career services from KOV Career Agency, an independent career representation service for senior professionals.">
-<link rel="canonical" href="https://www.kovcareeragency.org/faq/candidate-services-2.html">
-<meta name="robots" content="index,follow">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
+      "inLanguage": "en",
+      "hasPart": {
+        "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#catalog"
+      },
+      "mentions": [
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#countries"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-titles"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupations"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#country-list"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupation-list"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-title-terms"
+        }
+      ]
+    },
     {
       "@type": "FAQPage",
       "@id": "https://www.kovcareeragency.org/faq/candidate-services-2.html#faq",
@@ -3334,15 +3379,15 @@
         },
         {
           "@type": "Question",
-          "name": "What is Career Positioning & Optimization?",
+          "name": "What is Career Positioning \u0026 Optimization?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Career Positioning & Optimization: Identifies suitable roles and markets, finds gaps in how a background is presented, and sets out a practical plan. Scope is agreed before work begins."
+            "text": "Career Positioning \u0026 Optimization: Identifies suitable roles and markets, finds gaps in how a background is presented, and sets out a practical plan. Scope is agreed before work begins."
           }
         },
         {
           "@type": "Question",
-          "name": "How does Career Positioning & Optimization work at KOV Career Agency?",
+          "name": "How does Career Positioning \u0026 Optimization work at KOV Career Agency?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "It starts by understanding your objective and confirming the right scope, followed by a tailored quotation. The work is then delivered and reviewed within the agreed revision process. Identifies suitable roles and markets, finds gaps in how a background is presented, and sets out a practical plan."
@@ -3350,15 +3395,15 @@
         },
         {
           "@type": "Question",
-          "name": "Who is Career Positioning & Optimization for?",
+          "name": "Who is Career Positioning \u0026 Optimization for?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Career Positioning & Optimization is for professionals who want this specific support without a full engagement. Fit is discussed when you enquire."
+            "text": "Career Positioning \u0026 Optimization is for professionals who want this specific support without a full engagement. Fit is discussed when you enquire."
           }
         },
         {
           "@type": "Question",
-          "name": "What does Career Positioning & Optimization include?",
+          "name": "What does Career Positioning \u0026 Optimization include?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Identifies suitable roles and markets, finds gaps in how a background is presented, and sets out a practical plan. Exact deliverables are clarified during the initial review and agreed before work begins."
@@ -3366,7 +3411,7 @@
         },
         {
           "@type": "Question",
-          "name": "How much does Career Positioning & Optimization cost?",
+          "name": "How much does Career Positioning \u0026 Optimization cost?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "KOV does not publish fixed prices. Fees are discussed once the service and deliverables are understood, and a tailored quotation is provided before work starts."
@@ -3374,7 +3419,7 @@
         },
         {
           "@type": "Question",
-          "name": "How long does Career Positioning & Optimization take?",
+          "name": "How long does Career Positioning \u0026 Optimization take?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "The page does not state fixed turnaround times. Timing is discussed when the scope and deliverables are agreed."
@@ -3382,7 +3427,7 @@
         },
         {
           "@type": "Question",
-          "name": "Is Career Positioning & Optimization worth it for senior professionals?",
+          "name": "Is Career Positioning \u0026 Optimization worth it for senior professionals?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "It can be, if it addresses a real gap in how your background is presented or how your search is run. KOV discusses fit honestly before you commit. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
@@ -3390,7 +3435,7 @@
         },
         {
           "@type": "Question",
-          "name": "What do I need to provide to start Career Positioning & Optimization?",
+          "name": "What do I need to provide to start Career Positioning \u0026 Optimization?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Typically your current materials, your target roles and the outcome you want. KOV clarifies the information it needs during the initial review."
@@ -3398,7 +3443,7 @@
         },
         {
           "@type": "Question",
-          "name": "Can Career Positioning & Optimization be combined with Private Career Representation?",
+          "name": "Can Career Positioning \u0026 Optimization be combined with Private Career Representation?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Private Career Representation and Individual Career Services are separate offerings, each discussed on its own scope and terms. Separate document or profile work is scoped as an Individual Career Service."
@@ -3406,7 +3451,7 @@
         },
         {
           "@type": "Question",
-          "name": "Can I live abroad and still get Career Positioning & Optimization from KOV?",
+          "name": "Can I live abroad and still get Career Positioning \u0026 Optimization from KOV?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes in most cases. KOV works remotely with professionals in global markets; availability depends on location and engagement fit, so contact KOV to confirm."
@@ -3414,7 +3459,7 @@
         },
         {
           "@type": "Question",
-          "name": "Does Career Positioning & Optimization guarantee interviews or a job?",
+          "name": "Does Career Positioning \u0026 Optimization guarantee interviews or a job?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "No. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
@@ -3422,7 +3467,7 @@
         },
         {
           "@type": "Question",
-          "name": "How do I request Career Positioning & Optimization?",
+          "name": "How do I request Career Positioning \u0026 Optimization?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Send an inquiry through the contact page or email daniel@kovcareeragency.org. Individual Career Services are available through inquiry and quotation."
@@ -3430,7 +3475,7 @@
         },
         {
           "@type": "Question",
-          "name": "Is Career Positioning & Optimization confidential?",
+          "name": "Is Career Positioning \u0026 Optimization confidential?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Confidentiality is the default at KOV, and your information is used only as agreed for the work."
@@ -3438,7 +3483,7 @@
         },
         {
           "@type": "Question",
-          "name": "Can I get Career Positioning & Optimization without Private Career Representation?",
+          "name": "Can I get Career Positioning \u0026 Optimization without Private Career Representation?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes. The seven Individual Career Services are offered separately and can be requested on their own."
@@ -3446,7 +3491,7 @@
         },
         {
           "@type": "Question",
-          "name": "How are revisions handled for Career Positioning & Optimization?",
+          "name": "How are revisions handled for Career Positioning \u0026 Optimization?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Work is reviewed and finalised within the agreed revision process, which is confirmed as part of the scope and quotation."
@@ -3454,7 +3499,7 @@
         },
         {
           "@type": "Question",
-          "name": "What is the first step for Career Positioning & Optimization?",
+          "name": "What is the first step for Career Positioning \u0026 Optimization?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "The first step is understanding your objective, then confirming the right scope before a tailored quotation is provided."
@@ -3462,7 +3507,7 @@
         },
         {
           "@type": "Question",
-          "name": "Is Career Positioning & Optimization suitable for executives?",
+          "name": "Is Career Positioning \u0026 Optimization suitable for executives?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "KOV works with senior and executive professionals. Suitability for your situation is discussed when you enquire."
@@ -3470,7 +3515,7 @@
         },
         {
           "@type": "Question",
-          "name": "Is Career Positioning & Optimization suitable for mid-career professionals?",
+          "name": "Is Career Positioning \u0026 Optimization suitable for mid-career professionals?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "It can be, depending on your goals. Fit and scope are discussed before work begins."
@@ -3478,7 +3523,7 @@
         },
         {
           "@type": "Question",
-          "name": "Is Career Positioning & Optimization useful for career changers?",
+          "name": "Is Career Positioning \u0026 Optimization useful for career changers?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "It can help present transferable experience clearly for a new direction. Scope is tailored to your situation."
@@ -3486,7 +3531,7 @@
         },
         {
           "@type": "Question",
-          "name": "Does Career Positioning & Optimization help with remote job searches?",
+          "name": "Does Career Positioning \u0026 Optimization help with remote job searches?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "The work can be shaped around the roles and markets you are targeting, including remote or international ones. Scope is agreed in advance."
@@ -3494,7 +3539,7 @@
         },
         {
           "@type": "Question",
-          "name": "Does Career Positioning & Optimization help with international job searches?",
+          "name": "Does Career Positioning \u0026 Optimization help with international job searches?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "It can be adapted to the market you are targeting. Confirm right-to-work and local requirements for each opportunity yourself."
@@ -3502,15 +3547,15 @@
         },
         {
           "@type": "Question",
-          "name": "What is the difference between Career Positioning & Optimization and Private Career Representation?",
+          "name": "What is the difference between Career Positioning \u0026 Optimization and Private Career Representation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Career Positioning & Optimization is a standalone service quoted on inquiry. Private Career Representation is KOV's primary managed service covering strategy, research, positioning and outreach."
+            "text": "Career Positioning \u0026 Optimization is a standalone service quoted on inquiry. Private Career Representation is KOV's primary managed service covering strategy, research, positioning and outreach."
           }
         },
         {
           "@type": "Question",
-          "name": "Do I work directly with Daniel for Career Positioning & Optimization?",
+          "name": "Do I work directly with Daniel for Career Positioning \u0026 Optimization?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "KOV is founder-led, and Daniel Ade is directly involved, giving you one accountable point of contact."
@@ -3695,22 +3740,9 @@
       ]
     },
     {
-      "@type": "ProfessionalService",
-      "@id": "https://www.kovcareeragency.org/#organization",
-      "name": "KOV Career Agency",
-      "url": "https://www.kovcareeragency.org/",
-      "logo": "https://www.kovcareeragency.org/kov-logo.png",
-      "email": "daniel@kovcareeragency.org",
-      "founder": {
-        "@type": "Person",
-        "name": "Daniel Ade"
-      },
-      "sameAs": [
-        "https://www.reddit.com/user/KOV_CAREER_AGENCY/"
-      ]
-    },
-    {
-      "@type": "BreadcrumbList",
+      "@type": [
+        "BreadcrumbList"
+      ],
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -3721,20 +3753,106 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "FAQ Library",
+          "name": "FAQ Library | KOV Career Agency",
           "item": "https://www.kovcareeragency.org/faq/index.html"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Individual Career Services FAQ, Part 2",
+          "name": "Individual Career Services FAQ, Part 2 | KOV Career Agency",
           "item": "https://www.kovcareeragency.org/faq/candidate-services-2.html"
         }
+      ],
+      "@id": "https://www.kovcareeragency.org/faq/candidate-services-2.html#breadcrumb"
+    },
+    {
+      "@type": [
+        "WebPage",
+        "FAQPage"
+      ],
+      "@id": "https://www.kovcareeragency.org/faq/candidate-services-2.html#webpage",
+      "name": "Individual Career Services FAQ, Part 2 | KOV Career Agency",
+      "url": "https://www.kovcareeragency.org/faq/candidate-services-2.html",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.kovcareeragency.org/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://www.kovcareeragency.org/#website"
+      },
+      "description": "60 questions and answers about individual career services from KOV Career Agency, an independent career representation service for senior professionals.",
+      "breadcrumb": {
+        "@id": "https://www.kovcareeragency.org/faq/candidate-services-2.html#breadcrumb"
+      },
+      "audience": [
+        {
+          "@id": "https://www.kovcareeragency.org/#audience-2ef354cf14db75bea56a"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.kovcareeragency.org/#audience-2ef354cf14db75bea56a"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-edd30c415d7fc9619421"
+        }
+      ],
+      "keywords": [
+        "Career development",
+        "Executive career representation"
       ]
+    },
+    {
+      "@type": [
+        "Audience"
+      ],
+      "@id": "https://www.kovcareeragency.org/#audience-2ef354cf14db75bea56a",
+      "audienceType": "Senior professionals"
+    },
+    {
+      "@type": [
+        "Audience"
+      ],
+      "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f",
+      "audienceType": "Job seekers"
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753",
+      "name": "Career development",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/faq/candidate-services-2.html#webpage"
+      }
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-edd30c415d7fc9619421",
+      "name": "Executive career representation",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/faq/candidate-services-2.html#webpage"
+      }
     }
   ]
-}
-</script>
+}</script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Individual Career Services FAQ, Part 2 | KOV Career Agency</title>
+<meta name="description" content="60 questions and answers about individual career services from KOV Career Agency, an independent career representation service for senior professionals.">
+<link rel="canonical" href="https://www.kovcareeragency.org/faq/candidate-services-2.html">
+<meta name="robots" content="index,follow">
+
 <style>body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:24px 16px;line-height:1.6;color:#1a1a1a;background:#fff}@media(prefers-color-scheme:dark){body{background:#111;color:#eee}a{color:#8ab4ff}}details{border-bottom:1px solid #8883;padding:10px 0}summary{cursor:pointer}summary h3{display:inline;font-size:1.02em;font-weight:600}h1{font-size:1.6em}nav a{margin-right:12px}</style><script src="../assets/theme-toggle.js" defer></script><meta property="og:type" content="website">
 <meta property="og:site_name" content="KOV Career Agency">
 <meta property="og:title" content="Individual Career Services FAQ, Part 2 | KOV Career Agency">

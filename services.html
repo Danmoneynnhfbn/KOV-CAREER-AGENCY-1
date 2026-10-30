@@ -1,24 +1,28 @@
 <!DOCTYPE html><html lang="en"><head>
-<script type="application/ld+json">{
+<script type="application/ld+json" data-kov="discovery">{
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": [
         "ProfessionalService",
-        "EmploymentAgency"
+        "Organization"
       ],
       "@id": "https://www.kovcareeragency.org/#organization",
       "name": "KOV Career Agency",
       "alternateName": [
         "KOV",
         "KOV Career Agency Private Career Representation",
-        "KOV Reverse Recruiting"
+        "KOV Reverse Recruiting",
+        "KOV Career"
       ],
       "url": "https://www.kovcareeragency.org/",
       "logo": "https://www.kovcareeragency.org/kov-logo.png",
       "image": "https://www.kovcareeragency.org/preview.png",
       "email": "daniel@kovcareeragency.org",
-      "description": "KOV Career Agency is an independent, founder-led career representation and talent advisory service for senior and experienced professionals. It offers Private Career Representation (reverse recruiting on the candidate's side: target-company research, decision-maker research, positioning, recruiter and hiring-manager outreach and follow-up) and seven separate Individual Career Services: resume and CV, LinkedIn, career documents, portfolio, personal career website, career positioning and career coaching. KOV works for the candidate, never for corporate HR, and works remotely with professionals in global markets.",
+      "description": [
+        "KOV Career Agency is an independent, founder-led career representation and talent advisory service for senior and experienced professionals. It offers Private Career Representation (reverse recruiting on the candidate's side: target-company research, decision-maker research, positioning, recruiter and hiring-manager outreach and follow-up) and seven separate Individual Career Services: resume and CV, LinkedIn, career documents, portfolio, personal career website, career positioning and career coaching. KOV works for the candidate, never for corporate HR, and works remotely with professionals in global markets.",
+        "An independent career agency providing candidate-side career representation and individual career services."
+      ],
       "slogan": "Private career representation for professionals",
       "founder": {
         "@id": "https://www.kovcareeragency.org/#founder"
@@ -1180,7 +1184,7 @@
         },
         {
           "@type": "Audience",
-          "audienceType": "FP&A Professionals"
+          "audienceType": "FP\u0026A Professionals"
         },
         {
           "@type": "Audience",
@@ -3017,7 +3021,17 @@
         "KOV private career representation",
         "KOV individual career services",
         "kovcareeragency.org",
-        "career support in Nigeria"
+        "career support in Nigeria",
+        "Career development",
+        "Professional profile assessment",
+        "Resume and CV services",
+        "Executive career representation",
+        "Career transitions",
+        "Professional positioning",
+        "Leadership opportunities",
+        "International career opportunities",
+        "Professional visibility",
+        "Job-search strategy"
       ],
       "availableLanguage": [
         "English"
@@ -3042,7 +3056,7 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Resume and CV Writing & Optimization",
+              "name": "Resume and CV Writing \u0026 Optimization",
               "description": "Organises and sharpens a resume or CV so recruiters can quickly understand the professional's skills and experience.",
               "url": "https://www.kovcareeragency.org/candidate-services.html"
             }
@@ -3087,7 +3101,7 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Career Positioning & Optimization",
+              "name": "Career Positioning \u0026 Optimization",
               "description": "Identifies suitable roles and markets, finds gaps in how a background is presented, and sets out a practical plan.",
               "url": "https://www.kovcareeragency.org/candidate-services.html"
             }
@@ -3105,11 +3119,22 @@
       }
     },
     {
-      "@type": "Person",
+      "@type": [
+        "Person"
+      ],
       "@id": "https://www.kovcareeragency.org/#founder",
-      "name": "Daniel Ade",
-      "alternateName": "Adekunle Ayotoba Daniel",
-      "jobTitle": "Founder & Principal Agent",
+      "name": [
+        "Daniel Ade",
+        "Adekunle Ayotoba Daniel"
+      ],
+      "alternateName": [
+        "Adekunle Ayotoba Daniel",
+        "Daniel Ade"
+      ],
+      "jobTitle": [
+        "Founder \u0026 Principal Agent",
+        "Founder and Principal Agent"
+      ],
       "url": "https://www.kovcareeragency.org/about.html",
       "worksFor": {
         "@id": "https://www.kovcareeragency.org/#organization"
@@ -3181,20 +3206,40 @@
       ]
     },
     {
-      "@type": "WebSite",
+      "@type": [
+        "WebSite"
+      ],
       "@id": "https://www.kovcareeragency.org/#website",
       "url": "https://www.kovcareeragency.org/",
       "name": "KOV Career Agency",
       "publisher": {
         "@id": "https://www.kovcareeragency.org/#organization"
       },
-      "inLanguage": "en"
-    }
-  ]
-}</script>
-<script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
+      "inLanguage": "en",
+      "hasPart": {
+        "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#catalog"
+      },
+      "mentions": [
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#countries"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-titles"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupations"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#country-list"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupation-list"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-title-terms"
+        }
+      ]
+    },
     {
       "@type": "Place",
       "@id": "https://www.kovcareeragency.org/#service-area",
@@ -7284,9 +7329,280 @@
           "@id": "https://www.kovcareeragency.org/#service-area"
         }
       }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Assessment and Fit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Assessment and Fit means discussing your objectives, constraints and the support you want, reviewing your background and target direction, checking whether representation suits you, and agreeing scope, responsibilities, approvals and communication."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Target-Company Strategy and Research?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Target-Company Strategy and Research means defining target roles, organisations and markets, researching opportunities with available information, identifying relevant decision-makers and contact routes where appropriate, and prioritising next steps."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Professional Positioning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Professional Positioning builds a narrative from your verified experience, identifies supporting evidence and aligns approved positioning with the relevant career materials. Separate document or profile work is scoped as an Individual Career Service."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Professional Outreach and Follow-Up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Professional Outreach and Follow-Up means preparing outreach, obtaining approvals where the process requires them, following up, and coordinating responses and next steps."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is direct introductions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Direct introductions may be made where appropriate and available, but they are not guaranteed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is decision-maker research?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Decision-maker research identifies relevant decision-makers and contact routes at target organisations where appropriate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is scope and responsibilities?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Scope, responsibilities, approvals and communication are agreed during Assessment and Fit, before work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is approvals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Approvals are obtained where the process requires them, so outreach and positioning reflect what you are comfortable with."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is communication during representation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "How you are kept informed is agreed during Assessment and Fit, and KOV coordinates responses and next steps with you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the suitability assessment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Representation is not offered automatically. Suitability is assessed during Assessment and Fit, based on your circumstances and objectives."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is target roles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Target roles are defined as part of strategy so research and outreach focus on positions that fit your direction."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is target organisations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Target organisations are researched using available information and prioritised against your goals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is target markets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Target markets are defined alongside roles and organisations, so the search is focused on where your experience fits best."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is supporting evidence for your experience?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Positioning identifies supporting evidence for your verified experience, so claims in your career materials are accurate and approved by you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is your career narrative?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your career narrative is built from verified experience and aligned with the relevant career materials once you approve it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is follow-up with employers and recruiters?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Follow-up is part of Professional Outreach and Follow-Up, so approaches do not stall after a first message."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is coordinating responses and next steps?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV coordinates responses and next steps with you as they arrive, and you keep control of career decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is confidential representation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Confidentiality is treated as the default in KOV's work, and outreach happens only where appropriate and approved."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is founder-led representation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV is founder-led. Daniel Ade is directly involved, so you have one accountable point of contact from intake to offer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the separation from Individual Career Services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Private Career Representation is KOV's primary managed service and is separate from the seven Individual Career Services, which are quoted on inquiry."
+          }
+        }
+      ]
+    },
+    {
+      "@type": [
+        "WebPage"
+      ],
+      "@id": "https://www.kovcareeragency.org/services.html#webpage",
+      "name": "Private Career Representation | KOV Career Agency",
+      "url": "https://www.kovcareeragency.org/services.html",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.kovcareeragency.org/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://www.kovcareeragency.org/#website"
+      },
+      "description": "Private Career Representation for suitable professionals: agreed target strategy, research, approved outreach, follow-up and introductions where appropriate.",
+      "breadcrumb": {
+        "@id": "https://www.kovcareeragency.org/services.html#breadcrumb"
+      },
+      "audience": [
+        {
+          "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-edd30c415d7fc9619421"
+        }
+      ],
+      "keywords": [
+        "Career development",
+        "Executive career representation"
+      ],
+      "mainEntity": {
+        "@id": "https://www.kovcareeragency.org/services.html#service"
+      }
+    },
+    {
+      "@type": [
+        "BreadcrumbList"
+      ],
+      "@id": "https://www.kovcareeragency.org/services.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.kovcareeragency.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Private Career Representation | KOV Career Agency",
+          "item": "https://www.kovcareeragency.org/services.html"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "Audience"
+      ],
+      "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f",
+      "audienceType": "Job seekers"
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753",
+      "name": "Career development",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/services.html#webpage"
+      }
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-edd30c415d7fc9619421",
+      "name": "Executive career representation",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/services.html#webpage"
+      }
+    },
+    {
+      "@type": [
+        "Service"
+      ],
+      "@id": "https://www.kovcareeragency.org/services.html#service",
+      "name": "Private Career Representation | KOV Career Agency",
+      "description": "Private Career Representation for suitable professionals: agreed target strategy, research, approved outreach, follow-up and introductions where appropriate.",
+      "url": "https://www.kovcareeragency.org/services.html",
+      "provider": {
+        "@id": "https://www.kovcareeragency.org/#organization"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/services.html#webpage"
+      }
     }
   ]
 }</script>
+
 <meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" href="kov-logo.png"/><link rel="icon" type="image/png" href="kov-logo.png"/><link rel="shortcut icon" type="image/png" href="kov-logo.png"/><link rel="apple-touch-icon" sizes="180x180" href="kov-logo.png"/><link rel="preload" as="image" href="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&amp;fit=crop&amp;w=1100&amp;q=80"/><link rel="stylesheet" href="assets/styles-DateywTe.css" data-precedence="default"/><link rel="stylesheet" href="assets/site-fixes.css?v=27" data-precedence="default"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&amp;family=Inter:wght@300;400;500;600&amp;display=swap" data-precedence="default"/><title>Private Career Representation | KOV Career Agency</title>
 <script src="assets/google-translate.js?v=6" defer></script>
 <script src="assets/site-search-index.js" defer></script>
@@ -7321,174 +7637,7 @@
   <meta property="og:image:alt" content="KOV Career Agency">
   <meta name="robots" content="index,follow">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is Assessment and Fit?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Assessment and Fit means discussing your objectives, constraints and the support you want, reviewing your background and target direction, checking whether representation suits you, and agreeing scope, responsibilities, approvals and communication."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is Target-Company Strategy and Research?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Target-Company Strategy and Research means defining target roles, organisations and markets, researching opportunities with available information, identifying relevant decision-makers and contact routes where appropriate, and prioritising next steps."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is Professional Positioning?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Professional Positioning builds a narrative from your verified experience, identifies supporting evidence and aligns approved positioning with the relevant career materials. Separate document or profile work is scoped as an Individual Career Service."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is Professional Outreach and Follow-Up?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Professional Outreach and Follow-Up means preparing outreach, obtaining approvals where the process requires them, following up, and coordinating responses and next steps."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is direct introductions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Direct introductions may be made where appropriate and available, but they are not guaranteed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is decision-maker research?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Decision-maker research identifies relevant decision-makers and contact routes at target organisations where appropriate."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is scope and responsibilities?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Scope, responsibilities, approvals and communication are agreed during Assessment and Fit, before work begins."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is approvals?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Approvals are obtained where the process requires them, so outreach and positioning reflect what you are comfortable with."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is communication during representation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "How you are kept informed is agreed during Assessment and Fit, and KOV coordinates responses and next steps with you."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the suitability assessment?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Representation is not offered automatically. Suitability is assessed during Assessment and Fit, based on your circumstances and objectives."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is target roles?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Target roles are defined as part of strategy so research and outreach focus on positions that fit your direction."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is target organisations?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Target organisations are researched using available information and prioritised against your goals."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is target markets?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Target markets are defined alongside roles and organisations, so the search is focused on where your experience fits best."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is supporting evidence for your experience?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Positioning identifies supporting evidence for your verified experience, so claims in your career materials are accurate and approved by you."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is your career narrative?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Your career narrative is built from verified experience and aligned with the relevant career materials once you approve it."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is follow-up with employers and recruiters?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Follow-up is part of Professional Outreach and Follow-Up, so approaches do not stall after a first message."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is coordinating responses and next steps?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV coordinates responses and next steps with you as they arrive, and you keep control of career decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is confidential representation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Confidentiality is treated as the default in KOV's work, and outreach happens only where appropriate and approved."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is founder-led representation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV is founder-led. Daniel Ade is directly involved, so you have one accountable point of contact from intake to offer."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the separation from Individual Career Services?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Private Career Representation is KOV's primary managed service and is separate from the seven Individual Career Services, which are quoted on inquiry."
-      }
-    }
-  ]
-}
-</script>
+
   <link rel="stylesheet" href="/assets/design-components.css">
 <link rel="stylesheet" href="/css/design-system.css">
 <link rel="stylesheet" href="/css/theme-legencymedia.css">

@@ -44,7 +44,8 @@
       "name": "KOV Career Agency",
       "alternateName": [
         "KOV Career",
-        "KovCareer"
+        "KovCareer",
+        "KOV"
       ],
       "url": "https://www.kovcareeragency.org/",
       "logo": {
@@ -55,10 +56,29 @@
       "email": "daniel@kovcareeragency.org",
       "founder": {
         "@id": "https://www.kovcareeragency.org/#founder"
-      }
+      },
+      "sameAs": [
+        "https://www.reddit.com/user/KOV_CAREER_AGENCY/"
+      ],
+      "description": "An independent career agency providing candidate-side career representation and individual career services.",
+      "knowsAbout": [
+        "Career development",
+        "Professional profile assessment",
+        "Resume and CV services",
+        "LinkedIn profile optimization",
+        "Executive career representation",
+        "Career transitions",
+        "Professional positioning",
+        "Leadership opportunities",
+        "International career opportunities",
+        "Professional visibility",
+        "Job-search strategy"
+      ]
     },
     {
-      "@type": "Person",
+      "@type": [
+        "Person"
+      ],
       "@id": "https://www.kovcareeragency.org/#founder",
       "name": "Adekunle Ayotoba Daniel",
       "alternateName": "Daniel Ade",
@@ -68,17 +88,43 @@
       }
     },
     {
-      "@type": "WebSite",
+      "@type": [
+        "WebSite"
+      ],
       "@id": "https://www.kovcareeragency.org/#website",
       "name": "KOV Career Agency",
       "url": "https://www.kovcareeragency.org/",
       "publisher": {
         "@id": "https://www.kovcareeragency.org/#organization"
-      }
+      },
+      "hasPart": {
+        "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#catalog"
+      },
+      "mentions": [
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#countries"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-titles"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupations"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#country-list"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupation-list"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-title-terms"
+        }
+      ]
     },
     {
       "@type": [
-        "WebPage"
+        "WebPage",
+        "AboutPage"
       ],
       "@id": "https://www.kovcareeragency.org/resources/kov-founder-profile.html#webpage",
       "name": "KOV Founder Profile | Daniel Ade",
@@ -88,15 +134,42 @@
       "isPartOf": {
         "@id": "https://www.kovcareeragency.org/#website"
       },
-      "about": {
-        "@id": "https://www.kovcareeragency.org/#organization"
-      },
+      "about": [
+        {
+          "@id": "https://www.kovcareeragency.org/#organization"
+        }
+      ],
       "breadcrumb": {
         "@id": "https://www.kovcareeragency.org/resources/kov-founder-profile.html#breadcrumb"
-      }
+      },
+      "publisher": {
+        "@id": "https://www.kovcareeragency.org/#organization"
+      },
+      "audience": [
+        {
+          "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-edd30c415d7fc9619421"
+        }
+      ],
+      "keywords": [
+        "Career development",
+        "Executive career representation"
+      ]
     },
     {
-      "@type": "BreadcrumbList",
+      "@type": [
+        "BreadcrumbList"
+      ],
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -186,6 +259,33 @@
       "url": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#job-functions",
       "isPartOf": {
         "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#catalog"
+      }
+    },
+    {
+      "@type": [
+        "Audience"
+      ],
+      "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f",
+      "audienceType": "Job seekers"
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753",
+      "name": "Career development",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/resources/kov-founder-profile.html#webpage"
+      }
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-edd30c415d7fc9619421",
+      "name": "Executive career representation",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/resources/kov-founder-profile.html#webpage"
       }
     }
   ]

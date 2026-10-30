@@ -1,24 +1,28 @@
 <!DOCTYPE html><html lang="en"><head>
-<script type="application/ld+json">{
+<script type="application/ld+json" data-kov="discovery">{
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": [
         "ProfessionalService",
-        "EmploymentAgency"
+        "Organization"
       ],
       "@id": "https://www.kovcareeragency.org/#organization",
       "name": "KOV Career Agency",
       "alternateName": [
         "KOV",
         "KOV Career Agency Private Career Representation",
-        "KOV Reverse Recruiting"
+        "KOV Reverse Recruiting",
+        "KOV Career"
       ],
       "url": "https://www.kovcareeragency.org/",
       "logo": "https://www.kovcareeragency.org/kov-logo.png",
       "image": "https://www.kovcareeragency.org/preview.png",
       "email": "daniel@kovcareeragency.org",
-      "description": "KOV Career Agency is an independent, founder-led career representation and talent advisory service for senior and experienced professionals. It offers Private Career Representation (reverse recruiting on the candidate's side: target-company research, decision-maker research, positioning, recruiter and hiring-manager outreach and follow-up) and seven separate Individual Career Services: resume and CV, LinkedIn, career documents, portfolio, personal career website, career positioning and career coaching. KOV works for the candidate, never for corporate HR, and works remotely with professionals in global markets.",
+      "description": [
+        "KOV Career Agency is an independent, founder-led career representation and talent advisory service for senior and experienced professionals. It offers Private Career Representation (reverse recruiting on the candidate's side: target-company research, decision-maker research, positioning, recruiter and hiring-manager outreach and follow-up) and seven separate Individual Career Services: resume and CV, LinkedIn, career documents, portfolio, personal career website, career positioning and career coaching. KOV works for the candidate, never for corporate HR, and works remotely with professionals in global markets.",
+        "An independent career agency providing candidate-side career representation and individual career services."
+      ],
       "slogan": "Private career representation for professionals",
       "founder": {
         "@id": "https://www.kovcareeragency.org/#founder"
@@ -1180,7 +1184,7 @@
         },
         {
           "@type": "Audience",
-          "audienceType": "FP&A Professionals"
+          "audienceType": "FP\u0026A Professionals"
         },
         {
           "@type": "Audience",
@@ -3017,7 +3021,17 @@
         "KOV private career representation",
         "KOV individual career services",
         "kovcareeragency.org",
-        "career support in Nigeria"
+        "career support in Nigeria",
+        "Career development",
+        "Professional profile assessment",
+        "Resume and CV services",
+        "Executive career representation",
+        "Career transitions",
+        "Professional positioning",
+        "Leadership opportunities",
+        "International career opportunities",
+        "Professional visibility",
+        "Job-search strategy"
       ],
       "availableLanguage": [
         "English"
@@ -3042,7 +3056,7 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Resume and CV Writing & Optimization",
+              "name": "Resume and CV Writing \u0026 Optimization",
               "description": "Organises and sharpens a resume or CV so recruiters can quickly understand the professional's skills and experience.",
               "url": "https://www.kovcareeragency.org/candidate-services.html"
             }
@@ -3087,7 +3101,7 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Career Positioning & Optimization",
+              "name": "Career Positioning \u0026 Optimization",
               "description": "Identifies suitable roles and markets, finds gaps in how a background is presented, and sets out a practical plan.",
               "url": "https://www.kovcareeragency.org/candidate-services.html"
             }
@@ -3105,11 +3119,22 @@
       }
     },
     {
-      "@type": "Person",
+      "@type": [
+        "Person"
+      ],
       "@id": "https://www.kovcareeragency.org/#founder",
-      "name": "Daniel Ade",
-      "alternateName": "Adekunle Ayotoba Daniel",
-      "jobTitle": "Founder & Principal Agent",
+      "name": [
+        "Daniel Ade",
+        "Adekunle Ayotoba Daniel"
+      ],
+      "alternateName": [
+        "Adekunle Ayotoba Daniel",
+        "Daniel Ade"
+      ],
+      "jobTitle": [
+        "Founder \u0026 Principal Agent",
+        "Founder and Principal Agent"
+      ],
       "url": "https://www.kovcareeragency.org/about.html",
       "worksFor": {
         "@id": "https://www.kovcareeragency.org/#organization"
@@ -3181,14 +3206,292 @@
       ]
     },
     {
-      "@type": "WebSite",
+      "@type": [
+        "WebSite"
+      ],
       "@id": "https://www.kovcareeragency.org/#website",
       "url": "https://www.kovcareeragency.org/",
       "name": "KOV Career Agency",
       "publisher": {
         "@id": "https://www.kovcareeragency.org/#organization"
       },
-      "inLanguage": "en"
+      "inLanguage": "en",
+      "hasPart": {
+        "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#catalog"
+      },
+      "mentions": [
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#countries"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-titles"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupations"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#country-list"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupation-list"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-title-terms"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who is KOV the right fit for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals who want private career representation or specific individual career services. Suitability is assessed during Assessment and Fit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a reverse recruiter the same as a career coach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. A career coach mainly advises and guides. A reverse recruiter also carries out target-company research, outreach and follow-up on the candidate's behalf."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does an executive job search take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Executive searches commonly take several months, depending on level, sector, location and market conditions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are fees agreed before work begins?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Terms are confirmed in writing before any work starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Strategy Directors work with KOV Career Agency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV welcomes enquiries from Strategy Directors. Fit and scope are assessed before work begins, fees are confirmed in writing, and no job or interview outcome is guaranteed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can KOV Career Agency do for Oil and Gas Professionals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV can support Oil and Gas Professionals through Private Career Representation or separate Individual Career Services such as resume, LinkedIn, portfolio and coaching support, depending on the agreed scope."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Sales Directors work with KOV Career Agency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV welcomes enquiries from Sales Directors. Fit and scope are assessed before work begins, fees are confirmed in writing, and no job or interview outcome is guaranteed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can KOV Career Agency do for Recruiters?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV can support Recruiters through Private Career Representation or separate Individual Career Services such as resume, LinkedIn, portfolio and coaching support, depending on the agreed scope."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can KOV Career Agency do for Researchers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV can support Researchers through Private Career Representation or separate Individual Career Services such as resume, LinkedIn, portfolio and coaching support, depending on the agreed scope."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Consumer Goods Professionals work with KOV Career Agency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV welcomes enquiries from Consumer Goods Professionals. Fit and scope are assessed before work begins, fees are confirmed in writing, and no job or interview outcome is guaranteed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can KOV Career Agency do for Professionals Returning from Sabbatical?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV can support Professionals Returning from Sabbatical through Private Career Representation or separate Individual Career Services such as resume, LinkedIn, portfolio and coaching support, depending on the agreed scope."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Self-Employed Professionals Returning to Employment work with KOV Career Agency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV welcomes enquiries from Self-Employed Professionals Returning to Employment. Fit and scope are assessed before work begins, fees are confirmed in writing, and no job or interview outcome is guaranteed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Professionals Who Need Relocation Support work with KOV Career Agency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV welcomes enquiries from Professionals Who Need Relocation Support. Fit and scope are assessed before work begins, fees are confirmed in writing, and no job or interview outcome is guaranteed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can KOV Career Agency do for Chief Procurement Officers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV can support Chief Procurement Officers through Private Career Representation or separate Individual Career Services such as resume, LinkedIn, portfolio and coaching support, depending on the agreed scope."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Heads of Compliance work with KOV Career Agency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV welcomes enquiries from Heads of Compliance. Fit and scope are assessed before work begins, fees are confirmed in writing, and no job or interview outcome is guaranteed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help me find a job in Manama?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works remotely with professionals in global markets, including those targeting roles in Manama, Bahrain. It can research relevant organisations and contact routes there where appropriate. Availability depends on location and engagement fit, you should confirm right-to-work requirements for Bahrain, and no job is guaranteed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help me find a job in London?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works remotely with professionals in global markets, including those targeting roles in London, the United Kingdom. It can research relevant organisations and contact routes there where appropriate. Availability depends on location and engagement fit, you should confirm right-to-work requirements for the United Kingdom, and no job is guaranteed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help me find a job in Lisbon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works remotely with professionals in global markets, including those targeting roles in Lisbon, Portugal. It can research relevant organisations and contact routes there where appropriate. Availability depends on location and engagement fit, you should confirm right-to-work requirements for Portugal, and no job is guaranteed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help me find a job in Vancouver?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works remotely with professionals in global markets, including those targeting roles in Vancouver, Canada. It can research relevant organisations and contact routes there where appropriate. Availability depends on location and engagement fit, you should confirm right-to-work requirements for Canada, and no job is guaranteed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help me find a job in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works remotely with professionals in global markets, including those targeting roles in Mumbai, India. It can research relevant organisations and contact routes there where appropriate. Availability depends on location and engagement fit, you should confirm right-to-work requirements for India, and no job is guaranteed."
+          }
+        }
+      ]
+    },
+    {
+      "@type": [
+        "WebPage",
+        "CollectionPage"
+      ],
+      "@id": "https://www.kovcareeragency.org/faqs.html#webpage",
+      "name": "Career Representation FAQs | KOV Career Agency",
+      "url": "https://www.kovcareeragency.org/faqs.html",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.kovcareeragency.org/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://www.kovcareeragency.org/#website"
+      },
+      "description": "Answers to common questions about KOV's private career representation and individual career services, including process, scope, fees and confidentiality.",
+      "breadcrumb": {
+        "@id": "https://www.kovcareeragency.org/faqs.html#breadcrumb"
+      },
+      "audience": [
+        {
+          "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-edd30c415d7fc9619421"
+        }
+      ],
+      "keywords": [
+        "Career development",
+        "Executive career representation"
+      ]
+    },
+    {
+      "@type": [
+        "BreadcrumbList"
+      ],
+      "@id": "https://www.kovcareeragency.org/faqs.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.kovcareeragency.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Career Representation FAQs | KOV Career Agency",
+          "item": "https://www.kovcareeragency.org/faqs.html"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "Audience"
+      ],
+      "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f",
+      "audienceType": "Job seekers"
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753",
+      "name": "Career development",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/faqs.html#webpage"
+      }
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-edd30c415d7fc9619421",
+      "name": "Executive career representation",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/faqs.html#webpage"
+      }
     }
   ]
 }</script>
@@ -3226,174 +3529,7 @@
   <meta property="og:image:alt" content="KOV Career Agency">
   <meta name="robots" content="index,follow">
   
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Who is KOV the right fit for?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals who want private career representation or specific individual career services. Suitability is assessed during Assessment and Fit."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is a reverse recruiter the same as a career coach?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. A career coach mainly advises and guides. A reverse recruiter also carries out target-company research, outreach and follow-up on the candidate's behalf."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does an executive job search take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Executive searches commonly take several months, depending on level, sector, location and market conditions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are fees agreed before work begins?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Terms are confirmed in writing before any work starts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Strategy Directors work with KOV Career Agency?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV welcomes enquiries from Strategy Directors. Fit and scope are assessed before work begins, fees are confirmed in writing, and no job or interview outcome is guaranteed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What can KOV Career Agency do for Oil and Gas Professionals?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV can support Oil and Gas Professionals through Private Career Representation or separate Individual Career Services such as resume, LinkedIn, portfolio and coaching support, depending on the agreed scope."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Sales Directors work with KOV Career Agency?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV welcomes enquiries from Sales Directors. Fit and scope are assessed before work begins, fees are confirmed in writing, and no job or interview outcome is guaranteed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What can KOV Career Agency do for Recruiters?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV can support Recruiters through Private Career Representation or separate Individual Career Services such as resume, LinkedIn, portfolio and coaching support, depending on the agreed scope."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What can KOV Career Agency do for Researchers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV can support Researchers through Private Career Representation or separate Individual Career Services such as resume, LinkedIn, portfolio and coaching support, depending on the agreed scope."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Consumer Goods Professionals work with KOV Career Agency?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV welcomes enquiries from Consumer Goods Professionals. Fit and scope are assessed before work begins, fees are confirmed in writing, and no job or interview outcome is guaranteed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What can KOV Career Agency do for Professionals Returning from Sabbatical?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV can support Professionals Returning from Sabbatical through Private Career Representation or separate Individual Career Services such as resume, LinkedIn, portfolio and coaching support, depending on the agreed scope."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Self-Employed Professionals Returning to Employment work with KOV Career Agency?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV welcomes enquiries from Self-Employed Professionals Returning to Employment. Fit and scope are assessed before work begins, fees are confirmed in writing, and no job or interview outcome is guaranteed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Professionals Who Need Relocation Support work with KOV Career Agency?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV welcomes enquiries from Professionals Who Need Relocation Support. Fit and scope are assessed before work begins, fees are confirmed in writing, and no job or interview outcome is guaranteed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What can KOV Career Agency do for Chief Procurement Officers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV can support Chief Procurement Officers through Private Career Representation or separate Individual Career Services such as resume, LinkedIn, portfolio and coaching support, depending on the agreed scope."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Heads of Compliance work with KOV Career Agency?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV welcomes enquiries from Heads of Compliance. Fit and scope are assessed before work begins, fees are confirmed in writing, and no job or interview outcome is guaranteed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help me find a job in Manama?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works remotely with professionals in global markets, including those targeting roles in Manama, Bahrain. It can research relevant organisations and contact routes there where appropriate. Availability depends on location and engagement fit, you should confirm right-to-work requirements for Bahrain, and no job is guaranteed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help me find a job in London?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works remotely with professionals in global markets, including those targeting roles in London, the United Kingdom. It can research relevant organisations and contact routes there where appropriate. Availability depends on location and engagement fit, you should confirm right-to-work requirements for the United Kingdom, and no job is guaranteed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help me find a job in Lisbon?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works remotely with professionals in global markets, including those targeting roles in Lisbon, Portugal. It can research relevant organisations and contact routes there where appropriate. Availability depends on location and engagement fit, you should confirm right-to-work requirements for Portugal, and no job is guaranteed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help me find a job in Vancouver?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works remotely with professionals in global markets, including those targeting roles in Vancouver, Canada. It can research relevant organisations and contact routes there where appropriate. Availability depends on location and engagement fit, you should confirm right-to-work requirements for Canada, and no job is guaranteed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help me find a job in Mumbai?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works remotely with professionals in global markets, including those targeting roles in Mumbai, India. It can research relevant organisations and contact routes there where appropriate. Availability depends on location and engagement fit, you should confirm right-to-work requirements for India, and no job is guaranteed."
-      }
-    }
-  ]
-}
-</script>
+
   <link rel="stylesheet" href="/assets/design-components.css">
 <link rel="stylesheet" href="/css/design-system.css">
 <link rel="stylesheet" href="/css/theme-legencymedia.css">

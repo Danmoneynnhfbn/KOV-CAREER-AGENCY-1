@@ -1,24 +1,28 @@
 <!DOCTYPE html><html lang="en"><head>
-<script type="application/ld+json">{
+<script type="application/ld+json" data-kov="discovery">{
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": [
         "ProfessionalService",
-        "EmploymentAgency"
+        "Organization"
       ],
       "@id": "https://www.kovcareeragency.org/#organization",
       "name": "KOV Career Agency",
       "alternateName": [
         "KOV",
         "KOV Career Agency Private Career Representation",
-        "KOV Reverse Recruiting"
+        "KOV Reverse Recruiting",
+        "KOV Career"
       ],
       "url": "https://www.kovcareeragency.org/",
       "logo": "https://www.kovcareeragency.org/kov-logo.png",
       "image": "https://www.kovcareeragency.org/preview.png",
       "email": "daniel@kovcareeragency.org",
-      "description": "KOV Career Agency is an independent, founder-led career representation and talent advisory service for senior and experienced professionals. It offers Private Career Representation (reverse recruiting on the candidate's side: target-company research, decision-maker research, positioning, recruiter and hiring-manager outreach and follow-up) and seven separate Individual Career Services: resume and CV, LinkedIn, career documents, portfolio, personal career website, career positioning and career coaching. KOV works for the candidate, never for corporate HR, and works remotely with professionals in global markets.",
+      "description": [
+        "KOV Career Agency is an independent, founder-led career representation and talent advisory service for senior and experienced professionals. It offers Private Career Representation (reverse recruiting on the candidate's side: target-company research, decision-maker research, positioning, recruiter and hiring-manager outreach and follow-up) and seven separate Individual Career Services: resume and CV, LinkedIn, career documents, portfolio, personal career website, career positioning and career coaching. KOV works for the candidate, never for corporate HR, and works remotely with professionals in global markets.",
+        "An independent career agency providing candidate-side career representation and individual career services."
+      ],
       "slogan": "Private career representation for professionals",
       "founder": {
         "@id": "https://www.kovcareeragency.org/#founder"
@@ -1180,7 +1184,7 @@
         },
         {
           "@type": "Audience",
-          "audienceType": "FP&A Professionals"
+          "audienceType": "FP\u0026A Professionals"
         },
         {
           "@type": "Audience",
@@ -3017,7 +3021,17 @@
         "KOV private career representation",
         "KOV individual career services",
         "kovcareeragency.org",
-        "career support in Nigeria"
+        "career support in Nigeria",
+        "Career development",
+        "Professional profile assessment",
+        "Resume and CV services",
+        "Executive career representation",
+        "Career transitions",
+        "Professional positioning",
+        "Leadership opportunities",
+        "International career opportunities",
+        "Professional visibility",
+        "Job-search strategy"
       ],
       "availableLanguage": [
         "English"
@@ -3042,7 +3056,7 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Resume and CV Writing & Optimization",
+              "name": "Resume and CV Writing \u0026 Optimization",
               "description": "Organises and sharpens a resume or CV so recruiters can quickly understand the professional's skills and experience.",
               "url": "https://www.kovcareeragency.org/candidate-services.html"
             }
@@ -3087,7 +3101,7 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Career Positioning & Optimization",
+              "name": "Career Positioning \u0026 Optimization",
               "description": "Identifies suitable roles and markets, finds gaps in how a background is presented, and sets out a practical plan.",
               "url": "https://www.kovcareeragency.org/candidate-services.html"
             }
@@ -3105,11 +3119,22 @@
       }
     },
     {
-      "@type": "Person",
+      "@type": [
+        "Person"
+      ],
       "@id": "https://www.kovcareeragency.org/#founder",
-      "name": "Daniel Ade",
-      "alternateName": "Adekunle Ayotoba Daniel",
-      "jobTitle": "Founder & Principal Agent",
+      "name": [
+        "Daniel Ade",
+        "Adekunle Ayotoba Daniel"
+      ],
+      "alternateName": [
+        "Adekunle Ayotoba Daniel",
+        "Daniel Ade"
+      ],
+      "jobTitle": [
+        "Founder \u0026 Principal Agent",
+        "Founder and Principal Agent"
+      ],
       "url": "https://www.kovcareeragency.org/about.html",
       "worksFor": {
         "@id": "https://www.kovcareeragency.org/#organization"
@@ -3181,14 +3206,291 @@
       ]
     },
     {
-      "@type": "WebSite",
+      "@type": [
+        "WebSite"
+      ],
       "@id": "https://www.kovcareeragency.org/#website",
       "url": "https://www.kovcareeragency.org/",
       "name": "KOV Career Agency",
       "publisher": {
         "@id": "https://www.kovcareeragency.org/#organization"
       },
-      "inLanguage": "en"
+      "inLanguage": "en",
+      "hasPart": {
+        "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#catalog"
+      },
+      "mentions": [
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#countries"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-titles"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupations"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#country-list"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupation-list"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-title-terms"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What should I know about fees agreed in writing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Terms are confirmed in writing before work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about scope-first pricing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fees are agreed for the specific service and scope you choose, so scope is settled first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about individually agreed fees?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no fixed fee for every client. Fees are set individually."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about the fee agreement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The fee agreement is a clear written confirmation of scope and terms before an engagement begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about a tailored quotation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A tailored quotation is provided after the service and deliverables are understood and before work starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about free enquiries?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enquiries are free."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about candidate registration fees?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV does not offer paid candidate registration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about recruitment-database subscriptions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV does not offer a recruitment-database subscription."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about fees for Private Career Representation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Private representation is a separate engagement from CV, LinkedIn and coaching services, with fees agreed for its own scope."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about fees for Individual Career Services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Individual Career Services are available through inquiry and quotation, with scope agreed before work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about the resume rewrite workstream?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Resume rewrite is one of the workstreams that can be defined in the agreed scope, with fees and scope agreed separately."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about the recruiter and manager outreach workstream?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Recruiter and manager outreach is a workstream that can be included in the agreed scope."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about the LinkedIn rewrite workstream?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LinkedIn rewrite is a workstream that can be included in the agreed scope."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about the high-volume applications workstream?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "High-volume applications are a workstream that can be agreed in scope where appropriate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about the interview prep workstream?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Interview preparation is a workstream that can be included in the agreed scope."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about the offer negotiation workstream?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Offer negotiation support is a workstream that can be included in the agreed scope."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about why prices are not published?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fees depend on the agreed scope, so a single published number would not fit every engagement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about representation scope?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Potential workstreams are defined in the agreed scope, and fees and scope are agreed before work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about separate engagements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Private representation and individual services are clearly separated, each with its own scope and terms."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about open and transparent fees?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV aims for open fees agreed upfront in writing, so there are no surprises later."
+          }
+        }
+      ]
+    },
+    {
+      "@type": [
+        "WebPage"
+      ],
+      "@id": "https://www.kovcareeragency.org/pricing.html#webpage",
+      "name": "Pricing for Private Career Representation | KOV Career Agency",
+      "url": "https://www.kovcareeragency.org/pricing.html",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.kovcareeragency.org/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://www.kovcareeragency.org/#website"
+      },
+      "description": "Fees for individual career services and private career representation depend on the agreed scope. Terms are confirmed in writing before work begins.",
+      "breadcrumb": {
+        "@id": "https://www.kovcareeragency.org/pricing.html#breadcrumb"
+      },
+      "audience": [
+        {
+          "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-edd30c415d7fc9619421"
+        }
+      ],
+      "keywords": [
+        "Career development",
+        "Executive career representation"
+      ]
+    },
+    {
+      "@type": [
+        "BreadcrumbList"
+      ],
+      "@id": "https://www.kovcareeragency.org/pricing.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.kovcareeragency.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Pricing for Private Career Representation | KOV Career Agency",
+          "item": "https://www.kovcareeragency.org/pricing.html"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "Audience"
+      ],
+      "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f",
+      "audienceType": "Job seekers"
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753",
+      "name": "Career development",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/pricing.html#webpage"
+      }
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-edd30c415d7fc9619421",
+      "name": "Executive career representation",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/pricing.html#webpage"
+      }
     }
   ]
 }</script>
@@ -3226,174 +3528,7 @@
   <meta property="og:image:alt" content="KOV Career Agency">
   <meta name="robots" content="index,follow">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I know about fees agreed in writing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Terms are confirmed in writing before work begins."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about scope-first pricing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Fees are agreed for the specific service and scope you choose, so scope is settled first."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about individually agreed fees?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "There is no fixed fee for every client. Fees are set individually."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about the fee agreement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The fee agreement is a clear written confirmation of scope and terms before an engagement begins."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about a tailored quotation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A tailored quotation is provided after the service and deliverables are understood and before work starts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about free enquiries?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Enquiries are free."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about candidate registration fees?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV does not offer paid candidate registration."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about recruitment-database subscriptions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV does not offer a recruitment-database subscription."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about fees for Private Career Representation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Private representation is a separate engagement from CV, LinkedIn and coaching services, with fees agreed for its own scope."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about fees for Individual Career Services?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Individual Career Services are available through inquiry and quotation, with scope agreed before work begins."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about the resume rewrite workstream?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Resume rewrite is one of the workstreams that can be defined in the agreed scope, with fees and scope agreed separately."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about the recruiter and manager outreach workstream?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Recruiter and manager outreach is a workstream that can be included in the agreed scope."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about the LinkedIn rewrite workstream?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "LinkedIn rewrite is a workstream that can be included in the agreed scope."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about the high-volume applications workstream?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "High-volume applications are a workstream that can be agreed in scope where appropriate."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about the interview prep workstream?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Interview preparation is a workstream that can be included in the agreed scope."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about the offer negotiation workstream?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Offer negotiation support is a workstream that can be included in the agreed scope."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about why prices are not published?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Fees depend on the agreed scope, so a single published number would not fit every engagement."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about representation scope?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Potential workstreams are defined in the agreed scope, and fees and scope are agreed before work begins."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about separate engagements?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Private representation and individual services are clearly separated, each with its own scope and terms."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about open and transparent fees?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV aims for open fees agreed upfront in writing, so there are no surprises later."
-      }
-    }
-  ]
-}
-</script>
+
   <link rel="stylesheet" href="/assets/design-components.css">
 <link rel="stylesheet" href="/css/design-system.css">
 <link rel="stylesheet" href="/css/theme-legencymedia.css">

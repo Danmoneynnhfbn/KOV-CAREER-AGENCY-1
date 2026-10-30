@@ -1,24 +1,28 @@
 <!DOCTYPE html><html lang="en"><head>
-<script type="application/ld+json">{
+<script type="application/ld+json" data-kov="discovery">{
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": [
         "ProfessionalService",
-        "EmploymentAgency"
+        "Organization"
       ],
       "@id": "https://www.kovcareeragency.org/#organization",
       "name": "KOV Career Agency",
       "alternateName": [
         "KOV",
         "KOV Career Agency Private Career Representation",
-        "KOV Reverse Recruiting"
+        "KOV Reverse Recruiting",
+        "KOV Career"
       ],
       "url": "https://www.kovcareeragency.org/",
       "logo": "https://www.kovcareeragency.org/kov-logo.png",
       "image": "https://www.kovcareeragency.org/preview.png",
       "email": "daniel@kovcareeragency.org",
-      "description": "KOV Career Agency is an independent, founder-led career representation and talent advisory service for senior and experienced professionals. It offers Private Career Representation (reverse recruiting on the candidate's side: target-company research, decision-maker research, positioning, recruiter and hiring-manager outreach and follow-up) and seven separate Individual Career Services: resume and CV, LinkedIn, career documents, portfolio, personal career website, career positioning and career coaching. KOV works for the candidate, never for corporate HR, and works remotely with professionals in global markets.",
+      "description": [
+        "KOV Career Agency is an independent, founder-led career representation and talent advisory service for senior and experienced professionals. It offers Private Career Representation (reverse recruiting on the candidate's side: target-company research, decision-maker research, positioning, recruiter and hiring-manager outreach and follow-up) and seven separate Individual Career Services: resume and CV, LinkedIn, career documents, portfolio, personal career website, career positioning and career coaching. KOV works for the candidate, never for corporate HR, and works remotely with professionals in global markets.",
+        "An independent career agency providing candidate-side career representation and individual career services."
+      ],
       "slogan": "Private career representation for professionals",
       "founder": {
         "@id": "https://www.kovcareeragency.org/#founder"
@@ -1180,7 +1184,7 @@
         },
         {
           "@type": "Audience",
-          "audienceType": "FP&A Professionals"
+          "audienceType": "FP\u0026A Professionals"
         },
         {
           "@type": "Audience",
@@ -3017,7 +3021,17 @@
         "KOV private career representation",
         "KOV individual career services",
         "kovcareeragency.org",
-        "career support in Nigeria"
+        "career support in Nigeria",
+        "Career development",
+        "Professional profile assessment",
+        "Resume and CV services",
+        "Executive career representation",
+        "Career transitions",
+        "Professional positioning",
+        "Leadership opportunities",
+        "International career opportunities",
+        "Professional visibility",
+        "Job-search strategy"
       ],
       "availableLanguage": [
         "English"
@@ -3042,7 +3056,7 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Resume and CV Writing & Optimization",
+              "name": "Resume and CV Writing \u0026 Optimization",
               "description": "Organises and sharpens a resume or CV so recruiters can quickly understand the professional's skills and experience.",
               "url": "https://www.kovcareeragency.org/candidate-services.html"
             }
@@ -3087,7 +3101,7 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Career Positioning & Optimization",
+              "name": "Career Positioning \u0026 Optimization",
               "description": "Identifies suitable roles and markets, finds gaps in how a background is presented, and sets out a practical plan.",
               "url": "https://www.kovcareeragency.org/candidate-services.html"
             }
@@ -3105,11 +3119,22 @@
       }
     },
     {
-      "@type": "Person",
+      "@type": [
+        "Person"
+      ],
       "@id": "https://www.kovcareeragency.org/#founder",
-      "name": "Daniel Ade",
-      "alternateName": "Adekunle Ayotoba Daniel",
-      "jobTitle": "Founder & Principal Agent",
+      "name": [
+        "Daniel Ade",
+        "Adekunle Ayotoba Daniel"
+      ],
+      "alternateName": [
+        "Adekunle Ayotoba Daniel",
+        "Daniel Ade"
+      ],
+      "jobTitle": [
+        "Founder \u0026 Principal Agent",
+        "Founder and Principal Agent"
+      ],
       "url": "https://www.kovcareeragency.org/about.html",
       "worksFor": {
         "@id": "https://www.kovcareeragency.org/#organization"
@@ -3181,14 +3206,292 @@
       ]
     },
     {
-      "@type": "WebSite",
+      "@type": [
+        "WebSite"
+      ],
       "@id": "https://www.kovcareeragency.org/#website",
       "url": "https://www.kovcareeragency.org/",
       "name": "KOV Career Agency",
       "publisher": {
         "@id": "https://www.kovcareeragency.org/#organization"
       },
-      "inLanguage": "en"
+      "inLanguage": "en",
+      "hasPart": {
+        "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#catalog"
+      },
+      "mentions": [
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#countries"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-titles"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupations"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#country-list"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupation-list"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-title-terms"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What should I know about emailing KOV?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can email daniel@kovcareeragency.org with a short summary of your background and goals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about the direct inquiry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The direct inquiry route reaches Daniel, who works directly with clients."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about what to include in an enquiry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A short summary of your background, target roles, location and what kind of support you want helps KOV respond usefully."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about an enquiry about Private Career Representation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Representation is not offered automatically. Suitability is assessed during Assessment and Fit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about an enquiry about Individual Career Services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Individual Career Services are available through inquiry and quotation, with scope agreed before work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about a confidential enquiry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Confidentiality is the default, so you can raise sensitive circumstances in your enquiry."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about an enquiry from abroad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works remotely with professionals in global markets. Contact KOV to confirm availability for your location."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about a multi-country enquiry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Support for multi-country opportunities is discussed individually."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about right-to-work questions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Confirm right-to-work and local requirements for each opportunity yourself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about fee questions in an enquiry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enquiries are free, and fees are discussed once scope is understood and confirmed in writing before work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about a tailored quotation after enquiry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A tailored quotation is provided before work starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about discussing scope and fit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Scope and fit are discussed before work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about the get started page?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Get Started page is the starting point for inquiries."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about the inquiry subject line?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV's direct inquiry link uses a subject line such as Inquiry — Private Representation; any clear subject works."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about asking for help choosing a service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you are unsure where to start, ask KOV to help you choose a starting point."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about asking about timelines?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Timing is discussed individually. No hiring or timeline outcome is promised."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about asking about Daniel's availability?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The number of active searches is capped, so ask about availability when you enquire."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about the privacy notice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV's Privacy Notice explains how information is handled; review it before sending sensitive details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about sending your resume with an enquiry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can mention your resume or LinkedIn profile in your enquiry; KOV will say what it needs during the initial review."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about a follow-up after your enquiry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you do not hear back, you can send a short follow-up to the same email address."
+          }
+        }
+      ]
+    },
+    {
+      "@type": [
+        "WebPage",
+        "ContactPage"
+      ],
+      "@id": "https://www.kovcareeragency.org/contact.html#webpage",
+      "name": "Contact KOV Career Agency | Career Services",
+      "url": "https://www.kovcareeragency.org/contact.html",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.kovcareeragency.org/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://www.kovcareeragency.org/#website"
+      },
+      "description": "Contact KOV Career Agency to discuss private career representation or an individual career service. Share your goals and the support you are considering.",
+      "breadcrumb": {
+        "@id": "https://www.kovcareeragency.org/contact.html#breadcrumb"
+      },
+      "audience": [
+        {
+          "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-edd30c415d7fc9619421"
+        }
+      ],
+      "keywords": [
+        "Career development",
+        "Executive career representation"
+      ]
+    },
+    {
+      "@type": [
+        "BreadcrumbList"
+      ],
+      "@id": "https://www.kovcareeragency.org/contact.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.kovcareeragency.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contact KOV Career Agency | Career Services",
+          "item": "https://www.kovcareeragency.org/contact.html"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "Audience"
+      ],
+      "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f",
+      "audienceType": "Job seekers"
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753",
+      "name": "Career development",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/contact.html#webpage"
+      }
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-edd30c415d7fc9619421",
+      "name": "Executive career representation",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/contact.html#webpage"
+      }
     }
   ]
 }</script>
@@ -3227,174 +3530,7 @@
   <meta property="og:image:alt" content="KOV Career Agency">
   <meta name="robots" content="index,follow">
   
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I know about emailing KOV?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You can email daniel@kovcareeragency.org with a short summary of your background and goals."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about the direct inquiry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The direct inquiry route reaches Daniel, who works directly with clients."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about what to include in an enquiry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A short summary of your background, target roles, location and what kind of support you want helps KOV respond usefully."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about an enquiry about Private Career Representation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Representation is not offered automatically. Suitability is assessed during Assessment and Fit."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about an enquiry about Individual Career Services?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Individual Career Services are available through inquiry and quotation, with scope agreed before work begins."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about a confidential enquiry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Confidentiality is the default, so you can raise sensitive circumstances in your enquiry."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about an enquiry from abroad?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works remotely with professionals in global markets. Contact KOV to confirm availability for your location."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about a multi-country enquiry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Support for multi-country opportunities is discussed individually."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about right-to-work questions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Confirm right-to-work and local requirements for each opportunity yourself."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about fee questions in an enquiry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Enquiries are free, and fees are discussed once scope is understood and confirmed in writing before work begins."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about a tailored quotation after enquiry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A tailored quotation is provided before work starts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about discussing scope and fit?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Scope and fit are discussed before work begins."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about the get started page?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Get Started page is the starting point for inquiries."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about the inquiry subject line?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV's direct inquiry link uses a subject line such as Inquiry — Private Representation; any clear subject works."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about asking for help choosing a service?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If you are unsure where to start, ask KOV to help you choose a starting point."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about asking about timelines?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Timing is discussed individually. No hiring or timeline outcome is promised."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about asking about Daniel's availability?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The number of active searches is capped, so ask about availability when you enquire."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about the privacy notice?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV's Privacy Notice explains how information is handled; review it before sending sensitive details."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about sending your resume with an enquiry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You can mention your resume or LinkedIn profile in your enquiry; KOV will say what it needs during the initial review."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about a follow-up after your enquiry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If you do not hear back, you can send a short follow-up to the same email address."
-      }
-    }
-  ]
-}
-</script>
+
   <link rel="stylesheet" href="/assets/design-components.css">
 <link rel="stylesheet" href="/css/design-system.css">
 <link rel="stylesheet" href="/css/theme-leeholmes.css">

@@ -1,24 +1,28 @@
 <!DOCTYPE html><html lang="en"><head>
-<script type="application/ld+json">{
+<script type="application/ld+json" data-kov="discovery">{
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": [
         "ProfessionalService",
-        "EmploymentAgency"
+        "Organization"
       ],
       "@id": "https://www.kovcareeragency.org/#organization",
       "name": "KOV Career Agency",
       "alternateName": [
         "KOV",
         "KOV Career Agency Private Career Representation",
-        "KOV Reverse Recruiting"
+        "KOV Reverse Recruiting",
+        "KOV Career"
       ],
       "url": "https://www.kovcareeragency.org/",
       "logo": "https://www.kovcareeragency.org/kov-logo.png",
       "image": "https://www.kovcareeragency.org/preview.png",
       "email": "daniel@kovcareeragency.org",
-      "description": "KOV Career Agency is an independent, founder-led career representation and talent advisory service for senior and experienced professionals. It offers Private Career Representation (reverse recruiting on the candidate's side: target-company research, decision-maker research, positioning, recruiter and hiring-manager outreach and follow-up) and seven separate Individual Career Services: resume and CV, LinkedIn, career documents, portfolio, personal career website, career positioning and career coaching. KOV works for the candidate, never for corporate HR, and works remotely with professionals in global markets.",
+      "description": [
+        "KOV Career Agency is an independent, founder-led career representation and talent advisory service for senior and experienced professionals. It offers Private Career Representation (reverse recruiting on the candidate's side: target-company research, decision-maker research, positioning, recruiter and hiring-manager outreach and follow-up) and seven separate Individual Career Services: resume and CV, LinkedIn, career documents, portfolio, personal career website, career positioning and career coaching. KOV works for the candidate, never for corporate HR, and works remotely with professionals in global markets.",
+        "An independent career agency providing candidate-side career representation and individual career services."
+      ],
       "slogan": "Private career representation for professionals",
       "founder": {
         "@id": "https://www.kovcareeragency.org/#founder"
@@ -1180,7 +1184,7 @@
         },
         {
           "@type": "Audience",
-          "audienceType": "FP&A Professionals"
+          "audienceType": "FP\u0026A Professionals"
         },
         {
           "@type": "Audience",
@@ -3017,7 +3021,17 @@
         "KOV private career representation",
         "KOV individual career services",
         "kovcareeragency.org",
-        "career support in Nigeria"
+        "career support in Nigeria",
+        "Career development",
+        "Professional profile assessment",
+        "Resume and CV services",
+        "Executive career representation",
+        "Career transitions",
+        "Professional positioning",
+        "Leadership opportunities",
+        "International career opportunities",
+        "Professional visibility",
+        "Job-search strategy"
       ],
       "availableLanguage": [
         "English"
@@ -3042,7 +3056,7 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Resume and CV Writing & Optimization",
+              "name": "Resume and CV Writing \u0026 Optimization",
               "description": "Organises and sharpens a resume or CV so recruiters can quickly understand the professional's skills and experience.",
               "url": "https://www.kovcareeragency.org/candidate-services.html"
             }
@@ -3087,7 +3101,7 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Career Positioning & Optimization",
+              "name": "Career Positioning \u0026 Optimization",
               "description": "Identifies suitable roles and markets, finds gaps in how a background is presented, and sets out a practical plan.",
               "url": "https://www.kovcareeragency.org/candidate-services.html"
             }
@@ -3105,11 +3119,22 @@
       }
     },
     {
-      "@type": "Person",
+      "@type": [
+        "Person"
+      ],
       "@id": "https://www.kovcareeragency.org/#founder",
-      "name": "Daniel Ade",
-      "alternateName": "Adekunle Ayotoba Daniel",
-      "jobTitle": "Founder & Principal Agent",
+      "name": [
+        "Daniel Ade",
+        "Adekunle Ayotoba Daniel"
+      ],
+      "alternateName": [
+        "Adekunle Ayotoba Daniel",
+        "Daniel Ade"
+      ],
+      "jobTitle": [
+        "Founder \u0026 Principal Agent",
+        "Founder and Principal Agent"
+      ],
       "url": "https://www.kovcareeragency.org/about.html",
       "worksFor": {
         "@id": "https://www.kovcareeragency.org/#organization"
@@ -3181,14 +3206,291 @@
       ]
     },
     {
-      "@type": "WebSite",
+      "@type": [
+        "WebSite"
+      ],
       "@id": "https://www.kovcareeragency.org/#website",
       "url": "https://www.kovcareeragency.org/",
       "name": "KOV Career Agency",
       "publisher": {
         "@id": "https://www.kovcareeragency.org/#organization"
       },
-      "inLanguage": "en"
+      "inLanguage": "en",
+      "hasPart": {
+        "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#catalog"
+      },
+      "mentions": [
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#countries"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-titles"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupations"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#country-list"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupation-list"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-title-terms"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Onboarding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In Onboarding, goals, target roles and search strategy are defined, and the resume and LinkedIn profile are rewritten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Job Applications?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Targeted applications are coordinated in line with the agreed strategy and your approval preferences."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Outreach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In Outreach, for each role applied to, the recruiter and hiring manager are contacted directly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Interviews?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Interview preparation covers behavioral, technical and executive panel formats, including mock interviews and a reusable story bank."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Negotiations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Negotiation support covers compensation benchmarks, counter-offer scripts and multi-offer strategy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Success?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At the Success step, you decide how to proceed, and KOV supports agreed follow-up and next steps."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is mock interviews?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mock interviews are part of interview preparation and help you rehearse for different interview formats."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the story bank?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A reusable story bank collects your strongest examples so you can answer interview questions consistently."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is executive panel interviews?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Interview preparation covers executive panel formats alongside behavioral and technical interviews."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is compensation benchmarks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Negotiation support includes compensation benchmarks so you understand the market before you respond to an offer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is counter-offer scripts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Negotiation support includes counter-offer scripts to help you respond clearly and professionally."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is multi-offer strategy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Multi-offer strategy helps you compare and sequence offers when more than one is on the table."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is approval preferences?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Applications are coordinated in line with your approval preferences, so you decide how much you review before anything is sent."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the resume and LinkedIn rewrite?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The resume and LinkedIn profile are rewritten during onboarding, using accurate information you approve."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is targeted applications?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Targeted applications are coordinated in line with the agreed strategy rather than applying indiscriminately."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is recruiter and hiring-manager contact?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For each role applied to, the process includes contacting the recruiter and hiring manager directly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the search strategy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The search strategy is set during onboarding and shapes target roles, applications and outreach."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is goals and target roles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Goals and target roles are defined at the start so every later step has a clear purpose."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is follow-up after an offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "After an offer, you decide how to proceed, and KOV supports agreed follow-up and next steps."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the six-step process?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV's process has six steps: Onboarding, Job Applications, Outreach, Interviews, Negotiations and Success."
+          }
+        }
+      ]
+    },
+    {
+      "@type": [
+        "WebPage"
+      ],
+      "@id": "https://www.kovcareeragency.org/how-it-works.html#webpage",
+      "name": "How Private Career Representation Works | KOV Career Agency",
+      "url": "https://www.kovcareeragency.org/how-it-works.html",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.kovcareeragency.org/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://www.kovcareeragency.org/#website"
+      },
+      "description": "Learn how private career representation can proceed through assessment, target-company strategy, research, professional outreach, follow-up, and introductions where appropriate.",
+      "breadcrumb": {
+        "@id": "https://www.kovcareeragency.org/how-it-works.html#breadcrumb"
+      },
+      "audience": [
+        {
+          "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-edd30c415d7fc9619421"
+        }
+      ],
+      "keywords": [
+        "Career development",
+        "Executive career representation"
+      ]
+    },
+    {
+      "@type": [
+        "BreadcrumbList"
+      ],
+      "@id": "https://www.kovcareeragency.org/how-it-works.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.kovcareeragency.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "How Private Career Representation Works | KOV Career Agency",
+          "item": "https://www.kovcareeragency.org/how-it-works.html"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "Audience"
+      ],
+      "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f",
+      "audienceType": "Job seekers"
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753",
+      "name": "Career development",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/how-it-works.html#webpage"
+      }
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-edd30c415d7fc9619421",
+      "name": "Executive career representation",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/how-it-works.html#webpage"
+      }
     }
   ]
 }</script>
@@ -3227,174 +3529,7 @@
   <meta property="og:image:alt" content="KOV Career Agency">
   <meta name="robots" content="index,follow">
   
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is Onboarding?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In Onboarding, goals, target roles and search strategy are defined, and the resume and LinkedIn profile are rewritten."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is Job Applications?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Targeted applications are coordinated in line with the agreed strategy and your approval preferences."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is Outreach?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In Outreach, for each role applied to, the recruiter and hiring manager are contacted directly."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is Interviews?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Interview preparation covers behavioral, technical and executive panel formats, including mock interviews and a reusable story bank."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is Negotiations?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Negotiation support covers compensation benchmarks, counter-offer scripts and multi-offer strategy."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is Success?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "At the Success step, you decide how to proceed, and KOV supports agreed follow-up and next steps."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is mock interviews?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Mock interviews are part of interview preparation and help you rehearse for different interview formats."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the story bank?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A reusable story bank collects your strongest examples so you can answer interview questions consistently."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is executive panel interviews?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Interview preparation covers executive panel formats alongside behavioral and technical interviews."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is compensation benchmarks?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Negotiation support includes compensation benchmarks so you understand the market before you respond to an offer."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is counter-offer scripts?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Negotiation support includes counter-offer scripts to help you respond clearly and professionally."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is multi-offer strategy?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Multi-offer strategy helps you compare and sequence offers when more than one is on the table."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is approval preferences?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Applications are coordinated in line with your approval preferences, so you decide how much you review before anything is sent."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the resume and LinkedIn rewrite?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The resume and LinkedIn profile are rewritten during onboarding, using accurate information you approve."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is targeted applications?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Targeted applications are coordinated in line with the agreed strategy rather than applying indiscriminately."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is recruiter and hiring-manager contact?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For each role applied to, the process includes contacting the recruiter and hiring manager directly."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the search strategy?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The search strategy is set during onboarding and shapes target roles, applications and outreach."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is goals and target roles?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Goals and target roles are defined at the start so every later step has a clear purpose."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is follow-up after an offer?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "After an offer, you decide how to proceed, and KOV supports agreed follow-up and next steps."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the six-step process?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV's process has six steps: Onboarding, Job Applications, Outreach, Interviews, Negotiations and Success."
-      }
-    }
-  ]
-}
-</script>
+
   <link rel="stylesheet" href="/assets/design-components.css">
 <link rel="stylesheet" href="/css/design-system.css">
 <link rel="stylesheet" href="/css/theme-legencymedia.css">
