@@ -692,6 +692,23 @@ svg {
   height: auto;
 }
 
+h1:has(> span > svg[viewBox="0 0 200 20"]) {
+  line-height: 1 !important;
+}
+
+h1 > span > svg[viewBox="0 0 200 20"] {
+  bottom: -4px !important;
+  height: 12px !important;
+  max-width: none !important;
+}
+
+@media (min-width: 1024px) {
+  h1 > span > svg[viewBox="0 0 200 20"] {
+    bottom: -10px !important;
+    height: 20px !important;
+  }
+}
+
 body.mobile-nav-open {
   overflow: hidden;
   height: 100vh;
