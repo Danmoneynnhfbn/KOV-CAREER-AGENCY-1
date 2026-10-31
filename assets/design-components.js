@@ -82,7 +82,7 @@
       '<a href="' + linkHref("about.html") + '" class="transition-colors hover:text-ink">About</a>',
       '<a href="' + linkHref("contact.html") + '" class="transition-colors hover:text-ink">Get Started</a>',
       '</nav>',
-      '<button type="button" class="kov-site-menu-toggle inline-flex items-center justify-center rounded-full border border-line/60 px-3 py-2 text-[11px] font-medium uppercase tracking-[0.18em] text-ink lg:hidden" aria-label="Open menu" aria-expanded="false" aria-controls="site-mobile-menu" data-mobile-menu-toggle><span aria-hidden="true">☰</span></button>',
+      '<button type="button" class="kov-site-menu-toggle inline-flex items-center justify-center rounded-full border border-line/60 px-3 py-2 text-[11px] font-medium uppercase tracking-[0.18em] text-ink lg:hidden" aria-label="Open menu" aria-expanded="false" aria-controls="site-mobile-menu" data-mobile-menu-toggle><span aria-hidden="true">MENU</span></button>',
       '</div>',
       '<div class="kov-site-mobile-menu site-mobile-menu" id="site-mobile-menu" aria-hidden="true">',
       '<div class="kov-site-mobile-menu-panel site-mobile-menu-panel">',
@@ -128,31 +128,39 @@
     var mobileToggle = document.querySelector("[data-mobile-menu-toggle]");
     var mobileClose = document.querySelector("[data-mobile-menu-close]");
     if (mobileMenu && mobileToggle) {
+      function setMobileMenuOpen(open) {
+        mobileMenu.classList.toggle("is-open", open);
+        mobileMenu.setAttribute("aria-hidden", String(!open));
+        mobileToggle.setAttribute("aria-expanded", String(open));
+        document.body.classList.toggle("mobile-nav-open", open);
+      }
+
       mobileToggle.addEventListener("click", function () {
-        var isOpen = mobileMenu.getAttribute("aria-hidden") === "true";
-        mobileMenu.setAttribute("aria-hidden", String(!isOpen));
-        mobileMenu.classList.toggle("is-open", isOpen);
-        mobileToggle.setAttribute("aria-expanded", String(isOpen));
+        var open = !mobileMenu.classList.contains("is-open");
+        setMobileMenuOpen(open);
+        if (open && mobileClose) mobileClose.focus();
       });
-    }
-    if (mobileMenu && mobileClose) {
-      mobileClose.addEventListener("click", function () {
-        mobileMenu.setAttribute("aria-hidden", "true");
-        mobileMenu.classList.remove("is-open");
-        if (mobileToggle) {
-          mobileToggle.setAttribute("aria-expanded", "false");
-        }
-      });
-    }
-    if (mobileMenu) {
+
+      if (mobileClose) {
+        mobileClose.addEventListener("click", function () {
+          setMobileMenuOpen(false);
+          mobileToggle.focus();
+        });
+      }
+
       mobileMenu.addEventListener("click", function (event) {
-        if (event.target && event.target.closest("a")) {
-          mobileMenu.setAttribute("aria-hidden", "true");
-          mobileMenu.classList.remove("is-open");
-          if (mobileToggle) {
-            mobileToggle.setAttribute("aria-expanded", "false");
-          }
+        if (event.target === mobileMenu) {
+          setMobileMenuOpen(false);
+          mobileToggle.focus();
+        } else if (event.target && event.target.closest("a")) {
+          setMobileMenuOpen(false);
         }
+      });
+
+      document.addEventListener("keydown", function (event) {
+        if (event.key !== "Escape" || !mobileMenu.classList.contains("is-open")) return;
+        setMobileMenuOpen(false);
+        mobileToggle.focus();
       });
     }
   }
