@@ -4,6 +4,29 @@
   if (window.kovHeaderShellApplied) return;
   window.kovHeaderShellApplied = true;
 
+  function ensureStylesheet(fileName, version) {
+    var assetPath = "/assets/" + fileName + (version ? "?v=" + version : "");
+    var assetUrl = new URL(assetPath, window.location.href);
+    var existingStylesheet = Array.prototype.find.call(
+      document.querySelectorAll('link[rel="stylesheet"][href]'),
+      function (link) {
+        return new URL(link.href, window.location.href).pathname === assetUrl.pathname;
+      }
+    );
+    if (existingStylesheet) {
+      if (existingStylesheet.href !== assetUrl.href) existingStylesheet.href = assetUrl.href;
+      return;
+    }
+
+    var stylesheet = document.createElement("link");
+    stylesheet.rel = "stylesheet";
+    stylesheet.href = assetUrl.href;
+    stylesheet.addEventListener("error", function () {
+      console.error("Failed to load the KOV shared stylesheet: " + stylesheet.href);
+    }, { once: true });
+    document.head.appendChild(stylesheet);
+  }
+
   function rootPrefix() {
     var segments = window.location.pathname.split("/").filter(Boolean);
     var depth = segments.length - (window.location.pathname.endsWith("/") ? 0 : 1);
@@ -18,19 +41,6 @@
       return value;
     }
     return rootPrefix() + value;
-  }
-
-  function removeFaqAndBlogFromNavigation() {
-    var navAnchors = document.querySelectorAll("header nav a, .site-mobile-menu-nav a, .ceo-mobile-menu a, .ceo-desktop-nav a");
-    navAnchors.forEach(function (link) {
-      var text = (link.textContent || "").trim();
-      var href = (link.getAttribute("href") || "").trim();
-      var isFaq = /(^|\s)FAQs?(\s|$)/i.test(text) || /(faqs?\.html|faq\/.*\.html|faq\/index\.html)$/i.test(href);
-      var isBlog = /(^|\s)Blog(\s|$)/i.test(text) || /(blog\.html)$/i.test(href);
-      if (isFaq || isBlog) {
-        link.remove();
-      }
-    });
   }
 
   function bindTabKeyboardNavigation() {
@@ -61,9 +71,16 @@
   }
 
   function applyStandardSiteShell() {
-    removeFaqAndBlogFromNavigation();
-
     var currentHeader = document.querySelector("header");
+    var existingSearchButtons = currentHeader
+      ? Array.prototype.slice.call(currentHeader.querySelectorAll(".site-search-trigger"))
+      : [];
+    var desktopSearchButton = existingSearchButtons.find(function (button) {
+      return button.classList.contains("site-search-desktop");
+    });
+    var mobileSearchButton = existingSearchButtons.find(function (button) {
+      return button.classList.contains("site-search-mobile");
+    });
     var header = document.createElement("header");
     header.className = "kov-site-header sticky top-0 z-50 border-b border-line/60 bg-background/85 backdrop-blur-xl";
     header.innerHTML = [
@@ -77,11 +94,17 @@
       '<a href="' + linkHref("candidate-services.html") + '" class="transition-colors hover:text-ink">Individual Career Services</a>',
       '<a href="' + linkHref("roles/") + '" class="transition-colors hover:text-ink">Roles</a>',
       '<a href="' + linkHref("industries/") + '" class="transition-colors hover:text-ink">Industries</a>',
+      '<a href="' + linkHref("services.html") + '" class="transition-colors hover:text-ink">Private Career Representation</a>',
       '<a href="' + linkHref("how-it-works.html") + '" class="transition-colors hover:text-ink">How It Works</a>',
       '<a href="' + linkHref("pricing.html") + '" class="transition-colors hover:text-ink">Pricing</a>',
+      '<a href="' + linkHref("faqs.html") + '" class="transition-colors hover:text-ink">FAQs</a>',
+      '<a href="' + linkHref("blog.html") + '" class="transition-colors hover:text-ink">Blog</a>',
       '<a href="' + linkHref("about.html") + '" class="transition-colors hover:text-ink">About</a>',
+      '<a href="' + linkHref("account.html") + '" class="kov-account-link" aria-label="Log in or view your account" title="Account">Account</a>',
+      '<button type="button" class="site-search-trigger site-search-desktop" aria-label="Search the website" title="Search the website"><span class="site-search-icon" aria-hidden="true"></span></button>',
       '<a href="' + linkHref("contact.html") + '" class="transition-colors hover:text-ink">Get Started</a>',
       '</nav>',
+      '<button type="button" class="site-search-trigger site-search-mobile" aria-label="Search the website" title="Search the website"><span class="site-search-icon" aria-hidden="true"></span></button>',
       '<button type="button" class="kov-site-menu-toggle inline-flex items-center justify-center rounded-full border border-line/60 px-3 py-2 text-[11px] font-medium uppercase tracking-[0.18em] text-ink lg:hidden" aria-label="Open menu" aria-expanded="false" aria-controls="site-mobile-menu" data-mobile-menu-toggle><span aria-hidden="true">MENU</span></button>',
       '</div>',
       '<div class="kov-site-mobile-menu site-mobile-menu" id="site-mobile-menu" aria-hidden="true">',
@@ -98,15 +121,28 @@
       '<a href="' + linkHref("candidate-services.html") + '" data-mobile-menu-link>Individual Career Services</a>',
       '<a href="' + linkHref("roles/") + '" data-mobile-menu-link>Roles</a>',
       '<a href="' + linkHref("industries/") + '" data-mobile-menu-link>Industries</a>',
+      '<a href="' + linkHref("services.html") + '" data-mobile-menu-link>Private Career Representation</a>',
       '<a href="' + linkHref("how-it-works.html") + '" data-mobile-menu-link>How It Works</a>',
       '<a href="' + linkHref("pricing.html") + '" data-mobile-menu-link>Pricing</a>',
+      '<a href="' + linkHref("faqs.html") + '" data-mobile-menu-link>FAQs</a>',
+      '<a href="' + linkHref("blog.html") + '" data-mobile-menu-link>Blog</a>',
       '<a href="' + linkHref("about.html") + '" data-mobile-menu-link>About</a>',
+      '<a href="' + linkHref("account.html") + '" data-mobile-menu-link>Account</a>',
       '<a href="' + linkHref("contact.html") + '" data-mobile-menu-link>Get Started</a>',
       '</nav>',
       '</div>',
       '</div>',
       '</header>'
     ].join("");
+
+    var desktopNavigation = header.querySelector(".kov-site-desktop-nav");
+    var mobileMenuToggle = header.querySelector("[data-mobile-menu-toggle]");
+    if (desktopSearchButton) {
+      desktopNavigation.querySelector(".site-search-desktop").replaceWith(desktopSearchButton);
+    }
+    if (mobileSearchButton) {
+      header.querySelector(".site-search-mobile").replaceWith(mobileSearchButton);
+    }
 
     document.querySelectorAll(".site-mobile-menu, .ceo-mobile-menu").forEach(function (menu) {
       menu.remove();
@@ -165,6 +201,21 @@
     }
   }
 
+  ensureStylesheet("design-components.css", "2");
+  ensureStylesheet("site-fixes.css", "28");
   applyStandardSiteShell();
+  if (!window.kovSiteSearchReady && !Array.prototype.some.call(
+    document.querySelectorAll("script[src]"),
+    function (script) {
+      return new URL(script.src, window.location.href).pathname.endsWith("/assets/site-search.js");
+    }
+  )) {
+    var searchScript = document.createElement("script");
+    searchScript.src = linkHref("assets/site-search.js?v=5");
+    searchScript.addEventListener("error", function () {
+      console.error("Failed to load the KOV site search script: " + searchScript.src);
+    }, { once: true });
+    document.head.appendChild(searchScript);
+  }
   bindTabKeyboardNavigation();
 })();

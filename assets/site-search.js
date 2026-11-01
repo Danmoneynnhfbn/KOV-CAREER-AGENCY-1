@@ -565,6 +565,9 @@
 
   let activeTrigger = null;
   function createTrigger(className) {
+    const existingTrigger = document.querySelector(`.site-search-trigger.${className}`);
+    if (existingTrigger) return existingTrigger;
+
     const button = createElement('button', `site-search-trigger ${className}`);
     button.type = 'button';
     button.setAttribute('aria-label', 'Search the website');
@@ -572,9 +575,15 @@
     const icon = createElement('span', 'site-search-icon');
     icon.setAttribute('aria-hidden', 'true');
     button.append(icon);
-    button.addEventListener('click', () => openSearch(button));
     return button;
   }
+
+  document.addEventListener('click', (event) => {
+    const trigger = event.target instanceof Element
+      ? event.target.closest('.site-search-trigger')
+      : null;
+    if (trigger) openSearch(trigger);
+  });
 
   const header = document.querySelector('.two-sided-page > header, .min-h-screen header, body > header, header');
   if (header) {
