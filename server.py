@@ -74,7 +74,7 @@ def blog_editor_page(request: Request):
 @app.get("/{requested_path:path}")
 def read_site_file(requested_path: str):
     file_path = (ROOT / requested_path).resolve()
-    public_extensions = {".html", ".xml", ".txt", ".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg", ".ico"}
+    public_extensions = {".html", ".xml", ".txt", ".css", ".js", ".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg", ".ico"}
     if (
         requested_path == ".private_admin"
         or requested_path.startswith(".private_admin/")

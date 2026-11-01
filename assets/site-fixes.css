@@ -692,6 +692,23 @@ svg {
   height: auto;
 }
 
+h1:has(> span > svg[viewBox="0 0 200 20"]) {
+  line-height: 1 !important;
+}
+
+h1 > span > svg[viewBox="0 0 200 20"] {
+  bottom: -4px !important;
+  height: 12px !important;
+  max-width: none !important;
+}
+
+@media (min-width: 1024px) {
+  h1 > span > svg[viewBox="0 0 200 20"] {
+    bottom: -10px !important;
+    height: 20px !important;
+  }
+}
+
 body.mobile-nav-open {
   overflow: hidden;
   height: 100vh;
@@ -5548,5 +5565,60 @@ main > section:first-child img[alt="KOV Founder"] {
   option {
     background-color: #171a17 !important;
     border-color: var(--line) !important;
+  }
+}
+
+body.mobile-nav-open {
+  overflow: hidden;
+}
+
+@media (max-width: 1023px) {
+  .site-mobile-menu {
+    align-items: flex-start;
+  }
+
+  .site-mobile-menu-panel {
+    width: min(88vw, 320px) !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: calc(100vh - 5rem - env(safe-area-inset-top)) !important;
+    margin: calc(4.5rem + env(safe-area-inset-top)) 0.5rem 0 0;
+    padding-top: 0 !important;
+    border-radius: 0 0 0 8px;
+    overflow-y: auto;
+  }
+
+  @supports (height: 100dvh) {
+    .site-mobile-menu-panel {
+      max-height: calc(100dvh - 5rem - env(safe-area-inset-top)) !important;
+    }
+  }
+
+  .site-mobile-menu-header {
+    padding: 0.65rem 0.9rem;
+  }
+
+  .site-mobile-menu-header img {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .site-mobile-menu-nav {
+    gap: 0;
+    padding: 0.25rem 0.9rem 0.75rem;
+  }
+
+  .site-mobile-menu-nav a {
+    padding: 0.62rem 0 !important;
+    font-size: 0.84rem !important;
+    line-height: 1.3 !important;
+    letter-spacing: 0.04em !important;
+  }
+
+  button[data-mobile-menu-toggle] span {
+    font-size: 0.65rem !important;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 1 !important;
   }
 }

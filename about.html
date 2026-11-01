@@ -1,24 +1,28 @@
 <!DOCTYPE html><html lang="en"><head>
-<script type="application/ld+json">{
+<script type="application/ld+json" data-kov="discovery">{
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": [
         "ProfessionalService",
-        "EmploymentAgency"
+        "Organization"
       ],
       "@id": "https://www.kovcareeragency.org/#organization",
       "name": "KOV Career Agency",
       "alternateName": [
         "KOV",
         "KOV Career Agency Private Career Representation",
-        "KOV Reverse Recruiting"
+        "KOV Reverse Recruiting",
+        "KOV Career"
       ],
       "url": "https://www.kovcareeragency.org/",
       "logo": "https://www.kovcareeragency.org/kov-logo.png",
       "image": "https://www.kovcareeragency.org/preview.png",
       "email": "daniel@kovcareeragency.org",
-      "description": "KOV Career Agency is an independent, founder-led career representation and talent advisory service for senior and experienced professionals. It offers Private Career Representation (reverse recruiting on the candidate's side: target-company research, decision-maker research, positioning, recruiter and hiring-manager outreach and follow-up) and seven separate Individual Career Services: resume and CV, LinkedIn, career documents, portfolio, personal career website, career positioning and career coaching. KOV works for the candidate, never for corporate HR, and works remotely with professionals in global markets.",
+      "description": [
+        "KOV Career Agency is an independent, founder-led career representation and talent advisory service for senior and experienced professionals. It offers Private Career Representation (reverse recruiting on the candidate's side: target-company research, decision-maker research, positioning, recruiter and hiring-manager outreach and follow-up) and seven separate Individual Career Services: resume and CV, LinkedIn, career documents, portfolio, personal career website, career positioning and career coaching. KOV works for the candidate, never for corporate HR, and works remotely with professionals in global markets.",
+        "An independent career agency providing candidate-side career representation and individual career services."
+      ],
       "slogan": "Private career representation for professionals",
       "founder": {
         "@id": "https://www.kovcareeragency.org/#founder"
@@ -1180,7 +1184,7 @@
         },
         {
           "@type": "Audience",
-          "audienceType": "FP&A Professionals"
+          "audienceType": "FP\u0026A Professionals"
         },
         {
           "@type": "Audience",
@@ -3017,7 +3021,17 @@
         "KOV private career representation",
         "KOV individual career services",
         "kovcareeragency.org",
-        "career support in Nigeria"
+        "career support in Nigeria",
+        "Career development",
+        "Professional profile assessment",
+        "Resume and CV services",
+        "Executive career representation",
+        "Career transitions",
+        "Professional positioning",
+        "Leadership opportunities",
+        "International career opportunities",
+        "Professional visibility",
+        "Job-search strategy"
       ],
       "availableLanguage": [
         "English"
@@ -3042,7 +3056,7 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Resume and CV Writing & Optimization",
+              "name": "Resume and CV Writing \u0026 Optimization",
               "description": "Organises and sharpens a resume or CV so recruiters can quickly understand the professional's skills and experience.",
               "url": "https://www.kovcareeragency.org/candidate-services.html"
             }
@@ -3087,7 +3101,7 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Career Positioning & Optimization",
+              "name": "Career Positioning \u0026 Optimization",
               "description": "Identifies suitable roles and markets, finds gaps in how a background is presented, and sets out a practical plan.",
               "url": "https://www.kovcareeragency.org/candidate-services.html"
             }
@@ -3105,11 +3119,22 @@
       }
     },
     {
-      "@type": "Person",
+      "@type": [
+        "Person"
+      ],
       "@id": "https://www.kovcareeragency.org/#founder",
-      "name": "Daniel Ade",
-      "alternateName": "Adekunle Ayotoba Daniel",
-      "jobTitle": "Founder & Principal Agent",
+      "name": [
+        "Daniel Ade",
+        "Adekunle Ayotoba Daniel"
+      ],
+      "alternateName": [
+        "Adekunle Ayotoba Daniel",
+        "Daniel Ade"
+      ],
+      "jobTitle": [
+        "Founder \u0026 Principal Agent",
+        "Founder and Principal Agent"
+      ],
       "url": "https://www.kovcareeragency.org/about.html",
       "worksFor": {
         "@id": "https://www.kovcareeragency.org/#organization"
@@ -3181,23 +3206,272 @@
       ]
     },
     {
-      "@type": "WebSite",
+      "@type": [
+        "WebSite"
+      ],
       "@id": "https://www.kovcareeragency.org/#website",
       "url": "https://www.kovcareeragency.org/",
       "name": "KOV Career Agency",
       "publisher": {
         "@id": "https://www.kovcareeragency.org/#organization"
       },
-      "inLanguage": "en"
+      "inLanguage": "en",
+      "hasPart": {
+        "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#catalog"
+      },
+      "mentions": [
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#countries"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-titles"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupations"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#country-list"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupation-list"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-title-terms"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What should I know about the founder profile?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The founder profile presents Daniel as the founder of KOV Career Agency, an independent career representation and talent advisory service."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about Daniel Ade?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Daniel Ade is the Founder and Principal Agent of KOV Career Agency, and works directly with every client."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about Adekunle Ayotoba Daniel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Adekunle Ayotoba Daniel is the name shown on the founder profile; the footer names him as Daniel Ade, Founder and Principal Agent."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about KOV as an independent career representation and talent advisory service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV describes itself as an independent career representation and talent advisory service."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about career representation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Career Representation is one of the founder's listed areas of expertise."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about market and role research?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Market and Role Research is one of the founder's listed areas of expertise."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about career strategy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Career Strategy is one of the founder's listed areas of expertise."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about recruiter outreach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Recruiter Outreach is one of the founder's listed areas of expertise."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about resume and LinkedIn work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Resume and LinkedIn work is one of the founder's listed areas of expertise."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about offer negotiation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Offer Negotiation is one of the founder's listed areas of expertise."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about boutique by design?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV is boutique by design: the model is intentionally small."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about the cap on active searches?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The number of active searches is deliberately capped."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about no junior hand-offs or offshore desks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every client works directly with Daniel from intake to offer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about confidentiality as the default?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Confidentiality is treated as the default."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about working for the candidate, never corporate HR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works for the candidate, never for corporate HR."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about not being a large-volume service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV is not built to become a large-volume career service."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about research-led, personalised work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The work is research-led and highly personalised, intended to replace an unfocused job search with a structured process."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about the founder's professional background?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The founder's background spans recruitment, talent acquisition, digital marketing, professional communication and international business engagement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about the credentials listed on the founder profile?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The founder profile lists recruitment, sourcing, HR and career-services credentials. If specific credentials matter to your decision, ask KOV directly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I know about international business engagement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The founder's background includes international business engagement, and KOV works remotely with professionals in global markets."
+          }
+        }
+      ]
+    },
+    {
+      "@type": [
+        "WebPage",
+        "AboutPage"
+      ],
+      "@id": "https://www.kovcareeragency.org/about.html#webpage",
+      "name": "Adekunle Ayotoba Daniel | Founder, KOV Career Agency",
+      "url": "https://www.kovcareeragency.org/about.html",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.kovcareeragency.org/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://www.kovcareeragency.org/#website"
+      },
+      "description": "Meet Adekunle Ayotoba Daniel, founder of KOV Career Agency, and learn about its candidate-focused representation and career services.",
+      "breadcrumb": {
+        "@id": "https://www.kovcareeragency.org/about.html#breadcrumb"
+      },
+      "mentions": [
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753"
+        }
+      ],
+      "keywords": [
+        "Career development"
+      ]
+    },
+    {
+      "@type": [
+        "BreadcrumbList"
+      ],
+      "@id": "https://www.kovcareeragency.org/about.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.kovcareeragency.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Adekunle Ayotoba Daniel | Founder, KOV Career Agency",
+          "item": "https://www.kovcareeragency.org/about.html"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753",
+      "name": "Career development",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/about.html#webpage"
+      }
     }
   ]
 }</script>
 <meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" href="kov-logo.png"/><link rel="icon" type="image/png" href="kov-logo.png"/><link rel="shortcut icon" type="image/png" href="kov-logo.png"/><link rel="apple-touch-icon" sizes="180x180" href="kov-logo.png"/><link rel="preload" as="image" href="founder.jpeg"/><link rel="stylesheet" href="assets/styles-DateywTe.css" data-precedence="default"/><link rel="stylesheet" href="assets/site-fixes.css?v=27" data-precedence="default"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&amp;family=Inter:wght@300;400;500;600&amp;display=swap" data-precedence="default"/><title>Adekunle Ayotoba Daniel | Founder, KOV Career Agency</title>
 <script src="assets/google-translate.js?v=6" defer></script>
 <script src="assets/site-search-index.js" defer></script>
-<script src="assets/site-search.js?v=4" defer></script>
+<script src="assets/site-search.js?v=5" defer></script>
 <script src="assets/reactive-visuals.js?v=7" defer></script>
-<script src="assets/audience-nav.js?v=6" defer></script>
+<script src="assets/audience-nav.js?v=7" defer></script>
 <script src="assets/page-section-enhancements.js?v=1" defer></script>
 <meta name="description" content="Meet Adekunle Ayotoba Daniel, founder of KOV Career Agency, and learn about its candidate-focused representation and career services."/>
 <meta name="keywords" content="Adekunle Ayotoba Daniel, Daniel Ade, KOV Career Agency founder, career representation, talent advisor, recruitment specialist, career representation, career advisor, HR, CIPD, AIRS PRC, AIRS CIR, SHRM, GPHR, career strategy, job search consultant"/>
@@ -3229,174 +3503,7 @@
     <link rel="canonical" href="https://www.kovcareeragency.org/about.html">
   <meta property="og:image:alt" content="KOV Career Agency">
   
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I know about the founder profile?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The founder profile presents Daniel as the founder of KOV Career Agency, an independent career representation and talent advisory service."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about Daniel Ade?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Daniel Ade is the Founder and Principal Agent of KOV Career Agency, and works directly with every client."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about Adekunle Ayotoba Daniel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Adekunle Ayotoba Daniel is the name shown on the founder profile; the footer names him as Daniel Ade, Founder and Principal Agent."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about KOV as an independent career representation and talent advisory service?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV describes itself as an independent career representation and talent advisory service."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about career representation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Career Representation is one of the founder's listed areas of expertise."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about market and role research?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Market and Role Research is one of the founder's listed areas of expertise."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about career strategy?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Career Strategy is one of the founder's listed areas of expertise."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about recruiter outreach?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Recruiter Outreach is one of the founder's listed areas of expertise."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about resume and LinkedIn work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Resume and LinkedIn work is one of the founder's listed areas of expertise."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about offer negotiation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Offer Negotiation is one of the founder's listed areas of expertise."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about boutique by design?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV is boutique by design: the model is intentionally small."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about the cap on active searches?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The number of active searches is deliberately capped."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about no junior hand-offs or offshore desks?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Every client works directly with Daniel from intake to offer."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about confidentiality as the default?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Confidentiality is treated as the default."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about working for the candidate, never corporate HR?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works for the candidate, never for corporate HR."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about not being a large-volume service?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV is not built to become a large-volume career service."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about research-led, personalised work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The work is research-led and highly personalised, intended to replace an unfocused job search with a structured process."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about the founder's professional background?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The founder's background spans recruitment, talent acquisition, digital marketing, professional communication and international business engagement."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about the credentials listed on the founder profile?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The founder profile lists recruitment, sourcing, HR and career-services credentials. If specific credentials matter to your decision, ask KOV directly."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I know about international business engagement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The founder's background includes international business engagement, and KOV works remotely with professionals in global markets."
-      }
-    }
-  ]
-}
-</script>
+
   <link rel="stylesheet" href="/assets/design-components.css">
 <link rel="stylesheet" href="/css/design-system.css">
 <link rel="stylesheet" href="/css/theme-leeholmes.css">
@@ -3429,7 +3536,7 @@
 </section>
 </main><footer class="border-t border-line/60 bg-background"><div class="mx-auto max-w-7xl px-6 py-14 lg:px-10"><div class="grid gap-10 md:grid-cols-3"><div><div class="flex items-center gap-2.5"><img src="kov-logo.png" alt="KOV" class="h-6 w-6 object-contain"/><span class="text-[12px] font-medium uppercase tracking-[0.18em] text-ink">KOV Career Agency</span></div><p class="mt-4 max-w-xs text-[13px] leading-relaxed text-ink-soft">Private &amp; confidential career representation for senior leaders. We work for you — never for corporate HR.</p></div><div><p class="text-[11px] font-medium uppercase tracking-[0.2em] text-muted-foreground">Explore</p><ul class="mt-4 space-y-2 text-[13px] text-ink-soft"><li><a href="services.html" class="hover:text-ink">Private Career Representation</a></li><li><a href="how-it-works.html" class="hover:text-ink">How It Works</a></li><li><a href="pricing.html" class="hover:text-ink">Pricing</a></li><li><a href="faqs.html" class="hover:text-ink">FAQs</a><a href="blog.html" class="transition-colors hover:text-ink">Blog</a></li><li><a class="hover:text-ink active" href="about.html" data-status="active" aria-current="page">About</a></li><li><a href="contact.html" class="hover:text-ink">Contact</a></li></ul></div><div><p class="text-[11px] font-medium uppercase tracking-[0.2em] text-muted-foreground">Direct Inquiry</p><a href="mailto:daniel@kovcareeragency.org?subject=Inquiry%20%E2%80%94%20Private%20Representation" class="mt-4 block text-[13px] text-ink hover:underline">daniel@kovcareeragency.org</a><p class="mt-2 text-[12px] text-muted-foreground">Daniel Ade - Founder &amp; Principal Agent</p></div></div><div class="mt-10 flex flex-col gap-2 border-t border-line/60 pt-6 text-[12px] text-muted-foreground md:flex-row md:items-center md:justify-between"><span>© 2026 KOV Career Agency. All rights reserved.</span><span>Private career representation and individual career services for professionals.</span></div></div><div class="mt-6 flex flex-wrap items-center gap-5 text-[12px] text-muted-foreground"><a href="countries-we-serve.html" class="hover:text-ink">Countries We Serve</a><a href="/privacy.html" class="ml-5 hover:text-ink">Privacy Notice</a></div><a href="/faq/index.html">FAQ Library</a></footer></div><script>(function(t){let s;try{s=JSON.parse(sessionStorage.getItem(t.storageKey)||"{}")}catch(e){console.error(e);return}const c=t.key||window.history.state?.__TSR_key,r=c?s[c]:void 0;if(t.shouldScrollRestoration&&r&&typeof r=="object"&&Object.keys(r).length>0){for(const e in r){const o=r[e];if(!o||typeof o!="object")continue;const l=o.scrollX,i=o.scrollY;if(!(!Number.isFinite(l)||!Number.isFinite(i))){if(e==="window")window.scrollTo({top:i,left:l,behavior:t.behavior});else if(e){let n;try{n=document.querySelector(e)}catch{continue}n&&(n.scrollLeft=l,n.scrollTop=i)}}}return}const a=window.location.hash.split("#",2)[1];if(a){const e=window.history.state?.__hashScrollIntoViewOptions??!0;if(e){const o=document.getElementById(a);o&&o.scrollIntoView(e)}return}window.scrollTo({top:0,left:0,behavior:t.behavior})})({"storageKey":"tsr-scroll-restoration-v1_3","shouldScrollRestoration":true});document.currentScript.remove()</script><!--/$-->
 <script>(function(){const menu=document.getElementById('site-mobile-menu');const toggle=document.querySelector('[data-mobile-menu-toggle]');const closeBtn=document.querySelector('[data-mobile-menu-close]');const menuLinks=document.querySelectorAll('[data-mobile-menu-link]');if(!menu||!toggle)return;const openMenu=()=>{menu.classList.add('is-open');menu.setAttribute('aria-hidden','false');document.body.classList.add('mobile-nav-open');};const closeMenu=()=>{menu.classList.remove('is-open');menu.setAttribute('aria-hidden','true');document.body.classList.remove('mobile-nav-open');};toggle.addEventListener('click',openMenu);closeBtn&&closeBtn.addEventListener('click',closeMenu);menu.addEventListener('click',event=>{if(event.target===menu)closeMenu();});menuLinks.forEach(link=>link.addEventListener('click',closeMenu));document.addEventListener('keydown',event=>{if(event.key==='Escape'&&menu.classList.contains('is-open'))closeMenu();});})();</script><script src="assets/uniform-footer.js?v=9" defer></script>
-  <script src="/assets/design-components.js" defer></script>
+  <script src="/assets/design-components.js?v=5" defer></script>
 <script src="/js/site.js" defer></script>
 </body></html>
 

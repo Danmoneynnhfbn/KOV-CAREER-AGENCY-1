@@ -1,24 +1,28 @@
 <!DOCTYPE html><html lang="en"><head>
-<script type="application/ld+json">{
+<script type="application/ld+json" data-kov="discovery">{
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": [
         "ProfessionalService",
-        "EmploymentAgency"
+        "Organization"
       ],
       "@id": "https://www.kovcareeragency.org/#organization",
       "name": "KOV Career Agency",
       "alternateName": [
         "KOV",
         "KOV Career Agency Private Career Representation",
-        "KOV Reverse Recruiting"
+        "KOV Reverse Recruiting",
+        "KOV Career"
       ],
       "url": "https://www.kovcareeragency.org/",
       "logo": "https://www.kovcareeragency.org/kov-logo.png",
       "image": "https://www.kovcareeragency.org/preview.png",
       "email": "daniel@kovcareeragency.org",
-      "description": "KOV Career Agency is an independent, founder-led career representation and talent advisory service for senior and experienced professionals. It offers Private Career Representation (reverse recruiting on the candidate's side: target-company research, decision-maker research, positioning, recruiter and hiring-manager outreach and follow-up) and seven separate Individual Career Services: resume and CV, LinkedIn, career documents, portfolio, personal career website, career positioning and career coaching. KOV works for the candidate, never for corporate HR, and works remotely with professionals in global markets.",
+      "description": [
+        "KOV Career Agency is an independent, founder-led career representation and talent advisory service for senior and experienced professionals. It offers Private Career Representation (reverse recruiting on the candidate's side: target-company research, decision-maker research, positioning, recruiter and hiring-manager outreach and follow-up) and seven separate Individual Career Services: resume and CV, LinkedIn, career documents, portfolio, personal career website, career positioning and career coaching. KOV works for the candidate, never for corporate HR, and works remotely with professionals in global markets.",
+        "An independent career agency providing candidate-side career representation and individual career services."
+      ],
       "slogan": "Private career representation for professionals",
       "founder": {
         "@id": "https://www.kovcareeragency.org/#founder"
@@ -1180,7 +1184,7 @@
         },
         {
           "@type": "Audience",
-          "audienceType": "FP&A Professionals"
+          "audienceType": "FP\u0026A Professionals"
         },
         {
           "@type": "Audience",
@@ -3017,7 +3021,17 @@
         "KOV private career representation",
         "KOV individual career services",
         "kovcareeragency.org",
-        "career support in Nigeria"
+        "career support in Nigeria",
+        "Career development",
+        "Professional profile assessment",
+        "Resume and CV services",
+        "Executive career representation",
+        "Career transitions",
+        "Professional positioning",
+        "Leadership opportunities",
+        "International career opportunities",
+        "Professional visibility",
+        "Job-search strategy"
       ],
       "availableLanguage": [
         "English"
@@ -3042,7 +3056,7 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Resume and CV Writing & Optimization",
+              "name": "Resume and CV Writing \u0026 Optimization",
               "description": "Organises and sharpens a resume or CV so recruiters can quickly understand the professional's skills and experience.",
               "url": "https://www.kovcareeragency.org/candidate-services.html"
             }
@@ -3087,7 +3101,7 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Career Positioning & Optimization",
+              "name": "Career Positioning \u0026 Optimization",
               "description": "Identifies suitable roles and markets, finds gaps in how a background is presented, and sets out a practical plan.",
               "url": "https://www.kovcareeragency.org/candidate-services.html"
             }
@@ -3105,11 +3119,22 @@
       }
     },
     {
-      "@type": "Person",
+      "@type": [
+        "Person"
+      ],
       "@id": "https://www.kovcareeragency.org/#founder",
-      "name": "Daniel Ade",
-      "alternateName": "Adekunle Ayotoba Daniel",
-      "jobTitle": "Founder & Principal Agent",
+      "name": [
+        "Daniel Ade",
+        "Adekunle Ayotoba Daniel"
+      ],
+      "alternateName": [
+        "Adekunle Ayotoba Daniel",
+        "Daniel Ade"
+      ],
+      "jobTitle": [
+        "Founder \u0026 Principal Agent",
+        "Founder and Principal Agent"
+      ],
       "url": "https://www.kovcareeragency.org/about.html",
       "worksFor": {
         "@id": "https://www.kovcareeragency.org/#organization"
@@ -3181,22 +3206,368 @@
       ]
     },
     {
-      "@type": "WebSite",
+      "@type": [
+        "WebSite"
+      ],
       "@id": "https://www.kovcareeragency.org/#website",
       "url": "https://www.kovcareeragency.org/",
       "name": "KOV Career Agency",
       "publisher": {
         "@id": "https://www.kovcareeragency.org/#organization"
       },
-      "inLanguage": "en"
+      "inLanguage": "en",
+      "hasPart": {
+        "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#catalog"
+      },
+      "mentions": [
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#countries"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-titles"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupations"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#country-list"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupation-list"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-title-terms"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help Chief Executive Officers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals, and Chief Executive Officers are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help Chief Data Officers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals, and Chief Data Officers are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help Chief Medical Officers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals, and Chief Medical Officers are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help Vice Presidents?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals, and Vice Presidents are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help General Managers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals, and General Managers are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help Board Members?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals, and Board Members are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help Directors of Engineering?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals, and Directors of Engineering are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help Cloud Architects?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals, and Cloud Architects are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help AI Product Managers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals, and AI Product Managers are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help Network Engineers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals, and Network Engineers are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help Product Designers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals, and Product Designers are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help Treasurers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals, and Treasurers are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help Venture Capital Professionals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals, and Venture Capital Professionals are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help Internal Auditors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals, and Internal Auditors are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help Fintech Professionals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals, and Fintech Professionals are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help Partners at Law Firms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals, and Partners at Law Firms are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help Employment Lawyers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals, and Employment Lawyers are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help Anti-Money Laundering Professionals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals, and Anti-Money Laundering Professionals are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help Supply Chain Professionals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals, and Supply Chain Professionals are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can KOV Career Agency help Quality Managers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOV works with senior and experienced professionals, and Quality Managers are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
+          }
+        }
+      ]
+    },
+    {
+      "@type": [
+        "WebPage"
+      ],
+      "@id": "https://www.kovcareeragency.org/#webpage",
+      "name": "Career Representation for Professionals | KOV",
+      "url": "https://www.kovcareeragency.org/",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.kovcareeragency.org/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://www.kovcareeragency.org/#website"
+      },
+      "description": "Private career representation and individual career services for senior professionals: job-search strategy, outreach, resumes, LinkedIn and coaching by KOV.",
+      "breadcrumb": {
+        "@id": "https://www.kovcareeragency.org/#breadcrumb"
+      },
+      "audience": [
+        {
+          "@id": "https://www.kovcareeragency.org/#audience-2ef354cf14db75bea56a"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.kovcareeragency.org/#audience-2ef354cf14db75bea56a"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-edd30c415d7fc9619421"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-e6d7fabafd23d65216f7"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-9f58fe77ab294f6c7b23"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-9fbb34e13b7b648d909b"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#topic-5047f805bd2221ac5766"
+        }
+      ],
+      "keywords": [
+        "Career development",
+        "Executive career representation",
+        "Job-search strategy",
+        "LinkedIn profile optimization",
+        "Professional visibility",
+        "Resume and CV services"
+      ]
+    },
+    {
+      "@type": [
+        "BreadcrumbList"
+      ],
+      "@id": "https://www.kovcareeragency.org/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.kovcareeragency.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Career Representation for Professionals | KOV",
+          "item": "https://www.kovcareeragency.org/"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "Audience"
+      ],
+      "@id": "https://www.kovcareeragency.org/#audience-2ef354cf14db75bea56a",
+      "audienceType": "Senior professionals"
+    },
+    {
+      "@type": [
+        "Audience"
+      ],
+      "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f",
+      "audienceType": "Job seekers"
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753",
+      "name": "Career development",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/#webpage"
+      }
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-edd30c415d7fc9619421",
+      "name": "Executive career representation",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/#webpage"
+      }
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-e6d7fabafd23d65216f7",
+      "name": "Job-search strategy",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/#webpage"
+      }
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-9f58fe77ab294f6c7b23",
+      "name": "LinkedIn profile optimization",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/#webpage"
+      }
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-9fbb34e13b7b648d909b",
+      "name": "Professional visibility",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/#webpage"
+      }
+    },
+    {
+      "@type": [
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#topic-5047f805bd2221ac5766",
+      "name": "Resume and CV services",
+      "mainEntityOfPage": {
+        "@id": "https://www.kovcareeragency.org/#webpage"
+      }
     }
   ]
 }</script>
 <meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" href="kov-logo.png"/><link rel="icon" type="image/png" href="kov-logo.png"/><link rel="shortcut icon" type="image/png" href="kov-logo.png"/><link rel="apple-touch-icon" sizes="180x180" href="kov-logo.png"/><link rel="preload" as="image" href="FOUNDER HOME.jpeg"/><link rel="stylesheet" href="assets/styles-DateywTe.css" data-precedence="default"/><link rel="stylesheet" href="assets/site-fixes.css?v=27" data-precedence="default"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&amp;family=Inter:wght@300;400;500;600&amp;display=swap" data-precedence="default"/><link rel="stylesheet" href="assets/homepage-decision-sections.css?v=3" data-precedence="default"/><title>Career Representation for Professionals | KOV</title>
 <script src="assets/google-translate.js?v=6" defer></script>
-<script src="assets/site-search.js?v=4" defer></script>
+<script src="assets/site-search.js?v=5" defer></script>
 <script src="assets/reactive-visuals.js?v=7" defer></script>
-<script src="assets/audience-nav.js?v=6" defer></script>
+<script src="assets/audience-nav.js?v=7" defer></script>
 <script src="assets/homepage-interactions.js?v=5" defer></script>
 <script src="assets/homepage-decision-sections.js?v=2" defer></script>
 <script src="assets/kov-motion.js?v=4" defer></script>
@@ -3228,180 +3599,13 @@
   <meta property="og:image:alt" content="KOV Career Agency">
   <meta name="robots" content="index,follow">
   
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help Chief Executive Officers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals, and Chief Executive Officers are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help Chief Data Officers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals, and Chief Data Officers are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help Chief Medical Officers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals, and Chief Medical Officers are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help Vice Presidents?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals, and Vice Presidents are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help General Managers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals, and General Managers are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help Board Members?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals, and Board Members are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help Directors of Engineering?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals, and Directors of Engineering are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help Cloud Architects?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals, and Cloud Architects are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help AI Product Managers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals, and AI Product Managers are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help Network Engineers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals, and Network Engineers are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help Product Designers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals, and Product Designers are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help Treasurers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals, and Treasurers are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help Venture Capital Professionals?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals, and Venture Capital Professionals are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help Internal Auditors?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals, and Internal Auditors are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help Fintech Professionals?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals, and Fintech Professionals are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help Partners at Law Firms?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals, and Partners at Law Firms are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help Employment Lawyers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals, and Employment Lawyers are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help Anti-Money Laundering Professionals?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals, and Anti-Money Laundering Professionals are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help Supply Chain Professionals?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals, and Supply Chain Professionals are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can KOV Career Agency help Quality Managers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "KOV works with senior and experienced professionals, and Quality Managers are welcome to enquire. Fit and scope are assessed before work begins. KOV does not promise employment, interview, hiring or timeline outcomes, because employers make hiring decisions."
-      }
-    }
-  ]
-}
-</script>
+
   <link rel="stylesheet" href="/assets/design-components.css">
 <link rel="stylesheet" href="/css/design-system.css">
 <link rel="stylesheet" href="/css/theme-neutomni.css">
 <meta property="og:locale" content="en_US">
 </head><body data-theme="neutomni"><!--$--><div class="min-h-screen bg-background font-sans text-foreground antialiased"><header class="sticky top-0 z-50 border-b border-line/60 bg-background/85 backdrop-blur-xl"><div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-10"><a class="flex items-center gap-2.5 active" href="index.html" data-status="active" aria-current="page"><img src="kov-logo.png" alt="KOV" class="h-7 w-7 object-contain"/><span class="text-[13px] font-medium uppercase tracking-[0.18em] text-ink">KOV <span class="text-muted-foreground">Career Agency</span></span></a> <nav class="hidden items-center gap-8 text-[13px] text-ink-soft lg:flex"><a href="index.html" class="transition-colors hover:text-ink">Home</a><a href="candidate-services.html" class="transition-colors hover:text-ink">Individual Career Services</a><a href="roles/" class="transition-colors hover:text-ink">Roles</a><a href="industries/" class="transition-colors hover:text-ink">Industries</a>
-        <a href="services.html" class="transition-colors hover:text-ink">Private Career Representation</a><a href="how-it-works.html" class="transition-colors hover:text-ink">How It Works</a><a href="pricing.html" class="transition-colors hover:text-ink">Pricing</a><a href="faqs.html" class="transition-colors hover:text-ink">FAQs</a><a href="blog.html" class="transition-colors hover:text-ink">Blog</a><a href="about.html" class="transition-colors hover:text-ink">About</a><a href="contact.html" class="rounded-full bg-ink px-5 py-2 text-[12px] font-medium uppercase tracking-[0.12em] text-primary-foreground transition-colors hover:bg-ink-soft">Get Started</a></nav><button type="button" aria-label="Toggle menu" class="inline-flex h-9 w-9 items-center justify-center rounded-full border border-line text-ink lg:hidden" data-mobile-menu-toggle><span class="text-lg leading-none" aria-hidden="true">â˜°</span></button></div></header>
+  <a href="services.html" class="transition-colors hover:text-ink">Private Career Representation</a><a href="how-it-works.html" class="transition-colors hover:text-ink">How It Works</a><a href="pricing.html" class="transition-colors hover:text-ink">Pricing</a><a href="faqs.html" class="transition-colors hover:text-ink">FAQs</a><a href="blog.html" class="transition-colors hover:text-ink">Blog</a><a href="about.html" class="transition-colors hover:text-ink">About</a><a href="contact.html" class="rounded-full bg-ink px-5 py-2 text-[12px] font-medium uppercase tracking-[0.12em] text-primary-foreground transition-colors hover:bg-ink-soft">Get Started</a></nav><button type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-mobile-menu" class="inline-flex h-9 w-9 items-center justify-center rounded-full border border-line text-ink lg:hidden" data-mobile-menu-toggle><span class="text-lg leading-none" aria-hidden="true">MENU</span></button></div></header>
 <div class="site-mobile-menu" id="site-mobile-menu" aria-hidden="true">
   <div class="site-mobile-menu-panel">
     <div class="site-mobile-menu-header">
@@ -3409,7 +3613,7 @@
         <img src="kov-logo.png" alt="KOV"/>
         <span class="text-[13px] font-medium uppercase tracking-[0.18em] text-ink">KOV <span class="text-muted-foreground">Career Agency</span></span>
       </a>
-      <button type="button" class="menu-close" aria-label="Close menu" data-mobile-menu-close>-</button>
+      <button type="button" class="menu-close" aria-label="Close menu" data-mobile-menu-close>X</button>
     </div>
     <nav class="site-mobile-menu-nav">
       <a href="index.html" data-mobile-menu-link>Home</a>
@@ -3431,29 +3635,39 @@
     var menu = document.getElementById('site-mobile-menu');
     var openButton = document.querySelector('[data-mobile-menu-toggle]');
     var closeButton = document.querySelector('[data-mobile-menu-close]');
-    var menuLinks = document.querySelectorAll('[data-mobile-menu-link]');
 
     if (!menu || !openButton || !closeButton) return;
 
-    function toggleMenu(open) {
-      var isOpen = open === undefined ? menu.classList.contains('is-open') : open;
-      menu.classList.toggle('is-open', open === undefined ? !isOpen : open);
-      menu.setAttribute('aria-hidden', String(open === undefined ? isOpen : !open));
-      document.body.classList.toggle('mobile-nav-open', open === undefined ? !isOpen : open);
+    function setMenuOpen(open) {
+      menu.classList.toggle('is-open', open);
+      menu.setAttribute('aria-hidden', String(!open));
+      openButton.setAttribute('aria-expanded', String(open));
+      document.body.classList.toggle('mobile-nav-open', open);
     }
 
     openButton.addEventListener('click', function() {
-      toggleMenu(true);
+      setMenuOpen(!menu.classList.contains('is-open'));
+      if (menu.classList.contains('is-open')) closeButton.focus();
     });
 
     closeButton.addEventListener('click', function() {
-      toggleMenu(false);
+      setMenuOpen(false);
+      openButton.focus();
     });
 
-    menuLinks.forEach(function(link) {
-      link.addEventListener('click', function() {
-        toggleMenu(false);
-      });
+    menu.addEventListener('click', function(event) {
+      if (event.target === menu) {
+        setMenuOpen(false);
+        openButton.focus();
+      } else if (event.target && event.target.closest('a')) {
+        setMenuOpen(false);
+      }
+    });
+
+    document.addEventListener('keydown', function(event) {
+      if (event.key !== 'Escape' || !menu.classList.contains('is-open')) return;
+      setMenuOpen(false);
+      openButton.focus();
     });
   })();
 </script>
@@ -3552,7 +3766,7 @@
 </section>
 </main><footer class="border-t border-line/60 bg-background"><div class="mx-auto max-w-7xl px-6 py-14 lg:px-10"><div class="grid gap-10 md:grid-cols-3"><div><div class="flex items-center gap-2.5"><img src="kov-logo.png" alt="KOV" class="h-6 w-6 object-contain"/><span class="text-[12px] font-medium uppercase tracking-[0.18em] text-ink">KOV Career Agency</span></div><p class="mt-4 max-w-xs text-[13px] leading-relaxed text-ink-soft">Private &amp; confidential career representation for senior leaders. We work for you â€” never for corporate HR.</p></div><div><p class="text-[11px] font-medium uppercase tracking-[0.2em] text-muted-foreground">Explore</p><ul class="mt-4 space-y-2 text-[13px] text-ink-soft"><li><a href="services.html" class="hover:text-ink">Private Career Representation</a></li><li><a href="how-it-works.html" class="hover:text-ink">How It Works</a></li><li><a href="pricing.html" class="hover:text-ink">Pricing</a></li><li><a href="faqs.html" class="hover:text-ink">FAQs</a><a href="blog.html" class="transition-colors hover:text-ink">Blog</a></li><li><a href="about.html" class="hover:text-ink">About</a></li><li><a href="contact.html" class="hover:text-ink">Contact</a></li></ul></div><div><p class="text-[11px] font-medium uppercase tracking-[0.2em] text-muted-foreground">Direct Inquiry</p><a href="mailto:daniel@kovcareeragency.org?subject=Inquiry%20%E2%80%94%20Private%20Representation" class="mt-4 block text-[13px] text-ink hover:underline">daniel@kovcareeragency.org</a><p class="mt-2 text-[12px] text-muted-foreground">Daniel Ade - Founder &amp; Principal Agent</p></div></div><div class="mt-10 flex flex-col gap-2 border-t border-line/60 pt-6 text-[12px] text-muted-foreground md:flex-row md:items-center md:justify-between"><span>Â© 2026 KOV Career Agency. All rights reserved.</span><span>Private career representation and individual career services for professionals.</span></div></div><div class="mt-6 flex flex-wrap items-center gap-5 text-[12px] text-muted-foreground"><a href="countries-we-serve.html" class="hover:text-ink">Countries We Serve</a><a href="/privacy.html" class="ml-5 hover:text-ink">Privacy Notice</a></div><a href="/faq/index.html">FAQ Library</a></footer></div><script>(function(t){let s;try{s=JSON.parse(sessionStorage.getItem(t.storageKey)||"{}")}catch(e){console.error(e);return}const c=t.key||window.history.state?.__TSR_key,r=c?s[c]:void 0;if(t.shouldScrollRestoration&&r&&typeof r=="object"&&Object.keys(r).length>0){for(const e in r){const o=r[e];if(!o||typeof o!="object")continue;const l=o.scrollX,i=o.scrollY;if(!(!Number.isFinite(l)||!Number.isFinite(i))){if(e==="window")window.scrollTo({top:i,left:l,behavior:t.behavior});else if(e){let n;try{n=document.querySelector(e)}catch{continue}n&&(n.scrollLeft=l,n.scrollTop=i)}}}return}const a=window.location.hash.split("#",2)[1];if(a){const e=window.history.state?.__hashScrollIntoViewOptions??!0;if(e){const o=document.getElementById(a);o&&o.scrollIntoView(e)}return}window.scrollTo({top:0,left:0,behavior:t.behavior})})({"storageKey":"tsr-scroll-restoration-v1_3","shouldScrollRestoration":true});document.currentScript.remove()</script><!--/$-->
 <script src="assets/uniform-footer.js?v=9" defer></script>
-  <script src="/assets/design-components.js" defer></script>
+  <script src="/assets/design-components.js?v=5" defer></script>
 <script src="/js/site.js" defer></script>
 </body></html>
 
