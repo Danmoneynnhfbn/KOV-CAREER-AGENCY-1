@@ -3863,6 +3863,28 @@ footer a[href]:not([class*="bg-"]):not([class*="border-b"]):not([class*="rounded
   outline-offset: 3px;
 }
 
+body:has(a[aria-current="page"][href="index.html"]) main > section:first-child .hero-interlink-outline[href="services.html"] {
+  border-color: var(--kov-orange, #d76a2a) !important;
+  background: linear-gradient(180deg, #ef6f34 0%, #c85b25 100%) !important;
+  color: #fff !important;
+}
+
+.kov-uniform-footer .kov-footer-social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.kov-uniform-footer .kov-footer-social-icon {
+  width: 1rem;
+  height: 1rem;
+  flex: 0 0 1rem;
+}
+
+.kov-uniform-footer .kov-footer-social-icon-x {
+  fill: currentColor;
+}
+
 .pathway-card {
   --pathway-accent: #c85b25;
   position: relative;

@@ -174,6 +174,8 @@
             <li><a href="${resolveHref('contact.html')}">Contact KOV</a></li>
             <li><a href="${resolveHref('about.html')}">Daniel Ade, Founder</a></li>
             <li><a href="${resolveHref('privacy.html')}">Privacy Notice</a></li>
+            <li><a class="kov-footer-social-link" href="https://share.google/oXBoRb6jQ7X19OgyP" target="_blank" rel="noopener noreferrer"><svg class="kov-footer-social-icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path fill="#4285F4" d="M43.6 24.5c0-1.4-.1-2.7-.4-4H24v7.6h11c-.5 2.5-2 4.6-4.3 6v5h7c4.1-3.8 6.5-9.3 6.5-14.6z"/><path fill="#34A853" d="M24 44c5.5 0 10.1-1.8 13.5-4.9l-7-5c-1.9 1.3-4 2-6.5 2-5 0-9.2-3.4-10.7-8H6v5.1C9.4 39.6 16.1 44 24 44z"/><path fill="#FBBC05" d="M13.3 28.1a12 12 0 0 1 0-8.2v-5.1H6a20 20 0 0 0 0 18.4z"/><path fill="#EA4335" d="M24 12c3 0 5.7 1 7.8 3.1l5.8-5.8C34.1 6 29.5 4 24 4 16.1 4 9.4 8.4 6 14.8l7.3 5.1C14.8 15.4 19 12 24 12z"/></svg><span>Google Business Profile</span></a></li>
+            <li><a class="kov-footer-social-link" href="https://x.com/kovcareeragency" target="_blank" rel="noopener noreferrer" aria-label="KOV Career Agency on X"><svg class="kov-footer-social-icon kov-footer-social-icon-x" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.9 1.2h3.7l-8 9.2L24 22.9h-7.4l-5.8-7.6-6.6 7.6H.5l8.6-9.8L0 1.2h7.6l5.2 6.9zm-1.3 19.5h2L6.5 3.2H4.3z"/></svg><span>X</span></a></li>
           </ul>
         </section>
         <section class="kov-uniform-footer-inquiry">

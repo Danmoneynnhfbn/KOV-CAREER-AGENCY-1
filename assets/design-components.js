@@ -1,8 +1,8 @@
 ﻿(function () {
   "use strict";
 
-  if (window.kovHeaderShellApplied) return;
-  window.kovHeaderShellApplied = true;
+  if (window.kovSharedBehaviorsReady) return;
+  window.kovSharedBehaviorsReady = true;
 
   function ensureStylesheet(fileName, version) {
     var assetPath = "/assets/" + fileName + (version ? "?v=" + version : "");
@@ -13,10 +13,7 @@
         return new URL(link.href, window.location.href).pathname === assetUrl.pathname;
       }
     );
-    if (existingStylesheet) {
-      if (existingStylesheet.href !== assetUrl.href) existingStylesheet.href = assetUrl.href;
-      return;
-    }
+    if (existingStylesheet) return;
 
     var stylesheet = document.createElement("link");
     stylesheet.rel = "stylesheet";
@@ -70,140 +67,8 @@
     });
   }
 
-  function applyStandardSiteShell() {
-    var currentHeader = document.querySelector("header");
-    var existingSearchButtons = currentHeader
-      ? Array.prototype.slice.call(currentHeader.querySelectorAll(".site-search-trigger"))
-      : [];
-    var desktopSearchButton = existingSearchButtons.find(function (button) {
-      return button.classList.contains("site-search-desktop");
-    });
-    var mobileSearchButton = existingSearchButtons.find(function (button) {
-      return button.classList.contains("site-search-mobile");
-    });
-    var header = document.createElement("header");
-    header.className = "kov-site-header sticky top-0 z-50 border-b border-line/60 bg-background/85 backdrop-blur-xl";
-    header.innerHTML = [
-      '<div class="kov-site-header-inner mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-10">',
-      '<a class="kov-site-brand flex items-center gap-2.5" href="' + linkHref("index.html") + '" aria-label="KOV Career Agency home">',
-      '<img class="kov-site-brand-logo h-7 w-7 object-contain" src="' + linkHref("kov-logo.png") + '" alt="KOV"/>',
-      '<span class="kov-site-brand-name text-[13px] font-medium uppercase tracking-[0.18em] text-ink">KOV <span class="text-muted-foreground">Career Agency</span></span>',
-      '</a>',
-      '<nav class="kov-site-desktop-nav hidden items-center gap-8 text-[13px] text-ink-soft lg:flex" aria-label="Main navigation">',
-      '<a href="' + linkHref("index.html") + '" class="transition-colors hover:text-ink">Home</a>',
-      '<a href="' + linkHref("candidate-services.html") + '" class="transition-colors hover:text-ink">Individual Career Services</a>',
-      '<a href="' + linkHref("roles/") + '" class="transition-colors hover:text-ink">Roles</a>',
-      '<a href="' + linkHref("industries/") + '" class="transition-colors hover:text-ink">Industries</a>',
-      '<a href="' + linkHref("services.html") + '" class="transition-colors hover:text-ink">Private Career Representation</a>',
-      '<a href="' + linkHref("how-it-works.html") + '" class="transition-colors hover:text-ink">How It Works</a>',
-      '<a href="' + linkHref("pricing.html") + '" class="transition-colors hover:text-ink">Pricing</a>',
-      '<a href="' + linkHref("faqs.html") + '" class="transition-colors hover:text-ink">FAQs</a>',
-      '<a href="' + linkHref("blog.html") + '" class="transition-colors hover:text-ink">Blog</a>',
-      '<a href="' + linkHref("about.html") + '" class="transition-colors hover:text-ink">About</a>',
-      '<a href="' + linkHref("account.html") + '" class="kov-account-link" aria-label="Log in or view your account" title="Account">Account</a>',
-      '<button type="button" class="site-search-trigger site-search-desktop" aria-label="Search the website" title="Search the website"><span class="site-search-icon" aria-hidden="true"></span></button>',
-      '<a href="' + linkHref("contact.html") + '" class="transition-colors hover:text-ink">Get Started</a>',
-      '</nav>',
-      '<button type="button" class="site-search-trigger site-search-mobile" aria-label="Search the website" title="Search the website"><span class="site-search-icon" aria-hidden="true"></span></button>',
-      '<button type="button" class="kov-site-menu-toggle inline-flex items-center justify-center rounded-full border border-line/60 px-3 py-2 text-[11px] font-medium uppercase tracking-[0.18em] text-ink lg:hidden" aria-label="Open menu" aria-expanded="false" aria-controls="site-mobile-menu" data-mobile-menu-toggle><span aria-hidden="true">MENU</span></button>',
-      '</div>',
-      '<div class="kov-site-mobile-menu site-mobile-menu" id="site-mobile-menu" aria-hidden="true">',
-      '<div class="kov-site-mobile-menu-panel site-mobile-menu-panel">',
-      '<div class="kov-site-mobile-menu-header site-mobile-menu-header">',
-      '<a class="kov-site-mobile-brand" href="' + linkHref("index.html") + '" data-mobile-menu-link aria-label="KOV Career Agency home">',
-      '<img class="kov-site-brand-logo" src="' + linkHref("kov-logo.png") + '" alt="KOV"/>',
-      '<span>KOV Career Agency</span>',
-      '</a>',
-      '<button type="button" class="kov-site-menu-close menu-close" aria-label="Close menu" data-mobile-menu-close>×</button>',
-      '</div>',
-      '<nav class="kov-site-mobile-menu-nav site-mobile-menu-nav" aria-label="Mobile navigation">',
-      '<a href="' + linkHref("index.html") + '" data-mobile-menu-link>Home</a>',
-      '<a href="' + linkHref("candidate-services.html") + '" data-mobile-menu-link>Individual Career Services</a>',
-      '<a href="' + linkHref("roles/") + '" data-mobile-menu-link>Roles</a>',
-      '<a href="' + linkHref("industries/") + '" data-mobile-menu-link>Industries</a>',
-      '<a href="' + linkHref("services.html") + '" data-mobile-menu-link>Private Career Representation</a>',
-      '<a href="' + linkHref("how-it-works.html") + '" data-mobile-menu-link>How It Works</a>',
-      '<a href="' + linkHref("pricing.html") + '" data-mobile-menu-link>Pricing</a>',
-      '<a href="' + linkHref("faqs.html") + '" data-mobile-menu-link>FAQs</a>',
-      '<a href="' + linkHref("blog.html") + '" data-mobile-menu-link>Blog</a>',
-      '<a href="' + linkHref("about.html") + '" data-mobile-menu-link>About</a>',
-      '<a href="' + linkHref("account.html") + '" data-mobile-menu-link>Account</a>',
-      '<a href="' + linkHref("contact.html") + '" data-mobile-menu-link>Get Started</a>',
-      '</nav>',
-      '</div>',
-      '</div>',
-      '</header>'
-    ].join("");
-
-    var desktopNavigation = header.querySelector(".kov-site-desktop-nav");
-    var mobileMenuToggle = header.querySelector("[data-mobile-menu-toggle]");
-    if (desktopSearchButton) {
-      desktopNavigation.querySelector(".site-search-desktop").replaceWith(desktopSearchButton);
-    }
-    if (mobileSearchButton) {
-      header.querySelector(".site-search-mobile").replaceWith(mobileSearchButton);
-    }
-
-    document.querySelectorAll(".site-mobile-menu, .ceo-mobile-menu").forEach(function (menu) {
-      menu.remove();
-    });
-
-    document.querySelectorAll("header").forEach(function (node) {
-      if (node !== currentHeader) {
-        node.remove();
-      }
-    });
-
-    if (currentHeader) {
-      currentHeader.replaceWith(header);
-    } else {
-      document.body.insertBefore(header, document.body.firstChild || null);
-    }
-
-    var mobileMenu = document.getElementById("site-mobile-menu");
-    var mobileToggle = document.querySelector("[data-mobile-menu-toggle]");
-    var mobileClose = document.querySelector("[data-mobile-menu-close]");
-    if (mobileMenu && mobileToggle) {
-      function setMobileMenuOpen(open) {
-        mobileMenu.classList.toggle("is-open", open);
-        mobileMenu.setAttribute("aria-hidden", String(!open));
-        mobileToggle.setAttribute("aria-expanded", String(open));
-        document.body.classList.toggle("mobile-nav-open", open);
-      }
-
-      mobileToggle.addEventListener("click", function () {
-        var open = !mobileMenu.classList.contains("is-open");
-        setMobileMenuOpen(open);
-        if (open && mobileClose) mobileClose.focus();
-      });
-
-      if (mobileClose) {
-        mobileClose.addEventListener("click", function () {
-          setMobileMenuOpen(false);
-          mobileToggle.focus();
-        });
-      }
-
-      mobileMenu.addEventListener("click", function (event) {
-        if (event.target === mobileMenu) {
-          setMobileMenuOpen(false);
-          mobileToggle.focus();
-        } else if (event.target && event.target.closest("a")) {
-          setMobileMenuOpen(false);
-        }
-      });
-
-      document.addEventListener("keydown", function (event) {
-        if (event.key !== "Escape" || !mobileMenu.classList.contains("is-open")) return;
-        setMobileMenuOpen(false);
-        mobileToggle.focus();
-      });
-    }
-  }
-
-  ensureStylesheet("design-components.css", "2");
+  ensureStylesheet("design-components.css", "3");
   ensureStylesheet("site-fixes.css", "28");
-  applyStandardSiteShell();
   if (!window.kovSiteSearchReady && !Array.prototype.some.call(
     document.querySelectorAll("script[src]"),
     function (script) {
