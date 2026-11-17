@@ -107,11 +107,11 @@ def main() -> None:
 
         canonical = canonical_for(rel)
         canonical_tag = f'<link rel="canonical" href="{canonical}">'
-        canonical_re = re.compile(r'<link\\b(?=[^>]*\\brel\\s*=\\s*["\\']canonical["\\'])[^>]*>', re.I)
+        canonical_re = re.compile(r'<link\b(?=[^>]*\brel\s*=\s*["\']canonical["\'])[^>]*>', re.I)
         if canonical_re.search(updated):
             updated = canonical_re.sub(canonical_tag, updated, count=1)
         else:
-            updated, count = re.subn(r"</head\\s*>", "  " + canonical_tag + "\\n</head>", updated, count=1, flags=re.I)
+            updated, count = re.subn(r"</head\s*>", "  " + canonical_tag + "\n</head>", updated, count=1, flags=re.I)
             if count != 1:
                 raise SystemExit(f"Could not insert canonical link in {rel}")
 
