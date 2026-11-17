@@ -1,0 +1,41 @@
+name: Publish approved public staging pages
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - ".github/workflows/publish-staging-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out master
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Remove noindex from approved public pages and update discovery files
+        run: python scripts/publish_staging_pages.py
+
+      - name: Commit and push the publication update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add staging development/PAGE-COVERAGE.csv sitemap.xml llms.txt llms-full.txt scripts/build_cloudflare_pages.py scripts/staging-public-pages.txt
+          if git diff --cached --quiet; then
+            echo "No publication changes were required."
+          else
+            git commit -m "Publish approved career research pages for indexing"
+            git push origin HEAD:master
+          fi
