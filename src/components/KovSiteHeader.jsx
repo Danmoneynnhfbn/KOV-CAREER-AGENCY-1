@@ -34,29 +34,41 @@ function collectNavigation(header) {
   });
   const group = (label, href, items) => ({ label, href, items });
   const primary = [
-    group("Core services", "/candidate-services.html", [
+    group("Career services", "/candidate-services.html", [
       menuItem("Individual Career Services", /individual career services/i, "/candidate-services.html"),
       menuItem("Private Career Representation", /private career representation/i, "/services.html"),
-      menuItem("Roles", /^roles$/i, "/roles/"),
-      menuItem("Industries", /^industries$/i, "/industries/"),
       menuItem("How It Works", /how it works/i, "/how-it-works.html"),
       menuItem("Pricing", /pricing/i, "/pricing.html"),
       menuItem("FAQs", /^faqs?$/i, "/faqs.html"),
     ]),
-    group("Career Resources", "/career-resources/index.html", [
-      menuItem("Career Resources", /career resources/i, "/career-resources/index.html"),
-      menuItem("Blog", /^blog$/i, "/blog.html"),
+    group("Executive Roles", "/roles/", [
+      { label: "Browse Executive Roles", href: "/roles/" },
+      { label: "Chief Executive Officer (CEO)", href: "/roles/ceo/" },
+      { label: "Chief Financial Officer (CFO)", href: "/roles/cfo/" },
+      { label: "Chief Information Officer (CIO)", href: "/roles/cio/" },
+      { label: "Chief Technology Officer (CTO)", href: "/roles/cto/" },
+      { label: "Chief Human Resources Officer (CHRO)", href: "/roles/chro/" },
+      { label: "Board Director", href: "/roles/board-director/" },
+    ]),
+    group("Industries", "/industries/", [
+      { label: "Browse Industries", href: "/industries/" },
+      { label: "Technology, Media & Telecom", href: "/industries/technology-media-telecom/" },
+      { label: "Finance & Insurance", href: "/industries/finance-insurance/" },
+      { label: "Energy, Mining & Oil and Gas", href: "/industries/energy-mining-oil-gas/" },
+      { label: "Healthcare & Social Care", href: "/industries/healthcare-social-care/" },
+      { label: "Legal Services", href: "/industries/legal-services/" },
+    ]),
+    group("Insights & Resources", "/blog.html", [
+      { label: "Blog", href: "/blog.html" },
       { label: "Case Studies", href: "/resources/case-studies.html" },
+      { label: "Glossary", href: "/glossary.html" },
     ]),
     group("Geography and markets", "/countries-we-serve.html", [
       { label: "Countries We Serve", href: "/countries-we-serve.html" },
       { label: "Dubai Market", href: "/markets/executive-job-search-dubai.html" },
+      { label: "UAE Market", href: "/markets/executive-job-search-uae.html" },
+      { label: "Saudi Arabia Market", href: "/markets/executive-career-support-saudi-arabia.html" },
     ]),
-    group("Research", "/research/index.html", [
-      { label: "Research Hub", href: "/research/index.html" },
-      { label: "Case Studies", href: "/resources/case-studies.html" },
-    ]),
-    menuItem("Directory", /^directory$/i, "/professional-directory/index.html"),
     menuItem("About KOV", /^about(?: kov)?$/i, "/about.html"),
   ];
   const contact = links.find((link) => /contact|get started|start a conversation/i.test(link.label)) ||
