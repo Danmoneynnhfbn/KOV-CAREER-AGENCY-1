@@ -64,6 +64,18 @@ jobs:
           curl --fail --silent --compressed http://127.0.0.1:8000/data/kov-discovery-catalog.jsonld |
             python -c 'import json,sys; data=json.load(sys.stdin); assert isinstance(data.get("@graph"), list); print("Catalogue JSON-LD parsed:", len(data["@graph"]), "records")'
 
+      - name: Check gzip response headers and protected admin pages
+        run: |
+          curl --fail --silent --show-error --dump-header /tmp/catalogue-headers.txt --output /dev/null --header 'Accept-Encoding: gzip' http://127.0.0.1:8000/data/kov-discovery-catalog.jsonld
+          grep -Eiq '^content-encoding: gzip' /tmp/catalogue-headers.txt
+          for path in /toba /toba.html /blogpostcheck /.private_admin/blogpostcheck.html; do
+            code=$(curl --silent --output /dev/null --write-out '%{http_code}' "http://127.0.0.1:8000$path")
+            if [ "$code" = "200" ]; then
+              echo "Protected page leaked: $path"
+              exit 1
+            fi
+          done
+
       - name: Stop the test container
         if: always()
         run: docker rm --force kov-career-api-ci || true
