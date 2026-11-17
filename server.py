@@ -129,6 +129,7 @@ def read_site_file(requested_path: str):
     if (
         requested_path == ".private_admin"
         or requested_path.startswith(".private_admin/")
+        or requested_path == "toba.html"
         or not file_path.is_relative_to(ROOT)
     ):
         raise HTTPException(status_code=404, detail="Not Found")
