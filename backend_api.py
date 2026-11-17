@@ -715,8 +715,8 @@ def _contact_requester_hash(request: Request) -> str:
         )
     forwarded_for = request.headers.get("x-forwarded-for")
     raw_ip = (
-        request.headers.get("cf-connecting-ip")
-        or request.headers.get("x-real-ip")
+        request.headers.get("x-real-ip")
+        or request.headers.get("cf-connecting-ip")
         or (forwarded_for.split(",", 1)[0].strip() if forwarded_for else None)
         or (request.client.host if request.client else None)
     )
