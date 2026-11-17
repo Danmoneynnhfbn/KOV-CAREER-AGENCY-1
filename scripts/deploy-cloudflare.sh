@@ -1,12 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Cloudflare Workers Builds environments may not include uv by default.
-if ! command -v uv >/dev/null 2>&1; then
-  python -m pip install --user uv
-  export PATH="$HOME/.local/bin:$HOME/.cargo/bin:$PATH"
-fi
-
-python scripts/prepare_cloudflare_assets.py
-uv sync
-uv run pywrangler deploy
+# Requires Docker and a Cloudflare Workers Paid account with Containers enabled.
+# This deploys the separate kov-career-api Worker. It does not attach a
+# production hostname route; add that only after Workers.dev tests pass.
+npx wrangler deploy --config wrangler.jsonc
