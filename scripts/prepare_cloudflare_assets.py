@@ -16,8 +16,8 @@ PUBLIC_EXTENSIONS = {
     ".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg", ".ico",
 }
 EXCLUDED_DIRS = {
-    ".git", ".github", ".private_admin", ".venv", "venv",
-    "__pycache__", "node_modules", "docs", "tests",
+    ".git", ".github", ".private_admin", ".venv", "venv", "public",
+    "__pycache__", "node_modules",
     "design-reference", "_design-reference", ".wrangler",
 }
 EXCLUDED_FILES = {
