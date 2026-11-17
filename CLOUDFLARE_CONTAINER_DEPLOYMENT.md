@@ -8,10 +8,11 @@ The deployment target is therefore a **Cloudflare Container**, not a Python Work
 
 The Worker uses Cloudflare's direct Durable Object Container API (`cloudflare:workers` and `ctx.container`) rather than the older `@cloudflare/containers` helper. Cloudflare's current migration guidance marks that helper as deprecated in favor of the direct API.
 
-- The existing `kov-career-agency-1` production Worker is not replaced by this configuration.
-- The new Worker is named `kov-career-api`.
-- The new Worker has Workers.dev enabled for testing.
-- No production custom-domain route is configured in `wrangler.jsonc`.
+- The intended Wrangler Worker name is `kov-career-api`.
+- The repository is also linked to a Cloudflare Workers Builds configuration bound to the existing script tag for `kov-career-agency-1`. That build integration overrides the configured name and uploaded this Container version into `kov-career-agency-1`.
+- Cloudflare confirms that `kov-career-agency-1` has Workers.dev enabled, but has no custom domain and no zone Worker routes. It is not currently connected to `kovcareeragency.org`.
+- Automatic builds for the existing script have been paused by excluding all changed paths and disabling Previews. Do not re-enable them until a separate Worker/build configuration is created.
+- The intended `kov-career-api` script has not yet been created as a separate Cloudflare Worker.
 - The Worker forwards requests to a single named Durable Object, which starts and proxies to the FastAPI container on port 8000.
 - The container runs the existing `server:app`, preserving the existing page, API, authentication, admin, candidate, employer, and billing route definitions.
 
@@ -55,6 +56,14 @@ After deployment, test the new Worker on its Workers.dev URL:
 - Resend contact notification
 
 Do not attach the production hostname until these tests pass.
+
+## Current account state and blockers
+
+The Cloudflare account currently reports no Worker custom domains, no zone Worker routes, and no Pages projects. The DNS records for the apex, wildcard, and `www` hostnames are proxied through Cloudflare but their origin A records still point to Vercel edge IPs (`64.29.17.1`, `64.29.17.65`, and `216.198.79.1`). Therefore the live domain is not yet routed to this Container Worker.
+
+The deployed `kov-career-agency-1` Worker currently has no runtime secrets. Supabase, Resend, and Stripe-backed endpoints cannot be considered ready until the required secrets and variables are configured. The actual container health and end-to-end API checks still need to pass.
+
+Cloudflare rejected a direct rollback to the previous static-assets version because the newly provisioned `KOVBackend` Durable Object namespace must first be retired with an explicit deleted-class tombstone. The Worker has no production route or custom domain, so that namespace has been left isolated rather than force-deleted.
 
 ## Production routing
 
