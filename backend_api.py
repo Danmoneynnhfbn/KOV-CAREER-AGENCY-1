@@ -145,7 +145,7 @@ def _verify_origin(request: Request) -> None:
             status_code=status.HTTP_403_FORBIDDEN,
             detail="A same-origin request is required.",
         )
-    expected = request.headers.get("host", "").lower()
+    expected = (request.headers.get("x-forwarded-host") or request.headers.get("host", "")).lower()
     origin_match = re.fullmatch(r"https?://([^/]+)", origin.strip(), re.I)
     if not origin_match or origin_match.group(1).lower() != expected:
         raise HTTPException(
@@ -715,7 +715,8 @@ def _contact_requester_hash(request: Request) -> str:
         )
     forwarded_for = request.headers.get("x-forwarded-for")
     raw_ip = (
-        request.headers.get("x-real-ip")
+        request.headers.get("cf-connecting-ip")
+        or request.headers.get("x-real-ip")
         or (forwarded_for.split(",", 1)[0].strip() if forwarded_for else None)
         or (request.client.host if request.client else None)
     )
