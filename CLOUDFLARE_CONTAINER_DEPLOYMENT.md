@@ -6,6 +6,8 @@ KOV's existing application is a conventional FastAPI application in `server.py` 
 
 The deployment target is therefore a **Cloudflare Container**, not a Python Worker. A Container provides a full Linux/Python runtime and can run the existing application without converting every route and integration to asynchronous APIs.
 
+The Worker uses Cloudflare's direct Durable Object Container API (`cloudflare:workers` and `ctx.container`) rather than the older `@cloudflare/containers` helper. Cloudflare's current migration guidance marks that helper as deprecated in favor of the direct API.
+
 - The existing `kov-career-agency-1` production Worker is not replaced by this configuration.
 - The new Worker is named `kov-career-api`.
 - The new Worker has Workers.dev enabled for testing.
