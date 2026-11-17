@@ -163,14 +163,17 @@ def main() -> None:
     section = "\n\n## Public career research and occupation guides\n"
     lines = []
     for _, url, title, description in published:
-        if f"]({url})" not in full:
-            lines.append(f"- [{title}]({url}): {description}")
+        line = f"- [{title}]({url}): {description}"
+        pattern = re.compile(r"^- \\[[^\\]]+\\]\\(" + re.escape(url) + r"\\):.*$", re.M)
+        full, count = pattern.subn(lambda _match, value=line: value, full)
+        if count == 0:
+            lines.append(line)
     if lines:
         if "## Public career research and occupation guides" not in full:
-            full = full.rstrip() + section + "\n".join(lines) + "\n"
+            full = full.rstrip() + section + "\\n".join(lines) + "\\n"
         else:
-            full = full.rstrip() + "\n" + "\n".join(lines) + "\n"
-        LLMS_FULL.write_text(full, encoding="utf-8")
+            full = full.rstrip() + "\\n" + "\\n".join(lines) + "\\n"
+    LLMS_FULL.write_text(full, encoding="utf-8")
 
     print(f"Published {len(published)} public staging pages.")
     print("Private account, candidate directory, operations console, and admin/publishing pages were not modified.")
