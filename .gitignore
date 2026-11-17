@@ -6,3 +6,7 @@ design-reference/
 _design-reference/
 .tmp-*
 debug.log
+
+# Generated Cloudflare Python Worker assets and protected-page module
+/public/
+/cloudflare_private_pages.py
