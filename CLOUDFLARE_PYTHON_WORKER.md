@@ -36,21 +36,35 @@ The script:
 The project root remains `/`. Do not set the repository root itself as the static
 asset directory. The configured asset directory is `./public/`.
 
-## Required Worker secrets
+## Required Worker environment and secrets
 
-Configure these as Cloudflare Worker secrets (never commit values):
+Configure these in the Cloudflare Worker settings. Store credentials as **secrets**
+and non-sensitive settings as plain-text variables. Never commit their values.
 
+Required for the existing account routes:
 - `SUPABASE_URL`
 - `SUPABASE_ANON_KEY`
 - `SUPABASE_SERVICE_ROLE_KEY`
-- `STRIPE_SECRET_KEY`
-- `RESEND_API_KEY`
-- `RESEND_FROM_EMAIL`
-- `KOV_ADMIN_TOKEN` (only if required by the existing admin authentication code)
-- Any additional environment names referenced by `backend_api.py`
+- `ADMIN_USER_ID`
 
-Keep Stripe billing disabled unless its existing approved configuration is ready.
-Do not place secret values in `wrangler.jsonc`, GitHub, or build logs.
+Required for contact notifications:
+- `RESEND_API_KEY` (secret)
+- `RESEND_FROM_EMAIL` (plain-text variable)
+
+Required only when enabling Stripe billing and webhooks:
+- `STRIPE_SECRET_KEY` (secret)
+- `STRIPE_WEBHOOK_SECRET` (secret)
+- `STRIPE_EMPLOYER_MONTHLY_PRICE_ID` (plain-text variable)
+- `STRIPE_BILLING_ENABLED` (set to `true` only after test-mode validation)
+
+Other optional variables referenced by the backend:
+- `KOV_COOKIE_SECURE` (set to `true` on the HTTPS production domain)
+- `SUPABASE_CV_BUCKET`
+- `CRON_SECRET`
+
+Do not set `VERCEL` on Cloudflare. Do not place secret values in
+`wrangler.jsonc`, GitHub, or build logs. Do not enable Stripe billing until the
+existing approved Stripe configuration and webhook endpoint have been tested.
 
 ## Large discovery catalogue
 
