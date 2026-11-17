@@ -9,6 +9,7 @@ import secrets
 import hashlib
 import hmac
 import ipaddress
+from contextvars import ContextVar
 from datetime import date, datetime, timedelta, timezone
 from pathlib import PurePath
 from typing import Literal
@@ -58,7 +59,30 @@ PUBLIC_EMAIL_DOMAINS = frozenset({
 })
 
 
+# Cloudflare Python Workers expose secrets and variables through the ASGI
+# request scope, not os.environ. A ContextVar keeps values request-local.
+_RUNTIME_ENV: ContextVar[object | None] = ContextVar("kov_runtime_env", default=None)
+
+
+def set_runtime_env(env: object | None):
+    return _RUNTIME_ENV.set(env)
+
+
+def reset_runtime_env(token: object) -> None:
+    _RUNTIME_ENV.reset(token)
+
+
 def _configured(name: str) -> str | None:
+    runtime_env = _RUNTIME_ENV.get()
+    if runtime_env is not None:
+        try:
+            value = getattr(runtime_env, name, None)
+        except Exception:
+            value = None
+        if value is not None:
+            normalized = str(value).strip()
+            return normalized or None
+
     value = os.environ.get(name)
     return value.strip() if value and value.strip() else None
 
