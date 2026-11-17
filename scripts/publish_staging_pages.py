@@ -68,12 +68,25 @@ def main() -> None:
     if not fields:
         raise SystemExit("PAGE-COVERAGE.csv has no header")
 
-    targets = [
-        row for row in rows
-        if row.get("path", "").startswith("staging/")
-        and "noindex" in row.get("robots", "").lower()
-        and row.get("path", "") not in PRIVATE_PATHS
+    target_paths = [
+        line.strip() for line in MANIFEST.read_text(encoding="utf-8").splitlines()
+        if line.strip()
     ]
+    rows_by_path = {row.get("path", ""): row for row in rows}
+    targets = []
+    for rel in target_paths:
+        if not rel.startswith("staging/") or rel in PRIVATE_PATHS:
+            raise SystemExit(f"Refusing non-public staging path: {rel}")
+        if re.match(r"^staging/(?:professional-directory|research|templates|visual-assets)/", rel):
+            raise SystemExit(f"Refusing private or non-indexable staging area: {rel}")
+        row = rows_by_path.get(rel)
+        if row is None:
+            row = {field: "" for field in fields}
+            row["path"] = rel
+            rows.append(row)
+            rows_by_path[rel] = row
+        targets.append(row)
+
     if not targets:
         raise SystemExit("No staging noindex pages found; refusing an empty publication run")
 
@@ -93,9 +106,12 @@ def main() -> None:
         updated = updated.replace("KOV Website Expansion | KOV Career Agency", "KOV Career Resources | KOV Career Agency")
 
         canonical = canonical_for(rel)
-        if not re.search(r'<link\b(?=[^>]*\brel\s*=\s*["\']canonical["\'])', updated, re.I):
-            canonical_tag = f'  <link rel="canonical" href="{canonical}">\n'
-            updated, count = re.subn(r"</head\s*>", canonical_tag + "</head>", updated, count=1, flags=re.I)
+        canonical_tag = f'<link rel="canonical" href="{canonical}">'
+        canonical_re = re.compile(r'<link\\b(?=[^>]*\\brel\\s*=\\s*["\\']canonical["\\'])[^>]*>', re.I)
+        if canonical_re.search(updated):
+            updated = canonical_re.sub(canonical_tag, updated, count=1)
+        else:
+            updated, count = re.subn(r"</head\\s*>", "  " + canonical_tag + "\\n</head>", updated, count=1, flags=re.I)
             if count != 1:
                 raise SystemExit(f"Could not insert canonical link in {rel}")
 
