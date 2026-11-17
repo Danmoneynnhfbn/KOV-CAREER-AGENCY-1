@@ -1,7 +1,6 @@
 (() => {
-  const rootPrefix = /\/(?:services|markets|roles|industries|resources)\/[^/]*$/.test(location.pathname)
-    ? '../'
-    : '';
+  // Public routes live at the domain root; absolute paths work from nested pages.
+  const rootPrefix = '/';
   const destinations = [
     ['candidate-services.html', 'Individual Career Services'],
   ];
@@ -82,6 +81,15 @@
           [`${rootPrefix}services.html`, 'Private Career Representation'],
           [`${rootPrefix}how-it-works.html`, 'How It Works'],
           [`${rootPrefix}pricing.html`, 'Pricing'],
+        ],
+      },
+      {
+        title: 'Explore KOV',
+        links: [
+          [`${rootPrefix}roles/`, 'Leadership Roles'],
+          [`${rootPrefix}industries/`, 'Industries'],
+          [`${rootPrefix}faq/index.html`, 'FAQ Library'],
+          [`${rootPrefix}blog.html`, 'Insights'],
         ],
       },
     ];
