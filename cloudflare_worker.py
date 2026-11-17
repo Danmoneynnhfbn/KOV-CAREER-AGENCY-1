@@ -52,6 +52,27 @@ async def _asset_response(request: Request, path: str) -> Response:
             detail="Website assets are not configured on this Worker.",
         )
 
+    # The discovery catalogue is stored as an unchanged gzip stream so the
+    # physical asset stays below Cloudflare's 25 MiB per-file limit. Returning
+    # Content-Encoding lets browsers recover the exact original JSON-LD bytes.
+    if path.lstrip("/") == "data/kov-discovery-catalog.jsonld":
+        asset = await assets.fetch(
+            "https://assets.local/data/kov-discovery-catalog.jsonld.gz"
+        )
+        body = await asset.bytes()
+        if asset.status != 200:
+            return Response(content=body, status_code=asset.status)
+        return Response(
+            content=body,
+            status_code=asset.status,
+            headers={
+                "content-type": "application/ld+json; charset=utf-8",
+                "content-encoding": "gzip",
+                "cache-control": "public, max-age=3600, s-maxage=86400",
+                "x-content-type-options": "nosniff",
+            },
+        )
+
     asset_path = path.lstrip("/")
     asset_url = f"https://assets.local/{asset_path}"
     asset = await assets.fetch(asset_url)
