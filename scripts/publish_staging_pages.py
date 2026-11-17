@@ -56,9 +56,13 @@ def page_title(source: str, path: str) -> str:
     match = TITLE_TAG.search(source)
     return html.unescape(re.sub(r"\s+", " ", match.group(1)).strip()) if match else Path(path).stem
 
-def page_description(source: str) -> str:
+def page_description(source: str, title: str = "") -> str:
     match = DESC_TAG.search(source)
-    return html.unescape(re.sub(r"\s+", " ", match.group(2)).strip()) if match else "Career research and professional guidance from KOV Career Agency."
+    description = html.unescape(re.sub(r"\s+", " ", match.group(2)).strip()) if match else ""
+    if not description or re.search(r"unpublished|noindex|excluded from public search|staging preview", description, re.I):
+        subject = title or "career development"
+        return f"Public career research and professional guidance about {subject} from KOV Career Agency."
+    return description
 
 def main() -> None:
     with COVERAGE.open("r", encoding="utf-8-sig", newline="") as stream:
@@ -117,7 +121,7 @@ def main() -> None:
 
         file_path.write_text(updated, encoding="utf-8")
         title = page_title(updated, rel)
-        description = page_description(updated)
+        description = page_description(updated, title)
         row["title"] = title
         row["sitemap"] = "yes"
         row["eligibility"] = "published"
@@ -134,6 +138,21 @@ def main() -> None:
     MANIFEST.write_text("".join(rel + "\n" for rel, _, _, _ in published), encoding="utf-8")
 
     sitemap = SITEMAP.read_text(encoding="utf-8")
+    # Remove legacy private/non-indexable staging utility URLs from the sitemap.
+    excluded_urls = [
+        BASE + "/staging/professional-directory/",
+        BASE + "/staging/research/",
+        BASE + "/staging/templates/",
+        BASE + "/staging/templates/international-mobility.html",
+        BASE + "/staging/visual-assets/",
+    ]
+    for excluded_url in excluded_urls:
+        sitemap = re.sub(
+            r"<url>\\s*<loc>" + re.escape(excluded_url) + r"</loc>.*?</url>",
+            "",
+            sitemap,
+            flags=re.I | re.S,
+        )
     sitemap = sitemap.replace(
         "Production sitemap: list only self-canonical, indexable pages. Exclude staging and pages marked noindex.",
         "Production sitemap: list canonical, indexable public pages. Private and noindex utility surfaces remain excluded."
@@ -161,7 +180,17 @@ def main() -> None:
 
     full = LLMS_FULL.read_text(encoding="utf-8")
     section = "\n\n## Public career research and occupation guides\n"
-    full_lines = full.splitlines()
+    excluded_urls = [
+        BASE + "/staging/professional-directory/",
+        BASE + "/staging/research/",
+        BASE + "/staging/templates/",
+        BASE + "/staging/templates/international-mobility.html",
+        BASE + "/staging/visual-assets/",
+    ]
+    full_lines = [
+        line for line in full.splitlines()
+        if not any(f"]({url})" in line for url in excluded_urls)
+    ]
     additions = []
     for _, url, title, description in published:
         line = f"- [{title}]({url}): {description}"
