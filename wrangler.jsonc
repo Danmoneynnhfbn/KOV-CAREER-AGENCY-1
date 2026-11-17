@@ -1,13 +1,30 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "kov-career-agency-1",
-  "main": "cloudflare_worker.py",
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "kov-career-api",
+  "main": "cloudflare-api/worker.ts",
   "compatibility_date": "2026-11-17",
-  "compatibility_flags": ["python_workers"],
-  "assets": {
-    "directory": "./public/",
-    "binding": "ASSETS",
-    "run_worker_first": true
+  "workers_dev": true,
+  "containers": [
+    {
+      "class_name": "KOVBackend",
+      "image": "./Dockerfile",
+      "instance_type": "basic",
+      "max_instances": 1
+    }
+  ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "KOV_BACKEND",
+        "class_name": "KOVBackend"
+      }
+    ]
+  },
+  "exports": {
+    "KOVBackend": {
+      "type": "durable-object",
+      "storage": "sqlite"
+    }
   },
   "observability": {
     "enabled": true
