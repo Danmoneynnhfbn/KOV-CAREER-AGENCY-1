@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Prepare the public KOV site for Cloudflare Pages Free.
 
+The production Pages build excludes backend-only and private administration files.
+
 Copies public website files without changing their contents. Large JSON catalogues
 are delivered as verified gzip representations at their original public URLs.
 """
