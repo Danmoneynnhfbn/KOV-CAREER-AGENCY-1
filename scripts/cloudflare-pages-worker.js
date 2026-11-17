@@ -1,6 +1,10 @@
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    if (url.hostname.toLowerCase() === "kovcareeragency.org") {
+      url.hostname = "www.kovcareeragency.org";
+      return Response.redirect(url.toString(), 308);
+    }
     const compressedRoutes = new Map([
       ["/data/kov-discovery-catalog.jsonld", "/data/kov-discovery-catalog.jsonld.gz"],
       ["/data/taxonomy/verified-expanded-taxonomy.json", "/data/taxonomy/verified-expanded-taxonomy.json.gz"],
