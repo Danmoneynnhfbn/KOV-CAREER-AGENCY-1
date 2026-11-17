@@ -17,7 +17,7 @@ MAX_FILE = 25 * 1024 * 1024
 SKIP_DIRS = {
     ".git", ".github", ".private_admin", ".vscode", "__pycache__",
     "cloudflare-api", "development", "design-reference", "research",
-    "tests", "staging", "github", "vscode", "supabase", "config", "scripts", "dist",
+    "tests", "github", "vscode", "supabase", "config", "scripts", "dist",
 }
 SKIP_ROOT_FILES = {
     "Dockerfile", "wrangler.jsonc", "requirements.txt", "pyproject.toml",
@@ -26,6 +26,12 @@ SKIP_ROOT_FILES = {
     "CLOUDFLARE_PYTHON_WORKER.md", "BLOCKERS.md",
     "toba.html", "blogpostcheck.html", "blogpostcheck.html.bak",
 }
+PUBLIC_STAGING_MANIFEST = ROOT / "scripts" / "staging-public-pages.txt"
+PUBLIC_STAGING_PAGES = {
+    line.strip() for line in PUBLIC_STAGING_MANIFEST.read_text(encoding="utf-8").splitlines()
+    if line.strip()
+} if PUBLIC_STAGING_MANIFEST.exists() else set()
+
 COMPRESS_AS = {
     Path("data/kov-discovery-catalog.jsonld"),
     Path("data/taxonomy/verified-expanded-taxonomy.json"),
@@ -45,6 +51,9 @@ def main() -> None:
         if not source.is_file():
             continue
         rel = source.relative_to(ROOT)
+        if rel.parts[0] == "staging" and rel.as_posix() not in PUBLIC_STAGING_PAGES:
+            skipped += 1
+            continue
         if any(part in SKIP_DIRS for part in rel.parts):
             skipped += 1
             continue
