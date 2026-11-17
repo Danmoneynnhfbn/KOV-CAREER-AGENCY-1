@@ -4,26 +4,6 @@
   if (window.kovSharedBehaviorsReady) return;
   window.kovSharedBehaviorsReady = true;
 
-  function ensureStylesheet(fileName, version) {
-    var assetPath = "/assets/" + fileName + (version ? "?v=" + version : "");
-    var assetUrl = new URL(assetPath, window.location.href);
-    var existingStylesheet = Array.prototype.find.call(
-      document.querySelectorAll('link[rel="stylesheet"][href]'),
-      function (link) {
-        return new URL(link.href, window.location.href).pathname === assetUrl.pathname;
-      }
-    );
-    if (existingStylesheet) return;
-
-    var stylesheet = document.createElement("link");
-    stylesheet.rel = "stylesheet";
-    stylesheet.href = assetUrl.href;
-    stylesheet.addEventListener("error", function () {
-      console.error("Failed to load the KOV shared stylesheet: " + stylesheet.href);
-    }, { once: true });
-    document.head.appendChild(stylesheet);
-  }
-
   function rootPrefix() {
     var segments = window.location.pathname.split("/").filter(Boolean);
     var depth = segments.length - (window.location.pathname.endsWith("/") ? 0 : 1);
@@ -67,8 +47,6 @@
     });
   }
 
-  ensureStylesheet("design-components.css", "3");
-  ensureStylesheet("site-fixes.css", "28");
   if (!window.kovSiteSearchReady && !Array.prototype.some.call(
     document.querySelectorAll("script[src]"),
     function (script) {
@@ -76,7 +54,7 @@
     }
   )) {
     var searchScript = document.createElement("script");
-    searchScript.src = linkHref("assets/site-search.js?v=5");
+    searchScript.src = linkHref("assets/site-search.js?v=6");
     searchScript.addEventListener("error", function () {
       console.error("Failed to load the KOV site search script: " + searchScript.src);
     }, { once: true });

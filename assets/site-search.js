@@ -53,30 +53,30 @@
     ['markets', 'Geography and markets'],
     ['roles', 'Seniority and roles'],
     ['resources', 'Proof and next steps'],
+    ['career-resources', 'Career resources'],
   ]);
   const pageCategories = new Set(categoryLabels.keys());
   function localPageHref(href) {
-    const inCluster = /\/(?:services|markets|roles|resources)\/[^/]*$/.test(location.pathname);
-    return `${inCluster ? '../' : ''}${href}`;
+    return `/${href.replace(/^\/+/, '')}`;
   }
 
   function makePageNavigation(isMobile) {
     const menu = createElement('details', isMobile ? 'kov-topic-nav kov-topic-nav-mobile' : 'kov-topic-nav');
-    const pageCount = (window.kovSeoPageCatalog || []).length;
-    const summary = createElement('summary', '', isMobile ? `Browse all ${pageCount} pages` : 'Explore pages');
-    summary.setAttribute('aria-label', `Browse all ${pageCount} pages by topic`);
+    const summary = createElement('summary', '', isMobile ? 'Browse pages by topic' : 'Explore pages');
+    summary.setAttribute('aria-label', 'Browse pages by topic');
     const panel = createElement('div', 'kov-topic-nav-panel');
 
     for (const [category, label] of categoryLabels) {
       const entries = (window.kovSeoPageCatalog || []).filter((page) => page.category === category);
       if (!entries.length) continue;
+      const visibleEntries = category === 'career-resources' ? entries.slice(0, 20) : entries;
       const group = isMobile
         ? createElement('details', 'kov-topic-nav-group')
         : createElement('section', 'kov-topic-nav-group');
       const heading = createElement(isMobile ? 'summary' : 'h3', '', label);
       if (isMobile) heading.setAttribute('aria-label', `${label} pages`);
       const links = createElement('ul', '');
-      for (const entry of entries) {
+      for (const entry of visibleEntries) {
         const item = createElement('li', '');
         const link = createElement(
           'a',
@@ -88,6 +88,13 @@
         links.append(item);
       }
       group.append(heading, links);
+      if (visibleEntries.length < entries.length) {
+        group.append(createElement(
+          'p',
+          '',
+          `Showing ${visibleEntries.length} of ${entries.length}. Use site search to find more ${label.toLowerCase()}.`
+        ));
+      }
       panel.append(group);
     }
 
@@ -257,6 +264,7 @@
   }
   cacheBundledContent();
   let pageIndexPromise;
+  let fullContentPromise;
   let catalogPagesAdded = false;
   let catalogPromise;
 
@@ -337,34 +345,43 @@
     if (!pageIndexPromise) {
       pageIndexPromise = loadSiteSearchCatalog().then(() => {
         indexCurrentPage();
-        if (window.kovSiteSearchContent) {
-          cacheBundledContent();
-          return;
-        }
-
-        return new Promise((resolve, reject) => {
-          const contentScript = document.createElement('script');
-          contentScript.src = contentScriptUrl;
-          contentScript.async = true;
-          contentScript.addEventListener('load', () => {
-            if (!window.kovSiteSearchContent) {
-              reject(new Error('The KOV search content file did not initialize.'));
-              return;
-            }
-            cacheBundledContent();
-            resolve();
-          }, { once: true });
-          contentScript.addEventListener('error', () => {
-            reject(new Error(`Failed to load KOV search content: ${contentScript.src}`));
-          }, { once: true });
-          document.head.append(contentScript);
-        });
+        if (window.kovSiteSearchContent) cacheBundledContent();
       }).catch((error) => {
         pageIndexPromise = null;
         throw error;
       });
     }
     return pageIndexPromise;
+  }
+
+  function loadFullContentIndex() {
+    if (window.kovSiteSearchContent) {
+      cacheBundledContent();
+      return Promise.resolve();
+    }
+    if (!fullContentPromise) {
+      fullContentPromise = new Promise((resolve, reject) => {
+        const contentScript = document.createElement('script');
+        contentScript.src = contentScriptUrl;
+        contentScript.async = true;
+        contentScript.addEventListener('load', () => {
+          if (!window.kovSiteSearchContent) {
+            reject(new Error('The KOV search content file did not initialize.'));
+            return;
+          }
+          cacheBundledContent();
+          resolve();
+        }, { once: true });
+        contentScript.addEventListener('error', () => {
+          reject(new Error(`Failed to load KOV search content: ${contentScript.src}`));
+        }, { once: true });
+        document.head.append(contentScript);
+      }).catch((error) => {
+        fullContentPromise = null;
+        throw error;
+      });
+    }
+    return fullContentPromise;
   }
 
   function matchStrength(queryWord, fieldWords) {
@@ -473,8 +490,12 @@
   form.append(label, input);
   const status = createElement('p', 'site-search-status');
   status.setAttribute('aria-live', 'polite');
+  const fullContentButton = createElement('button', 'site-search-full-content', 'Search full page content');
+  fullContentButton.type = 'button';
+  fullContentButton.hidden = true;
+  fullContentButton.title = 'Include the complete text of existing pages in this search.';
   const resultList = createElement('ul', 'site-search-results');
-  dialog.append(dialogHeader, form, status, resultList);
+  dialog.append(dialogHeader, form, status, fullContentButton, resultList);
   document.body.append(dialog);
 
   function getSnippet(page, queryWords) {
@@ -494,6 +515,7 @@
   function renderResults(query) {
     resultList.replaceChildren();
     const queryWords = words(query).filter((word) => !stopWords.has(word));
+    fullContentButton.hidden = !normalize(query) || Boolean(window.kovSiteSearchContent);
     if (queryWords.length === 0) {
       status.textContent = 'Popular destinations';
       for (const href of ['candidate-services.html', 'pricing.html']) {
@@ -512,13 +534,16 @@
 
     if (!results.length) {
       status.textContent = location.protocol === 'file:'
-        ? 'Open the site through its web address to search full page content.'
+        ? 'Open the site through its web address to search the complete page catalog.'
         : 'No close matches. Try another phrase or contact KOV.';
+      fullContentButton.hidden = !normalize(query) || Boolean(window.kovSiteSearchContent);
       return;
     }
 
     status.textContent = `${results.length} ${results.length === 1 ? 'page matches' : 'pages match'}${normalizedQuery ? ` “${query.trim()}”` : ''}`;
-    for (const result of results) resultList.append(makeResult(result.page, queryWords));
+    const visibleResults = results.slice(0, 8);
+    if (results.length > visibleResults.length) status.textContent += `; displaying the ${visibleResults.length} closest`;
+    for (const result of visibleResults) resultList.append(makeResult(result.page, queryWords));
   }
 
   function makeResult(page, queryWords = []) {
@@ -538,7 +563,7 @@
     if (typeof dialog.showModal === 'function') dialog.showModal();
     else dialog.setAttribute('open', '');
     window.requestAnimationFrame(() => input.focus());
-    status.textContent = 'Indexing page content...';
+    status.textContent = 'Loading the KOV page catalog...';
     loadPageIndex().then(() => {
       if (dialog.open) renderResults(input.value);
     }).catch((error) => {
@@ -558,7 +583,7 @@
     button.title = 'Search the website';
     const icon = createElement('span', 'site-search-icon');
     icon.setAttribute('aria-hidden', 'true');
-    button.append(icon);
+    button.append(icon, createElement('span', 'site-search-trigger-label', 'Search roles, skills, industries, places'));
     return button;
   }
 
@@ -580,9 +605,13 @@
         const topicAction = navigation.querySelector('.kov-nav-cta, a[href="contact.html"]');
         navigation.insertBefore(desktopNavigation, topicAction || null);
       }
-      const desktopTrigger = createTrigger('site-search-desktop');
-      const navAction = navigation.querySelector('.kov-nav-cta, a[href="contact.html"]');
-      navigation.insertBefore(desktopTrigger, navAction || null);
+      // The React header already renders a search control with the shared trigger class.
+      // Keep the legacy mount point for older headers, but do not inject a second control.
+      if (!navigation.querySelector('.kov-react-nav__search')) {
+        const desktopTrigger = createTrigger('site-search-desktop');
+        const navAction = navigation.querySelector('.kov-nav-cta, a[href="contact.html"]');
+        navigation.insertBefore(desktopTrigger, navAction || null);
+      }
     }
 
     const mobileNavigation = header.querySelector(
@@ -609,15 +638,30 @@
     if (event.target === dialog) dialog.close();
   });
   dialog.addEventListener('close', () => activeTrigger?.focus());
+  fullContentButton.addEventListener('click', () => {
+    fullContentButton.disabled = true;
+    fullContentButton.textContent = 'Loading full page content...';
+    status.textContent = 'Loading the full page text index...';
+    loadFullContentIndex().then(() => {
+      fullContentButton.textContent = 'Search full page content';
+      fullContentButton.disabled = false;
+      renderResults(input.value);
+    }).catch((error) => {
+      console.error('Unable to load KOV full page search content:', error);
+      fullContentButton.textContent = 'Retry full page search';
+      fullContentButton.disabled = false;
+      status.textContent = 'The full page text index could not be loaded. Page titles and summaries remain searchable.';
+    });
+  });
   input.addEventListener('input', () => renderResults(input.value));
   form.addEventListener('submit', (event) => {
     event.preventDefault();
-    const firstResult = resultList.querySelector('a');
+    const firstResult = dialog.querySelector('.kov-discovery-results a') || resultList.querySelector('a');
     if (firstResult) window.location.href = firstResult.href;
   });
   input.addEventListener('keydown', (event) => {
     if (event.key === 'ArrowDown') {
-      const firstResult = resultList.querySelector('a');
+      const firstResult = dialog.querySelector('.kov-discovery-results a') || resultList.querySelector('a');
       if (firstResult) {
         event.preventDefault();
         firstResult.focus();
@@ -631,4 +675,12 @@
       if (visibleTrigger) openSearch(visibleTrigger);
     }
   });
+
+  const discoveryEnhancer = document.createElement('script');
+  discoveryEnhancer.src = new URL('kov-discovery-search.js?v=4', searchScriptUrl || `${location.origin}/assets/site-search.js`).href;
+  discoveryEnhancer.async = true;
+  discoveryEnhancer.addEventListener('error', () => {
+    console.error(`Failed to load KOV professional search: ${discoveryEnhancer.src}`);
+  }, { once: true });
+  document.head.append(discoveryEnhancer);
 })();

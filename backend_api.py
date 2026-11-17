@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import html
 import os
 import re
 import secrets
@@ -371,6 +372,79 @@ class ContactLead(BaseModel):
         return cleaned or None
 
 
+def _contact_email_configuration() -> tuple[str, str]:
+    api_key = _configured("RESEND_API_KEY")
+    from_email = _configured("RESEND_FROM_EMAIL")
+    if not api_key or not from_email:
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail=(
+                "Contact email delivery is not configured. Please email "
+                "daniel@kovcareeragency.org directly."
+            ),
+        )
+    return api_key, from_email
+
+
+def _send_contact_notification(
+    data: ContactLead,
+    api_key: str,
+    from_email: str,
+) -> None:
+    fields = [
+        ("Name", f"{data.first_name} {data.last_name}"),
+        ("Email", data.email),
+        ("Career stage", data.audience),
+        ("Target role", data.target_role),
+        ("Phone", data.phone),
+        ("Salary range", data.salary_range),
+        ("LinkedIn", str(data.linkedin_url) if data.linkedin_url else None),
+        ("Company", data.company_name),
+        ("Market", data.location_market),
+        ("Target seniority", data.target_seniority),
+        ("Timeline", data.timeline),
+    ]
+    visible_fields = [(label, value) for label, value in fields if value]
+    text_body = "\n".join(f"{label}: {value}" for label, value in visible_fields)
+    if data.message:
+        text_body += f"\n\nMessage:\n{data.message}"
+    html_fields = "".join(
+        f"<p><strong>{html.escape(label)}:</strong> {html.escape(value)}</p>"
+        for label, value in visible_fields
+    )
+    html_message = (
+        f"<p><strong>Message:</strong></p><p style=\"white-space:pre-wrap\">"
+        f"{html.escape(data.message)}</p>"
+        if data.message
+        else ""
+    )
+    payload = {
+        "from": from_email,
+        "to": ["daniel@kovcareeragency.org"],
+        "reply_to": data.email,
+        "subject": f"New website inquiry from {data.first_name} {data.last_name}",
+        "text": text_body,
+        "html": f"{html_fields}{html_message}",
+    }
+
+    try:
+        response = httpx.post(
+            "https://api.resend.com/emails",
+            headers={"Authorization": f"Bearer {api_key}"},
+            json=payload,
+            timeout=10.0,
+        )
+        response.raise_for_status()
+    except httpx.HTTPError as exc:
+        raise HTTPException(
+            status_code=status.HTTP_502_BAD_GATEWAY,
+            detail=(
+                "Your inquiry was saved, but its email notification could not "
+                "be delivered. Please email daniel@kovcareeragency.org directly."
+            ),
+        ) from exc
+
+
 class PasswordUpdate(BaseModel):
     password: str = Field(min_length=12, max_length=128)
 
@@ -652,6 +726,7 @@ def mount_backend_routes(app) -> None:
 
     @app.post("/api/contact", status_code=201)
     def submit_contact_lead(data: ContactLead, request: Request) -> dict[str, str]:
+        api_key, from_email = _contact_email_configuration()
         requester_hash = _contact_requester_hash(request)
         service = _service_client()
         try:
@@ -685,6 +760,7 @@ def mount_backend_routes(app) -> None:
                 status_code=429,
                 detail="Too many inquiries from this network. Please try again later.",
             )
+        _send_contact_notification(data, api_key, from_email)
         return {"status": "received"}
 
     @app.post("/api/v1/billing/subscription/checkout")

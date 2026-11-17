@@ -62,8 +62,9 @@ is a second enforcement boundary for direct Supabase access.
 - Supabase Storage uses a private CV bucket; downloads must use authorized,
   short-lived signed URLs.
 - Supabase Auth sends account-confirmation and password-recovery messages.
-  Resend is declared as a dependency but transactional Resend delivery is not
-  implemented yet.
+- Contact-form inquiries are rate-limited and saved in Supabase, then delivered
+  to `daniel@kovcareeragency.org` through Resend. The verified sender address
+  and API key must be configured before this endpoint reports success.
 - Stripe Checkout handles candidate/employer subscriptions and issued placement
   invoices; employer invoice listing is scoped to authenticated company membership.
   The account page displays the account's subscription state and eligible

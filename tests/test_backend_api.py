@@ -45,6 +45,42 @@ class BackendApiTests(unittest.TestCase):
         self.assertEqual(self.client.get("/blogpostcheck.html").status_code, 404)
         self.assertEqual(self.client.get("/.private_admin/blogpostcheck.html").status_code, 404)
 
+    def test_non_www_homepage_and_index_alias_redirect_to_canonical_www_url(self) -> None:
+        redirects = (
+            ("https://www.kovcareeragency.org/", "kovcareeragency.org", "/"),
+            (
+                "https://www.kovcareeragency.org/?source=legacy",
+                "www.kovcareeragency.org",
+                "/index.html?source=legacy",
+            ),
+            (
+                "https://www.kovcareeragency.org/services.html?source=legacy",
+                "kovcareeragency.org",
+                "/services.html?source=legacy",
+            ),
+            (
+                "https://www.kovcareeragency.org/?source=legacy",
+                "kovcareeragency.org",
+                "/index.html?source=legacy",
+            ),
+        )
+        for location, host, path in redirects:
+            with self.subTest(host=host, path=path):
+                response = self.client.get(
+                    path,
+                    headers={"host": host},
+                    follow_redirects=False,
+                )
+                self.assertEqual(response.status_code, 308)
+                self.assertEqual(response.headers["location"], location)
+
+        canonical_homepage = self.client.get(
+            "/",
+            headers={"host": "www.kovcareeragency.org"},
+            follow_redirects=False,
+        )
+        self.assertEqual(canonical_homepage.status_code, 200)
+
     def test_missing_public_pages_show_the_custom_404_page(self) -> None:
         for path in ("/this-page-does-not-exist.html", "/missing-page.css"):
             with self.subTest(path=path):
@@ -902,6 +938,7 @@ class BackendApiTests(unittest.TestCase):
         service.rpc.return_value.execute.return_value = SimpleNamespace(
             data={"accepted": True}
         )
+        resend_response = Mock()
         payload = {
             "first_name": "  Dana ",
             "last_name": "Ade",
@@ -911,11 +948,16 @@ class BackendApiTests(unittest.TestCase):
             "target_role": "VP Product",
             "salary_range": "$220k-$280k",
             "linkedin_url": "https://www.linkedin.com/in/dana",
-            "message": "Please contact me.",
+            "message": "<script>alert('test')</script> Please contact me.",
         }
         with (
-            patch.dict("os.environ", {"SUPABASE_SERVICE_ROLE_KEY": "test-service-key"}),
+            patch.dict("os.environ", {
+                "SUPABASE_SERVICE_ROLE_KEY": "test-service-key",
+                "RESEND_API_KEY": "test-resend-key",
+                "RESEND_FROM_EMAIL": "KOV Career Agency <contact@example.com>",
+            }),
             patch.object(backend_api, "_service_client", return_value=service),
+            patch.object(backend_api.httpx, "post", return_value=resend_response) as send_email,
         ):
             response = self.client.post(
                 "/api/contact",
@@ -933,6 +975,83 @@ class BackendApiTests(unittest.TestCase):
         self.assertEqual(arguments["p_target_role"], "VP Product")
         self.assertRegex(arguments["p_requester_hash"], r"^[a-f0-9]{64}$")
         self.assertNotIn("203.0.113.25", arguments["p_requester_hash"])
+        send_email.assert_called_once()
+        self.assertEqual(
+            send_email.call_args.args[0],
+            "https://api.resend.com/emails",
+        )
+        email_request = send_email.call_args.kwargs
+        self.assertEqual(email_request["headers"]["Authorization"], "Bearer test-resend-key")
+        self.assertEqual(email_request["json"]["from"], "KOV Career Agency <contact@example.com>")
+        self.assertEqual(email_request["json"]["to"], ["daniel@kovcareeragency.org"])
+        self.assertEqual(email_request["json"]["reply_to"], "dana@example.com")
+        self.assertIn("Dana Ade", email_request["json"]["subject"])
+        self.assertIn("Please contact me.", email_request["json"]["text"])
+        self.assertIn(
+            "&lt;script&gt;alert(&#x27;test&#x27;)&lt;/script&gt;",
+            email_request["json"]["html"],
+        )
+        self.assertEqual(email_request["timeout"], 10.0)
+
+    def test_contact_form_reports_missing_email_configuration(self) -> None:
+        service = Mock()
+        with (
+            patch.dict("os.environ", {}, clear=True),
+            patch.object(backend_api, "_service_client", return_value=service),
+        ):
+            response = self.client.post(
+                "/api/contact",
+                headers={"x-real-ip": "203.0.113.25"},
+                json={
+                    "first_name": "Dana",
+                    "last_name": "Ade",
+                    "email": "dana@example.com",
+                    "audience": "Senior Professional",
+                    "target_role": "VP Product",
+                },
+            )
+
+        self.assertEqual(response.status_code, 503)
+        self.assertIn("email daniel@kovcareeragency.org", response.json()["detail"])
+        service.rpc.assert_not_called()
+
+    def test_contact_form_reports_email_provider_failure_after_saving_lead(self) -> None:
+        service = Mock()
+        service.rpc.return_value.execute.return_value = SimpleNamespace(
+            data={"accepted": True}
+        )
+        provider_response = backend_api.httpx.Response(
+            503,
+            request=backend_api.httpx.Request("POST", "https://api.resend.com/emails"),
+        )
+        with (
+            patch.dict("os.environ", {
+                "SUPABASE_SERVICE_ROLE_KEY": "test-service-key",
+                "RESEND_API_KEY": "test-resend-key",
+                "RESEND_FROM_EMAIL": "contact@example.com",
+            }),
+            patch.object(backend_api, "_service_client", return_value=service),
+            patch.object(
+                backend_api.httpx,
+                "post",
+                return_value=provider_response,
+            ),
+        ):
+            response = self.client.post(
+                "/api/contact",
+                headers={"x-real-ip": "203.0.113.25"},
+                json={
+                    "first_name": "Dana",
+                    "last_name": "Ade",
+                    "email": "dana@example.com",
+                    "audience": "Senior Professional",
+                    "target_role": "VP Product",
+                },
+            )
+
+        self.assertEqual(response.status_code, 502)
+        self.assertIn("inquiry was saved", response.json()["detail"])
+        service.rpc.assert_called_once()
 
     def test_contact_form_rejects_invalid_input_before_database_call(self) -> None:
         service = Mock()
@@ -960,7 +1079,11 @@ class BackendApiTests(unittest.TestCase):
             data={"accepted": False}
         )
         with (
-            patch.dict("os.environ", {"SUPABASE_SERVICE_ROLE_KEY": "test-service-key"}),
+            patch.dict("os.environ", {
+                "SUPABASE_SERVICE_ROLE_KEY": "test-service-key",
+                "RESEND_API_KEY": "test-resend-key",
+                "RESEND_FROM_EMAIL": "contact@example.com",
+            }),
             patch.object(backend_api, "_service_client", return_value=service),
         ):
             response = self.client.post(

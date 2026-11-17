@@ -1,4 +1,4 @@
-﻿(() => {
+(() => {
   if (window.kovFooterShellApplied) return;
   window.kovFooterShellApplied = true;
 
@@ -116,6 +116,22 @@
 
   function ensureSingleUniformFaq(footerElement) {
     const main = document.querySelector('main');
+    const isHomepage = window.location.pathname === '/' ||
+      window.location.pathname === '/index.html';
+    if (isHomepage) {
+      document.querySelectorAll('body > section.faq-compact-shell').forEach((section) => section.remove());
+      return;
+    }
+    const homepageRoot = document.querySelector('#kov-reference-home-root');
+    const homepageFaq = homepageRoot?.querySelector('.kov-reference-home__faq');
+    if (homepageRoot && homepageFaq) {
+      homepageFaq.id = 'faq';
+      normalizeFaqSection(homepageFaq);
+      [...document.querySelectorAll('body > section.faq-compact-shell')].forEach((section) => {
+        if (section !== homepageFaq) section.remove();
+      });
+      return;
+    }
     const faqSections = main ? getFaqSections(main) : [];
     if (!faqSections.length) {
       const faq = createDefaultFaqSection();
@@ -155,8 +171,19 @@
             <span class="text-[12px] font-medium uppercase tracking-[0.18em] text-ink">KOV Career Agency</span>
           </div>
           <p>
-            Private Career Representation and separate Individual Career Services for professionals.
+            Independent career representation and practical career services for experienced professionals navigating their next move.
           </p>
+          <a class="kov-footer-contact-cta" href="${resolveHref('contact.html')}">Start a confidential conversation <span aria-hidden="true">→</span></a>
+        </section>
+        <section>
+          <h2>Explore KOV</h2>
+          <ul>
+            <li><a href="${resolveHref('index.html')}">Home</a></li>
+            <li><a href="${resolveHref('about.html')}">About KOV</a></li>
+            <li><a href="${resolveHref('how-it-works.html')}">How It Works</a></li>
+            <li><a href="${resolveHref('industries.html')}">Industries</a></li>
+            <li><a href="${resolveHref('countries-we-serve.html')}">Markets and Geography</a></li>
+          </ul>
         </section>
         <section>
           <h2>For Professionals</h2>
@@ -165,6 +192,10 @@
             <li><a href="${resolveHref('services.html')}">Private Career Representation</a></li>
             <li><a href="${resolveHref('how-it-works.html')}">How It Works</a></li>
             <li><a href="${resolveHref('pricing.html')}">Pricing</a></li>
+            <li><a href="${resolveHref('roles.html')}">Roles and Leadership Directory</a></li>
+            <li><a href="${resolveHref('career-resources/professional_profile_directory-01/index.html')}">Professional Profile Directory</a></li>
+            <li><a href="${resolveHref('career-resources/research_hub-01/index.html')}">Research Library</a></li>
+            <li><a href="${resolveHref('career-resources/index.html')}">Career Resources</a></li>
           </ul>
         </section>
         <section>
@@ -174,6 +205,8 @@
             <li><a href="${resolveHref('contact.html')}">Contact KOV</a></li>
             <li><a href="${resolveHref('about.html')}">Daniel Ade, Founder</a></li>
             <li><a href="${resolveHref('privacy.html')}">Privacy Notice</a></li>
+            <li><a href="${resolveHref('faqs.html')}">FAQs</a></li>
+            <li><a href="${resolveHref('blog.html')}">Insights and Updates</a></li>
             <li><a class="kov-footer-social-link" href="https://share.google/oXBoRb6jQ7X19OgyP" target="_blank" rel="noopener noreferrer"><svg class="kov-footer-social-icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path fill="#4285F4" d="M43.6 24.5c0-1.4-.1-2.7-.4-4H24v7.6h11c-.5 2.5-2 4.6-4.3 6v5h7c4.1-3.8 6.5-9.3 6.5-14.6z"/><path fill="#34A853" d="M24 44c5.5 0 10.1-1.8 13.5-4.9l-7-5c-1.9 1.3-4 2-6.5 2-5 0-9.2-3.4-10.7-8H6v5.1C9.4 39.6 16.1 44 24 44z"/><path fill="#FBBC05" d="M13.3 28.1a12 12 0 0 1 0-8.2v-5.1H6a20 20 0 0 0 0 18.4z"/><path fill="#EA4335" d="M24 12c3 0 5.7 1 7.8 3.1l5.8-5.8C34.1 6 29.5 4 24 4 16.1 4 9.4 8.4 6 14.8l7.3 5.1C14.8 15.4 19 12 24 12z"/></svg><span>Google Business Profile</span></a></li>
             <li><a class="kov-footer-social-link" href="https://x.com/kovcareeragency" target="_blank" rel="noopener noreferrer" aria-label="KOV Career Agency on X"><svg class="kov-footer-social-icon kov-footer-social-icon-x" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.9 1.2h3.7l-8 9.2L24 22.9h-7.4l-5.8-7.6-6.6 7.6H.5l8.6-9.8L0 1.2h7.6l5.2 6.9zm-1.3 19.5h2L6.5 3.2H4.3z"/></svg><span>X</span></a></li>
           </ul>
@@ -215,7 +248,7 @@
   existingFooters.forEach((node) => node.remove());
   document.body.appendChild(footer);
   if (existingTranslateWidget) {
-    footer.querySelector('[data-kov-footer-legal-row]').append(existingTranslateWidget);
+    document.querySelector('[data-kov-language-slot]')?.append(existingTranslateWidget);
   }
   document.querySelectorAll('.ceo-sticky-cta').forEach((button) => button.remove());
   ensureSingleUniformFaq(footer);
@@ -248,25 +281,6 @@
       submitButton.disabled = false;
     }
   });
-
-  const placeTranslateWidget = () => {
-    const widget = document.getElementById('kov-translate-widget');
-    const legalRow = footer.querySelector('[data-kov-footer-legal-row]');
-    if (!widget || !legalRow) return false;
-    if (!legalRow.contains(widget)) legalRow.append(widget);
-    return true;
-  };
-
-  if (!placeTranslateWidget()) {
-    const observer = new MutationObserver(() => {
-      if (placeTranslateWidget()) {
-        observer.disconnect();
-        window.clearTimeout(observerTimeout);
-      }
-    });
-    const observerTimeout = window.setTimeout(() => observer.disconnect(), 15000);
-    observer.observe(document.body, { childList: true, subtree: true });
-  }
 
   if (!document.querySelector('script[src*="assets/google-translate.js"]')) {
     const translateScript = document.createElement('script');

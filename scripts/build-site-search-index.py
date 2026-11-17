@@ -13,11 +13,14 @@ CONTENT_OUTPUT = ROOT / "assets" / "site-search-content.js"
 SKIPPED_TAGS = {"script", "style", "noscript", "template", "svg"}
 VOID_TAGS = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"}
 SEO_PAGE_GROUPS = {
+    "": "KOV services and information",
     "services": "Core services",
     "markets": "Geography and markets",
     "roles": "Seniority and roles",
     "resources": "Proof and next steps",
     "industries": "Industry directory",
+    "career-resources": "Career resources",
+    "faq": "Frequently asked questions",
 }
 
 
@@ -85,6 +88,47 @@ def local_page(location):
     return path if path.endswith(".html") else f"{path}.html"
 
 
+def is_search_eligible(html_source, page_name):
+    normalized_name = str(page_name or "").replace("\\", "/").lower()
+    if normalized_name.startswith(("staging/", "drafts/", "development/")):
+        return False
+
+    if "/index.html" in normalized_name and "staging" in normalized_name.split("/"):
+        return False
+
+    if re.search(r"(?:^|/)(?:staging|drafts)(?:/|$)", normalized_name):
+        return False
+
+    meta_patterns = (
+        r'<meta\b[^>]*name=["\']robots["\'][^>]*content=["\'][^"\']*\bnoindex\b[^"\']*["\'][^>]*>',
+        r'<meta\b[^>]*content=["\'][^"\']*\bnoindex\b[^"\']*["\'][^>]*name=["\']robots["\'][^>]*>',
+        r'<meta\b[^>]*name=["\']googlebot["\'][^>]*content=["\'][^"\']*\bnoindex\b[^"\']*["\'][^>]*>',
+        r'<meta\b[^>]*content=["\'][^"\']*\bnoindex\b[^"\']*["\'][^>]*name=["\']googlebot["\'][^>]*>',
+    )
+    if any(re.search(pattern, html_source, flags=re.IGNORECASE | re.DOTALL) for pattern in meta_patterns):
+        return False
+
+    if re.search(r'<meta\b[^>]*name=["\']robots["\'][^>]*content=["\'][^"\']*\bnoindex\b', html_source, flags=re.IGNORECASE):
+        return False
+
+    if re.search(r'<meta\b[^>]*name=["\']publication-status["\'][^>]*content=["\']unpublished["\']', html_source, flags=re.IGNORECASE):
+        return False
+
+    if re.search(r'<main\b[^>]*data-status=["\']draft["\']', html_source, flags=re.IGNORECASE):
+        return False
+    if re.search(r'<main\b[^>]*data-publication-status=["\']private["\']', html_source, flags=re.IGNORECASE):
+        return False
+    if re.search(r'<main\b[^>]*data-publication-status=["\']draft["\']', html_source, flags=re.IGNORECASE):
+        return False
+    if re.search(r'<meta\b[^>]*name=["\']publication-status["\'][^>]*content=["\']private["\']', html_source, flags=re.IGNORECASE):
+        return False
+
+    if re.search(r'<main\b[^>]*data-status=["\']draft["\']', html_source, flags=re.IGNORECASE):
+        return False
+
+    return True
+
+
 def build_index():
     sitemap = ET.parse(SITEMAP).getroot()
     namespace = {"site": "http://www.sitemaps.org/schemas/sitemap/0.9"}
@@ -97,6 +141,8 @@ def build_index():
         if not page_path.is_file():
             continue
         source = page_path.read_text(encoding="utf-8-sig")
+        if not is_search_eligible(source, page_name):
+            continue
         parser = VisibleTextParser()
         parser.feed(source)
         content[page_name] = f"{parser.description} {parser.text()}".strip()

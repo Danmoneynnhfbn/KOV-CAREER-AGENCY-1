@@ -13,8 +13,8 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Career Representation by Role | KOV Career Agency">
   <meta name="twitter:description" content="Explore KOV&#x27;s role-focused career representation, starting with the CEO guide and practical support for positioning, research, documents, outreach, and next steps.">
-  <link rel="stylesheet" href="/assets/design-components.css?v=3">
-  <link rel="stylesheet" href="/assets/ceo-hubs.css">
+  
+  
   <script type="application/ld+json" data-kov="discovery">{
   "@context": "https://schema.org",
   "@graph": [
@@ -82,7 +82,8 @@
         "Career development",
         "Executive career representation",
         "Professional positioning",
-        "Index"
+        "Index",
+        "Research"
       ]
     },
     {
@@ -186,7 +187,8 @@
       ],
       "email": "daniel@kovcareeragency.org",
       "sameAs": [
-        "https://www.reddit.com/user/KOV_CAREER_AGENCY/"
+        "https://www.reddit.com/user/KOV_CAREER_AGENCY/",
+        "https://x.com/KOVCAREERAGENCY"
       ],
       "description": "An independent career agency providing candidate-side career representation and individual career services.",
       "knowsAbout": [
@@ -219,51 +221,6 @@
       "jobTitle": "Founder and Principal Agent"
     },
     {
-      "@type": "Dataset",
-      "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#cities",
-      "name": "GeoNames administrative city and capital candidates",
-      "url": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#cities",
-      "isPartOf": {
-        "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#catalog"
-      }
-    },
-    {
-      "@type": "Dataset",
-      "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#towns",
-      "name": "GeoNames populated-place records (town candidates)",
-      "url": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#towns",
-      "isPartOf": {
-        "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#catalog"
-      }
-    },
-    {
-      "@type": "Dataset",
-      "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#professional-roles",
-      "name": "O*NET 31.0 job titles",
-      "url": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#professional-roles",
-      "isPartOf": {
-        "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#catalog"
-      }
-    },
-    {
-      "@type": "Dataset",
-      "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#institutions",
-      "name": "Wikidata institutions and organizations",
-      "url": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#institutions",
-      "isPartOf": {
-        "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#catalog"
-      }
-    },
-    {
-      "@type": "Dataset",
-      "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#job-functions",
-      "name": "O*NET 31.0 detailed work activities",
-      "url": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#job-functions",
-      "isPartOf": {
-        "@id": "https://www.kovcareeragency.org/data/seo-entity-datasets.jsonld#catalog"
-      }
-    },
-    {
       "@type": [
         "WebSite"
       ],
@@ -273,29 +230,7 @@
       "publisher": {
         "@id": "https://www.kovcareeragency.org/#organization"
       },
-      "hasPart": {
-        "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#catalog"
-      },
-      "mentions": [
-        {
-          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#countries"
-        },
-        {
-          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-titles"
-        },
-        {
-          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupations"
-        },
-        {
-          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#country-list"
-        },
-        {
-          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupation-list"
-        },
-        {
-          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-title-terms"
-        }
-      ]
+      "mentions": []
     },
     {
       "@type": [
@@ -357,13 +292,22 @@
     }
   ]
 }</script>
-<link rel="stylesheet" href="/css/design-system.css">
-<link rel="stylesheet" href="/css/theme-leeholmes.css">
-  <link rel="stylesheet" href="/assets/research-pages.css">
+
+
+  
 <meta name="robots" content="index,follow">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="KOV Career Agency">
-<link rel="stylesheet" href="/assets/site-fixes.css?v=28"></head>
+  
+  <script defer src="/assets/role-taxonomy.js"></script>
+<script defer src="/assets/esco-taxonomy.js"></script>
+<script defer src="/assets/esco-search.js"></script>
+<script defer src="/assets/kov-site-header.bundle.js?v=5" data-kov-react-navigation></script>
+<meta property="og:image" content="https://www.kovcareeragency.org/preview.png">
+<meta property="og:image:alt" content="KOV Career Agency">
+<meta name="twitter:image" content="https://www.kovcareeragency.org/preview.png">
+
+<link rel="stylesheet" href="/css/kov-global-redesign.css?v=29" data-kov-global-redesign></head>
 <body class="ceo-page kov-design--overview" data-design-group="overview" data-theme="leeholmes">
   <div class="ceo-progress" data-reading-progress aria-hidden="true"></div>
   <header class="ceo-site-header">
@@ -398,7 +342,11 @@
           </div>
         </div>
         <aside class="ceo-hero-panel">
-          <img class="ceo-hero-image" src="/assets/people/executive-professional.jpg" alt="" loading="eager" decoding="async">
+          <picture data-kov-responsive-image>
+  <source type="image/avif" srcset="/assets/people/executive-professional.avif">
+  <source type="image/webp" srcset="/assets/people/executive-professional.webp">
+  <img class="ceo-hero-image" src="/assets/people/executive-professional.jpg" alt="" loading="eager" decoding="async">
+</picture>
           <p class="ceo-label">A considered approach</p>
           <p>Define the role you want, clarify your evidence, and agree the work before any outreach begins.</p>
           <a href="/how-it-works.html">See how KOV works</a>
@@ -425,11 +373,81 @@
 <li>Set boundaries around location, working arrangements, confidentiality, and timing.</li>
 </ul>
 </section>
+<section class="ceo-content-section" id="skills-reference" aria-labelledby="skills-reference-title">
+  <h2 id="skills-reference-title">Search a professional skills reference</h2>
+  <p>Explore skills and alternative terms from the European Commission’s ESCO classification. ESCO is a reference vocabulary, not an assessment of an individual or a promise that a skill is required for a particular role.</p>
+  <div class="ceo-filter">
+    <label for="esco-search">Find a skill or alternative term</label>
+    <input id="esco-search" type="search" data-esco-search placeholder="Search ESCO skills and terms" autocomplete="off">
+    <span data-esco-count aria-live="polite">Loading ESCO records…</span>
+  </div>
+  <ul class="ceo-industry-list" data-esco-results aria-live="polite"></ul>
+  <p class="ceo-citation">Source: <a href="https://esco.ec.europa.eu/en/classification/skills" rel="noopener noreferrer">European Commission ESCO skills classification</a> and <a href="https://ec.europa.eu/esco/api/doc/esco_api_doc.html" rel="noopener noreferrer">ESCO API</a>.</p>
+</section>
         <aside class="ceo-mid-cta">
           <p class="ceo-label">Talk through the next step</p>
           <p>Discuss fit, priorities, and the support you are considering. Scope and terms are agreed before work begins.</p>
           <a class="ceo-button ceo-button-primary" href="/contact.html">Arrange a consultation</a>
         </aside>
+
+        <section class="ceo-content-section" id="taxonomy-overview">
+          <h2>Source-backed role and occupation coverage</h2>
+          <p class="ceo-answer">KOV’s expanded taxonomy includes a large role and occupation library used to clarify title variance, responsibilities, and search alignment across markets.</p>
+          <div class="ceo-taxonomy-stats">
+            <div class="ceo-card">
+              <p>Job titles</p>
+              <p id="taxonomy-job-count">0</p>
+            </div>
+            <div class="ceo-card">
+              <p>Occupations</p>
+              <p id="taxonomy-occupation-count">0</p>
+            </div>
+            <div class="ceo-card">
+              <p>Source status</p>
+              <p>Verified in project data</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3>Representative job titles</h3>
+              <ul id="taxonomy-job-examples"></ul>
+            </div>
+            <div>
+              <h3>Representative occupations</h3>
+              <ul id="taxonomy-occupation-examples"></ul>
+            </div>
+          </div>
+        </section>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const taxonomy = window.kovRoleTaxonomy || { metadata: { jobTitleCount: 0, occupationCount: 0 }, jobTitles: [], occupations: [] };
+        const jobCount = document.getElementById('taxonomy-job-count');
+        const occupationCount = document.getElementById('taxonomy-occupation-count');
+        const jobExamples = document.getElementById('taxonomy-job-examples');
+        const occupationExamples = document.getElementById('taxonomy-occupation-examples');
+
+        const jobTitles = Array.isArray(taxonomy.jobTitles) ? taxonomy.jobTitles : [];
+        const occupations = Array.isArray(taxonomy.occupations) ? taxonomy.occupations : [];
+
+        if (jobCount) jobCount.textContent = new Intl.NumberFormat('en-US').format(taxonomy.metadata?.jobTitleCount ?? jobTitles.length);
+        if (occupationCount) occupationCount.textContent = new Intl.NumberFormat('en-US').format(taxonomy.metadata?.occupationCount ?? occupations.length);
+
+        const listItems = (items, target) => {
+          if (!target) return;
+          target.innerHTML = '';
+          const sample = items.slice(0, 8);
+          sample.forEach((item) => {
+            const li = document.createElement('li');
+            li.textContent = item;
+            target.appendChild(li);
+          });
+        };
+
+        listItems(jobTitles, jobExamples);
+        listItems(occupations, occupationExamples);
+      });
+    </script>
     
 <section class="ceo-content-section" id="role-guides">
 <h2>Explore the current role guide</h2>
@@ -835,9 +853,10 @@
     </div>
   </footer>
   <a class="ceo-button ceo-button-primary ceo-sticky-cta" href="/contact.html">Confidential consultation</a>
-  <script src="/assets/design-components.js?v=5" defer></script>
+  <script src="/assets/design-components.js?v=6" defer></script>
   <script src="/assets/ceo-hubs.js" defer></script>
 <script src="/js/site.js" defer></script>
-<script src="../assets/uniform-footer.js?v=10"></script>
-</body>
+<script src="../assets/uniform-footer.js?v=111111111"></script>
+<script defer src="/assets/kov-redesign.js?v=2"></script>
+<script defer src="/assets/kov-global-interactions.js?v=10" data-kov-global-interactions></script></body>
 </html>

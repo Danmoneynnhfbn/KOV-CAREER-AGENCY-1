@@ -87,15 +87,8 @@
   if (submitButton) submitButton.textContent = "Send Career Services Inquiry";
   const formNote = form.querySelector("p.text-center");
   if (formNote) {
-    formNote.textContent = "Submitting sends your inquiry to KOV through the existing contact service. If online submission is unavailable, an email fallback is offered. You do not need to attach a CV or share confidential information for an initial inquiry.";
+    formNote.textContent = "Submitting opens your email app with your inquiry addressed directly to daniel@kovcareeragency.org. You do not need to attach a CV or share confidential information for an initial inquiry.";
   }
-
-  const status = document.createElement("p");
-  status.className = "text-sm text-ink-soft";
-  status.setAttribute("aria-live", "polite");
-  status.setAttribute("role", "status");
-  status.hidden = true;
-  form.append(status);
 
   const field = (name) => String(new FormData(form).get(name) || "").trim();
   const serviceLabels = new Map([
@@ -109,13 +102,8 @@
     ["representation", "Private Career Representation"],
     ["unsure", "Not sure yet"],
   ]);
-  const inquiryMessage = () => {
-    const selected = serviceLabels.get(field("ServiceInterest"));
-    return [selected ? `Service of interest: ${selected}` : "", field("Message")]
-      .filter(Boolean)
-      .join("\n\n") || null;
-  };
-  const mailtoFallback = () => {
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
     const body = [
       `First name: ${field("FirstName")}`,
       `Last name: ${field("LastName")}`,
@@ -124,50 +112,6 @@
       `Service of interest: ${serviceLabels.get(field("ServiceInterest")) || "Not specified"}`,
       field("Message"),
     ].filter(Boolean).join("\n");
-    const link = document.createElement("a");
-    link.href = `mailto:daniel@kovcareeragency.org?subject=${encodeURIComponent("Contact Inquiry")}&body=${encodeURIComponent(body)}`;
-    link.textContent = "Email your inquiry instead.";
-    link.className = "underline";
-    return link;
-  };
-
-  form.addEventListener("submit", async (event) => {
-    event.preventDefault();
-    status.replaceChildren();
-    status.hidden = false;
-    status.textContent = "Sending your inquiry…";
-
-    const payload = {
-      first_name: field("FirstName"),
-      last_name: field("LastName"),
-      email: field("Email"),
-      audience: field("Audience"),
-      target_role: field("TargetRole") || "Not specified yet",
-      message: inquiryMessage(),
-      company_name: field("CompanyName") || null,
-      location_market: field("LocationMarket") || null,
-      target_seniority: field("TargetSeniority") || null,
-      timeline: field("Timeline") || null,
-    };
-
-    try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
-      });
-      const result = await response.json();
-      if (!response.ok) {
-        throw new Error(result.detail || "Your inquiry could not be sent.");
-      }
-      status.textContent = "Thank you. Your inquiry has been received.";
-      form.reset();
-      document.getElementById("inquiry-audience")?.dispatchEvent(new Event("change"));
-    } catch (error) {
-      status.textContent = error instanceof Error
-        ? `${error.message} `
-        : "Your inquiry could not be sent. ";
-      status.append(mailtoFallback());
-    }
+    window.location.href = `mailto:daniel@kovcareeragency.org?subject=${encodeURIComponent("Contact Inquiry")}&body=${encodeURIComponent(body)}`;
   });
 })();

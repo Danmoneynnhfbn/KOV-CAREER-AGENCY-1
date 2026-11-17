@@ -1,0 +1,553 @@
+/* Homepage art direction for the React-rendered showcase and its static fallback. */
+body.kov-homepage { --kov-home-blue:#2f6582; --kov-home-green:#e5efe6; --kov-display:var(--kov-serif); color:var(--kov-ink); background:#fff; }
+body.kov-homepage .min-h-screen { overflow:clip; background:#fff; }
+body.kov-homepage main { width:100%; }
+body.kov-homepage #kov-reference-home-root { width:100%; margin:0; }
+body.kov-homepage .kov-reference-home { width:min(100%,90rem); margin-inline:auto; padding-inline:clamp(1.1rem,5vw,5.2rem); }
+
+body.kov-homepage .kov-reference-home__hero,
+body.kov-homepage main > section.kov-home-hero {
+  position:relative; display:grid; grid-template-columns:minmax(0,1.08fr) minmax(20rem,.92fr); grid-template-rows:minmax(0,1fr); align-items:center;
+  gap:clamp(2.5rem,7vw,7.5rem); min-height:min(48rem,calc(100svh - 5rem)); padding:clamp(4rem,7vw,7rem) clamp(.5rem,2vw,1.8rem); border-bottom:1px solid #e4ebea; background:#fff;
+}
+body.kov-homepage .kov-reference-home__hero-copy,
+body.kov-homepage main > section.kov-home-hero > .max-w-7xl > div:first-child { grid-column:1; grid-row:1; z-index:2; min-width:0; max-width:53rem; }
+body.kov-homepage .kov-reference-home__eyebrow,
+body.kov-homepage main > section.kov-home-hero > .max-w-7xl > div:first-child > p:first-child { margin:0; color:var(--kov-home-blue); font-size:.68rem; font-weight:750; letter-spacing:.18em; line-height:1.55; text-transform:uppercase; }
+body.kov-homepage .kov-reference-home__hero h1,
+body.kov-homepage main > section.kov-home-hero h1 { max-width:13ch; margin:1.6rem 0 0; color:var(--kov-ink); font-family:var(--kov-display); font-size:clamp(3.8rem,7.2vw,7.2rem); font-style:normal; font-weight:500; letter-spacing:-.065em; line-height:.94; text-wrap:balance; }
+body.kov-homepage .kov-reference-home__hero h1 span,
+body.kov-homepage main > section.kov-home-hero h1 > span:last-child { color:var(--kov-home-blue); }
+body.kov-homepage .kov-reference-home__hero-copy > p:nth-of-type(2),
+body.kov-homepage main > section.kov-home-hero > .max-w-7xl > div:first-child > p:nth-of-type(2) { max-width:39rem; margin:1.65rem 0 0; color:#526970; font-size:clamp(1rem,1.3vw,1.14rem); line-height:1.78; }
+body.kov-homepage .kov-reference-home__founder,
+body.kov-homepage main > section.kov-home-hero picture[data-kov-responsive-image] { grid-column:2; grid-row:1; align-self:stretch; width:100%; max-width:34rem; min-width:0; aspect-ratio:4/5; margin:0 0 0 auto; overflow:hidden; border:1px solid #dfe7e4; background:#edf2ef; box-shadow:1.1rem 1.1rem 0 var(--kov-home-green); }
+body.kov-homepage .kov-reference-home__founder img,
+body.kov-homepage main > section.kov-home-hero picture[data-kov-responsive-image] img { display:block; width:100%; height:100%; object-fit:cover; object-position:52% 35%; }
+body.kov-homepage .kov-reference-home__hero-note,
+body.kov-homepage main > section.kov-home-hero > .max-w-7xl > div:last-child > div > div:last-child { grid-column:2; grid-row:1; z-index:3; align-self:end; justify-self:start; width:max-content; max-width:min(17rem,80%); margin:0 0 1.4rem -2.1rem; border-left:3px solid var(--kov-orange); padding:1rem 1.25rem; background:#fff; box-shadow:0 .75rem 2rem rgb(23 49 59 / 10%); color:var(--kov-ink); }
+body.kov-homepage .kov-reference-home__hero-note > span:first-child { display:block; font-family:var(--kov-display); font-size:1.15rem; }
+body.kov-homepage .kov-reference-home__hero-note small { display:block; margin-top:.18rem; color:var(--kov-ink-soft); font-size:.73rem; }
+body.kov-homepage .kov-reference-home__hero-note > span[aria-hidden="true"] { display:none; }
+body.kov-homepage .kov-reference-home__hero-actions,
+body.kov-homepage main > section.kov-home-hero .max-w-7xl > div:first-child > div:last-child { display:flex; flex-wrap:wrap; align-items:center; gap:.65rem 1.1rem; margin-top:1.25rem; }
+body.kov-homepage .kov-reference-home__primary-button,
+body.kov-homepage main > section.kov-home-hero a.group { display:inline-flex; align-items:center; justify-content:center; min-height:3.25rem; border:1px solid var(--kov-home-blue); border-radius:.3rem; padding:.8rem 1.05rem; background:var(--kov-home-blue); color:#fff; font-size:.71rem; font-weight:700; letter-spacing:.07em; text-decoration:none; text-transform:uppercase; transition:background .18s,border-color .18s,transform .18s; }
+body.kov-homepage .kov-reference-home__primary-button:hover,
+body.kov-homepage main > section.kov-home-hero a.group:hover { transform:translateY(-2px); background:#214e68; }
+body.kov-homepage .kov-reference-home__secondary-button,
+body.kov-homepage main > section.kov-home-hero .hero-interlink-outline { display:inline-flex; align-items:center; min-height:3.1rem; border-bottom:1px solid #9fb4b7; color:var(--kov-ink); font-size:.78rem; font-weight:650; text-decoration:none; }
+body.kov-homepage .kov-reference-home__secondary-button:hover { color:var(--kov-home-blue); border-color:var(--kov-home-blue); }
+
+body.kov-homepage .kov-home-search { display:flex; gap:.45rem; width:min(100%,43rem); min-height:4.2rem; margin:1.55rem 0 0; padding:.35rem; border:1px solid #cbd9da; border-radius:.38rem; background:#fff; box-shadow:0 .65rem 2rem rgb(23 49 59 / 8%); transition:border-color .2s,box-shadow .2s; }
+body.kov-homepage .kov-home-search:focus-within { border-color:var(--kov-home-blue); box-shadow:0 0 0 3px rgb(47 101 130 / 12%),0 .8rem 2.3rem rgb(23 49 59 / 8%); }
+body.kov-homepage .kov-home-search input { flex:1 1 auto; min-width:0; border:0; padding:.85rem 1rem; background:transparent; color:var(--kov-ink); font-size:.96rem; }
+body.kov-homepage .kov-home-search input:focus { outline:0; }
+body.kov-homepage .kov-home-search input::placeholder { color:#667a7f; opacity:1; }
+body.kov-homepage .kov-home-search button { display:grid; place-items:center; min-width:7rem; border:0; border-radius:.25rem; padding:.7rem 1rem; background:var(--kov-home-blue); color:white; cursor:pointer; font-size:.73rem; font-weight:700; }
+body.kov-homepage .kov-home-search button:hover { background:#214e68; }
+body.kov-homepage .kov-home-search-note { margin:.58rem 0 0 !important; color:#65777c; font-size:.74rem; }
+
+body.kov-homepage .kov-reference-home__metrics { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); border-bottom:1px solid #e2eae8; padding:1.6rem 0; }
+body.kov-homepage .kov-reference-home__metric { display:flex; align-items:center; gap:.8rem; min-width:0; padding:.5rem clamp(.5rem,1.5vw,1.4rem); border-right:1px solid #e3eae8; }
+body.kov-homepage .kov-reference-home__metric:first-child { padding-left:0; }
+body.kov-homepage .kov-reference-home__metric:last-child { border-right:0; }
+body.kov-homepage .kov-reference-home__metric-icon { flex:0 0 1.5rem; width:1.5rem; color:var(--kov-home-blue); }
+body.kov-homepage .kov-reference-home__metric p { display:grid; gap:.15rem; margin:0; }
+body.kov-homepage .kov-reference-home__metric strong { color:var(--kov-ink); font-family:var(--kov-display); font-size:1.14rem; font-weight:600; line-height:1.2; }
+body.kov-homepage .kov-reference-home__metric p span { color:var(--kov-ink-soft); font-size:.74rem; line-height:1.4; }
+
+body.kov-homepage .kov-reference-home__discover,
+body.kov-homepage .kov-reference-home__service-pathways,
+body.kov-homepage .kov-reference-home__promos,
+body.kov-homepage .kov-reference-home__advantage,
+body.kov-homepage .kov-reference-home__founder-story,
+body.kov-homepage .kov-reference-home__method,
+body.kov-homepage .kov-reference-home__search-intelligence,
+body.kov-homepage .kov-reference-home__career-questions,
+body.kov-homepage .kov-reference-home__fees,
+body.kov-homepage .kov-reference-home__faq { padding-block:clamp(4rem,8vw,7.2rem); }
+body.kov-homepage .kov-reference-home__section-heading { display:flex; align-items:end; justify-content:space-between; gap:2rem; margin-bottom:2.3rem; }
+body.kov-homepage .kov-reference-home__section-heading > span,
+body.kov-homepage .kov-reference-home__section-heading--left > span,
+body.kov-homepage .kov-reference-home__founder-story > div > span,
+body.kov-homepage .kov-reference-home__search-intelligence > div > span { color:var(--kov-home-blue); font-size:.68rem; font-weight:750; letter-spacing:.16em; text-transform:uppercase; }
+body.kov-homepage .kov-reference-home__section-heading h2,
+body.kov-homepage .kov-reference-home__founder-story h2,
+body.kov-homepage .kov-reference-home__method h2,
+body.kov-homepage .kov-reference-home__search-intelligence h2,
+body.kov-homepage .kov-reference-home__faq h2,
+body.kov-homepage .kov-reference-home__promos h2 { max-width:16ch; margin:.45rem 0 0; color:var(--kov-ink); font-family:var(--kov-display); font-size:clamp(2.5rem,5vw,4.7rem); font-style:normal; font-weight:500; letter-spacing:-.05em; line-height:1; }
+body.kov-homepage .kov-reference-home__section-heading > p { max-width:31rem; margin:0; color:var(--kov-ink-soft); font-size:.95rem; line-height:1.75; }
+body.kov-homepage .kov-reference-home__cards { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:1rem; }
+body.kov-homepage .kov-reference-home__card { position:relative; grid-column:span 2; display:flex; flex-direction:column; min-width:0; overflow:hidden; border:1px solid #dfe8e5; background:#fff; color:var(--kov-ink); text-decoration:none; transition:transform .22s,border-color .22s,box-shadow .22s; }
+body.kov-homepage .kov-reference-home__card:nth-child(-n+2) { grid-column:span 3; }
+body.kov-homepage .kov-reference-home__card:hover { transform:translateY(-3px); border-color:#b9cbc5; box-shadow:0 .9rem 2rem rgb(23 49 59 / 7%); }
+body.kov-homepage .kov-reference-home__card picture { display:block; height:clamp(9rem,18vw,15rem); overflow:hidden; background:#edf2ef; }
+body.kov-homepage .kov-reference-home__card picture img { display:block; width:100%; height:100%; object-fit:cover; filter:saturate(.72); transition:transform .5s,filter .3s; }
+body.kov-homepage .kov-reference-home__card:hover picture img { transform:scale(1.025); filter:saturate(.95); }
+body.kov-homepage .kov-reference-home__card-copy { display:grid; gap:.4rem; padding:1.15rem 1.2rem 1.35rem; }
+body.kov-homepage .kov-reference-home__card-copy strong { font-family:var(--kov-display); font-size:1.35rem; font-weight:600; }
+body.kov-homepage .kov-reference-home__card-copy > span { color:var(--kov-ink-soft); font-size:.83rem; line-height:1.55; }
+body.kov-homepage .kov-reference-home__card-arrow { position:absolute; right:1.1rem; bottom:1.15rem; color:var(--kov-home-blue); font-size:1.1rem; }
+
+body.kov-homepage .kov-reference-home__promos { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
+body.kov-homepage .kov-reference-home__promos article { position:relative; display:flex; min-height:23rem; align-items:flex-end; overflow:hidden; border:1px solid #dbe5e3; background:#edf2ef; }
+body.kov-homepage .kov-reference-home__promos article > picture { position:absolute; inset:0; }
+body.kov-homepage .kov-reference-home__promos article > picture img { width:100%; height:100%; object-fit:cover; }
+body.kov-homepage .kov-reference-home__map-card > div,
+body.kov-homepage .kov-reference-home__research-copy > div { position:relative; z-index:1; max-width:min(88%,28rem); margin:1rem; padding:1.3rem 1.5rem; border-left:3px solid var(--kov-orange); background:rgb(255 255 255 / 94%); }
+body.kov-homepage .kov-reference-home__promos h2 { font-size:clamp(2rem,3.4vw,3rem); }
+body.kov-homepage .kov-reference-home__promos p { color:var(--kov-ink-soft); font-size:.85rem; line-height:1.65; }
+body.kov-homepage .kov-reference-home__promos a,
+body.kov-homepage .kov-reference-home__founder-story a { color:var(--kov-home-blue); font-size:.75rem; font-weight:750; letter-spacing:.07em; text-decoration:none; text-transform:uppercase; }
+
+body.kov-homepage .kov-reference-home__advantage { margin-inline:calc(-1 * clamp(1.1rem,5vw,5.2rem)); padding-inline:clamp(1.1rem,5vw,5.2rem); background:#f3f7f3; }
+body.kov-homepage .kov-reference-home__advantage .kov-reference-home__section-heading--left { display:grid; grid-template-columns:minmax(0,1fr) minmax(16rem,.7fr); align-items:end; gap:1rem 3rem; }
+body.kov-homepage .kov-reference-home__section-heading--left > span { grid-column:1/-1; }
+body.kov-homepage .kov-reference-home__advantage-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; margin-top:2.3rem; }
+body.kov-homepage .kov-reference-home__advantage-grid article { position:relative; display:flex; flex-direction:column; min-height:17rem; padding:1.5rem; border:1px solid #dce7df; border-top:2px solid #a6c5aa; background:white; }
+body.kov-homepage .kov-reference-home__advantage-grid article > span { color:#789781; font-family:var(--kov-display); font-size:2rem; }
+body.kov-homepage .kov-reference-home__advantage-grid h3 { margin:.8rem 0 0; font-size:1.45rem; font-weight:600; }
+body.kov-homepage .kov-reference-home__advantage-grid p { color:var(--kov-ink-soft); font-size:.86rem; line-height:1.65; }
+body.kov-homepage .kov-reference-home__advantage-grid a { margin-top:auto; color:var(--kov-home-blue); font-size:.75rem; font-weight:700; text-decoration:none; }
+
+body.kov-homepage .kov-reference-home__founder-story { display:grid; grid-template-columns:minmax(17rem,.78fr) minmax(0,1.22fr); align-items:center; gap:clamp(2rem,6vw,6rem); }
+body.kov-homepage .kov-reference-home__founder-story picture { display:block; aspect-ratio:4/5; max-height:36rem; overflow:hidden; background:#edf2ef; box-shadow:1rem 1rem 0 #eaf2f5; }
+body.kov-homepage .kov-reference-home__founder-story picture img { width:100%; height:100%; object-fit:cover; object-position:50% 35%; }
+body.kov-homepage .kov-reference-home__founder-story h2 { max-width:15ch; }
+body.kov-homepage .kov-reference-home__founder-story p { max-width:41rem; margin-block:1.2rem 1.5rem; color:var(--kov-ink-soft); line-height:1.8; }
+
+body.kov-homepage .kov-reference-home__method { display:grid; grid-template-columns:minmax(15rem,.8fr) minmax(0,1.2fr); gap:clamp(2rem,6vw,6rem); border-block:1px solid #e3ebe8; }
+body.kov-homepage .kov-reference-home__method .kov-reference-home__section-heading--left { display:block; }
+body.kov-homepage .kov-reference-home__method .kov-reference-home__section-heading--left > p { margin-top:1.1rem; }
+body.kov-homepage .kov-reference-home__method-list { margin:0; padding:0; list-style:none; }
+body.kov-homepage .kov-reference-home__method-list li { display:grid; grid-template-columns:3.2rem minmax(0,1fr); gap:1rem; padding:1.05rem 0; border-bottom:1px solid #dce5e4; }
+body.kov-homepage .kov-reference-home__method-list li:first-child { border-top:1px solid #dce5e4; }
+body.kov-homepage .kov-reference-home__method-list li > span { color:var(--kov-home-blue); font-family:var(--kov-display); font-size:1.5rem; }
+body.kov-homepage .kov-reference-home__method-list h3 { margin:0; font-size:1.1rem; font-weight:650; }
+body.kov-homepage .kov-reference-home__method-list p { margin:.2rem 0 0; color:var(--kov-ink-soft); font-size:.83rem; line-height:1.55; }
+
+body.kov-homepage .kov-reference-home__search-intelligence { display:grid; grid-template-columns:1.2fr .9fr .9fr; gap:1.5rem; align-items:start; border-bottom:1px solid #e3ebe8; }
+body.kov-homepage .kov-reference-home__search-intelligence h2 { max-width:12ch; }
+body.kov-homepage .kov-reference-home__search-intelligence > div > p,
+body.kov-homepage .kov-reference-home__search-intelligence article p { color:var(--kov-ink-soft); font-size:.86rem; line-height:1.75; }
+body.kov-homepage .kov-reference-home__search-intelligence article { border-top:2px solid #afc9b2; padding-top:1rem; }
+body.kov-homepage .kov-reference-home__search-intelligence article h3 { font-size:1.25rem; font-weight:650; }
+body.kov-homepage .kov-reference-home__faq { display:grid; grid-template-columns:.8fr 1.2fr; gap:clamp(2rem,7vw,7rem); }
+body.kov-homepage .kov-reference-home__faq-list details { border-bottom:1px solid #dce5e4; }
+body.kov-homepage .kov-reference-home__faq-list details:first-child { border-top:1px solid #dce5e4; }
+body.kov-homepage .kov-reference-home__faq-list summary { padding:1.15rem 2rem 1.15rem 0; color:var(--kov-ink); cursor:pointer; font-size:.95rem; font-weight:650; }
+body.kov-homepage .kov-reference-home__faq-list details p { max-width:60ch; color:var(--kov-ink-soft); font-size:.87rem; line-height:1.7; }
+body.kov-homepage .kov-reference-home__service-pathways { border-bottom:1px solid #e3eae8; }
+body.kov-homepage .kov-reference-home__service-intro,
+body.kov-homepage .kov-reference-home__career-questions-heading { width:min(100%,45rem); margin:0 auto clamp(2rem,4vw,3.5rem); text-align:center; }
+body.kov-homepage .kov-reference-home__service-intro > span,
+body.kov-homepage .kov-reference-home__career-questions-heading > span,
+body.kov-homepage .kov-reference-home__fees > div > span { color:#4d7865; font-size:.68rem; font-weight:750; letter-spacing:.16em; text-transform:uppercase; }
+body.kov-homepage .kov-reference-home__service-intro h2,
+body.kov-homepage .kov-reference-home__career-questions-heading h2,
+body.kov-homepage .kov-reference-home__fees h2 { max-width:17ch; margin:.65rem auto 0; color:var(--kov-ink); font:500 clamp(2.6rem,5vw,4.6rem)/.98 var(--kov-display); letter-spacing:-.05em; }
+body.kov-homepage .kov-reference-home__service-intro p { max-width:48ch; margin:1rem auto 0; color:var(--kov-ink-soft); line-height:1.7; }
+body.kov-homepage .kov-reference-home__service-options { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); width:min(100%,74rem); margin-inline:auto; border-top:1px solid #b6c9c0; border-bottom:1px solid #dce5e1; }
+body.kov-homepage .kov-reference-home__service-option { display:flex; flex-direction:column; min-height:17rem; padding:1.7rem clamp(1.2rem,3vw,3rem); }
+body.kov-homepage .kov-reference-home__service-option + .kov-reference-home__service-option { border-left:1px solid #dce5e1; }
+body.kov-homepage .kov-reference-home__service-option--primary { background:#f4f7f3; }
+body.kov-homepage .kov-reference-home__service-number { color:#688477; font-size:.63rem; font-weight:750; letter-spacing:.14em; }
+body.kov-homepage .kov-reference-home__service-option h3 { max-width:20ch; margin:1.5rem 0 .45rem; color:var(--kov-ink); font:500 clamp(1.6rem,2.5vw,2.35rem)/1.08 var(--kov-display); }
+body.kov-homepage .kov-reference-home__service-option p { max-width:48ch; margin:0; color:var(--kov-ink-soft); font-size:.9rem; line-height:1.7; }
+body.kov-homepage .kov-reference-home__service-option a,
+body.kov-homepage .kov-reference-home__fees a { display:inline-flex; align-items:center; gap:.7rem; width:max-content; max-width:100%; margin-top:auto; padding-top:1.5rem; color:#2f6582; font-size:.74rem; font-weight:750; letter-spacing:.06em; text-decoration:none; text-transform:uppercase; }
+body.kov-homepage .kov-reference-home__service-option a:hover,
+body.kov-homepage .kov-reference-home__fees a:hover { color:#b95127; }
+body.kov-homepage .kov-reference-home__career-questions { border-block:1px solid #e3eae8; }
+body.kov-homepage .kov-reference-home__career-question-list { width:min(100%,74rem); margin-inline:auto; border-top:1px solid #dce5e1; }
+body.kov-homepage .kov-reference-home__career-question-list article { display:grid; grid-template-columns:4rem minmax(0,1fr); gap:1.2rem; align-items:start; padding:1.45rem .5rem; border-bottom:1px solid #dce5e1; }
+body.kov-homepage .kov-reference-home__career-question-list article > span { color:#638271; font:500 1.35rem/1 var(--kov-display); }
+body.kov-homepage .kov-reference-home__career-question-list h3 { margin:0; color:var(--kov-ink); font:500 clamp(1.2rem,2vw,1.65rem)/1.2 var(--kov-display); }
+body.kov-homepage .kov-reference-home__career-question-list p { max-width:65ch; margin:.4rem 0 0; color:var(--kov-ink-soft); font-size:.88rem; line-height:1.65; }
+body.kov-homepage .kov-reference-home__fees { display:grid; grid-template-columns:minmax(0,1fr) minmax(16rem,.9fr) auto; align-items:center; gap:1.5rem clamp(1.5rem,4vw,4rem); border-bottom:1px solid #e3eae8; background:#f5f7f3; padding-inline:clamp(1.2rem,4vw,3.5rem); }
+body.kov-homepage .kov-reference-home__fees h2 { max-width:12ch; margin:.65rem 0 0; font-size:clamp(2.25rem,4vw,3.7rem); }
+body.kov-homepage .kov-reference-home__fees > p { max-width:43ch; margin:0; color:var(--kov-ink-soft); font-size:.9rem; line-height:1.7; }
+body.kov-homepage .kov-reference-home__fees a { margin:0; padding:.9rem 0; white-space:nowrap; }
+body.kov-homepage .kov-home-hero + .kov-visual-module { width:min(100%,86rem); margin:1rem auto 0; }
+
+@media (max-width:64rem) {
+  body.kov-homepage .kov-reference-home__hero,
+  body.kov-homepage main > section.kov-home-hero { gap:2rem; }
+  body.kov-homepage .kov-reference-home__hero h1,
+  body.kov-homepage main > section.kov-home-hero h1 { font-size:clamp(3.5rem,8vw,5.8rem); }
+}
+@media (max-width:48rem) {
+  body.kov-homepage .kov-reference-home { padding-inline:1.1rem; }
+  body.kov-homepage .kov-reference-home__hero,
+  body.kov-homepage main > section.kov-home-hero { grid-template-columns:minmax(0,1fr); grid-template-rows:auto auto; gap:2.35rem; min-height:0; padding:3.5rem .15rem 4rem; }
+  body.kov-homepage .kov-reference-home__hero-copy,
+  body.kov-homepage main > section.kov-home-hero > .max-w-7xl > div:first-child { grid-column:1; grid-row:1; }
+  body.kov-homepage .kov-reference-home__hero h1,
+  body.kov-homepage main > section.kov-home-hero h1 { max-width:12ch; margin-top:1.1rem; font-size:clamp(3.2rem,12.5vw,5rem); }
+  body.kov-homepage .kov-reference-home__hero-copy > p:not(.kov-reference-home__eyebrow),
+  body.kov-homepage main > section.kov-home-hero > .max-w-7xl > div:first-child > p:nth-of-type(2) { margin-top:1.25rem; font-size:1rem; }
+  body.kov-homepage .kov-reference-home__founder,
+  body.kov-homepage main > section.kov-home-hero picture[data-kov-responsive-image] { grid-column:1; grid-row:2; width:min(82%,25rem); min-height:0; margin:0 1rem 0 auto; }
+  body.kov-homepage .kov-reference-home__hero-note,
+  body.kov-homepage main > section.kov-home-hero > .max-w-7xl > div:last-child > div > div:last-child { grid-column:1; grid-row:2; align-self:end; justify-self:start; margin:0 0 1rem 0; max-width:min(15rem,75%); padding:.8rem 1rem; }
+  body.kov-homepage .kov-home-search { min-height:3.8rem; }
+  body.kov-homepage .kov-home-search button { min-width:5.4rem; padding-inline:.65rem; }
+  body.kov-homepage .kov-reference-home__hero-actions { gap:.4rem .9rem; }
+  body.kov-homepage .kov-reference-home__primary-button { min-height:3rem; }
+  body.kov-homepage .kov-reference-home__metrics { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  body.kov-homepage .kov-reference-home__metric { border-bottom:1px solid #e3eae8; padding:.8rem .3rem; }
+  body.kov-homepage .kov-reference-home__metric:nth-child(2) { border-right:0; }
+  body.kov-homepage .kov-reference-home__metric:nth-last-child(-n+2) { border-bottom:0; }
+  body.kov-homepage .kov-reference-home__metric:first-child { padding-left:.3rem; }
+  body.kov-homepage .kov-reference-home__section-heading,
+  body.kov-homepage .kov-reference-home__method,
+  body.kov-homepage .kov-reference-home__search-intelligence,
+  body.kov-homepage .kov-reference-home__fees,
+  body.kov-homepage .kov-reference-home__faq { grid-template-columns:minmax(0,1fr); gap:1.6rem; }
+  body.kov-homepage .kov-reference-home__section-heading { display:block; }
+  body.kov-homepage .kov-reference-home__section-heading > p { margin-top:.8rem; }
+  body.kov-homepage .kov-reference-home__cards { grid-template-columns:repeat(2,minmax(0,1fr)); gap:.7rem; }
+  body.kov-homepage .kov-reference-home__card,
+  body.kov-homepage .kov-reference-home__card:nth-child(-n+2) { grid-column:span 1; }
+  body.kov-homepage .kov-reference-home__card picture { height:9rem; }
+  body.kov-homepage .kov-reference-home__card-copy { padding:.85rem; }
+  body.kov-homepage .kov-reference-home__card-copy strong { font-size:1.08rem; }
+  body.kov-homepage .kov-reference-home__card-copy > span { font-size:.75rem; }
+  body.kov-homepage .kov-reference-home__card-arrow { right:.7rem; bottom:.75rem; }
+  body.kov-homepage .kov-reference-home__promos { grid-template-columns:minmax(0,1fr); }
+  body.kov-homepage .kov-reference-home__promos article { min-height:19rem; }
+  body.kov-homepage .kov-reference-home__advantage { margin-inline:-1.1rem; padding-inline:1.1rem; }
+  body.kov-homepage .kov-reference-home__advantage .kov-reference-home__section-heading--left { display:block; }
+  body.kov-homepage .kov-reference-home__advantage-grid { grid-template-columns:minmax(0,1fr); }
+  body.kov-homepage .kov-reference-home__advantage-grid article { min-height:0; }
+  body.kov-homepage .kov-reference-home__founder-story { grid-template-columns:minmax(0,1fr); gap:2rem; }
+  body.kov-homepage .kov-reference-home__founder-story picture { width:min(83%,26rem); }
+  body.kov-homepage .kov-reference-home__search-intelligence { display:grid; }
+  body.kov-homepage .kov-reference-home__search-intelligence article { padding-top:.8rem; }
+  body.kov-homepage .kov-reference-home__service-options { grid-template-columns:minmax(0,1fr); }
+  body.kov-homepage .kov-reference-home__service-option { min-height:0; padding:1.35rem .2rem; }
+  body.kov-homepage .kov-reference-home__service-option + .kov-reference-home__service-option { border-top:1px solid #dce5e1; border-left:0; }
+  body.kov-homepage .kov-reference-home__service-option h3 { margin-top:1rem; }
+  body.kov-homepage .kov-reference-home__service-option a { margin-top:.8rem; padding-top:.5rem; }
+  body.kov-homepage .kov-reference-home__career-question-list article { grid-template-columns:2.5rem minmax(0,1fr); gap:.8rem; padding:1.1rem .1rem; }
+  body.kov-homepage .kov-reference-home__fees { padding-inline:1rem; }
+  body.kov-homepage .kov-reference-home__fees h2 { margin-top:.4rem; }
+  body.kov-homepage .kov-reference-home__fees a { margin-top:-.4rem; }
+  body.kov-homepage .kov-home-hero + .kov-visual-module { width:100%; }
+}
+@media (max-width:24rem) {
+  body.kov-homepage .kov-home-search { gap:.2rem; }
+  body.kov-homepage .kov-home-search input { padding-inline:.55rem; font-size:.88rem; }
+  body.kov-homepage .kov-home-search button { min-width:4.5rem; font-size:.68rem; }
+  body.kov-homepage .kov-reference-home__cards { grid-template-columns:minmax(0,1fr); }
+  body.kov-homepage .kov-reference-home__card picture { height:11rem; }
+}
+@media (prefers-reduced-motion:reduce) {
+  body.kov-homepage *,body.kov-homepage *::before,body.kov-homepage *::after { animation-duration:.01ms !important; animation-iteration-count:1 !important; scroll-behavior:auto !important; transition-duration:.01ms !important; }
+}
+
+/* Homepage art direction: KOV's career atlas, with the existing founder portrait as its human focal point. */
+body.kov-homepage .kov-reference-home { width:min(100%,94rem); padding-inline:clamp(1.1rem,5.2vw,5.6rem); }
+body.kov-homepage .kov-reference-home__hero {
+  min-height:min(51rem,calc(100svh - 5rem)); gap:clamp(2rem,5.5vw,5.5rem); padding-block:clamp(3rem,5.4vw,5rem);
+  border:0; background:#f7f8f4;
+}
+body.kov-homepage .kov-reference-home__hero::before {
+  inset:-1rem -3rem -1rem auto; width:min(62%,58rem); opacity:.88;
+  background:url("/assets/kov-home-atlas.svg") 15% center / 86% auto no-repeat;
+}
+body.kov-homepage .kov-reference-home__hero-copy { max-width:50rem; }
+body.kov-homepage .kov-reference-home__eyebrow { display:flex; align-items:center; gap:.8rem; color:#4d7865; }
+body.kov-homepage .kov-reference-home__eyebrow::before { width:2.3rem; height:2px; background:#e87942; content:""; }
+body.kov-homepage .kov-reference-home__hero h1 { max-width:11.5ch; font-size:clamp(4.1rem,7.1vw,7.3rem); line-height:.91; }
+body.kov-homepage .kov-reference-home__hero-copy > p:nth-of-type(2) { max-width:37rem; color:#3c5862; font-size:clamp(1.02rem,1.25vw,1.15rem); }
+body.kov-homepage .kov-reference-home__founder { position:relative; z-index:1; width:min(100%,28rem); max-width:28rem; aspect-ratio:4/5.15; border:0; outline:1px solid #fffefa; outline-offset:.55rem; background:#dfe8e2; box-shadow:1.45rem 1.45rem 0 #dfe9e0; }
+body.kov-homepage .kov-reference-home__founder img { object-position:50% 24%; filter:saturate(.82) contrast(1.03); }
+body.kov-homepage .kov-reference-home__hero-note { z-index:2; margin-left:-3rem; margin-bottom:1rem; border-left-width:2px; box-shadow:0 .8rem 2rem rgb(23 49 59 / 12%); }
+body.kov-homepage .kov-reference-home__hero-actions { margin-top:1.55rem; }
+body.kov-homepage .kov-reference-home__primary-button { min-height:3.55rem; }
+body.kov-homepage .kov-home-search { margin-top:1.8rem; box-shadow:0 .8rem 2.5rem rgb(23 49 59 / 9%); }
+body.kov-homepage .kov-reference-home__metrics { position:relative; z-index:2; margin-top:-1px; border-top:1px solid #dfe6e2; padding-block:1.35rem; }
+body.kov-homepage .kov-reference-home__metric { padding-inline:clamp(.5rem,1.7vw,1.6rem); }
+body.kov-homepage .kov-reference-home__metric-icon { color:#e87942; }
+body.kov-homepage .kov-reference-home__discover { padding-block:clamp(4.5rem,9vw,8rem); }
+body.kov-homepage .kov-reference-home__section-heading { margin-bottom:clamp(2rem,4.3vw,4rem); }
+body.kov-homepage .kov-reference-home__section-heading h2,
+body.kov-homepage .kov-reference-home__founder-story h2,
+body.kov-homepage .kov-reference-home__method h2,
+body.kov-homepage .kov-reference-home__search-intelligence h2,
+body.kov-homepage .kov-reference-home__faq h2,
+body.kov-homepage .kov-reference-home__promos h2 { font-size:clamp(2.7rem,5.6vw,5.5rem); line-height:.96; }
+body.kov-homepage .kov-reference-home__cards { display:grid; grid-template-columns:repeat(8,minmax(0,1fr)); grid-auto-rows:minmax(9rem,auto); gap:0 clamp(1.2rem,2.5vw,2.5rem); align-items:stretch; }
+body.kov-homepage .kov-reference-home__card,
+body.kov-homepage .kov-reference-home__card:nth-child(-n+2) { grid-column:span 3; display:grid; grid-template-columns:minmax(6rem,.42fr) minmax(0,1fr); grid-row:span 1; min-height:10rem; border:0; border-top:1px solid #d9e3df; background:transparent; }
+body.kov-homepage .kov-reference-home__card:first-child { grid-column:span 5; grid-row:span 2; display:flex; min-height:32rem; border-top:0; border-bottom:1px solid #d9e3df; }
+body.kov-homepage .kov-reference-home__card:first-child picture { flex:1 1 auto; min-height:24rem; height:auto; }
+body.kov-homepage .kov-reference-home__card:not(:first-child) picture { height:100%; min-height:9rem; }
+body.kov-homepage .kov-reference-home__card:not(:first-child) .kov-reference-home__card-copy { align-content:center; padding:1rem .2rem 1rem 1.1rem; }
+body.kov-homepage .kov-reference-home__card:first-child .kov-reference-home__card-copy { padding:1.25rem 4rem 1.3rem 0; }
+body.kov-homepage .kov-reference-home__card:first-child .kov-reference-home__card-copy strong { font-size:clamp(1.75rem,3vw,2.8rem); }
+body.kov-homepage .kov-reference-home__card:not(:first-child) .kov-reference-home__card-copy strong { font-size:1.15rem; }
+body.kov-homepage .kov-reference-home__card-arrow { right:.6rem; bottom:1.1rem; font-size:1.3rem; }
+body.kov-homepage .kov-reference-home__promos { grid-template-columns:minmax(0,1.25fr) minmax(16rem,.75fr); gap:0; border-block:1px solid #d9e3df; }
+body.kov-homepage .kov-reference-home__promos article { min-height:29rem; border:0; }
+body.kov-homepage .kov-reference-home__map-card { min-height:34rem!important; border-right:1px solid #fff!important; }
+body.kov-homepage .kov-reference-home__map-card > picture img { object-position:48% center; filter:saturate(.7) contrast(.96); }
+body.kov-homepage .kov-reference-home__map-card > div { max-width:29rem; margin:0 0 2rem 2rem; border-left:2px solid #e87942; padding:1.2rem 1.4rem; background:#fffefa; }
+body.kov-homepage .kov-reference-home__map-card h2 { font-size:clamp(2rem,3.6vw,3.6rem); }
+body.kov-homepage .kov-reference-home__research-card { min-height:34rem!important; align-items:center!important; background:#17313b!important; }
+body.kov-homepage .kov-reference-home__research-card > picture { opacity:.28; }
+body.kov-homepage .kov-reference-home__research-copy { position:relative; z-index:1; width:100%; border-top:1px solid rgb(255 255 255 / 34%); padding:2rem; color:#fff; }
+body.kov-homepage .kov-reference-home__research-copy h2 { color:#fff; font-size:clamp(2rem,3vw,3rem); }
+body.kov-homepage .kov-reference-home__research-copy p { color:#e3e9e5; }
+body.kov-homepage .kov-reference-home__research-copy a { color:#f1b18b; }
+body.kov-homepage .kov-reference-home__research-mark { display:block; margin-bottom:3rem; color:#e87942; font-size:1.2rem; letter-spacing:.35em; }
+body.kov-homepage .kov-reference-home__advantage { position:relative; isolation:isolate; overflow:clip; background:#eef3ed; }
+body.kov-homepage .kov-reference-home__advantage::after { position:absolute; z-index:-1; inset:0 0 0 auto; width:52%; content:""; background:url("/assets/kov-bg-network.svg") right center / contain no-repeat; opacity:.34; pointer-events:none; }
+body.kov-homepage .kov-reference-home__advantage-grid { grid-template-columns:repeat(3,minmax(0,1fr)); gap:0 clamp(1.3rem,3vw,3rem); }
+body.kov-homepage .kov-reference-home__advantage-grid article { min-height:15rem; border:0; border-top:1px solid #adc1b5; padding:1.1rem .1rem; background:transparent; }
+body.kov-homepage .kov-reference-home__advantage-grid article > span { color:#527b63; font-size:2.5rem; }
+body.kov-homepage .kov-reference-home__advantage-grid h3 { max-width:16ch; font:500 1.45rem/1.12 var(--kov-display); }
+body.kov-homepage .kov-reference-home__founder-story { position:relative; grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr); gap:clamp(3rem,9vw,9rem); padding-block:clamp(5rem,10vw,9rem); }
+body.kov-homepage .kov-reference-home__founder-story picture { width:min(100%,32rem); max-height:37rem; box-shadow:1.1rem 1.1rem 0 #dfe9e0; }
+body.kov-homepage .kov-reference-home__founder-story > div > span { display:flex; align-items:center; gap:.8rem; }
+body.kov-homepage .kov-reference-home__founder-story > div > span::before { width:2rem; height:2px; background:#e87942; content:""; }
+body.kov-homepage .kov-reference-home__method { grid-template-columns:minmax(15rem,.66fr) minmax(0,1.34fr); border-top:2px solid #9dbda0; padding-block:clamp(4rem,8vw,7rem); }
+body.kov-homepage .kov-reference-home__method-list li { grid-template-columns:4rem minmax(0,1fr); gap:1.25rem; padding:1.2rem .4rem; }
+body.kov-homepage .kov-reference-home__method-list li > span { font-size:1.8rem; }
+body.kov-homepage .kov-reference-home__faq { border-top:1px solid #dce5e4; padding-top:clamp(4rem,7vw,6rem); }
+
+@media (max-width:64rem) {
+  body.kov-homepage .kov-reference-home__cards { grid-template-columns:repeat(6,minmax(0,1fr)); }
+  body.kov-homepage .kov-reference-home__card:first-child { grid-column:span 3; }
+  body.kov-homepage .kov-reference-home__card:not(:first-child) { grid-column:span 3; }
+}
+@media (max-width:48rem) {
+  body.kov-homepage .kov-reference-home__hero { gap:1.55rem; background:#f7f8f4; }
+  body.kov-homepage .kov-reference-home__method { grid-template-columns:minmax(0,1fr); gap:2rem; }
+  body.kov-homepage .kov-reference-home__method-list { width:100%; min-width:0; }
+  body.kov-homepage .kov-reference-home__method-list li { grid-template-columns:2.7rem minmax(0,1fr); gap:.85rem; }
+  body.kov-homepage .kov-reference-home__founder-story { grid-template-columns:minmax(0,1fr); gap:1.8rem; }
+  body.kov-homepage .kov-reference-home__founder-story picture { width:min(86%,25rem); max-height:30rem; }
+  body.kov-homepage .kov-reference-home__hero::before { inset:auto 0 0 auto; width:100%; height:38%; background-position:68% bottom; background-size:auto 100%; opacity:.27; }
+  body.kov-homepage .kov-reference-home__hero h1 { font-size:clamp(3rem,11.5vw,4.5rem); }
+  body.kov-homepage .kov-reference-home__hero-copy > p:nth-of-type(2) { margin-top:1rem; font-size:.96rem; line-height:1.6; }
+  body.kov-homepage .kov-home-search { margin-top:.95rem; }
+  body.kov-homepage .kov-reference-home__hero-actions { margin-top:.85rem; }
+  body.kov-homepage .kov-reference-home__primary-button { min-height:2.8rem; padding-block:.65rem; }
+  body.kov-homepage .kov-reference-home__founder { width:min(82%,24rem); max-width:24rem; margin-right:1rem; }
+  body.kov-homepage .kov-reference-home__hero-note { margin-left:0; }
+  body.kov-homepage .kov-reference-home__hero + .kov-visual-module::after { right:1.1rem; bottom:.6rem; font-size:.54rem; }
+  body.kov-homepage .kov-reference-home__cards { grid-template-columns:minmax(0,1fr); gap:0; }
+  body.kov-homepage .kov-reference-home__card:first-child { grid-column:1; grid-row:auto; min-height:23rem; }
+  body.kov-homepage .kov-reference-home__card:not(:first-child) { grid-column:1; min-height:8.2rem; grid-template-columns:7rem minmax(0,1fr); }
+  body.kov-homepage .kov-reference-home__card:first-child picture { min-height:16rem; }
+  body.kov-homepage .kov-reference-home__card:not(:first-child) picture { min-height:7.2rem; }
+  body.kov-homepage .kov-reference-home__promos { grid-template-columns:minmax(0,1fr); }
+  body.kov-homepage .kov-reference-home__map-card { min-height:24rem!important; }
+  body.kov-homepage .kov-reference-home__research-card { min-height:22rem!important; }
+  body.kov-homepage .kov-reference-home__research-mark { margin-bottom:1.5rem; }
+  body.kov-homepage .kov-reference-home__advantage::after { width:100%; opacity:.2; }
+  body.kov-homepage .kov-reference-home__advantage-grid { grid-template-columns:minmax(0,1fr); }
+  body.kov-homepage .kov-reference-home__advantage-grid article { min-height:0; padding-block:1rem; }
+  body.kov-homepage .kov-reference-home__founder-story { gap:2rem; }
+}
+
+/* Product-led homepage composition: place KOV's existing search and discovery
+   network together as one working interface, while preserving all page copy. */
+body.kov-homepage .kov-home-experience {
+  display:grid;
+  grid-template-columns:minmax(0,1.02fr) minmax(25rem,.98fr);
+  align-items:center;
+  gap:clamp(2rem,5vw,5rem);
+  width:min(94rem,calc(100% - 2 * clamp(1.1rem,5.2vw,5.6rem)));
+  margin:clamp(2rem,4vw,4rem) auto clamp(2.5rem,5vw,5rem);
+}
+body.kov-homepage .kov-home-experience > :is(.kov-home-hero,.kov-reference-home__hero) {
+  display:grid;
+  grid-template-columns:minmax(0,1fr);
+  grid-template-rows:auto;
+  gap:0;
+  min-width:0;
+  min-height:0;
+  padding:clamp(1rem,2.8vw,2.8rem) 0;
+  border:0;
+  background:transparent;
+}
+body.kov-homepage .kov-home-experience > .kov-reference-home__hero::before { display:none; }
+body.kov-homepage .kov-home-experience > :is(.kov-home-hero,.kov-reference-home__hero) > .max-w-7xl {
+  display:block;
+  width:100%;
+  max-width:none;
+  margin:0;
+  padding:0;
+}
+body.kov-homepage .kov-home-experience > :is(.kov-home-hero,.kov-reference-home__hero) > .pointer-events-none,
+body.kov-homepage .kov-home-experience > :is(.kov-home-hero,.kov-reference-home__hero) > .max-w-7xl > .pointer-events-none,
+body.kov-homepage .kov-home-experience > :is(.kov-home-hero,.kov-reference-home__hero) > .max-w-7xl > div:last-child,
+body.kov-homepage .kov-home-experience .kov-reference-home__founder,
+body.kov-homepage .kov-home-experience .kov-reference-home__hero-note { display:none!important; }
+body.kov-homepage .kov-home-experience > .kov-home-hero > .max-w-7xl > div:first-child { width:100%; max-width:47rem; margin:0; }
+body.kov-homepage .kov-home-experience .kov-reference-home__hero-copy { grid-column:1; grid-row:auto; width:100%; max-width:47rem; }
+body.kov-homepage .kov-home-experience :is(.kov-home-hero,.kov-reference-home__hero) h1 {
+  max-width:12ch;
+  margin-top:1.25rem;
+  color:#17313b;
+  font-family:var(--kov-serif);
+  font-size:clamp(4.1rem,7.3vw,7.4rem);
+  font-style:normal;
+  font-weight:400;
+  letter-spacing:-.055em;
+  line-height:.92;
+  text-wrap:balance;
+}
+body.kov-homepage .kov-home-experience .kov-home-founder-proof { display:flex; align-items:center; gap:.8rem; margin-top:1.4rem; }
+body.kov-homepage .kov-home-experience .kov-home-founder-proof img { width:3rem; height:3rem; flex:0 0 3rem; border:1px solid #d8e3dd; border-radius:50%; object-fit:cover; object-position:50% 28%; }
+body.kov-homepage .kov-home-experience .kov-home-founder-proof span { display:grid; gap:.16rem; }
+body.kov-homepage .kov-home-experience .kov-home-founder-proof strong { color:#17313b; font-size:.82rem; font-weight:700; }
+body.kov-homepage .kov-home-experience .kov-home-founder-proof small { color:#64777b; font-size:.74rem; }
+body.kov-homepage .kov-home-experience > .kov-home-hero a.group { min-height:3.35rem; border-radius:.15rem; padding:.85rem 1.15rem; font-size:.73rem; letter-spacing:.035em; }
+body.kov-homepage .kov-home-experience :is(.kov-home-hero,.kov-reference-home__hero) h1 > span:last-child { color:#c75d2d; }
+body.kov-homepage .kov-home-experience :is(.kov-home-hero,.kov-reference-home__hero) h1 svg { display:none; }
+body.kov-homepage .kov-home-experience :is(.kov-home-hero,.kov-reference-home__hero) :is(.kov-reference-home__eyebrow,.kov-home-hero > .max-w-7xl > div:first-child > p:first-child) {
+  margin:0;
+  color:#45677a;
+  font-size:.68rem;
+  font-weight:750;
+  letter-spacing:.15em;
+  line-height:1.5;
+}
+body.kov-homepage .kov-home-experience :is(.kov-reference-home__hero-copy > p:nth-of-type(2),.kov-home-hero > .max-w-7xl > div:first-child > p:nth-of-type(2)) {
+  max-width:38rem;
+  margin-top:1.35rem;
+  color:#53676e;
+  font-size:clamp(.97rem,1.2vw,1.08rem);
+  line-height:1.7;
+}
+body.kov-homepage .kov-home-experience .kov-home-search {
+  width:100%;
+  min-height:4rem;
+  margin-top:1.5rem;
+  border-color:#cbd8d5;
+  border-radius:.35rem;
+  box-shadow:0 .5rem 1.5rem rgb(23 49 59 / 7%);
+}
+body.kov-homepage .kov-home-experience .kov-home-search button { min-width:6.3rem; }
+body.kov-homepage .kov-home-experience .kov-home-search-note { color:#60747a; }
+body.kov-homepage .kov-home-experience > .kov-visual-module {
+  position:relative;
+  align-self:stretch;
+  box-sizing:border-box;
+  grid-template-columns:minmax(0,1fr);
+  align-content:start;
+  gap:.4rem;
+  width:100%;
+  min-width:0;
+  min-height:34rem;
+  margin:0;
+  overflow:hidden;
+  border:1px solid #d6e0dc;
+  border-radius:.45rem;
+  padding:1.2rem clamp(1rem,2vw,1.7rem) 1.4rem;
+  background:#f7f9f6;
+  box-shadow:0 1.2rem 3rem rgb(23 49 59 / 7%);
+}
+body.kov-homepage .kov-home-experience > .kov-visual-module::before {
+  display:block;
+  grid-row:1;
+  padding:0 0 .8rem;
+  border-bottom:1px solid #dfe7e3;
+  color:#547564;
+  content:"KOV  /  PROFESSIONAL DISCOVERY";
+  font-size:.62rem;
+  font-weight:750;
+  letter-spacing:.15em;
+}
+body.kov-homepage .kov-home-experience > .kov-visual-module .kov-visual-copy { grid-row:2; padding:.6rem 0 0; }
+body.kov-homepage .kov-home-experience > .kov-visual-module .kov-search-overline { display:none; }
+body.kov-homepage .kov-home-experience > .kov-visual-module .kov-visual-copy h2 {
+  max-width:17ch;
+  margin:.2rem 0 .35rem;
+  font-family:var(--kov-sans);
+  font-size:clamp(1.35rem,2vw,1.8rem);
+  font-weight:650;
+  letter-spacing:-.045em;
+  line-height:1.12;
+}
+body.kov-homepage .kov-home-experience > .kov-visual-module .kov-visual-copy > p:last-child { max-width:45ch; margin:.35rem 0; font-size:.8rem; line-height:1.55; }
+body.kov-homepage .kov-home-experience > .kov-visual-module .kov-visual-art {
+  grid-row:3;
+  min-height:16rem;
+  margin-top:.35rem;
+  border-top:1px solid #e1e9e5;
+  padding-top:.5rem;
+  overflow:hidden;
+}
+body.kov-homepage .kov-home-experience > .kov-visual-module .kov-discovery-network { display:block; width:100%; min-width:0; max-height:23rem; }
+body.kov-homepage .kov-home-experience > .kov-visual-module .kov-discovery-network { max-height:19rem; }
+body.kov-homepage .kov-home-experience > .kov-visual-module::after {
+  position:static;
+  grid-row:4;
+  display:block;
+  color:#6d8385;
+  content:"01  /  SEARCH ROLES · SKILLS · INDUSTRIES · PLACES";
+  font-size:.58rem;
+  font-weight:700;
+  letter-spacing:.12em;
+}
+@media (max-width:58rem) {
+  body.kov-homepage .kov-home-experience { grid-template-columns:minmax(0,1fr); gap:1.5rem; width:calc(100% - 2.2rem); margin-block:1.5rem 3rem; }
+  body.kov-homepage .kov-home-experience > :is(.kov-home-hero,.kov-reference-home__hero) { padding-block:1.5rem 0; }
+  body.kov-homepage .kov-home-experience :is(.kov-home-hero,.kov-reference-home__hero) h1 { max-width:10ch; font-size:clamp(3.5rem,14vw,5.5rem); line-height:.9; }
+  body.kov-homepage .kov-home-experience :is(.kov-reference-home__hero-copy > p:nth-of-type(2),.kov-home-hero > .max-w-7xl > div:first-child > p:nth-of-type(2)) { margin-top:1rem; }
+  body.kov-homepage .kov-home-experience > .kov-visual-module { min-height:0; padding:1rem; }
+  body.kov-homepage .kov-home-experience > .kov-visual-module .kov-discovery-network { max-height:19rem; }
+}
+
+/* Live opportunity explorer retained outside the React showcase root. */
+body.kov-homepage .home-reactive-section {
+  margin:0;
+  border:0;
+  padding:clamp(3.5rem,7vw,6.5rem) var(--kov-gutter);
+  background:#eff4f0;
+  color:var(--kov-ink);
+}
+body.kov-homepage .home-reactive-section > .mx-auto {
+  display:grid;
+  grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);
+  align-items:center;
+  gap:.75rem clamp(2rem,7vw,7rem);
+  width:min(100%,84rem);
+  max-width:none;
+  margin-inline:auto;
+  padding:0;
+}
+body.kov-homepage .home-reactive-section > .mx-auto > p:first-child { grid-column:1; margin:0; color:#4f7567; font-size:.7rem; font-weight:750; letter-spacing:.16em; text-transform:uppercase; }
+body.kov-homepage .home-reactive-section > .mx-auto > h2 { grid-column:1; max-width:12ch; margin:.35rem 0 0; color:var(--kov-ink); font-family:var(--kov-serif); font-size:clamp(2.9rem,5.4vw,5.2rem); font-weight:400; letter-spacing:-.055em; line-height:.96; }
+body.kov-homepage .home-reactive-section .home-content-switcher { grid-column:2; grid-row:1 / span 3; align-self:stretch; min-width:0; border-top:1px solid #cad9d1; }
+body.kov-homepage .home-content-tabs { display:flex; gap:.25rem; overflow-x:auto; border-bottom:1px solid #cad9d1; scrollbar-width:thin; }
+body.kov-homepage .home-content-tabs [role="tab"] { flex:1 0 auto; min-height:3.25rem; border:0; border-bottom:2px solid transparent; padding:.75rem .65rem; background:transparent; color:#49636a; font:600 .78rem/1.25 var(--kov-sans); text-align:left; cursor:pointer; }
+body.kov-homepage .home-content-tabs [role="tab"]:hover,body.kov-homepage .home-content-tabs [role="tab"]:focus-visible { color:#b95127; }
+body.kov-homepage .home-content-tabs [role="tab"][aria-selected="true"] { border-bottom-color:var(--kov-orange); color:var(--kov-ink); }
+body.kov-homepage .home-content-panels { min-height:10rem; padding:1.45rem 0; }
+body.kov-homepage .home-content-panel h3 { margin:0 0 .5rem; color:var(--kov-ink); font:500 clamp(1.3rem,2.3vw,1.8rem)/1.15 var(--kov-serif); letter-spacing:-.025em; }
+body.kov-homepage .home-content-panel p { max-width:55ch; margin:0; color:#53676e; font-size:.96rem; line-height:1.7; }
+body.kov-homepage .kov-home-final-cta { border-block:1px solid #28434b; padding:clamp(3.5rem,7vw,6.5rem) var(--kov-gutter); background:var(--kov-ink); color:#fff; }
+body.kov-homepage .kov-home-final-cta > .mx-auto { display:grid; grid-template-columns:minmax(0,1.1fr) minmax(16rem,.9fr); align-items:center; gap:1rem 5vw; width:min(100%,84rem); max-width:none; margin-inline:auto; padding:0; text-align:left; }
+body.kov-homepage .kov-home-final-cta > .mx-auto > p:first-child { grid-column:1; grid-row:1; margin:0; color:#f19a6a; font-size:.7rem; font-weight:750; letter-spacing:.17em; text-transform:uppercase; }
+body.kov-homepage .kov-home-final-cta h2 { grid-column:1; grid-row:2; max-width:12ch; margin:0; color:#fffefa; font:400 clamp(3rem,6vw,5.4rem)/.98 var(--kov-serif); letter-spacing:-.05em; }
+body.kov-homepage .kov-home-final-cta > .mx-auto > p:nth-of-type(2) { grid-column:2; grid-row:1 / span 2; max-width:38ch; margin:0; color:#d2dfdc; font-size:1rem; line-height:1.7; }
+body.kov-homepage .kov-home-final-cta > .mx-auto > div { grid-column:2; grid-row:3; display:flex; flex-wrap:wrap; align-items:center; gap:.65rem 1rem; margin:0; }
+body.kov-homepage .kov-home-final-cta a.hero-interlink { display:inline-flex; min-height:3rem; align-items:center; justify-content:center; border:1px solid #f4f3eb; padding:.8rem 1rem; background:#f4f3eb; color:var(--kov-ink); font-size:.75rem; font-weight:700; text-decoration:none; }
+body.kov-homepage .kov-home-final-cta a.hero-interlink-outline { border-color:#8ea7a8; background:transparent; color:#f4f3eb; }
+body.kov-homepage .kov-home-final-cta a:hover,body.kov-homepage .kov-home-final-cta a:focus-visible { border-color:var(--kov-orange); background:var(--kov-orange); color:#fff; }
+@media(max-width:58rem) {
+  body.kov-homepage .home-reactive-section > .mx-auto { grid-template-columns:minmax(0,1fr); gap:1rem; }
+  body.kov-homepage .home-reactive-section > .mx-auto > h2,body.kov-homepage .home-reactive-section > .mx-auto > p:first-child { grid-column:1; }
+  body.kov-homepage .home-reactive-section .home-content-switcher { grid-column:1; grid-row:auto; margin-top:1rem; }
+  body.kov-homepage .home-content-tabs [role="tab"] { flex:0 0 auto; }
+  body.kov-homepage .kov-home-final-cta > .mx-auto { grid-template-columns:minmax(0,1fr); gap:.9rem; }
+  body.kov-homepage .kov-home-final-cta > .mx-auto > p:first-child,body.kov-homepage .kov-home-final-cta h2,body.kov-homepage .kov-home-final-cta > .mx-auto > p:nth-of-type(2),body.kov-homepage .kov-home-final-cta > .mx-auto > div { grid-column:1; grid-row:auto; }
+}

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 380" role="img" aria-labelledby="kov-path-title kov-path-desc" class="kov-career-pathway">
+  <title id="kov-path-title">A clear sequence for private career representation</title>
+  <desc id="kov-path-desc">Four stages: agree fit and direction, clarify positioning, research suitable targets, and coordinate approved outreach and next steps.</desc>
+  <defs>
+    <linearGradient id="kov-path-line" x1="0" x2="1"><stop stop-color="#e87942"/><stop offset=".52" stop-color="#6b98a7"/><stop offset="1" stop-color="#91b49a"/></linearGradient>
+  </defs>
+  <path class="kov-path-track" d="M120 160 H920" fill="none" stroke="#d8e3e3" stroke-width="3" stroke-linecap="round"/>
+  <path class="kov-path-progress" d="M120 160 H920" fill="none" stroke="url(#kov-path-line)" stroke-width="3" stroke-linecap="round"/>
+  <g class="kov-path-step" data-step="01" tabindex="0" role="group" aria-label="01, fit and direction: clarify goals, target roles, and engagement scope.">
+    <circle class="kov-path-halo" cx="120" cy="160" r="38"/>
+    <circle class="kov-path-node" cx="120" cy="160" r="25"/>
+    <text class="kov-path-number" x="120" y="165" text-anchor="middle">01</text>
+    <text class="kov-path-heading" x="70" y="228">Fit &amp; direction</text>
+    <text class="kov-path-caption" x="70" y="255">Goals, roles, market</text>
+    <text class="kov-path-caption" x="70" y="276">and agreed scope</text>
+  </g>
+  <g class="kov-path-step" data-step="02" tabindex="0" role="group" aria-label="02, professional positioning: clarify the evidence and story relevant to the chosen direction.">
+    <circle class="kov-path-halo" cx="387" cy="160" r="38"/>
+    <circle class="kov-path-node" cx="387" cy="160" r="25"/>
+    <text class="kov-path-number" x="387" y="165" text-anchor="middle">02</text>
+    <text class="kov-path-heading" x="337" y="228">Positioning</text>
+    <text class="kov-path-caption" x="337" y="255">Experience, evidence</text>
+    <text class="kov-path-caption" x="337" y="276">and clear narrative</text>
+  </g>
+  <g class="kov-path-step" data-step="03" tabindex="0" role="group" aria-label="03, target research: identify relevant organizations, roles, and decision-makers.">
+    <circle class="kov-path-halo" cx="653" cy="160" r="38"/>
+    <circle class="kov-path-node" cx="653" cy="160" r="25"/>
+    <text class="kov-path-number" x="653" y="165" text-anchor="middle">03</text>
+    <text class="kov-path-heading" x="603" y="228">Target research</text>
+    <text class="kov-path-caption" x="603" y="255">Organizations, roles</text>
+    <text class="kov-path-caption" x="603" y="276">and contact routes</text>
+  </g>
+  <g class="kov-path-step" data-step="04" tabindex="0" role="group" aria-label="04, approved outreach: coordinate professional contact and agreed next steps.">
+    <circle class="kov-path-halo" cx="920" cy="160" r="38"/>
+    <circle class="kov-path-node" cx="920" cy="160" r="25"/>
+    <text class="kov-path-number" x="920" y="165" text-anchor="middle">04</text>
+    <text class="kov-path-heading" x="870" y="228">Outreach</text>
+    <text class="kov-path-caption" x="870" y="255">Approved contact</text>
+    <text class="kov-path-caption" x="870" y="276">and next steps</text>
+  </g>
+  <text class="kov-path-note" x="520" y="340" text-anchor="middle">A considered process, shaped around the professional and agreed before work begins.</text>
+</svg>

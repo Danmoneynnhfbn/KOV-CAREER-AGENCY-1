@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-labelledby="kov-network-title kov-network-desc" class="kov-discovery-network">
+  <title id="kov-network-title">Connected paths through the KOV professional library</title>
+  <desc id="kov-network-desc">Select a node to explore roles, industries, places, professional discovery, or KOV career services.</desc>
+  <defs>
+    <radialGradient id="kov-core-fill"><stop stop-color="#fffefa"/><stop offset="1" stop-color="#eaf2f7"/></radialGradient>
+    <linearGradient id="kov-network-flow-gradient" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#e36f38"/><stop offset=".54" stop-color="#6f9eaf"/><stop offset="1" stop-color="#83a98e"/></linearGradient>
+    <filter id="kov-node-shadow" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#17313b" flood-opacity=".09"/></filter>
+  </defs>
+  <g class="kov-network-lines" fill="none" stroke="#a7bec2" stroke-width="1.6">
+    <path data-link="roles" d="M480 280 C390 245 310 175 205 124"/>
+    <path data-link="industries" d="M480 280 C565 235 650 165 755 124"/>
+    <path data-link="places" d="M480 280 C375 330 300 392 205 436"/>
+    <path data-link="library" d="M480 280 C585 330 660 392 755 436"/>
+    <path data-link="services" d="M480 280 C480 365 480 430 480 490"/>
+  </g>
+  <g class="kov-network-flow" fill="none" stroke="url(#kov-network-flow-gradient)" stroke-width="2.4" stroke-linecap="round">
+    <path data-flow="roles" d="M480 280 C390 245 310 175 205 124"/>
+    <path data-flow="industries" d="M480 280 C565 235 650 165 755 124"/>
+    <path data-flow="places" d="M480 280 C375 330 300 392 205 436"/>
+    <path data-flow="library" d="M480 280 C585 330 660 392 755 436"/>
+    <path data-flow="services" d="M480 280 C480 365 480 430 480 490"/>
+  </g>
+  <g class="kov-network-center" filter="url(#kov-node-shadow)">
+    <circle cx="480" cy="280" r="76" fill="url(#kov-core-fill)" stroke="#8daab1" stroke-width="1.5"/>
+    <circle class="kov-network-center-ring" cx="480" cy="280" r="64" fill="none" stroke="#e87942" stroke-opacity=".42"/>
+    <text x="480" y="274" text-anchor="middle" class="kov-network-kicker">KOV</text>
+    <text x="480" y="299" text-anchor="middle" class="kov-network-center-label">Career intelligence</text>
+  </g>
+  <a class="kov-network-node" data-node="roles" href="/roles.html" aria-label="Explore professional roles and job titles" filter="url(#kov-node-shadow)">
+    <rect x="93" y="76" width="224" height="96" rx="18"/>
+    <circle class="kov-node-dot kov-dot-orange" cx="121" cy="108" r="5"/>
+    <text x="139" y="113" class="kov-network-kicker">01 / ROLE DISCOVERY</text>
+    <text x="119" y="145" class="kov-network-label">Titles &amp; occupations</text>
+  </a>
+  <a class="kov-network-node" data-node="industries" href="/industries.html" aria-label="Explore NAICS industry classifications" filter="url(#kov-node-shadow)">
+    <rect x="643" y="76" width="224" height="96" rx="18"/>
+    <circle class="kov-node-dot kov-dot-blue" cx="671" cy="108" r="5"/>
+    <text x="689" y="113" class="kov-network-kicker">02 / CLASSIFICATION</text>
+    <text x="669" y="145" class="kov-network-label">Industries</text>
+  </a>
+  <a class="kov-network-node" data-node="places" href="/countries-we-serve.html" aria-label="Explore countries and cities in the professional directory" filter="url(#kov-node-shadow)">
+    <rect x="93" y="388" width="224" height="96" rx="18"/>
+    <circle class="kov-node-dot kov-dot-green" cx="121" cy="420" r="5"/>
+    <text x="139" y="425" class="kov-network-kicker">03 / GEOGRAPHY</text>
+    <text x="119" y="457" class="kov-network-label">Countries &amp; cities</text>
+  </a>
+  <a class="kov-network-node" data-node="library" href="/professional-directory/index.html" aria-label="Explore professional skills and discovery records" filter="url(#kov-node-shadow)">
+    <rect x="643" y="388" width="224" height="96" rx="18"/>
+    <circle class="kov-node-dot kov-dot-blue" cx="671" cy="420" r="5"/>
+    <text x="689" y="425" class="kov-network-kicker">04 / PROFESSIONAL LIBRARY</text>
+    <text x="669" y="457" class="kov-network-label">Skills &amp; knowledge</text>
+  </a>
+  <a class="kov-network-node kov-network-node-service" data-node="services" href="/services.html" aria-label="Explore KOV's career representation and services" filter="url(#kov-node-shadow)">
+    <rect x="354" y="470" width="252" height="70" rx="18"/>
+    <circle class="kov-node-dot kov-dot-orange" cx="382" cy="505" r="5"/>
+    <text x="400" y="510" class="kov-network-label">Career representation</text>
+  </a>
+</svg>

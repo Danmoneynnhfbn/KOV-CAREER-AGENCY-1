@@ -291,16 +291,6 @@ def render_faqs(faqs: list[dict]) -> str:
 
 def render_html(page: dict) -> str:
     schema = json.dumps(schema_for(page), ensure_ascii=False, indent=2).replace("</", "<\\/")
-    canonical_path = page["canonical"].rstrip("/")
-    canonical_parts = [part for part in canonical_path.split("/") if part]
-    if len(canonical_parts) == 3 and canonical_parts[0] == "roles":
-        design_group = "role-industry"
-    elif len(canonical_parts) == 2 and canonical_parts[0] == "roles":
-        design_group = "role-hub"
-    elif len(canonical_parts) == 2 and canonical_parts[0] == "industries":
-        design_group = "industry"
-    else:
-        design_group = "overview"
     breadcrumbs = page["breadcrumbs"] + [
         {"name": page["title"], "url": page["canonical"]}
     ]
@@ -376,12 +366,9 @@ def render_html(page: dict) -> str:
   <meta name="twitter:description" content="{esc(page["description"])}">
   <meta property="og:image" content="{esc(BASE_URL + "/preview.png")}">
   <meta name="twitter:image" content="{esc(BASE_URL + "/preview.png")}">
-  <link rel="stylesheet" href="/assets/design-components.css">
-  <link rel="stylesheet" href="/assets/ceo-hubs.css">
   <script type="application/ld+json">{schema}</script>
-  <link rel="stylesheet" href="/assets/research-pages.css">
 </head>
-<body class="ceo-page kov-design--{design_group}" data-design-group="{design_group}">
+<body>
   <div class="ceo-progress" data-reading-progress aria-hidden="true"></div>
   <header class="ceo-site-header">
     <div class="ceo-shell ceo-header-inner">

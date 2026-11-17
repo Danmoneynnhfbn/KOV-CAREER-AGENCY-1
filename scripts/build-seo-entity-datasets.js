@@ -9,6 +9,16 @@ const catalogUrl =
 const baseUrl = 'https://www.kovcareeragency.org';
 const licenseBy = 'https://creativecommons.org/licenses/by/4.0/';
 const licenseCc0 = 'https://creativecommons.org/publicdomain/zero/1.0/';
+const { worldCities } = require('../assets/world-cities.js');
+const geoNamesAdmin1 = require('../assets/geonames-admin1.js');
+const discoveryCatalog = JSON.parse(fs.readFileSync(
+  path.join(root, 'data', 'kov-discovery-catalog.jsonld'),
+  'utf8'
+));
+const countryIdByIso2 = new Map(discoveryCatalog['@graph']
+  .filter((node) => node['@type'] === 'Country')
+  .map((node) => [node.identifier?.value, node['@id']])
+  .filter(([code, id]) => code && id));
 
 function argument(name) {
   const index = process.argv.indexOf(name);
@@ -69,7 +79,7 @@ function property(name, value) {
 }
 
 function placeEntity(record) {
-  return {
+  const entity = {
     '@type': 'Place',
     '@id': `${catalogUrl}#place-${record.id}`,
     name: record.name,
@@ -86,6 +96,9 @@ function placeEntity(record) {
       property('Population in source record', record.population),
     ],
   };
+  const countryId = countryIdByIso2.get(record.countryCode);
+  if (countryId) entity.containedInPlace = { '@id': countryId };
+  return entity;
 }
 
 function occupationEntity(title, codes) {
@@ -305,6 +318,71 @@ const datasets = [
     entityIds: functions.map(functionUrl),
   }),
 ];
+if (worldCities.length !== 50250) {
+  throw new Error(`Expected 50,250 deduplicated city records; found ${worldCities.length}.`);
+}
+const cityIds = worldCities.map((place) => place.simplemaps_id || `geonames-${place.geonames_id}`);
+if (new Set(cityIds).size !== cityIds.length) {
+  throw new Error('World city collection contains duplicate source identifiers.');
+}
+const worldCityDataset = {
+  '@type': 'Dataset',
+  '@id': `${catalogUrl}#global-cities-50250`,
+  name: 'Global city and populated-place reference dataset',
+  description: 'A curated set of 50,250 unique city and populated-place records: 50,249 records from the SimpleMaps Basic World Cities database and one GeoNames administrative seat added after removing a duplicate SimpleMaps location. SimpleMaps records retain source IDs, country codes, coordinates, first-level administrative labels, and population values where supplied. Inclusion does not claim KOV has an office or service operation in each location.',
+  url: `${catalogUrl}#global-cities-50250`,
+  license: licenseBy,
+  citation: 'https://simplemaps.com/data/world-cities',
+  creditText: 'SimpleMaps.com, World Cities Database Basic (2026), CC BY 4.0; GeoNames record 10794003 (Panjin) for the deduplicated replacement.',
+  numberOfItems: worldCities.length,
+  includedInDataCatalog: { '@id': `${catalogUrl}#catalog` },
+  distribution: {
+    '@type': 'DataDownload',
+    contentUrl: `${baseUrl}/assets/world-cities.js`,
+    encodingFormat: 'application/javascript',
+  },
+  about: { '@id': `${catalogUrl}#administrative-areas-level-1` },
+};
+const admin1Records = geoNamesAdmin1.countries.flatMap((country) =>
+  country.divisions.map((division) => ({ country, division }))
+);
+if (admin1Records.length !== geoNamesAdmin1.metadata.divisionRecordCount) {
+  throw new Error('GeoNames first-level division metadata does not match its records.');
+}
+const admin1Dataset = {
+  '@type': 'Dataset',
+  '@id': `${catalogUrl}#administrative-areas-level-1`,
+  name: 'GeoNames first-level administrative divisions',
+  description: 'First-level administrative area records with GeoNames identifiers, names, source codes, and country relationships. Coverage follows the GeoNames source data and does not imply that all national administrative hierarchies have the same levels.',
+  url: `${catalogUrl}#administrative-areas-level-1`,
+  license: licenseBy,
+  citation: 'https://download.geonames.org/export/dump/',
+  creditText: 'GeoNames geographic database, CC BY 4.0.',
+  numberOfItems: admin1Records.length,
+  includedInDataCatalog: { '@id': `${catalogUrl}#catalog` },
+  distribution: {
+    '@type': 'DataDownload',
+    contentUrl: `${baseUrl}/assets/geonames-admin1.js`,
+    encodingFormat: 'application/javascript',
+  },
+};
+datasets.push(worldCityDataset, admin1Dataset);
+const admin1Entities = admin1Records.map(({ country, division }) => {
+  const entity = {
+    '@type': 'AdministrativeArea',
+    '@id': `https://www.geonames.org/${division.geonameId}`,
+    name: division.name,
+    alternateName: division.asciiName !== division.name ? division.asciiName : undefined,
+    identifier: {
+      '@type': 'PropertyValue',
+      propertyID: 'GeoNames administrative division code',
+      value: division.code,
+    },
+  };
+  const countryId = countryIdByIso2.get(country.iso2);
+  if (countryId) entity.containedInPlace = { '@id': countryId };
+  return entity;
+});
 const graph = [
   {
     '@type': 'DataCatalog',
@@ -316,6 +394,7 @@ const graph = [
   ...datasets,
   ...cities.map(placeEntity),
   ...towns.map(placeEntity),
+  ...admin1Entities,
   ...roles,
   ...institutions,
   ...functions,
@@ -324,5 +403,5 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
 JSON.parse(JSON.stringify(jsonLd));
 fs.writeFileSync(catalogPath, `${JSON.stringify(jsonLd)}\n`, 'utf8');
 console.log(
-  `Generated ${catalogPath}: ${cities.length} cities, ${towns.length} populated-place candidates, ${roles.length} job titles, ${institutions.length} organizations, ${functions.length} detailed work activities.`
+  `Generated ${catalogPath}: ${worldCities.length} world cities/populated places, ${cities.length} GeoNames city candidates, ${towns.length} GeoNames populated-place candidates, ${admin1Entities.length} first-level administrative areas, ${roles.length} O*NET job titles, ${institutions.length} organizations, ${functions.length} detailed work activities.`
 );

@@ -369,12 +369,6 @@ function renderPage(page) {
   <meta name="author" content="KOV Career Agency">
   <link rel="canonical" href="${pageUrl}">
   <link rel="icon" type="image/png" href="${rootAsset('kov-logo.png')}">
-  <link rel="stylesheet" href="${rootAsset('assets/styles-DateywTe.css')}">
-  <link rel="stylesheet" href="${rootAsset('assets/site-fixes.css?v=15')}">
-  <link rel="stylesheet" href="${rootAsset('assets/two-sided.css')}">
-  <link rel="stylesheet" href="${rootAsset('assets/two-sided-type.css')}">
-  <link rel="stylesheet" href="${rootAsset('assets/seo-pages.css?v=2')}">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,800&family=Inter:wght@300;400;500;600;700&display=swap">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="KOV Career Agency">
   <meta property="og:locale" content="en_US">

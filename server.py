@@ -1,6 +1,6 @@
 from pathlib import Path
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import FileResponse, HTMLResponse
+from fastapi.responses import FileResponse, HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 
 from backend_api import _require_admin, mount_backend_routes
@@ -8,6 +8,26 @@ from backend_api import _require_admin, mount_backend_routes
 # Vercel reads this single 'app' instance as the gateway to your project
 app = FastAPI()
 ROOT = Path(__file__).resolve().parent
+CANONICAL_HOST = "www.kovcareeragency.org"
+NON_CANONICAL_HOST = "kovcareeragency.org"
+
+
+@app.middleware("http")
+async def redirect_noncanonical_homepage(request: Request, call_next):
+    host = (request.url.hostname or "").lower().rstrip(".")
+    path = "/" if request.url.path == "/index.html" else request.url.path
+
+    if host == NON_CANONICAL_HOST or (
+        host == CANONICAL_HOST and request.url.path == "/index.html"
+    ):
+        destination = request.url.replace(
+            scheme="https",
+            netloc=CANONICAL_HOST,
+            path=path,
+        )
+        return RedirectResponse(str(destination), status_code=308)
+
+    return await call_next(request)
 
 # Mount your assets directory so images and CSS files load perfectly
 ASSETS_DIR = ROOT / "assets"
@@ -74,7 +94,7 @@ def blog_editor_page(request: Request):
 @app.get("/{requested_path:path}")
 def read_site_file(requested_path: str):
     file_path = (ROOT / requested_path).resolve()
-    public_extensions = {".html", ".xml", ".txt", ".css", ".js", ".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg", ".ico"}
+    public_extensions = {".html", ".xml", ".txt", ".jsonld", ".css", ".js", ".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg", ".ico"}
     if (
         requested_path == ".private_admin"
         or requested_path.startswith(".private_admin/")
@@ -90,4 +110,5 @@ def read_site_file(requested_path: str):
 
     if not file_path.is_file() or file_path.suffix.lower() not in public_extensions:
         return FileResponse(ROOT / "404.html", status_code=404)
-    return FileResponse(file_path)
+    media_type = "application/ld+json" if file_path.suffix.lower() == ".jsonld" else None
+    return FileResponse(file_path, media_type=media_type)

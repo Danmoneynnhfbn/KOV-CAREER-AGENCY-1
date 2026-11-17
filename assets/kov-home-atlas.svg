@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 940" fill="none">
+  <g stroke="#6f9eaf" stroke-width="1" opacity=".22">
+    <path d="M100 80H930M100 170H930M100 260H930M100 350H930M100 440H930M100 530H930M100 620H930M100 710H930M100 800H930"/>
+    <path d="M170 50v820M260 50v820M350 50v820M440 50v820M530 50v820M620 50v820M710 50v820M800 50v820M890 50v820"/>
+  </g>
+  <g stroke="#557b89" stroke-width="1.5" opacity=".68">
+    <path d="M164 642C234 538 308 498 394 522c91 25 122 109 205 95 81-13 118-96 197-116 63-16 116 8 162 43"/>
+    <path d="M162 676C231 571 309 532 395 556c91 25 120 109 204 95 83-14 118-97 198-117 60-16 112 7 158 42" opacity=".36"/>
+    <path d="M205 302C288 361 351 375 420 337s128-38 183 0 121 37 182-1 103-42 151-12" opacity=".48"/>
+  </g>
+  <path d="M146 208c96 77 176 114 268 91 72-18 103-72 171-67 72 5 105 69 178 68 55-1 97-31 156-72" stroke="#e87942" stroke-width="3"/>
+  <path d="M746 228c53 1 106-29 173-73" stroke="#e87942" stroke-width="1.4" stroke-dasharray="5 10" opacity=".65"/>
+  <g fill="#fffefa" stroke-width="2.5">
+    <circle cx="146" cy="208" r="8" stroke="#7da88b"/><circle cx="414" cy="303" r="8" stroke="#e87942"/>
+    <circle cx="585" cy="232" r="8" stroke="#6f9eaf"/><circle cx="763" cy="300" r="8" stroke="#7da88b"/>
+    <circle cx="922" cy="156" r="8" stroke="#e87942"/><circle cx="164" cy="642" r="6" stroke="#6f9eaf"/>
+    <circle cx="599" cy="617" r="7" stroke="#e87942"/><circle cx="958" cy="544" r="6" stroke="#7da88b"/>
+  </g>
+  <g fill="#345d6b" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2.1">
+    <text x="118" y="181">DIRECTION</text><text x="389" y="273">POSITION</text><text x="553" y="202">RESEARCH</text>
+    <text x="735" y="270">APPROVAL</text><text x="866" y="126">OUTREACH</text>
+  </g>
+  <path d="M99 744h166" stroke="#e87942" stroke-width="2"/>
+  <path d="M99 767h91" stroke="#7da88b" stroke-width="2" opacity=".8"/>
+  <circle cx="94" cy="208" r="22" stroke="#e87942" stroke-width="1" opacity=".3"/>
+  <circle cx="922" cy="156" r="25" stroke="#7da88b" stroke-width="1" opacity=".3"/>
+</svg>

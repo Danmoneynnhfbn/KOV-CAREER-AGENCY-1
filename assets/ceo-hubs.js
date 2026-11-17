@@ -48,15 +48,4 @@
     });
   });
 
-  var progress = document.querySelector("[data-reading-progress]");
-  if (progress) {
-    var updateProgress = function () {
-      var available = document.documentElement.scrollHeight - window.innerHeight;
-      var ratio = available > 0 ? window.scrollY / available : 0;
-      progress.style.transform = "scaleX(" + Math.max(0, Math.min(1, ratio)) + ")";
-    };
-    window.addEventListener("scroll", updateProgress, { passive: true });
-    window.addEventListener("resize", updateProgress);
-    updateProgress();
-  }
 })();

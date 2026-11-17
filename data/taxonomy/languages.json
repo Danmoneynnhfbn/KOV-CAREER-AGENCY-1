@@ -1,0 +1,18 @@
+{
+  "source": "ISO 639 language names/codes; site language widget source language and configured translation targets are documented separately",
+  "sourceUrls": [
+    "https://www.iso.org/standard/74575.html",
+    "https://www.loc.gov/standards/iso639-2/"
+  ],
+  "siteConfiguration": "assets/google-translate.js: pageLanguage is en; the widget loads Google Translate without an includedLanguages target allowlist",
+  "selectionNote": "Seven user-targeted language records already proposed in the project were retained after checking their language names and codes against ISO references. They are a seven-record reference subset; this dataset does not assert Google Translate target availability or that the widget supports only these languages.",
+  "records": [
+    { "code": "en", "name": "English", "siteCode": "en" },
+    { "code": "fr", "name": "French", "siteCode": "fr" },
+    { "code": "es", "name": "Spanish", "siteCode": "es" },
+    { "code": "de", "name": "German", "siteCode": "de" },
+    { "code": "pt", "name": "Portuguese", "siteCode": "pt" },
+    { "code": "ar", "name": "Arabic", "siteCode": "ar" },
+    { "code": "zh", "name": "Chinese", "siteCode": "zh-CN|zh-TW" }
+  ]
+}

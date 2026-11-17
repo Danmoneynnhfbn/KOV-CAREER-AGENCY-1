@@ -4,9 +4,53 @@ const crypto = require("node:crypto");
 
 const ROOT = process.cwd();
 const SITE = "https://www.kovcareeragency.org";
-const CATALOG_PATH = path.join(ROOT, "data", "kov-discovery-catalog.jsonld");
-const CATALOG_URL = `${SITE}/data/kov-discovery-catalog.jsonld`;
+const CATALOG_URL = "urn:kov:career-agency:metadata";
 const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, "PAGE_MANIFEST.json"), "utf8"));
+const expandedTaxonomy = require("../assets/expanded-taxonomy.js");
+const industries = require("../assets/industry-directory.js").industryDirectory;
+const faqs = require("../assets/faq-directory.js").faqDirectory;
+const worldCities = require("../assets/world-cities.js").worldCities;
+
+const TAXONOMY_DATASETS = [
+  ["audiences", "Professional audiences", "audienceDirectory"],
+  ["languages", "Languages", "languageDirectory"],
+  ["seniority-levels", "Seniority levels", "seniorityLevels"],
+  ["job-functions", "Job functions", "jobFunctionDirectory"],
+  ["employment-types", "Employment types", "employmentTypeDirectory"],
+  ["career-challenges", "Career challenges", "careerChallengeDirectory"],
+  ["search-intents", "Career search intents", "searchIntentDirectory"],
+  ["skills", "Professional skills", "skillDirectory"],
+  ["qualifications", "Qualifications", "qualificationDirectory"],
+  ["professional-synonyms", "Professional synonyms and related terminology", "professionalSynonymDirectory"],
+  ["institutions", "Organizations and institutions", "institutionDirectory"],
+];
+const TAXONOMY_SEARCH_INDEX = new Map();
+for (const [id, , key] of TAXONOMY_DATASETS) {
+  const byToken = new Map();
+  for (const record of expandedTaxonomy[key] || []) {
+    const label = record.name || record.label || record.title || record.term || record.query || "";
+    const phrase = label.toLocaleLowerCase("en").normalize("NFKC")
+      .replace(/[-_/]+/g, " ").replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
+    if (phrase.length < 5) continue;
+    const firstToken = phrase.split(" ").find((token) => token.length >= 4);
+    if (!firstToken) continue;
+    if (!byToken.has(firstToken)) byToken.set(firstToken, []);
+    byToken.get(firstToken).push({ record, label, phrase });
+  }
+  for (const records of byToken.values()) records.sort((left, right) => right.phrase.length - left.phrase.length);
+  TAXONOMY_SEARCH_INDEX.set(id, byToken);
+}
+const CITY_SEARCH_INDEX = new Map();
+for (const place of worldCities) {
+  const label = place.city || place.city_ascii || "";
+  const phrase = label.toLocaleLowerCase("en").normalize("NFKC")
+    .replace(/[-_/]+/g, " ").replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
+  const firstToken = phrase.split(" ").find((token) => token.length >= 5);
+  if (!firstToken) continue;
+  if (!CITY_SEARCH_INDEX.has(firstToken)) CITY_SEARCH_INDEX.set(firstToken, []);
+  CITY_SEARCH_INDEX.get(firstToken).push({ place, label, phrase });
+}
+for (const places of CITY_SEARCH_INDEX.values()) places.sort((left, right) => right.phrase.length - left.phrase.length);
 
 const COUNTRIES = [
   ["Afghanistan", "AF"], ["Albania", "AL"], ["Algeria", "DZ"], ["Andorra", "AD"],
@@ -174,13 +218,28 @@ function parseSingleColumnCsv(text) {
 }
 
 function loadTerms() {
-  const jobPath = path.join(ROOT, "town-role-insitutution", "job-titles.txt");
-  const occupationPath = path.join(ROOT, "town-role-insitutution", "occupations.csv");
+  const dataDirectory = path.join(ROOT, "town-role-insitutution");
+  const jobPath = path.join(dataDirectory, "KOV_Job_Titles_Expanded_98380.txt");
+  const occupationPath = path.join(dataDirectory, "KOV_Occupations_Expanded_1655.csv");
+  const originalJobPath = path.join(dataDirectory, "job-titles.txt");
+  const originalOccupationPath = path.join(dataDirectory, "occupations.csv");
   const jobTitles = fs.readFileSync(jobPath, "utf8").replace(/^\uFEFF/, "").split(/\r?\n/).map((s) => s.trim()).filter(Boolean);
   const occupationRows = parseSingleColumnCsv(fs.readFileSync(occupationPath, "utf8").replace(/^\uFEFF/, ""));
   assert(occupationRows[0]?.trim().toLowerCase() === "occupations", "Unexpected occupation CSV header.");
   const occupations = occupationRows.slice(1).map((s) => s.trim()).filter(Boolean);
-  assert(jobTitles.length > 0 && occupations.length > 0, "One or more source lists are empty.");
+  const originalJobTitles = fs.readFileSync(originalJobPath, "utf8").replace(/^\uFEFF/, "").split(/\r?\n/).map((s) => s.trim()).filter(Boolean);
+  const originalOccupationRows = parseSingleColumnCsv(fs.readFileSync(originalOccupationPath, "utf8").replace(/^\uFEFF/, ""));
+  assert(originalOccupationRows[0]?.trim().toLowerCase() === "occupations", "Unexpected original occupation CSV header.");
+  const originalOccupations = originalOccupationRows.slice(1).map((s) => s.trim()).filter(Boolean);
+
+  assert(jobTitles.length === 98380, `Expected 98,380 expanded job titles; found ${jobTitles.length}.`);
+  assert(occupations.length === 1655, `Expected 1,655 expanded occupations; found ${occupations.length}.`);
+  assert(unique(occupations).length === occupations.length, "Duplicate expanded occupations found.");
+  const expandedJobTitles = new Set(jobTitles.map(normalize));
+  const expandedOccupations = new Set(occupations.map(normalize));
+  assert(originalJobTitles.every((title) => expandedJobTitles.has(normalize(title))), "Expanded job-title list does not preserve every original title.");
+  assert(originalOccupations.every((name) => expandedOccupations.has(normalize(name))), "Expanded occupation list does not preserve every original occupation.");
+
   return { jobTitles, occupations };
 }
 
@@ -223,7 +282,16 @@ function writeCatalog(jobTitles, occupations) {
       url: CATALOG_URL,
       publisher: { "@id": `${SITE}/#organization` },
       description: "Reference lists for country, job-title and occupation discovery. Inclusion does not claim that KOV has an office, branch, client, vacancy or established operation in a country, or that KOV offers a service for every listed role.",
-      dataset: refItems([countrySetId, jobSetId, occupationSetId]),
+      dataset: refItems([
+        countrySetId,
+        jobSetId,
+        occupationSetId,
+        ...TAXONOMY_DATASETS.map(([id]) => `${CATALOG_URL}#dataset-${id}`),
+        `${CATALOG_URL}#dataset-industries`,
+        `${CATALOG_URL}#dataset-faqs`,
+        `${CATALOG_URL}#dataset-cities`,
+        `${CATALOG_URL}#dataset-towns`,
+      ]),
     },
     {
       "@type": "Dataset",
@@ -242,7 +310,7 @@ function writeCatalog(jobTitles, occupations) {
       "@type": "Dataset",
       "@id": jobSetId,
       name: "Complete job-title reference list",
-      description: `Every nonblank entry from the existing job-titles.txt source (${jobTitles.length} entries). This is a career-discovery reference, not a vacancy list or a promise of service for every title.`,
+      description: `Every nonblank entry from KOV_Job_Titles_Expanded_98380.txt (${jobTitles.length} entries), which preserves every original job title. This is a career-discovery reference, not a vacancy list or a promise of service for every title.`,
       includedInDataCatalog: { "@id": catalogId },
       hasPart: [
         { "@id": jobTermSetId },
@@ -257,7 +325,7 @@ function writeCatalog(jobTitles, occupations) {
       "@type": "Dataset",
       "@id": occupationSetId,
       name: "Complete occupation reference list",
-      description: `Every nonblank entry from the existing occupations.csv source (${occupations.length} distinct occupations). The list is a reference taxonomy, not a vacancy list or a promise of service for every occupation.`,
+      description: `Every nonblank entry from KOV_Occupations_Expanded_1655.csv (${occupations.length} distinct occupations), which preserves every original occupation. The list is a reference taxonomy, not a vacancy list or a promise of service for every occupation.`,
       includedInDataCatalog: { "@id": catalogId },
       mentions: { "@id": occupationListId },
       distribution: {
@@ -273,6 +341,48 @@ function writeCatalog(jobTitles, occupations) {
       hasDefinedTerm: refItems(jobTitles.map((title, index) => idFor("job-title", title, index + 1))),
     },
   ];
+
+  const taxonomyDistribution = {
+    "@type": "DataDownload",
+    contentUrl: `${SITE}/data/taxonomy/verified-expanded-taxonomy.json`,
+    encodingFormat: "application/json",
+  };
+  for (const [id, name, key] of TAXONOMY_DATASETS) {
+    const records = expandedTaxonomy[key];
+    assert(Array.isArray(records), `Missing taxonomy dataset ${key}.`);
+    graph.push({
+      "@type": "Dataset",
+      "@id": `${CATALOG_URL}#dataset-${id}`,
+      name,
+      description: `${records.length} source-backed records in the ${name.toLocaleLowerCase("en")} reference collection. Record identifiers and provenance fields are retained in the downloadable JSON distribution. Career-search entries are explicitly editorial hypotheses, not observed Search Console queries.`,
+      numberOfItems: records.length,
+      includedInDataCatalog: { "@id": catalogId },
+      distribution: taxonomyDistribution,
+    });
+  }
+  const industries = require("../assets/industry-directory.js").industryDirectory;
+  const faqs = require("../assets/faq-directory.js").faqDirectory;
+  for (const [id, name, records] of [
+    ["industries", "Industry classifications", industries],
+    ["faqs", "Frequently asked questions", faqs],
+  ]) {
+    assert(Array.isArray(records) && records.length > 0, `Missing ${name} records.`);
+    graph.push({
+      "@type": "Dataset",
+      "@id": `${CATALOG_URL}#dataset-${id}`,
+      name,
+      description: `${records.length} existing project records in the ${name.toLocaleLowerCase("en")} collection.`,
+      numberOfItems: records.length,
+      includedInDataCatalog: { "@id": catalogId },
+      distribution: {
+        "@type": "DataDownload",
+        contentUrl: id === "industries"
+          ? `${SITE}/assets/industry-directory.js`
+          : `${SITE}/assets/faq-directory.js`,
+        encodingFormat: "application/javascript",
+      },
+    });
+  }
 
   const countryIds = [];
   for (const [name, code] of COUNTRIES) {
@@ -313,12 +423,20 @@ function writeCatalog(jobTitles, occupations) {
   addList(graph, { id: countryListId, name: "197 countries", items: countryIds });
   addList(graph, { id: occupationListId, name: "All source occupations", items: occupationIds });
 
-  const output = { "@context": "https://schema.org", "@graph": graph };
   return {
     catalogId,
     countryListId,
     occupationListId,
-    json: escapeJsonForHtml(output, 0) + "\n",
+    datasetRows: [
+      ...TAXONOMY_DATASETS.map(([id, name, key]) => [id, name, expandedTaxonomy[key].length]),
+      ["job-titles", "Job titles", jobTitles.length],
+      ["occupations", "Occupations", occupations.length],
+      ["industries", "Industries", industries.length],
+      ["faqs", "Frequently asked questions", faqs.length],
+      ["countries", "Countries", COUNTRIES.length],
+      ["cities", "Cities and populated places", worldCities.length],
+      ["towns", "Towns and localities", 1323],
+    ],
     jobTitleIds: new Map(jobTitles.map((name, index) => [normalize(name), idFor("job-title", name, index + 1)])),
     occupationIds: new Map(occupations.map((name) => [normalize(name), idFor("occupation", name)])),
     countries: new Map(COUNTRIES.map(([name, code]) => [normalize(name), { id: `${CATALOG_URL}#country-${code.toLowerCase()}`, name, code }])),
@@ -359,9 +477,82 @@ function htmlMetadata(html, filePath) {
     if (tag[1].toLowerCase() === "html" && attrs.lang) language = attrs.lang;
   }
   const inferred = urlFromPath(filePath);
-  const url = canonical ? new URL(canonical, `${SITE}/`).href : inferred;
+  let url = inferred;
+  if (canonical) {
+    try {
+      const canonicalUrl = new URL(canonical, `${SITE}/`);
+      if (["www.kovcareeragency.org", "kovcareeragency.org"].includes(canonicalUrl.hostname)) url = canonicalUrl.href;
+    } catch {}
+  }
   if (!description && redirect) description = `This page redirects to ${url}.`;
+  if (!title) {
+    const h1 = html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1\s*>/i);
+    title = h1 ? decodeHtml(h1[1].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim()) : titleCase(path.basename(filePath, path.extname(filePath)).replace(/[-_]/g, " "));
+  }
+  if (!description) {
+    const paragraph = html.match(/<p\b[^>]*>([\s\S]*?)<\/p\s*>/i);
+    if (paragraph) description = decodeHtml(paragraph[1].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim()).slice(0, 300);
+  }
   return { title, description, url, language };
+}
+
+function escapeAttribute(value) {
+  return String(value || "").replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+function ensureHeadMetadata(html, meta, filePath) {
+  let headEnd = html.search(/<\/head\s*>/i);
+  if (headEnd < 0) {
+    const jsonLd = [...html.matchAll(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script\s*>/gi)].map((match) => match[0]);
+    html = html.replace(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script\s*>/gi, "");
+    const htmlTag = html.match(/<html\b[^>]*>/i);
+    const insertion = `<head>${jsonLd.join("\n")}</head>`;
+    html = htmlTag
+      ? html.replace(htmlTag[0], `${htmlTag[0]}${insertion}`)
+      : `${insertion}${html}`;
+    headEnd = html.search(/<\/head\s*>/i);
+  }
+  let head = html.slice(0, headEnd);
+  const hasTitle = /<title\b/i.test(head);
+  if (!hasTitle && meta.title) head += `<title>${escapeAttribute(meta.title)}</title>\n`;
+  const metas = [...head.matchAll(/<meta\b[^>]*>/gi)].map((match) => attributes(match[0]));
+  const present = (key, value) => metas.some((item) => item[key]?.toLocaleLowerCase("en") === value.toLocaleLowerCase("en"));
+  const addMeta = (key, value, content) => {
+    if (!content || present(key, value)) return;
+    head += `<meta ${key}="${escapeAttribute(value)}" content="${escapeAttribute(content)}">\n`;
+  };
+  addMeta("name", "description", meta.description || `${meta.title}.`);
+  addMeta("property", "og:type", "website");
+  addMeta("property", "og:url", meta.url);
+  addMeta("property", "og:title", meta.title);
+  addMeta("property", "og:description", meta.description || `${meta.title}.`);
+  const privateOrReference = /^(?:\.private_admin|_design-reference|design-reference|vscode)(?:\/|$)/i.test(filePath.replace(/\\/g, "/"));
+  const hasImage = metas.some((item) => item.property?.toLocaleLowerCase("en") === "og:image");
+  if (!hasImage && !privateOrReference && fs.existsSync(path.join(ROOT, "preview.png"))) {
+    addMeta("property", "og:image", `${SITE}/preview.png`);
+    addMeta("property", "og:image:alt", "KOV Career Agency");
+  }
+  addMeta("name", "twitter:card", hasImage || (!privateOrReference && fs.existsSync(path.join(ROOT, "preview.png"))) ? "summary_large_image" : "summary");
+  addMeta("name", "twitter:title", meta.title);
+  addMeta("name", "twitter:description", meta.description || `${meta.title}.`);
+  const imageTag = metas.find((item) => item.property?.toLocaleLowerCase("en") === "og:image");
+  const image = imageTag?.content || (!privateOrReference && fs.existsSync(path.join(ROOT, "preview.png")) ? `${SITE}/preview.png` : "");
+  addMeta("name", "twitter:image", image);
+  return head + html.slice(headEnd);
+}
+
+function preservedDirectives(html) {
+  return [...html.matchAll(/<(?:meta|link)\b[^>]*(?:name\s*=\s*["']robots["']|rel\s*=\s*["'][^"']*canonical[^"']*["'])[^>]*>/gi)]
+    .map((match) => match[0]);
+}
+
+function bodyMarkup(html) {
+  const start = html.search(/<body\b/i);
+  if (start < 0) return html
+    .replace(/<head\b[^>]*>[\s\S]*?<\/head\s*>/i, "")
+    .replace(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script\s*>/gi, "");
+  const end = html.search(/<\/body\s*>/i);
+  return html.slice(start, end < 0 ? html.length : end + 7);
 }
 
 function urlFromPath(filePath) {
@@ -489,6 +680,45 @@ function pageClassification(row, relative, meta) {
   };
 }
 
+function taxonomyRecordsForPage(key, corpus, limit = 6) {
+  const normalizedCorpus = normalize(corpus).replace(/[-_/]+/g, " ").replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
+  const datasetId = TAXONOMY_DATASETS.find(([, , directory]) => directory === key)?.[0];
+  const byToken = TAXONOMY_SEARCH_INDEX.get(datasetId);
+  if (!byToken) return [];
+  const candidates = new Set();
+  for (const token of new Set(normalizedCorpus.split(" ").filter((word) => word.length >= 4))) {
+    for (const item of byToken.get(token) || []) candidates.add(item);
+  }
+  const matches = [];
+  const seen = new Set();
+  for (const item of candidates) {
+    if (!normalizedCorpus.includes(item.phrase)) continue;
+    const id = item.record.id || item.record.code || item.record.uri || item.label;
+    if (seen.has(id)) continue;
+    seen.add(id);
+    matches.push(item);
+    matches.sort((left, right) => right.phrase.length - left.phrase.length);
+    if (matches.length > limit) matches.pop();
+  }
+  return matches;
+}
+
+function cityRecordsForPage(corpus, limit = 8) {
+  const normalizedCorpus = normalize(corpus).replace(/[-_/]+/g, " ").replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
+  const candidates = new Set();
+  for (const token of new Set(normalizedCorpus.split(" ").filter((word) => word.length >= 5))) {
+    for (const item of CITY_SEARCH_INDEX.get(token) || []) candidates.add(item);
+  }
+  const matches = [];
+  for (const item of candidates) {
+    if (!normalizedCorpus.includes(item.phrase)) continue;
+    matches.push(item);
+    matches.sort((left, right) => right.phrase.length - left.phrase.length);
+    if (matches.length > limit) matches.pop();
+  }
+  return matches;
+}
+
 function pageType(row, relative) {
   const types = ["WebPage"];
   const lower = relative.toLocaleLowerCase("en");
@@ -498,7 +728,6 @@ function pageType(row, relative) {
     || /^(roles\.html|industries\.html|industries\/index\.html|glossary\.html|countries-we-serve\.html|faqs\.html)$/.test(relative.replace(/\\/g, "/"))) {
     types.push("CollectionPage");
   }
-  if (/^faq[\\/]/i.test(relative)) types.push("FAQPage");
   return types;
 }
 
@@ -599,11 +828,29 @@ function setOrAdd(node, key, value) {
   node[key] = value;
 }
 
+function stripExternalJsonCatalogReferences(nodes) {
+  function clean(value) {
+    if (Array.isArray(value)) return value.map(clean).filter((item) => item !== undefined);
+    if (!value || typeof value !== "object") return value;
+    if (typeof value["@id"] === "string" && /\/data\/[^/]+\.jsonld(?:#|$)/i.test(value["@id"])) {
+      return undefined;
+    }
+    const output = {};
+    for (const [key, item] of Object.entries(value)) {
+      const cleaned = clean(item);
+      if (cleaned !== undefined) output[key] = cleaned;
+    }
+    return output;
+  }
+  return nodes.map(clean).filter((node) => node !== undefined);
+}
+
 function processPage(row, catalog, pageByPath, stats) {
   const filePath = row.path;
   const absolutePath = path.join(ROOT, filePath);
   const original = fs.readFileSync(absolutePath, "utf8");
   const meta = { ...htmlMetadata(original, filePath), ...pageByPath.get(filePath.replace(/\\/g, "/")) };
+  if (!meta.description) meta.description = `${meta.title || "Career information"}.`;
   assert(meta.url.startsWith(`${SITE}/`), `Unexpected page URL for ${filePath}: ${meta.url}`);
   const originalScripts = buildScriptIndexes(original);
   const originalNodeCount = originalScripts.reduce((sum, script) => sum + script.nodes.length, 0);
@@ -630,7 +877,7 @@ function processPage(row, catalog, pageByPath, stats) {
       }
     }
   }
-  pageScript.nodes = mergedNodes;
+  pageScript.nodes = stripExternalJsonCatalogReferences(mergedNodes);
   pageScript.dirty = true;
   const scripts = [pageScript];
 
@@ -650,6 +897,10 @@ function processPage(row, catalog, pageByPath, stats) {
   });
   addType(page, "WebPage");
   for (const type of pageType(row, filePath)) addType(page, type);
+  if (!page.mainEntity) {
+    page["@type"] = (Array.isArray(page["@type"]) ? page["@type"] : [page["@type"]])
+      .filter((type) => type !== "FAQPage");
+  }
   setOrAdd(page, "name", meta.title);
   setOrAdd(page, "description", meta.description);
   setOrAdd(page, "url", meta.url);
@@ -685,12 +936,17 @@ function processPage(row, catalog, pageByPath, stats) {
     .filter((type) => type && type !== "EmploymentAgency");
   addType(organization, "Organization");
   addType(organization, "ProfessionalService");
+  const founderReferences = Array.isArray(organization.founder)
+    ? organization.founder
+    : organization.founder ? [organization.founder] : [];
+  organization.founder = founderReferences.find((item) => item && item["@id"] === `${SITE}/#founder`)
+    || { "@id": `${SITE}/#founder` };
   const logo = path.join(ROOT, "kov-logo.png");
   if (fs.existsSync(logo) && !organization.logo) organization.logo = { "@type": "ImageObject", url: `${SITE}/kov-logo.png` };
   const preview = path.join(ROOT, "preview.png");
   if (fs.existsSync(preview) && !organization.image) organization.image = `${SITE}/preview.png`;
 
-  ensureNode(scripts, pageScript, {
+  const founder = ensureNode(scripts, pageScript, {
     "@type": "Person",
     "@id": `${SITE}/#founder`,
     name: "Adekunle Ayotoba Daniel",
@@ -698,6 +954,12 @@ function processPage(row, catalog, pageByPath, stats) {
     jobTitle: "Founder and Principal Agent",
     worksFor: { "@id": `${SITE}/#organization` },
   });
+  const founderNameValues = [
+    ...(Array.isArray(founder.name) ? founder.name : [founder.name]),
+    ...(Array.isArray(founder.alternateName) ? founder.alternateName : founder.alternateName ? [founder.alternateName] : []),
+  ].filter((name) => typeof name === "string" && name.trim());
+  founder.name = "Adekunle Ayotoba Daniel";
+  founder.alternateName = unique(founderNameValues.filter((name) => name !== founder.name));
 
   const website = ensureNode(scripts, pageScript, {
     "@type": "WebSite",
@@ -706,24 +968,12 @@ function processPage(row, catalog, pageByPath, stats) {
     url: `${SITE}/`,
     publisher: { "@id": `${SITE}/#organization` },
     hasPart: { "@id": catalog.catalogId },
-    mentions: [
-      { "@id": `${CATALOG_URL}#countries` },
-      { "@id": `${CATALOG_URL}#job-titles` },
-      { "@id": `${CATALOG_URL}#occupations` },
-      { "@id": `${CATALOG_URL}#country-list` },
-      { "@id": `${CATALOG_URL}#occupation-list` },
-      { "@id": `${CATALOG_URL}#job-title-terms` },
-    ],
+    mentions: catalog.datasetRows.map(([id]) => ({ "@id": `${CATALOG_URL}#dataset-${id}` })),
   });
   website.hasPart = mergeValue(website.hasPart, { "@id": catalog.catalogId });
-  website.mentions = mergeValue(website.mentions || [], [
-    { "@id": `${CATALOG_URL}#countries` },
-    { "@id": `${CATALOG_URL}#job-titles` },
-    { "@id": `${CATALOG_URL}#occupations` },
-    { "@id": `${CATALOG_URL}#country-list` },
-    { "@id": `${CATALOG_URL}#occupation-list` },
-    { "@id": `${CATALOG_URL}#job-title-terms` },
-  ]);
+  website.mentions = (Array.isArray(website.mentions) ? website.mentions : [website.mentions])
+    .filter((item) => !JSON.stringify(item).includes("/data/") && !JSON.stringify(item).includes(".jsonld"));
+  website.mentions = mergeValue(website.mentions, catalog.datasetRows.map(([id]) => ({ "@id": `${CATALOG_URL}#dataset-${id}` })));
 
   const breadcrumbId = `${meta.url}#breadcrumb`;
   const breadcrumbItems = breadcrumbsFor(filePath, meta, pageByPath);
@@ -747,6 +997,51 @@ function processPage(row, catalog, pageByPath, stats) {
   const classification = pageClassification(row, filePath, meta);
   const references = [];
   const localNodes = [];
+  const datasetIds = catalog.datasetRows.map(([id]) => `${CATALOG_URL}#dataset-${id}`);
+  localNodes.push({
+    "@type": "DataCatalog",
+    "@id": catalog.catalogId,
+    name: "KOV Career Agency Global HTML Metadata Catalog",
+    hasPart: datasetIds.map((id) => ({ "@id": id })),
+  });
+  const inlineDatasetNodes = new Map();
+  for (const [id, name, numberOfItems] of catalog.datasetRows) {
+    const datasetId = `${CATALOG_URL}#dataset-${id}`;
+    references.push({ "@id": datasetId });
+    const datasetNode = {
+      "@type": "Dataset",
+      "@id": datasetId,
+      name,
+      description: `${numberOfItems} existing ${name.toLocaleLowerCase("en")} reference records. This count describes the supplied project records; page-specific entity associations are added only where the page content supports them.`,
+      numberOfItems,
+      includedInDataCatalog: { "@id": catalog.catalogId },
+    };
+    inlineDatasetNodes.set(id, datasetNode);
+    localNodes.push(datasetNode);
+  }
+  const pageCorpus = `${filePath} ${meta.title} ${meta.description}`;
+  const matchedTaxonomyTerms = [];
+  for (const [id, , key] of TAXONOMY_DATASETS) {
+    const datasetId = `${CATALOG_URL}#dataset-${id}`;
+    const datasetNode = inlineDatasetNodes.get(id);
+    const matchingRecords = taxonomyRecordsForPage(key, pageCorpus);
+    for (const { record, label } of matchingRecords) {
+      const identifier = record.id || record.code || record.uri || record["@id"] || label;
+      const termId = `${CATALOG_URL}#term-${id}-${hash(identifier)}`;
+      const term = {
+        "@type": "DefinedTerm",
+        "@id": termId,
+        name: label,
+        identifier,
+        inDefinedTermSet: { "@id": datasetId },
+      };
+      if (record.description || record.definition) term.description = record.description || record.definition;
+      localNodes.push(term);
+      references.push({ "@id": termId });
+      datasetNode.hasPart = mergeValue(datasetNode.hasPart || [], { "@id": termId });
+      matchedTaxonomyTerms.push(label);
+    }
+  }
   for (const audienceName of classification.audiences) {
     const audienceId = `${SITE}/#audience-${hash(audienceName)}`;
     references.push({ "@id": audienceId });
@@ -765,6 +1060,8 @@ function processPage(row, catalog, pageByPath, stats) {
       name: classification.industry,
       mainEntityOfPage: { "@id": pageId },
     });
+    const industryDataset = inlineDatasetNodes.get("industries");
+    industryDataset.hasPart = mergeValue(industryDataset.hasPart || [], { "@id": industryId });
   }
 
   const role = pageRole(filePath);
@@ -776,10 +1073,12 @@ function processPage(row, catalog, pageByPath, stats) {
       if (jobTitleId) {
         references.push({ "@id": jobTitleId });
         localNodes.push({ "@type": "DefinedTerm", "@id": jobTitleId, name: alias });
+        inlineDatasetNodes.get("job-titles").hasPart = mergeValue(inlineDatasetNodes.get("job-titles").hasPart || [], { "@id": jobTitleId });
       }
       if (occupationId) {
         references.push({ "@id": occupationId });
         localNodes.push({ "@type": "Occupation", "@id": occupationId, name: alias });
+        inlineDatasetNodes.get("occupations").hasPart = mergeValue(inlineDatasetNodes.get("occupations").hasPart || [], { "@id": occupationId });
       }
     }
     const roleName = role.name.toLocaleLowerCase("en");
@@ -807,6 +1106,7 @@ function processPage(row, catalog, pageByPath, stats) {
         value: country.code,
       },
     });
+    inlineDatasetNodes.get("countries").hasPart = mergeValue(inlineDatasetNodes.get("countries").hasPart || [], { "@id": country.id });
   }
   for (const place of geography.places) {
     const placeId = `${SITE}/#place-${hash(place.name)}`;
@@ -822,12 +1122,63 @@ function processPage(row, catalog, pageByPath, stats) {
       placeNode.containedInPlace = { "@id": country.id };
     }
     localNodes.push(placeNode);
+    inlineDatasetNodes.get("cities").hasPart = mergeValue(inlineDatasetNodes.get("cities").hasPart || [], { "@id": placeId });
+  }
+  const cityMatches = cityRecordsForPage(pageCorpus);
+  for (const { place: record } of cityMatches) {
+    const name = record.city || record.city_ascii;
+    let placeNode = localNodes.find((node) => node["@type"] === "Place" && normalize(node.name) === normalize(name));
+    if (!placeNode) {
+      placeNode = { "@type": "Place", "@id": `${CATALOG_URL}#city-${record.simplemaps_id || hash(name)}`, name };
+      localNodes.push(placeNode);
+    }
+    placeNode.identifier = record.simplemaps_id || record.geonames_id || undefined;
+    placeNode.geo = { "@type": "GeoCoordinates", latitude: Number(record.lat), longitude: Number(record.lng) };
+    const cityCountry = catalog.countries.get(normalize(record.country || ""));
+    if (cityCountry) placeNode.containedInPlace = { "@id": cityCountry.id };
+    if (record.admin_name) {
+      const areaId = `${CATALOG_URL}#area-${hash(`${record.iso2 || ""}-${record.admin_name}`)}`;
+      localNodes.push({
+        "@type": "AdministrativeArea",
+        "@id": areaId,
+        name: record.admin_name,
+        identifier: record.iso2 ? `${record.iso2}-${record.admin_name}` : undefined,
+        containedInPlace: cityCountry ? { "@id": cityCountry.id } : undefined,
+      });
+      placeNode.containedInPlace = { "@id": areaId };
+    }
+    references.push({ "@id": placeNode["@id"] });
+    inlineDatasetNodes.get("cities").hasPart = mergeValue(inlineDatasetNodes.get("cities").hasPart || [], { "@id": placeNode["@id"] });
   }
 
   if (/^countries-we-serve\.html$/i.test(filePath.replace(/\\/g, "/"))) {
+    const countryItems = [];
+    for (const [name, code] of COUNTRIES) {
+      const country = catalog.countries.get(normalize(name));
+      if (!country) continue;
+      countryItems.push({ "@type": "ListItem", position: countryItems.length + 1, item: { "@id": country.id } });
+      references.push({ "@id": country.id });
+      localNodes.push({
+        "@type": "Country",
+        "@id": country.id,
+        name,
+        identifier: {
+          "@type": "PropertyValue",
+          propertyID: code === "XK" ? "ISO 3166-1 alpha-2 (user-assigned)" : "ISO 3166-1 alpha-2",
+          value: code,
+        },
+      });
+      inlineDatasetNodes.get("countries").hasPart = mergeValue(inlineDatasetNodes.get("countries").hasPart || [], { "@id": country.id });
+    }
+    localNodes.push({
+      "@type": "ItemList",
+      "@id": catalog.countryListId,
+      name: "Countries in the KOV global discovery reference",
+      numberOfItems: countryItems.length,
+      itemListOrder: "https://schema.org/ItemListUnordered",
+      itemListElement: countryItems,
+    });
     references.push({ "@id": catalog.countryListId });
-    references.push({ "@id": `${CATALOG_URL}#countries` });
-    references.push({ "@id": `${CATALOG_URL}#country-list` });
   }
 
   const topics = classification.topics;
@@ -862,7 +1213,14 @@ function processPage(row, catalog, pageByPath, stats) {
   const mentions = uniqueReferences([...(Array.isArray(page.mentions) ? page.mentions : page.mentions ? [page.mentions] : []), ...references]);
   if (mentions.length) page.mentions = mentions;
   else delete page.mentions;
-  if (topics.length) page.keywords = unique([...(Array.isArray(page.keywords) ? page.keywords : page.keywords ? [page.keywords] : []), ...topics, ...(role?.aliases || [])]);
+  if (topics.length || matchedTaxonomyTerms.length) {
+    page.keywords = unique([
+      ...(Array.isArray(page.keywords) ? page.keywords : page.keywords ? [page.keywords] : []),
+      ...topics,
+      ...(role?.aliases || []),
+      ...matchedTaxonomyTerms,
+    ]);
+  }
 
   for (const node of localNodes) ensureNode(scripts, pageScript, node);
 
@@ -884,10 +1242,10 @@ function processPage(row, catalog, pageByPath, stats) {
 
   const currentMarker = originalScripts.some((script) => script.hadDiscovery);
   if (!currentMarker) pageScript.dirty = true;
-  const changed = renderPage(original, originalScripts, pageScript, filePath);
-  const strippedBefore = original.replace(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script\s*>/gi, "");
-  const strippedAfter = changed.replace(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script\s*>/gi, "");
-  assert(strippedBefore === strippedAfter, `Non-JSON-LD markup changed in ${filePath}.`);
+  const rendered = renderPage(original, originalScripts, pageScript, filePath);
+  const changed = ensureHeadMetadata(rendered, meta, filePath);
+  assert(bodyMarkup(original) === bodyMarkup(changed), `BODY content changed in ${filePath}.`);
+  assert(stable(preservedDirectives(original)) === stable(preservedDirectives(changed)), `Robots or canonical directives changed in ${filePath}.`);
 
   const parsed = buildScriptIndexes(changed);
   assert(parsed.length === 1, `Expected one consolidated JSON-LD block in ${filePath}; found ${parsed.length}.`);
@@ -919,11 +1277,32 @@ function uniqueReferences(values) {
 
 function main() {
   assert(Array.isArray(manifest.pages) && manifest.pages.length > 0, "PAGE_MANIFEST.json contains no pages.");
+  const inventory = manifest.repository_html_inventory?.files || [];
+  assert(inventory.length > 0, "PAGE_MANIFEST.json contains no complete HTML inventory.");
+  const listed = new Map(manifest.pages.map((row) => [row.path.replace(/\\/g, "/"), row]));
+  const pageRows = inventory.map((entry) => {
+    const filePath = entry.path.replace(/\\/g, "/");
+    const listedPage = listed.get(filePath);
+    return {
+      ...(listedPage || {}),
+      path: filePath,
+      template_type: listedPage?.template_type || (filePath.startsWith("faq/") ? "FAQ content" : "content"),
+      indexable: Boolean(entry.indexable),
+    };
+  });
+  const inventoryPaths = new Set(pageRows.map((row) => row.path));
+  for (const row of manifest.pages) {
+    if (!inventoryPaths.has(row.path.replace(/\\/g, "/"))) {
+      pageRows.push({ ...row, path: row.path.replace(/\\/g, "/"), indexable: false });
+    }
+  }
+  assert(new Set(pageRows.map((row) => row.path)).size === pageRows.length, "HTML inventory contains duplicate paths.");
+  for (const row of pageRows) assert(fs.existsSync(path.join(ROOT, row.path)), `Inventory HTML file is missing: ${row.path}`);
   const { jobTitles, occupations } = loadTerms();
   const catalog = writeCatalog(jobTitles, occupations);
   const pageByPath = new Map();
   const urlPaths = new Map();
-  for (const row of manifest.pages) {
+  for (const row of pageRows) {
     const pagePath = row.path.replace(/\\/g, "/");
     const html = fs.readFileSync(path.join(ROOT, row.path), "utf8");
     const meta = htmlMetadata(html, row.path);
@@ -937,24 +1316,32 @@ function main() {
     }
   }
   const stats = { pages: 0, originalNodes: 0, finalNodes: 0, contextChanges: 0, pageIds: [], changes: [] };
-  for (const row of manifest.pages) processPage(row, catalog, pageByPath, stats);
-  assert(new Set(stats.pageIds).size === manifest.pages.length, "Page URLs or WebPage identifiers are not unique.");
+  for (const row of pageRows) processPage(row, catalog, pageByPath, stats);
+  assert(new Set(stats.pageIds).size === pageRows.length, "Page URLs or WebPage identifiers are not unique.");
   const dryRun = process.argv.includes("--dry-run");
   if (!dryRun) {
-    fs.writeFileSync(CATALOG_PATH, catalog.json, "utf8");
     for (const change of stats.changes) fs.writeFileSync(change.absolutePath, change.content, "utf8");
   }
   console.log(JSON.stringify({
     pagesCovered: stats.pages,
+    inventoryFiles: inventory.length,
+    nonIndexableFilesKeptNoindex: inventory.filter((entry) => !entry.indexable).length,
     countries: COUNTRIES.length,
     jobTitles: jobTitles.length,
+    normalizedDistinctJobTitles: unique(jobTitles).length,
+    normalizedDuplicateJobTitleEntries: jobTitles.length - unique(jobTitles).length,
     occupations: occupations.length,
-    catalogBytes: Buffer.byteLength(catalog.json),
+    inlineDatasetCategories: catalog.datasetRows.length,
     originalJsonLdNodes: stats.originalNodes,
     finalJsonLdNodes: stats.finalNodes,
     consolidatedJsonLdScripts: stats.pages,
     dryRun,
-    sourceFilesPreserved: ["town-role-insitutution/job-titles.txt", "town-role-insitutution/occupations.csv"],
+    sourceFilesPreserved: [
+      "town-role-insitutution/job-titles.txt",
+      "town-role-insitutution/occupations.csv",
+      "town-role-insitutution/KOV_Job_Titles_Expanded_98380.txt",
+      "town-role-insitutution/KOV_Occupations_Expanded_1655.csv",
+    ],
   }, null, 2));
 }
 

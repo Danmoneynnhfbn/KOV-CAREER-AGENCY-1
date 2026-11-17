@@ -13,8 +13,8 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Partner Career Representation | KOV Career Agency">
   <meta name="twitter:description" content="A practical guide to Partner career positioning, professional documents, target research, and candidate-side career representation with KOV.">
-  <link rel="stylesheet" href="/assets/design-components.css?v=3">
-  <link rel="stylesheet" href="/assets/ceo-hubs.css">
+  
+  
   <script type="application/ld+json" data-kov="discovery">{
   "@context": "https://schema.org",
   "@graph": [
@@ -51,9 +51,6 @@
           "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f"
         },
         {
-          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-title-7f3fa48ca88567813484-47239"
-        },
-        {
           "@id": "https://www.kovcareeragency.org/#topic-8fd6200ab94bc74a5753"
         },
         {
@@ -61,13 +58,28 @@
         },
         {
           "@id": "https://www.kovcareeragency.org/#topic-5f51def372401eaf6da3"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#metadata-catalog/audiences-9142f56587b4564b6952364d"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#metadata-catalog/job-titles-7f3fa48ca885678134842fa7"
         }
       ],
       "keywords": [
         "Career development",
         "Executive career representation",
         "Professional positioning",
-        "Partner"
+        "Partner",
+        "Research"
+      ],
+      "about": [
+        {
+          "@id": "https://www.kovcareeragency.org/#metadata-catalog/page-3d5f4daa23acd848ba63ca5b/dataset-audiences"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#metadata-catalog/page-3d5f4daa23acd848ba63ca5b/dataset-job-titles"
+        }
       ]
     },
     {
@@ -179,7 +191,8 @@
       ],
       "email": "daniel@kovcareeragency.org",
       "sameAs": [
-        "https://www.reddit.com/user/KOV_CAREER_AGENCY/"
+        "https://www.reddit.com/user/KOV_CAREER_AGENCY/",
+        "https://x.com/KOVCAREERAGENCY"
       ],
       "description": "An independent career agency providing candidate-side career representation and individual career services.",
       "knowsAbout": [
@@ -221,29 +234,7 @@
       "publisher": {
         "@id": "https://www.kovcareeragency.org/#organization"
       },
-      "hasPart": {
-        "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#catalog"
-      },
-      "mentions": [
-        {
-          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#countries"
-        },
-        {
-          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-titles"
-        },
-        {
-          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupations"
-        },
-        {
-          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#country-list"
-        },
-        {
-          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#occupation-list"
-        },
-        {
-          "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-title-terms"
-        }
-      ]
+      "mentions": []
     },
     {
       "@type": [
@@ -251,13 +242,6 @@
       ],
       "@id": "https://www.kovcareeragency.org/#audience-4cc81e18d19a60d5cc7f",
       "audienceType": "Job seekers"
-    },
-    {
-      "@type": [
-        "DefinedTerm"
-      ],
-      "@id": "https://www.kovcareeragency.org/data/kov-discovery-catalog.jsonld#job-title-7f3fa48ca88567813484-47239",
-      "name": "Partner"
     },
     {
       "@type": [
@@ -288,16 +272,118 @@
       "mainEntityOfPage": {
         "@id": "https://www.kovcareeragency.org/roles/partner/#webpage"
       }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://www.kovcareeragency.org/#metadata-catalog/page-3d5f4daa23acd848ba63ca5b/dataset-audiences",
+      "name": "Professional audiences",
+      "description": "1 page-associated professional audiences record represented from the page-specific source metadata; this is not the global collection count.",
+      "citation": [
+        "https://www.kovcareeragency.org/roles/"
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://www.kovcareeragency.org/#metadata-catalog/page-3d5f4daa23acd848ba63ca5b"
+      },
+      "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.kovcareeragency.org/data/taxonomy/kov-six-category-taxonomies.json",
+        "encodingFormat": "application/json",
+        "name": "KOV six-category taxonomy snapshot with record provenance"
+      },
+      "creator": {
+        "@type": "Organization",
+        "name": "KOV Career Agency"
+      },
+      "hasPart": {
+        "@id": "https://www.kovcareeragency.org/#metadata-catalog/page-3d5f4daa23acd848ba63ca5b/set-audiences"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://www.kovcareeragency.org/#metadata-catalog/page-3d5f4daa23acd848ba63ca5b/dataset-job-titles",
+      "name": "Job titles",
+      "description": "1 page-associated job titles record represented from the page-specific source metadata; this is not the global collection count.",
+      "citation": [
+        "https://www.onetcenter.org/database.html",
+        "https://www.bls.gov/soc/2018/home.htm"
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://www.kovcareeragency.org/#metadata-catalog/page-3d5f4daa23acd848ba63ca5b"
+      },
+      "hasPart": {
+        "@id": "https://www.kovcareeragency.org/#metadata-catalog/page-3d5f4daa23acd848ba63ca5b/set-job-titles"
+      }
+    },
+    {
+      "@type": "DataCatalog",
+      "@id": "https://www.kovcareeragency.org/#metadata-catalog/page-3d5f4daa23acd848ba63ca5b",
+      "name": "KOV Career Agency verified metadata catalog",
+      "description": "Metadata records represented on this page. Dataset descriptions report verified local record counts and identify unmet targets without claiming records that are not present.",
+      "hasPart": [
+        {
+          "@id": "https://www.kovcareeragency.org/#metadata-catalog/page-3d5f4daa23acd848ba63ca5b/dataset-audiences"
+        },
+        {
+          "@id": "https://www.kovcareeragency.org/#metadata-catalog/page-3d5f4daa23acd848ba63ca5b/dataset-job-titles"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "Audience",
+        "DefinedTerm"
+      ],
+      "@id": "https://www.kovcareeragency.org/#metadata-catalog/audiences-9142f56587b4564b6952364d",
+      "name": "Partner professionals in Index",
+      "inDefinedTermSet": {
+        "@id": "https://www.kovcareeragency.org/#metadata-catalog/page-3d5f4daa23acd848ba63ca5b/set-audiences"
+      },
+      "audienceType": "Partner professionals in Index"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.kovcareeragency.org/#metadata-catalog/job-titles-7f3fa48ca885678134842fa7",
+      "name": "partner",
+      "inDefinedTermSet": {
+        "@id": "https://www.kovcareeragency.org/#metadata-catalog/page-3d5f4daa23acd848ba63ca5b/set-job-titles"
+      }
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://www.kovcareeragency.org/#metadata-catalog/page-3d5f4daa23acd848ba63ca5b/set-audiences",
+      "name": "Professional audiences",
+      "hasDefinedTerm": [
+        {
+          "@id": "https://www.kovcareeragency.org/#metadata-catalog/audiences-9142f56587b4564b6952364d"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://www.kovcareeragency.org/#metadata-catalog/page-3d5f4daa23acd848ba63ca5b/set-job-titles",
+      "name": "Job titles",
+      "hasDefinedTerm": [
+        {
+          "@id": "https://www.kovcareeragency.org/#metadata-catalog/job-titles-7f3fa48ca885678134842fa7"
+        }
+      ]
     }
   ]
 }</script>
-<link rel="stylesheet" href="/css/design-system.css">
-<link rel="stylesheet" href="/css/theme-krackerz.css">
-  <link rel="stylesheet" href="/assets/research-pages.css">
+
+
+  
 <meta name="robots" content="index,follow">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="KOV Career Agency">
-<link rel="stylesheet" href="/assets/site-fixes.css?v=28"></head>
+  
+  <script defer src="/assets/kov-site-header.bundle.js?v=5" data-kov-react-navigation></script>
+<meta property="og:image" content="https://www.kovcareeragency.org/preview.png">
+<meta property="og:image:alt" content="KOV Career Agency">
+<meta name="twitter:image" content="https://www.kovcareeragency.org/preview.png">
+
+
+<link rel="stylesheet" href="/css/kov-global-redesign.css?v=29" data-kov-global-redesign></head>
 <body class="ceo-page kov-design--role-hub" data-design-group="role-hub" data-theme="krackerz">
   <div class="ceo-progress" data-reading-progress aria-hidden="true"></div>
   <header class="ceo-site-header">
@@ -332,7 +418,11 @@
           </div>
         </div>
         <aside class="ceo-hero-panel">
-          <img class="ceo-hero-image" src="/assets/people/executive-leader.jpg" alt="" loading="eager" decoding="async">
+          <picture data-kov-responsive-image>
+  <source type="image/avif" srcset="/assets/people/executive-leader.avif">
+  <source type="image/webp" srcset="/assets/people/executive-leader.webp">
+  <img class="ceo-hero-image" src="/assets/people/executive-leader.jpg" alt="" loading="eager" decoding="async">
+</picture>
           <p class="ceo-label">A considered approach</p>
           <p>Define the role you want, clarify your evidence, and agree the work before any outreach begins.</p>
           <a href="/how-it-works.html">See how KOV works</a>
@@ -686,9 +776,10 @@
     </div>
   </footer>
   <a class="ceo-button ceo-button-primary ceo-sticky-cta" href="/contact.html">Confidential consultation</a>
-  <script src="/assets/design-components.js?v=5" defer></script>
+  <script src="/assets/design-components.js?v=6" defer></script>
   <script src="/assets/ceo-hubs.js" defer></script>
 <script src="/js/site.js" defer></script>
-<script src="../../assets/uniform-footer.js?v=10"></script>
-</body>
+<script src="../../assets/uniform-footer.js?v=111111111"></script>
+<script defer src="/assets/kov-redesign.js?v=2"></script>
+<script defer src="/assets/kov-global-interactions.js?v=10" data-kov-global-interactions></script></body>
 </html>

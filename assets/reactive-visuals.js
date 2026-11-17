@@ -1,6 +1,5 @@
 (() => {
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
   const rootPrefix = /\/(?:services|markets|roles|industries|resources)\/[^/]*$/.test(window.location.pathname)
     ? '../'
     : '';
@@ -64,12 +63,12 @@
     const descriptionId = `kov-visual-${point.key}-${Math.random().toString(36).slice(2, 8)}`;
 
     button.className = `kov-visual-hotspot kov-hotspot-${point.key}`;
-    button.type = 'button';
-    button.dataset.hotspot = point.key;
     button.style.setProperty('--hotspot-x', `${point.x}%`);
     button.style.setProperty('--hotspot-y', `${point.y}%`);
     button.style.setProperty('--hotspot-mobile-x', `${point.mobileX ?? point.x}%`);
     button.style.setProperty('--hotspot-mobile-y', `${point.mobileY ?? point.y}%`);
+    button.type = 'button';
+    button.dataset.hotspot = point.key;
     button.setAttribute('aria-label', `${point.label}: ${point.detail}`);
     button.setAttribute('aria-describedby', descriptionId);
     button.setAttribute('aria-pressed', 'false');
@@ -133,47 +132,6 @@
 
     config.points.forEach((point) => createHotspot(canvas, point));
 
-    if (finePointer && !reduceMotion) {
-      let frame = 0;
-      canvas.addEventListener('pointermove', (event) => {
-        if (event.pointerType !== 'mouse' || frame) return;
-        frame = requestAnimationFrame(() => {
-          const rect = canvas.getBoundingClientRect();
-          const x = (event.clientX - rect.left) / rect.width - 0.5;
-          const y = (event.clientY - rect.top) / rect.height - 0.5;
-          canvas.style.setProperty('--image-shift-x', `${(x * 3).toFixed(2)}px`);
-          canvas.style.setProperty('--image-shift-y', `${(y * 3).toFixed(2)}px`);
-          frame = 0;
-        });
-      }, { passive: true });
-      canvas.addEventListener('pointerleave', () => {
-        canvas.style.setProperty('--image-shift-x', '0px');
-        canvas.style.setProperty('--image-shift-y', '0px');
-      });
-    }
-  };
-
-  const initPointerSurface = (element) => {
-    if (element.dataset.kovPointerReady || !finePointer || reduceMotion) return;
-    element.dataset.kovPointerReady = 'true';
-    element.classList.add('kov-reactive-surface');
-    let frame = 0;
-
-    element.addEventListener('pointermove', (event) => {
-      if (event.pointerType !== 'mouse' || frame) return;
-      frame = requestAnimationFrame(() => {
-        const rect = element.getBoundingClientRect();
-        const x = (event.clientX - rect.left) / rect.width - 0.5;
-        const y = (event.clientY - rect.top) / rect.height - 0.5;
-        element.style.setProperty('--kov-bg-x', `${(x * 8).toFixed(2)}px`);
-        element.style.setProperty('--kov-bg-y', `${(y * 6).toFixed(2)}px`);
-        frame = 0;
-      });
-    }, { passive: true });
-    element.addEventListener('pointerleave', () => {
-      element.style.setProperty('--kov-bg-x', '0px');
-      element.style.setProperty('--kov-bg-y', '0px');
-    });
   };
 
   const activateSearchRoute = (route) => {
@@ -257,12 +215,9 @@
       root.querySelectorAll?.(config.selector).forEach((image) => enhanceVisual(image, config));
     });
 
-    root.querySelectorAll?.('.kov-hero, .kov-section-dark, main > section:first-child').forEach(initPointerSurface);
-
     root.querySelectorAll?.('.kov-search-route li, .kov-steps li, .kov-service-grid article, .kov-role-grid li').forEach((stage, index) => {
       if (stage.dataset.kovStageReady) return;
       stage.dataset.kovStageReady = 'true';
-      stage.style.setProperty('--kov-stage-index', index % 8);
       if (stageObserver) stageObserver.observe(stage);
       else stage.classList.add('is-active');
     });

@@ -13,6 +13,23 @@ Last reviewed: 2026-09-26
 
 All original graphics are vector assets with scalable viewBoxes. No external image, map, icon, or 3D asset was downloaded, copied, embedded, or hotlinked for this enhancement.
 
+## Existing public photography and responsive formats
+
+The five shared human-photo JPEGs below are existing project assets and are used by public HTML pages. AVIF and WebP files alongside each original are loss-aware derivatives generated from the JPEG with Sharp; pages use `<picture>` sources for modern browsers and retain the unchanged JPEG as a fallback.
+
+| Original project asset | Generated variants | Original photo source / rights |
+| --- | --- | --- |
+| `people/executive-leader.jpg` | `.avif`, `.webp` | Not recorded in the existing project files; verify before relying on a particular license |
+| `people/executive-professional.jpg` | `.avif`, `.webp` | Not recorded in the existing project files; verify before relying on a particular license |
+| `people/executive-woman.jpg` | `.avif`, `.webp` | Not recorded in the existing project files; verify before relying on a particular license |
+| `people/leadership-meeting.jpg` | `.avif`, `.webp` | Not recorded in the existing project files; verify before relying on a particular license |
+| `people/leadership-team.jpg` | `.avif`, `.webp` | Not recorded in the existing project files; verify before relying on a particular license |
+| `founder.jpeg` | `people/founder.avif`, `people/founder.webp` | Existing KOV founder portrait; confirm usage rights with the site owner |
+
+These are not represented as AI-generated. No new online photos were added, and this workspace did not provide an image-generation tool.
+
+The homepage portrait now uses the existing `founder.jpeg` project photo, which better matches the reference's professional portrait treatment; its original file remains the JPEG fallback. Its photo rights should be confirmed by the site owner before launch.
+
 ## Reference research (inspiration only)
 
 These sites were reviewed for hierarchy, editorial restraint, and professional-service presentation. Their layouts, copy, photography, logos, and proprietary artwork were not reused.

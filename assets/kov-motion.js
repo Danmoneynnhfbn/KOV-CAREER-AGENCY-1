@@ -2,16 +2,7 @@
   const motionScript = document.currentScript;
   if (!(motionScript instanceof HTMLScriptElement)) return;
 
-  const stylesheetUrl = new URL('kov-motion.css?v=4', motionScript.src);
-  if (!document.querySelector(`link[href="${stylesheetUrl.href}"]`)) {
-    const stylesheet = document.createElement('link');
-    stylesheet.rel = 'stylesheet';
-    stylesheet.href = stylesheetUrl.href;
-    document.head.append(stylesheet);
-  }
-
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  document.body.classList.add('kov-motion-ready');
 
   const serviceLabels = [
     'Résumé & CV Strategy',
