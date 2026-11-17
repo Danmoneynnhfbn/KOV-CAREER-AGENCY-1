@@ -1,5 +1,8 @@
 # robots.txt - kovcareeragency.org
 # Allows search engines, AI search/answer engines and AI assistants to read the site.
+# Page-level noindex directives remain authoritative; do not block pages that crawlers
+# must visit to process their noindex status.
+# The XML sitemap lists canonical, indexable production URLs only.
 # Optional AI-readable discovery documents (supplementary links, not crawler directives):
 # https://www.kovcareeragency.org/llms.txt
 # https://www.kovcareeragency.org/llms-full.txt
