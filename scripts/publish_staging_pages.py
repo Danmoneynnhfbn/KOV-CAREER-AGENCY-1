@@ -161,19 +161,23 @@ def main() -> None:
 
     full = LLMS_FULL.read_text(encoding="utf-8")
     section = "\n\n## Public career research and occupation guides\n"
-    lines = []
+    full_lines = full.splitlines()
+    additions = []
     for _, url, title, description in published:
         line = f"- [{title}]({url}): {description}"
-        pattern = re.compile(r"^- \\[[^\\]]+\\]\\(" + re.escape(url) + r"\\):.*$", re.M)
-        full, count = pattern.subn(lambda _match, value=line: value, full)
-        if count == 0:
-            lines.append(line)
-    if lines:
-        if "## Public career research and occupation guides" not in full:
-            full = full.rstrip() + section + "\\n".join(lines) + "\\n"
+        existing = next((i for i, current in enumerate(full_lines) if f"]({url})" in current), None)
+        if existing is None:
+            additions.append(line)
         else:
-            full = full.rstrip() + "\\n" + "\\n".join(lines) + "\\n"
-    LLMS_FULL.write_text(full, encoding="utf-8")
+            # Refresh existing entries too; do not leave old "unpublished/noindex" descriptions behind.
+            full_lines[existing] = line
+    full = "\n".join(full_lines).rstrip()
+    if additions:
+        if "## Public career research and occupation guides" not in full:
+            full += section + "\n".join(additions) + "\n"
+        else:
+            full += "\n" + "\n".join(additions) + "\n"
+    LLMS_FULL.write_text(full + "\n", encoding="utf-8")
 
     print(f"Published {len(published)} public staging pages.")
     print("Private account, candidate directory, operations console, and admin/publishing pages were not modified.")
