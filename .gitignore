@@ -9,3 +9,7 @@ debug.log
 
 # Generated at container image build time; original JSON-LD stays tracked
 /data/kov-discovery-catalog.jsonld.gz
+
+# Local environment secrets
+.env
+.env.*
