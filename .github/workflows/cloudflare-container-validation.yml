@@ -1,0 +1,66 @@
+name: Cloudflare Container validation
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-container:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Verify catalogue compression is byte-preserving
+        run: |
+          python scripts/compress_discovery_catalogue.py
+          python - <<'PY'
+          import gzip
+          from pathlib import Path
+          source = Path("data/kov-discovery-catalog.jsonld")
+          compressed = source.with_suffix(source.suffix + ".gz")
+          assert gzip.decompress(compressed.read_bytes()) == source.read_bytes()
+          print(f"Original: {source.stat().st_size:,} bytes")
+          print(f"Gzip: {compressed.stat().st_size:,} bytes")
+          PY
+
+      - name: Build the production container image
+        run: docker build --pull --tag kov-career-api:ci .
+
+      - name: Start the container
+        run: docker run --detach --name kov-career-api-ci --publish 8000:8000 kov-career-api:ci
+
+      - name: Wait for application readiness
+        run: |
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:8000/health; then
+              exit 0
+            fi
+            sleep 2
+          done
+          docker logs kov-career-api-ci
+          exit 1
+
+      - name: Smoke-test homepage and API
+        run: |
+          curl --fail --silent http://127.0.0.1:8000/ | grep -Eiq '<html|<!doctype'
+          curl --fail --silent http://127.0.0.1:8000/api/v1/status
+
+      - name: Smoke-test original catalogue over gzip HTTP
+        run: |
+          curl --fail --silent --compressed http://127.0.0.1:8000/data/kov-discovery-catalog.jsonld |
+            python -c 'import json,sys; data=json.load(sys.stdin); assert isinstance(data.get("@graph"), list); print("Catalogue JSON-LD parsed:", len(data["@graph"]), "records")'
+
+      - name: Stop the test container
+        if: always()
+        run: docker rm --force kov-career-api-ci || true
