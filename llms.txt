@@ -22,9 +22,12 @@ KOV provides candidate-side career support. Scope, deliverables, fees, approvals
 - [FAQ Library](https://www.kovcareeragency.org/faq/index.html): Detailed answers about KOV's services, process, fees and policies.
 - [Privacy Notice](https://www.kovcareeragency.org/privacy.html): Privacy, data use and retention information.
 
+## Public research guides
+- [Public career research and occupation guides](https://www.kovcareeragency.org/staging/): Published research guides and occupation references.
+
 ## Complete discovery resources
 - [Full indexable page directory](https://www.kovcareeragency.org/llms-full.txt): Expanded page descriptions and links for the current canonical, indexable site.
 - [XML sitemap](https://www.kovcareeragency.org/sitemap.xml): Search-engine sitemap of canonical, indexable production pages.
 - [Crawler access rules](https://www.kovcareeragency.org/robots.txt): Robots directives for search engines and AI crawlers.
 
-Only canonical, indexable production pages are listed in the sitemap and full page directory. Staging pages and pages explicitly marked noindex are intentionally excluded.
+The sitemap and full page directory include canonical, indexable public pages, including the published career research and occupation guides. Private account, candidate-directory, operations, administrator and publishing surfaces remain excluded.
