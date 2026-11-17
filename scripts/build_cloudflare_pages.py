@@ -17,7 +17,7 @@ MAX_FILE = 25 * 1024 * 1024
 SKIP_DIRS = {
     ".git", ".github", ".private_admin", ".vscode", "__pycache__",
     "cloudflare-api", "development", "design-reference", "research",
-    "tests", "staging", "github", "vscode", "supabase", "config", "scripts",
+    "tests", "staging", "github", "vscode", "supabase", "config", "scripts", "dist",
 }
 SKIP_ROOT_FILES = {
     "Dockerfile", "wrangler.jsonc", "requirements.txt", "pyproject.toml",
@@ -40,6 +40,8 @@ def main() -> None:
     compressed = 0
     skipped = 0
     for source in ROOT.rglob("*"):
+        if OUT in source.parents:
+            continue
         if not source.is_file():
             continue
         rel = source.relative_to(ROOT)
