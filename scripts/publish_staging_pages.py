@@ -166,7 +166,7 @@ def main() -> None:
         if close < 0:
             raise SystemExit("sitemap.xml has no closing urlset element")
         sitemap = sitemap[:close] + "\n".join(additions) + "\n" + sitemap[close:]
-        SITEMAP.write_text(sitemap, encoding="utf-8")
+    SITEMAP.write_text(sitemap, encoding="utf-8")
 
     llms = LLMS.read_text(encoding="utf-8")
     marker = "- [Public career research and occupation guides](https://www.kovcareeragency.org/staging/): Published research guides and occupation references."
@@ -179,6 +179,12 @@ def main() -> None:
     LLMS.write_text(llms, encoding="utf-8")
 
     full = LLMS_FULL.read_text(encoding="utf-8")
+    home_line = f"- [KOV Career Agency Home]({BASE}/): Official homepage for KOV Career Agency, private career representation and individual career services."
+    directory_line = f"- [All Public Website Sections | KOV Career Agency]({BASE}/site-directory.html): A human-readable directory of KOV's main service pages, executive role guides, industry guides, markets, insights, FAQs and contact information."
+    if not any(f"]({BASE}/)" in line for line in full.splitlines()):
+        full = full.replace("# KOV Career Agency", "# KOV Career Agency\n\n" + home_line, 1)
+    if not any(f"]({BASE}/site-directory.html)" in line for line in full.splitlines()):
+        full = full.replace("# KOV Career Agency", "# KOV Career Agency\n\n" + directory_line, 1)
     section = "\n\n## Public career research and occupation guides\n"
     excluded_urls = [
         BASE + "/staging/professional-directory/",
