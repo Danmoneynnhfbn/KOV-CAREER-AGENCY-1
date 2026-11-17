@@ -6,15 +6,19 @@
     { href: '/', label: 'Home', matches: ['/', '/index.html'] },
     {
       href: '/candidate-services.html',
-      label: 'Private Career Representation',
+      label: 'Individual Career Services',
       matches: ['/candidate-services.html', '/candidate-proof.html'],
     },
     {
       href: '/services.html',
-      label: 'Individual Career Services',
+      label: 'Private Career Representation',
       matches: ['/services.html', '/career-documents.html'],
     },
     { href: '/how-it-works.html', label: 'How It Works', matches: ['/how-it-works.html'] },
+    { href: '/roles/', label: 'Roles', matches: ['/roles/'] },
+    { href: '/industries/', label: 'Industries', matches: ['/industries/'] },
+    { href: '/faq/index.html', label: 'FAQ Library', matches: ['/faq/index.html'] },
+    { href: '/blog.html', label: 'Insights', matches: ['/blog.html'] },
     { href: '/contact.html', label: 'Contact', matches: ['/contact.html'] },
   ];
 
