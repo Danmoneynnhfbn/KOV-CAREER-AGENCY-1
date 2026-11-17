@@ -4,6 +4,9 @@
 
 KOV agrees candidate-service scope, deliverables, fees, approvals, and reporting before work begins. Employers control their hiring decisions; KOV does not guarantee interviews, offers, employment, or timelines.
 
+## Main navigation and site directory
+- [All Public Website Sections | KOV Career Agency](https://www.kovcareeragency.org/site-directory.html): A human-readable directory of KOV's main service pages, executive role guides, industry guides, markets, insights, FAQs and contact information.
+
 ## Core pages
 - [Career Representation for Professionals | KOV](https://www.kovcareeragency.org/): Private career representation and individual career services for senior professionals: job-search strategy, outreach, resumes, LinkedIn and coaching by KOV.
 - [Private Career Representation | KOV Career Agency](https://www.kovcareeragency.org/services.html): Private Career Representation for suitable professionals: agreed target strategy, research, approved outreach, follow-up and introductions where appropriate.
