@@ -116,6 +116,8 @@ export class KOVBackend extends DurableObject<Env> {
     // original public host/protocol for same-origin checks and redirects.
     headers.set("x-forwarded-host", incomingUrl.host);
     headers.set("x-forwarded-proto", incomingUrl.protocol.slice(0, -1));
+    const clientIp = request.headers.get("cf-connecting-ip");
+    if (clientIp) headers.set("x-real-ip", clientIp);
 
     const init: RequestInit = {
       method: request.method,
