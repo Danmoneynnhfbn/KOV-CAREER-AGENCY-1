@@ -14,7 +14,7 @@ NON_CANONICAL_HOST = "kovcareeragency.org"
 
 @app.middleware("http")
 async def redirect_noncanonical_homepage(request: Request, call_next):
-    host = (request.url.hostname or "").lower().rstrip(".")
+    host = (request.headers.get("x-forwarded-host") or request.url.hostname or "").lower().rstrip(".")
     path = "/" if request.url.path == "/index.html" else request.url.path
 
     if host == NON_CANONICAL_HOST or (
@@ -33,6 +33,37 @@ async def redirect_noncanonical_homepage(request: Request, call_next):
 ASSETS_DIR = ROOT / "assets"
 if ASSETS_DIR.is_dir():
     app.mount("/assets", StaticFiles(directory=ASSETS_DIR), name="assets")
+
+@app.get("/health")
+def health_check():
+    return {"status": "ok", "service": "kov-career-agency"}
+
+
+@app.get("/data/kov-discovery-catalog.jsonld")
+def discovery_catalogue(request: Request):
+    """Serve a verified gzip copy when supported, otherwise the original file."""
+    original = ROOT / "data" / "kov-discovery-catalog.jsonld"
+    compressed = ROOT / "data" / "kov-discovery-catalog.jsonld.gz"
+    accepts_gzip = "gzip" in request.headers.get("accept-encoding", "").lower()
+
+    if accepts_gzip and compressed.is_file():
+        return FileResponse(
+            compressed,
+            media_type="application/ld+json",
+            headers={
+                "Content-Encoding": "gzip",
+                "Cache-Control": "public, max-age=3600",
+                "X-Content-Type-Options": "nosniff",
+            },
+        )
+    if original.is_file():
+        return FileResponse(
+            original,
+            media_type="application/ld+json",
+            headers={"Cache-Control": "public, max-age=3600"},
+        )
+    raise HTTPException(status_code=404, detail="Not Found")
+
 
 # This route serves your beautiful main index.html file to web visitors
 @app.get("/", response_class=HTMLResponse)
