@@ -28,7 +28,7 @@ gzip.decompress(compressed) == original
 
 The application serves the gzip copy only when the request advertises gzip support. The response uses `Content-Encoding: gzip` and the JSON-LD media type, so browsers and crawlers receive the original JSON-LD text after standard HTTP decompression. Requests without gzip support receive the original file.
 
-This avoids the Workers Static Assets 25 MiB per-file limit. The catalogue is inside the container image, not uploaded as a single Static Asset.
+The verified Cloudflare build measured the source at 34,834,136 bytes and the gzip copy at 4,000,843 bytes, an 88.5% reduction. The original file remains unchanged. This avoids the Workers Static Assets 25 MiB per-file limit. The catalogue is inside the container image, not uploaded as a single Static Asset.
 
 ## Build and test
 
@@ -60,6 +60,8 @@ Do not attach the production hostname until these tests pass.
 ## Current account state and blockers
 
 The Cloudflare account currently reports no Worker custom domains, no zone Worker routes, and no Pages projects. The DNS records for the apex, wildcard, and `www` hostnames are proxied through Cloudflare but their origin A records still point to Vercel edge IPs (`64.29.17.1`, `64.29.17.65`, and `216.198.79.1`). Therefore the live domain is not yet routed to this Container Worker.
+
+The latest Cloudflare build successfully built the Docker image and verified the catalogue compression, then failed when Wrangler called the Containers API (`/accounts/{account_id}/containers/me`). A direct account API check returned: `Unauthorized: You do not have access to Cloudflare Containers. Deploying containers requires the Workers Paid plan.` The Worker upload completed, but the Container application could not be provisioned. The account must be upgraded to Workers Paid before another Container deployment can succeed. This is a billable plan change and must be explicitly approved before it is made.
 
 The deployed `kov-career-agency-1` Worker currently has no runtime secrets. Supabase, Resend, and Stripe-backed endpoints cannot be considered ready until the required secrets and variables are configured. The actual container health and end-to-end API checks still need to pass.
 
