@@ -101,15 +101,15 @@ def main() -> None:
     if oversized:
         raise SystemExit(
             "Cloudflare asset preparation stopped. These public files exceed "
-            "the 25 MiB per-file limit:\\n  " + "\\n  ".join(oversized)
+            "the 25 MiB per-file limit:\n  " + "\n  ".join(oversized)
         )
 
-    private_items = ",\\n".join(
+    private_items = ",\n".join(
         f"    {key!r}: {value!r}" for key, value in private_pages.items()
     )
     PRIVATE_MODULE.write_text(
-        '"""Generated protected admin pages. Do not edit by hand."""\\n\\n'
-        "PRIVATE_PAGES = {\\n" + private_items + "\\n}\\n",
+        '"""Generated protected admin pages. Do not edit by hand."""\n\n'
+        "PRIVATE_PAGES = {\n" + private_items + "\n}\n",
         encoding="utf-8",
     )
 
