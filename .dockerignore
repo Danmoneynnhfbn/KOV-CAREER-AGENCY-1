@@ -1,0 +1,12 @@
+.git
+.github
+node_modules
+.venv
+venv
+__pycache__
+*.py[cod]
+.wrangler
+public
+.tmp-*
+debug.log
+*.bak
