@@ -10,3 +10,8 @@ public
 .tmp-*
 debug.log
 *.bak
+
+.env
+.env.*
+*.pem
+*.key
