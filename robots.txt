@@ -1,4 +1,7 @@
-# robots.txt - kovcareeragency.org
+# robots.txt - KOV Career Agency
+# Updated 2026-11-17
+# Public HTML pages and approved research guides are crawlable. Page-level noindex directives remain authoritative.
+# Search and AI discovery resources: /sitemap.xml, /llms.txt and /llms-full.txt
 # Allows search engines, AI search/answer engines and AI assistants to read the site.
 # Page-level noindex directives remain authoritative; do not block pages that crawlers
 # must visit to process their noindex status.
