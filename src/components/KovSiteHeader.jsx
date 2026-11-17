@@ -62,6 +62,8 @@ function collectNavigation(header) {
       { label: "Blog", href: "/blog.html" },
       { label: "Case Studies", href: "/resources/case-studies.html" },
       { label: "Glossary", href: "/glossary.html" },
+      { label: "FAQ Library", href: "/faq/index.html" },
+      { label: "All Public Website Sections", href: "/site-directory.html" },
     ]),
     group("Geography and markets", "/countries-we-serve.html", [
       { label: "Countries We Serve", href: "/countries-we-serve.html" },
