@@ -148,7 +148,7 @@ def main() -> None:
     ]
     for excluded_url in excluded_urls:
         sitemap = re.sub(
-            r"<url>\\s*<loc>" + re.escape(excluded_url) + r"</loc>.*?</url>",
+            r"<url>\s*<loc>" + re.escape(excluded_url) + r"</loc>.*?</url>",
             "",
             sitemap,
             flags=re.I | re.S,
