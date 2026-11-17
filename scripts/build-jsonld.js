@@ -245,14 +245,18 @@ function nodeFor(category, record, datasetId, faqIndex) {
   if (source?.status) node.description = `${node.description ? `${node.description} ` : ''}ESCO concept status: ${source.status}.`;
   if (source?.metadataValue) {
     node.identifier = { '@type': 'PropertyValue', propertyID: 'O*NET skill label', value: source.onetLabel };
-    node.citation = source.onetSourceUrl || ONET_SOURCE_DATA.sourceUrl;
+    node.subjectOf = { '@type': 'WebPage', '@id': source.onetSourceUrl || ONET_SOURCE_DATA.sourceUrl };
     node.description = `${node.description ? `${node.description} ` : ''}O*NET importance rating: ${source.importance}.${source.metadataCrosswalk ? ` Crosswalk: ${source.metadataCrosswalk}.` : ''}`;
   }
   if (category === 'professional-audience') node.audienceType = raw;
   if (category === 'qualification' && source) {
     node.termCode = source.code;
     node.identifier = { '@type': 'PropertyValue', propertyID: 'Ofqual qualification number', value: source.code };
-    node.citation = QUALIFICATION_SOURCE.source.downloadUrl;
+    node.subjectOf = {
+      '@type': 'DataDownload',
+      contentUrl: QUALIFICATION_SOURCE.source.downloadUrl,
+      name: 'Official Ofqual active-qualifications source download',
+    };
     node.description = [source.level, source.qualificationType, source.subjectArea].filter(Boolean).join('; ');
     if (source.specificationUrl) node.url = source.specificationUrl;
   }

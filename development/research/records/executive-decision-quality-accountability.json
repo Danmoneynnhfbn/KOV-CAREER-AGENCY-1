@@ -1,0 +1,98 @@
+{
+  "id": "executive-decision-quality-accountability",
+  "page_title": "Executive Decision Quality and Accountability",
+  "proposed_url": "/resources/executive-decision-quality-accountability.html",
+  "page_group": "leadership_skills_competencies",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "qualified_for_development",
+  "approval_status": "approved_for_development",
+  "record_status": "individual_framework_screen_complete; public_source_review_complete",
+  "research_owner": "development",
+  "research_updated": "2026-11-05",
+  "primary_keywords": [
+    "executive decision quality",
+    "accountability leadership"
+  ],
+  "secondary_keywords": [
+    "decision-making for executives",
+    "leadership accountability framework",
+    "executive trade-off analysis"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, keyword planner, or validated third-party export was supplied.",
+    "note": "No volume or difficulty claim is made."
+  },
+  "search_intent": {
+    "primary_query": "executive decision quality",
+    "secondary_queries": [
+      "accountability leadership",
+      "decision-making for executives",
+      "leadership accountability framework"
+    ],
+    "intent": "Informational leadership guidance and decision-support framework.",
+    "evidence": [
+      "Public leadership sources describe decision quality, accountability, and trade-offs as recurring executive concerns."
+    ]
+  },
+  "intended_audience": "Senior leaders and executives planning strategic decisions, team priorities, or cross-functional trade-offs.",
+  "geographic_relevance": "General English-language leadership guidance; not a legal or hiring claim.",
+  "competitor_research": [
+    {
+      "name": "Harvard Business Review: How Process Reduces Bias in Decision-Making",
+      "url": "https://hbr.org/2020/04/how-process-reduces-bias-in-decision-making",
+      "finding": "Public decision-quality framework article; useful for general leadership guidance and attribution.",
+      "status": "source page validated"
+    },
+    {
+      "name": "Centre for Creative Leadership: Accountability in leadership",
+      "url": "https://www.ccl.org/articles/leading-effectively-articles/accountability-leadership/",
+      "finding": "Framework and explanation for accountability in leadership practice.",
+      "status": "source page validated"
+    }
+  ],
+  "commercial_relevance": "Builds a distinct leadership framework page without implying a training service or claim of performance improvement.",
+  "unique_content_purpose": "Explain how senior leaders can strengthen decision quality through objective setting, constraint review, trade-off analysis, and accountability patterns.",
+  "internal_link_opportunities": [
+    "/resources/executive-leadership-direction-alignment-commitment/",
+    "/services.html",
+    "/resources/executive-career-outcomes.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "Distinct from the DAC leadership page because it focuses on decision quality, accountability, and operational follow-through rather than direction-and-alignment concepts alone.",
+  "authoritative_sources": [
+    {
+      "source_id": "HBR-DECISION-PROCESS-2026",
+      "source_type": "Leadership and management article",
+      "title": "How process reduces bias in decision-making",
+      "publisher": "Harvard Business Review",
+      "url_or_path": "https://hbr.org/2020/04/how-process-reduces-bias-in-decision-making",
+      "access_status": "Page reviewed 2026-11-05",
+      "research_use_and_limit": "Used to support general guidance on decision quality and process discipline."
+    },
+    {
+      "source_id": "CCL-ACCOUNTABILITY-2026",
+      "source_type": "Leadership framework source",
+      "title": "Accountability in leadership",
+      "publisher": "Center for Creative Leadership",
+      "url_or_path": "https://www.ccl.org/articles/leading-effectively-articles/accountability-leadership/",
+      "access_status": "Page reviewed 2026-11-05",
+      "research_use_and_limit": "Used to support the accountability section and the distinction between clear ownership and unowned decisions."
+    }
+  ],
+  "unique_value_and_overlap": {
+    "user_need": "Senior leaders need a practical framework for making clearer decisions and ensuring accountability under pressure.",
+    "existing_page_overlap_review": "No direct overlap with the existing DAC leadership page; the two resources complement rather than duplicate one another.",
+    "canonical_or_consolidation_decision": "Staging page only until the owner approves the final design and publication gate."
+  },
+  "factual_gaps_and_risks": [
+    "No keyword volume dataset was supplied.",
+    "This guide is not an assessment, coaching guarantee, or business outcome promise."
+  ],
+  "blueprint_path": "development/blueprints/leadership-skills-competencies/executive-decision-quality-accountability.md",
+  "content_status": "staging_content_complete",
+  "publication_status": "not_approved",
+  "notes": [
+    "Development page created under staging; no public HTML, search entry, or sitemap index was added.",
+    "Review final styling after owner design reference is supplied."
+  ]
+}

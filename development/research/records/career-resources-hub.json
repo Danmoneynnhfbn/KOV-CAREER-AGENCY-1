@@ -1,0 +1,183 @@
+{
+  "id": "career-resources-hub",
+  "page_title": "Career Resources Hub",
+  "proposed_url": "/career-resources/",
+  "staging_preview_url": "/staging/career-resources/",
+  "page_group": "career_resources_hub",
+  "parent_hub": null,
+  "candidate_status": "approved_for_development; publication_pending_review",
+  "approval_status": "approved_for_development",
+  "record_status": "research_screen_complete; demand_and_SERP_validation_pending",
+  "research_owner": "development",
+  "research_updated": "2026-11-04",
+  "primary_keywords": [
+    "executive career resources"
+  ],
+  "secondary_keywords": [
+    "career resources for executives",
+    "executive career planning",
+    "senior professional career guide"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was available.",
+    "note": "Search phrases are hypotheses only; not evidence of demand or ranking potential."
+  },
+  "search_intent": {
+    "primary_query": "executive career resources",
+    "secondary_queries": [
+      "career resources for executives",
+      "executive career planning",
+      "senior professional career guide"
+    ],
+    "intent": "Informational/navigation hub; terms are unvalidated query hypotheses.",
+    "evidence": [
+      {
+        "source_id": "HBR-CAREER-PLANNING",
+        "url": "https://hbr.org/topic/subject/career-planning",
+        "access_status": "Verified 2026-11-04"
+      },
+      {
+        "source_id": "HBR-EXECUTIVE-CAREER-ARC",
+        "url": "https://hbr.org/2026/08/the-predictable-executive-career-arc-is-over",
+        "access_status": "Verified 2026-11-04"
+      },
+      {
+        "source_id": "ONET-ONLINE",
+        "url": "https://www.onetonline.org/",
+        "access_status": "Verified 2026-11-04"
+      },
+      {
+        "source_id": "INDEED-CAREER-ADVICE",
+        "url": "https://www.indeed.com/career-advice",
+        "access_status": "Fetch blocked with HTTP 403 on 2026-11-04"
+      },
+      {
+        "source_id": "KOV-RESOURCES-INVENTORY",
+        "url": "resources/ (11 pages); faq/ (30 pages); glossary.html",
+        "access_status": "Repository inventory reviewed 2026-11-04"
+      }
+    ]
+  },
+  "intended_audience": "Senior and experienced professionals browsing KOV's published career information.",
+  "audience_and_geography": {
+    "audience": "Senior and experienced professionals browsing KOV's published career information.",
+    "geography": "English-language online information; country-specific applicability is not implied."
+  },
+  "geographic_relevance": [
+    "English-language online information; country-specific applicability is not implied."
+  ],
+  "competitor_research": [
+    {
+      "name": "Harvard Business Review Career Planning",
+      "url": "https://hbr.org/topic/subject/career-planning",
+      "finding": "Topic hub aggregates career-planning articles, including C-suite and career-arc coverage.",
+      "status": "page verified; SERP position not measured"
+    },
+    {
+      "name": "HBR: The Predictable Executive Career Arc Is Over",
+      "url": "https://hbr.org/2026/08/the-predictable-executive-career-arc-is-over",
+      "finding": "Discusses senior leaders' career planning amid longer working lives and change.",
+      "status": "page verified; topic reference, SERP position not measured"
+    },
+    {
+      "name": "O*NET OnLine",
+      "url": "https://www.onetonline.org/",
+      "finding": "Official U.S. career exploration and occupational analysis tool with 900+ occupations.",
+      "status": "page verified; adjacent information tool, not direct executive service"
+    },
+    {
+      "name": "Indeed Career Advice",
+      "url": "https://www.indeed.com/career-advice",
+      "finding": "Not assessed; fetch returned HTTP 403.",
+      "status": "competitor page review pending"
+    }
+  ],
+  "commercial_relevance": "Potentially supports KOV's existing candidate-facing information architecture; no conversion, demand, or serviceability forecast is asserted.",
+  "unique_content_purpose": "A navigational index that organizes KOV's existing candidate-facing career resources and only later adds individually researched guides. It should not duplicate the articles themselves or imply all listed occupations/markets are KOV services.",
+  "internal_link_opportunities": [
+    "/resources/salary-offer-negotiation-guide.html",
+    "/resources/executive-job-search-in-your-market.html",
+    "/resources/executive-career-outcomes.html",
+    "/faqs.html",
+    "/glossary.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "Current materials are already spread across 11 resource pages, 30 FAQs, a glossary, service pages, and role pages. The hub is differentiated only as a curated index; it must link to existing URLs first and not create near-duplicate copy.",
+  "demand_and_competition": {
+    "keyword_sources": [],
+    "competitor_pages": [
+      "https://hbr.org/topic/subject/career-planning",
+      "https://hbr.org/2026/08/the-predictable-executive-career-arc-is-over",
+      "https://www.onetonline.org/",
+      "https://www.indeed.com/career-advice"
+    ],
+    "evidence_and_date": [
+      "Competitor/reference pages were opened directly on 2026-11-04; this is a page review, not a Google/Bing SERP ranking study.",
+      "No query volume, difficulty, traffic, or conversion data was available."
+    ]
+  },
+  "authoritative_sources": [
+    {
+      "source_id": "HBR-CAREER-PLANNING",
+      "source_type": "External career information publisher",
+      "title": "Harvard Business Review: Career Planning topic",
+      "publisher": "Harvard Business Review",
+      "url_or_path": "https://hbr.org/topic/subject/career-planning",
+      "access_status": "Verified 2026-11-04",
+      "research_use_and_limit": "The page aggregates career-planning content, including executive-career coverage; format benchmark only, not a measured search result or evidence of demand."
+    },
+    {
+      "source_id": "HBR-EXECUTIVE-CAREER-ARC",
+      "source_type": "External career information publisher",
+      "title": "The Predictable Executive Career Arc Is Over",
+      "publisher": "Harvard Business Review",
+      "url_or_path": "https://hbr.org/2026/08/the-predictable-executive-career-arc-is-over",
+      "access_status": "Verified 2026-11-04",
+      "research_use_and_limit": "Discusses senior leaders' career planning amid longer working lives and change; topic reference only, not evidence of KOV serviceability or search demand."
+    },
+    {
+      "source_id": "ONET-ONLINE",
+      "source_type": "Official occupational resource",
+      "title": "O*NET OnLine",
+      "publisher": "U.S. Department of Labor / O*NET Resource Center",
+      "url_or_path": "https://www.onetonline.org/",
+      "access_status": "Verified 2026-11-04",
+      "research_use_and_limit": "Describes its occupational exploration and analysis tools; U.S.-focused comparator, not an executive-career service or global resource."
+    },
+    {
+      "source_id": "INDEED-CAREER-ADVICE",
+      "source_type": "External career information publisher",
+      "title": "Indeed Career Advice",
+      "publisher": "Indeed",
+      "url_or_path": "https://www.indeed.com/career-advice",
+      "access_status": "Fetch blocked with HTTP 403 on 2026-11-04",
+      "research_use_and_limit": "Potential broad career-advice comparator; page contents and current SERP placement not verified."
+    },
+    {
+      "source_id": "KOV-RESOURCES-INVENTORY",
+      "source_type": "Internal site inventory",
+      "title": "Published career resources and FAQs",
+      "publisher": "KOV Career Agency",
+      "url_or_path": "resources/ (11 pages); faq/ (30 pages); glossary.html",
+      "access_status": "Repository inventory reviewed 2026-11-04",
+      "research_use_and_limit": "Used to identify current internal content and overlap; not evidence of user demand."
+    }
+  ],
+  "unique_value_and_overlap": {
+    "user_need": "A navigational index that organizes KOV's existing candidate-facing career resources and only later adds individually researched guides. It should not duplicate the articles themselves or imply all listed occupations/markets are KOV services.",
+    "existing_page_overlap_review": "Current materials are already spread across 11 resource pages, 30 FAQs, a glossary, service pages, and role pages. The hub is differentiated only as a curated index; it must link to existing URLs first and not create near-duplicate copy.",
+    "canonical_or_consolidation_decision": "Candidate hub only; no route is to be added to public index until the overlap and release gates are resolved."
+  },
+  "factual_gaps_and_risks": [
+    "No first-party search, traffic, or user-task data was available to validate taxonomy or keyword demand.",
+    "Do not add unresearched guides or imply that taxonomy coverage equals KOV serviceability."
+  ],
+  "blueprint_path": "development/blueprints/career-resources-hub.md",
+  "content_status": "staging_content_complete",
+  "publication_status": "not_approved",
+  "notes": [
+    "Owner authorization is for development/research only; publication remains separately gated.",
+    "No candidate URL has been added to the sitemap, public search, or public navigation.",
+    "The noindex staging preview now contains a curated, searchable directory linking existing eligible resources; no existing article text was changed."
+  ]
+}

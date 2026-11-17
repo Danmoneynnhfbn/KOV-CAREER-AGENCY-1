@@ -1,0 +1,123 @@
+{
+  "batch_id": "occupation-classification-2026-11-05",
+  "report_title": "Occupation Classification Route Research Batch",
+  "report_path": "OCCUPATION-CLASSIFICATION-RESEARCH-BATCH.md",
+  "screen_date": "2026-11-05",
+  "category": "occupation_classification",
+  "parent_hub": "/roles/",
+  "summary": "Twenty-three existing SOC major-group link targets have individual provisional route screens. None is qualified for development or publication; public-query demand, group-to-role mapping, and commercial fit remain unresolved.",
+  "programme_note": "Twenty-three linked SOC major-group routes have individual provisional records and blueprints; all remain unqualified pending role mapping, user-demand evidence, competitor/SERP review, and owner approval. Forty-two of 65 quota slots remain unassigned.",
+  "quota_and_next_batch": "The occupation-classification quota is 65. The 23 candidates correspond to existing missing SOC major-group destinations linked from the current site; they are not counted as qualified development pages. Forty-two quota slots remain unassigned. Next: map each major group to existing role pages, inspect page-level overlap, and obtain first-party query evidence before any qualify/merge decision.",
+  "candidate_defaults": {
+    "category": "occupation_classification",
+    "parent_hub": "/roles/",
+    "candidate_status": "provisional_existing_link_target_not_qualified",
+    "research_status": "individual_classification_screen_complete; role_mapping_and_SERP_review_pending",
+    "source_ids": ["BLS-SOC-2018", "ONET-ONLINE", "KOV-SOC-LINK-INVENTORY"],
+    "primary_keywords": ["{classification_name}"],
+    "secondary_keywords": ["{classification_name} careers", "SOC {classification_code} occupations"],
+    "search_intent": "Navigational and informational: identify the scope of the U.S. SOC major group {classification_code} ({classification_name}) and browse relevant KOV role listings. Phrasing is a hypothesis, not measured query demand.",
+    "intent_evidence": [
+      "The site coverage audit records this exact destination as linked by 35 source pages with 105 href occurrences/variants. This is evidence of existing internal navigation paths only, not public search demand."
+    ],
+    "intended_audience": "People browsing KOV's role directory who need to locate existing roles within the {classification_name} classification group; whether this group fits KOV's candidate-service audience is unverified.",
+    "geographic_relevance": "The 2018 SOC is a U.S. occupational classification. Any English-language page must label that scope and must not imply the taxonomy is universal or equivalent to other national systems.",
+    "competitor_research": [
+      {
+        "name": "O*NET OnLine",
+        "url": "https://www.onetonline.org/",
+        "finding": "The U.S. Department of Labor resource describes browsing and profiles for 900+ occupations. It is an official occupational reference, not a direct executive-career competitor.",
+        "status": "general reference page verified 2026-11-05; candidate-specific commercial competitor and Google/Bing SERP review pending"
+      },
+      {
+        "name": "Direct commercial competitors and current search results",
+        "finding": "No candidate-specific commercial competitor or search-result ranking was verified in this screen.",
+        "status": "not assessed; SERP research pending"
+      }
+    ],
+    "commercial_relevance": "A group landing page could restore the intended route into existing role directories, but candidate-side service fit, conversion value, and demand are unverified. A taxonomy label must not imply that KOV provides services for every listed occupation.",
+    "unique_content_purpose": "Provide a navigational landing page for the 2018 U.S. SOC major group {classification_code}, {classification_name}, and link only to KOV role pages whose mapping to this group has been individually checked. Do not copy the full SOC taxonomy or make a placement/service claim.",
+    "internal_link_opportunities": ["/roles/", "/roles/senior-leader-career-strategy.html"],
+    "overlap_assessment": "The exact linked destination is absent from the audited site, while the site already has 40 role indexes and 554 role-industry pages. A landing page is distinct only as a classification-based index; mapping existing roles, avoiding duplicate role descriptions, and verifying audience fit are unresolved. SOC is U.S.-specific.",
+    "factual_gaps_and_risks": [
+      "Verify the current scope and title of SOC group {classification_code} against the locally validated 2018 SOC workbook and an accessible authoritative source before drafting.",
+      "Map existing KOV role pages to {classification_name}; no mapping has been asserted in this screen.",
+      "Review current role-page text and internal links for duplication; the classification destination itself is not a factual reason to create a commercial guide.",
+      "No Search Console, keyword-volume, difficulty, traffic, conversion, or actual Google/Bing SERP data is available.",
+      "Confirm audience fit and KOV serviceability; the U.S. SOC must not be presented as a global occupational taxonomy."
+    ],
+    "proposed_outline": [
+      "Explain the limited U.S. 2018 SOC scope of {classification_code}, {classification_name}, and its difference from an industry classification.",
+      "List only existing KOV role pages whose mapping to this major group has been checked; mark missing role mappings rather than inventing examples.",
+      "Explain how visitors can use the role links without implying that classification membership predicts a career outcome or service eligibility.",
+      "Link to relevant KOV career-strategy information and state any geographic or terminology limits.",
+      "Include source date, classification edition, and a review trigger for taxonomy changes."
+    ],
+    "candidate_status": "provisional_existing_link_target_not_qualified",
+    "approval_status": "not_approved"
+  },
+  "sources": [
+    {
+      "source_id": "BLS-SOC-2018",
+      "source_type": "Official U.S. occupational classification",
+      "title": "2018 Standard Occupational Classification (SOC)",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url_or_path": "https://www.bls.gov/soc/2018/home.htm; local structure and definitions workbooks documented in data/taxonomy/README.md",
+      "access_status": "Repository source files and matching code/title records validated 2026-10-21; live BLS fetch returned HTTP 403 on 2026-11-05",
+      "research_use_and_limit": "The local workbooks document 23 major groups and validated 2018 SOC codes/titles. Use only as a U.S. taxonomy; retrieve or independently verify current official materials before factual publication."
+    },
+    {
+      "source_id": "ONET-ONLINE",
+      "source_type": "Official U.S. occupational reference",
+      "title": "O*NET OnLine",
+      "publisher": "U.S. Department of Labor / O*NET Resource Center",
+      "url_or_path": "https://www.onetonline.org/",
+      "access_status": "Page fetched 2026-11-05",
+      "research_use_and_limit": "The landing page describes occupational browsing and profiles for 900+ occupations. It is a U.S.-oriented reference, not proof of demand, a direct commercial competitor, or a one-to-one mapping for KOV role pages."
+    },
+    {
+      "source_id": "KOV-SOC-LINK-INVENTORY",
+      "source_type": "Internal site coverage audit",
+      "title": "Missing SOC major-group link destinations",
+      "publisher": "KOV Career Agency development audit",
+      "url_or_path": "development/LINK-FAILURE-GROUPS.csv",
+      "access_status": "Repository audit reviewed 2026-11-05",
+      "research_use_and_limit": "The audit lists 23 missing major-group destinations; each target is linked from 35 source pages with 105 href occurrences/variants. This supports an internal navigation need only, not an external search-demand claim."
+    }
+  ],
+  "candidates": [
+    {"id":"soc-major-group-11-management","title":"Management Occupations","proposed_url":"/roles/management-occupations.html","classification_code":"11-0000","classification_name":"Management Occupations"},
+    {"id":"soc-major-group-13-business-financial-operations","title":"Business and Financial Operations Occupations","proposed_url":"/roles/business-and-financial-operations-occupations.html","classification_code":"13-0000","classification_name":"Business and Financial Operations Occupations"},
+    {"id":"soc-major-group-15-computer-mathematical","title":"Computer and Mathematical Occupations","proposed_url":"/roles/computer-and-mathematical-occupations.html","classification_code":"15-0000","classification_name":"Computer and Mathematical Occupations"},
+    {"id":"soc-major-group-17-architecture-engineering","title":"Architecture and Engineering Occupations","proposed_url":"/roles/architecture-and-engineering-occupations.html","classification_code":"17-0000","classification_name":"Architecture and Engineering Occupations"},
+    {"id":"soc-major-group-19-life-physical-social-science","title":"Life, Physical, and Social Science Occupations","proposed_url":"/roles/life-physical-and-social-science-occupations.html","classification_code":"19-0000","classification_name":"Life, Physical, and Social Science Occupations"},
+    {"id":"soc-major-group-21-community-social-service","title":"Community and Social Service Occupations","proposed_url":"/roles/community-and-social-service-occupations.html","classification_code":"21-0000","classification_name":"Community and Social Service Occupations"},
+    {"id":"soc-major-group-23-legal","title":"Legal Occupations","proposed_url":"/roles/legal-occupations.html","classification_code":"23-0000","classification_name":"Legal Occupations"},
+    {"id":"soc-major-group-25-education-library","title":"Educational Instruction and Library Occupations","proposed_url":"/roles/educational-instruction-and-library-occupations.html","classification_code":"25-0000","classification_name":"Educational Instruction and Library Occupations"},
+    {"id":"soc-major-group-27-arts-media-sports","title":"Arts, Design, Entertainment, Sports, and Media Occupations","proposed_url":"/roles/arts-design-entertainment-sports-and-media-occupations.html","classification_code":"27-0000","classification_name":"Arts, Design, Entertainment, Sports, and Media Occupations"},
+    {"id":"soc-major-group-29-healthcare-practitioners-technical","title":"Healthcare Practitioners and Technical Occupations","proposed_url":"/roles/healthcare-practitioners-and-technical-occupations.html","classification_code":"29-0000","classification_name":"Healthcare Practitioners and Technical Occupations"},
+    {"id":"soc-major-group-31-healthcare-support","title":"Healthcare Support Occupations","proposed_url":"/roles/healthcare-support-occupations.html","classification_code":"31-0000","classification_name":"Healthcare Support Occupations"},
+    {"id":"soc-major-group-33-protective-service","title":"Protective Service Occupations","proposed_url":"/roles/protective-service-occupations.html","classification_code":"33-0000","classification_name":"Protective Service Occupations"},
+    {"id":"soc-major-group-35-food-preparation-serving","title":"Food Preparation and Serving Related Occupations","proposed_url":"/roles/food-preparation-and-serving-related-occupations.html","classification_code":"35-0000","classification_name":"Food Preparation and Serving Related Occupations"},
+    {"id":"soc-major-group-37-building-grounds-cleaning","title":"Building and Grounds Cleaning and Maintenance Occupations","proposed_url":"/roles/building-and-grounds-cleaning-and-maintenance-occupations.html","classification_code":"37-0000","classification_name":"Building and Grounds Cleaning and Maintenance Occupations"},
+    {"id":"soc-major-group-39-personal-care-service","title":"Personal Care and Service Occupations","proposed_url":"/roles/personal-care-and-service-occupations.html","classification_code":"39-0000","classification_name":"Personal Care and Service Occupations"},
+    {"id":"soc-major-group-41-sales-related","title":"Sales and Related Occupations","proposed_url":"/roles/sales-and-related-occupations.html","classification_code":"41-0000","classification_name":"Sales and Related Occupations"},
+    {"id":"soc-major-group-43-office-administrative-support","title":"Office and Administrative Support Occupations","proposed_url":"/roles/office-and-administrative-support-occupations.html","classification_code":"43-0000","classification_name":"Office and Administrative Support Occupations"},
+    {"id":"soc-major-group-45-farming-fishing-forestry","title":"Farming, Fishing, and Forestry Occupations","proposed_url":"/roles/farming-fishing-and-forestry-occupations.html","classification_code":"45-0000","classification_name":"Farming, Fishing, and Forestry Occupations"},
+    {"id":"soc-major-group-47-construction-extraction","title":"Construction and Extraction Occupations","proposed_url":"/roles/construction-and-extraction-occupations.html","classification_code":"47-0000","classification_name":"Construction and Extraction Occupations"},
+    {"id":"soc-major-group-49-installation-maintenance-repair","title":"Installation, Maintenance, and Repair Occupations","proposed_url":"/roles/installation-maintenance-and-repair-occupations.html","classification_code":"49-0000","classification_name":"Installation, Maintenance, and Repair Occupations"},
+    {"id":"soc-major-group-51-production","title":"Production Occupations","proposed_url":"/roles/production-occupations.html","classification_code":"51-0000","classification_name":"Production Occupations"},
+    {"id":"soc-major-group-53-transportation-material-moving","title":"Transportation and Material Moving Occupations","proposed_url":"/roles/transportation-and-material-moving-occupations.html","classification_code":"53-0000","classification_name":"Transportation and Material Moving Occupations"},
+    {"id":"soc-major-group-55-military-specific","title":"Military Specific Occupations","proposed_url":"/roles/military-specific-occupations.html","classification_code":"55-0000","classification_name":"Military Specific Occupations"}
+  ],
+  "rejected_merged_held": [
+    {"category":"occupation_classification","topic":"Healthcare operations leadership guide (SOC 11-9111)","disposition":"merge","reason":"SOC 11-9111 is within the Management Occupations major group. Do not add a competing narrow guide before mapping the management-group index and reviewing existing healthcare and operations pages.","overlap_or_evidence":"Potential parent route: /roles/management-occupations.html; healthcare/social-care and operations content already exists.","source_ids":["BLS-SOC-2018","ONET-ONLINE"],"next_action":"Map the role to the management-group route and review existing healthcare pages before deciding whether a specialized section is warranted."},
+    {"category":"occupation_classification","topic":"Research and scientific leadership guide (SOC 11-9121)","disposition":"merge","reason":"SOC 11-9121 is within the Management Occupations major group. A separate guide is not justified before the parent group is mapped and existing R&D and life-science pages are reviewed.","overlap_or_evidence":"Potential parent route: /roles/management-occupations.html; life-science and R&D industry coverage overlaps.","source_ids":["BLS-SOC-2018","ONET-ONLINE"],"next_action":"Map the role to the management-group route; keep it separate only if distinct user demand and content are evidenced."},
+    {"category":"occupation_classification","topic":"Procurement and strategic sourcing leadership guide (SOC 11-3061)","disposition":"merge","reason":"SOC 11-3061 is within the Management Occupations major group and overlaps supply-chain, CFO, and operations role content. No standalone search or service need was verified.","overlap_or_evidence":"Potential parent route: /roles/management-occupations.html.","source_ids":["BLS-SOC-2018","ONET-ONLINE"],"next_action":"Map the role to the management-group route and check exact role-directory coverage."},
+    {"category":"occupation_classification","topic":"Higher-education executive guide (SOC 11-9033)","disposition":"merge","reason":"SOC 11-9033 is within the Management Occupations major group and overlaps the existing education-sector directory. Do not add a second taxonomy page without distinct intent evidence.","overlap_or_evidence":"Potential parent route: /roles/management-occupations.html; current education industry hub needs page-level review.","source_ids":["BLS-SOC-2018","ONET-ONLINE"],"next_action":"Map the role to the management-group route before proposing a narrower guide."},
+    {"category":"occupation_classification","topic":"Manufacturing and plant leadership guide (SOC 11-3051)","disposition":"merge","reason":"SOC 11-3051 is within the Management Occupations major group and overlaps the manufacturing industry hub and existing operations role pages.","overlap_or_evidence":"Potential parent route: /roles/management-occupations.html; manufacturing/operations overlap remains high.","source_ids":["BLS-SOC-2018","ONET-ONLINE"],"next_action":"Revisit only if a seniority-specific need is supported by first-party query evidence."},
+    {"category":"occupation_classification","topic":"Transportation and distribution leadership guide (SOC 11-3071)","disposition":"merge","reason":"SOC 11-3071 is within the Management Occupations major group and overlaps existing transportation/logistics industry and role coverage.","overlap_or_evidence":"Potential parent route: /roles/management-occupations.html.","source_ids":["BLS-SOC-2018","ONET-ONLINE"],"next_action":"Avoid a second role-specific URL unless page-level differentiation and demand are demonstrated."},
+    {"category":"occupation_classification","topic":"Construction operations leadership guide (SOC 11-9021)","disposition":"merge","reason":"SOC 11-9021 is within the Management Occupations major group and overlaps existing construction and operations content. Seniority fit across the broader classification remains to be mapped.","overlap_or_evidence":"Potential parent route: /roles/management-occupations.html.","source_ids":["BLS-SOC-2018","ONET-ONLINE"],"next_action":"Map only verified senior construction roles to the group page; do not create a separate guide from classification alone."},
+    {"category":"occupation_classification","topic":"Social and community-service leadership guide (SOC 11-9151)","disposition":"merge","reason":"SOC 11-9151 is within the Management Occupations major group and overlaps public-sector and healthcare/social-care content. Fit with KOV's senior-executive audience is unresolved.","overlap_or_evidence":"Potential parent route: /roles/management-occupations.html.","source_ids":["BLS-SOC-2018","ONET-ONLINE"],"next_action":"Map the role to the management-group route and revisit only after audience and serviceability evidence."}
+  ]
+}

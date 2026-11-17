@@ -1,0 +1,48 @@
+{
+  "id": "",
+  "page_title": "",
+  "proposed_url": "",
+  "page_group": "",
+  "parent_hub": "",
+  "candidate_status": "provisional",
+  "approval_status": "not_approved",
+  "record_status": "not_started",
+  "research_owner": "",
+  "research_updated": null,
+  "primary_keywords": [],
+  "secondary_keywords": [],
+  "search_intent": null,
+  "intended_audience": null,
+  "geographic_relevance": [],
+  "competitor_research": [],
+  "commercial_relevance": null,
+  "unique_content_purpose": null,
+  "internal_link_opportunities": [],
+  "duplication_and_cannibalisation_assessment": "not_started",
+  "audience_and_geography": {
+    "audience": null,
+    "geography": null
+  },
+  "search_intent": {
+    "primary_query": null,
+    "secondary_queries": [],
+    "intent": null,
+    "evidence": []
+  },
+  "demand_and_competition": {
+    "keyword_sources": [],
+    "competitor_pages": [],
+    "evidence_and_date": []
+  },
+  "authoritative_sources": [],
+  "unique_value_and_overlap": {
+    "user_need": null,
+    "existing_page_overlap_review": "not_started",
+    "canonical_or_consolidation_decision": null
+  },
+  "factual_gaps_and_risks": [],
+  "blueprint_path": null,
+  "content_status": "not_started",
+  "publication_status": "not_approved",
+  "notes": []
+}

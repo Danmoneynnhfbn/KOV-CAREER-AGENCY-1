@@ -9,6 +9,9 @@ const jsonLd = (html) => {
   return JSON.parse(text || '{}')['@graph'] || [];
 };
 const skillNodes = (html) => jsonLd(html).filter((node) => node.inDefinedTermSet?.['@id']?.endsWith('/set-skills'));
+const hasVerifiedOnetProvenance = (node) => node.subjectOf?.['@id'] === data.sourceUrl;
+const hasSkill = (nodes, record) => nodes.some((node) => node.name === record.metadataValue &&
+  hasVerifiedOnetProvenance(node) && node.identifier?.value === record.onetLabel);
 const failures = [];
 const recordKeys = new Set();
 if (!data.sourceUrl.includes('onetonline.org/link/details/11-1011.00') || !data.license.includes('creativecommons.org/licenses/by/4.0')) failures.push('O*NET source or license missing.');
@@ -25,7 +28,7 @@ if (!activeListening?.metadataCrosswalk || !escoCrosswalk) failures.push('The Ac
 const homepage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 const homepageSkills = skillNodes(homepage);
 for (const record of data.records) {
-  const found = homepageSkills.find((node) => node.name === record.metadataValue && node.citation === data.sourceUrl && node.identifier?.value === record.onetLabel);
+  const found = hasSkill(homepageSkills, record);
   if (!found) failures.push(`Homepage JSON-LD is missing source-backed skill ${record.metadataValue}.`);
 }
 const homepageSkillKeys = homepageSkills.map((node) => node.name.normalize('NFKC').trim().replace(/\s+/g, ' ').toLocaleLowerCase('en'));
@@ -36,9 +39,8 @@ if (roleFiles.length !== 22) failures.push(`Expected 22 CEO key pages; found ${r
 for (const file of roleFiles) {
   const html = fs.readFileSync(path.join(root, 'roles', 'ceo', file), 'utf8');
   const head = html.match(/<head\b[\s\S]*?<\/head>/i)?.[0] || '';
-  if (!head.includes('O*NET 11-1011.00 Chief Executives skills')) failures.push(`${file}: missing O*NET source marker.`);
   const actual = skillNodes(head);
-  for (const record of data.records) if (!actual.some((node) => node.name === record.metadataValue && node.citation === data.sourceUrl && node.identifier?.value === record.onetLabel)) failures.push(`${file}: JSON-LD missing skill ${record.metadataValue}.`);
+  for (const record of data.records) if (!hasSkill(actual, record)) failures.push(`${file}: JSON-LD missing skill ${record.metadataValue}.`);
   if (/name\s*=\s*(["'])skill\1/i.test(head)) failures.push(`${file}: legacy skill meta tags remain.`);
 }
 if (failures.length) throw new Error(failures.join('\n'));

@@ -1,0 +1,175 @@
+{
+  "id": "professional-profile-directory",
+  "page_title": "Professional Profile Directory",
+  "proposed_url": "/professional-directory/",
+  "staging_preview_url": "/staging/professional-directory/",
+  "page_group": "professional_profile_directory",
+  "parent_hub": null,
+  "candidate_status": "hold_existing_route_overlap_and_privacy",
+  "approval_status": "approved_for_research_only",
+  "record_status": "held_route_overlap_privacy_and_operating_model",
+  "research_owner": "development",
+  "research_updated": "2026-11-04",
+  "primary_keywords": [
+    "executive professional profile directory"
+  ],
+  "secondary_keywords": [
+    "senior executive profiles",
+    "professional candidate directory",
+    "executive talent directory"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was available.",
+    "note": "Search phrases are hypotheses only; not evidence of demand or ranking potential."
+  },
+  "search_intent": {
+    "primary_query": "executive professional profile directory",
+    "secondary_queries": [
+      "senior executive profiles",
+      "professional candidate directory",
+      "executive talent directory"
+    ],
+    "intent": "Navigational/transactional hypothesis for finding professional profiles; demand and audience not validated.",
+    "evidence": [
+      {
+        "source_id": "BOARDPROSPECTS",
+        "url": "https://www.boardprospects.com/",
+        "access_status": "Verified 2026-11-04"
+      },
+      {
+        "source_id": "THEORG-STRIPE",
+        "url": "https://theorg.com/org/stripe",
+        "access_status": "Verified 2026-11-04"
+      },
+      {
+        "source_id": "LINKEDIN-PRIVACY",
+        "url": "https://www.linkedin.com/legal/privacy-policy",
+        "access_status": "Verified 2026-11-04"
+      },
+      {
+        "source_id": "EU-DATA-PROTECTION",
+        "url": "https://commission.europa.eu/law/law-topic/data-protection_en",
+        "access_status": "Verified 2026-11-04"
+      },
+      {
+        "source_id": "KOV-PROFILE-INVENTORY",
+        "url": "profiles.html",
+        "access_status": "Reviewed 2026-11-04"
+      }
+    ]
+  },
+  "intended_audience": "Unresolved: prospective employers/recruiters versus professionals seeking visibility; do not assume public access or inclusion.",
+  "audience_and_geography": {
+    "audience": "Unresolved: prospective employers/recruiters versus professionals seeking visibility; do not assume public access or inclusion.",
+    "geography": "Unresolved; privacy and employment rules vary by jurisdiction."
+  },
+  "geographic_relevance": [
+    "Unresolved; privacy and employment rules vary by jurisdiction."
+  ],
+  "competitor_research": [
+    {
+      "name": "BoardProspects",
+      "url": "https://www.boardprospects.com/",
+      "finding": "Promotes director visibility, board-career networking, and board-search resources; directly adjacent to board-profile discovery.",
+      "status": "page verified; SERP position not measured"
+    },
+    {
+      "name": "The Org: Stripe company profile",
+      "url": "https://theorg.com/org/stripe",
+      "finding": "Displays company-level details such as industry, headquarters, and employee range; not a verified candidate-directory or consent model.",
+      "status": "page verified; limited adjacent reference"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/talent/solutions/",
+      "finding": "Talent-solutions page positions its professional network as a recruiting channel; its privacy policy describes collection, use, sharing, and user choices.",
+      "status": "page and policy verified; not a like-for-like curated KOV directory"
+    }
+  ],
+  "commercial_relevance": "Potentially supports KOV's existing candidate-facing information architecture; no conversion, demand, or serviceability forecast is asserted.",
+  "unique_content_purpose": "Potentially a consent-based directory of professionals, but purpose, audience, eligibility, benefits, monetization, access, and consent model are unresolved. Do not treat this as a qualified public page or collect/publish personal data.",
+  "internal_link_opportunities": [
+    "/profiles.html",
+    "/privacy.html",
+    "/candidate-services.html",
+    "/services.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "A current internal `/profiles.html` page already describes a Candidate Directory and is canonical but robots noindex,nofollow. A separate public `/professional-directory/` route would duplicate that purpose unless the owner approves consolidation and a canonical/redirect plan. The public route is therefore held.",
+  "demand_and_competition": {
+    "keyword_sources": [],
+    "competitor_pages": [
+      "https://www.boardprospects.com/",
+      "https://theorg.com/org/stripe",
+      "https://www.linkedin.com/talent/solutions/"
+    ],
+    "evidence_and_date": [
+      "Competitor/reference pages were opened directly on 2026-11-04; this is a page review, not a Google/Bing SERP ranking study.",
+      "No query volume, difficulty, traffic, or conversion data was available."
+    ]
+  },
+  "authoritative_sources": [
+    {
+      "source_id": "BOARDPROSPECTS",
+      "source_type": "Board-career network and directory",
+      "title": "BoardProspects",
+      "publisher": "BoardProspects",
+      "url_or_path": "https://www.boardprospects.com/",
+      "access_status": "Verified 2026-11-04",
+      "research_use_and_limit": "Presents board readiness, board-search networking, and director visibility; adjacent/direct competitor for any public executive-profile directory."
+    },
+    {
+      "source_id": "THEORG-STRIPE",
+      "source_type": "Professional information directory",
+      "title": "The Org: Stripe company profile",
+      "publisher": "The Org",
+      "url_or_path": "https://theorg.com/org/stripe",
+      "access_status": "Verified 2026-11-04",
+      "research_use_and_limit": "Company profile shows organization-level details such as industry, headquarters, and employee range; not a candidate-profile directory model or evidence of consent practice."
+    },
+    {
+      "source_id": "LINKEDIN-PRIVACY",
+      "source_type": "Professional network policy",
+      "title": "LinkedIn Privacy Policy",
+      "publisher": "LinkedIn",
+      "url_or_path": "https://www.linkedin.com/legal/privacy-policy",
+      "access_status": "Verified 2026-11-04",
+      "research_use_and_limit": "Describes LinkedIn data collection, use, sharing, and member choices; reference for directory privacy review, not legal advice."
+    },
+    {
+      "source_id": "EU-DATA-PROTECTION",
+      "source_type": "Government privacy guidance",
+      "title": "Data protection in the EU",
+      "publisher": "European Commission",
+      "url_or_path": "https://commission.europa.eu/law/law-topic/data-protection_en",
+      "access_status": "Verified 2026-11-04",
+      "research_use_and_limit": "Summarizes EU data protection framework and guidance limits; applicability requires jurisdiction-specific legal review."
+    },
+    {
+      "source_id": "KOV-PROFILE-INVENTORY",
+      "source_type": "Internal page and indexability review",
+      "title": "Candidate Directory page",
+      "publisher": "KOV Career Agency",
+      "url_or_path": "profiles.html",
+      "access_status": "Reviewed 2026-11-04",
+      "research_use_and_limit": "Existing canonical candidate-directory page is robots noindex,nofollow; its data, publication intent, and consent process require review before a public replacement or parallel directory."
+    }
+  ],
+  "unique_value_and_overlap": {
+    "user_need": "Potentially a consent-based directory of professionals, but purpose, audience, eligibility, benefits, monetization, access, and consent model are unresolved. Do not treat this as a qualified public page or collect/publish personal data.",
+    "existing_page_overlap_review": "A current internal `/profiles.html` page already describes a Candidate Directory and is canonical but robots noindex,nofollow. A separate public `/professional-directory/` route would duplicate that purpose unless the owner approves consolidation and a canonical/redirect plan. The public route is therefore held.",
+    "canonical_or_consolidation_decision": "Candidate hub only; no route is to be added to public index until the overlap and release gates are resolved."
+  },
+  "factual_gaps_and_risks": [
+    "No consent records or privacy/retention/removal operating model were verified.",
+    "Existing profiles.html has a noindex,nofollow directive and overlapping directory purpose.",
+    "Do not expose personal data or promise candidate availability without verified permission and process."
+  ],
+  "blueprint_path": "development/blueprints/professional-profile-directory.md",
+  "content_status": "not_started",
+  "publication_status": "not_approved",
+  "notes": [
+    "Owner authorization is for development/research only; publication remains separately gated.",
+    "No candidate URL has been added to the sitemap, public search, or public navigation."
+  ]
+}

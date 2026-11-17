@@ -1,0 +1,147 @@
+{
+  "id": "bank-executive-to-fintech-career-transition",
+  "page_title": "From Banking Leadership to Fintech: Translating Your Experience",
+  "proposed_url": "/career-resources/industry-specific-career-guides/bank-executive-to-fintech-career-transition/",
+  "page_group": "industry_specific_career_guides",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "qualified_for_development",
+  "approval_status": "approved_for_development",
+  "record_status": "candidate_research_and_US_SERP_review_complete",
+  "research_owner": "development",
+  "research_updated": "2026-11-04",
+  "primary_keywords": [
+    "bank executive to fintech career transition"
+  ],
+  "secondary_keywords": [
+    "banking leadership fintech jobs",
+    "bank executive fintech resume",
+    "fintech leadership career change"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was supplied for this candidate.",
+    "note": "Search terms are hypotheses only; no volume, difficulty, or demand is asserted."
+  },
+  "search_intent": {
+    "primary_query": "bank executive to fintech career transition",
+    "secondary_queries": [
+      "banking leadership fintech jobs",
+      "bank executive fintech resume",
+      "fintech leadership career change"
+    ],
+    "intent": "Informational career-transition guidance; query phrasing is a hypothesis, not measured demand.",
+    "evidence": [
+      {
+        "source_id": "GOOGLE-SERP-BANK-FINTECH-20261104",
+        "detail": "A United States-localized Google results page for the primary query displayed career-transition results including PaymentGenes and Hunter Bond content, an industry research result from CFA Institute, and user discussion results. The snapshot is a qualitative intent/competition check, not a rank-tracking study or demand measurement."
+      }
+    ]
+  },
+  "intended_audience": "Senior banking executives considering fintech companies or financial-technology partnership roles.",
+  "audience_and_geography": {
+    "audience": "Senior banking executives considering fintech companies or financial-technology partnership roles.",
+    "geography": "Lead with U.S. banking context; clearly flag jurisdiction and employer-model variation."
+  },
+  "geographic_relevance": "Lead with U.S. banking context; clearly flag jurisdiction and employer-model variation.",
+  "competitor_research": [
+    {
+      "name": "Hunter Bond: Career Migration: From Banking to Fintech",
+      "url": "https://www.hunterbond.com/resources/blog/career-migration-from-banking-to-fintech/",
+      "finding": "Directly addresses banking-to-fintech transitions and recommends evidence such as quantified impact, adaptability, and transferable skills.",
+      "status": "direct page reviewed 2026-11-04; also appeared in the United States-localized Google results for the candidate topic"
+    },
+    {
+      "name": "PaymentGenes: How to Transition from Traditional Banking to a FinTech Career",
+      "url": "https://www.paymentgenes.com/blog/how-to-transition-from-traditional-banking-to-a-fintech-career",
+      "finding": "Career-transition article addressing movement from traditional banking into fintech; it is a direct topic competitor and confirms that broad transition advice already exists.",
+      "status": "direct page reviewed 2026-11-04; appeared in the United States-localized Google results for the candidate topic"
+    }
+  ],
+  "commercial_relevance": "Potentially relevant to executive career positioning and transition support; no KOV fintech placement or sector coverage is asserted.",
+  "unique_content_purpose": "Help a bank leader assess and explain how experience in regulated banking, third-party risk, customer-facing arrangements, and governance maps to a fintech role without implying that fintech is unregulated.",
+  "internal_link_opportunities": [
+    "/industries/finance-insurance/",
+    "/industries/technology-media-telecom/",
+    "/roles/senior-leader-career-strategy.html",
+    "/services/executive-resume-strategy.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "Touches existing finance and technology industry hubs, which cover sectors broadly, not this specific cross-industry transition. Keep only if focused on transferable executive evidence and bank-fintech relationships; merge if it becomes generic fintech leadership advice.",
+  "demand_and_competition": {
+    "keyword_sources": [],
+    "competitor_pages": [
+      "https://www.hunterbond.com/resources/blog/career-migration-from-banking-to-fintech/",
+      "https://www.paymentgenes.com/blog/how-to-transition-from-traditional-banking-to-a-fintech-career"
+    ],
+    "evidence_and_date": [
+      "Federal Reserve SR 23-4 discusses third-party risk management for Fed-supervised banking organizations and says specific fintech arrangements should be understood; it also states the guidance does not create new requirements.",
+      "Hunter Bond and PaymentGenes publish directly relevant transition articles; these establish topic competition, not hiring demand or keyword volume.",
+      "A Google search using the query 'bank executive to fintech career transition' with US locale parameters showed transition-focused content, industry research, and discussion results. Results are dynamic and localized; no ranking, volume, difficulty, traffic, or conversion conclusion is drawn.",
+      "No Search Console or validated keyword-tool export was available; first-party demand and measured query volume remain unknown. Evidence reviewed 2026-11-04."
+    ]
+  },
+  "authoritative_sources": [
+    {
+      "source_id": "FED-SR2304",
+      "source_type": "Banking regulatory guidance",
+      "title": "SR 23-4: Interagency Guidance on Third-Party Relationships: Risk Management",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "url_or_path": "https://www.federalreserve.gov/supervisionreg/srletters/SR2304.htm",
+      "access_status": "Verified by research screen 2026-11-04",
+      "research_use_and_limit": "Applies to Federal Reserve-supervised banking organizations and discusses third-party relationship risk management, including some fintech arrangements. It says the guidance does not impose new requirements; avoid implying it applies to every fintech or jurisdiction."
+    },
+    {
+      "source_id": "PAYMENTGENES-BANK-FINTECH",
+      "source_type": "Recruitment and payments-sector career article",
+      "title": "How to Transition from Traditional Banking to a FinTech Career",
+      "publisher": "PaymentGenes",
+      "url_or_path": "https://www.paymentgenes.com/blog/how-to-transition-from-traditional-banking-to-a-fintech-career",
+      "access_status": "Page reviewed 2026-11-04",
+      "research_use_and_limit": "Direct candidate-topic competitor, also surfaced in a United States-localized Google results check. Treat as competitor content, not an independent authority or evidence of demand."
+    },
+    {
+      "source_id": "GOOGLE-SERP-BANK-FINTECH-20261104",
+      "source_type": "Localized search-result observation",
+      "title": "Google results for bank executive to fintech career transition",
+      "publisher": "Google Search",
+      "url_or_path": "https://www.google.com/search?q=bank+executive+to+fintech+career+transition&hl=en-US&gl=US",
+      "access_status": "Observed in browser 2026-11-04",
+      "research_use_and_limit": "Qualitative United States-localized result-page screen. Results included PaymentGenes and Hunter Bond career-transition content, a CFA Institute research result, and user discussions. Search results are dynamic and locale-specific; this does not establish rankings, demand, or keyword metrics."
+    },
+    {
+      "source_id": "HUNTER-BOND-BANK-FINTECH",
+      "source_type": "Recruitment competitor article",
+      "title": "Career Migration: From Banking to Fintech",
+      "publisher": "Hunter Bond",
+      "url_or_path": "https://www.hunterbond.com/resources/blog/career-migration-from-banking-to-fintech/",
+      "access_status": "Verified by research screen 2026-11-04",
+      "research_use_and_limit": "Directly addresses banking-to-fintech career transitions and discusses transferable skills and impact framing. Evidence that similar content exists, not independent proof of market demand or its statistics."
+    },
+    {
+      "source_id": "KOV-INDUSTRY-RESEARCH",
+      "source_type": "Internal taxonomy and content-overlap research",
+      "title": "Global Jobs, Industries, and Recruiting Research",
+      "publisher": "KOV Career Agency",
+      "url_or_path": "KOV-GLOBAL-JOBS-INDUSTRIES-AND-RECRUITING-RESEARCH-2026-10-22.md",
+      "access_status": "Reviewed 2026-11-04",
+      "research_use_and_limit": "Distinguishes taxonomy, career guides, and services; specifically cautions that directory coverage does not prove KOV recruits or provides placement support in every role, industry, or market."
+    }
+  ],
+  "unique_value_and_overlap": {
+    "user_need": "Help a bank leader assess and explain how experience in regulated banking, third-party risk, customer-facing arrangements, and governance maps to a fintech role without implying that fintech is unregulated.",
+    "existing_page_overlap_review": "Touches existing finance and technology industry hubs, which cover sectors broadly, not this specific cross-industry transition. Keep only if focused on transferable executive evidence and bank-fintech relationships; merge if it becomes generic fintech leadership advice.",
+    "canonical_or_consolidation_decision": "Distinct candidate-side transition URL: existing KOV finance and technology hubs cover sectors, while the senior-leader strategy and resume pages are general services. This page is limited to translating banking leadership evidence to fintech contexts. The candidate URL remains out of public sitemap and search while staged."
+  },
+  "factual_gaps_and_risks": [
+    "Regulatory rules vary by jurisdiction and business model; do not imply SR 23-4 applies to all fintech firms.",
+    "Search volume, difficulty, traffic, conversion, and first-party query evidence are unavailable; do not make demand claims. The localized Google screen is a dated qualitative snapshot, not a ranking study.",
+    "Do not reuse competitor statistics or describe KOV as a fintech recruiter without separate evidence.",
+    "The candidate must not imply that banking experience automatically qualifies for technology roles."
+  ],
+  "blueprint_path": "development/blueprints/industry-specific-career-guides/bank-executive-to-fintech-career-transition.md",
+  "content_status": "staging_content_complete",
+  "publication_status": "not_approved",
+  "notes": [
+    "Substantive staging HTML is present at staging/career-resources/industry-specific-career-guides/bank-executive-to-fintech-career-transition/index.html and passed foundation browser and site-coverage QA. Development is authorized under the owner's approve_qualified decision; no publication is authorized.",
+    "Keep excluded from public navigation, sitemap, and search. Limit regulatory statements to the cited U.S. banking context."
+  ]
+}

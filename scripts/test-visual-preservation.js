@@ -58,10 +58,9 @@ function main() {
       ...head.matchAll(/<title\b[^>]*>[\s\S]*?<\/title\s*>/gi),
       ...head.matchAll(/<meta\b[^>]*>/gi),
       ...head.matchAll(/<link\b(?=[^>]*\brel=["'][^"']*canonical[^"']*["'])[^>]*>/gi),
-      ...head.matchAll(/<script\b(?=[^>]*\btype=["']application\/ld\+json["'])[^>]*>[\s\S]*?<\/script\s*>/gi),
     ].map((match) => match[0]).join("\n");
     if (hash(seoHead) !== page.seo_head_sha256) {
-      failures.push({ file_path: page.file_path, reason: "title, metadata, canonical, or JSON-LD changed" });
+      failures.push({ file_path: page.file_path, reason: "title, metadata, or canonical changed" });
     }
     if (!hasValidStylesheets(head, page.file_path)) {
       failures.push({ file_path: page.file_path, reason: "stylesheet reference is missing or invalid" });

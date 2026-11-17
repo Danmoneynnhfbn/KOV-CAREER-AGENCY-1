@@ -1,0 +1,114 @@
+{
+  "id": "non-executive-director-opportunity-due-diligence",
+  "page_title": "Assessing a Non-Executive Director Opportunity: Governance Questions Before You Commit",
+  "proposed_url": "/resources/non-executive-director-opportunity-due-diligence.html",
+  "staging_preview_url": "/staging/resources/non-executive-director-opportunity-due-diligence/",
+  "page_group": "board_non_executive_career",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "qualified_for_staging_development_only",
+  "approval_status": "approved_for_unpublished_staging_development_only",
+  "record_status": "bounded_question_framework_and_existing_page_overlap_review_complete; jurisdictional_source_review_complete; actual_SERP_and_first_party_demand_unavailable",
+  "research_owner": "development",
+  "research_updated": "2026-11-05",
+  "primary_keywords": [
+    "non-executive director role due diligence"
+  ],
+  "secondary_keywords": [
+    "NED role questions",
+    "board appointment evaluation"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was supplied for this candidate.",
+    "note": "Search terms are hypotheses only; no volume, difficulty, or demand is asserted."
+  },
+  "search_intent": {
+    "primary_query": "non-executive director role due diligence",
+    "secondary_queries": [
+      "NED role questions",
+      "board appointment evaluation"
+    ],
+    "intent": "Informational decision support for evaluating a specific board/NED opportunity; keyword demand and local terminology are unmeasured.",
+    "evidence": [
+      "The FRC Code supplies named UK governance context only; it does not supply universal legal or appointment rules.",
+      "The approved brief requests board career development resources. The current board-transition page covers career positioning, while this page limits itself to questions for clarifying one specific opportunity.",
+      "Candidate-specific search results and first-party demand data were not available; no demand or ranking claim is made."
+    ]
+  },
+  "intended_audience": "Executives considering a non-executive director appointment and seeking questions to clarify the remit and governance context before deciding.",
+  "audience_and_geography": {
+    "audience": "Executives considering a non-executive director appointment and seeking questions to clarify the remit and governance context before deciding.",
+    "geography": "Use the UK Corporate Governance Code only as a clearly labeled UK example; board law, governance codes, duties, and terminology vary by jurisdiction."
+  },
+  "geographic_relevance": "Use the UK Corporate Governance Code only as a clearly labeled UK example; board law, governance codes, duties, and terminology vary by jurisdiction.",
+  "competitor_research": [
+    {
+      "name": "Spencer Stuart Board and CEO Advisory",
+      "url": "https://www.spencerstuart.com/what-we-do/functional-roles/board-and-ceo",
+      "finding": "Describes board advisory and director recruitment services; adjacent market context, not a candidate opportunity due-diligence checklist.",
+      "status": "page fetched 2026-11-05; adjacent market context only, not a direct opportunity checklist or search-result ranking"
+    }
+  ],
+  "commercial_relevance": "Could connect existing board-transition information to a distinct candidate decision task. KOV board placement, legal advice, and appointment outcomes are not asserted.",
+  "unique_content_purpose": "Offer a jurisdiction-labeled question framework for assessing the remit and governance context of one potential NED appointment, without making legal, fiduciary, compensation, or time-commitment claims.",
+  "internal_link_opportunities": [
+    "/roles/board-level-career-transition.html",
+    "/resources/salary-offer-negotiation-guide.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "The existing board-transition page covers career positioning and KOV engagement scope; this guide is limited to questions for clarifying one specific opportunity and does not restate service copy. The FRC Code is used only for named UK context. Actual SERP and first-party query evidence remain unavailable.",
+  "demand_and_competition": {
+    "keyword_sources": [],
+    "competitor_pages": [
+      "https://www.spencerstuart.com/what-we-do/functional-roles/board-and-ceo"
+    ],
+    "evidence_and_date": []
+  },
+  "authoritative_sources": [
+    {
+      "source_id": "FRC-UK-CODE-2024-2026",
+      "source_type": "Official UK corporate governance code",
+      "title": "UK Corporate Governance Code 2024",
+      "publisher": "Financial Reporting Council",
+      "url_or_path": "https://www.frc.org.uk/docs/6709/html/",
+      "access_status": "Page fetched 2026-11-05",
+      "research_use_and_limit": "Covers UK governance matters including board leadership, responsibilities, composition/succession, audit/risk, and remuneration. It does not prescribe a board-CV format; applicability is UK-specific and it is not legal advice."
+    },
+    {
+      "source_id": "SPENCER-STUART-BOARD-CEO-2026",
+      "source_type": "Executive search and board advisory reference",
+      "title": "Board and CEO Advisory",
+      "publisher": "Spencer Stuart",
+      "url_or_path": "https://www.spencerstuart.com/what-we-do/functional-roles/board-and-ceo",
+      "access_status": "Page fetched 2026-11-05",
+      "research_use_and_limit": "Describes board search and advisory services and candidate readiness context. It is an adjacent market reference, not a candidate CV standard, legal source, or search-result ranking."
+    },
+    {
+      "source_id": "KOV-CAREER-GUIDE-OVERLAP-2026",
+      "source_type": "Internal site content and overlap inventory",
+      "title": "Existing career strategy, interview, salary, board, role, and market pages",
+      "publisher": "KOV Career Agency development review",
+      "url_or_path": "sitemap.xml; development/VISIBLE-OVERLAP-AUDIT.md; roles/senior-leader-career-strategy.html; services/interview-coaching-executives.html; resources/salary-offer-negotiation-guide.html; roles/board-level-career-transition.html; roles/senior-executive-resume-strategy.html; resources/executive-job-search-in-your-market.html",
+      "access_status": "Repository page inventory and identified sections reviewed 2026-11-05; complete body-by-body overlap validation remains pending",
+      "research_use_and_limit": "Identifies relevant existing canonical pages and likely overlap. It is not evidence of query demand, competitor SERPs, or that a short page excerpt captures every current-page topic."
+    }
+  ],
+  "unique_value_and_overlap": {
+    "user_need": "Offer a jurisdiction-labeled question framework for assessing the remit and governance context of one potential NED appointment, without making legal, fiduciary, compensation, or time-commitment claims.",
+    "existing_page_overlap_review": "Board/NED role roots and the existing board-transition page cover role families and career direction. Differentiate only around assessing a specific opportunity; inspect full page bodies and local SERPs before retaining a separate URL.",
+    "canonical_or_consolidation_decision": "Staging candidate implemented; production canonical and consolidation decision remain pending current-page and SERP review."
+  },
+  "factual_gaps_and_risks": [
+    "The FRC Code is UK-specific; the page makes no universal statement about board or director obligations.",
+    "Do not state legal, fiduciary, compensation, or time-commitment rules. The page directs readers to the organization and qualified advisers.",
+    "No query-volume, actual SERP, ranking, traffic, conversion, or appointment-outcome evidence is available."
+  ],
+  "blueprint_path": "development/blueprints/board-non-executive-career/non-executive-director-opportunity-due-diligence.md",
+  "content_status": "substantive_staging_page_complete",
+  "publication_status": "not_published",
+  "quality_assurance_status": "foundation browser checks passed 2026-11-05; noindex, no stylesheet, mobile width, source links, table rendering, and public search/sitemap exclusion verified",
+  "public_indexing_status": "excluded_from_sitemap_and_search_index",
+  "notes": [
+    "Substantive, unstyled HTML exists at staging/resources/non-executive-director-opportunity-due-diligence/index.html. Foundation browser checks passed; it is a non-legal question framework and remains noindex.",
+    "Qualified for unpublished staging only; production publication, public navigation, sitemap, and search inclusion remain unapproved."
+  ]
+}

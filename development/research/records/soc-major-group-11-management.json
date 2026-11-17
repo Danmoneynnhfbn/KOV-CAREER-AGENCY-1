@@ -1,0 +1,144 @@
+{
+  "id": "soc-major-group-11-management",
+  "page_title": "Management Occupations",
+  "proposed_url": "/roles/management-occupations.html",
+  "page_group": "occupation_classification",
+  "parent_hub": "/roles/",
+  "candidate_status": "qualified_for_development",
+  "approval_status": "approved_for_development",
+  "record_status": "official_SOC_and_O*NET_reference_checked; representative_role_mapping_checked; US_SERP_and_adjacent_competitor_review_complete; qualified_for_staging_development",
+  "research_owner": "development",
+  "research_updated": "2026-11-05",
+  "primary_keywords": [
+    "Management Occupations"
+  ],
+  "secondary_keywords": [
+    "Management Occupations careers",
+    "SOC 11-0000 occupations"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was supplied for this candidate.",
+    "note": "Search terms are hypotheses only; no volume, difficulty, or demand is asserted."
+  },
+  "search_intent": {
+    "primary_query": "Management Occupations",
+    "secondary_queries": [
+      "Management Occupations careers",
+      "SOC 11-0000 occupations"
+    ],
+    "intent": "Navigational and informational: identify the scope of the U.S. SOC major group 11-0000 (Management Occupations) and browse relevant KOV role listings. Phrasing is a hypothesis, not measured query demand.",
+    "evidence": [
+      "The site coverage audit records this exact destination as linked by 35 source pages with 105 href occurrences/variants. This is evidence of existing internal navigation paths only, not public search demand."
+    ]
+  },
+  "intended_audience": "People browsing KOV's role directory who need to locate existing roles within the Management Occupations classification group; whether this group fits KOV's candidate-service audience is unverified.",
+  "audience_and_geography": {
+    "audience": "People browsing KOV's role directory who need to locate existing roles within the Management Occupations classification group; whether this group fits KOV's candidate-service audience is unverified.",
+    "geography": "The 2018 SOC is a U.S. occupational classification. Any English-language page must label that scope and must not imply the taxonomy is universal or equivalent to other national systems."
+  },
+  "geographic_relevance": "The 2018 SOC is a U.S. occupational classification. Any English-language page must label that scope and must not imply the taxonomy is universal or equivalent to other national systems.",
+  "competitor_research": [
+    {
+      "name": "O*NET OnLine",
+      "url": "https://www.onetonline.org/",
+      "finding": "The U.S. Department of Labor resource describes browsing and profiles for 900+ occupations. It is an official occupational reference, not a direct executive-career competitor.",
+      "status": "general reference page and Chief Executives profile reviewed 2026-11-05; official occupational source, not a direct executive-career competitor"
+    },
+    {
+      "name": "Indeed Career Advice",
+      "url": "https://www.indeed.com/career-advice/career-development/business-management-degree-jobs",
+      "finding": "The article, updated June 15, 2026, addresses jobs for business-management degree holders and includes broad career options. It is adjacent career content, not a U.S. SOC classification index or executive role directory.",
+      "status": "candidate-adjacent result opened and reviewed 2026-11-05"
+    },
+    {
+      "name": "Google US-localized results",
+      "url": "https://www.google.com/search?q=%22Management+Occupations%22+%2211-0000%22&hl=en&gl=US",
+      "finding": "The visible results included the BLS Management Occupations page and O*NET. A second query for management occupations career directory surfaced BLS Occupational Outlook Handbook, Indeed degree-oriented career guidance, state workforce resources, and university content. This supports distinguishing the page as a U.S. SOC navigation resource; it does not establish keyword demand or stable rankings.",
+      "status": "two qualitative US-localized query screens reviewed 2026-11-05; no volumes or position claims recorded"
+    },
+    {
+      "name": "Direct commercial competitors and current search results",
+      "finding": "No candidate-specific commercial competitor or search-result ranking was verified in this screen.",
+      "status": "the adjacent Indeed result was reviewed; no direct executive-SOC-directory competitor was identified in the two qualitative query screens"
+    }
+  ],
+  "commercial_relevance": "The staging page repairs an existing internal navigation path into KOV's role directory and gives visitors context for interpreting a U.S. occupation group. It does not claim that KOV serves every occupation in the group, that a service is available in every market, or that search demand or conversion value has been established.",
+  "unique_content_purpose": "Provide a navigational landing page for the 2018 U.S. SOC major group 11-0000, Management Occupations, and link only to KOV role pages whose mapping to this group has been individually checked. Do not copy the full SOC taxonomy or make a placement/service claim.",
+  "internal_link_opportunities": [
+    "/roles/",
+    "/roles/senior-leader-career-strategy.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "The exact linked destination is absent from the audited site and is referenced 105 times across 35 existing pages. The staging page serves as a concise classification explainer and index to existing role pages, not a replacement for them. Two qualitative U.S.-localized SERP screens found official classification resources and adjacent general career guides; no first-party demand metrics are available. SOC is U.S.-specific.",
+  "demand_and_competition": {
+    "keyword_sources": [],
+    "competitor_pages": [
+      "https://www.onetonline.org/",
+      "https://www.indeed.com/career-advice/career-development/business-management-degree-jobs"
+    ],
+    "evidence_and_date": [
+      "Google US-localized query: \"Management Occupations\" \"11-0000\"; visible results included BLS and O*NET; 2026-11-05.",
+      "Google US-localized query: \"management occupations\" career directory; visible results included BLS Occupational Outlook Handbook, Indeed degree-oriented career guidance, state workforce resources, and university content; 2026-11-05."
+    ]
+  },
+  "authoritative_sources": [
+    {
+      "source_id": "BLS-SOC-2018",
+      "source_type": "Official U.S. occupational classification",
+      "title": "2018 Standard Occupational Classification (SOC)",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url_or_path": "https://www.bls.gov/soc/2018/home.htm; local structure and definitions workbooks documented in data/taxonomy/README.md",
+      "access_status": "Repository source files and matching code/title records validated 2026-10-21; live BLS fetch returned HTTP 403 on 2026-11-05",
+      "research_use_and_limit": "The local workbooks document 23 major groups and validated 2018 SOC codes/titles. Use only as a U.S. taxonomy; retrieve or independently verify current official materials before factual publication."
+    },
+    {
+      "source_id": "ONET-ONLINE",
+      "source_type": "Official U.S. occupational reference",
+      "title": "O*NET OnLine",
+      "publisher": "U.S. Department of Labor / O*NET Resource Center",
+      "url_or_path": "https://www.onetonline.org/",
+      "access_status": "Page fetched 2026-11-05",
+      "research_use_and_limit": "The landing page describes occupational browsing and profiles for 900+ occupations. It is a U.S.-oriented reference, not proof of demand, a direct commercial competitor, or a one-to-one mapping for KOV role pages."
+    },
+    {
+      "source_id": "ONET-CHIEF-EXECUTIVES-11-1011",
+      "source_type": "Official U.S. occupational profile",
+      "title": "O*NET OnLine: Chief Executives, 11-1011.00",
+      "publisher": "U.S. Department of Labor / O*NET Resource Center",
+      "url_or_path": "https://www.onetonline.org/link/summary/11-1011.00",
+      "access_status": "Page fetched and reviewed 2026-11-05",
+      "research_use_and_limit": "The profile places Chief Executives in the management occupational family and lists CEO, CFO, CIO, COO, and CTO among sample reported job titles. This supports representative internal links only; it does not establish that titles or duties are identical across employers."
+    },
+    {
+      "source_id": "KOV-SOC-LINK-INVENTORY",
+      "source_type": "Internal site coverage audit",
+      "title": "Missing SOC major-group link destinations",
+      "publisher": "KOV Career Agency development audit",
+      "url_or_path": "development/LINK-FAILURE-GROUPS.csv",
+      "access_status": "Repository audit reviewed 2026-11-05",
+      "research_use_and_limit": "The audit lists 23 missing major-group destinations; each target is linked from 35 source pages with 105 href occurrences/variants. This supports an internal navigation need only, not an external search-demand claim."
+    }
+  ],
+  "unique_value_and_overlap": {
+    "user_need": "Provide a navigational landing page for the 2018 U.S. SOC major group 11-0000, Management Occupations, and link only to KOV role pages whose mapping to this group has been individually checked. Do not copy the full SOC taxonomy or make a placement/service claim.",
+    "existing_page_overlap_review": "The exact linked destination is absent from the audited site and appears 105 times across 35 source pages. The staging draft is differentiated as a classification explainer and index to existing role pages; it does not duplicate their role-specific content. This internal-link evidence supports a navigation need, not external search demand.",
+    "canonical_or_consolidation_decision": "Candidate URL only; recheck current sitemap and page text before implementation."
+  },
+  "factual_gaps_and_risks": [
+    "The BLS landing page returned HTTP 403 during the current direct review; the 2018 scope and code/title records were cross-checked against the local BLS structure and definitions workbooks, and U.S. search results showed the relevant BLS classification resource. Recheck direct official material before publication.",
+    "Representative role-title links are supported by the O*NET Chief Executives profile; no broader one-to-one mapping of KOV role pages to every SOC occupation is asserted.",
+    "Review the full existing role-page text and verify every contextual link before any publication decision.",
+    "The two Google screens are qualitative and U.S.-localized; internal-link evidence and observed results are not keyword volume or proof of demand.",
+    "No Search Console, keyword-volume, difficulty, traffic, or conversion data is available. Do not claim demand, rankings, or outcomes.",
+    "The U.S. SOC must not be presented as a global occupational taxonomy or as a test of KOV service eligibility."
+  ],
+  "blueprint_path": "development/blueprints/occupation-classification/soc-major-group-11-management.md",
+  "content_status": "substantive_staging_page_complete",
+  "publication_status": "not_published",
+  "notes": [
+    "A source-backed, unstyled HTML page exists at staging/roles/management-occupations/index.html and is qualified for unpublished staging development.",
+    "The exact proposed destination is linked internally 105 times across 35 source pages; this indicates an internal navigation repair need only.",
+    "Two US-localized SERP screens and the adjacent Indeed article were reviewed. No keyword volume, rankings, traffic, conversion, or outcome claims are made.",
+    "Keep excluded from public navigation, sitemap, and search until any separate production review and explicit release approval."
+  ]
+}

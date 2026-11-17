@@ -1,0 +1,87 @@
+{
+  "id": "germany-executive-job-search-market-guide",
+  "page_title": "Germany Executive Job-Search Market Research Guide",
+  "proposed_url": "/career-resources/country-market-guides/germany-executive-job-search-market-guide/",
+  "page_group": "general_country_market_pages",
+  "blueprint_path": "development/blueprints/country-market-guides/germany-executive-job-search-market-guide.md",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "provisional_country_market_guide_not_qualified",
+  "approval_status": "not_approved",
+  "record_status": "source_bounded_staging_draft_complete; SERP_demand_overlap_and_serviceability_pending",
+  "research_owner": "development",
+  "research_updated": "2026-11-06",
+  "primary_keywords": [
+    "Germany executive job-search market research"
+  ],
+  "secondary_keywords": [
+    "Germany executive labour market",
+    "Germany employment rate 20 to 64"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was supplied for this candidate.",
+    "note": "Search terms are hypotheses only; no volume, difficulty, or demand is asserted."
+  },
+  "search_intent": {
+    "primary_query": "Germany executive job-search market research",
+    "secondary_queries": [
+      "Germany executive labour market",
+      "Germany employment rate 20 to 64"
+    ],
+    "intent": "Unmeasured country-specific research hypothesis: interpret a defined Eurostat Germany employment indicator as broad context, not as evidence of executive vacancy demand.",
+    "evidence": [
+      "Eurostat's 2026 Q2 quarterly dataset provides a Germany-specific seasonally adjusted employment-rate observation for ages 20 to 64.",
+      "Eurostat's quarterly labour-market article distinguishes employment rates from labour-market slack."
+    ]
+  },
+  "intended_audience": "Senior executives and candidates researching the German employment market.",
+  "geographic_relevance": "Germany only for the numeric observation; EU-wide context is clearly labeled and not generalized to Germany.",
+  "competitor_research": [
+    {
+      "name": "Germany-localized candidate-facing search results and direct market-guide competitors",
+      "finding": "A current Germany-localized search-results review and direct market-guide comparison was not performed.",
+      "status": "SERP research pending"
+    }
+  ],
+  "commercial_relevance": "Potential country-specific candidate research resource only if a distinct user need, demand, overlap and KOV serviceability are later established. Eurostat employment data do not establish commercial value or KOV capability.",
+  "unique_content_purpose": "Explain the exact population, age-band, quarter, seasonal-adjustment setting and denominator of a sourced Germany employment-rate observation and distinguish it from labour-market slack and executive hiring evidence.",
+  "internal_link_opportunities": [
+    "/resources/executive-job-search-in-your-market.html",
+    "/roles/senior-leader-career-strategy.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "The existing executive job-search resource is jurisdiction-neutral. This draft is narrowly based on a dated Germany-specific Eurostat observation and its statistical metadata. Full Germany page overlap, SERP and demand review remain pending.",
+  "authoritative_sources": [
+    {
+      "source_id": "EUROSTAT-LFSI-EMP-Q-GERMANY-2026Q2",
+      "source_type": "Official EU quarterly labour statistics dataset",
+      "title": "Employment and labour force by sex and age — quarterly data (LFSI_EMP_Q)",
+      "publisher": "Eurostat",
+      "url_or_path": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfsi_emp_q?lang=en&freq=Q&indic_em=EMP_LFS&s_adj=SA&sex=T&age=Y20-64&unit=PC_POP&geo=DE&sinceTimePeriod=2026-Q2&untilTimePeriod=2026-Q2",
+      "access_status": "API response fetched 2026-11-06; dataset updated 2026-10-26",
+      "research_use_and_limit": "Used for Germany's seasonally adjusted total employment rate for ages 20 to 64 in 2026 Q2 (81.5%), measured as a percentage of total population. This is a broad labour-force indicator, not executive vacancies, compensation or appointment prospects."
+    },
+    {
+      "source_id": "EUROSTAT-LABOUR-MARKET-QTR-2026",
+      "source_type": "Official EU statistical interpretation article",
+      "title": "EU labour market — quarterly statistics",
+      "publisher": "Eurostat",
+      "url_or_path": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=EU_labour_market_-_quarterly_statistics",
+      "access_status": "Page fetched 2026-11-06; data extracted September 2026",
+      "research_use_and_limit": "Used for the distinction between employment rate and labour-market slack. EU-level findings are not presented as Germany-specific executive demand."
+    }
+  ],
+  "content_status": "Source-bounded Germany market research guide implemented in noindex staging with one dated Eurostat indicator and explicit scope limitations.",
+  "remaining_gaps": [
+    "Direct Germany-localized SERP and competitor research.",
+    "First-party demand evidence and full current-site overlap review.",
+    "KOV serviceability confirmation.",
+    "Recheck the Eurostat value, status flags and metadata before any publication decision."
+  ],
+  "release_controls": {
+    "robots": "noindex, nofollow",
+    "public_navigation": "excluded",
+    "public_search": "excluded",
+    "sitemap": "excluded",
+    "publication": "not approved"
+  }
+}

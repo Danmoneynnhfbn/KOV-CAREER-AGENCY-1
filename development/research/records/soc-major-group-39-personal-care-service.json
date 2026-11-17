@@ -1,0 +1,122 @@
+﻿{
+    "id":  "soc-major-group-39-personal-care-service",
+    "page_title":  "Personal Care and Service Occupations",
+    "proposed_url":  "/roles/personal-care-and-service-occupations.html",
+    "page_group":  "occupation_classification",
+    "parent_hub":  "/roles/",
+    "candidate_status":  "provisional_existing_link_target_not_qualified",
+    "approval_status":  "not_approved",
+    "record_status":  "individual_classification_screen_complete; role_mapping_and_SERP_review_pending",
+    "research_owner":  "development",
+    "research_updated":  "2026-11-05",
+    "primary_keywords":  [
+                             "Personal Care and Service Occupations"
+                         ],
+    "secondary_keywords":  [
+                               "Personal Care and Service Occupations careers",
+                               "SOC 39-0000 occupations"
+                           ],
+    "keyword_metrics":  {
+                            "volume_status":  "not_available",
+                            "source":  "No Search Console, Google Keyword Planner, or validated third-party keyword export was supplied for this candidate.",
+                            "note":  "Search terms are hypotheses only; no volume, difficulty, or demand is asserted."
+                        },
+    "search_intent":  {
+                          "primary_query":  "Personal Care and Service Occupations",
+                          "secondary_queries":  [
+                                                    "Personal Care and Service Occupations careers",
+                                                    "SOC 39-0000 occupations"
+                                                ],
+                          "intent":  "Navigational and informational: identify the scope of the U.S. SOC major group 39-0000 (Personal Care and Service Occupations) and browse relevant KOV role listings. Phrasing is a hypothesis, not measured query demand.",
+                          "evidence":  [
+                                           "The site coverage audit records this exact destination as linked by 35 source pages with 105 href occurrences/variants. This is evidence of existing internal navigation paths only, not public search demand."
+                                       ]
+                      },
+    "intended_audience":  "People browsing KOV\u0027s role directory who need to locate existing roles within the Personal Care and Service Occupations classification group; whether this group fits KOV\u0027s candidate-service audience is unverified.",
+    "audience_and_geography":  {
+                                   "audience":  "People browsing KOV\u0027s role directory who need to locate existing roles within the Personal Care and Service Occupations classification group; whether this group fits KOV\u0027s candidate-service audience is unverified.",
+                                   "geography":  "The 2018 SOC is a U.S. occupational classification. Any English-language page must label that scope and must not imply the taxonomy is universal or equivalent to other national systems."
+                               },
+    "geographic_relevance":  "The 2018 SOC is a U.S. occupational classification. Any English-language page must label that scope and must not imply the taxonomy is universal or equivalent to other national systems.",
+    "competitor_research":  [
+                                {
+                                    "name":  "O*NET OnLine",
+                                    "url":  "https://www.onetonline.org/",
+                                    "finding":  "The U.S. Department of Labor resource describes browsing and profiles for 900+ occupations. It is an official occupational reference, not a direct executive-career competitor.",
+                                    "status":  "general reference page verified 2026-11-05; candidate-specific commercial competitor and Google/Bing SERP review pending"
+                                },
+                                {
+                                    "name":  "Direct commercial competitors and current search results",
+                                    "finding":  "No candidate-specific commercial competitor or search-result ranking was verified in this screen.",
+                                    "status":  "not assessed; SERP research pending"
+                                }
+                            ],
+    "commercial_relevance":  "A group landing page could restore the intended route into existing role directories, but candidate-side service fit, conversion value, and demand are unverified. A taxonomy label must not imply that KOV provides services for every listed occupation.",
+    "unique_content_purpose":  "Provide a navigational landing page for the 2018 U.S. SOC major group 39-0000, Personal Care and Service Occupations, and link only to KOV role pages whose mapping to this group has been individually checked. Do not copy the full SOC taxonomy or make a placement/service claim.",
+    "internal_link_opportunities":  [
+                                        "/roles/",
+                                        "/roles/senior-leader-career-strategy.html"
+                                    ],
+    "duplication_and_cannibalisation_assessment":  "The exact linked destination is absent from the audited site, while the site already has 40 role indexes and 554 role-industry pages. A landing page is distinct only as a classification-based index; mapping existing roles, avoiding duplicate role descriptions, and verifying audience fit are unresolved. SOC is U.S.-specific.",
+    "demand_and_competition":  {
+                                   "keyword_sources":  [
+
+                                                       ],
+                                   "competitor_pages":  [
+                                                            "https://www.onetonline.org/"
+                                                        ],
+                                   "evidence_and_date":  [
+
+                                                         ]
+                               },
+    "authoritative_sources":  [
+                                  {
+                                      "source_id":  "BLS-SOC-2018",
+                                      "source_type":  "Official U.S. occupational classification",
+                                      "title":  "2018 Standard Occupational Classification (SOC)",
+                                      "publisher":  "U.S. Bureau of Labor Statistics",
+                                      "url_or_path":  "https://www.bls.gov/soc/2018/home.htm; local structure and definitions workbooks documented in data/taxonomy/README.md",
+                                      "access_status":  "Repository source files and matching code/title records validated 2026-10-21; live BLS fetch returned HTTP 403 on 2026-11-05",
+                                      "research_use_and_limit":  "The local workbooks document 23 major groups and validated 2018 SOC codes/titles. Use only as a U.S. taxonomy; retrieve or independently verify current official materials before factual publication."
+                                  },
+                                  {
+                                      "source_id":  "ONET-ONLINE",
+                                      "source_type":  "Official U.S. occupational reference",
+                                      "title":  "O*NET OnLine",
+                                      "publisher":  "U.S. Department of Labor / O*NET Resource Center",
+                                      "url_or_path":  "https://www.onetonline.org/",
+                                      "access_status":  "Page fetched 2026-11-05",
+                                      "research_use_and_limit":  "The landing page describes occupational browsing and profiles for 900+ occupations. It is a U.S.-oriented reference, not proof of demand, a direct commercial competitor, or a one-to-one mapping for KOV role pages."
+                                  },
+                                  {
+                                      "source_id":  "KOV-SOC-LINK-INVENTORY",
+                                      "source_type":  "Internal site coverage audit",
+                                      "title":  "Missing SOC major-group link destinations",
+                                      "publisher":  "KOV Career Agency development audit",
+                                      "url_or_path":  "development/LINK-FAILURE-GROUPS.csv",
+                                      "access_status":  "Repository audit reviewed 2026-11-05",
+                                      "research_use_and_limit":  "The audit lists 23 missing major-group destinations; each target is linked from 35 source pages with 105 href occurrences/variants. This supports an internal navigation need only, not an external search-demand claim."
+                                  }
+                              ],
+    "unique_value_and_overlap":  {
+                                     "user_need":  "Provide a navigational landing page for the 2018 U.S. SOC major group 39-0000, Personal Care and Service Occupations, and link only to KOV role pages whose mapping to this group has been individually checked. Do not copy the full SOC taxonomy or make a placement/service claim.",
+                                     "existing_page_overlap_review":  "The exact linked destination is absent from the audited site, while the site already has 40 role indexes and 554 role-industry pages. A landing page is distinct only as a classification-based index; mapping existing roles, avoiding duplicate role descriptions, and verifying audience fit are unresolved. SOC is U.S.-specific.",
+                                     "canonical_or_consolidation_decision":  "Candidate URL only; recheck current sitemap and page text before implementation."
+                                 },
+    "factual_gaps_and_risks":  [
+                                   "Verify the current scope and title of SOC group 39-0000 against the locally validated 2018 SOC workbook and an accessible authoritative source before drafting.",
+                                   "Map existing KOV role pages to Personal Care and Service Occupations; no mapping has been asserted in this screen.",
+                                   "Review current role-page text and internal links for duplication; the classification destination itself is not a factual reason to create a commercial guide.",
+                                   "No Search Console, keyword-volume, difficulty, traffic, conversion, or actual Google/Bing SERP data is available.",
+                                   "Confirm audience fit and KOV serviceability; the U.S. SOC must not be presented as a global occupational taxonomy."
+                               ],
+    "blueprint_path":  "development/blueprints/occupation-classification/soc-major-group-39-personal-care-service.md",
+    "content_status":  "substantive_staging_page_complete",
+    "publication_status":  "not_published",
+    "notes":  [
+                  "Candidate is for development review only; no HTML page has been created.",
+                  "Keep excluded from public navigation, sitemap, and search pending approval.",
+                  "Unstyled noindex staging HTML built from 2018 SOC structure data; minor/broad group codes and titles included. Role mappings remain unasserted; candidate qualification and publication are pending."
+              ],
+    "quality_assurance_status":  "Foundation browser checks passed 2026-11-05; noindex, plain HTML, mobile width, taxonomy list rendering, and public search/sitemap exclusion verified."
+}

@@ -1,0 +1,79 @@
+{
+    "id":  "soc-management-subgroup-111000",
+    "page_title":  "Top Executives (U.S. SOC 11-1000)",
+    "proposed_url":  "/roles/soc-management-subgroup-111000.html",
+    "staging_preview_url":  "/staging/roles/soc-management-subgroup-111000/",
+    "page_group":  "occupation_classification",
+    "parent_hub":  "/roles/",
+    "candidate_status":  "provisional_taxonomy_reference_not_qualified",
+    "approval_status":  "approved_for_research_only",
+    "record_status":  "2018_US_SOC_subgroup_code_title_and_child_entries_verified; candidate_SERP_demand_and_serviceability_review_pending",
+    "research_owner":  "development",
+    "research_updated":  "2026-11-05",
+    "primary_keywords":  [
+                             "2018 U.S. SOC 11-1000 Top Executives"
+                         ],
+    "secondary_keywords":  [
+                               "SOC 11-1000 occupations",
+                               "2018 U.S. SOC Top Executives"
+                           ],
+    "keyword_metrics":  {
+                            "volume_status":  "not_available",
+                            "source":  "No Search Console, keyword-tool, or validated third-party keyword export was supplied.",
+                            "note":  "Terms are taxonomy lookup hypotheses only; no volume, difficulty, or demand is asserted."
+                        },
+    "search_intent":  {
+                          "primary_query":  "2018 U.S. SOC 11-1000 Top Executives",
+                          "evidence":  [
+                                           "The locally cross-validated 2018 SOC workbooks verify subgroup structure and child entries only; they are not evidence of candidate need or search demand."
+                                       ],
+                          "intent":  "Qualitative taxonomy lookup hypothesis: identify the scope and detailed codes under U.S. SOC subgroup 11-1000. Query demand is unmeasured.",
+                          "secondary_queries":  [
+                                                    "SOC 11-1000 occupations",
+                                                    "2018 U.S. SOC Top Executives"
+                                                ]
+                      },
+    "intended_audience":  "People comparing U.S. occupational classification labels. KOV audience fit and serviceability for this subgroup are unverified.",
+    "audience_and_geography":  {
+                                   "geography":  "United States only: 2018 Standard Occupational Classification. Not a current or global framework.",
+                                   "audience":  "People comparing U.S. occupational classification labels. KOV audience fit and serviceability for this subgroup are unverified."
+                               },
+    "geographic_relevance":  "United States only: 2018 Standard Occupational Classification. Not a current or global framework.",
+    "competitor_research":  [
+                                {
+                                    "status":  "Local workbooks cross-validated; live BLS access returned HTTP 403 on 2026-11-05.",
+                                    "url":  "https://www.bls.gov/soc/2018/home.htm",
+                                    "name":  "U.S. Bureau of Labor Statistics 2018 SOC",
+                                    "finding":  "Official taxonomy reference, not a direct commercial career guide or evidence of search demand."
+                                },
+                                {
+                                    "status":  "Pending; no ranking or competitor claim is made.",
+                                    "name":  "Candidate-specific SERP and direct career competitors",
+                                    "finding":  "No candidate-specific search-result or direct competitor review has been completed."
+                                }
+                            ],
+    "commercial_relevance":  "Candidate relevance and KOV serviceability are unverified. Classification data does not establish commercial value or demand.",
+    "unique_content_purpose":  "Provide a noindex, source-based directory of the 3 detailed occupation entries listed under U.S. SOC 11-1000, Top Executives.",
+    "internal_link_opportunities":  [
+
+                                    ],
+    "duplication_and_cannibalisation_assessment":  "A taxonomy-only staging directory is distinct from a career guide, but overlap with existing KOV role pages and the need for a separate public URL are not established.",
+    "authoritative_sources":  [
+                                  {
+                                      "access_status":  "Local 2018 structure and definitions workbooks cross-validated 2026-10-21; live BLS access returned HTTP 403 on 2026-11-05",
+                                      "publisher":  "U.S. Bureau of Labor Statistics",
+                                      "research_use_and_limit":  "Used only to verify 2018 U.S. SOC subgroup codes, titles, and child occupation codes/titles. It does not establish current labor-market conditions, search demand, job requirements, candidate-service fit, or a global occupational taxonomy.",
+                                      "source_type":  "Official U.S. occupational classification",
+                                      "source_id":  "BLS-SOC-2018",
+                                      "title":  "2018 Standard Occupational Classification (SOC)",
+                                      "url_or_path":  "https://www.bls.gov/soc/2018/home.htm; local structure and definitions workbooks documented in data/taxonomy/README.md"
+                                  }
+                              ],
+    "blueprint_path":  "development/blueprints/occupation-classification/soc-management-subgroup-111000.md",
+    "content_status":  "taxonomy_subgroup_staging_directory_complete",
+    "publication_status":  "not_approved",
+    "notes":  [
+                  "Noindex, unpublished subgroup directory based on the 2018 U.S. SOC.",
+                  "No career, demand, salary, qualification, service, or outcome claim is made."
+              ]
+}

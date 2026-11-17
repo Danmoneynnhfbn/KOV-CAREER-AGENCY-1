@@ -1,0 +1,179 @@
+{
+  "id": "uk-senior-specialist-worker",
+  "page_title": "UK Senior or Specialist Worker Route for Executive Transfers",
+  "proposed_url": "/career-resources/mobility/uk-senior-specialist-worker-executive-transfers/",
+  "page_group": "international_career_mobility",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "research_complete; qualification_on_hold",
+  "approval_status": "not_approved",
+  "record_status": "direct_competitor_and_UK_localized_SERP_screen_complete; qualification_on_hold",
+  "research_updated": "2026-11-04",
+  "audience_and_geography": {
+    "audience": "Senior professionals and executives considering a cross-border career move; route eligibility is individual and jurisdiction-specific.",
+    "geography": "United Kingdom"
+  },
+  "search_intent": {
+    "primary_query": "UK Senior or Specialist Worker visa executive transfer",
+    "secondary_queries": [
+      "UK intra-company transfer route replacement",
+      "Global Business Mobility Senior Specialist Worker",
+      "UK employer transfer visa"
+    ],
+    "intent": "Informational and decision-support; query wording is a hypothesis, not measured demand.",
+    "evidence": [
+      {
+        "source_id": "UK-SSW",
+        "url": "https://www.gov.uk/senior-specialist-worker-visa",
+        "access_status": "Verified 2026-11-04"
+      },
+      {
+        "source_id": "GOOGLE-SERP-UK-SSW-20261104",
+        "url": "https://www.google.com/search?q=UK+intra+company+transfer+Senior+or+Specialist+Worker+visa+lawyer&hl=en-GB&gl=GB",
+        "access_status": "Observed in browser 2026-11-04; results dynamic and mixed with generated or aggregated sections"
+      }
+    ]
+  },
+  "primary_keywords": [
+    "UK Senior or Specialist Worker visa executive transfer"
+  ],
+  "secondary_keywords": [
+    "UK intra-company transfer route replacement",
+    "Global Business Mobility Senior Specialist Worker",
+    "UK employer transfer visa"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword-volume export was available.",
+    "note": "All phrases are hypotheses for later validation."
+  },
+  "intended_audience": "Senior professionals and executives; no promise of visa eligibility, employment, placement, or endorsement.",
+  "geographic_relevance": [
+    "United Kingdom"
+  ],
+  "competitor_research": [
+    {
+      "name": "DavidsonMorris: Senior or Specialist Worker Visa",
+      "type": "direct immigration-advisory content competitor",
+      "url": "https://www.davidsonmorris.com/senior-specialist-worker-visa/",
+      "status": "Page reviewed 2026-11-04; covers temporary linked-employer transfer, eligibility, salary, stay, dependants, and route planning"
+    },
+    {
+      "name": "DavidsonMorris: Global Business Mobility Visa",
+      "type": "related route-comparison content",
+      "url": "https://www.davidsonmorris.com/global-business-mobility-visa/",
+      "status": "Page reviewed 2026-11-04; compares GBM routes and former Intra-company Transfer context"
+    },
+    {
+      "name": "IAS: Senior or Specialist Worker Visa",
+      "type": "direct immigration-advisory content competitor",
+      "url": "https://iasservices.org.uk/senior-or-specialist-worker-visa/",
+      "status": "Page reviewed 2026-11-04; covers eligibility, evidence, application, and fees"
+    }
+  ],
+  "commercial_relevance": "Potential executive career-mobility context, but the observed results primarily satisfy immigration-advice and visa-process needs. KOV's ability to serve this visa-specific audience in the UK is unverified.",
+  "unique_content_purpose": "Explain the current official route for eligible employees assigned to a UK branch and distinguish it from the discontinued Intra-company Transfer visa name.",
+  "internal_link_opportunities": [
+    "/resources/executive-job-search-in-your-market.html",
+    "/roles/",
+    "/services.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "Distinct from Global Talent and UK Expansion Worker pages; focus is an existing employee transfer to an eligible UK branch.",
+  "demand_and_competition": {
+    "keyword_sources": [],
+    "competitor_pages": [
+      "https://www.davidsonmorris.com/senior-or-specialist-worker-visa/",
+      "https://www.davidsonmorris.com/global-business-mobility-visa/",
+      "https://iasservices.org.uk/senior-or-specialist-worker-visa/"
+    ],
+    "evidence_and_date": [
+      "A UK-localized Google screen for a visa-lawyer query displayed official route information and immigration/legal service results, including Richmond Chambers and solicitor listings. The page also contained aggregated or generated sections; organic rank positions are not asserted.",
+      "DavidsonMorris and IAS direct competitor pages were reviewed; their coverage primarily concerns visa eligibility, compliance, applications, and route comparisons.",
+      "No Search Console or validated keyword-volume data is available. The visible legal-advisory SERP does not establish that KOV can serve the visa-specific need.",
+      "Accessed or status-checked 2026-11-04."
+    ]
+  },
+  "authoritative_sources": [
+    {
+      "source_id": "UK-SSW",
+      "source_type": "Government guidance",
+      "title": "Senior or Specialist Worker visa",
+      "publisher": "UK Home Office",
+      "url_or_path": "https://www.gov.uk/senior-specialist-worker-visa",
+      "access_status": "Verified 2026-11-04",
+      "research_use_and_limit": "Official Global Business Mobility route; replaced the Intra-company Transfer visa."
+    },
+    {
+      "source_id": "UK-SSW-ELIGIBILITY",
+      "source_type": "Government guidance",
+      "title": "Senior or Specialist Worker visa: Eligibility",
+      "publisher": "UK Home Office",
+      "url_or_path": "https://www.gov.uk/senior-specialist-worker-visa/eligibility",
+      "access_status": "Verified 2026-11-04",
+      "research_use_and_limit": "Official conditions, occupation checks, salary, and overseas-employment thresholds; recheck current rules before any publication."
+    },
+    {
+      "source_id": "UK-SSW-COSTS",
+      "source_type": "Government guidance",
+      "title": "Senior or Specialist Worker visa: How much it costs",
+      "publisher": "UK Home Office",
+      "url_or_path": "https://www.gov.uk/senior-specialist-worker-visa/how-much-it-costs",
+      "access_status": "Verified 2026-11-04",
+      "research_use_and_limit": "Official fee and maintenance information; amounts can change and must be rechecked before any publication."
+    },
+    {
+      "source_id": "UK-SSW-DOCUMENTS",
+      "source_type": "Government guidance",
+      "title": "Senior or Specialist Worker visa: Documents you'll need to apply",
+      "publisher": "UK Home Office",
+      "url_or_path": "https://www.gov.uk/senior-specialist-worker-visa/documents-you-need-to-apply",
+      "access_status": "Verified 2026-11-04",
+      "research_use_and_limit": "Official document checklist and evidence notes; requirements depend on the person's circumstances."
+    },
+    {
+      "source_id": "UK-SSW-APPLICATION",
+      "source_type": "Government guidance",
+      "title": "Senior or Specialist Worker visa: Apply from outside the UK",
+      "publisher": "UK Home Office",
+      "url_or_path": "https://www.gov.uk/senior-specialist-worker-visa/apply-from-outside-the-uk",
+      "access_status": "Verified 2026-11-04",
+      "research_use_and_limit": "Official application steps and stated processing estimates; estimates are not guarantees."
+    },
+    {
+      "source_id": "UK-SSW-EXTENSION",
+      "source_type": "Government guidance",
+      "title": "Senior or Specialist Worker visa: Extend your visa",
+      "publisher": "UK Home Office",
+      "url_or_path": "https://www.gov.uk/senior-specialist-worker-visa/extend-your-visa",
+      "access_status": "Verified 2026-11-04",
+      "research_use_and_limit": "Official extension conditions and current procedure; recheck before any factual draft."
+    },
+    {
+      "source_id": "GOOGLE-SERP-UK-SSW-20261104",
+      "source_type": "Localized search-result observation",
+      "title": "Google results for UK Senior or Specialist Worker visa legal query",
+      "publisher": "Google Search",
+      "url_or_path": "https://www.google.com/search?q=UK+intra+company+transfer+Senior+or+Specialist+Worker+visa+lawyer&hl=en-GB&gl=GB",
+      "access_status": "Observed in browser 2026-11-04",
+      "research_use_and_limit": "Qualitative UK-localized result screen showed official route information and immigration/legal service providers; mixed/generated sections prevent reliable rank claims. Does not establish KOV serviceability or query volume."
+    }
+  ],
+  "unique_value_and_overlap": {
+    "user_need": "Explain the current official route for eligible employees assigned to a UK branch and distinguish it from the discontinued Intra-company Transfer visa name.",
+    "existing_page_overlap_review": "Distinct from Global Talent and UK Expansion Worker pages; focus is an existing employee transfer to an eligible UK branch.",
+    "canonical_or_consolidation_decision": "The topic may overlap broad mobility guidance. Keep on hold unless a distinct candidate-side career decision need and KOV serviceability are substantiated; do not build a visa-advisory page."
+  },
+  "factual_gaps_and_risks": [
+    "Immigration rules can change; verify official pages and effective dates immediately before drafting and publication.",
+    "This page must not provide individualized legal or immigration advice or imply eligibility.",
+    "The UK-localized results screen is mixed with generated or aggregated sections and supports no stable rank claims.",
+    "The observed intent is dominated by legal route and application guidance; KOV's ability to serve that visa-specific need is unverified.",
+    "No measured keyword volume or first-party query evidence is available."
+  ],
+  "blueprint_path": "development/blueprints/mobility/uk-senior-specialist-worker.md",
+  "content_status": "not_started",
+  "publication_status": "not_approved",
+  "notes": [
+    "No candidate page is created. Keep the route excluded from public pages, search, navigation, and sitemap.",
+    "Reconsider only if a distinct non-legal career-planning purpose and KOV relevance are evidenced; otherwise merge or reject."
+  ]
+}

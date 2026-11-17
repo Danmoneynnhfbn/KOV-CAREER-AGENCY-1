@@ -1,0 +1,101 @@
+{
+    "id":  "soc-occupation-11-2022-sales-managers",
+    "page_title":  "Sales Managers (U.S. SOC 11-2022)",
+    "proposed_url":  "/roles/soc-occupation-11-2022-sales-managers.html",
+    "staging_preview_url":  "/staging/roles/soc-occupation-11-2022-sales-managers/",
+    "page_group":  "occupation_classification",
+    "parent_hub":  "/roles/",
+    "candidate_status":  "provisional_taxonomy_reference_not_qualified",
+    "approval_status":  "approved_for_research_only",
+    "record_status":  "2018_US_SOC_code_title_and_definition_verified; candidate_SERP_demand_and_serviceability_review_pending",
+    "research_owner":  "development",
+    "research_updated":  "2026-11-05",
+    "primary_keywords":  [
+                             "U.S. SOC 11-2022 Sales Managers"
+                         ],
+    "secondary_keywords":  [
+                               "2018 U.S. SOC 11-2022",
+                               "SOC 11-2022 definition"
+                           ],
+    "keyword_metrics":  {
+                            "volume_status":  "not_available",
+                            "source":  "No Search Console, keyword-tool, or validated third-party keyword export was supplied for this candidate.",
+                            "note":  "Terms are taxonomy lookup hypotheses only; no volume, difficulty, or demand is asserted."
+                        },
+    "search_intent":  {
+                          "primary_query":  "U.S. SOC 11-2022 Sales Managers",
+                          "evidence":  [
+                                           "The local 2018 SOC workbook verifies the U.S. classification code, title, and definition only. It is not evidence of search demand or candidate need."
+                                       ],
+                          "intent":  "Qualitative taxonomy lookup hypothesis: identify the code, title, and scope of a 2018 U.S. SOC management occupation. Search demand and query wording have not been measured.",
+                          "secondary_queries":  [
+                                                    "2018 U.S. SOC 11-2022",
+                                                    "SOC 11-2022 definition"
+                                                ]
+                      },
+    "intended_audience":  "People comparing U.S. occupational classification labels and definitions. KOV audience fit and serviceability for this occupation are unverified.",
+    "audience_and_geography":  {
+                                   "geography":  "United States only: 2018 Standard Occupational Classification. It is not a global or current occupational framework.",
+                                   "audience":  "People comparing U.S. occupational classification labels and definitions. KOV audience fit and serviceability for this occupation are unverified."
+                               },
+    "geographic_relevance":  "United States only: 2018 Standard Occupational Classification. It is not a global or current occupational framework.",
+    "competitor_research":  [
+                                {
+                                    "status":  "Local 2018 structure and definitions workbooks cross-validated; live BLS page access returned HTTP 403 on 2026-11-05.",
+                                    "url":  "https://www.bls.gov/soc/2018/home.htm",
+                                    "name":  "U.S. Bureau of Labor Statistics 2018 SOC",
+                                    "finding":  "Official taxonomy reference for codes and definitions; not a direct commercial career guide or evidence of search demand."
+                                },
+                                {
+                                    "status":  "Pending; no ranking or competitor claim is made.",
+                                    "name":  "Candidate-specific Google/Bing results and direct career competitors",
+                                    "finding":  "No candidate-specific SERP or direct competitor review has been completed."
+                                }
+                            ],
+    "commercial_relevance":  "KOV audience relevance and serviceability are unverified. A taxonomy code or definition does not establish commercial value, service availability, or candidate demand.",
+    "unique_content_purpose":  "Present the exact 2018 U.S. SOC code, title, and definition for one detailed occupation, with clear limits on what classification can establish.",
+    "internal_link_opportunities":  [
+
+                                    ],
+    "duplication_and_cannibalisation_assessment":  "A taxonomy-only staging entry is distinct from a career guide, but overlap with existing KOV role pages and the need for a separate public URL have not been established. Do not treat classification coverage as proof of a page gap.",
+    "demand_and_competition":  {
+                                   "evidence_and_date":  [
+
+                                                         ],
+                                   "competitor_pages":  [
+
+                                                        ],
+                                   "keyword_sources":  [
+
+                                                       ]
+                               },
+    "authoritative_sources":  [
+                                  {
+                                      "source_id":  "BLS-SOC-2018",
+                                      "source_type":  "Official U.S. occupational classification",
+                                      "title":  "2018 Standard Occupational Classification (SOC)",
+                                      "publisher":  "U.S. Bureau of Labor Statistics",
+                                      "url_or_path":  "https://www.bls.gov/soc/2018/home.htm; local structure and definitions workbooks documented in data/taxonomy/README.md",
+                                      "access_status":  "Local 2018 structure and definitions workbooks cross-validated 2026-10-21; live BLS access returned HTTP 403 on 2026-11-05",
+                                      "research_use_and_limit":  "Used only for the 2018 U.S. SOC code, title, and occupation definition. It does not establish current labor-market conditions, search demand, job requirements, candidate-service fit, or a global occupational taxonomy."
+                                  }
+                              ],
+    "unique_value_and_overlap":  {
+                                     "canonical_or_consolidation_decision":  "Staging route only; do not make a public canonical or consolidation decision until candidate-specific research and owner review.",
+                                     "existing_page_overlap_review":  "The existing role inventory and full page bodies have not been mapped to this occupation. A distinct public page need is unverified.",
+                                     "user_need":  "Present the exact 2018 U.S. SOC code, title, and definition for one detailed occupation, with clear limits on what classification can establish."
+                                 },
+    "factual_gaps_and_risks":  [
+                                   "The 2018 SOC is U.S.-specific and must not be presented as current or global.",
+                                   "Candidate-specific SERP, competitor, first-party demand, and KOV serviceability evidence is unavailable.",
+                                   "The classification description does not establish job requirements, qualifications, licensing, seniority, salary, or title equivalence.",
+                                   "Recheck the current official classification and existing-site overlap before any publication decision."
+                               ],
+    "blueprint_path":  "development/blueprints/occupation-classification/soc-occupation-11-2022-sales-managers.md",
+    "content_status":  "taxonomy_only_staging_entry_complete",
+    "publication_status":  "not_approved",
+    "notes":  [
+                  "Noindex, unpublished taxonomy reference generated from the local 2018 U.S. SOC definitions workbook.",
+                  "No career, demand, salary, service, qualification, or outcome claims are made."
+              ]
+}

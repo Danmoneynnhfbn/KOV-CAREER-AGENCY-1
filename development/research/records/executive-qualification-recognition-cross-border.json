@@ -1,0 +1,120 @@
+{
+  "id": "executive-qualification-recognition-cross-border",
+  "page_title": "Professional Qualification Recognition in Cross-Border Executive Moves",
+  "proposed_url": "/career-resources/mobility/professional-qualification-recognition-cross-border-executive-moves/",
+  "page_group": "international_career_mobility",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "source_identified; jurisdiction_scope_review_pending",
+  "approval_status": "not_approved",
+  "record_status": "initial_research_screen_complete",
+  "research_updated": "2026-11-04",
+  "audience_and_geography": {
+    "audience": "Senior professionals and executives considering a cross-border career move; route eligibility is individual and jurisdiction-specific.",
+    "geography": "Cross-border; initial scope limited to EU recognition framework"
+  },
+  "search_intent": {
+    "primary_query": "professional qualification recognition for international work",
+    "secondary_queries": [
+      "recognize professional qualifications abroad",
+      "regulated profession qualification recognition EU",
+      "executive relocation credential checks"
+    ],
+    "intent": "Informational and decision-support; query wording is a hypothesis, not measured demand.",
+    "evidence": [
+      {
+        "source_id": "EU-QUALS",
+        "url": "https://europa.eu/youreurope/citizens/work/professional-qualifications/index_en.htm",
+        "access_status": "Source identified; recheck before drafting"
+      },
+      {
+        "source_id": "OECD-MIGRATION",
+        "url": "https://www.oecd.org/migration/",
+        "access_status": "Source identified; recheck before drafting"
+      }
+    ]
+  },
+  "primary_keywords": [
+    "professional qualification recognition for international work"
+  ],
+  "secondary_keywords": [
+    "recognize professional qualifications abroad",
+    "regulated profession qualification recognition EU",
+    "executive relocation credential checks"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword-volume export was available.",
+    "note": "All phrases are hypotheses for later validation."
+  },
+  "intended_audience": "Senior professionals and executives; no promise of visa eligibility, employment, placement, or endorsement.",
+  "geographic_relevance": [
+    "Cross-border; initial scope limited to EU recognition framework"
+  ],
+  "competitor_research": [
+    {
+      "name": "Official government or intergovernmental route guidance",
+      "type": "search-result/reference competitor",
+      "status": "page-specific official source listed per candidate; current SERP positions not measured"
+    },
+    {
+      "name": "Commercial immigration and global-mobility advisory content",
+      "type": "adjacent information competitor",
+      "status": "provider-level competitor set and country-specific SERP review pending"
+    }
+  ],
+  "commercial_relevance": "Potentially relevant as executive career-mobility decision support; KOV serviceability in each destination is unverified.",
+  "unique_content_purpose": "Help candidates distinguish regulated-profession recognition, employer credential checks, and general executive experience; keep jurisdiction scope explicit.",
+  "internal_link_opportunities": [
+    "/resources/executive-job-search-in-your-market.html",
+    "/roles/",
+    "/services.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "Not a general credential equivalency database; narrower than role-specific licensing pages and separate from immigration-route guides.",
+  "demand_and_competition": {
+    "keyword_sources": [],
+    "competitor_pages": [],
+    "evidence_and_date": [
+      "Official and intergovernmental sources establish route scope, not search demand.",
+      "Country-specific competitor SERPs, keyword volumes, and KOV serviceability remain unverified.",
+      "Accessed or status-checked 2026-11-04."
+    ]
+  },
+  "authoritative_sources": [
+    {
+      "source_id": "EU-QUALS",
+      "source_type": "Government guidance",
+      "title": "Professional qualifications",
+      "publisher": "European Union",
+      "url_or_path": "https://europa.eu/youreurope/citizens/work/professional-qualifications/index_en.htm",
+      "access_status": "Source identified; recheck before drafting",
+      "research_use_and_limit": "EU-specific recognition information; not a global credential equivalency source."
+    },
+    {
+      "source_id": "OECD-MIGRATION",
+      "source_type": "Research organization",
+      "title": "International migration",
+      "publisher": "OECD",
+      "url_or_path": "https://www.oecd.org/migration/",
+      "access_status": "Source identified; recheck before drafting",
+      "research_use_and_limit": "Context source, not individual immigration advice."
+    }
+  ],
+  "unique_value_and_overlap": {
+    "user_need": "Help candidates distinguish regulated-profession recognition, employer credential checks, and general executive experience; keep jurisdiction scope explicit.",
+    "existing_page_overlap_review": "Not a general credential equivalency database; narrower than role-specific licensing pages and separate from immigration-route guides.",
+    "canonical_or_consolidation_decision": "Candidate URL only; compare against current sitemap and page text again before implementation."
+  },
+  "factual_gaps_and_risks": [
+    "Immigration rules can change; verify official pages and effective dates immediately before drafting and publication.",
+    "This page must not provide individualized legal or immigration advice or imply eligibility.",
+    "Direct competing pages and current search-result positions have not yet been validated.",
+    "KOV's ability to serve candidates in the destination has not been established."
+  ],
+  "blueprint_path": "development/blueprints/mobility/executive-qualification-recognition-cross-border.md",
+  "content_status": "not_started",
+  "publication_status": "not_approved",
+  "notes": [
+    "Staging research candidate only; no public page is created by this record.",
+    "Competitor and keyword-volume validation remain explicit open tasks."
+  ]
+}

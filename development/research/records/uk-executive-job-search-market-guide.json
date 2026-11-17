@@ -1,0 +1,77 @@
+{
+  "id": "uk-executive-job-search-market-guide",
+  "page_title": "UK Executive Job-Search Market Research Guide",
+  "proposed_url": "/career-resources/country-market-guides/uk-executive-job-search-market-guide/",
+  "page_group": "general_country_market_pages",
+  "blueprint_path": "development/blueprints/country-market-guides/uk-executive-job-search-market-guide.md",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "provisional_country_market_guide_not_qualified",
+  "approval_status": "not_approved",
+  "record_status": "source_bounded_staging_draft_complete; SERP_demand_overlap_and_serviceability_pending",
+  "research_owner": "development",
+  "research_updated": "2026-11-05",
+  "primary_keywords": [
+    "UK executive job-search market research"
+  ],
+  "secondary_keywords": [
+    "UK executive labour market",
+    "UK executive jobs by region"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was supplied for this candidate.",
+    "note": "Search terms are hypotheses only; no volume, difficulty, or demand is asserted."
+  },
+  "search_intent": {
+    "primary_query": "UK executive job-search market research",
+    "secondary_queries": [
+      "UK executive labour market",
+      "UK executive jobs by region"
+    ],
+    "intent": "Qualitative UK-specific research hypothesis: interpret official employment, vacancy, payroll, earnings, and geographic data for executive career planning without inferring executive-specific demand. Search demand has not been measured.",
+    "evidence": [
+      "The ONS UK labour-market bulletin publishes multiple indicators and explains their periods, geographies, and quality considerations. This supports a source-interpretation guide, not an executive-market estimate."
+    ]
+  },
+  "intended_audience": "Senior executives and candidates researching the UK employment market.",
+  "geographic_relevance": "United Kingdom only. The page cautions that ONS series may cover different geographies and does not report a specific regional result.",
+  "competitor_research": [
+    {
+      "name": "UK-localized candidate-facing search results and direct market-guide competitors",
+      "finding": "A current UK-localized search-results review and direct competitor comparison was not performed.",
+      "status": "SERP research pending"
+    }
+  ],
+  "commercial_relevance": "Potential country-specific candidate research resource only if a distinct user need, demand, overlap, and KOV serviceability are later established. ONS data availability does not establish commercial value or KOV capability.",
+  "unique_content_purpose": "Help senior candidates interpret the scope, geography, period, and revision status of UK ONS labour-market measures while distinguishing them from executive-specific hiring evidence.",
+  "internal_link_opportunities": [
+    "/resources/executive-job-search-in-your-market.html",
+    "/roles/senior-leader-career-strategy.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "The existing executive job-search resource is jurisdiction-neutral. This draft focuses on UK ONS indicator interpretation and explicit limits on executive-demand inference. Overlap remains unresolved; a separate route requires a demonstrated UK-specific user need, first-party demand, and KOV serviceability.",
+  "authoritative_sources": [
+    {
+      "source_id": "ONS-UK-LABOUR-MARKET-2026",
+      "source_type": "Official UK labour-market statistics",
+      "title": "UK labour market",
+      "publisher": "UK Office for National Statistics",
+      "url_or_path": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/latest",
+      "access_status": "Page fetched and reviewed 2026-11-05; linked monthly summary dataset released 2026-10-20",
+      "research_use_and_limit": "Used for the types of labour-market indicators, their varying time periods and geographies, and the presence of quality and revision notes. The page contains time-sensitive statistics; none are reproduced here. It does not establish executive-specific demand or pay."
+    }
+  ],
+  "content_status": "Source-bounded UK market research guide implemented in noindex staging. No time-sensitive numerical results or executive-specific demand claims are published.",
+  "remaining_gaps": [
+    "Direct UK-localized SERP and competitor research.",
+    "First-party demand evidence and full current-site overlap review.",
+    "KOV serviceability confirmation.",
+    "Recheck the latest ONS bulletin and linked dataset before publication."
+  ],
+  "release_controls": {
+    "robots": "noindex, nofollow",
+    "public_navigation": "excluded",
+    "public_search": "excluded",
+    "sitemap": "excluded",
+    "publication": "not approved"
+  }
+}

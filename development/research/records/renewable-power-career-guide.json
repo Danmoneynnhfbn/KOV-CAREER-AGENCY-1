@@ -1,0 +1,128 @@
+{
+  "id": "renewable-power-career-guide",
+  "page_title": "Wind and Solar Power Leadership Careers",
+  "proposed_url": "/career-resources/industry-specific-career-guides/renewable-power-career-guide/",
+  "page_group": "industry_specific_career_guides",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "provisional_industry_guide_not_qualified",
+  "approval_status": "not_approved",
+  "record_status": "individual_sector_screen_complete; candidate_SERP_and_demand_validation_pending",
+  "research_owner": "development",
+  "research_updated": "2026-11-05",
+  "primary_keywords": [
+    "wind and solar power leadership careers"
+  ],
+  "secondary_keywords": [
+    "renewable power executive roles",
+    "solar energy leadership careers",
+    "wind energy career transition"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was supplied for this candidate.",
+    "note": "Search terms are hypotheses only; no volume, difficulty, or demand is asserted."
+  },
+  "search_intent": {
+    "primary_query": "wind and solar power leadership careers",
+    "secondary_queries": [
+      "renewable power executive roles",
+      "solar energy leadership careers",
+      "wind energy career transition"
+    ],
+    "intent": "Informational career exploration: understand leadership roles, employer context, or transferable evidence in wind and solar power leadership. This is a qualitative intent hypothesis; query demand has not been measured.",
+    "evidence": [
+      "The 2022 NAICS workbook supplies U.S. industry classifications for the listed codes. Classification confirms sector terminology only; it is not evidence that people search for this candidate page."
+    ]
+  },
+  "intended_audience": "Senior energy, project-development, grid, operations, and commercial professionals exploring wind and solar power-generation employers.",
+  "audience_and_geography": {
+    "audience": "Senior energy, project-development, grid, operations, and commercial professionals exploring wind and solar power-generation employers.",
+    "geography": "The cited NAICS codes are U.S. classifications. English-language framing may be broader, but labor markets, regulation, role scope, and KOV serviceability have not been established outside the relevant jurisdiction."
+  },
+  "geographic_relevance": "The cited NAICS codes are U.S. classifications. English-language framing may be broader, but labor markets, regulation, role scope, and KOV serviceability have not been established outside the relevant jurisdiction.",
+  "competitor_research": [
+    {
+      "name": "Korn Ferry Energy & Natural Resources",
+      "url": "https://www.kornferry.com/industries/industrial/energy-consulting",
+      "finding": "The page discusses energy leadership and sector transition but covers a broader oil, gas, mining, and power/utilities market; it is not a wind/solar candidate guide.",
+      "status": "page verified 2026-11-05 as adjacent industry/talent context; not a candidate-guide SERP result"
+    },
+    {
+      "name": "Candidate-facing search results and direct career-guide competitors",
+      "finding": "A complete current Google/Bing result review and candidate-guide competitor comparison was not performed.",
+      "status": "SERP research pending"
+    }
+  ],
+  "commercial_relevance": "May support KOV's candidate-side role and industry navigation if the proposed content is differentiated and serviceable. No placement capability, industry coverage, demand, or conversion value is inferred from taxonomy or a competitor consulting page.",
+  "unique_content_purpose": "If later qualified, Wind and Solar Power Leadership Careers would explain project development, interconnection, permitting, and asset operations for wind and solar generation for senior professionals. It must add candidate-facing career context beyond the existing broad sector page and must not imply KOV offers services or placements in this industry.",
+  "internal_link_opportunities": [
+    "/industries/energy-mining-oil-gas/",
+    "/roles/senior-leader-career-strategy.html",
+    "/resources/executive-job-search-in-your-market.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "The existing site has a broad sector route at /industries/energy-mining-oil-gas/. Utilities and the combined energy/mining/oil-and-gas hub already exist. The oil-and-gas-to-offshore-wind transition candidate overlaps; distinguish generation-sector career context from transition guidance or merge. Keep a standalone URL only if it answers a distinct candidate task, has verified KOV serviceability, and is supported by first-party demand evidence. The NAICS classification is U.S.-specific.",
+  "demand_and_competition": {
+    "keyword_sources": [],
+    "competitor_pages": [
+      "https://www.kornferry.com/industries/industrial/energy-consulting"
+    ],
+    "evidence_and_date": []
+  },
+  "authoritative_sources": [
+    {
+      "source_id": "CENSUS-NAICS-2022",
+      "source_type": "Official U.S. industry classification",
+      "title": "2022 North American Industry Classification System (NAICS) Structure",
+      "publisher": "U.S. Census Bureau",
+      "url_or_path": "https://www.census.gov/naics/2022NAICS/2022_NAICS_Structure.xlsx; local workbook and validation notes in data/taxonomy/README.md",
+      "access_status": "Local workbook and code/title records validated; candidate codes rechecked against the workbook 2026-11-05",
+      "research_use_and_limit": "Used only to verify U.S. NAICS codes and names. NAICS describes employer economic activity; it is not a global taxonomy, job classification, labor-demand source, or proof of a KOV service."
+    },
+    {
+      "source_id": "KOV-INDUSTRY-OVERLAP-AUDIT",
+      "source_type": "Internal site inventory and overlap review",
+      "title": "Existing industry hubs and visible-overlap audit",
+      "publisher": "KOV Career Agency development audit",
+      "url_or_path": "development/VISIBLE-OVERLAP-AUDIT.md; sitemap.xml; development/LINK-FAILURE-GROUPS.csv",
+      "access_status": "Repository inventory reviewed 2026-11-05",
+      "research_use_and_limit": "Identifies existing sector hubs and role-industry coverage for overlap screening; it does not establish external demand or serviceability."
+    },
+    {
+      "source_id": "KF-ENERGY",
+      "source_type": "Executive search and organizational consulting reference",
+      "title": "Energy & Natural Resources",
+      "publisher": "Korn Ferry",
+      "url_or_path": "https://www.kornferry.com/industries/industrial/energy-consulting",
+      "access_status": "Page fetched 2026-11-05",
+      "research_use_and_limit": "Discusses leadership and talent amid energy-sector change and transition. It is broader than wind/solar generation and does not establish candidate-side demand."
+    },
+    {
+      "source_id": "EIA-RENEWABLE-SOURCES-2026",
+      "source_type": "Official U.S. energy information source",
+      "title": "Renewable energy explained",
+      "publisher": "U.S. Energy Information Administration",
+      "url_or_path": "https://www.eia.gov/energyexplained/renewable-sources/",
+      "access_status": "Page fetched 2026-11-05",
+      "research_use_and_limit": "Defines renewable energy and identifies U.S. source categories including wind, solar, hydropower, geothermal, and biomass. Statistics on the page are dated; do not treat as current forecasts."
+    }
+  ],
+  "unique_value_and_overlap": {
+    "user_need": "Help senior professionals distinguish their actual wind or solar work, decision remit, project interfaces, and verifiable outcomes rather than relying on a broad energy-sector label or treating all renewable sources as one market.",
+    "existing_page_overlap_review": "The existing site has a broad sector route at /industries/energy-mining-oil-gas/. Utilities and the combined energy/mining/oil-and-gas hub already exist. The oil-and-gas-to-offshore-wind transition candidate overlaps; distinguish generation-sector career context from transition guidance or merge. Keep a standalone URL only if it answers a distinct candidate task, has verified KOV serviceability, and is supported by first-party demand evidence. The NAICS classification is U.S.-specific.",
+    "canonical_or_consolidation_decision": "Retain as an unpublished staging candidate pending direct demand, full overlap, and KOV-serviceability review; no production URL decision is made."
+  },
+  "factual_gaps_and_risks": [
+    "Verify the listed NAICS codes and labels against the local 2022 Census workbook before publication; classification does not establish a career-content need.",
+    "Review the full existing sector hub at /industries/energy-mining-oil-gas/, relevant role pages, and current public copy for overlap.",
+    "Validate candidate-side search intent and competitor pages with actual location-appropriate Google/Bing results; no SERP ranking evidence is recorded here.",
+    "No Search Console, keyword volume, difficulty, traffic, or conversion evidence is available.",
+    "Confirm that KOV can accurately serve and discuss the audience and jurisdiction; do not imply sector-specific placement services."
+  ],
+  "blueprint_path": "development/blueprints/industry-specific-career-guides/renewable-power-career-guide.md",
+  "content_status": "substantive_staging_content_complete",
+  "publication_status": "not_approved",
+  "notes": [
+    "A substantive source-bounded staging draft exists; it remains unqualified for publication.",
+    "Keep excluded from public navigation, sitemap, and search pending approval."
+  ]
+}

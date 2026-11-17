@@ -1,0 +1,123 @@
+{
+  "id": "uk-global-talent-digital-leaders",
+  "page_title": "UK Global Talent Route for Digital Technology Leaders",
+  "proposed_url": "/career-resources/mobility/uk-global-talent-digital-technology-leaders/",
+  "page_group": "international_career_mobility",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "source_verified; competitor_review_pending",
+  "approval_status": "not_approved",
+  "record_status": "initial_research_screen_complete",
+  "research_updated": "2026-11-05",
+  "audience_and_geography": {
+    "audience": "Senior professionals and executives considering a cross-border career move; route eligibility is individual and jurisdiction-specific.",
+    "geography": "United Kingdom"
+  },
+  "search_intent": {
+    "primary_query": "UK Global Talent visa digital technology",
+    "secondary_queries": [
+      "Global Talent digital technology endorsement",
+      "UK visa for technology leaders",
+      "digital technology leadership relocation UK"
+    ],
+    "intent": "Informational and decision-support; query wording is a hypothesis, not measured demand.",
+    "evidence": [
+      {
+        "source_id": "UK-GT",
+        "url": "https://www.gov.uk/global-talent",
+        "access_status": "Rechecked 2026-11-05"
+      },
+      {
+        "source_id": "UK-GT-DIGITAL",
+        "url": "https://www.gov.uk/global-talent-digital-technology",
+        "access_status": "Rechecked 2026-11-05"
+      }
+    ]
+  },
+  "primary_keywords": [
+    "UK Global Talent visa digital technology"
+  ],
+  "secondary_keywords": [
+    "Global Talent digital technology endorsement",
+    "UK visa for technology leaders",
+    "digital technology leadership relocation UK"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword-volume export was available.",
+    "note": "All phrases are hypotheses for later validation."
+  },
+  "intended_audience": "Senior professionals and executives; no promise of visa eligibility, employment, placement, or endorsement.",
+  "geographic_relevance": [
+    "United Kingdom"
+  ],
+  "competitor_research": [
+    {
+      "name": "Official government or intergovernmental route guidance",
+      "type": "search-result/reference competitor",
+      "status": "official sources rechecked 2026-11-05; current SERP positions and candidate-specific commercial competitors not measured"
+    },
+    {
+      "name": "Commercial immigration and global-mobility advisory content",
+      "type": "adjacent information competitor",
+      "status": "provider-level competitor set and country-specific SERP review pending"
+    }
+  ],
+  "commercial_relevance": "Potentially relevant as executive career-mobility decision support; KOV serviceability in each destination is unverified.",
+  "unique_content_purpose": "Explain the official digital-technology route structure and evidence questions for senior technology professionals, without predicting endorsement outcomes.",
+  "internal_link_opportunities": [
+    "/resources/executive-job-search-in-your-market.html",
+    "/roles/",
+    "/services.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "Distinct from existing UK/London market pages, which discuss geography rather than immigration eligibility; distinct from the separate research pathway page.",
+  "demand_and_competition": {
+    "keyword_sources": [],
+    "competitor_pages": [],
+    "evidence_and_date": [
+      "Official and intergovernmental sources establish route scope, not search demand.",
+      "Country-specific competitor SERPs, keyword volumes, and KOV serviceability remain unverified.",
+      "Official source pages rechecked 2026-11-05; competitor and demand evidence remain pending."
+    ]
+  },
+  "authoritative_sources": [
+    {
+      "source_id": "UK-GT",
+      "source_type": "Government guidance",
+      "title": "Global Talent visa",
+      "publisher": "UK Home Office",
+      "url_or_path": "https://www.gov.uk/global-talent",
+      "access_status": "Rechecked 2026-11-05",
+      "research_use_and_limit": "Official route overview; eligibility depends on route and current rules."
+    },
+    {
+      "source_id": "UK-GT-DIGITAL",
+      "source_type": "Government guidance",
+      "title": "Global Talent: digital technology",
+      "publisher": "UK Home Office",
+      "url_or_path": "https://www.gov.uk/global-talent-digital-technology",
+      "access_status": "Rechecked 2026-11-05",
+      "research_use_and_limit": "Official digital technology route page. Describes the endorsement process, eligible technical and business backgrounds, eligible-prize pathway, and route conditions; it does not determine an individual's eligibility."
+    }
+  ],
+  "unique_value_and_overlap": {
+    "user_need": "Explain the official digital-technology route structure and evidence questions for senior technology professionals, without predicting endorsement outcomes.",
+    "existing_page_overlap_review": "Distinct from existing UK/London market pages, which discuss geography rather than immigration eligibility; distinct from the separate research pathway page.",
+    "canonical_or_consolidation_decision": "Noindex staging draft implemented; production URL and consolidation decision remain pending current-page, SERP, demand, and serviceability review."
+  },
+  "factual_gaps_and_risks": [
+    "Immigration rules can change; official source pages were rechecked 2026-11-05. Reverify immediately before publication.",
+    "This page must not provide individualized legal or immigration advice or imply eligibility.",
+    "Direct competing pages and current search-result positions have not yet been validated.",
+    "KOV's ability to serve candidates in the destination has not been established."
+  ],
+  "blueprint_path": "development/blueprints/mobility/uk-global-talent-digital-leaders.md",
+  "content_status": "source_checked_noindex_staging_draft_complete",
+  "quality_assurance_status": "foundation browser checks passed 2026-11-05; noindex, current-source links, mobile layout, and search/sitemap exclusion verified",
+  "publication_status": "not_approved",
+  "notes": [
+    "A noindex staging HTML draft exists at staging/career-resources/mobility/uk-global-talent-digital-technology-leaders/index.html. Official Home Office pages were rechecked 2026-11-05 and the draft was corrected to match them.",
+    "Candidate remains unqualified for the 577-page programme. Direct competitor/SERP review, first-party demand, and KOV serviceability for this visa-specific need remain unresolved.",
+    "The draft is noindex, unpublished, and outside the public sitemap and search index; it makes no individual eligibility or outcome determination.",
+    "Competitor and keyword-volume validation remain explicit open tasks."
+  ]
+}

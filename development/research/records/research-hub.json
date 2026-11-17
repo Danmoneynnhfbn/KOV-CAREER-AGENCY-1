@@ -1,0 +1,159 @@
+{
+  "id": "research-hub",
+  "page_title": "Research Hub",
+  "proposed_url": "/research/",
+  "staging_preview_url": "/staging/research/",
+  "page_group": "research_hub",
+  "parent_hub": null,
+  "candidate_status": "approved_for_development; publication_pending_sample_research",
+  "approval_status": "approved_for_development",
+  "record_status": "research_screen_complete; sample_publication_and_demand_validation_pending",
+  "research_owner": "development",
+  "research_updated": "2026-11-04",
+  "primary_keywords": [
+    "executive career research"
+  ],
+  "secondary_keywords": [
+    "executive job market research",
+    "career research reports",
+    "executive recruitment research"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was available.",
+    "note": "Search phrases are hypotheses only; not evidence of demand or ranking potential."
+  },
+  "search_intent": {
+    "primary_query": "executive career research",
+    "secondary_queries": [
+      "executive job market research",
+      "career research reports",
+      "executive recruitment research"
+    ],
+    "intent": "Informational/navigation hub; terms are unvalidated query hypotheses.",
+    "evidence": [
+      {
+        "source_id": "CIPD-REPORTS",
+        "url": "https://www.cipd.org/en/knowledge/reports/",
+        "access_status": "Verified 2026-11-04"
+      },
+      {
+        "source_id": "HBR-CAREER-PLANNING",
+        "url": "https://hbr.org/topic/subject/career-planning",
+        "access_status": "Verified 2026-11-04"
+      },
+      {
+        "source_id": "ILO-WESO-2025",
+        "url": "https://www.ilo.org/publications/flagship-reports/world-employment-and-social-outlook-trends-2025",
+        "access_status": "Verified 2026-11-04"
+      },
+      {
+        "source_id": "KOV-RESOURCES-INVENTORY",
+        "url": "resources/ (11 pages); faq/ (30 pages); glossary.html",
+        "access_status": "Repository inventory reviewed 2026-11-04"
+      }
+    ]
+  },
+  "intended_audience": "Candidates, employers, and researchers seeking transparent evidence about executive careers and hiring.",
+  "audience_and_geography": {
+    "audience": "Candidates, employers, and researchers seeking transparent evidence about executive careers and hiring.",
+    "geography": "International scope only where each research item's sources support it; otherwise label jurisdiction."
+  },
+  "geographic_relevance": [
+    "International scope only where each research item's sources support it; otherwise label jurisdiction."
+  ],
+  "competitor_research": [
+    {
+      "name": "CIPD Reports",
+      "url": "https://www.cipd.org/en/knowledge/reports/",
+      "finding": "Research library describes reports on work, skills, workforce planning, people analytics, and related topics.",
+      "status": "page verified; SERP position not measured"
+    },
+    {
+      "name": "Harvard Business Review Career Planning",
+      "url": "https://hbr.org/topic/subject/career-planning",
+      "finding": "Editorial topic hub includes research-led and executive career articles.",
+      "status": "page verified; not a direct KOV-format equivalent"
+    },
+    {
+      "name": "ILO World Employment and Social Outlook: Trends 2025",
+      "url": "https://www.ilo.org/publications/flagship-reports/world-employment-and-social-outlook-trends-2025",
+      "finding": "Offers a report, charts, data finder, and translated summaries as a benchmark for substantive research publishing.",
+      "status": "page verified; research benchmark, not a KOV competitor or dataset"
+    }
+  ],
+  "commercial_relevance": "Potentially supports KOV's existing candidate-facing information architecture; no conversion, demand, or serviceability forecast is asserted.",
+  "unique_content_purpose": "A transparent index for KOV research briefs that exposes question, geography, date, method, sources, limitations, and reviewer. Current taxonomy and source notes may support reference material, but the hub must not imply a portfolio of original studies that does not yet exist.",
+  "internal_link_opportunities": [
+    "/resources/executive-career-outcomes.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "The repository has research notes and classification source documentation, but no current public research hub or validated series of market studies. The page must distinguish internal taxonomy documentation from original labor-market research.",
+  "demand_and_competition": {
+    "keyword_sources": [],
+    "competitor_pages": [
+      "https://www.cipd.org/en/knowledge/reports/",
+      "https://hbr.org/topic/subject/career-planning",
+      "https://www.ilo.org/publications/flagship-reports/world-employment-and-social-outlook-trends-2025"
+    ],
+    "evidence_and_date": [
+      "Competitor/reference pages were opened directly on 2026-11-04; this is a page review, not a Google/Bing SERP ranking study.",
+      "No query volume, difficulty, traffic, or conversion data was available."
+    ]
+  },
+  "authoritative_sources": [
+    {
+      "source_id": "CIPD-REPORTS",
+      "source_type": "Professional body research publisher",
+      "title": "CIPD Reports",
+      "publisher": "Chartered Institute of Personnel and Development",
+      "url_or_path": "https://www.cipd.org/en/knowledge/reports/",
+      "access_status": "Verified 2026-11-04",
+      "research_use_and_limit": "Research-library comparator covering work and working lives; does not establish a KOV search opportunity."
+    },
+    {
+      "source_id": "HBR-CAREER-PLANNING",
+      "source_type": "External career information publisher",
+      "title": "Harvard Business Review: Career Planning topic",
+      "publisher": "Harvard Business Review",
+      "url_or_path": "https://hbr.org/topic/subject/career-planning",
+      "access_status": "Verified 2026-11-04",
+      "research_use_and_limit": "The page aggregates career-planning content, including executive-career coverage; format benchmark only, not a measured search result or evidence of demand."
+    },
+    {
+      "source_id": "ILO-WESO-2025",
+      "source_type": "Intergovernmental labor-market research",
+      "title": "World Employment and Social Outlook: Trends 2025",
+      "publisher": "International Labour Organization",
+      "url_or_path": "https://www.ilo.org/publications/flagship-reports/world-employment-and-social-outlook-trends-2025",
+      "access_status": "Verified 2026-11-04",
+      "research_use_and_limit": "Research-output benchmark with a report, charts, data finder, and translated summaries; does not validate any original KOV dataset."
+    },
+    {
+      "source_id": "KOV-RESOURCES-INVENTORY",
+      "source_type": "Internal site inventory",
+      "title": "Published career resources and FAQs",
+      "publisher": "KOV Career Agency",
+      "url_or_path": "resources/ (11 pages); faq/ (30 pages); glossary.html",
+      "access_status": "Repository inventory reviewed 2026-11-04",
+      "research_use_and_limit": "Used to identify current internal content and overlap; not evidence of user demand."
+    }
+  ],
+  "unique_value_and_overlap": {
+    "user_need": "A transparent index for KOV research briefs that exposes question, geography, date, method, sources, limitations, and reviewer. Current taxonomy and source notes may support reference material, but the hub must not imply a portfolio of original studies that does not yet exist.",
+    "existing_page_overlap_review": "The repository has research notes and classification source documentation, but no current public research hub or validated series of market studies. The page must distinguish internal taxonomy documentation from original labor-market research.",
+    "canonical_or_consolidation_decision": "Candidate hub only; no route is to be added to public index until the overlap and release gates are resolved."
+  },
+  "factual_gaps_and_risks": [
+    "Keyword demand and search competition are unmeasured.",
+    "No original quantitative executive labor-market dataset was identified; never imply proprietary market forecasts.",
+    "Publish only after at least one approved, citeable research item and an editorial methodology review exist."
+  ],
+  "blueprint_path": "development/blueprints/research-hub.md",
+  "content_status": "staging_content_complete",
+  "publication_status": "not_approved",
+  "notes": [
+    "Owner authorization is for development/research only; publication remains separately gated.",
+    "No candidate URL has been added to the sitemap, public search, or public navigation.",
+    "The noindex staging preview now documents publication status, research disclosure standards, and attributed independent references; it does not claim original KOV research."
+  ]
+}

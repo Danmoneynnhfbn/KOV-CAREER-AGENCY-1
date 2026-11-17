@@ -1,0 +1,78 @@
+{
+  "id": "financial-leader-to-ceo-transition",
+  "page_title": "From Senior Finance Leadership to CEO: Career Evidence Guide",
+  "proposed_url": "/career-resources/executive-career-guides/financial-leader-to-ceo-transition/",
+  "page_group": "executive_career_guides",
+  "blueprint_path": "development/blueprints/executive-career-guides/financial-leader-to-ceo-transition.md",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "provisional_executive_career_guide_not_qualified",
+  "approval_status": "not_approved",
+  "record_status": "source_bounded_staging_draft_complete; SERP_demand_overlap_and_serviceability_pending",
+  "research_owner": "development",
+  "research_updated": "2026-11-05",
+  "primary_keywords": [
+    "finance leader to CEO career transition"
+  ],
+  "secondary_keywords": [
+    "CFO to CEO career planning",
+    "senior finance executive CEO readiness"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was supplied for this candidate.",
+    "note": "Search terms are hypotheses only; no volume, difficulty, or demand is asserted."
+  },
+  "search_intent": {
+    "primary_query": "finance leader to CEO career transition",
+    "secondary_queries": [
+      "CFO to CEO career planning",
+      "senior finance executive CEO readiness"
+    ],
+    "intent": "Qualitative career-planning hypothesis: assess evidence for a specific chief executive remit from a senior finance leadership background. Search demand has not been measured.",
+    "evidence": [
+      "The 2018 U.S. SOC contains separate definitions for Financial Managers and Chief Executives. Occupational classification does not establish a career path or candidate demand."
+    ]
+  },
+  "intended_audience": "Senior finance leaders assessing a specific chief executive opportunity.",
+  "geographic_relevance": "The cited SOC definitions are U.S.-specific and from the 2018 edition. No other jurisdictional framework or market is represented.",
+  "competitor_research": [
+    {
+      "name": "Candidate-facing search results and direct career-guide competitors",
+      "finding": "A current location-specific search-results review and direct competitor comparison was not performed.",
+      "status": "SERP research pending"
+    }
+  ],
+  "commercial_relevance": "A potential candidate-side planning resource only if distinct user need, demand, overlap, and KOV serviceability are established. No conversion or service capability is inferred.",
+  "unique_content_purpose": "Help an experienced finance leader compare evidence they can substantiate against the stated remit of a particular CEO role, without implying a standard transition or relying on title-based readiness assumptions.",
+  "internal_link_opportunities": [
+    "/roles/senior-leader-career-strategy.html",
+    "/roles/reverse-recruiting-ceos.html",
+    "/roles/reverse-recruiting-cfos.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "The existing senior-leader strategy and CEO/CFO representation pages address broad career planning and services. This candidate narrows the task to evidence mapping from finance leadership to a specific CEO remit. Overlap remains unresolved; require a full page review and first-party demand evidence before retaining a standalone route.",
+  "authoritative_sources": [
+    {
+      "source_id": "BLS-SOC-2018",
+      "source_type": "Official U.S. occupational classification",
+      "title": "2018 Standard Occupational Classification (SOC)",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url_or_path": "https://www.bls.gov/soc/2018/home.htm; local structure and definitions workbooks documented in data/taxonomy/README.md",
+      "access_status": "Local 2018 workbook definitions for codes 11-3031 and 11-1011 were cross-checked against existing occupation records; live BLS page retrieval failed during source review.",
+      "research_use_and_limit": "Used only to describe the two U.S. occupational categories. It does not define employer requirements, personal readiness, appointment criteria, a typical career path, or demand."
+    }
+  ],
+  "content_status": "Source-bounded career-evidence page implemented in noindex staging. No path frequency, success, salary, appointment, or hiring claim is made.",
+  "remaining_gaps": [
+    "Direct location-specific SERP and competitor research.",
+    "First-party demand evidence and full current-site overlap review.",
+    "KOV serviceability confirmation.",
+    "Live official-source recheck before publication."
+  ],
+  "release_controls": {
+    "robots": "noindex, nofollow",
+    "public_navigation": "excluded",
+    "public_search": "excluded",
+    "sitemap": "excluded",
+    "publication": "not approved"
+  }
+}

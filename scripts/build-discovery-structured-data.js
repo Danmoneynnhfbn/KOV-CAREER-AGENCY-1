@@ -752,7 +752,7 @@ function breadcrumbsFor(relative, meta, pageByPath) {
     "@type": "ListItem",
     position: index + 1,
     name: item.name,
-    item: item.url,
+    item: { "@id": item.url },
   }));
 }
 
@@ -909,7 +909,7 @@ function processPage(row, catalog, pageByPath, stats) {
   setOrAdd(page, "isPartOf", { "@id": `${SITE}/#website` });
 
   const organization = ensureNode(scripts, pageScript, {
-    "@type": ["Organization", "ProfessionalService"],
+    "@type": "Organization",
     "@id": `${SITE}/#organization`,
     name: "KOV Career Agency",
     alternateName: ["KOV", "KOV Career"],
@@ -933,9 +933,10 @@ function processPage(row, catalog, pageByPath, stats) {
     ],
   });
   organization["@type"] = (Array.isArray(organization["@type"]) ? organization["@type"] : [organization["@type"]])
-    .filter((type) => type && type !== "EmploymentAgency");
+    .filter((type) => type && type !== "EmploymentAgency" && type !== "ProfessionalService");
   addType(organization, "Organization");
-  addType(organization, "ProfessionalService");
+  delete organization.audience;
+  delete organization.availableLanguage;
   const founderReferences = Array.isArray(organization.founder)
     ? organization.founder
     : organization.founder ? [organization.founder] : [];
@@ -981,7 +982,7 @@ function processPage(row, catalog, pageByPath, stats) {
     const types = Array.isArray(node["@type"]) ? node["@type"] : [node["@type"]];
     return types.includes("BreadcrumbList") && (
       node["@id"] === breadcrumbId
-      || (Array.isArray(node.itemListElement) && node.itemListElement.some((item) => item.item === meta.url))
+      || (Array.isArray(node.itemListElement) && node.itemListElement.some((item) => item.item === meta.url || item.item?.["@id"] === meta.url))
     );
   });
   const breadcrumb = breadcrumbMatch?.node || ensureNode(scripts, pageScript, {
@@ -1261,7 +1262,7 @@ function processPage(row, catalog, pageByPath, stats) {
   stats.finalNodes += parsed[0].nodes.length;
   stats.contextChanges += originalScripts.length > 1 ? originalScripts.length - 1 : 0;
   stats.pageIds.push(`${meta.url}#webpage`);
-  stats.changes.push({ absolutePath, content: changed });
+  stats.changes.push({ absolutePath, content: changed, isChanged: original !== changed });
 }
 
 function uniqueReferences(values) {
@@ -1335,6 +1336,7 @@ function main() {
     originalJsonLdNodes: stats.originalNodes,
     finalJsonLdNodes: stats.finalNodes,
     consolidatedJsonLdScripts: stats.pages,
+    pagesThatWouldChange: stats.changes.filter((change) => change.isChanged).length,
     dryRun,
     sourceFilesPreserved: [
       "town-role-insitutution/job-titles.txt",

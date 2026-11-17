@@ -1,0 +1,95 @@
+{
+  "id": "australia-executive-job-search-market-guide",
+  "page_title": "Australia Executive Job-Search Market Research Guide",
+  "proposed_url": "/career-resources/country-market-guides/australia-executive-job-search-market-guide/",
+  "page_group": "general_country_market_pages",
+  "blueprint_path": "development/blueprints/country-market-guides/australia-executive-job-search-market-guide.md",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "provisional_country_market_guide_not_qualified",
+  "approval_status": "not_approved",
+  "record_status": "source_bounded_staging_draft_complete; SERP_demand_overlap_and_serviceability_pending",
+  "research_owner": "development",
+  "research_updated": "2026-11-06",
+  "primary_keywords": [
+    "Australia executive job-search market research"
+  ],
+  "secondary_keywords": [
+    "Australian executive labour market",
+    "Australia executive jobs by region"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was supplied for this candidate.",
+    "note": "Search terms are hypotheses only; no volume, difficulty, or demand is asserted."
+  },
+  "search_intent": {
+    "primary_query": "Australia executive job-search market research",
+    "secondary_queries": [
+      "Australian executive labour market",
+      "Australia executive jobs by region"
+    ],
+    "intent": "Unmeasured country-specific research hypothesis: interpret ABS national and regional labour-market series for an Australia-focused senior-role search without inferring executive-specific demand.",
+    "evidence": [
+      "ABS publishes national Labour Force Survey estimates and a separate modelled Regional Labour Force series for SA4 areas; their scope and estimation methods differ."
+    ]
+  },
+  "intended_audience": "Senior executives and candidates researching the Australian employment market.",
+  "geographic_relevance": "Australia only. Distinguishes national survey estimates from modelled SA4 regional estimates.",
+  "competitor_research": [
+    {
+      "name": "Australia-localized candidate-facing search results and direct market-guide competitors",
+      "finding": "A current Australia-localized search-results review and direct competitor comparison was not performed.",
+      "status": "SERP research pending"
+    }
+  ],
+  "commercial_relevance": "Potential country-specific candidate research resource only if a distinct user need, demand, overlap and KOV serviceability are later established. ABS data availability does not establish commercial value or KOV capability.",
+  "unique_content_purpose": "Help senior candidates distinguish the ABS household survey's broad national estimates from modelled SA4 regional estimates and understand why neither alone measures executive hiring demand.",
+  "internal_link_opportunities": [
+    "/resources/executive-job-search-in-your-market.html",
+    "/roles/senior-leader-career-strategy.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "The existing executive job-search resource is jurisdiction-neutral. This draft focuses on the ABS Labour Force Survey, trend/seasonal/original series and modelled SA4 regional estimates. Existing Australia market coverage and full page-level overlap remain to be reviewed; a separate route requires evidence of a distinct user task and demand.",
+  "authoritative_sources": [
+    {
+      "source_id": "ABS-LABOUR-FORCE-2026-09",
+      "source_type": "Official Australian labour statistics release",
+      "title": "Labour Force, Australia",
+      "publisher": "Australian Bureau of Statistics",
+      "url_or_path": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release",
+      "access_status": "Latest release fetched and reviewed 2026-11-06; September 2026 reference period",
+      "research_use_and_limit": "Used for types of indicators, series presentations, release notes and methodological notices. No time-sensitive numerical results are reproduced. Does not measure executive-specific demand."
+    },
+    {
+      "source_id": "ABS-LFS-METHODOLOGY-2026-09",
+      "source_type": "Official Australian labour statistics methodology",
+      "title": "Labour Force, Australia methodology, September 2026",
+      "publisher": "Australian Bureau of Statistics",
+      "url_or_path": "https://www.abs.gov.au/methodologies/labour-force-australia-methodology/sep-2026",
+      "access_status": "Page fetched and reviewed 2026-11-06",
+      "research_use_and_limit": "Used for survey population, scope and design. It does not support executive vacancy or hiring claims."
+    },
+    {
+      "source_id": "ABS-REGIONAL-LABOUR-FORCE-2026-09",
+      "source_type": "Official Australian regional labour statistics release",
+      "title": "Regional Labour Force",
+      "publisher": "Australian Bureau of Statistics",
+      "url_or_path": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/regional-labour-force/latest-release",
+      "access_status": "Page fetched and reviewed 2026-11-06; September 2026 reference period",
+      "research_use_and_limit": "Used for SA4 coverage and the small-area modelled-estimate description. Regional indicators are not evidence of executive openings or an individual's prospects."
+    }
+  ],
+  "content_status": "Source-bounded Australia market research guide implemented in noindex staging. No executive-specific demand claims or current numerical estimates are included.",
+  "remaining_gaps": [
+    "Direct Australia-localized SERP and competitor research.",
+    "First-party demand evidence and full current-site overlap review.",
+    "KOV serviceability confirmation.",
+    "Recheck the live ABS releases and reference periods before any publication decision."
+  ],
+  "release_controls": {
+    "robots": "noindex, nofollow",
+    "public_navigation": "excluded",
+    "public_search": "excluded",
+    "sitemap": "excluded",
+    "publication": "not approved"
+  }
+}

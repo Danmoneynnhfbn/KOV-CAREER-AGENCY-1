@@ -1,0 +1,120 @@
+{
+  "id": "occupational-codes-cross-border-executive-search",
+  "page_title": "How Occupational Codes Affect Cross-Border Executive Search",
+  "proposed_url": "/career-resources/mobility/occupational-codes-cross-border-executive-search/",
+  "page_group": "international_career_mobility",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "candidate_pending_ilo_source_access_and_scope_review",
+  "approval_status": "not_approved",
+  "record_status": "initial_research_screen_complete",
+  "research_updated": "2026-11-04",
+  "audience_and_geography": {
+    "audience": "Senior professionals and executives considering a cross-border career move; route eligibility is individual and jurisdiction-specific.",
+    "geography": "International; compare classification systems only where validated"
+  },
+  "search_intent": {
+    "primary_query": "occupational codes for international executive jobs",
+    "secondary_queries": [
+      "ISCO occupation codes executive search",
+      "SOC codes and international job search",
+      "occupation classification crosswalk"
+    ],
+    "intent": "Informational and decision-support; query wording is a hypothesis, not measured demand.",
+    "evidence": [
+      {
+        "source_id": "ILO-ISCO",
+        "url": "https://isco.ilo.org/en/isco-08/",
+        "access_status": "Fetch returned 403 2026-11-04"
+      },
+      {
+        "source_id": "KOV-RESEARCH",
+        "url": "KOV-GLOBAL-JOBS-INDUSTRIES-AND-RECRUITING-RESEARCH-2026-10-22.md",
+        "access_status": "Reviewed 2026-11-04"
+      }
+    ]
+  },
+  "primary_keywords": [
+    "occupational codes for international executive jobs"
+  ],
+  "secondary_keywords": [
+    "ISCO occupation codes executive search",
+    "SOC codes and international job search",
+    "occupation classification crosswalk"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword-volume export was available.",
+    "note": "All phrases are hypotheses for later validation."
+  },
+  "intended_audience": "Senior professionals and executives; no promise of visa eligibility, employment, placement, or endorsement.",
+  "geographic_relevance": [
+    "International; compare classification systems only where validated"
+  ],
+  "competitor_research": [
+    {
+      "name": "Official government or intergovernmental route guidance",
+      "type": "search-result/reference competitor",
+      "status": "page-specific official source listed per candidate; current SERP positions not measured"
+    },
+    {
+      "name": "Commercial immigration and global-mobility advisory content",
+      "type": "adjacent information competitor",
+      "status": "provider-level competitor set and country-specific SERP review pending"
+    }
+  ],
+  "commercial_relevance": "Potentially relevant as executive career-mobility decision support; KOV serviceability in each destination is unverified.",
+  "unique_content_purpose": "Explain the limits of occupational taxonomies when mapping titles and experience across countries, using verified classification examples rather than presenting codes as immigration eligibility decisions.",
+  "internal_link_opportunities": [
+    "/resources/executive-job-search-in-your-market.html",
+    "/roles/",
+    "/services.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "Distinct from occupation pages: this is a cross-border classification explainer, not a directory or service claim.",
+  "demand_and_competition": {
+    "keyword_sources": [],
+    "competitor_pages": [],
+    "evidence_and_date": [
+      "Official and intergovernmental sources establish route scope, not search demand.",
+      "Country-specific competitor SERPs, keyword volumes, and KOV serviceability remain unverified.",
+      "Accessed or status-checked 2026-11-04."
+    ]
+  },
+  "authoritative_sources": [
+    {
+      "source_id": "ILO-ISCO",
+      "source_type": "Classification standard",
+      "title": "International Standard Classification of Occupations (ISCO-08)",
+      "publisher": "International Labour Organization",
+      "url_or_path": "https://isco.ilo.org/en/isco-08/",
+      "access_status": "Fetch returned 403 2026-11-04",
+      "research_use_and_limit": "International classification reference; access and edition must be verified before use."
+    },
+    {
+      "source_id": "KOV-RESEARCH",
+      "source_type": "Internal research",
+      "title": "Global jobs, industries, and recruiting research",
+      "publisher": "KOV Career Agency",
+      "url_or_path": "KOV-GLOBAL-JOBS-INDUSTRIES-AND-RECRUITING-RESEARCH-2026-10-22.md",
+      "access_status": "Reviewed 2026-11-04",
+      "research_use_and_limit": "Internal taxonomy and audience cautions; does not establish route eligibility or market demand."
+    }
+  ],
+  "unique_value_and_overlap": {
+    "user_need": "Explain the limits of occupational taxonomies when mapping titles and experience across countries, using verified classification examples rather than presenting codes as immigration eligibility decisions.",
+    "existing_page_overlap_review": "Distinct from occupation pages: this is a cross-border classification explainer, not a directory or service claim.",
+    "canonical_or_consolidation_decision": "Candidate URL only; compare against current sitemap and page text again before implementation."
+  },
+  "factual_gaps_and_risks": [
+    "Immigration rules can change; verify official pages and effective dates immediately before drafting and publication.",
+    "This page must not provide individualized legal or immigration advice or imply eligibility.",
+    "Direct competing pages and current search-result positions have not yet been validated.",
+    "KOV's ability to serve candidates in the destination has not been established."
+  ],
+  "blueprint_path": "development/blueprints/mobility/occupational-codes-cross-border-executive-search.md",
+  "content_status": "not_started",
+  "publication_status": "not_approved",
+  "notes": [
+    "Staging research candidate only; no public page is created by this record.",
+    "Competitor and keyword-volume validation remain explicit open tasks."
+  ]
+}

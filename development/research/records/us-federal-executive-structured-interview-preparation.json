@@ -1,0 +1,77 @@
+{
+  "id": "us-federal-executive-structured-interview-preparation",
+  "page_title": "Preparing for a U.S. Federal Structured Interview",
+  "proposed_url": "/career-resources/interview-guides/us-federal-executive-structured-interview-preparation/",
+  "page_group": "role_specific_interview_guides",
+  "blueprint_path": "development/blueprints/interview-guides/us-federal-executive-structured-interview-preparation.md",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "provisional_role_specific_interview_guide_not_qualified",
+  "approval_status": "not_approved",
+  "record_status": "source_bounded_staging_draft_complete; SERP_demand_overlap_and_serviceability_pending",
+  "research_owner": "development",
+  "research_updated": "2026-11-05",
+  "primary_keywords": [
+    "U.S. federal executive structured interview preparation"
+  ],
+  "secondary_keywords": [
+    "federal structured interview guide for senior candidates",
+    "prepare for an OPM structured interview"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was supplied for this candidate.",
+    "note": "Search terms are hypotheses only; no volume, difficulty, or demand is asserted."
+  },
+  "search_intent": {
+    "primary_query": "U.S. federal executive structured interview preparation",
+    "secondary_queries": [
+      "federal structured interview guide for senior candidates",
+      "prepare for an OPM structured interview"
+    ],
+    "intent": "Qualitative interview-preparation hypothesis for senior candidates facing a U.S. federal structured interview. Search demand has not been measured.",
+    "evidence": [
+      "OPM describes structured interviews as competency assessments that may ask about past behavior and/or proposed behavior in hypothetical situations. This supports a narrowly federal preparation task, not search demand."
+    ]
+  },
+  "intended_audience": "Senior candidates preparing for a U.S. federal vacancy that uses a structured interview.",
+  "geographic_relevance": "United States federal hiring context only. No private-sector or other-country interview method is represented.",
+  "competitor_research": [
+    {
+      "name": "U.S.-localized candidate-facing search results and direct preparation-guide competitors",
+      "finding": "A current location-specific search-results review and direct competitor comparison was not performed.",
+      "status": "SERP research pending"
+    }
+  ],
+  "commercial_relevance": "Potential candidate-side preparation resource only if a distinct user need, demand, overlap, and KOV serviceability are later established. OPM material does not establish commercial value or KOV capability.",
+  "unique_content_purpose": "Help senior candidates prepare accurate competency evidence for a federal structured interview without predicting specific questions or generalizing OPM's method to other employers.",
+  "internal_link_opportunities": [
+    "/roles/senior-leader-career-strategy.html",
+    "/resources/executive-job-search-in-your-market.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "The existing interview-coaching service page covers general executive preparation. This draft is narrowly scoped to OPM-described U.S. federal structured interviews. Full overlap and demand review remain pending; keep the route provisional until a distinct candidate task and first-party demand are established.",
+  "authoritative_sources": [
+    {
+      "source_id": "OPM-STRUCTURED-INTERVIEWS-2026",
+      "source_type": "Official U.S. federal selection guidance",
+      "title": "Structured Interviews",
+      "publisher": "U.S. Office of Personnel Management",
+      "url_or_path": "https://www.opm.gov/policy-data-oversight/assessment-and-selection/structured-interviews/",
+      "access_status": "Page fetched and reviewed 2026-11-05",
+      "research_use_and_limit": "Used for OPM's description of competency assessment, past-behavior and hypothetical questions, sequencing, and consistent evaluation standards. Does not establish use at a particular vacancy or private-sector practice."
+    }
+  ],
+  "content_status": "Source-bounded interview-preparation page implemented in noindex staging. No predicted questions or fabricated candidate evidence are included.",
+  "remaining_gaps": [
+    "Direct U.S.-localized SERP and competitor research.",
+    "First-party demand evidence and full current-site overlap review.",
+    "KOV serviceability confirmation.",
+    "Recheck the live OPM guidance before publication."
+  ],
+  "release_controls": {
+    "robots": "noindex, nofollow",
+    "public_navigation": "excluded",
+    "public_search": "excluded",
+    "sitemap": "excluded",
+    "publication": "not approved"
+  }
+}

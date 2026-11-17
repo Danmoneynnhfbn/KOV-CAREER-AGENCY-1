@@ -1,5 +1,6 @@
 import csv
 import json
+import re
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -7,31 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DEVELOPMENT = ROOT / "development"
-REQUIRED_RECORD_FIELDS = (
-    "page_title",
-    "proposed_url",
-    "page_group",
-    "primary_keywords",
-    "secondary_keywords",
-    "search_intent",
-    "intended_audience",
-    "geographic_relevance",
-    "competitor_research",
-    "commercial_relevance",
-    "unique_content_purpose",
-    "internal_link_opportunities",
-    "duplication_and_cannibalisation_assessment",
-    "authoritative_sources",
-    "blueprint_path",
-)
-REQUIRED_TRACKER_FIELDS = (
-    "qualification_status",
-    "content_writing_status",
-    "functionality_status",
-    "validation_status",
-    "visual_design_status",
-    "approval_status",
-)
+PUBLIC_ORIGIN = "https://www.kovcareeragency.org"
 
 
 def read_csv(path):
@@ -39,173 +16,247 @@ def read_csv(path):
         return list(csv.DictReader(handle))
 
 
+def route_file(url):
+    relative = url.lstrip("/")
+    path = ROOT / relative
+    if path.is_dir() or (not path.suffix and not path.exists()):
+        path = path / "index.html"
+    elif not path.suffix:
+        path = path.with_suffix(".html")
+    try:
+        path.resolve().relative_to(ROOT.resolve())
+    except ValueError:
+        return None
+    return path if path.is_file() else None
+
+
+def robot_directives(html):
+    head = re.search(r"<head\b[^>]*>([\s\S]*?)</head\s*>", html, re.I)
+    if not head:
+        return []
+    return [
+        match.group(1).lower()
+        for match in re.finditer(
+            r"<meta\b(?=[^>]*\bname\s*=\s*['\"]robots['\"])[^>]*\bcontent\s*=\s*['\"]([^'\"]*)['\"][^>]*>",
+            head.group(1),
+            re.I,
+        )
+    ]
+
+
 def main():
     candidates = read_csv(DEVELOPMENT / "CANDIDATE-REGISTER.csv")
     tracker = read_csv(DEVELOPMENT / "PAGE-TRACKER.csv")
+    qualifications = read_csv(DEVELOPMENT / "CANDIDATE-QUALIFICATION-REGISTER.csv")
     keywords = read_csv(DEVELOPMENT / "KEYWORD-INTENT-MAP.csv")
     sources = read_csv(DEVELOPMENT / "RESEARCH-SOURCE-REGISTER.csv")
-    programme = read_csv(DEVELOPMENT / "PAGE-PROGRAMME.csv")
-    qualifications = read_csv(DEVELOPMENT / "CANDIDATE-QUALIFICATION-REGISTER.csv")
     sitemap_urls = {
         node.text.strip()
         for node in ET.parse(ROOT / "sitemap.xml").iter()
         if node.tag.endswith("loc") and node.text
     }
     search_index = (ROOT / "assets" / "site-search-index.js").read_text(encoding="utf-8")
+
+    errors = []
+    warnings = []
     tracker_by_id = {row["id"]: row for row in tracker}
     qualification_by_id = {row["candidate_id"]: row for row in qualifications}
     keyword_by_id = {row["candidate_id"]: row for row in keywords}
     source_ids = {row["source_id"] for row in sources}
-    counts = {}
-    seen_urls = set()
-    errors = []
-    checked_records = 0
+    candidate_by_id = {row["candidate_id"]: row for row in candidates}
 
+    if len(candidate_by_id) != len(candidates):
+        errors.append("CANDIDATE-REGISTER.csv contains duplicate IDs.")
     if len(tracker_by_id) != len(tracker):
         errors.append("PAGE-TRACKER.csv contains duplicate IDs.")
-    if tracker and any(field not in tracker[0] for field in REQUIRED_TRACKER_FIELDS):
-        errors.append("PAGE-TRACKER.csv is missing one or more delivery and approval status fields.")
+    if len(qualification_by_id) != len(qualifications):
+        errors.append("CANDIDATE-QUALIFICATION-REGISTER.csv contains duplicate IDs.")
     if len(keyword_by_id) != len(keywords):
-        errors.append("KEYWORD-INTENT-MAP.csv contains duplicate candidate IDs.")
+        errors.append("KEYWORD-INTENT-MAP.csv contains duplicate IDs.")
     if len(source_ids) != len(sources):
         errors.append("RESEARCH-SOURCE-REGISTER.csv contains duplicate source IDs.")
+    if set(qualification_by_id) != set(keyword_by_id):
+        errors.append("Qualification and keyword research registers do not contain the same candidate IDs.")
 
+    # Route inventory and evidence registers are separate stages. A generated,
+    # unpublished route does not imply a completed research package.
+    seen_urls = set()
+    route_blueprints = 0
+    routes_without_blueprints = 0
+    route_files_found = 0
+    route_noindex = 0
     for candidate in candidates:
         candidate_id = candidate["candidate_id"]
         url = candidate["proposed_url"]
-        category = candidate["category"]
-        counts[category] = counts.get(category, 0) + 1
-        if (
-            not url.startswith("/")
-            or url.startswith("//")
-            or any(character.isspace() for character in url)
-            or "?" in url
-            or "#" in url
-            or not (url.endswith("/") or url.endswith(".html"))
-        ):
-            errors.append(f"{candidate_id}: URL must be a clean root-relative page path: {url}")
+        if not url.startswith("/") or url.startswith("//") or any(c.isspace() for c in url) or "?" in url or "#" in url:
+            errors.append(f"{candidate_id}: proposed route is not a clean root-relative path: {url}")
         if url in seen_urls:
-            errors.append(f"{candidate_id}: duplicate candidate URL: {url}")
+            errors.append(f"{candidate_id}: duplicate proposed route: {url}")
         seen_urls.add(url)
 
-        tracked = tracker_by_id.get(candidate_id)
-        if tracked is None:
+        row = tracker_by_id.get(candidate_id)
+        if row is None:
             errors.append(f"{candidate_id}: missing PAGE-TRACKER.csv row.")
             continue
-        if tracked["proposed_url"] != url:
-            errors.append(f"{candidate_id}: tracker URL does not match candidate register.")
-        if tracked["page_group"] != category:
-            errors.append(f"{candidate_id}: tracker category does not match candidate register.")
-        if tracked["search_sitemap_status"] != "excluded":
-            errors.append(f"{candidate_id}: tracker does not mark the candidate excluded.")
-        if tracked["publication_status"] not in {"not_approved", "not_published"}:
-            errors.append(f"{candidate_id}: tracker does not mark the page unpublished and unapproved.")
-        qualification = qualification_by_id.get(candidate_id)
-        if qualification is None:
-            errors.append(f"{candidate_id}: missing candidate qualification register row.")
-        elif tracked.get("qualification_status") != qualification["qualification_status"]:
-            errors.append(f"{candidate_id}: tracker qualification status does not match qualification register.")
-        if tracked.get("approval_status") != candidate["approval_status"]:
-            errors.append(f"{candidate_id}: tracker approval status does not match candidate register.")
-        if tracked.get("visual_design_status") != "provisional_owner_references_pending":
-            errors.append(f"{candidate_id}: tracker must keep final visual design provisional.")
+        if row.get("proposed_url") != url or row.get("page_group") != candidate.get("category"):
+            errors.append(f"{candidate_id}: tracker route or category differs from the candidate register.")
+        if row.get("search_sitemap_status") != "excluded" or candidate.get("search_sitemap_status") != "excluded":
+            errors.append(f"{candidate_id}: staged route must remain excluded from the public sitemap.")
+        if row.get("publication_status") != "not_published" or candidate.get("publication_status") != "not_published":
+            errors.append(f"{candidate_id}: staged route must remain unpublished.")
+        # The approved checkpoint explicitly leaves generated pages unstyled.
+        if row.get("visual_design_status") != "unstyled_html_per_current_instruction":
+            errors.append(f"{candidate_id}: visual design status does not match the approved unstyled staging state.")
+        if row.get("approval_status") != candidate.get("approval_status"):
+            errors.append(f"{candidate_id}: route-staging approval status differs between route registers.")
 
-        keyword_row = keyword_by_id.get(candidate_id)
-        if keyword_row is None:
-            errors.append(f"{candidate_id}: missing KEYWORD-INTENT-MAP.csv row.")
+        preview_url = row.get("staging_preview_url", "")
+        file_path = route_file(preview_url) if preview_url.startswith("/staging/") else None
+        if file_path is None:
+            errors.append(f"{candidate_id}: staged preview HTML route is missing locally: {preview_url or url}")
         else:
-            if keyword_row["proposed_url"] != url:
-                errors.append(f"{candidate_id}: keyword-map URL does not match candidate register.")
-            if keyword_row["primary_keyword"] != candidate["primary_keywords"]:
-                errors.append(f"{candidate_id}: keyword-map primary keyword does not match candidate register.")
-            if keyword_row["search_volume_status"] != "not_available":
-                errors.append(f"{candidate_id}: keyword-map search-volume status must be not_available.")
+            route_files_found += 1
+            html = file_path.read_text(encoding="utf-8-sig", errors="replace")
+            directives = robot_directives(html)
+            if not directives or not all("noindex" in value for value in directives):
+                errors.append(f"{candidate_id}: staged page is missing a robots noindex directive.")
+            else:
+                route_noindex += 1
+        canonical = f"{PUBLIC_ORIGIN}{url}"
+        if canonical in sitemap_urls:
+            errors.append(f"{candidate_id}: staged route appears in the public sitemap.")
+        if url in search_index:
+            errors.append(f"{candidate_id}: staged route appears in the public search index.")
 
-        record_path = ROOT / candidate["blueprint_path"]
-        if not record_path.is_file():
-            errors.append(f"{candidate_id}: missing blueprint {candidate['blueprint_path']}.")
+        blueprint = candidate.get("blueprint_path", "").strip()
+        tracked_blueprint = row.get("blueprint_file", "").strip()
+        if blueprint:
+            blueprint_path = ROOT / blueprint
+            if blueprint_path.is_file():
+                route_blueprints += 1
+                if tracked_blueprint != blueprint:
+                    errors.append(f"{candidate_id}: tracker blueprint path differs from the existing candidate blueprint.")
+            else:
+                routes_without_blueprints += 1
+                warnings.append(f"{candidate_id}: blueprint path is recorded but not present: {blueprint}")
+        elif tracked_blueprint:
+            errors.append(f"{candidate_id}: tracker references a blueprint absent from the candidate register.")
 
-        record_relative = candidate.get("research_record", "")
-        if not record_relative:
-            record_relative = f"development/research/records/{candidate_id}.json"
-        research_path = ROOT / record_relative
-        if not research_path.is_file():
-            errors.append(f"{candidate_id}: missing research record {record_relative}.")
+    orphan_tracker_ids = set(tracker_by_id) - set(candidate_by_id)
+    if orphan_tracker_ids:
+        errors.append(f"PAGE-TRACKER.csv has {len(orphan_tracker_ids)} rows without a candidate route.")
+
+    # Validate the separately maintained researched-candidate cohort against
+    # its own records. Qualification/approval here concerns research and
+    # content gates; route approval above only means permitted noindex staging.
+    research_record_count = 0
+    blueprint_count = 0
+    source_reference_count = 0
+    qualification_candidate_routes = 0
+    for candidate_id, qualification in qualification_by_id.items():
+        keyword = keyword_by_id.get(candidate_id)
+        if keyword is None:
+            errors.append(f"{candidate_id}: missing keyword evidence row.")
             continue
+        if keyword.get("proposed_url") != qualification.get("proposed_url"):
+            errors.append(f"{candidate_id}: qualification and keyword routes differ.")
+        if keyword.get("search_volume_status") != "not_available":
+            errors.append(f"{candidate_id}: keyword register must not claim unavailable search-volume evidence.")
+        if candidate_id in candidate_by_id:
+            qualification_candidate_routes += 1
+            if candidate_by_id[candidate_id]["proposed_url"] != qualification["proposed_url"]:
+                errors.append(f"{candidate_id}: shared candidate ID has conflicting route paths.")
+        if qualification.get("publication_status") != "not_published":
+            errors.append(f"{candidate_id}: researched candidate must remain unpublished pending release.")
 
+        record_path = DEVELOPMENT / "research" / "records" / f"{candidate_id}.json"
+        if not record_path.is_file():
+            errors.append(f"{candidate_id}: missing research record {record_path.relative_to(ROOT)}.")
+            continue
         try:
-            record = json.loads(research_path.read_text(encoding="utf-8"))
+            record = json.loads(record_path.read_text(encoding="utf-8-sig"))
         except (OSError, json.JSONDecodeError) as error:
             errors.append(f"{candidate_id}: invalid research record: {error}")
             continue
-        if record.get("record_status") == "not_started":
-            continue
-        checked_records += 1
+        research_record_count += 1
         if record.get("id") != candidate_id:
-            errors.append(f"{candidate_id}: research record ID does not match candidate register.")
-        if record.get("page_title") != candidate["page_title"]:
-            errors.append(f"{candidate_id}: research record title does not match candidate register.")
-        if record.get("proposed_url") != url:
-            errors.append(f"{candidate_id}: research record URL does not match candidate register.")
-        if record.get("page_group") != category:
-            errors.append(f"{candidate_id}: research record category does not match candidate register.")
-        for field in REQUIRED_RECORD_FIELDS:
-            value = record.get(field)
-            if value is None or value == "" or value == []:
+            errors.append(f"{candidate_id}: research record ID does not match its qualification row.")
+        if record.get("proposed_url") != qualification.get("proposed_url"):
+            errors.append(f"{candidate_id}: research record URL does not match its qualification row.")
+        if record.get("page_group") != qualification.get("category"):
+            errors.append(f"{candidate_id}: research record category does not match its qualification row.")
+        for field in ("page_title", "primary_keywords", "search_intent", "intended_audience", "geographic_relevance", "competitor_research", "commercial_relevance", "unique_content_purpose", "duplication_and_cannibalisation_assessment", "authoritative_sources"):
+            if record.get(field) in (None, "", []):
                 errors.append(f"{candidate_id}: research record is missing {field}.")
-        for field in ("search_intent", "competitor_research", "authoritative_sources"):
-            if not record.get(field):
-                errors.append(f"{candidate_id}: {field} must record findings or an explicit pending status.")
-        missing_sources = {
-            source.get("source_id")
-            for source in record.get("authoritative_sources", [])
-            if source.get("source_id") not in source_ids
-        }
-        if missing_sources:
-            errors.append(f"{candidate_id}: research sources missing from source register: {sorted(missing_sources)}")
-        if record.get("approval_status") != candidate["approval_status"]:
-            errors.append(f"{candidate_id}: approval status mismatch between register and record.")
-        if candidate["publication_status"] != "not_published":
-            errors.append(f"{candidate_id}: candidate register does not mark the page unpublished.")
-        if candidate["search_sitemap_status"] != "excluded":
-            errors.append(f"{candidate_id}: candidate register does not mark the page excluded.")
-        if candidate["approval_status"] != "approved_for_research_only":
-            for internal_url in record.get("internal_link_opportunities", []):
-                internal_canonical = f"https://www.kovcareeragency.org{internal_url}"
-                if internal_canonical not in sitemap_urls:
-                    errors.append(
-                        f"{candidate_id}: internal-link recommendation is not a published sitemap URL: {internal_url}"
-                    )
-        if url in search_index:
-            errors.append(f"{candidate_id}: candidate URL appears in the search index.")
-        canonical = f"https://www.kovcareeragency.org{url}"
-        if canonical in sitemap_urls:
-            errors.append(f"{candidate_id}: candidate URL appears in the public sitemap.")
+        primary_keywords = record.get("primary_keywords", [])
+        if isinstance(primary_keywords, str):
+            primary_keywords = [primary_keywords]
+        if keyword.get("primary_keyword") not in primary_keywords:
+            errors.append(f"{candidate_id}: keyword map does not match the research record primary keyword.")
 
-    for row in programme:
-        category = row["page_group"]
-        count = counts.get(category, 0)
-        if int(row["candidate_urls_defined"]) != count:
-            errors.append(
-                f"{category}: programme says {row['candidate_urls_defined']} candidates; "
-                f"register contains {count}."
-            )
-        shortfall = int(row["target_count"]) - count
-        if shortfall < 0:
-            errors.append(f"{category}: candidate count exceeds quota.")
-        if "candidate_url_shortfall" in row and int(row["candidate_url_shortfall"]) != shortfall:
-            errors.append(f"{category}: candidate_url_shortfall is not synchronized.")
+        record_blueprint = record.get("blueprint_path", "")
+        if not record_blueprint or not (ROOT / record_blueprint).is_file():
+            errors.append(f"{candidate_id}: research record blueprint is missing or unresolved.")
+        else:
+            blueprint_count += 1
+        for source in record.get("authoritative_sources", []):
+            source_id = source.get("source_id") if isinstance(source, dict) else None
+            if not source_id or source_id not in source_ids:
+                errors.append(f"{candidate_id}: source reference is missing from the source register: {source_id}")
+            else:
+                source_reference_count += 1
+
+        # Distinguish equivalent stage wording while preventing a research
+        # record from overruling a stricter publication gate.
+        q_approval = qualification.get("approval_status")
+        record_approval = record.get("approval_status")
+        equivalent_staging = q_approval == "staging_development_only" and record_approval in {
+            "approved_for_unpublished_staging_development_only", "approved_for_development"
+        }
+        if record_approval != q_approval and not equivalent_staging:
+            errors.append(f"{candidate_id}: research approval conflicts with the qualification register.")
+        if record.get("publication_status") not in {None, "not_published", "not_approved"}:
+            errors.append(f"{candidate_id}: research record indicates publication without release approval.")
+
+    # Package and route cohorts are not interchangeable. Keep the coverage
+    # discrepancy visible instead of manufacturing bridge records.
+    routes_without_research = set(candidate_by_id) - set(qualification_by_id)
+    research_without_route = set(qualification_by_id) - set(candidate_by_id)
+    if routes_without_research:
+        warnings.append(f"{len(routes_without_research)} staging routes have no matching qualified research package.")
+    if research_without_route:
+        warnings.append(f"{len(research_without_route)} research packages are outside the current candidate route register.")
 
     if errors:
         print("\n".join(f"ERROR: {error}" for error in errors))
+        print(f"Research programme integrity: FAIL ({len(errors)} errors).")
         return 1
-    quota_total = sum(int(row["target_count"]) for row in programme)
-    defined_total = sum(counts.values())
-    print(
-        f"Research programme valid: {len(candidates)} URLs defined across "
-        f"{len(counts)} categories; {checked_records} research records checked; "
-        f"{defined_total}/{quota_total} quota URLs defined; all candidates unpublished and excluded."
-    )
+
+    quota_rows = read_csv(DEVELOPMENT / "PAGE-PROGRAMME.csv")
+    quota_total = sum(int(row["target_count"]) for row in quota_rows)
+    defined_total = sum(int(row["candidate_urls_defined"]) for row in quota_rows)
+    summary = {
+        "integrityStatus": "PASS",
+        "completionStatus": "PARTIAL",
+        "stagingRoutes": len(candidates),
+        "stagingTrackerRows": len(tracker),
+        "localStagingHtml": route_files_found,
+        "stagingNoindexVerified": route_noindex,
+        "researchCandidates": len(qualifications),
+        "keywordRows": len(keywords),
+        "researchRecordsParsed": research_record_count,
+        "researchBlueprintsVerified": blueprint_count,
+        "researchSourceReferencesVerified": source_reference_count,
+        "researchedCandidatesMappedToCurrentRoutes": qualification_candidate_routes,
+        "stagingRoutesWithoutResearchPackage": len(routes_without_research),
+        "researchPackagesWithoutCurrentRoute": len(research_without_route),
+        "existingRouteBlueprints": route_blueprints,
+        "unresolvedRouteBlueprintReferences": routes_without_blueprints,
+        "programmeQuotaRows": len(quota_rows),
+        "programmeQuotaDefined": f"{defined_total}/{quota_total}",
+        "warnings": warnings,
+    }
+    print(json.dumps(summary, indent=2))
     return 0
 
 

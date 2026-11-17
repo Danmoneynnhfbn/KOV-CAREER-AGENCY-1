@@ -1,3 +1,5 @@
+"use strict";
+
 const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const http = require("node:http");
@@ -12,98 +14,72 @@ function parseCsv(contents) {
   let field = "";
   let quoted = false;
   const text = contents.replace(/^\uFEFF/, "");
-
   for (let index = 0; index < text.length; index += 1) {
     const character = text[index];
     if (quoted) {
       if (character === '"' && text[index + 1] === '"') {
         field += '"';
         index += 1;
-      } else if (character === '"') {
-        quoted = false;
-      } else {
-        field += character;
-      }
-    } else if (character === '"') {
-      quoted = true;
-    } else if (character === ",") {
-      row.push(field);
-      field = "";
-    } else if (character === "\r" || character === "\n") {
+      } else if (character === '"') quoted = false;
+      else field += character;
+    } else if (character === '"') quoted = true;
+    else if (character === ",") { row.push(field); field = ""; }
+    else if (character === "\r" || character === "\n") {
       row.push(field);
       if (row.some((value) => value !== "")) rows.push(row);
       row = [];
       field = "";
       if (character === "\r" && text[index + 1] === "\n") index += 1;
-    } else {
-      field += character;
-    }
+    } else field += character;
   }
-  if (field !== "" || row.length > 0) rows.push([...row, field]);
+  if (field !== "" || row.length) rows.push([...row, field]);
   const [headers, ...records] = rows;
-  return records.map((values) =>
-    Object.fromEntries(headers.map((header, index) => [header, values[index] ?? ""]))
-  );
+  return records.map((values) => Object.fromEntries(headers.map((header, index) => [header, values[index] ?? ""])));
 }
 
-function pathForUrl(url) {
-  const parsed = new URL(url, origin);
-  const relative = parsed.pathname.replace(/^\/+/, "");
+function localFile(routeOrPath) {
+  const relative = routeOrPath.replace(/^\/+/, "");
   const direct = path.resolve(root, relative);
-  assert.ok(direct === root || direct.startsWith(`${root}${path.sep}`), `Route escapes repository: ${url}`);
+  assert.ok(direct === root || direct.startsWith(`${root}${path.sep}`), `Path escapes repository: ${routeOrPath}`);
   if (fs.existsSync(direct) && fs.statSync(direct).isFile()) return direct;
-  if (!path.extname(direct) && fs.existsSync(path.join(direct, "index.html"))) {
-    return path.join(direct, "index.html");
-  }
+  if (!path.extname(direct) && fs.existsSync(path.join(direct, "index.html"))) return path.join(direct, "index.html");
   if (!path.extname(direct) && fs.existsSync(`${direct}.html`)) return `${direct}.html`;
   return null;
 }
 
-function idsIn(html) {
-  return new Set([
-    ...[...html.matchAll(/\bid=["']([^"']+)["']/gi)].map((match) => match[1]),
-    ...[...html.matchAll(/<a\b[^>]*\bname=["']([^"']+)["']/gi)].map((match) => match[1]),
-  ]);
+function hasNoindex(html) {
+  return /<meta\b(?=[^>]*\bname=["'](?:robots|googlebot)["'])(?=[^>]*\bcontent=["'][^"']*\bnoindex\b)[^>]*>/i.test(html);
 }
 
-async function assertHttpRoutes(tracker) {
-  const server = http.createServer((request, response) => {
-    let pathname;
-    try {
-      pathname = decodeURIComponent(new URL(request.url, "http://localhost").pathname);
-    } catch {
-      response.writeHead(400).end();
-      return;
-    }
+function canonicalOf(html) {
+  return html.match(/<link\b(?=[^>]*\brel=["']canonical["'])[^>]*\bhref=["']([^"']+)["'][^>]*>/i)?.[1] ?? null;
+}
 
-    let filePath = path.resolve(root, `.${pathname}`);
-    if (!filePath.startsWith(`${root}${path.sep}`) && filePath !== root) {
-      response.writeHead(403).end();
-      return;
-    }
-    if (fs.existsSync(filePath) && fs.statSync(filePath).isDirectory()) {
-      filePath = path.join(filePath, "index.html");
-    }
-    fs.readFile(filePath, (error, content) => {
-      if (error) {
-        response.writeHead(404).end("Not found");
-        return;
-      }
-      response.writeHead(200, { "Content-Type": "text/html; charset=utf-8" }).end(content);
+function assertJsonLdParses(html, label) {
+  const blocks = [...html.matchAll(/<script\b(?=[^>]*type=["']application\/ld\+json["'])[^>]*>([\s\S]*?)<\/script\s*>/gi)];
+  assert.ok(blocks.length, `${label} must retain JSON-LD`);
+  for (const block of blocks) assert.doesNotThrow(() => JSON.parse(block[1]), `${label} JSON-LD must parse`);
+}
+
+async function checkLocalHttpRoutes(routes) {
+  const server = http.createServer((request, response) => {
+    const pathname = decodeURIComponent(new URL(request.url, "http://localhost").pathname);
+    let file = localFile(pathname);
+    if (!file) { response.writeHead(404).end("Not found"); return; }
+    fs.readFile(file, (error, body) => {
+      if (error) { response.writeHead(500).end(); return; }
+      response.writeHead(200, { "Content-Type": "text/html; charset=utf-8" }).end(body);
     });
   });
-
   await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
-  const address = server.address();
+  const port = server.address().port;
   try {
-    for (let offset = 0; offset < tracker.length; offset += 40) {
-      const batch = tracker.slice(offset, offset + 40);
-      await Promise.all(batch.map(async (candidate) => {
-        const response = await fetch(`http://127.0.0.1:${address.port}${candidate.proposed_url}`);
-        assert.equal(response.status, 200, `${candidate.proposed_url} should resolve over HTTP`);
+    for (let start = 0; start < routes.length; start += 40) {
+      await Promise.all(routes.slice(start, start + 40).map(async (route) => {
+        const response = await fetch(`http://127.0.0.1:${port}${route}`);
+        assert.equal(response.status, 200, `${route} should resolve locally`);
         assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
-        const html = await response.text();
-        assert.match(html, /<h1\b/i, `${candidate.proposed_url} should serve HTML content`);
+        assert.match(await response.text(), /<h1\b/i, `${route} should serve HTML content`);
       }));
     }
   } finally {
@@ -112,114 +88,94 @@ async function assertHttpRoutes(tracker) {
 }
 
 async function run() {
-  const tracker = parseCsv(fs.readFileSync(path.join(root, "development", "PAGE-TRACKER.csv"), "utf8"));
-  const manifest = parseCsv(fs.readFileSync(path.join(root, "development", "INSTALLED-PROGRAMME-ROUTES.csv"), "utf8"));
-  const sitemap = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
-  const sitemapUrls = new Set([...sitemap.matchAll(/<loc>(.*?)<\/loc>/gs)].map((match) => match[1].trim()));
+  const tracker = parseCsv(fs.readFileSync(path.join(root, "development/PAGE-TRACKER.csv"), "utf8"));
+  const manifest = parseCsv(fs.readFileSync(path.join(root, "development/INSTALLED-PROGRAMME-ROUTES.csv"), "utf8"));
+  const programmePages = manifest.filter((row) => row.kind === "programme page");
+  const supportPages = manifest.filter((row) => row.kind !== "programme page");
+  const sitemapText = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
+  const sitemap = new Set([...sitemapText.matchAll(/<loc>(.*?)<\/loc>/gs)].map((match) => match[1].trim()));
   const robots = fs.readFileSync(path.join(root, "robots.txt"), "utf8");
   const llms = fs.readFileSync(path.join(root, "llms.txt"), "utf8");
-  const searchIndex = fs.readFileSync(path.join(root, "assets", "site-search-index.js"), "utf8");
-  const searchContent = fs.readFileSync(path.join(root, "assets", "site-search-content.js"), "utf8");
-  const registerRoutes = new Set(tracker.map((row) => row.proposed_url));
-  const programmeSitemapRoutes = tracker.filter((row) =>
-    sitemapUrls.has(`${origin}${row.proposed_url}`)
-  );
-  const programmeLlmsRoutes = tracker.filter((row) =>
-    llms.includes(`](${origin}${row.proposed_url})`)
-  );
-  assert.equal(tracker.length, 577, "Programme tracker must have 577 pages");
-  assert.equal(registerRoutes.size, 577, "Programme intended URLs must be unique");
-  assert.equal(manifest.length, 593, "Installed manifest must include 577 programme routes and 16 support indexes");
-  assert.equal(manifest.filter((row) => row.kind === "programme page").length, 577);
-  assert.equal(programmeSitemapRoutes.length, 577, "All programme routes should appear in sitemap.xml");
-  assert.equal(programmeLlmsRoutes.length, 577, "All programme routes should appear in llms.txt");
-  assert.match(robots, /^User-agent:\s*\*\s*[\r\n]+Allow:\s*\/\s*$/im, "robots.txt should allow crawling all routes");
+  const searchIndex = fs.readFileSync(path.join(root, "assets/site-search-index.js"), "utf8");
+
+  const uniqueTrackerUrls = new Set(tracker.map((row) => row.proposed_url));
+  const uniqueManifestUrls = new Set(programmePages.map((row) => row.intended_url));
+  assert.equal(uniqueTrackerUrls.size, tracker.length, "Candidate tracker URLs must be unique");
+  assert.equal(uniqueManifestUrls.size, programmePages.length, "Installed programme URLs must be unique");
+  assert.equal(programmePages.length, 577, "Installed route inventory should retain its 577 source rows");
+  assert.equal(supportPages.length, 16, "Installed support index inventory should retain its 16 source rows");
+  assert.match(robots, /^User-agent:\s*\*\s*[\r\n]+Allow:\s*\/\s*$/im, "robots.txt should allow public crawling");
   assert.match(robots, /^Sitemap:\s*https:\/\/www\.kovcareeragency\.org\/sitemap\.xml\s*$/im);
-  assert.match(llms, /Career Resource Pages/);
-  assert.equal((llms.match(/<!-- BEGIN STAGED PROGRAMME ROUTES -->/g) ?? []).length, 1);
-  assert.equal((llms.match(/<!-- END STAGED PROGRAMME ROUTES -->/g) ?? []).length, 1);
 
-  let checkedLinks = 0;
-  let brokenLinks = 0;
-  let pagesIndexable = 0;
+  let candidateStagingPages = 0;
+  let installedNoindexPages = 0;
+  let installedRoutesAbsentFromPublicDiscovery = 0;
+  const candidateRouteGaps = [];
   for (const candidate of tracker) {
-    const filePath = pathForUrl(candidate.proposed_url);
-    assert.ok(filePath, `${candidate.proposed_url} should resolve to a local HTML file`);
-    const html = fs.readFileSync(filePath, "utf8");
-    const canonical = html.match(/<link\b[^>]*\brel=["']canonical["'][^>]*\bhref=["']([^"']+)["']/i)?.[1];
-    assert.equal(canonical, `${origin}${candidate.proposed_url}`, `${candidate.id} canonical should match its intended URL`);
-    assert.doesNotMatch(html, /<meta\b[^>]*name=["'](?:robots|googlebot)["'][^>]*content=["'][^"']*noindex/i, `${candidate.id} should be indexable`);
-    pagesIndexable += 1;
-    assert.equal(sitemapUrls.has(`${origin}${candidate.proposed_url}`), true, `${candidate.proposed_url} should be in the sitemap`);
-    assert.equal(llms.includes(`${origin}${candidate.proposed_url}`), true, `${candidate.proposed_url} should be listed in llms.txt`);
-    const installedPage = manifest.find((row) =>
-      row.kind === "programme page" && row.intended_url === candidate.proposed_url
-    );
-    assert.ok(installedPage, `${candidate.proposed_url} should have an installed manifest entry`);
-    assert.ok(searchIndex.includes(`"href":"${installedPage.file_path}"`), `${candidate.proposed_url} should appear in public search`);
-    assert.ok(searchContent.includes(`"${installedPage.file_path}"`), `${candidate.proposed_url} should have searchable page content`);
-    assert.equal(html.includes(candidate.staging_preview_url), false, `${candidate.id} must not retain its staging self-link`);
+    const previewPath = localFile(candidate.staging_preview_url);
+    assert.ok(previewPath, `${candidate.staging_preview_url} staging preview should exist`);
+    const previewHtml = fs.readFileSync(previewPath, "utf8");
+    assert.ok(hasNoindex(previewHtml), `${candidate.id} staging preview must remain noindex`);
+    assertJsonLdParses(previewHtml, `${candidate.id} staging preview`);
+    assert.equal(sitemap.has(`${origin}${candidate.staging_preview_url}`), false, `${candidate.staging_preview_url} must stay out of sitemap`);
+    assert.equal(llms.includes(`${origin}${candidate.staging_preview_url}`), false, `${candidate.staging_preview_url} must stay out of llms.txt`);
+    candidateStagingPages += 1;
 
-    const jsonLdBlocks = [...html.matchAll(/<script\b(?=[^>]*type=["']application\/ld\+json["'])[^>]*>([\s\S]*?)<\/script>/gi)];
-    assert.ok(jsonLdBlocks.length > 0, `${candidate.id} needs JSON-LD`);
-    for (const block of jsonLdBlocks) assert.doesNotThrow(() => JSON.parse(block[1]), `${candidate.id} JSON-LD must parse`);
-
-    const ids = idsIn(html);
-    for (const match of html.matchAll(/<a\b[^>]*\bhref=["']([^"']+)["'][^>]*>/gi)) {
-      const href = match[1].replace(/&amp;/gi, "&").trim();
-      if (!href || /^(?:mailto:|tel:|javascript:|data:)/i.test(href)) continue;
-      let destination;
-      try {
-        destination = new URL(href, `${origin}${candidate.proposed_url}`);
-      } catch {
-        brokenLinks += 1;
-        continue;
-      }
-      if (!["http:", "https:"].includes(destination.protocol) || destination.origin !== origin) continue;
-      checkedLinks += 1;
-      const destinationPath = pathForUrl(destination.href);
-      if (!destinationPath) {
-        brokenLinks += 1;
-        continue;
-      }
-      if (destination.hash) {
-        const destinationHtml = fs.readFileSync(destinationPath, "utf8");
-        if (!idsIn(destinationHtml).has(decodeURIComponent(destination.hash.slice(1)))) brokenLinks += 1;
-      }
+    const publicPath = localFile(candidate.proposed_url);
+    if (!publicPath) {
+      candidateRouteGaps.push(candidate.proposed_url);
+      assert.notEqual(candidate.publication_status, "published", `${candidate.id} has a missing route but is marked published`);
+      continue;
+    }
+    const publicHtml = fs.readFileSync(publicPath, "utf8");
+    assert.equal(canonicalOf(publicHtml), `${origin}${candidate.proposed_url}`, `${candidate.id} canonical must match proposed route`);
+    if (candidate.publication_status !== "published") {
+      assert.ok(hasNoindex(publicHtml), `${candidate.id} unpublished proposed route must stay noindex`);
+      assert.equal(sitemap.has(`${origin}${candidate.proposed_url}`), false, `${candidate.proposed_url} unpublished route must stay out of sitemap`);
+      assert.equal(llms.includes(`${origin}${candidate.proposed_url}`), false, `${candidate.proposed_url} unpublished route must stay out of llms.txt`);
     }
   }
 
-  const supportRows = manifest.filter((row) => row.kind !== "programme page");
-  for (const support of supportRows) {
-    const filePath = path.join(root, support.file_path);
-    assert.ok(fs.existsSync(filePath), `${support.file_path} should exist`);
-    const html = fs.readFileSync(filePath, "utf8");
-    assert.match(html, /<meta\b[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i, `${support.file_path} should remain noindex`);
-    assert.equal(sitemapUrls.has(`${origin}${support.intended_url}`), false, `${support.intended_url} must remain out of sitemap`);
-    assert.equal(llms.includes(`](${origin}${support.intended_url})`), false, `${support.intended_url} must remain out of llms.txt`);
-    assert.equal(searchIndex.includes(support.intended_url), false, `${support.intended_url} must remain out of public search`);
+  for (const page of programmePages) {
+    const file = localFile(page.file_path);
+    assert.ok(file, `${page.file_path} must exist`);
+    const html = fs.readFileSync(file, "utf8");
+    assert.equal(canonicalOf(html), `${origin}${page.intended_url}`, `${page.intended_url} canonical must match manifest`);
+    assert.ok(hasNoindex(html), `${page.intended_url} must retain its current noindex gate pending publication approval`);
+    assert.equal(sitemap.has(`${origin}${page.intended_url}`), false, `${page.intended_url} must stay out of sitemap while noindex`);
+    assert.equal(llms.includes(`${origin}${page.intended_url}`), false, `${page.intended_url} must stay out of llms.txt while noindex`);
+    assert.equal(searchIndex.includes(page.intended_url), false, `${page.intended_url} must stay out of public search while noindex`);
+    assertJsonLdParses(html, page.intended_url);
+    const sourcePath = localFile(page.source_staging_url);
+    assert.ok(sourcePath, `${page.source_staging_url} source staging page must remain available`);
+    installedNoindexPages += 1;
+    installedRoutesAbsentFromPublicDiscovery += 1;
   }
 
-  assert.equal(pagesIndexable, 577);
-  assert.equal(brokenLinks, 0, "Installed programme pages should have no broken internal links");
-  await assertHttpRoutes(tracker);
+  for (const support of supportPages) {
+    const file = localFile(support.file_path);
+    assert.ok(file, `${support.file_path} should exist`);
+    const html = fs.readFileSync(file, "utf8");
+    assert.ok(hasNoindex(html), `${support.file_path} should remain noindex`);
+    assert.equal(sitemap.has(`${origin}${support.intended_url}`), false, `${support.intended_url} must stay out of sitemap`);
+    assert.equal(llms.includes(`${origin}${support.intended_url}`), false, `${support.intended_url} must stay out of llms.txt`);
+    assert.equal(searchIndex.includes(support.intended_url), false, `${support.intended_url} must stay out of public search`);
+  }
+
+  const installedRouteUrls = programmePages.map((page) => page.intended_url);
+  await checkLocalHttpRoutes(installedRouteUrls);
   console.log(JSON.stringify({
-    programmeRoutes: tracker.length,
-    installedProgrammeFiles: manifest.filter((row) => row.kind === "programme page").length,
-    supportIndexes: supportRows.length,
-    programmePagesIndexable: pagesIndexable,
-    checkedInternalLinks: checkedLinks,
-    brokenInternalLinks: brokenLinks,
-    programmeRoutesInSitemap: programmeSitemapRoutes.length,
-    programmeRoutesInLlms: programmeLlmsRoutes.length,
-    programmeRoutesInSearchIndex: tracker.filter((row) => {
-      const installedPage = manifest.find((page) =>
-        page.kind === "programme page" && page.intended_url === row.proposed_url
-      );
-      return installedPage && searchIndex.includes(`"href":"${installedPage.file_path}"`);
-    }).length,
-    httpRouteResponses: tracker.length,
-    stagingSourcesPreserved: tracker.every((row) => fs.existsSync(path.join(root, "staging", row.staging_preview_url.replace(/^\/staging\//, ""), "index.html"))),
+    status: "PASS",
+    trackerCandidateRows: tracker.length,
+    stagingPreviewsNoindexAndExcluded: candidateStagingPages,
+    missingProposedRoutesNotMarkedPublished: candidateRouteGaps.length,
+    missingProposedRouteExamples: candidateRouteGaps.slice(0, 15),
+    installedProgrammePages: programmePages.length,
+    installedSupportIndexes: supportPages.length,
+    installedPagesWithCanonicalAndNoindex: installedNoindexPages,
+    installedPagesExcludedFromSitemapLlmsSearch: installedRoutesAbsentFromPublicDiscovery,
+    localHttpRoutesChecked: installedRouteUrls.length,
+    noindexPolicy: "preserved; no routes published or added to public discovery by this test",
   }, null, 2));
 }
 

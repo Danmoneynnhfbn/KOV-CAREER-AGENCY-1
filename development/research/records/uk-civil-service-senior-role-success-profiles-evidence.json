@@ -1,0 +1,87 @@
+{
+  "id": "uk-civil-service-senior-role-success-profiles-evidence",
+  "page_title": "UK Civil Service Senior Role Success Profiles: Evidence Guide",
+  "proposed_url": "/career-resources/executive-career-guides/uk-civil-service-senior-role-success-profiles-evidence/",
+  "page_group": "executive_career_guides",
+  "blueprint_path": "development/blueprints/executive-career-guides/uk-civil-service-senior-role-success-profiles-evidence.md",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "provisional_uk_civil_service_career_evidence_guide_not_qualified",
+  "approval_status": "not_approved",
+  "record_status": "source_bounded_staging_draft_complete; SERP_demand_overlap_and_serviceability_pending",
+  "research_owner": "development",
+  "research_updated": "2026-11-05",
+  "primary_keywords": [
+    "UK Civil Service senior role Success Profiles evidence"
+  ],
+  "secondary_keywords": [
+    "Civil Service senior experience examples",
+    "Success Profiles senior role application"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was supplied for this candidate.",
+    "note": "Search terms are hypotheses only; no search volume, difficulty, or demand is asserted."
+  },
+  "search_intent": {
+    "primary_query": "UK Civil Service senior role Success Profiles evidence",
+    "secondary_queries": [
+      "Civil Service senior experience examples",
+      "Success Profiles senior role application"
+    ],
+    "intent": "Unmeasured candidate-information hypothesis: translate actual senior experience into evidence relevant to a UK Civil Service vacancy's stated Success Profile elements and assessment method.",
+    "evidence": [
+      "Official Success Profiles guidance states that profiles draw on five elements and that the elements vary by role.",
+      "Official experience guidance says experience is often needed for senior roles and may be assessed through an application form, CV or interview."
+    ]
+  },
+  "intended_audience": "Senior candidates applying to UK Civil Service roles that specify Success Profiles assessment.",
+  "geographic_relevance": "United Kingdom Civil Service recruitment guidance only. Do not generalize to private employers or other jurisdictions.",
+  "competitor_research": [
+    {
+      "name": "UK-localized search results and candidate-facing application guides",
+      "finding": "A current UK-localized SERP and direct competitor review has not been completed.",
+      "status": "SERP research pending"
+    }
+  ],
+  "commercial_relevance": "Potential candidate preparation resource only if a distinct user need, demand, overlap, and KOV serviceability are later established. Government guidance does not establish commercial value or KOV capability.",
+  "unique_content_purpose": "Help senior candidates map truthful, attributable experience to the stated requirements and assessment methods in a specific UK Civil Service vacancy without implying a universal selection process.",
+  "internal_link_opportunities": [
+    "/roles/senior-leader-career-strategy.html",
+    "/staging/career-resources/interview-guides/us-federal-executive-structured-interview-preparation/"
+  ],
+  "duplication_and_cannibalisation_assessment": "The existing senior-leader strategy page is jurisdiction-neutral. This draft is narrowly about UK Civil Service Success Profiles and senior-role experience evidence. Direct user demand and full page-overlap review remain open; keep provisional until a distinct need is demonstrated.",
+  "authoritative_sources": [
+    {
+      "source_id": "UKCS-SUCCESS-PROFILES-2026",
+      "source_type": "Official UK Civil Service recruitment guidance",
+      "title": "Success Profiles",
+      "publisher": "UK Cabinet Office / Civil Service",
+      "url_or_path": "https://www.gov.uk/government/publications/success-profiles",
+      "access_status": "Page fetched and reviewed 2026-11-05",
+      "research_use_and_limit": "Used for the five Success Profile elements, role-specific selection of elements, and instruction to consult the relevant vacancy. Does not specify how any individual vacancy will assess a candidate."
+    },
+    {
+      "source_id": "UKCS-SUCCESS-PROFILES-EXPERIENCE-2026",
+      "source_type": "Official UK Civil Service recruitment guidance",
+      "title": "Success Profiles: Experience",
+      "publisher": "UK Cabinet Office / Civil Service",
+      "url_or_path": "https://www.gov.uk/government/publications/success-profiles/success-profiles-experience",
+      "access_status": "Page fetched and reviewed 2026-11-05",
+      "research_use_and_limit": "Used for the official description of experience, its relevance to senior roles, examples of assessment methods, and vacancy-specific instruction. Does not guarantee that any specific assessment method will be used."
+    }
+  ],
+  "content_status": "Source-bounded UK Civil Service career evidence guide implemented in noindex staging. No outcome, scoring, or vacancy-specific claims are made.",
+  "remaining_gaps": [
+    "Direct UK-localized SERP and competitor research.",
+    "First-party demand evidence and full current-site overlap review.",
+    "KOV serviceability confirmation.",
+    "Recheck live Civil Service guidance before any publication decision."
+  ],
+  "release_controls": {
+    "robots": "noindex, nofollow",
+    "public_navigation": "excluded",
+    "public_search": "excluded",
+    "sitemap": "excluded",
+    "publication": "not approved"
+  }
+}

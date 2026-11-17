@@ -1,0 +1,78 @@
+{
+  "id": "uk-non-executive-director-board-opportunity-research",
+  "page_title": "Researching UK Non-Executive Director Board Opportunities",
+  "proposed_url": "/career-resources/board-non-executive-career/uk-non-executive-director-board-opportunity-research/",
+  "page_group": "board_non_executive_career",
+  "blueprint_path": "development/blueprints/board-non-executive-career/uk-non-executive-director-board-opportunity-research.md",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "provisional_uk_board_opportunity_research_guide_not_qualified",
+  "approval_status": "not_approved",
+  "record_status": "source_bounded_staging_draft_complete; SERP_demand_overlap_and_serviceability_pending",
+  "research_owner": "development",
+  "research_updated": "2026-11-06",
+  "primary_keywords": [
+    "UK non-executive director board opportunity research"
+  ],
+  "secondary_keywords": [
+    "UK board succession disclosure",
+    "researching non-executive director appointments"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was supplied for this candidate.",
+    "note": "Search terms are hypotheses only; no volume, difficulty, or demand is asserted."
+  },
+  "search_intent": {
+    "primary_query": "UK non-executive director board opportunity research",
+    "secondary_queries": [
+      "UK board succession disclosure",
+      "researching non-executive director appointments"
+    ],
+    "intent": "Unmeasured candidate-information hypothesis: use UK-listed-company governance disclosures to research board composition and understand appointment-process disclosures without inferring a live vacancy.",
+    "evidence": [
+      "The UK Corporate Governance Code 2024 discusses board skills and composition, nomination committee succession responsibilities, and open advertising and/or external search consultancy for chair and NED appointments."
+    ]
+  },
+  "intended_audience": "Experienced executives and directors researching UK non-executive director opportunities.",
+  "geographic_relevance": "United Kingdom governance context only; not a universal rule for all boards or jurisdictions.",
+  "competitor_research": [
+    {
+      "name": "UK-localized candidate-facing board appointment research guides",
+      "finding": "A current UK-localized SERP and direct competitor review was not completed.",
+      "status": "SERP research pending"
+    }
+  ],
+  "commercial_relevance": "Potential candidate research resource only if a distinct user need, demand, overlap and KOV serviceability are later established. The FRC Code does not establish KOV search mandates or commercial value.",
+  "unique_content_purpose": "Help candidates interpret publicly disclosed UK board composition, nomination and succession information while distinguishing governance disclosures from a live appointment opportunity.",
+  "internal_link_opportunities": [
+    "/staging/resources/board-cv-and-director-biography/",
+    "/staging/resources/non-executive-director-opportunity-due-diligence/",
+    "/roles/board-level-career-transition.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "The existing board-CV guide concerns candidate materials, and the NED due-diligence guide concerns evaluating a specific opportunity. This candidate focuses on using public governance disclosures to research composition and appointment processes; full page-level overlap remains pending.",
+  "authoritative_sources": [
+    {
+      "source_id": "FRC-UK-CODE-2024-2026",
+      "source_type": "Official UK corporate governance code",
+      "title": "UK Corporate Governance Code 2024",
+      "publisher": "Financial Reporting Council",
+      "url_or_path": "https://www.frc.org.uk/docs/6709/html/",
+      "access_status": "Page fetched and reviewed 2026-11-06",
+      "research_use_and_limit": "Used for board skills and composition (Principle K), nomination committee/succession (Provision 17), open advertising and/or search consultancy for chair and NED appointments (Provision 20), and board review/development (Provisions 21-22). UK governance guidance only; not a vacancy listing, legal advice, or a guarantee of appointment."
+    }
+  ],
+  "content_status": "Source-bounded UK NED opportunity research guide implemented in noindex staging. No live vacancy or appointment outcome is claimed.",
+  "remaining_gaps": [
+    "Direct UK-localized SERP and competitor research.",
+    "First-party demand evidence and full current-site overlap review.",
+    "KOV serviceability confirmation.",
+    "Recheck the current Code version and company-specific governance statements before any publication decision."
+  ],
+  "release_controls": {
+    "robots": "noindex, nofollow",
+    "public_navigation": "excluded",
+    "public_search": "excluded",
+    "sitemap": "excluded",
+    "publication": "not approved"
+  }
+}

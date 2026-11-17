@@ -1,0 +1,77 @@
+{
+  "id": "canada-executive-job-search-market-guide",
+  "page_title": "Canada Executive Job-Search Market Research Guide",
+  "proposed_url": "/career-resources/country-market-guides/canada-executive-job-search-market-guide/",
+  "page_group": "general_country_market_pages",
+  "blueprint_path": "development/blueprints/country-market-guides/canada-executive-job-search-market-guide.md",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "provisional_country_market_guide_not_qualified",
+  "approval_status": "not_approved",
+  "record_status": "source_bounded_staging_draft_complete; SERP_demand_overlap_and_serviceability_pending",
+  "research_owner": "development",
+  "research_updated": "2026-11-05",
+  "primary_keywords": [
+    "Canada executive job-search market research"
+  ],
+  "secondary_keywords": [
+    "Canadian executive labour market",
+    "Canada executive job prospects by region"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was supplied for this candidate.",
+    "note": "Search terms are hypotheses only; no volume, difficulty, or demand is asserted."
+  },
+  "search_intent": {
+    "primary_query": "Canada executive job-search market research",
+    "secondary_queries": [
+      "Canadian executive labour market",
+      "Canada executive job prospects by region"
+    ],
+    "intent": "Qualitative country-specific research hypothesis: find and interpret official Canadian occupation, location, sector, wage, and outlook information relevant to executive career planning. Search demand has not been measured.",
+    "evidence": [
+      "Government of Canada Job Bank describes occupation profiles, wage and outlook reports, sectoral profiles, and monthly market snapshots. This establishes tool availability, not executive-specific demand."
+    ]
+  },
+  "intended_audience": "Senior executives and candidates researching possible career opportunities in Canada.",
+  "geographic_relevance": "Canada only. Official Job Bank tool descriptions are cited; no province-specific or occupation-specific data result is claimed.",
+  "competitor_research": [
+    {
+      "name": "Canada-localized candidate-facing search results and direct market-guide competitors",
+      "finding": "A current Canada-localized search-results review and direct competitor comparison was not performed.",
+      "status": "SERP research pending"
+    }
+  ],
+  "commercial_relevance": "Potential country-specific candidate research resource only if a distinct user need, demand, overlap, and KOV serviceability are later established. Government data availability does not establish commercial value or KOV capability.",
+  "unique_content_purpose": "Help senior candidates use official Canadian Job Bank research tools while distinguishing occupational, geographic, sector, wage, and outlook signals from executive-specific hiring evidence.",
+  "internal_link_opportunities": [
+    "/resources/executive-job-search-in-your-market.html",
+    "/roles/senior-leader-career-strategy.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "The existing executive job-search resource is jurisdiction-neutral. This draft is localized to Canadian official labour-market tools and their interpretation. Overlap remains unresolved; a standalone route requires a demonstrated Canada-specific user need, first-party demand, and KOV serviceability.",
+  "authoritative_sources": [
+    {
+      "source_id": "JOBBANK-CA-LABOUR-MARKET-2026",
+      "source_type": "Official Canadian labour-market information resource",
+      "title": "Labour market information and trend analysis",
+      "publisher": "Government of Canada Job Bank",
+      "url_or_path": "https://www.jobbank.gc.ca/trend-analysis",
+      "access_status": "Page fetched and reviewed 2026-11-05; page details show modified 2026-09-24",
+      "research_use_and_limit": "Used for the types, geographic framing, and update descriptions of Job Bank's occupation profiles, wage and outlook reports, sectoral profiles, and monthly snapshots. Does not establish executive-specific demand, salary, vacancies, or individual prospects."
+    }
+  ],
+  "content_status": "Source-bounded Canada research guide implemented in noindex staging. No executive market statistics or hiring forecasts are asserted.",
+  "remaining_gaps": [
+    "Direct Canada-localized SERP and competitor research.",
+    "First-party demand evidence and full current-site overlap review.",
+    "KOV serviceability confirmation.",
+    "Recheck the live Job Bank tool coverage and source dates before publication."
+  ],
+  "release_controls": {
+    "robots": "noindex, nofollow",
+    "public_navigation": "excluded",
+    "public_search": "excluded",
+    "sitemap": "excluded",
+    "publication": "not approved"
+  }
+}

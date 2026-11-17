@@ -1,0 +1,122 @@
+{
+  "validator": "https://validator.schema.org/",
+  "validatorInterface": "POST /validate?output=json using the saved page JSON-LD; homepage uses a representative node subset because the full 7.6 MB graph exceeds validator document-size limit",
+  "checkedAt": "2026-11-17T11:19:55.890Z",
+  "results": [
+    {
+      "sample": "homepage",
+      "file": "index.html",
+      "homepageRepresentativeSubset": true,
+      "submittedBytes": 1326442,
+      "validatorHttpStatus": 405,
+      "outcome": "UNVERIFIED",
+      "error": "<!DOCTYPE html>\n<html lang=en>\n  <meta charset=utf-8>\n  <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 405 (Method Not Allowed)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margi"
+    },
+    {
+      "sample": "industry",
+      "file": "industries/finance-insurance/index.html",
+      "homepageRepresentativeSubset": false,
+      "submittedBytes": 62452,
+      "validatorHttpStatus": 405,
+      "outcome": "UNVERIFIED",
+      "error": "<!DOCTYPE html>\n<html lang=en>\n  <meta charset=utf-8>\n  <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 405 (Method Not Allowed)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margi"
+    },
+    {
+      "sample": "occupation",
+      "file": "roles/soc-occupation-41/index.html",
+      "homepageRepresentativeSubset": false,
+      "submittedBytes": 2923,
+      "validatorHttpStatus": 429,
+      "outcome": "UNVERIFIED",
+      "error": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n<html>\n<head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"initial-scale=1\"><title>https://validator.schema.org/validate?output=json</title></head>\n<body style=\"font-family: arial, sans-serif; background-color: #fff; color: #000; padding:20px; font-size:18px; overscroll-behavior:contain;\" onload=\"e=document.getElementById('captcha');if(e){e.focus();} if(solveSimpleChallenge) {solve"
+    },
+    {
+      "sample": "service",
+      "file": "services/executive-job-search-support.html",
+      "homepageRepresentativeSubset": false,
+      "submittedBytes": 6535,
+      "validatorHttpStatus": 429,
+      "outcome": "UNVERIFIED",
+      "error": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n<html>\n<head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"initial-scale=1\"><title>https://validator.schema.org/validate?output=json</title></head>\n<body style=\"font-family: arial, sans-serif; background-color: #fff; color: #000; padding:20px; font-size:18px; overscroll-behavior:contain;\" onload=\"e=document.getElementById('captcha');if(e){e.focus();} if(solveSimpleChallenge) {solve"
+    },
+    {
+      "sample": "role",
+      "file": "roles/ceo/finance-insurance.html",
+      "homepageRepresentativeSubset": false,
+      "submittedBytes": 92473,
+      "validatorHttpStatus": 405,
+      "outcome": "UNVERIFIED",
+      "error": "<!DOCTYPE html>\n<html lang=en>\n  <meta charset=utf-8>\n  <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 405 (Method Not Allowed)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margi"
+    }
+  ],
+  "alternativeIndependentValidation": {
+    "validator": "schema-org-validate@0.1.0",
+    "publisher": "a4csi (third-party, not affiliated with Schema.org)",
+    "source": "https://github.com/a4csi/schema-org-validate",
+    "license": "MIT",
+    "method": "Local JavaScript validator using its bundled Schema.org type and subclass maps; parsed the saved repository JSON-LD, traversed graph objects, removed JSON-LD control keys for vocabulary-property checking, and resolved local @id references when the target type was available.",
+    "limitation": "Not an official Schema.org validator. It uses the third-party package’s bundled vocabulary maps with a temporary adapter that unions official ranges for valid multi-typed nodes. The homepage result validates selected representative graph nodes because the full page contains 7.6 MB of structured data. JSON-LD @id references are resolved to in-page types, or treated as the general Thing type when an external/forward target is absent.",
+    "vocabularyAdapter": {
+      "multiTypeCombinations": 5,
+      "packageVersion": "0.1.0"
+    },
+    "checkedAt": "2026-11-17T15:29:42.404Z",
+    "results": [
+      {
+        "sample": "homepage",
+        "file": "index.html",
+        "sourceBlocks": 1,
+        "graphNodes": 9040,
+        "validatedNodes": 866,
+        "homepageRepresentativeSubset": true,
+        "errors": 0,
+        "firstErrors": [],
+        "outcome": "PASS"
+      },
+      {
+        "sample": "industry",
+        "file": "industries/finance-insurance/index.html",
+        "sourceBlocks": 1,
+        "graphNodes": 116,
+        "validatedNodes": 116,
+        "homepageRepresentativeSubset": false,
+        "errors": 0,
+        "firstErrors": [],
+        "outcome": "PASS"
+      },
+      {
+        "sample": "occupation",
+        "file": "roles/soc-occupation-41/index.html",
+        "sourceBlocks": 1,
+        "graphNodes": 6,
+        "validatedNodes": 6,
+        "homepageRepresentativeSubset": false,
+        "errors": 0,
+        "firstErrors": [],
+        "outcome": "PASS"
+      },
+      {
+        "sample": "service",
+        "file": "services/executive-job-search-support.html",
+        "sourceBlocks": 1,
+        "graphNodes": 14,
+        "validatedNodes": 14,
+        "homepageRepresentativeSubset": false,
+        "errors": 0,
+        "firstErrors": [],
+        "outcome": "PASS"
+      },
+      {
+        "sample": "role",
+        "file": "roles/ceo/finance-insurance.html",
+        "sourceBlocks": 1,
+        "graphNodes": 164,
+        "validatedNodes": 164,
+        "homepageRepresentativeSubset": false,
+        "errors": 0,
+        "firstErrors": [],
+        "outcome": "PASS"
+      }
+    ]
+  }
+}

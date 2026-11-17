@@ -1,0 +1,122 @@
+{
+  "id": "board-cv-and-director-biography",
+  "page_title": "Board CV and Director Biography: Presenting Governance-Relevant Experience",
+  "proposed_url": "/resources/board-cv-and-director-biography.html",
+  "staging_preview_url": "/staging/resources/board-cv-and-director-biography/",
+  "page_group": "board_non_executive_career",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "qualified_for_staging_development_only",
+  "approval_status": "approved_for_unpublished_staging_development_only",
+  "record_status": "candidate_specific_overlap_review_complete; jurisdictional_source_review_complete; direct_SERP_and_first_party_demand_unavailable",
+  "research_owner": "development",
+  "research_updated": "2026-11-05",
+  "primary_keywords": [
+    "board CV"
+  ],
+  "secondary_keywords": [
+    "board director biography",
+    "non-executive director profile",
+    "board résumé"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was supplied.",
+    "note": "Search terms are editorial hypotheses only. No volume, difficulty, demand, ranking, or conversion claim is made."
+  },
+  "search_intent": {
+    "primary_query": "board CV",
+    "secondary_queries": [
+      "board director biography",
+      "non-executive director profile",
+      "board résumé"
+    ],
+    "intent": "Informational, document-focused guidance on checking and presenting governance-relevant evidence for a board-facing profile. Query phrasing and regional terminology remain hypotheses.",
+    "evidence": [
+      "The approved website brief explicitly calls for board career development resources.",
+      "The existing board-transition and executive-resume pages discuss general positioning and document strategy but do not provide this guide's evidence-audit table.",
+      "A candidate-specific Google search could not be reviewed because the fetched page returned a JavaScript/consent shell; no SERP findings are claimed."
+    ]
+  },
+  "intended_audience": "Executives considering a first or subsequent board role who need to review and substantiate information for a board CV or director biography.",
+  "geographic_relevance": "General editorial guidance. Terminology, governance codes, disclosure rules, and appointment practices vary. The UK Corporate Governance Code is identified only as a UK-specific example.",
+  "competitor_research": [
+    {
+      "name": "Spencer Stuart Board and CEO Advisory",
+      "url": "https://www.spencerstuart.com/what-we-do/functional-roles/board-and-ceo",
+      "finding": "The page describes CEO and board search and advisory services. It is adjacent market context, not a candidate CV/biography guide or document-format standard.",
+      "status": "page fetched 2026-11-05"
+    },
+    {
+      "name": "Google search for board CV and director biography",
+      "url": "https://www.google.com/search?q=%22board+CV%22+%22director+biography%22+executive",
+      "finding": "The fetch returned a JavaScript/consent interstitial rather than visible results. No result titles, rankings, or intent pattern were recorded.",
+      "status": "unavailable; not used as SERP evidence"
+    }
+  ],
+  "commercial_relevance": "Supports the board-career and document-guidance areas named in the approved brief. It does not claim KOV makes board introductions, secures appointments, or provides legal or governance advice.",
+  "unique_content_purpose": "Offer a focused, non-prescriptive evidence-audit worksheet for board-facing career documents, including attribution, verification, confidentiality, audience, and jurisdiction checks.",
+  "internal_link_opportunities": [
+    "/roles/board-level-career-transition.html",
+    "/roles/senior-executive-resume-strategy.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "The existing board-level career transition page describes candidate positioning and service scope; the senior executive resume page describes general executive-document strategy. Neither contains the new page's board-document evidence map and claim-by-claim review. The new page stays limited to document review and links to those existing pages rather than duplicating their service copy.",
+  "demand_and_competition": {
+    "keyword_sources": [],
+    "competitor_pages": [
+      "https://www.spencerstuart.com/what-we-do/functional-roles/board-and-ceo"
+    ],
+    "evidence_and_date": [
+      "Spencer Stuart page fetched 2026-11-05; adjacent market context only.",
+      "Google fetch attempted 2026-11-05 but did not expose search results."
+    ]
+  },
+  "authoritative_sources": [
+    {
+      "source_id": "FRC-UK-CODE-2024-2026",
+      "source_type": "Official UK corporate governance code",
+      "title": "UK Corporate Governance Code 2024",
+      "publisher": "Financial Reporting Council",
+      "url_or_path": "https://www.frc.org.uk/docs/6709/html/",
+      "access_status": "Page fetched and reviewed 2026-11-05.",
+      "research_use_and_limit": "Used only to name its five governance sections: board leadership and company purpose; division of responsibilities; composition, succession and evaluation; audit, risk and internal control; remuneration. It does not prescribe a board CV or biography. Applicability is UK-specific and is not legal advice."
+    },
+    {
+      "source_id": "SPENCER-STUART-BOARD-CEO-2026",
+      "source_type": "Executive search and board advisory reference",
+      "title": "Board and CEO Advisory",
+      "publisher": "Spencer Stuart",
+      "url_or_path": "https://www.spencerstuart.com/what-we-do/functional-roles/board-and-ceo",
+      "access_status": "Page fetched and reviewed 2026-11-05.",
+      "research_use_and_limit": "Used as adjacent market context for board and CEO advisory/search services. It is not a document standard, legal source, or evidence of appointment outcomes."
+    },
+    {
+      "source_id": "KOV-BOARD-DOCUMENT-OVERLAP-2026",
+      "source_type": "Internal site content and overlap review",
+      "title": "Board transition and senior executive resume pages",
+      "publisher": "KOV Career Agency development review",
+      "url_or_path": "roles/board-level-career-transition.html; roles/senior-executive-resume-strategy.html",
+      "access_status": "Relevant page bodies reviewed 2026-11-05.",
+      "research_use_and_limit": "The board page covers transition positioning and engagement scope; the resume page covers general executive document strategy. Neither contains the proposed board-facing evidence-audit table. This establishes a content distinction, not external demand."
+    }
+  ],
+  "unique_value_and_overlap": {
+    "user_need": "Review and present governance-relevant experience accurately for a specified board CV or director biography request.",
+    "existing_page_overlap_review": "Existing pages address board-transition positioning and general executive resume strategy. The staging guide is differentiated by a document-specific evidence map, verification checklist, and jurisdiction caveats, without repeating service pitches or promising appointments.",
+    "canonical_or_consolidation_decision": "Candidate URL remains unpublished; use the local staging preview only. Reassess overlap and query evidence before any production-release decision."
+  },
+  "factual_gaps_and_risks": [
+    "No first-party query data, keyword volume, ranking, traffic, conversion, or appointment-outcome data is available.",
+    "The candidate-specific Google search returned an interstitial; actual SERP competitors and positions remain unknown.",
+    "The FRC Code does not prescribe board CV or biography conventions. The page deliberately offers prompts, not a universal format.",
+    "Governance, disclosure, and appointment practices vary by jurisdiction and organization; obtain qualified advice for legal or regulatory questions.",
+    "Keep all hypothetical examples labeled if any are added in a later revision; this version contains no invented client evidence."
+  ],
+  "blueprint_path": "development/blueprints/board-non-executive-career/board-cv-and-director-biography.md",
+  "content_status": "substantive_staging_page_complete",
+  "publication_status": "not_published",
+  "notes": [
+    "The unstyled HTML draft is under staging/resources/board-cv-and-director-biography/ and includes no stylesheet, public canonical, sitemap entry, or search-index entry.",
+    "Qualified for unpublished staging development only because the topic is explicitly in the approved brief and a specific content gap was verified. This is not a search-demand or publication decision.",
+    "The FRC source is used only for the named UK context; no rules are generalized to other jurisdictions."
+  ]
+}

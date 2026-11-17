@@ -1,0 +1,77 @@
+{
+  "id": "federal-executive-core-qualifications-career-evidence",
+  "page_title": "Federal Executive Core Qualifications: Career Evidence Guide",
+  "proposed_url": "/career-resources/leadership-skills-competencies/federal-executive-core-qualifications-career-evidence/",
+  "page_group": "leadership_skills_competencies",
+  "blueprint_path": "development/blueprints/leadership-skills-competencies/federal-executive-core-qualifications-career-evidence.md",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "provisional_leadership_competency_guide_not_qualified",
+  "approval_status": "not_approved",
+  "record_status": "source_bounded_staging_draft_complete; SERP_demand_overlap_and_serviceability_pending",
+  "research_owner": "development",
+  "research_updated": "2026-11-05",
+  "primary_keywords": [
+    "federal executive core qualifications career evidence"
+  ],
+  "secondary_keywords": [
+    "translate federal leadership experience to private sector",
+    "SES executive qualifications career guide"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was supplied for this candidate.",
+    "note": "Search terms are hypotheses only; no volume, difficulty, or demand is asserted."
+  },
+  "search_intent": {
+    "primary_query": "federal executive core qualifications career evidence",
+    "secondary_queries": [
+      "translate federal leadership experience to private sector",
+      "SES executive qualifications career guide"
+    ],
+    "intent": "Qualitative career-planning hypothesis: use U.S. federal SES qualification evidence to assess and explain relevant leadership experience for a specific external role. Search demand has not been measured.",
+    "evidence": [
+      "OPM identifies five ECQs for the SES and describes federal agency uses. The source establishes framework scope, not external search demand or private-sector equivalence."
+    ]
+  },
+  "intended_audience": "Senior U.S. public-sector executives considering another executive role and seeking to explain their leadership evidence.",
+  "geographic_relevance": "The cited framework is U.S. federal. The target employer may operate elsewhere, but no non-U.S. framework or market is described.",
+  "competitor_research": [
+    {
+      "name": "Candidate-facing search results and direct career-guide competitors",
+      "finding": "A current location-specific search-results review and direct candidate-guide competitor comparison was not performed.",
+      "status": "SERP research pending"
+    }
+  ],
+  "commercial_relevance": "Potential candidate-side career-navigation content only if a distinct user need, demand, overlap, and KOV serviceability are later established. OPM's framework does not establish commercial value or KOV capability.",
+  "unique_content_purpose": "Help senior public-sector executives map evidence against the current U.S. federal ECQ framework and translate relevant experience for a particular employer without presenting federal criteria as private-sector standards.",
+  "internal_link_opportunities": [
+    "/roles/senior-leader-career-strategy.html",
+    "/resources/executive-job-search-in-your-market.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "The two existing leadership-framework candidates discuss general leadership concepts, while the federal job-search ethics candidate addresses a separate ethics/search-planning task. This candidate focuses on mapping the U.S. federal ECQs to employer-specific career evidence. Full overlap and demand review remain pending; do not retain a separate route without evidence of a distinct candidate task.",
+  "authoritative_sources": [
+    {
+      "source_id": "OPM-EXECUTIVE-CORE-QUALIFICATIONS-2026",
+      "source_type": "Official U.S. federal executive qualification framework",
+      "title": "Executive Core Qualifications",
+      "publisher": "U.S. Office of Personnel Management",
+      "url_or_path": "https://www.opm.gov/policy-data-oversight/senior-executive-service/executive-core-qualifications/",
+      "access_status": "Page fetched and reviewed 2026-11-05; source identifies framework as updated 2025-10-01",
+      "research_use_and_limit": "Used for the five ECQ areas and OPM's stated U.S. federal SES and agency context. Does not establish private-sector equivalence, candidate eligibility, hiring outcomes, or search demand."
+    }
+  ],
+  "content_status": "Source-bounded competency evidence guide implemented in noindex staging. No equivalence, eligibility, legal, ethics, or hiring outcome claim is made.",
+  "remaining_gaps": [
+    "Direct location-specific SERP and competitor research.",
+    "First-party demand evidence and full current-site overlap review.",
+    "KOV serviceability confirmation.",
+    "Recheck the current OPM page before publication."
+  ],
+  "release_controls": {
+    "robots": "noindex, nofollow",
+    "public_navigation": "excluded",
+    "public_search": "excluded",
+    "sitemap": "excluded",
+    "publication": "not approved"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "eu-employment-rate-comparison-for-market-research",
+  "page_title": "Compare EU Employment Rates for Market Research",
+  "proposed_url": "/career-resources/comparison-educational/eu-employment-rate-comparison-for-market-research/",
+  "page_group": "comparison_educational",
+  "blueprint_path": "development/blueprints/comparison-educational/eu-employment-rate-comparison-for-market-research.md",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "provisional_educational_data_comparison_not_qualified",
+  "approval_status": "not_approved",
+  "record_status": "source_bounded_staging_draft_complete; SERP_demand_overlap_and_serviceability_pending",
+  "research_owner": "development",
+  "research_updated": "2026-11-06",
+  "primary_keywords": [
+    "compare EU employment rates for market research"
+  ],
+  "secondary_keywords": [
+    "Germany Netherlands employment rate comparison",
+    "Eurostat employment rate 2026 Q2"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was supplied for this candidate.",
+    "note": "Search terms are hypotheses only; no volume, difficulty, or demand is asserted."
+  },
+  "search_intent": {
+    "primary_query": "compare EU employment rates for market research",
+    "secondary_queries": [
+      "Germany Netherlands employment rate comparison",
+      "Eurostat employment rate 2026 Q2"
+    ],
+    "intent": "Unmeasured educational hypothesis: compare a small, same-period set of Eurostat employment-rate indicators and understand their denominator and limits.",
+    "evidence": [
+      "Eurostat provides the same quarterly LFSI_EMP_Q indicator for Germany, the Netherlands and EU-27 in 2026 Q2 and defines employment rate separately from labour-market slack."
+    ]
+  },
+  "intended_audience": "Senior candidates and researchers comparing broad EU labour-market context before conducting role-specific research.",
+  "geographic_relevance": "Germany, the Netherlands and EU-27 aggregate only; not a comparison of all European markets.",
+  "competitor_research": [
+    {
+      "name": "EU-localized search results and direct comparison-guide competitors",
+      "finding": "A current localized SERP and direct competitor review was not performed.",
+      "status": "SERP research pending"
+    }
+  ],
+  "commercial_relevance": "Potential educational research resource only if a distinct user need, demand, overlap and KOV serviceability are later established. Eurostat indicators do not establish commercial value or KOV capability.",
+  "unique_content_purpose": "Compare three same-definition, same-period employment-rate observations and explain why employment rates, labour-market slack and executive hiring evidence must not be conflated.",
+  "internal_link_opportunities": [
+    "/staging/career-resources/country-market-guides/germany-executive-job-search-market-guide/",
+    "/resources/executive-job-search-in-your-market.html",
+    "/roles/senior-leader-career-strategy.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "The Germany market guide is single-country focused; this page is an educational comparison of Germany, the Netherlands and the EU-27 aggregate with explicit denominator and indicator distinctions. Existing comparison-page and market-guide overlap remain to be reviewed.",
+  "authoritative_sources": [
+    {
+      "source_id": "EUROSTAT-LFSI-EMP-Q-NETHERLANDS-2026Q2",
+      "source_type": "Official EU quarterly labour statistics dataset",
+      "title": "Employment and labour force by sex and age — quarterly data (LFSI_EMP_Q)",
+      "publisher": "Eurostat",
+      "url_or_path": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfsi_emp_q?lang=en&freq=Q&indic_em=EMP_LFS&s_adj=SA&sex=T&age=Y20-64&unit=PC_POP&geo=NL&sinceTimePeriod=2026-Q2&untilTimePeriod=2026-Q2",
+      "access_status": "API response fetched 2026-11-06; dataset updated 2026-10-26",
+      "research_use_and_limit": "Used for Netherlands employment rate for ages 20 to 64 in 2026 Q2 (83.2%), seasonally adjusted and measured as percentage of total population. Not executive demand evidence."
+    },
+    {
+      "source_id": "EUROSTAT-LFSI-EMP-Q-GERMANY-2026Q2",
+      "source_type": "Official EU quarterly labour statistics dataset",
+      "title": "Employment and labour force by sex and age — quarterly data (LFSI_EMP_Q)",
+      "publisher": "Eurostat",
+      "url_or_path": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfsi_emp_q?lang=en&freq=Q&indic_em=EMP_LFS&s_adj=SA&sex=T&age=Y20-64&unit=PC_POP&geo=DE&sinceTimePeriod=2026-Q2&untilTimePeriod=2026-Q2",
+      "access_status": "API response fetched 2026-11-06; dataset updated 2026-10-26",
+      "research_use_and_limit": "Used for Germany employment rate for ages 20 to 64 in 2026 Q2 (81.5%), seasonally adjusted and measured as percentage of total population. Not executive demand evidence."
+    },
+    {
+      "source_id": "EUROSTAT-LFSI-EMP-Q-EU27-2026Q2",
+      "source_type": "Official EU quarterly labour statistics dataset",
+      "title": "Employment and labour force by sex and age — quarterly data (LFSI_EMP_Q)",
+      "publisher": "Eurostat",
+      "url_or_path": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfsi_emp_q?lang=en&freq=Q&indic_em=EMP_LFS&s_adj=SA&sex=T&age=Y20-64&unit=PC_POP&geo=EU27_2020&sinceTimePeriod=2026-Q2&untilTimePeriod=2026-Q2",
+      "access_status": "API response fetched 2026-11-06; dataset updated 2026-10-26",
+      "research_use_and_limit": "Used for EU-27 aggregate employment rate for ages 20 to 64 in 2026 Q2 (76.4%). Aggregate context only; not an individual member-state or executive-demand estimate."
+    },
+    {
+      "source_id": "EUROSTAT-EMPLOYMENT-RATE-GLOSSARY",
+      "source_type": "Official EU statistical glossary",
+      "title": "Employment rate",
+      "publisher": "Eurostat",
+      "url_or_path": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Employment_rate",
+      "access_status": "Page fetched and reviewed 2026-11-06",
+      "research_use_and_limit": "Used for the definition as employed persons relative to the comparable total population. Does not support role-specific demand claims."
+    },
+    {
+      "source_id": "EUROSTAT-LABOUR-SLACK-GLOSSARY",
+      "source_type": "Official EU statistical glossary",
+      "title": "Labour market slack",
+      "publisher": "Eurostat",
+      "url_or_path": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Labour_market_slack",
+      "access_status": "Page fetched and reviewed 2026-11-06",
+      "research_use_and_limit": "Used for the components and extended-labour-force denominator of slack, to distinguish it from employment rate. Not executive vacancy data."
+    }
+  ],
+  "content_status": "Source-bounded educational comparison implemented in noindex staging with three dated Eurostat values and explicit denominator limits.",
+  "remaining_gaps": [
+    "Direct localized SERP and competitor research.",
+    "First-party demand evidence and full current-site overlap review.",
+    "KOV serviceability confirmation.",
+    "Recheck dataset values, flags and metadata before publication."
+  ],
+  "release_controls": {
+    "robots": "noindex, nofollow",
+    "public_navigation": "excluded",
+    "public_search": "excluded",
+    "sitemap": "excluded",
+    "publication": "not approved"
+  }
+}

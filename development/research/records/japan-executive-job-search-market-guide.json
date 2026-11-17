@@ -1,0 +1,104 @@
+{
+  "id": "japan-executive-job-search-market-guide",
+  "page_title": "Japan Executive Job-Search Market Research Guide",
+  "proposed_url": "/career-resources/country-market-guides/japan-executive-job-search-market-guide/",
+  "page_group": "general_country_market_pages",
+  "blueprint_path": "development/blueprints/country-market-guides/japan-executive-job-search-market-guide.md",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "provisional_country_market_guide_not_qualified",
+  "approval_status": "not_approved",
+  "record_status": "source_bounded_staging_draft_complete; SERP_demand_overlap_and_serviceability_pending",
+  "research_owner": "development",
+  "research_updated": "2026-11-06",
+  "primary_keywords": [
+    "Japan executive job-search market research"
+  ],
+  "secondary_keywords": [
+    "Japan executive labour market",
+    "Japan labour-force statistics for senior job search"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was supplied for this candidate.",
+    "note": "Search terms are hypotheses only; no volume, difficulty, or demand is asserted."
+  },
+  "search_intent": {
+    "primary_query": "Japan executive job-search market research",
+    "secondary_queries": [
+      "Japan executive labour market",
+      "Japan labour-force statistics for senior job search"
+    ],
+    "intent": "Unmeasured country-specific research hypothesis: interpret Japan's official monthly and quarterly Labour Force Survey tables and statistical revisions without inferring executive-specific demand.",
+    "evidence": [
+      "The Statistics Bureau documents monthly Basic and quarterly Detailed Tabulations and issued notices on 2026 seasonal-adjustment and industrial-classification changes."
+    ]
+  },
+  "intended_audience": "Senior executives and candidates researching the Japanese employment market.",
+  "geographic_relevance": "Japan only. Uses Statistics Bureau of Japan and e-Stat materials.",
+  "competitor_research": [
+    {
+      "name": "Japan-localized candidate-facing search results and direct market-guide competitors",
+      "finding": "A current Japan-localized search-results review and direct competitor comparison was not performed.",
+      "status": "SERP research pending"
+    }
+  ],
+  "commercial_relevance": "Potential country-specific candidate research resource only if a distinct user need, demand, overlap and KOV serviceability are later established. Government statistics do not establish commercial value or KOV capability.",
+  "unique_content_purpose": "Help senior candidates distinguish Japan's monthly Basic and quarterly Detailed Labour Force Survey tabulations and account for seasonal-adjustment and classification changes when interpreting historical evidence.",
+  "internal_link_opportunities": [
+    "/resources/executive-job-search-in-your-market.html",
+    "/roles/senior-leader-career-strategy.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "The existing executive job-search resource is jurisdiction-neutral. This draft focuses on the Japanese Labour Force Survey's tabulation schedule, e-Stat historical-data access, 2026 seasonal-adjustment revision and occupation-related classification change. Existing Japan market coverage and full page-level overlap remain to be reviewed.",
+  "authoritative_sources": [
+    {
+      "source_id": "STAT-JP-LFS-OUTLINE-2026",
+      "source_type": "Official Japanese labour statistics methodology",
+      "title": "Outline of the Labour Force Survey",
+      "publisher": "Statistics Bureau of Japan",
+      "url_or_path": "https://www.stat.go.jp/english/data/roudou/outline.html",
+      "access_status": "Page fetched and reviewed 2026-11-06",
+      "research_use_and_limit": "Used for survey population and monthly Basic and quarterly Detailed Tabulations. Does not provide executive-specific demand."
+    },
+    {
+      "source_id": "STAT-JP-LFS-RESULTS-2026",
+      "source_type": "Official Japanese labour statistics data-access guidance",
+      "title": "Latest Monthly Results",
+      "publisher": "Statistics Bureau of Japan",
+      "url_or_path": "https://www.stat.go.jp/english/data/roudou/results/month/index.html",
+      "access_status": "Page fetched and reviewed 2026-11-06",
+      "research_use_and_limit": "Used for the access path to historical data and e-Stat and the notice about availability of historical Excel-format summary data. Does not support executive vacancy claims."
+    },
+    {
+      "source_id": "STAT-JP-LFS-SEASONAL-REVISION-2026",
+      "source_type": "Official Japanese statistical revision notice",
+      "title": "Revision of seasonal adjustment in 2026",
+      "publisher": "Statistics Bureau of Japan",
+      "url_or_path": "https://www.stat.go.jp/english/data/roudou/sa/index.html",
+      "access_status": "Page fetched and reviewed 2026-11-06",
+      "research_use_and_limit": "Used for the RegARIMA seasonal-adjustment revision effective with January 2026 results. Does not establish labour demand."
+    },
+    {
+      "source_id": "STAT-JP-LFS-CLASSIFICATION-2026",
+      "source_type": "Official Japanese labour statistics release notice",
+      "title": "Labour Force Survey",
+      "publisher": "Statistics Bureau of Japan",
+      "url_or_path": "https://www.stat.go.jp/english/data/roudou/index.html",
+      "access_status": "Page fetched and reviewed 2026-11-06",
+      "research_use_and_limit": "Used for the notice that occupation-related results adopted the 14th revision of the Japan Standard Industrial Classification from January 2026. Check actual tables for their classification metadata."
+    }
+  ],
+  "content_status": "Source-bounded Japan market research guide implemented in noindex staging. No current numerical statistics or executive-specific demand claims are included.",
+  "remaining_gaps": [
+    "Direct Japan-localized SERP and competitor research.",
+    "First-party demand evidence and full current-site overlap review.",
+    "KOV serviceability confirmation.",
+    "Recheck live e-Stat metadata, revision notices and classification before any publication decision."
+  ],
+  "release_controls": {
+    "robots": "noindex, nofollow",
+    "public_navigation": "excluded",
+    "public_search": "excluded",
+    "sitemap": "excluded",
+    "publication": "not approved"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": "singapore-executive-job-search-market-guide",
+  "page_title": "Singapore Executive Job-Search Market Research Guide",
+  "proposed_url": "/career-resources/country-market-guides/singapore-executive-job-search-market-guide/",
+  "page_group": "general_country_market_pages",
+  "blueprint_path": "development/blueprints/country-market-guides/singapore-executive-job-search-market-guide.md",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "provisional_country_market_guide_not_qualified",
+  "approval_status": "not_approved",
+  "record_status": "source_bounded_staging_draft_complete; SERP_demand_overlap_and_serviceability_pending",
+  "research_owner": "development",
+  "research_updated": "2026-11-06",
+  "primary_keywords": [
+    "Singapore executive job-search market research"
+  ],
+  "secondary_keywords": [
+    "Singapore executive labour market",
+    "Singapore resident workforce statistics"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was supplied for this candidate.",
+    "note": "Search terms are hypotheses only; no volume, difficulty, or demand is asserted."
+  },
+  "search_intent": {
+    "primary_query": "Singapore executive job-search market research",
+    "secondary_queries": [
+      "Singapore executive labour market",
+      "Singapore resident workforce statistics"
+    ],
+    "intent": "Unmeasured country-specific research hypothesis: distinguish Singapore MOM resident labour-force statistics from all-worker, vacancy and executive-specific evidence.",
+    "evidence": [
+      "MOM's annual Labour Force in Singapore report covers the resident labour force; its summary table defines residents as Singapore Citizens and Permanent Residents."
+    ]
+  },
+  "intended_audience": "Senior executives and candidates researching the Singapore employment market.",
+  "geographic_relevance": "Singapore only. Focuses on Ministry of Manpower resident labour-force datasets and their scope.",
+  "competitor_research": [
+    {
+      "name": "Singapore-localized candidate-facing search results and direct market-guide competitors",
+      "finding": "A current Singapore-localized search-results review and direct competitor comparison was not performed.",
+      "status": "SERP research pending"
+    }
+  ],
+  "commercial_relevance": "Potential country-specific candidate research resource only if a distinct user need, demand, overlap and KOV serviceability are later established. MOM labour-force data does not establish commercial value or KOV capability.",
+  "unique_content_purpose": "Help senior candidates distinguish Singapore's resident labour-force statistics from all-worker and executive hiring evidence, and understand the resident population and seasonal-adjustment notes.",
+  "internal_link_opportunities": [
+    "/resources/executive-job-search-in-your-market.html",
+    "/staging/career-resources/mobility/singapore-employment-pass-executives/",
+    "/roles/senior-leader-career-strategy.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "The existing Singapore Employment Pass mobility guide addresses work authorization, not interpretation of resident labour-force data. The existing executive job-search resource is jurisdiction-neutral. Full overlap and demand review remain pending; keep provisional until a distinct need is demonstrated.",
+  "authoritative_sources": [
+    {
+      "source_id": "MOM-SG-LABOUR-FORCE-2025",
+      "source_type": "Official Singapore labour statistics annual report",
+      "title": "Labour Force in Singapore 2025",
+      "publisher": "Singapore Ministry of Manpower",
+      "url_or_path": "https://stats.mom.gov.sg/Pages/Labour-Force-in-Singapore-2025.aspx",
+      "access_status": "Page fetched and reviewed 2026-11-06",
+      "research_use_and_limit": "Used for annual report scope and the available labour-force, employment, income, occupation, industry and mobility sections. Figures concern the resident labour force and do not establish executive-specific demand."
+    },
+    {
+      "source_id": "MOM-SG-LABOUR-SUMMARY-2026",
+      "source_type": "Official Singapore labour statistics summary table",
+      "title": "Summary Table: Labour Force",
+      "publisher": "Singapore Ministry of Manpower",
+      "url_or_path": "https://stats.mom.gov.sg/Pages/Labour-Force-Summary-Table.aspx",
+      "access_status": "Page fetched and reviewed 2026-11-06; page release date 2026-01-29",
+      "research_use_and_limit": "Used for mid-year basis and definition of residents as Singapore Citizens and Permanent Residents. Does not measure all workers or executive vacancies."
+    },
+    {
+      "source_id": "MOM-SG-UNEMPLOYMENT-SUMMARY-2026",
+      "source_type": "Official Singapore labour statistics summary table",
+      "title": "Unemployment Summary Table",
+      "publisher": "Singapore Ministry of Manpower",
+      "url_or_path": "https://stats.mom.gov.sg/Pages/Unemployment-Summary-Table.aspx",
+      "access_status": "Page fetched and reviewed 2026-11-06",
+      "research_use_and_limit": "Used for MOM notes on X-12 ARIMA seasonal adjustment, annual averages, preliminary values and resident coverage. Not executive-demand evidence."
+    }
+  ],
+  "content_status": "Source-bounded Singapore market research guide implemented in noindex staging. No numerical statistics or executive-specific demand claims are included.",
+  "remaining_gaps": [
+    "Direct Singapore-localized SERP and competitor research.",
+    "First-party demand evidence and full current-site overlap review.",
+    "KOV serviceability confirmation.",
+    "Recheck the current MOM publications and table definitions before any publication decision."
+  ],
+  "release_controls": {
+    "robots": "noindex, nofollow",
+    "public_navigation": "excluded",
+    "public_search": "excluded",
+    "sitemap": "excluded",
+    "publication": "not approved"
+  }
+}

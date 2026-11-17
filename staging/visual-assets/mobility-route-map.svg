@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Mobility route map</title>
+  <desc id="desc">Illustration of executive mobility planning between stakeholder context, route fit, and relocation decisions.</desc>
+  <rect width="640" height="360" rx="30" fill="#eef3f6"/>
+  <circle cx="120" cy="180" r="48" fill="#16314a"/>
+  <circle cx="320" cy="118" r="54" fill="#d46c3e"/>
+  <circle cx="520" cy="182" r="52" fill="#ad7d57"/>
+  <path d="M170 180H266" stroke="#15314a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M374 118H468" stroke="#15314a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M186 162L224 180L186 198" fill="none" stroke="#15314a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M454 134L468 118L454 102" fill="none" stroke="#15314a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M230 215C280 254 356 248 400 214" fill="none" stroke="#15314a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M218 219L230 215L218 205" fill="none" stroke="#15314a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M392 214L400 214L392 202" fill="none" stroke="#15314a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="63" y="315" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#15314a" font-weight="700">Context</text>
+  <text x="282" y="315" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#15314a" font-weight="700">Route fit</text>
+  <text x="477" y="315" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#15314a" font-weight="700">Move</text>
+</svg>

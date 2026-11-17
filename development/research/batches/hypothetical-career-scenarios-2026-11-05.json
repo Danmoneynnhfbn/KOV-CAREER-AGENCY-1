@@ -1,0 +1,36 @@
+{
+  "batch_id": "hypothetical-career-scenarios-2026-11-05",
+  "title": "Fictional career-planning scenarios",
+  "research_status": "editorial prototype; no external fact or client result is asserted",
+  "quality_assurance_status": "foundation browser tests passed 2026-11-05 for all twelve scenario routes and collection index; verified visible fiction disclosure, noindex, no stylesheet, mobile-width rendering, and public search/sitemap exclusion",
+  "publication_status": "unpublished_local_staging_only",
+  "seo_candidate_status": "not_qualified_and_not_counted_toward_577_page_programme",
+  "disclosure_requirement": "Every page and the collection landing page must state prominently that the scenarios are fictional and not based on a real KOV client, engagement, testimonial, placement, or outcome.",
+  "evidence_limits": [
+    "No client records, interviews, testimonials, consents, or verified outcomes were used.",
+    "No invented statistic, salary, credential, employer, named person, placement, or service result may be represented as real.",
+    "These discussion exercises are not case histories and do not demonstrate KOV services or results.",
+    "No keyword demand, SERP, ranking, or SEO qualification is claimed."
+  ],
+  "release_controls": [
+    "Keep every page noindex,nofollow and outside public sitemap, search index, and navigation.",
+    "Do not remove or obscure fiction disclosures.",
+    "For any future real-client story, require documented fact verification, explicit publication consent, and owner approval before drafting or release.",
+    "Retain only with separate review and explicit production approval."
+  ],
+  "blueprint": "development/blueprints/hypothetical-career-scenarios.md",
+  "scenarios": [
+    {"id":"banking-to-fintech-leadership","title":"A Banking Leader Considering a Fintech Operating Role","focus":"Clarify the role, partner boundaries, and which experience transfers."},
+    {"id":"energy-to-offshore-wind","title":"An Energy Operations Executive Exploring Offshore Wind","focus":"Map verified operations experience while identifying sector-specific gaps."},
+    {"id":"return-after-career-break","title":"A Senior Leader Planning a Return After Time Away","focus":"Assess current role fit, privacy choices, and refreshed evidence."},
+    {"id":"cross-border-relocation","title":"A Regional Executive Comparing Relocation Options","focus":"Separate career criteria from immigration, tax, employment, and relocation advice."},
+    {"id":"founder-to-enterprise-role","title":"A Founder Considering an Enterprise Leadership Role","focus":"Translate actual founder remit and assess shared governance expectations."},
+    {"id":"public-sector-to-private","title":"A Public-Sector Executive Considering Private-Sector Work","focus":"Translate responsibilities and resolve ethics, confidentiality, and compliance questions."},
+    {"id":"functional-leader-to-chro","title":"A People Leader Preparing for Broader Executive Scope","focus":"Assess enterprise scope, cross-functional evidence, and role-specific gaps."},
+    {"id":"technology-leader-to-board","title":"A Technology Executive Exploring Board Service","focus":"Clarify appointment type, written remit, and independent governance advice."},
+    {"id":"cfo-company-stage-choice","title":"A Finance Executive Comparing Organization Stages","focus":"Compare actual mandates, governance, resources, and operating contexts."},
+    {"id":"multiple-opportunities","title":"An Executive Organizing Several Active Opportunities","focus":"Track confirmed process facts, open questions, communications, and commitments."},
+    {"id":"first-enterprise-leadership-role","title":"A Newly Promoted Leader Clarifying a New Remit","focus":"Clarify decision rights, priorities, and stakeholder expectations."},
+    {"id":"after-reorganization","title":"An Executive Reassessing Options After a Reorganization","focus":"Separate confirmed information from assumptions and seek advice on rights."}
+  ]
+}

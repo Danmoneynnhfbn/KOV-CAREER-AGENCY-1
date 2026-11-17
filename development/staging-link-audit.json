@@ -1,0 +1,11 @@
+{
+  "totalPages": 577,
+  "validNewToNewLinks": 2309,
+  "validNewToExistingLinks": 3759,
+  "pagesWithIncomingLinks": 66,
+  "pagesWithOutgoingLinks": 577,
+  "orphanPages": 511,
+  "brokenLinks": 5225,
+  "breadcrumbValidation": 577,
+  "urlListFile": "C:/Users/USER/.copilot/session-state/72a47f4e-fd03-44f5-af5d-1ce11d14fff1/files/577-stage-urls.txt"
+}

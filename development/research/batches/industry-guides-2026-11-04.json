@@ -1,0 +1,321 @@
+{
+  "batch_id": "industry-guides-2026-11-04",
+  "report_title": "Industry-Specific Career Guide Research Batch",
+  "report_path": "INDUSTRY-GUIDES-RESEARCH-BATCH.md",
+  "screen_date": "2026-11-04",
+  "category": "industry_specific_career_guides",
+  "parent_hub": "/career-resources/",
+  "summary": "Three narrow, source-backed cross-industry transition or compliance topics cleared initial differentiation review; none is approved for publication.",
+  "programme_note": "Three source-screened, cross-industry candidate guides have individual records and blueprints; 42 of 45 quota slots remain unassigned. Generic sector overviews are held because existing industry hubs and role-industry pages already cover broad contexts.",
+  "quota_and_next_batch": "Target 45; 3 candidate URLs defined and individually researched; 42 remain unassigned rather than assumed. Next: complete occupation classification pages because 23 SOC group destinations are already linked from existing navigation, then revisit the remaining industry topics after full competitor/SERP and demand validation.",
+  "sources": [
+    {
+      "source_id": "EPA-LEAVING-FEDERAL-SERVICE",
+      "source_type": "Government ethics guidance",
+      "title": "Ethics Rules for Employees Leaving Federal Service",
+      "publisher": "U.S. Environmental Protection Agency",
+      "url_or_path": "https://www.epa.gov/foia/ethics-rules-employees-leaving-federal-service",
+      "access_status": "Verified by research screen 2026-11-04",
+      "research_use_and_limit": "Explains that seeking employment can include sending a resume, responding to an approach, or using a headhunter when the prospective employer is known, and describes EPA-specific recusal context. Do not generalize agency-specific procedures or give legal advice."
+    },
+    {
+      "source_id": "DOJ-LEAVING-GOVERNMENT",
+      "source_type": "Government ethics guidance",
+      "title": "Leaving Government",
+      "publisher": "U.S. Department of Justice",
+      "url_or_path": "https://www.justice.gov/jmd/leaving-government",
+      "access_status": "Verified by research screen 2026-11-04",
+      "research_use_and_limit": "States that former federal employees may face restrictions on post-government employment activities; direct users to their agency ethics office and applicable rules."
+    },
+    {
+      "source_id": "FED-SR2304",
+      "source_type": "Banking regulatory guidance",
+      "title": "SR 23-4: Interagency Guidance on Third-Party Relationships: Risk Management",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "url_or_path": "https://www.federalreserve.gov/supervisionreg/srletters/SR2304.htm",
+      "access_status": "Verified by research screen 2026-11-04",
+      "research_use_and_limit": "Applies to Federal Reserve-supervised banking organizations and discusses third-party relationship risk management, including some fintech arrangements. It says the guidance does not impose new requirements; avoid implying it applies to every fintech or jurisdiction."
+    },
+    {
+      "source_id": "HUNTER-BOND-BANK-FINTECH",
+      "source_type": "Recruitment competitor article",
+      "title": "Career Migration: From Banking to Fintech",
+      "publisher": "Hunter Bond",
+      "url_or_path": "https://www.hunterbond.com/resources/blog/career-migration-from-banking-to-fintech/",
+      "access_status": "Verified by research screen 2026-11-04",
+      "research_use_and_limit": "Directly addresses banking-to-fintech career transitions and discusses transferable skills and impact framing. Evidence that similar content exists, not independent proof of market demand or its statistics."
+    },
+    {
+      "source_id": "UTM-OFFSHORE-WIND-SKILLS",
+      "source_type": "Industry consultancy article",
+      "title": "How Offshore Wind Can Benefit from Transferable Skills in Oil and Gas",
+      "publisher": "UTM Consultants",
+      "url_or_path": "https://www.utmconsultants.com/how-the-offshore-wind-sector-can-benefit-from-transferable-skills-in-oil-and-gas/",
+      "access_status": "Verified by research screen 2026-11-04",
+      "research_use_and_limit": "Identifies offshore operations, HSE, and project management as possible transferable skill areas. Practitioner/editorial source, not independent labor-market demand evidence."
+    },
+    {
+      "source_id": "GWO-BST",
+      "source_type": "Industry training standard",
+      "title": "Basic Safety Training Standard",
+      "publisher": "Global Wind Organisation",
+      "url_or_path": "https://www.globalwindsafety.org/standards/basic-safety-training-standard",
+      "access_status": "Verified by research screen 2026-11-04",
+      "research_use_and_limit": "Describes training modules including first aid, working at height, manual handling, fire awareness, sea survival, and emergency evacuation/rescue. It does not show that every executive or wind-sector role needs the credential."
+    },
+    {
+      "source_id": "STREAM-MARINE-WIND-TRANSITION",
+      "source_type": "Training provider career-switch article",
+      "title": "Oil and Gas to Offshore Wind: How to Make the Career Switch",
+      "publisher": "Stream Marine Training",
+      "url_or_path": "https://streammarinetraining.com/oil-and-gas-to-offshore-wind-how-to-make-the-career-switch/",
+      "access_status": "Verified by research screen 2026-11-04",
+      "research_use_and_limit": "Directly covers oil-and-gas-to-offshore-wind career transition. Treat its credential and funding assertions as provider claims, not universal requirements."
+    },
+    {
+      "source_id": "KOV-INDUSTRY-RESEARCH",
+      "source_type": "Internal taxonomy and content-overlap research",
+      "title": "Global Jobs, Industries, and Recruiting Research",
+      "publisher": "KOV Career Agency",
+      "url_or_path": "KOV-GLOBAL-JOBS-INDUSTRIES-AND-RECRUITING-RESEARCH-2026-10-22.md",
+      "access_status": "Reviewed 2026-11-04",
+      "research_use_and_limit": "Distinguishes taxonomy, career guides, and services; specifically cautions that directory coverage does not prove KOV recruits or provides placement support in every role, industry, or market."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "federal-executive-private-sector-job-search-ethics",
+      "slug": "federal-executive-private-sector-job-search-ethics",
+      "title": "Federal Executives: Ethics Rules for a Private-Sector Job Search",
+      "candidate_status": "initially_qualified_pending_ethics_review",
+      "research_status": "initial_research_screen_complete; SERP_review_pending",
+      "primary_keywords": [
+        "federal executive private sector job search ethics"
+      ],
+      "secondary_keywords": [
+        "federal employee seeking employment recusal",
+        "senior federal employee post-government employment",
+        "government-to-contractor career transition"
+      ],
+      "search_intent": "Informational and risk-awareness; keyword phrasing is a hypothesis, not measured demand.",
+      "intended_audience": "Current or recently departed senior U.S. federal employees considering private employers, contractors, or consulting.",
+      "geographic_relevance": "United States federal ethics context; agency-specific and circumstance-specific rules must be verified.",
+      "commercial_relevance": "Potential candidate-side transition information adjacent to KOV career representation; does not establish that KOV advises on federal ethics or legal matters.",
+      "unique_content_purpose": "Help federal executives recognize when job-search contacts may trigger recusal considerations, plan the timing of conversations, and identify when to consult agency ethics counsel. It is not legal advice or a general government-career overview.",
+      "internal_link_opportunities": [
+        "/industries/public-sector-government/",
+        "/roles/board-level-career-transition.html",
+        "/services/executive-job-search-support.html"
+      ],
+      "overlap_assessment": "Overlaps the public-sector hub and government role pages. Keep standalone only if reviewed as a narrow, sourced job-search/recusal guide; otherwise merge into the public-sector hub. Do not add a broad duplicate government-career overview.",
+      "competitor_research": [
+        {
+          "name": "Official EPA ethics guidance",
+          "url": "https://www.epa.gov/foia/ethics-rules-employees-leaving-federal-service",
+          "finding": "Official agency guidance supports a practical source-led explanation, but is EPA-specific and is not a candidate-career competitor.",
+          "status": "page verified; direct career competitor and SERP review pending"
+        },
+        {
+          "name": "Candidate-career competitors",
+          "finding": "No direct candidate-career competitor page verified in this screen.",
+          "status": "SERP review pending"
+        }
+      ],
+      "source_ids": [
+        "EPA-LEAVING-FEDERAL-SERVICE",
+        "DOJ-LEAVING-GOVERNMENT",
+        "KOV-INDUSTRY-RESEARCH"
+      ],
+      "market_evidence": [
+        "EPA and DOJ official material establishes a jurisdiction-specific information need and directs employees to government ethics restrictions; it does not establish search demand.",
+        "No keyword volume, difficulty, traffic, or complete SERP data was obtained."
+      ],
+      "proposed_outline": [
+        "Scope and clear non-legal-advice boundary",
+        "What may count as seeking employment under cited federal guidance",
+        "Recusal and agency-specific process questions",
+        "Post-government restrictions and where to seek authoritative advice",
+        "Candidate-side job-search planning checklist",
+        "Sources, review date, and limits"
+      ],
+      "factual_gaps_and_risks": [
+        "Federal ethics restrictions vary by statute, agency, role, and facts; obtain legal/ethics review before drafting.",
+        "Do not generalize EPA processes to all agencies or provide individualized legal conclusions.",
+        "Direct career competitor pages, SERP positions, and measured query demand remain unknown.",
+        "KOV serviceability in public-sector transition cases is not independently verified."
+      ]
+    },
+    {
+      "id": "bank-executive-to-fintech-career-transition",
+      "slug": "bank-executive-to-fintech-career-transition",
+      "title": "From Banking Leadership to Fintech: Translating Your Experience",
+      "candidate_status": "initially_qualified_pending_review",
+      "research_status": "initial_research_screen_complete; competitor_SERP_followup_pending",
+      "primary_keywords": [
+        "bank executive to fintech career transition"
+      ],
+      "secondary_keywords": [
+        "banking leadership fintech jobs",
+        "bank executive fintech resume",
+        "fintech leadership career change"
+      ],
+      "search_intent": "Informational career-transition guidance; query phrasing is a hypothesis, not measured demand.",
+      "intended_audience": "Senior banking executives considering fintech companies or financial-technology partnership roles.",
+      "geographic_relevance": "Lead with U.S. banking context; clearly flag jurisdiction and employer-model variation.",
+      "commercial_relevance": "Potentially relevant to executive career positioning and transition support; no KOV fintech placement or sector coverage is asserted.",
+      "unique_content_purpose": "Help a bank leader assess and explain how experience in regulated banking, third-party risk, customer-facing arrangements, and governance maps to a fintech role without implying that fintech is unregulated.",
+      "internal_link_opportunities": [
+        "/industries/finance-insurance/",
+        "/industries/technology-media-telecom/",
+        "/roles/senior-leader-career-strategy.html",
+        "/services/executive-resume-strategy.html"
+      ],
+      "overlap_assessment": "Touches existing finance and technology industry hubs, which cover sectors broadly, not this specific cross-industry transition. Keep only if focused on transferable executive evidence and bank-fintech relationships; merge if it becomes generic fintech leadership advice.",
+      "competitor_research": [
+        {
+          "name": "Hunter Bond: Career Migration: From Banking to Fintech",
+          "url": "https://www.hunterbond.com/resources/blog/career-migration-from-banking-to-fintech/",
+          "finding": "Directly addresses banking-to-fintech transitions and recommends evidence such as quantified impact, adaptability, and transferable skills.",
+          "status": "direct page verified; full top-results SERP review pending"
+        }
+      ],
+      "source_ids": [
+        "FED-SR2304",
+        "HUNTER-BOND-BANK-FINTECH",
+        "KOV-INDUSTRY-RESEARCH"
+      ],
+      "market_evidence": [
+        "Federal Reserve SR 23-4 discusses third-party risk management for Fed-supervised banking organizations and says specific fintech arrangements should be understood; it also states the guidance does not create new requirements.",
+        "Hunter Bond publishes a directly relevant career-migration article, confirming topic overlap among external content; this is not proof of hiring demand or keyword volume.",
+        "No measured query volume, difficulty, traffic, or complete SERP data was obtained."
+      ],
+      "proposed_outline": [
+        "Define the target fintech employer and business model",
+        "Map bank-fintech relationship and risk experience to executive outcomes",
+        "Distinguish transferable leadership evidence from product or technology gaps",
+        "Questions about governance, controls, customers, and operating model",
+        "Resume and interview evidence checklist",
+        "Jurisdiction limits, sources, and review date"
+      ],
+      "factual_gaps_and_risks": [
+        "Regulatory rules vary by jurisdiction and business model; do not imply SR 23-4 applies to all fintech firms.",
+        "Competitor SERP coverage is incomplete and search volume is unavailable.",
+        "Do not reuse competitor statistics or describe KOV as a fintech recruiter without separate evidence.",
+        "The candidate must not imply that banking experience automatically qualifies for technology roles."
+      ]
+    },
+    {
+      "id": "oil-gas-to-offshore-wind-executive-transition",
+      "slug": "oil-gas-to-offshore-wind-executive-transition",
+      "title": "Oil and Gas to Offshore Wind: An Executive Career Transition Guide",
+      "candidate_status": "initially_qualified_pending_review",
+      "research_status": "initial_research_screen_complete; credential_and_SERP_followup_pending",
+      "primary_keywords": [
+        "oil and gas to offshore wind career transition"
+      ],
+      "secondary_keywords": [
+        "offshore wind jobs for oil and gas executives",
+        "transferable skills oil and gas offshore wind",
+        "offshore wind executive career"
+      ],
+      "search_intent": "Informational cross-industry transition planning; query phrasing is a hypothesis, not measured demand.",
+      "intended_audience": "Senior oil-and-gas operations, project, and HSE leaders exploring offshore wind.",
+      "geographic_relevance": "North Sea/UK and broader English-language markets; credentials and hiring practices require local verification.",
+      "commercial_relevance": "Potentially relevant to executive transition and positioning support; no KOV offshore-wind serviceability or placement capability is asserted.",
+      "unique_content_purpose": "Help experienced leaders separate transferable evidence such as offshore operations, HSE, and large-project management from wind-specific knowledge they may need to demonstrate.",
+      "internal_link_opportunities": [
+        "/industries/energy-mining-oil-gas/",
+        "/roles/senior-leader-career-strategy.html",
+        "/resources/executive-job-search-in-your-market.html"
+      ],
+      "overlap_assessment": "Touches the existing combined energy/mining/oil-and-gas industry hub. Keep standalone only as a transition guide comparing executive-level evidence with wind-specific gaps; merge if it expands into general renewable-energy careers or a sector overview.",
+      "competitor_research": [
+        {
+          "name": "UTM Consultants: transferable oil-and-gas skills for offshore wind",
+          "url": "https://www.utmconsultants.com/how-the-offshore-wind-sector-can-benefit-from-transferable-skills-in-oil-and-gas/",
+          "finding": "Discusses offshore operations, HSE, and project-management skill transfer; consultant editorial, not independent demand measurement.",
+          "status": "direct topic page verified; full SERP review pending"
+        },
+        {
+          "name": "Stream Marine Training: Oil and Gas to Offshore Wind",
+          "url": "https://streammarinetraining.com/oil-and-gas-to-offshore-wind-how-to-make-the-career-switch/",
+          "finding": "Direct career-switch guide; credential and funding claims are provider claims and require independent verification.",
+          "status": "direct topic page verified; full SERP review pending"
+        }
+      ],
+      "source_ids": [
+        "UTM-OFFSHORE-WIND-SKILLS",
+        "GWO-BST",
+        "STREAM-MARINE-WIND-TRANSITION",
+        "KOV-INDUSTRY-RESEARCH"
+      ],
+      "market_evidence": [
+        "UTM identifies skill areas that may transfer from oil and gas; it is practitioner content, not independent hiring-demand research.",
+        "GWO describes Basic Safety Training modules but does not establish that all executive or wind roles require that credential.",
+        "Two directly relevant external career-transition pages were verified; no query volume, ranking, or labor-demand estimate was obtained."
+      ],
+      "proposed_outline": [
+        "Define the target offshore-wind executive role and geography",
+        "Map transferable offshore, HSE, project, and governance outcomes",
+        "Separate transferable experience from wind-specific evidence gaps",
+        "Credential and training verification checklist by role and jurisdiction",
+        "CV, interview, and networking evidence prompts",
+        "Sources, scope limits, and review date"
+      ],
+      "factual_gaps_and_risks": [
+        "Credential requirements vary by role, employer, and geography; do not call a training standard a universal prerequisite.",
+        "Competitor SERP review and measurable demand are incomplete.",
+        "No KOV serviceability or placement coverage for offshore wind was verified.",
+        "Do not reproduce training-provider funding claims without an independent current source."
+      ]
+    }
+  ],
+  "rejected_merged_held": [
+    {
+      "topic": "Generic government executive career overview",
+      "disposition": "merge",
+      "reason": "The public-sector industry hub and existing government role pages already provide broad taxonomy and context; any standalone page must solve a narrower user problem.",
+      "overlap_or_evidence": "https://www.kovcareeragency.org/industries/public-sector-government/",
+      "source_ids": [
+        "KOV-INDUSTRY-RESEARCH"
+      ],
+      "next_action": "Keep only the federal ethics/recusal candidate if legal review confirms its narrow, practical differentiation."
+    },
+    {
+      "topic": "Generic fintech executive career guide",
+      "disposition": "merge",
+      "reason": "A broad fintech guide would duplicate the finance and technology industry hubs; the banking-to-fintech transition topic is narrower.",
+      "overlap_or_evidence": "https://www.kovcareeragency.org/industries/finance-insurance/; https://www.kovcareeragency.org/industries/technology-media-telecom/",
+      "source_ids": [
+        "KOV-INDUSTRY-RESEARCH"
+      ],
+      "next_action": "Do not create a second generic sector overview."
+    },
+    {
+      "topic": "Generic renewable-energy executive guide",
+      "disposition": "merge",
+      "reason": "The combined energy/mining/oil-and-gas hub already covers broad energy context; only a specific transition may warrant a separate page.",
+      "overlap_or_evidence": "https://www.kovcareeragency.org/industries/energy-mining-oil-gas/",
+      "source_ids": [
+        "KOV-INDUSTRY-RESEARCH"
+      ],
+      "next_action": "Keep the offshore-wind transition narrow or merge it into the energy hub."
+    },
+    {
+      "topic": "Aerospace/security-clearance executive transition",
+      "disposition": "hold",
+      "reason": "Relevant DCSA materials were not retrieved and the country, clearance eligibility, and candidate-career differentiation were not established.",
+      "overlap_or_evidence": "",
+      "source_ids": [],
+      "next_action": "Revisit only after authoritative source access and explicit jurisdiction scope."
+    },
+    {
+      "topic": "Medical-device quality-system leadership transition",
+      "disposition": "hold",
+      "reason": "FDA QMSR material was not verified in this screen; regulatory scope and a distinct executive-career need remain unsubstantiated.",
+      "overlap_or_evidence": "",
+      "source_ids": [],
+      "next_action": "Revisit only after current FDA sources and a content-gap review."
+    }
+  ]
+}

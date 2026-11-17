@@ -1,0 +1,77 @@
+{
+  "id": "us-federal-executive-pay-table-career-guide",
+  "page_title": "U.S. Federal Executive Pay Tables: Career Comparison Guide",
+  "proposed_url": "/career-resources/salary-compensation-guides/us-federal-executive-pay-table-career-guide/",
+  "page_group": "salary_compensation_guides",
+  "blueprint_path": "development/blueprints/salary-compensation-guides/us-federal-executive-pay-table-career-guide.md",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "provisional_salary_compensation_guide_not_qualified",
+  "approval_status": "not_approved",
+  "record_status": "source_bounded_staging_draft_complete; SERP_demand_overlap_and_serviceability_pending",
+  "research_owner": "development",
+  "research_updated": "2026-11-05",
+  "primary_keywords": [
+    "U.S. federal executive pay tables career comparison"
+  ],
+  "secondary_keywords": [
+    "OPM executive pay table",
+    "federal executive compensation comparison"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was supplied for this candidate.",
+    "note": "Search terms are hypotheses only; no volume, difficulty, or demand is asserted."
+  },
+  "search_intent": {
+    "primary_query": "U.S. federal executive pay tables career comparison",
+    "secondary_queries": [
+      "OPM executive pay table",
+      "federal executive compensation comparison"
+    ],
+    "intent": "Qualitative career-planning hypothesis: locate the relevant official federal pay-table reference and distinguish it from non-federal offer terms. Search demand has not been measured.",
+    "evidence": [
+      "OPM's 2026 index lists multiple Executive and Senior Level table files. The index establishes the existence of the tables, not which applies to a given individual or the value of a private-sector offer."
+    ]
+  },
+  "intended_audience": "Senior U.S. federal executives and candidates comparing a federal pay-table reference with a potential career move.",
+  "geographic_relevance": "U.S. federal pay-table context only. No other jurisdiction or private-sector market benchmark is represented.",
+  "competitor_research": [
+    {
+      "name": "Candidate-facing search results and direct compensation-guide competitors",
+      "finding": "A current location-specific search-results review and direct competitor comparison was not performed.",
+      "status": "SERP research pending"
+    }
+  ],
+  "commercial_relevance": "Potential candidate-side reference guide only if distinct user need, demand, overlap, and KOV serviceability are later established. OPM pay-table availability does not establish commercial value or KOV capability.",
+  "unique_content_purpose": "Help candidates navigate the current OPM executive pay-table index while avoiding unsupported salary figures, individual applicability conclusions, and public/private compensation equivalence claims.",
+  "internal_link_opportunities": [
+    "/resources/salary-offer-negotiation-guide.html",
+    "/roles/senior-leader-career-strategy.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "The existing salary-offer guide covers broad offer evaluation and negotiation. This draft is narrowly scoped to locating an OPM federal pay-table reference. Overlap remains unresolved; a separate route requires a distinct candidate task, first-party demand evidence, and KOV serviceability.",
+  "authoritative_sources": [
+    {
+      "source_id": "OPM-EXECUTIVE-PAY-TABLES-2026",
+      "source_type": "Official U.S. federal pay-table index",
+      "title": "2026 Executive & Senior Level Employee Pay Tables",
+      "publisher": "U.S. Office of Personnel Management",
+      "url_or_path": "https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2026/executive-senior-level/",
+      "access_status": "Page fetched and reviewed 2026-11-05",
+      "research_use_and_limit": "Used only to verify that the 2026 index lists multiple separate table files. Does not determine the applicable table for a particular role, provide private-sector market rates, or establish a person's compensation."
+    }
+  ],
+  "content_status": "Source-bounded pay-table navigation guide implemented in noindex staging. No salary values or market benchmarks are included.",
+  "remaining_gaps": [
+    "Direct location-specific SERP and competitor research.",
+    "First-party demand evidence and full current-site overlap review.",
+    "KOV serviceability confirmation.",
+    "Recheck the current OPM index and the specific table applicable to any cited position."
+  ],
+  "release_controls": {
+    "robots": "noindex, nofollow",
+    "public_navigation": "excluded",
+    "public_search": "excluded",
+    "sitemap": "excluded",
+    "publication": "not approved"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "executive-leadership-direction-alignment-commitment",
+  "page_title": "Executive Leadership Skills in Practice: Direction, Alignment and Commitment",
+  "proposed_url": "/resources/executive-leadership-direction-alignment-commitment.html",
+  "page_group": "leadership_skills_competencies",
+  "parent_hub": "/career-resources/",
+  "candidate_status": "qualified_for_development",
+  "approval_status": "approved_for_development",
+  "record_status": "framework_source_and_existing_page_review_complete; actual_SERP_and_first_party_demand_unavailable",
+  "research_owner": "development",
+  "research_updated": "2026-11-05",
+  "primary_keywords": [
+    "executive leadership skills"
+  ],
+  "secondary_keywords": [
+    "leadership direction alignment commitment",
+    "leadership development for executives"
+  ],
+  "keyword_metrics": {
+    "volume_status": "not_available",
+    "source": "No Search Console, Google Keyword Planner, or validated third-party keyword export was supplied for this candidate.",
+    "note": "Search terms are hypotheses only; no volume, difficulty, or demand is asserted."
+  },
+  "search_intent": {
+    "primary_query": "executive leadership skills",
+    "secondary_queries": [
+      "leadership direction alignment commitment",
+      "leadership development for executives"
+    ],
+    "intent": "Informational reflection guide using the Center for Creative Leadership's named DAC model; query terms are hypotheses only.",
+    "evidence": [
+      "The CCL source describes DAC as direction, alignment, and commitment and frames leadership as collective; no query demand is established."
+    ]
+  },
+  "intended_audience": "Senior functional leaders and executives seeking a structured way to reflect on shared direction, coordinated work, and collective commitment.",
+  "audience_and_geography": {
+    "audience": "Senior functional leaders and executives seeking a structured way to reflect on shared direction, coordinated work, and collective commitment.",
+    "geography": "English-language educational treatment; the framework should be attributed and not presented as a universal competency standard."
+  },
+  "geographic_relevance": "English-language educational treatment; the framework should be attributed and not presented as a universal competency standard.",
+  "competitor_research": [
+    {
+      "name": "Center for Creative Leadership DAC article",
+      "url": "https://www.ccl.org/articles/leading-effectively-articles/make-leadership-happen-with-dac-framework/",
+      "finding": "The source explains its named framework; it is a framework source and not an independent candidate-guide competitor or SERP result.",
+      "status": "source page verified; direct competitor and SERP review pending"
+    }
+  ],
+  "commercial_relevance": "Could provide a reading path from KOV role directories to a leadership-development concept; KOV leadership training or assessment services are not asserted.",
+  "unique_content_purpose": "Use CCL's attributed DAC model as one reflective lens for executive leadership practice, not as a universal checklist, KOV assessment, or promise of improved performance.",
+  "internal_link_opportunities": [
+    "/roles/senior-leader-career-strategy.html",
+    "/roles/career-coaching-founders-partners.html"
+  ],
+  "duplication_and_cannibalisation_assessment": "Existing role and role-industry pages discuss role-specific leadership scope. A distinct page is plausible only as an attributed framework explainer; current-body overlap, actual candidate SERPs, and audience demand remain unverified.",
+  "demand_and_competition": {
+    "keyword_sources": [],
+    "competitor_pages": [
+      "https://www.ccl.org/articles/leading-effectively-articles/make-leadership-happen-with-dac-framework/"
+    ],
+    "evidence_and_date": []
+  },
+  "authoritative_sources": [
+    {
+      "source_id": "CCL-DAC-FRAMEWORK-2026",
+      "source_type": "Leadership framework publisher",
+      "title": "Make Leadership Happen with the DAC Framework",
+      "publisher": "Center for Creative Leadership",
+      "url_or_path": "https://www.ccl.org/articles/leading-effectively-articles/make-leadership-happen-with-dac-framework/",
+      "access_status": "Page fetched 2026-11-05",
+      "research_use_and_limit": "Defines DAC as direction, alignment, and commitment and describes leadership as collective. Attribute the model; it is not a universal validated executive assessment or KOV-owned framework."
+    },
+    {
+      "source_id": "KOV-CAREER-GUIDE-OVERLAP-2026",
+      "source_type": "Internal site content and overlap inventory",
+      "title": "Existing career strategy, interview, salary, board, role, and market pages",
+      "publisher": "KOV Career Agency development review",
+      "url_or_path": "sitemap.xml; development/VISIBLE-OVERLAP-AUDIT.md; roles/senior-leader-career-strategy.html; services/interview-coaching-executives.html; resources/salary-offer-negotiation-guide.html; roles/board-level-career-transition.html; roles/senior-executive-resume-strategy.html; resources/executive-job-search-in-your-market.html",
+      "access_status": "Repository page inventory and identified sections reviewed 2026-11-05; complete body-by-body overlap validation remains pending",
+      "research_use_and_limit": "Identifies relevant existing canonical pages and likely overlap. It is not evidence of query demand, competitor SERPs, or that a short page excerpt captures every current-page topic."
+    }
+  ],
+  "unique_value_and_overlap": {
+    "user_need": "Use CCL's attributed DAC model as one reflective lens for executive leadership practice, not as a universal checklist, KOV assessment, or promise of improved performance.",
+    "existing_page_overlap_review": "Existing role and role-industry pages discuss role-specific leadership scope. A distinct page is plausible only as an attributed framework explainer; current-body overlap, actual candidate SERPs, and audience demand remain unverified.",
+    "canonical_or_consolidation_decision": "Candidate URL only; recheck current sitemap and page text before implementation."
+  },
+  "factual_gaps_and_risks": [
+    "Attribute the DAC model and do not claim universal validation or KOV ownership.",
+    "Review existing role page copy and actual SERPs before assigning a canonical URL.",
+    "No query volume, first-party search data, or conversion evidence was available."
+  ],
+  "blueprint_path": "development/blueprints/leadership-skills-competencies/executive-leadership-direction-alignment-commitment.md",
+  "content_status": "staging_content_complete",
+  "publication_status": "not_published",
+  "notes": [
+    "Substantive staging HTML is present at staging/resources/executive-leadership-direction-alignment-commitment/index.html and passed foundation browser and site-coverage QA.",
+    "Attribute the DAC model to the Center for Creative Leadership. Actual SERP and first-party demand evidence remain unavailable; no demand or outcome claims are made. Keep excluded from public navigation, sitemap, and search."
+  ]
+}

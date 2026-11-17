@@ -1,0 +1,164 @@
+{
+  "batch_id": "remaining-career-guides-2026-11-05",
+  "report_title": "Career Guide, Leadership, Board, and Category-Disposition Research",
+  "report_path": "REMAINING-CAREER-GUIDES-RESEARCH-BATCH.md",
+  "screen_date": "2026-11-05",
+  "category": "leadership_skills_competencies",
+  "parent_hub": "/career-resources/",
+  "summary": "Both narrow board/NED candidates are qualified for unpublished staging development after source and overlap review; actual SERP and first-party demand evidence remain unavailable. Broad executive, interview, salary, comparison, and general market-report ideas remain merged or held against current pages. No search-volume claim is made.",
+  "programme_notes": {
+    "leadership_skills_competencies": "One framework-specific leadership candidate has an individual record and blueprint; it remains provisional pending page-overlap and SERP research. Twenty-four quota slots remain unassigned.",
+    "board_non_executive_career": "Two narrowly scoped board/NED candidates have individual records, blueprints, and substantive unstyled noindex staging HTML; both are qualified for unpublished staging development after source and overlap review. Actual SERP and first-party demand evidence remain unavailable. Ten quota slots have no candidate URL."
+  },
+  "quota_and_next_batch": "The executive career, interview, salary/compensation, executive market-report, comparison, and country-market categories do not gain standalone URLs from this screen: current pages cover the broad intents or evidence is insufficient. Three candidates are recorded for a distinct leadership framework and two board/NED tasks. The 33 macro-only country screens remain held in MARKET-RESEARCH-SCREEN.csv, not URL candidates. Both board/NED candidates now have unstyled noindex staging pages and remain unpublished. Keep all routes outside public search/sitemap.",
+  "sources": [
+    {
+      "source_id": "CCL-DAC-FRAMEWORK-2026",
+      "source_type": "Leadership framework publisher",
+      "title": "Make Leadership Happen with the DAC Framework",
+      "publisher": "Center for Creative Leadership",
+      "url_or_path": "https://www.ccl.org/articles/leading-effectively-articles/make-leadership-happen-with-dac-framework/",
+      "access_status": "Page fetched 2026-11-05",
+      "research_use_and_limit": "Defines DAC as direction, alignment, and commitment and describes leadership as collective. Attribute the model; it is not a universal validated executive assessment or KOV-owned framework."
+    },
+    {
+      "source_id": "FRC-UK-CODE-2024-2026",
+      "source_type": "Official UK corporate governance code",
+      "title": "UK Corporate Governance Code 2024",
+      "publisher": "Financial Reporting Council",
+      "url_or_path": "https://www.frc.org.uk/docs/6709/html/",
+      "access_status": "Page fetched 2026-11-05",
+      "research_use_and_limit": "Covers UK governance matters including board leadership, responsibilities, composition/succession, audit/risk, and remuneration. It does not prescribe a board-CV format; applicability is UK-specific and it is not legal advice."
+    },
+    {
+      "source_id": "SPENCER-STUART-BOARD-CEO-2026",
+      "source_type": "Executive search and board advisory reference",
+      "title": "Board and CEO Advisory",
+      "publisher": "Spencer Stuart",
+      "url_or_path": "https://www.spencerstuart.com/what-we-do/functional-roles/board-and-ceo",
+      "access_status": "Page fetched 2026-11-05",
+      "research_use_and_limit": "Describes board search and advisory services and candidate readiness context. It is an adjacent market reference, not a candidate CV standard, legal source, or search-result ranking."
+    },
+    {
+      "source_id": "KOV-CAREER-GUIDE-OVERLAP-2026",
+      "source_type": "Internal site content and overlap inventory",
+      "title": "Existing career strategy, interview, salary, board, role, and market pages",
+      "publisher": "KOV Career Agency development review",
+      "url_or_path": "sitemap.xml; development/VISIBLE-OVERLAP-AUDIT.md; roles/senior-leader-career-strategy.html; services/interview-coaching-executives.html; resources/salary-offer-negotiation-guide.html; roles/board-level-career-transition.html; roles/senior-executive-resume-strategy.html; resources/executive-job-search-in-your-market.html",
+      "access_status": "Repository page inventory and identified sections reviewed 2026-11-05; complete body-by-body overlap validation remains pending",
+      "research_use_and_limit": "Identifies relevant existing canonical pages and likely overlap. It is not evidence of query demand, competitor SERPs, or that a short page excerpt captures every current-page topic."
+    },
+    {
+      "source_id": "CIPD-REWARD-FACTSHEET-2026",
+      "source_type": "Professional body reward guidance",
+      "title": "Reward: An Introduction",
+      "publisher": "Chartered Institute of Personnel and Development",
+      "url_or_path": "https://www.cipd.org/en/knowledge/factsheets/reward-factsheet/",
+      "access_status": "Referenced in the bounded research screen; page revalidation pending",
+      "research_use_and_limit": "Potential UK-oriented explanation of reward components; not executive salary benchmarking, individual financial advice, or a source for all jurisdictions."
+    },
+    {
+      "source_id": "OPM-STRUCTURED-INTERVIEWS-2026",
+      "source_type": "Official U.S. public-sector selection guidance",
+      "title": "Structured Interviews",
+      "publisher": "U.S. Office of Personnel Management",
+      "url_or_path": "https://www.opm.gov/policy-data-oversight/assessment-and-selection/structured-interviews/",
+      "access_status": "Referenced in the bounded research screen; page revalidation pending",
+      "research_use_and_limit": "Describes U.S. public-sector structured-interview practice; it does not establish that all executive interviews use this method."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "executive-leadership-direction-alignment-commitment",
+      "category": "leadership_skills_competencies",
+      "title": "Executive Leadership Skills in Practice: Direction, Alignment and Commitment",
+      "proposed_url": "/resources/executive-leadership-direction-alignment-commitment.html",
+      "parent_hub": "/career-resources/",
+      "candidate_status": "provisional_research_candidate_not_qualified",
+      "research_status": "individual_framework_screen_complete; SERP_and_existing_page_review_pending",
+      "source_ids": ["CCL-DAC-FRAMEWORK-2026", "KOV-CAREER-GUIDE-OVERLAP-2026"],
+      "primary_keywords": ["executive leadership skills"],
+      "secondary_keywords": ["leadership direction alignment commitment", "leadership development for executives"],
+      "search_intent": "Informational reflection guide using the Center for Creative Leadership's named DAC model; query terms are hypotheses only.",
+      "intent_evidence": ["The CCL source describes DAC as direction, alignment, and commitment and frames leadership as collective; no query demand is established."],
+      "intended_audience": "Senior functional leaders and executives seeking a structured way to reflect on shared direction, coordinated work, and collective commitment.",
+      "geographic_relevance": "English-language educational treatment; the framework should be attributed and not presented as a universal competency standard.",
+      "competitor_research": [
+        {"name":"Center for Creative Leadership DAC article","url":"https://www.ccl.org/articles/leading-effectively-articles/make-leadership-happen-with-dac-framework/","finding":"The source explains its named framework; it is a framework source and not an independent candidate-guide competitor or SERP result.","status":"source page verified; direct competitor and SERP review pending"}
+      ],
+      "commercial_relevance": "Could provide a reading path from KOV role directories to a leadership-development concept; KOV leadership training or assessment services are not asserted.",
+      "unique_content_purpose": "Use CCL's attributed DAC model as one reflective lens for executive leadership practice, not as a universal checklist, KOV assessment, or promise of improved performance.",
+      "internal_link_opportunities": ["/roles/senior-leader-career-strategy.html", "/roles/career-coaching-founders-partners.html"],
+      "overlap_assessment": "Existing role and role-industry pages discuss role-specific leadership scope. A distinct page is plausible only as an attributed framework explainer; current-body overlap, actual candidate SERPs, and audience demand remain unverified.",
+      "factual_gaps_and_risks": ["Attribute the DAC model and do not claim universal validation or KOV ownership.","Review existing role page copy and actual SERPs before assigning a canonical URL.","No query volume, first-party search data, or conversion evidence was available."],
+      "proposed_outline": ["Define DAC and attribute the source.","Explain direction, alignment, and commitment as collective outcomes.","Offer reflection prompts, not a diagnostic or universal scorecard.","Link to relevant KOV strategy and role pages."]
+    },
+    {
+      "id": "board-cv-and-director-biography",
+      "category": "board_non_executive_career",
+      "title": "Board CV and Director Biography: Presenting Governance-Relevant Experience",
+      "proposed_url": "/resources/board-cv-and-director-biography.html",
+      "parent_hub": "/career-resources/",
+      "candidate_status": "qualified_for_staging_development_only",
+      "research_status": "candidate_specific_overlap_review_complete; jurisdictional_source_review_complete; direct_SERP_and_first_party_demand_unavailable",
+      "source_ids": ["FRC-UK-CODE-2024-2026", "SPENCER-STUART-BOARD-CEO-2026", "KOV-BOARD-DOCUMENT-OVERLAP-2026"],
+      "primary_keywords": ["board CV"],
+      "secondary_keywords": ["board director biography", "non-executive director profile", "board résumé"],
+      "search_intent": "Document-focused informational guidance for executives presenting governance-relevant experience; query phrasing and regional terminology remain unvalidated.",
+      "intent_evidence": ["The approved brief explicitly includes board-career development.","The existing board-transition and executive-resume pages discuss general positioning and document strategy but do not provide this guide's evidence-audit table.","A candidate-specific Google search fetch returned a JavaScript/consent shell; no SERP findings are claimed."],
+      "intended_audience": "Executives considering a first or subsequent board role and seeking to select relevant evidence for a board CV or director biography.",
+      "geographic_relevance": "Terminology varies by jurisdiction. The FRC Code is UK-specific and must be labeled as a UK governance reference, not a universal document standard.",
+      "competitor_research": [
+        {"name":"Spencer Stuart Board and CEO Advisory","url":"https://www.spencerstuart.com/what-we-do/functional-roles/board-and-ceo","finding":"Describes board search/advisory services and director readiness; adjacent candidate-market context, not a board-CV format guide.","status":"page verified; direct candidate-guide competitor and SERP review pending"}
+      ],
+      "commercial_relevance": "Could connect existing board-transition and executive résumé content to a distinct document task. No board introductions, appointments, or placement services are promised.",
+      "unique_content_purpose": "Explain how to select and substantiate governance-relevant experience for a board CV or director biography without claiming a universal format or that particular wording secures appointments.",
+      "internal_link_opportunities": ["/roles/board-level-career-transition.html", "/roles/senior-executive-resume-strategy.html"],
+      "overlap_assessment": "The board-transition page covers candidate positioning and engagement scope; the senior executive resume page covers general document strategy. Neither contains the proposed board-document evidence map and claim-by-claim verification worksheet. The staging guide stays document-focused and links to those existing pages.",
+      "factual_gaps_and_risks": ["No first-party query data, keyword volume, ranking, traffic, conversion, or appointment-outcome data is available.","The candidate-specific Google search returned an interstitial; actual SERP competitors and positions remain unknown.","The FRC Code does not prescribe board CV or biography conventions. The page deliberately offers prompts, not a universal format.","Governance, disclosure, and appointment practices vary by jurisdiction and organization; obtain qualified advice for legal or regulatory questions."],
+      "proposed_outline": ["Define the recipient, purpose, requested document, and jurisdiction.","Use an evidence map for governance/oversight, strategy, risk and control, stakeholders, and results.","Offer a non-prescriptive organization sequence and a separate short-biography check.","Add a claim-by-claim verification and confidentiality checklist.","Cite the FRC Code only for named UK governance context and state that it does not prescribe CV/biography format."]
+    },
+    {
+      "id": "non-executive-director-opportunity-due-diligence",
+      "category": "board_non_executive_career",
+      "title": "Assessing a Non-Executive Director Opportunity: Governance Questions Before You Commit",
+      "proposed_url": "/resources/non-executive-director-opportunity-due-diligence.html",
+      "parent_hub": "/career-resources/",
+      "candidate_status": "provisional_research_candidate_not_qualified",
+      "research_status": "individual_topic_screen_complete; jurisdiction_and_content_overlap_review_pending",
+      "source_ids": ["FRC-UK-CODE-2024-2026", "SPENCER-STUART-BOARD-CEO-2026", "KOV-CAREER-GUIDE-OVERLAP-2026"],
+      "primary_keywords": ["non-executive director role due diligence"],
+      "secondary_keywords": ["NED role questions", "board appointment evaluation"],
+      "search_intent": "Informational decision support for evaluating a specific board/NED opportunity; keyword demand and local terminology are unmeasured.",
+      "intent_evidence": ["The FRC Code identifies UK governance topics that may inform questions about a specific board context; it does not supply universal legal or appointment rules."],
+      "intended_audience": "Executives considering a non-executive director appointment and seeking questions to clarify the remit and governance context before deciding.",
+      "geographic_relevance": "Use the UK Corporate Governance Code only as a clearly labeled UK example; board law, governance codes, duties, and terminology vary by jurisdiction.",
+      "competitor_research": [
+        {"name":"Spencer Stuart Board and CEO Advisory","url":"https://www.spencerstuart.com/what-we-do/functional-roles/board-and-ceo","finding":"Describes board advisory and director recruitment services; adjacent market context, not a candidate opportunity due-diligence checklist.","status":"page verified; direct candidate-guide competitor and SERP review pending"}
+      ],
+      "commercial_relevance": "Could connect existing board-transition information to a distinct candidate decision task. KOV board placement, legal advice, and appointment outcomes are not asserted.",
+      "unique_content_purpose": "Offer a jurisdiction-labeled question framework for assessing the remit and governance context of one potential NED appointment, without making legal, fiduciary, compensation, or time-commitment claims.",
+      "internal_link_opportunities": ["/roles/board-level-career-transition.html", "/resources/salary-offer-negotiation-guide.html"],
+      "overlap_assessment": "Board/NED role roots and the existing board-transition page cover role families and career direction. Differentiate only around assessing a specific opportunity; inspect full page bodies and local SERPs before retaining a separate URL.",
+      "factual_gaps_and_risks": ["The FRC Code is UK-specific; establish applicability before describing any board or director obligation.","Do not state legal, fiduciary, compensation, or time-commitment rules without jurisdiction-specific authoritative sources.","Review full board-transition and role-directory copy for overlap.","No query-volume or actual SERP evidence is available."],
+      "proposed_outline": ["Clarify the decision task and jurisdiction limits.","Suggest questions about remit, governance context, and information to request, with authoritative source references.","Separate general questions from legal or fiduciary advice.","Link to KOV board-transition and offer-evaluation resources."]
+    }
+  ],
+  "rejected_merged_held": [
+    {"category":"executive_career_guides","topic":"Generic executive career guide / broad executive career strategy URL","disposition":"merge","reason":"The existing senior-leader career strategy page is the canonical broad next-move guide; the market guide and role-industry directory already cover adjacent intent.","overlap_or_evidence":"/roles/senior-leader-career-strategy.html; /resources/executive-job-search-in-your-market.html; 40 role indexes and 554 role-industry pages in the overlap inventory.","source_ids":["KOV-CAREER-GUIDE-OVERLAP-2026"],"next_action":"Improve the existing canonical page only with approved changes and first-party evidence; do not create a duplicate URL."},
+    {"category":"career_transition_guides","topic":"Cross-industry executive transition guide","disposition":"merge","reason":"The broad transition method overlaps the existing senior-leader strategy page and market guide; the two existing banking-to-fintech and oil-and-gas-to-offshore-wind candidates already address narrower sector transitions.","overlap_or_evidence":"Existing pages: /roles/senior-leader-career-strategy.html and /resources/executive-job-search-in-your-market.html; industry candidate records remain provisional.","source_ids":["KOV-CAREER-GUIDE-OVERLAP-2026"],"next_action":"Do not assign a standalone URL unless future query evidence proves a distinct user task not covered by the canonical strategy page or narrow transition candidates."},
+    {"category":"role_specific_interview_guides","topic":"Executive interview question bank, generic STAR guide, and CEO/panel checklist","disposition":"merge","reason":"The existing interview-coaching page already covers the interview-preparation task, role mandate, leadership examples, practice, and mutual fit; a second generic page has high cannibalisation risk.","overlap_or_evidence":"/services/interview-coaching-executives.html; OPM structured-interview guidance is U.S. public-sector-specific and does not establish universal executive interview practice.","source_ids":["KOV-CAREER-GUIDE-OVERLAP-2026","OPM-STRUCTURED-INTERVIEWS-2026"],"next_action":"Keep any needed practical explanation within the existing page after owner approval and source review."},
+    {"category":"salary_compensation_guides","topic":"Generic executive total-compensation and job-offer comparison guide","disposition":"merge","reason":"The existing salary and offer negotiation guide already targets offer evaluation and negotiation; no distinct query or content gap was established.","overlap_or_evidence":"/resources/salary-offer-negotiation-guide.html; CIPD reward guidance is not an executive salary benchmark.","source_ids":["KOV-CAREER-GUIDE-OVERLAP-2026","CIPD-REWARD-FACTSHEET-2026"],"next_action":"Retain the existing URL as canonical; any changes to it require the existing protected-page approval gate."},
+    {"category":"salary_compensation_guides","topic":"Executive salary benchmarks and CEO-pay tables","disposition":"hold","reason":"No current role-, geography-, date-, and methodology-specific primary data or rights review was completed. Do not invent benchmark figures.","overlap_or_evidence":"Existing offer guide covers evaluation; no executive pay dataset was verified in this screen.","source_ids":["KOV-CAREER-GUIDE-OVERLAP-2026"],"next_action":"Revisit only with authoritative, current data, transparent methodology, and owner-approved scope."},
+    {"category":"salary_compensation_guides","topic":"Executive equity, tax, and compensation-law guide","disposition":"hold","reason":"This would require jurisdiction-specific legal, tax, and financial sourcing and risks overlapping the existing offer guide; no source set or serviceability review was completed.","overlap_or_evidence":"/resources/salary-offer-negotiation-guide.html; no jurisdiction-specific primary sources reviewed.","source_ids":["KOV-CAREER-GUIDE-OVERLAP-2026"],"next_action":"Do not create a URL without an explicit jurisdiction, qualified review, and reliable primary sources."},
+    {"category":"executive_market_industry_reports","topic":"Generic executive market reports by country or industry","disposition":"hold","reason":"No current market dataset, methodology, local competitor/SERP research, or KOV-specific serviceability evidence supports a report URL. Macro labor statistics alone do not establish executive demand.","overlap_or_evidence":"The 33-country macro-only screens remain held individually in development/MARKET-RESEARCH-SCREEN.csv; no new country market URL is proposed.","source_ids":["KOV-CAREER-GUIDE-OVERLAP-2026"],"next_action":"Keep the 33 screens as research leads only; qualify a market page only after candidate-specific evidence is gathered."},
+    {"category":"leadership_skills_competencies","topic":"Generic leadership checklist or executive communication guide","disposition":"hold","reason":"Existing role pages cover role-specific leadership scope; this screen supports only one named, attributed DAC framework concept and establishes no separate generic checklist need.","overlap_or_evidence":"No validated universal competency standard or candidate-specific SERP was identified.","source_ids":["CCL-DAC-FRAMEWORK-2026","KOV-CAREER-GUIDE-OVERLAP-2026"],"next_action":"Do not create additional URLs from the leadership quota alone."},
+    {"category":"board_non_executive_career","topic":"Generic board-career transition guide","disposition":"merge","reason":"The existing board-transition page already addresses moving toward board opportunities; the two provisional candidates are limited to document and specific-opportunity evaluation tasks.","overlap_or_evidence":"/roles/board-level-career-transition.html; new board-profile and NED due-diligence screens remain provisional.","source_ids":["KOV-CAREER-GUIDE-OVERLAP-2026"],"next_action":"Do not create a second broad board-transition URL."},
+    {"category":"comparison_educational","topic":"Executive director versus non-executive director comparison","disposition":"hold","reason":"Existing director and NED role roots may already answer the distinction; full page-body review and candidate-specific SERP research are pending.","overlap_or_evidence":"Existing board and NED role-directory coverage; see sitemap.xml and development/VISIBLE-OVERLAP-AUDIT.md.","source_ids":["KOV-CAREER-GUIDE-OVERLAP-2026"],"next_action":"If a real content gap is confirmed, add a concise comparison to the most relevant existing page rather than creating a duplicate URL."},
+    {"category":"comparison_educational","topic":"Career coach versus recruiter versus candidate-side representation comparison","disposition":"merge","reason":"The distinction can be clarified in existing service pages, FAQs, or glossary content; no separate user need or demand evidence was verified.","overlap_or_evidence":"Existing service pages, /faqs/, and /glossary.html.","source_ids":["KOV-CAREER-GUIDE-OVERLAP-2026"],"next_action":"Review existing copy; any change to protected existing pages requires owner approval."},
+    {"category":"comparison_educational","topic":"CV versus résumé versus board biography comparison","disposition":"merge","reason":"A broad comparison page would overlap the existing executive résumé guide and provisional board CV/biography candidate.","overlap_or_evidence":"/roles/senior-executive-resume-strategy.html; /resources/board-cv-and-director-biography.html remains provisional.","source_ids":["KOV-CAREER-GUIDE-OVERLAP-2026"],"next_action":"Keep terminology notes within the relevant existing or individually qualified page."},
+    {"category":"country_specific_role_pages","topic":"UK digital-technology leaders immigration/route page","disposition":"merge","reason":"Same country, role audience, and route-specific information need is represented by the existing mobility candidate; do not create a second URL.","overlap_or_evidence":"Represented by uk-global-talent-digital-leaders at /career-resources/mobility/uk-global-talent-digital-technology-leaders/.","source_ids":["KOV-CAREER-GUIDE-OVERLAP-2026"],"next_action":"Continue source and competitor validation on the single mobility candidate."},
+    {"category":"country_specific_role_pages","topic":"UK academic and research leaders immigration/route page","disposition":"merge","reason":"Same country, role audience, and route-specific information need is represented by the existing mobility candidate; do not create a second URL.","overlap_or_evidence":"Represented by uk-global-talent-research-leaders at /career-resources/mobility/uk-global-talent-research-leaders/.","source_ids":["KOV-CAREER-GUIDE-OVERLAP-2026"],"next_action":"Continue source and competitor validation on the single mobility candidate."},
+    {"category":"country_specific_role_pages","topic":"Canadian senior managers immigration/route page","disposition":"merge","reason":"The source screen treats this as a route-information topic; a second country-role URL would duplicate the mobility candidate's core intent.","overlap_or_evidence":"Represented by canada-express-entry-senior-managers at /career-resources/mobility/canada-express-entry-senior-managers/.","source_ids":["KOV-CAREER-GUIDE-OVERLAP-2026"],"next_action":"Continue official source, audience, and competitor validation on the single mobility candidate."}
+  ]
+}
