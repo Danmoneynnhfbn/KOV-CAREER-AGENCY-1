@@ -25,6 +25,15 @@ KOV provides candidate-side career support. Scope, deliverables, fees, approvals
 ## Public research guides
 - [Public career research and occupation guides](https://www.kovcareeragency.org/staging/): Published research guides and occupation references.
 
+## Main navigation and site directory
+- [All public website sections and key pages](https://www.kovcareeragency.org/site-directory.html): Human-readable directory linking the main service, role, industry, market, insight and contact sections.
+- [Career services and pricing](https://www.kovcareeragency.org/candidate-services.html): Individual career services, private career representation, process and pricing.
+- [Executive role guides](https://www.kovcareeragency.org/roles/): Role-based career guidance and representation resources.
+- [Industry guides](https://www.kovcareeragency.org/industries/): Industry-specific career and leadership resources.
+- [FAQ library](https://www.kovcareeragency.org/faq/index.html): Detailed service and process answers.
+- [Insights and case studies](https://www.kovcareeragency.org/blog.html): Articles, research and practical career guidance.
+- [Countries and markets](https://www.kovcareeragency.org/countries-we-serve.html): Geographic coverage and market-specific resources.
+
 ## Complete discovery resources
 - [Full indexable page directory](https://www.kovcareeragency.org/llms-full.txt): Expanded page descriptions and links for the current canonical, indexable site.
 - [XML sitemap](https://www.kovcareeragency.org/sitemap.xml): Search-engine sitemap of canonical, indexable production pages.
