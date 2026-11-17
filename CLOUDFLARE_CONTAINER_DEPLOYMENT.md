@@ -67,15 +67,16 @@ Cloudflare rejected a direct rollback to the previous static-assets version beca
 
 ## Production routing
 
-After validation, attach the specific route:
+After a separate Worker named `kov-career-api` has been created, its secrets are configured, and all Workers.dev tests pass, attach both routes to that Worker:
 
 ```
 www.kovcareeragency.org/*
+kovcareeragency.org/*
 ```
 
-to Worker `kov-career-api`. This more-specific route is intended to take precedence over the existing wildcard Worker route for the canonical `www` hostname. Leave the apex-host redirect in place so `kovcareeragency.org` continues redirecting to `www.kovcareeragency.org`.
+The application canonicalizes the apex hostname to `www.kovcareeragency.org`. The existing DNS A records are already proxied through Cloudflare, so a Worker route can intercept requests without changing those records. Do not add the routes before the tests pass.
 
-Do not change the existing `kov-professional-discovery` Worker or its routes.
+Do not attach the live domain to the current `kov-career-agency-1` staging script, and do not change the existing `kov-professional-discovery` Worker or its routes.
 
 ## Required runtime secrets and variables
 
