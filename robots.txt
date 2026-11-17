@@ -1,5 +1,9 @@
 # robots.txt - kovcareeragency.org
 # Allows search engines, AI search/answer engines and AI assistants to read the site.
+# Optional AI-readable discovery documents (supplementary links, not crawler directives):
+# https://www.kovcareeragency.org/llms.txt
+# https://www.kovcareeragency.org/llms-full.txt
+
 
 User-agent: *
 Allow: /
