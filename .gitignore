@@ -13,3 +13,7 @@ debug.log
 # Local environment secrets
 .env
 .env.*
+
+# Generated Cloudflare assets and private page module
+/public/
+/cloudflare_private_pages.py
