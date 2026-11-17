@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Production sitemap: list only self-canonical, indexable pages. Exclude staging and pages marked noindex. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.kovcareeragency.org/</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/services.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/how-it-works.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/pricing.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faqs.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/blog.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/about.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/contact.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/candidate-services.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/resume-cv-writing.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/linkedin-profile-optimization.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/career-documents.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/career-portfolio-development.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/personal-career-website.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/career-positioning-optimization.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/career-coaching.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/candidate-proof.html</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/how-it-works.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/pricing.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faqs.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/blog.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/about.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/contact.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/candidate-services.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/resume-cv-writing.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/linkedin-profile-optimization.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/career-documents.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/career-portfolio-development.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/personal-career-website.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/career-positioning-optimization.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/career-coaching.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/candidate-proof.html</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/why-kov.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/countries-we-serve.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/glossary.html</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/countries-we-serve.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/glossary.html</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/services/reverse-recruiting.html</loc><lastmod>2026-10-22</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/services/career-strategy-senior-leaders.html</loc><lastmod>2026-10-22</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/services/executive-resume-strategy.html</loc><lastmod>2026-10-22</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/services/interview-coaching-executives.html</loc><lastmod>2026-10-22</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/services/executive-negotiation-support.html</loc><lastmod>2026-10-22</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/services/linkedin-optimization-executives.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/markets/executive-job-search-dubai.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/markets/executive-job-search-uae.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/markets/executive-career-support-saudi-arabia.html</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/markets/executive-job-search-dubai.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/markets/executive-job-search-uae.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/markets/executive-career-support-saudi-arabia.html</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/reverse-recruiting-cfos.html</loc><lastmod>2026-10-22</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/reverse-recruiting-ctos.html</loc><lastmod>2026-10-22</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/reverse-recruiting-cmos.html</loc><lastmod>2026-10-22</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/services/executive-career-representation.html</loc><lastmod>2026-10-22</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/services/executive-job-search-support.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/markets/executive-job-search-london.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/markets/executive-career-support-australia.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/markets/executive-job-search-africa.html</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/markets/executive-job-search-london.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/markets/executive-career-support-australia.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/markets/executive-job-search-africa.html</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/reverse-recruiting-ceos.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/career-representation-coos.html</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/career-representation-coos.html</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/executive-job-search-vps.html</loc><lastmod>2026-10-22</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/senior-leader-career-strategy.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-level-career-transition.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/career-coaching-founders-partners.html</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-level-career-transition.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/career-coaching-founders-partners.html</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/senior-executive-resume-strategy.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/resources/case-studies.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/resources/candidate-success-stories.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/resources/anonymous-executive-reviews.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/resources/executive-career-outcomes.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/resources/salary-offer-negotiation-guide.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/resources/executive-job-search-in-your-market.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/resources/book-confidential-consultation.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/resources/request-executive-career-representation.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/resources/kov-founder-profile.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/resources/why-kov-approach.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/resources/contact-kov.html</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/legal-services.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/legal-services/</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/resources/case-studies.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/resources/candidate-success-stories.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/resources/anonymous-executive-reviews.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/resources/executive-career-outcomes.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/resources/salary-offer-negotiation-guide.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/resources/executive-job-search-in-your-market.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/resources/book-confidential-consultation.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/resources/request-executive-career-representation.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/resources/kov-founder-profile.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/resources/why-kov-approach.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/resources/contact-kov.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/legal-services.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/legal-services/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/general-counsel/</loc><lastmod>2026-10-23</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/head-legal/</loc><lastmod>2026-10-23</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/managing-director/</loc><lastmod>2026-10-23</lastmod></url>
@@ -71,9 +71,9 @@
   <url><loc>https://www.kovcareeragency.org/roles/managing-partner/legal-services.html</loc><lastmod>2026-10-23</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/partner/legal-services.html</loc><lastmod>2026-10-23</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/partner/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/chief-product-officer/</loc><lastmod>2026-10-23</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/chief-revenue-officer/</loc><lastmod>2026-10-23</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/chief-strategy-officer/</loc><lastmod>2026-10-23</lastmod></url>
@@ -105,110 +105,110 @@
   <url><loc>https://www.kovcareeragency.org/roles/vp-product/</loc><lastmod>2026-10-23</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/vp-sales/</loc><lastmod>2026-10-23</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/vp-strategy/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/agriculture-food-forestry/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/arts-entertainment-sports/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/business-support-facilities/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/construction-engineering/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/consulting-professional-services/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/education/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/energy-mining-oil-gas/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/finance-insurance/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/healthcare-social-care/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/holding-companies/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/hospitality-food-service/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/manufacturing/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/other-services/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/public-sector-government/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/real-estate-leasing/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/retail-ecommerce/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/technology-media-telecom/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/transportation-logistics/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/utilities/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/industries/wholesale-distribution/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/agriculture-food-forestry.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/arts-entertainment-sports.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/business-support-facilities.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/construction-engineering.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/consulting-professional-services.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/education.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/energy-mining-oil-gas.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/finance-insurance.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/healthcare-social-care.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/holding-companies.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/hospitality-food-service.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/legal-services.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/manufacturing.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/other-services.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/public-sector-government.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/real-estate-leasing.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/retail-ecommerce.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/technology-media-telecom.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/transportation-logistics.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/utilities.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/board-director/wholesale-distribution.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/agriculture-food-forestry.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/arts-entertainment-sports.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/business-support-facilities.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/construction-engineering.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/consulting-professional-services.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/education.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/energy-mining-oil-gas.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/finance-insurance.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/healthcare-social-care.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/holding-companies.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/hospitality-food-service.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/manufacturing.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/other-services.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/public-sector-government.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/real-estate-leasing.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/retail-ecommerce.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/technology-media-telecom.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/transportation-logistics.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/utilities.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/ceo/wholesale-distribution.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/agriculture-food-forestry.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/arts-entertainment-sports.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/business-support-facilities.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/construction-engineering.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/consulting-professional-services.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/education.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/energy-mining-oil-gas.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/finance-insurance.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/healthcare-social-care.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/holding-companies.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/hospitality-food-service.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/legal-services.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/manufacturing.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/other-services.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/public-sector-government.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/real-estate-leasing.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/retail-ecommerce.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/technology-media-telecom.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/transportation-logistics.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/utilities.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/cfo/wholesale-distribution.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/agriculture-food-forestry.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/arts-entertainment-sports.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/business-support-facilities.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/construction-engineering.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/consulting-professional-services.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/education.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/energy-mining-oil-gas.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/finance-insurance.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/healthcare-social-care.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/holding-companies.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/hospitality-food-service.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/legal-services.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/manufacturing.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/other-services.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/public-sector-government.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/real-estate-leasing.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/retail-ecommerce.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/technology-media-telecom.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/transportation-logistics.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/utilities.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chair/wholesale-distribution.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/roles/chief-product-officer/agriculture-food-forestry.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/agriculture-food-forestry/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/arts-entertainment-sports/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/business-support-facilities/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/construction-engineering/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/consulting-professional-services/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/education/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/energy-mining-oil-gas/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/finance-insurance/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/healthcare-social-care/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/holding-companies/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/hospitality-food-service/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/manufacturing/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/other-services/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/public-sector-government/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/real-estate-leasing/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/retail-ecommerce/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/technology-media-telecom/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/transportation-logistics/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/utilities/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/industries/wholesale-distribution/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/agriculture-food-forestry.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/arts-entertainment-sports.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/business-support-facilities.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/construction-engineering.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/consulting-professional-services.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/education.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/energy-mining-oil-gas.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/finance-insurance.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/healthcare-social-care.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/holding-companies.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/hospitality-food-service.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/legal-services.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/manufacturing.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/other-services.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/public-sector-government.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/real-estate-leasing.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/retail-ecommerce.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/technology-media-telecom.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/transportation-logistics.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/utilities.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/board-director/wholesale-distribution.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/agriculture-food-forestry.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/arts-entertainment-sports.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/business-support-facilities.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/construction-engineering.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/consulting-professional-services.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/education.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/energy-mining-oil-gas.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/finance-insurance.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/healthcare-social-care.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/holding-companies.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/hospitality-food-service.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/manufacturing.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/other-services.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/public-sector-government.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/real-estate-leasing.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/retail-ecommerce.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/technology-media-telecom.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/transportation-logistics.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/utilities.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/ceo/wholesale-distribution.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/agriculture-food-forestry.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/arts-entertainment-sports.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/business-support-facilities.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/construction-engineering.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/consulting-professional-services.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/education.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/energy-mining-oil-gas.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/finance-insurance.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/healthcare-social-care.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/holding-companies.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/hospitality-food-service.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/legal-services.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/manufacturing.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/other-services.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/public-sector-government.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/real-estate-leasing.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/retail-ecommerce.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/technology-media-telecom.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/transportation-logistics.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/utilities.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/cfo/wholesale-distribution.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/agriculture-food-forestry.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/arts-entertainment-sports.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/business-support-facilities.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/construction-engineering.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/consulting-professional-services.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/education.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/energy-mining-oil-gas.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/finance-insurance.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/healthcare-social-care.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/holding-companies.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/hospitality-food-service.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/legal-services.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/manufacturing.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/other-services.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/public-sector-government.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/real-estate-leasing.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/retail-ecommerce.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/technology-media-telecom.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/transportation-logistics.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/utilities.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chair/wholesale-distribution.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/roles/chief-product-officer/agriculture-food-forestry.html</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/chief-product-officer/arts-entertainment-sports.html</loc><lastmod>2026-10-23</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/chief-product-officer/business-support-facilities.html</loc><lastmod>2026-10-23</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/chief-product-officer/construction-engineering.html</loc><lastmod>2026-10-23</lastmod></url>
@@ -673,35 +673,35 @@
   <url><loc>https://www.kovcareeragency.org/roles/vp-strategy/manufacturing.html</loc><lastmod>2026-10-23</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/vp-strategy/public-sector-government.html</loc><lastmod>2026-10-23</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/roles/vp-strategy/technology-media-telecom.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/about-1.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/about-2.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/blog-1.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/blog-2.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/candidate-services-1.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/candidate-services-2.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/contact-1.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/contact-2.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/countries-we-serve-1.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/countries-we-serve-2.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/countries-we-serve-3.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/countries-we-serve-4.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/countries-we-serve-5.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/countries-we-serve-6.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/faqs-1.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/faqs-2.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/faqs-3.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/faqs-4.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/faqs-5.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/how-it-works-1.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/how-it-works-2.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/index-1.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/index-2.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/about-1.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/about-2.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/blog-1.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/blog-2.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/candidate-services-1.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/candidate-services-2.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/contact-1.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/contact-2.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/countries-we-serve-1.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/countries-we-serve-2.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/countries-we-serve-3.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/countries-we-serve-4.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/countries-we-serve-5.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/countries-we-serve-6.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/faqs-1.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/faqs-2.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/faqs-3.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/faqs-4.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/faqs-5.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/how-it-works-1.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/how-it-works-2.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/index-1.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/index-2.html</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://www.kovcareeragency.org/faq/index.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/pricing-1.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/pricing-2.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/services-1.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/services-2.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/why-kov-1.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/faq/why-kov-2.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://www.kovcareeragency.org/privacy.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/pricing-1.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/pricing-2.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/services-1.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/services-2.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/why-kov-1.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/faq/why-kov-2.html</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://www.kovcareeragency.org/privacy.html</loc><lastmod>2026-11-17</lastmod></url>
   </urlset>
