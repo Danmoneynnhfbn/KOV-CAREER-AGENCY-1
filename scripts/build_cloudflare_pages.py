@@ -15,7 +15,7 @@ MAX_FILE = 25 * 1024 * 1024
 SKIP_DIRS = {
     ".git", ".github", ".private_admin", ".vscode", "__pycache__",
     "cloudflare-api", "development", "design-reference", "research",
-    "tests", "staging", "github", "vscode", "supabase", "config",
+    "tests", "staging", "github", "vscode", "supabase", "config", "scripts",
 }
 SKIP_ROOT_FILES = {
     "Dockerfile", "wrangler.jsonc", "requirements.txt", "pyproject.toml",
