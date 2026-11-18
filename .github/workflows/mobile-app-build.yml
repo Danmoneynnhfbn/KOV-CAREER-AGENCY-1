@@ -28,6 +28,12 @@ jobs:
           java-version: "21"
       - name: Install dependencies
         run: npm install
+      - name: Audit shipped runtime dependencies
+        run: npm audit --omit=dev --audit-level=high
+      - name: Capture full dependency audit report
+        run: |
+          npm audit --json > npm-audit-report.json || true
+          node -e "const r=require('./npm-audit-report.json'); console.log(JSON.stringify(r.metadata?.vulnerabilities || {})); for (const [name,v] of Object.entries(r.vulnerabilities || {})) console.log(name + ': ' + v.severity + ' | direct=' + v.isDirect + ' | fix=' + JSON.stringify(v.fixAvailable));"
       - name: Generate Play Store listing artwork
         run: npm run store:assets
       - name: Generate Android project
@@ -51,6 +57,7 @@ jobs:
             mobile-app/android/app/build/outputs/bundle/release/app-release.aab
             mobile-app/assets/play-store/app-icon-512.png
             mobile-app/assets/play-store/feature-graphic-1024x500.png
+            mobile-app/npm-audit-report.json
           if-no-files-found: error
 
   ios-simulator:
