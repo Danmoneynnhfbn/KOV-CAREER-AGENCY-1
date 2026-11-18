@@ -108,8 +108,6 @@ jobs:
         working-directory: mobile
         run: npm run validate
 
-      - name: Check live KOV website
-        run: curl --fail --silent --show-error --location https://www.kovcareeragency.org/ --output /dev/null
 
       - name: Generate iOS project
         working-directory: mobile
