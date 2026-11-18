@@ -47,9 +47,10 @@ The existing KOV Privacy Notice describes the following information, depending o
 - Messages and user-provided text: contact inquiries and other messages.
 - Files and documents: CV files uploaded to private storage.
 - Security information: a keyed, non-reversible hash derived from the request IP address for short-term submission limiting; the notice says the raw IP is not stored in the lead record.
+- Candidate profile data shared with employer-directory users: KOV's notice says employers receive a masked profile containing the KOV candidate code, initials, skills, experience and region, not the candidate's legal name, personal email, phone number or CV link. This is third-party sharing that should be reflected accurately in the form when applicable.
 - Providers: hosting and database providers process account, profile, contact and file data; a payment provider processes payment details if online billing is used.
 
-Before completing Data Safety, verify the currently deployed site's actual integrations and behavior, including whether accounts, CV uploads, billing or any additional provider integrations are active in production. Disclose all data types collected by the website and any SDKs or external services loaded inside the WebView. Do not make a "no data collected" declaration.
+Before completing Data Safety, verify the currently deployed site's actual integrations and behavior, including whether accounts, CV uploads, billing or any additional provider integrations are active in production. Disclose all data types collected by the website and any SDKs or external services loaded inside the WebView. Confirm which fields are actually shared to employer directory users. Do not make a "no data collected" declaration.
 
 Encryption: the app loads the KOV site over HTTPS. Verify all embedded endpoints and file upload/download flows use HTTPS before declaring all collected data encrypted in transit.
 
