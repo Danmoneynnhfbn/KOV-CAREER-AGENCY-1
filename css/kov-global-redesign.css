@@ -1108,3 +1108,41 @@ body:not(.backend-page):not(.admin-page) :where(input,select,textarea):focus-vis
   body.kov-family-audiences .kov-visual-module { grid-template-columns:minmax(0,1fr); }
   body.kov-family-audiences .kov-visual-art { border-left:0; border-top:1px solid #d9e3df; padding:1rem 0 0; }
 }
+
+
+/* Countries We Serve: keep the directory visible even if deferred scripts fail
+   or the page's general scroll-reveal observer does not fire on mobile. */
+body.kov-family-geography main > section:has(#country-directory),
+body.kov-family-geography #country-directory {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+}
+body.kov-family-geography #country-directory {
+  display: block !important;
+  min-height: 12rem;
+}
+body.kov-family-geography .country-directory-fallback-note {
+  margin: 0 0 1rem;
+  color: #566a6d;
+  font-size: .92rem;
+  line-height: 1.55;
+}
+body.kov-family-geography #country-directory .country-directory-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+body.kov-family-geography #country-directory .country-directory-card {
+  display: block;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+body.kov-family-geography #country-directory .country-directory-card[hidden] {
+  display: none !important;
+}
+@media (max-width: 48rem) {
+  body.kov-family-geography #country-directory .country-directory-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
