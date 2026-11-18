@@ -8,8 +8,7 @@ separate database. The live website remains the source of truth:
 - Privacy notice: https://www.kovcareeragency.org/privacy.html
 - Support: daniel@kovcareeragency.org
 
-The app's remote-site configuration means content and updates published on the
-website are reflected in the app without rebuilding the app.
+The app packages a small local bootstrap that opens the official live website. The website remains the single source of truth, so published website content updates are reflected when users open or refresh the app, without duplicating website pages in the app package.
 
 ## Platforms
 
@@ -52,11 +51,7 @@ are attached to the workflow run.
 
 ## Important Play Store review limitation
 
-The app is intentionally a website presentation layer because that is the
-requested scope. The current app uses Capacitor's remote `server.url` to load
-the live site. Capacitor describes that setting primarily for live reload, not
-as its recommended production distribution method. Google Play also evaluates
-webview apps for owner permission, functionality, content, and user experience.
+The app is intentionally a website presentation layer because that is the requested scope. It now ships a local bootstrap page which navigates to the official live KOV website, rather than setting Capacitor's remote `server.url`. This avoids using the documented live-reload setting as the app's production entry point. It remains a remote website wrapper, so app-store review can still assess its functionality, content, navigation, and user experience.
 KOV controls the website, so owner permission is not the blocker; a reviewer
 may still decide that a website-only wrapper offers insufficient app-specific
 utility. A successful build does not guarantee Play approval.
