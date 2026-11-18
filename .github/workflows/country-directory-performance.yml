@@ -1,0 +1,29 @@
+name: Country Directory Performance Check
+
+on:
+  push:
+    paths:
+      - "assets/country-directory.js"
+      - "countries-we-serve.html"
+      - "scripts/validate-country-directory-performance.js"
+      - ".github/workflows/country-directory-performance.yml"
+  pull_request:
+    paths:
+      - "assets/country-directory.js"
+      - "countries-we-serve.html"
+      - "scripts/validate-country-directory-performance.js"
+      - ".github/workflows/country-directory-performance.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate fast country directory loading
+        run: node scripts/validate-country-directory-performance.js
