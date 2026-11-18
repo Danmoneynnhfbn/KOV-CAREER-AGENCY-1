@@ -42,6 +42,8 @@ jobs:
         run: npm run store:assets
       - name: Generate Android project
         run: npx cap add android
+      - name: Install KOV native Android compatibility layer
+        run: cp native/android/MainActivity.java android/app/src/main/java/com/kovcareeragency/app/MainActivity.java
       - name: Generate KOV Android app icons
         run: npm run assets:android
       - name: Sync website wrapper
@@ -79,6 +81,8 @@ jobs:
         run: npm install
       - name: Generate iOS project
         run: npx cap add ios
+      - name: Install KOV native iOS compatibility layer
+        run: cp native/ios/ViewController.swift ios/App/App/ViewController.swift
       - name: Generate KOV iOS app icons
         run: npm run assets:ios
       - name: Sync website wrapper
