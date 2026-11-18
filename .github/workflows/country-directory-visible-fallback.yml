@@ -1,0 +1,31 @@
+name: Country Directory Visible Fallback Check
+
+on:
+  push:
+    paths:
+      - "countries-we-serve.html"
+      - "assets/country-directory.js"
+      - "css/kov-global-redesign.css"
+      - "scripts/validate-country-directory-visible-fallback.js"
+      - ".github/workflows/country-directory-visible-fallback.yml"
+  pull_request:
+    paths:
+      - "countries-we-serve.html"
+      - "assets/country-directory.js"
+      - "css/kov-global-redesign.css"
+      - "scripts/validate-country-directory-visible-fallback.js"
+      - ".github/workflows/country-directory-visible-fallback.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate visible country fallback and lazy city index
+        run: node scripts/validate-country-directory-visible-fallback.js
