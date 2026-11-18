@@ -5,7 +5,7 @@ not create a second website, new content pages, a new login system, or a
 separate database. The live website remains the source of truth:
 
 - Website: https://www.kovcareeragency.org
-- Privacy notice: https://www.kovcareeragency.org/privacy
+- Privacy notice: https://www.kovcareeragency.org/privacy.html
 - Support: daniel@kovcareeragency.org
 
 The app's remote-site configuration means content and updates published on the
