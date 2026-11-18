@@ -188,6 +188,7 @@ def optimize_file(path: Path, root: Path) -> dict:
     description = read_meta(head, "description") or description
     canonical = canonical_url(head, path.relative_to(root).as_posix())
     og_image = read_meta(head, "og:image", prop=True) or DEFAULT_IMAGE
+    og_image = urljoin(canonical, og_image)
 
     # Keep an existing page-specific image; synchronize Twitter to the OG image.
     social = [
