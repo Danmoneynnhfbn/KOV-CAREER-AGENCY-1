@@ -31,18 +31,18 @@ jobs:
           failures = []
           for page in pages:
               html = page.read_text(encoding="utf-8")
-              head = re.search(r"<head\\b[^>]*>([\\s\\S]*?)</head\\s*>", html, re.I)
+              head = re.search(r"<head\b[^>]*>([\s\S]*?)</head\s*>", html, re.I)
               if not head:
                   failures.append(f"{page}: missing HEAD")
                   continue
               h = head.group(1)
-              if not re.match(r"\\s*<meta\\b[^>]*\\bcharset\\s*=", h, re.I):
+              if not re.match(r"\s*<meta\b[^>]*\bcharset\s*=", h, re.I):
                   failures.append(f"{page}: charset is not first in HEAD")
               for key in ("description", "og:title", "og:description", "og:url", "og:image", "twitter:card", "twitter:title", "twitter:description", "twitter:image"):
                   attr = "property" if key.startswith("og:") else "name"
-                  if not re.search(rf"<meta\\b(?=[^>]*\\b{attr}=['\\\"]{re.escape(key)}['\\\"])", h, re.I):
+                  if not re.search(rf"<meta\b(?=[^>]*\b{attr}=['\"]{re.escape(key)}['\"])", h, re.I):
                       failures.append(f"{page}: missing {key}")
           if failures:
-              raise SystemExit("\\n".join(failures[:100]))
+              raise SystemExit("\n".join(failures[:100]))
           print(f"PASS: {len(pages)} published HTML pages have complete social metadata and charset placement.")
           PY
