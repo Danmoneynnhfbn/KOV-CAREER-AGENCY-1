@@ -93,10 +93,9 @@ def read_meta(head: str, key: str, *, prop: bool = False) -> str:
     for segment in markup_parts(head)[::2]:
         for match in META_RE.finditer(segment):
             a = attrs(match.group(0))
-        if a.get(attr_name, "").casefold() == key.casefold():
-            return html.unescape(a.get("content", "")).strip()
+            if a.get(attr_name, "").casefold() == key.casefold():
+                return html.unescape(a.get("content", "")).strip()
     return ""
-
 
 def plain_text(value: str) -> str:
     value = re.sub(r"(?is)<(script|style)\b[^>]*>.*?</\1\s*>", " ", value)
