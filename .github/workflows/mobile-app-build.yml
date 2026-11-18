@@ -143,6 +143,7 @@ jobs:
           script: bash "$GITHUB_WORKSPACE/mobile-app/scripts/android-smoke-test.sh"
 
       - name: Upload genuine Android screenshots
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: kov-career-agency-play-store-screenshots
