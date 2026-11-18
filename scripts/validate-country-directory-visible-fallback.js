@@ -8,6 +8,7 @@ const js = fs.readFileSync(path.join(__dirname, '..', 'assets', 'country-directo
 const css = fs.readFileSync(path.join(__dirname, '..', 'css', 'kov-global-redesign.css'), 'utf8');
 
 const cardCount = (page.match(/class="country-directory-card"/g) || []).length;
+if (!/<body[^>]*class=["'][^"']*\\bkov-family-geography\\b/.test(page)) throw new Error('Country page is missing the geography page class required by its scoped styles.');
 if (cardCount < 190) throw new Error('Static country-card fallback is missing or incomplete: ' + cardCount);
 if (!page.includes('country-directory-fallback-note')) throw new Error('Visible fallback notice is missing.');
 if (!page.includes('/assets/country-directory.js?v=20261118-3')) throw new Error('Country directory JavaScript cache-buster is missing.');
