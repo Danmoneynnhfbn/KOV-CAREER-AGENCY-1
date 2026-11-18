@@ -56,9 +56,9 @@ if cmp -s "$SCREENSHOT_DIR/01-kov-home.png" "$SCREENSHOT_DIR/02-kov-home-content
   exit 1
 fi
 
-# Open the homepage's primary Private Career Representation destination, then
-# use Android Back to verify WebView history is handled inside the app.
-adb shell input tap 540 960
+# Tap the left side of the visible primary Private Career Representation CTA,
+# away from the text label, then use Android Back to test WebView history.
+adb shell input tap 160 960
 sleep 8
 adb exec-out screencap -p > "$SCREENSHOT_DIR/03-kov-service-navigation.png"
 adb shell input keyevent 4
