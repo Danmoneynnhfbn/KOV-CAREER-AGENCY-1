@@ -114,7 +114,9 @@ jobs:
           disable-animations: true
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           script: |
-            adb install artifacts/android/apk/debug/app-debug.apk
+            APK_PATH="$(find artifacts/android -type f -name app-debug.apk -print -quit)"
+            test -n "$APK_PATH"
+            adb install "$APK_PATH"
             adb shell monkey -p com.kovcareeragency.app 1
             sleep 25
             mkdir -p mobile-app/assets/play-store/screenshots
