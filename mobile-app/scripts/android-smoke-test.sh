@@ -56,5 +56,16 @@ if cmp -s "$SCREENSHOT_DIR/01-kov-home.png" "$SCREENSHOT_DIR/02-kov-home-content
   exit 1
 fi
 
+# Open the homepage's primary Private Career Representation destination, then
+# use Android Back to verify WebView history is handled inside the app.
+adb shell input tap 530 835
+sleep 8
+adb exec-out screencap -p > "$SCREENSHOT_DIR/03-kov-service-navigation.png"
+adb shell input keyevent 4
+sleep 5
+adb exec-out screencap -p > "$SCREENSHOT_DIR/04-kov-back-navigation.png"
+
+test -s "$SCREENSHOT_DIR/03-kov-service-navigation.png"
+test -s "$SCREENSHOT_DIR/04-kov-back-navigation.png"
 adb shell pidof com.kovcareeragency.app
-echo "KOV app is foreground, no KOV process crash/ANR, screenshots captured."
+echo "KOV app is foreground, no KOV process crash/ANR, scroll and Back-navigation screenshots captured."
