@@ -118,16 +118,19 @@ jobs:
           disable-animations: true
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           script: |
-            APK_PATH="$(find artifacts/android -type f -name app-debug.apk -print -quit)"
+            echo "Workspace: $GITHUB_WORKSPACE"
+            echo "Downloaded artifact files:"
+            find "$GITHUB_WORKSPACE" -maxdepth 9 -type f \( -name app-debug.apk -o -name app-release.aab \) -print
+            APK_PATH="$(find "$GITHUB_WORKSPACE" -type f -name app-debug.apk -print -quit)"
             test -n "$APK_PATH"
             adb install "$APK_PATH"
             adb shell monkey -p com.kovcareeragency.app 1
             sleep 25
-            mkdir -p mobile-app/assets/play-store/screenshots
-            adb exec-out screencap -p > mobile-app/assets/play-store/screenshots/01-kov-home.png
+            mkdir -p "$GITHUB_WORKSPACE/mobile-app/assets/play-store/screenshots"
+            adb exec-out screencap -p > "$GITHUB_WORKSPACE/mobile-app/assets/play-store/screenshots/01-kov-home.png"
             adb shell input swipe 540 1900 540 550 500
             sleep 4
-            adb exec-out screencap -p > mobile-app/assets/play-store/screenshots/02-kov-home-content.png
+            adb exec-out screencap -p > "$GITHUB_WORKSPACE/mobile-app/assets/play-store/screenshots/02-kov-home-content.png"
       - name: Upload genuine Android screenshots
         uses: actions/upload-artifact@v4
         with:
