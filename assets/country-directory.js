@@ -1,4 +1,4 @@
-const sourceWorldCities = (typeof window !== 'undefined' && window.kovWorldCities) ? window.kovWorldCities : (typeof require === 'function' ? require('./world-cities.js').worldCities : []);
+let sourceWorldCities = (typeof window !== 'undefined' && window.kovWorldCities) ? window.kovWorldCities : (typeof require === 'function' ? require('./world-cities.js').worldCities : []);
 
 const countryDirectory = [
   {
@@ -4862,143 +4862,145 @@ function normalizeGeoLabel(value) {
   return value.normalize('NFKD').replace(/\p{Diacritic}/gu, '').toLocaleLowerCase().trim();
 }
 
+function loadCountryCityRecords() {
+  if (sourceWorldCities.length) return Promise.resolve(sourceWorldCities);
+  if (window.kovWorldCities) {
+    sourceWorldCities = window.kovWorldCities;
+    return Promise.resolve(sourceWorldCities);
+  }
+  if (window.__kovWorldCitiesPromise) return window.__kovWorldCitiesPromise;
+  window.__kovWorldCitiesPromise = new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = new URL('world-cities.js', document.currentScript?.src || '/assets/country-directory.js').href;
+    script.async = true;
+    script.onload = () => {
+      sourceWorldCities = window.kovWorldCities || [];
+      resolve(sourceWorldCities);
+    };
+    script.onerror = () => reject(new Error('The city reference could not be loaded.'));
+    document.head.append(script);
+  });
+  return window.__kovWorldCitiesPromise;
+}
+
 function renderCountryDirectory() {
   const target = document.getElementById('country-directory');
   if (!target) return;
-  const introduction = target.previousElementSibling;
-  if (introduction?.tagName === 'P') {
-    introduction.textContent = 'The division lists use GeoNames first-level administrative records. Search the preserved source city records below; city-to-division relationships without an exact source match are identified for reconciliation.';
-  }
 
-  const adminDirectory = window.kovGeoNamesAdmin1;
-  const divisionsByIso2 = new Map(adminDirectory.countries.map((country) => [
-    country.iso2,
-    new Map(country.divisions.flatMap((division) => [
-      [normalizeGeoLabel(division.name), division.name],
-      [normalizeGeoLabel(division.asciiName), division.name],
-    ])),
-  ]));
-  const countryByIso2 = new Map(adminDirectory.countries.map((country) => [country.iso2, country]));
-  const cityCountByIso2 = new Map();
-  const cityCountryLabels = new Set();
-  let unresolvedCityRelations = 0;
+  const searchWrap = document.createElement('div');
+  searchWrap.className = 'country-directory-search';
+  const searchLabel = document.createElement('label');
+  searchLabel.htmlFor = 'country-directory-search-input';
+  searchLabel.textContent = 'Find a country';
+  const countrySearch = document.createElement('input');
+  countrySearch.id = 'country-directory-search-input';
+  countrySearch.type = 'search';
+  countrySearch.placeholder = 'Search 195 countries';
+  countrySearch.autocomplete = 'off';
+  searchWrap.append(searchLabel, countrySearch);
 
-  for (const city of sourceWorldCities) {
-    cityCountryLabels.add(city.country);
-    cityCountByIso2.set(city.iso2, (cityCountByIso2.get(city.iso2) || 0) + 1);
-    const divisionNames = divisionsByIso2.get(city.iso2);
-    if (!city.admin_name || !divisionNames?.has(normalizeGeoLabel(city.admin_name))) {
-      unresolvedCityRelations += 1;
-    }
-  }
-
-  const citySearchSection = document.createElement('section');
-  citySearchSection.className = 'country-city-search';
-
+  const cityWrap = document.createElement('div');
+  cityWrap.className = 'country-city-search';
   const cityLabel = document.createElement('label');
   cityLabel.htmlFor = 'world-city-search';
-  cityLabel.textContent = 'Find a city in the source directory';
-
+  cityLabel.textContent = 'Find a city (loads the detailed city index when needed)';
   const citySearch = document.createElement('input');
   citySearch.id = 'world-city-search';
   citySearch.type = 'search';
   citySearch.autocomplete = 'off';
-  citySearch.placeholder = 'Search city, country, or division';
-  citySearch.setAttribute('aria-controls', 'world-city-results');
-
+  citySearch.placeholder = 'Search city or country';
   const cityCount = document.createElement('p');
   cityCount.id = 'world-city-count';
   cityCount.setAttribute('aria-live', 'polite');
-  cityCount.textContent = `${sourceWorldCities.length.toLocaleString()} source city records across ${cityCountryLabels.size.toLocaleString()} source country labels. ${unresolvedCityRelations.toLocaleString()} city-to-division relationships need further reconciliation against GeoNames.`;
-
+  cityCount.textContent = 'City records load only when you start a city search.';
   const cityResults = document.createElement('ul');
   cityResults.id = 'world-city-results';
   cityResults.setAttribute('aria-live', 'polite');
-  const divisionCitation = document.createElement('p');
-  divisionCitation.append(
-    document.createTextNode(`First-level division reference: GeoNames, accessed ${adminDirectory.metadata.accessed}. `)
-  );
-  const divisionSourceLink = document.createElement('a');
-  divisionSourceLink.href = adminDirectory.metadata.divisionSource;
-  divisionSourceLink.rel = 'noopener noreferrer';
-  divisionSourceLink.textContent = 'GeoNames admin1CodesASCII';
-  const countrySourceLink = document.createElement('a');
-  countrySourceLink.href = adminDirectory.metadata.countrySource;
-  countrySourceLink.rel = 'noopener noreferrer';
-  countrySourceLink.textContent = 'GeoNames countryInfo';
-  divisionCitation.append(divisionSourceLink, document.createTextNode(' and '), countrySourceLink, document.createTextNode('.'));
-  citySearchSection.append(cityLabel, citySearch, cityCount, cityResults, divisionCitation);
-  target.before(citySearchSection);
+  cityWrap.append(cityLabel, citySearch, cityCount, cityResults);
 
-  citySearch.addEventListener('input', () => {
+  const grid = document.createElement('div');
+  grid.className = 'country-directory-grid';
+  const fragment = document.createDocumentFragment();
+  const cards = [];
+
+  for (const entry of countryDirectory) {
+    const card = document.createElement('article');
+    card.className = 'country-directory-card';
+    card.dataset.country = entry.country.toLocaleLowerCase();
+    card.dataset.region = entry.region.toLocaleLowerCase();
+
+    const region = document.createElement('p');
+    region.className = 'country-directory-meta';
+    region.textContent = entry.region;
+    const heading = document.createElement('h3');
+    heading.textContent = entry.country;
+    const divisionHeading = document.createElement('p');
+    const divisionStrong = document.createElement('strong');
+    divisionStrong.textContent = 'Representative divisions: ';
+    divisionHeading.append(divisionStrong, document.createTextNode(entry.divisions.length ? entry.divisions.join(', ') : 'No first-level divisions listed'));
+    const cities = document.createElement('p');
+    const citiesStrong = document.createElement('strong');
+    citiesStrong.textContent = 'Representative cities: ';
+    cities.append(citiesStrong, document.createTextNode(entry.cities.join(', ')));
+    card.append(region, heading, divisionHeading, cities);
+    cards.push(card);
+    fragment.append(card);
+  }
+  grid.append(fragment);
+
+  target.replaceChildren(searchWrap, cityWrap, grid);
+
+  const filterCards = () => {
+    const query = countrySearch.value.trim().toLocaleLowerCase();
+    let visible = 0;
+    for (const card of cards) {
+      const match = !query || card.dataset.country.includes(query) || card.dataset.region.includes(query);
+      card.hidden = !match;
+      if (match) visible += 1;
+    }
+    countrySearch.setAttribute('aria-label', `Find a country. ${visible} of ${cards.length} countries shown.`);
+  };
+  countrySearch.addEventListener('input', filterCards);
+
+  let cityLoadStarted = false;
+  let citySearchTimer = 0;
+  citySearch.addEventListener('input', async () => {
     const query = citySearch.value.trim().toLocaleLowerCase();
     cityResults.replaceChildren();
     if (!query) {
-      cityCount.textContent = `${sourceWorldCities.length.toLocaleString()} source city records across ${cityCountryLabels.size.toLocaleString()} source country labels. ${unresolvedCityRelations.toLocaleString()} city-to-division relationships need further reconciliation against GeoNames.`;
+      cityCount.textContent = 'Enter a city or country name to search the detailed city index.';
       return;
     }
-
-    const matches = [];
-    let totalMatches = 0;
-    for (const city of sourceWorldCities) {
-      const country = countryByIso2.get(city.iso2);
-      const division = city.admin_name
-        ? divisionsByIso2.get(city.iso2)?.get(normalizeGeoLabel(city.admin_name))
-        : '';
-      const searchable = `${city.city} ${city.city_ascii} ${city.country} ${city.admin_name} ${division || ''} ${country?.geoNamesCountryName || ''}`.toLocaleLowerCase();
-      if (!searchable.includes(query)) continue;
-      totalMatches += 1;
-      if (matches.length < 50) matches.push({ city, division, country });
-    }
-
-    for (const { city, division, country } of matches) {
-      const item = document.createElement('li');
-      const cityName = document.createElement('strong');
-      cityName.textContent = city.city;
-      const sourceCountry = city.country;
-      const sourceDivision = city.admin_name || 'Not specified in the source record';
-      const verifiedDivision = division || 'No exact GeoNames division-label match';
-      const countryMatch = country ? `; ISO2 ${city.iso2}` : `; ISO2 ${city.iso2} is outside the 195-country directory`;
-      const details = document.createElement('span');
-      details.textContent = ` — Source country: ${sourceCountry}${countryMatch}; source division label: ${sourceDivision}; GeoNames division: ${verifiedDivision}`;
-      item.append(cityName, details);
-      cityResults.append(item);
-    }
-
-    cityCount.textContent = `${totalMatches.toLocaleString()} matching source records; showing ${matches.length.toLocaleString()} at most.`;
-    if (matches.length === 0) {
-      const item = document.createElement('li');
-      item.textContent = 'No matching source city records.';
-      cityResults.append(item);
+    cityCount.textContent = 'Loading city reference…';
+    try {
+      cityLoadStarted = true;
+      const cities = await loadCountryCityRecords();
+      const matches = [];
+      let total = 0;
+      for (const city of cities) {
+        const haystack = `${city.city} ${city.city_ascii} ${city.country} ${city.admin_name || ''}`.toLocaleLowerCase();
+        if (!haystack.includes(query)) continue;
+        total += 1;
+        if (matches.length < 50) matches.push(city);
+      }
+      for (const city of matches) {
+        const item = document.createElement('li');
+        const name = document.createElement('strong');
+        name.textContent = city.city;
+        item.append(name, document.createTextNode(` — ${city.country}${city.admin_name ? `, ${city.admin_name}` : ''}`));
+        cityResults.append(item);
+      }
+      cityCount.textContent = `${total.toLocaleString()} matching city records; showing up to ${matches.length}.`;
+      if (!matches.length) {
+        const item = document.createElement('li');
+        item.textContent = 'No matching city records.';
+        cityResults.append(item);
+      }
+    } catch (error) {
+      cityCount.textContent = 'The city index could not be loaded. Country listings remain available.';
+      console.error('KOV city directory:', error);
     }
   });
-
-  const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (character) => ({
-    '&': '&amp;',
-    '<': '&lt;',
-    '>': '&gt;',
-    '"': '&quot;',
-    "'": '&#39;',
-  })[character]);
-  const cards = countryDirectory.map((entry) => {
-    const sourceCountry = adminDirectory.countries.find((country) => country.country === entry.country);
-    const divisions = sourceCountry?.divisions || [];
-    const divisionList = divisions.length
-      ? `<details><summary>View all ${divisions.length.toLocaleString()} GeoNames divisions</summary><p>${divisions.map((division) => escapeHtml(division.name)).join(', ')}</p></details>`
-      : '<p>No GeoNames first-level division records are available for this country.</p>';
-    const cityCount = sourceCountry ? cityCountByIso2.get(sourceCountry.iso2) || 0 : 0;
-    return `
-      <article class="country-directory-card">
-        <p class="country-directory-meta">${escapeHtml(entry.region)}</p>
-        <h3>${escapeHtml(entry.country)}</h3>
-        <p><strong>First-level divisions:</strong> ${divisions.length.toLocaleString()} GeoNames records</p>
-        ${divisionList}
-        <p><strong>Source city records:</strong> ${cityCount.toLocaleString()}</p>
-        <p><strong>Representative cities:</strong> ${entry.cities.map(escapeHtml).join(', ')}</p>
-      </article>
-    `;
-  }).join('');
-  target.innerHTML = `<div class="country-directory-grid">${cards}</div>`;
 }
 
 if (typeof window !== 'undefined') {
