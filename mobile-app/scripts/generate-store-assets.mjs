@@ -1,15 +1,17 @@
 import { mkdir } from "node:fs/promises";
+import { fileURLToPath } from "node:url";
+import { join } from "node:path";
 import sharp from "sharp";
 
-const input = new URL("../assets/icon.png", import.meta.url);
-const outputDir = new URL("../assets/play-store/", import.meta.url);
+const input = fileURLToPath(new URL("../assets/icon.png", import.meta.url));
+const outputDir = fileURLToPath(new URL("../assets/play-store/", import.meta.url));
 await mkdir(outputDir, { recursive: true });
 
 await sharp(input)
   .resize(512, 512, { fit: "contain", background: "#ffffff" })
   .flatten({ background: "#ffffff" })
   .png()
-  .toFile(new URL("app-icon-512.png", outputDir));
+  .toFile(join(outputDir, "app-icon-512.png"));
 
 const graphic = Buffer.from(`<svg width="1024" height="500" viewBox="0 0 1024 500" xmlns="http://www.w3.org/2000/svg">
   <defs>
@@ -38,6 +40,6 @@ const logo = await sharp(input)
 await sharp(graphic)
   .composite([{ input: logo, left: 42, top: 85 }])
   .png()
-  .toFile(new URL("feature-graphic-1024x500.png", outputDir));
+  .toFile(join(outputDir, "feature-graphic-1024x500.png"));
 
 console.log("Created app-icon-512.png and feature-graphic-1024x500.png");
