@@ -7,6 +7,10 @@ on:
       - "mobile-app/**"
       - ".github/workflows/mobile-app-build.yml"
 
+concurrency:
+  group: kov-mobile-app-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: read
 
