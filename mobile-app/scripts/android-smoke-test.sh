@@ -58,7 +58,7 @@ fi
 
 # Open the homepage's primary Private Career Representation destination, then
 # use Android Back to verify WebView history is handled inside the app.
-adb shell input tap 530 835
+adb shell input tap 540 960
 sleep 8
 adb exec-out screencap -p > "$SCREENSHOT_DIR/03-kov-service-navigation.png"
 adb shell input keyevent 4
@@ -67,5 +67,42 @@ adb exec-out screencap -p > "$SCREENSHOT_DIR/04-kov-back-navigation.png"
 
 test -s "$SCREENSHOT_DIR/03-kov-service-navigation.png"
 test -s "$SCREENSHOT_DIR/04-kov-back-navigation.png"
+
+# Ignore the Android status/navigation bars and confirm both transitions changed
+# actual page pixels. This prevents a successful test with a tap that missed.
+python3 - "$SCREENSHOT_DIR" <<'PY'
+import sys
+from pathlib import Path
+from PIL import Image, ImageChops, ImageStat
+
+folder = Path(sys.argv[1])
+pairs = [
+    ("02-kov-home-content.png", "03-kov-service-navigation.png", "CTA tap did not change the page."),
+    ("03-kov-service-navigation.png", "04-kov-back-navigation.png", "Android Back did not change the page."),
+]
+for first, second, message in pairs:
+    a = Image.open(folder / first).convert("RGB")
+    b = Image.open(folder / second).convert("RGB")
+    if a.size != b.size:
+        raise SystemExit(f"Screenshot sizes differ: {first} {a.size}, {second} {b.size}")
+    # Crop system status and navigation bars; compare the website content area.
+    box = (0, 70, a.width, a.height - 90)
+    diff = ImageChops.difference(a.crop(box), b.crop(box))
+    mean_change = sum(ImageStat.Stat(diff).mean) / 3
+    print(f"{first} -> {second}: mean pixel change {mean_change:.2f}")
+    if mean_change < 2.0:
+        raise SystemExit(message)
+
+# After Back, the app must still be running and in the foreground.
+adb_focus_placeholder = True
+PY
+
+FOCUS_AFTER_BACK="$(adb shell dumpsys activity activities | grep -E -m4 'ResumedActivity|topResumedActivity|mCurrentFocus' || true)"
+WINDOW_AFTER_BACK="$(adb shell dumpsys window | grep -E -m2 'mCurrentFocus|mFocusedApp' || true)"
+if ! printf '%s\\n%s' "$FOCUS_AFTER_BACK" "$WINDOW_AFTER_BACK" | grep -q 'com.kovcareeragency.app'; then
+  echo "KOV app left the foreground after Back navigation." >&2
+  exit 1
+fi
+
 adb shell pidof com.kovcareeragency.app
-echo "KOV app is foreground, no KOV process crash/ANR, scroll and Back-navigation screenshots captured."
+echo "KOV app is foreground, no KOV process crash/ANR, scroll, CTA navigation and Android Back verified."
