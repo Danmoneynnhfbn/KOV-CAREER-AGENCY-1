@@ -35,6 +35,9 @@ jobs:
           print(f"Gzip: {compressed.stat().st_size:,} bytes")
           PY
 
+      - name: Build Cloudflare Pages and validate every published HTML HEAD
+        run: python scripts/build_cloudflare_pages.py
+
       - name: Build the production container image
         run: docker build --pull --tag kov-career-api:ci .
 
