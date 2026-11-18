@@ -5005,20 +5005,7 @@ function renderCountryDirectory() {
 
 if (typeof window !== 'undefined') {
   window.kovCountryDirectory = countryDirectory;
-  const target = document.getElementById('country-directory');
-  if (target) {
-    if (window.kovGeoNamesAdmin1) {
-      renderCountryDirectory();
-    } else {
-      const adminScript = document.createElement('script');
-      adminScript.src = 'assets/geonames-admin1.js';
-      adminScript.addEventListener('load', renderCountryDirectory, { once: true });
-      adminScript.addEventListener('error', () => {
-        target.textContent = 'The GeoNames first-level division reference failed to load.';
-      }, { once: true });
-      document.head.append(adminScript);
-    }
-  }
+  if (document.getElementById('country-directory')) renderCountryDirectory();
 }
 
 if (typeof module !== 'undefined') {
