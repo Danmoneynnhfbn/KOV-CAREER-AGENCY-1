@@ -48,6 +48,8 @@ jobs:
         run: npm run assets:android
       - name: Sync website wrapper
         run: npx cap sync android
+      - name: Configure Maven Central mirror for transient rate limits
+        run: python ../mobile-app/scripts/configure-gradle-mirror.py
       - name: Verify Android 16 target
         run: |
           grep -E 'targetSdkVersion' android/variables.gradle
