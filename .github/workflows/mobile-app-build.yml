@@ -1,0 +1,154 @@
+name: KOV Mobile App Build
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "mobile-app/**"
+      - ".github/workflows/mobile-app-build.yml"
+
+concurrency:
+  group: kov-mobile-app-${{ github.ref }}-${{ github.sha }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  android-release:
+    name: Android debug APK and release AAB
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    defaults:
+      run:
+        working-directory: mobile-app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+      - name: Validate country directory loading performance
+        working-directory: .
+        run: node scripts/validate-country-directory-performance.js
+      - name: Install dependencies
+        run: npm install
+      - name: Audit shipped runtime dependencies
+        run: npm audit --omit=dev --audit-level=high
+      - name: Capture full dependency audit report
+        run: |
+          npm audit --json > npm-audit-report.json || true
+          node -e "const r=require('./npm-audit-report.json'); console.log(JSON.stringify(r.metadata?.vulnerabilities || {})); for (const [name,v] of Object.entries(r.vulnerabilities || {})) console.log(name + ': ' + v.severity + ' | direct=' + v.isDirect + ' | fix=' + JSON.stringify(v.fixAvailable));"
+      - name: Generate Play Store listing artwork
+        run: npm run store:assets
+      - name: Generate Android project
+        run: npx cap add android
+      - name: Install KOV native Android compatibility layer
+        run: cp native/android/MainActivity.java android/app/src/main/java/com/kovcareeragency/app/MainActivity.java
+      - name: Generate KOV Android app icons
+        run: npm run assets:android
+      - name: Sync website wrapper
+        run: npx cap sync android
+      - name: Configure Maven Central mirror for transient rate limits
+        run: python ../mobile-app/scripts/configure-gradle-mirror.py
+      - name: Verify Android 16 target
+        run: |
+          grep -E 'targetSdkVersion' android/variables.gradle
+          grep -Eq 'targetSdkVersion[[:space:]]*=[[:space:]]*36' android/variables.gradle
+      - name: Build debug APK and release App Bundle
+        run: cd android && ./gradlew assembleDebug bundleRelease
+      - name: Upload Android artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: kov-career-agency-android-builds
+          path: |
+            mobile-app/android/app/build/outputs/apk/debug/app-debug.apk
+            mobile-app/android/app/build/outputs/bundle/release/app-release.aab
+            mobile-app/assets/play-store/app-icon-512.png
+            mobile-app/assets/play-store/feature-graphic-1024x500.png
+            mobile-app/npm-audit-report.json
+          if-no-files-found: error
+
+  ios-simulator:
+    name: iOS simulator build
+    runs-on: macos-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: mobile-app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install dependencies
+        run: npm install
+      - name: Generate iOS project
+        run: npx cap add ios
+      - name: Install KOV native iOS compatibility layer
+        run: cp native/ios/ViewController.swift ios/App/App/ViewController.swift
+      - name: Generate KOV iOS app icons
+        run: npm run assets:ios
+      - name: Sync website wrapper
+        run: npx cap sync ios
+      - name: Build iOS simulator app
+        run: |
+          cd ios/App
+          xcodebuild -project App.xcodeproj -scheme App -sdk iphonesimulator -configuration Debug -derivedDataPath build CODE_SIGNING_ALLOWED=NO
+      - name: Install and launch on iPhone simulator
+        run: bash scripts/ios-simulator-smoke-test.sh
+      - name: Upload iPhone simulator screenshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: kov-career-agency-ios-screenshots
+          path: mobile-app/assets/app-store/ios-screenshots/*.png
+          if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kov-career-agency-ios-simulator
+          path: mobile-app/ios/App/build/Build/Products/Debug-iphonesimulator/App.app
+          if-no-files-found: error
+
+  android-ui-screenshots:
+    name: Android emulator smoke test and Play screenshots
+    needs: android-release
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download Android build
+        uses: actions/download-artifact@v4
+        with:
+          name: kov-career-agency-android-builds
+          path: artifacts/android
+      - name: Enable KVM for Android emulator
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+      - name: Set up Python for screenshot assertions
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install screenshot comparison dependency
+        run: python -m pip install --disable-pip-version-check pillow
+      - name: Launch app and capture real app screens
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 36
+          arch: x86_64
+          profile: pixel_2
+          disable-animations: true
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
+          script: bash "$GITHUB_WORKSPACE/mobile-app/scripts/android-smoke-test.sh"
+
+      - name: Upload genuine Android screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kov-career-agency-play-store-screenshots
+          path: mobile-app/assets/play-store/screenshots/*.png
+          if-no-files-found: error
