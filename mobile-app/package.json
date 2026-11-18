@@ -1,0 +1,26 @@
+{
+  "name": "kov-career-agency-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "KOV Career Agency mobile shell for Android and iOS, loading the existing production website.",
+  "scripts": {
+    "build": "node -e \"console.log('KOV mobile shell: no website rebuild required; app loads the live KOV website.')\"",
+    "cap:add:android": "cap add android",
+    "cap:add:ios": "cap add ios",
+    "cap:sync": "cap sync",
+    "android:debug": "cap sync android && cd android && ./gradlew assembleDebug",
+    "ios:sync": "cap sync ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/app": "^7.0.2",
+    "@capacitor/browser": "^7.0.2",
+    "@capacitor/core": "^7.4.3",
+    "@capacitor/ios": "^7.4.3",
+    "@capacitor/keyboard": "^7.0.3",
+    "@capacitor/splash-screen": "^7.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
