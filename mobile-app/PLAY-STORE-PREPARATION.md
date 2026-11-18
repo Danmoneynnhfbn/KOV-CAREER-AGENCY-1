@@ -29,7 +29,7 @@ For professionals, KOV's website explains private career representation, career 
 
 For organisations, KOV's website explains global talent sourcing and executive talent research.
 
-The app displays the official KOV Career Agency website. Website content remains the source of truth, so changes published on the website appear in the app without a separate app-content update.
+The app opens the official KOV Career Agency website from a small local bootstrap. Website content remains the source of truth, so changes published on the website appear when users open or refresh the app without duplicating content or creating a separate platform.
 
 Internet access is required. Information submitted through website forms or account areas is handled under KOV's Privacy Notice.
 
@@ -61,6 +61,7 @@ Data deletion: the existing Privacy Notice has a dedicated “Request access or 
 - Capacitor 8 is selected because its Android target SDK is API 36, which meets Google's new-app target requirement effective August 31, 2026.
 - The CI workflow builds a debug APK for device testing and a release Android App Bundle (AAB).
 - The generated release AAB is unsigned unless a signing key is configured. A signed AAB is required for Play Console upload.
+- The app uses a local bootstrap to navigate to the live website; this is still a remote website wrapper and is not a guarantee of store acceptance.
 - Create or use an RSA upload keystore, keep the JKS file and password private, and enrol the app in Play App Signing. Never commit signing files or passwords to this repository.
 - Confirm the application ID is available and use it consistently; Play package IDs cannot be changed after publishing.
 - Set a monotonically increasing version code for every subsequent Play upload.
@@ -72,7 +73,7 @@ Data deletion: the existing Privacy Notice has a dedicated “Request access or 
 - At least two genuine screenshots of the running app on supported Android devices; do not use mock screens that are not in the app.
 - App contact details and developer identity verified in Play Console.
 
-Use KOV's existing approved logo/brand artwork for the icon and graphic. The current wrapper build has not yet generated real device screenshots.
+Use KOV's existing approved logo/brand artwork for the icon and graphic. The CI run generates emulator screenshots; inspect them for accurate, representative content before submitting.
 
 ## Play Console declarations
 
