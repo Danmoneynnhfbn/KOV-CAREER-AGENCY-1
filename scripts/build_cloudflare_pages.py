@@ -19,7 +19,7 @@ OUT = ROOT / "dist"
 MAX_FILE = 25 * 1024 * 1024
 SKIP_DIRS = {
     ".git", ".github", ".private_admin", ".vscode", "__pycache__", "node_modules",
-    "cloudflare-api", "development", "design-reference", "research",
+    "cloudflare-api", "development", "design-reference", "research", "mobile",
     "tests", "github", "vscode", "supabase", "config", "scripts", "dist",
 }
 SKIP_ROOT_FILES = {
