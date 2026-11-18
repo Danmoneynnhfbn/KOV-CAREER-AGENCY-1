@@ -31,6 +31,9 @@ jobs:
         with:
           distribution: temurin
           java-version: "21"
+      - name: Validate country directory loading performance
+        working-directory: .
+        run: node scripts/validate-country-directory-performance.js
       - name: Install dependencies
         run: npm install
       - name: Audit shipped runtime dependencies
