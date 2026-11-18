@@ -34,10 +34,13 @@ if adb shell cat /sdcard/kov-window.xml | grep -qi "Quickstep isn't responding";
   exit 1
 fi
 
-FOCUS="$(adb shell dumpsys activity activities | grep -m1 'mResumedActivity' || true)"
-echo "Foreground activity: $FOCUS"
-if ! printf '%s' "$FOCUS" | grep -q 'com.kovcareeragency.app'; then
-  echo "KOV app is not the foreground activity." >&2
+FOCUS="$(adb shell dumpsys activity activities | grep -E -m2 'ResumedActivity|topResumedActivity|mCurrentFocus' || true)"
+WINDOW_FOCUS="$(adb shell dumpsys window | grep -E -m1 'mCurrentFocus|mFocusedApp' || true)"
+echo "Activity focus: $FOCUS"
+echo "Window focus: $WINDOW_FOCUS"
+if ! printf '%s\\n%s' "$FOCUS" "$WINDOW_FOCUS" | grep -q 'com.kovcareeragency.app'; then
+  echo "KOV app is not reported as the foreground activity." >&2
+  adb shell dumpsys activity top | tail -80 >&2 || true
   exit 1
 fi
 
