@@ -25,6 +25,10 @@ SCRIPT_RE = re.compile(
 )
 HEAD_RE = re.compile(r"(<head\b[^>]*>)([\s\S]*?)(</head\s*>)", re.I)
 BODY_RE = re.compile(r"<body\b[^>]*>[\s\S]*?</body\s*>", re.I)
+SCRIPT_STYLE_RE = re.compile(
+    r"(<script\b[^>]*>[\s\S]*?</script\s*>|<style\b[^>]*>[\s\S]*?</style\s*>)",
+    re.I,
+)
 ATTR_RE = re.compile(r"""([:\w-]+)\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))""", re.I)
 
 
