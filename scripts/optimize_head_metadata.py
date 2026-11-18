@@ -90,8 +90,9 @@ def set_meta(head: str, key: str, value: str, *, prop: bool = False) -> tuple[st
 
 def read_meta(head: str, key: str, *, prop: bool = False) -> str:
     attr_name = "property" if prop else "name"
-    for match in META_RE.finditer(head):
-        a = attrs(match.group(0))
+    for segment in markup_parts(head)[::2]:
+        for match in META_RE.finditer(segment):
+            a = attrs(match.group(0))
         if a.get(attr_name, "").casefold() == key.casefold():
             return html.unescape(a.get("content", "")).strip()
     return ""
@@ -229,7 +230,7 @@ def optimize_file(path: Path, root: Path) -> dict:
         head, _ = set_meta(head, key, value, prop=is_property)
 
     if kov_scripts:
-        head = head.rstrip() + "\\n" + "\\n".join(kov_scripts) + "\\n"
+        head = head.rstrip() + "\n" + "\n".join(kov_scripts) + "\n"
     updated = original[:match.start(2)] + head + original[match.end(2):]
 
     after_body = BODY_RE.search(updated)
