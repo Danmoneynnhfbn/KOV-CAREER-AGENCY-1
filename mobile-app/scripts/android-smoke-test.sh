@@ -94,12 +94,11 @@ for first, second, message in pairs:
         raise SystemExit(message)
 
 # After Back, the app must still be running and in the foreground.
-adb_focus_placeholder = True
 PY
 
 FOCUS_AFTER_BACK="$(adb shell dumpsys activity activities | grep -E -m4 'ResumedActivity|topResumedActivity|mCurrentFocus' || true)"
 WINDOW_AFTER_BACK="$(adb shell dumpsys window | grep -E -m2 'mCurrentFocus|mFocusedApp' || true)"
-if ! printf '%s\\n%s' "$FOCUS_AFTER_BACK" "$WINDOW_AFTER_BACK" | grep -q 'com.kovcareeragency.app'; then
+if ! printf '%s\n%s' "$FOCUS_AFTER_BACK" "$WINDOW_AFTER_BACK" | grep -q 'com.kovcareeragency.app'; then
   echo "KOV app left the foreground after Back navigation." >&2
   exit 1
 fi
