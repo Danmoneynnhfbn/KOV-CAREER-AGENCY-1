@@ -11,22 +11,31 @@ if [[ ! -d "$APP_PATH" ]]; then
   exit 1
 fi
 
-DEVICE_ID="$(xcrun simctl list devices available | sed -n '/iPhone/ s/.*(\([A-F0-9-]\{36\}\)).*/\1/p' | head -1)"
+echo "Available iPhone simulators:"
+xcrun simctl list devices available | grep -E 'iPhone|-- iOS' || true
+DEVICE_ID="$(xcrun simctl list devices available | sed -n '/iPhone/ s/.*(\([A-Fa-f0-9-]\{36\}\)).*/\1/p' | head -1)"
 if [[ -z "$DEVICE_ID" ]]; then
   echo "No available iPhone simulator device was found." >&2
   xcrun simctl list devices available >&2
   exit 1
 fi
 
-echo "Booting iPhone simulator: $DEVICE_ID"
+echo "Selected iPhone simulator: $DEVICE_ID"
 xcrun simctl boot "$DEVICE_ID" 2>/dev/null || true
-xcrun simctl bootstatus "$DEVICE_ID" -b
-xcrun simctl install "$DEVICE_ID" "$APP_PATH"
-xcrun simctl launch "$DEVICE_ID" "$BUNDLE_ID"
-sleep 25
+if ! timeout 180s xcrun simctl bootstatus "$DEVICE_ID" -b; then
+  echo "iPhone simulator did not finish booting within 180 seconds." >&2
+  xcrun simctl list devices >&2
+  exit 1
+fi
+
+echo "Installing KOV app in the booted simulator."
+timeout 60s xcrun simctl install "$DEVICE_ID" "$APP_PATH"
+echo "Launching KOV app."
+timeout 60s xcrun simctl launch "$DEVICE_ID" "$BUNDLE_ID"
+sleep 20
 
 mkdir -p "$SCREENSHOT_DIR"
-xcrun simctl io "$DEVICE_ID" screenshot "$SCREENSHOT_DIR/01-kov-iphone-home.png"
+timeout 30s xcrun simctl io "$DEVICE_ID" screenshot "$SCREENSHOT_DIR/01-kov-iphone-home.png"
 CONTAINER="$(xcrun simctl get_app_container "$DEVICE_ID" "$BUNDLE_ID" app)"
 if [[ -z "$CONTAINER" || ! -d "$CONTAINER" ]]; then
   echo "KOV app is not installed in the iPhone simulator." >&2
