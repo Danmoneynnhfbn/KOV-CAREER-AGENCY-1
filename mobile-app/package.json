@@ -26,6 +26,6 @@
   "devDependencies": {
     "@capacitor/cli": "^8.0.0",
     "@capacitor/assets": "^4.0.0",
-    "sharp": "^0.34.4"
+    "sharp": "^0.35.5"
   }
 }
