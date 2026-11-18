@@ -122,7 +122,7 @@ def shorten(value: str, limit: int = 158) -> str:
 
 
 def canonical_url(head: str, relative_path: str) -> str:
-    for match in re.finditer(r"<link\b[^>]*>", head, re.I):
+    for match in re.finditer(r"<link\b[^>]*>", SCRIPT_STYLE_RE.sub("", head), re.I):
         tag = match.group(0)
         a = attrs(tag)
         if "canonical" in a.get("rel", "").lower().split() and a.get("href"):
