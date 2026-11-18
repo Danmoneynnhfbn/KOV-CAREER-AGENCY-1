@@ -37,6 +37,17 @@ def attrs(tag: str) -> dict[str, str]:
     }
 
 
+def markup_parts(head: str) -> list[str]:
+    return SCRIPT_STYLE_RE.split(head)
+
+
+def transform_markup(head: str, transform) -> str:
+    parts = markup_parts(head)
+    for index in range(0, len(parts), 2):
+        parts[index] = transform(parts[index])
+    return "".join(parts)
+
+
 def meta_matches(tag: str, key: str, value: str) -> bool:
     a = attrs(tag)
     return a.get(key.lower(), "").casefold() == value.casefold()
@@ -71,7 +82,7 @@ def set_meta(head: str, key: str, value: str, *, prop: bool = False) -> tuple[st
             return set_content(tag, value)
         return tag
 
-    head = META_RE.sub(replace_tag, head)
+    head = transform_markup(head, lambda segment: META_RE.sub(replace_tag, segment))
     if not found:
         head += f'\n<meta {attr_name}="{escape_attr(key)}" content="{escape_attr(value)}">'
     return head, found
@@ -165,12 +176,16 @@ def optimize_file(path: Path, root: Path) -> dict:
             charset_tags.append(tag)
             return ""
         return tag
-    head = META_RE.sub(take_charset, head)
+    head = transform_markup(head, lambda segment: META_RE.sub(take_charset, segment))
     if not charset_tags:
         charset_tags = ['<meta charset="utf-8">']
     head = "\n" + "\n".join(charset_tags) + head.lstrip()
 
-    title = first_text(head, "title") or first_text(original, "h1")
+    head, script_count, saved = compact_and_move_jsonld(head)
+    kov_scripts = SCRIPT_RE.findall(head)
+    head = SCRIPT_RE.sub("", head)
+
+    title = first_text(SCRIPT_STYLE_RE.sub("", head), "title") or first_text(original, "h1")
     description = read_meta(head, "description")
     if not description:
         h1 = first_text(original, "h1")
@@ -213,7 +228,8 @@ def optimize_file(path: Path, root: Path) -> dict:
     for key, value, is_property in social:
         head, _ = set_meta(head, key, value, prop=is_property)
 
-    head, script_count, saved = compact_and_move_jsonld(head)
+    if kov_scripts:
+        head = head.rstrip() + "\\n" + "\\n".join(kov_scripts) + "\\n"
     updated = original[:match.start(2)] + head + original[match.end(2):]
 
     after_body = BODY_RE.search(updated)
