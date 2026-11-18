@@ -39,6 +39,7 @@ const logo = await sharp(input)
   .toBuffer();
 await sharp(graphic)
   .composite([{ input: logo, left: 42, top: 85 }])
+  .flatten({ background: "#f7f9ff" })
   .png()
   .toFile(join(outputDir, "feature-graphic-1024x500.png"));
 
