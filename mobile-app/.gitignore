@@ -1,0 +1,9 @@
+node_modules/
+android/
+ios/
+dist/
+*.keystore
+*.jks
+*.mobileprovision
+*.p12
+*.p8
