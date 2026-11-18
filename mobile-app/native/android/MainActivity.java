@@ -42,16 +42,18 @@ public class MainActivity extends BridgeActivity {
                         "     *,*:before,*:after{box-sizing:border-box;}" +
                         "     img,video,iframe,svg{max-width:100%;}" +
                         "     form,[role=search]{max-width:100%;}" +
+                        "     form:has(input[placeholder*=\\\"Search KOV directory\\\" i]){display:flex!important;flex-wrap:wrap!important;width:100%!important;max-width:100%!important;}" +
+                        "     form:has(input[placeholder*=\\\"Search KOV directory\\\" i]) button{flex:0 1 auto!important;max-width:100%!important;}" +
                         "     input,select,textarea,button{max-width:100%;}" +
                         "     @media(max-width:600px){" +
                         "       input[placeholder*=\\\"Search KOV directory\\\" i]{min-width:0!important;max-width:100%!important;}" +
                         "       input[placeholder*=\\\"Search KOV directory\\\" i]{flex:1 1 180px!important;}" +
-                        "       input[placeholder*=\\\"Search KOV directory\\\" i]{width:100%!important;}" +
+                        "       input[placeholder*=\\\"Search KOV directory\\\" i]{width:auto!important;}" +
                         "     }" +
                         "   ';" +
                         "   document.head.appendChild(style);" +
                         " }" +
-                        " document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT).nextNode();" +
+                        
                         " var walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT),node;" +
                         " while((node=walker.nextNode())){" +
                         "   if(node.parentElement===document.body && node.nodeValue.trim()==='\\\"'){node.nodeValue='';}" +
