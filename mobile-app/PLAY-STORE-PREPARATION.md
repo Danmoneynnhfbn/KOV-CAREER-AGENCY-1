@@ -7,7 +7,7 @@ This document is for the Android app only. It does not create website pages or c
 - Store title: KOV Career Agency
 - Android application ID: `com.kovcareeragency.app`
 - Website loaded by the app: https://www.kovcareeragency.org
-- Privacy notice: https://www.kovcareeragency.org/privacy
+- Privacy notice: https://www.kovcareeragency.org/privacy.html
 - Support contact: daniel@kovcareeragency.org
 - Suggested category: Business
 - Suggested target audience: adults / professionals (18+)
@@ -33,7 +33,7 @@ The app displays the official KOV Career Agency website. Website content remains
 
 Internet access is required. Information submitted through website forms or account areas is handled under KOV's Privacy Notice.
 
-Privacy: https://www.kovcareeragency.org/privacy
+Privacy: https://www.kovcareeragency.org/privacy.html
 Support: daniel@kovcareeragency.org
 
 ## Data Safety — evidence-based draft, not yet a final declaration
@@ -53,7 +53,7 @@ Before completing Data Safety, verify the currently deployed site's actual integ
 
 Encryption: the app loads the KOV site over HTTPS. Verify all embedded endpoints and file upload/download flows use HTTPS before declaring all collected data encrypted in transit.
 
-Data deletion: the current Privacy Notice directs requests to daniel@kovcareeragency.org and says there is no self-service account-deletion control. Confirm that KOV can actually delete all data associated with an account request, including data held by processors where required. The Privacy Notice must be readily reachable inside the app and outside the app, and the deletion request path must be easy to find. Put the existing Privacy Notice URL into the Play Console account-deletion URL field only after confirming that it clearly supports app-account deletion requests and names KOV Career Agency.
+Data deletion: the existing Privacy Notice has a dedicated “Request access or deletion” section and allows users to request deletion by emailing daniel@kovcareeragency.org. Google’s current policy accepts a customer-service email or form as a deletion-request path, but KOV must actually process those requests and delete the associated account data (including data held by processors where required). The Privacy Notice is already linked from the site's footer, so it is reachable inside the website wrapper and externally. Confirm that the email route is monitored and the deletion procedure is operational before entering https://www.kovcareeragency.org/privacy.html as the Play Console account-deletion URL.
 
 ## Technical release requirements
 
