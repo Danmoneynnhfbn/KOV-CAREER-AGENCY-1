@@ -2,6 +2,12 @@
   "appId": "com.kovcareeragency.app",
   "appName": "KOV Career Agency",
   "webDir": "www",
+  "server": {
+    "allowNavigation": [
+      "www.kovcareeragency.org",
+      "kovcareeragency.org"
+    ]
+  },
   "backgroundColor": "#ffffff",
   "plugins": {
     "SplashScreen": {
