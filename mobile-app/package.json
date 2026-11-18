@@ -11,7 +11,8 @@
     "android:release": "cap sync android && cd android && ./gradlew bundleRelease",
     "ios:sync": "cap sync ios",
     "assets:android": "capacitor-assets generate --android --iconBackgroundColor '#ffffff' --splashBackgroundColor '#ffffff'",
-    "assets:ios": "capacitor-assets generate --ios --iconBackgroundColor '#ffffff' --splashBackgroundColor '#ffffff'"
+    "assets:ios": "capacitor-assets generate --ios --iconBackgroundColor '#ffffff' --splashBackgroundColor '#ffffff'",
+    "store:assets": "node scripts/generate-store-assets.mjs"
   },
   "dependencies": {
     "@capacitor/android": "^8.0.0",
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "@capacitor/cli": "^8.0.0",
-    "@capacitor/assets": "^4.0.0"
+    "@capacitor/assets": "^4.0.0",
+    "sharp": "^0.34.4"
   }
 }
