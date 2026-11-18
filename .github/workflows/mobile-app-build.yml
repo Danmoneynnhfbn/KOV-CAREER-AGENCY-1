@@ -28,6 +28,8 @@ jobs:
           java-version: "21"
       - name: Install dependencies
         run: npm install
+      - name: Generate Play Store listing artwork
+        run: npm run store:assets
       - name: Generate Android project
         run: npx cap add android
       - name: Generate KOV Android app icons
@@ -47,6 +49,8 @@ jobs:
           path: |
             mobile-app/android/app/build/outputs/apk/debug/app-debug.apk
             mobile-app/android/app/build/outputs/bundle/release/app-release.aab
+            mobile-app/assets/play-store/app-icon-512.png
+            mobile-app/assets/play-store/feature-graphic-1024x500.png
           if-no-files-found: error
 
   ios-simulator:
