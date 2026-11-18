@@ -81,3 +81,37 @@ jobs:
           name: kov-career-agency-ios-simulator
           path: mobile-app/ios/App/build/Build/Products/Debug-iphonesimulator/App.app
           if-no-files-found: error
+
+  android-ui-screenshots:
+    name: Android emulator smoke test and Play screenshots
+    needs: android-release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download Android build
+        uses: actions/download-artifact@v4
+        with:
+          name: kov-career-agency-android-builds
+          path: artifacts/android
+      - name: Launch app and capture real app screens
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 36
+          arch: x86_64
+          profile: pixel_6
+          disable-animations: true
+          script: |
+            adb install artifacts/android/apk/debug/app-debug.apk
+            adb shell monkey -p com.kovcareeragency.app 1
+            sleep 25
+            mkdir -p mobile-app/assets/play-store/screenshots
+            adb exec-out screencap -p > mobile-app/assets/play-store/screenshots/01-kov-home.png
+            adb shell input swipe 540 1900 540 550 500
+            sleep 4
+            adb exec-out screencap -p > mobile-app/assets/play-store/screenshots/02-kov-home-content.png
+      - name: Upload genuine Android screenshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: kov-career-agency-play-store-screenshots
+          path: mobile-app/assets/play-store/screenshots/*.png
+          if-no-files-found: error
