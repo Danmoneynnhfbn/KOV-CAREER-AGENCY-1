@@ -93,6 +93,14 @@ jobs:
         run: |
           cd ios/App
           xcodebuild -project App.xcodeproj -scheme App -sdk iphonesimulator -configuration Debug -derivedDataPath build CODE_SIGNING_ALLOWED=NO
+      - name: Install and launch on iPhone simulator
+        run: bash scripts/ios-simulator-smoke-test.sh
+      - name: Upload iPhone simulator screenshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: kov-career-agency-ios-screenshots
+          path: mobile-app/assets/app-store/ios-screenshots/*.png
+          if-no-files-found: error
       - uses: actions/upload-artifact@v4
         with:
           name: kov-career-agency-ios-simulator
