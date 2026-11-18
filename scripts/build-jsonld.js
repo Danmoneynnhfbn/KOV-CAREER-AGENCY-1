@@ -141,7 +141,8 @@ function decode(value) {
   }[entity.toLowerCase()]));
 }
 function safeJson(value) {
-  return JSON.stringify(value, null, 2).replace(/</g, '\\u003c').replace(/>/g, '\\u003e').replace(/&/g, '\\u0026');
+  // Compact JSON-LD without dropping or changing any graph nodes or properties.
+  return JSON.stringify(value).replace(/</g, '\\u003c').replace(/>/g, '\\u003e').replace(/&/g, '\\u0026');
 }
 function canonicalFor(html, file) {
   const tag = html.match(/<link\b(?=[^>]*\brel\s*=\s*(["'])canonical\1)[^>]*>/i)?.[0];
@@ -510,8 +511,9 @@ function countsFromPublishedSummary(nodes) {
 }
 function escapeScript(html, nodes) {
   const tag = `<script type="application/ld+json" ${MARKER}>${safeJson({ '@context': 'https://schema.org', '@graph': nodes })}</script>`;
-  if (html.includes(` ${MARKER}`)) return html.replace(new RegExp(`<script\\b(?=[^>]*${MARKER})[^>]*>[\\s\\S]*?<\\/script\\s*>`, 'i'), tag);
-  return html.replace(/<\/head\s*>/i, `${tag}\n</head>`);
+  const withoutGenerated = html.replace(new RegExp(`<script\\\\b(?=[^>]*${MARKER})[^>]*>[\\\\s\\\\S]*?<\\\\/script\\\\s*>`, 'gi'), '');
+  // Keep the complete graph, but place it after normal metadata at the end of HEAD.
+  return withoutGenerated.replace(/<\\/head\\s*>/i, `${tag}\\n</head>`);
 }
 function removeTaxonomyTags(html) {
   return html.replace(/(<head\b[^>]*>)([\s\S]*?)(<\/head\s*>)/i, (all, open, head, close) => {
