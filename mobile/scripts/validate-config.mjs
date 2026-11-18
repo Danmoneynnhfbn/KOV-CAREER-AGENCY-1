@@ -6,15 +6,15 @@ const pkg = JSON.parse(readFileSync(resolve(root, 'package.json'), 'utf8'));
 const config = readFileSync(resolve(root, 'capacitor.config.ts'), 'utf8');
 
 const required = [
-  ['app id', /appId:\s*'org\\.kovcareeragency\\.app'/],
-  ['app name', /appName:\s*'KOV Career Agency'/],
-  ['live site URL', /url:\s*'https:\/\/www\\.kovcareeragency\\.org'/],
-  ['HTTPS only', /cleartext:\s*false/],
-  ['offline fallback', /errorPath:\s*'offline\\.html'/]
+  ['app id', "appId: 'org.kovcareeragency.app'"],
+  ['app name', "appName: 'KOV Career Agency'"],
+  ['live site URL', "url: 'https://www.kovcareeragency.org'"],
+  ['HTTPS only', 'cleartext: false'],
+  ['offline fallback', "errorPath: 'offline.html'"]
 ];
 
-for (const [label, pattern] of required) {
-  if (!pattern.test(config)) throw new Error(`Missing or invalid ${label} in Capacitor config.`);
+for (const [label, value] of required) {
+  if (!config.includes(value)) throw new Error(`Missing or invalid ${label} in Capacitor config.`);
 }
 
 for (const dependency of ['@capacitor/core', '@capacitor/android', '@capacitor/ios', '@capacitor/cli']) {
@@ -23,7 +23,7 @@ for (const dependency of ['@capacitor/core', '@capacitor/android', '@capacitor/i
   }
 }
 
-for (const file of ['www/index.html', 'www/offline.html']) {
+for (const file of ['www/index.html', 'www/offline.html', 'assets/logo.png']) {
   if (!existsSync(resolve(root, file))) throw new Error(`Missing mobile asset: ${file}`);
 }
 
