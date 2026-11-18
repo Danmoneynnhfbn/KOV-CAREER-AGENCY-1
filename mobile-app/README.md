@@ -1,21 +1,27 @@
 # KOV Career Agency mobile app
 
-This is a mobile shell for the existing KOV Career Agency website. It does not
-create a second website, new pages, a new login system, or a separate database.
-The app loads https://www.kovcareeragency.org, so published website updates
-remain the source of truth.
+This project packages the existing KOV Career Agency website for mobile. It does
+not create a second website, new content pages, a new login system, or a
+separate database. The live website remains the source of truth:
+
+- Website: https://www.kovcareeragency.org
+- Privacy notice: https://www.kovcareeragency.org/privacy
+- Support: daniel@kovcareeragency.org
+
+The app's remote-site configuration means content and updates published on the
+website are reflected in the app without rebuilding the app.
 
 ## Platforms
 
-- Android: Capacitor Android project
-- iOS: Capacitor iOS project
+- Android: Capacitor 8; designed for Android 16 / API 36 and Google Play App Bundle output.
+- iOS: Capacitor iOS project and simulator build check.
 
 ## Local setup
 
 Requirements:
-- Node.js 20+
-- Android Studio + Android SDK for Android builds
-- macOS + Xcode for iOS builds
+- Node.js 22+
+- Android Studio and Android SDK (API 36) for Android builds
+- macOS and Xcode for iOS builds
 
 From this directory:
 
@@ -26,29 +32,34 @@ npx cap add ios
 npx cap sync
 ```
 
-Open the native projects:
+Build Android outputs:
 
 ```sh
-npx cap open android
-npx cap open ios
+cd android
+./gradlew assembleDebug bundleRelease
 ```
 
-## Important distribution limitation
+The debug APK is for device testing. The release AAB produced by the current
+workflow is unsigned unless a signing key is explicitly configured. Google
+Play requires a signed Android App Bundle. Keep the upload keystore and its
+password private; do not commit them to GitHub.
 
-This initial implementation uses Capacitor's remote `server.url` setting to
-load the existing live website. Capacitor documents this setting primarily for
-live reload and does not recommend it as a production distribution approach.
-A website-only wrapper may also fail Apple's minimum-functionality review or
-Google Play review. A successful local build does not guarantee store approval.
+## CI builds
 
-Before a public store release:
-1. Confirm platform review requirements and choose an implementation that
-   satisfies them without changing the KOV website experience.
-2. Configure production signing, package identifiers, privacy disclosures,
-   support URL, and store listing assets.
-3. Test navigation, forms, downloads, cookies, external links, file uploads,
-   keyboard behavior, and back navigation on real devices.
-4. Configure verified Android App Links / iOS Universal Links if desired.
+The GitHub Actions workflow `.github/workflows/mobile-app-build.yml` runs the
+Android debug APK and release AAB build, plus an iOS simulator build. Artifacts
+are attached to the workflow run.
 
-No production website files or existing backend services are changed by this
-mobile-app directory.
+## Important Play Store review limitation
+
+The app is intentionally a website presentation layer because that is the
+requested scope. The current app uses Capacitor's remote `server.url` to load
+the live site. Capacitor describes that setting primarily for live reload, not
+as its recommended production distribution method. Google Play also evaluates
+webview apps for owner permission, functionality, content, and user experience.
+KOV controls the website, so owner permission is not the blocker; a reviewer
+may still decide that a website-only wrapper offers insufficient app-specific
+utility. A successful build does not guarantee Play approval.
+
+No production website files, Cloudflare settings, backend services, or
+`master` branch changes are made by this mobile-app project.
