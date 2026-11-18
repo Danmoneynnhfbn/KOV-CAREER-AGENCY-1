@@ -30,35 +30,50 @@ public class MainActivity extends BridgeActivity {
                           var style = document.createElement('style');
                           style.id = 'kov-native-mobile-compat';
                           style.textContent = `
-                            html, body { max-width: 100% !important; overflow-x: hidden !important; }
+                            html, body { width: 100% !important; max-width: 100% !important; overflow-x: hidden !important; }
                             *, *::before, *::after { box-sizing: border-box; }
                             img, video, iframe, svg { max-width: 100%; }
-                            form, [role="search"] { max-width: 100%; }
                             input, select, textarea, button { max-width: 100%; }
+                            @media (max-width: 700px) {
+                              form:has(input[placeholder*="Search KOV directory" i]) {
+                                display: grid !important;
+                                grid-template-columns: minmax(0, 1fr) auto !important;
+                                gap: 8px !important;
+                                width: 100% !important;
+                                max-width: 100% !important;
+                              }
+                              input[placeholder*="Search KOV directory" i] {
+                                width: 100% !important;
+                                min-width: 0 !important;
+                                max-width: 100% !important;
+                              }
+                              form:has(input[placeholder*="Search KOV directory" i]) button {
+                                min-width: 96px !important;
+                                max-width: 100% !important;
+                                white-space: nowrap !important;
+                              }
+                            }
                           `;
                           (document.head || document.documentElement).appendChild(style);
 
                           document.querySelectorAll('input[placeholder*="Search KOV directory" i]').forEach(function(input) {
-                            input.style.minWidth = '0';
-                            input.style.maxWidth = '100%';
-                            input.style.flex = '1 1 180px';
-                            var parent = input.parentElement;
-                            for (var depth = 0; parent && depth < 3; depth++, parent = parent.parentElement) {
-                              parent.style.maxWidth = '100%';
-                              parent.style.boxSizing = 'border-box';
-                              if (parent.tagName === 'FORM' || parent.getAttribute('role') === 'search') {
-                                parent.style.width = '100%';
-                                parent.style.display = 'flex';
-                                parent.style.flexWrap = 'wrap';
-                                break;
-                              }
+                            var form = input.closest('form,[role="search"]');
+                            if (form) {
+                              form.style.setProperty('display', 'grid', 'important');
+                              form.style.setProperty('grid-template-columns', 'minmax(0, 1fr) auto', 'important');
+                              form.style.setProperty('gap', '8px', 'important');
+                              form.style.setProperty('width', '100%', 'important');
+                              form.style.setProperty('max-width', '100%', 'important');
+                              input.style.setProperty('width', '100%', 'important');
+                              input.style.setProperty('min-width', '0', 'important');
+                              input.style.setProperty('max-width', '100%', 'important');
                             }
                           });
 
                           var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
                           var node;
                           while ((node = walker.nextNode())) {
-                            if (node.parentElement === document.body && node.nodeValue.trim() === '"') {
+                            if (node.parentElement === document.body && /^"+$/.test(node.nodeValue.trim())) {
                               node.nodeValue = '';
                             }
                           }
