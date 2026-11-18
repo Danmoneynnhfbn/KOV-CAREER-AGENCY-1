@@ -1,0 +1,118 @@
+name: Build KOV Career Agency mobile apps
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+      - "mobile/**"
+    paths:
+      - "mobile/**"
+      - ".github/workflows/build-mobile-app.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kov-mobile-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  android:
+    name: Android debug APK
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install mobile dependencies
+        working-directory: mobile
+        run: npm install --no-audit --no-fund
+
+      - name: Validate app configuration
+        working-directory: mobile
+        run: npm run validate
+
+      - name: Check live KOV website
+        run: curl --fail --silent --show-error --location https://www.kovcareeragency.org/ --output /dev/null
+
+      - name: Generate Android project
+        working-directory: mobile
+        run: npm run cap:add:android
+
+      - name: Generate branded native icons and splash assets
+        working-directory: mobile
+        run: npm run assets:generate
+
+      - name: Build Android debug APK
+        working-directory: mobile
+        run: npm run build:android:debug
+
+      - name: Upload Android APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: kov-career-agency-android-debug
+          path: mobile/android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 14
+
+  ios:
+    name: iOS Simulator build
+    runs-on: macos-26
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install mobile dependencies
+        working-directory: mobile
+        run: npm install --no-audit --no-fund
+
+      - name: Validate app configuration
+        working-directory: mobile
+        run: npm run validate
+
+      - name: Check live KOV website
+        run: curl --fail --silent --show-error --location https://www.kovcareeragency.org/ --output /dev/null
+
+      - name: Generate iOS project
+        working-directory: mobile
+        run: npm run cap:add:ios
+
+      - name: Generate branded native icons and splash assets
+        working-directory: mobile
+        run: npm run assets:generate
+
+      - name: Build iOS Simulator app
+        working-directory: mobile
+        run: npm run build:ios:simulator
+
+      - name: Package simulator build
+        working-directory: mobile
+        run: ditto -c -k --sequesterRsrc --keepParent build/ios/Build/Products/Debug-iphonesimulator/App.app build/kov-career-agency-ios-simulator.zip
+
+      - name: Upload iOS Simulator app
+        uses: actions/upload-artifact@v4
+        with:
+          name: kov-career-agency-ios-simulator
+          path: mobile/build/kov-career-agency-ios-simulator.zip
+          if-no-files-found: error
+          retention-days: 14
