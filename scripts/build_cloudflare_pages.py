@@ -18,7 +18,7 @@ from optimize_head_metadata import optimize_tree
 OUT = ROOT / "dist"
 MAX_FILE = 25 * 1024 * 1024
 SKIP_DIRS = {
-    ".git", ".github", ".private_admin", ".vscode", "__pycache__",
+    ".git", ".github", ".private_admin", ".vscode", "__pycache__", "node_modules",
     "cloudflare-api", "development", "design-reference", "research",
     "tests", "github", "vscode", "supabase", "config", "scripts", "dist",
 }
