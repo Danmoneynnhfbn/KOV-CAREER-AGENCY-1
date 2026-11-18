@@ -511,9 +511,9 @@ function countsFromPublishedSummary(nodes) {
 }
 function escapeScript(html, nodes) {
   const tag = `<script type="application/ld+json" ${MARKER}>${safeJson({ '@context': 'https://schema.org', '@graph': nodes })}</script>`;
-  const withoutGenerated = html.replace(/<script\\b(?=[^>]*data-kov="discovery")[^>]*>[\\s\\S]*?<\\/script\\s*>/gi, '');
+  const withoutGenerated = html.replace(/<script\b(?=[^>]*data-kov="discovery")[^>]*>[\s\S]*?<\/script\s*>/gi, '');
   // Keep the complete graph, but place it after normal metadata at the end of HEAD.
-  return withoutGenerated.replace(/<\\/head\\s*>/i, `${tag}\\n</head>`);
+  return withoutGenerated.replace(/<\/head\s*>/i, `${tag}\n</head>`);
 }
 function removeTaxonomyTags(html) {
   return html.replace(/(<head\b[^>]*>)([\s\S]*?)(<\/head\s*>)/i, (all, open, head, close) => {
