@@ -223,7 +223,7 @@ def optimize_file(path: Path, root: Path) -> dict:
     final_head_match = HEAD_RE.search(updated)
     final_head = final_head_match.group(2) if final_head_match else ""
     first_head_content = final_head.lstrip()
-    if not re.match(r"<meta\\b[^>]*\\bcharset\\s*=", first_head_content, re.I):
+    if not re.match(r"<meta\b[^>]*\bcharset\s*=", first_head_content, re.I):
         raise ValueError(f"Charset declaration is not first in HEAD: {path.relative_to(root)}")
     if updated.lower().find("charset=") > 1024:
         raise ValueError(f"Charset declaration is beyond the first 1,024 bytes: {path.relative_to(root)}")
