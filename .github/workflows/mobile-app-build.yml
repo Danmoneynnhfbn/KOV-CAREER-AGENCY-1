@@ -11,8 +11,8 @@ permissions:
   contents: read
 
 jobs:
-  android-debug:
-    name: Android debug APK
+  android-release:
+    name: Android debug APK and release AAB
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -32,12 +32,19 @@ jobs:
         run: npx cap add android
       - name: Sync website wrapper
         run: npx cap sync android
-      - name: Build debug APK
-        run: cd android && ./gradlew assembleDebug
-      - uses: actions/upload-artifact@v4
+      - name: Verify Android 16 target
+        run: |
+          grep -E 'targetSdkVersion' android/variables.gradle
+          grep -Eq 'targetSdkVersion[[:space:]]*=[[:space:]]*36' android/variables.gradle
+      - name: Build debug APK and release App Bundle
+        run: cd android && ./gradlew assembleDebug bundleRelease
+      - name: Upload Android artifacts
+        uses: actions/upload-artifact@v4
         with:
-          name: kov-career-agency-android-debug
-          path: mobile-app/android/app/build/outputs/apk/debug/app-debug.apk
+          name: kov-career-agency-android-builds
+          path: |
+            mobile-app/android/app/build/outputs/apk/debug/app-debug.apk
+            mobile-app/android/app/build/outputs/bundle/release/app-release.aab
           if-no-files-found: error
 
   ios-simulator:
