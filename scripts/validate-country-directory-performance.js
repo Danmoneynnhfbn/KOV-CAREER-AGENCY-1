@@ -1,9 +1,10 @@
 #!/usr/bin/env node
-import fs from 'node:fs';
-import vm from 'node:vm';
+const fs = require('node:fs');
+const vm = require('node:vm');
+const path = require('node:path');
 
-const page = fs.readFileSync(new URL('../countries-we-serve.html', import.meta.url), 'utf8');
-const script = fs.readFileSync(new URL('../assets/country-directory.js', import.meta.url), 'utf8');
+const page = fs.readFileSync(path.join(__dirname, '..', 'countries-we-serve.html'), 'utf8');
+const script = fs.readFileSync(path.join(__dirname, '..', 'assets', 'country-directory.js'), 'utf8');
 
 if (/assets\/world-cities\.js["'][^>]*\bdefer\b/.test(page)) {
   throw new Error('The 14 MB world-city dataset is still eagerly loaded by the country page.');
