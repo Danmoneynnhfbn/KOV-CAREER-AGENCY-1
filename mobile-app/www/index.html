@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#ffffff">
+  <meta http-equiv="refresh" content="0;url=https://www.kovcareeragency.org/">
   <title>KOV Career Agency</title>
   <style>
     * { box-sizing: border-box; }
@@ -17,9 +18,14 @@
   <main>
     <section>
       <h1>KOV Career Agency</h1>
-      <p>Connect to the internet to open the KOV Career Agency website.</p>
-      <p><a href="https://www.kovcareeragency.org/">Open KOV Career Agency</a></p>
+      <p id="status">Opening the official KOV Career Agency website…</p>
+      <p><a href="https://www.kovcareeragency.org/">Continue to KOV Career Agency</a></p>
     </section>
   </main>
+  <script>
+    // Keep the live KOV website as the only content source. The app ships this
+    // tiny local bootstrap rather than using Capacitor's live-reload server.url.
+    window.location.replace("https://www.kovcareeragency.org/");
+  </script>
 </body>
 </html>
