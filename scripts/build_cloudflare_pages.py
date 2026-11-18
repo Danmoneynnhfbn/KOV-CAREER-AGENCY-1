@@ -9,9 +9,12 @@ are delivered as verified gzip representations at their original public URLs.
 from __future__ import annotations
 import gzip
 import shutil
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+from optimize_head_metadata import optimize_tree
 OUT = ROOT / "dist"
 MAX_FILE = 25 * 1024 * 1024
 SKIP_DIRS = {
@@ -92,6 +95,11 @@ def main() -> None:
             raise SystemExit(f"Uncompressed asset exceeds Pages 25 MiB limit: {rel} ({size:,} bytes)")
         shutil.copy2(source, destination)
         copied += 1
+
+    # Optimize every published HTML page, including public noindex pages.
+    # The optimizer verifies BODY and robots directives remain byte-identical.
+    head_report = optimize_tree(OUT)
+    print("Verified lossless HEAD/social metadata optimization:", head_report)
 
     worker_source = ROOT / "scripts" / "cloudflare-pages-worker.js"
     shutil.copy2(worker_source, OUT / "_worker.js")
