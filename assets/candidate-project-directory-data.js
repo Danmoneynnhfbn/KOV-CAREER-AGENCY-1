@@ -58,7 +58,7 @@ const allAfrican=new Set(['Algeria','Angola','Benin','Botswana','Burkina Faso','
 const africanMarkets=new Set(['Egypt','Ethiopia','Ghana','Kenya','Morocco','Nigeria','Rwanda','Senegal','South Africa','Tanzania','Tunisia','Uganda']);
 const international=countries.filter(c=>!allAfrican.has(c)),african=[...africanMarkets];
 const seenNames=new Set();
-const profiles=Array.from({length:1200},(_,i)=>{
+const profiles=Array.from({length:1000},(_,i)=>{
  const useAfrica=(i+1)%10===0, pool=useAfrica?african:international, country=pool[(useAfrica?Math.floor(i/10):Math.floor(i/10))%pool.length];
  const fn=firstNames[country]||fallbackFirst, sn=surnames[country]||fallbackLast, n=i+1;
  const first=fn[(n*3+Math.floor(n/7))%fn.length],middle=middleNames[n%middleNames.length],last=sn[(n*5+Math.floor(n/11))%sn.length];
