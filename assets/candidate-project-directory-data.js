@@ -51,6 +51,37 @@ const surnames={
 'Saudi Arabia':['Alharbi','Alqahtani','Alghamdi','Alotaibi','Alzahrani','Almutairi','Alshehri','Alshammari'],
 'United Arab Emirates':['Almansoori','Almazrouei','Alnuaimi','Alshamsi','Alketbi','Alfalasi','Almehairi','Alkaabi']
 };
+Object.assign(firstNames,{
+ 'Italy':['Giulia','Leonardo','Sofia','Matteo','Aurora','Lorenzo','Chiara','Alessandro'],
+ 'Portugal':['João','Inês','Miguel','Leonor','Matilde','Tiago','Beatriz','Diogo'],
+ 'Greece':['Nikos','Eleni','Giorgos','Maria','Dimitris','Sofia','Kostas','Anastasia'],
+ 'Serbia':['Nikola','Milica','Luka','Jovana','Stefan','Ana','Marko','Teodora'],
+ 'Sweden':['Astrid','Erik','Freja','Lars','Linnea','Oscar','Ella','Viktor'],
+ 'Turkey':['Deniz','Zeynep','Emir','Elif','Ece','Arda','Mert','Leyla'],
+ 'Indonesia':['Putri','Budi','Siti','Rizky','Dewi','Aditya','Ayu','Dimas'],
+ 'Philippines':['Maria','Jose','Angelo','Andrea','Miguel','Sofia','Juan','Gabriela'],
+ 'Ethiopia':['Hana','Dawit','Selam','Abebe','Mekdes','Yonas','Meron','Samuel'],
+ 'Vietnam':['Linh','Minh','Anh','Huy','Lan','Mai','Quang','Thao'],
+ 'Thailand':['Narin','Kanya','Anong','Somchai','Pim','Chai','Mali','Suriya'],
+ 'Korea':['Min-jun','Seo-yeon','Ji-ho','Ha-eun','Do-yun','Ji-eun','Seo-jun','Soo-ah']
+});
+Object.assign(surnames,{
+ 'Italy':['Rossi','Russo','Ferrari','Esposito','Romano','Ricci','Conti','Marino'],
+ 'Portugal':['Silva','Santos','Costa','Pereira','Rodrigues','Oliveira','Ferreira','Carvalho'],
+ 'Greece':['Papadopoulos','Pappas','Nikolaidis','Georgiou','Antoniou','Vasilis','Ioannou','Dimitriou'],
+ 'Serbia':['Jovanović','Petrović','Nikolić','Marković','Đorđević','Stojanović','Ilić','Pavlović'],
+ 'Sweden':['Andersson','Johansson','Karlsson','Nilsson','Eriksson','Larsson','Olsson','Persson'],
+ 'Turkey':['Yılmaz','Kaya','Demir','Şahin','Çelik','Yıldız','Aydın','Özdemir'],
+ 'Indonesia':['Wijaya','Santoso','Setiawan','Putra','Sari','Pratama','Hidayat','Saputra'],
+ 'Philippines':['Santos','Reyes','Cruz','Garcia','Mendoza','Bautista','Ramos','Flores'],
+ 'Ethiopia':['Bekele','Alemu','Tesfaye','Kebede','Tadesse','Desta','Girma','Mekonnen'],
+ 'Vietnam':['Nguyen','Tran','Le','Pham','Hoang','Phan','Vu','Dang'],
+ 'Thailand':['Saelim','Srisai','Chaiyaporn','Wong','Boonmee','Kittisak','Rattanakosin','Sriphan'],
+ 'Korea':['Kim','Lee','Park','Choi','Jung','Kang','Cho','Yoon']
+});
+const countryNameStyle={
+ 'Afghanistan':'Turkey','Albania':'Serbia','Algeria':'Morocco','Andorra':'Spain','Argentina':'Mexico','Armenia':'Turkey','Austria':'Germany','Azerbaijan':'Turkey','Bahamas':'United States','Bahrain':'Saudi Arabia','Bangladesh':'India','Barbados':'United States','Belgium':'France','Belize':'Mexico','Benin':'Ghana','Bhutan':'India','Bolivia':'Mexico','Bosnia and Herzegovina':'Serbia','Botswana':'South Africa','Brazil':'Brazil','Brunei':'Indonesia','Bulgaria':'Serbia','Burkina Faso':'Ghana','Burundi':'Kenya','Cambodia':'Thailand','Cameroon':'Nigeria','Canada':'United Kingdom','Cape Verde':'Portugal','Central African Republic':'Ghana','Chad':'Egypt','Chile':'Mexico','China':'China','Colombia':'Mexico','Comoros':'Kenya','Costa Rica':'Mexico','Croatia':'Serbia','Cuba':'Spain','Cyprus':'Greece','Czechia':'Germany','Denmark':'Sweden','Djibouti':'Ethiopia','Dominican Republic':'Spain','Ecuador':'Mexico','El Salvador':'Mexico','Estonia':'Sweden','Eswatini':'South Africa','Ethiopia':'Ethiopia','Fiji':'Australia','Finland':'Sweden','Gabon':'Nigeria','Gambia':'Ghana','Georgia':'Turkey','Guatemala':'Mexico','Guinea':'Ghana','Guyana':'United States','Haiti':'France','Honduras':'Mexico','Hungary':'Germany','Iceland':'Sweden','India':'India','Indonesia':'Indonesia','Iran':'Turkey','Iraq':'Saudi Arabia','Ireland':'United Kingdom','Israel':'Saudi Arabia','Italy':'Italy','Jamaica':'United States','Japan':'Japan','Jordan':'Saudi Arabia','Kazakhstan':'Turkey','Kenya':'Kenya','Kuwait':'Saudi Arabia','Kyrgyzstan':'Turkey','Laos':'Thailand','Latvia':'Sweden','Lebanon':'Saudi Arabia','Lesotho':'South Africa','Liberia':'Ghana','Libya':'Egypt','Lithuania':'Sweden','Luxembourg':'France','Madagascar':'South Africa','Malawi':'Kenya','Malaysia':'Indonesia','Maldives':'India','Mali':'Ghana','Malta':'Italy','Mauritania':'Morocco','Mauritius':'South Africa','Mexico':'Mexico','Moldova':'Serbia','Monaco':'France','Mongolia':'China','Montenegro':'Serbia','Morocco':'Morocco','Mozambique':'South Africa','Myanmar':'Thailand','Namibia':'South Africa','Nepal':'India','Netherlands':'Germany','New Zealand':'Australia','Nicaragua':'Mexico','Niger':'Ghana','Nigeria':'Nigeria','North Macedonia':'Serbia','Norway':'Sweden','Oman':'Saudi Arabia','Pakistan':'India','Panama':'Mexico','Papua New Guinea':'Australia','Paraguay':'Mexico','Peru':'Mexico','Philippines':'Philippines','Poland':'Serbia','Portugal':'Portugal','Qatar':'Saudi Arabia','Romania':'Serbia','Rwanda':'Kenya','Saudi Arabia':'Saudi Arabia','Senegal':'Ghana','Serbia':'Serbia','Seychelles':'South Africa','Sierra Leone':'Ghana','Singapore':'Indonesia','Slovakia':'Serbia','Slovenia':'Serbia','Somalia':'Ethiopia','South Africa':'South Africa','South Korea':'Korea','Spain':'Spain','Sri Lanka':'India','Sudan':'Egypt','Sweden':'Sweden','Switzerland':'Germany','Taiwan':'China','Tanzania':'Kenya','Thailand':'Thailand','Togo':'Ghana','Trinidad and Tobago':'United States','Tunisia':'Morocco','Turkey':'Turkey','Uganda':'Kenya','Ukraine':'Serbia','United Arab Emirates':'United Arab Emirates','United Kingdom':'United Kingdom','United States':'United States','Uruguay':'Mexico','Uzbekistan':'Turkey','Venezuela':'Mexico','Vietnam':'Vietnam','Zambia':'South Africa','Zimbabwe':'South Africa'
+};
 const fallbackFirst=['Alex','Samira','Noah','Leila','Milan','Amara','Elena','Dario','Maya','Elias','Nina','Adam'];
 const middleNames=['Ari','Noor','Kai','Rene','Mina','Lee','Ira','Sami','Jo','Emil','Rae','Tariq','Luca'];
 const fallbackLast=['Morgan','Kovac','Silva','Rahman','Petrov','Costa','Haddad','Novak','Garcia','Bennett','Kim','Mendes'];
@@ -60,7 +91,8 @@ const international=countries.filter(c=>!allAfrican.has(c)),african=[...africanM
 const seenNames=new Set();
 const profiles=Array.from({length:1200},(_,i)=>{
  const useAfrica=(i+1)%10===0, pool=useAfrica?african:international, country=pool[(useAfrica?Math.floor(i/10):Math.floor(i/10))%pool.length];
- const fn=firstNames[country]||fallbackFirst, sn=surnames[country]||fallbackLast, n=i+1;
+ const style=countryNameStyle[country]||'United States';
+ const fn=firstNames[country]||firstNames[style]||fallbackFirst, sn=surnames[country]||surnames[style]||fallbackLast, n=i+1;
  const first=fn[(n*3+Math.floor(n/7))%fn.length],middle=middleNames[n%middleNames.length],last=sn[(n*5+Math.floor(n/11))%sn.length];
  let displayName=first+' '+middle+' '+last,repair=0;
  while(seenNames.has(displayName)){displayName=first+' '+middle+' '+middleNames[(n+repair*5+7)%middleNames.length]+' '+last;repair++;}
