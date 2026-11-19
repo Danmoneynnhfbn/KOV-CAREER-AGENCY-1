@@ -2514,6 +2514,7 @@
 
 
 <script>(function(){const menu=document.getElementById('site-mobile-menu');const toggle=document.querySelector('[data-mobile-menu-toggle]');const closeBtn=document.querySelector('[data-mobile-menu-close]');const menuLinks=document.querySelectorAll('[data-mobile-menu-link]');if(!menu||!toggle)return;const openMenu=()=>{menu.classList.add('is-open');menu.setAttribute('aria-hidden','false');document.body.classList.add('mobile-nav-open');};const closeMenu=()=>{menu.classList.remove('is-open');menu.setAttribute('aria-hidden','true');document.body.classList.remove('mobile-nav-open');};toggle.addEventListener('click',openMenu);closeBtn&&closeBtn.addEventListener('click',closeMenu);menu.addEventListener('click',event=>{if(event.target===menu)closeMenu();});menuLinks.forEach(link=>link.addEventListener('click',closeMenu));document.addEventListener('keydown',event=>{if(event.key==='Escape'&&menu.classList.contains('is-open'))closeMenu();});})();</script><script src="assets/faq-directory.js" defer></script>
+<script src="assets/faqs-page-fix.js?v=1" defer></script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     const faqDirectory = window.kovFaqDirectory || [];
