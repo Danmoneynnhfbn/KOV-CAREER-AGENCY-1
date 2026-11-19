@@ -47,28 +47,10 @@ const namePools={
 "North American":{first:['Avery','Benjamin','Chloe','Daniel','Elijah','Emma','Ethan','Grace','Harper','Isabella','Jackson','James','Jordan','Liam','Logan'],last:['Adams','Anderson','Baker','Brooks','Campbell','Carter','Clark','Collins','Cooper','Davis','Edwards','Evans','Garcia','Green','Hall']},
 "Oceania":{first:['Aroha','Ariki','Ethan','Hana','Isla','Jack','Kiri','Lani','Leilani','Manaia','Moana','Noa','Oliver','Pita','Rangi'],last:['Aiono','Bennett','Clarke','Fale','Finau','Hale','Hiku','Jackson','Katoa','Kealoha','King','Latu','Matai','Mikaere','Ngata']}
 };
-const nameCounters=new Map(),usedNames=new Set();
-function nameForCountry(country,index){
- const region=countryRegion[country],pool=namePools[region];
- if(!pool)throw new Error('Missing country-aligned name group: '+country);
- const ordinal=nameCounters.get(country)||0;nameCounters.set(country,ordinal+1);
- const combinations=pool.first.length*pool.last.length,base=(index*17+ordinal*23)%combinations;
- for(let attempt=0;attempt<combinations;attempt++){
-  const pair=(base+attempt)%combinations;
-  const candidate=pool.first[pair%pool.first.length]+' '+pool.last[Math.floor(pair/pool.first.length)];
-  if(!usedNames.has(candidate)){usedNames.add(candidate);return candidate;}
- }
- throw new Error('Could not generate a unique full name for '+country+' record '+(index+1));
-}
-
 const industries=['Artificial Intelligence and Machine Learning','Enterprise Software','Banking and Financial Services','Healthcare and Pharmaceuticals','Cybersecurity','Engineering and Manufacturing','Telecommunications','Energy and Infrastructure','Consulting and Professional Services','Human Resources','Education and EdTech','Logistics and Supply Chain','Retail and Consumer Goods','Media and Entertainment','Legal Services','Real Estate','Insurance','Aerospace and Aviation','Automotive','Public Sector','Agriculture and Food Systems','Hospitality and Tourism','Climate and Sustainability','Biotechnology','E-commerce','Fintech','Construction','Data and Analytics','Nonprofit and Development','Mining and Natural Resources'];
-const roles=['Chief Technology Officer','VP Engineering','Director of Software Engineering','Chief Product Officer','VP Product','Product Director','Chief Financial Officer','VP Finance','Finance Director','Chief Medical Officer','VP Clinical Operations','Healthcare Strategy Director','Chief Information Security Officer','VP Cybersecurity','Security Engineering Director','Chief Operating Officer','VP Operations','Engineering Program Manager','Chief Information Officer','Network Strategy Director','Chief Sustainability Officer','Infrastructure Director','Managing Director','Strategy Director','Principal Consultant','Chief People Officer','VP Human Resources','People Operations Director','Chief Learning Officer','Academic Director','Chief Supply Chain Officer','VP Logistics','Procurement Director','Chief Commercial Officer','VP Retail','Brand Director','Chief Marketing Officer','VP Communications','Media Strategy Director','Legal Director'];
 const services=['Private Career Representation','Professional Positioning Intelligence (PPI)','Professional and Vocational Profile Assessment','Career Strategy and Target-Company Research','Executive Resume and CV Development','ATS Keyword Research and Optimization','LinkedIn Profile Optimization','Executive Biography Development','Leadership Summary Development','Executive Leadership Portfolio','Career Documentation and Professional Branding','Portfolio and Professional Website Development','Direct Professional Outreach','Reverse Recruiting','Interview Preparation and Coaching','Career Coaching'];
-const projects=['Leadership Positioning and Market Review','Executive Career Representation Plan','Professional Profile and CV Refresh','LinkedIn Presence Optimization','Career Direction and Target-Market Assessment','Executive Biography and Leadership Summary','Portfolio Architecture and Development','Personal Career Website Brief','Target-Company Research Programme','Interview Preparation and Leadership Narrative','Professional Brand and Documentation Suite','Reverse Recruiting Strategy'];
-const values=[850,950,1100,1250,1400,1550,1750,1900,2100,2250,2500,2750,3000,3250,3500,3750,4000,4250,4500,4800,5000];
-const start=Date.UTC(2024,0,1);
-const portraitFiles=['../assets/profile-portraits/portrait-01.avif','../assets/profile-portraits/portrait-02.avif','../assets/profile-portraits/portrait-03.avif','../assets/profile-portraits/portrait-04.avif'];
-const profiles=Array.from({length:1000},(_,i)=>({id:String(i+1).padStart(4,'0'),name:nameForCountry(countries[i%countries.length],i),country:countries[i%countries.length],flag:flags[i%flags.length],industry:industries[(i*7+Math.floor(i/11))%industries.length],jobTitle:roles[(i*13+Math.floor(i/17))%roles.length],service:services[(i*7+Math.floor(i/9))%services.length],project:projects[(i*5+Math.floor(i/19))%projects.length],date:new Date(start+((i*17+(i%23)*11)%1000)*86400000).toISOString().slice(0,10),amount:values[(i*11+Math.floor(i/7))%values.length],portrait:portraitFiles[i%portraitFiles.length]}));
-if(profiles.length!==1000||new Set(profiles.map(p=>p.name)).size!==1000||countries.length<125||Object.keys(countryRegion).length!==countries.length||flags.length!==countries.length)throw Error('Profile data integrity check failed: record count, unique names, country mapping or flag pairing failed');
+// Add verified records here. Fields: id, name, country, flag, portrait, jobTitle, project, date (YYYY-MM-DD), amount, industry, service, location, engagement, rating (1-5 only when verified), review (approved client wording).
+// Use distinct, consented portraits stored in assets/profile-portraits/.
+const profiles=[];
 window.KOV_CANDIDATE_PROJECTS={profiles,countries,industries,services};
 })();
