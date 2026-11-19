@@ -46,7 +46,7 @@ COMPRESS_AS = {
 
 
 def natural_sort_key(value: str):
-    return tuple(int(part) if part.isdigit() else part.casefold()
+    return tuple((1, int(part)) if part.isdigit() else (0, part.casefold())
                  for part in re.split(r"(\d+)", value))
 
 
