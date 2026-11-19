@@ -33,3 +33,6 @@
 .profile-layout-d .kov-project-fields{grid-template-columns:1fr 1fr;gap:.55rem .9rem}
 .profile-layout-d .kov-project-field{padding:.4rem .55rem;border-radius:.4rem;background:#fff}
 .kov-project-avatar-illustrated{box-shadow:0 2px 9px rgb(20 45 55 / 10%)}
+
+.kov-project-disclosure{max-width:64rem;margin:1.25rem auto 0;padding:.85rem 1rem;border:1px solid #d9e2df;border-radius:.7rem;background:#f7faf8;color:#53666c;font-size:.78rem;line-height:1.55;text-align:left}
+.kov-project-flag{display:inline-grid;place-items:center;min-width:1.35rem;min-height:1.1rem;border-radius:.2rem;font-size:1.15rem;line-height:1;filter:saturate(1.08)}
