@@ -68,7 +68,7 @@ const profiles=Array.from({length:1000},(_,i)=>{
  seenNames.add(displayName);
  const cityList=cities[country]||['Capital City','Central Business District','Metro Area'];
  const industry=industries[(n*7)%industries.length], role=roles[(n*11)%roles.length], project=projects[(n*13)%projects.length];
- return {id:'profile-'+String(n).padStart(4,'0'),name:displayName,country,flag:flagMap[country]||'🌍',portrait:(window.KOV_CANDIDATE_PORTRAITS||[])[i]||'',jobTitle:role,project,projectDetails:projectDetails[(n*3)%projectDetails.length],date:'2025-'+String((n%12)+1).padStart(2,'0')+'-'+String((n%27)+1).padStart(2,'0'),amount:[2500,4500,7500,12000,18000,25000,35000,50000][n%8],industry,service:services[(n*5)%services.length],location:cityList[n%cityList.length]+', '+country,engagement:engagements[(n*3)%engagements.length],rating:'',review:''};
+ return {id:'profile-'+String(n).padStart(4,'0'),name:displayName,country,flag:flagMap[country]||'🌍',portrait:(window.KOV_CANDIDATE_PORTRAITS||[])[i]||'',jobTitle:role,project,projectDetails:projectDetails[(n*3)%projectDetails.length],date:'2025-'+String((n%12)+1).padStart(2,'0')+'-'+String((n%27)+1).padStart(2,'0'),amount:[2500,4500,7500,12000,18000,25000,35000,50000][n%8],industry,service:services[(n*5)%services.length],location:cityList[n%cityList.length]+', '+country,engagement:engagements[(n*3)%engagements.length],rating:'',review:(window.KOV_CANDIDATE_FEEDBACK||[])[i]||''};
 });
 window.KOV_CANDIDATE_PROJECTS={profiles,countries:[...international,...african],industries,services,fictional:true};
 })();
