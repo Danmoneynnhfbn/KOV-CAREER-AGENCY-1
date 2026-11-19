@@ -52,6 +52,7 @@ const surnames={
 'United Arab Emirates':['Almansoori','Almazrouei','Alnuaimi','Alshamsi','Alketbi','Alfalasi','Almehairi','Alkaabi']
 };
 const fallbackFirst=['Alex','Samira','Noah','Leila','Milan','Amara','Elena','Dario','Maya','Elias','Nina','Adam'];
+const middleNames=['Ari','Noor','Kai','Rene','Mina','Lee','Ira','Sami','Jo','Emil','Rae','Tariq','Luca'];
 const fallbackLast=['Morgan','Kovac','Silva','Rahman','Petrov','Costa','Haddad','Novak','Garcia','Bennett','Kim','Mendes'];
 const allAfrican=new Set(['Algeria','Angola','Benin','Botswana','Burkina Faso','Burundi','Cameroon','Cape Verde','Central African Republic','Chad','Comoros','Djibouti','Egypt','Eswatini','Ethiopia','Gabon','Gambia','Ghana','Guinea','Kenya','Lesotho','Liberia','Libya','Madagascar','Malawi','Mali','Mauritania','Mauritius','Morocco','Mozambique','Namibia','Niger','Nigeria','Rwanda','Senegal','Seychelles','Sierra Leone','Somalia','South Africa','Sudan','Tanzania','Togo','Tunisia','Uganda','Zambia','Zimbabwe']);
 const africanMarkets=new Set(['Egypt','Ethiopia','Ghana','Kenya','Morocco','Nigeria','Rwanda','Senegal','South Africa','Tanzania','Tunisia','Uganda']);
@@ -59,10 +60,10 @@ const international=countries.filter(c=>!allAfrican.has(c)),african=[...africanM
 const profiles=Array.from({length:1200},(_,i)=>{
  const useAfrica=(i+1)%10===0, pool=useAfrica?african:international, country=pool[(useAfrica?Math.floor(i/10):Math.floor(i/10))%pool.length];
  const fn=firstNames[country]||fallbackFirst, sn=surnames[country]||fallbackLast, n=i+1;
- const first=fn[(n*3+Math.floor(n/7))%fn.length],last=sn[(n*5+Math.floor(n/11))%sn.length];
+ const first=fn[(n*3+Math.floor(n/7))%fn.length],middle=middleNames[n%middleNames.length],last=sn[(n*5+Math.floor(n/11))%sn.length];
  const cityList=cities[country]||['Capital City','Central Business District','Metro Area'];
  const industry=industries[(n*7)%industries.length], role=roles[(n*11)%roles.length], project=projects[(n*13)%projects.length];
- return {id:'profile-'+String(n).padStart(4,'0'),name:first+' '+last,country,flag:flagMap[country]||'🌍',portrait:'',jobTitle:role,project,projectDetails:projectDetails[(n*3)%projectDetails.length],date:'2025-'+String((n%12)+1).padStart(2,'0')+'-'+String((n%27)+1).padStart(2,'0'),amount:[2500,4500,7500,12000,18000,25000,35000,50000][n%8],industry,service:services[(n*5)%services.length],location:cityList[n%cityList.length]+', '+country,engagement:engagements[(n*3)%engagements.length],rating:'',review:''};
+ return {id:'profile-'+String(n).padStart(4,'0'),name:first+' '+middle+' '+last,country,flag:flagMap[country]||'🌍',portrait:'',jobTitle:role,project,projectDetails:projectDetails[(n*3)%projectDetails.length],date:'2025-'+String((n%12)+1).padStart(2,'0')+'-'+String((n%27)+1).padStart(2,'0'),amount:[2500,4500,7500,12000,18000,25000,35000,50000][n%8],industry,service:services[(n*5)%services.length],location:cityList[n%cityList.length]+', '+country,engagement:engagements[(n*3)%engagements.length],rating:'',review:''};
 });
 window.KOV_CANDIDATE_PROJECTS={profiles,countries:[...international,...african],industries,services,fictional:true};
 })();
