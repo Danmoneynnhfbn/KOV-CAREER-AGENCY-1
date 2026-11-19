@@ -49,3 +49,6 @@
 @media(max-width:62rem){.kov-project-controls{grid-template-columns:repeat(2,minmax(0,1fr))}.kov-project-search{grid-column:1/-1}.kov-project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:42rem){.kov-project-directory{width:min(100% - 1.2rem,86rem)}.kov-project-stats{gap:.45rem}.kov-project-stats div{padding:.7rem .4rem}.kov-project-stats strong{font-size:1.35rem}.kov-project-stats span{font-size:.65rem}.kov-project-controls{grid-template-columns:1fr}.kov-project-search{grid-column:auto}.kov-project-grid{grid-template-columns:1fr}.kov-project-results-line{align-items:flex-start}.kov-project-photo-wrap{height:12rem}.kov-project-card-body{padding:1rem}}
 @media(prefers-reduced-motion:reduce){.kov-project-card{transition:none}.kov-project-card:hover{transform:none}}
+.kov-project-rating-display{display:flex;align-items:center;gap:.45rem;flex-wrap:wrap}
+.kov-project-stars{color:#d69b24;font-size:1rem;line-height:1;letter-spacing:.08em;white-space:nowrap}
+.kov-project-rating-note{border-radius:99rem;padding:.22rem .45rem;background:#fff7e5;color:#80601d;font-size:.6rem;font-weight:750;letter-spacing:.02em}
