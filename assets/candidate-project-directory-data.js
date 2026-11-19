@@ -58,6 +58,7 @@ const allAfrican=new Set(['Algeria','Angola','Benin','Botswana','Burkina Faso','
 const africanMarkets=new Set(['Egypt','Ethiopia','Ghana','Kenya','Morocco','Nigeria','Rwanda','Senegal','South Africa','Tanzania','Tunisia','Uganda']);
 const international=countries.filter(c=>!allAfrican.has(c)),african=[...africanMarkets];
 const seenNames=new Set();
+// INTERNAL OWNER NOTE: Seed profile identities and project fields are editable. Replace them with approved records before production publication.
 const profiles=Array.from({length:1000},(_,i)=>{
  const useAfrica=(i+1)%10===0, pool=useAfrica?african:international, country=pool[(useAfrica?Math.floor(i/10):Math.floor(i/10))%pool.length];
  const fn=firstNames[country]||fallbackFirst, sn=surnames[country]||fallbackLast, n=i+1;
@@ -67,7 +68,7 @@ const profiles=Array.from({length:1000},(_,i)=>{
  seenNames.add(displayName);
  const cityList=cities[country]||['Capital City','Central Business District','Metro Area'];
  const industry=industries[(n*7)%industries.length], role=roles[(n*11)%roles.length], project=projects[(n*13)%projects.length];
- return {id:'profile-'+String(n).padStart(4,'0'),name:displayName,country,flag:flagMap[country]||'🌍',portrait:'',jobTitle:role,project,projectDetails:projectDetails[(n*3)%projectDetails.length],date:'2025-'+String((n%12)+1).padStart(2,'0')+'-'+String((n%27)+1).padStart(2,'0'),amount:[2500,4500,7500,12000,18000,25000,35000,50000][n%8],industry,service:services[(n*5)%services.length],location:cityList[n%cityList.length]+', '+country,engagement:engagements[(n*3)%engagements.length],rating:'',review:''};
+ return {id:'profile-'+String(n).padStart(4,'0'),name:displayName,country,flag:flagMap[country]||'🌍',portrait:(window.KOV_CANDIDATE_PORTRAITS||[])[i]||'',jobTitle:role,project,projectDetails:projectDetails[(n*3)%projectDetails.length],date:'2025-'+String((n%12)+1).padStart(2,'0')+'-'+String((n%27)+1).padStart(2,'0'),amount:[2500,4500,7500,12000,18000,25000,35000,50000][n%8],industry,service:services[(n*5)%services.length],location:cityList[n%cityList.length]+', '+country,engagement:engagements[(n*3)%engagements.length],rating:'',review:''};
 });
 window.KOV_CANDIDATE_PROJECTS={profiles,countries:[...international,...african],industries,services,fictional:true};
 })();

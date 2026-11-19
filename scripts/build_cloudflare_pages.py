@@ -8,8 +8,11 @@ are delivered as verified gzip representations at their original public URLs.
 """
 from __future__ import annotations
 import gzip
+import json
+import re
 import shutil
 import sys
+import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -17,6 +20,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from optimize_head_metadata import optimize_tree
 OUT = ROOT / "dist"
 MAX_FILE = 25 * 1024 * 1024
+CANDIDATE_IMAGE_ARCHIVE = ROOT / "assets" / "KOV_Candidate_Images_Compressed.zip"
 SKIP_DIRS = {
     ".git", ".github", ".private_admin", ".vscode", "__pycache__", "node_modules",
     "cloudflare-api", "development", "design-reference", "research", "mobile",
@@ -40,6 +44,64 @@ COMPRESS_AS = {
     Path("data/taxonomy/verified-expanded-taxonomy.json"),
 }
 
+
+def natural_sort_key(value: str):
+    return tuple(int(part) if part.isdigit() else part.casefold()
+                 for part in re.split(r"(\d+)", value))
+
+
+def extract_candidate_portraits() -> int:
+    """Unpack the owner-provided archive into numbered public portrait assets."""
+    output_dir = OUT / "assets" / "candidate-project-portraits"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    urls: list[str] = []
+    allowed = {".avif", ".webp", ".png", ".jpg", ".jpeg"}
+    if CANDIDATE_IMAGE_ARCHIVE.exists():
+        with zipfile.ZipFile(CANDIDATE_IMAGE_ARCHIVE) as archive:
+            members = [
+                item for item in archive.infolist()
+                if not item.is_dir()
+                and Path(item.filename).suffix.lower() in allowed
+                and not any(part.startswith(".") or part == "__MACOSX"
+                            for part in Path(item.filename).parts)
+            ]
+            members.sort(key=lambda item: natural_sort_key(item.filename))
+            for index, item in enumerate(members[:1000], start=1):
+                extension = Path(item.filename).suffix.lower()
+                filename = f"profile-{index:04d}{extension}"
+                destination = output_dir / filename
+                with archive.open(item) as source, destination.open("wb") as target:
+                    shutil.copyfileobj(source, target)
+                urls.append(f"/assets/candidate-project-portraits/{filename}")
+
+    manifest = OUT / "assets" / "candidate-project-directory-portraits.js"
+    manifest.parent.mkdir(parents=True, exist_ok=True)
+    manifest.write_text(
+        "/* INTERNAL OWNER NOTE: Portrait order follows the sorted source archive. */\n"
+        "window.KOV_CANDIDATE_PORTRAITS = "
+        + json.dumps(urls, ensure_ascii=False, separators=(",", ":")) + ";\n",
+        encoding="utf-8",
+    )
+
+    # Replace the first-page fallback SVGs with the corresponding portrait assets.
+    fallback_page = OUT / "resources" / "candidate-project-directory.html"
+    if fallback_page.exists() and urls:
+        page = fallback_page.read_text(encoding="utf-8")
+        image_tag = re.compile(
+            r'<img class="kov-project-avatar[^"]*" src="[^"]*" alt="[^"]*" loading="lazy">'
+        )
+        matches = list(image_tag.finditer(page))
+        for index, match in reversed(list(enumerate(matches[:min(24, len(urls))], start=1))):
+            tag = match.group(0)
+            tag = re.sub(r'src="[^"]*"', 'src="../' + urls[index - 1].lstrip("/") + '"', tag, count=1)
+            tag = re.sub(r'alt="[^"]*"', f'alt="Professional profile portrait {index:04d}"', tag, count=1)
+            page = page[:match.start()] + tag + page[match.end():]
+        fallback_page.write_text(page, encoding="utf-8", newline="")
+
+    print(f"Candidate profile portraits extracted: {len(urls):,}")
+    return len(urls)
+
+
 def main() -> None:
     if OUT.exists():
         shutil.rmtree(OUT)
@@ -52,6 +114,9 @@ def main() -> None:
         if OUT in source.parents:
             continue
         if not source.is_file():
+            continue
+        if source.name == "KOV_Candidate_Images_Compressed.zip":
+            skipped += 1
             continue
         rel = source.relative_to(ROOT)
         if rel.parts[0] == "staging" and rel.as_posix() not in PUBLIC_STAGING_PAGES:
@@ -96,7 +161,9 @@ def main() -> None:
         shutil.copy2(source, destination)
         copied += 1
 
-    # Optimize every published HTML page, including public noindex pages.
+    portrait_count = extract_candidate_portraits()
+
+    # Optimize every published HTML page, including public pages.
     # The optimizer verifies BODY and robots directives remain byte-identical.
     head_report = optimize_tree(OUT)
     print("Verified lossless HEAD/social metadata optimization:", head_report)
@@ -107,7 +174,7 @@ def main() -> None:
         "/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n",
         encoding="utf-8",
     )
-    print(f"Cloudflare Pages output ready: {copied} files copied, {compressed} catalogues compressed, {skipped} internal files skipped.")
+    print(f"Cloudflare Pages output ready: {copied} files copied, {compressed} catalogues compressed, {skipped} internal files skipped, {portrait_count:,} candidate portraits published.")
 
 if __name__ == "__main__":
     main()
