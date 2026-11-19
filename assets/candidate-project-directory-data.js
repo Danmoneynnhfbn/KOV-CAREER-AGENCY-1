@@ -2,60 +2,40 @@
 'use strict';
 const countries=["Afghanistan","Albania","Algeria","Andorra","Angola","Antigua and Barbuda","Argentina","Armenia","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belgium","Belize","Benin","Bhutan","Bolivia","Bosnia and Herzegovina","Botswana","Brazil","Brunei","Bulgaria","Burkina Faso","Burundi","Cambodia","Cameroon","Canada","Cape Verde","Central African Republic","Chad","Chile","China","Colombia","Comoros","Costa Rica","Croatia","Cuba","Cyprus","Czechia","Denmark","Djibouti","Dominica","Dominican Republic","Ecuador","Egypt","El Salvador","Estonia","Eswatini","Ethiopia","Fiji","Finland","France","Gabon","Gambia","Georgia","Germany","Ghana","Greece","Grenada","Guatemala","Guinea","Guyana","Haiti","Honduras","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","Israel","Italy","Jamaica","Japan","Jordan","Kazakhstan","Kenya","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Lesotho","Liberia","Libya","Liechtenstein","Lithuania","Luxembourg","Madagascar","Malawi","Malaysia","Maldives","Mali","Malta","Mauritania","Mauritius","Mexico","Moldova","Monaco","Mongolia","Montenegro","Morocco","Mozambique","Myanmar","Namibia","Nepal","Netherlands","New Zealand","Nicaragua","Niger","Nigeria","North Macedonia","Norway","Oman","Pakistan","Panama","Papua New Guinea","Paraguay","Peru","Philippines","Poland","Portugal","Qatar","Romania","Rwanda","Saudi Arabia","Senegal","Serbia","Seychelles","Sierra Leone","Singapore","Slovakia","Slovenia","Somalia","South Africa","South Korea","Spain","Sri Lanka","Sudan","Sweden","Switzerland","Taiwan","Tanzania","Thailand","Togo","Trinidad and Tobago","Tunisia","Turkey","Uganda","Ukraine","United Arab Emirates","United Kingdom","United States","Uruguay","Uzbekistan","Venezuela","Vietnam","Zambia","Zimbabwe"];
 const flags=['🇦🇫','🇦🇱','🇩🇿','🇦🇩','🇦🇴','🇦🇬','🇦🇷','🇦🇲','🇦🇺','🇦🇹','🇦🇿','🇧🇸','🇧🇭','🇧🇩','🇧🇧','🇧🇪','🇧🇿','🇧🇯','🇧🇹','🇧🇴','🇧🇦','🇧🇼','🇧🇷','🇧🇳','🇧🇬','🇧🇫','🇧🇮','🇰🇭','🇨🇲','🇨🇦','🇨🇻','🇨🇫','🇹🇩','🇨🇱','🇨🇳','🇨🇴','🇰🇲','🇨🇷','🇭🇷','🇨🇺','🇨🇾','🇨🇿','🇩🇰','🇩🇯','🇩🇲','🇩🇴','🇪🇨','🇪🇬','🇸🇻','🇪🇪','🇸🇿','🇪🇹','🇫🇯','🇫🇮','🇫🇷','🇬🇦','🇬🇲','🇬🇪','🇩🇪','🇬🇭','🇬🇷','🇬🇩','🇬🇹','🇬🇳','🇬🇾','🇭🇹','🇭🇳','🇭🇺','🇮🇸','🇮🇳','🇮🇩','🇮🇷','🇮🇶','🇮🇪','🇮🇱','🇮🇹','🇯🇲','🇯🇵','🇯🇴','🇰🇿','🇰🇪','🇰🇼','🇰🇬','🇱🇦','🇱🇻','🇱🇧','🇱🇸','🇱🇷','🇱🇾','🇱🇮','🇱🇹','🇱🇺','🇲🇬','🇲🇼','🇲🇾','🇲🇻','🇲🇱','🇲🇹','🇲🇷','🇲🇺','🇲🇽','🇲🇩','🇲🇨','🇲🇳','🇲🇪','🇲🇦','🇲🇿','🇲🇲','🇳🇦','🇳🇵','🇳🇱','🇳🇿','🇳🇮','🇳🇪','🇳🇬','🇲🇰','🇳🇴','🇴🇲','🇵🇰','🇵🇦','🇵🇬','🇵🇾','🇵🇪','🇵🇭','🇵🇱','🇵🇹','🇶🇦','🇷🇴','🇷🇼','🇸🇦','🇸🇳','🇷🇸','🇸🇨','🇸🇱','🇸🇬','🇸🇰','🇸🇮','🇸🇴','🇿🇦','🇰🇷','🇪🇸','🇱🇰','🇸🇩','🇸🇪','🇨🇭','🇹🇼','🇹🇿','🇹🇭','🇹🇬','🇹🇹','🇹🇳','🇹🇷','🇺🇬','🇺🇦','🇦🇪','🇬🇧','🇺🇸','🇺🇾','🇺🇿','🇻🇪','🇻🇳','🇿🇲','🇿🇼'];
-const nameRegions={
-"West African":"Benin|Burkina Faso|Cape Verde|Gambia|Ghana|Guinea|Liberia|Mali|Mauritania|Niger|Nigeria|Senegal|Sierra Leone|Togo",
-"Central African":"Angola|Cameroon|Central African Republic|Chad|Gabon",
-"East African":"Burundi|Comoros|Djibouti|Ethiopia|Kenya|Rwanda|Seychelles|Somalia|Sudan|Tanzania|Uganda",
-"Southern African":"Botswana|Eswatini|Lesotho|Madagascar|Malawi|Mauritius|Mozambique|Namibia|South Africa|Zambia|Zimbabwe",
-"North African":"Algeria|Egypt|Libya|Morocco|Tunisia",
-"Middle Eastern":"Bahrain|Iraq|Israel|Jordan|Kuwait|Lebanon|Oman|Qatar|Saudi Arabia|United Arab Emirates",
-"Persian Central Asian":"Afghanistan|Armenia|Azerbaijan|Georgia|Iran|Kazakhstan|Kyrgyzstan|Uzbekistan",
-"South Asian":"Bangladesh|Bhutan|India|Maldives|Nepal|Pakistan|Sri Lanka",
-"East Asian":"China|Japan|Mongolia|South Korea|Taiwan",
-"Southeast Asian":"Brunei|Cambodia|Indonesia|Laos|Malaysia|Myanmar|Philippines|Singapore|Thailand|Vietnam",
-"Eastern European":"Albania|Bosnia and Herzegovina|Bulgaria|Croatia|Czechia|Estonia|Hungary|Latvia|Lithuania|Moldova|Montenegro|North Macedonia|Poland|Romania|Serbia|Slovakia|Slovenia|Ukraine",
-"Northern Western European":"Austria|Belgium|Denmark|Finland|France|Germany|Iceland|Ireland|Liechtenstein|Luxembourg|Netherlands|Norway|Sweden|Switzerland|United Kingdom",
-"Southern European":"Andorra|Cyprus|Greece|Italy|Malta|Monaco|Portugal|Spain",
-"Turkish":"Turkey",
-"Latin American":"Argentina|Bolivia|Brazil|Chile|Colombia|Costa Rica|Ecuador|El Salvador|Guatemala|Honduras|Mexico|Nicaragua|Panama|Paraguay|Peru|Uruguay|Venezuela",
-"Caribbean":"Antigua and Barbuda|Bahamas|Barbados|Belize|Cuba|Dominica|Dominican Republic|Grenada|Guyana|Haiti|Jamaica|Trinidad and Tobago",
-"North American":"Canada|United States",
-"Oceania":"Australia|Fiji|New Zealand|Papua New Guinea"
-};
-const countryRegion=Object.create(null);
-Object.entries(nameRegions).forEach(([region,list])=>list.split('|').forEach(country=>{
- if(countryRegion[country])throw new Error('Duplicate country region assignment: '+country);
- countryRegion[country]=region;
-}));
-const namePools={
-"West African":{first:['Ayo','Chiamaka','Adeola','Kofi','Ama','Kwame','Abena','Ifeoma','Tunde','Zainab','Kemi','Seyi','Fatou','Mariama','Amadou'],last:['Adeyemi','Okafor','Balogun','Bello','Mensah','Boateng','Osei','Diallo','Camara','Conteh','Koroma','Traore','Toure','Bah','Jallow']},
-"Central African":{first:['Amisi','Bakari','Blaise','Chancel','Dalia','Didier','Emeka','Eulalie','Ines','Jules','Kiala','Leonie','Mado','Makena','Mireille'],last:['Amani','Banza','Bikoko','Bokassa','Dibango','Ewane','Goma','Ilunga','Kabeya','Kabila','Kasongo','Lukusa','Mbala','Mbuyi','Mwamba']},
-"East African":{first:['Amina','Abebe','Asha','Baraka','Dawit','Elias','Halima','Jelani','Kendi','Mariam','Mosi','Nia','Neema','Rashid','Wanjiku'],last:['Abebe','Abdi','Ahmed','Alemu','Barasa','Bekele','Farah','Hassan','Kamau','Kassahun','Kebede','Kipchoge','Kiptoo','Mekonnen','Mwangi']},
-"Southern African":{first:['Amogelang','Bongani','Chipo','Dineo','Farai','Gugu','Kagiso','Kamogelo','Kea','Lerato','Lindiwe','Mandla','Masego','Naledi','Nandi'],last:['Banda','Chirwa','Dlamini','Dube','Hadebe','Khumalo','Mahlangu','Maseko','Mokoena','Molefe','Moyo','Mthembu','Ndlovu','Nkosi','Phiri']},
-"North African":{first:['Amal','Amina','Aya','Farid','Hana','Hassan','Imane','Karim','Khaled','Layla','Leila','Meryem','Nadia','Nour','Omar'],last:['Abadi','Abdelkader','Benali','Benjelloun','Bensaid','Bouazizi','Cherif','El Amrani','El Idrissi','Fahmy','Farouk','Haddad','Khalil','Mansour','Masri']},
-"Middle Eastern":{first:['Ali','Amira','Ayla','Dina','Farah','Hadi','Hala','Jad','Karim','Laila','Leen','Maya','Mira','Nabil','Noor'],last:['Abbas','Abdallah','Al-Hariri','Al-Khatib','Al-Mansour','Al-Najjar','Barakat','Darwish','Faris','Haddad','Hamad','Hussein','Issa','Kanaan','Khoury']},
-"Persian Central Asian":{first:['Aida','Arman','Aziza','Daler','Dilnoza','Farid','Feruza','Jamshid','Kamila','Laleh','Madina','Mansur','Mehr','Navid','Nargis'],last:['Akhmedov','Aliev','Azizi','Bahrami','Bekov','Davlatov','Ergashev','Farhadi','Hosseini','Iskandarov','Karimov','Khalilov','Mamadov','Mirzaei','Nazarov']},
-"South Asian":{first:['Aarav','Aanya','Aditi','Anika','Arjun','Dev','Diya','Farhan','Ishaan','Kavya','Kiran','Meera','Nikhil','Priya','Rahul'],last:['Ahmed','Banerjee','Basu','Chatterjee','Das','Desai','Fernando','Gupta','Hossain','Iyer','Jain','Khan','Malik','Menon','Nair']},
-"East Asian":{first:['Akari','Aiko','Airi','Daichi','Haruto','Hana','Hiroshi','Jia','Jin','Jun','Kai','Mei','Min-jun','Ming','Naoki'],last:['Abe','Chen','Choi','Fujimoto','Hamada','Hashimoto','Huang','Ito','Kang','Kim','Kobayashi','Kondo','Li','Liu','Nakamura']},
-"Southeast Asian":{first:['Agus','An','Anh','Bao','Chai','Dara','Dewi','Huy','Indah','Lan','Linh','Mai','Minh','Narin','Ngoc'],last:['Bautista','Chandra','Dela Cruz','Garcia','Hoang','Kusuma','Lim','Ng','Nguyen','Ong','Phan','Prasetyo','Putra','Rahman','Santos']},
-"Eastern European":{first:['Aleksandar','Alina','Anastasia','Andrei','Boris','Daria','Elena','Emil','Irena','Ivan','Katarina','Klara','Luka','Marek','Mila'],last:['Andric','Balan','Bartosz','Dimitrov','Horvat','Ivanov','Jankovic','Kovac','Kowalski','Markovic','Mihailov','Novak','Nowak','Petrov','Popescu']},
-"Northern Western European":{first:['Alice','Amelie','Anna','Arthur','Charlotte','Clara','Daniel','Edith','Elias','Elise','Emil','Emma','Felix','Frederik','Hugo'],last:['Andersen','Bauer','Bennett','Berg','Bernard','Blanc','Dubois','Eriksson','Fischer','Foster','Hansen','Hoffmann','Jensen','Johansson','Keller']},
-"Southern European":{first:['Alessia','Andrea','Antonia','Beatriz','Carla','Chiara','Diego','Elena','Enzo','Federico','Gabriela','Giulia','Ines','Isabel','Lucia'],last:['Alonso','Barbieri','Costa','De Luca','Esposito','Fernandes','Ferrari','Garcia','Goncalves','Lopes','Marino','Martinez','Moretti','Oliveira','Pereira']},
-"Turkish":{first:['Aylin','Aysel','Can','Cem','Deniz','Ece','Elif','Emre','Esra','Hakan','Leyla','Mert','Selin','Yasemin','Zeynep'],last:['Acar','Aydin','Arslan','Aslan','Celik','Demir','Dogan','Erdem','Guler','Kaya','Kilic','Koc','Kurt','Ozdemir','Ozturk']},
-"Latin American":{first:['Alejandro','Ana','Camila','Carlos','Daniela','Diego','Elena','Emilia','Esteban','Gabriel','Isabella','Javier','Lucia','Luciana','Luis'],last:['Alvarez','Barros','Castillo','Cabrera','Costa','Da Silva','Fernandez','Flores','Garcia','Gomez','Gonzalez','Herrera','Jimenez','Lopes','Martinez']},
-"Caribbean":{first:['Aaliyah','Andre','Camille','Dario','Deandra','Jamal','Janelle','Javon','Keisha','Kemar','Kiana','Malik','Marlon','Maya','Nia'],last:['Baptiste','Brown','Campbell','Charles','Clarke','Davis','Forde','Francis','Grant','James','Joseph','Lewis','Mendes','Miller','Morgan']},
-"North American":{first:['Avery','Benjamin','Chloe','Daniel','Elijah','Emma','Ethan','Grace','Harper','Isabella','Jackson','James','Jordan','Liam','Logan'],last:['Adams','Anderson','Baker','Brooks','Campbell','Carter','Clark','Collins','Cooper','Davis','Edwards','Evans','Garcia','Green','Hall']},
-"Oceania":{first:['Aroha','Ariki','Ethan','Hana','Isla','Jack','Kiri','Lani','Leilani','Manaia','Moana','Noa','Oliver','Pita','Rangi'],last:['Aiono','Bennett','Clarke','Fale','Finau','Hale','Hiku','Jackson','Katoa','Kealoha','King','Latu','Matai','Mikaere','Ngata']}
-};
+
 const industries=['Artificial Intelligence and Machine Learning','Enterprise Software','Banking and Financial Services','Healthcare and Pharmaceuticals','Cybersecurity','Engineering and Manufacturing','Telecommunications','Energy and Infrastructure','Consulting and Professional Services','Human Resources','Education and EdTech','Logistics and Supply Chain','Retail and Consumer Goods','Media and Entertainment','Legal Services','Real Estate','Insurance','Aerospace and Aviation','Automotive','Public Sector','Agriculture and Food Systems','Hospitality and Tourism','Climate and Sustainability','Biotechnology','E-commerce','Fintech','Construction','Data and Analytics','Nonprofit and Development','Mining and Natural Resources'];
 const services=['Private Career Representation','Professional Positioning Intelligence (PPI)','Professional and Vocational Profile Assessment','Career Strategy and Target-Company Research','Executive Resume and CV Development','ATS Keyword Research and Optimization','LinkedIn Profile Optimization','Executive Biography Development','Leadership Summary Development','Executive Leadership Portfolio','Career Documentation and Professional Branding','Portfolio and Professional Website Development','Direct Professional Outreach','Reverse Recruiting','Interview Preparation and Coaching','Career Coaching'];
-// Add verified records here. Fields: id, name, country, flag, portrait, jobTitle, project, date (YYYY-MM-DD), amount, industry, service, location, engagement, rating (1-5 only when verified), review (approved client wording).
-// Use distinct, consented portraits stored in assets/profile-portraits/.
-const profiles=[
-{id:'profile-01',name:'Add candidate name',country:'Select country',flag:'🌍',portrait:'../assets/profile-portraits/portrait-01.avif',jobTitle:'Add job title',project:'Add project name',date:'',amount:'',industry:'',service:'',location:'',engagement:'',rating:'',review:''},
-{id:'profile-02',name:'Add candidate name',country:'Select country',flag:'🌍',portrait:'../assets/profile-portraits/portrait-02.avif',jobTitle:'Add job title',project:'Add project name',date:'',amount:'',industry:'',service:'',location:'',engagement:'',rating:'',review:''},
-{id:'profile-03',name:'Add candidate name',country:'Select country',flag:'🌍',portrait:'../assets/profile-portraits/portrait-03.avif',jobTitle:'Add job title',project:'Add project name',date:'',amount:'',industry:'',service:'',location:'',engagement:'',rating:'',review:''},
-{id:'profile-04',name:'Add candidate name',country:'Select country',flag:'🌍',portrait:'../assets/profile-portraits/portrait-04.avif',jobTitle:'Add job title',project:'Add project name',date:'',amount:'',industry:'',service:'',location:'',engagement:'',rating:'',review:''}
-];
+
+// The directory starts with 1,200 editable profile spaces. No candidate identities,
+// engagements, amounts, reviews or ratings are fabricated. Replace each blank field
+// with verified, approved records before publishing candidate-specific information.
+// Country allocation is a market-planning split: 90% international markets and 10% Africa.
+const africanMarkets=new Set(['Algeria','Angola','Benin','Botswana','Burkina Faso','Burundi','Cameroon','Cape Verde','Central African Republic','Chad','Comoros','Djibouti','Egypt','Eswatini','Ethiopia','Gabon','Gambia','Ghana','Guinea','Kenya','Lesotho','Liberia','Libya','Madagascar','Malawi','Mali','Mauritania','Mauritius','Morocco','Mozambique','Namibia','Niger','Nigeria','Rwanda','Senegal','Seychelles','Sierra Leone','Somalia','South Africa','Sudan','Tanzania','Togo','Tunisia','Uganda','Zambia','Zimbabwe']);
+const marketRecords=countries.map((name,index)=>({name,flag:flags[index]}));
+const africanPool=marketRecords.filter(item=>africanMarkets.has(item.name));
+const internationalPool=marketRecords.filter(item=>!africanMarkets.has(item.name));
+let africanIndex=0,internationalIndex=0;
+const profiles=Array.from({length:1200},(_,index)=>{
+ const africanMarket=(index+1)%10===0;
+ const pool=africanMarket?africanPool:internationalPool;
+ const market=pool[africanMarket?africanIndex++%pool.length:internationalIndex++%pool.length];
+ return {
+  id:'profile-'+String(index+1).padStart(4,'0'),
+  name:'',
+  country:market.name,
+  flag:market.flag,
+  portrait:'',
+  jobTitle:'',
+  project:'',
+  date:'',
+  amount:'',
+  industry:'',
+  service:'',
+  location:'',
+  engagement:'',
+  rating:'',
+  review:''
+ };
+});
 window.KOV_CANDIDATE_PROJECTS={profiles,countries,industries,services};
 })();
