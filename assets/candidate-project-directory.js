@@ -22,7 +22,8 @@ const avatarArt=id=>{
  const svg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="hsl('+h+' 43% 91%)"/><stop offset="1" stop-color="hsl('+h2+' 48% 78%)"/></linearGradient></defs><rect width="100" height="100" rx="50" fill="url(#g)"/><path d="M9 100 Q14 69 39 66 L61 66 Q87 69 92 100" fill="'+shirt+'"/><path d="M42 62 L58 62 L59 74 Q50 83 41 74Z" fill="'+skin+'"/><ellipse cx="50" cy="44" rx="23" ry="27" fill="'+skin+'"/><path d="M39 45 h5 M56 45 h5" stroke="#352c2b" stroke-linecap="round" stroke-width="2.4"/><path d="M46 56 Q50 59 54 56" fill="none" stroke="#8b4c49" stroke-linecap="round" stroke-width="2"/><path d="'+cuts+'" fill="'+hair+'"/>'+accessory+'<circle cx="50" cy="50" r="48" fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="2"/></svg>';
  return 'data:image/svg+xml;charset=UTF-8,'+encodeURIComponent(svg);
 };
-\nconst money=v=>v===null||v===undefined||v===''?'':new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(Number(v));
+
+const money=v=>v===null||v===undefined||v===''?'':new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(Number(v));
 data.countries.forEach(n=>country.add(new Option(n,n)));
 [...new Set(data.profiles.map(p=>p.industry).filter(Boolean))].sort().forEach(n=>industry.add(new Option(n,n)));
 [...new Set(data.profiles.map(p=>p.service).filter(Boolean))].sort().forEach(n=>service.add(new Option(n,n)));
