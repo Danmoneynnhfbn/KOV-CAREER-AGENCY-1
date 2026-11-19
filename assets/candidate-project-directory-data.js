@@ -9,11 +9,13 @@ const services=['Private Career Representation','Professional Positioning Intell
 // The directory starts with 1,200 editable profile spaces. No candidate identities,
 // engagements, amounts, reviews or ratings are fabricated. Replace each blank field
 // with verified, approved records before publishing candidate-specific information.
-// Country allocation is a market-planning split: 90% international markets and 10% Africa.
-const africanMarkets=new Set(['Algeria','Angola','Benin','Botswana','Burkina Faso','Burundi','Cameroon','Cape Verde','Central African Republic','Chad','Comoros','Djibouti','Egypt','Eswatini','Ethiopia','Gabon','Gambia','Ghana','Guinea','Kenya','Lesotho','Liberia','Libya','Madagascar','Malawi','Mali','Mauritania','Mauritius','Morocco','Mozambique','Namibia','Niger','Nigeria','Rwanda','Senegal','Seychelles','Sierra Leone','Somalia','South Africa','Sudan','Tanzania','Togo','Tunisia','Uganda','Zambia','Zimbabwe']);
+// Country allocation is a market-planning split: 90% non-African markets and 10% across 12 selected African markets.
+const allAfricanCountries=new Set(['Algeria','Angola','Benin','Botswana','Burkina Faso','Burundi','Cameroon','Cape Verde','Central African Republic','Chad','Comoros','Djibouti','Egypt','Eswatini','Ethiopia','Gabon','Gambia','Ghana','Guinea','Kenya','Lesotho','Liberia','Libya','Madagascar','Malawi','Mali','Mauritania','Mauritius','Morocco','Mozambique','Namibia','Niger','Nigeria','Rwanda','Senegal','Seychelles','Sierra Leone','Somalia','South Africa','Sudan','Tanzania','Togo','Tunisia','Uganda','Zambia','Zimbabwe']);
+const africanMarkets=new Set(['Egypt','Ethiopia','Ghana','Kenya','Morocco','Nigeria','Rwanda','Senegal','South Africa','Tanzania','Tunisia','Uganda']);
 const marketRecords=countries.map((name,index)=>({name,flag:flags[index]}));
 const africanPool=marketRecords.filter(item=>africanMarkets.has(item.name));
-const internationalPool=marketRecords.filter(item=>!africanMarkets.has(item.name));
+const internationalPool=marketRecords.filter(item=>!allAfricanCountries.has(item.name));
+const selectableCountries=[...internationalPool,...africanPool].map(item=>item.name);
 let africanIndex=0,internationalIndex=0;
 const profiles=Array.from({length:1200},(_,index)=>{
  const africanMarket=(index+1)%10===0;
@@ -37,5 +39,5 @@ const profiles=Array.from({length:1200},(_,index)=>{
   review:''
  };
 });
-window.KOV_CANDIDATE_PROJECTS={profiles,countries,industries,services};
+window.KOV_CANDIDATE_PROJECTS={profiles,countries:selectableCountries,industries,services};
 })();
