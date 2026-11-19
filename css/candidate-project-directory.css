@@ -13,3 +13,23 @@
 @media(max-width:42rem){.kov-project-directory{width:min(100% - 1.2rem,86rem)}.kov-project-stats{gap:.45rem}.kov-project-stats div{padding:.7rem .4rem}.kov-project-stats strong{font-size:1.35rem}.kov-project-stats span{font-size:.65rem}.kov-project-controls{grid-template-columns:1fr}.kov-project-search{grid-column:auto}.kov-project-results-line{align-items:flex-start}.kov-project-card-head{gap:.7rem;padding:.9rem}.kov-project-avatar-wrap,.kov-project-avatar{width:3.8rem;height:3.8rem;flex-basis:3.8rem}.kov-project-card-content{padding:.9rem}.profile-layout-c .kov-project-fields{grid-template-columns:1fr 1fr}}
 /* Unique numbered market-slot avatars until verified portrait assets are supplied. */
 .kov-project-avatar-empty{background:hsl(var(--avatar-hue,190) 42% 90%);border-color:hsl(var(--avatar-hue,190) 28% 78%)}
+
+/* Profile-card layout families: distinct spacing, alignment and content rhythm. */
+.profile-layout-a{border-top:3px solid #bd8459}
+.profile-layout-b .kov-project-card-head{background:linear-gradient(115deg,#f4f8f6,#fff);border-bottom:0}
+.profile-layout-b .kov-project-avatar-wrap{order:2;margin-left:.25rem}
+.profile-layout-b .kov-project-identity{order:1}
+.profile-layout-b .kov-project-card-content{padding-top:.15rem}
+.profile-layout-b .kov-project-fields{column-gap:1.5rem}
+.profile-layout-c .kov-project-card-head{align-items:flex-start;flex-wrap:wrap;background:#fbfaf7;padding-bottom:.75rem}
+.profile-layout-c .kov-project-avatar-wrap{flex-basis:3.9rem;width:3.9rem;height:3.9rem}
+.profile-layout-c .kov-project-avatar{width:3.9rem;height:3.9rem}
+.profile-layout-c .kov-project-identity{padding-top:.25rem}
+.profile-layout-c .kov-project-fields{grid-template-columns:repeat(2,minmax(0,1fr));gap:.55rem 1rem}
+.profile-layout-c .kov-project-field{border-bottom:1px solid #edf0ed;padding:.35rem 0 .55rem}
+.profile-layout-d{border-radius:.45rem 1.1rem .45rem 1.1rem}
+.profile-layout-d .kov-project-card-head{background:#f1f5f5;border-bottom:0}
+.profile-layout-d .kov-project-card-content{padding-top:.35rem}
+.profile-layout-d .kov-project-fields{grid-template-columns:1fr 1fr;gap:.55rem .9rem}
+.profile-layout-d .kov-project-field{padding:.4rem .55rem;border-radius:.4rem;background:#fff}
+.kov-project-avatar-illustrated{box-shadow:0 2px 9px rgb(20 45 55 / 10%)}
