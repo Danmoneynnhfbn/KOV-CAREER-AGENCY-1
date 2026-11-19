@@ -51,6 +51,11 @@ const industries=['Artificial Intelligence and Machine Learning','Enterprise Sof
 const services=['Private Career Representation','Professional Positioning Intelligence (PPI)','Professional and Vocational Profile Assessment','Career Strategy and Target-Company Research','Executive Resume and CV Development','ATS Keyword Research and Optimization','LinkedIn Profile Optimization','Executive Biography Development','Leadership Summary Development','Executive Leadership Portfolio','Career Documentation and Professional Branding','Portfolio and Professional Website Development','Direct Professional Outreach','Reverse Recruiting','Interview Preparation and Coaching','Career Coaching'];
 // Add verified records here. Fields: id, name, country, flag, portrait, jobTitle, project, date (YYYY-MM-DD), amount, industry, service, location, engagement, rating (1-5 only when verified), review (approved client wording).
 // Use distinct, consented portraits stored in assets/profile-portraits/.
-const profiles=[];
+const profiles=[
+{id:'profile-01',name:'Add candidate name',country:'Select country',flag:'🌍',portrait:'../assets/profile-portraits/portrait-01.avif',jobTitle:'Add job title',project:'Add project name',date:'',amount:'',industry:'',service:'',location:'',engagement:'',rating:'',review:''},
+{id:'profile-02',name:'Add candidate name',country:'Select country',flag:'🌍',portrait:'../assets/profile-portraits/portrait-02.avif',jobTitle:'Add job title',project:'Add project name',date:'',amount:'',industry:'',service:'',location:'',engagement:'',rating:'',review:''},
+{id:'profile-03',name:'Add candidate name',country:'Select country',flag:'🌍',portrait:'../assets/profile-portraits/portrait-03.avif',jobTitle:'Add job title',project:'Add project name',date:'',amount:'',industry:'',service:'',location:'',engagement:'',rating:'',review:''},
+{id:'profile-04',name:'Add candidate name',country:'Select country',flag:'🌍',portrait:'../assets/profile-portraits/portrait-04.avif',jobTitle:'Add job title',project:'Add project name',date:'',amount:'',industry:'',service:'',location:'',engagement:'',rating:'',review:''}
+];
 window.KOV_CANDIDATE_PROJECTS={profiles,countries,industries,services};
 })();
