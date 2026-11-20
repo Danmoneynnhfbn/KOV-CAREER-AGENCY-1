@@ -2874,6 +2874,518 @@
       "source": "Wikidata Search API (English)",
       "sourceUrl": "https://www.wikidata.org/wiki/Q135427824",
       "matchedQuery": "government agency"
+    },
+    {
+      "qid": "Q188740",
+      "name": "Museum of Modern Art",
+      "description": "art museum in Manhattan in New York City, New York, United States",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q188740",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q679527",
+      "name": "Museum Boijmans Van Beuningen",
+      "description": "art museum in Rotterdam, Netherlands",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q679527",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q1565911",
+      "name": "Museum of Fine Arts, Houston",
+      "description": "art museum in Houston, Texas",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1565911",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q595802",
+      "name": "Museum Plantin-Moretus",
+      "description": "museum in Antwerp, Belgium",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q595802",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q4360916",
+      "name": "Museum Gouda",
+      "description": "museum in Gouda, Netherlands",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q4360916",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q233098",
+      "name": "Museum für Naturkunde - Leibniz Institute for Evolution and Biodiversity Science",
+      "description": "natural history museum in Berlin, Germany",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q233098",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q1699233",
+      "name": "Museum Mayer van den Bergh",
+      "description": "art museum in Antwerp, Belgium",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1699233",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q23402",
+      "name": "Musée d'Orsay",
+      "description": "art museum in Paris, France",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q23402",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q49133",
+      "name": "Museum of Fine Arts Boston",
+      "description": "art museum in Boston, Massachusetts, United States",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q49133",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q1994770",
+      "name": "Museum van Bommel van Dam",
+      "description": "museum in Venlo, the Netherlands",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1994770",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q23785329",
+      "name": "Museum Barberini",
+      "description": "art museum in Potsdam",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q23785329",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q2365880",
+      "name": "Museum of Fine Arts Ghent (MSK)",
+      "description": "museum of fine arts in Ghent, Belgium",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2365880",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q95569",
+      "name": "Kunsthistorisches Museum",
+      "description": "art museum in Vienna, Austria",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q95569",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q840886",
+      "name": "Museum of Fine Arts, Budapest",
+      "description": "art museum in Budapest, Hungary",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q840886",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q510324",
+      "name": "Philadelphia Museum of Art",
+      "description": "art museum in Philadelphia, Pennsylvania",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q510324",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q1646305",
+      "name": "Museum aan de Stroom",
+      "description": "museum in Antwerp, Belgium",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1646305",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q493160",
+      "name": "Our Lord in the Attic Museum",
+      "description": "museum in Amsterdam, the Netherlands",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q493160",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q1305061",
+      "name": "Museum für Sächsische Volkskunst",
+      "description": "museum in Dresden, Germany",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1305061",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q2843748",
+      "name": "Museum Ingres Bourdelle",
+      "description": "museum of arts in France",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2843748",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q73268604",
+      "name": "Museum of Modern Art online collection",
+      "description": "online database of the Museum of Modern Art",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q73268604",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q915603",
+      "name": "Museum of New Zealand Te Papa Tongarewa",
+      "description": "national museum of New Zealand",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q915603",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q689951",
+      "name": "Mumok",
+      "description": "art museum in Vienna, Austria",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q689951",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q1633361",
+      "name": "Kiasma",
+      "description": "contemporary art museum in Helsinki, Finland",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1633361",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q857276",
+      "name": "Musée d'art moderne de Paris",
+      "description": "museum dedicated to modern and contemporary art of the 20th and 21st centuries, Paris",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q857276",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q2098586",
+      "name": "Museum De Lakenhal",
+      "description": "museum in Leiden",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2098586",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q7374509",
+      "name": "Royal Museums Greenwich",
+      "description": "network of museums in Greenwich, London",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q7374509",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q55712714",
+      "name": "Museum Hof van Busleyden",
+      "description": "museum in Mechelen, Belgium",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q55712714",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q574961",
+      "name": "Frans Hals Museum",
+      "description": "joint museum with a modern and a 17th century painting collection in Haarlem, The Netherlands",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q574961",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q632682",
+      "name": "Brooklyn Museum",
+      "description": "art museum in Brooklyn, New York",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q632682",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q658725",
+      "name": "Staatliche Kunsthalle Karlsruhe",
+      "description": "museum in Karlsruhe, Germany",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q658725",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q316514",
+      "name": "Museum Wiesbaden",
+      "description": "museum in Germany",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q316514",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q1954426",
+      "name": "Museum Catharijneconvent",
+      "description": "museum for religious art in Utrecht, the Netherlands",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1954426",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q1051928",
+      "name": "Kröller-Müller Museum",
+      "description": "art museum and sculpture garden in Otterlo, Netherlands",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1051928",
+      "matchedQuery": "museum"
+    },
+    {
+      "qid": "Q130681180",
+      "name": "Stichting SchOOL",
+      "description": "organisation for public education in Lelystad, the Netherlands",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q130681180",
+      "matchedQuery": "school"
+    },
+    {
+      "qid": "Q220144",
+      "name": "SOAS, University of London",
+      "description": "university in the UK",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q220144",
+      "matchedQuery": "school"
+    },
+    {
+      "qid": "Q1115050",
+      "name": "United States Army Command and General Staff College",
+      "description": "United States army graduate school",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1115050",
+      "matchedQuery": "school"
+    },
+    {
+      "qid": "Q7432601",
+      "name": "School of the Art Institute of Chicago",
+      "description": "university and independent school of art and design",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q7432601",
+      "matchedQuery": "school"
+    },
+    {
+      "qid": "Q15726209",
+      "name": "school district in the United States",
+      "description": "single-purpose entity within local government responsible for providing free education to all children living within their boundary and enforcing their required attendance",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q15726209",
+      "matchedQuery": "school"
+    },
+    {
+      "qid": "Q1279835",
+      "name": "School of Visual Arts",
+      "description": "art and design college in Manhattan, New York",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1279835",
+      "matchedQuery": "school"
+    },
+    {
+      "qid": "Q141268644",
+      "name": "trade union movement in Russia",
+      "description": "history and organisation of trade unions in Russia",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q141268644",
+      "matchedQuery": "trade union"
+    },
+    {
+      "qid": "Q140047103",
+      "name": "Trade Unions in Western Europe",
+      "description": "monograph published by Oxford University Press (2013)",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q140047103",
+      "matchedQuery": "trade union"
+    },
+    {
+      "qid": "Q314080",
+      "name": "Gewerkschaft der Polizei",
+      "description": "German trade union",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q314080",
+      "matchedQuery": "trade union"
+    },
+    {
+      "qid": "Q17099151",
+      "name": "Trade Union Congress of the Philippines",
+      "description": "Philippine tripartist trade-union center",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q17099151",
+      "matchedQuery": "trade union"
+    },
+    {
+      "qid": "Q1520579",
+      "name": "trade unions in Germany",
+      "description": "History of labour unions in Germany",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1520579",
+      "matchedQuery": "trade union"
+    },
+    {
+      "qid": "Q896472",
+      "name": "IG Bauen-Agrar-Umwelt",
+      "description": "German trade union",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q896472",
+      "matchedQuery": "trade union"
+    },
+    {
+      "qid": "Q7831991",
+      "name": "Trade Union Congress",
+      "description": "Jamaican trade union",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q7831991",
+      "matchedQuery": "trade union"
+    },
+    {
+      "qid": "Q3508212",
+      "name": "trade unions in South Korea",
+      "description": "overview of trade unions in South Korea",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q3508212",
+      "matchedQuery": "trade union"
+    },
+    {
+      "qid": "Q11851195",
+      "name": "Trade Union Pro",
+      "description": "trade union of Finland",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q11851195",
+      "matchedQuery": "trade union"
+    },
+    {
+      "qid": "Q2358710",
+      "name": "Trade Union Commission",
+      "description": "Belgian trade union federation",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2358710",
+      "matchedQuery": "trade union"
+    },
+    {
+      "qid": "Q7831982",
+      "name": "Trade Union Centre of India",
+      "description": "Trade union federation in India",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q7831982",
+      "matchedQuery": "trade union"
+    },
+    {
+      "qid": "Q16480704",
+      "name": "Trade Union University",
+      "description": "university in Hanoi, Vietnam",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q16480704",
+      "matchedQuery": "trade union"
+    },
+    {
+      "qid": "Q359507",
+      "name": "Trade Union Advisory Committee to the OECD",
+      "description": "trade union",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q359507",
+      "matchedQuery": "trade union"
+    },
+    {
+      "qid": "Q1231876",
+      "name": "Trade Union of Teachers",
+      "description": "Hungarian trade union (1945–)",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1231876",
+      "matchedQuery": "trade union"
+    },
+    {
+      "qid": "Q11867880",
+      "name": "Trade Union for the Public and Welfare Sectors JHL",
+      "description": "Finnish trade union",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q11867880",
+      "matchedQuery": "trade union"
+    },
+    {
+      "qid": "Q99736280",
+      "name": "Trade Unions Act, 1926",
+      "description": "Act of Imperial Legislative Council of India",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q99736280",
+      "matchedQuery": "trade union"
+    },
+    {
+      "qid": "Q140701246",
+      "name": "Company Telecom",
+      "description": "Dutch telecommunications company",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q140701246",
+      "matchedQuery": "company"
+    },
+    {
+      "qid": "Q136402678",
+      "name": "Company Registration Number",
+      "description": "Hong Kong organization identifier",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q136402678",
+      "matchedQuery": "company"
+    },
+    {
+      "qid": "Q105576474",
+      "name": "Marine company",
+      "description": "company level unit of the U.S. Marine Corps",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q105576474",
+      "matchedQuery": "company"
+    },
+    {
+      "qid": "Q1121136",
+      "name": "Company of One Hundred Associates",
+      "description": "1600s French fur-trading company in Canada",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1121136",
+      "matchedQuery": "company"
+    },
+    {
+      "qid": "Q2989905",
+      "name": "India Company",
+      "description": "A generic term referring to a company managing trade between a European metropolis and its colonies.",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2989905",
+      "matchedQuery": "company"
+    },
+    {
+      "qid": "Q4689734",
+      "name": "African Company of Merchants",
+      "description": "chartered company operating in the British gold coast",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q4689734",
+      "matchedQuery": "company"
+    },
+    {
+      "qid": "Q5998243",
+      "name": "Company of St. Ursula",
+      "description": "secular institute of consecrated women in the Catholic Church",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q5998243",
+      "matchedQuery": "company"
+    },
+    {
+      "qid": "Q897113",
+      "name": "German company law",
+      "description": "field of law that deals with companies and enterprises",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q897113",
+      "matchedQuery": "company"
+    },
+    {
+      "qid": "Q23998485",
+      "name": "Qatari Diar",
+      "description": "Qatar real estate company",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q23998485",
+      "matchedQuery": "company"
     }
   ]
 }
