@@ -562,7 +562,7 @@ function main() {
     targetCounts: TARGETS,
     sourceAssessment: {
       audiences: 'KOV internal role/industry audience crosswalk extracted from indexable role pages; one record per unique mapped route.',
-      jobFunctions: 'KOV internal functional groupings evidenced by mapped leadership role directories; this source supports fewer than the 100 target records.',
+      jobFunctions: 'Exactly 100 KOV-defined functional records: 19 parent function groups and 81 distinct responsibility subfunctions. Every record is mapped to an indexable KOV role page or the procurement FAQ; these are internal functional classifications, not O*NET occupations or SOC job families.',
       seniorityLevels: 'KOV internal title-scope descriptors. These are not a universal seniority scale and contain no years-of-experience thresholds.',
       employmentTypes: 'A 30-record cross-dimensional collection: 10 ICSE-18 status categories and 20 externally documented work arrangements/modalities. These records overlap and are not a mutually-exclusive classification.',
       careerChallenges: 'KOV FAQ-derived planning and career-positioning topics. These describe authored content, not measured prevalence.',
