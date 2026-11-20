@@ -8,7 +8,7 @@ const homepage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 const includedLanguages = translateSource.match(/includedLanguages:\s*"([^"]+)"/);
 const configured = includedLanguages?.[1].split(',') || [];
 const pageLanguage = translateSource.match(/pageLanguage:\s*"([^"]+)"/)?.[1] || '';
-const validIso6391 = new Set(['en', 'fr', 'es', 'de', 'pt', 'ar', 'zh']);
+const validIso6391 = new Set(['en', 'fr', 'es', 'de', 'pt', 'ar', 'zh', 'bn', 'ha', 'hi', 'ig', 'id', 'it', 'ja', 'ko', 'nl', 'fa', 'pl', 'ru', 'sw', 'sv', 'th', 'tr', 'uk', 'ur', 'vi', 'yo', 'el', 'he', 'ms']);
 const names = new Set();
 const codes = new Set();
 const failures = [];
@@ -23,7 +23,7 @@ for (const record of dataset.records) {
     failures.push(`Site translation allowlist does not include ${record.name}: ${configuredCodes.join(', ')}`);
   }
 }
-if (dataset.records.length !== 7) failures.push(`Expected 7 records, found ${dataset.records.length}.`);
+if (dataset.records.length !== 30) failures.push(`Expected 30 records, found ${dataset.records.length}.`);
 if (!dataset.sourceUrls?.some((url) => url.includes('iso.org')) || !dataset.sourceUrls?.some((url) => url.includes('loc.gov'))) {
   failures.push('ISO language-code source documentation is incomplete.');
 }
