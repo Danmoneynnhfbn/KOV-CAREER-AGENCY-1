@@ -72,20 +72,28 @@ jobs:
       - name: Smoke-test generated taxonomy endpoints
         run: |
           curl --fail --silent --show-error --compressed http://127.0.0.1:8000/data/seo-entity-datasets.jsonld --output /tmp/seo-entities.jsonld
-          curl --fail --silent --show-error --compressed http://127.0.0.1:8000/data/taxonomy/kov-six-category-taxonomies.json --output /tmp/six-taxonomies.json
-          curl --fail --silent --show-error --compressed http://127.0.0.1:8000/data/taxonomy/verified-expanded-taxonomy.json --output /tmp/verified-taxonomy.json
           python - <<'PY'
+          import gzip
           import json
           from pathlib import Path
 
+          dist = Path("dist")
           entity = json.loads(Path("/tmp/seo-entities.jsonld").read_text(encoding="utf-8"))
+          six_path = dist / "data/taxonomy/kov-six-category-taxonomies.json"
+          verified_gzip = dist / "data/taxonomy/verified-expanded-taxonomy.json.gz"
+          worker_path = dist / "_worker.js"
+          assert six_path.is_file(), "Six-category taxonomy is missing from Cloudflare Pages output."
+          assert verified_gzip.is_file(), "Compressed verified taxonomy is missing from Cloudflare Pages output."
+          assert worker_path.is_file(), "Cloudflare Pages Worker is missing from build output."
+
           organizations = [
               node for node in entity["@graph"]
               if node.get("@type") == "Organization"
               and str(node.get("identifier", "")).startswith("Q")
           ]
-          six = json.loads(Path("/tmp/six-taxonomies.json").read_text(encoding="utf-8"))
-          verified = json.loads(Path("/tmp/verified-taxonomy.json").read_text(encoding="utf-8"))
+          six = json.loads(six_path.read_text(encoding="utf-8"))
+          verified = json.loads(gzip.decompress(verified_gzip.read_bytes()))
+          worker = worker_path.read_text(encoding="utf-8")
           counts = {
               "organizations": len(organizations),
               "job_functions": len(six["categories"]["job-function"]),
@@ -103,7 +111,8 @@ jobs:
               "verified_search_intents": 5000,
           }
           assert counts == expected, f"Published taxonomy counts differ: {counts}"
-          print("Published taxonomy endpoints passed:", json.dumps(counts, sort_keys=True))
+          assert "/data/taxonomy/verified-expanded-taxonomy.json.gz" in worker
+          print("Cloudflare Pages output passed:", json.dumps(counts, sort_keys=True))
           PY
 
       - name: Smoke-test original catalogue over gzip HTTP
