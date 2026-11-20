@@ -22,6 +22,12 @@ jobs:
         with:
           python-version: "3.13"
 
+      - name: Validate generated taxonomy datasets
+        run: |
+          node scripts/validate-six-taxonomy-datasets.js
+          node scripts/validate-expanded-taxonomy.js
+          python scripts/prepare-taxonomy-pages.py --validate-entity-datasets
+
       - name: Verify catalogue compression is byte-preserving
         run: |
           python scripts/compress_discovery_catalogue.py
