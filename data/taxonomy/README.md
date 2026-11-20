@@ -138,8 +138,10 @@ been rebuilt from the updated source.
 
 ### Additional organizations and institutions
 
-The file `additional-organizations-wikidata.json` contains 675 supplemental
-candidate entities. Their Wikidata QIDs, English labels, descriptions, search
+The file `additional-organizations-wikidata.json` contains 916 supplemental
+candidate QIDs with direct Wikidata `instance of` classifications. Of these,
+815 pass the current organization-builder's name/description and class filters
+before deduplication against the existing 832-record source set. Their Wikidata QIDs, English labels, descriptions, search
 queries, exact API source URLs and direct `instance of` class labels are
 retained. Only candidates matching the documented organization/institution
 class allowlist were retained. The entity builder preserves the existing 832
