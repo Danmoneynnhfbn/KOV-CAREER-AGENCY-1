@@ -21,6 +21,11 @@ for (const name of fs.readdirSync(researchRoot).filter((name) => name.endsWith('
     researchRecords.set(relative, { source, record });
   } catch (_) { /* malformed source records are not eligible for taxonomies */ }
 }
+const gscQuerySourcePath = 'data/taxonomy/gsc-observed-search-queries.json';
+const gscQuerySource = JSON.parse(fs.readFileSync(path.join(ROOT, gscQuerySourcePath), 'utf8'));
+const gscQueries = new Map((gscQuerySource.records || [])
+  .filter((record) => record.includedInTaxonomy)
+  .map((record) => [normalize(record.query), record]));
 const expectedKeys = [
   'professional-audience', 'job-function', 'seniority-level',
   'employment-type', 'career-challenge', 'career-search-intent',
@@ -58,22 +63,35 @@ for (const category of expectedKeys) {
       if (!pages.get(page) || page.startsWith('staging/')) errors.push(category + ': page mapping is missing, excluded, or noindex: ' + page);
     }
     if (category === 'career-search-intent') {
-      if (record.observedSearchConsoleQuery !== false) errors.push('Search intent lacks explicit non-GSC evidence classification: ' + record.name);
-      if (record.searchVolumeStatus === 'available') errors.push('Unsupported search-volume claim: ' + record.name);
-      if (record.sourcePath === 'development/KEYWORD-INTENT-MAP.csv') {
-        const candidateId = String(record.identifier || '').split(':')[0];
-        if (!candidateId || !keywordSource.includes('"' + candidateId + '"')) errors.push('Search intent candidate ID is absent from the source keyword map: ' + record.name);
-      } else if (record.sourcePath === 'assets/faq-directory.js') {
-        if (!record.sourceQuestion || !faq.some((item) => item.question === record.sourceQuestion && item.question === record.name)) {
-          errors.push('FAQ-derived intent is not an exact FAQ question: ' + record.name);
-        }
-      } else {
-        const sourceEntry = researchRecords.get(record.sourcePath);
-        if (!sourceEntry) errors.push('Search intent research-record source is unavailable: ' + record.sourcePath);
+      if (record.observedSearchConsoleQuery === true) {
+        if (record.sourcePath !== gscQuerySourcePath) errors.push('Observed search query must cite the GSC source file: ' + record.name);
+        const observed = gscQueries.get(normalize(record.name));
+        if (!observed) errors.push('Observed search query is absent from the retained Search Console source: ' + record.name);
         else {
-          const terms = [...(sourceEntry.record.primary_keywords || []), ...(sourceEntry.record.secondary_keywords || [])].map(normalize);
-          if (!terms.includes(normalize(record.name))) errors.push('Search intent text is not a primary/secondary keyword in its cited research record: ' + record.name);
-          if (!String(record.identifier || '').startsWith(String(sourceEntry.record.id || '') + ':')) errors.push('Search intent identifier does not match the cited research record: ' + record.name);
+          if (Number(record.searchConsoleClicks || 0) !== Number(observed.clicks || 0)) errors.push('GSC clicks differ from source for: ' + record.name);
+          if (Number(record.searchConsoleImpressions || 0) !== Number(observed.impressions || 0)) errors.push('GSC impressions differ from source for: ' + record.name);
+          if (Number(record.searchConsoleCtr || 0) !== Number(observed.ctr || 0)) errors.push('GSC CTR differs from source for: ' + record.name);
+          if (Number(record.searchConsoleAveragePosition || 0) !== Number(observed.position || 0)) errors.push('GSC position differs from source for: ' + record.name);
+        }
+        if (record.searchVolumeStatus === 'available') errors.push('GSC impressions must not be represented as search volume: ' + record.name);
+      } else {
+        if (record.observedSearchConsoleQuery !== false) errors.push('Search intent must declare whether it was observed in Search Console: ' + record.name);
+        if (record.searchVolumeStatus === 'available') errors.push('Unsupported search-volume claim: ' + record.name);
+        if (record.sourcePath === 'development/KEYWORD-INTENT-MAP.csv') {
+          const candidateId = String(record.identifier || '').split(':')[0];
+          if (!candidateId || !keywordSource.includes('"' + candidateId + '"')) errors.push('Search intent candidate ID is absent from the source keyword map: ' + record.name);
+        } else if (record.sourcePath === 'assets/faq-directory.js') {
+          if (!record.sourceQuestion || !faq.some((item) => item.question === record.sourceQuestion && item.question === record.name)) {
+            errors.push('FAQ-derived intent is not an exact FAQ question: ' + record.name);
+          }
+        } else {
+          const sourceEntry = researchRecords.get(record.sourcePath);
+          if (!sourceEntry) errors.push('Search intent research-record source is unavailable: ' + record.sourcePath);
+          else {
+            const terms = [...(sourceEntry.record.primary_keywords || []), ...(sourceEntry.record.secondary_keywords || [])].map(normalize);
+            if (!terms.includes(normalize(record.name))) errors.push('Search intent text is not a primary/secondary keyword in its cited research record: ' + record.name);
+            if (!String(record.identifier || '').startsWith(String(sourceEntry.record.id || '') + ':')) errors.push('Search intent identifier does not match the cited research record: ' + record.name);
+          }
         }
       }
     }
