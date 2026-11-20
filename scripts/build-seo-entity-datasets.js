@@ -119,6 +119,8 @@ function isSpecificOrganization(record) {
     /\b(university|college|school|polytechnic|institute|government|agency|ministry|department|council|hospital|company|corporation|business|bank|employer|nonprofit|organization|organisation|firm|foundation|authority|trust|association|enterprise|service|airport|museum|charity|institution|clinic|medical center|political party|union|network|group|university|laboratory|commission|office|bureau|administration|society|federation|congregation|conservatory)\b/i;
   const genericDescriptions =
     /\b(type of|class of|kind of|academic discipline|administrative division|administrative area|building used|sports team|profession|occupation|job title|person who|group of people|in fiction|fictional|method of|form of government)\b/i;
+  const nonOrganizationEntity =
+    /\b(railway line|railroad line|rail line|subway line|legal act|act \d{4}|legislation|book|publication|newspaper|website|web site|sports-reference|video game|film|movie|album|television series|building|street|station|train|aircraft|river|district|suburb|fictional|person|family|species|product)\b/i;
   const genericLabels = new Set([
     'university', 'college', 'school', 'government agency', 'government department',
     'government ministry', 'public institution', 'public institute', 'municipality',
@@ -132,7 +134,8 @@ function isSpecificOrganization(record) {
     description.length > 10 &&
     organizationTerms.test(`${label} ${description}`) &&
     !genericDescriptions.test(description) &&
-    !genericLabels.has(lowerLabel);
+    !genericLabels.has(lowerLabel) &&
+    !nonOrganizationEntity.test(label + ' ' + description);
 }
 
 function datasetNode({
@@ -263,7 +266,7 @@ const supplemental = JSON.parse(fs.readFileSync(supplementalPath, 'utf8'));
 const allowedSupplementalClasses = new Set(supplemental.instanceOfAllowlist || []);
 const supplementalRecords = [...(supplemental.records || [])]
   .filter((record) =>
-    /^Q\\d+$/.test(record.id || '') &&
+    /^Q\d+$/.test(record.id || '') &&
     typeof record.label === 'string' &&
     typeof record.description === 'string' &&
     Array.isArray(record.instanceOf) &&
