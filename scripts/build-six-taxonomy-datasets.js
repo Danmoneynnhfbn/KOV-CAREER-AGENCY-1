@@ -161,6 +161,8 @@ function jobFunctionRecords(roleMap) {
     throw new Error('Expected exactly 100 sourced job-function records; found ' + (parentRecords.length + subfunctions.length));
   }
   return [...parentRecords, ...subfunctions];
+}
+
 function seniorityRecords(roleMap) {
   const levels = [
     ['Senior individual contributor', 'An experienced specialist without a stated people-management remit.', []],
