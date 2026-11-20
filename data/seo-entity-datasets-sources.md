@@ -46,38 +46,42 @@ The repository includes `data/taxonomy/additional-organizations-wikidata.json`,
 a supplemental source pool gathered from English-language Wikidata entity-search
 queries. Each retained candidate includes its QID, label, description, search
 term, exact API source URL, and direct Wikidata `instance of` class labels. The
-file contains 916 candidate rows. Reapplying the current builder's QID,
-allowlisted `instance of`, name/description and non-organization exclusion
-filters accepts 835 rows. Deduplication within the supplemental pool leaves
-807 unique candidates by QID and normalized label. These 807 are still not a
-net-new count against the retained 832. The build script checks both QID and
-normalized label against the original selection and must find 468 net-new
-records before it can produce the 1,300 target.
+file contains 916 candidate rows. The current new-record eligibility filter
+accepts 835 rows. Comparing these candidates with the exact 832 `Organization`
+nodes in the existing JSON-LD catalog, then deduplicating by QID and normalized
+name, leaves **582 net-new candidates**. The generator selects 468 in ascending
+QID order to reach 1,300 and retains 114 validated candidates in reserve.
 
-The generator has been updated to preserve the original 832 and require exactly
-1,300 after merge. The existing 23.5 MB generated JSON-LD catalog is not
-rewritten by the GitHub source-file update; regenerate it locally with the
-command above and run `python scripts\\prepare-taxonomy-pages.py
---validate-entity-datasets` before treating the new count as present in the
-published catalog.
+The original 832 organization nodes must remain unchanged. A retrospective
+check found that 97 original records would fail the newer supplemental-record
+filter, so the updated builder reads the original nodes from the existing
+`data/seo-entity-datasets.jsonld` and applies the stricter test only to new
+candidates. It does not re-filter or replace the original records. The generated
+23.5 MB JSON-LD catalog still contains 832 organizations until the full builder
+is run and validated; the 1,300 target is not yet a published count.
 
+`build-seo-entity-datasets.js` now reads the organization baseline from the
+existing JSON-LD catalog and the supplemental candidates from the repository.
+No separate Wikidata input file is required. Run the builder with the original
+GeoNames and O*NET 31.0 source inputs shown below, then run the validation
+command before treating the 1,300 count as generated.
 ## Rebuilding the catalog
 
-The source archives are not duplicated in this repository. Download and extract
-the sources above, save the Wikidata English entity-search results in the
-builder's expected JSON format (`id`, `label`, and `description`),
-then run from the repository root:
+The GeoNames and O*NET 31.0 source archives are not duplicated in this
+repository. Download and extract the GeoNames `cities1000.txt` and O*NET
+31.0 text database, then run from the repository root. The organization
+baseline is read from the existing `data/seo-entity-datasets.jsonld` file;
+the supplemental Wikidata candidates are already retained in
+`data/taxonomy/additional-organizations-wikidata.json`.
 
 ```powershell
 node scripts\build-seo-entity-datasets.js `
   --geonames C:\path\to\cities1000.txt `
-  --onet-directory C:\path\to\db_31_0_text `
-  --wikidata C:\path\to\wikidata-search-results.json
+  --onet-directory C:\path\to\db_31_0_text
 ```
 
 The builder validates all minimums and refuses to produce a catalog with fewer
 than 1,000 city candidates, 1,323 populated-place candidates, 1,095 distinct
-job titles, 486 distinct named organizations, or 200 detailed work activities.
+job titles, exactly 1,300 named organizations, or 200 detailed work activities.
 Run `python scripts\prepare-taxonomy-pages.py --validate-entity-datasets` to
-check record uniqueness, source attribution, types, and the complete references
-without rewriting the existing SEO source JSON.
+check record uniqueness, source attribution, types, and complete references.
