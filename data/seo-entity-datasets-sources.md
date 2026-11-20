@@ -52,27 +52,41 @@ nodes in the existing JSON-LD catalog, then deduplicating by QID and normalized
 name, leaves **582 net-new candidates**. The generator selects 468 in ascending
 QID order to reach 1,300 and retains 114 validated candidates in reserve.
 
-The original 832 organization nodes must remain unchanged. A retrospective
-check found that 97 original records would fail the newer supplemental-record
-filter, so the updated builder reads the original nodes from the existing
-`data/seo-entity-datasets.jsonld` and applies the stricter test only to new
-candidates. It does not re-filter or replace the original records. The generated
-23.5 MB JSON-LD catalog still contains 832 organizations until the full builder
-is run and validated; the 1,300 target is not yet a published count.
+The original 832 organization nodes are carried forward unchanged. A
+retrospective check found that 97 original records would fail the newer
+supplemental-record filter, so the builder applies the stricter filter only to
+new candidates. The 2026-11-20 build selected 468 of the 582 net-new candidates,
+retaining 114 validated candidates in reserve. The generated
+`data/seo-entity-datasets.jsonld` now contains exactly 1,300 organization
+nodes and passed `prepare-taxonomy-pages.py --validate-entity-datasets`.
 
-`build-seo-entity-datasets.js` now reads the organization baseline from the
-existing JSON-LD catalog and the supplemental candidates from the repository.
-No separate Wikidata input file is required. Run the builder with the original
-GeoNames and O*NET 31.0 source inputs shown below, then run the validation
-command before treating the 1,300 count as generated.
+The same build generated 50,250 world cities/populated places, 1,000 GeoNames
+city candidates, 1,323 GeoNames populated-place candidates, 3,563 first-level
+administrative areas, 44,779 distinct O*NET job titles, and 2,087 detailed
+work activities. The generated JSON-LD catalog is 24,086,324 bytes.
+
+The repeatable GitHub Actions workflow
+`.github/workflows/build-taxonomy-datasets.yml` downloads the official O*NET
+31.0 CSV tables, extracts the repository's GeoNames source, rebuilds the SEO
+entity catalog and six-category taxonomy, validates all three target counts,
+and commits generated files only when the approved targets are met.
 ## Rebuilding the catalog
 
-The GeoNames and O*NET 31.0 source archives are not duplicated in this
-repository. Download and extract the GeoNames `cities1000.txt` and O*NET
-31.0 text database, then run from the repository root. The organization
-baseline is read from the existing `data/seo-entity-datasets.jsonld` file;
-the supplemental Wikidata candidates are already retained in
-`data/taxonomy/additional-organizations-wikidata.json`.
+The recommended repeatable path is the GitHub Actions workflow
+`.github/workflows/build-taxonomy-datasets.yml`. It downloads the official
+O*NET 31.0 tables:
+
+- `https://www.onetcenter.org/dl_files/database/db_31_0_csv/job_titles.csv`
+- `https://www.onetcenter.org/dl_files/database/db_31_0_csv/gwas_to_iwas_to_dwas.csv`
+
+It converts them to the builder's tab-delimited input format, extracts the
+repository's `data/taxonomy/geonames-cities1000.zip`, runs both builders, and
+validates the entity catalog and taxonomy snapshots. It commits generated
+files only when the organization, job-function, and career-search-intent
+targets are all met.
+
+For a local manual build, download and extract those same O*NET source tables
+and the GeoNames `cities1000.txt` file, then run from the repository root:
 
 ```powershell
 node scripts\build-seo-entity-datasets.js `
@@ -80,8 +94,5 @@ node scripts\build-seo-entity-datasets.js `
   --onet-directory C:\path\to\db_31_0_text
 ```
 
-The builder validates all minimums and refuses to produce a catalog with fewer
-than 1,000 city candidates, 1,323 populated-place candidates, 1,095 distinct
-job titles, exactly 1,300 named organizations, or 200 detailed work activities.
-Run `python scripts\prepare-taxonomy-pages.py --validate-entity-datasets` to
-check record uniqueness, source attribution, types, and complete references.
+Then run `python scripts\prepare-taxonomy-pages.py --validate-entity-datasets`
+to check record uniqueness, source attribution, types, and complete references.
