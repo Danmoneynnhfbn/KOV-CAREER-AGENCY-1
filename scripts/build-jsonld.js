@@ -27,11 +27,11 @@ const CATEGORY = {
   'career-challenge': ['career-challenges', 'Career challenges', 250],
   'career-search-intent': ['career-search-intents', 'Career search intents', 5000],
   faq: ['faqs', 'Frequently asked questions', 500],
-  language: ['languages', 'Languages', 7],
+  language: ['languages', 'Languages', 30],
   country: ['countries', 'Countries', 197],
   city: ['cities', 'Cities and populated places', 50250],
   'town-locality': ['towns-localities', 'Towns and localities', 1323],
-  institution: ['institutions', 'Institutions', 832],
+  institution: ['institutions', 'Organizations and institutions', 1300],
 };
 const ALL_CATEGORIES = Object.keys(CATEGORY);
 const LARGE_CATEGORIES = new Set(['job-title', 'professional-term', 'city', 'qualification']);
@@ -65,6 +65,8 @@ const FAQ_BY_QUESTION = new Map(FAQ_SOURCE.map((item) => [norm(item.question), i
 const ROLE_SOURCE = require('../assets/role-taxonomy.js').kovRoleTaxonomy;
 const INDUSTRY_SOURCE = require('../assets/industry-directory.js').industryDirectory;
 const ESCO_SOURCE = require('../assets/esco-taxonomy.js');
+const { buildTaxonomies } = require('./lib/verified-expanded-taxonomy');
+const VERIFIED_TAXONOMIES = buildTaxonomies();
 const QUALIFICATION_SOURCE = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/taxonomy/ofqual-active-qualifications.json'), 'utf8'));
 const QUALIFICATION_RECORDS = QUALIFICATION_SOURCE.records;
 const ONET_SOURCE_DATA = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/taxonomy/onet-chief-executives-skills.json'), 'utf8'));
@@ -591,6 +593,9 @@ function main() {
     ? descriptions(globalTags)
     : countsFromPublishedSummary(homeNodes);
   counts.qualification = QUALIFICATION_RECORDS.length;
+  counts.language = LANGUAGE_SOURCE.length;
+  counts.institution = INSTITUTION_SOURCE.length;
+  counts['professional-term'] = VERIFIED_TAXONOMIES.professionalSynonymDirectory.length;
   for (const category of SIX_CATEGORIES) counts[category] = SIX_TAXONOMY.categories[category].length;
   const issues = [];
   for (const category of ALL_CATEGORIES) {
