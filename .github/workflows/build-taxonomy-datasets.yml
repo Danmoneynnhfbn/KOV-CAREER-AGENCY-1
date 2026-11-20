@@ -99,6 +99,9 @@ jobs:
           test -n "$GEONAMES_FILE"
           echo "GEONAMES_FILE=$GEONAMES_FILE" >> "$GITHUB_ENV"
 
+      - name: Check taxonomy builder JavaScript syntax
+        run: npx --yes --package=acorn acorn --ecma2022 --locations --silent scripts/build-six-taxonomy-datasets.js
+
       - name: Build the SEO entity catalog
         run: |
           node scripts/build-seo-entity-datasets.js \
