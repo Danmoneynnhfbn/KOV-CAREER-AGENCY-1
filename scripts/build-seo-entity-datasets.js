@@ -375,8 +375,8 @@ const datasets = [
 if (worldCities.length !== 50250) {
   throw new Error(`Expected 50,250 deduplicated city records; found ${worldCities.length}.`);
 }
-const cityIds = worldCities.map((place) => place.simplemaps_id || `geonames-${place.geonames_id}`);
-if (new Set(cityIds).size !== cityIds.length) {
+const worldCityIds = worldCities.map((place) => place.simplemaps_id || `geonames-${place.geonames_id}`);
+if (new Set(worldCityIds).size !== worldCityIds.length) {
   throw new Error('World city collection contains duplicate source identifiers.');
 }
 const worldCityDataset = {
