@@ -8,6 +8,7 @@ on:
       - "assets/KOV_Candidate_Images_Compressed.zip"
       - "scripts/build_candidate_portrait_atlas.py"
       - "tests/candidate-directory.spec.js"
+      - "resources/candidate-project-directory.html"
       - ".github/workflows/build-candidate-portrait-atlas.yml"
 
 permissions:
