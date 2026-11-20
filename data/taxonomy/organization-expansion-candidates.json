@@ -2490,6 +2490,390 @@
       "source": "Wikidata Search API (English)",
       "sourceUrl": "https://www.wikidata.org/wiki/Q5474411",
       "matchedQuery": "foundation"
+    },
+    {
+      "qid": "Q5902531",
+      "name": "Hospital Universitario 12 de Octubre",
+      "description": "hospital in Madrid, Spain",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q5902531",
+      "matchedQuery": "hospital"
+    },
+    {
+      "qid": "Q5902924",
+      "name": "Hospital Son Dureta",
+      "description": "former hospital",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q5902924",
+      "matchedQuery": "hospital"
+    },
+    {
+      "qid": "Q10298534",
+      "name": "Hospital de Clínicas de Porto Alegre",
+      "description": "hospital in Brazil",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q10298534",
+      "matchedQuery": "hospital"
+    },
+    {
+      "qid": "Q7522983",
+      "name": "Singapore General Hospital",
+      "description": "hospital in Singapore",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q7522983",
+      "matchedQuery": "hospital"
+    },
+    {
+      "qid": "Q3140964",
+      "name": "Hospital for Sick Children",
+      "description": "hospital in Toronto, Canada",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q3140964",
+      "matchedQuery": "hospital"
+    },
+    {
+      "qid": "Q89822525",
+      "name": "Hospital General De Agudos Dr. Teodoro Álvarez",
+      "description": "hospital in Buenos Aires Argentina",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q89822525",
+      "matchedQuery": "hospital"
+    },
+    {
+      "qid": "Q388490",
+      "name": "Hospital d'Inca",
+      "description": "public hospital in Inca, Majorca, Spain",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q388490",
+      "matchedQuery": "hospital"
+    },
+    {
+      "qid": "Q5908682",
+      "name": "Clinical Hospital of the University of São Paulo",
+      "description": "teaching hospital of the Faculty of Medicine of the University of São Paulo, Brazil",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q5908682",
+      "matchedQuery": "hospital"
+    },
+    {
+      "qid": "Q1630439",
+      "name": "Albert Einstein Israelite Hospital",
+      "description": "hospital in São Paulo, Brazil",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1630439",
+      "matchedQuery": "hospital"
+    },
+    {
+      "qid": "Q5902966",
+      "name": "Hospital Universitario Ramón y Cajal",
+      "description": "hospital in Madrid, Spain",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q5902966",
+      "matchedQuery": "hospital"
+    },
+    {
+      "qid": "Q87762140",
+      "name": "Hospital Universitario José Germain",
+      "description": "hospital in Spain",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q87762140",
+      "matchedQuery": "hospital"
+    },
+    {
+      "qid": "Q5902953",
+      "name": "Hospital Universitario Miguel Servet",
+      "description": "hospital in Spain",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q5902953",
+      "matchedQuery": "hospital"
+    },
+    {
+      "qid": "Q806642",
+      "name": "Bank Polska Kasa Opieki",
+      "description": "Polish bank",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q806642",
+      "matchedQuery": "bank"
+    },
+    {
+      "qid": "Q806678",
+      "name": "Bank of Cyprus",
+      "description": "Cypriot financial services company",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q806678",
+      "matchedQuery": "bank"
+    },
+    {
+      "qid": "Q806808",
+      "name": "Bankinter",
+      "description": "Spanish bank headquartered in Madrid",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q806808",
+      "matchedQuery": "bank"
+    },
+    {
+      "qid": "Q806646",
+      "name": "Bank Negara Malaysia",
+      "description": "central bank",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q806646",
+      "matchedQuery": "bank"
+    },
+    {
+      "qid": "Q7692980",
+      "name": "Ted Bank",
+      "description": "American football player and coach, baseball coach, college athletics administrator (1897-1986)",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q7692980",
+      "matchedQuery": "bank"
+    },
+    {
+      "qid": "Q806626",
+      "name": "Bank Central Asia",
+      "description": "Indonesian company",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q806626",
+      "matchedQuery": "bank"
+    },
+    {
+      "qid": "Q4034832",
+      "name": "Bank Handlowy",
+      "description": "bank in Poland",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q4034832",
+      "matchedQuery": "bank"
+    },
+    {
+      "qid": "Q806653",
+      "name": "Erste Bank Polska",
+      "description": "Polish Bank",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q806653",
+      "matchedQuery": "bank"
+    },
+    {
+      "qid": "Q806724",
+      "name": "Bankcard-Servicenetz",
+      "description": "German interbank network group",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q806724",
+      "matchedQuery": "bank"
+    },
+    {
+      "qid": "Q623042",
+      "name": "Bank Rakyat Indonesia",
+      "description": "Indonesian bank",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q623042",
+      "matchedQuery": "bank"
+    },
+    {
+      "qid": "Q77700695",
+      "name": "BankID",
+      "description": "Mobile Bkash Bank-id",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q77700695",
+      "matchedQuery": "bank"
+    },
+    {
+      "qid": "Q610817",
+      "name": "Bank of Brazil",
+      "description": "Brazilian banking institution",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q610817",
+      "matchedQuery": "bank"
+    },
+    {
+      "qid": "Q9164980",
+      "name": "Bank Gospodarki Żywnościowej",
+      "description": "Polish bank",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q9164980",
+      "matchedQuery": "bank"
+    },
+    {
+      "qid": "Q18145525",
+      "name": "Research Institute for Geo-Hydrological Protection",
+      "description": "Italian Research Institute",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q18145525",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q25395226",
+      "name": "Luch Scientific Production Association",
+      "description": "company based in Podolsk, Russia",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q25395226",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q19844164",
+      "name": "Research Institute of Emergency Childrens Surgery and Traumatology",
+      "description": "hospital in Russia",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q19844164",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q7315103",
+      "name": "Research Institute of Electronic Communication",
+      "description": "research institute at Tohoku University",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q7315103",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q12836450",
+      "name": "Əkinçilik Elmi Tədqiqat İnstitutu",
+      "description": "government organization in Pirşağı, Azerbaijan",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q12836450",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q30269956",
+      "name": "Institute of Cardiometabolism And Nutrition",
+      "description": "organization in Paris, France",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q30269956",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q33121242",
+      "name": "Research Institute for Analytical Instrumentation",
+      "description": "organization in Cluj-Napoca, Romania",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q33121242",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q99518280",
+      "name": "Research Institute for Biological Safety Problems",
+      "description": "research institute in Kazakhstan",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q99518280",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q12132672",
+      "name": "Research Institute of Ukrainian Studies",
+      "description": "research institute in Kyiv, Ukraine",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q12132672",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q840667",
+      "name": "Research Institute for Mathematical Sciences",
+      "description": "research institute affiliated with Kyoto University",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q840667",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q65137523",
+      "name": "Research Institute of Human Morphology",
+      "description": "human anatomy research institute in Moscow, Russia",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q65137523",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q114795513",
+      "name": "Institute for Aviation Medicine, Munich",
+      "description": "aviation medicine institute, Ludwig-Maximilians-Universität München (Nazi Germany)",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q114795513",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q30266947",
+      "name": "Research Institute for Bioscience and Biotechnology",
+      "description": "nonprofit organization in Kathmandu, Nepal",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q30266947",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q30258786",
+      "name": "Bee Research Institute",
+      "description": "research organization in Máslovice, Czechia",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q30258786",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q7315104",
+      "name": "Research Institute of Industrial Economics",
+      "description": "private independent research foundation",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q7315104",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q11606468",
+      "name": "Research Institute of Economy, Trade and Industry",
+      "description": "administrative agency in Japan",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q11606468",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q41480916",
+      "name": "Research Institute for Mathematical Machines",
+      "description": "Czechoslovak research institute",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q41480916",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q7315093",
+      "name": "Research Institute for Advanced Studies",
+      "description": "organization devoted to scientific research in the United States of America",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q7315093",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q20851414",
+      "name": "Research Institute for Labour and Social Affairs",
+      "description": "research institute in Prague, Czech Republic",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q20851414",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q47080542",
+      "name": "Forest Research Institute",
+      "description": "Chinese Academy of Forestry, Beijing, China",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q47080542",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q138789544",
+      "name": "PACT Membership Directory",
+      "description": "directory of organizations in the theatrical field",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q138789544",
+      "matchedQuery": "professional association"
+    },
+    {
+      "qid": "Q135489653",
+      "name": "government agency of Cyprus",
+      "description": "agency under the government of Cyprus",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q135489653",
+      "matchedQuery": "government agency"
+    },
+    {
+      "qid": "Q135427824",
+      "name": "government agency of Vietnam",
+      "description": "ministry-level or government-dependent agency of Vietnam",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q135427824",
+      "matchedQuery": "government agency"
     }
   ]
 }
