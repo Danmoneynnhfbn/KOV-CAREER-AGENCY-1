@@ -64,7 +64,7 @@ The 2026-11-15 zero-count assessment above is a historical checkpoint and is sup
 | Category | Approved target | Current records | Provenance and method |
 |---|---:|---:|---|
 | Professional audiences | 471 | 592 | KOV-defined role/industry audiences deduplicated from indexable `roles/{role}/{industry}.html` headings. Each record retains the source route, heading, and page mapping. The source inventory contains 594 routes; two labels collapse under normalization. The verified set exceeds the target by 121 and is not truncated. |
-| Job functions | 100 | 19 | KOV-defined functional groups supported by existing function-specific executive, director, head, VP role pages, and the procurement FAQ. These are not relabeled O*NET job families or ESCO occupations. The remaining 81 functions have not been verified. |
+| Job functions | 100 | 19 in the last generated snapshot | The current builder defines 19 parent function groups plus 81 distinct responsibility subfunctions with indexable KOV role-page/FAQ provenance. The snapshot still needs rebuilding. |
 | Seniority levels | 10 | 10 | Internal KOV descriptive title-scope framework, linked to KOV senior-career and role pages. It is not a universal rank scale and assigns no years-of-experience thresholds. |
 | Employment types | 30 | 30 | Ten detailed ICSE-18 status-in-employment categories plus 20 distinct ILO/EU/UK-described employment arrangements or work modalities. Each record names its dimension and source. Dimensions overlap; the 30 are not a mutually exclusive classification or a claim of universal legal status. |
 | Career challenges | 250 | 250 | KOV FAQ-derived planning and career-positioning topics, transformed under explicit question-pattern rules. Each record retains the original FAQ question, source page and page mapping. No prevalence is asserted. |
@@ -110,8 +110,8 @@ The original source records were preserved. The following append-only additions 
 |---|---:|---:|---|
 | Languages | 30 | 30 | Seven original records retained; 23 ISO 639-1 language records appended in `languages.json`. |
 | Professional synonyms and related terms | 50,000 after the verified snapshot is rebuilt | 50,000 | One additional German ESCO occupation alternative label appended in `additional-professional-synonyms.json`; the verified taxonomy builder now includes supplemental records. |
-| Job functions | 19 | 100 | 81 additional records remain unverified. No O*NET work activities or occupations have been relabelled as job functions. |
-| Career-search intents | 1,138–1,142 estimated unique source candidates before rebuild | 5,000 | The previous 871-record snapshot plus 271 relevant, unique Google Search Console queries. None of the 271 overlap the keyword-map terms or FAQ questions; up to four may overlap the four research-file additions. The generated unique count remains unverified until rebuild. |
+| Job functions | 19 in the last generated snapshot; 100 distinct records defined in the current builder source | 100 | The builder contains 19 parent function groups plus 81 distinct responsibility subfunctions, each mapped to an indexable KOV role page or the procurement FAQ. The generated snapshot still needs rebuilding and validation. These are internal KOV classifications, not relabelled O*NET occupations or work activities. |
+| Career-search intents | Pending rebuild; sources include the 871-record prior snapshot, 271 relevant GSC queries, and the new O*NET occupation-title research record | 5,000 | The previous 1,138–1,142 estimate predates the additional O*NET research record and is no longer a complete estimate. The builder deduplicates all source terms and reports the exact count; the generated total remains unverified until rebuild. |
 | Organizations and institutions | 832 original records preserved; 468 selected from 582 net-new candidates | 1,300 | The current new-record filter accepts 835 of 916 candidates. Comparing against the existing catalog and deduplicating by QID and normalized name leaves 582 net-new records. The builder adds 468 and keeps 114 validated candidates in reserve. The generated catalog still requires rebuilding. |
 
 The language additions use ISO 639-1 two-letter codes and names; see the existing ISO and Library of Congress source references above. The synonym addition is the German alternative label “Instandhaltungstechniker Flughafen” for ESCO occupation “airport maintenance technician,” concept URI `http://data.europa.eu/esco/occupation/822bbc2d-bc6a-4fb5-afb8-89170120c6d8`. Its source record was retrieved from the ESCO API and checked against the current 50,000 source labels before inclusion.
@@ -164,11 +164,18 @@ a separate Wikidata source file. The generated JSON-LD catalog still contains
 31.0 source inputs and the result passes validation.
 ### Remaining category limitations
 
-The job-function inventory remains at 19 of 100. The builder's existing role
-crosswalk supports those 19 named KOV function groups; the 81 remaining
-functions have not been added because no qualifying, non-duplicative source
-catalog has yet been established. The GSC query export adds between 267 and 271
-new unique search-intent strings after the already verified overlap checks;
-the exact total still depends on up to four research-file terms. These source
-changes do not mean the generated six-category snapshot already contains the
-new records.
+The current six-category builder now defines exactly 100 distinct KOV job
+functions: 19 parent function groups and 81 responsibility subfunctions. The
+subfunctions are mapped to the relevant indexed KOV role pages, and the
+Procurement parent group is mapped to the procurement FAQ. These are internal
+KOV function classifications, not a relabelled O*NET occupation or work
+activity list. The generated six-category snapshot still needs to be rebuilt
+and validated before the 100 count can be treated as generated.
+
+The career-search-intent source set now includes the 299-row Search Console
+export (271 marked relevant) and an additional O*NET occupation-title research
+record. Its JSON is too large for the repository file reader to inspect here;
+the exact unique contribution must be reported by running the builder. The
+previous 1,138–1,142 estimate covered the earlier 871 snapshot plus the GSC
+export only and is superseded by the O*NET research addition. No search-volume
+claim is inferred from Search Console impressions or O*NET titles.
