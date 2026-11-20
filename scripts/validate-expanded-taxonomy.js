@@ -40,8 +40,14 @@ for (const [category, records] of Object.entries(snapshot)) {
     assert(!identities.has(identity), `${category}: duplicate natural identity ${identity}`);
     identities.add(identity);
     if (category === 'searchIntentDirectory') {
-      assert.equal(record.observedSearchConsoleQuery, false, `${record.id}: search intent must remain explicitly unobserved`);
-      assert.match(record.description, /hypothesis|not an observed|not measured/i, `${record.id}: missing search-intent evidence qualifier`);
+      if (record.observedSearchConsoleQuery === true) {
+        assert.equal(record.sourcePath, 'data/taxonomy/gsc-observed-search-queries.json', `${record.id}: observed query must cite the retained GSC export`);
+        assert.equal(record.sourceType, 'observed_search_console_query', `${record.id}: observed query classification is missing`);
+        assert.notEqual(record.searchVolumeStatus, 'available', `${record.id}: Search Console impressions must not be treated as search volume`);
+      } else {
+        assert.equal(record.observedSearchConsoleQuery, false, `${record.id}: hypothesis must remain explicitly unobserved`);
+        assert.match(record.description, /hypothesis|not an observed|not measured/i, `${record.id}: missing search-intent evidence qualifier`);
+      }
     }
   }
   results[category] = { records: records.length, uniqueIdentifiers: ids.size, uniqueRecords: identities.size };
