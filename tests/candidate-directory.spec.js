@@ -18,6 +18,15 @@ const assert = require('node:assert/strict');
     );
 
     assert.equal(await page.locator('#total-count').innerText(), '1,000');
+    assert.equal(await page.locator('meta[name="robots"]').getAttribute('content'), 'noindex,follow');
+    assert.equal(
+      await page.locator('link[rel="canonical"]').getAttribute('href'),
+      'https://www.kovcareeragency.org/resources/candidate-project-directory'
+    );
+    assert.match(
+      await page.locator('meta[name="description"]').getAttribute('content'),
+      /private career representation/i
+    );
     assert.equal(await page.locator('#profile-grid .kov-project-card').count(), 24);
     assert.equal(await page.locator('#profile-grid .kov-project-avatar[role="img"]').count(), 24);
 
