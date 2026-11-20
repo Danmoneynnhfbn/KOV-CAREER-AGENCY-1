@@ -3386,6 +3386,790 @@
       "source": "Wikidata Search API (English)",
       "sourceUrl": "https://www.wikidata.org/wiki/Q23998485",
       "matchedQuery": "company"
+    },
+    {
+      "qid": "Q113302563",
+      "name": "government department of Islamic affairs in Malaysia",
+      "description": "government agency in Malaysia",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q113302563",
+      "matchedQuery": "government department"
+    },
+    {
+      "qid": "Q120912377",
+      "name": "government department of agriculture in Kerala, India",
+      "description": "Government depart of agriculture",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q120912377",
+      "matchedQuery": "government department"
+    },
+    {
+      "qid": "Q111678803",
+      "name": "state-affiliated X account",
+      "description": "Twitter (X) account label given to accounts of state-affiliated media outlets or government officials or organizations (label under display name)",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q111678803",
+      "matchedQuery": "government organization"
+    },
+    {
+      "qid": "Q908077",
+      "name": "Association of Shinto Shrines",
+      "description": "religious administrative organization that oversees Shinto shrines in Japan",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q908077",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q4346375",
+      "name": "Association for Computational Linguistics",
+      "description": "learned society and publisher",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q4346375",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q4810036",
+      "name": "Association of Research Libraries",
+      "description": "organization",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q4810036",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q4809891",
+      "name": "Association of Learned and Professional Society Publishers",
+      "description": "organization in Peterborough, United Kingdom",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q4809891",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q2867685",
+      "name": "Association for Women in Mathematics",
+      "description": "organization",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2867685",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q127992",
+      "name": "Association for Computing Machinery",
+      "description": "international learned society for computing",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q127992",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q743706",
+      "name": "AFNOR",
+      "description": "standards organization of France",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q743706",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q180305",
+      "name": "AS Monaco FC",
+      "description": "association football club in Monaco",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q180305",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q19521",
+      "name": "AS Saint-Étienne",
+      "description": "association football club in Saint-Étienne, France",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q19521",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q1499943",
+      "name": "association of municipalities and cities in Rhineland-Palatinate",
+      "description": "voluntary association",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1499943",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q40358",
+      "name": "American Association for the Advancement of Science",
+      "description": "international non-profit organization promoting science",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q40358",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q531230",
+      "name": "association of local governments in Iberia",
+      "description": "government associations in Spain & Portugal",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q531230",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q21122037",
+      "name": "SGV-ACS",
+      "description": "association on Swiss local communities",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q21122037",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q2867487",
+      "name": "Association des archivistes français",
+      "description": "French organization",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2867487",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q19523",
+      "name": "A.S. Nancy-Lorraine",
+      "description": "French association football club",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q19523",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q2826718",
+      "name": "Agence universitaire de la Francophonie",
+      "description": "university network based in Montreal, Canada",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2826718",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q298267",
+      "name": "AS Cannes",
+      "description": "association football club in France",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q298267",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q3075578",
+      "name": "Fondation Taylor",
+      "description": "Artists' association founded in France in 1844 and based in Paris",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q3075578",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q743611",
+      "name": "Association for Progressive Communications",
+      "description": "international network of organizations",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q743611",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q743204",
+      "name": "Association Guillaume Budé",
+      "description": "French learned society involved in classical studies",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q743204",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q17621586",
+      "name": "Association française d'histoire religieuse contemporaine",
+      "description": "organization",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q17621586",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q67856755",
+      "name": "Upper Centaurus-Lupus",
+      "description": "subgroup of the Scorpius–Centaurus Association",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q67856755",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q1709878",
+      "name": "Journal of the ACM",
+      "description": "scientific journal in computer science, published by the Association for Computing Machinery",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1709878",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q2867944",
+      "name": "Association of Universities for Research in Astronomy",
+      "description": "astronomy advocacy organization",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2867944",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q4430504",
+      "name": "Association of Filmmakers of the USSR",
+      "description": "organization",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q4430504",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q2513858",
+      "name": "Association of Polish Artists and Designers",
+      "description": "Polish organization",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2513858",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q67856760",
+      "name": "Lower Centaurus-Crux",
+      "description": "subgroup of the Scorpius–Centaurus Association",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q67856760",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q882392",
+      "name": "Association of German Architects",
+      "description": "association of German architects",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q882392",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q2867636",
+      "name": "Association des écrivains de langue française (mer et outre-mer)",
+      "description": "French association",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2867636",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q298006",
+      "name": "ASSITEJ",
+      "description": "international association of youth theatre professionals",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q298006",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q2867325",
+      "name": "Association agréée de surveillance de la qualité de l'air",
+      "description": "French organization (environment)",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2867325",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q743769",
+      "name": "Association of African Universities",
+      "description": "organization",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q743769",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q11894857",
+      "name": "Association of Finnish Municipalities",
+      "description": "Finnish organization",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q11894857",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q297901",
+      "name": "ASM Clermont Auvergne",
+      "description": "French rugby union club",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q297901",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q1344553",
+      "name": "Entente Européenne d’Aviculture et de Cuniculture",
+      "description": "European association of breeders of poultry, pigeons, cage-birds, rabbits and guinea-pigs",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1344553",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q298235",
+      "name": "AS Beauvais Oise",
+      "description": "association football club in France",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q298235",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q1318821",
+      "name": "football in Sweden",
+      "description": "overview of association football practiced in Sweden",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1318821",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q511645",
+      "name": "PostEurop",
+      "description": "organization",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q511645",
+      "matchedQuery": "association"
+    },
+    {
+      "qid": "Q543804",
+      "name": "German Academy of Sciences Leopoldina",
+      "description": "national academy of Germany",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q543804",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q2822312",
+      "name": "Académie de Marseille",
+      "description": "French learned society located in Marseille, France",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2822312",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q337234",
+      "name": "Academia Europaea",
+      "description": "pan-European academy",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q337234",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q2822225",
+      "name": "Academy of Art University",
+      "description": "for-profit art school in San Francisco, California, USA",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2822225",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q2822396",
+      "name": "Academy of Sciences of Turin",
+      "description": "science academy",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2822396",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q2370801",
+      "name": "Academy of Sciences of the USSR",
+      "description": "scientific institution of the Soviet Union (1925–1991)",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2370801",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q212329",
+      "name": "Academy of Motion Picture Arts and Sciences",
+      "description": "professional honorary organization",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q212329",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q102427",
+      "name": "Academy Award for Best Picture",
+      "description": "annual award from the Academy of Motion Picture Arts and Sciences",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q102427",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q414052",
+      "name": "Academy of Fine Arts, Munich",
+      "description": "art school in Munich, Germany",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q414052",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q414219",
+      "name": "Academy of Fine Arts Vienna",
+      "description": "art school in Vienna, Austria",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q414219",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q628254",
+      "name": "Imperial Academy of Arts",
+      "description": "art school in Saint Petersburg, Russia",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q628254",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q958769",
+      "name": "National Academy of Sciences of Ukraine",
+      "description": "academy of sciences",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q958769",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q414245",
+      "name": "AGH University of Science and Technology",
+      "description": "technical university in Kraków, Poland",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q414245",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q106291",
+      "name": "Academy Award for Best Supporting Actor",
+      "description": "award presented annually by the Academy of Motion Picture Arts and Sciences",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q106291",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q103916",
+      "name": "Academy Award for Best Actor",
+      "description": "award presented annually by the Academy of Motion Picture Arts and Sciences",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q103916",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q106301",
+      "name": "Academy Award for Best Supporting Actress",
+      "description": "award presented annually by the Academy of Motion Picture Arts and Sciences",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q106301",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q103618",
+      "name": "Academy Award for Best Actress",
+      "description": "award presented annually by the Academy of Motion Picture Arts and Sciences",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q103618",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q277751",
+      "name": "Academy Award for Best Production Design",
+      "description": "Academy Award which recognizes achievement for art direction in film",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q277751",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q4671486",
+      "name": "Academy of Medical Sciences",
+      "description": "British academic society",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q4671486",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q414034",
+      "name": "Jan Matejko Academy of Fine Arts in Krakow",
+      "description": "art school in Poland",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q414034",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q338472",
+      "name": "Brera Academy",
+      "description": "art academy in Milan, Italy (1776–)",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q338472",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q414066",
+      "name": "Academy of Fine Arts, Warsaw",
+      "description": "university in Warsaw, Poland",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q414066",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q1265720",
+      "name": "Academy of Sciences and Arts of Bosnia and Herzegovina",
+      "description": "organization",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1265720",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q1656608",
+      "name": "Idaho State University",
+      "description": "research university in eastern Idaho, USA",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1656608",
+      "matchedQuery": "academy"
+    },
+    {
+      "qid": "Q697111",
+      "name": "Forschungszentrum Jülich",
+      "description": "interdisciplinary research centre in Germany",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q697111",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q30287131",
+      "name": "Research Center for Food and Development A.C.",
+      "description": "government organization in Hermosillo, Mexico",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q30287131",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q5090421",
+      "name": "HUN-REN Research Centre for Natural Sciences",
+      "description": "Hungarian non-profit research institute",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q5090421",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q45134141",
+      "name": "Research Center Aggeu Magalhães, Oswaldo Cruz Foundation",
+      "description": "government organization in Brazil",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q45134141",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q1438161",
+      "name": "Research Center Borstel",
+      "description": "research foundation and hospital",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1438161",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q19407044",
+      "name": "Institute for Advanced Biosciences",
+      "description": "research Center",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q19407044",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q30266655",
+      "name": "Research Center Pharmaceutical Engineering (Austria)",
+      "description": "company in Graz, Austria",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q30266655",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q111661246",
+      "name": "Montana Historical Society Research Center Archives",
+      "description": "archives of the Montana Historical Society Research Center",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q111661246",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q111661252",
+      "name": "Montana Historical Society Research Center",
+      "description": "non-circulating library and archives of Montana Historical Society, with collections available for onsite use",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q111661252",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q61984415",
+      "name": "Research Center In Industrial Technologies",
+      "description": "research center in Algiers, Algeria",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q61984415",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q58880042",
+      "name": "Research Center for Religion and Education",
+      "description": "Research Center at the Friedrich Schiller University of Jena",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q58880042",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q111938333",
+      "name": "Research Center in Entrepreneurial History",
+      "description": "former [[Research institute|research center]] at [[Harvard University]] (1948–1958)",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q111938333",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q17229286",
+      "name": "Research Center for Advanced Science and Technology",
+      "description": "research institute of the University of Tokyo",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q17229286",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q1438169",
+      "name": "Research Center for Information System Design",
+      "description": "Interdisciplinary research centre at the University of Kassel, which focuses on the social responsibility of developing IT systems",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1438169",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q45136944",
+      "name": "Female Center for Scientific and Medical Colleges, King Saud University",
+      "description": "government organization in Saudi Arabia",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q45136944",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q74536736",
+      "name": "Research Center for Medicinal Plants & Ethno-veterinary, I.A.U., Shahrekord Branch, Iran",
+      "description": "organisation involved in scholarly research",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q74536736",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q106370857",
+      "name": "Research Center for Nanoscience and Nanotechnology",
+      "description": "A research center at university/college/institute/academy",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q106370857",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q106370776",
+      "name": "Research Center for Bioscience and Biotechnology",
+      "description": "research center at university/college/institute/academy",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q106370776",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q45132685",
+      "name": "Research Center for Infectious Diseases and Tropical Medicine, Tabriz University of Medical Sciences",
+      "description": "government organization in Iran",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q45132685",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q106370872",
+      "name": "Research Center for Infrastructure and Regional",
+      "description": "A research center at university/college/institute/academy",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q106370872",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q106370866",
+      "name": "Research Center for Information and Communication Technology",
+      "description": "A research center at university/college/institute/academy",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q106370866",
+      "matchedQuery": "research center"
+    },
+    {
+      "qid": "Q877686",
+      "name": "University of Applied Arts Vienna",
+      "description": "university in Austria",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q877686",
+      "matchedQuery": "school"
+    },
+    {
+      "qid": "Q1583249",
+      "name": "USC School of Cinematic Arts",
+      "description": "private media school in Los Angeles, California, USA",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1583249",
+      "matchedQuery": "school"
+    },
+    {
+      "qid": "Q5589088",
+      "name": "Government Secondary School, Afikpo",
+      "description": "secondary school in Afikpo, Ebonyi State, Nigeria",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q5589088",
+      "matchedQuery": "school"
+    },
+    {
+      "qid": "Q1026804",
+      "name": "California College of the Arts",
+      "description": "private art and design school in California, United States (founded 1907, opened new additional permanent campus in San Francisco in 1996)",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1026804",
+      "matchedQuery": "school"
+    },
+    {
+      "qid": "Q10274592",
+      "name": "School of Communication and Arts of the University of São Paulo",
+      "description": "public organization, teaching, research and extension unit of the University of São Paulo",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q10274592",
+      "matchedQuery": "school"
+    },
+    {
+      "qid": "Q128047",
+      "name": "Walsh School of Foreign Service",
+      "description": "school of international affairs at Georgetown University",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q128047",
+      "matchedQuery": "school"
+    },
+    {
+      "qid": "Q98035717",
+      "name": "University of Washington School of Music",
+      "description": "school of music",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q98035717",
+      "matchedQuery": "school"
+    },
+    {
+      "qid": "Q26217875",
+      "name": "School of Education",
+      "description": "academic department at the University of Leeds",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q26217875",
+      "matchedQuery": "school"
+    },
+    {
+      "qid": "Q770467",
+      "name": "Stern School of Business",
+      "description": "business school of NYU",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q770467",
+      "matchedQuery": "school"
+    },
+    {
+      "qid": "Q24036697",
+      "name": "school #48 named after Misak Manushyan",
+      "description": "school in Yerevan",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q24036697",
+      "matchedQuery": "school"
+    },
+    {
+      "qid": "Q7896578",
+      "name": "University of Washington School of Dentistry",
+      "description": "dental school",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q7896578",
+      "matchedQuery": "school"
+    },
+    {
+      "qid": "Q5149833",
+      "name": "Fu Foundation School of Engineering and Applied Science",
+      "description": "engineering school at Columbia University in the United States",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q5149833",
+      "matchedQuery": "school"
     }
   ]
 }
