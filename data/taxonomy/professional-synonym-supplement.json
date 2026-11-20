@@ -1,0 +1,15 @@
+{
+  "source": "European Commission ESCO classification API",
+  "sourceUrl": "https://ec.europa.eu/esco/skill/72aaca6d-e12c-4a07-9ed0-a3ccf7827372",
+  "selectionNote": "One English alternative label present in the retained ESCO skill record but absent from the current professionalSynonymDirectory array. It adds a distinct language/concept/normalized-term identity; it is not a generated synonym.",
+  "records": [
+    {
+      "term": "abrade gemstones",
+      "language": "en",
+      "preferredLabel": "sand gemstones",
+      "conceptUri": "http://data.europa.eu/esco/skill/72aaca6d-e12c-4a07-9ed0-a3ccf7827372",
+      "conceptType": "skill",
+      "sourceType": "ESCO skill alternative label cross-check"
+    }
+  ]
+}
