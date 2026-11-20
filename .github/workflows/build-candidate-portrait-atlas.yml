@@ -7,6 +7,7 @@ on:
     paths:
       - "assets/KOV_Candidate_Images_Compressed.zip"
       - "scripts/build_candidate_portrait_atlas.py"
+      - "tests/candidate-directory.spec.js"
       - ".github/workflows/build-candidate-portrait-atlas.yml"
 
 permissions:
@@ -28,6 +29,22 @@ jobs:
         run: python -m pip install --upgrade Pillow
       - name: Build 85-portrait atlas
         run: python scripts/build_candidate_portrait_atlas.py
+      - name: Install Playwright and Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Run the directory in a local browser
+        run: |
+          python -m http.server 8765 --bind 127.0.0.1 >/tmp/kov-directory-http.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID' EXIT
+          for attempt in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:8765/resources/candidate-project-directory.html >/dev/null; then
+              break
+            fi
+            sleep 1
+          done
+          node tests/candidate-directory.spec.js
       - name: Commit generated atlas
         run: |
           git config user.name "github-actions[bot]"
