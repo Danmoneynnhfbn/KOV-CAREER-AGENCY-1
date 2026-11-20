@@ -55,7 +55,7 @@ const fallbackFirst=['Alex','Samira','Noah','Leila','Milan','Amara','Elena','Dar
 const middleNames=['Ari','Noor','Kai','Rene','Mina','Lee','Ira','Sami','Jo','Emil','Rae','Tariq','Luca'];
 const fallbackLast=['Morgan','Kovac','Silva','Rahman','Petrov','Costa','Haddad','Novak','Garcia','Bennett','Kim','Mendes'];
 const allAfrican=new Set(['Algeria','Angola','Benin','Botswana','Burkina Faso','Burundi','Cameroon','Cape Verde','Central African Republic','Chad','Comoros','Djibouti','Egypt','Eswatini','Ethiopia','Gabon','Gambia','Ghana','Guinea','Kenya','Lesotho','Liberia','Libya','Madagascar','Malawi','Mali','Mauritania','Mauritius','Morocco','Mozambique','Namibia','Niger','Nigeria','Rwanda','Senegal','Seychelles','Sierra Leone','Somalia','South Africa','Sudan','Tanzania','Togo','Tunisia','Uganda','Zambia','Zimbabwe']);
-const africanMarkets=new Set(['Egypt','Ethiopia','Ghana','Kenya','Morocco','Nigeria','Rwanda','Senegal','South Africa','Tanzania','Tunisia','Uganda']);
+const africanMarkets=new Set(["Egypt","Ghana","Kenya","Nigeria","South Africa"]);
 const international=countries.filter(c=>!allAfrican.has(c)),african=[...africanMarkets];
 const portraitPool=window.KOV_CANDIDATE_PORTRAITS||[];
 const seenNames=new Set();
