@@ -12,8 +12,8 @@ const CATEGORY = {
   'job-function': ['job-functions', 100], 'seniority-level': ['seniority-levels', 10],
   'employment-type': ['employment-types', 30], 'career-challenge': ['career-challenges', 250],
   'career-search-intent': ['career-search-intents', 5000], faq: ['faqs', 500],
-  language: ['languages', 7], country: ['countries', 197], city: ['cities', 50250],
-  'town-locality': ['towns-localities', 1323], institution: ['institutions', 832],
+  language: ['languages', 30], country: ['countries', 197], city: ['cities', 50250],
+  'town-locality': ['towns-localities', 1323], institution: ['institutions', 1300],
 };
 const META_NAMES = Object.keys(CATEGORY).flatMap((key) => key === 'faq' ? ['faq-question', 'faq-answer'] : [key]);
 
@@ -39,7 +39,7 @@ function validate() {
     'professional-audience': SIX_TAXONOMY.categories['professional-audience'].length, 'job-title': 98380, occupation: 1655, industry: 2125,
     skill: 583, qualification: 17268, 'professional-term': 50000, 'job-function': SIX_TAXONOMY.categories['job-function'].length,
     'seniority-level': SIX_TAXONOMY.categories['seniority-level'].length, 'employment-type': SIX_TAXONOMY.categories['employment-type'].length, 'career-challenge': SIX_TAXONOMY.categories['career-challenge'].length,
-    'career-search-intent': SIX_TAXONOMY.categories['career-search-intent'].length, faq: 500, language: 7, country: 197, city: 50250,
+    'career-search-intent': SIX_TAXONOMY.categories['career-search-intent'].length, faq: 500, language: 30, country: 197, city: 50250,
     'town-locality': 1323, institution: 832,
   };
   const summary = {
@@ -110,7 +110,7 @@ function validate() {
       }
       const expectedIndividuals = {
         'professional-audience': SIX_TAXONOMY.categories['professional-audience'].length,
-        occupation: 1655, industry: 2125, skill: 583, faq: 500, language: 7, country: 197, 'town-locality': 1323, institution: 832,
+        occupation: 1655, industry: 2125, skill: 583, faq: 500, language: 30, country: 197, 'town-locality': 1323, institution: 832,
         'job-function': SIX_TAXONOMY.categories['job-function'].length,
         'seniority-level': SIX_TAXONOMY.categories['seniority-level'].length,
         'employment-type': SIX_TAXONOMY.categories['employment-type'].length,
