@@ -57,9 +57,10 @@ def validate_entity_datasets() -> None:
     catalog = nodes_by_id.get(catalog_id)
     if not catalog or catalog.get("@type") != "DataCatalog":
         raise ValueError("Shared entity catalog is missing its DataCatalog node.")
+    auxiliary_dataset_ids = {"global-cities-50250", "administrative-areas-level-1"}
     expected_dataset_ids = {
         f"{ENTITY_DATASET_BASE_URL}#{dataset_id}"
-        for dataset_id in ENTITY_DATASET_MINIMUMS
+        for dataset_id in (*ENTITY_DATASET_MINIMUMS, *auxiliary_dataset_ids)
     }
     catalog_dataset_ids = {
         item.get("@id") for item in catalog.get("hasPart", [])
@@ -67,6 +68,16 @@ def validate_entity_datasets() -> None:
     }
     if catalog_dataset_ids != expected_dataset_ids:
         raise ValueError("DataCatalog does not reference exactly the complete datasets.")
+
+    for dataset_id in auxiliary_dataset_ids:
+        node = nodes_by_id.get(f"{ENTITY_DATASET_BASE_URL}#{dataset_id}")
+        if not node or node.get("@type") != "Dataset":
+            raise ValueError(f"Missing auxiliary Schema.org Dataset node: {dataset_id}.")
+        if not isinstance(node.get("numberOfItems"), int) or node["numberOfItems"] <= 0:
+            raise ValueError(f"Auxiliary dataset has an invalid numberOfItems value: {dataset_id}.")
+        distribution = node.get("distribution")
+        if not isinstance(distribution, dict) or not distribution.get("contentUrl"):
+            raise ValueError(f"Auxiliary dataset is missing its published distribution: {dataset_id}.")
 
     for dataset_id, (expected_type, minimum) in ENTITY_DATASET_MINIMUMS.items():
         node = nodes_by_id.get(f"{ENTITY_DATASET_BASE_URL}#{dataset_id}")
