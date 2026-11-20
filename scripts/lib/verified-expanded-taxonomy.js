@@ -35,7 +35,7 @@ function sixCategoryRecords(document) {
       ...sourceFor(record, record.sourceType),
       provenanceType: record.sourceType,
       verification: { status: 'source-backed', classification: record.sourceType },
-      ...(category === 'career-search-intent' ? { query: record.name, observedSearchConsoleQuery: false } : {}),
+      ...(category === 'career-search-intent' ? { query: record.name, observedSearchConsoleQuery: record.observedSearchConsoleQuery === true } : {}),
     })),
   ]));
 }
