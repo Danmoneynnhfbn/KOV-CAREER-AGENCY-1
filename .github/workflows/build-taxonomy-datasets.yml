@@ -1,0 +1,188 @@
+name: Build and validate taxonomy datasets
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - ".github/workflows/build-taxonomy-datasets.yml"
+      - "scripts/build-seo-entity-datasets.js"
+      - "scripts/build-six-taxonomy-datasets.js"
+      - "scripts/lib/verified-expanded-taxonomy.js"
+      - "scripts/build-verified-expanded-taxonomy.js"
+      - "scripts/validate-six-taxonomy-datasets.js"
+      - "scripts/validate-expanded-taxonomy.js"
+      - "data/seo-entity-datasets.jsonld"
+      - "data/taxonomy/additional-organizations-wikidata.json"
+      - "data/taxonomy/gsc-observed-search-queries.json"
+      - "data/taxonomy/geonames-cities1000.zip"
+      - "data/taxonomy/kov-six-category-taxonomies.json"
+      - "data/taxonomy/languages.json"
+      - "data/taxonomy/ofqual-active-qualifications.json"
+      - "data/taxonomy/additional-professional-synonyms.json"
+      - "development/KEYWORD-INTENT-MAP.csv"
+      - "development/research/records/**"
+      - "assets/faq-directory.js"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: taxonomy-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Download official O*NET 31.0 source tables
+        run: |
+          mkdir -p /tmp/onet31
+          curl --fail --location --retry 3 --retry-all-errors --user-agent "KOV-Career-Agency-taxonomy-builder" \
+            https://www.onetcenter.org/dl_files/database/db_31_0_csv/job_titles.csv \
+            --output /tmp/onet31/job_titles.csv
+          curl --fail --location --retry 3 --retry-all-errors --user-agent "KOV-Career-Agency-taxonomy-builder" \
+            https://www.onetcenter.org/dl_files/database/db_31_0_csv/gwas_to_iwas_to_dwas.csv \
+            --output /tmp/onet31/gwas_to_iwas_to_dwas.csv
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+
+          root = Path("/tmp/onet31")
+          files = {
+              "job_titles.csv": (
+                  "Job Titles.txt",
+                  {"O*NET-SOC Code", "Title", "Job Title", "Short Title", "Source(s)"},
+              ),
+              "gwas_to_iwas_to_dwas.csv": (
+                  "GWAs to IWAs to DWAs.txt",
+                  {"GWA Element ID", "GWA Element Name", "IWA Element ID", "IWA Element Name", "DWA Element ID", "DWA Element Name"},
+              ),
+          }
+          for source, (destination, required) in files.items():
+              with (root / source).open("r", encoding="utf-8-sig", newline="") as handle:
+                  reader = csv.DictReader(handle)
+                  headers = set(reader.fieldnames or [])
+                  missing = required - headers
+                  if missing:
+                      raise SystemExit(f"{source}: missing expected columns: {sorted(missing)}")
+                  rows = list(reader)
+              with (root / destination).open("w", encoding="utf-8", newline="") as handle:
+                  writer = csv.DictWriter(handle, fieldnames=reader.fieldnames, delimiter="\\t", lineterminator="\\n")
+                  writer.writeheader()
+                  writer.writerows(rows)
+              print(f"{source}: {len(rows):,} rows converted to {destination}")
+          PY
+
+      - name: Extract GeoNames source
+        run: |
+          mkdir -p /tmp/geonames
+          unzip -q data/taxonomy/geonames-cities1000.zip -d /tmp/geonames
+          GEONAMES_FILE="$(find /tmp/geonames -type f -name cities1000.txt -print -quit)"
+          test -n "$GEONAMES_FILE"
+          echo "GEONAMES_FILE=$GEONAMES_FILE" >> "$GITHUB_ENV"
+
+      - name: Build the SEO entity catalog
+        run: |
+          node scripts/build-seo-entity-datasets.js \
+            --geonames "$GEONAMES_FILE" \
+            --onet-directory /tmp/onet31
+
+      - name: Build six-category taxonomy
+        run: node scripts/build-six-taxonomy-datasets.js
+
+      - name: Validate six-category taxonomy
+        run: node scripts/validate-six-taxonomy-datasets.js
+
+      - name: Build and validate verified expanded taxonomy
+        run: |
+          node scripts/build-verified-expanded-taxonomy.js
+          node scripts/validate-expanded-taxonomy.js
+
+      - name: Validate SEO entity catalog
+        run: python scripts/prepare-taxonomy-pages.py --validate-entity-datasets
+
+      - name: Check approved targets and prepare build report
+        id: counts
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          entity = json.loads(Path("data/seo-entity-datasets.jsonld").read_text(encoding="utf-8"))
+          graph = entity["@graph"]
+          organizations = [
+              node for node in graph
+              if node.get("@type") == "Organization"
+              and str(node.get("identifier", "")).startswith("Q")
+              and str(node.get("@id", "")).endswith("#organization-" + str(node.get("identifier", "")).lower())
+          ]
+          six = json.loads(Path("data/taxonomy/kov-six-category-taxonomies.json").read_text(encoding="utf-8"))
+          categories = six["categories"]
+          counts = {
+              "organizations": len(organizations),
+              "job_functions": len(categories["job-function"]),
+              "career_search_intents": len(categories["career-search-intent"]),
+          }
+          targets = {"organizations": 1300, "job_functions": 100, "career_search_intents": 5000}
+          met = (
+              counts["organizations"] == targets["organizations"]
+              and counts["job_functions"] == targets["job_functions"]
+              and counts["career_search_intents"] >= targets["career_search_intents"]
+          )
+          report = {"counts": counts, "targets": targets, "targets_met": met}
+          Path("taxonomy-build-report.json").write_text(json.dumps(report, indent=2) + "\\n", encoding="utf-8")
+          print(json.dumps(report, indent=2))
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write("targets_met=" + ("true" if met else "false") + "\\n")
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as summary:
+              summary.write("## Taxonomy build results\\n\\n")
+              for key, value in counts.items():
+                  summary.write(f"- **{key.replace('_', ' ').title()}:** {value:,} / {targets[key]:,}\\n")
+              summary.write("\\n")
+              summary.write("All three targets met. Generated data will be committed." if met else "At least one target remains unmet. Generated files are retained as a workflow artifact and will not be published.")
+          PY
+
+      - name: Commit generated taxonomy files when all three targets are met
+        if: steps.counts.outputs.targets_met == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/seo-entity-datasets.jsonld data/taxonomy/kov-six-category-taxonomies.json data/taxonomy/verified-expanded-taxonomy.json
+          if git diff --cached --quiet; then
+            echo "Generated taxonomy files already match the source data."
+          else
+            git commit -m "Build verified organization and career taxonomy datasets"
+            git push origin HEAD:master
+          fi
+
+      - name: Upload generated files and exact count report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kov-taxonomy-build-output
+          path: |
+            data/seo-entity-datasets.jsonld
+            data/taxonomy/kov-six-category-taxonomies.json
+            data/taxonomy/verified-expanded-taxonomy.json
+            taxonomy-build-report.json
+          if-no-files-found: warn
+          retention-days: 14
