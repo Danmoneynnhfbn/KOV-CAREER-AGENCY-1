@@ -11,6 +11,7 @@ on:
       - "scripts/build-verified-expanded-taxonomy.js"
       - "scripts/validate-six-taxonomy-datasets.js"
       - "scripts/validate-expanded-taxonomy.js"
+      - "scripts/prepare-taxonomy-pages.py"
       - "data/seo-entity-datasets.jsonld"
       - "data/taxonomy/additional-organizations-wikidata.json"
       - "data/taxonomy/gsc-observed-search-queries.json"
