@@ -85,7 +85,7 @@ jobs:
                       raise SystemExit(f"{source}: missing expected columns: {sorted(missing)}")
                   rows = list(reader)
               with (root / destination).open("w", encoding="utf-8", newline="") as handle:
-                  writer = csv.DictWriter(handle, fieldnames=reader.fieldnames, delimiter="\\t", lineterminator="\\n")
+                  writer = csv.DictWriter(handle, fieldnames=reader.fieldnames, delimiter="\t", lineterminator="\n")
                   writer.writeheader()
                   writer.writerows(rows)
               print(f"{source}: {len(rows):,} rows converted to {destination}")
@@ -149,15 +149,15 @@ jobs:
               and counts["career_search_intents"] >= targets["career_search_intents"]
           )
           report = {"counts": counts, "targets": targets, "targets_met": met}
-          Path("taxonomy-build-report.json").write_text(json.dumps(report, indent=2) + "\\n", encoding="utf-8")
+          Path("taxonomy-build-report.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
           print(json.dumps(report, indent=2))
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
-              output.write("targets_met=" + ("true" if met else "false") + "\\n")
+              output.write("targets_met=" + ("true" if met else "false") + "\n")
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as summary:
-              summary.write("## Taxonomy build results\\n\\n")
+              summary.write("## Taxonomy build results\n\n")
               for key, value in counts.items():
-                  summary.write(f"- **{key.replace('_', ' ').title()}:** {value:,} / {targets[key]:,}\\n")
-              summary.write("\\n")
+                  summary.write(f"- **{key.replace('_', ' ').title()}:** {value:,} / {targets[key]:,}\n")
+              summary.write("\n")
               summary.write("All three targets met. Generated data will be committed." if met else "At least one target remains unmet. Generated files are retained as a workflow artifact and will not be published.")
           PY
 
