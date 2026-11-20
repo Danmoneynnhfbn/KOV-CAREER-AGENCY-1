@@ -14,7 +14,7 @@ to process or display every record.
 | Cities | 1,000 | `Place` | The 1,000 highest-population GeoNames `cities1000` records carrying an administrative-seat or capital feature code (`PPLC`, `PPLA`, `PPLA2`–`PPLA5`, or `PPLG`). Their original GeoNames feature codes are retained. |
 | Town candidates | 1,323 | `Place` | The 1,323 highest-population `cities1000` records carrying GeoNames feature code `PPL`. GeoNames describes these as populated places and does not consistently distinguish legal towns from cities; the site therefore preserves the source classification rather than asserting legal status. |
 | Professional role titles | 44,779 | `Occupation` | Every distinct O*NET 31.0 `Job Title` string, deduplicated by Unicode NFKC normalization and case-insensitive whitespace normalization. Associated O*NET-SOC codes are retained as identifiers. |
-| Institutions and organizations | 832 currently in the retained catalog; 1,300 after the supplemental rebuild | `Organization` | The original 832 English-language Wikidata entities are preserved. The builder now adds 468 further unique QID records from the supplemental source file, after direct `instance of` validation and deduplication by QID and normalized name. |
+| Institutions and organizations | 832 in the retained catalog; 1,300 target pending merge validation | `Organization` | The original 832 English-language Wikidata entities are preserved. The builder tests supplemental records against the retained set by QID and normalized name and fails unless 468 net-new records can be added. The 1,300 total is a build target, not yet a verified generated count. |
 | Detailed work activities | 2,087 | `DefinedTerm` | Distinct O*NET 31.0 Detailed Work Activity identifiers and names. This additional collection preserves the source distinction between activities and occupations. |
 
 GeoNames place records carry their source feature code, country code, coordinates,
@@ -46,11 +46,13 @@ The repository includes `data/taxonomy/additional-organizations-wikidata.json`,
 a supplemental source pool gathered from English-language Wikidata entity-search
 queries. Each retained candidate includes its QID, label, description, search
 term, exact API source URL, and direct Wikidata `instance of` class labels. The
-file contains 675 candidates after filtering against an explicit organization
-and institution class allowlist. It does not claim that every candidate is new
-to the retained 832: the build script checks both QID and normalized label
-against the original selection before taking the 468 additional records needed
-to reach 1,300.
+file contains 916 candidate rows. A direct reproduction of the current
+builder filters accepts 843 rows by QID, description, name and allowlisted
+`instance of` class; deduplication within this supplemental pool leaves 815
+unique candidates by QID and normalized label. These 815 are still not a net-new
+count against the retained 832. The build script checks both QID and normalized
+label against the original selection and must find 468 net-new records before
+it can produce the 1,300 target.
 
 The generator has been updated to preserve the original 832 and require exactly
 1,300 after merge. The existing 23.5 MB generated JSON-LD catalog is not
