@@ -111,7 +111,7 @@ The original source records were preserved. The following append-only additions 
 | Languages | 30 | 30 | Seven original records retained; 23 ISO 639-1 language records appended in `languages.json`. |
 | Professional synonyms and related terms | 50,000 after the verified snapshot is rebuilt | 50,000 | One additional German ESCO occupation alternative label appended in `additional-professional-synonyms.json`; the verified taxonomy builder now includes supplemental records. |
 | Job functions | 19 | 100 | 81 additional records remain unverified. No O*NET work activities or occupations have been relabelled as job functions. |
-| Career-search intents | 871 | 5,000 | 4,129 additional records remain unverified. Existing records remain explicitly described as researched/editorial hypotheses, not observed Google Search Console queries. |
+| Career-search intents | 1,138–1,142 estimated unique source candidates before rebuild | 5,000 | The previous 871-record snapshot plus 271 relevant, unique Google Search Console queries. None of the 271 overlap the keyword-map terms or FAQ questions; up to four may overlap the four research-file additions. The generated unique count remains unverified until rebuild. |
 | Organizations and institutions | 832 retained baseline; 815 supplemental unique candidates before overlap check | 1,300 | Supplemental Wikidata candidates are available, but the net-new count after checking the original 832 by QID and normalized name is not yet verified. The build must establish at least 468 net-new records. |
 
 The language additions use ISO 639-1 two-letter codes and names; see the existing ISO and Library of Congress source references above. The synonym addition is the German alternative label “Instandhaltungstechniker Flughafen” for ESCO occupation “airport maintenance technician,” concept URI `http://data.europa.eu/esco/occupation/822bbc2d-bc6a-4fb5-afb8-89170120c6d8`. Its source record was retrieved from the ESCO API and checked against the current 50,000 source labels before inclusion.
@@ -131,10 +131,19 @@ Search Console, including clicks, impressions, CTR and average position.
 Of these, 271 are marked relevant to KOV career representation, executive
 search, leadership, recruitment and related service topics; 28 rows remain in
 the source file with an explicit exclusion reason. The taxonomy builder merges
-only relevant, non-duplicate query strings. It preserves the Search Console
-metrics as observed property data and does not describe impressions as keyword
-search volume. The existing generated six-category JSON snapshot has not yet
-been rebuilt from the updated source.
+only relevant, non-duplicate query strings. The 271 relevant query strings are
+unique within the GSC export and have no normalized-text overlap with the 367
+unique keyword-map terms or the 500 FAQ questions. The prior 871-record snapshot
+also included four additional research-file terms, so between 267 and 271 of
+the GSC rows are expected to add new unique records. This gives an estimated
+pre-build range of 1,138–1,142 unique career-search intent records. The exact
+count depends on overlap with those four research-file terms and must be read
+from the generated file after rebuild. The 481 query/page rows from the same
+period contain the same 299 unique query strings, so they add page-level
+observations rather than additional search terms. Search Console metrics remain
+observed property data; impressions are not keyword search volume. The existing
+generated six-category JSON snapshot has not yet been rebuilt from the updated
+source.
 
 ### Additional organizations and institutions
 
@@ -156,9 +165,8 @@ builder with the original GeoNames, O*NET and Wikidata input files.
 The job-function inventory remains at 19 of 100. The builder's existing role
 crosswalk supports those 19 named KOV function groups; the 81 remaining
 functions have not been added because no qualifying, non-duplicative source
-catalog has yet been established. The search-intent source now includes up to
-271 additional observed property queries, but the final unique total is
-calculated only when the updated builder runs and removes normalized duplicates
-against the existing keyword-map, research-record and FAQ terms. These source
+catalog has yet been established. The GSC query export adds between 267 and 271
+new unique search-intent strings after the already verified overlap checks;
+the exact total still depends on up to four research-file terms. These source
 changes do not mean the generated six-category snapshot already contains the
 new records.
