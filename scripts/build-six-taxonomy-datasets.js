@@ -417,6 +417,39 @@ function searchIntentRecords() {
       observedSearchConsoleQuery: false,
     });
   }
+  const gscSourcePath = 'data/taxonomy/gsc-observed-search-queries.json';
+  const gscSource = JSON.parse(fs.readFileSync(path.join(ROOT, gscSourcePath), 'utf8'));
+  const gscQueries = (gscSource.records || []).filter((item) => item.includedInTaxonomy);
+  let gscQueryDuplicatesMerged = 0;
+  for (const item of gscQueries) {
+    const query = String(item.query || '').trim();
+    const key = normalize(query);
+    if (!key || seen.has(key)) { gscQueryDuplicatesMerged += 1; continue; }
+    seen.add(key);
+    records.push({
+      id: stableId('search-intent', 'gsc:' + query),
+      identifier: 'GSC:' + stableId('query', query),
+      name: query,
+      description: 'Observed Google Search Console query for the KOV Career Agency property during '
+        + gscSource.dateRange.start + ' to ' + gscSource.dateRange.end
+        + '. Clicks, impressions, CTR and average position are retained as property observations; they are not search-volume estimates.',
+      sourceType: 'observed_search_console_query',
+      sourcePath: gscSourcePath,
+      sourceUrl: gscSource.sourceUrl,
+      citation: gscSource.sourceUrl,
+      searchVolumeStatus: 'not_available',
+      searchConsolePeriod: gscSource.dateRange,
+      searchConsoleClicks: Number(item.clicks || 0),
+      searchConsoleImpressions: Number(item.impressions || 0),
+      searchConsoleCtr: Number(item.ctr || 0),
+      searchConsoleAveragePosition: Number(item.position || 0),
+      observedSearchConsoleQuery: true,
+      pagePaths: [],
+    });
+  }
+  records.gscQuerySourceRows = gscSource.totalRows || gscSource.records?.length || 0;
+  records.gscQueryCandidates = gscQueries.length;
+  records.gscQueryDuplicatesMerged = gscQueryDuplicatesMerged;
   records.researchFileCount = researchFiles.length;
   records.researchParseFailures = researchFailures;
   records.keywordMapTermCount = mapTermCount;
@@ -487,7 +520,7 @@ function main() {
       seniorityLevels: 'KOV internal title-scope descriptors. These are not a universal seniority scale and contain no years-of-experience thresholds.',
       employmentTypes: 'A 30-record cross-dimensional collection: 10 ICSE-18 status categories and 20 externally documented work arrangements/modalities. These records overlap and are not a mutually-exclusive classification.',
       careerChallenges: 'KOV FAQ-derived planning and career-positioning topics. These describe authored content, not measured prevalence.',
-      careerSearchIntents: 'Primary and secondary keyword candidates from the existing KOV keyword map and individual KOV research records. All are explicitly researched/editorial hypotheses; no Google Search Console property data was available and no query performance is claimed.',
+      careerSearchIntents: 'Primary and secondary keyword candidates from the KOV keyword map and research records, exact KOV FAQ questions, and relevant Google Search Console query rows. Editorial/researched candidates remain explicitly marked as hypotheses; the 2026-11-20 source export retains actual query clicks, impressions, CTR and average position for observed queries. No Search Console metric is described as search volume.',
       googleSearchConsole: 'No connected property export was present. Google API documentation: ' + SOURCE.gscDocs,
     },
     sourceRegistry: SOURCE,
