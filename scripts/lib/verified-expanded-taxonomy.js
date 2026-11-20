@@ -81,18 +81,21 @@ function buildTaxonomies() {
   }));
 
   const synonymRows = new Map();
-  for (const record of esco.professionalSynonymDirectory) {
-    const key = `${record.language}:${record.conceptUri}:${normalize(record.term)}`;
+  const addSynonym = (record) => {
+    const key = record.language + ':' + record.conceptUri + ':' + normalize(record.term);
     if (!synonymRows.has(key)) synonymRows.set(key, record);
-  }
+  };
+  for (const record of esco.professionalSynonymDirectory) addSynonym(record);
+  const additionalSynonyms = readJson('data/taxonomy/additional-professional-synonyms.json');
+  for (const record of additionalSynonyms.records || []) addSynonym(record);
   const professionalSynonymDirectory = [...synonymRows.values()].map((record) => ({
     ...record,
-    id: stableId('esco-alt-label', `${record.language}:${record.conceptUri}:${record.term}`),
+    id: stableId('esco-alt-label', record.language + ':' + record.conceptUri + ':' + record.term),
     name: record.term,
-    description: `ESCO ${record.conceptType} alternative label (${record.language}) for “${record.preferredLabel}”; concept ${record.conceptUri}.`,
+    description: 'ESCO ' + record.conceptType + ' alternative label (' + record.language + ') for “' + record.preferredLabel + '”; concept ' + record.conceptUri + '.',
     category: 'professional synonym',
     source: esco.metadata.source,
-    sourceUrl: record.conceptUri,
+    sourceUrl: record.sourceUrl || record.conceptUri,
     verification: { status: 'source-backed', standard: 'ESCO', language: record.language },
   }));
 
