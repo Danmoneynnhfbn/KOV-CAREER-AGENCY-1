@@ -109,14 +109,14 @@ The original source records were preserved. The following append-only additions 
 | Directory | Source records after additions | Approved target | Status |
 |---|---:|---:|---|
 | Languages | 30 | 30 | Seven original records retained; 23 ISO 639-1 language records appended in `languages.json`. |
-| Professional synonyms and related terms | 50,000 after the verified snapshot is rebuilt | 50,000 | One additional German ESCO occupation alternative label appended in `additional-professional-synonyms.json`; the verified taxonomy builder now includes supplemental records. |
-| Job functions | 19 in the last generated snapshot; 100 distinct records defined in the current builder source | 100 | The builder contains 19 parent function groups plus 81 distinct responsibility subfunctions, each mapped to an indexable KOV role page or the procurement FAQ. The generated snapshot still needs rebuilding and validation. These are internal KOV classifications, not relabelled O*NET occupations or work activities. |
-| Career-search intents | Pending rebuild; sources include the 871-record prior snapshot, 271 relevant GSC queries, and the new O*NET occupation-title research record | 5,000 | The previous 1,138–1,142 estimate predates the additional O*NET research record and is no longer a complete estimate. The builder deduplicates all source terms and reports the exact count; the generated total remains unverified until rebuild. |
-| Organizations and institutions | 832 original records preserved; 468 selected from 582 net-new candidates | 1,300 | The current new-record filter accepts 835 of 916 candidates. Comparing against the existing catalog and deduplicating by QID and normalized name leaves 582 net-new records. The builder adds 468 and keeps 114 validated candidates in reserve. The generated catalog still requires rebuilding. |
+| Professional synonyms and related terms | 50,000 generated and validated | 50,000 | The verified expanded taxonomy contains 50,000 unique, provenance-backed synonym records, including the additional German ESCO alternative label. |
+| Job functions | 100 generated and validated | 100 | The generated dataset contains 19 parent function groups plus 81 distinct responsibility subfunctions. All 100 have provenance and page mappings to indexed KOV role pages or the procurement FAQ. These are internal KOV classifications, not relabelled O*NET occupations or work activities. |
+| Career-search intents | 5,000 generated and validated; 500 have explicit page mappings | 5,000 | The 5,000 records are unique and provenance-backed. Sources include the prior taxonomy, 271 relevant observed Search Console queries, and the O*NET occupation-title research record. The builder currently maps 500 records to existing pages; the remaining records are retained as taxonomy entries without invented page assignments. |
+| Organizations and institutions | 1,300 generated and validated | 1,300 | The original 832 organization nodes are carried forward unchanged. The builder adds 468 from 582 net-new, deduplicated Wikidata candidates and retains 114 validated candidates in reserve. |
 
 The language additions use ISO 639-1 two-letter codes and names; see the existing ISO and Library of Congress source references above. The synonym addition is the German alternative label “Instandhaltungstechniker Flughafen” for ESCO occupation “airport maintenance technician,” concept URI `http://data.europa.eu/esco/occupation/822bbc2d-bc6a-4fb5-afb8-89170120c6d8`. Its source record was retrieved from the ESCO API and checked against the current 50,000 source labels before inclusion.
 
-These are source-input changes. The generated `verified-expanded-taxonomy.json`, compatibility output, and inline homepage JSON-LD have not yet been regenerated from the new source inputs. Therefore, do not treat the new language and synonym counts as already present in the live HTML metadata until the project build and validation are run.
+The 2026-11-20 build regenerated and committed `data/seo-entity-datasets.jsonld`, `data/taxonomy/kov-six-category-taxonomies.json`, and `data/taxonomy/verified-expanded-taxonomy.json`. The entity-catalog validator, six-category validator, expanded-taxonomy validator, Cloudflare Pages build, published HTML HEAD checks, and container smoke tests passed. The production Cloudflare Pages deployment completed successfully. The page HTML source was not rewritten by the taxonomy build; the generated taxonomy data is published through the validated data files.
 
 
 
@@ -162,20 +162,22 @@ reads the baseline from `data/seo-entity-datasets.jsonld` and does not require
 a separate Wikidata source file. The generated JSON-LD catalog still contains
 832 organizations until the full builder is run with the GeoNames and O*NET
 31.0 source inputs and the result passes validation.
-### Remaining category limitations
+### Final generated counts and mapping coverage
 
-The current six-category builder now defines exactly 100 distinct KOV job
-functions: 19 parent function groups and 81 responsibility subfunctions. The
-subfunctions are mapped to the relevant indexed KOV role pages, and the
-Procurement parent group is mapped to the procurement FAQ. These are internal
-KOV function classifications, not a relabelled O*NET occupation or work
-activity list. The generated six-category snapshot still needs to be rebuilt
-and validated before the 100 count can be treated as generated.
+The generated job-function dataset contains 100 unique records: 19 parent
+function groups and 81 responsibility subfunctions. All 100 have provenance
+and explicit page mappings to indexed KOV role pages or the Procurement FAQ.
+They are internal KOV function classifications, not relabelled O*NET
+occupations or work activities.
 
-The career-search-intent source set now includes the 299-row Search Console
-export (271 marked relevant) and an additional O*NET occupation-title research
-record. Its JSON is too large for the repository file reader to inspect here;
-the exact unique contribution must be reported by running the builder. The
-previous 1,138–1,142 estimate covered the earlier 871 snapshot plus the GSC
-export only and is superseded by the O*NET research addition. No search-volume
-claim is inferred from Search Console impressions or O*NET titles.
+The generated career-search-intent dataset contains 5,000 unique,
+provenance-backed records. The 299-row Search Console export contributed 271
+queries marked relevant. Those observed queries retain their GSC provenance;
+impressions are not treated as search volume. The current builder has explicit
+page mappings for 500 of the 5,000 intent records. The other 4,500 remain
+taxonomy entries without invented page assignments.
+
+The generated organization catalog contains 1,300 unique organization nodes:
+the original 832 are preserved unchanged, 468 are selected from 582
+net-new deduplicated Wikidata candidates, and 114 validated candidates remain
+in reserve.
