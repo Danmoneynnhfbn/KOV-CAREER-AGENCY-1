@@ -80,8 +80,9 @@ function buildTaxonomies() {
     verification: { status: 'source-backed', registerStatus: record.status, qualificationNumber: record.code },
   }));
 
+  const synonymSupplement = readJson('data/taxonomy/professional-synonym-supplement.json').records;
   const synonymRows = new Map();
-  for (const record of esco.professionalSynonymDirectory) {
+  for (const record of [...esco.professionalSynonymDirectory, ...synonymSupplement]) {
     const key = `${record.language}:${record.conceptUri}:${normalize(record.term)}`;
     if (!synonymRows.has(key)) synonymRows.set(key, record);
   }
