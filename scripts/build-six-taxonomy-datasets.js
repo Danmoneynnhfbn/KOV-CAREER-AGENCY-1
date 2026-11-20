@@ -490,7 +490,19 @@ function validate(categories) {
       for (const page of record.pagePaths) {
         if (!pageByPath.get(page)?.indexable || page.startsWith('staging/')) throw new Error(category + ': invalid or nonindexable page map ' + page);
       }
-      if (category === 'career-search-intent' && record.observedSearchConsoleQuery !== false) throw new Error('Search intent must retain evidence classification.');
+      if (category === 'career-search-intent') {
+        if (record.observedSearchConsoleQuery === true) {
+          if (record.sourcePath !== 'data/taxonomy/gsc-observed-search-queries.json'
+            || record.sourceType !== 'observed_search_console_query') {
+            throw new Error('Observed Search Console query is missing its source classification: ' + record.name);
+          }
+          if (record.searchVolumeStatus === 'available') {
+            throw new Error('Search Console impressions cannot be represented as search volume: ' + record.name);
+          }
+        } else if (record.observedSearchConsoleQuery !== false) {
+          throw new Error('Search intent must retain evidence classification: ' + record.name);
+        }
+      }
       labels.add(key); ids.add(record.id);
     }
   }
@@ -521,7 +533,7 @@ function main() {
       employmentTypes: 'A 30-record cross-dimensional collection: 10 ICSE-18 status categories and 20 externally documented work arrangements/modalities. These records overlap and are not a mutually-exclusive classification.',
       careerChallenges: 'KOV FAQ-derived planning and career-positioning topics. These describe authored content, not measured prevalence.',
       careerSearchIntents: 'Primary and secondary keyword candidates from the KOV keyword map and research records, exact KOV FAQ questions, and relevant Google Search Console query rows. Editorial/researched candidates remain explicitly marked as hypotheses; the 2026-11-20 source export retains actual query clicks, impressions, CTR and average position for observed queries. No Search Console metric is described as search volume.',
-      googleSearchConsole: 'No connected property export was present. Google API documentation: ' + SOURCE.gscDocs,
+      googleSearchConsole: 'A connected KOV Career Agency property export covering 2025-07-20 to 2026-11-17 is retained in data/taxonomy/gsc-observed-search-queries.json. Relevant queries retain actual clicks, impressions, CTR and average position; impressions are not described as search volume. Google API documentation: ' + SOURCE.gscDocs,
     },
     sourceRegistry: SOURCE,
     recordStatistics: {
@@ -538,6 +550,10 @@ function main() {
       researchRecordParseFailures: intents.researchParseFailures,
       researchRecordIntentRecords: intents.filter((record) => record.sourcePath.startsWith('development/research/records/')).length,
       faqIntentQuestionRows: intents.filter((record) => record.sourcePath === 'assets/faq-directory.js').length,
+      careerSearchConsoleSourceRows: intents.gscQuerySourceRows,
+      careerSearchConsoleCandidateRows: intents.gscQueryCandidates,
+      careerSearchConsoleDuplicatesMerged: intents.gscQueryDuplicatesMerged,
+      careerSearchConsoleIntentRecords: intents.filter((record) => record.sourceType === 'observed_search_console_query').length,
     },
     categories,
   };
