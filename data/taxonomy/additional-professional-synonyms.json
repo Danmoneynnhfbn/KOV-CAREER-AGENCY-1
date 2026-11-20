@@ -1,0 +1,16 @@
+{
+  "source": "European Commission ESCO classification API",
+  "sourceApi": "https://ec.europa.eu/esco/api/resource/concept",
+  "retrievedOn": "2026-11-20",
+  "selectionNote": "One additional German-language ESCO occupation alternative label retrieved from the next ESCO occupations result page beyond the existing source snapshot. It was checked against all 50,000 existing source labels using language plus NFKC/whitespace-normalized term identity before inclusion.",
+  "records": [
+    {
+      "term": "Instandhaltungstechniker Flughafen",
+      "language": "de",
+      "preferredLabel": "airport maintenance technician",
+      "conceptUri": "http://data.europa.eu/esco/occupation/822bbc2d-bc6a-4fb5-afb8-89170120c6d8",
+      "conceptType": "occupation",
+      "sourceUrl": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/occupation/822bbc2d-bc6a-4fb5-afb8-89170120c6d8&language=en"
+    }
+  ]
+}
