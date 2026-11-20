@@ -46,13 +46,13 @@ The repository includes `data/taxonomy/additional-organizations-wikidata.json`,
 a supplemental source pool gathered from English-language Wikidata entity-search
 queries. Each retained candidate includes its QID, label, description, search
 term, exact API source URL, and direct Wikidata `instance of` class labels. The
-file contains 916 candidate rows. A direct reproduction of the current
-builder filters accepts 843 rows by QID, description, name and allowlisted
-`instance of` class; deduplication within this supplemental pool leaves 815
-unique candidates by QID and normalized label. These 815 are still not a net-new
-count against the retained 832. The build script checks both QID and normalized
-label against the original selection and must find 468 net-new records before
-it can produce the 1,300 target.
+file contains 916 candidate rows. Reapplying the current builder's QID,
+allowlisted `instance of`, name/description and non-organization exclusion
+filters accepts 835 rows. Deduplication within the supplemental pool leaves
+807 unique candidates by QID and normalized label. These 807 are still not a
+net-new count against the retained 832. The build script checks both QID and
+normalized label against the original selection and must find 468 net-new
+records before it can produce the 1,300 target.
 
 The generator has been updated to preserve the original 832 and require exactly
 1,300 after merge. The existing 23.5 MB generated JSON-LD catalog is not
