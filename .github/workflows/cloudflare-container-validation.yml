@@ -69,6 +69,43 @@ jobs:
           curl --fail --silent http://127.0.0.1:8000/ | grep -Eiq '<html|<!doctype'
           curl --fail --silent http://127.0.0.1:8000/api/v1/status
 
+      - name: Smoke-test generated taxonomy endpoints
+        run: |
+          curl --fail --silent --show-error --compressed http://127.0.0.1:8000/data/seo-entity-datasets.jsonld --output /tmp/seo-entities.jsonld
+          curl --fail --silent --show-error --compressed http://127.0.0.1:8000/data/taxonomy/kov-six-category-taxonomies.json --output /tmp/six-taxonomies.json
+          curl --fail --silent --show-error --compressed http://127.0.0.1:8000/data/taxonomy/verified-expanded-taxonomy.json --output /tmp/verified-taxonomy.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          entity = json.loads(Path("/tmp/seo-entities.jsonld").read_text(encoding="utf-8"))
+          organizations = [
+              node for node in entity["@graph"]
+              if node.get("@type") == "Organization"
+              and str(node.get("identifier", "")).startswith("Q")
+          ]
+          six = json.loads(Path("/tmp/six-taxonomies.json").read_text(encoding="utf-8"))
+          verified = json.loads(Path("/tmp/verified-taxonomy.json").read_text(encoding="utf-8"))
+          counts = {
+              "organizations": len(organizations),
+              "job_functions": len(six["categories"]["job-function"]),
+              "career_search_intents": len(six["categories"]["career-search-intent"]),
+              "verified_organizations": len(verified["institutionDirectory"]),
+              "verified_job_functions": len(verified["jobFunctionDirectory"]),
+              "verified_search_intents": len(verified["searchIntentDirectory"]),
+          }
+          expected = {
+              "organizations": 1300,
+              "job_functions": 100,
+              "career_search_intents": 5000,
+              "verified_organizations": 1300,
+              "verified_job_functions": 100,
+              "verified_search_intents": 5000,
+          }
+          assert counts == expected, f"Published taxonomy counts differ: {counts}"
+          print("Published taxonomy endpoints passed:", json.dumps(counts, sort_keys=True))
+          PY
+
       - name: Smoke-test original catalogue over gzip HTTP
         run: |
           curl --fail --silent --compressed http://127.0.0.1:8000/data/kov-discovery-catalog.jsonld |
