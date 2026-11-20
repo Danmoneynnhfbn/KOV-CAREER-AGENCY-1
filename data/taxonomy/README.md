@@ -112,7 +112,7 @@ The original source records were preserved. The following append-only additions 
 | Professional synonyms and related terms | 50,000 after the verified snapshot is rebuilt | 50,000 | One additional German ESCO occupation alternative label appended in `additional-professional-synonyms.json`; the verified taxonomy builder now includes supplemental records. |
 | Job functions | 19 | 100 | 81 additional records remain unverified. No O*NET work activities or occupations have been relabelled as job functions. |
 | Career-search intents | 871 | 5,000 | 4,129 additional records remain unverified. Existing records remain explicitly described as researched/editorial hypotheses, not observed Google Search Console queries. |
-| Organizations and institutions | 832 | 1,300 | 468 additional records remain to be sourced and checked against existing Wikidata QIDs and names. |
+| Organizations and institutions | 832 retained baseline; 815 supplemental unique candidates before overlap check | 1,300 | Supplemental Wikidata candidates are available, but the net-new count after checking the original 832 by QID and normalized name is not yet verified. The build must establish at least 468 net-new records. |
 
 The language additions use ISO 639-1 two-letter codes and names; see the existing ISO and Library of Congress source references above. The synonym addition is the German alternative label “Instandhaltungstechniker Flughafen” for ESCO occupation “airport maintenance technician,” concept URI `http://data.europa.eu/esco/occupation/822bbc2d-bc6a-4fb5-afb8-89170120c6d8`. Its source record was retrieved from the ESCO API and checked against the current 50,000 source labels before inclusion.
 
@@ -139,17 +139,17 @@ been rebuilt from the updated source.
 ### Additional organizations and institutions
 
 The file `additional-organizations-wikidata.json` contains 916 supplemental
-candidate QIDs with direct Wikidata `instance of` classifications. Of these,
-815 pass the current organization-builder's name/description and class filters
-before deduplication against the existing 832-record source set. Their Wikidata QIDs, English labels, descriptions, search
-queries, exact API source URLs and direct `instance of` class labels are
-retained. Only candidates matching the documented organization/institution
-class allowlist were retained. The entity builder preserves the existing 832
-institution records, deduplicates additions against them by QID and normalized
-label, and requires exactly 1,300 records after 468 additions. The existing
-generated 23.5 MB JSON-LD catalog has not yet been rebuilt; the resulting
-deduplicated total must be confirmed by running the builder with the original
-GeoNames, O*NET and Wikidata input files.
+candidate QIDs with direct Wikidata `instance of` classifications. Reapplying
+the current organization-builder filters accepts 843 rows; deduplicating within
+the supplemental pool leaves 815 unique candidates by QID and normalized label.
+This is not yet a net-new count against the existing 832-record source set.
+Their Wikidata QIDs, English labels, descriptions, search queries, exact API
+source URLs and direct `instance of` class labels are retained. The entity
+builder preserves the existing 832 institution records, deduplicates additions
+against them by QID and normalized label, and requires 468 net-new records to
+reach exactly 1,300. The existing generated 23.5 MB JSON-LD catalog has not yet
+been rebuilt; the resulting deduplicated total must be confirmed by running the
+builder with the original GeoNames, O*NET and Wikidata input files.
 
 ### Remaining category limitations
 
