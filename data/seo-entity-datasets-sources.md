@@ -14,7 +14,7 @@ to process or display every record.
 | Cities | 1,000 | `Place` | The 1,000 highest-population GeoNames `cities1000` records carrying an administrative-seat or capital feature code (`PPLC`, `PPLA`, `PPLA2`–`PPLA5`, or `PPLG`). Their original GeoNames feature codes are retained. |
 | Town candidates | 1,323 | `Place` | The 1,323 highest-population `cities1000` records carrying GeoNames feature code `PPL`. GeoNames describes these as populated places and does not consistently distinguish legal towns from cities; the site therefore preserves the source classification rather than asserting legal status. |
 | Professional role titles | 44,779 | `Occupation` | Every distinct O*NET 31.0 `Job Title` string, deduplicated by Unicode NFKC normalization and case-insensitive whitespace normalization. Associated O*NET-SOC codes are retained as identifiers. |
-| Institutions and organizations | 832 | `Organization` | Distinct English-language Wikidata entities from the recorded searches whose specific names and descriptions identify an organization or institution. QIDs, source descriptions, and Wikidata URLs are retained. No address, relationship, or small-business status is inferred. |
+| Institutions and organizations | 832 currently in the retained catalog; 1,300 after the supplemental rebuild | `Organization` | The original 832 English-language Wikidata entities are preserved. The builder now adds 468 further unique QID records from the supplemental source file, after direct `instance of` validation and deduplication by QID and normalized name. |
 | Detailed work activities | 2,087 | `DefinedTerm` | Distinct O*NET 31.0 Detailed Work Activity identifiers and names. This additional collection preserves the source distinction between activities and occupations. |
 
 GeoNames place records carry their source feature code, country code, coordinates,
@@ -38,6 +38,26 @@ is legally a city or town in its country.
   searched in English. Wikidata structured data is [CC0](https://www.wikidata.org/wiki/Wikidata:Licensing).
   Each entry links to its Wikidata QID page. Wikidata content can change, so
   confirm current details at the linked source.
+
+
+### Supplemental organization records (2026-11-20)
+
+The repository includes `data/taxonomy/additional-organizations-wikidata.json`,
+a supplemental source pool gathered from English-language Wikidata entity-search
+queries. Each retained candidate includes its QID, label, description, search
+term, exact API source URL, and direct Wikidata `instance of` class labels. The
+file contains 675 candidates after filtering against an explicit organization
+and institution class allowlist. It does not claim that every candidate is new
+to the retained 832: the build script checks both QID and normalized label
+against the original selection before taking the 468 additional records needed
+to reach 1,300.
+
+The generator has been updated to preserve the original 832 and require exactly
+1,300 after merge. The existing 23.5 MB generated JSON-LD catalog is not
+rewritten by the GitHub source-file update; regenerate it locally with the
+command above and run `python scripts\\prepare-taxonomy-pages.py
+--validate-entity-datasets` before treating the new count as present in the
+published catalog.
 
 ## Rebuilding the catalog
 
