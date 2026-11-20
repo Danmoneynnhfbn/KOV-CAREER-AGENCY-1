@@ -112,7 +112,7 @@ The original source records were preserved. The following append-only additions 
 | Professional synonyms and related terms | 50,000 after the verified snapshot is rebuilt | 50,000 | One additional German ESCO occupation alternative label appended in `additional-professional-synonyms.json`; the verified taxonomy builder now includes supplemental records. |
 | Job functions | 19 | 100 | 81 additional records remain unverified. No O*NET work activities or occupations have been relabelled as job functions. |
 | Career-search intents | 1,138–1,142 estimated unique source candidates before rebuild | 5,000 | The previous 871-record snapshot plus 271 relevant, unique Google Search Console queries. None of the 271 overlap the keyword-map terms or FAQ questions; up to four may overlap the four research-file additions. The generated unique count remains unverified until rebuild. |
-| Organizations and institutions | 832 retained baseline; 807 supplemental unique candidates before overlap check | 1,300 | Current builder filters accept 835 of 916 candidate rows and leave 807 unique candidates inside the supplemental pool. The net-new count after checking the original 832 by QID and normalized name is not yet verified. The build must establish at least 468 net-new records. |
+| Organizations and institutions | 832 original records preserved; 468 selected from 582 net-new candidates | 1,300 | The current new-record filter accepts 835 of 916 candidates. Comparing against the existing catalog and deduplicating by QID and normalized name leaves 582 net-new records. The builder adds 468 and keeps 114 validated candidates in reserve. The generated catalog still requires rebuilding. |
 
 The language additions use ISO 639-1 two-letter codes and names; see the existing ISO and Library of Congress source references above. The synonym addition is the German alternative label “Instandhaltungstechniker Flughafen” for ESCO occupation “airport maintenance technician,” concept URI `http://data.europa.eu/esco/occupation/822bbc2d-bc6a-4fb5-afb8-89170120c6d8`. Its source record was retrieved from the ESCO API and checked against the current 50,000 source labels before inclusion.
 
@@ -148,20 +148,20 @@ source.
 ### Additional organizations and institutions
 
 The file `additional-organizations-wikidata.json` contains 916 supplemental
-candidate QIDs with direct Wikidata `instance of` classifications. Reapplying
-the current organization-builder filters accepts 835 rows; deduplicating within
-the supplemental pool leaves 807 unique candidates by QID and normalized label.
-This is not yet a net-new count against the existing 832-record source set. The
-revised builder filter excludes additional non-organization entities such as
-railway lines, legal acts, publications, buildings, vehicles and products.
-Their Wikidata QIDs, English labels, descriptions, search queries, exact API
-source URLs and direct `instance of` class labels are retained. The entity
-builder preserves the existing 832 institution records, deduplicates additions
-against them by QID and normalized label, and requires 468 net-new records to
-reach exactly 1,300. The existing generated 23.5 MB JSON-LD catalog has not yet
-been rebuilt; the resulting deduplicated total must be confirmed by running the
-builder with the original GeoNames, O*NET and Wikidata input files.
+candidate QIDs with direct Wikidata `instance of` classifications. The current
+new-record eligibility filter accepts 835 rows. Comparing these candidates
+with the exact 832 `Organization` nodes in the existing JSON-LD catalog and
+deduplicating by QID and normalized name leaves 582 net-new candidates. The
+builder adds 468 in ascending QID order and keeps 114 validated candidates in
+reserve.
 
+The original 832 nodes are preserved unchanged. A retrospective check found
+that 97 original records would fail the stricter new-record filter, so that
+filter is applied only to supplemental candidates. The updated generator
+reads the baseline from `data/seo-entity-datasets.jsonld` and does not require
+a separate Wikidata source file. The generated JSON-LD catalog still contains
+832 organizations until the full builder is run with the GeoNames and O*NET
+31.0 source inputs and the result passes validation.
 ### Remaining category limitations
 
 The job-function inventory remains at 19 of 100. The builder's existing role
