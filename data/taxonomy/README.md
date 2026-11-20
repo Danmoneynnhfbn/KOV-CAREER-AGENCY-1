@@ -118,3 +118,45 @@ The language additions use ISO 639-1 two-letter codes and names; see the existin
 
 These are source-input changes. The generated `verified-expanded-taxonomy.json`, compatibility output, and inline homepage JSON-LD have not yet been regenerated from the new source inputs. Therefore, do not treat the new language and synonym counts as already present in the live HTML metadata until the project build and validation are run.
 
+
+
+## Additional source records (2026-11-20)
+
+### Observed Google Search Console queries
+
+The connected KOV Career Agency Search Console property was queried for the
+16-month period **2025-07-20 through 2026-11-17**. The retained source file
+`gsc-observed-search-queries.json` contains all 299 query rows returned by
+Search Console, including clicks, impressions, CTR and average position.
+Of these, 271 are marked relevant to KOV career representation, executive
+search, leadership, recruitment and related service topics; 28 rows remain in
+the source file with an explicit exclusion reason. The taxonomy builder merges
+only relevant, non-duplicate query strings. It preserves the Search Console
+metrics as observed property data and does not describe impressions as keyword
+search volume. The existing generated six-category JSON snapshot has not yet
+been rebuilt from the updated source.
+
+### Additional organizations and institutions
+
+The file `additional-organizations-wikidata.json` contains 675 supplemental
+candidate entities. Their Wikidata QIDs, English labels, descriptions, search
+queries, exact API source URLs and direct `instance of` class labels are
+retained. Only candidates matching the documented organization/institution
+class allowlist were retained. The entity builder preserves the existing 832
+institution records, deduplicates additions against them by QID and normalized
+label, and requires exactly 1,300 records after 468 additions. The existing
+generated 23.5 MB JSON-LD catalog has not yet been rebuilt; the resulting
+deduplicated total must be confirmed by running the builder with the original
+GeoNames, O*NET and Wikidata input files.
+
+### Remaining category limitations
+
+The job-function inventory remains at 19 of 100. The builder's existing role
+crosswalk supports those 19 named KOV function groups; the 81 remaining
+functions have not been added because no qualifying, non-duplicative source
+catalog has yet been established. The search-intent source now includes up to
+271 additional observed property queries, but the final unique total is
+calculated only when the updated builder runs and removes normalized duplicates
+against the existing keyword-map, research-record and FAQ terms. These source
+changes do not mean the generated six-category snapshot already contains the
+new records.
