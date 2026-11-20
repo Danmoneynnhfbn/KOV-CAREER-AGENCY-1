@@ -3,7 +3,7 @@
   "generatedOn": "2026-11-20",
   "source": "Wikidata wbsearchentities API",
   "sourceUrl": "https://www.wikidata.org/w/api.php",
-  "selection": "Named Wikidata entities returned by English-language organization-related searches; only candidates with a QID, capitalized proper label, English description longer than 10 characters, and an organization/institution indicator in the label or description were retained. Generic classes and non-organization descriptions were excluded.",
+  "selection": "Supplemental candidates discovered by English-language Wikidata entity searches. Records retain QIDs, labels, descriptions, source query and exact API request URL. Candidates are filtered to named organizations/institutions and exclude generic classes, occupations, events, legal instruments, publications, buildings and transport stops. The source directory builder must deduplicate against the retained existing institution dataset by QID and normalized label before counting additions.",
   "searchTerms": [
     "university",
     "research institute",
@@ -24,264 +24,42 @@
     "museum",
     "trade union",
     "pharmaceutical company",
-    "development agency"
+    "development agency",
+    "national library",
+    "public broadcaster",
+    "central bank",
+    "development bank",
+    "export credit agency",
+    "regulatory commission",
+    "health authority",
+    "public transport authority",
+    "research council",
+    "national academy",
+    "professional body",
+    "trade association",
+    "business association",
+    "labour union",
+    "state-owned enterprise",
+    "government corporation",
+    "financial institution",
+    "investment bank",
+    "insurance group",
+    "power utility",
+    "electric utility",
+    "telecommunications operator",
+    "airline",
+    "defence contractor",
+    "technology firm",
+    "public service agency",
+    "international federation",
+    "charitable foundation",
+    "nonprofit organization",
+    "international development organization"
   ],
-  "sourceRecordCount": 1021,
-  "validDistinctCandidateCount": 651,
-  "deduplication": "QID; further normalized-name and QID deduplication is required against the existing 832-record institutions dataset at build time.",
+  "sourceRecordCount": 1605,
+  "validDistinctCandidateCount": 720,
+  "deduplication": "Candidate set deduplicated by QID and normalized English label; existing 832-record directory still needs the builder's QID/name cross-deduplication.",
   "records": [
-    {
-      "id": "Q100164485",
-      "label": "Trade Union (Amalgamations, etc.) Act 1964",
-      "description": "Public General Act of Parliament of the United Kingdom",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100164487",
-      "label": "Trade Union and Labour Relations (Amendment) Act 1976",
-      "description": "Public General Act of Parliament of the United Kingdom",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100271452",
-      "label": "Trade Union (Wales) Act 2017",
-      "description": "Act of Senedd Cymru",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100397212",
-      "label": "Trade Union Act, 1941",
-      "description": "Act of the Oireachtas No. 22 of 1941",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q100397242",
-      "label": "Trade Union Act, 1942",
-      "description": "Act of the Oireachtas No. 23 of 1942",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100397412",
-      "label": "Trade Union Act, 1947",
-      "description": "Act of the Oireachtas No. 17 of 1947",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q100397458",
-      "label": "Trade Union Act, 1948",
-      "description": "Act of the Oireachtas No. 11 of 1948",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100397488",
-      "label": "Trade Union Act, 1949",
-      "description": "Act of the Oireachtas No. 11 of 1949",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100397529",
-      "label": "Trade Union Act, 1950",
-      "description": "Act of the Oireachtas No. 19 of 1950",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100397568",
-      "label": "Trade Union Act, 1951",
-      "description": "Act of the Oireachtas No. 14 of 1951",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q100397598",
-      "label": "Trade Union Act, 1952",
-      "description": "Act of the Oireachtas No. 13 of 1952",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q100398408",
-      "label": "Trade Union Act, 1971",
-      "description": "Act of the Oireachtas No. 33 of 1971",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100398545",
-      "label": "Trade Union Act, 1975",
-      "description": "Act of the Oireachtas No. 4 of 1975",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q100529689",
-      "label": "Pharmaceutical company payments to dermatology Clinical Practice Guideline authors in Japan",
-      "description": "scientific article published on 13 October 2020",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q100541930",
-      "label": "International Organization for Migration (Privileges and Immunities) Order 2015",
-      "description": "Irish Statutory Instrument S.I. No. 569/2015",
-      "sourceQuery": "international organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q100549162",
-      "label": "Trade Union Act 1941 (Revocation of Negotiation Licence) (No. 2) Order 2018",
-      "description": "Irish Statutory Instrument S.I. No. 211/2018",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100549167",
-      "label": "Trade Union Act 1941 (Revocation of Negotiation Licence) (No. 3) Order 2018",
-      "description": "Irish Statutory Instrument S.I. No. 212/2018",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100549672",
-      "label": "Trade Union (Forms) Regulations 2018",
-      "description": "Irish Statutory Instrument S.I. No. 364/2018",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100563530",
-      "label": "Trade Union Act, 1941 (Exclusion From Section 6) (No. 5) Order, 1969",
-      "description": "Irish Statutory Instrument S.I. No. 230/1969",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100563534",
-      "label": "Trade Union Act, 1941 (Exclusion From Section 6) (No. 6) Order, 1969",
-      "description": "Irish Statutory Instrument S.I. No. 231/1969",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100564133",
-      "label": "Trade Union Act, 1952 (Section 3) Order, 1956",
-      "description": "Irish Statutory Instrument S.I. No. 119/1956",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100564388",
-      "label": "Trade Union Act, 1952 (Section 3) (No. 3) Order, 1956",
-      "description": "Irish Statutory Instrument S.I. No. 213/1956",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100567358",
-      "label": "Trade Union Act, 1971 (Notice of Intention To Apply For Negotiation Licence) Regulations, 1972",
-      "description": "Irish Statutory Instrument S.I. No. 158/1972",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100570040",
-      "label": "Trade Union Amalgamations Regulations, 1976",
-      "description": "Irish Statutory Instrument S.I. No. 53/1976",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100572056",
-      "label": "Trade Union Act, 1941 (Revocation of Negotiation Licence) (No. 8) Order, 1986",
-      "description": "Irish Statutory Instrument S.I. No. 121/1986",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100572073",
-      "label": "Trade Union Act, 1941 (Revocation of Negotiation Licence) (No. 11) Order, 1986",
-      "description": "Irish Statutory Instrument S.I. No. 124/1986",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100572106",
-      "label": "Trade Union Act, 1941 (Revocation of Negotiation Licence) (No. 18) Order, 1986",
-      "description": "Irish Statutory Instrument S.I. No. 131/1986",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100572138",
-      "label": "Trade Union Act, 1941 (Revocation of Negotiation Licence) (No. 28) Order, 1986",
-      "description": "Irish Statutory Instrument S.I. No. 141/1986",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100572193",
-      "label": "Trade Union Act, 1941 (Revocation of Negotiation Licence) (No. 41) Order, 1986",
-      "description": "Irish Statutory Instrument S.I. No. 154/1986",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100572243",
-      "label": "Trade Union (Fees) Regulations, 1978",
-      "description": "Irish Statutory Instrument S.I. No. 86/1978",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100576778",
-      "label": "Trade Union (Fees) Regulations, 1983",
-      "description": "Irish Statutory Instrument S.I. No. 292/1983",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q100577034",
-      "label": "Trade Union Act, 1941 (Exclusion From Section 6) (No. 1) Order, 1990",
-      "description": "Irish Statutory Instrument S.I. No. 101/1990",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100577201",
-      "label": "Trade Union Act, 1941 (Revocation of Negotiation Licence) (No. 7) Order, 1990",
-      "description": "Irish Statutory Instrument S.I. No. 161/1990",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100578035",
-      "label": "Trade Union (Fees) Regulations, 1995",
-      "description": "Irish Statutory Instrument S.I. No. 5/1995",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q100580282",
-      "label": "International Organization For Migration (Designation) Order 2002",
-      "description": "Irish Statutory Instrument S.I. No. 89/2002",
-      "sourceQuery": "international organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q1006702",
-      "label": "ADGB Trade Union School",
-      "description": "architectural structure",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
-    },
     {
       "id": "Q100710454",
       "label": "Professional Association of Canadian Theatres",
@@ -302,13 +80,6 @@
       "description": "hospital in Brazil",
       "sourceQuery": "hospital",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=hospital&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q104285346",
-      "label": "Pharmaceutical company payments to authors of the Japanese Clinical Practice Guidelines for Hepatitis C treatment",
-      "description": "scientific article published on 11 December 2020",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
     },
     {
       "id": "Q104481022",
@@ -337,13 +108,6 @@
       "description": "UK government organisation",
       "sourceQuery": "energy company",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=energy%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q104869157",
-      "label": "Bank DLR station",
-      "description": "Docklands Light Railway station",
-      "sourceQuery": "bank",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=bank&language=en&format=json&limit=50"
     },
     {
       "id": "Q1050014",
@@ -421,13 +185,6 @@
       "description": "German professional association of haematologists and oncologists",
       "sourceQuery": "professional association",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q111524836",
-      "label": "Foundation of Nightmares",
-      "description": "2017 video game",
-      "sourceQuery": "foundation",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=foundation&language=en&format=json&limit=50&continue=50"
     },
     {
       "id": "Q111785278",
@@ -612,13 +369,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
     },
     {
-      "id": "Q119534143",
-      "label": "Non-Governmental Organization Construction and Development in Taiwan since Lifting of Mar- tial Law",
-      "description": "scholarly article in Jianghai Academic Journal, no. 1, 2014",
-      "sourceQuery": "non-governmental organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=non-governmental%20organization&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q119844134",
       "label": "Deutscher Fachverband der Kosmetikerinnen",
       "description": "German trade association",
@@ -631,27 +381,6 @@
       "description": "university in New Zealand",
       "sourceQuery": "university",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=university&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q120437849",
-      "label": "Non-Governmental Organizations Involvement in Crisis Management:A Research Review",
-      "description": "scholarly article in Journal of Henan University (Social Science), no. 3, 2013",
-      "sourceQuery": "non-governmental organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=non-governmental%20organization&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q120546941",
-      "label": "Non-governmental Organizations  and Women's Development",
-      "description": "scholarly article in Journal of Shandong University (Philosophy and Social Sciences), no. 2, 2004",
-      "sourceQuery": "non-governmental organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=non-governmental%20organization&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q120609785",
-      "label": "Non-governmental Organizations and the Action of Combating Deceptive Advertising and Fake Commodity in the Recent 30 Years",
-      "description": "scholarly article in Journal of Shenzhen University (Humanities & Social Sciences), no. 4, 2011",
-      "sourceQuery": "non-governmental organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=non-governmental%20organization&language=en&format=json&limit=50"
     },
     {
       "id": "Q12099571",
@@ -689,13 +418,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=government%20ministry&language=en&format=json&limit=50"
     },
     {
-      "id": "Q122926116",
-      "label": "Non-governmental Organizations and Government Agencies Lead in Cultivating Positive Sea Turtle Conservation Attitudes",
-      "description": "scientific article published in 2016",
-      "sourceQuery": "non-governmental organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=non-governmental%20organization&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q1231876",
       "label": "Trade Union of Teachers",
       "description": "Hungarian trade union (1945–)",
@@ -722,13 +444,6 @@
       "description": "Public research university in Dundee, Scotland, United Kingdom",
       "sourceQuery": "university",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=university&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q125100754",
-      "label": "Pharmaceutical Company Targets and Strategies to Address Climate Change: Content Analysis of Public Reports from 20 Pharmaceutical Companies",
-      "description": "scientific article published in 2023",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
     },
     {
       "id": "Q125116556",
@@ -780,39 +495,11 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50&continue=50"
     },
     {
-      "id": "Q126037634",
-      "label": "Government Agency Communication during Postdisaster Reconstruction: Insights from the Christchurch Earthquakes Recovery",
-      "description": "scientific article published in 2018",
-      "sourceQuery": "government agency",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=government%20agency&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q127116611",
-      "label": "Insurance Company Denial Patterns for Sofosbuvir-based HCV Treatment at a Tertiary Referral Center in Rural Pennsylvania",
-      "description": "scholarly article",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q127842728",
-      "label": "Professional Association and Pathways to Leadership in Our Profession",
-      "description": "scholarly article",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
       "id": "Q12836450",
       "label": "Əkinçilik Elmi Tədqiqat İnstitutu",
       "description": "government organization in Pirşağı, Azerbaijan",
       "sourceQuery": "research institute",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20institute&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q129047509",
-      "label": "Insurance company as dominant shareholder and financial performance in for-profit hospitals",
-      "description": "scholarly article",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
     },
     {
       "id": "Q130219286",
@@ -822,51 +509,9 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
     },
     {
-      "id": "Q130219291",
-      "label": "Insurance Company",
-      "description": "legal form in Puerto Rico",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q130238937",
-      "label": "Insurance Company",
-      "description": "legal form in India",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q130264334",
-      "label": "Insurance Company",
-      "description": "legal form in Nebraska, United States of America",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q130264336",
-      "label": "Insurance Company",
-      "description": "legal form in North Carolina, United States of America",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q130264588",
       "label": "Professional Association",
       "description": "legal form in Kansas, United States of America",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q130264589",
-      "label": "Professional Association",
-      "description": "legal form in Ohio, United States of America",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q130264590",
-      "label": "Professional Association",
-      "description": "legal form in Texas, United States of America",
       "sourceQuery": "professional association",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50"
     },
@@ -953,13 +598,6 @@
       "description": "Ukrainian former state-owned energy company",
       "sourceQuery": "energy company",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=energy%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q13548558",
-      "label": "IOS Bulletin",
-      "description": "scientific journal published by the International Organization for Succulent Plant Study",
-      "sourceQuery": "international organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50"
     },
     {
       "id": "Q135713573",
@@ -1053,25 +691,11 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=government%20ministry&language=en&format=json&limit=50"
     },
     {
-      "id": "Q140030077",
-      "label": "Bank tube station",
-      "description": "London Underground station",
-      "sourceQuery": "bank",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=bank&language=en&format=json&limit=50&continue=50"
-    },
-    {
       "id": "Q140047103",
       "label": "Trade Unions in Western Europe",
       "description": "monograph published by Oxford University Press (2013)",
       "sourceQuery": "trade union",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q140142790",
-      "label": "International Organization as a Seal of Approval: European Union Accession and Investor Risk",
-      "description": "journal article from American Journal of Political Science, published in 2009",
-      "sourceQuery": "international organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50&continue=50"
     },
     {
       "id": "Q140151616",
@@ -1088,25 +712,11 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50"
     },
     {
-      "id": "Q140950364",
-      "label": "Insurance Company «Dniester» During the First World War and the WUPR: Institutional Stability, National Mobilization and Human Capital",
-      "description": "scholarly article published in History journal of Yuriy Fedkovych Chernivtsi National University (2026) (DOI: 10.31861/HJ2026.63.53-60)",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50&continue=50"
-    },
-    {
       "id": "Q141656359",
       "label": "INTERNATIONAL ORGANIZATION OF YOUTH",
       "description": "non-governmental organisation",
       "sourceQuery": "international organization",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q141875472",
-      "label": "Regulatory Authority Act 2011",
-      "description": "Act of the Parliament of Bermuda",
-      "sourceQuery": "regulatory authority",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=regulatory%20authority&language=en&format=json&limit=50"
     },
     {
       "id": "Q1422458",
@@ -1142,20 +752,6 @@
       "description": "largest university in Poland",
       "sourceQuery": "university",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=university&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q148554",
-      "label": "National Museum of Natural History",
-      "description": "natural history museum in Washington, D.C.",
-      "sourceQuery": "museum",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q15028",
-      "label": "International Organization for Standardization",
-      "description": "international standards development organization",
-      "sourceQuery": "international organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50"
     },
     {
       "id": "Q1502826",
@@ -1291,13 +887,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=university&language=en&format=json&limit=50"
     },
     {
-      "id": "Q1630422",
-      "label": "The Hospital",
-      "description": "1971 satirical film directed by Arthur Hiller",
-      "sourceQuery": "hospital",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=hospital&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q1630431",
       "label": "HCA Healthcare",
       "description": "American healthcare facilities company",
@@ -1354,23 +943,9 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20institute&language=en&format=json&limit=50"
     },
     {
-      "id": "Q1665337",
-      "label": "Insurance Company of North America Building",
-      "description": "Wikimedia disambiguation page",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50&continue=50"
-    },
-    {
       "id": "Q1666362",
       "label": "International Organization for Marine Aids to Navigation",
       "description": "international organization coordinating lighthouses and buoyage",
-      "sourceQuery": "international organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q1667413",
-      "label": "International Organization for Succulent Plant Study",
-      "description": "botany organization",
       "sourceQuery": "international organization",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50"
     },
@@ -1471,13 +1046,6 @@
       "description": "public research university in the Greater Toronto Area of Ontario, Canada",
       "sourceQuery": "university",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=university&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q1809071",
-      "label": "Design Museum Gent",
-      "description": "museum in Gent",
-      "sourceQuery": "museum",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50&continue=50"
     },
     {
       "id": "Q18145525",
@@ -1956,13 +1524,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=university&language=en&format=json&limit=50"
     },
     {
-      "id": "Q2243993",
-      "label": "Hospital Infanta Sofía",
-      "description": "Madrid Metro station",
-      "sourceQuery": "hospital",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=hospital&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q22908148",
       "label": "Energy Company Obligation",
       "description": "UK government energy efficiency scheme",
@@ -2068,20 +1629,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=hospital&language=en&format=json&limit=50"
     },
     {
-      "id": "Q2409617",
-      "label": "The Bank",
-      "description": "2001 film by Robert Connolly",
-      "sourceQuery": "bank",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=bank&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q2485068",
-      "label": "Hospital Severo Ochoa",
-      "description": "Madrid Metro station",
-      "sourceQuery": "hospital",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=hospital&language=en&format=json&limit=50&continue=50"
-    },
-    {
       "id": "Q24935583",
       "label": "Research Institute of Obstetrics and Gynecology named after D.O. Ott (branch of Russian Academy of Medical Sciences)",
       "description": "medical research institute in St. Petersburg, Russia",
@@ -2115,13 +1662,6 @@
       "description": "company in Prague, Czechia",
       "sourceQuery": "research institute",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20institute&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q2550043",
-      "label": "International organization membership of the Netherlands",
-      "description": "Wikimedia list article",
-      "sourceQuery": "international organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50"
     },
     {
       "id": "Q25522683",
@@ -2171,13 +1711,6 @@
       "description": "American journal",
       "sourceQuery": "hospital",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=hospital&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q27724034",
-      "label": "Museum History Journal",
-      "description": "academic journal",
-      "sourceQuery": "museum",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50"
     },
     {
       "id": "Q27816",
@@ -2467,13 +2000,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=university&language=en&format=json&limit=50&continue=50"
     },
     {
-      "id": "Q30674545",
-      "label": "Trade Union Act 2016",
-      "description": "Public General Act of Parliament of the United Kingdom",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q3075680",
       "label": "Foundation and Chaos",
       "description": "novel by Greg Bear",
@@ -2572,32 +2098,11 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50&continue=50"
     },
     {
-      "id": "Q33814067",
-      "label": "Pharmaceutical company influence on nonsteroidal anti-inflammatory drug prescribing behaviors",
-      "description": "scientific article",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q34433",
       "label": "University of Oxford",
       "description": "collegiate research university in Oxford, England",
       "sourceQuery": "university",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=university&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q34610683",
-      "label": "Pharmaceutical company payments to physicians: early experiences with disclosure laws in Vermont and Minnesota",
-      "description": "scientific article",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q34655233",
-      "label": "Pharmaceutical company internet sites as sources of information about antidepressant medications.",
-      "description": "scientific article published on 01 January 2002",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
     },
     {
       "id": "Q3487360",
@@ -2628,53 +2133,11 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=airport%20authority&language=en&format=json&limit=50"
     },
     {
-      "id": "Q36962660",
-      "label": "Pharmaceutical company funding and its consequences: a qualitative systematic review",
-      "description": "scientific article published on 16 August 2007",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q371522",
       "label": "University of Gothenburg",
       "description": "university in Gothenburg, Sweden",
       "sourceQuery": "university",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=university&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q37578226",
-      "label": "Pharmaceutical company perspectives on current safety risk communications in Japan.",
-      "description": "scientific article published on 24 January 2014",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q37616348",
-      "label": "Pharmaceutical company-sponsored drug trials: what are we to believe?",
-      "description": "scientific article published on February 2010",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q37625500",
-      "label": "Pharmaceutical company-sponsored drug trials: the system is broken",
-      "description": "scientific article published on 31 October 2009",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q3786852",
-      "label": "Hospital del Henares",
-      "description": "Madrid Metro station",
-      "sourceQuery": "hospital",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=hospital&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q37940519",
-      "label": "International Organization of Physical Therapy in Mental Health consensus on physical activity within multidisciplinary rehabilitation programmes for minimising cardio-metabolic risk in patients with schizophrenia",
-      "description": "scientific article published on 29 September 2011",
-      "sourceQuery": "international organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50&continue=50"
     },
     {
       "id": "Q381376",
@@ -2691,13 +2154,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50"
     },
     {
-      "id": "Q38557058",
-      "label": "Insurance company denial of payment and enforced changes in the type and dose of opioid analgesics for patients with cancer pain",
-      "description": "scientific article published on December 1, 2014",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q388490",
       "label": "Hospital d'Inca",
       "description": "public hospital in Inca, Majorca, Spain",
@@ -2712,27 +2168,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50&continue=50"
     },
     {
-      "id": "Q39233994",
-      "label": "International Organization for Migration: experience on the need for medical evacuation of refugees during the Kosovo crisis in 1999.",
-      "description": "scientific article published on April 2002",
-      "sourceQuery": "international organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q39393481",
-      "label": "International Organization for Standardization (ISO) 15189",
-      "description": "scientific article",
-      "sourceQuery": "international organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q39600786",
-      "label": "Pharmaceutical Company Corruption and the Moral Crisis in Medicine",
-      "description": "scientific article published on 25 February 2016",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q40304752",
       "label": "Museum De Waag",
       "description": "museum in Deventer, located in old weigh house",
@@ -2745,20 +2180,6 @@
       "description": "bank in Poland",
       "sourceQuery": "bank",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=bank&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q41062740",
-      "label": "Professional associations, ethics, and society",
-      "description": "scientific article published on 01 November 1993",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q41073731",
-      "label": "Non-governmental organization facilitation of a community-based nutrition and health program: Effect on program exposure and associated infant feeding practices in rural India",
-      "description": "scientific article published on 14 September 2017",
-      "sourceQuery": "non-governmental organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=non-governmental%20organization&language=en&format=json&limit=50"
     },
     {
       "id": "Q41480916",
@@ -2780,20 +2201,6 @@
       "description": "mining research institute in Moscow, Russia",
       "sourceQuery": "research institute",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20institute&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q42624602",
-      "label": "Regulatory authority approaches to deploying quality improvement standards to community pharmacies: insights from the SafetyNET-RX program",
-      "description": "scientific article published on 22 October 2013",
-      "sourceQuery": "regulatory authority",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=regulatory%20authority&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q427827",
-      "label": "Fundamento de Esperanto",
-      "description": "1905 book by L. L. Zamenhof, describing the basic grammar and vocabulary of Esperanto; the only obligatory authority over the language, according to the Declaration of Boulogne",
-      "sourceQuery": "foundation",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=foundation&language=en&format=json&limit=50&continue=50"
     },
     {
       "id": "Q428765",
@@ -2838,13 +2245,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50&continue=50"
     },
     {
-      "id": "Q4356728",
-      "label": "Swedish Centre for Architecture and Design",
-      "description": "architectural museum in Stockholm Sweden",
-      "sourceQuery": "museum",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50&continue=50"
-    },
-    {
       "id": "Q4360916",
       "label": "Museum Gouda",
       "description": "museum in Gouda, Netherlands",
@@ -2857,41 +2257,6 @@
       "description": "political party in Russia",
       "sourceQuery": "trade union",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q43836231",
-      "label": "Pharmaceutical company to pay $875 million to settle federal case",
-      "description": "scientific article published on November 15, 2001",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q44326042",
-      "label": "Pharmaceutical company-sponsored educational activities: who benefits? who pays?",
-      "description": "scientific article published on November 1, 1992",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q44844758",
-      "label": "Regulatory authority reviews GMC decisions in Mid Staffordshire cases",
-      "description": "scientific article published on December 10, 2013",
-      "sourceQuery": "regulatory authority",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=regulatory%20authority&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q45097488",
-      "label": "Professional association for health services and welfare. Tasks and achievements",
-      "description": "scientific article published on April 7, 1977",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q45174058",
-      "label": "Professional Association, Inc.",
-      "description": "scientific article published in January 1970",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
     },
     {
       "id": "Q454217",
@@ -2913,13 +2278,6 @@
       "description": "public research university in Urbana and Champaign, Illinois, United States",
       "sourceQuery": "university",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=university&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q45913601",
-      "label": "Insurance company MDs defend AIDS-testing policy before CMA council",
-      "description": "scientific article published in February 1990",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
     },
     {
       "id": "Q4614",
@@ -2950,13 +2308,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20institute&language=en&format=json&limit=50&continue=50"
     },
     {
-      "id": "Q472311",
-      "label": "International Organization for Migration",
-      "description": "intergovernmental organization",
-      "sourceQuery": "international organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q4855951",
       "label": "Bank Newton",
       "description": "hamlet and civil parish in North Yorkshire, United Kingdom",
@@ -2976,13 +2327,6 @@
       "description": "American multinational banking and financial services corporation",
       "sourceQuery": "bank",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=bank&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q49049637",
-      "label": "Professional association membership of nurses: factors affecting membership and the decision to join an association",
-      "description": "scientific article published in June 1983",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50"
     },
     {
       "id": "Q49117",
@@ -3153,20 +2497,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20institute&language=en&format=json&limit=50&continue=50"
     },
     {
-      "id": "Q53240303",
-      "label": "Pharmaceutical company gifts: from voluntary standards to legal demands.",
-      "description": "scientific article published in May 2006",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q54011057",
-      "label": "Insurance company demands in workers' compensation cases",
-      "description": "scientific article",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q5474411",
       "label": "Foundation for Defense of Democracies",
       "description": "think tank and policy institute originally funded by the Abramson Family Foundation",
@@ -3186,13 +2516,6 @@
       "description": "company in the Czech Republic",
       "sourceQuery": "development agency",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20agency&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q54975849",
-      "label": "Pharmaceutical company spending on research and development and promotion in Canada, 2013-2016: a cohort analysis.",
-      "description": "scientific article",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
     },
     {
       "id": "Q55044",
@@ -3223,13 +2546,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50&continue=50"
     },
     {
-      "id": "Q56880342",
-      "label": "Pharmaceutical company trials and the integrity of medical research",
-      "description": "scientific article published in The Lancet",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q5725298",
       "label": "Henry M. Jackson Foundation for the Advancement of Military Medicine",
       "description": "non-profit organization",
@@ -3249,27 +2565,6 @@
       "description": "joint museum with a modern and a 17th century painting collection in Haarlem, The Netherlands",
       "sourceQuery": "museum",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q576330",
-      "label": "Hospital de Fuenlabrada",
-      "description": "Madrid Metro station",
-      "sourceQuery": "hospital",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=hospital&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q58548372",
-      "label": "Insurance Company use of ACL for Windows",
-      "description": "scholarly article in EDPACS: the EDP audit, control and security newsletter, vol. 24 no. 2, August 1996",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q58663382",
-      "label": "Pharmaceutical company-sponsored symposia and medical ethics",
-      "description": "scientific article published on 01 October 1988",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
     },
     {
       "id": "Q5902531",
@@ -3314,13 +2609,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=hospital&language=en&format=json&limit=50&continue=50"
     },
     {
-      "id": "Q59144878",
-      "label": "International Organization of Biophysics",
-      "description": "scientific article published in Nature",
-      "sourceQuery": "international organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50&continue=50"
-    },
-    {
       "id": "Q595802",
       "label": "Museum Plantin-Moretus",
       "description": "museum in Antwerp, Belgium",
@@ -3328,53 +2616,11 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50"
     },
     {
-      "id": "Q59636375",
-      "label": "Non-Governmental Organizations Activities in North Korea",
-      "description": "Congressional Research Service report",
-      "sourceQuery": "non-governmental organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=non-governmental%20organization&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q59861339",
-      "label": "Government Agency Reports Increase in Coastal Red Tides During 2004",
-      "description": "article published by Congressional-Executive Commission on China",
-      "sourceQuery": "government agency",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=government%20agency&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q60071163",
-      "label": "Insurance company to back out of some climate-linked risks",
-      "description": "scientific article published in Nature",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q602074",
-      "label": "Bank Panic",
-      "description": "1984 video game",
-      "sourceQuery": "bank",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=bank&language=en&format=json&limit=50&continue=50"
-    },
-    {
       "id": "Q6034310",
       "label": "Museo de la Trinidad",
       "description": "former museum 1837-1872 in Madrid, whose collection is part of the Prado today",
       "sourceQuery": "museum",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q60413654",
-      "label": "Foundation and Chaos",
-      "description": "1998 edition",
-      "sourceQuery": "foundation",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=foundation&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q6042311",
-      "label": "Insurance Company of North America Building",
-      "description": "building in Philadelphia",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
     },
     {
       "id": "Q6052263",
@@ -3403,13 +2649,6 @@
       "description": "organization",
       "sourceQuery": "international organization",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q6054768",
-      "label": "International organization leaders by year",
-      "description": "Wikimedia list article",
-      "sourceQuery": "international organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50&continue=50"
     },
     {
       "id": "Q610817",
@@ -3580,32 +2819,11 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=bank&language=en&format=json&limit=50"
     },
     {
-      "id": "Q66617329",
-      "label": "University of Michigan catalogue of two-dimensional spectral types for the HD stars, Volume 1: Declinations -90° to -53°.0",
-      "description": "book edition published in 1975",
-      "sourceQuery": "university",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=university&language=en&format=json&limit=50&continue=50"
-    },
-    {
       "id": "Q666331",
       "label": "Foundation E.G. Bührle Collection",
       "description": "art collection in Zurich, Switzerland",
       "sourceQuery": "foundation",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=foundation&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q66854347",
-      "label": "Professional association rejects legislative draft. German Nurses' Association wants professional school for nursing - loss of quality is feared",
-      "description": "scientific article published on May 15, 1978",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q66897033",
-      "label": "Professional association of German internists",
-      "description": "scientific article published on 01 August 1979",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
     },
     {
       "id": "Q67142153",
@@ -3622,32 +2840,11 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20institute&language=en&format=json&limit=50"
     },
     {
-      "id": "Q674746",
-      "label": "Hospital Tycoon",
-      "description": "2007 video game",
-      "sourceQuery": "hospital",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=hospital&language=en&format=json&limit=50&continue=50"
-    },
-    {
       "id": "Q67604473",
       "label": "International Organization of Masters, Mates, and Pilots, et al., Petitioners v. Timothy A. Brown [Case 89-1330] / Roderick A. DeArment, Acting Secretary of Labor, Petitioner v. Occupational Safety and Health Review Commission, et (NAID 118974910)",
       "description": "item in the National Archives and Records Administration's holdings",
       "sourceQuery": "international organization",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q679075",
-      "label": "Museum of Art and History Geneva",
-      "description": "museum in Geneva, Switzerland",
-      "sourceQuery": "museum",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q67922725",
-      "label": "Insurance company policies",
-      "description": "scientific article published on 01 June 1988",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50&continue=50"
     },
     {
       "id": "Q679527",
@@ -3664,39 +2861,11 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=foundation&language=en&format=json&limit=50&continue=50"
     },
     {
-      "id": "Q68637141",
-      "label": "Pharmaceutical company-sponsored promotions",
-      "description": "scientific article published on 01 November 1990",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q68823517",
-      "label": "Insurance company experience with coronary bypass surgery",
-      "description": "scientific article published on 01 January 1986",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q689951",
       "label": "Mumok",
       "description": "art museum in Vienna, Austria",
       "sourceQuery": "museum",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q69275022",
-      "label": "Professional association of German Internists",
-      "description": "scientific article published on 01 April 1973",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q69619976",
-      "label": "Professional association with unlicensed persons",
-      "description": "scientific article published on 01 September 1986",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
     },
     {
       "id": "Q6979219",
@@ -3713,74 +2882,11 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=bank&language=en&format=json&limit=50"
     },
     {
-      "id": "Q70939163",
-      "label": "Insurance company liable for cost of dental services",
-      "description": "scientific article published on 01 April 1968",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q71154480",
-      "label": "Pharmaceutical company trials and the integrity of medical research",
-      "description": "scientific article published on 01 June 1996",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q71466088",
-      "label": "Professional association with chiropractors",
-      "description": "scientific article published on 01 January 1981",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q71724654",
-      "label": "Insurance company referrals from Fiji to Australia and New Zealand",
-      "description": "scientific article published on 01 September 1996",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q71876048",
-      "label": "Government agency issues surgical smoke hazard control",
-      "description": "scientific article published on 01 December 1996",
-      "sourceQuery": "government agency",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=government%20agency&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q72018038",
-      "label": "Pharmaceutical company/physician interactions. Finding the balance",
-      "description": "scientific article published on 01 April 1994",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q72021132",
-      "label": "Insurance company's gentle persuasion has reduced utilization",
-      "description": "scientific article published on 01 February 1968",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q7247928",
       "label": "Professional Association of Therapeutic Horsemanship",
       "description": "American nonprofit organization",
       "sourceQuery": "professional association",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q72549525",
-      "label": "Non-governmental organization and community responses to HIV/AIDS in Asia and the Pacific",
-      "description": "scientific article published on 01 January 1994",
-      "sourceQuery": "non-governmental organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=non-governmental%20organization&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q72857381",
-      "label": "Pharmaceutical company sponsorship",
-      "description": "scientific article published on 1 July 1993",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
     },
     {
       "id": "Q7315093",
@@ -3846,39 +2952,11 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=university&language=en&format=json&limit=50"
     },
     {
-      "id": "Q73975595",
-      "label": "Professional Association of Dieticians of Switzerland",
-      "description": "scientific article published on 01 June 1952",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q74018482",
-      "label": "Insurance company-mandated shortened lengths of stay",
-      "description": "scientific article published on 01 April 1996",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q74124858",
-      "label": "Government agency strives for safe working conditions",
-      "description": "scientific article published on 01 February 2000",
-      "sourceQuery": "government agency",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=government%20agency&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q747053",
       "label": "University of Hartford",
       "description": "university in Connecticut, United States",
       "sourceQuery": "university",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=university&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q74798543",
-      "label": "Pharmaceutical company promotion: striking a balance",
-      "description": "scientific article published on 01 June 1998",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
     },
     {
       "id": "Q748085",
@@ -3895,20 +2973,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=hospital&language=en&format=json&limit=50&continue=50"
     },
     {
-      "id": "Q75906767",
-      "label": "INSURANCE company requests help in checking pilot's exposure to parathion",
-      "description": "scientific article published on 01 December 1951",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q76383121",
-      "label": "Professional association liability without personal malpractice: just who can be liable?",
-      "description": "scientific article published on 01 February 2004",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
       "id": "Q766145",
       "label": "University of Oregon",
       "description": "public research university in Eugene, Oregon, USA",
@@ -3923,67 +2987,11 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=bank&language=en&format=json&limit=50&continue=50"
     },
     {
-      "id": "Q77183595",
-      "label": "Insurance company forced to pay for autologous bone marrow transplant. Leonhardt v. Holden Business Forms Co",
-      "description": "scientific article published on 01 January 1994",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q77441973",
-      "label": "Professional associations and supervisor members: when does an employer dominate and interfere?",
-      "description": "scientific article published on 01 January 1979",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q77460719",
-      "label": "Insurance company's admission preview cuts hospital stays",
-      "description": "scientific article published on 01 February 1980",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q77700695",
       "label": "BankID",
       "description": "Mobile Bkash Bank-id",
       "sourceQuery": "bank",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=bank&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q77794744",
-      "label": "Pharmaceutical company advertising practices: call to arms",
-      "description": "scientific article published on 01 March 2002",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q77824808",
-      "label": "Professional association's disciplinary action upheld. Austin v. American Association of Neurological Surgeons",
-      "description": "scientific article published on 01 April 2002",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q78031281",
-      "label": "Professional association membership by nursing facility administrators and quality of care",
-      "description": "scientific article published on 01 January 2002",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q7831978",
-      "label": "Trade Union Act 1871",
-      "description": "1871 United Kingdom of Great Britain and Ireland Act of Parliament 34 & 35 Vic c. 31",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q7831980",
-      "label": "Trade Union Act 1984",
-      "description": "Public General Act of Parliament of the United Kingdom",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50"
     },
     {
       "id": "Q7831982",
@@ -4007,46 +3015,11 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50"
     },
     {
-      "id": "Q7832000",
-      "label": "Trade Union Reform and Employment Rights Act 1993",
-      "description": "Public General Act of Parliament of the United Kingdom",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q7832004",
-      "label": "Trade Union and Labour Relations (Consolidation) Act 1992",
-      "description": "Public General Act of Parliament of the United Kingdom",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q7832005",
-      "label": "Trade Union and Labour Relations Act 1974",
-      "description": "Public General Act of Parliament of the United Kingdom",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q78387158",
-      "label": "Insurance company coverage for in-hospital dental costs",
-      "description": "scientific article published on 01 November 1958",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q7842",
       "label": "University of Tokyo",
       "description": "national university in Tokyo, Japan",
       "sourceQuery": "university",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=university&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q78641626",
-      "label": "Pharmaceutical company sponsored disease management programs: an alternative for tax-exempt MCOs and hospitals",
-      "description": "scientific article published on 01 January 2002",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
     },
     {
       "id": "Q7877613",
@@ -4061,13 +3034,6 @@
       "description": "government ministry of Ukraine",
       "sourceQuery": "government ministry",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=government%20ministry&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q79245808",
-      "label": "Insurance company wins suit for overcharges",
-      "description": "scientific article published on 01 October 1959",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
     },
     {
       "id": "Q806176",
@@ -4101,8 +3067,8 @@
       "id": "Q806646",
       "label": "Bank Negara Malaysia",
       "description": "central bank",
-      "sourceQuery": "bank",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=bank&language=en&format=json&limit=50&continue=50"
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
     },
     {
       "id": "Q806653",
@@ -4154,27 +3120,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=bank&language=en&format=json&limit=50&continue=50"
     },
     {
-      "id": "Q81710582",
-      "label": "Insurance company Web strategies evolve: A look at the trends, and three case examples of companies with more-advanced strategies",
-      "description": "scientific article published on 01 March 2005",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q81910638",
-      "label": "Pharmaceutical company-sponsored disease management programs",
-      "description": "scientific article published on 01 January 2002",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q82203340",
-      "label": "Pharmaceutical company influences on medication prescribing and their potential impact on quality use of medicines",
-      "description": "scientific article published on 01 October 2008",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q823917",
       "label": "University of Sheffield",
       "description": "university in Sheffield, United Kingdom",
@@ -4224,62 +3169,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50"
     },
     {
-      "id": "Q83086646",
-      "label": "Professional Association Listing",
-      "description": "scientific article published on 01 November 1990",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q83147985",
-      "label": "Professional Association Profiles",
-      "description": "scientific article published on 01 September 1989",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q83148104",
-      "label": "Professional association profiles",
-      "description": "scientific article published on 01 November 1989",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q83148245",
-      "label": "Professional association profiles",
-      "description": "scientific article published on 01 January 1990",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q83152530",
-      "label": "Professional association profiles",
-      "description": "scientific article published on 01 January 1989",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q83155794",
-      "label": "Professional Association Networking Application American Journal of Health Promotion",
-      "description": "scientific article published on 01 January 1986",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q83155886",
-      "label": "Professional association networking application american journal of health promotion",
-      "description": "scientific article published on 01 January 1987",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q83155887",
-      "label": "Professional association profiles",
-      "description": "scientific article published on 01 January 1987",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
       "id": "Q83289937",
       "label": "Regulatory Authority for Audiovisual and Digital Communication",
       "description": "French high independent authority",
@@ -4322,32 +3211,11 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50"
     },
     {
-      "id": "Q84492670",
-      "label": "Pharmaceutical company advertising in The Lancet",
-      "description": "scientific article published on 01 July 2011",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q845236",
       "label": "Professional Association of Diving Instructors",
       "description": "Largest diver training organization, founded in 1966",
       "sourceQuery": "professional association",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q84616177",
-      "label": "Pharmaceutical company user fees: their uses and abuses",
-      "description": "scientific article published on 01 November 2009",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q84835577",
-      "label": "Professional association: the future in perspective",
-      "description": "scientific article published on 01 January 2011",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
     },
     {
       "id": "Q857276",
@@ -4357,20 +3225,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50"
     },
     {
-      "id": "Q85936346",
-      "label": "Professional association of German neurologists",
-      "description": "scientific article published on November 10, 2014",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q86002373",
-      "label": "Professional association supports DAKJ petition. In focus: the rights of children and adolescents",
-      "description": "scientific article published on 01 March 2015",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
       "id": "Q860527",
       "label": "University of North Texas",
       "description": "public research university based in Denton, TX, USA",
@@ -4378,32 +3232,11 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=university&language=en&format=json&limit=50"
     },
     {
-      "id": "Q87307840",
-      "label": "Professional association -- what you should consider when designing partnership contracts",
-      "description": "scientific article published on 01 March 2015",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q87330711",
-      "label": "Professional Association of German Neuroradiologists",
-      "description": "scientific article published on 01 October 2015",
-      "sourceQuery": "professional association",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50&continue=50"
-    },
-    {
       "id": "Q87762140",
       "label": "Hospital Universitario José Germain",
       "description": "hospital in Spain",
       "sourceQuery": "hospital",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=hospital&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q87830997",
-      "label": "Regulatory authority reports on breakdown of care at Belfast hospital",
-      "description": "scientific article published on 01 May 2014",
-      "sourceQuery": "regulatory authority",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=regulatory%20authority&language=en&format=json&limit=50"
     },
     {
       "id": "Q880898",
@@ -4427,13 +3260,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=hospital&language=en&format=json&limit=50&continue=50"
     },
     {
-      "id": "Q89969830",
-      "label": "Pharmaceutical Company Payments to the Professors of Orthopaedic Surgery Departments in Japan",
-      "description": "scientific article published on 02 March 2020",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q9004870",
       "label": "Hospital Clínic Universitari de València",
       "description": "hospital in València",
@@ -4453,13 +3279,6 @@
       "description": "public hospital in Barcelona, Spain",
       "sourceQuery": "hospital",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=hospital&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q91329035",
-      "label": "Pharmaceutical Company Payments to Executive Board Members of Professional Medical Associations in Japan",
-      "description": "scientific article published on 01 April 2019",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
     },
     {
       "id": "Q915603",
@@ -4483,27 +3302,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50"
     },
     {
-      "id": "Q91814222",
-      "label": "Pharmaceutical company payments to the authors of the Japanese dementia clinical practice guidelines in 2016",
-      "description": "scientific article published on 24 June 2019",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q929500",
-      "label": "Hospital 12 de Octubre",
-      "description": "Madrid Metro station",
-      "sourceQuery": "hospital",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=hospital&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q932592",
-      "label": "Foundation's Edge",
-      "description": "1982 novel by Isaac Asimov",
-      "sourceQuery": "foundation",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=foundation&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q951305",
       "label": "University of Cape Town",
       "description": "public university in Cape Town, South Africa",
@@ -4516,13 +3314,6 @@
       "description": "Surinamese trade union",
       "sourceQuery": "professional association",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20association&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q95269387",
-      "label": "Pharmaceutical company payments to Japanese government drug regulation committee members",
-      "description": "scientific article published on 18 May 2020",
-      "sourceQuery": "pharmaceutical company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pharmaceutical%20company&language=en&format=json&limit=50"
     },
     {
       "id": "Q953914",
@@ -4581,11 +3372,1733 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20institute&language=en&format=json&limit=50&continue=50"
     },
     {
-      "id": "Q99736280",
-      "label": "Trade Unions Act, 1926",
-      "description": "Act of Imperial Legislative Council of India",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
+      "id": "Q101083438",
+      "label": "State-Owned Enterprises (Post Office Bank Limited) Mortgages Order 1987",
+      "description": "New Zealand Statutory Regulation SR 1987/81",
+      "sourceQuery": "state-owned enterprise",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=state-owned%20enterprise&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q101083439",
+      "label": "State-Owned Enterprises (Post Office Bank Limited) Goods and Services Order 1987",
+      "description": "New Zealand Statutory Regulation SR 1987/82",
+      "sourceQuery": "state-owned enterprise",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=state-owned%20enterprise&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q101083440",
+      "label": "State-Owned Enterprises (Telecom Corporation of New Zealand Limited) Goods and Services Order 1987",
+      "description": "New Zealand Statutory Regulation SR 1987/83",
+      "sourceQuery": "state-owned enterprise",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=state-owned%20enterprise&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q104872529",
+      "label": "Network for Greening the Financial System",
+      "description": "finance sector organization",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q10536275",
+      "label": "International Federation of Actors",
+      "description": "global union federation",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1063819",
+      "label": "National Széchényi Library",
+      "description": "Hungarian national library",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q106392586",
+      "label": "Financial Institutions Center",
+      "description": "research center affiliated with University of Pennsylvania",
+      "sourceQuery": "financial institution",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=financial%20institution&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q106509962",
+      "label": "National Library of Israel Names and Subjects Authority File",
+      "description": "National Library of Israel authorities database",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q106611354",
+      "label": "Nonprofit organization laws by jurisdiction",
+      "description": "legal forms and activity limitations",
+      "sourceQuery": "nonprofit organization",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=nonprofit%20organization&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1069175",
+      "label": "International Federation of Red Cross and Red Crescent Societies",
+      "description": "humanitarian organization",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q10873771",
+      "label": "National Academy of Chinese Theatre Arts",
+      "description": "education organization in Beijing, China",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q109598851",
+      "label": "Ukrvozdukhput",
+      "description": "Ukrainian Society of Airways",
+      "sourceQuery": "airline",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=airline&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q110972559",
+      "label": "Development Bank of Nigeria PLC",
+      "description": "The Development Bank of Nigeria (DBN) was conceived by the Federal Government of Nigeria (FGN) in collaboration with global development partners to address the major financing challenges facing (MSMEs) in Nigeria.",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1127387",
+      "label": "Conservatoire national supérieur d'art dramatique",
+      "description": "national drama academy in France",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q112860906",
+      "label": "Development Bank of Ghana",
+      "description": "development finance institution in Ghana",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q112879319",
+      "label": "Banque de Développement de la République du Niger",
+      "description": "former development bank in Niger",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1133733",
+      "label": "National Library of Latvia",
+      "description": "Latvian state institution of legal deposit of works since 1991",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q113482320",
+      "label": "Central Bank",
+      "description": "bank in the United States",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1137250",
+      "label": "FIFPRO",
+      "description": "Worldwide organization representing professional football players",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q113975768",
+      "label": "Airline Commander",
+      "description": "mobile game",
+      "sourceQuery": "airline",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=airline&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1146531",
+      "label": "Proceedings of the National Academy of Sciences of the United States of America",
+      "description": "academic journal of the National Academy of Sciences",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q115787224",
+      "label": "International Federation of Reproduction Rights Organisations",
+      "description": "copyright organization (1980-)",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q116979152",
+      "label": "Investment Bankers Association",
+      "description": "organization",
+      "sourceQuery": "investment bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=investment%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1184535",
+      "label": "Central Bank of Bosnia and Herzegovina",
+      "description": "central bank",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q118669569",
+      "label": "International Federation of Fertility Societies",
+      "description": "non-governmental scientific organization for fertility and reproduction",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1195916",
+      "label": "Central Bank of Iceland",
+      "description": "Iceland's central bank",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1200925",
+      "label": "National Library of Catalonia",
+      "description": "national library in Catalonia",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1206693",
+      "label": "Development Bank of Southern Africa",
+      "description": "Government finance company",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q121267530",
+      "label": "Financial institution mortgage portfolio asset inventory auction systems and methods",
+      "description": "US patent 11373258",
+      "sourceQuery": "financial institution",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=financial%20institution&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q12250263",
+      "label": "Abu Dhabi Department of Health",
+      "description": "health regulator for the Emirate of Abu Dhabi.",
+      "sourceQuery": "health authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=health%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q122762419",
+      "label": "TAS Insurance Group",
+      "description": "Ukrainian insurance company",
+      "sourceQuery": "insurance group",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20group&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q12406834",
+      "label": "United States National Agricultural Library",
+      "description": "agricultural research library serving as a national library of the United States, and the library of the U.S. Department of Agriculture",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q124434673",
+      "label": "Development Bank of Mongolia",
+      "description": "state-owned bank of Mongolia",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q12494372",
+      "label": "Lembaga Penyiaran Publik",
+      "description": "Indonesian public service broadcaster legal form, fully or partially funded by the government",
+      "sourceQuery": "public broadcaster",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=public%20broadcaster&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q12585707",
+      "label": "National Academy of Agricultural Science",
+      "description": "facility in Wanju, South Korea",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1261157",
+      "label": "Central Bank of Iran",
+      "description": "Iranian central bank",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q126913856",
+      "label": "Airline",
+      "description": "episode of The Simple Life (S3 E3)",
+      "sourceQuery": "airline",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=airline&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q127688673",
+      "label": "Financial Institutions Services",
+      "description": "government agency in Jamaica",
+      "sourceQuery": "financial institution",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=financial%20institution&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q128123106",
+      "label": "Research Council of Zimbabwe",
+      "description": "government organization in Harare, Zimbabwe",
+      "sourceQuery": "research council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1281302",
+      "label": "International Federation of Resistance Fighters – Association of Anti-Fascists",
+      "description": "Anti-Axis resistance veterans organization",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q129207",
+      "label": "Azerbaijan National Academy of Sciences",
+      "description": "academy of sciences, national learned society of Azerbaijan",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q130265013",
+      "label": "Financial Institution",
+      "description": "legal form in Indiana, United States of America",
+      "sourceQuery": "financial institution",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=financial%20institution&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q131383005",
+      "label": "Ministère des Institutions financières et Coopératives",
+      "description": "former ministry of the government of Quebec",
+      "sourceQuery": "financial institution",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=financial%20institution&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q13184064",
+      "label": "Bir Hospital",
+      "description": "hospital in Nepal",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1319177",
+      "label": "Mariano Moreno National Library",
+      "description": "national library of Argentina",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1334284",
+      "label": "International Federation of Library Associations and Institutions",
+      "description": "organization of libraries",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1351100",
+      "label": "National Academy of Recording Arts and Sciences",
+      "description": "American music organization, presenter of the Grammy Awards",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q136706350",
+      "label": "Razom Dlia Ukrayiny",
+      "description": "nonprofit organisation from Ukraine",
+      "sourceQuery": "charitable foundation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=charitable%20foundation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q136706362",
+      "label": "Rokada",
+      "description": "nonprofit organisation from Ukraine",
+      "sourceQuery": "charitable foundation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=charitable%20foundation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q136706381",
+      "label": "M Corporation",
+      "description": "nonprofit organisation from Ukraine",
+      "sourceQuery": "charitable foundation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=charitable%20foundation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q136706392",
+      "label": "Сaritas-Kyiv",
+      "description": "nonprofit organisation from Ukraine",
+      "sourceQuery": "charitable foundation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=charitable%20foundation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q136706399",
+      "label": "Believe in Yourself",
+      "description": "nonprofit organisation from Ukraine",
+      "sourceQuery": "charitable foundation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=charitable%20foundation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q136706407",
+      "label": "Charitable Foundation Of The Ukrainian Catholic University",
+      "description": "nonprofit organisation from Ukraine",
+      "sourceQuery": "charitable foundation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=charitable%20foundation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q137507239",
+      "label": "State-Owned Enterprise Regulatory Agency",
+      "description": "state owned enterprise regulatory agency in Indonesia",
+      "sourceQuery": "state-owned enterprise",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=state-owned%20enterprise&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q137733780",
+      "label": "Wrapping Electric Utility Boxes with Artwork (Homestead, Florida)",
+      "description": "Municipal public art initiative under the City of Homestead’s Art in Public Places program that applies vinyl artwork to large electric utility boxes.",
+      "sourceQuery": "electric utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=electric%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1391531",
+      "label": "Trade Association for Cardboard Packaging for Liquid Foods",
+      "description": "eingetragener Verein",
+      "sourceQuery": "trade association",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20association&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q139413958",
+      "label": "Department of Financial Institutions, Ministry of Finance Vietnam",
+      "description": "department of the Ministry of Finance of Vietnam",
+      "sourceQuery": "financial institution",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=financial%20institution&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q139413971",
+      "label": "Department of State-Owned Enterprise Development, Ministry of Finance Vietnam",
+      "description": "department of the Ministry of Finance of Vietnam",
+      "sourceQuery": "state-owned enterprise",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=state-owned%20enterprise&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q139761423",
+      "label": "Investment Bank Titograd",
+      "description": "former bank in Montenegro",
+      "sourceQuery": "investment bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=investment%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1438087",
+      "label": "Research Council of the GDR",
+      "description": "advisory body of the GDR Council of Ministers for all questions of research and development as well as science and technology",
+      "sourceQuery": "research council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1467610",
+      "label": "National Library of Greece",
+      "description": "national library in Athens, Greece",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1479293",
+      "label": "International Federation of Musicians",
+      "description": "global union federation",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1479342",
+      "label": "Fédération Internationale de l'Art Photographique",
+      "description": "umbrella organization for amateur and professional photographers (1950–)",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1493021",
+      "label": "National Academy of Engineering",
+      "description": "engineering branch of the United States National Academies",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1506868",
+      "label": "Labour Union",
+      "description": "political party in Poland",
+      "sourceQuery": "labour union",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=labour%20union&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1526131",
+      "label": "Royal Library of the Netherlands",
+      "description": "national library of the Netherlands",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1534138",
+      "label": "National Academy of Sciences of the Republic of Kazakhstan",
+      "description": "national science institution of the Republic of Kazakhstan, located in Almaty",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q15904420",
+      "label": "Department of State-owned Enterprise Affairs, Ministry of Economic Affairs",
+      "description": "government agency of Taiwan",
+      "sourceQuery": "state-owned enterprise",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=state-owned%20enterprise&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q162027",
+      "label": "International Federation of Translators",
+      "description": "The voice of associations of translators, interpreters and terminologists around the world",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q16531299",
+      "label": "Development Bank of the Central African States",
+      "description": "African multilateral development bank",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1666530",
+      "label": "International Federation for Information Processing",
+      "description": "global organization for researchers and professionals working in computing",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1666533",
+      "label": "International Federation of Air Line Pilots' Associations",
+      "description": "worldwide association of national pilots' associations",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1666536",
+      "label": "International Federation of Automatic Control",
+      "description": "organization",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1667544",
+      "label": "International Federation of Free Evangelical Churches",
+      "description": "federation of minor Protestant denominations",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1670994",
+      "label": "National Library of Scotland",
+      "description": "legal deposit library of Scotland",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1672830",
+      "label": "National Library of Ireland",
+      "description": "heritage institution",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q16835125",
+      "label": "Development Bank of Namibia",
+      "description": "Namibian development bank",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q17027744",
+      "label": "Research Council for Complementary Medicine",
+      "description": "UK health charity",
+      "sourceQuery": "research council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1778674",
+      "label": "Central Bank of Iraq",
+      "description": "central bank of the Republic of Iraq",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1797646",
+      "label": "Central Bank of Ecuador",
+      "description": "central bank of Ecuador",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q181410",
+      "label": "Accademia Nazionale di Santa Cecilia",
+      "description": "musical institution in Rome, Italy",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1817742",
+      "label": "National Academy of Arts",
+      "description": "institution of higher education in Sofia, Bulgaria",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q18379367",
+      "label": "National Academy of Inventors",
+      "description": "organization",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q18499723",
+      "label": "Development Bank of Minas Gerais",
+      "description": "promotion and development agency of the state of Minas Gerais",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1853468",
+      "label": "Bangko Sentral ng Pilipinas",
+      "description": "central bank of the Philippines",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q188915",
+      "label": "National Library of Israel",
+      "description": "national library in Israel",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q190223",
+      "label": "Central Bank of Armenia",
+      "description": "central bank",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q19069658",
+      "label": "Insurance Group Committee v. Denver & Rio Grande Western Railroad Company",
+      "description": "United States Supreme Court case",
+      "sourceQuery": "insurance group",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20group&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1911986",
+      "label": "National Library of the Philippines",
+      "description": "national library of the Philippines",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q193563",
+      "label": "Bibliothèque nationale de France",
+      "description": "national library of France in Paris",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q19375780",
+      "label": "International Federation of Anthroposophic Medical Associations",
+      "description": "anthroposophic organization",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1967876",
+      "label": "National Library of the Czech Republic",
+      "description": "central library of the Czech Republic",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1967977",
+      "label": "National Academy of Sciences of Belarus",
+      "description": "national academy of Belarus",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1977626",
+      "label": "International Federation of Chemical, Energy, Mine and General Workers' Unions",
+      "description": "former global union federation (1995–2012)",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q198642",
+      "label": "Central Bank of the Republic of China",
+      "description": "Central bank of the Republic of China (Taiwan)",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2007090",
+      "label": "Central Bank of India",
+      "description": "government-owned Indian bank",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2036624",
+      "label": "Tajik Academy of Sciences",
+      "description": "science academy",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q20567654",
+      "label": "Development Bank of Macedonia",
+      "description": "development bank",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2067459",
+      "label": "National Academy of Arts of Ukraine",
+      "description": "Ukrainian university",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2367273",
+      "label": "International Federation of Air Traffic Safety Electronics Associations",
+      "description": "Professional association",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2378428",
+      "label": "Development Bank of Saxony",
+      "description": "from its German acronym",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2379496",
+      "label": "National Academy of Sciences of Armenia",
+      "description": "National learned society of Armenia",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q23817605",
+      "label": "National Library of Wales Framed works of art collection",
+      "description": "Public art collection",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q245966",
+      "label": "National Library of Portugal",
+      "description": "Portuguese national library, fulfilling the function of legal deposit and copyright",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q24948593",
+      "label": "National Academy of Medical Sciences",
+      "description": "academic publisher",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2510227",
+      "label": "Central Bank of Kenya",
+      "description": "central bank",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q253414",
+      "label": "FIFA",
+      "description": "international governing body of association football",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2570775",
+      "label": "Central Bank of Venezuela",
+      "description": "central bank",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q25877697",
+      "label": "National Library of Wales archives and manuscripts catalogue",
+      "description": "online catalog of archives held at the National Library of Wales",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2614129",
+      "label": "CAF – Development Bank of Latin America and the Caribbean",
+      "description": "Latin American development bank",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2631674",
+      "label": "Central Bank of Chile",
+      "description": "central bank of Chile",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q26750",
+      "label": "International Federation of Journalists",
+      "description": "global union federation of journalists' trade unions",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q267566",
+      "label": "National Library of Russia",
+      "description": "one of the national libraries in Saint Petersburg, Russia",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q270794",
+      "label": "National Academy of Sciences",
+      "description": "science branch of the United States National Academies",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2822399",
+      "label": "French Academy of Technologies",
+      "description": "learned society with an emphasis on technology",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2822432",
+      "label": "Malagasy Academy",
+      "description": "organization",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2822443",
+      "label": "National Academy of Television Arts and Sciences",
+      "description": "American professional service organization",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2822447",
+      "label": "National Academy of Physical Education and Sport",
+      "description": "university in Bucharest, Romania",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q283785",
+      "label": "Central Bank of Ireland",
+      "description": "central bank of Ireland",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q28913614",
+      "label": "National Library of Wales Catalogue",
+      "description": "online library catalogue",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2896474",
+      "label": "International Federation of Associations of Anatomists",
+      "description": "The IFAA is the professional domicile of Associations of Anatomy from around the globe",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2901485",
+      "label": "National Library of Chile",
+      "description": "library of Chile",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q29016640",
+      "label": "Chambre syndicale de la haute couture",
+      "description": "membership association of grand couturiers",
+      "sourceQuery": "trade association",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20association&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q304037",
+      "label": "Austrian National Library",
+      "description": "largest library in Austria",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3040552",
+      "label": "International Federation of Basque Pelota",
+      "description": "IOC-recognised worldwide governing body for Basque pelota",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q30632297",
+      "label": "Development Bank of Ethiopia",
+      "description": "state-owned bank of Ethiopia",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q30907154",
+      "label": "National Academy of Fine Arts (Argentina)",
+      "description": "art academy in Buenos Aires, Argentina",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3091943",
+      "label": "International Federation of Catholic Universities",
+      "description": "organization",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3349634",
+      "label": "International Federation for Information and Documentation",
+      "description": "organization",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q337555",
+      "label": "Académie Nationale de Médecine",
+      "description": "French organization",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3604050",
+      "label": "National Academy of Science Letters and Arts of Modena",
+      "description": "Italian academy",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3658212",
+      "label": "National Academy of Music",
+      "description": "Bulgarian music academy",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3734241",
+      "label": "National Academy of Pedagogical Sciences of Ukraine",
+      "description": "Scientific institution",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q375349",
+      "label": "International Federation of Freight Forwarders Associations",
+      "description": "international trade association",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q37804477",
+      "label": "Airlines for Europe",
+      "description": "trade association of European airlines",
+      "sourceQuery": "airline",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=airline&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q378372",
+      "label": "Banco de Portugal",
+      "description": "central bank",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q390375",
+      "label": "National Library of New Zealand",
+      "description": "national library",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q39628",
+      "label": "Bibliothèque et Archives nationales du Québec",
+      "description": "library and archives institution",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q408816",
+      "label": "Airlines for America",
+      "description": "airline trade association",
+      "sourceQuery": "airline",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=airline&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q414422",
+      "label": "Research Council of Finland",
+      "description": "govermental funding body for scientific research in Finland",
+      "sourceQuery": "research council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q420747",
+      "label": "National Library of Finland",
+      "description": "foremost research library in Finland",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q42419062",
+      "label": "International Federation of Pedestrians",
+      "description": "Group of pedestrian organisations",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4314793",
+      "label": "National Academy of Agrarian Sciences of Ukraine",
+      "description": "science academy",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4314794",
+      "label": "National Academy of Internal Affairs of Ukraine",
+      "description": "police academy in Ukraine",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4314795",
+      "label": "National Academy of State Administration",
+      "description": "organization in Kyiv, Ukraine",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4314796",
+      "label": "National Academy of Visual Arts and Architecture",
+      "description": "art university in Kyiv, Ukraine",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4314798",
+      "label": "National Academy of Medical Sciences of Ukraine",
+      "description": "national academy in Ukraine",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4314799",
+      "label": "Kyrgyz Academy of Sciences",
+      "description": "organization",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4314805",
+      "label": "National Academy of Management",
+      "description": "College in Kyiv, Ukraine",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4352382",
+      "label": "National Academy of Medicine",
+      "description": "medical branch of the United States National Academies",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4356293",
+      "label": "Research Council of Norway",
+      "description": "Norwegian government agency",
+      "sourceQuery": "research council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4504280",
+      "label": "Central Bank of Seychelles",
+      "description": "central bank of Seychelles",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q45132832",
+      "label": "Research Council for Culture and Society",
+      "description": "academic institution in Finland",
+      "sourceQuery": "research council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q45133010",
+      "label": "Research Council for Physical Education and Sports",
+      "description": "government organization in Finland",
+      "sourceQuery": "research council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q45135716",
+      "label": "Research Council, KU Leuven",
+      "description": "academic institution in Belgium",
+      "sourceQuery": "research council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q45136159",
+      "label": "Research Council for Biosciences and Environment",
+      "description": "academic institution in Finland",
+      "sourceQuery": "research council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q45137448",
+      "label": "Research Council of the National University of Salta",
+      "description": "government organization in Argentina",
+      "sourceQuery": "research council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4698799",
+      "label": "Airlines of New South Wales",
+      "description": "defunct Australian domestic regional airline",
+      "sourceQuery": "airline",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=airline&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q477657",
+      "label": "International Federation for Equestrian Sports",
+      "description": "international governing body of equestrian sports",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q487300",
+      "label": "Bank of Uganda",
+      "description": "central bank",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q495005",
+      "label": "National Library of Korea",
+      "description": "the national library of South Korea",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q5001677",
+      "label": "Business Association of Stanford Entrepreneurial Students",
+      "description": "association",
+      "sourceQuery": "business association",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=business%20association&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q5001848",
+      "label": "Business association",
+      "description": "Wikimedia disambiguation page",
+      "sourceQuery": "business association",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=business%20association&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q511252",
+      "label": "International Federation of BodyBuilding & Fitness",
+      "description": "international professional sport's governing body for bodybuilding and fitness",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q52637732",
+      "label": "Research Council of Science and Technology",
+      "description": "Academic publisher based in Nepal",
+      "sourceQuery": "research council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q5266676",
+      "label": "Development Bank of Kenya",
+      "description": "commercial bank in Kenya",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q5266677",
+      "label": "Development Bank of Japan",
+      "description": "Japanese bank",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q5266680",
+      "label": "Development Bank of the Philippines",
+      "description": "bank in the Philippines",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q5266732",
+      "label": "Development bank",
+      "description": "Wikimedia disambiguation page",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q5359634",
+      "label": "International Federation of Trade Unions",
+      "description": "Historical trade union organization (1919-1945)",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q538954",
+      "label": "Georgian National Academy of Sciences",
+      "description": "science academy",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q5449551",
+      "label": "Development Bank of Wales",
+      "description": "Welsh Government-owned bank",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q55631459",
+      "label": "Research Council for Automobile Repairs",
+      "description": "Insurers reducing vehicle risk.",
+      "sourceQuery": "research council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q576951",
+      "label": "National Library Service of Italy",
+      "description": "network of Italian libraries",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q578460",
+      "label": "Biblioteca Nazionale Marciana",
+      "description": "library in Venice, Italy",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q580829",
+      "label": "Central Bank of the Republic of Turkey",
+      "description": "central bank of Turkey",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q59247521",
+      "label": "National Library collection",
+      "description": "National Library's collection",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q59638452",
+      "label": "Financial Institution Insolvency: Federal Authority over Fannie Mae, Freddie Mac, and Depository Institutions",
+      "description": "Congressional Research Service report",
+      "sourceQuery": "financial institution",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=financial%20institution&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q59665501",
+      "label": "Electric Utility Regulatory Reform: Issues for the 109th Congress",
+      "description": "Congressional Research Service report",
+      "sourceQuery": "electric utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=electric%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q59665502",
+      "label": "Electric Utility Provisions in House-Passed H.R. 6, 109th Congress",
+      "description": "Congressional Research Service report",
+      "sourceQuery": "electric utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=electric%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q59666548",
+      "label": "Electric Utility Restructuring: Maintaining Bulk Power System Reliability",
+      "description": "Congressional Research Service report",
+      "sourceQuery": "electric utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=electric%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q59667492",
+      "label": "Electric Utility Infrastructure Vulnerabilities: Transformers, Towers, and Terrorism",
+      "description": "Congressional Research Service report",
+      "sourceQuery": "electric utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=electric%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q59668029",
+      "label": "Electric Utility Policy: Comparison of House-Passed H.R. 6 and S.Amdt. 1412, 108th Congress",
+      "description": "Congressional Research Service report",
+      "sourceQuery": "electric utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=electric%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q59672050",
+      "label": "Electric Utility Restructuring: Overview of Basic Policy Questions",
+      "description": "Congressional Research Service report",
+      "sourceQuery": "electric utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=electric%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6006737",
+      "label": "Imperial Library",
+      "description": "former national library of Japan",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q60267",
+      "label": "International Federation of Liberal Youth",
+      "description": "political youth organization",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6050400",
+      "label": "International Federation for Structural Concrete",
+      "description": "organization",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q60787979",
+      "label": "Research Council on Structural Connections",
+      "description": "research organization in the United States",
+      "sourceQuery": "research council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q61073759",
+      "label": "Turkey Development Bank",
+      "description": "Turkish public bank",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q611833",
+      "label": "United States National Library of Medicine",
+      "description": "medical library operated by the U.S. federal government",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q616849",
+      "label": "Bank of Lithuania",
+      "description": "registration authority",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q61745511",
+      "label": "Labour Union (political party)",
+      "description": "Wikimedia disambiguation page",
+      "sourceQuery": "labour union",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=labour%20union&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q618252",
+      "label": "National Library of Uganda",
+      "description": "national library",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q618517",
+      "label": "National Library of Vanuatu",
+      "description": "national library",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q620942",
+      "label": "Central Bank of West African States",
+      "description": "central bank serving the West African Economic and Monetary Union",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q623578",
+      "label": "National Library of Australia",
+      "description": "national reference library in Canberra, Australia",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q631641",
+      "label": "SS. Cyril and Methodius National Library",
+      "description": "library in Bulgaria",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q631808",
+      "label": "National Library of Aruba",
+      "description": "national library",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q64203431",
+      "label": "Electric Utility Annual Data Files (NAID 624743)",
+      "description": "series in the National Archives and Records Administration's holdings",
+      "sourceQuery": "electric utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=electric%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q642444",
+      "label": "Central Bank of Argentina",
+      "description": "the central bank of Argentina",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q64271096",
+      "label": "Trade Association Survey Files (NAID 22123695)",
+      "description": "series in the National Archives and Records Administration's holdings",
+      "sourceQuery": "trade association",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20association&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q64468840",
+      "label": "Financial Institution Database Files (NAID 631133)",
+      "description": "series in the National Archives and Records Administration's holdings",
+      "sourceQuery": "financial institution",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=financial%20institution&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6466963",
+      "label": "Development Bank of the Republic of Belarus",
+      "description": "Belarusian state-owned bank",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6591191",
+      "label": "Health Authority",
+      "description": "UK public authority responsible for health provision in a local area (1996-2002)",
+      "sourceQuery": "health authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=health%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q65954115",
+      "label": "State Bank of India branch",
+      "description": "branch of State Bank of India",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q66177650",
+      "label": "Development Bank Files (NAID 6789276)",
+      "description": "series in the National Archives and Records Administration's holdings",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q66204784",
+      "label": "Financial Institution Fraud Enforcement Training Video Recordings (NAID 5709662)",
+      "description": "series in the National Archives and Records Administration's holdings",
+      "sourceQuery": "financial institution",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=financial%20institution&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q66288574",
+      "label": "Research Council Project Files (NAID 1412096)",
+      "description": "series in the National Archives and Records Administration's holdings",
+      "sourceQuery": "research council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q66302194",
+      "label": "Trade Association Questionnaires (NAID 1138099)",
+      "description": "series in the National Archives and Records Administration's holdings",
+      "sourceQuery": "trade association",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20association&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q666063",
+      "label": "National Library of Wales",
+      "description": "Welsh archive and research library",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6784542",
+      "label": "Ju Ming Museum",
+      "description": "museum in New Taipei",
+      "sourceQuery": "nonprofit organization",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=nonprofit%20organization&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q683721",
+      "label": "International Federation of the Blue Cross",
+      "description": "voluntary association",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q683972",
+      "label": "International Federation of Gynecology and Obstetrics",
+      "description": "organization",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6970107",
+      "label": "National Academies Press",
+      "description": "organization in Washington D.C., United States",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6970115",
+      "label": "National Academy of Agricultural Research Management",
+      "description": "national-level service training institute in Hyderabad, India",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6970129",
+      "label": "National Academy of Culture and Arts Management",
+      "description": "university in Kyiv, Ukraine",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6970139",
+      "label": "National Academy of Sciences of Argentina",
+      "description": "science academy",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6974123",
+      "label": "National Library Service for the Blind and Print Disabled",
+      "description": "free US library program of braille and audio materials",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6974124",
+      "label": "National Library Board",
+      "description": "statutory board of Singapore",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q705417",
+      "label": "DBS Bank",
+      "description": "multinational banking and financial services company based in Singapore",
+      "sourceQuery": "development bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=development%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q71153233",
+      "label": "National Library of Sri Lanka",
+      "description": "national reference library in Colombo, Sri Lanka",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q7257641",
+      "label": "Public Transport Authority",
+      "description": "Wikimedia disambiguation page",
+      "sourceQuery": "public transport authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=public%20transport%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q730498",
+      "label": "International Federation for Human Rights",
+      "description": "international non-governmental organization",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q732353",
+      "label": "National Library of China",
+      "description": "library in Beijing, China",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q734704",
+      "label": "International Federation of Vexillological Associations",
+      "description": "international vexillological institution",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q73580208",
+      "label": "Central Bank of India branch",
+      "description": "branch of Central Bank of India",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q739643",
+      "label": "International Federation of American Football",
+      "description": "international sport governing body",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q74690",
+      "label": "Central Bank of Malta",
+      "description": "central bank",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q74693",
+      "label": "Central Bank of Cyprus",
+      "description": "central bank",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q750403",
+      "label": "Biblioteca Nacional de España",
+      "description": "library in Spain",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q75640238",
+      "label": "Health authority reorganisation : 1 April 1996 : financial arrangements",
+      "description": "edition; published in 1995",
+      "sourceQuery": "health authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=health%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q7831927",
+      "label": "Trade Association Forum",
+      "description": "organization",
+      "sourceQuery": "trade association",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20association&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q806180",
+      "label": "Central Bank of Bolivia",
+      "description": "monetary Authority of Bolivia",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q806186",
+      "label": "Central Bank of Brazil",
+      "description": "central bank of Brazil",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q806208",
+      "label": "Bank of Mexico",
+      "description": "Mexico's central bank",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q806651",
+      "label": "Central Bank of Russia",
+      "description": "central bank of the Russian Federation established on July 13, 1990",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q806714",
+      "label": "Bank of Albania",
+      "description": "central bank of Albania",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q826858",
+      "label": "International Federation of the Phonographic Industry",
+      "description": "organization that represents the interests of the recording industry",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q856423",
+      "label": "National Library of Poland",
+      "description": "national library",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q890364",
+      "label": "National Library Singapore",
+      "description": "National Library of Singapore",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q920699",
+      "label": "Central Bank of Egypt",
+      "description": "central bank of Egypt",
+      "sourceQuery": "central bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=central%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q924551",
+      "label": "National Library of Norway",
+      "description": "Norwegian national library",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q945671",
+      "label": "International Federation of Surveyors",
+      "description": "organization",
+      "sourceQuery": "international federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q948882",
+      "label": "National Library of Brazil",
+      "description": "Brazilian national library",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q953058",
+      "label": "National Library of Sweden",
+      "description": "Sweden's national library",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q958769",
+      "label": "National Academy of Sciences of Ukraine",
+      "description": "academy of sciences",
+      "sourceQuery": "national academy",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20academy&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q971450",
+      "label": "National Library of Belarus",
+      "description": "national library in Minsk",
+      "sourceQuery": "national library",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
     }
   ]
 }
