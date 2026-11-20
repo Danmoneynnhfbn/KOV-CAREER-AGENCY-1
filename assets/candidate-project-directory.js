@@ -37,10 +37,13 @@ const avatarArt=id=>{
 };
 
 const money=v=>v===null||v===undefined||v===''?'':new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(Number(v));
-data.countries.forEach(n=>country.add(new Option(n,n)));
-[...new Set(data.profiles.map(p=>p.industry).filter(Boolean))].sort().forEach(n=>industry.add(new Option(n,n)));
-[...new Set(data.profiles.map(p=>p.service).filter(Boolean))].sort().forEach(n=>service.add(new Option(n,n)));
-function filtered(){const q=search.value.trim().toLowerCase();return data.profiles.filter(p=>(!q||[p.name,p.jobTitle,p.industry,p.service,p.project,p.projectDetails,p.country].join(' ').toLowerCase().includes(q))&&(!country.value||p.country===country.value)&&(!industry.value||p.industry===industry.value)&&(!service.value||p.service===service.value));}
+// Build filter choices from the actual profile records, so every option returns matching cards.
+const uniqueValues=key=>[...new Set(data.profiles.map(p=>String(p[key]||'').trim()).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+uniqueValues('country').forEach(n=>country.add(new Option(n,n)));
+uniqueValues('industry').forEach(n=>industry.add(new Option(n,n)));
+uniqueValues('service').forEach(n=>service.add(new Option(n,n)));
+const normalize=v=>String(v??'').normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase().trim();
+function filtered(){const q=normalize(search.value);return data.profiles.filter(p=>(!q||[p.name,p.jobTitle,p.industry,p.service,p.project,p.projectDetails,p.country,p.location,p.engagement].some(v=>normalize(v).includes(q)))&&(!country.value||p.country===country.value)&&(!industry.value||p.industry===industry.value)&&(!service.value||p.service===service.value));}
 // INTERNAL OWNER NOTE: Populate rating values only from approved client rating records.
 function rating(p){const n=Number(p.rating);if(!Number.isFinite(n)||n<1||n>5)return '';const whole=Math.floor(n),stars='★'.repeat(whole)+'☆'.repeat(5-whole);return '<div class="kov-project-rating"><span>Client rating</span><strong><span class="kov-project-stars" aria-label="'+esc(n)+' out of 5 stars">'+stars+'</span><span class="kov-project-rating-value">'+esc(n.toFixed(1))+' / 5</span></strong></div>';}
 function render(){const rows=filtered(),per=Number(size.value),pages=Math.max(1,Math.ceil(rows.length/per));page=Math.min(page,pages);const visible=rows.slice((page-1)*per,page*per);
