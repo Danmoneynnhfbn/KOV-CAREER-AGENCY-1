@@ -3,7 +3,7 @@
   "generatedOn": "2026-11-20",
   "source": "Wikidata wbsearchentities API",
   "sourceUrl": "https://www.wikidata.org/w/api.php",
-  "selection": "Supplemental candidates discovered by English-language Wikidata entity searches. Records retain QIDs, labels, descriptions, source query and exact API request URL. Candidates are filtered to named organizations/institutions and exclude generic classes, occupations, events, legal instruments, publications, buildings and transport stops. The source directory builder must deduplicate against the retained existing institution dataset by QID and normalized label before counting additions.",
+  "selection": "Supplemental candidates from English-language Wikidata entity searches. Each record carries a Wikidata QID, English label/description and the API search URL. The candidate filter excludes legal instruments, publications, products, events, transport stops, buildings, geographic entities, generic classes and non-organization topics. Final integration requires cross-deduplication by QID and normalized label against the retained local 832-record dataset.",
   "searchTerms": [
     "university",
     "research institute",
@@ -54,11 +54,59 @@
     "international federation",
     "charitable foundation",
     "nonprofit organization",
-    "international development organization"
+    "international development organization",
+    "national institute",
+    "technical university",
+    "business school",
+    "medical school",
+    "public hospital",
+    "teaching hospital",
+    "national research institute",
+    "science foundation",
+    "innovation agency",
+    "international agency",
+    "United Nations agency",
+    "intergovernmental organization",
+    "government-owned company",
+    "state-owned company",
+    "public utility company",
+    "electricity company",
+    "electric power company",
+    "water utility",
+    "oil company",
+    "gas company",
+    "mining company",
+    "transport company",
+    "railway company",
+    "shipping company",
+    "port authority",
+    "financial services company",
+    "credit union",
+    "savings bank",
+    "stock exchange",
+    "investment company",
+    "pension fund",
+    "asset management company",
+    "professional institute",
+    "engineering association",
+    "medical association",
+    "law society",
+    "chamber of commerce",
+    "employers association",
+    "workers union",
+    "trade federation",
+    "international charity",
+    "humanitarian organization",
+    "aid agency",
+    "environmental organization",
+    "cultural organization",
+    "arts council",
+    "sports governing body",
+    "national museum"
   ],
-  "sourceRecordCount": 1605,
-  "validDistinctCandidateCount": 720,
-  "deduplication": "Candidate set deduplicated by QID and normalized English label; existing 832-record directory still needs the builder's QID/name cross-deduplication.",
+  "sourceRecordCount": 2668,
+  "validDistinctCandidateCount": 1096,
+  "deduplication": "Unique QIDs and normalized English labels within this candidate file; cross-deduplication against the existing directory is performed by the build script.",
   "records": [
     {
       "id": "Q100710454",
@@ -110,20 +158,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=energy%20company&language=en&format=json&limit=50"
     },
     {
-      "id": "Q1050014",
-      "label": "Foundation and Earth",
-      "description": "1986 novel by Isaac Asimov",
-      "sourceQuery": "foundation",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=foundation&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q1051928",
-      "label": "Kröller-Müller Museum",
-      "description": "art museum and sculpture garden in Otterlo, Netherlands",
-      "sourceQuery": "museum",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q105330409",
       "label": "International Organization of Masters, Mates, and Pilots Local 6",
       "description": "labor union local representing licensed ship officers in Seattle, Washington",
@@ -159,20 +193,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50&continue=50"
     },
     {
-      "id": "Q108075649",
-      "label": "Insurance Company of Texas claim department (Dallas, Texas)",
-      "description": "administrative building in Dallas, Texas",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q108075650",
-      "label": "Insurance Company of Texas claim department (Houston, Texas)",
-      "description": "office building in Houston, Texas",
-      "sourceQuery": "insurance company",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q110279441",
       "label": "Fondation Corboud",
       "description": "art collection with 170 paintings owned by Mirasol and Gérard Corboud, on loan to the Wallraf-Richartz museum since 2001",
@@ -206,13 +226,6 @@
       "description": "anthropological museum located in Amsterdam, the Netherlands",
       "sourceQuery": "museum",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q113434967",
-      "label": "Trade Union Law of the People's Republic of China (2021)",
-      "description": "2021 Chinese law",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50&continue=50"
     },
     {
       "id": "Q1134646",
@@ -561,8 +574,8 @@
       "id": "Q1321874",
       "label": "National Museum Cardiff",
       "description": "main site of the national museum of Wales, United Kingdom",
-      "sourceQuery": "museum",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50&continue=50"
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
     },
     {
       "id": "Q13371",
@@ -738,13 +751,6 @@
       "description": "university in Reading, Berkshire, England, United Kingdom",
       "sourceQuery": "university",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=university&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q1435689",
-      "label": "Fondation Maeght",
-      "description": "art museum in France with sculpture garden by Joan Miró",
-      "sourceQuery": "foundation",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=foundation&language=en&format=json&limit=50&continue=50"
     },
     {
       "id": "Q144488",
@@ -1037,8 +1043,8 @@
       "id": "Q177550",
       "label": "National Museum of Science and Technology",
       "description": "museum of technology with Science center, in Stockholm, Sweden",
-      "sourceQuery": "museum",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50&continue=50"
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
     },
     {
       "id": "Q180865",
@@ -1636,13 +1642,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20institute&language=en&format=json&limit=50"
     },
     {
-      "id": "Q253344",
-      "label": "Foundation's Fear",
-      "description": "1997 novel by Gregory Benford",
-      "sourceQuery": "foundation",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=foundation&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q2539475",
       "label": "City Castle Zaltbommel",
       "description": "museum in Zaltbommel, the Netherlands",
@@ -1772,8 +1771,8 @@
       "id": "Q290549",
       "label": "Museo di Capodimonte",
       "description": "art museum and historic site in Naples, Italy",
-      "sourceQuery": "museum",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50&continue=50"
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
     },
     {
       "id": "Q2913980",
@@ -2000,25 +1999,11 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=university&language=en&format=json&limit=50&continue=50"
     },
     {
-      "id": "Q3075680",
-      "label": "Foundation and Chaos",
-      "description": "novel by Greg Bear",
-      "sourceQuery": "foundation",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=foundation&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q3086934",
       "label": "Musée des Beaux-Arts de Rouen",
       "description": "Art museum in Rouen, France",
       "sourceQuery": "museum",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q3124890",
-      "label": "Foundation's Triumph",
-      "description": "1999 novel by David Brin",
-      "sourceQuery": "foundation",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=foundation&language=en&format=json&limit=50"
     },
     {
       "id": "Q314080",
@@ -2560,13 +2545,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=university&language=en&format=json&limit=50&continue=50"
     },
     {
-      "id": "Q574961",
-      "label": "Frans Hals Museum",
-      "description": "joint museum with a modern and a 17th century painting collection in Haarlem, The Netherlands",
-      "sourceQuery": "museum",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q5902531",
       "label": "Hospital Universitario 12 de Octubre",
       "description": "hospital in Madrid, Spain",
@@ -2826,25 +2804,11 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=foundation&language=en&format=json&limit=50"
     },
     {
-      "id": "Q67142153",
-      "label": "Trade Union Batoumi Team",
-      "description": "sports club",
-      "sourceQuery": "trade union",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20union&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q6721258",
       "label": "Maastricht School of Management",
       "description": "postdoc management school in Maastricht, the Netherlands",
       "sourceQuery": "research institute",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20institute&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q67604473",
-      "label": "International Organization of Masters, Mates, and Pilots, et al., Petitioners v. Timothy A. Brown [Case 89-1330] / Roderick A. DeArment, Acting Secretary of Labor, Petitioner v. Occupational Safety and Health Review Commission, et (NAID 118974910)",
-      "description": "item in the National Archives and Records Administration's holdings",
-      "sourceQuery": "international organization",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20organization&language=en&format=json&limit=50&continue=50"
     },
     {
       "id": "Q679527",
@@ -3186,15 +3150,8 @@
       "id": "Q838691",
       "label": "Muséum national d'histoire naturelle",
       "description": "natural history museum in Paris, France",
-      "sourceQuery": "museum",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=museum&language=en&format=json&limit=50&continue=50"
-    },
-    {
-      "id": "Q839800",
-      "label": "Foundation and Empire",
-      "description": "1952 novel by Isaac Asimov",
-      "sourceQuery": "foundation",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=foundation&language=en&format=json&limit=50&continue=50"
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
     },
     {
       "id": "Q840667",
@@ -3372,27 +3329,6 @@
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=research%20institute&language=en&format=json&limit=50&continue=50"
     },
     {
-      "id": "Q101083438",
-      "label": "State-Owned Enterprises (Post Office Bank Limited) Mortgages Order 1987",
-      "description": "New Zealand Statutory Regulation SR 1987/81",
-      "sourceQuery": "state-owned enterprise",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=state-owned%20enterprise&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q101083439",
-      "label": "State-Owned Enterprises (Post Office Bank Limited) Goods and Services Order 1987",
-      "description": "New Zealand Statutory Regulation SR 1987/82",
-      "sourceQuery": "state-owned enterprise",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=state-owned%20enterprise&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q101083440",
-      "label": "State-Owned Enterprises (Telecom Corporation of New Zealand Limited) Goods and Services Order 1987",
-      "description": "New Zealand Statutory Regulation SR 1987/83",
-      "sourceQuery": "state-owned enterprise",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=state-owned%20enterprise&language=en&format=json&limit=50"
-    },
-    {
       "id": "Q104872529",
       "label": "Network for Greening the Financial System",
       "description": "finance sector organization",
@@ -3503,13 +3439,6 @@
       "description": "Worldwide organization representing professional football players",
       "sourceQuery": "international federation",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20federation&language=en&format=json&limit=50"
-    },
-    {
-      "id": "Q113975768",
-      "label": "Airline Commander",
-      "description": "mobile game",
-      "sourceQuery": "airline",
-      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=airline&language=en&format=json&limit=50"
     },
     {
       "id": "Q1146531",
@@ -5099,6 +5028,2757 @@
       "description": "national library in Minsk",
       "sourceQuery": "national library",
       "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20library&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q10279535",
+      "label": "Faculdade de Medicina de Botucatu",
+      "description": "faculty of São Paulo State University in Botucatu, Brazil",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q103019578",
+      "label": "National Research Institute",
+      "description": "academic institution in Papua New Guinea",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q104711072",
+      "label": "Stock exchange, training",
+      "description": "subject category of the 20th Century Press Archives",
+      "sourceQuery": "stock exchange",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=stock%20exchange&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q104711074",
+      "label": "Chamber of commerce, business association, general",
+      "description": "subject category of the 20th Century Press Archives",
+      "sourceQuery": "chamber of commerce",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=chamber%20of%20commerce&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1048805",
+      "label": "Trade Federation",
+      "description": "interstellar shipping and trade conglomerate in Star Wars",
+      "sourceQuery": "trade federation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=trade%20federation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q10496288",
+      "label": "Medical School of the Governor-General of Taiwan",
+      "description": "medical specialized school in Taihoku, Taihoku Prefecture, Taiwan",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q105098190",
+      "label": "Business School II – Vocational College of the City of Hagen",
+      "description": "vocational school in Hagen, Germany",
+      "sourceQuery": "business school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=business%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1054410",
+      "label": "Centrum Wiskunde & Informatica",
+      "description": "research institute",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1055186",
+      "label": "Netherlands National Institute for Public Health and the Environment",
+      "description": "Dutch research institute",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1055811",
+      "label": "Port Authority Trans-Hudson",
+      "description": "railway line in New York City and vicinity",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1060",
+      "label": "Hamburg University of Technology",
+      "description": "university in Germany",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q107180167",
+      "label": "Chamber of Commerce",
+      "description": "registration authority of Djibouti",
+      "sourceQuery": "chamber of commerce",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=chamber%20of%20commerce&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q107188917",
+      "label": "Stock Exchange Of Hong Kong Limited - Shanghai - Hong Kong Stock Connect",
+      "description": "Mainland investors trading in SEHK securities under Shanghai-Hong Kong stock connect",
+      "sourceQuery": "stock exchange",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=stock%20exchange&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q107223072",
+      "label": "Stock Exchange of Hong Kong Limited - Shenzen - Hong Kong Stock Connect",
+      "description": "Mainland investors trading in SEHK securities under Shenzhen-Hong Kong stock connect.",
+      "sourceQuery": "stock exchange",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=stock%20exchange&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1076542",
+      "label": "National Institute of Advanced Industrial Science and Technology",
+      "description": "research institute in Japan",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q107748338",
+      "label": "Balearic Port Authority",
+      "description": "port authority of Spain",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q108662435",
+      "label": "National Museum of New Zealand",
+      "description": "National museum of New Zealand (1973-1992)",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q10926960",
+      "label": "National Research Institute of Chinese Medicine",
+      "description": "research center for Chinese medicine",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1098106",
+      "label": "Technical University of Moldova",
+      "description": "university",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q110046066",
+      "label": "Medical School \"Stevica Jovanović\" Pančevo",
+      "description": "secondary school in Pančevo",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q110049244",
+      "label": "Medical School \"Belgrade\" Savski venac",
+      "description": "high school in Belgrade",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q110074062",
+      "label": "Stock Exchange",
+      "description": "engraving by anonymous artist or maker",
+      "sourceQuery": "stock exchange",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=stock%20exchange&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q110698822",
+      "label": "Port Authority Retirees Association, Inc.",
+      "description": "organization for retirees of the Port Authority of New York and New Jersey (PANYNJ)",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1108347",
+      "label": "National Institute for Space Research",
+      "description": "Brazilian space technology organization",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q111181136",
+      "label": "Mining Company of Ireland",
+      "description": "was a mining company which operated in Ireland, starting in 1824",
+      "sourceQuery": "mining company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=mining%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q112064524",
+      "label": "National Museum",
+      "description": "museum in Nigeria",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1132918",
+      "label": "National Museum of Art, Architecture and Design",
+      "description": "National Museum in Oslo",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q11363716",
+      "label": "National Research Institute of Fisheries Science",
+      "description": "National Research Institute of Japan",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1138147",
+      "label": "Museo Nacional de Arte",
+      "description": "art museum in Mexico City, Mexico",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q11421268",
+      "label": "National Center for Child Health and Development",
+      "description": "administrative agency in Japan",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q11421271",
+      "label": "National Institutes for Cultural Heritage",
+      "description": "administrative agency in Japan",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q115767470",
+      "label": "Medical school grants and finances",
+      "description": "multivolume work eds. by Federal Security Agency, Public Health Service",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q115789154",
+      "label": "National Research Institute for Chemical Technology Library",
+      "description": "Special Library that serve the organization in Nigeria",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q116434042",
+      "label": "Science Foundation",
+      "description": "primary school in Plateau State, Nigeria",
+      "sourceQuery": "science foundation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=science%20foundation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q11644380",
+      "label": "National Research Institute of Brewing",
+      "description": "administrative institution in Japan",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q11657051",
+      "label": "National Research Institute for Earth Science and Disaster Resilience",
+      "description": "research institute in Japan",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q116771696",
+      "label": "Medical School \"7. April\" Novi Sad",
+      "description": "secondary school in Novi Sad",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q116771714",
+      "label": "Medical School \"Hipokrat\" Novi Sad",
+      "description": "secondary school in Novi Sad",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q116982078",
+      "label": "Medical School \"Dositej Obradović\" Novi Sad",
+      "description": "secondary school in Novi Sad",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q11713261",
+      "label": "National Research Institute of Animal Production",
+      "description": "research institute in Krakow, Poland",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q117287304",
+      "label": "Arts Council of the African Studies Association",
+      "description": "organization which promotes studies about African culture and collaboration with African and Diaspora artists and scholars",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q11822119",
+      "label": "Dopravní podnik města Pardubic",
+      "description": "Czech company",
+      "sourceQuery": "transport company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=transport%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q118465754",
+      "label": "Pension Fund of the Christian Church (Disciples of Christ)",
+      "description": "general ministry of the Christian Church (Disciples of Christ) providing pensions to clergy",
+      "sourceQuery": "pension fund",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pension%20fund&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q118583153",
+      "label": "Owena Multipurpose Cooperative Union",
+      "description": "Cooperative Society",
+      "sourceQuery": "credit union",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=credit%20union&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1186843",
+      "label": "Budapest University of Technology and Economics",
+      "description": "university in Hungary",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1192305",
+      "label": "Smithsonian American Art Museum",
+      "description": "fine arts museum in Washington, D.C., a division of the Smithsonian Institution",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q119790236",
+      "label": "Arts Council Collection, Southbank Centre",
+      "description": "art museum in the UK",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q11992475",
+      "label": "Arts Council of Norway's Prize for Local History",
+      "description": "Norwegian prize",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1202897",
+      "label": "Dublin City University",
+      "description": "university in Ireland",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q121002049",
+      "label": "Science foundation and communication network——What caused the disappearance of Douglas Prasher",
+      "description": "scholarly article in Studies in Science of Science, no. 9, 2020",
+      "sourceQuery": "science foundation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=science%20foundation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q121222567",
+      "label": "Arts Council (Ireland)",
+      "description": "production company",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q12165943",
+      "label": "Stock Exchange Perspectiva",
+      "description": "High-tech stock exchange located in Dnipropetrovsk, Ukraine",
+      "sourceQuery": "stock exchange",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=stock%20exchange&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q12193536",
+      "label": "National Research Institute of Rural Engineering, Water and Forests",
+      "description": "research institute in Tunisia",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1229451",
+      "label": "Chamber of Commerce Wiesbaden",
+      "description": "University",
+      "sourceQuery": "chamber of commerce",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=chamber%20of%20commerce&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q123598779",
+      "label": "Chamber of Commerce and Production of Piura",
+      "description": "Peruvian association",
+      "sourceQuery": "chamber of commerce",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=chamber%20of%20commerce&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q123765626",
+      "label": "Chamber of Gipuzkoa",
+      "description": "chamber of commerce",
+      "sourceQuery": "chamber of commerce",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=chamber%20of%20commerce&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q124211133",
+      "label": "Medical School of Vocational Studies Milutin Milanković Belgrade",
+      "description": "private high school in Belgrade",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q124451929",
+      "label": "Chamber of Commerce and Industry of Turkmenistan",
+      "description": "non-profit public organization of Turkmenistan",
+      "sourceQuery": "chamber of commerce",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=chamber%20of%20commerce&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q124460192",
+      "label": "Medical school with students' home \"Sister Ninković\" Kragujevac",
+      "description": "secondary school in Kragujevac",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q125191818",
+      "label": "Kalsee Credit Union",
+      "description": "Credit union serving Southwestern Michigan",
+      "sourceQuery": "credit union",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=credit%20union&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q125275836",
+      "label": "Professional Institute of the Public Service of Canada v. Canada (Attorney General)",
+      "description": "case from the Supreme Court of Canada",
+      "sourceQuery": "professional institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q125396614",
+      "label": "University of Abuja Teaching Hospital Mosque",
+      "description": "a mosque situated around gwagwalada",
+      "sourceQuery": "teaching hospital",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=teaching%20hospital&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q125517161",
+      "label": "Water utility meter with smart reconnect function",
+      "description": "US patent 11449081",
+      "sourceQuery": "water utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=water%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q125791552",
+      "label": "Chamber of Commerce Pančevo",
+      "description": "national association of business companies in Pančevo",
+      "sourceQuery": "chamber of commerce",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=chamber%20of%20commerce&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q12585719",
+      "label": "National Research Institute of Cultural Heritage",
+      "description": "archive organization in Daejeon, South Korea",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q12585776",
+      "label": "National Research Institute of Maritime Heritage",
+      "description": "museum in South Korea",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q126256684",
+      "label": "International Agency Assistance to Education in Latin America and the Caribbean, 1970‐1984: technical and political decision‐making",
+      "description": "scholarly article",
+      "sourceQuery": "international agency",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20agency&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q126711087",
+      "label": "Credit Union",
+      "description": "house in Newry, County Down, Northern Ireland",
+      "sourceQuery": "credit union",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=credit%20union&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1269766",
+      "label": "Technical University of Denmark",
+      "description": "university in the town Kongens Lyngby",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q127155616",
+      "label": "Water utility consolidation: Are economies of scale realized?",
+      "description": "scholarly article",
+      "sourceQuery": "water utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=water%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q127766864",
+      "label": "Mining company as an effective element in coal supply to the regions of the Far North",
+      "description": "scholarly article",
+      "sourceQuery": "mining company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=mining%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q12790147",
+      "label": "Chamber of Commerce and Industry of Slovenia",
+      "description": "organization",
+      "sourceQuery": "chamber of commerce",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=chamber%20of%20commerce&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q128083247",
+      "label": "Port authority corporate social responsibility (CSR) and perceptions of entrepreneurs and port enterprises",
+      "description": "scholarly article",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q128125389",
+      "label": "State-owned company: Detection Zone of Government Failure or market Failure?",
+      "description": "scholarly article",
+      "sourceQuery": "state-owned company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=state-owned%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1284039",
+      "label": "National Institute of Environmental Health Sciences",
+      "description": "U.S. research institute, part of the National Institutes of Health (NIH)",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q128734598",
+      "label": "INTERNATIONAL CHARITY AND COOPERATION PROJECTS REGARDING THE ORGANIZATION OF VOLUNTEER POST-TRAUMATIC GROWTH PROGRAMS",
+      "description": "scholarly article",
+      "sourceQuery": "international charity",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20charity&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q128837313",
+      "label": "Teaching hospital Amaku",
+      "description": "health centre in Anambra state",
+      "sourceQuery": "teaching hospital",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=teaching%20hospital&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q129047509",
+      "label": "Insurance company as dominant shareholder and financial performance in for-profit hospitals",
+      "description": "scholarly article",
+      "sourceQuery": "insurance company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1291752",
+      "label": "Technical University of Liberec",
+      "description": "university",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q129195",
+      "label": "Technische Universität Ilmenau",
+      "description": "German university",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q129256528",
+      "label": "Investment Company with Variable Capital",
+      "description": "legal form in the United Kingdom",
+      "sourceQuery": "investment company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=investment%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q129307894",
+      "label": "Water Utility Liability",
+      "description": "scholarly article",
+      "sourceQuery": "water utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=water%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q129870445",
+      "label": "Water Utility Drought Tracking in Northern Climates",
+      "description": "scholarly article published in May 2018",
+      "sourceQuery": "water utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=water%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q130181997",
+      "label": "Water utility decision support through the semantic web of things",
+      "description": "scholarly article published in April 2018",
+      "sourceQuery": "water utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=water%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q130191110",
+      "label": "Water Utility Executive Leadership, Part 3: What CEOs Do",
+      "description": "scholarly article published in January 2015",
+      "sourceQuery": "water utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=water%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q130198465",
+      "label": "Water Utility Security: What's in Store in 2004?",
+      "description": "scholarly article published in January 2004",
+      "sourceQuery": "water utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=water%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q130202953",
+      "label": "Water Utility Options for Low‐Income Assistance Programs",
+      "description": "scholarly article published in April 2002",
+      "sourceQuery": "water utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=water%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q130203340",
+      "label": "Water Utility Safety Program at Long Beach",
+      "description": "scholarly article published in November 1963",
+      "sourceQuery": "water utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=water%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q130203725",
+      "label": "WATER UTILITY PERSONNEL STATISTICS",
+      "description": "scholarly article published in August 1970",
+      "sourceQuery": "water utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=water%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q130203904",
+      "label": "Water Utility Operating Data: An Analysis",
+      "description": "scholarly article published in May 1985",
+      "sourceQuery": "water utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=water%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q130205111",
+      "label": "Water Utility Image–Imagination and Modest Budget",
+      "description": "scholarly article published in November 1966",
+      "sourceQuery": "water utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=water%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q130205181",
+      "label": "Water Utility Hydroelectric Power Development",
+      "description": "scholarly article published in November 1976",
+      "sourceQuery": "water utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=water%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q130206278",
+      "label": "Water Utility Protection Against Fire",
+      "description": "scholarly article published in November 1963",
+      "sourceQuery": "water utility",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=water%20utility&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q130264679",
+      "label": "Savings Bank",
+      "description": "legal form in Alaska, United States of America",
+      "sourceQuery": "savings bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=savings%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q130265023",
+      "label": "Investment Company",
+      "description": "legal form in Montana, United States of America",
+      "sourceQuery": "investment company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=investment%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q130288687",
+      "label": "Port Authority Police Benevolent Association",
+      "description": "organization in New Jersey, United States",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q131743875",
+      "label": "SC-South",
+      "description": "Russian Ministry of Defense shipping company",
+      "sourceQuery": "shipping company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=shipping%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q131843671",
+      "label": "Environmental organizations unite and sign a document calling on the European Commission and CITES to reject trade of Spix's Macaw and Lear's Macaw",
+      "description": "blog post published in 2023",
+      "sourceQuery": "environmental organization",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=environmental%20organization&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q132581487",
+      "label": "Medical School \"Draginja Nikšić\" Sremska Mitrovica",
+      "description": "high school in Sremska Mitrovica",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q132795789",
+      "label": "Medical School Doboj",
+      "description": "Medical School in Doboj",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q132800686",
+      "label": "Doboj Medical School of Health Sciences",
+      "description": "medical school in Doboj",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1329563",
+      "label": "National Museum in Wrocław",
+      "description": "museum in Wrocław, Poland",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1330208",
+      "label": "Stock Exchange of Thailand",
+      "description": "national stock exchange of Thailand, located in Bangkok",
+      "sourceQuery": "stock exchange",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=stock%20exchange&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q133811857",
+      "label": "Instituto Nacional de Metrologia",
+      "description": "government organization in Havana, Cuba",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1352282",
+      "label": "National Museum of Archaeology",
+      "description": "archaeological museum in Madrid, Spain",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q135448106",
+      "label": "Teaching Hospital Kurunegala",
+      "description": "hospital in North Western Province, Sri Lanka",
+      "sourceQuery": "teaching hospital",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=teaching%20hospital&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q136261732",
+      "label": "Arts Council of Greater Baton Rouge",
+      "description": "Nonprofit arts organization in Baton Rouge, Louisiana, United States",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1362629",
+      "label": "National Museum of Western Art",
+      "description": "art museum in Tokyo, Japan",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1362729",
+      "label": "Technical University of Lisbon",
+      "description": "university",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q136505154",
+      "label": "Arts Council of the North Okanagan",
+      "description": "performing arts presenting organization in Vernon, British Columbia",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q136505196",
+      "label": "Arts Council of the Central Okanagan",
+      "description": "performing arts presenting organization in Kelowna, British Columbia",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q136706419",
+      "label": "Ukraine! I Am For You!",
+      "description": "nonprofit organisation from Ukraine",
+      "sourceQuery": "international charity",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20charity&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q136776303",
+      "label": "Public Hospitals Authority",
+      "description": "government agency of The Bahamas",
+      "sourceQuery": "public hospital",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=public%20hospital&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q136981059",
+      "label": "Business School No. 3 of 7 Hipólito Vieytes",
+      "description": "secondary school in Buenos Aires, Argentina",
+      "sourceQuery": "business school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=business%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1370397",
+      "label": "Estonian National Museum",
+      "description": "museum in Tartu, Estonia",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q137196234",
+      "label": "Port Authority",
+      "description": "performing arts production during the season 2002/03",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q138330399",
+      "label": "Medical School \"Two Heroes\" Novi Pazar",
+      "description": "high school in Novi Pazar",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1386304",
+      "label": "Shipping company FA Vinnen & Co",
+      "description": "transport company",
+      "sourceQuery": "shipping company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=shipping%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q139771512",
+      "label": "National Research Institute of Industrial Safety and Labor Protection",
+      "description": "government organization in Kyiv, Ukraine",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q140017903",
+      "label": "Arts Council of Greater Lansing",
+      "description": "non-profit focused on the arts",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q140045165",
+      "label": "Arts Council of White Lake-Nuveen",
+      "description": "American nonprofit organization in Whitehall, Michigan",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q140045249",
+      "label": "Arts Council of Big Sky",
+      "description": "nonprofit arts organization in Montana",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q140460553",
+      "label": "Arts Council of Fayettesvlile | Cumberland County",
+      "description": "subsidiary of Arts North Carolina",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q140562496",
+      "label": "Shipping Company Groningen",
+      "description": "Dutch shipping company which was founded at the end of 2016 by a merger of three shipping companies; Navigia, Feederlines and Thorco Shipping Holland",
+      "sourceQuery": "shipping company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=shipping%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q140639251",
+      "label": "Cork University Business School",
+      "description": "faculty of University College Cork",
+      "sourceQuery": "business school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=business%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q140640353",
+      "label": "Business School Netherlands",
+      "description": "Dutch business school specialised in action learning MBA programmes",
+      "sourceQuery": "business school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=business%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q140876233",
+      "label": "Medical Association of Niigata City",
+      "description": "nonprofit organization in Niigata, Japan",
+      "sourceQuery": "medical association",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20association&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q140965882",
+      "label": "Business School of Excellence",
+      "description": "higher education institution in Namibia",
+      "sourceQuery": "business school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=business%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q141050145",
+      "label": "Investment Company Governance Technical Amendments",
+      "description": "2026 rule of the Securities and Exchange Commission published in the Federal Register (2026-16066)",
+      "sourceQuery": "investment company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=investment%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q141165517",
+      "label": "Employers Association of the Northeast",
+      "description": "American employers' association based in Agawam, Massachusetts",
+      "sourceQuery": "employers association",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=employers%20association&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1412194",
+      "label": "National Institute of Statistics",
+      "description": "Portugal's principal government institution in charge of statistics and census data",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q141387875",
+      "label": "CULTURAL ORGANIZATION OF DISEASE AND SEMANTIC STRUCTURES IN SKELETAL MUSCLE DISEASES OF MAPUCHE POPULATION, CHILE",
+      "description": "scholarly article published in AIBR: Revista de Antropología Iberoamericana, vol. 09, no. 01 (2014) (DOI: 10.11156/AIBR.090103)",
+      "sourceQuery": "cultural organization",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=cultural%20organization&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q141490322",
+      "label": "Business School Impact System",
+      "description": "label assessing a business school's impact on its local environment, run jointly by EFMD and FNEGE since 2012",
+      "sourceQuery": "business school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=business%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q141547583",
+      "label": "Engineering Association for Development and Environment-EADE",
+      "description": "nonprofit organisation and member of the IUCN",
+      "sourceQuery": "engineering association",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=engineering%20association&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q141659728",
+      "label": "Medical School of Tianjin University",
+      "description": "medical school in Tianjin, China",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q141669678",
+      "label": "National Research Institute of Renewable Energy Sources under the Ministry of Energy of the Republic of Uzbekistan",
+      "description": "government organization in Tashkent, Uzbekistan",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q141802371",
+      "label": "National Research Institute for Child Health and Development",
+      "description": "facility in Tokyo, Japan",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1419555",
+      "label": "National Gallery Prague",
+      "description": "art museum in Prague, Czechia",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1430113",
+      "label": "Institut national des langues et civilisations orientales",
+      "description": "academic language institution in France",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1466498",
+      "label": "National Institute of Water and Atmospheric Research",
+      "description": "New Zealand research institute",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1467125",
+      "label": "National Museum of Indonesia",
+      "description": "archaeological, historical, ethnological, and geographical museum located in Jakarta",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q147286",
+      "label": "Kyoto National Museum",
+      "description": "art museum in Japan",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1481050",
+      "label": "London Business School",
+      "description": "business school affiliated to the University of London",
+      "sourceQuery": "business school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=business%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q148554",
+      "label": "National Museum of Natural History",
+      "description": "natural history museum in Washington, D.C.",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q148584",
+      "label": "National Museum of American History",
+      "description": "history museum in Washington, D.C., a division of the Smithsonian Institution",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q149433",
+      "label": "Brandenburg University of Technology Cottbus-Senftenberg",
+      "description": "university in Germany",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q15123983",
+      "label": "Transport Company of the town of České Budějovice",
+      "description": "company in České Budějovice, Czech Republic",
+      "sourceQuery": "transport company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=transport%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1528410",
+      "label": "National Institute of Development Administration",
+      "description": "business school in Thailand",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q153306",
+      "label": "National Museum in Warsaw",
+      "description": "national museum in Warsaw, Poland",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1535216",
+      "label": "Nikhef",
+      "description": "physics institute, Netherlands",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q156616",
+      "label": "National Institute of Statistics and Economic Studies",
+      "description": "France's principal government institution in charge of statistics and census data",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q15707310",
+      "label": "Pension Fund Regulatory and Development Authority",
+      "description": "Indian regulator for pensions",
+      "sourceQuery": "pension fund",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pension%20fund&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q157808",
+      "label": "Technical University of Munich",
+      "description": "public research university in Germany",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q158158",
+      "label": "TU Dresden",
+      "description": "institute of higher education in the city of Dresden, Saxony, Germany, founded in 1828",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q15938339",
+      "label": "Pension Fund",
+      "description": "Macao government department",
+      "sourceQuery": "pension fund",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pension%20fund&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q16183548",
+      "label": "Cambra de Comerç de Manresa",
+      "description": "chamber of commerce of Manresa, Catalonia, Spain",
+      "sourceQuery": "chamber of commerce",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=chamber%20of%20commerce&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q16192401",
+      "label": "Arts Council Korea",
+      "description": "cultural organisation",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1622239",
+      "label": "Technical University of Applied Sciences Würzburg-Schweinfurt",
+      "description": "technical university in Germany",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q16253311",
+      "label": "Humanitarian Organization for Migration Economics",
+      "description": "organization",
+      "sourceQuery": "humanitarian organization",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=humanitarian%20organization&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1636101",
+      "label": "National Institute of Amazonian Research",
+      "description": "research institute in Brazil",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1640731",
+      "label": "Polytechnic University of Catalonia",
+      "description": "public university in Barcelona, Spain",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q16494965",
+      "label": "Medical Association of São Paulo",
+      "description": "academic publisher",
+      "sourceQuery": "medical association",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20association&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q16536284",
+      "label": "Belarusian Chamber of Commerce and Industry",
+      "description": "nonprofit organization of Belarus",
+      "sourceQuery": "chamber of commerce",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=chamber%20of%20commerce&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1665106",
+      "label": "National Institute for Agricultural Research",
+      "description": "former French national institute",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1665124",
+      "label": "ISC paris business school",
+      "description": "French business school",
+      "sourceQuery": "business school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=business%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1667156",
+      "label": "National Museum of the Philippines",
+      "description": "national museum institution in the Philippines",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q16733491",
+      "label": "Electricity Company of Ghana",
+      "description": "electricity distribution operator in Ghana",
+      "sourceQuery": "electricity company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=electricity%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1674866",
+      "label": "National Institute of Geophysics and Volcanology",
+      "description": "research institute in Italy",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1674876",
+      "label": "Istituto Nazionale di Fisica Nucleare",
+      "description": "Italian institution",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q16821236",
+      "label": "National Institute on Alcohol Abuse and Alcoholism",
+      "description": "component of the U.S. National Institutes of Health",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q16969473",
+      "label": "National Research Institute for Science Policy",
+      "description": "Title: مدل‌سازی هوشمند مدیریت انرژی در ریزشبکه‌های نوین با تلفیق منابع تولید پراکنده،خودروهای الکتریکی و راهبردهای پیشرفته پاسخگویی بار مبتنی بر هوش مصنوعی وزیرساخت‌های امن تبادل داده مبتنی بر بلاک‌چینYear: 1405UUID: bd8f13f74cac9bcb258afeab2f3dd67",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q16987345",
+      "label": "Ioannina Medical School",
+      "description": "medical school in Greece",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q17074947",
+      "label": "Teaching Hospital, Peradeniya",
+      "description": "hospital in Sri Lanka",
+      "sourceQuery": "teaching hospital",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=teaching%20hospital&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q17153751",
+      "label": "National Museum of World Cultures",
+      "description": "museum group for global art, history and material culture",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1719038",
+      "label": "Technical University of Košice",
+      "description": "university in Slovakia",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1732774",
+      "label": "National Institute for Medical Research",
+      "description": "medical research institute in London, United Kingdom",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q17339437",
+      "label": "Wereldmuseum Leiden",
+      "description": "museum in Leiden",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q17657521",
+      "label": "Oil company BP to pay for Gulf of Mexico spill",
+      "description": "Wikinews article",
+      "sourceQuery": "oil company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=oil%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q176691",
+      "label": "National Institute of Standards and Technology",
+      "description": "measurement standards laboratory in the United States",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1786577",
+      "label": "National Museum of Visual Arts",
+      "description": "museum in Uruguay",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1800288",
+      "label": "United States Chamber of Commerce",
+      "description": "American business organization",
+      "sourceQuery": "chamber of commerce",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=chamber%20of%20commerce&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1806348",
+      "label": "Technical University and State Library Darmstadt",
+      "description": "German academic library (2004-)",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1815371",
+      "label": "National Institute of Dramatic Art",
+      "description": "performing arts college in Sydney, New South Wales, Australia",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q18379590",
+      "label": "National Research Institute for Chemical Technology",
+      "description": "Research agency in Nigeria",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q18477728",
+      "label": "Railway Company of Benguela",
+      "description": "State owned Angolan railway company",
+      "sourceQuery": "railway company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=railway%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1848918",
+      "label": "National Museum of Fine Arts, Argentina",
+      "description": "national art museum in Buenos Aires, Argentina",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1850416",
+      "label": "Museu Nacional",
+      "description": "museum of UFRJ in Rio de Janeiro, Brazil",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q18540179",
+      "label": "National Research Institute for Earth Physics",
+      "description": "research institute in Măgurele, Romania",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q18779685",
+      "label": "INSCAE",
+      "description": "university in Madagascar",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q188112",
+      "label": "National Museum in Prague",
+      "description": "Czech museum institution",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1881867",
+      "label": "Medical School Hamburg",
+      "description": "education organization in Hamburg, Germany",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1895953",
+      "label": "Musée National d'Art Moderne",
+      "description": "national museum for modern art of France located in the Centre Pompidou in Paris",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q19040827",
+      "label": "Port Authority Trans-Hudson Corporation v. Feeney",
+      "description": "United States Supreme Court case",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q19071229",
+      "label": "Investment Company Institute v. Camp",
+      "description": "United States Supreme Court case",
+      "sourceQuery": "investment company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=investment%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q19091565",
+      "label": "Railway Company v. Loftin",
+      "description": "United States Supreme Court case",
+      "sourceQuery": "railway company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=railway%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q19114836",
+      "label": "Railway Company v. Philadelphia",
+      "description": "United States Supreme Court case",
+      "sourceQuery": "railway company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=railway%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q19114838",
+      "label": "Railway Company v. Renwick",
+      "description": "United States Supreme Court case",
+      "sourceQuery": "railway company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=railway%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q194533",
+      "label": "National Museum in Poznań",
+      "description": "art museum in Poland, town of Poznan",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q195311",
+      "label": "National Museum in Kraków",
+      "description": "museum in Krakow, Poland",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1954370",
+      "label": "Museu Nacional de Belas Artes",
+      "description": "national art museum in the city of Rio de Janeiro, Brazil",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1967405",
+      "label": "National Institute of Mental Health",
+      "description": "mental health research organization in the United States",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1967472",
+      "label": "National Museum of Ghana",
+      "description": "material cultural heritage site in Ghana",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1967496",
+      "label": "National Museum of Australia",
+      "description": "museum in Canberra, Australia",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q1974562",
+      "label": "Technical University of Crete",
+      "description": "University in Greece",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2003976",
+      "label": "Technical University of Valencia",
+      "description": "university in Spain",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2037262",
+      "label": "Lviv National Museum",
+      "description": "art museum in Lviv, Ukraine",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q20399723",
+      "label": "Business School of Sfax",
+      "description": "Higher Education Institution in Sfax",
+      "sourceQuery": "business school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=business%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2046319",
+      "label": "Amgueddfa Cymru – Museum Wales",
+      "description": "network of national museums in Wales",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q20851411",
+      "label": "National Research Institute for the Protection of Materials",
+      "description": "research institute in Prague, Czech Republic",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q21015811",
+      "label": "Medical Association for Prevention of War",
+      "description": "organization",
+      "sourceQuery": "medical association",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20association&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2104671",
+      "label": "Port Authority of New York and New Jersey Police Department",
+      "description": "law enforcement agency in New York and New Jersey",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q21127330",
+      "label": "Port Authority of the Balearic Islands",
+      "description": "port authority in Spain",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q212459",
+      "label": "National Museum of Ancient Art",
+      "description": "museum in Lisboa, Portugal",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2140369",
+      "label": "Łódź University of Technology",
+      "description": "university of technology in Łódź, Poland",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q21404544",
+      "label": "Medical School of Maine",
+      "description": "defunct medical school of Bowdoin College",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2144353",
+      "label": "Pension Fund of the Russian Federation",
+      "description": "overview about the Pension Fund of the Russian Federation",
+      "sourceQuery": "pension fund",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pension%20fund&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q22087027",
+      "label": "Manchester Stock Exchange",
+      "description": "hotel (formerly a stock exchange) in Manchester, Greater Manchester, England, UK",
+      "sourceQuery": "stock exchange",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=stock%20exchange&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2265496",
+      "label": "Dopravný podnik mesta Košice",
+      "description": "public transport company in Košice, Slovakia",
+      "sourceQuery": "transport company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=transport%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q22677355",
+      "label": "Stock Exchange Palace in Budapest",
+      "description": "palace in Budapest District V, Hungary",
+      "sourceQuery": "stock exchange",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=stock%20exchange&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q22692201",
+      "label": "Chamber of Commerce and Trade, Prague",
+      "description": "business organization based in Prague",
+      "sourceQuery": "chamber of commerce",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=chamber%20of%20commerce&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2303775",
+      "label": "Technical University of Sofia",
+      "description": "higher school in Sofia, Bulgaria",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q23048689",
+      "label": "DTU Compute",
+      "description": "department within the Technical University of Denmark",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2307805",
+      "label": "Savings Banks Association Baden-Württemberg",
+      "description": "umbrella organization of savings banks in Baden-Württemberg, Germany",
+      "sourceQuery": "savings bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=savings%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2307808",
+      "label": "Savings Banks Association Rhineland-Palatinate",
+      "description": "umbrella organization of savings banks in Rhineland-Palatinate, Germany",
+      "sourceQuery": "savings bank",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=savings%20bank&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2350561",
+      "label": "Stock Exchange Tower",
+      "description": "located in London",
+      "sourceQuery": "stock exchange",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=stock%20exchange&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2359078",
+      "label": "Stichting Pensioenfonds Zorg en Welzijn",
+      "description": "nonprofit organization in Zeist, Netherlands",
+      "sourceQuery": "pension fund",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pension%20fund&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q23722597",
+      "label": "Arts Council of Greater Montreal",
+      "description": "art preservation group in Canada",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2399361",
+      "label": "Technical University of Varna",
+      "description": "Università tecnica di Varna",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2415947",
+      "label": "SEAQ",
+      "description": "system for trading small-cap London Stock Exchange stocks",
+      "sourceQuery": "stock exchange",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=stock%20exchange&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q24197345",
+      "label": "Medical Association of Georgia",
+      "description": "medical association in the U.S. state of Georgia",
+      "sourceQuery": "medical association",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20association&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q24236074",
+      "label": "Medical Association of Jamaica",
+      "description": "Jamaican medical organization",
+      "sourceQuery": "medical association",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20association&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2424258",
+      "label": "Gas Company Tower",
+      "description": "52-story, 228.3 m (749 ft) class-A office skyscraper on Bunker Hill in downtown Los Angeles, California",
+      "sourceQuery": "gas company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=gas%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2496153",
+      "label": "University of Ruse",
+      "description": "public university",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2496357",
+      "label": "TU Wien Bibliothek",
+      "description": "TU Wien University Library",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q25100610",
+      "label": "Medical Association of Malta",
+      "description": "or MAM, in Valletta, Malta",
+      "sourceQuery": "medical association",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20association&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q25425588",
+      "label": "Masih Daneshvari Hospital",
+      "description": "hospital in Tehran, Iran",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2585886",
+      "label": "National Museum of Archeology, History and Art",
+      "description": "museum in Luxembourg City, Luxembourg",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q25864",
+      "label": "Technical University of Madrid",
+      "description": "university in Spain",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q26350812",
+      "label": "Medical School St Bartholomew's Hospital",
+      "description": "City of London, Greater London, EC1A",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2696834",
+      "label": "Arts Council Norway Honorary Award",
+      "description": "Annual Norwegian arts award",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q273263",
+      "label": "RWTH Aachen University",
+      "description": "university in Aachen, Germany",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2745620",
+      "label": "National Museum of Contemporary Art - Chiado Museum",
+      "description": "art museum in Lisbon, Portugal",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q27517541",
+      "label": "National Institute of Statistics of Rwanda",
+      "description": "Rwanda's principal government institution in charge of statistics and census data",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q2756611",
+      "label": "National Museum (Yangon)",
+      "description": "One of the National Museums in Myanmar",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q27712242",
+      "label": "National Institute of Animal Health Quarterly",
+      "description": "scientific journal",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q28082518",
+      "label": "Medical School \"Dr Andra Jovanović\" Šabac",
+      "description": "high school in Šabac",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q28207069",
+      "label": "Arts Council of Princeton",
+      "description": "non-profit organization based in Princeton, New Jersey, US",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q28911925",
+      "label": "Pension fund capitalism in Europe: institutional organisation and governance of Finnish pension insurance companies",
+      "description": "doctoral thesis by Ville-Pekka Sorsa",
+      "sourceQuery": "pension fund",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pension%20fund&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q29220409",
+      "label": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "description": "institute of the National Institutes of Health in the United States",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q29896834",
+      "label": "Spanish Chamber of Commerce",
+      "description": "Spanish public law corporation",
+      "sourceQuery": "chamber of commerce",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=chamber%20of%20commerce&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q30229603",
+      "label": "26 Piastowska Street in Prudnik",
+      "description": "school in Prudnik, Poland",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q30263322",
+      "label": "N.A. Semashko National Research Institute of Public Health",
+      "description": "facility in Moscow, Russia",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q30266256",
+      "label": "National Research Institute of Fire and Disaster",
+      "description": "facility in Tokyo, Japan",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q30291816",
+      "label": "Science Foundation Arizona",
+      "description": "nonprofit organization in Phoenix, United States",
+      "sourceQuery": "science foundation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=science%20foundation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q30293501",
+      "label": "Somogy County Kaposi Mór Teaching Hospital",
+      "description": "healthcare organization in Kaposvár, Hungary",
+      "sourceQuery": "teaching hospital",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=teaching%20hospital&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q30673708",
+      "label": "Jerusalem School of Business Administration",
+      "description": "Israeli business school",
+      "sourceQuery": "business school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=business%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q30684070",
+      "label": "Workers Union",
+      "description": "composition by Louis Andriessen",
+      "sourceQuery": "workers union",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=workers%20union&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3073495",
+      "label": "National Museum of African American History and Culture",
+      "description": "museum in Washington, D.C., a division of the Smithsonian Institution",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q30753863",
+      "label": "Oran medicine faculty",
+      "description": "founded in 1967 the medicine faculty took place in the University Hospital Center",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q310695",
+      "label": "Technical University of Darmstadt",
+      "description": "German university (1877-)",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3152425",
+      "label": "IRSTEA",
+      "description": "former French national institute",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3152447",
+      "label": "INSEP",
+      "description": "French training institute and center for excellence in sports that trains elite athletes",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3152854",
+      "label": "Instituto Nacional de Estadística y Censos",
+      "description": "Costa Rica's principal government institution in charge of statistics and census data",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3297795",
+      "label": "Tokyo National Research Institute for Cultural Properties",
+      "description": "Japanese cultural research institute",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3330688",
+      "label": "National Museum of History",
+      "description": "museum in Taipei, Taiwan",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3345334",
+      "label": "Technical University of Nova Scotia",
+      "description": "Canadian university",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3400795",
+      "label": "Arts Council England",
+      "description": "arts organization in London, England",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q344334",
+      "label": "Istanbul Technical University",
+      "description": "state university in İstanbul, Turkey",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3475731",
+      "label": "Science Foundation Ireland",
+      "description": "statutory research funding body",
+      "sourceQuery": "science foundation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=science%20foundation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3519875",
+      "label": "National Institute of Allergy and Infectious Diseases",
+      "description": "US research institute for the treatment and prevention of infectious diseases",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3547208",
+      "label": "Credit Union 1 Arena",
+      "description": "multi-purpose arena",
+      "sourceQuery": "credit union",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=credit%20union&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3578441",
+      "label": "Business School of Tunis",
+      "description": "academic institution in Tunisia",
+      "sourceQuery": "business school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=business%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3595268",
+      "label": "National Institute of Mental Health and Neurosciences",
+      "description": "mental hospital in Bangalore, India",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3718633",
+      "label": "International Agency for the Prevention of Blindness",
+      "description": "global alliance of eye health organisations",
+      "sourceQuery": "international agency",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20agency&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q3815182",
+      "label": "Stock Exchange Luncheon Club",
+      "description": "former dining club at the New York Stock Exchange",
+      "sourceQuery": "stock exchange",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=stock%20exchange&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q390551",
+      "label": "United States National Institutes of Health",
+      "description": "US government medical research agency",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q39080113",
+      "label": "Medical Association in the State of Baden-Württemberg, Germany",
+      "description": "organisation of medical self-administration in the state of Baden-Württemberg, Germany",
+      "sourceQuery": "medical association",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20association&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4120165",
+      "label": "Perelman School of Medicine at the University of Pennsylvania",
+      "description": "medical school in Philadelphia, Pennsylvania, United States",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4127506",
+      "label": "National Research Institute for Veterinary Virology and Microbiology of Russia",
+      "description": "research institute in Petushki, Russia",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4351979",
+      "label": "Stock Exchange of Singapore",
+      "description": "national Stock Exchange of Singapore",
+      "sourceQuery": "stock exchange",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=stock%20exchange&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4354957",
+      "label": "National Institute for Health and Welfare",
+      "description": "governmental research and expert institute in Finland",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q44504053",
+      "label": "Chamber of Commerce of the Philippine Islands",
+      "description": "chamber of commerce in the Philippines",
+      "sourceQuery": "chamber of commerce",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=chamber%20of%20commerce&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4491712",
+      "label": "Bolsa De Valores De Nicaragua",
+      "description": "Stock exchange located in Managua, Nicaragua",
+      "sourceQuery": "stock exchange",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=stock%20exchange&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4491713",
+      "label": "Stock Exchange Of Mauritius Ltd",
+      "description": "stock exchange in Port Louis, Mauritius",
+      "sourceQuery": "stock exchange",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=stock%20exchange&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4502943",
+      "label": "National Research Institute Electron",
+      "description": "facility, research institute in Saint Petersburg, Russia",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q463281",
+      "label": "American Academy of Arts and Letters",
+      "description": "honor society",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q47516741",
+      "label": "Port Authority of Cartagena",
+      "description": "Spanish government agency",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q47517207",
+      "label": "Port Authority of Marín and Ría de Pontevedra",
+      "description": "Governmental organisation in Spain",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4801449",
+      "label": "Arts Council of Northern Ireland",
+      "description": "UK government agency",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4801450",
+      "label": "Arts Council Norway",
+      "description": "arts council for Norway",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4801451",
+      "label": "Arts Council of Ireland",
+      "description": "Irish government agency",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4801453",
+      "label": "Arts Council of Placer County",
+      "description": "Public organization in California, United States",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4801456",
+      "label": "Arts Council of Wayne County",
+      "description": "arts council in Goldsboro, North Carolina, USA",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4801458",
+      "label": "Arts Council of Wales",
+      "description": "Welsh Government sponsored body",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4823749",
+      "label": "Karadeniz Technical University",
+      "description": "state university in Trabzon, Turkey",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4836610",
+      "label": "Business School Lausanne",
+      "description": "Private business school in Lausanne, Switzerland",
+      "sourceQuery": "business school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=business%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4853179",
+      "label": "National Institute for Materials Science",
+      "description": "research institute in Japan",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q48803426",
+      "label": "AMCO",
+      "description": "Italian financial company",
+      "sourceQuery": "asset management company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=asset%20management%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q4925669",
+      "label": "Port Authority of Thailand",
+      "description": "government agency of Thailand",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q493294",
+      "label": "Technical University of Civil Engineering of Bucharest",
+      "description": "university in Bucharest, Romania",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q496672",
+      "label": "Hong Kong Stock Exchange",
+      "description": "stock exchange based in Hong Kong, operating under Hong Kong’s distinct regulatory framework, which allows greater access to foreign investors",
+      "sourceQuery": "stock exchange",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=stock%20exchange&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q5069533",
+      "label": "Chamber of Commerce and Industry of the Republic of Abkhazia",
+      "description": "Commerce organization in Abkhazia",
+      "sourceQuery": "chamber of commerce",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=chamber%20of%20commerce&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q5069535",
+      "label": "Chamber of Commerce of the State of New York",
+      "description": "Chamber of Commerce in New York City",
+      "sourceQuery": "chamber of commerce",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=chamber%20of%20commerce&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q5183529",
+      "label": "Creative New Zealand",
+      "description": "New Zealand government agency",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q5193193",
+      "label": "Cultural Arts Council of Sonoma County",
+      "description": "defunct American non-profit",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q51985",
+      "label": "Technische Universität Berlin",
+      "description": "public research university in Berlin, Germany",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q52217867",
+      "label": "Science Foundation Ireland open access policy",
+      "description": "policy effective from 2009",
+      "sourceQuery": "science foundation",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=science%20foundation&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q52607655",
+      "label": "Medical Association of Zenica-Doboj Canton",
+      "description": "Academic publisher based in Bosnia and Herzegovina",
+      "sourceQuery": "medical association",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20association&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q5357574",
+      "label": "Electric company",
+      "description": "Wikimedia disambiguation page",
+      "sourceQuery": "electricity company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=electricity%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q5409765",
+      "label": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+      "description": "human development research institute of the U.S. National Institutes of Health",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q54166",
+      "label": "TH Köln – University of Applied Sciences",
+      "description": "higher education institution in Cologne, Germany",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q542145",
+      "label": "AirTrain Newark",
+      "description": "monorail system connecting Newark Liberty International Airport",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q5478709",
+      "label": "Instituto Nacional de Estadística",
+      "description": "Venezuela's principal government institution in charge of statistics and census data",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q55113752",
+      "label": "National Museum of Unity, Ibadan",
+      "description": "Museum in Ibadan, Nigeria",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q552168",
+      "label": "International Agency for Research on Cancer",
+      "description": "international cancer organization of the World Health Organization",
+      "sourceQuery": "international agency",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=international%20agency&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q55216922",
+      "label": "Social Protection Fund",
+      "description": "institution of the Ministry of Labor & Social Protection of the Population of Belarus",
+      "sourceQuery": "pension fund",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=pension%20fund&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q56441760",
+      "label": "National Museum of Brazil fire",
+      "description": "2018 museum fire at Rio de Janeiro",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q5712779",
+      "label": "Port authority (Spain)",
+      "description": "Spanish Port authority",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q5712785",
+      "label": "Port Authority of Las Palmas",
+      "description": "port authority in Spain",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q58548372",
+      "label": "Insurance Company use of ACL for Windows",
+      "description": "scholarly article in EDPACS: the EDP audit, control and security newsletter, vol. 24 no. 2, August 1996",
+      "sourceQuery": "insurance company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=insurance%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q594282",
+      "label": "National Research Institute of Astronomy and Geophysics",
+      "description": "research institute in Helwan, Egypt",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q59616663",
+      "label": "Cultural Organization Chorika - Evdomo Theatro",
+      "description": "Greek theater company",
+      "sourceQuery": "cultural organization",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=cultural%20organization&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q59746",
+      "label": "Arts Council of Great Britain",
+      "description": "UK official body to support the arts",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q60346",
+      "label": "National Institute for Occupational Safety and Health",
+      "description": "United States government research agency for preventing work-related health and safety problems",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6041414",
+      "label": "National Institute of Health Dr. Ricardo Jorge",
+      "description": "research institute in Lisbon, Portugal",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6052078",
+      "label": "Chamber of Commerce of Northern Cyprus",
+      "description": "organization",
+      "sourceQuery": "chamber of commerce",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=chamber%20of%20commerce&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6060779",
+      "label": "Investment Company Institute",
+      "description": "organization",
+      "sourceQuery": "investment company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=investment%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q60742921",
+      "label": "Port Authority of New South Wales",
+      "description": "Port Authority in New South Wales, Australia",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q60991052",
+      "label": "Professional Institute of International Fashion",
+      "description": "professional and vocational university in Shinjuku Ward, Tōkyō Metropolis, Japan",
+      "sourceQuery": "professional institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q61362175",
+      "label": "Medical school Zrenjanin",
+      "description": "secondary school in Zrenjanin, Serbia",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6156635",
+      "label": "Universidad Politécnica de Cartagena",
+      "description": "Technical school in Spain",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q61906586",
+      "label": "Port Authority Police Department",
+      "description": "Wikimedia disambiguation page",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q61931255",
+      "label": "Erie Arts and Culture",
+      "description": "nonprofit organization in Erie, United States",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q637084",
+      "label": "Technical University in Zvolen",
+      "description": "university in Slovakia",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q64158602",
+      "label": "Port Authority, 17th August 2010, 11:01:33 a.m.",
+      "description": "photograph in the National Gallery of Art (NGA 176195)",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q648166",
+      "label": "National Museum of Denmark",
+      "description": "Denmark’s largest museum of cultural history",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q65666130",
+      "label": "Chamber of Commerce and Factories",
+      "description": "Surinamese chamber of commerce",
+      "sourceQuery": "chamber of commerce",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=chamber%20of%20commerce&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q65975778",
+      "label": "Oil Company Files (NAID 561136)",
+      "description": "series in the National Archives and Records Administration's holdings",
+      "sourceQuery": "oil company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=oil%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q674568",
+      "label": "Technical University of Leoben",
+      "description": "Austrian university of technology",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q67604452",
+      "label": "Port Authority Trans-Hudson Corporation, Petitioner v. Patrick Feeney [Case 89-386] / United States, Petitioners v. Marsha B. Kokinda, et al. [Case 88-2031] / Minnesota, Petitioner v. Robert Darren Olson [Case 88-1916] / Eli Lilly (NAID 118974881)",
+      "description": "item in the National Archives and Records Administration's holdings",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q67618322",
+      "label": "UNITED NATIONS AGENCY, IRAQ AND LAND REFORM (NAID 124436)",
+      "description": "item in the National Archives and Records Administration's holdings",
+      "sourceQuery": "United Nations agency",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=United%20Nations%20agency&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q678965",
+      "label": "University of Kaiserslautern",
+      "description": "German research university",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6806419",
+      "label": "Medical School SOU Jane Sandanski – Štip",
+      "description": "public secondary school in Štip, North Macedonia",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q685557",
+      "label": "Technical University of Dortmund",
+      "description": "university in Dortmund",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q686171",
+      "label": "Technical University of Applied Sciences Wildau",
+      "description": "Largest University of Applied Sciences in Brandenburg, Germany",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q689400",
+      "label": "TU Wien",
+      "description": "university of technology in Vienna, Austria",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6973576",
+      "label": "National Institute for Health and Care Research",
+      "description": "research organisation in health and care in the United Kingdom",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6973578",
+      "label": "National Institute for Environmental Studies",
+      "description": "administrative agency in Japan",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6973743",
+      "label": "National Institute of Technology, Rourkela",
+      "description": "Engineering college",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6973751",
+      "label": "National Institute on Drug Abuse",
+      "description": "branch of the National Institutes of Health in the United States",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6974489",
+      "label": "National Museum of Natural History, Luxembourg",
+      "description": "natural history museum in Luxembourg City, Luxembourg",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q6978056",
+      "label": "National Research Institute for Panchakarma",
+      "description": "organization",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q70571774",
+      "label": "National Research Institute for Agriculture, Food and the Environment",
+      "description": "French public research institute",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q7140419",
+      "label": "Investment Company for Flanders",
+      "description": "independent economic organisation",
+      "sourceQuery": "investment company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=investment%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q7230499",
+      "label": "Port Authority of Jamaica",
+      "description": "organization",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q7230500",
+      "label": "Pittsburgh Regional Transit",
+      "description": "public transit agency in Pennsylvania, USA",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q7247990",
+      "label": "Professional Institute of the Public Service of Canada",
+      "description": "Trade union",
+      "sourceQuery": "professional institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q7247992",
+      "label": "Professional Institute of the Public Service of Canada v. Northwest Territories",
+      "description": "Supreme Court of Canada decision",
+      "sourceQuery": "professional institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q729296",
+      "label": "Technical University of Cluj-Napoca",
+      "description": "university in Cluj-Napoca, Romania",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q729786",
+      "label": "University of Miskolc",
+      "description": "university in Hungary",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q7308999",
+      "label": "Regional Arts Australia",
+      "description": "organization",
+      "sourceQuery": "arts council",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=arts%20council&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q734324",
+      "label": "TU Braunschweig",
+      "description": "university in Germany",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q74553265",
+      "label": "Medical Association of Pharmacopuncture Institute",
+      "description": "organisation involved in scholarly research",
+      "sourceQuery": "medical association",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20association&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q74555676",
+      "label": "National Research Institute, Institute of Plant Protection",
+      "description": "organisation involved in scholarly research",
+      "sourceQuery": "national research institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20research%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q752663",
+      "label": "Delft University of Technology",
+      "description": "Dutch university",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q7580540",
+      "label": "Spring Grove Hospital Center",
+      "description": "psychiatric hospital in Catonsville, Maryland, United States",
+      "sourceQuery": "public hospital",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=public%20hospital&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q7617862",
+      "label": "Stock Exchange Rifle Club",
+      "description": "target sports club in the UK",
+      "sourceQuery": "stock exchange",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=stock%20exchange&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q7676308",
+      "label": "Taipei National University of the Arts",
+      "description": "university in Taipei, Taiwan",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q7691278",
+      "label": "Teaching Hospital, Kandy",
+      "description": "hospital in Sri Lanka",
+      "sourceQuery": "teaching hospital",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=teaching%20hospital&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q7692311",
+      "label": "Technical University of Kenya",
+      "description": "public university in Nairobi, Kenya",
+      "sourceQuery": "technical university",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=technical%20university&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q782765",
+      "label": "Australian Workers' Union",
+      "description": "trade union in Australia",
+      "sourceQuery": "workers union",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=workers%20union&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q7896584",
+      "label": "University of Washington School of Medicine",
+      "description": "medical school",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q795074",
+      "label": "Instituto Nacional de Estadística y Geografía",
+      "description": "Mexico's principal government institution in charge of statistics and census data",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q83644605",
+      "label": "Port Authority of Melilla",
+      "description": "official port authority of Melilla, Spain",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q842858",
+      "label": "Nationalmuseum",
+      "description": "art museum in Stockholm, Sweden",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q845937",
+      "label": "National Statistics Institute",
+      "description": "Spain's principal government institution in charge of statistics and census data",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q84761133",
+      "label": "Carinthian Chamber of Commerce",
+      "description": "Part of the organization of the Austrian Federal Economic Chamber (WKÖ)",
+      "sourceQuery": "chamber of commerce",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=chamber%20of%20commerce&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q858979",
+      "label": "Institut national des sciences appliquées de Toulouse",
+      "description": "French engineering school",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q86724768",
+      "label": "Professional institute Pietro Coppo",
+      "description": "school in Izola",
+      "sourceQuery": "professional institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=professional%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q871588",
+      "label": "Chamber of Commerce and Industry of the Russian Federation",
+      "description": "Russian non-governmental organization",
+      "sourceQuery": "chamber of commerce",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=chamber%20of%20commerce&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q87643749",
+      "label": "Innovation and Digital Development Agency",
+      "description": "government agency in Baku",
+      "sourceQuery": "innovation agency",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=innovation%20agency&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q87949515",
+      "label": "Eunice Kennedy Shriver National Institute of Child Health and Human Development Maternal-Fetal Medicine Units Network",
+      "description": "research consortium",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q8960713",
+      "label": "Deusto Business School (San Sebastián)",
+      "description": "Business School in San Sebastian, Spain",
+      "sourceQuery": "business school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=business%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q89783264",
+      "label": "Imperial College Business School",
+      "description": "business school building on Exhibition Road",
+      "sourceQuery": "business school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=business%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q904687",
+      "label": "Instituto Nacional de Matemática Pura e Aplicada",
+      "description": "Brazil's National Institute for Pure and Applied Mathematics",
+      "sourceQuery": "national institute",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20institute&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q908666",
+      "label": "Port Authority of New York and New Jersey",
+      "description": "transportation facility agency around New York City & New Jersey",
+      "sourceQuery": "port authority",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=port%20authority&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q92303721",
+      "label": "Business School Trust Faculty Scholar",
+      "description": "endowed academic position at Stanford University",
+      "sourceQuery": "business school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=business%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q97159808",
+      "label": "Medical School, UCAS",
+      "description": "medical school in Beijing, China",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q97202545",
+      "label": "Medical school  „Nadezda Petrovic”",
+      "description": "High school in Belgrade",
+      "sourceQuery": "medical school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=medical%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q9790126",
+      "label": "Electricity Company of the State of Bahia",
+      "description": "company in Salvador, Brazil",
+      "sourceQuery": "electricity company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=electricity%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q9831288",
+      "label": "Equatorial Energia Amapá",
+      "description": "company in Macapá, Brazil",
+      "sourceQuery": "electricity company",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=electricity%20company&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q98399568",
+      "label": "Business School Paramaribo",
+      "description": "Surinamese college",
+      "sourceQuery": "business school",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=business%20school&language=en&format=json&limit=50"
+    },
+    {
+      "id": "Q99349995",
+      "label": "National Museum Paleis het Loo",
+      "description": "museum in former royal palace in Apeldoorn, Netherlands",
+      "sourceQuery": "national museum",
+      "sourceUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=national%20museum&language=en&format=json&limit=50"
     }
   ]
 }
