@@ -100,23 +100,7 @@ jobs:
           echo "GEONAMES_FILE=$GEONAMES_FILE" >> "$GITHUB_ENV"
 
       - name: Check taxonomy builder JavaScript syntax
-        run: |
-          npm install --no-save --package-lock=false --ignore-scripts typescript
-          node - <<'JS'
-          const fs = require('node:fs');
-          const ts = require('typescript');
-          const filename = 'scripts/build-six-taxonomy-datasets.js';
-          const source = fs.readFileSync(filename, 'utf8');
-          const parsed = ts.createSourceFile(filename, source, ts.ScriptTarget.Latest, true, ts.ScriptKind.JS);
-          if (parsed.parseDiagnostics.length) {
-            for (const diagnostic of parsed.parseDiagnostics) {
-              const position = parsed.getLineAndCharacterOfPosition(diagnostic.start || 0);
-              console.error(filename + ':' + (position.line + 1) + ':' + (position.character + 1) + ' ' + ts.flattenDiagnosticMessageText(diagnostic.messageText, '\\n'));
-            }
-            process.exit(1);
-          }
-          console.log('JavaScript syntax is valid.');
-          JS
+        run: npx --yes --package=acorn acorn --ecma2022 --locations --silent scripts/build-six-taxonomy-datasets.js
 
       - name: Build the SEO entity catalog
         run: |
