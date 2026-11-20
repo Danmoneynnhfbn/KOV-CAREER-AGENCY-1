@@ -1,18 +1,162 @@
 {
-  "source": "ISO 639 language names/codes; site language widget source language and configured translation targets are documented separately",
+  "source": "ISO 639 language names/codes; language set uses the 28-language ESCO coverage list plus Chinese and Yoruba as additional ISO 639-1 references.",
   "sourceUrls": [
-    "https://www.iso.org/standard/74575.html",
-    "https://www.loc.gov/standards/iso639-2/"
+    "https://www.iso.org/iso-639-language-code",
+    "https://esco.ec.europa.eu/en/use-esco",
+    "https://esco.ec.europa.eu/en/use-esco/download"
   ],
-  "siteConfiguration": "assets/google-translate.js: pageLanguage is en; the widget loads Google Translate without an includedLanguages target allowlist",
-  "selectionNote": "Seven user-targeted language records already proposed in the project were retained after checking their language names and codes against ISO references. They are a seven-record reference subset; this dataset does not assert Google Translate target availability or that the widget supports only these languages.",
+  "selectionNote": "Thirty language records selected for the KOV professional reference directory. Twenty-eight are among ESCO's published language coverage (Bulgarian, Spanish, Czech, Danish, German, Estonian, Greek, English, French, Irish, Croatian, Italian, Latvian, Lithuanian, Hungarian, Maltese, Dutch, Polish, Portuguese, Romanian, Slovak, Slovenian, Finnish, Swedish, Icelandic, Norwegian, Arabic and Ukrainian). Chinese and Yoruba are additional ISO 639-1 language references. This is a reference list; it does not assert that every page, translation, or service is available in all languages.",
+  "targetCount": 30,
   "records": [
-    { "code": "en", "name": "English", "siteCode": "en" },
-    { "code": "fr", "name": "French", "siteCode": "fr" },
-    { "code": "es", "name": "Spanish", "siteCode": "es" },
-    { "code": "de", "name": "German", "siteCode": "de" },
-    { "code": "pt", "name": "Portuguese", "siteCode": "pt" },
-    { "code": "ar", "name": "Arabic", "siteCode": "ar" },
-    { "code": "zh", "name": "Chinese", "siteCode": "zh-CN|zh-TW" }
+    {
+      "code": "bg",
+      "name": "Bulgarian",
+      "siteCode": "bg"
+    },
+    {
+      "code": "es",
+      "name": "Spanish",
+      "siteCode": "es"
+    },
+    {
+      "code": "cs",
+      "name": "Czech",
+      "siteCode": "cs"
+    },
+    {
+      "code": "da",
+      "name": "Danish",
+      "siteCode": "da"
+    },
+    {
+      "code": "de",
+      "name": "German",
+      "siteCode": "de"
+    },
+    {
+      "code": "et",
+      "name": "Estonian",
+      "siteCode": "et"
+    },
+    {
+      "code": "el",
+      "name": "Greek",
+      "siteCode": "el"
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "siteCode": "en"
+    },
+    {
+      "code": "fr",
+      "name": "French",
+      "siteCode": "fr"
+    },
+    {
+      "code": "ga",
+      "name": "Irish",
+      "siteCode": "ga"
+    },
+    {
+      "code": "hr",
+      "name": "Croatian",
+      "siteCode": "hr"
+    },
+    {
+      "code": "it",
+      "name": "Italian",
+      "siteCode": "it"
+    },
+    {
+      "code": "lv",
+      "name": "Latvian",
+      "siteCode": "lv"
+    },
+    {
+      "code": "lt",
+      "name": "Lithuanian",
+      "siteCode": "lt"
+    },
+    {
+      "code": "hu",
+      "name": "Hungarian",
+      "siteCode": "hu"
+    },
+    {
+      "code": "mt",
+      "name": "Maltese",
+      "siteCode": "mt"
+    },
+    {
+      "code": "nl",
+      "name": "Dutch",
+      "siteCode": "nl"
+    },
+    {
+      "code": "pl",
+      "name": "Polish",
+      "siteCode": "pl"
+    },
+    {
+      "code": "pt",
+      "name": "Portuguese",
+      "siteCode": "pt"
+    },
+    {
+      "code": "ro",
+      "name": "Romanian",
+      "siteCode": "ro"
+    },
+    {
+      "code": "sk",
+      "name": "Slovak",
+      "siteCode": "sk"
+    },
+    {
+      "code": "sl",
+      "name": "Slovenian",
+      "siteCode": "sl"
+    },
+    {
+      "code": "fi",
+      "name": "Finnish",
+      "siteCode": "fi"
+    },
+    {
+      "code": "sv",
+      "name": "Swedish",
+      "siteCode": "sv"
+    },
+    {
+      "code": "is",
+      "name": "Icelandic",
+      "siteCode": "is"
+    },
+    {
+      "code": "no",
+      "name": "Norwegian",
+      "siteCode": "no"
+    },
+    {
+      "code": "ar",
+      "name": "Arabic",
+      "siteCode": "ar"
+    },
+    {
+      "code": "uk",
+      "name": "Ukrainian",
+      "siteCode": "uk"
+    },
+    {
+      "code": "zh",
+      "name": "Chinese",
+      "siteCode": "zh-CN|zh-TW"
+    },
+    {
+      "code": "yo",
+      "name": "Yoruba",
+      "siteCode": "yo"
+    }
   ]
 }
