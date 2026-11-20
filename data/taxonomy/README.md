@@ -101,3 +101,20 @@ The former `assets/expanded-taxonomy.js` generated combinations and numbered rec
 | Organizations and institutions | 832 | Wikidata English-language entity selection, identified by QID. The source includes organizations as well as institutions and is not described as an education-only list. |
 
 The snapshot contains 70,438 unique source-backed entries across these directories. Natural identity is category-aware: qualification titles can repeat under different official numbers; organizations can share a name; and an alternative label may identify distinct ESCO concepts. `scripts/build-discovery-structured-data.js` now links to the verified JSON distribution and reports actual record counts. The job-function and search-intent targets remain short by 81 and 4,129 records respectively; the remaining source evidence does not support additional unique records without relabeling or padding.
+
+## Additive taxonomy updates (2026-11-20)
+
+The original source records were preserved. The following append-only additions are now present in the source inputs:
+
+| Directory | Source records after additions | Approved target | Status |
+|---|---:|---:|---|
+| Languages | 30 | 30 | Seven original records retained; 23 ISO 639-1 language records appended in `languages.json`. |
+| Professional synonyms and related terms | 50,000 after the verified snapshot is rebuilt | 50,000 | One additional German ESCO occupation alternative label appended in `additional-professional-synonyms.json`; the verified taxonomy builder now includes supplemental records. |
+| Job functions | 19 | 100 | 81 additional records remain unverified. No O*NET work activities or occupations have been relabelled as job functions. |
+| Career-search intents | 871 | 5,000 | 4,129 additional records remain unverified. Existing records remain explicitly described as researched/editorial hypotheses, not observed Google Search Console queries. |
+| Organizations and institutions | 832 | 1,300 | 468 additional records remain to be sourced and checked against existing Wikidata QIDs and names. |
+
+The language additions use ISO 639-1 two-letter codes and names; see the existing ISO and Library of Congress source references above. The synonym addition is the German alternative label “Instandhaltungstechniker Flughafen” for ESCO occupation “airport maintenance technician,” concept URI `http://data.europa.eu/esco/occupation/822bbc2d-bc6a-4fb5-afb8-89170120c6d8`. Its source record was retrieved from the ESCO API and checked against the current 50,000 source labels before inclusion.
+
+These are source-input changes. The generated `verified-expanded-taxonomy.json`, compatibility output, and inline homepage JSON-LD have not yet been regenerated from the new source inputs. Therefore, do not treat the new language and synonym counts as already present in the live HTML metadata until the project build and validation are run.
+
