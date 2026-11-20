@@ -171,7 +171,6 @@ function datasetNode({
 
 const geoNamesPath = argument('--geonames');
 const onetDirectory = argument('--onet-directory');
-const wikidataPath = argument('--wikidata');
 const geoNames = geoNamesRecords(geoNamesPath);
 const cityFeatureCodes = new Set([
   'PPLC', 'PPLA', 'PPLA2', 'PPLA3', 'PPLA4', 'PPLA5', 'PPLG',
@@ -239,26 +238,37 @@ if (functions.length < 200) {
   throw new Error(`Expected at least 200 O*NET detailed work activities; found ${functions.length}.`);
 }
 
-const wikidataResults = JSON.parse(fs.readFileSync(wikidataPath, 'utf8'));
-const institutionsById = new Map();
-const institutionNames = new Set();
-for (const record of wikidataResults) {
-  if (!isSpecificOrganization(record)) continue;
-  const key = normalized(record.label);
-  if (institutionsById.has(record.id) || institutionNames.has(key)) continue;
-  institutionsById.set(record.id, record);
-  institutionNames.add(key);
-}
-
-// Preserve every record in the existing source-backed institution set. New
-// records are accepted only when their direct Wikidata instance-of class was
-// checked against the curated organization/institution class allowlist.
-const retainedInstitutionCount = institutionsById.size;
-if (retainedInstitutionCount !== 832) {
+// Preserve the exact organization nodes from the existing published catalog.
+// The stricter current filter applies only to new candidates; historical records
+// are never removed or rewritten during an additive expansion.
+const existingCatalog = JSON.parse(fs.readFileSync(catalogPath, 'utf8'));
+const existingInstitutionNodes = (existingCatalog['@graph'] || []).filter((node) =>
+  node['@type'] === 'Organization' &&
+  typeof node.identifier === 'string' &&
+  typeof node.name === 'string' &&
+  node['@id'] === `${catalogUrl}#organization-${node.identifier.toLocaleLowerCase('en')}`
+);
+if (![832, 1300].includes(existingInstitutionNodes.length)) {
   throw new Error(
-    `Expected the retained source set to contain 832 institutions before additions; found ${retainedInstitutionCount}. Refuse to replace or truncate the retained set.`
+    `Expected the existing catalog to contain the retained 832 organizations or the completed 1,300-record set; found ${existingInstitutionNodes.length}. Refuse to replace or truncate the retained catalog.`
   );
 }
+const institutionsById = new Map();
+const institutionNames = new Set();
+for (const node of existingInstitutionNodes) {
+  const key = normalized(node.name);
+  if (!/^Q\\d+$/.test(node.identifier) || !key || institutionsById.has(node.identifier) || institutionNames.has(key)) {
+    throw new Error(`The retained organization catalog contains an invalid or duplicate record: ${node.identifier} / ${node.name}.`);
+  }
+  institutionsById.set(node.identifier, {
+    id: node.identifier,
+    label: node.name,
+    description: node.description || '',
+    existingNode: node,
+  });
+  institutionNames.add(key);
+}
+const retainedInstitutionCount = existingInstitutionNodes.length;
 const supplementalPath = path.join(
   root, 'data', 'taxonomy', 'additional-organizations-wikidata.json'
 );
@@ -266,7 +276,7 @@ const supplemental = JSON.parse(fs.readFileSync(supplementalPath, 'utf8'));
 const allowedSupplementalClasses = new Set(supplemental.instanceOfAllowlist || []);
 const supplementalRecords = [...(supplemental.records || [])]
   .filter((record) =>
-    /^Q\d+$/.test(record.id || '') &&
+    /^Q\\d+$/.test(record.id || '') &&
     typeof record.label === 'string' &&
     typeof record.description === 'string' &&
     Array.isArray(record.instanceOf) &&
@@ -290,7 +300,7 @@ if (institutionsById.size !== 1300) {
 }
 const institutions = [...institutionsById.values()]
   .sort((left, right) => left.id.localeCompare(right.id, 'en'))
-  .map((record) => ({
+  .map((record) => record.existingNode || ({
     '@type': 'Organization',
     '@id': `${catalogUrl}#organization-${record.id.toLocaleLowerCase('en')}`,
     name: record.label,
