@@ -257,7 +257,7 @@ const institutionsById = new Map();
 const institutionNames = new Set();
 for (const node of existingInstitutionNodes) {
   const key = normalized(node.name);
-  if (!/^Q\\d+$/.test(node.identifier) || !key || institutionsById.has(node.identifier) || institutionNames.has(key)) {
+  if (!/^Q\d+$/.test(node.identifier) || !key || institutionsById.has(node.identifier) || institutionNames.has(key)) {
     throw new Error(`The retained organization catalog contains an invalid or duplicate record: ${node.identifier} / ${node.name}.`);
   }
   institutionsById.set(node.identifier, {
@@ -276,7 +276,7 @@ const supplemental = JSON.parse(fs.readFileSync(supplementalPath, 'utf8'));
 const allowedSupplementalClasses = new Set(supplemental.instanceOfAllowlist || []);
 const supplementalRecords = [...(supplemental.records || [])]
   .filter((record) =>
-    /^Q\\d+$/.test(record.id || '') &&
+    /^Q\d+$/.test(record.id || '') &&
     typeof record.label === 'string' &&
     typeof record.description === 'string' &&
     Array.isArray(record.instanceOf) &&
