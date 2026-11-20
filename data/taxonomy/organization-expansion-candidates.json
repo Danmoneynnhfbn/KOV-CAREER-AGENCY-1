@@ -1,0 +1,831 @@
+{
+  "source": "Wikidata Search API, English-language entity search",
+  "sourceUrl": "https://www.wikidata.org/w/api.php",
+  "selectionMethod": "Candidate entities screened for an English label and description indicating a named organization or educational institution. Generic class terms, people, roles, places, books, articles, buildings, and duplicate QIDs excluded. The existing 832 QIDs in the current KOV dataset were excluded.",
+  "records": [
+    {
+      "qid": "Q503419",
+      "name": "University of Arizona",
+      "description": "public university in Tucson, Arizona, United States",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q503419",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q1364464",
+      "name": "University of Madras",
+      "description": "state public university in Chennai, Tamil Nadu, India",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1364464",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q35794",
+      "name": "University of Cambridge",
+      "description": "collegiate public research university in Cambridge, England, United Kingdom",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q35794",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q7842",
+      "name": "University of Tokyo",
+      "description": "national university in Tokyo, Japan",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q7842",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q2738622",
+      "name": "University of Salford",
+      "description": "public research university in Salford, Greater Manchester",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2738622",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q963530",
+      "name": "University of Stirling",
+      "description": "university in Scotland",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q963530",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q492467",
+      "name": "University of Auckland",
+      "description": "university in Auckland, New Zealand",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q492467",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q174710",
+      "name": "University of California, Los Angeles",
+      "description": "public university in Los Angeles, California, USA",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q174710",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q131252",
+      "name": "University of Chicago",
+      "description": "private university in Chicago, Illinois",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q131252",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q180865",
+      "name": "University of Toronto",
+      "description": "public research university in the Greater Toronto Area of Ontario, Canada",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q180865",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q3056813",
+      "name": "University of Brighton",
+      "description": "university in England, United Kingdom",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q3056813",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q573954",
+      "name": "University of Limerick",
+      "description": "university in Ireland",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q573954",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q49210",
+      "name": "New York University",
+      "description": "private university in New York City",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q49210",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q165980",
+      "name": "University of Vienna",
+      "description": "public university in Vienna, Austria",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q165980",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q186285",
+      "name": "University of Copenhagen",
+      "description": "public research university in Copenhagen, Denmark",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q186285",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q1857773",
+      "name": "University of Lancashire",
+      "description": "University of Lancashire, UK",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1857773",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q432475",
+      "name": "University of Canterbury",
+      "description": "public research university in Christchurch, New Zealand",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q432475",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q747053",
+      "name": "University of Hartford",
+      "description": "university in Connecticut, United States",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q747053",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q152087",
+      "name": "Humboldt-Universität zu Berlin",
+      "description": "public research university in Berlin, Germany",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q152087",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q1201513",
+      "name": "University of Otago",
+      "description": "university in New Zealand",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1201513",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q55044",
+      "name": "LMU Munich",
+      "description": "public university in Munich, Germany",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q55044",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q2002520",
+      "name": "University of the West of England",
+      "description": "university in Bristol, England",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2002520",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q4614",
+      "name": "University of Southern California",
+      "description": "private university in Los Angeles, California, United States",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q4614",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q185246",
+      "name": "Uppsala University",
+      "description": "research university in Uppsala, Sweden",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q185246",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q457281",
+      "name": "University of Illinois Urbana-Champaign",
+      "description": "public research university in Urbana and Champaign, Illinois, United States",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q457281",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q156598",
+      "name": "Leiden University",
+      "description": "public university in the Netherlands",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q156598",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q170027",
+      "name": "University of London",
+      "description": "federal research university in London, England",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q170027",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q28695",
+      "name": "University of Helsinki",
+      "description": "public university in Helsinki, Finland",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q28695",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q15144",
+      "name": "University of Massachusetts Boston",
+      "description": "public university in Boston, Massachusetts",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q15144",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q49213",
+      "name": "University of Texas at Austin",
+      "description": "public university in Austin, Texas, USA",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q49213",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q201492",
+      "name": "McGill University",
+      "description": "English-language public research university in Montreal, Quebec, Canada",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q201492",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q144488",
+      "name": "University of Warsaw",
+      "description": "largest university in Poland",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q144488",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q31519",
+      "name": "Charles University",
+      "description": "oldest and largest university in the Czech Republic",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q31519",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q152838",
+      "name": "University of Göttingen",
+      "description": "university in the city of Göttingen, Germany",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q152838",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q151510",
+      "name": "Heidelberg University",
+      "description": "public research university in Heidelberg, Baden-Württemberg, Germany",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q151510",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q1036763",
+      "name": "University of Chicago Law School",
+      "description": "law school",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1036763",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q152171",
+      "name": "University of Bonn",
+      "description": "public research university located in Bonn, Germany",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q152171",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q219615",
+      "name": "University of Barcelona",
+      "description": "public research university located in Barcelona, Catalonia",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q219615",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q16952",
+      "name": "Peking University",
+      "description": "university in Beijing, China",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q16952",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q209842",
+      "name": "University of Paris",
+      "description": "French university (1896–1970)",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q209842",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q154804",
+      "name": "Leipzig University",
+      "description": "university in Leipzig, Saxony, Germany (1409-)",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q154804",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q503415",
+      "name": "University of Maryland",
+      "description": "public research university in the city of College Park in Prince George's County, Maryland, USA",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q503415",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q486156",
+      "name": "University of Oslo",
+      "description": "Norwegian public research university",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q486156",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q209344",
+      "name": "Sapienza University of Rome",
+      "description": "Italian university founded in Rome in 1303",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q209344",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q835960",
+      "name": "University of São Paulo",
+      "description": "public state university in Brazil",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q835960",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q487556",
+      "name": "University of Sydney",
+      "description": "Australian university founded in 1850",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q487556",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q214341",
+      "name": "University of Amsterdam",
+      "description": "public university in Amsterdam, Netherlands",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q214341",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q153978",
+      "name": "University of Tübingen",
+      "description": "public research university in Tübingen, Germany",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q153978",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q1816202",
+      "name": "University of Wolverhampton",
+      "description": "university in Wolverhampton, United Kingdom",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1816202",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q218506",
+      "name": "Lund University",
+      "description": "university located in the city of Lund in the province of Scania, Sweden",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q218506",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q131262",
+      "name": "University of Bologna",
+      "description": "university in Bologna, Italy",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q131262",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q391028",
+      "name": "University of British Columbia",
+      "description": "public research university in British Columbia, Canada",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q391028",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q319078",
+      "name": "University of Melbourne",
+      "description": "Australian public university located in Melbourne, Victoria, Australia",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q319078",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q206702",
+      "name": "University of Zurich",
+      "description": "public research university in Zurich, Switzerland",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q206702",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q129421",
+      "name": "University of California, Davis",
+      "description": "public university in the Davis, California area; part of the University of California system",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q129421",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q7896217",
+      "name": "URochester Medicine",
+      "description": "The University of Rochester's main medical campus and its network of clinics, providers, and services",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q7896217",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q459506",
+      "name": "University of Bristol",
+      "description": "research university located in Bristol, United Kingdom",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q459506",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q1534573",
+      "name": "University of Staffordshire",
+      "description": "university in Stoke-on-Trent, United Kingdom",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1534573",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q833670",
+      "name": "Katholieke Universiteit Leuven",
+      "description": "University since 1968 with its main campus in Leuven, Belgium",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q833670",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q472316",
+      "name": "University of Nottingham",
+      "description": "public research university in Nottingham, England",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q472316",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q111173358",
+      "name": "ResearchSpace@Auckland",
+      "description": "publisher of data repository at University of Auckland, New Zealand",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q111173358",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q2496094",
+      "name": "University of Dublin",
+      "description": "university located in Dublin, Ireland",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2496094",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q866012",
+      "name": "University of Queensland",
+      "description": "university in Australia",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q866012",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q156725",
+      "name": "University of Hamburg",
+      "description": "university in Hamburg, Germany",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q156725",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q390287",
+      "name": "Eötvös Loránd University",
+      "description": "public research university in Budapest, Hungary",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q390287",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q736674",
+      "name": "University of Colorado Boulder",
+      "description": "public university in Boulder, Colorado, United States, and flagship of the University of Colorado System",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q736674",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q168515",
+      "name": "University of Utah",
+      "description": "public coeducational space-grant research university in Salt Lake City, Utah, United States",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q168515",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q178848",
+      "name": "University of Notre Dame",
+      "description": "Catholic university located in Notre Dame, Indiana, United States",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q178848",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q392189",
+      "name": "Université de Montréal",
+      "description": "university in Montreal, Quebec, Canada",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q392189",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q640694",
+      "name": "University of Alberta",
+      "description": "public research university in Edmonton, Alberta, Canada",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q640694",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q333886",
+      "name": "Georgetown University",
+      "description": "private university in Washington, D.C., United States",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q333886",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q204181",
+      "name": "University of Tartu",
+      "description": "university in Tartu, Estonia",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q204181",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q54096",
+      "name": "University of Cologne",
+      "description": "university in Germany",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q54096",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q1061104",
+      "name": "University of California, San Francisco",
+      "description": "public land-grant research university in San Francisco, California",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1061104",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q149990",
+      "name": "University of Rochester",
+      "description": "private, nonsectarian, research university in Rochester, New York, United States",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q149990",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q193510",
+      "name": "University of Padua",
+      "description": "university in Italy",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q193510",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q154561",
+      "name": "University of Jena",
+      "description": "university located in Jena, Thuringia, Germany",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q154561",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q263064",
+      "name": "University of California, Santa Barbara",
+      "description": "public university near Goleta, California, United States and part of the University of California system",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q263064",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q1816069",
+      "name": "University of Benin",
+      "description": "university in Benin City, Nigeria",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1816069",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q49206",
+      "name": "University of Connecticut",
+      "description": "public research university in Storrs, Connecticut, United States",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q49206",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q761534",
+      "name": "University of Georgia",
+      "description": "public university located in Athens, Georgia, United States",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q761534",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q194223",
+      "name": "University of Buenos Aires",
+      "description": "public research university in Buenos Aires, Argentina",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q194223",
+      "matchedQuery": "university"
+    },
+    {
+      "qid": "Q8348684",
+      "name": "Comparsa",
+      "description": "Each one of the associations that participate in Moors and Christians festivals in Spain",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q8348684",
+      "matchedQuery": "company"
+    },
+    {
+      "qid": "Q110233111",
+      "name": "ASHAS",
+      "description": "Company",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q110233111",
+      "matchedQuery": "company"
+    },
+    {
+      "qid": "Q112304887",
+      "name": "JR Compliance",
+      "description": "company",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q112304887",
+      "matchedQuery": "company"
+    },
+    {
+      "qid": "Q115307494",
+      "name": "BIJOUEBOOK",
+      "description": "company",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q115307494",
+      "matchedQuery": "company"
+    },
+    {
+      "qid": "Q457703",
+      "name": "German Trade Register",
+      "description": "registration authority",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q457703",
+      "matchedQuery": "company"
+    },
+    {
+      "qid": "Q23498691",
+      "name": "Company of Royal Adventurers Trading into Africa",
+      "description": "English mercantile company and slave traders",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q23498691",
+      "matchedQuery": "company"
+    },
+    {
+      "qid": "Q2001966",
+      "name": "Company rule in India",
+      "description": "rule of the British East India Company on the Indian subcontinent (1757–1858)",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2001966",
+      "matchedQuery": "company"
+    },
+    {
+      "qid": "Q27207848",
+      "name": "Dutch Business Register",
+      "description": "official company register in the Netherlands",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q27207848",
+      "matchedQuery": "company"
+    },
+    {
+      "qid": "Q100706048",
+      "name": "Company of Wolves",
+      "description": "British film production company",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q100706048",
+      "matchedQuery": "company"
+    },
+    {
+      "qid": "Q1564383",
+      "name": "Musketeers of the Guard",
+      "description": "elite fighting company in France",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1564383",
+      "matchedQuery": "company"
+    },
+    {
+      "qid": "Q806176",
+      "name": "Bank of Italy",
+      "description": "central bank of Italy",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q806176",
+      "matchedQuery": "bank"
+    },
+    {
+      "qid": "Q666941",
+      "name": "Research Institute of Molecular Pathology",
+      "description": "company",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q666941",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q25522683",
+      "name": "Tuproqshunoslik va agrokimyoviy tadqiqotlar instituti",
+      "description": "Government organization and postgraduate education in Tashkent, Uzbekistan",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q25522683",
+      "matchedQuery": "research institute"
+    },
+    {
+      "qid": "Q9004969",
+      "name": "Hospital del Mar",
+      "description": "public hospital in Barcelona, Spain",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q9004969",
+      "matchedQuery": "hospital"
+    },
+    {
+      "qid": "Q3145371",
+      "name": "Hospital Universitario Virgen del Rocío",
+      "description": "hospital in Seville, Spain",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q3145371",
+      "matchedQuery": "hospital"
+    },
+    {
+      "qid": "Q20102153",
+      "name": "Hospital Universitari Dexeus",
+      "description": "hospital in Barcelona",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q20102153",
+      "matchedQuery": "hospital"
+    },
+    {
+      "qid": "Q2037255",
+      "name": "Hospital de Tavera",
+      "description": "art museum and former hospital in Toledo, Spain",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2037255",
+      "matchedQuery": "hospital"
+    },
+    {
+      "qid": "Q5902957",
+      "name": "Hospital Universitario Príncipe de Asturias",
+      "description": "hospital in Spain",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q5902957",
+      "matchedQuery": "hospital"
+    },
+    {
+      "qid": "Q9004870",
+      "name": "Hospital Clínic Universitari de València",
+      "description": "hospital in València",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q9004870",
+      "matchedQuery": "hospital"
+    },
+    {
+      "qid": "Q2371388",
+      "name": "Hospital Clinic of Barcelona",
+      "description": "hospital in Spain",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2371388",
+      "matchedQuery": "hospital"
+    },
+    {
+      "qid": "Q1630431",
+      "name": "HCA Healthcare",
+      "description": "American healthcare facilities company",
+      "source": "Wikidata Search API (English)",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1630431",
+      "matchedQuery": "hospital"
+    }
+  ]
+}
