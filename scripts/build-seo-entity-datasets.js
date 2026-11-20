@@ -246,6 +246,45 @@ for (const record of wikidataResults) {
   institutionsById.set(record.id, record);
   institutionNames.add(key);
 }
+
+// Preserve every record in the existing source-backed institution set. New
+// records are accepted only when their direct Wikidata instance-of class was
+// checked against the curated organization/institution class allowlist.
+const retainedInstitutionCount = institutionsById.size;
+if (retainedInstitutionCount !== 832) {
+  throw new Error(
+    `Expected the retained source set to contain 832 institutions before additions; found ${retainedInstitutionCount}. Refuse to replace or truncate the retained set.`
+  );
+}
+const supplementalPath = path.join(
+  root, 'data', 'taxonomy', 'additional-organizations-wikidata.json'
+);
+const supplemental = JSON.parse(fs.readFileSync(supplementalPath, 'utf8'));
+const allowedSupplementalClasses = new Set(supplemental.instanceOfAllowlist || []);
+const supplementalRecords = [...(supplemental.records || [])]
+  .filter((record) =>
+    /^Q\\d+$/.test(record.id || '') &&
+    typeof record.label === 'string' &&
+    typeof record.description === 'string' &&
+    Array.isArray(record.instanceOf) &&
+    record.instanceOf.some((className) => allowedSupplementalClasses.has(className)) &&
+    isSpecificOrganization(record)
+  )
+  .sort((left, right) => left.id.localeCompare(right.id, 'en'));
+let addedInstitutionCount = 0;
+for (const record of supplementalRecords) {
+  if (institutionsById.size >= 1300) break;
+  const key = normalized(record.label);
+  if (institutionsById.has(record.id) || institutionNames.has(key)) continue;
+  institutionsById.set(record.id, record);
+  institutionNames.add(key);
+  addedInstitutionCount += 1;
+}
+if (institutionsById.size !== 1300) {
+  throw new Error(
+    `Expected 1,300 distinct institutions after adding 468 source-backed Wikidata entities; found ${institutionsById.size} (retained ${retainedInstitutionCount}, added ${addedInstitutionCount}). Add more independently validated source records before rebuilding.`
+  );
+}
 const institutions = [...institutionsById.values()]
   .sort((left, right) => left.id.localeCompare(right.id, 'en'))
   .map((record) => ({
@@ -255,12 +294,14 @@ const institutions = [...institutionsById.values()]
     description: record.description,
     identifier: record.id,
     sameAs: `https://www.wikidata.org/wiki/${record.id}`,
+    ...(Array.isArray(record.instanceOf) ? {
+      additionalProperty: [
+        property('Wikidata instance-of class', record.instanceOf.join('; ')),
+        ...(record.sourceQuery ? [property('Wikidata entity-search query', record.sourceQuery)] : []),
+        ...(record.sourceUrl ? [property('Wikidata entity-search source URL', record.sourceUrl)] : []),
+      ],
+    } : {}),
   }));
-if (institutions.length < 486) {
-  throw new Error(
-    `Expected at least 486 distinct Wikidata institution/organization entities; found ${institutions.length}. Expand source searches before building.`
-  );
-}
 
 const placeUrl = (record) => `${catalogUrl}#place-${record.id}`;
 const roleUrl = (entity) => entity['@id'];
@@ -300,7 +341,7 @@ const datasets = [
   datasetNode({
     id: 'institutions',
     name: 'Wikidata institutions and organizations',
-    description: 'Distinct named Wikidata organizations selected from the recorded English-language entity-search results when the label and description identify a real organization or institution. Descriptions and QIDs are retained; no unsupported addresses, relationships, or small-business classifications are inferred.',
+    description: '1,300 distinct named Wikidata organizations and institutions: the retained 832-entity source selection plus 468 additional candidates with direct instance-of classes validated against an organization/institution allowlist. QIDs, descriptions and entity URLs are retained; no addresses, relationships or small-business classifications are inferred.',
     sourceName: 'Wikidata contributors',
     sourceUrl: 'https://www.wikidata.org/w/api.php',
     license: licenseCc0,
