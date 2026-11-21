@@ -136,6 +136,34 @@ function homepageSourceRecords(category) {
   return null;
 }
 
+function readAssignedJsonArray(filePath, variableName) {
+  const source = fs.readFileSync(filePath, 'utf8');
+  const declaration = new RegExp('(?:const|let|var)\\s+' + variableName + '\\s*=\\s*');
+  const match = declaration.exec(source);
+  if (!match) throw new Error('Missing ' + variableName + ' array in ' + filePath);
+  const start = source.indexOf('[', match.index + match[0].length);
+  if (start < 0) throw new Error('Missing array opening bracket for ' + variableName);
+  let depth = 0;
+  let inString = false;
+  let escaped = false;
+  for (let index = start; index < source.length; index += 1) {
+    const char = source[index];
+    if (inString) {
+      if (escaped) escaped = false;
+      else if (char === '\\') escaped = true;
+      else if (char === '"') inString = false;
+      continue;
+    }
+    if (char === '"') inString = true;
+    else if (char === '[') depth += 1;
+    else if (char === ']') {
+      depth -= 1;
+      if (depth === 0) return JSON.parse(source.slice(start, index + 1));
+    }
+  }
+  throw new Error('Unterminated ' + variableName + ' JSON array in ' + filePath);
+}
+
 function fullCatalogueRecords(category) {
   if (SIX_TAXONOMY.categories[category]) return SIX_TAXONOMY.categories[category];
   if (category === 'job-title') {
@@ -150,10 +178,9 @@ function fullCatalogueRecords(category) {
   if (category === 'faq') return FAQ_SOURCE;
   if (category === 'language') return LANGUAGE_SOURCE;
   if (category === 'country') return COUNTRY_SOURCE;
-  if (category === 'city') return DISCOVERY_GRAPH.filter((node) => {
-    const types = Array.isArray(node['@type']) ? node['@type'] : [node['@type']];
-    return types.includes('City');
-  });
+  if (category === 'city') {
+    return readAssignedJsonArray(path.join(ROOT, 'assets/world-cities.js'), 'worldCities');
+  }
   if (category === 'town-locality') return TOWN_SOURCE;
   if (category === 'institution') return INSTITUTION_SOURCE;
   throw new Error('No complete catalogue source configured for ' + category);
