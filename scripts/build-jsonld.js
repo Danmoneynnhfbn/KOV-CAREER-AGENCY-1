@@ -548,7 +548,7 @@ function validateRendered(file, before, after, categoryCounts, isHome, eligible)
   if (outsideHead(before) !== outsideHead(after)) {
     throw new Error(`HTML outside HEAD changed during metadata migration: ${file}`);
   }
-  const body = (html) => html.match(/<body\\b[^>]*>[\\s\\S]*?<\\/body\\s*>/i)?.[0] || '';
+  const body = (html) => html.match(/<body\b[^>]*>[\s\S]*?<\/body\s*>/i)?.[0] || '';
   if (body(before) !== body(after)) throw new Error(`Body markup changed during metadata migration: ${file}`);
   const customMeta = new RegExp(`<meta\\b(?=[^>]*\\bname\\s*=\\s*(["'])(?:${NAMES.join('|')})\\1)[^>]*>`, 'i');
   const nonTaxMeta = (html) => tagValues(html, /<meta\b[^>]*>/gi).filter((tag) => !customMeta.test(tag));
@@ -593,25 +593,25 @@ function filesFromOutputRoot(outputRoot) {
     for (const entry of fs.readdirSync(directory, { withFileTypes: true }).sort((a, b) => a.name.localeCompare(b.name))) {
       const fullPath = path.join(directory, entry.name);
       if (entry.isDirectory()) walk(fullPath);
-      else if (entry.isFile() && /\\.html?$/i.test(entry.name)) {
+      else if (entry.isFile() && /\.html?$/i.test(entry.name)) {
         files.push(path.relative(outputRoot, fullPath).split(path.sep).join('/'));
       }
     }
   }
   if (!fs.existsSync(outputRoot) || !fs.statSync(outputRoot).isDirectory()) {
-    throw new Error(`Cloudflare HTML output directory does not exist: ${outputRoot}`);
+    throw new Error(\`Cloudflare HTML output directory does not exist: \${outputRoot}\`);
   }
   walk(outputRoot);
   return files.sort();
 }
 function hasNoindexDirective(html) {
-  const head = html.match(/<head\\b[^>]*>([\\s\\S]*?)<\\/head\\s*>/i)?.[1] || '';
-  for (const match of head.matchAll(/<meta\\b[^>]*>/gi)) {
+  const head = html.match(/<head\b[^>]*>([\s\S]*?)<\/head\s*>/i)?.[1] || '';
+  for (const match of head.matchAll(/<meta\b[^>]*>/gi)) {
     const tag = match[0];
-    const name = tag.match(/\\bname\\s*=\\s*(["'])(.*?)\\1/i)?.[2]?.toLowerCase();
+    const name = tag.match(/\bname\s*=\s*(["'])(.*?)\1/i)?.[2]?.toLowerCase();
     if (!['robots', 'googlebot', 'bingbot'].includes(name)) continue;
-    const content = tag.match(/\\bcontent\\s*=\\s*(["'])(.*?)\\1/i)?.[2] || '';
-    if (/(?:^|[,\\s])noindex(?:$|[,\\s])/i.test(content)) return true;
+    const content = tag.match(/\bcontent\s*=\s*(["'])(.*?)\1/i)?.[2] || '';
+    if (/(?:^|[,\s])noindex(?:$|[,\s])/i.test(content)) return true;
   }
   return false;
 }
