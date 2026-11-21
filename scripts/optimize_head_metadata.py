@@ -205,7 +205,9 @@ def optimize_file(path: Path, root: Path) -> dict:
                 segment,
             )
         inner = transform_markup(inner, remove_charset)
-        return head_match.group(1) + inner + head_match.group(3)
+        # JSON-LD is intentionally moved to the end of HEAD; ignore only trailing whitespace
+        # left around that managed script, while comparing all remaining markup exactly.
+        return head_match.group(1) + inner.rstrip() + head_match.group(3)
 
     if managed_head(original) != managed_head(updated):
         raise ValueError(
