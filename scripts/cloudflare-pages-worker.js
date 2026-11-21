@@ -1,17 +1,3 @@
-function gzipIsAcceptable(header) {
-  if (header == null) return true;
-  const entries = header.split(",").map((part) => {
-    const [coding, ...parameters] = part.trim().toLowerCase().split(";");
-    const qualityParameter = parameters.find((parameter) => parameter.trim().startsWith("q="));
-    const quality = qualityParameter ? Number(qualityParameter.trim().slice(2)) : 1;
-    return { coding, quality: Number.isFinite(quality) ? quality : 0 };
-  });
-  const explicit = entries.find((entry) => entry.coding === "gzip");
-  if (explicit) return explicit.quality > 0;
-  const wildcard = entries.find((entry) => entry.coding === "*");
-  return Boolean(wildcard && wildcard.quality > 0);
-}
-
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -46,8 +32,7 @@ export default {
     const compressedPath = compressedRoutes.get(url.pathname);
     if (compressedPath) {
       const assetUrl = new URL(compressedPath, url);
-      // Fetch the stored .gz asset as-is. If the internal ASSETS subrequest also
-      // negotiates gzip, it can add a second compression layer around the .gz file.
+      // Request the backing package without additional negotiation from ASSETS.
       const assetHeaders = new Headers(request.headers);
       assetHeaders.set("Accept-Encoding", "identity");
       const assetRequest = new Request(assetUrl, {
@@ -68,30 +53,22 @@ export default {
       vary.add("Accept-Encoding");
       headers.set("Vary", [...vary].join(", "));
       headers.delete("Content-Length");
+      headers.delete("Content-Encoding");
 
-      // Remove any HTTP-level encoding applied by the Pages asset binding.
-      // The underlying .gz file is itself the representation we want to serve.
-      let body = request.method === "HEAD" ? null : asset.body;
-      if (body && assetEncoding === "gzip") {
-        body = body.pipeThrough(new DecompressionStream("gzip"));
+      // Normalize any encoding applied by ASSETS, then decompress the stored
+      // .gz package. Return JSON and let the Pages edge negotiate HTTP encoding.
+      let packageBody = request.method === "HEAD" ? null : asset.body;
+      if (packageBody && assetEncoding === "gzip") {
+        packageBody = packageBody.pipeThrough(new DecompressionStream("gzip"));
       } else if (assetEncoding && assetEncoding !== "identity") {
         return new Response("Unsupported catalogue asset encoding", {
           status: 502,
           headers: { "Content-Type": "text/plain; charset=utf-8" },
         });
       }
-      headers.delete("Content-Encoding");
-
-      if (gzipIsAcceptable(request.headers.get("Accept-Encoding"))) {
-        headers.set("Content-Encoding", "gzip");
-        return new Response(body, {
-          status: asset.status,
-          statusText: asset.statusText,
-          headers,
-        });
-      }
-
-      const decodedBody = body ? body.pipeThrough(new DecompressionStream("gzip")) : null;
+      const decodedBody = packageBody
+        ? packageBody.pipeThrough(new DecompressionStream("gzip"))
+        : null;
       return new Response(decodedBody, {
         status: asset.status,
         statusText: asset.statusText,
