@@ -599,7 +599,7 @@ function filesFromOutputRoot(outputRoot) {
     }
   }
   if (!fs.existsSync(outputRoot) || !fs.statSync(outputRoot).isDirectory()) {
-    throw new Error(\`Cloudflare HTML output directory does not exist: \${outputRoot}\`);
+    throw new Error(`Cloudflare HTML output directory does not exist: ${outputRoot}`);
   }
   walk(outputRoot);
   return files.sort();
