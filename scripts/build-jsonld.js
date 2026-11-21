@@ -1,6 +1,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const crypto = require('node:crypto');
+const zlib = require('node:zlib');
 
 const ROOT = path.resolve(__dirname, '..');
 const SITE = 'https://www.kovcareeragency.org';
@@ -133,6 +134,65 @@ function homepageSourceRecords(category) {
   if (category === 'institution') return INSTITUTION_SOURCE.map((record) => ({ name: category, value: record.name, source: record }));
   if (category === 'qualification') return QUALIFICATION_RECORDS.map((record) => ({ name: category, value: record.name, source: record }));
   return null;
+}
+
+function fullCatalogueRecords(category) {
+  if (SIX_TAXONOMY.categories[category]) return SIX_TAXONOMY.categories[category];
+  if (category === 'job-title') {
+    const sourcePath = path.join(ROOT, 'town-role-insitutution/KOV_Job_Titles_Expanded_98380.txt');
+    return fs.readFileSync(sourcePath, 'utf8').split(/\\r?\\n/).map((value) => value.trim()).filter(Boolean).map((name) => ({ name }));
+  }
+  if (category === 'occupation') return ROLE_SOURCE.occupations.map((name) => ({ name }));
+  if (category === 'industry') return INDUSTRY_SOURCE;
+  if (category === 'skill') return homepageSourceRecords(category).map((record) => record.source || { name: record.value });
+  if (category === 'qualification') return QUALIFICATION_RECORDS;
+  if (category === 'professional-term') return VERIFIED_TAXONOMIES.professionalSynonymDirectory;
+  if (category === 'faq') return FAQ_SOURCE;
+  if (category === 'language') return LANGUAGE_SOURCE;
+  if (category === 'country') return COUNTRY_SOURCE;
+  if (category === 'city') return DISCOVERY_GRAPH.filter((node) => {
+    const types = Array.isArray(node['@type']) ? node['@type'] : [node['@type']];
+    return types.includes('City');
+  });
+  if (category === 'town-locality') return TOWN_SOURCE;
+  if (category === 'institution') return INSTITUTION_SOURCE;
+  throw new Error('No complete catalogue source configured for ' + category);
+}
+
+function writeCatalogueAssets(outputRoot, expectedCounts) {
+  const directory = path.join(outputRoot, 'data/catalogues');
+  fs.mkdirSync(directory, { recursive: true });
+  let compressedBytes = 0;
+  const packages = [];
+  for (const category of ALL_CATEGORIES) {
+    const records = fullCatalogueRecords(category);
+    if (!Array.isArray(records) || records.length !== expectedCounts[category]) {
+      throw new Error(
+        category + ' catalogue source count mismatch: expected ' + expectedCounts[category]
+        + ', found ' + (Array.isArray(records) ? records.length : 'non-array')
+      );
+    }
+    const slug = CATEGORY[category][0];
+    const payload = {
+      '@context': 'https://schema.org',
+      '@type': 'Dataset',
+      name: CATEGORY_NAME[category],
+      identifier: SITE + '/data/catalogues/' + slug + '.json',
+      recordCount: records.length,
+      records,
+    };
+    const compressed = zlib.gzipSync(Buffer.from(JSON.stringify(payload), 'utf8'), {
+      level: 9, mtime: 0,
+    });
+    const maxBytes = 25 * 1024 * 1024;
+    if (compressed.length > maxBytes) {
+      throw new Error(slug + ' compressed catalogue exceeds Cloudflare Pages 25 MiB limit: ' + compressed.length);
+    }
+    fs.writeFileSync(path.join(directory, slug + '.json.gz'), compressed);
+    compressedBytes += compressed.length;
+    packages.push({ category, slug, records: records.length, compressedBytes: compressed.length });
+  }
+  return { packages, compressedBytes };
 }
 
 function norm(value) { return String(value ?? '').normalize('NFKC').trim().replace(/\s+/g, ' ').toLocaleLowerCase('en'); }
@@ -284,7 +344,7 @@ function descriptions(globalRecords) {
   counts.faq = Math.min(counts.faq, uniqueByValue(globalRecords.faq.filter((r) => r.name === 'faq-question')).length);
   return counts;
 }
-function buildGraph(existing, records, isHome, counts, file, canonical, pageTitle) {
+function buildGraph(existing, records, isHome, counts, file, canonical, pageTitle, eligible) {
   const prefix = 'urn:kov:career-agency:metadata#';
   const termSetSuffixes = ALL_CATEGORIES.flatMap((category) => [`/set-${CATEGORY[category][0]}`, `#set-${CATEGORY[category][0]}`]);
   const isCatalogRecord = (node) => termSetSuffixes.some((suffix) => (node.inDefinedTermSet?.['@id'] || '').endsWith(suffix))
@@ -299,7 +359,7 @@ function buildGraph(existing, records, isHome, counts, file, canonical, pageTitl
       else if (String(node[key]?.['@id'] || '').startsWith(prefix) || String(node[key]?.['@id'] || '').startsWith(CATALOG) || taxonomyIds.has(node[key]?.['@id'])) delete node[key];
     }
   }
-  const catalogId = isHome ? CATALOG : `${CATALOG}/page-${digest(file)}`;
+  const catalogId = isHome || eligible ? CATALOG : `${CATALOG}/page-${digest(file)}`;
   const local = [];
   const datasets = [];
   const termSets = [];
@@ -319,11 +379,11 @@ function buildGraph(existing, records, isHome, counts, file, canonical, pageTitl
     const globalCount = counts[category];
     const title = CATEGORY_NAME[category];
     const id = `${catalogId}/dataset-${CATEGORY[category][0]}`;
-    const includeGlobal = isHome;
-    const includePage = !isHome && present.length > 0;
+    const includeGlobal = isHome || eligible;
+    const includePage = !includeGlobal && present.length > 0;
     if (!includeGlobal && !includePage) continue;
     let detail;
-    if (isHome) {
+    if (includeGlobal) {
       detail = `Record rows in the retained local source snapshot: ${globalCount}. Approved target: ${TARGET[category]}.`;
       if (!globalCount && TARGET[category]) detail += ` Verified record-level sources present: 0; the target is not met.`;
       if (category === 'occupation') detail += ' Record-level source lineage is not attached; these are retained local taxonomy entries.';
@@ -383,6 +443,19 @@ function buildGraph(existing, records, isHome, counts, file, canonical, pageTitl
     if (category === 'town-locality') {
       dataset.creator = { '@type': 'Organization', name: 'GeoNames' };
       dataset.license = 'https://creativecommons.org/licenses/by/4.0/';
+    }
+    if (includeGlobal) {
+      const catalogueUrl = `${SITE}/data/catalogues/${CATEGORY[category][0]}.json`;
+      const fullCatalogueDownload = {
+        '@type': 'DataDownload',
+        contentUrl: catalogueUrl,
+        encodingFormat: 'application/json',
+        name: `Complete ${title} catalogue (${globalCount} records)`,
+      };
+      const previousDistributions = dataset.distribution == null
+        ? []
+        : Array.isArray(dataset.distribution) ? dataset.distribution : [dataset.distribution];
+      dataset.distribution = [...previousDistributions, fullCatalogueDownload];
     }
     datasets.push(dataset);
     const setId = `${catalogId}/set-${CATEGORY[category][0]}`;
@@ -575,6 +648,24 @@ function validateRendered(file, before, after, categoryCounts, isHome, eligible)
   }
   if (graph.some((node) => node.numberOfItems != null || /\brecordCount\b/i.test(JSON.stringify(node)))) throw new Error(`Unsupported numeric record-count field in ${file}`);
   if (graph.some((node) => String(node['@id'] || '').startsWith('urn:kov:career-agency:metadata#'))) throw new Error(`Legacy metadata graph node remains in ${file}`);
+  if (eligible) {
+    const datasetNodes = graph.filter((node) => node['@type'] === 'Dataset');
+    const datasetIds = new Set(datasetNodes.map((node) => node['@id']));
+    if (datasetIds.size !== ALL_CATEGORIES.length) {
+      throw new Error('Active page must reference all 18 global catalogues; found ' + datasetIds.size + ': ' + file);
+    }
+    for (const category of ALL_CATEGORIES) {
+      const slug = CATEGORY[category][0];
+      const expectedUrl = SITE + '/data/catalogues/' + slug + '.json';
+      const dataset = datasetNodes.find((node) => node['@id'] === CATALOG + '/dataset-' + slug);
+      const distributions = dataset
+        ? (Array.isArray(dataset.distribution) ? dataset.distribution : [dataset.distribution])
+        : [];
+      if (!distributions.some((item) => item?.contentUrl === expectedUrl)) {
+        throw new Error('Active page is missing the full ' + category + ' catalogue download: ' + file);
+      }
+    }
+  }
   if (isHome) {
     const datasetIds = new Set(graph.filter((node) => node['@type'] === 'Dataset').map((node) => node['@id']));
     if (datasetIds.size !== ALL_CATEGORIES.length) throw new Error(`Homepage needs ${ALL_CATEGORIES.length} global dataset summaries; found ${datasetIds.size}`);
@@ -660,6 +751,7 @@ function main() {
     const actualCount = counts[category];
     if (actualCount > TARGET[category] && !['industry', 'skill', 'qualification', 'town-locality', 'institution'].includes(category) && !SIX_CATEGORIES.has(category)) issues.push(category + ' count ' + actualCount + ' exceeds approved target ' + TARGET[category]);
   }
+  const catalogueAssets = writeCatalogueAssets(outputRoot, counts);
   const outputs = new Map();
   let jsonldNodes = 0;
   const summary = {
@@ -675,6 +767,8 @@ function main() {
     publishedPagesMissingFromManifestList: unmanifestedPublishedPages,
     changed: 0, changedFiles: reportChangedFiles ? [] : undefined,
     removedCustomMeta: 0, homepageGlobalTags: 0, homepageRecords: counts,
+    cataloguePackages: catalogueAssets.packages,
+    catalogueCompressedBytes: catalogueAssets.compressedBytes,
     pageCategoryCoverage: {}, pageSpecificMetaRecords: 0,
     duplicateKovScripts: 0, dryRun
   };
@@ -685,7 +779,7 @@ function main() {
     const isHome = file === homePath;
     const eligible = eligiblePublic(file, html);
     const canonical = eligible ? canonicalFor(html, file) : null;
-    const graph = buildGraph(nodes, found, isHome, counts, file, canonical, titleFor(html));
+    const graph = buildGraph(nodes, found, isHome, counts, file, canonical, titleFor(html), eligible);
     const before = html;
     const headScan = metaRecords(html).found;
     const localTagCount = Object.values(headScan).reduce((sum, values) => sum + values.length, 0);
