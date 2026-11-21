@@ -46,7 +46,14 @@ export default {
     const compressedPath = compressedRoutes.get(url.pathname);
     if (compressedPath) {
       const assetUrl = new URL(compressedPath, url);
-      const assetRequest = new Request(assetUrl, request);
+      // Fetch the stored .gz asset as-is. If the internal ASSETS subrequest also
+      // negotiates gzip, it can add a second compression layer around the .gz file.
+      const assetHeaders = new Headers(request.headers);
+      assetHeaders.set("Accept-Encoding", "identity");
+      const assetRequest = new Request(assetUrl, {
+        method: request.method,
+        headers: assetHeaders,
+      });
       const asset = await env.ASSETS.fetch(assetRequest);
       if (!asset.ok) return asset;
 
