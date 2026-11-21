@@ -27,6 +27,7 @@ jobs:
       - name: Validate page coverage, JSON-LD, and preservation
         run: |
           python - <<'PY'
+          import gzip
           import json
           import re
           from pathlib import Path
@@ -38,11 +39,17 @@ jobs:
           inventory_paths = {item["path"].replace("\\", "/") for item in inventory}
           pages = sorted(output.rglob("*.html"))
           published_paths = {page.relative_to(output).as_posix() for page in pages}
+          active_paths = {
+              item["path"].replace("\\", "/")
+              for item in inventory
+              if item.get("indexable") is True and item["path"].replace("\\", "/") in published_paths
+          }
           missing = sorted(inventory_paths - published_paths)
           unmanifested = sorted(published_paths - inventory_paths)
 
           assert len(inventory_paths) == 2076, f"Expected 2,076 manifest HTML entries, found {len(inventory_paths)}"
           assert len(pages) == 2060, f"Expected 2,060 published HTML pages, found {len(pages)}"
+          assert len(active_paths) == 704, f"Expected 704 active indexable published pages, found {len(active_paths)}"
           assert len(missing) == 18, f"Expected 18 manifest paths excluded from public output, found {len(missing)}"
           assert unmanifested == [
               "resources/candidate-project-directory.html",
@@ -63,6 +70,12 @@ jobs:
               r"""<script\b(?=[^>]*data-kov\s*=\s*(["'])discovery\1)[^>]*>[\s\S]*?</script\s*>""",
               re.I,
           )
+          expected_catalogue_slugs = [
+              "audiences", "job-titles", "occupations", "industries", "skills", "qualifications",
+              "professional-terms", "job-functions", "seniority-levels", "employment-types",
+              "career-challenges", "career-search-intents", "faqs", "languages", "countries",
+              "cities", "towns-localities", "institutions",
+          ]
           charset_meta = re.compile(r'<meta\b[^>]*\bcharset\s*=[^>]*>', re.I)
           head_re = re.compile(r'(<head\b[^>]*>)([\s\S]*?)(</head\s*>)', re.I)
           body_re = re.compile(r'<body\b[^>]*>[\s\S]*?</body\s*>', re.I)
@@ -124,6 +137,31 @@ jobs:
                   ids = [node.get("@id") for node in graph if node.get("@id")]
                   if len(ids) != len(set(ids)):
                       failures.append(f"{relative}: duplicate JSON-LD @id values")
+                  datasets = [node for node in graph if node.get("@type") == "Dataset"]
+                  if relative in active_paths:
+                      expected_ids = {
+                          f"https://www.kovcareeragency.org/#metadata-catalog/dataset-{slug}"
+                          for slug in expected_catalogue_slugs
+                      }
+                      by_id = {node.get("@id"): node for node in datasets}
+                      if len(by_id.keys() & expected_ids) != 18:
+                          failures.append(f"{relative}: active page does not contain all 18 global catalogue datasets")
+                      for slug in expected_catalogue_slugs:
+                          dataset_id = f"https://www.kovcareeragency.org/#metadata-catalog/dataset-{slug}"
+                          dataset = by_id.get(dataset_id)
+                          distributions = dataset.get("distribution", []) if dataset else []
+                          if isinstance(distributions, dict):
+                              distributions = [distributions]
+                          expected_url = f"https://www.kovcareeragency.org/data/catalogues/{slug}.json"
+                          if not any(item.get("contentUrl") == expected_url for item in distributions if isinstance(item, dict)):
+                              failures.append(f"{relative}: missing full catalogue download reference for {slug}")
+                  elif any(
+                      str(item.get("contentUrl", "")).startswith("https://www.kovcareeragency.org/data/catalogues/")
+                      for dataset in datasets
+                      for item in (dataset.get("distribution", []) if isinstance(dataset.get("distribution", []), list) else [dataset.get("distribution", {})])
+                      if isinstance(item, dict)
+                  ):
+                      failures.append(f"{relative}: inactive page unexpectedly references the full catalogue packages")
 
               if re.search(
                   r"""<meta\b(?=[^>]*\bname\s*=\s*["']robots["'])(?=[^>]*\bcontent\s*=\s*["'][^"']*\bnoindex\b)[^>]*>""",
@@ -131,6 +169,28 @@ jobs:
                   re.I,
               ):
                   noindex_pages += 1
+
+          catalogue_dir = output / "data" / "catalogues"
+          for slug in expected_catalogue_slugs:
+              package = catalogue_dir / f"{slug}.json.gz"
+              if not package.is_file():
+                  failures.append(f"Missing compressed catalogue package: {package}")
+                  continue
+              compressed = package.read_bytes()
+              if len(compressed) >= 25 * 1024 * 1024:
+                  failures.append(f"{slug}: compressed package reaches or exceeds Cloudflare's 25 MiB per-file limit")
+                  continue
+              try:
+                  catalogue = json.loads(gzip.decompress(compressed))
+                  records = catalogue.get("records")
+                  if catalogue.get("@type") != "Dataset" or not isinstance(records, list):
+                      failures.append(f"{slug}: package is not a complete Dataset records array")
+                  elif catalogue.get("recordCount") != len(records):
+                      failures.append(f"{slug}: recordCount does not match its full records array")
+                  elif not records:
+                      failures.append(f"{slug}: catalogue package is empty")
+              except Exception as exc:
+                  failures.append(f"{slug}: compressed package cannot be decompressed/parsed: {exc}")
 
           homepage = output / "index.html"
           homepage_text = homepage.read_text(encoding="utf-8")
@@ -157,10 +217,11 @@ jobs:
               raise SystemExit("\n".join(failures[:100]))
 
           print("PASS: 2,060 published HTML pages each contain one valid KOV JSON-LD script.")
-          print("PASS: homepage contains all 18 category dataset summaries.")
+          print("PASS: all 704 active pages reference all 18 complete compressed catalogue packages in HEAD.")
+          print("PASS: all 18 catalogue packages decompress, parse, and retain every record.")
           print("PASS: page bodies and all content outside HEAD are unchanged.")
           print("PASS: existing canonical URLs, robots directives, social metadata, scripts, stylesheets and unrelated HEAD content are unchanged.")
-          print(f"PASS: {noindex_pages} noindex pages retained their robots directives.")
+          print(f"PASS: {noindex_pages} noindex pages retained their robots directives; inactive pages do not reference full catalogue packages.")
           print(f"PAGE RECONCILIATION: manifest={len(inventory_paths)}; manifest paths absent from public output={len(missing)}; published HTML absent from manifest={len(unmanifested)}; public HTML={len(pages)}; net difference=16.")
           print("Manifest paths excluded from public output:")
           for item in missing:
