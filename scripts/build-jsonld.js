@@ -140,7 +140,7 @@ function fullCatalogueRecords(category) {
   if (SIX_TAXONOMY.categories[category]) return SIX_TAXONOMY.categories[category];
   if (category === 'job-title') {
     const sourcePath = path.join(ROOT, 'town-role-insitutution/KOV_Job_Titles_Expanded_98380.txt');
-    return fs.readFileSync(sourcePath, 'utf8').split(/\\r?\\n/).map((value) => value.trim()).filter(Boolean).map((name) => ({ name }));
+    return fs.readFileSync(sourcePath, 'utf8').split(/\r?\n/).map((value) => value.trim()).filter(Boolean).map((name) => ({ name }));
   }
   if (category === 'occupation') return ROLE_SOURCE.occupations.map((name) => ({ name }));
   if (category === 'industry') return INDUSTRY_SOURCE;
