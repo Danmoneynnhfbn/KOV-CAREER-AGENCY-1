@@ -529,24 +529,24 @@ function validateRendered(file, before, after, categoryCounts, isHome, eligible)
   const extractHead = (html) => html.match(/(<head\b[^>]*>)([\s\S]*?)(<\/head\s*>)/i);
   const managedHeadContent = (html) => {
     const match = extractHead(html);
-    if (!match) throw new Error(\`Missing HEAD during preservation validation: \${file}\`);
+    if (!match) throw new Error(`Missing HEAD during preservation validation: ${file}`);
     let content = match[2];
-    const generatedScript = new RegExp(\`<script\\b(?=[^>]*\${MARKER})[^>]*>[\\s\\S]*?<\\/script\\s*>\`, 'gi');
+    const generatedScript = new RegExp(`<script\\b(?=[^>]*${MARKER})[^>]*>[\\s\\S]*?<\\/script\\s*>`, 'gi');
     content = content.replace(generatedScript, '');
-    const taxonomyTags = new RegExp(\`<meta\\b(?=[^>]*\\bname\\s*=\\s*(["'])(?:\${NAMES.join('|')})\\1)[^>]*>\\s*\`, 'gi');
+    const taxonomyTags = new RegExp(`<meta\\b(?=[^>]*\\bname\\s*=\\s*(["'])(?:${NAMES.join('|')})\\1)[^>]*>\\s*`, 'gi');
     content = content.replace(taxonomyTags, '');
     content = content.replace(/<!--\s*KOV (?:global|page-specific) descriptive metadata[^>]*-->/gi, '');
     return match[1] + content + match[3];
   };
   if (managedHeadContent(before) !== managedHeadContent(after)) {
-    throw new Error(\`Unrelated HEAD content changed (including social metadata, scripts, stylesheets or other attributes): \${file}\`);
+    throw new Error(`Unrelated HEAD content changed (including social metadata, scripts, stylesheets or other attributes): ${file}`);
   }
   const outsideHead = (html) => {
-    if (!extractHead(html)) throw new Error(\`Missing HEAD during document preservation validation: \${file}\`);
+    if (!extractHead(html)) throw new Error(`Missing HEAD during document preservation validation: ${file}`);
     return html.replace(/<head\b[^>]*>[\s\S]*?<\/head\s*>/i, '<!-- KOV_HEAD_BLOCK -->');
   };
   if (outsideHead(before) !== outsideHead(after)) {
-    throw new Error(\`HTML outside HEAD changed during metadata migration: \${file}\`);
+    throw new Error(`HTML outside HEAD changed during metadata migration: ${file}`);
   }
   const body = (html) => html.match(/<body\\b[^>]*>[\\s\\S]*?<\\/body\\s*>/i)?.[0] || '';
   if (body(before) !== body(after)) throw new Error(`Body markup changed during metadata migration: ${file}`);
