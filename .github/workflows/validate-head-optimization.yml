@@ -49,7 +49,7 @@ jobs:
               )
               if excluded:
                   continue
-              page_html = (repo / relative).read_text(encoding="utf-8")
+              page_html = (output / relative).read_text(encoding="utf-8")
               page_head = re.search(r"<head\b[^>]*>([\s\S]*?)</head\s*>", page_html, re.I)
               head_text = page_head.group(1) if page_head else ""
               has_noindex = False
