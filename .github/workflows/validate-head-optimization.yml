@@ -274,7 +274,14 @@ jobs:
           PY
       - name: Exercise all 18 compressed catalogue URLs through the Cloudflare Pages Worker
         run: |
-          npx --yes wrangler@latest pages dev dist --ip 127.0.0.1 --port 8788 --compatibility-date 2026-11-17 > /tmp/kov-pages-dev.log 2>&1 &
+          cat > /tmp/kov-pages-test-wrangler.jsonc <<EOF
+          {
+            "name": "kov-catalogue-pages-test",
+            "compatibility_date": "2026-11-17",
+            "pages_build_output_dir": "$(pwd)/dist"
+          }
+          EOF
+          npx --yes wrangler@latest pages dev dist --config /tmp/kov-pages-test-wrangler.jsonc --ip 127.0.0.1 --port 8788 > /tmp/kov-pages-dev.log 2>&1 &
           pages_pid=$!
           trap 'kill "$pages_pid" 2>/dev/null || true' EXIT
           ready=0
