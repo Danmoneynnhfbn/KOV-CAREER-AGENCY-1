@@ -35,7 +35,7 @@ jobs:
           output = repo / "dist"
           manifest = json.loads((repo / "PAGE_MANIFEST.json").read_text(encoding="utf-8"))
           inventory = manifest.get("repository_html_inventory", {}).get("files", [])
-          inventory_paths = {item["path"].replace("\\\\", "/") for item in inventory}
+          inventory_paths = {item["path"].replace("\\", "/") for item in inventory}
           pages = sorted(output.rglob("*.html"))
           published_paths = {page.relative_to(output).as_posix() for page in pages}
           missing = sorted(inventory_paths - published_paths)
@@ -56,16 +56,16 @@ jobs:
               "career-search-intent|faq-question|faq-answer|language|country|city|town-locality|institution"
           )
           taxonomy_meta = re.compile(
-              rf'<meta\\b(?=[^>]*\\bname\\s*=\\s*([\\\"\\\'])(?:{taxonomy_names})\\1)[^>]*>\\s*',
+              rf"""<meta\b(?=[^>]*\bname\s*=\s*(["'])(?:{taxonomy_names})\1)[^>]*>\s*""",
               re.I,
           )
           generated_script = re.compile(
-              r'<script\\b(?=[^>]*data-kov\\s*=\\s*([\\\"\\\'])discovery\\1)[^>]*>[\\s\\S]*?</script\\s*>',
+              r"""<script\b(?=[^>]*data-kov\s*=\s*(["'])discovery\1)[^>]*>[\s\S]*?</script\s*>""",
               re.I,
           )
-          charset_meta = re.compile(r'<meta\\b[^>]*\\bcharset\\s*=[^>]*>', re.I)
-          head_re = re.compile(r'(<head\\b[^>]*>)([\\s\\S]*?)(</head\\s*>)', re.I)
-          body_re = re.compile(r'<body\\b[^>]*>[\\s\\S]*?</body\\s*>', re.I)
+          charset_meta = re.compile(r'<meta\b[^>]*\bcharset\s*=[^>]*>', re.I)
+          head_re = re.compile(r'(<head\b[^>]*>)([\s\S]*?)(</head\s*>)', re.I)
+          body_re = re.compile(r'<body\b[^>]*>[\s\S]*?</body\s*>', re.I)
 
           failures = []
           noindex_pages = 0
@@ -80,14 +80,16 @@ jobs:
                   failures.append(f"{relative}: missing HEAD")
                   continue
 
-              if body_re.search(before).group(0) if body_re.search(before) else "" != (body_re.search(after).group(0) if body_re.search(after) else ""):
+              before_body = body_re.search(before)
+              after_body = body_re.search(after)
+              if (before_body.group(0) if before_body else "") != (after_body.group(0) if after_body else ""):
                   failures.append(f"{relative}: BODY changed")
 
               def protected_head(value):
                   match = head_re.search(value)
                   inner = generated_script.sub("", match.group(2))
                   inner = taxonomy_meta.sub("", inner)
-                  inner = re.sub(r'<!--\\s*KOV (?:global|page-specific) descriptive metadata[^>]*-->', "", inner, flags=re.I)
+                  inner = re.sub(r'<!--\s*KOV (?:global|page-specific) descriptive metadata[^>]*-->', "", inner, flags=re.I)
                   inner = charset_meta.sub("", inner)
                   return match.group(1) + inner.rstrip() + match.group(3)
 
@@ -100,7 +102,7 @@ jobs:
               if outside_head(before) != outside_head(after):
                   failures.append(f"{relative}: content outside HEAD changed")
 
-              if not re.match(r"\\s*<meta\\b[^>]*\\bcharset\\s*=", after_head.group(2), re.I):
+              if not re.match(r'\s*<meta\b[^>]*\bcharset\s*=', after_head.group(2), re.I):
                   failures.append(f"{relative}: charset is not first in HEAD")
 
               scripts = list(generated_script.finditer(after_head.group(2)))
@@ -108,8 +110,8 @@ jobs:
                   failures.append(f"{relative}: expected exactly one KOV discovery JSON-LD script, found {len(scripts)}")
                   continue
               script = scripts[0].group(0)
-              opening = re.match(r'<script\\b[^>]*>', script, re.I).group(0)
-              closing = re.search(r'</script\\s*>$', script, re.I).group(0)
+              opening = re.match(r'<script\b[^>]*>', script, re.I).group(0)
+              closing = re.search(r'</script\s*>$', script, re.I).group(0)
               try:
                   payload = json.loads(script[len(opening):len(script)-len(closing)])
               except Exception as exc:
@@ -123,17 +125,21 @@ jobs:
                   if len(ids) != len(set(ids)):
                       failures.append(f"{relative}: duplicate JSON-LD @id values")
 
-              if re.search(r'<meta\\b[^>]*name=["\\\']robots["\\\'][^>]*content=["\\\'][^"\\\']*\\bnoindex\\b', before_head.group(2), re.I):
+              if re.search(
+                  r"""<meta\b(?=[^>]*\bname\s*=\s*["']robots["'])(?=[^>]*\bcontent\s*=\s*["'][^"']*\bnoindex\b)[^>]*>""",
+                  before_head.group(2),
+                  re.I,
+              ):
                   noindex_pages += 1
 
           homepage = output / "index.html"
           homepage_text = homepage.read_text(encoding="utf-8")
           homepage_head = head_re.search(homepage_text).group(2)
           homepage_script = generated_script.search(homepage_head)
-          homepage_payload = json.loads(
-              homepage_script.group(0)[re.match(r'<script\\b[^>]*>', homepage_script.group(0), re.I).end():
-                                       re.search(r'</script\\s*>$', homepage_script.group(0), re.I).start()]
-          )
+          homepage_tag = homepage_script.group(0)
+          homepage_open = re.match(r'<script\b[^>]*>', homepage_tag, re.I).group(0)
+          homepage_close = re.search(r'</script\s*>$', homepage_tag, re.I).group(0)
+          homepage_payload = json.loads(homepage_tag[len(homepage_open):len(homepage_tag)-len(homepage_close)])
           graph = homepage_payload["@graph"]
           expected_sets = [
               "audiences", "job-titles", "occupations", "industries", "skills", "qualifications",
@@ -148,7 +154,7 @@ jobs:
                   failures.append(f"index.html: missing global dataset summary {name}")
 
           if failures:
-              raise SystemExit("\\n".join(failures[:100]))
+              raise SystemExit("\n".join(failures[:100]))
 
           print("PASS: 2,060 published HTML pages each contain one valid KOV JSON-LD script.")
           print("PASS: homepage contains all 18 category dataset summaries.")
