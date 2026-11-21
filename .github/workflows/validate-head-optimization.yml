@@ -60,15 +60,15 @@ jobs:
               if excluded:
                   continue
               page_html = (repo / relative).read_text(encoding="utf-8")
-              page_head = re.search(r"<head\\b([^>]*)>([\\s\\S]*?)</head\\s*>", page_html, re.I)
+              page_head = re.search(r"<head\b([^>]*)>([\s\S]*?)</head\s*>", page_html, re.I)
               head_text = page_head.group(2) if page_head else ""
               has_noindex = False
-              for meta in re.finditer(r"<meta\\b[^>]*>", head_text, re.I):
+              for meta in re.finditer(r"<meta\b[^>]*>", head_text, re.I):
                   tag = meta.group(0)
-                  name = re.search(r"""\\bname\\s*=\\s*(['"])(.*?)\\1""", tag, re.I)
-                  content = re.search(r"""\\bcontent\\s*=\\s*(['"])(.*?)\\1""", tag, re.I)
+                  name = re.search(r"""\bname\s*=\s*(['"])(.*?)\1""", tag, re.I)
+                  content = re.search(r"""\bcontent\s*=\s*(['"])(.*?)\1""", tag, re.I)
                   if name and name.group(2).lower() in {"robots", "googlebot", "bingbot"} and content:
-                      if re.search(r"(?:^|[,\\s])noindex(?:$|[,\\s])", content.group(2), re.I):
+                      if re.search(r"(?:^|[,\s])noindex(?:$|[,\s])", content.group(2), re.I):
                           has_noindex = True
               if not has_noindex:
                   active_paths.add(relative)
