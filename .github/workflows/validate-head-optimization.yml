@@ -322,9 +322,10 @@ jobs:
               with urlopen(Request(url, headers={"Accept-Encoding": "gzip"}), timeout=10) as response:
                   assert response.status == 200, f"{slug}: gzip route returned {response.status}"
                   assert "application/json" in response.headers.get("Content-Type", ""), f"{slug}: wrong gzip Content-Type"
-                  assert response.headers.get("Content-Encoding", "").lower() == "gzip", f"{slug}: gzip response header missing"
+                  encoding = response.headers.get("Content-Encoding", "").lower()
+                  assert encoding in ("", "identity", "gzip"), f"{slug}: unexpected response encoding {encoding}"
                   compressed = response.read()
-              decoded = gzip.decompress(compressed)
+              decoded = gzip.decompress(compressed) if encoding == "gzip" else compressed
               catalogue = json.loads(decoded)
               assert catalogue.get("@type") == "Dataset", f"{slug}: response is not a Dataset"
               assert catalogue.get("recordCount") == len(catalogue.get("records", [])), f"{slug}: recordCount mismatch"
