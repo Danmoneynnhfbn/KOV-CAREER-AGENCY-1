@@ -565,21 +565,57 @@ function validateRendered(file, before, after, categoryCounts, isHome, eligible)
   }
   return graph.length;
 }
-function filesFromManifest() {
-  const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, 'PAGE_MANIFEST.json'), 'utf8'));
-  const paths = manifest.repository_html_inventory?.files?.map((page) => page.path.replace(/\\/g, '/')) || manifest.pages.map((page) => page.path.replace(/\\/g, '/'));
-  return [...new Set(paths)].filter((file) => fs.existsSync(path.join(ROOT, file)));
+function filesFromOutputRoot(outputRoot) {
+  const files = [];
+  function walk(directory) {
+    for (const entry of fs.readdirSync(directory, { withFileTypes: true }).sort((a, b) => a.name.localeCompare(b.name))) {
+      const fullPath = path.join(directory, entry.name);
+      if (entry.isDirectory()) walk(fullPath);
+      else if (entry.isFile() && /\\.html?$/i.test(entry.name)) {
+        files.push(path.relative(outputRoot, fullPath).split(path.sep).join('/'));
+      }
+    }
+  }
+  if (!fs.existsSync(outputRoot) || !fs.statSync(outputRoot).isDirectory()) {
+    throw new Error(`Cloudflare HTML output directory does not exist: ${outputRoot}`);
+  }
+  walk(outputRoot);
+  return files.sort();
+}
+function hasNoindexDirective(html) {
+  const head = html.match(/<head\\b[^>]*>([\\s\\S]*?)<\\/head\\s*>/i)?.[1] || '';
+  for (const match of head.matchAll(/<meta\\b[^>]*>/gi)) {
+    const tag = match[0];
+    const name = tag.match(/\\bname\\s*=\\s*(["'])(.*?)\\1/i)?.[2]?.toLowerCase();
+    if (!['robots', 'googlebot', 'bingbot'].includes(name)) continue;
+    const content = tag.match(/\\bcontent\\s*=\\s*(["'])(.*?)\\1/i)?.[2] || '';
+    if (/(?:^|[,\\s])noindex(?:$|[,\\s])/i.test(content)) return true;
+  }
+  return false;
 }
 function main() {
   const dryRun = process.argv.includes('--dry-run');
   const reportChangedFiles = process.argv.includes('--report-changes');
-  const files = filesFromManifest();
+  const rootArg = process.argv.indexOf('--root');
+  if (rootArg >= 0 && !process.argv[rootArg + 1]) throw new Error('--root requires an output directory.');
+  const outputRoot = path.resolve(ROOT, rootArg >= 0 ? process.argv[rootArg + 1] : 'dist');
+  const files = filesFromOutputRoot(outputRoot);
   const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, 'PAGE_MANIFEST.json'), 'utf8'));
-  const indexablePaths = new Set((manifest.repository_html_inventory?.files || []).filter((page) => page.indexable).map((page) => page.path.replace(/\\/g, '/')));
-  const eligiblePublic = (file) => indexablePaths.has(file) && !file.startsWith('staging/') && !file.startsWith('_design-reference/') && !file.startsWith('design-reference/') && !/^(?:private|admin)(?:\/|[-_])/i.test(file);
+  const inventory = manifest.repository_html_inventory?.files || manifest.pages || [];
+  const manifestPaths = new Set(inventory.map((page) => page.path.replace(/\\/g, '/')));
+  const indexablePaths = new Set(inventory.filter((page) => page.indexable).map((page) => page.path.replace(/\\/g, '/')));
+  const eligiblePublic = (file, html) => {
+    if (file.startsWith('staging/') || file.startsWith('_design-reference/') || file.startsWith('design-reference/') || /^(?:private|admin)(?:\\/|[-_])/i.test(file)) return false;
+    if (manifestPaths.has(file)) return indexablePaths.has(file);
+    // A published HTML page absent from the inventory is classified from its own robots directive.
+    return !hasNoindexDirective(html);
+  };
   const homePath = 'index.html';
-  if (!files.includes(homePath)) throw new Error('Homepage missing from HTML manifest.');
-  const original = new Map(files.map((file) => [file, fs.readFileSync(path.join(ROOT, file), 'utf8')]));
+  if (!files.includes(homePath)) throw new Error('Homepage missing from Cloudflare output.');
+  const publishedSet = new Set(files);
+  const missingManifestPages = [...manifestPaths].filter((file) => !publishedSet.has(file)).sort();
+  const unmanifestedPublishedPages = files.filter((file) => !manifestPaths.has(file));
+  const original = new Map(files.map((file) => [file, fs.readFileSync(path.join(outputRoot, file), 'utf8')]));
   const recordsByFile = new Map();
   for (const [file, html] of original) {
     const tags = metaRecords(html).found;
@@ -604,13 +640,28 @@ function main() {
   }
   const outputs = new Map();
   let jsonldNodes = 0;
-  const summary = { pages: files.length, changed: 0, changedFiles: reportChangedFiles ? [] : undefined, removedCustomMeta: 0, homepageGlobalTags: 0, homepageRecords: counts, pageCategoryCoverage: {}, pageSpecificMetaRecords: 0, duplicateKovScripts: 0, dryRun };
+  const summary = {
+    pages: files.length,
+    publishedHtmlPages: files.length,
+    manifestInventoryPages: manifestPaths.size,
+    manifestPagesPublished: files.length - unmanifestedPublishedPages.length,
+    manifestPagesNotPublished: missingManifestPages.length,
+    publishedPagesMissingFromManifest: unmanifestedPublishedPages.length,
+    inventoryToBuildNetDifference: manifestPaths.size - files.length,
+    indexablePublicPages: files.filter((file) => eligiblePublic(file, original.get(file))).length,
+    manifestPagesNotPublishedList: missingManifestPages,
+    publishedPagesMissingFromManifestList: unmanifestedPublishedPages,
+    changed: 0, changedFiles: reportChangedFiles ? [] : undefined,
+    removedCustomMeta: 0, homepageGlobalTags: 0, homepageRecords: counts,
+    pageCategoryCoverage: {}, pageSpecificMetaRecords: 0,
+    duplicateKovScripts: 0, dryRun
+  };
   for (const file of files) {
     let html = original.get(file);
     const found = recordsByFile.get(file);
     const { nodes, oldScript } = parseExisting(html);
     const isHome = file === homePath;
-    const eligible = eligiblePublic(file);
+    const eligible = eligiblePublic(file, html);
     const canonical = eligible ? canonicalFor(html, file) : null;
     const graph = buildGraph(nodes, found, isHome, counts, file, canonical, titleFor(html));
     const before = html;
@@ -634,7 +685,7 @@ function main() {
   }
   if (summary.duplicateKovScripts) issues.push(`multiple generated KOV JSON-LD scripts on ${summary.duplicateKovScripts} pages`);
   if (issues.length) throw new Error(issues.join('; '));
-  if (!dryRun) for (const [file, html] of outputs) fs.writeFileSync(path.join(ROOT, file), html, 'utf8');
+  if (!dryRun) for (const [file, html] of outputs) fs.writeFileSync(path.join(outputRoot, file), html, 'utf8');
   console.log(JSON.stringify(summary, null, 2));
 }
 main();
