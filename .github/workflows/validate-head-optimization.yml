@@ -272,3 +272,62 @@ jobs:
           for item in unmanifested:
               print(f"  - {item}")
           PY
+      - name: Exercise all 18 compressed catalogue URLs through the Cloudflare Pages Worker
+        run: |
+          npx --yes wrangler@latest pages dev dist --ip 127.0.0.1 --port 8788 --compatibility-date 2026-11-17 > /tmp/kov-pages-dev.log 2>&1 &
+          pages_pid=$!
+          trap 'kill "$pages_pid" 2>/dev/null || true' EXIT
+          ready=0
+          for attempt in $(seq 1 45); do
+            if curl --fail --silent http://127.0.0.1:8788/ >/dev/null; then
+              ready=1
+              break
+            fi
+            if ! kill -0 "$pages_pid" 2>/dev/null; then
+              cat /tmp/kov-pages-dev.log
+              exit 1
+            fi
+            sleep 1
+          done
+          if [ "$ready" -ne 1 ]; then
+            cat /tmp/kov-pages-dev.log
+            exit 1
+          fi
+          python - <<'PY'
+          import gzip
+          import json
+          from urllib.error import HTTPError
+          from urllib.request import Request, urlopen
+
+          base = "http://127.0.0.1:8788"
+          slugs = [
+              "audiences", "job-titles", "occupations", "industries", "skills",
+              "qualifications", "professional-terms", "job-functions",
+              "seniority-levels", "employment-types", "career-challenges",
+              "career-search-intents", "faqs", "languages", "countries",
+              "cities", "towns-localities", "institutions",
+          ]
+
+          for slug in slugs:
+              url = f"{base}/data/catalogues/{slug}.json"
+              with urlopen(Request(url, headers={"Accept-Encoding": "gzip"})) as response:
+                  assert response.status == 200, f"{slug}: gzip route returned {response.status}"
+                  assert "application/json" in response.headers.get("Content-Type", ""), f"{slug}: wrong gzip Content-Type"
+                  assert response.headers.get("Content-Encoding", "").lower() == "gzip", f"{slug}: gzip response header missing"
+                  compressed = response.read()
+              decoded = gzip.decompress(compressed)
+              catalogue = json.loads(decoded)
+              assert catalogue.get("@type") == "Dataset", f"{slug}: response is not a Dataset"
+              assert catalogue.get("recordCount") == len(catalogue.get("records", [])), f"{slug}: recordCount mismatch"
+              assert catalogue.get("identifier") == f"https://www.kovcareeragency.org/data/catalogues/{slug}.json", f"{slug}: identifier mismatch"
+
+              with urlopen(Request(url, headers={"Accept-Encoding": "identity"})) as response:
+                  assert response.status == 200, f"{slug}: identity route returned {response.status}"
+                  assert "application/json" in response.headers.get("Content-Type", ""), f"{slug}: wrong identity Content-Type"
+                  assert not response.headers.get("Content-Encoding"), f"{slug}: identity response was still encoded"
+                  identity = response.read()
+              assert identity == decoded, f"{slug}: gzip and identity responses do not contain identical source bytes"
+              print(f"PASS {slug}: {catalogue['recordCount']:,} records; gzip and identity HTTP responses verified")
+
+          print(f"PASS: all {len(slugs)} catalogue URLs returned complete JSON through the Cloudflare Pages Worker.")
+          PY
