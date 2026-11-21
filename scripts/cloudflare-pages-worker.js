@@ -58,6 +58,7 @@ export default {
       if (!asset.ok) return asset;
 
       const headers = new Headers(asset.headers);
+      const assetEncoding = (headers.get("Content-Encoding") || "").trim().toLowerCase();
       const contentType = url.pathname.endsWith(".jsonld")
         ? "application/ld+json; charset=utf-8"
         : "application/json; charset=utf-8";
@@ -68,7 +69,19 @@ export default {
       headers.set("Vary", [...vary].join(", "));
       headers.delete("Content-Length");
 
-      const body = request.method === "HEAD" ? null : asset.body;
+      // Remove any HTTP-level encoding applied by the Pages asset binding.
+      // The underlying .gz file is itself the representation we want to serve.
+      let body = request.method === "HEAD" ? null : asset.body;
+      if (body && assetEncoding === "gzip") {
+        body = body.pipeThrough(new DecompressionStream("gzip"));
+      } else if (assetEncoding && assetEncoding !== "identity") {
+        return new Response("Unsupported catalogue asset encoding", {
+          status: 502,
+          headers: { "Content-Type": "text/plain; charset=utf-8" },
+        });
+      }
+      headers.delete("Content-Encoding");
+
       if (gzipIsAcceptable(request.headers.get("Accept-Encoding"))) {
         headers.set("Content-Encoding", "gzip");
         return new Response(body, {
@@ -78,7 +91,6 @@ export default {
         });
       }
 
-      headers.delete("Content-Encoding");
       const decodedBody = body ? body.pipeThrough(new DecompressionStream("gzip")) : null;
       return new Response(decodedBody, {
         status: asset.status,
