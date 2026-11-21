@@ -279,7 +279,7 @@ jobs:
           trap 'kill "$pages_pid" 2>/dev/null || true' EXIT
           ready=0
           for attempt in $(seq 1 45); do
-            if curl --fail --silent http://127.0.0.1:8788/ >/dev/null; then
+            if curl --fail --silent --max-time 2 http://127.0.0.1:8788/ >/dev/null; then
               ready=1
               break
             fi
@@ -293,10 +293,9 @@ jobs:
             cat /tmp/kov-pages-dev.log
             exit 1
           fi
-          python - <<'PY'
+          python -u - <<'PY'
           import gzip
           import json
-          from urllib.error import HTTPError
           from urllib.request import Request, urlopen
 
           base = "http://127.0.0.1:8788"
@@ -310,7 +309,7 @@ jobs:
 
           for slug in slugs:
               url = f"{base}/data/catalogues/{slug}.json"
-              with urlopen(Request(url, headers={"Accept-Encoding": "gzip"})) as response:
+              with urlopen(Request(url, headers={"Accept-Encoding": "gzip"}), timeout=10) as response:
                   assert response.status == 200, f"{slug}: gzip route returned {response.status}"
                   assert "application/json" in response.headers.get("Content-Type", ""), f"{slug}: wrong gzip Content-Type"
                   assert response.headers.get("Content-Encoding", "").lower() == "gzip", f"{slug}: gzip response header missing"
@@ -321,7 +320,7 @@ jobs:
               assert catalogue.get("recordCount") == len(catalogue.get("records", [])), f"{slug}: recordCount mismatch"
               assert catalogue.get("identifier") == f"https://www.kovcareeragency.org/data/catalogues/{slug}.json", f"{slug}: identifier mismatch"
 
-              with urlopen(Request(url, headers={"Accept-Encoding": "identity"})) as response:
+              with urlopen(Request(url, headers={"Accept-Encoding": "identity"}), timeout=10) as response:
                   assert response.status == 200, f"{slug}: identity route returned {response.status}"
                   assert "application/json" in response.headers.get("Content-Type", ""), f"{slug}: wrong identity Content-Type"
                   assert not response.headers.get("Content-Encoding"), f"{slug}: identity response was still encoded"
