@@ -198,6 +198,20 @@ jobs:
               except Exception as exc:
                   failures.append(f"{slug}: compressed package cannot be decompressed/parsed: {exc}")
 
+          worker_path = output / "_worker.js"
+          if not worker_path.is_file():
+              failures.append("Cloudflare Pages Worker is missing from build output")
+          else:
+              worker_source = worker_path.read_text(encoding="utf-8")
+              for slug in expected_catalogue_slugs:
+                  route = f'["/data/catalogues/{slug}.json", "/data/catalogues/{slug}.json.gz"]'
+                  if route not in worker_source:
+                      failures.append(f"Worker is missing compressed catalogue route for {slug}")
+              if 'headers.set("Content-Encoding", "gzip")' not in worker_source:
+                  failures.append("Worker does not set Content-Encoding: gzip for compressed catalogue responses")
+              if "application/json; charset=utf-8" not in worker_source:
+                  failures.append("Worker does not serve catalogue packages with an application/json content type")
+
           homepage = output / "index.html"
           homepage_text = homepage.read_text(encoding="utf-8")
           homepage_head = head_re.search(homepage_text).group(2)
