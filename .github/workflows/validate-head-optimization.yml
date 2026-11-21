@@ -39,11 +39,17 @@ jobs:
           inventory_paths = {item["path"].replace("\\", "/") for item in inventory}
           pages = sorted(output.rglob("*.html"))
           published_paths = {page.relative_to(output).as_posix() for page in pages}
-          active_paths = {
-              item["path"].replace("\\", "/")
-              for item in inventory
-              if item.get("indexable") is True and item["path"].replace("\\", "/") in published_paths
-          }
+          active_paths = set()
+          for item in inventory:
+              normalized = item["path"].replace("\\", "/")
+              excluded = (
+                  normalized.startswith("staging/")
+                  or normalized.startswith("_design-reference/")
+                  or normalized.startswith("design-reference/")
+                  or re.match(r"^(?:private|admin)(?:/|[-_])", normalized, re.I)
+              )
+              if item.get("indexable") is True and normalized in published_paths and not excluded:
+                  active_paths.add(normalized)
           missing = sorted(inventory_paths - published_paths)
           unmanifested = sorted(published_paths - inventory_paths)
 
