@@ -75,15 +75,12 @@ jobs:
           missing = sorted(inventory_paths - published_paths)
           unmanifested = sorted(published_paths - inventory_paths)
 
-          assert len(inventory_paths) == 2076, f"Expected 2,076 manifest HTML entries, found {len(inventory_paths)}"
+          assert len(inventory_paths) == 2078, f"Expected 2,078 manifest HTML entries, found {len(inventory_paths)}"
           assert len(pages) == 2060, f"Expected 2,060 published HTML pages, found {len(pages)}"
           assert len(active_paths) == 704, f"Expected 704 active indexable published pages, found {len(active_paths)}"
           assert len(missing) == 18, f"Expected 18 manifest paths excluded from public output, found {len(missing)}"
-          assert unmanifested == [
-              "resources/candidate-project-directory.html",
-              "site-directory.html",
-          ], f"Unexpected published pages missing from manifest: {unmanifested}"
-          assert len(inventory_paths) - len(pages) == 16, "The inventory/build difference is not reconciled"
+          assert unmanifested == [], f"Published HTML pages missing from manifest: {unmanifested}"
+          assert len(inventory_paths) - len(pages) == 18, "The 18 manifest-only non-published paths are not reconciled"
 
           taxonomy_names = (
               "professional-audience|job-title|occupation|industry|skill|qualification|"
@@ -264,7 +261,7 @@ jobs:
           print("PASS: page bodies and all content outside HEAD are unchanged.")
           print("PASS: existing canonical URLs, robots directives, social metadata, scripts, stylesheets and unrelated HEAD content are unchanged.")
           print(f"PASS: {noindex_pages} noindex pages retained their robots directives; inactive pages do not reference full catalogue packages.")
-          print(f"PAGE RECONCILIATION: manifest={len(inventory_paths)}; manifest paths absent from public output={len(missing)}; published HTML absent from manifest={len(unmanifested)}; public HTML={len(pages)}; net difference=16.")
+          print(f"PAGE RECONCILIATION: manifest={len(inventory_paths)}; manifest paths absent from public output={len(missing)}; published HTML absent from manifest={len(unmanifested)}; public HTML={len(pages)}; net difference=18.")
           print("Manifest paths excluded from public output:")
           for item in missing:
               print(f"  - {item}")
@@ -274,33 +271,39 @@ jobs:
           PY
       - name: Exercise all 18 compressed catalogue URLs through the Cloudflare Pages Worker
         run: |
-          cat > /tmp/kov-pages-test-wrangler.jsonc <<EOF
+          # Pages requires wrangler.jsonc at the project root. Isolate the Pages
+          # test root so the repository's existing Worker config remains untouched.
+          test_root="$(mktemp -d)"
+          cp -a dist "$test_root/dist"
+          cat > "$test_root/wrangler.jsonc" <<'EOF'
           {
             "name": "kov-catalogue-pages-test",
             "compatibility_date": "2026-11-17",
-            "pages_build_output_dir": "$(pwd)/dist"
+            "pages_build_output_dir": "./dist"
           }
           EOF
-          npx --yes wrangler@latest pages dev dist --config /tmp/kov-pages-test-wrangler.jsonc --ip 127.0.0.1 --port 8788 > /tmp/kov-pages-dev.log 2>&1 &
-          pages_pid=$!
-          trap 'kill "$pages_pid" 2>/dev/null || true' EXIT
-          ready=0
-          for attempt in $(seq 1 45); do
-            if curl --fail --silent --max-time 2 http://127.0.0.1:8788/ >/dev/null; then
-              ready=1
-              break
-            fi
-            if ! kill -0 "$pages_pid" 2>/dev/null; then
-              cat /tmp/kov-pages-dev.log
+          (
+            cd "$test_root"
+            npx --yes wrangler@latest pages dev dist --ip 127.0.0.1 --port 8788 > "$RUNNER_TEMP/kov-pages-dev.log" 2>&1 &
+            pages_pid=$!
+            trap 'kill "$pages_pid" 2>/dev/null || true' EXIT
+            ready=0
+            for attempt in $(seq 1 45); do
+              if curl --fail --silent --max-time 2 http://127.0.0.1:8788/ >/dev/null; then
+                ready=1
+                break
+              fi
+              if ! kill -0 "$pages_pid" 2>/dev/null; then
+                cat "$RUNNER_TEMP/kov-pages-dev.log"
+                exit 1
+              fi
+              sleep 1
+            done
+            if [ "$ready" -ne 1 ]; then
+              cat "$RUNNER_TEMP/kov-pages-dev.log"
               exit 1
             fi
-            sleep 1
-          done
-          if [ "$ready" -ne 1 ]; then
-            cat /tmp/kov-pages-dev.log
-            exit 1
-          fi
-          python -u - <<'PY'
+            python -u - <<'PY'
           import gzip
           import json
           from urllib.request import Request, urlopen
@@ -337,3 +340,5 @@ jobs:
 
           print(f"PASS: all {len(slugs)} catalogue URLs returned complete JSON through the Cloudflare Pages Worker.")
           PY
+          )
+          rm -rf "$test_root"
