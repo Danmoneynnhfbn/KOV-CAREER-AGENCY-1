@@ -1,3 +1,17 @@
+function gzipIsAcceptable(header) {
+  if (header == null) return true;
+  const entries = header.split(",").map((part) => {
+    const [coding, ...parameters] = part.trim().toLowerCase().split(";");
+    const qualityParameter = parameters.find((parameter) => parameter.trim().startsWith("q="));
+    const quality = qualityParameter ? Number(qualityParameter.trim().slice(2)) : 1;
+    return { coding, quality: Number.isFinite(quality) ? quality : 0 };
+  });
+  const explicit = entries.find((entry) => entry.coding === "gzip");
+  if (explicit) return explicit.quality > 0;
+  const wildcard = entries.find((entry) => entry.coding === "*");
+  return Boolean(wildcard && wildcard.quality > 0);
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -5,6 +19,7 @@ export default {
       url.hostname = "www.kovcareeragency.org";
       return Response.redirect(url.toString(), 308);
     }
+
     const compressedRoutes = new Map([
       ["/data/kov-discovery-catalog.jsonld", "/data/kov-discovery-catalog.jsonld.gz"],
       ["/data/taxonomy/verified-expanded-taxonomy.json", "/data/taxonomy/verified-expanded-taxonomy.json.gz"],
@@ -38,17 +53,27 @@ export default {
       const headers = new Headers(asset.headers);
       const contentType = url.pathname.endsWith(".jsonld")
         ? "application/ld+json; charset=utf-8"
-        : url.pathname.endsWith(".js")
-          ? "text/javascript; charset=utf-8"
-          : url.pathname.endsWith(".txt")
-            ? "text/plain; charset=utf-8"
-            : "application/json; charset=utf-8";
+        : "application/json; charset=utf-8";
       headers.set("Content-Type", contentType);
-      headers.set("Content-Encoding", "gzip");
       headers.set("Cache-Control", "public, max-age=3600");
-      headers.set("Vary", "Accept-Encoding");
+      const vary = new Set((headers.get("Vary") || "").split(",").map((value) => value.trim()).filter(Boolean));
+      vary.add("Accept-Encoding");
+      headers.set("Vary", [...vary].join(", "));
       headers.delete("Content-Length");
-      return new Response(asset.body, {
+
+      const body = request.method === "HEAD" ? null : asset.body;
+      if (gzipIsAcceptable(request.headers.get("Accept-Encoding"))) {
+        headers.set("Content-Encoding", "gzip");
+        return new Response(body, {
+          status: asset.status,
+          statusText: asset.statusText,
+          headers,
+        });
+      }
+
+      headers.delete("Content-Encoding");
+      const decodedBody = body ? body.pipeThrough(new DecompressionStream("gzip")) : null;
+      return new Response(decodedBody, {
         status: asset.status,
         statusText: asset.statusText,
         headers,
