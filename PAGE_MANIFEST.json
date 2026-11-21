@@ -3631,11 +3631,11 @@
   },
   "repository_html_inventory": {
     "scope": "Repository HTML files excluding VCS, dependency and Python virtual-environment directories; includes production, staging, design-reference and private HTML for accounting.",
-    "total": 2076,
-    "indexable": 711,
-    "noindex": 1365,
-    "missingFromPageManifest": 1353,
-    "indexableMissingFromPageManifest": 8,
+    "total": 2078,
+    "indexable": 712,
+    "noindex": 1366,
+    "missingFromPageManifest": 1355,
+    "indexableMissingFromPageManifest": 9,
     "files": [
       {
         "path": "_design-reference/krackerz/rendered-live.html",
@@ -7098,6 +7098,11 @@
         "inPageManifest": true
       },
       {
+        "path": "resources/candidate-project-directory.html",
+        "indexable": false,
+        "inPageManifest": false
+      },
+      {
         "path": "resources/candidate-success-stories.html",
         "indexable": true,
         "inPageManifest": true
@@ -10366,6 +10371,11 @@
         "path": "services/reverse-recruiting.html",
         "indexable": true,
         "inPageManifest": true
+      },
+      {
+        "path": "site-directory.html",
+        "indexable": true,
+        "inPageManifest": false
       },
       {
         "path": "staging/career-resources/board-non-executive-career/board-guide-01/index.html",
