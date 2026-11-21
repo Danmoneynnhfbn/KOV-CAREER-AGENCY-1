@@ -743,11 +743,11 @@ function main() {
   const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, 'PAGE_MANIFEST.json'), 'utf8'));
   const inventory = manifest.repository_html_inventory?.files || manifest.pages || [];
   const manifestPaths = new Set(inventory.map((page) => page.path.replace(/\\/g, '/')));
-  const indexablePaths = new Set(inventory.filter((page) => page.indexable).map((page) => page.path.replace(/\\/g, '/')));
   const eligiblePublic = (file, html) => {
-    if (file.startsWith('staging/') || file.startsWith('_design-reference/') || file.startsWith('design-reference/') || /^(?:private|admin)(?:\/|[-_])/i.test(file)) return false;
-    if (manifestPaths.has(file)) return indexablePaths.has(file);
-    // A published HTML page absent from the inventory is classified from its own robots directive.
+    if (file.startsWith('staging/') || file.startsWith('_design-reference/') || file.startsWith('design-reference/') || /^(?:private|admin)(?:\\/|[-_])/i.test(file)) return false;
+    // The manifest's historical "indexable" flag is not authoritative for current
+    // publication eligibility. Every shipped public page is eligible unless its
+    // actual robots/googlebot/bingbot directives explicitly contain noindex.
     return !hasNoindexDirective(html);
   };
   const homePath = 'index.html';
