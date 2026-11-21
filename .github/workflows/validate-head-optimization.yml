@@ -226,8 +226,8 @@ jobs:
                   route = f'["/data/catalogues/{slug}.json", "/data/catalogues/{slug}.json.gz"]'
                   if route not in worker_source:
                       failures.append(f"Worker is missing compressed catalogue route for {slug}")
-              if 'headers.set("Content-Encoding", "gzip")' not in worker_source:
-                  failures.append("Worker does not set Content-Encoding: gzip for compressed catalogue responses")
+              if 'headers.delete("Content-Encoding")' not in worker_source:
+                  failures.append("Worker does not remove backing-asset Content-Encoding before returning decoded JSON")
               if "application/json; charset=utf-8" not in worker_source:
                   failures.append("Worker does not serve catalogue packages with an application/json content type")
 
