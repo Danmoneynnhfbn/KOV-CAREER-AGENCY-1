@@ -40,17 +40,7 @@ jobs:
           pages = sorted(output.rglob("*.html"))
           published_paths = {page.relative_to(output).as_posix() for page in pages}
           active_paths = set()
-          for item in inventory:
-              normalized = item["path"].replace("\\", "/")
-              excluded = (
-                  normalized.startswith("staging/")
-                  or normalized.startswith("_design-reference/")
-                  or normalized.startswith("design-reference/")
-                  or re.match(r"^(?:private|admin)(?:/|[-_])", normalized, re.I)
-              )
-              if item.get("indexable") is True and normalized in published_paths and not excluded:
-                  active_paths.add(normalized)
-          for relative in published_paths - inventory_paths:
+          for relative in published_paths:
               excluded = (
                   relative.startswith("staging/")
                   or relative.startswith("_design-reference/")
@@ -60,8 +50,8 @@ jobs:
               if excluded:
                   continue
               page_html = (repo / relative).read_text(encoding="utf-8")
-              page_head = re.search(r"<head\b([^>]*)>([\s\S]*?)</head\s*>", page_html, re.I)
-              head_text = page_head.group(2) if page_head else ""
+              page_head = re.search(r"<head\b[^>]*>([\s\S]*?)</head\s*>", page_html, re.I)
+              head_text = page_head.group(1) if page_head else ""
               has_noindex = False
               for meta in re.finditer(r"<meta\b[^>]*>", head_text, re.I):
                   tag = meta.group(0)
@@ -77,7 +67,7 @@ jobs:
 
           assert len(inventory_paths) == 2078, f"Expected 2,078 manifest HTML entries, found {len(inventory_paths)}"
           assert len(pages) == 2060, f"Expected 2,060 published HTML pages, found {len(pages)}"
-          assert len(active_paths) == 704, f"Expected 704 active indexable published pages, found {len(active_paths)}"
+          assert len(active_paths) == 1425, f"Expected 1,425 active public non-noindex pages, found {len(active_paths)}"
           assert len(missing) == 18, f"Expected 18 manifest paths excluded from public output, found {len(missing)}"
           assert unmanifested == [], f"Published HTML pages missing from manifest: {unmanifested}"
           assert len(inventory_paths) - len(pages) == 18, "The 18 manifest-only non-published paths are not reconciled"
@@ -256,7 +246,7 @@ jobs:
               raise SystemExit("\n".join(failures[:100]))
 
           print("PASS: 2,060 published HTML pages each contain one valid KOV JSON-LD script.")
-          print("PASS: all 704 active pages reference all 18 complete compressed catalogue packages in HEAD.")
+          print("PASS: all 1,425 active public pages reference all 18 complete compressed catalogue packages in HEAD.")
           print("PASS: all 18 catalogue packages decompress, parse, and retain every record.")
           print("PASS: page bodies and all content outside HEAD are unchanged.")
           print("PASS: existing canonical URLs, robots directives, social metadata, scripts, stylesheets and unrelated HEAD content are unchanged.")
