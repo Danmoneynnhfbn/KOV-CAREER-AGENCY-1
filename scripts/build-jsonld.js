@@ -627,7 +627,7 @@ function main() {
   const manifestPaths = new Set(inventory.map((page) => page.path.replace(/\\/g, '/')));
   const indexablePaths = new Set(inventory.filter((page) => page.indexable).map((page) => page.path.replace(/\\/g, '/')));
   const eligiblePublic = (file, html) => {
-    if (file.startsWith('staging/') || file.startsWith('_design-reference/') || file.startsWith('design-reference/') || /^(?:private|admin)(?:\\/|[-_])/i.test(file)) return false;
+    if (file.startsWith('staging/') || file.startsWith('_design-reference/') || file.startsWith('design-reference/') || /^(?:private|admin)(?:\/|[-_])/i.test(file)) return false;
     if (manifestPaths.has(file)) return indexablePaths.has(file);
     // A published HTML page absent from the inventory is classified from its own robots directive.
     return !hasNoindexDirective(html);
