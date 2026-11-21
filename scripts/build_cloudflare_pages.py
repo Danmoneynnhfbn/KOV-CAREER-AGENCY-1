@@ -9,6 +9,7 @@ are delivered as verified gzip representations at their original public URLs.
 from __future__ import annotations
 import gzip
 import shutil
+import subprocess
 import sys
 from pathlib import Path
 
@@ -96,8 +97,20 @@ def main() -> None:
         shutil.copy2(source, destination)
         copied += 1
 
+    # Generate the 18-category JSON-LD against the staged Cloudflare output.
+    # The generator reads source catalogues from ROOT but writes only into OUT.
+    node = shutil.which("node")
+    if not node:
+        raise SystemExit("Node.js is required to generate KOV JSON-LD before HEAD optimization.")
+    metadata_builder = ROOT / "scripts" / "build-jsonld.js"
+    subprocess.run(
+        [node, str(metadata_builder), "--root", str(OUT)],
+        cwd=str(ROOT),
+        check=True,
+    )
+
     # Optimize every published HTML page, including public noindex pages.
-    # The optimizer verifies BODY and robots directives remain byte-identical.
+    # The optimizer validates unchanged bodies and preserves all unrelated HEAD content.
     head_report = optimize_tree(OUT)
     print("Verified lossless HEAD/social metadata optimization:", head_report)
 
