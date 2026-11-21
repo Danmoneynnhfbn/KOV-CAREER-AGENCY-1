@@ -536,7 +536,7 @@ function validateRendered(file, before, after, categoryCounts, isHome, eligible)
     const taxonomyTags = new RegExp(`<meta\\b(?=[^>]*\\bname\\s*=\\s*(["'])(?:${NAMES.join('|')})\\1)[^>]*>\\s*`, 'gi');
     content = content.replace(taxonomyTags, '');
     content = content.replace(/<!--\s*KOV (?:global|page-specific) descriptive metadata[^>]*-->/gi, '');
-    return match[1] + content + match[3];
+    return match[1] + content.trimEnd() + match[3];
   };
   if (managedHeadContent(before) !== managedHeadContent(after)) {
     throw new Error(`Unrelated HEAD content changed (including social metadata, scripts, stylesheets or other attributes): ${file}`);
