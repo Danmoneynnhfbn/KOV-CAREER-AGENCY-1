@@ -40,7 +40,7 @@ jobs:
           pages = sorted(output.rglob("*.html"))
           published_paths = {page.relative_to(output).as_posix() for page in pages}
           staging_public_paths = {
-              line.strip().replace("\\\\", "/")
+              line.strip().replace("\\", "/")
               for line in (repo / "scripts" / "staging-public-pages.txt").read_text(encoding="utf-8").splitlines()
               if line.strip()
           }
