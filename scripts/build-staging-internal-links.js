@@ -33,17 +33,17 @@ function extractH1(html) {
 
 function routeGroup(url) {
   const stable = url.replace(/\/$/, '');
-  if (stable.includes('/staging/roles/')) return 'roles';
-  if (stable.includes('/staging/career-resources/')) {
-    const after = stable.split('/staging/career-resources/')[1] || '';
+  if (stable.includes('/directory/roles/')) return 'roles';
+  if (stable.includes('/directory/career-resources/')) {
+    const after = stable.split('/directory/career-resources/')[1] || '';
     if (!after) return 'career-resources';
     const parts = after.split('/');
     return parts.length > 1 ? parts[0] : 'career-resources';
   }
-  if (stable.includes('/staging/resources/')) return 'resources';
-  if (stable.includes('/staging/research/')) return 'research';
-  if (stable.includes('/staging/professional-directory/')) return 'professional-directory';
-  if (stable.includes('/staging/templates/')) return 'templates';
+  if (stable.includes('/directory/resources/')) return 'resources';
+  if (stable.includes('/directory/research/')) return 'research';
+  if (stable.includes('/directory/professional-directory/')) return 'professional-directory';
+  if (stable.includes('/directory/templates/')) return 'templates';
   return 'staging';
 }
 
@@ -78,38 +78,38 @@ function breadcrumbTrail(url) {
   const labels = [];
   let current = '/';
   if (parts[0] === 'staging') {
-    labels.push({ label: 'Staging', href: '/staging/' });
-    current = '/staging/';
+    labels.push({ label: 'Staging', href: '/directory/' });
+    current = '/directory/';
     const rest = parts.slice(1);
     if (rest.length === 0) return labels;
     if (rest[0] === 'career-resources') {
-      labels.push({ label: 'Career resources', href: '/staging/career-resources/' });
+      labels.push({ label: 'Career resources', href: '/directory/career-resources/' });
       if (rest.length > 1) {
         const groupName = rest[1];
         labels.push({ label: humanizeGroup(groupName), href: current + 'career-resources/' + groupName + '/' });
       }
     } else if (rest[0] === 'roles') {
-      labels.push({ label: 'Roles', href: '/staging/roles/' });
+      labels.push({ label: 'Roles', href: '/directory/roles/' });
     } else if (rest[0] === 'resources') {
-      labels.push({ label: 'Resources', href: '/staging/resources/' });
+      labels.push({ label: 'Resources', href: '/directory/resources/' });
     }
   }
   return labels;
 }
 
 function buildBreadcrumbNav(url, title) {
-  const trail = [{ label: 'Home', href: '/' }, { label: 'Staging', href: '/staging/' }];
+  const trail = [{ label: 'Home', href: '/' }, { label: 'Staging', href: '/directory/' }];
   const clean = url.replace(/\/$/, '');
   const parts = clean.split('/').filter(Boolean);
   if (parts[0] === 'staging') {
     const rest = parts.slice(1);
     if (rest[0] === 'career-resources') {
-      trail.push({ label: 'Career resources', href: '/staging/career-resources/' });
-      if (rest[1]) trail.push({ label: humanizeGroup(rest[1]), href: '/staging/career-resources/' + rest[1] + '/' });
+      trail.push({ label: 'Career resources', href: '/directory/career-resources/' });
+      if (rest[1]) trail.push({ label: humanizeGroup(rest[1]), href: '/directory/career-resources/' + rest[1] + '/' });
     } else if (rest[0] === 'roles') {
-      trail.push({ label: 'Roles', href: '/staging/roles/' });
+      trail.push({ label: 'Roles', href: '/directory/roles/' });
     } else if (rest[0] === 'resources') {
-      trail.push({ label: 'Resources', href: '/staging/resources/' });
+      trail.push({ label: 'Resources', href: '/directory/resources/' });
     }
   }
   trail.push({ label: title, href: url });
@@ -206,7 +206,7 @@ function injectLinks() {
   if (fs.existsSync(indexFile)) {
     let html = fs.readFileSync(indexFile, 'utf8');
     if (!html.includes('data-kov-staging-link-hub')) {
-      const selected = stageRoutes.filter((url) => url !== '/staging/' && !url.includes('/country-market-guides/') && !url.includes('/company-') && !url.includes('/research/') && !url.includes('/professional-directory/')).slice(0, 12);
+      const selected = stageRoutes.filter((url) => url !== '/directory/' && !url.includes('/country-market-guides/') && !url.includes('/company-') && !url.includes('/research/') && !url.includes('/professional-directory/')).slice(0, 12);
       const list = selected.map((url) => '<li><a href="' + ensureTrailingSlash(url.replace(/\/index\.html$/, '')) + '">' + urlToTitle(url) + '</a></li>').join('');
       const block = '<section data-kov-staging-link-hub>' +
         '<h2>Staging route quick links</h2>' +
@@ -221,7 +221,7 @@ function injectLinks() {
   if (fs.existsSync(careerResourcesHub)) {
     let html = fs.readFileSync(careerResourcesHub, 'utf8');
     if (!html.includes('data-kov-career-hub-links')) {
-      const selected = stageRoutes.filter((url) => url.includes('/staging/career-resources/')).slice(0, 18);
+      const selected = stageRoutes.filter((url) => url.includes('/directory/career-resources/')).slice(0, 18);
       const list = selected.map((url) => '<li><a href="' + ensureTrailingSlash(url.replace(/\/index\.html$/, '')) + '">' + urlToTitle(url) + '</a></li>').join('');
       const block = '<section data-kov-career-hub-links>' +
         '<h2>Related resource routes</h2>' +
@@ -237,14 +237,14 @@ function injectLinks() {
   fs.writeFileSync(path.join(repoRoot, 'development', 'staging-link-audit.json'), JSON.stringify(audit, null, 2), 'utf8');
 
   const proposals = [
-    { sourceUrl: 'https://www.kovcareeragency.org/services.html', destinationUrl: '/staging/career-resources/mobility/choosing-an-international-mobility-route-as-an-executive/', anchorText: 'Choosing an international mobility route as an executive', reason: 'Supports visitors who are evaluating international career moves after exploring service options.' },
-    { sourceUrl: 'https://www.kovcareeragency.org/services/career-strategy-senior-leaders.html', destinationUrl: '/staging/career-resources/executive-career-guides/financial-leader-to-ceo-transition/', anchorText: 'Financial leader to CEO transition guide', reason: 'Relevant for senior leaders planning a transition strategy and reviewing role-fit questions.' },
-    { sourceUrl: 'https://www.kovcareeragency.org/roles/ceo/', destinationUrl: '/staging/roles/cfo/', anchorText: 'CFO leadership guide', reason: 'A CEO audience often researches adjacent executive roles and role-to-role transitions.' },
-    { sourceUrl: 'https://www.kovcareeragency.org/industries/finance-insurance/', destinationUrl: '/staging/career-resources/industry-specific-career-guides/fintech-payments-career-guide/', anchorText: 'Fintech payments career guide', reason: 'Relevant for finance and insurance visitors exploring adjacent industry transitions.' },
-    { sourceUrl: 'https://www.kovcareeragency.org/markets/executive-job-search-dubai.html', destinationUrl: '/staging/career-resources/country-market-guides/uae-executive-job-search-market-guide/', anchorText: 'UAE executive job-search market guide', reason: 'A UAE market page naturally benefits from a regional market-research resource.' },
-    { sourceUrl: 'https://www.kovcareeragency.org/resources/executive-job-search-in-your-market.html', destinationUrl: '/staging/career-resources/country-market-guides/canada-executive-job-search-market-guide/', anchorText: 'Canada executive job-search market research guide', reason: 'Useful for country-specific search planning and evidence-checking methodology.' },
-    { sourceUrl: 'https://www.kovcareeragency.org/resources/case-studies.html', destinationUrl: '/staging/career-resources/board-non-executive-career/non-executive-director-readiness-assessment/', anchorText: 'Board readiness assessment', reason: 'Relevant when readers want a decision-quality framework for non-executive board opportunities.' },
-    { sourceUrl: 'https://www.kovcareeragency.org/resources/salary-offer-negotiation-guide.html', destinationUrl: '/staging/career-resources/salary-compensation-guides/us-federal-executive-pay-table-career-guide/', anchorText: 'US federal executive pay table career guide', reason: 'Useful context for compensation review and benchmarking discussions.' },
+    { sourceUrl: 'https://www.kovcareeragency.org/services.html', destinationUrl: '/directory/career-resources/mobility/choosing-an-international-mobility-route-as-an-executive/', anchorText: 'Choosing an international mobility route as an executive', reason: 'Supports visitors who are evaluating international career moves after exploring service options.' },
+    { sourceUrl: 'https://www.kovcareeragency.org/services/career-strategy-senior-leaders.html', destinationUrl: '/directory/career-resources/executive-career-guides/financial-leader-to-ceo-transition/', anchorText: 'Financial leader to CEO transition guide', reason: 'Relevant for senior leaders planning a transition strategy and reviewing role-fit questions.' },
+    { sourceUrl: 'https://www.kovcareeragency.org/roles/ceo/', destinationUrl: '/directory/roles/cfo/', anchorText: 'CFO leadership guide', reason: 'A CEO audience often researches adjacent executive roles and role-to-role transitions.' },
+    { sourceUrl: 'https://www.kovcareeragency.org/industries/finance-insurance/', destinationUrl: '/directory/career-resources/industry-specific-career-guides/fintech-payments-career-guide/', anchorText: 'Fintech payments career guide', reason: 'Relevant for finance and insurance visitors exploring adjacent industry transitions.' },
+    { sourceUrl: 'https://www.kovcareeragency.org/markets/executive-job-search-dubai.html', destinationUrl: '/directory/career-resources/country-market-guides/uae-executive-job-search-market-guide/', anchorText: 'UAE executive job-search market guide', reason: 'A UAE market page naturally benefits from a regional market-research resource.' },
+    { sourceUrl: 'https://www.kovcareeragency.org/resources/executive-job-search-in-your-market.html', destinationUrl: '/directory/career-resources/country-market-guides/canada-executive-job-search-market-guide/', anchorText: 'Canada executive job-search market research guide', reason: 'Useful for country-specific search planning and evidence-checking methodology.' },
+    { sourceUrl: 'https://www.kovcareeragency.org/resources/case-studies.html', destinationUrl: '/directory/career-resources/board-non-executive-career/non-executive-director-readiness-assessment/', anchorText: 'Board readiness assessment', reason: 'Relevant when readers want a decision-quality framework for non-executive board opportunities.' },
+    { sourceUrl: 'https://www.kovcareeragency.org/resources/salary-offer-negotiation-guide.html', destinationUrl: '/directory/career-resources/salary-compensation-guides/us-federal-executive-pay-table-career-guide/', anchorText: 'US federal executive pay table career guide', reason: 'Useful context for compensation review and benchmarking discussions.' },
   ];
 
   const csvRows = ['sourceUrl,destinationUrl,anchorText,reason'];
@@ -296,7 +296,7 @@ function runAudit(stageRoutes) {
     outMap.set(url, hrefs.length);
     for (const href of hrefs) {
       const normalized = href.startsWith('http') ? new URL(href).pathname : href;
-      if (normalized.startsWith('/staging/')) {
+      if (normalized.startsWith('/directory/')) {
         const destUrl = normalized.replace(/\/index\.html$/, '/');
         const isValid = stageSet.has(destUrl.replace(/\/$/, '/')) || stageSet.has(destUrl) || stageSet.has(destUrl + '/');
         if (isValid) validNewToNewLinks += 1;
