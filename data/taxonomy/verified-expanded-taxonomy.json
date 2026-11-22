@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedOn": "2026-11-20",
+    "generatedOn": "2026-11-22",
     "sourceFile": "data/taxonomy/verified-expanded-taxonomy.json",
     "statement": "Verified-source compatibility snapshot. KOV-defined categories are internally classified from KOV pages; ESCO, ISO, Ofqual, and Wikidata records retain source identifiers and provenance. Search-intent entries are hypotheses, not observed Search Console queries.",
     "sourceRegistry": {
