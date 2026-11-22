@@ -1,2 +1,2 @@
 /staging /directory 301
-/directory/* /directory/:splat 301
+/staging/* /directory/:splat 301
