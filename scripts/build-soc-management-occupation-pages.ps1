@@ -156,7 +156,7 @@ $directoryId = "soc-management-occupations-detail-directory"
 $directorySlug = "soc-management-detail"
 $directoryTitle = "2018 U.S. SOC Management Occupations: Detailed Directory"
 $directoryUrl = "/roles/soc-management-occupation-directory.html"
-$directoryStageUrl = "/staging/roles/$directorySlug/"
+$directoryStageUrl = "/directory/roles/$directorySlug/"
 $directoryBlueprint = "development/blueprints/occupation-classification/$directoryId.md"
 $directoryRecord = "development/research/records/$directoryId.json"
 $pages = [System.Collections.Generic.List[object]]::new()
@@ -181,7 +181,7 @@ foreach ($occupation in $occupations) {
     title = "$($occupation.title) (U.S. SOC $($occupation.code))"
     slug = $slug
     proposed_url = "/roles/$slug.html"
-    staging_url = "/staging/roles/$slug/"
+    staging_url = "/directory/roles/$slug/"
     blueprint_path = "development/blueprints/occupation-classification/$id.md"
     record_path = "development/research/records/$id.json"
     definition = $occupation.definition
@@ -264,7 +264,7 @@ foreach ($page in $pages) {
     $links = ($occupations | ForEach-Object {
       $childSlug = "soc-occupation-$($_.code.ToLowerInvariant())-" + (($_.title.ToLowerInvariant() -replace "[^a-z0-9]+", "-").Trim("-"))
       $safeTitle = [System.Net.WebUtility]::HtmlEncode($_.title)
-      '<li><a href="/staging/roles/{0}/">{1} - {2}</a></li>' -f $childSlug, $_.code, $safeTitle
+      '<li><a href="/directory/roles/{0}/">{1} - {2}</a></li>' -f $childSlug, $_.code, $safeTitle
     }) -join "`r`n"
 @"
 <!doctype html>
@@ -277,9 +277,9 @@ foreach ($page in $pages) {
   <meta name="description" content="$metaDescription">
 </head>
 <body>
-  <header><a href="/staging/">KOV Career Agency staging</a></header>
+  <header><a href="/directory/">KOV Career Agency staging</a></header>
   <main>
-    <nav aria-label="Breadcrumb"><a href="/staging/roles/soc-major-groups/">U.S. SOC major groups</a> &gt; <a href="/staging/roles/management-occupations/">Management Occupations</a></nav>
+    <nav aria-label="Breadcrumb"><a href="/directory/roles/soc-major-groups/">U.S. SOC major groups</a> &gt; <a href="/directory/roles/management-occupations/">Management Occupations</a></nav>
     <p><strong>Unpublished taxonomy reference:</strong> This directory reflects the 2018 U.S. SOC only. It is not a global occupation system, a current labor-market guide, or a directory of KOV services.</p>
     <h1>$h1</h1>
     <p>$([System.Net.WebUtility]::HtmlEncode($scopeText))</p>
@@ -308,9 +308,9 @@ foreach ($page in $pages) {
   <meta name="description" content="$metaDescription">
 </head>
 <body>
-  <header><a href="/staging/">KOV Career Agency staging</a></header>
+  <header><a href="/directory/">KOV Career Agency staging</a></header>
   <main>
-    <nav aria-label="Breadcrumb"><a href="/staging/roles/soc-major-groups/">U.S. SOC major groups</a> &gt; <a href="/staging/roles/management-occupations/">Management Occupations</a> &gt; <a href="/staging/roles/soc-management-detail/">Detailed occupation directory</a></nav>
+    <nav aria-label="Breadcrumb"><a href="/directory/roles/soc-major-groups/">U.S. SOC major groups</a> &gt; <a href="/directory/roles/management-occupations/">Management Occupations</a> &gt; <a href="/directory/roles/soc-management-detail/">Detailed occupation directory</a></nav>
     <p><strong>Unpublished U.S. taxonomy reference:</strong> This page reproduces one occupation definition from the 2018 U.S. SOC. It is not a global classification, current labor-market research, career advice, or a KOV service listing.</p>
     <h1>$h1</h1>
     <section aria-labelledby="definition-heading">
@@ -331,7 +331,7 @@ foreach ($page in $pages) {
       <h2 id="source-heading">Source and limitations</h2>
       <p>The code, title, and definition were taken from the locally retained and cross-validated 2018 SOC structure and definitions workbooks. See the <a href="https://www.bls.gov/soc/2018/home.htm">U.S. Bureau of Labor Statistics 2018 SOC materials</a>. Verify the current official classification before relying on this page.</p>
       <p>Search demand, salary, job requirements, KOV serviceability, and outcomes have not been established. Direct search-result and candidate-relevance review remain pending.</p>
-      <p><a href="/staging/roles/soc-management-detail/">Return to the detailed occupation directory</a>.</p>
+      <p><a href="/directory/roles/soc-management-detail/">Return to the detailed occupation directory</a>.</p>
     </section>
   </main>
   <footer><p>Unpublished noindex staging content. Not legal, licensing, or career advice.</p></footer>

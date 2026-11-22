@@ -106,9 +106,9 @@ function ensureHtmlFile(dirPath, slug, title, label) {
 <body>
   <header>
     <nav aria-label="Primary navigation">
-      <a href="/staging/">Staging home</a>
-      <a href="/staging/career-resources/">Career resources</a>
-      <a href="/staging/research/">Research</a>
+      <a href="/directory/">Staging home</a>
+      <a href="/directory/career-resources/">Career resources</a>
+      <a href="/directory/research/">Research</a>
     </nav>
   </header>
   <main>
@@ -200,7 +200,7 @@ for (const group of groups) {
   for (const slug of routeNames) {
     const routeDir = group.dir.startsWith('staging/') ? path.join(root, group.dir, slug) : path.join(root, group.dir, slug);
     const publicUrl = group.dir.startsWith('staging/') ? `/career-resources/${slug}/` : `/${group.dir.replace(/^staging\//, '')}/${slug}/`;
-    const stagingUrl = group.dir.startsWith('staging/') ? `/staging/${group.stagePrefix}/${slug}/` : `/staging/${group.stagePrefix}/${slug}/`;
+    const stagingUrl = group.dir.startsWith('staging/') ? `/directory/${group.stagePrefix}/${slug}/` : `/directory/${group.stagePrefix}/${slug}/`;
     const pageTitle = titleCase(slug.replace(/-/g, ' '));
 
     candidateRows.push({
