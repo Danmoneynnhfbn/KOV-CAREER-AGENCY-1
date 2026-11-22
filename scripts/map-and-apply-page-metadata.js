@@ -471,7 +471,7 @@ function main() {
     'Date: 13 November 2026', '',
     'This map covers every HTML file in `PAGE_MANIFEST.json` repository inventory. It assigns records only to public key pages with a direct subject match. The homepage retains its global reference block. Noindex, staging, private-admin, and design-reference HTML is mapped but not edited.', '',
     `- HTML inventory: ${inventory.length} files (${manifest.repository_html_inventory.indexable} marked indexable; ${manifest.repository_html_inventory.noindex} marked noindex).`,
-    `- Indexable staging routes intentionally excluded from edits: ${inventory.filter((row) => row.path.startsWith('staging/') && row.indexable).length}.`,
+    `- Indexable staging routes intentionally excluded from edits: ${inventory.filter((row) => row.path.startsWith('directory/') && row.indexable).length}.`,
     `- Pages with page-specific additions: ${indexableChanges.length}.`,
     `- Page-specific tags added in this run: ${indexableChanges.reduce((sum, item) => sum + item.count, 0)}.`,
     `- Existing global homepage tags retained: 206,352.`, '',

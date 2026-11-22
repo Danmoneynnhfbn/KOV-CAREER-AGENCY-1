@@ -118,7 +118,7 @@ function searchGlobals(filename, variableName) {
 
 function exclusionReason(pagePath, source) {
   if (pagePath.startsWith(".private_admin/")) return "Protected administrator template; not a public page";
-  if (pagePath.startsWith("staging/")) return "Unpublished development preview; noindex and deliberately omitted from sitemap";
+  if (pagePath.startsWith("directory/")) return "Unpublished development preview; noindex and deliberately omitted from sitemap";
   if (/^404\.html$/i.test(pagePath)) return "Error utility route; not a published content landing page";
   if (noindexToken.test(metaRobots(source))) {
     if (/^(?:account|profiles)\.html$/i.test(pagePath)) return "Explicit robots noindex; private/account or user-directory surface";

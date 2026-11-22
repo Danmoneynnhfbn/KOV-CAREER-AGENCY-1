@@ -492,7 +492,7 @@ function searchIntentRecords() {
   return records;
 }
 function addMentionedEmploymentPages(records) {
-  const candidates = pageItems.filter((item) => item.indexable && !item.path.startsWith('staging/'));
+  const candidates = pageItems.filter((item) => item.indexable && !item.path.startsWith('directory/'));
   const terms = records.map((record) => ({
     record, needle: record.name.toLocaleLowerCase('en'),
   })).filter((entry) => entry.needle.length >= 7);
@@ -524,7 +524,7 @@ function validate(categories) {
       }
       if (!Array.isArray(record.pagePaths)) throw new Error(category + ': pagePaths must be an array for ' + record.name);
       for (const page of record.pagePaths) {
-        if (!pageByPath.get(page)?.indexable || page.startsWith('staging/')) throw new Error(category + ': invalid or nonindexable page map ' + page);
+        if (!pageByPath.get(page)?.indexable || page.startsWith('directory/')) throw new Error(category + ': invalid or nonindexable page map ' + page);
       }
       if (category === 'career-search-intent') {
         if (record.observedSearchConsoleQuery === true) {
