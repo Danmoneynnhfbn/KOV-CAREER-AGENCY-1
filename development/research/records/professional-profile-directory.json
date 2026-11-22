@@ -2,7 +2,7 @@
   "id": "professional-profile-directory",
   "page_title": "Professional Profile Directory",
   "proposed_url": "/professional-directory/",
-  "staging_preview_url": "/staging/professional-directory/",
+  "staging_preview_url": "/directory/professional-directory/",
   "page_group": "professional_profile_directory",
   "parent_hub": null,
   "candidate_status": "hold_existing_route_overlap_and_privacy",

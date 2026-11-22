@@ -2,7 +2,7 @@
   "id": "board-cv-and-director-biography",
   "page_title": "Board CV and Director Biography: Presenting Governance-Relevant Experience",
   "proposed_url": "/resources/board-cv-and-director-biography.html",
-  "staging_preview_url": "/staging/resources/board-cv-and-director-biography/",
+  "staging_preview_url": "/directory/resources/board-cv-and-director-biography/",
   "page_group": "board_non_executive_career",
   "parent_hub": "/career-resources/",
   "candidate_status": "qualified_for_staging_development_only",
@@ -115,7 +115,7 @@
   "content_status": "substantive_staging_page_complete",
   "publication_status": "not_published",
   "notes": [
-    "The unstyled HTML draft is under staging/resources/board-cv-and-director-biography/ and includes no stylesheet, public canonical, sitemap entry, or search-index entry.",
+    "The unstyled HTML draft is under directory/resources/board-cv-and-director-biography/ and includes no stylesheet, public canonical, sitemap entry, or search-index entry.",
     "Qualified for unpublished staging development only because the topic is explicitly in the approved brief and a specific content gap was verified. This is not a search-demand or publication decision.",
     "The FRC source is used only for the named UK context; no rules are generalized to other jurisdictions."
   ]
