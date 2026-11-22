@@ -87,9 +87,9 @@ function walkHtml(directory) {
 
 function routeForFile(filePath) {
   const relative = path.relative(stagingRoot, filePath).split(path.sep).join("/");
-  if (relative === "index.html") return "/staging/";
-  if (relative.endsWith("/index.html")) return `/staging/${relative.slice(0, -"index.html".length)}`;
-  return `/staging/${relative}`;
+  if (relative === "index.html") return "/directory/";
+  if (relative.endsWith("/index.html")) return `/directory/${relative.slice(0, -"index.html".length)}`;
+  return `/directory/${relative}`;
 }
 
 function fileForRoute(route) {
@@ -387,7 +387,7 @@ function main() {
         if (!getTargetIds(targetHtml).has(fragmentId)) result = "broken fragment";
       }
       const isNewProgram = targetFile && mappedByFile.has(targetFile);
-      const isStagingSupport = targetFile && destination.pathname.startsWith("/staging/") && !isNewProgram;
+      const isStagingSupport = targetFile && destination.pathname.startsWith("/directory/") && !isNewProgram;
       const linkType = isNewProgram
         ? "programme page"
         : isStagingSupport
