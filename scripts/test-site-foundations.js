@@ -13,21 +13,21 @@ function hasSharedVisualStylesheet(html) {
   return href === "/css/kov-global-redesign.css" && fs.existsSync(path.join(root, "css", "kov-global-redesign.css"));
 }
 const previewRoutes = [
-  "/staging/",
-  "/staging/career-resources/",
-  "/staging/research/",
-  "/staging/professional-directory/",
-  "/staging/templates/",
-  "/staging/templates/international-mobility.html",
-  "/staging/visual-assets/",
-  "/staging/career-resources/mobility/choosing-an-international-mobility-route-as-an-executive/",
-  "/staging/career-resources/mobility/employer-sponsored-vs-independent-work-routes/",
-  "/staging/career-resources/mobility/canada-express-entry-senior-managers/",
-  "/staging/career-resources/mobility/uk-expansion-worker-route-overseas-business-leaders/",
-  "/staging/career-resources/mobility/uk-global-talent-digital-technology-leaders/",
-  "/staging/career-resources/industry-specific-career-guides/bank-executive-to-fintech-career-transition/",
-  "/staging/career-resources/industry-specific-career-guides/oil-gas-to-offshore-wind-executive-transition/",
-  "/staging/resources/executive-decision-quality-accountability/",
+  "/directory/",
+  "/directory/career-resources/",
+  "/directory/research/",
+  "/directory/professional-directory/",
+  "/directory/templates/",
+  "/directory/templates/international-mobility.html",
+  "/directory/visual-assets/",
+  "/directory/career-resources/mobility/choosing-an-international-mobility-route-as-an-executive/",
+  "/directory/career-resources/mobility/employer-sponsored-vs-independent-work-routes/",
+  "/directory/career-resources/mobility/canada-express-entry-senior-managers/",
+  "/directory/career-resources/mobility/uk-expansion-worker-route-overseas-business-leaders/",
+  "/directory/career-resources/mobility/uk-global-talent-digital-technology-leaders/",
+  "/directory/career-resources/industry-specific-career-guides/bank-executive-to-fintech-career-transition/",
+  "/directory/career-resources/industry-specific-career-guides/oil-gas-to-offshore-wind-executive-transition/",
+  "/directory/resources/executive-decision-quality-accountability/",
 ];
 const hypotheticalScenarioSlugs = [
   "banking-to-fintech-leadership",
@@ -73,44 +73,44 @@ const socManagementSubgroupSlugs = [
   "soc-management-subgroup-119000",
 ];
 const definedCandidatePreviewRoutes = [
-  "/staging/career-resources/industry-specific-career-guides/aerospace-defense-career-guide/",
-  "/staging/career-resources/industry-specific-career-guides/biopharma-career-guide/",
-  "/staging/career-resources/industry-specific-career-guides/cybersecurity-services-career-guide/",
-  "/staging/career-resources/industry-specific-career-guides/data-center-cloud-infrastructure-career-guide/",
-  "/staging/career-resources/industry-specific-career-guides/ev-battery-career-guide/",
-  "/staging/career-resources/industry-specific-career-guides/federal-executive-private-sector-job-search-ethics/",
-  "/staging/career-resources/industry-specific-career-guides/fintech-payments-career-guide/",
-  "/staging/career-resources/industry-specific-career-guides/freight-forwarding-3pl-career-guide/",
-  "/staging/career-resources/industry-specific-career-guides/medical-device-career-guide/",
-  "/staging/career-resources/industry-specific-career-guides/renewable-power-career-guide/",
-  "/staging/career-resources/industry-specific-career-guides/semiconductor-career-guide/",
-  "/staging/career-resources/industry-specific-career-guides/us-medicare-provider-operations-leadership-career-guide/",
-  "/staging/career-resources/executive-career-guides/financial-leader-to-ceo-transition/",
-  "/staging/career-resources/leadership-skills-competencies/federal-executive-core-qualifications-career-evidence/",
-  "/staging/career-resources/salary-compensation-guides/us-federal-executive-pay-table-career-guide/",
-  "/staging/career-resources/country-market-guides/canada-executive-job-search-market-guide/",
-  "/staging/career-resources/interview-guides/us-federal-executive-structured-interview-preparation/",
-  "/staging/career-resources/country-market-guides/uk-executive-job-search-market-guide/",
-  "/staging/career-resources/country-market-guides/australia-executive-job-search-market-guide/",
-  "/staging/career-resources/country-market-guides/japan-executive-job-search-market-guide/",
-  "/staging/career-resources/country-market-guides/singapore-executive-job-search-market-guide/",
-  "/staging/career-resources/country-market-guides/germany-executive-job-search-market-guide/",
-  "/staging/career-resources/comparison-educational/eu-employment-rate-comparison-for-market-research/",
-  "/staging/career-resources/board-non-executive-career/uk-non-executive-director-board-opportunity-research/",
-  "/staging/career-resources/executive-career-guides/uk-civil-service-senior-role-success-profiles-evidence/",
-  "/staging/career-resources/mobility/canada-express-entry-senior-managers/",
-  "/staging/career-resources/mobility/eu-blue-card-senior-professionals/",
-  "/staging/career-resources/mobility/choosing-an-international-mobility-route-as-an-executive/",
-  "/staging/career-resources/mobility/employer-sponsored-vs-independent-work-routes/",
-  "/staging/career-resources/mobility/professional-qualification-recognition-cross-border-executive-moves/",
-  "/staging/career-resources/mobility/new-zealand-skilled-migrant-category-executives/",
-  "/staging/career-resources/mobility/occupational-codes-cross-border-executive-search/",
-  "/staging/career-resources/mobility/singapore-employment-pass-executives/",
-  "/staging/career-resources/mobility/uk-expansion-worker-route-overseas-business-leaders/",
-  "/staging/career-resources/mobility/uk-global-talent-digital-technology-leaders/",
-  "/staging/career-resources/mobility/uk-global-talent-research-leaders/",
-  "/staging/career-resources/mobility/uk-innovator-founder-route-executive-founders/",
-  "/staging/career-resources/mobility/uk-senior-specialist-worker-executive-transfers/",
+  "/directory/career-resources/industry-specific-career-guides/aerospace-defense-career-guide/",
+  "/directory/career-resources/industry-specific-career-guides/biopharma-career-guide/",
+  "/directory/career-resources/industry-specific-career-guides/cybersecurity-services-career-guide/",
+  "/directory/career-resources/industry-specific-career-guides/data-center-cloud-infrastructure-career-guide/",
+  "/directory/career-resources/industry-specific-career-guides/ev-battery-career-guide/",
+  "/directory/career-resources/industry-specific-career-guides/federal-executive-private-sector-job-search-ethics/",
+  "/directory/career-resources/industry-specific-career-guides/fintech-payments-career-guide/",
+  "/directory/career-resources/industry-specific-career-guides/freight-forwarding-3pl-career-guide/",
+  "/directory/career-resources/industry-specific-career-guides/medical-device-career-guide/",
+  "/directory/career-resources/industry-specific-career-guides/renewable-power-career-guide/",
+  "/directory/career-resources/industry-specific-career-guides/semiconductor-career-guide/",
+  "/directory/career-resources/industry-specific-career-guides/us-medicare-provider-operations-leadership-career-guide/",
+  "/directory/career-resources/executive-career-guides/financial-leader-to-ceo-transition/",
+  "/directory/career-resources/leadership-skills-competencies/federal-executive-core-qualifications-career-evidence/",
+  "/directory/career-resources/salary-compensation-guides/us-federal-executive-pay-table-career-guide/",
+  "/directory/career-resources/country-market-guides/canada-executive-job-search-market-guide/",
+  "/directory/career-resources/interview-guides/us-federal-executive-structured-interview-preparation/",
+  "/directory/career-resources/country-market-guides/uk-executive-job-search-market-guide/",
+  "/directory/career-resources/country-market-guides/australia-executive-job-search-market-guide/",
+  "/directory/career-resources/country-market-guides/japan-executive-job-search-market-guide/",
+  "/directory/career-resources/country-market-guides/singapore-executive-job-search-market-guide/",
+  "/directory/career-resources/country-market-guides/germany-executive-job-search-market-guide/",
+  "/directory/career-resources/comparison-educational/eu-employment-rate-comparison-for-market-research/",
+  "/directory/career-resources/board-non-executive-career/uk-non-executive-director-board-opportunity-research/",
+  "/directory/career-resources/executive-career-guides/uk-civil-service-senior-role-success-profiles-evidence/",
+  "/directory/career-resources/mobility/canada-express-entry-senior-managers/",
+  "/directory/career-resources/mobility/eu-blue-card-senior-professionals/",
+  "/directory/career-resources/mobility/choosing-an-international-mobility-route-as-an-executive/",
+  "/directory/career-resources/mobility/employer-sponsored-vs-independent-work-routes/",
+  "/directory/career-resources/mobility/professional-qualification-recognition-cross-border-executive-moves/",
+  "/directory/career-resources/mobility/new-zealand-skilled-migrant-category-executives/",
+  "/directory/career-resources/mobility/occupational-codes-cross-border-executive-search/",
+  "/directory/career-resources/mobility/singapore-employment-pass-executives/",
+  "/directory/career-resources/mobility/uk-expansion-worker-route-overseas-business-leaders/",
+  "/directory/career-resources/mobility/uk-global-talent-digital-technology-leaders/",
+  "/directory/career-resources/mobility/uk-global-talent-research-leaders/",
+  "/directory/career-resources/mobility/uk-innovator-founder-route-executive-founders/",
+  "/directory/career-resources/mobility/uk-senior-specialist-worker-executive-transfers/",
 ];
 const existingRoutes = [
   "/index.html",
@@ -255,7 +255,7 @@ async function assertRenderedRoute(page, baseUrl, route, isPreview) {
     }
   }
   assert.equal(
-    await page.locator('header a.kov-global-nav-link[href^="/staging/"]').count(),
+    await page.locator('header a.kov-global-nav-link[href^="/directory/"]').count(),
     0,
     `${route} should not expose staging candidates in public navigation`
   );
@@ -299,8 +299,8 @@ async function main() {
   assert.equal(scenarioIndex.includes('data-kov-react-navigation'), true);
   assert.equal(scenarioIndex.includes("None is based on a real KOV client"), true);
   assert.equal([...scenarioIndex.matchAll(/<h1\b/gi)].length, 1);
-  assert.equal(sitemap.includes("/staging/resources/hypothetical-career-scenarios"), false);
-  assert.equal(searchIndex.includes("/staging/resources/hypothetical-career-scenarios"), false);
+  assert.equal(sitemap.includes("/directory/resources/hypothetical-career-scenarios"), false);
+  assert.equal(searchIndex.includes("/directory/resources/hypothetical-career-scenarios"), false);
   for (const slug of hypotheticalScenarioSlugs) {
     const scenario = fs.readFileSync(path.join(scenarioDirectory, slug, "index.html"), "utf8");
     assert.equal(scenario.includes('name="robots" content="noindex, nofollow"'), true, `${slug} should be noindex`);
@@ -308,8 +308,8 @@ async function main() {
     assert.equal(scenario.includes("<strong>Fictional scenario — not a real KOV client"), true, `${slug} should disclose fiction`);
     assert.match(scenario, /not a client case or testimonial/i, `${slug} should disclaim client evidence`);
     assert.equal([...scenario.matchAll(/<h1\b/gi)].length, 1, `${slug} should have one H1`);
-    assert.equal(sitemap.includes(`/staging/resources/hypothetical-career-scenarios/${slug}`), false);
-    assert.equal(searchIndex.includes(`/staging/resources/hypothetical-career-scenarios/${slug}`), false);
+    assert.equal(sitemap.includes(`/directory/resources/hypothetical-career-scenarios/${slug}`), false);
+    assert.equal(searchIndex.includes(`/directory/resources/hypothetical-career-scenarios/${slug}`), false);
   }
   const socDirectoryPath = path.join(root, "staging", "roles", "soc-major-groups", "index.html");
   const socDirectory = fs.readFileSync(socDirectoryPath, "utf8");
@@ -327,11 +327,11 @@ async function main() {
     assert.equal(source.includes("Broad occupations"), true);
     assert.equal(source.includes("https://www.bls.gov/soc/2018/home.htm"), true);
     assert.equal([...source.matchAll(/<h1\b/gi)].length, 1, `${slug} should have one H1`);
-    assert.equal(sitemap.includes(`/staging/roles/${slug}`), false);
-    assert.equal(searchIndex.includes(`/staging/roles/${slug}`), false);
+    assert.equal(sitemap.includes(`/directory/roles/${slug}`), false);
+    assert.equal(searchIndex.includes(`/directory/roles/${slug}`), false);
   }
-  assert.equal(sitemap.includes("/staging/roles/soc-major-groups"), false);
-  assert.equal(searchIndex.includes("/staging/roles/soc-major-groups"), false);
+  assert.equal(sitemap.includes("/directory/roles/soc-major-groups"), false);
+  assert.equal(searchIndex.includes("/directory/roles/soc-major-groups"), false);
   assert.equal(new Set(definedCandidatePreviewRoutes).size, 38);
   for (const route of definedCandidatePreviewRoutes) {
     const localPath = path.join(root, route.slice(1), "index.html");
@@ -577,18 +577,18 @@ async function main() {
   assert.equal(managementOccupationDirectory.includes("https://www.bls.gov/soc/2018/home.htm"), true);
   assert.equal(socManagementSubgroupSlugs.length, 3);
   for (const slug of socManagementSubgroupSlugs) {
-    assert.equal(managementOccupationDirectory.includes(`/staging/roles/${slug}/`), true);
+    assert.equal(managementOccupationDirectory.includes(`/directory/roles/${slug}/`), true);
     const subgroupPath = path.join(root, "staging", "roles", slug, "index.html");
     const source = fs.readFileSync(subgroupPath, "utf8");
     assert.equal(source.includes('name="robots" content="noindex, nofollow"'), true);
     assert.equal(hasSharedVisualStylesheet(source), true);
     assert.equal(source.includes("https://www.bls.gov/soc/2018/home.htm"), true);
     assert.ok([...source.matchAll(/<li><a href="\/staging\/roles\/soc-occupation-11-/g)].length > 0);
-    assert.equal(sitemap.includes(`/staging/roles/${slug}`), false);
-    assert.equal(searchIndex.includes(`/staging/roles/${slug}`), false);
+    assert.equal(sitemap.includes(`/directory/roles/${slug}`), false);
+    assert.equal(searchIndex.includes(`/directory/roles/${slug}`), false);
   }
-  assert.equal(sitemap.includes("/staging/roles/soc-management-detail"), false);
-  assert.equal(searchIndex.includes("/staging/roles/soc-management-detail"), false);
+  assert.equal(sitemap.includes("/directory/roles/soc-management-detail"), false);
+  assert.equal(searchIndex.includes("/directory/roles/soc-management-detail"), false);
   for (const slug of occupationSlugs) {
     const occupationPath = path.join(root, "staging", "roles", slug, "index.html");
     const source = fs.readFileSync(occupationPath, "utf8");
@@ -598,8 +598,8 @@ async function main() {
     assert.match(source, /<blockquote>\s*<p>.+<\/p>\s*<\/blockquote>/s, `${slug} should include its sourced definition`);
     assert.equal(source.includes("https://www.bls.gov/soc/2018/home.htm"), true);
     assert.equal([...source.matchAll(/<h1\b/gi)].length, 1, `${slug} should have one H1`);
-    assert.equal(sitemap.includes(`/staging/roles/${slug}`), false);
-    assert.equal(searchIndex.includes(`/staging/roles/${slug}`), false);
+    assert.equal(sitemap.includes(`/directory/roles/${slug}`), false);
+    assert.equal(searchIndex.includes(`/directory/roles/${slug}`), false);
   }
   for (const htmlPath of getHtmlFiles(path.join(root, "staging"))) {
     const html = fs.readFileSync(htmlPath, "utf8");
@@ -720,19 +720,19 @@ async function main() {
   assert.equal([...occupationDraft.matchAll(/<h1\b/gi)].length, 1, "The occupation draft should have one H1");
   assert.equal(occupationDraft.includes("Management Occupations: U.S. SOC Major Group 11-0000"), true);
   assert.equal(occupationDraft.includes("https://www.onetonline.org/link/summary/11-1011.00"), true);
-  assert.equal(occupationDraft.includes('href="/staging/roles/soc-management-detail/"'), true);
+  assert.equal(occupationDraft.includes('href="/directory/roles/soc-management-detail/"'), true);
   for (const rolePath of ["/roles/ceo/", "/roles/cfo/", "/roles/cio/", "/roles/coo/", "/roles/cto/"]) {
     assert.equal(occupationDraft.includes(`href="${rolePath}"`), true, `${rolePath} should be linked from the draft`);
     const roleIndex = path.join(root, rolePath.slice(1), "index.html");
     assert.equal(fs.existsSync(roleIndex), true, `${rolePath} should resolve to an existing role page`);
   }
   assert.equal(
-    sitemap.includes("/staging/roles/management-occupations"),
+    sitemap.includes("/directory/roles/management-occupations"),
     false,
     "The occupation draft must remain out of the public sitemap"
   );
   assert.equal(
-    searchIndex.includes("/staging/roles/management-occupations"),
+    searchIndex.includes("/directory/roles/management-occupations"),
     false,
     "The occupation draft must remain out of public search"
   );
@@ -742,8 +742,8 @@ async function main() {
   assert.equal([...boardCvDraft.matchAll(/<h1\b/gi)].length, 1, "The board CV draft should have one H1");
   assert.equal(boardCvDraft.includes("Financial Reporting Council"), true);
   assert.equal(boardCvDraft.includes("does not prescribe a board CV"), true);
-  assert.equal(sitemap.includes("/staging/resources/board-cv-and-director-biography"), false);
-  assert.equal(searchIndex.includes("/staging/resources/board-cv-and-director-biography"), false);
+  assert.equal(sitemap.includes("/directory/resources/board-cv-and-director-biography"), false);
+  assert.equal(searchIndex.includes("/directory/resources/board-cv-and-director-biography"), false);
   assert.equal(nedDueDiligenceDraft.includes('name="robots" content="noindex, nofollow"'), true);
   assert.equal(hasSharedVisualStylesheet(nedDueDiligenceDraft), true, "The NED guide should load the shared visual stylesheet");
   assert.equal(nedDueDiligenceDraft.includes('rel="canonical"'), false);
@@ -751,8 +751,8 @@ async function main() {
   assert.equal(nedDueDiligenceDraft.includes("Financial Reporting Council"), true);
   assert.equal(nedDueDiligenceDraft.includes("does not determine legal duties"), true);
   assert.equal(/\b(?:examples?|illustrative|case studies?)\b/i.test(nedDueDiligenceDraft), false);
-  assert.equal(sitemap.includes("/staging/resources/non-executive-director-opportunity-due-diligence"), false);
-  assert.equal(searchIndex.includes("/staging/resources/non-executive-director-opportunity-due-diligence"), false);
+  assert.equal(sitemap.includes("/directory/resources/non-executive-director-opportunity-due-diligence"), false);
+  assert.equal(searchIndex.includes("/directory/resources/non-executive-director-opportunity-due-diligence"), false);
 
   const globalTalentDraft = fs.readFileSync(
     path.join(root, "staging", "career-resources", "mobility", "uk-global-talent-digital-technology-leaders", "index.html"),
@@ -763,8 +763,8 @@ async function main() {
   assert.equal(globalTalentDraft.includes("job offer is not required"), true);
   assert.equal(globalTalentDraft.includes("does not assess anyone's eligibility"), true);
   assert.equal(globalTalentDraft.includes("exceptional ability"), false);
-  assert.equal(sitemap.includes("/staging/career-resources/mobility/uk-global-talent-digital-technology-leaders"), false);
-  assert.equal(searchIndex.includes("/staging/career-resources/mobility/uk-global-talent-digital-technology-leaders"), false);
+  assert.equal(sitemap.includes("/directory/career-resources/mobility/uk-global-talent-digital-technology-leaders"), false);
+  assert.equal(searchIndex.includes("/directory/career-resources/mobility/uk-global-talent-digital-technology-leaders"), false);
 
   const server = createServer();
   await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
@@ -805,7 +805,7 @@ async function main() {
       );
     }
 
-    await page.goto(`${baseUrl}/staging/roles/management-occupations/`, {
+    await page.goto(`${baseUrl}/directory/roles/management-occupations/`, {
       waitUntil: "domcontentloaded",
     });
     assert.match(await page.locator("h1").innerText(), /Management Occupations/);
@@ -820,7 +820,7 @@ async function main() {
     assert.equal(await page.locator('a[href="https://www.bls.gov/soc/2018/home.htm"][target="_blank"][rel="noopener noreferrer"]').count(), 1);
     assert.equal(await page.locator('a[href="https://www.onetonline.org/link/summary/11-1011.00"][target="_blank"][rel="noopener noreferrer"]').count(), 1);
 
-    await page.goto(`${baseUrl}/staging/resources/board-cv-and-director-biography/`, {
+    await page.goto(`${baseUrl}/directory/resources/board-cv-and-director-biography/`, {
       waitUntil: "domcontentloaded",
     });
     assert.match(await page.locator("h1").innerText(), /Board CV and Director Biography/);
@@ -835,7 +835,7 @@ async function main() {
       "The board CV draft with the approved shared visual layer should fit a mobile viewport"
     );
 
-    await page.goto(`${baseUrl}/staging/resources/non-executive-director-opportunity-due-diligence/`, {
+    await page.goto(`${baseUrl}/directory/resources/non-executive-director-opportunity-due-diligence/`, {
       waitUntil: "domcontentloaded",
     });
     assert.match(await page.locator("h1").innerText(), /Assessing a Non-Executive Director Opportunity/);
@@ -851,7 +851,7 @@ async function main() {
       "The unstyled NED guide should fit a mobile viewport"
     );
 
-    await page.goto(`${baseUrl}/staging/career-resources/mobility/uk-global-talent-digital-technology-leaders/`, {
+    await page.goto(`${baseUrl}/directory/career-resources/mobility/uk-global-talent-digital-technology-leaders/`, {
       waitUntil: "domcontentloaded",
     });
     assert.match(await page.locator("h1").innerText(), /UK Global Talent Route: Digital Technology/);
@@ -864,7 +864,7 @@ async function main() {
       "The Global Talent staging draft should fit a mobile viewport"
     );
 
-    await page.goto(`${baseUrl}/staging/resources/hypothetical-career-scenarios/`, {
+    await page.goto(`${baseUrl}/directory/resources/hypothetical-career-scenarios/`, {
       waitUntil: "domcontentloaded",
     });
     assert.match(await page.locator("h1").innerText(), /Hypothetical Career Scenarios/);
@@ -878,7 +878,7 @@ async function main() {
     );
     for (const slug of hypotheticalScenarioSlugs) {
       const response = await page.goto(
-        `${baseUrl}/staging/resources/hypothetical-career-scenarios/${slug}/`,
+        `${baseUrl}/directory/resources/hypothetical-career-scenarios/${slug}/`,
         { waitUntil: "domcontentloaded" }
       );
       assert.equal(response?.status(), 200, `${slug} should load in the browser`);
@@ -894,7 +894,7 @@ async function main() {
       );
     }
 
-    await page.goto(`${baseUrl}/staging/roles/soc-major-groups/`, { waitUntil: "domcontentloaded" });
+    await page.goto(`${baseUrl}/directory/roles/soc-major-groups/`, { waitUntil: "domcontentloaded" });
     assert.match(await page.locator("h1").innerText(), /U.S. SOC Major-Group Directory/);
     assert.equal(await page.locator('meta[name="robots"][content="noindex, nofollow"]').count(), 1);
     assert.equal(await page.locator("main ol a").count(), 23);
@@ -904,7 +904,7 @@ async function main() {
       "The SOC major-group directory should fit a mobile viewport"
     );
     for (const slug of socMajorGroupSlugs) {
-      const response = await page.goto(`${baseUrl}/staging/roles/${slug}/`, {
+      const response = await page.goto(`${baseUrl}/directory/roles/${slug}/`, {
         waitUntil: "domcontentloaded",
       });
       assert.equal(response?.status(), 200, `${slug} should load in the browser`);
@@ -921,7 +921,7 @@ async function main() {
     }
 
     const managementDirectoryResponse = await page.goto(
-        `${baseUrl}/staging/roles/soc-management-detail/`,
+        `${baseUrl}/directory/roles/soc-management-detail/`,
         { waitUntil: "domcontentloaded" }
     );
     assert.equal(managementDirectoryResponse?.status(), 200);
@@ -934,7 +934,7 @@ async function main() {
         "The detailed SOC directory should fit a mobile viewport"
     );
     for (const slug of socManagementSubgroupSlugs) {
-        const response = await page.goto(`${baseUrl}/staging/roles/${slug}/`, {
+        const response = await page.goto(`${baseUrl}/directory/roles/${slug}/`, {
           waitUntil: "domcontentloaded",
         });
         assert.equal(response?.status(), 200, `${slug} should load in the browser`);
@@ -948,7 +948,7 @@ async function main() {
         );
     }
     for (const slug of occupationSlugs) {
-        const response = await page.goto(`${baseUrl}/staging/roles/${slug}/`, {
+        const response = await page.goto(`${baseUrl}/directory/roles/${slug}/`, {
           waitUntil: "domcontentloaded",
         });
         assert.equal(response?.status(), 200, `${slug} should load in the browser`);
@@ -963,17 +963,17 @@ async function main() {
         );
     }
 
-    await page.goto(`${baseUrl}/staging/templates/`, { waitUntil: "domcontentloaded" });
+    await page.goto(`${baseUrl}/directory/templates/`, { waitUntil: "domcontentloaded" });
     assert.equal(await page.locator("#template-cards .kov-expansion-card").count(), 6);
     assert.equal(await page.locator("#research-table tbody tr").count(), 4);
     assert.equal(await page.locator("#research-note .kov-expansion-note").count(), 1);
 
-    await page.goto(`${baseUrl}/staging/templates/international-mobility.html`, { waitUntil: "domcontentloaded" });
+    await page.goto(`${baseUrl}/directory/templates/international-mobility.html`, { waitUntil: "domcontentloaded" });
     assert.equal(await page.locator("#mobility-cards .kov-expansion-card").count(), 4);
     assert.equal(await page.locator("#evidence-table tbody tr").count(), 4);
     assert.equal(await page.locator("#mobility-note .kov-expansion-note").count(), 1);
 
-    await page.goto(`${baseUrl}/staging/career-resources/`, { waitUntil: "domcontentloaded" });
+    await page.goto(`${baseUrl}/directory/career-resources/`, { waitUntil: "domcontentloaded" });
     const resourceCards = page.locator("[data-resource-card]");
     const visibleResourceCards = page.locator("[data-resource-card]:not([hidden])");
     assert.equal(await resourceCards.count(), 18);
@@ -989,14 +989,14 @@ async function main() {
     assert.equal(await visibleResourceCards.count(), 0);
     assert.equal(await page.locator("#resource-empty").isVisible(), true);
 
-    await page.goto(`${baseUrl}/staging/research/`, { waitUntil: "domcontentloaded" });
+    await page.goto(`${baseUrl}/directory/research/`, { waitUntil: "domcontentloaded" });
     const researchSources = page.locator('section[aria-labelledby="research-sources-heading"]');
     assert.equal(await researchSources.locator('a[href^="https://"]').count(), 4);
     assert.equal(await researchSources.locator('a[target="_blank"][rel="noopener noreferrer"]').count(), 4);
     assert.match(await page.locator("main").innerText(), /No original KOV labor-market research reports are approved/);
 
     await page.goto(
-      `${baseUrl}/staging/career-resources/industry-specific-career-guides/bank-executive-to-fintech-career-transition/`,
+      `${baseUrl}/directory/career-resources/industry-specific-career-guides/bank-executive-to-fintech-career-transition/`,
       { waitUntil: "domcontentloaded" }
     );
     assert.match(await page.locator("h1").innerText(), /Banking Leadership to Fintech/);
