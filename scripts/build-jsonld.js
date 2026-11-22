@@ -678,7 +678,9 @@ function validateRendered(file, before, after, categoryCounts, isHome, eligible)
   if (new Set(ids).size !== ids.length) throw new Error(`Duplicate JSON-LD @id on ${file}`);
   if (eligible) {
     const canonical = canonicalFor(after, file);
-    const pageNode = graph.find((node) => node['@type'] === 'WebPage' || node['@type']?.includes?.('WebPage'));
+    const isWebPageNode = (node) => node['@type'] === 'WebPage' || node['@type']?.includes?.('WebPage');
+    const pageNode = graph.find((node) => isWebPageNode(node) && (node.url === canonical || node['@id'] === `${canonical}#webpage`))
+      || graph.find(isWebPageNode);
     if (pageNode && pageNode.url !== canonical) throw new Error(`WebPage URL does not match canonical for ${file}`);
   }
   if (graph.some((node) => node.numberOfItems != null || /\brecordCount\b/i.test(JSON.stringify(node)))) throw new Error(`Unsupported numeric record-count field in ${file}`);
