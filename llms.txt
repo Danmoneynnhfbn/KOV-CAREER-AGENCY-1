@@ -23,7 +23,7 @@ KOV provides candidate-side career support. Scope, deliverables, fees, approvals
 - [Privacy Notice](https://www.kovcareeragency.org/privacy.html): Privacy, data use and retention information.
 
 ## Public research guides
-- [Public career research and occupation guides](https://www.kovcareeragency.org/staging/): Published research guides and occupation references.
+- [Public career research and occupation guides](https://www.kovcareeragency.org/directory/): Published research guides and occupation references.
 
 ## Main navigation and site directory
 - [All public website sections and key pages](https://www.kovcareeragency.org/site-directory.html): Human-readable directory linking the main service, role, industry, market, insight and contact sections.
