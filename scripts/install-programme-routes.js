@@ -2,27 +2,27 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const root = path.resolve(__dirname, "..");
-const stagingRoot = path.join(root, "staging");
+const stagingRoot = path.join(root, "directory");
 const developmentRoot = path.join(root, "development");
 const publicOrigin = "https://www.kovcareeragency.org";
 
 const supportCopies = [
   {
-    source: "staging/career-resources/index.html",
+    source: "directory/career-resources/index.html",
     destination: "career-resources/index.html",
     sourceRoute: "/directory/career-resources/",
     route: "/career-resources/",
     kind: "Career Resources Hub",
   },
   {
-    source: "staging/research/index.html",
+    source: "directory/research/index.html",
     destination: "research/index.html",
     sourceRoute: "/directory/research/",
     route: "/research/",
     kind: "Research Hub",
   },
   {
-    source: "staging/professional-directory/index.html",
+    source: "directory/professional-directory/index.html",
     destination: "professional-directory/index.html",
     sourceRoute: "/directory/professional-directory/",
     route: "/professional-directory/",

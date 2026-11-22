@@ -2,7 +2,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const root = path.resolve(__dirname, "..");
-const stagingRoot = path.join(root, "staging");
+const stagingRoot = path.join(root, "directory");
 const hubDefinitions = [
   {
     directory: "career-resources/board-non-executive-career",
