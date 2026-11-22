@@ -135,7 +135,7 @@ function makePage({ title, categoryLabel, slug, overview, references }) {
   </header>
   <main>
     <p><strong>Research-stage draft — unpublished and excluded from public search and sitemap.</strong> This page is intentionally noindex and staged for internal planning only.</p>
-    <p><a href="/directory/">Staging home</a> / <a href="/directory/career-resources/">Career resources</a> / ${safeCategory}</p>
+    <p><a href="/directory/">Directory home</a> / <a href="/directory/career-resources/">Career resources</a> / ${safeCategory}</p>
     <h1>${safeTitle}</h1>
     <p class="lead">${safeOverview}</p>
 

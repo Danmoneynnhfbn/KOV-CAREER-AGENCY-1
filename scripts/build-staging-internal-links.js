@@ -209,7 +209,7 @@ function injectLinks() {
       const selected = stageRoutes.filter((url) => url !== '/directory/' && !url.includes('/country-market-guides/') && !url.includes('/company-') && !url.includes('/research/') && !url.includes('/professional-directory/')).slice(0, 12);
       const list = selected.map((url) => '<li><a href="' + ensureTrailingSlash(url.replace(/\/index\.html$/, '')) + '">' + urlToTitle(url) + '</a></li>').join('');
       const block = '<section data-kov-staging-link-hub>' +
-        '<h2>Staging route quick links</h2>' +
+        '<h2>Directory quick links</h2>' +
         '<ul>' + list + '</ul>' +
         '</section>';
       html = html.replace(/<\/main>/i, block + '</main>');

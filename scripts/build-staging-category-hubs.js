@@ -7,67 +7,67 @@ const hubDefinitions = [
   {
     directory: "career-resources/board-non-executive-career",
     label: "Board and Non-Executive Career",
-    description: "Staging index of board and non-executive career resources in the KOV development programme.",
+    description: "Directory index of board and non-executive career resources in the KOV development programme.",
   },
   {
     directory: "career-resources/comparison-educational",
     label: "Career and Market Comparisons",
-    description: "Staging index of comparison and educational resources in the KOV development programme.",
+    description: "Directory index of comparison and educational resources in the KOV development programme.",
   },
   {
     directory: "career-resources/country-market-guides",
     label: "Country Market Guides",
-    description: "Staging index of country-specific career-market research guides in the KOV development programme.",
+    description: "Directory index of country-specific career-market research guides in the KOV development programme.",
   },
   {
     directory: "career-resources/country-role-pages",
     label: "Country-Specific Role Guides",
-    description: "Staging index of country-specific role resources in the KOV development programme.",
+    description: "Directory index of country-specific role resources in the KOV development programme.",
   },
   {
     directory: "career-resources/executive-career-guides",
     label: "Executive Career Guides",
-    description: "Staging index of executive career planning guides in the KOV development programme.",
+    description: "Directory index of executive career planning guides in the KOV development programme.",
   },
   {
     directory: "career-resources/industry-specific-career-guides",
     label: "Industry-Specific Career Guides",
-    description: "Staging index of industry-specific career resources in the KOV development programme.",
+    description: "Directory index of industry-specific career resources in the KOV development programme.",
   },
   {
     directory: "career-resources/interview-guides",
     label: "Interview Guides",
-    description: "Staging index of role-specific interview resources in the KOV development programme.",
+    description: "Directory index of role-specific interview resources in the KOV development programme.",
   },
   {
     directory: "career-resources/leadership-skills-competencies",
     label: "Leadership Skills and Competencies",
-    description: "Staging index of leadership competency resources in the KOV development programme.",
+    description: "Directory index of leadership competency resources in the KOV development programme.",
   },
   {
     directory: "career-resources/market-reports",
     label: "Executive Market Reports",
-    description: "Staging index of executive market research resources in the KOV development programme.",
+    description: "Directory index of executive market research resources in the KOV development programme.",
   },
   {
     directory: "career-resources/mobility",
     label: "International Career Mobility",
-    description: "Staging index of international career mobility resources in the KOV development programme.",
+    description: "Directory index of international career mobility resources in the KOV development programme.",
   },
   {
     directory: "career-resources/salary-compensation-guides",
     label: "Salary and Compensation Guides",
-    description: "Staging index of salary and compensation resources in the KOV development programme.",
+    description: "Directory index of salary and compensation resources in the KOV development programme.",
   },
   {
     directory: "career-resources/transition-guides",
     label: "Career Transition Guides",
-    description: "Staging index of career transition resources in the KOV development programme.",
+    description: "Directory index of career transition resources in the KOV development programme.",
   },
   {
     directory: "roles",
     label: "Occupation and Role Guides",
-    description: "Staging index of occupation and role resources in the KOV development programme.",
+    description: "Directory index of occupation and role resources in the KOV development programme.",
   },
 ];
 
