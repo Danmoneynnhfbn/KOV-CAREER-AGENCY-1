@@ -206,7 +206,7 @@ foreach ($page in $pages) {
   if ($registers.proposed_url -contains $page.proposed_url) {
     throw "Candidate URL already exists: $($page.proposed_url)"
   }
-  foreach ($relativePath in @($page.blueprint_path, $page.record_path, "staging/roles/$($page.slug)/index.html")) {
+  foreach ($relativePath in @($page.blueprint_path, $page.record_path, "directory/roles/$($page.slug)/index.html")) {
     if (Test-Path -LiteralPath (Join-Path $root ($relativePath -replace "/", "\"))) {
       throw "Refusing to overwrite an existing file: $relativePath"
     }

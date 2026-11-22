@@ -92,7 +92,7 @@ foreach ($subgroup in $subgroups) {
   $slug = "soc-management-subgroup-" + ($subgroup.code -replace "[^0-9]", "")
   $id = $slug
   $url = "/roles/$slug.html"
-  $stageUrl = "/staging/roles/$slug/"
+  $stageUrl = "/directory/roles/$slug/"
   $stageFile = Join-Path $staging "$slug\index.html"
   $recordRelative = "development/research/records/$id.json"
   $blueprintRelative = "development/blueprints/occupation-classification/$id.md"
@@ -104,7 +104,7 @@ foreach ($subgroup in $subgroups) {
   $items = ($children | ForEach-Object {
     $childSlug = "soc-occupation-$($_.code.ToLowerInvariant())-" + (($_.title.ToLowerInvariant() -replace "[^a-z0-9]+", "-").Trim("-"))
     $safeTitle = [System.Net.WebUtility]::HtmlEncode($_.title)
-    '<li><a href="/staging/roles/{0}/">{1} — {2}</a></li>' -f $childSlug, $_.code, $safeTitle
+    '<li><a href="/directory/roles/{0}/">{1} — {2}</a></li>' -f $childSlug, $_.code, $safeTitle
   }) -join "`r`n"
   $safeTitle = [System.Net.WebUtility]::HtmlEncode($subgroup.title)
   $pageTitle = "$($subgroup.title) (U.S. SOC $($subgroup.code))"
@@ -121,9 +121,9 @@ foreach ($subgroup in $subgroups) {
   <meta name="description" content="$description">
 </head>
 <body>
-  <header><a href="/staging/">KOV Career Agency staging</a></header>
+  <header><a href="/directory/">KOV Career Agency staging</a></header>
   <main>
-    <nav aria-label="Breadcrumb"><a href="/staging/roles/soc-major-groups/">U.S. SOC major groups</a> &gt; <a href="/staging/roles/management-occupations/">Management Occupations</a> &gt; <a href="/staging/roles/soc-management-detail/">Detailed occupations</a></nav>
+    <nav aria-label="Breadcrumb"><a href="/directory/roles/soc-major-groups/">U.S. SOC major groups</a> &gt; <a href="/directory/roles/management-occupations/">Management Occupations</a> &gt; <a href="/directory/roles/soc-management-detail/">Detailed occupations</a></nav>
     <p><strong>Unpublished taxonomy reference:</strong> This page reflects the 2018 U.S. SOC only. It is not a global occupation system, a current labor-market guide, or a directory of KOV services.</p>
     <h1>$encodedPageTitle</h1>
     <p>The 2018 U.S. Standard Occupational Classification places this subgroup under major group 11-0000, Management Occupations. The codes below are a navigation aid; they do not establish job requirements, seniority, qualifications, compensation, candidate demand, or service availability.</p>

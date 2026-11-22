@@ -2,7 +2,7 @@
   "id": "research-hub",
   "page_title": "Research Hub",
   "proposed_url": "/research/",
-  "staging_preview_url": "/staging/research/",
+  "staging_preview_url": "/directory/research/",
   "page_group": "research_hub",
   "parent_hub": null,
   "candidate_status": "approved_for_development; publication_pending_sample_research",
