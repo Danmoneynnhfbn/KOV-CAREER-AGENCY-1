@@ -91,8 +91,8 @@ function walkHtml(directory) {
 function routeForFile(filePath) {
   const relative = path.relative(stagingRoot, filePath).split(path.sep).join("/");
   return relative.endsWith("/index.html")
-    ? `/staging/${relative.slice(0, -"index.html".length)}`
-    : `/staging/${relative}`;
+    ? `/directory/${relative.slice(0, -"index.html".length)}`
+    : `/directory/${relative}`;
 }
 
 function titleForFile(filePath) {
@@ -115,8 +115,8 @@ function makeHub(definition) {
     `      <li><a href="${escapeHtml(routeForFile(filePath))}">${escapeHtml(titleForFile(filePath))}</a></li>`
   );
   const parentHub = definition.directory.startsWith("career-resources/")
-    ? "/staging/career-resources/"
-    : "/staging/";
+    ? "/directory/career-resources/"
+    : "/directory/";
   const html = `<!doctype html>
 <html lang="en">
 <head>
@@ -128,10 +128,10 @@ function makeHub(definition) {
   <meta name="description" content="${escapeHtml(definition.description)}">
 </head>
 <body>
-  <header><a href="/staging/">KOV staging home</a> | <a href="${parentHub}">Parent hub</a></header>
+  <header><a href="/directory/">KOV staging home</a> | <a href="${parentHub}">Parent hub</a></header>
   <main>
     <p><strong>Unpublished staging support index.</strong> This directory supports navigation among staged resources and is not a programme page or publication approval.</p>
-    <nav aria-label="Breadcrumb"><a href="/staging/">Staging</a> / <a href="${parentHub}">${definition.directory.startsWith("career-resources/") ? "Career resources" : "Roles"}</a> / <span aria-current="page">${escapeHtml(definition.label)}</span></nav>
+    <nav aria-label="Breadcrumb"><a href="/directory/">Staging</a> / <a href="${parentHub}">${definition.directory.startsWith("career-resources/") ? "Career resources" : "Roles"}</a> / <span aria-current="page">${escapeHtml(definition.label)}</span></nav>
     <h1>${escapeHtml(definition.label)}</h1>
     <p>${escapeHtml(definition.description)} The linked pages remain unpublished and noindex pending review.</p>
     <ul>
