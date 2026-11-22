@@ -747,8 +747,8 @@ function main() {
   // Treat those allowlisted files as public; do not exclude the whole staging tree.
   const publicStagingPaths = new Set(
     fs.readFileSync(path.join(ROOT, 'scripts/staging-public-pages.txt'), 'utf8')
-      .split(/\\r?\\n/)
-      .map((value) => value.trim().replace(/\\\\/g, '/'))
+      .split(/\r?\n/)
+      .map((value) => value.trim().replace(/\\/g, '/'))
       .filter(Boolean)
   );
   const eligiblePublic = (file, html) => {
