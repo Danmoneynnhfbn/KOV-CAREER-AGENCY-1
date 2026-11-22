@@ -73,7 +73,7 @@ function validate() {
     const counts = {};
     const pageCatalogId = pageCatalog(file);
     const inventoryItem = manifest.repository_html_inventory.files.find((item) => item.path.replace(/\\/g, '/') === file);
-    const eligiblePublic = Boolean(inventoryItem?.indexable) && !file.startsWith('staging/') && !file.startsWith('_design-reference/');
+    const eligiblePublic = Boolean(inventoryItem?.indexable) && !file.startsWith('directory/') && !file.startsWith('_design-reference/');
     if (eligiblePublic) {
       summary.eligiblePublicPages += 1;
       if (!graph.some((node) => isType(node, 'WebPage'))) errors.push(`${file}: eligible public page has no WebPage node`);

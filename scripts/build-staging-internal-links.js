@@ -217,7 +217,7 @@ function injectLinks() {
     }
   }
 
-  const careerResourcesHub = path.join(repoRoot, 'staging', 'career-resources', 'index.html');
+  const careerResourcesHub = path.join(repoRoot, 'directory', 'career-resources', 'index.html');
   if (fs.existsSync(careerResourcesHub)) {
     let html = fs.readFileSync(careerResourcesHub, 'utf8');
     if (!html.includes('data-kov-career-hub-links')) {

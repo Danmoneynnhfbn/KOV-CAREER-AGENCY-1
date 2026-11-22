@@ -753,8 +753,8 @@ function main() {
   const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, 'PAGE_MANIFEST.json'), 'utf8'));
   const inventory = manifest.repository_html_inventory?.files || manifest.pages || [];
   const manifestPaths = new Set(inventory.map((page) => page.path.replace(/\\/g, '/')));
-  // The Cloudflare build publishes only explicitly allowlisted staging paths.
-  // Treat those allowlisted files as public; do not exclude the whole staging tree.
+  // The Cloudflare build publishes only explicitly allowlisted directory paths.
+  // Treat those allowlisted files as public; do not exclude the whole directory tree.
   const publicStagingPaths = new Set(
     fs.readFileSync(path.join(ROOT, 'scripts/staging-public-pages.txt'), 'utf8')
       .split(/\r?\n/)
@@ -763,7 +763,7 @@ function main() {
   );
   const eligiblePublic = (file, html) => {
     const firstSegment = file.split('/')[0].toLowerCase();
-    if ((file.startsWith('staging/') && !publicStagingPaths.has(file)) || file.startsWith('_design-reference/') || file.startsWith('design-reference/') || firstSegment === 'private' || firstSegment === 'admin' || firstSegment.startsWith('private-') || firstSegment.startsWith('admin-') || firstSegment.startsWith('private_') || firstSegment.startsWith('admin_')) return false;
+    if ((file.startsWith('directory/') && !publicStagingPaths.has(file)) || file.startsWith('_design-reference/') || file.startsWith('design-reference/') || firstSegment === 'private' || firstSegment === 'admin' || firstSegment.startsWith('private-') || firstSegment.startsWith('admin-') || firstSegment.startsWith('private_') || firstSegment.startsWith('admin_')) return false;
     // The manifest's historical "indexable" flag is not authoritative for current
     // publication eligibility. Every shipped public page is eligible unless its
     // actual robots/googlebot/bingbot directives explicitly contain noindex.

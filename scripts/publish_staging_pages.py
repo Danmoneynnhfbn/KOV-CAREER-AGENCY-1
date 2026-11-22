@@ -79,9 +79,9 @@ def main() -> None:
     rows_by_path = {row.get("path", ""): row for row in rows}
     targets = []
     for rel in target_paths:
-        if not rel.startswith("staging/") or rel in PRIVATE_PATHS:
+        if not rel.startswith("directory/") or rel in PRIVATE_PATHS:
             raise SystemExit(f"Refusing non-public staging path: {rel}")
-        if re.match(r"^staging/(?:professional-directory|research|templates|visual-assets)/", rel):
+        if re.match(r"^directory/(?:professional-directory|research|templates|visual-assets)/", rel):
             raise SystemExit(f"Refusing private or non-indexable staging area: {rel}")
         row = rows_by_path.get(rel)
         if row is None:
@@ -140,11 +140,11 @@ def main() -> None:
     sitemap = SITEMAP.read_text(encoding="utf-8")
     # Remove legacy private/non-indexable staging utility URLs from the sitemap.
     excluded_urls = [
-        BASE + "/staging/professional-directory/",
-        BASE + "/staging/research/",
-        BASE + "/staging/templates/",
-        BASE + "/staging/templates/international-mobility.html",
-        BASE + "/staging/visual-assets/",
+        BASE + "/directory/professional-directory/",
+        BASE + "/directory/research/",
+        BASE + "/directory/templates/",
+        BASE + "/directory/templates/international-mobility.html",
+        BASE + "/directory/visual-assets/",
     ]
     for excluded_url in excluded_urls:
         sitemap = re.sub(
@@ -169,7 +169,7 @@ def main() -> None:
     SITEMAP.write_text(sitemap, encoding="utf-8")
 
     llms = LLMS.read_text(encoding="utf-8")
-    marker = "- [Public career research and occupation guides](https://www.kovcareeragency.org/staging/): Published research guides and occupation references."
+    marker = "- [Public career research and occupation guides](https://www.kovcareeragency.org/directory/): Published research guides and occupation references."
     if marker not in llms:
         llms = llms.replace("## Complete discovery resources", "## Public research guides\n" + marker + "\n\n## Complete discovery resources")
     llms = llms.replace(
@@ -187,11 +187,11 @@ def main() -> None:
         full = full.replace("# KOV Career Agency", "# KOV Career Agency\n\n" + directory_line, 1)
     section = "\n\n## Public career research and occupation guides\n"
     excluded_urls = [
-        BASE + "/staging/professional-directory/",
-        BASE + "/staging/research/",
-        BASE + "/staging/templates/",
-        BASE + "/staging/templates/international-mobility.html",
-        BASE + "/staging/visual-assets/",
+        BASE + "/directory/professional-directory/",
+        BASE + "/directory/research/",
+        BASE + "/directory/templates/",
+        BASE + "/directory/templates/international-mobility.html",
+        BASE + "/directory/visual-assets/",
     ]
     full_lines = [
         line for line in full.splitlines()
