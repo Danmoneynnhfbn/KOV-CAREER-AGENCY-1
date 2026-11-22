@@ -2,7 +2,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const root = path.resolve(__dirname, "..");
-const stagingRoot = path.join(root, "directory");
+const directoryRoot = path.join(root, "directory");
 const hubDefinitions = [
   {
     directory: "career-resources/board-non-executive-career",
@@ -89,7 +89,7 @@ function walkHtml(directory) {
 }
 
 function routeForFile(filePath) {
-  const relative = path.relative(stagingRoot, filePath).split(path.sep).join("/");
+  const relative = path.relative(directoryRoot, filePath).split(path.sep).join("/");
   return relative.endsWith("/index.html")
     ? `/directory/${relative.slice(0, -"index.html".length)}`
     : `/directory/${relative}`;
@@ -104,7 +104,7 @@ function titleForFile(filePath) {
 }
 
 function makeHub(definition) {
-  const directory = path.join(stagingRoot, definition.directory);
+  const directory = path.join(directoryRoot, definition.directory);
   const indexPath = path.join(directory, "index.html");
   if (fs.existsSync(indexPath)) {
     throw new Error(`Refusing to overwrite existing staging file: ${path.relative(root, indexPath)}`);
@@ -124,11 +124,11 @@ function makeHub(definition) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
   <meta name="googlebot" content="noindex, nofollow">
-  <title>${escapeHtml(definition.label)} | KOV Staging Index</title>
+  <title>${escapeHtml(definition.label)} | KOV Directory Index</title>
   <meta name="description" content="${escapeHtml(definition.description)}">
 </head>
 <body>
-  <header><a href="/directory/">KOV staging home</a> | <a href="${parentHub}">Parent hub</a></header>
+  <header><a href="/directory/">KOV directory home</a> | <a href="${parentHub}">Parent hub</a></header>
   <main>
     <p><strong>Unpublished staging support index.</strong> This directory supports navigation among staged resources and is not a programme page or publication approval.</p>
     <nav aria-label="Breadcrumb"><a href="/directory/">Staging</a> / <a href="${parentHub}">${definition.directory.startsWith("career-resources/") ? "Career resources" : "Roles"}</a> / <span aria-current="page">${escapeHtml(definition.label)}</span></nav>
