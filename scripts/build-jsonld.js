@@ -526,7 +526,15 @@ function buildGraph(existing, records, isHome, counts, file, canonical, pageTitl
     local.unshift(...datasets);
     local.push(...termSets);
   }
-  const pageNode = canonical && graph.find((node) => (node['@type'] === 'WebPage' || node['@type']?.includes?.('WebPage')));
+  const isWebPageNode = (node) => node['@type'] === 'WebPage' || node['@type']?.includes?.('WebPage');
+  // Prefer the existing WebPage that already represents this page's canonical URL.
+  // Some staged/public pages retain an older WebPage node for their previous path.
+  // Selecting the first WebPage blindly can overwrite its ID and collide with the
+  // separate current-page node.
+  const pageNode = canonical && (
+    graph.find((node) => isWebPageNode(node) && (node.url === canonical || node['@id'] === `${canonical}#webpage`))
+    || graph.find(isWebPageNode)
+  );
   if (pageNode) {
       const previousPageId = pageNode['@id'];
       pageNode['@id'] = `${canonical}#webpage`;
