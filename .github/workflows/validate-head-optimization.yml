@@ -39,10 +39,15 @@ jobs:
           inventory_paths = {item["path"].replace("\\", "/") for item in inventory}
           pages = sorted(output.rglob("*.html"))
           published_paths = {page.relative_to(output).as_posix() for page in pages}
+          staging_public_paths = {
+              line.strip().replace("\\\\", "/")
+              for line in (repo / "scripts" / "staging-public-pages.txt").read_text(encoding="utf-8").splitlines()
+              if line.strip()
+          }
           active_paths = set()
           for relative in published_paths:
               excluded = (
-                  relative.startswith("staging/")
+                  (relative.startswith("staging/") and relative not in staging_public_paths)
                   or relative.startswith("_design-reference/")
                   or relative.startswith("design-reference/")
                   or re.match(r"^(?:private|admin)(?:/|[-_])", relative, re.I)
