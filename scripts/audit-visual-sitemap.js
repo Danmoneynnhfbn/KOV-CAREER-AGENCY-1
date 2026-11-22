@@ -62,7 +62,7 @@ function pageFamily(route) {
   if (/^\/roles\//.test(route)) return "Roles";
   if (/^\/(?:career-resources|resources|faq)\//.test(route)) return "Resources and FAQs";
   if (/^\/(?:blog|blog-posts?)(?:\/|\.html)/.test(route)) return "Blog";
-  if (/^\/(?:staging|account|profiles|toba)(?:\/|\.html|$)/.test(route)) return "Restricted or staging";
+  if (/^\/(?:directory|account|profiles|toba)(?:\/|\.html|$)/.test(route)) return "Restricted or staging";
   return "Services and site pages";
 }
 

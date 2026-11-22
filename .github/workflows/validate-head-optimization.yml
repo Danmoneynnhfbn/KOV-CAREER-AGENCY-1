@@ -47,7 +47,7 @@ jobs:
           active_paths = set()
           for relative in published_paths:
               excluded = (
-                  (relative.startswith("staging/") and relative not in staging_public_paths)
+                  (relative.startswith("directory/") and relative not in staging_public_paths)
                   or relative.startswith("_design-reference/")
                   or relative.startswith("design-reference/")
                   or re.match(r"^(?:private|admin)(?:/|[-_])", relative, re.I)
