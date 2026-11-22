@@ -43,21 +43,21 @@ const groups = [
       'soc-occupation-11-1031-legislators': 'soc-occupation-11-1031-legislators',
     },
   },
-  { key: 'executive_career_guides', dir: 'staging/career-resources/executive-career-guides', target: 100, parent: '/career-resources/', stagePrefix: 'career-resources/executive-career-guides' },
-  { key: 'industry_specific_career_guides', dir: 'staging/career-resources/industry-specific-career-guides', target: 45, parent: '/career-resources/', stagePrefix: 'career-resources/industry-specific-career-guides' },
-  { key: 'role_specific_interview_guides', dir: 'staging/career-resources/interview-guides', target: 30, parent: '/career-resources/', stagePrefix: 'career-resources/interview-guides' },
-  { key: 'career_transition_guides', dir: 'staging/career-resources/transition-guides', target: 30, parent: '/career-resources/', stagePrefix: 'career-resources/transition-guides' },
-  { key: 'salary_compensation_guides', dir: 'staging/career-resources/salary-compensation-guides', target: 20, parent: '/career-resources/', stagePrefix: 'career-resources/salary-compensation-guides' },
-  { key: 'country_specific_role_pages', dir: 'staging/career-resources/country-role-pages', target: 50, parent: '/career-resources/', stagePrefix: 'career-resources/country-role-pages' },
-  { key: 'executive_market_industry_reports', dir: 'staging/career-resources/market-reports', target: 20, parent: '/career-resources/', stagePrefix: 'career-resources/market-reports' },
-  { key: 'leadership_skills_competencies', dir: 'staging/career-resources/leadership-skills-competencies', target: 25, parent: '/career-resources/', stagePrefix: 'career-resources/leadership-skills-competencies' },
-  { key: 'international_career_mobility', dir: 'staging/career-resources/mobility', target: 18, parent: '/career-resources/', stagePrefix: 'career-resources/mobility' },
-  { key: 'board_non_executive_career', dir: 'staging/career-resources/board-non-executive-career', target: 12, parent: '/career-resources/', stagePrefix: 'career-resources/board-non-executive-career' },
-  { key: 'comparison_educational', dir: 'staging/career-resources/comparison-educational', target: 15, parent: '/career-resources/', stagePrefix: 'career-resources/comparison-educational' },
-  { key: 'career_resources_hub', dir: 'staging/career-resources', target: 1, parent: '/career-resources/', stagePrefix: 'career-resources' },
-  { key: 'research_hub', dir: 'staging/research', target: 1, parent: '/research/', stagePrefix: 'research' },
-  { key: 'professional_profile_directory', dir: 'staging/professional-directory', target: 1, parent: '/professional-directory/', stagePrefix: 'professional-directory' },
-  { key: 'general_country_market_pages', dir: 'staging/career-resources/country-market-guides', target: 144, parent: '/career-resources/', stagePrefix: 'career-resources/country-market-guides' },
+  { key: 'executive_career_guides', dir: 'directory/career-resources/executive-career-guides', target: 100, parent: '/career-resources/', stagePrefix: 'career-resources/executive-career-guides' },
+  { key: 'industry_specific_career_guides', dir: 'directory/career-resources/industry-specific-career-guides', target: 45, parent: '/career-resources/', stagePrefix: 'career-resources/industry-specific-career-guides' },
+  { key: 'role_specific_interview_guides', dir: 'directory/career-resources/interview-guides', target: 30, parent: '/career-resources/', stagePrefix: 'career-resources/interview-guides' },
+  { key: 'career_transition_guides', dir: 'directory/career-resources/transition-guides', target: 30, parent: '/career-resources/', stagePrefix: 'career-resources/transition-guides' },
+  { key: 'salary_compensation_guides', dir: 'directory/career-resources/salary-compensation-guides', target: 20, parent: '/career-resources/', stagePrefix: 'career-resources/salary-compensation-guides' },
+  { key: 'country_specific_role_pages', dir: 'directory/career-resources/country-role-pages', target: 50, parent: '/career-resources/', stagePrefix: 'career-resources/country-role-pages' },
+  { key: 'executive_market_industry_reports', dir: 'directory/career-resources/market-reports', target: 20, parent: '/career-resources/', stagePrefix: 'career-resources/market-reports' },
+  { key: 'leadership_skills_competencies', dir: 'directory/career-resources/leadership-skills-competencies', target: 25, parent: '/career-resources/', stagePrefix: 'career-resources/leadership-skills-competencies' },
+  { key: 'international_career_mobility', dir: 'directory/career-resources/mobility', target: 18, parent: '/career-resources/', stagePrefix: 'career-resources/mobility' },
+  { key: 'board_non_executive_career', dir: 'directory/career-resources/board-non-executive-career', target: 12, parent: '/career-resources/', stagePrefix: 'career-resources/board-non-executive-career' },
+  { key: 'comparison_educational', dir: 'directory/career-resources/comparison-educational', target: 15, parent: '/career-resources/', stagePrefix: 'career-resources/comparison-educational' },
+  { key: 'career_resources_hub', dir: 'directory/career-resources', target: 1, parent: '/career-resources/', stagePrefix: 'career-resources' },
+  { key: 'research_hub', dir: 'directory/research', target: 1, parent: '/research/', stagePrefix: 'research' },
+  { key: 'professional_profile_directory', dir: 'directory/professional-directory', target: 1, parent: '/professional-directory/', stagePrefix: 'professional-directory' },
+  { key: 'general_country_market_pages', dir: 'directory/career-resources/country-market-guides', target: 144, parent: '/career-resources/', stagePrefix: 'career-resources/country-market-guides' },
 ];
 
 const candidateHeaders = [
@@ -198,9 +198,9 @@ let totalCandidateCount = 0;
 for (const group of groups) {
   const routeNames = buildRoutesForGroup(group);
   for (const slug of routeNames) {
-    const routeDir = group.dir.startsWith('staging/') ? path.join(root, group.dir, slug) : path.join(root, group.dir, slug);
-    const publicUrl = group.dir.startsWith('staging/') ? `/career-resources/${slug}/` : `/${group.dir.replace(/^staging\//, '')}/${slug}/`;
-    const stagingUrl = group.dir.startsWith('staging/') ? `/directory/${group.stagePrefix}/${slug}/` : `/directory/${group.stagePrefix}/${slug}/`;
+    const routeDir = group.dir.startsWith('directory/') ? path.join(root, group.dir, slug) : path.join(root, group.dir, slug);
+    const publicUrl = group.dir.startsWith('directory/') ? `/career-resources/${slug}/` : `/${group.dir.replace(/^staging\//, '')}/${slug}/`;
+    const stagingUrl = group.dir.startsWith('directory/') ? `/directory/${group.stagePrefix}/${slug}/` : `/directory/${group.stagePrefix}/${slug}/`;
     const pageTitle = titleCase(slug.replace(/-/g, ' '));
 
     candidateRows.push({

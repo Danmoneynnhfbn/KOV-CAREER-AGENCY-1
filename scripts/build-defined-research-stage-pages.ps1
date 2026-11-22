@@ -155,7 +155,7 @@ foreach ($id in $ids) {
   <meta name="description" content="$description">
 </head>
 <body>
-  <header><a href="/staging/">KOV Career Agency staging</a></header>
+  <header><a href="/directory/">KOV Career Agency staging</a></header>
   <main>
     <p><strong>Research-stage draft — not approved or published.</strong> This page uses its candidate-specific research record and blueprint. It does not claim measured search demand, KOV service availability, guaranteed outcomes, or individualized professional, legal, or immigration advice.</p>
     <h1>$pageTitle</h1>

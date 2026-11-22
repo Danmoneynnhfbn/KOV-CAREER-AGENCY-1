@@ -549,9 +549,9 @@ Keep the page absent from the sitemap, public navigation, and internal search un
             "id": hub_id,
             "proposed_url": url,
             "staging_preview_url": {
-                "career_resources_hub": "/staging/career-resources/",
-                "research_hub": "/staging/research/",
-                "professional_profile_directory": "/staging/professional-directory/",
+                "career_resources_hub": "/directory/career-resources/",
+                "research_hub": "/directory/research/",
+                "professional_profile_directory": "/directory/professional-directory/",
             }[category],
             "page_group": category,
             "parent_hub": "",

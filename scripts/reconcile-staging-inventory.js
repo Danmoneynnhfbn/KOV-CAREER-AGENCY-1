@@ -418,7 +418,7 @@ function main() {
 
     const additionalType = isProgramme ? "programme-register-mapped route (not publication-approved)" : classifyAdditional(relativePath, html);
     inventory.push({
-      file_path: `staging/${relativePath}`,
+      file_path: `directory/${relativePath}`,
       intended_staging_url: route,
       programme_id: mapped?.row.id ?? "",
       programme_group: mapped?.row.page_group ?? "",
@@ -444,7 +444,7 @@ function main() {
         programme_group: mapped.row.page_group,
         programme_route: route,
         intended_public_url: intendedPublicUrl,
-        file_path: `staging/${relativePath}`,
+        file_path: `directory/${relativePath}`,
         file_exists: true,
         title,
         title_unique_check: "",
@@ -525,12 +525,12 @@ function main() {
   const publicDiffFiles = publicTrackedDiff
     .split(/\r?\n/)
     .filter(Boolean)
-    .filter((file) => !file.startsWith("staging/") && !file.startsWith("development/") && !file.startsWith("scripts/"))
+    .filter((file) => !file.startsWith("directory/") && !file.startsWith("development/") && !file.startsWith("scripts/"))
     .filter((file) => !["sitemap.xml", "llms.txt"].includes(file));
   const untrackedPublicHtml = gitOutput(["ls-files", "--others", "--exclude-standard", "--", "*.html", "roles", "markets", "industries", "services", "resources", "faq"])
     .split(/\r?\n/)
     .filter(Boolean)
-    .filter((file) => !file.startsWith("staging/"))
+    .filter((file) => !file.startsWith("directory/"))
     .filter((file) => !installedPublicPaths.has(file.split(path.sep).join("/")));
 
   const inventoryColumns = [

@@ -42,7 +42,7 @@ const supportCopies = [
     "salary-compensation-guides",
     "transition-guides",
   ].map((category) => ({
-    source: `staging/career-resources/${category}/index.html`,
+    source: `directory/career-resources/${category}/index.html`,
     destination: `career-resources/${category}/index.html`,
     sourceRoute: `/directory/career-resources/${category}/`,
     route: `/career-resources/${category}/`,

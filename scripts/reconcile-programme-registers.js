@@ -166,7 +166,7 @@ for (const programmeRow of programmeRows) {
     const slug = `${baseSlug}-${counter}`;
     const pageTitle = `${category.replace(/_/g, ' ').replace(/\b\w/g, (ch) => ch.toUpperCase())} ${counter}`;
     const proposedUrl = `/career-resources/${slug}/`;
-    const stagingUrl = `/staging/career-resources/${slug}/`;
+    const stagingUrl = `/directory/career-resources/${slug}/`;
 
     if (!usedIds.has(candidateId)) {
       generatedCandidates.push({

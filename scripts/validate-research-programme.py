@@ -111,7 +111,7 @@ def main():
             errors.append(f"{candidate_id}: route-staging approval status differs between route registers.")
 
         preview_url = row.get("staging_preview_url", "")
-        file_path = route_file(preview_url) if preview_url.startswith("/staging/") else None
+        file_path = route_file(preview_url) if preview_url.startswith("/directory/") else None
         if file_path is None:
             errors.append(f"{candidate_id}: staged preview HTML route is missing locally: {preview_url or url}")
         else:
