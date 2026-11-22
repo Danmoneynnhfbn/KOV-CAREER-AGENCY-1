@@ -126,16 +126,16 @@ function makePage({ title, categoryLabel, slug, overview, references }) {
 </head>
 <body>
   <header>
-    <a href="/staging/">KOV Career Agency staging</a>
+    <a href="/directory/">KOV Career Agency staging</a>
     <nav aria-label="Primary navigation">
-      <a href="/staging/career-resources/">Career resources</a>
-      <a href="/staging/research/">Research</a>
-      <a href="/staging/professional-directory/">Professional profiles</a>
+      <a href="/directory/career-resources/">Career resources</a>
+      <a href="/directory/research/">Research</a>
+      <a href="/directory/professional-directory/">Professional profiles</a>
     </nav>
   </header>
   <main>
     <p><strong>Research-stage draft — unpublished and excluded from public search and sitemap.</strong> This page is intentionally noindex and staged for internal planning only.</p>
-    <p><a href="/staging/">Staging home</a> / <a href="/staging/career-resources/">Career resources</a> / ${safeCategory}</p>
+    <p><a href="/directory/">Staging home</a> / <a href="/directory/career-resources/">Career resources</a> / ${safeCategory}</p>
     <h1>${safeTitle}</h1>
     <p class="lead">${safeOverview}</p>
 
