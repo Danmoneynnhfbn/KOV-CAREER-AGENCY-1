@@ -4,7 +4,7 @@ const path = require('node:path');
 const ROOT = path.join(__dirname, '..');
 const OUTPUT = path.join(ROOT, 'assets', 'faq-directory.js');
 const TARGET = 500;
-const EXCLUDED_DIRECTORIES = new Set(['node_modules', '.git', '.venv', '_design-reference', 'design-reference', 'staging', 'faq']);
+const EXCLUDED_DIRECTORIES = new Set(['node_modules', '.git', '.venv', '_design-reference', 'design-reference', 'directory', 'faq']);
 const PREFERRED_PAGES = [
   'faqs.html',
   'candidate-services.html',

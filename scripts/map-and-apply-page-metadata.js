@@ -217,7 +217,7 @@ function getRoleName(pathname, html) {
 function classify(pathname, inventoryRow) {
   if (pathname.startsWith('.private_admin/')) return { type: 'private-admin', apply: false, reason: 'Private admin HTML is not a public key page.' };
   if (pathname.startsWith('_design-reference/')) return { type: 'design-reference', apply: false, reason: 'Design reference artifact; not a website content page.' };
-  if (pathname.startsWith('staging/')) return { type: 'staging', apply: false, reason: 'Staging page; preserve its current publication/indexing controls.' };
+  if (pathname.startsWith('directory/')) return { type: 'staging', apply: false, reason: 'Staging page; preserve its current publication/indexing controls.' };
   if (!inventoryRow.indexable) return { type: 'noindex', apply: false, reason: 'Repository inventory marks the page nonindexable.' };
   if (pathname === 'index.html') return { type: 'homepage-global-reference', apply: false, reason: 'Retain the existing global metadata block.' };
   if (pathname.startsWith('roles/')) return { type: 'job-role', apply: true, reason: 'Role-specific subject in route and page heading.' };
@@ -458,7 +458,7 @@ function main() {
   const csvText = [header.map(csv).join(','), ...rows.map((row) => row.map(csv).join(','))].join('\r\n') + '\r\n';
   fs.writeFileSync(mapPath, csvText, 'utf8');
 
-  const indexableChanges = changes.filter((item) => !item.pathname.startsWith('staging/'));
+  const indexableChanges = changes.filter((item) => !item.pathname.startsWith('directory/'));
   const byClass = {};
   for (const item of indexableChanges) {
     const entry = byClass[item.classification] || { pages: 0, tags: 0 };

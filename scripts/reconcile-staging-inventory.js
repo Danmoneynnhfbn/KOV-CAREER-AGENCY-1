@@ -5,7 +5,7 @@ const { execFileSync } = require("node:child_process");
 const vm = require("node:vm");
 
 const root = path.resolve(__dirname, "..");
-const stagingRoot = path.join(root, "staging");
+const directoryRoot = path.join(root, "directory");
 const developmentRoot = path.join(root, "development");
 const publicOrigin = "https://www.kovcareeragency.org";
 const categoryHubDirectories = new Set([
@@ -86,7 +86,7 @@ function walkHtml(directory) {
 }
 
 function routeForFile(filePath) {
-  const relative = path.relative(stagingRoot, filePath).split(path.sep).join("/");
+  const relative = path.relative(directoryRoot, filePath).split(path.sep).join("/");
   if (relative === "index.html") return "/directory/";
   if (relative.endsWith("/index.html")) return `/directory/${relative.slice(0, -"index.html".length)}`;
   return `/directory/${relative}`;
@@ -277,7 +277,7 @@ function main() {
   );
   const installedPublicPaths = new Set(installedManifest.map((entry) => entry.file_path));
   const candidateById = new Map(candidates.map((candidate) => [candidate.candidate_id, candidate]));
-  const files = walkHtml(stagingRoot).sort((left, right) => left.localeCompare(right));
+  const files = walkHtml(directoryRoot).sort((left, right) => left.localeCompare(right));
   const mappedByFile = new Map();
   const duplicateRouteRows = [];
   const routeOwners = new Map();
@@ -316,7 +316,7 @@ function main() {
 
   for (const filePath of files) {
     const html = fs.readFileSync(filePath, "utf8");
-    const relativePath = path.relative(stagingRoot, filePath).split(path.sep).join("/");
+    const relativePath = path.relative(directoryRoot, filePath).split(path.sep).join("/");
     const route = routeForFile(filePath);
     const mapped = mappedByFile.get(filePath);
     const title = getTitle(html);

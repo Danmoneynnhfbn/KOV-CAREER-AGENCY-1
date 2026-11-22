@@ -60,7 +60,7 @@ for (const category of expectedKeys) {
     }
     if (!Array.isArray(record.pagePaths)) errors.push(category + ': pagePaths must be an array for ' + record.name);
     else for (const page of record.pagePaths) {
-      if (!pages.get(page) || page.startsWith('staging/')) errors.push(category + ': page mapping is missing, excluded, or noindex: ' + page);
+      if (!pages.get(page) || page.startsWith('directory/')) errors.push(category + ': page mapping is missing, excluded, or noindex: ' + page);
     }
     if (category === 'career-search-intent') {
       if (record.observedSearchConsoleQuery === true) {

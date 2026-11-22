@@ -433,7 +433,7 @@ function searchIntentRecords() {
     if (!key || seen.has(key)) continue;
     seen.add(key);
     const sourcePath = String(item.source || '').replace(/^\/+/, '');
-    const pagePath = pageByPath.get(sourcePath)?.indexable && !sourcePath.startsWith('staging/') ? sourcePath : '';
+    const pagePath = pageByPath.get(sourcePath)?.indexable && !sourcePath.startsWith('directory/') ? sourcePath : '';
     const intentType = /^(can|does|do|is|are)\b/i.test(query)
       ? 'eligibility, service capability, or suitability question'
       : /^(how|what steps|how long)\b/i.test(query)

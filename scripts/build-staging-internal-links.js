@@ -27,8 +27,8 @@ function makeAbsoluteHref(href) {
 
 function extractH1(html) {
   const match = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
-  if (!match) return 'Staging page';
-  return match[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim() || 'Staging page';
+  if (!match) return 'Directory page';
+  return match[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim() || 'Directory page';
 }
 
 function routeGroup(url) {
@@ -44,7 +44,7 @@ function routeGroup(url) {
   if (stable.includes('/directory/research/')) return 'research';
   if (stable.includes('/directory/professional-directory/')) return 'professional-directory';
   if (stable.includes('/directory/templates/')) return 'templates';
-  return 'staging';
+  return 'directory';
 }
 
 function humanizeGroup(group) {
@@ -67,7 +67,7 @@ function humanizeGroup(group) {
     research: 'Research hub',
     'professional-directory': 'Professional profiles',
     templates: 'Templates',
-    staging: 'Staging index',
+    directory: 'Directory index',
   };
   return map[group] || group;
 }
@@ -77,8 +77,8 @@ function breadcrumbTrail(url) {
   const parts = clean.split('/').filter(Boolean);
   const labels = [];
   let current = '/';
-  if (parts[0] === 'staging') {
-    labels.push({ label: 'Staging', href: '/directory/' });
+  if (parts[0] === 'directory') {
+    labels.push({ label: 'Directory', href: '/directory/' });
     current = '/directory/';
     const rest = parts.slice(1);
     if (rest.length === 0) return labels;
@@ -98,10 +98,10 @@ function breadcrumbTrail(url) {
 }
 
 function buildBreadcrumbNav(url, title) {
-  const trail = [{ label: 'Home', href: '/' }, { label: 'Staging', href: '/directory/' }];
+  const trail = [{ label: 'Home', href: '/' }, { label: 'Directory', href: '/directory/' }];
   const clean = url.replace(/\/$/, '');
   const parts = clean.split('/').filter(Boolean);
-  if (parts[0] === 'staging') {
+  if (parts[0] === 'directory') {
     const rest = parts.slice(1);
     if (rest[0] === 'career-resources') {
       trail.push({ label: 'Career resources', href: '/directory/career-resources/' });
@@ -202,7 +202,7 @@ function injectLinks() {
     fs.writeFileSync(filePath, html, 'utf8');
   }
 
-  const indexFile = path.join(repoRoot, 'staging', 'index.html');
+  const indexFile = path.join(repoRoot, 'directory', 'index.html');
   if (fs.existsSync(indexFile)) {
     let html = fs.readFileSync(indexFile, 'utf8');
     if (!html.includes('data-kov-staging-link-hub')) {

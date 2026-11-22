@@ -27,9 +27,9 @@ const representatives = [
   { family: "FAQ", route: "/faqs.html" },
   { family: "About", route: "/about.html" },
   { family: "Contact", route: "/contact.html" },
-  { family: "Career resources hub", route: "/staging/career-resources/index.html" },
-  { family: "Research hub", route: "/staging/research/index.html" },
-  { family: "Professional directory", route: "/staging/professional-directory/index.html" },
+  { family: "Career resources hub", route: "/directory/career-resources/index.html" },
+  { family: "Research hub", route: "/directory/research/index.html" },
+  { family: "Professional directory", route: "/directory/professional-directory/index.html" },
   { family: "Programme page", route: "/career-resources/board-guide-01/index.html" },
 ];
 

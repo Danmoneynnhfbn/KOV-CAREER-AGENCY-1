@@ -3,7 +3,7 @@ const path = require("node:path");
 
 const root = path.resolve(__dirname, "..");
 const development = path.join(root, "development");
-const stagingRoot = path.join(root, "staging");
+const directoryRoot = path.join(root, "directory");
 const origin = "https://www.kovcareeragency.org";
 
 function parseCsv(contents) {
@@ -100,9 +100,9 @@ function fileForPublicUrl(url) {
 }
 
 function stagingFileForRoute(route) {
-  const relative = route.replace(/^\/staging\//, "").replace(/\/$/, "");
-  const file = path.resolve(stagingRoot, relative, "index.html");
-  if (!file.startsWith(`${stagingRoot}${path.sep}`)) throw new Error(`Invalid staging route: ${route}`);
+  const relative = route.replace(/^\/directory\//, "").replace(/\/$/, "");
+  const file = path.resolve(directoryRoot, relative, "index.html");
+  if (!file.startsWith(`${directoryRoot}${path.sep}`)) throw new Error(`Invalid directory route: ${route}`);
   return file;
 }
 
