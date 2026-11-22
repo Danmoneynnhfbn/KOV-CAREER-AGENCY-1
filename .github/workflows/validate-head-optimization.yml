@@ -1,4 +1,4 @@
-name: Validate lossless SEO HEAD optimization
+name: Validate JSON-LD generation and lossless HEAD preservation
 
 on:
   pull_request:
@@ -18,31 +18,323 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
-      - name: Build and validate all published HTML pages
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build Cloudflare output with JSON-LD before HEAD optimization
         run: python scripts/build_cloudflare_pages.py
-      - name: Verify generated HTML social metadata and charset
+      - name: Validate page coverage, JSON-LD, and preservation
         run: |
           python - <<'PY'
+          import gzip
+          import json
           import re
           from pathlib import Path
-          root = Path("dist")
-          pages = sorted(root.rglob("*.html"))
-          assert pages, "No HTML pages were built"
-          failures = []
-          for page in pages:
-              html = page.read_text(encoding="utf-8")
-              head = re.search(r"<head\b[^>]*>([\s\S]*?)</head\s*>", html, re.I)
-              if not head:
-                  failures.append(f"{page}: missing HEAD")
+
+          repo = Path(".")
+          output = repo / "dist"
+          manifest = json.loads((repo / "PAGE_MANIFEST.json").read_text(encoding="utf-8"))
+          inventory = manifest.get("repository_html_inventory", {}).get("files", [])
+          inventory_paths = {item["path"].replace("\\", "/") for item in inventory}
+          pages = sorted(output.rglob("*.html"))
+          published_paths = {page.relative_to(output).as_posix() for page in pages}
+          staging_public_paths = {
+              line.strip().replace("\\", "/")
+              for line in (repo / "scripts" / "staging-public-pages.txt").read_text(encoding="utf-8").splitlines()
+              if line.strip()
+          }
+          active_paths = set()
+          for relative in published_paths:
+              excluded = (
+                  (relative.startswith("staging/") and relative not in staging_public_paths)
+                  or relative.startswith("_design-reference/")
+                  or relative.startswith("design-reference/")
+                  or re.match(r"^(?:private|admin)(?:/|[-_])", relative, re.I)
+              )
+              if excluded:
                   continue
-              h = head.group(1)
-              if not re.match(r"\s*<meta\b[^>]*\bcharset\s*=", h, re.I):
-                  failures.append(f"{page}: charset is not first in HEAD")
-              for key in ("description", "og:title", "og:description", "og:url", "og:image", "twitter:card", "twitter:title", "twitter:description", "twitter:image"):
-                  attr = "property" if key.startswith("og:") else "name"
-                  if not re.search(rf"<meta\b(?=[^>]*\b{attr}=['\"]{re.escape(key)}['\"])", h, re.I):
-                      failures.append(f"{page}: missing {key}")
+              page_html = (output / relative).read_text(encoding="utf-8")
+              page_head = re.search(r"<head\b[^>]*>([\s\S]*?)</head\s*>", page_html, re.I)
+              head_text = page_head.group(1) if page_head else ""
+              has_noindex = False
+              for meta in re.finditer(r"<meta\b[^>]*>", head_text, re.I):
+                  tag = meta.group(0)
+                  name = re.search(r"""\bname\s*=\s*(['"])(.*?)\1""", tag, re.I)
+                  content = re.search(r"""\bcontent\s*=\s*(['"])(.*?)\1""", tag, re.I)
+                  if name and name.group(2).lower() in {"robots", "googlebot", "bingbot"} and content:
+                      if re.search(r"(?:^|[,\s])noindex(?:$|[,\s])", content.group(2), re.I):
+                          has_noindex = True
+              if not has_noindex:
+                  active_paths.add(relative)
+          missing = sorted(inventory_paths - published_paths)
+          unmanifested = sorted(published_paths - inventory_paths)
+
+          assert len(inventory_paths) == 2078, f"Expected 2,078 manifest HTML entries, found {len(inventory_paths)}"
+          assert len(pages) == 2060, f"Expected 2,060 published HTML pages, found {len(pages)}"
+          assert len(active_paths) == 1425, f"Expected 1,425 active public non-noindex pages, found {len(active_paths)}"
+          assert len(missing) == 18, f"Expected 18 manifest paths excluded from public output, found {len(missing)}"
+          assert unmanifested == [], f"Published HTML pages missing from manifest: {unmanifested}"
+          assert len(inventory_paths) - len(pages) == 18, "The 18 manifest-only non-published paths are not reconciled"
+
+          taxonomy_names = (
+              "professional-audience|job-title|occupation|industry|skill|qualification|"
+              "professional-term|job-function|seniority-level|employment-type|career-challenge|"
+              "career-search-intent|faq-question|faq-answer|language|country|city|town-locality|institution"
+          )
+          taxonomy_meta = re.compile(
+              rf"""<meta\b(?=[^>]*\bname\s*=\s*(["'])(?:{taxonomy_names})\1)[^>]*>\s*""",
+              re.I,
+          )
+          generated_script = re.compile(
+              r"""<script\b(?=[^>]*data-kov\s*=\s*(["'])discovery\1)[^>]*>[\s\S]*?</script\s*>""",
+              re.I,
+          )
+          expected_catalogue_slugs = [
+              "audiences", "job-titles", "occupations", "industries", "skills", "qualifications",
+              "professional-terms", "job-functions", "seniority-levels", "employment-types",
+              "career-challenges", "career-search-intents", "faqs", "languages", "countries",
+              "cities", "towns-localities", "institutions",
+          ]
+          charset_meta = re.compile(r'<meta\b[^>]*\bcharset\s*=[^>]*>', re.I)
+          head_re = re.compile(r'(<head\b[^>]*>)([\s\S]*?)(</head\s*>)', re.I)
+          body_re = re.compile(r'<body\b[^>]*>[\s\S]*?</body\s*>', re.I)
+
+          failures = []
+          noindex_pages = 0
+          for page in pages:
+              relative = page.relative_to(output).as_posix()
+              source = repo / relative
+              before = source.read_text(encoding="utf-8")
+              after = page.read_text(encoding="utf-8")
+              before_head = head_re.search(before)
+              after_head = head_re.search(after)
+              if not before_head or not after_head:
+                  failures.append(f"{relative}: missing HEAD")
+                  continue
+
+              before_body = body_re.search(before)
+              after_body = body_re.search(after)
+              if (before_body.group(0) if before_body else "") != (after_body.group(0) if after_body else ""):
+                  failures.append(f"{relative}: BODY changed")
+
+              def protected_head(value):
+                  match = head_re.search(value)
+                  inner = generated_script.sub("", match.group(2))
+                  inner = taxonomy_meta.sub("", inner)
+                  inner = re.sub(r'<!--\s*KOV (?:global|page-specific) descriptive metadata[^>]*-->', "", inner, flags=re.I)
+                  inner = charset_meta.sub("", inner)
+                  return match.group(1) + inner.rstrip() + match.group(3)
+
+              if protected_head(before) != protected_head(after):
+                  failures.append(f"{relative}: existing HEAD metadata, canonical, robots, social tags, scripts, stylesheets or other attributes changed")
+
+              def outside_head(value):
+                  return head_re.sub("<!-- KOV_HEAD_BLOCK -->", value, count=1)
+
+              if outside_head(before) != outside_head(after):
+                  failures.append(f"{relative}: content outside HEAD changed")
+
+              if not re.match(r'\s*<meta\b[^>]*\bcharset\s*=', after_head.group(2), re.I):
+                  failures.append(f"{relative}: charset is not first in HEAD")
+
+              scripts = list(generated_script.finditer(after_head.group(2)))
+              if len(scripts) != 1:
+                  failures.append(f"{relative}: expected exactly one KOV discovery JSON-LD script, found {len(scripts)}")
+                  continue
+              script = scripts[0].group(0)
+              opening = re.match(r'<script\b[^>]*>', script, re.I).group(0)
+              closing = re.search(r'</script\s*>$', script, re.I).group(0)
+              try:
+                  payload = json.loads(script[len(opening):len(script)-len(closing)])
+              except Exception as exc:
+                  failures.append(f"{relative}: generated JSON-LD is invalid: {exc}")
+                  continue
+              graph = payload.get("@graph")
+              if not isinstance(graph, list):
+                  failures.append(f"{relative}: JSON-LD @graph is missing")
+              else:
+                  ids = [node.get("@id") for node in graph if node.get("@id")]
+                  if len(ids) != len(set(ids)):
+                      failures.append(f"{relative}: duplicate JSON-LD @id values")
+                  datasets = [node for node in graph if node.get("@type") == "Dataset"]
+                  if relative in active_paths:
+                      expected_ids = {
+                          f"https://www.kovcareeragency.org/#metadata-catalog/dataset-{slug}"
+                          for slug in expected_catalogue_slugs
+                      }
+                      by_id = {node.get("@id"): node for node in datasets}
+                      if len(by_id.keys() & expected_ids) != 18:
+                          failures.append(f"{relative}: active page does not contain all 18 global catalogue datasets")
+                      for slug in expected_catalogue_slugs:
+                          dataset_id = f"https://www.kovcareeragency.org/#metadata-catalog/dataset-{slug}"
+                          dataset = by_id.get(dataset_id)
+                          distributions = dataset.get("distribution", []) if dataset else []
+                          if isinstance(distributions, dict):
+                              distributions = [distributions]
+                          expected_url = f"https://www.kovcareeragency.org/data/catalogues/{slug}.json"
+                          if not any(item.get("contentUrl") == expected_url for item in distributions if isinstance(item, dict)):
+                              failures.append(f"{relative}: missing full catalogue download reference for {slug}")
+                  elif any(
+                      str(item.get("contentUrl", "")).startswith("https://www.kovcareeragency.org/data/catalogues/")
+                      for dataset in datasets
+                      for item in (dataset.get("distribution", []) if isinstance(dataset.get("distribution", []), list) else [dataset.get("distribution", {})])
+                      if isinstance(item, dict)
+                  ):
+                      failures.append(f"{relative}: inactive page unexpectedly references the full catalogue packages")
+
+              if re.search(
+                  r"""<meta\b(?=[^>]*\bname\s*=\s*["']robots["'])(?=[^>]*\bcontent\s*=\s*["'][^"']*\bnoindex\b)[^>]*>""",
+                  before_head.group(2),
+                  re.I,
+              ):
+                  noindex_pages += 1
+
+          catalogue_dir = output / "data" / "catalogues"
+          for slug in expected_catalogue_slugs:
+              package = catalogue_dir / f"{slug}.json.gz"
+              if not package.is_file():
+                  failures.append(f"Missing compressed catalogue package: {package}")
+                  continue
+              compressed = package.read_bytes()
+              if len(compressed) >= 25 * 1024 * 1024:
+                  failures.append(f"{slug}: compressed package reaches or exceeds Cloudflare's 25 MiB per-file limit")
+                  continue
+              try:
+                  catalogue = json.loads(gzip.decompress(compressed))
+                  records = catalogue.get("records")
+                  if catalogue.get("@type") != "Dataset" or not isinstance(records, list):
+                      failures.append(f"{slug}: package is not a complete Dataset records array")
+                  elif catalogue.get("recordCount") != len(records):
+                      failures.append(f"{slug}: recordCount does not match its full records array")
+                  elif not records:
+                      failures.append(f"{slug}: catalogue package is empty")
+              except Exception as exc:
+                  failures.append(f"{slug}: compressed package cannot be decompressed/parsed: {exc}")
+
+          worker_path = output / "_worker.js"
+          if not worker_path.is_file():
+              failures.append("Cloudflare Pages Worker is missing from build output")
+          else:
+              worker_source = worker_path.read_text(encoding="utf-8")
+              for slug in expected_catalogue_slugs:
+                  route = f'["/data/catalogues/{slug}.json", "/data/catalogues/{slug}.json.gz"]'
+                  if route not in worker_source:
+                      failures.append(f"Worker is missing compressed catalogue route for {slug}")
+              if 'headers.delete("Content-Encoding")' not in worker_source:
+                  failures.append("Worker does not remove backing-asset Content-Encoding before returning decoded JSON")
+              if "application/json; charset=utf-8" not in worker_source:
+                  failures.append("Worker does not serve catalogue packages with an application/json content type")
+
+          homepage = output / "index.html"
+          homepage_text = homepage.read_text(encoding="utf-8")
+          homepage_head = head_re.search(homepage_text).group(2)
+          homepage_script = generated_script.search(homepage_head)
+          homepage_tag = homepage_script.group(0)
+          homepage_open = re.match(r'<script\b[^>]*>', homepage_tag, re.I).group(0)
+          homepage_close = re.search(r'</script\s*>$', homepage_tag, re.I).group(0)
+          homepage_payload = json.loads(homepage_tag[len(homepage_open):len(homepage_tag)-len(homepage_close)])
+          graph = homepage_payload["@graph"]
+          expected_sets = [
+              "audiences", "job-titles", "occupations", "industries", "skills", "qualifications",
+              "professional-terms", "job-functions", "seniority-levels", "employment-types",
+              "career-challenges", "career-search-intents", "faqs", "languages", "countries",
+              "cities", "towns-localities", "institutions",
+          ]
+          dataset_ids = {node.get("@id") for node in graph if node.get("@type") == "Dataset"}
+          for name in expected_sets:
+              expected_id = f"https://www.kovcareeragency.org/#metadata-catalog/dataset-{name}"
+              if expected_id not in dataset_ids:
+                  failures.append(f"index.html: missing global dataset summary {name}")
+
           if failures:
               raise SystemExit("\n".join(failures[:100]))
-          print(f"PASS: {len(pages)} published HTML pages have complete social metadata and charset placement.")
+
+          print("PASS: 2,060 published HTML pages each contain one valid KOV JSON-LD script.")
+          print("PASS: all 1,425 active public pages reference all 18 complete compressed catalogue packages in HEAD.")
+          print("PASS: all 18 catalogue packages decompress, parse, and retain every record.")
+          print("PASS: page bodies and all content outside HEAD are unchanged.")
+          print("PASS: existing canonical URLs, robots directives, social metadata, scripts, stylesheets and unrelated HEAD content are unchanged.")
+          print(f"PASS: {noindex_pages} noindex pages retained their robots directives; inactive pages do not reference full catalogue packages.")
+          print(f"PAGE RECONCILIATION: manifest={len(inventory_paths)}; manifest paths absent from public output={len(missing)}; published HTML absent from manifest={len(unmanifested)}; public HTML={len(pages)}; net difference=18.")
+          print("Manifest paths excluded from public output:")
+          for item in missing:
+              print(f"  - {item}")
+          print("Published pages absent from manifest:")
+          for item in unmanifested:
+              print(f"  - {item}")
           PY
+      - name: Exercise all 18 compressed catalogue URLs through the Cloudflare Pages Worker
+        run: |
+          # Pages requires wrangler.jsonc at the project root. Isolate the Pages
+          # test root so the repository's existing Worker config remains untouched.
+          test_root="$(mktemp -d)"
+          cp -a dist "$test_root/dist"
+          cat > "$test_root/wrangler.jsonc" <<'EOF'
+          {
+            "name": "kov-catalogue-pages-test",
+            "compatibility_date": "2026-11-17",
+            "pages_build_output_dir": "./dist"
+          }
+          EOF
+          (
+            cd "$test_root"
+            npx --yes wrangler@latest pages dev dist --ip 127.0.0.1 --port 8788 > "$RUNNER_TEMP/kov-pages-dev.log" 2>&1 &
+            pages_pid=$!
+            trap 'kill "$pages_pid" 2>/dev/null || true' EXIT
+            ready=0
+            for attempt in $(seq 1 45); do
+              if curl --fail --silent --max-time 2 http://127.0.0.1:8788/ >/dev/null; then
+                ready=1
+                break
+              fi
+              if ! kill -0 "$pages_pid" 2>/dev/null; then
+                cat "$RUNNER_TEMP/kov-pages-dev.log"
+                exit 1
+              fi
+              sleep 1
+            done
+            if [ "$ready" -ne 1 ]; then
+              cat "$RUNNER_TEMP/kov-pages-dev.log"
+              exit 1
+            fi
+            python -u - <<'PY'
+          import gzip
+          import json
+          from urllib.request import Request, urlopen
+
+          base = "http://127.0.0.1:8788"
+          slugs = [
+              "audiences", "job-titles", "occupations", "industries", "skills",
+              "qualifications", "professional-terms", "job-functions",
+              "seniority-levels", "employment-types", "career-challenges",
+              "career-search-intents", "faqs", "languages", "countries",
+              "cities", "towns-localities", "institutions",
+          ]
+
+          for slug in slugs:
+              url = f"{base}/data/catalogues/{slug}.json"
+              with urlopen(Request(url, headers={"Accept-Encoding": "gzip"}), timeout=10) as response:
+                  assert response.status == 200, f"{slug}: gzip route returned {response.status}"
+                  assert "application/json" in response.headers.get("Content-Type", ""), f"{slug}: wrong gzip Content-Type"
+                  encoding = response.headers.get("Content-Encoding", "").lower()
+                  assert encoding in ("", "identity", "gzip"), f"{slug}: unexpected response encoding {encoding}"
+                  compressed = response.read()
+              decoded = gzip.decompress(compressed) if encoding == "gzip" else compressed
+              catalogue = json.loads(decoded)
+              assert catalogue.get("@type") == "Dataset", f"{slug}: response is not a Dataset"
+              assert catalogue.get("recordCount") == len(catalogue.get("records", [])), f"{slug}: recordCount mismatch"
+              assert catalogue.get("identifier") == f"https://www.kovcareeragency.org/data/catalogues/{slug}.json", f"{slug}: identifier mismatch"
+
+              with urlopen(Request(url, headers={"Accept-Encoding": "identity"}), timeout=10) as response:
+                  assert response.status == 200, f"{slug}: identity route returned {response.status}"
+                  assert "application/json" in response.headers.get("Content-Type", ""), f"{slug}: wrong identity Content-Type"
+                  assert not response.headers.get("Content-Encoding"), f"{slug}: identity response was still encoded"
+                  identity = response.read()
+              assert identity == decoded, f"{slug}: gzip and identity responses do not contain identical source bytes"
+              print(f"PASS {slug}: {catalogue['recordCount']:,} records; gzip and identity HTTP responses verified")
+
+          print(f"PASS: all {len(slugs)} catalogue URLs returned complete JSON through the Cloudflare Pages Worker.")
+          PY
+          )
+          rm -rf "$test_root"

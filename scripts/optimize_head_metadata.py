@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Lossless HTML HEAD optimization for Cloudflare Pages output.
 
-Preserves every page body and every existing JSON-LD data node. It only
-reformats the generated KOV discovery JSON-LD, normalizes social metadata,
-adds a description when one is absent, and moves charset/JSON-LD to safe
-positions in the HEAD.
+Preserves page bodies and all existing HEAD content, including canonical,
+robots, social metadata, scripts, stylesheets and unrelated attributes. It
+only moves existing charset declarations to the beginning of HEAD and
+compacts/repositions the generated KOV discovery JSON-LD.
 """
 from __future__ import annotations
 
@@ -172,7 +172,8 @@ def optimize_file(path: Path, root: Path) -> dict:
     before_body_text = before_body.group(0) if before_body else ""
     head = match.group(2)
 
-    # Move the existing charset declaration to the first position in HEAD.
+    # Preserve existing HEAD metadata byte-for-byte. Only relocate charset tags
+    # and compact/reposition the generated KOV JSON-LD script.
     charset_tags = []
     def take_charset(m: re.Match[str]) -> str:
         tag = m.group(0)
@@ -183,63 +184,76 @@ def optimize_file(path: Path, root: Path) -> dict:
     head = transform_markup(head, lambda segment: META_RE.sub(take_charset, segment))
     if not charset_tags:
         charset_tags = ['<meta charset="utf-8">']
-    head = "\n" + "\n".join(charset_tags) + head.lstrip()
+    head = "".join(charset_tags) + head
 
     head, script_count, saved = compact_and_move_jsonld(head)
-    kov_scripts = SCRIPT_RE.findall(head)
-    head = SCRIPT_RE.sub("", head)
-
-    title = first_text(SCRIPT_STYLE_RE.sub("", head), "title") or first_text(original, "h1")
-    description = read_meta(head, "description")
-    if not description:
-        h1 = first_text(original, "h1")
-        paragraph = first_text(original, "p")
-        subject = h1 or title or path.stem.replace("-", " ").title()
-        if paragraph and len(paragraph) > 35:
-            description = shorten(paragraph)
-        else:
-            description = shorten(
-                f"{subject}. Explore relevant career information and services from KOV Career Agency."
-            )
-        head, _ = set_meta(head, "description", description)
-
-    title = title or path.stem.replace("-", " ").title()
-    description = read_meta(head, "description") or description
-    canonical = canonical_url(head, path.relative_to(root).as_posix())
-    og_image = read_meta(head, "og:image", prop=True) or DEFAULT_IMAGE
-    og_image = urljoin(canonical, og_image)
-
-    # Keep an existing page-specific image; synchronize Twitter to the OG image.
-    social = [
-        ("og:site_name", "KOV Career Agency", True),
-        ("og:url", canonical, True),
-        ("og:title", title, True),
-        ("og:description", description, True),
-        ("og:image", og_image, True),
-        ("og:image:alt", "KOV Career Agency", True),
-        ("og:locale", "en_US", True),
-        ("twitter:card", "summary_large_image", False),
-        ("twitter:title", title, False),
-        ("twitter:description", description, False),
-        ("twitter:image", og_image, False),
-        ("twitter:site", "@KOVCareerAgency", False),
-    ]
-    # Do not replace an existing Open Graph type (e.g. article); add only if absent.
-    if not read_meta(head, "og:type", prop=True):
-        social.insert(0, ("og:type", "website", True))
-
-    changed_tags = 0
-    for key, value, is_property in social:
-        head, _ = set_meta(head, key, value, prop=is_property)
-
-    if kov_scripts:
-        head = head.rstrip() + "\n" + "\n".join(kov_scripts) + "\n"
     updated = original[:match.start(2)] + head + original[match.end(2):]
 
     after_body = BODY_RE.search(updated)
     after_body_text = after_body.group(0) if after_body else ""
     if before_body_text != after_body_text:
         raise ValueError(f"BODY changed: {path.relative_to(root)}")
+
+    def managed_head(value: str) -> str:
+        head_match = HEAD_RE.search(value)
+        if not head_match:
+            raise ValueError(f"Missing HEAD during preservation check: {path.relative_to(root)}")
+        inner = SCRIPT_RE.sub("", head_match.group(2))
+        def remove_charset(segment: str) -> str:
+            return META_RE.sub(
+                lambda item: "" if re.search(r"\bcharset\s*=", item.group(0), re.I) else item.group(0),
+                segment,
+            )
+        inner = transform_markup(inner, remove_charset)
+        # JSON-LD is intentionally moved to the end of HEAD; ignore only trailing whitespace
+        # left around that managed script, while comparing all remaining markup exactly.
+        return head_match.group(1) + inner.rstrip() + head_match.group(3)
+
+    if managed_head(original) != managed_head(updated):
+        raise ValueError(
+            f"Unrelated HEAD content changed, including social metadata, scripts, stylesheets or other attributes: {path.relative_to(root)}"
+        )
+
+    def outside_head(value: str) -> str:
+        if not HEAD_RE.search(value):
+            raise ValueError(f"Missing HEAD during document preservation check: {path.relative_to(root)}")
+        return HEAD_RE.sub("<!-- KOV_HEAD_BLOCK -->", value, count=1)
+
+    if outside_head(original) != outside_head(updated):
+        raise ValueError(f"HTML outside HEAD changed: {path.relative_to(root)}")
+
+    def charset_declarations(value: str) -> list[str]:
+        head_match = HEAD_RE.search(value)
+        if not head_match:
+            return []
+        tags = []
+        for segment in markup_parts(head_match.group(2))[::2]:
+            tags.extend(
+                item.group(0) for item in META_RE.finditer(segment)
+                if re.search(r"\bcharset\s*=", item.group(0), re.I)
+            )
+        return tags
+
+    before_charset = charset_declarations(original)
+    after_charset = charset_declarations(updated)
+    expected_charset = before_charset or ['<meta charset="utf-8">']
+    if after_charset != expected_charset:
+        raise ValueError(f"Charset declaration value or attributes changed: {path.relative_to(root)}")
+
+    def kov_jsonld_values(value: str) -> list[object]:
+        head_match = HEAD_RE.search(value)
+        if not head_match:
+            return []
+        result = []
+        for script_match in SCRIPT_RE.finditer(head_match.group(2)):
+            script = script_match.group(0)
+            opening = re.match(r"<script\b[^>]*>", script, re.I).group(0)
+            closing = re.search(r"</script\s*>$", script, re.I).group(0)
+            result.append(json.loads(script[len(opening):len(script) - len(closing)]))
+        return result
+
+    if kov_jsonld_values(original) != kov_jsonld_values(updated):
+        raise ValueError(f"KOV JSON-LD content changed during optimization: {path.relative_to(root)}")
 
     final_head_match = HEAD_RE.search(updated)
     final_head = final_head_match.group(2) if final_head_match else ""
@@ -266,7 +280,7 @@ def optimize_file(path: Path, root: Path) -> dict:
         "final_bytes": len(updated.encode("utf-8")),
         "jsonld_scripts": script_count,
         "jsonld_head_bytes_saved": saved,
-        "description_added": not bool(read_meta(match.group(2), "description")),
+        "description_added": False,
     }
 
 
