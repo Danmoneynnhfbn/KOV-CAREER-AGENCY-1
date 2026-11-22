@@ -238,7 +238,7 @@ function main() {
     if (!row.id || !row.staging_preview_url || !row.proposed_url) {
       throw new Error(`Incomplete programme tracker row: ${row.id || "(missing id)"}`);
     }
-    const sourcePath = path.join(stagingRoot, row.staging_preview_url.replace(/^\/staging\//, ""), "index.html");
+    const sourcePath = path.join(stagingRoot, row.staging_preview_url.replace(/^\/directory\//, ""), "index.html");
     const destinationPath = filePathForUrl(`${publicOrigin}${row.proposed_url}`);
     if (!fs.existsSync(sourcePath)) throw new Error(`Staging source is missing for ${row.id}: ${sourcePath}`);
     if (publicRoutes.has(row.proposed_url)) throw new Error(`Duplicate public route: ${row.proposed_url}`);

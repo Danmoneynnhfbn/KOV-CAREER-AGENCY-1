@@ -199,7 +199,7 @@ for (const group of groups) {
   const routeNames = buildRoutesForGroup(group);
   for (const slug of routeNames) {
     const routeDir = group.dir.startsWith('directory/') ? path.join(root, group.dir, slug) : path.join(root, group.dir, slug);
-    const publicUrl = group.dir.startsWith('directory/') ? `/career-resources/${slug}/` : `/${group.dir.replace(/^staging\//, '')}/${slug}/`;
+    const publicUrl = group.dir.startsWith('directory/') ? `/career-resources/${slug}/` : `/${group.dir.replace(/^directory\//, '')}/${slug}/`;
     const stagingUrl = group.dir.startsWith('directory/') ? `/directory/${group.stagePrefix}/${slug}/` : `/directory/${group.stagePrefix}/${slug}/`;
     const pageTitle = titleCase(slug.replace(/-/g, ' '));
 
