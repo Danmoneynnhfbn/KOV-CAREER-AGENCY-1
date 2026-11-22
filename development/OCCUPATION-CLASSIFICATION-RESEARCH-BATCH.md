@@ -18,7 +18,7 @@
 - Two Google searches localized to the United States were reviewed: `"Management Occupations" "11-0000"` surfaced BLS and O*NET occupational references; `"management occupations" career directory` surfaced BLS Occupational Outlook Handbook, Indeed degree-focused career guidance, workforce resources, and university content. These qualitative screens support a classification-navigation purpose, not measured demand or stable ranking claims.
 - Indeed's “21 Jobs You Can Get With a Business Management Degree” (updated 2026-06-15) was reviewed as adjacent content. Its degree-oriented audience and broad career list differ from a U.S. SOC index that routes visitors to existing executive role pages.
 - The exact proposed route was previously found in 105 internal links across 35 pages. Combined with the user's approved classification architecture, this supports development as an internal navigation resource, not a standalone demand or traffic forecast.
-- A substantive, unstyled, noindex page is built at `staging/roles/management-occupations/index.html`. It is excluded from production sitemap and public search. Search metrics remain unavailable and are not claimed.
+- A substantive, unstyled, noindex page is built at `directory/roles/management-occupations/index.html`. It is excluded from production sitemap and public search. Search metrics remain unavailable and are not claimed.
 
 **Qualification outcome:** One candidate is qualified for staging development; the other 22 remain provisional pending their own role mapping, overlap, audience, and evidence review. Staging approval is not production or publication approval.
 

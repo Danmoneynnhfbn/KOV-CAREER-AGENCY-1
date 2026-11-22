@@ -136,7 +136,7 @@
   "content_status": "substantive_staging_page_complete",
   "publication_status": "not_published",
   "notes": [
-    "A source-backed, unstyled HTML page exists at staging/roles/management-occupations/index.html and is qualified for unpublished staging development.",
+    "A source-backed, unstyled HTML page exists at directory/roles/management-occupations/index.html and is qualified for unpublished staging development.",
     "The exact proposed destination is linked internally 105 times across 35 source pages; this indicates an internal navigation repair need only.",
     "Two US-localized SERP screens and the adjacent Indeed article were reviewed. No keyword volume, rankings, traffic, conversion, or outcome claims are made.",
     "Keep excluded from public navigation, sitemap, and search until any separate production review and explicit release approval."

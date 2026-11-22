@@ -29,7 +29,7 @@ class SearchEligibilityTests(unittest.TestCase):
 
     def test_unpublished_paths_and_statuses_are_excluded(self):
         excluded = (
-            ("<main>Draft</main>", "staging/new-page/index.html"),
+            ("<main>Draft</main>", "directory/new-page/index.html"),
             ("<main>Draft</main>", "drafts/new-page.html"),
             ('<main data-status="draft">Draft</main>', "new-page.html"),
             ('<main data-publication-status="private">Private</main>', "new-page.html"),

@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-2022-sales-managers`
 - **Proposed URL:** `/roles/soc-occupation-11-2022-sales-managers.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-2022-sales-managers/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-2022-sales-managers/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-2022-sales-managers.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

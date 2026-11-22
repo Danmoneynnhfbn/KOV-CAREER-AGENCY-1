@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-9013-farmers-ranchers-and-other-agricultural-managers`
 - **Proposed URL:** `/roles/soc-occupation-11-9013-farmers-ranchers-and-other-agricultural-managers.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-9013-farmers-ranchers-and-other-agricultural-managers/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-9013-farmers-ranchers-and-other-agricultural-managers/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-9013-farmers-ranchers-and-other-agricultural-managers.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

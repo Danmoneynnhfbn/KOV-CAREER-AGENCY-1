@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-1031-legislators`
 - **Proposed URL:** `/roles/soc-occupation-11-1031-legislators.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-1031-legislators/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-1031-legislators/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-1031-legislators.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

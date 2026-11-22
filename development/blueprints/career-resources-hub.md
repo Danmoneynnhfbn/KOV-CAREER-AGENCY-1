@@ -2,7 +2,7 @@
 
 - **Page ID:** `career-resources-hub`
 - **Proposed public URL:** `/career-resources/`
-- **Noindex staging preview:** `/staging/career-resources/`
+- **Noindex staging preview:** `/directory/career-resources/`
 - **Research record:** [`career-resources-hub.json`](../research/records/career-resources-hub.json)
 - **Development approval:** approved_for_development
 - **Publication status:** Not approved

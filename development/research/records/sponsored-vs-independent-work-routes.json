@@ -156,7 +156,7 @@
   "content_status": "staging_content_complete",
   "publication_status": "not_published",
   "notes": [
-    "Substantive staging HTML is present at staging/career-resources/mobility/employer-sponsored-vs-independent-work-routes/index.html and passed foundation browser and site-coverage QA.",
+    "Substantive staging HTML is present at directory/career-resources/mobility/employer-sponsored-vs-independent-work-routes/index.html and passed foundation browser and site-coverage QA.",
     "Competitor and keyword-volume evidence remain unavailable; no demand claims are made. Keep excluded from public search/sitemap; production publication remains unapproved."
   ]
 }

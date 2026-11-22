@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-9031-education-and-childcare-administrators-preschool-and-daycare`
 - **Proposed URL:** `/roles/soc-occupation-11-9031-education-and-childcare-administrators-preschool-and-daycare.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-9031-education-and-childcare-administrators-preschool-and-daycare/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-9031-education-and-childcare-administrators-preschool-and-daycare/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-9031-education-and-childcare-administrators-preschool-and-daycare.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

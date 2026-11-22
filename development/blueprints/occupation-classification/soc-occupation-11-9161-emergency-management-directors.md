@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-9161-emergency-management-directors`
 - **Proposed URL:** `/roles/soc-occupation-11-9161-emergency-management-directors.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-9161-emergency-management-directors/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-9161-emergency-management-directors/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-9161-emergency-management-directors.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

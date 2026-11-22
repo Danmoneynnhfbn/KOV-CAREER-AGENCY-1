@@ -58,4 +58,4 @@ Potential links to verify during implementation: `/roles/`, `/roles/senior-leade
 - No Search Console, keyword-volume, difficulty, traffic, or conversion data is available; make no demand, ranking, or outcome claims.
 - Review the full existing role-page text and contextual links before publication. The U.S. SOC must not be presented as global or as a test of KOV service eligibility.
 
-An unpublished, noindex HTML page is available at `staging/roles/management-occupations/index.html`. It is qualified for staging development only. Keep it absent from public navigation, sitemap, and internal search until a separate release review and explicit owner approval.
+An unpublished, noindex HTML page is available at `directory/roles/management-occupations/index.html`. It is qualified for staging development only. Keep it absent from public navigation, sitemap, and internal search until a separate release review and explicit owner approval.

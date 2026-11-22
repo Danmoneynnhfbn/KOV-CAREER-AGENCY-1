@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-management-occupations-detail-directory`
 - **Proposed URL:** `/roles/soc-management-occupation-directory.html`
-- **Staging URL:** `/staging/roles/soc-management-detail/`
+- **Staging URL:** `/directory/roles/soc-management-detail/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-management-occupations-detail-directory.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

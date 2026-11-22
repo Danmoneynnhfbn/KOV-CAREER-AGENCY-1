@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-2033-fundraising-managers`
 - **Proposed URL:** `/roles/soc-occupation-11-2033-fundraising-managers.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-2033-fundraising-managers/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-2033-fundraising-managers/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-2033-fundraising-managers.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

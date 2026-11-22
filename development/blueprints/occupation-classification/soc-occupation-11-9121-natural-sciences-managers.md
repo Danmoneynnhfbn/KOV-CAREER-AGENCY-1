@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-9121-natural-sciences-managers`
 - **Proposed URL:** `/roles/soc-occupation-11-9121-natural-sciences-managers.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-9121-natural-sciences-managers/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-9121-natural-sciences-managers/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-9121-natural-sciences-managers.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

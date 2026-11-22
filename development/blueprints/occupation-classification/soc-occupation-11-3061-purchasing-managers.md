@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-3061-purchasing-managers`
 - **Proposed URL:** `/roles/soc-occupation-11-3061-purchasing-managers.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-3061-purchasing-managers/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-3061-purchasing-managers/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-3061-purchasing-managers.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

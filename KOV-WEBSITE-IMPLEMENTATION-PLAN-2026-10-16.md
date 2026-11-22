@@ -183,7 +183,7 @@ The exact 101-file page dispositions are in the linked audit report. The impleme
 8. **Audience labels:** Do you prefer three or four navigation levels, and which labels best match your actual target customers? The current proposed labels are early-career, experienced/mid-career, senior-level, and executive.
 9. **URL handling:** For retired employer pages with no candidate replacement, do you prefer a not-found/gone response, or is there a specific genuinely relevant replacement page? The proposal avoids blanket homepage redirects.
 10. **Assets/press logos:** Are the homepage press/media logos approved for use as displayed, and should missing `download (27).png` / `download (28).png` references be removed if the source files cannot be supplied?
-11. **Privacy and live configuration:** Is there a designated person to approve revised privacy/data-retention and contractual language, and can staging/production routing be verified before any redirects or account changes go live?
+11. **Privacy and live configuration:** Is there a designated person to approve revised privacy/data-retention and contractual language, and can directory/production routing be verified before any redirects or account changes go live?
 
 ## 5. Guardrails for implementation approval
 

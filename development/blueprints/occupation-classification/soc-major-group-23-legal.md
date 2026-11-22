@@ -61,5 +61,5 @@ Keep the candidate unpublished and absent from public navigation, sitemap, and i
 
 ## Staging implementation status
 
-A substantive plain-HTML noindex preview is built at `/staging/roles/soc-major-group-23-legal/` from the locally retained, cross-validated 2018 SOC structure workbook. The page lists this major group's minor and broad group codes/titles and intentionally makes no KOV role-to-SOC mapping. Browser checks passed on 2026-11-05. The candidate remains provisional: audience fit, page-specific mapping/overlap, and direct SERP/demand work are not complete. Keep unpublished and excluded from public sitemap/search/navigation.
+A substantive plain-HTML noindex preview is built at `/directory/roles/soc-major-group-23-legal/` from the locally retained, cross-validated 2018 SOC structure workbook. The page lists this major group's minor and broad group codes/titles and intentionally makes no KOV role-to-SOC mapping. Browser checks passed on 2026-11-05. The candidate remains provisional: audience fit, page-specific mapping/overlap, and direct SERP/demand work are not complete. Keep unpublished and excluded from public sitemap/search/navigation.
 

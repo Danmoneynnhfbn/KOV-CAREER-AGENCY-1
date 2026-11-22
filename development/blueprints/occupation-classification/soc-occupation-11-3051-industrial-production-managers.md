@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-3051-industrial-production-managers`
 - **Proposed URL:** `/roles/soc-occupation-11-3051-industrial-production-managers.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-3051-industrial-production-managers/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-3051-industrial-production-managers/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-3051-industrial-production-managers.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-9141-property-real-estate-and-community-association-managers`
 - **Proposed URL:** `/roles/soc-occupation-11-9141-property-real-estate-and-community-association-managers.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-9141-property-real-estate-and-community-association-managers/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-9141-property-real-estate-and-community-association-managers/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-9141-property-real-estate-and-community-association-managers.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

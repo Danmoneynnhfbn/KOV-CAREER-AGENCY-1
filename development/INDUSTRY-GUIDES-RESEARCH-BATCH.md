@@ -26,7 +26,7 @@
 - **Sources:** FED-SR2304; HUNTER-BOND-BANK-FINTECH; KOV-INDUSTRY-RESEARCH
 - **Competitor review:** Hunter Bond and PaymentGenes transition articles were directly reviewed. A United States-localized Google results screen for the candidate topic included both articles, CFA Institute research, and user discussion results. The screen is qualitative and dynamic, not a rank-tracking study.
 - **Volume/SERP:** No Search Console or validated keyword export was available. No volume, difficulty, traffic, conversion, or demand claim is made.
-- **Disposition:** Qualified for development under the owner's `approve_qualified` decision; substantive content is built at `/staging/career-resources/industry-specific-career-guides/bank-executive-to-fintech-career-transition/`. It remains noindex, unpublished, and excluded from public navigation, sitemap, and search.
+- **Disposition:** Qualified for development under the owner's `approve_qualified` decision; substantive content is built at `/directory/career-resources/industry-specific-career-guides/bank-executive-to-fintech-career-transition/`. It remains noindex, unpublished, and excluded from public navigation, sitemap, and search.
 
 ### Oil and Gas to Offshore Wind: An Executive Career Transition Guide
 

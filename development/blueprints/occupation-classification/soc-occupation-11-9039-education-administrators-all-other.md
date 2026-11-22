@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-9039-education-administrators-all-other`
 - **Proposed URL:** `/roles/soc-occupation-11-9039-education-administrators-all-other.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-9039-education-administrators-all-other/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-9039-education-administrators-all-other/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-9039-education-administrators-all-other.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

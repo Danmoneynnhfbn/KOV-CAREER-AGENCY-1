@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-9171-funeral-home-managers`
 - **Proposed URL:** `/roles/soc-occupation-11-9171-funeral-home-managers.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-9171-funeral-home-managers/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-9171-funeral-home-managers/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-9171-funeral-home-managers.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

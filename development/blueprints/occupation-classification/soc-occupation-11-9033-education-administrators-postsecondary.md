@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-9033-education-administrators-postsecondary`
 - **Proposed URL:** `/roles/soc-occupation-11-9033-education-administrators-postsecondary.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-9033-education-administrators-postsecondary/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-9033-education-administrators-postsecondary/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-9033-education-administrators-postsecondary.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

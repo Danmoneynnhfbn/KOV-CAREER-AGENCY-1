@@ -2,7 +2,7 @@
 
 - **Page ID:** `uk-global-talent-digital-leaders`
 - **Proposed URL:** `/career-resources/mobility/uk-global-talent-digital-technology-leaders/`
-- **Staging preview:** `/staging/career-resources/mobility/uk-global-talent-digital-technology-leaders/`
+- **Staging preview:** `/directory/career-resources/mobility/uk-global-talent-digital-technology-leaders/`
 - **Page group:** International career mobility
 - **Research record:** [`uk-global-talent-digital-leaders.json`](../../research/records/uk-global-talent-digital-leaders.json)
 - **Blueprint status:** Noindex staging draft built from current official source review; not qualified for the 577-page programme or approved for publication.
@@ -26,7 +26,7 @@ Audience: senior professionals and executives considering a cross-border career 
 
 The topic may differ from existing UK/London market pages, which focus on geography rather than immigration, and from the separate research pathway page. Full body overlap, current SERPs, first-party query evidence, and KOV serviceability still need validation.
 
-A noindex staging draft exists at `/staging/career-resources/mobility/uk-global-talent-digital-technology-leaders/`. The public candidate URL remains unapproved and absent from the sitemap and search index.
+A noindex staging draft exists at `/directory/career-resources/mobility/uk-global-talent-digital-technology-leaders/`. The public candidate URL remains unapproved and absent from the sitemap and search index.
 
 ## Page-specific structure
 

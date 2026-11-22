@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `board-cv-and-director-biography`
 - **Proposed URL:** `/resources/board-cv-and-director-biography.html`
-- **Staging preview:** `/staging/resources/board-cv-and-director-biography/`
+- **Staging preview:** `/directory/resources/board-cv-and-director-biography/`
 - **Category:** `board_non_executive_career`
 - **Parent hub:** `/career-resources/`
 - **Research record:** [`board-cv-and-director-biography.json`](../../research/records/board-cv-and-director-biography.json)

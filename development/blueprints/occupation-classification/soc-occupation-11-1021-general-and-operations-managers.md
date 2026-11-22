@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-1021-general-and-operations-managers`
 - **Proposed URL:** `/roles/soc-occupation-11-1021-general-and-operations-managers.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-1021-general-and-operations-managers/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-1021-general-and-operations-managers/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-1021-general-and-operations-managers.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

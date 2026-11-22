@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-3021-computer-and-information-systems-managers`
 - **Proposed URL:** `/roles/soc-occupation-11-3021-computer-and-information-systems-managers.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-3021-computer-and-information-systems-managers/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-3021-computer-and-information-systems-managers/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-3021-computer-and-information-systems-managers.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

@@ -141,7 +141,7 @@
   "content_status": "staging_content_complete",
   "publication_status": "not_approved",
   "notes": [
-    "Substantive staging HTML is present at staging/career-resources/industry-specific-career-guides/bank-executive-to-fintech-career-transition/index.html and passed foundation browser and site-coverage QA. Development is authorized under the owner's approve_qualified decision; no publication is authorized.",
+    "Substantive staging HTML is present at directory/career-resources/industry-specific-career-guides/bank-executive-to-fintech-career-transition/index.html and passed foundation browser and site-coverage QA. Development is authorized under the owner's approve_qualified decision; no publication is authorized.",
     "Keep excluded from public navigation, sitemap, and search. Limit regulatory statements to the cited U.S. banking context."
   ]
 }

@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-9032-education-administrators-kindergarten-through-secondary`
 - **Proposed URL:** `/roles/soc-occupation-11-9032-education-administrators-kindergarten-through-secondary.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-9032-education-administrators-kindergarten-through-secondary/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-9032-education-administrators-kindergarten-through-secondary/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-9032-education-administrators-kindergarten-through-secondary.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

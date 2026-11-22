@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-9199-managers-all-other`
 - **Proposed URL:** `/roles/soc-occupation-11-9199-managers-all-other.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-9199-managers-all-other/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-9199-managers-all-other/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-9199-managers-all-other.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

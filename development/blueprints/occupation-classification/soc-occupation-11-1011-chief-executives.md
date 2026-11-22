@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-1011-chief-executives`
 - **Proposed URL:** `/roles/soc-occupation-11-1011-chief-executives.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-1011-chief-executives/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-1011-chief-executives/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-1011-chief-executives.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

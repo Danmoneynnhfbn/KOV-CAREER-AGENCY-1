@@ -315,7 +315,7 @@ async function main() {
   const socDirectory = fs.readFileSync(socDirectoryPath, "utf8");
   assert.equal(socMajorGroupSlugs.length, 22);
   assert.equal(socDirectory.includes('name="robots" content="noindex, nofollow"'), true);
-  assert.equal([...socDirectory.matchAll(/<li><a href="\/staging\/roles\//g)].length, 23);
+  assert.equal([...socDirectory.matchAll(/<li><a href="\/directory\/roles\//g)].length, 23);
   assert.equal(socDirectory.includes("https://www.bls.gov/soc/2018/home.htm"), true);
   for (const slug of socMajorGroupSlugs) {
     const pagePath = path.join(root, "staging", "roles", slug, "index.html");
@@ -382,7 +382,7 @@ async function main() {
     assert.equal(tracked.proposed_url, candidate.proposed_url);
     assert.equal(tracked.search_sitemap_status, "excluded");
     const route = tracked.staging_preview_url;
-    assert.match(route, /^\/staging\//, `${candidate.candidate_id} should use a staging route`);
+    assert.match(route, /^\/directory\//, `${candidate.candidate_id} should use a staging route`);
     const relativePath = route.slice(1);
     const candidatePath = route.endsWith("/")
       ? path.join(root, relativePath, "index.html")
@@ -567,7 +567,7 @@ async function main() {
   const managementOccupationDirectory = fs.readFileSync(managementOccupationDirectoryPath, "utf8");
   const occupationSlugs = [
     ...managementOccupationDirectory.matchAll(
-      /<li><a href="\/staging\/roles\/(soc-occupation-[^/]+)\/">/g
+      /<li><a href="\/directory\/roles\/(soc-occupation-[^/]+)\/">/g
     ),
   ].map((match) => match[1]);
   assert.equal(occupationSlugs.length, 38, "The management SOC directory should link to all 38 detailed occupations");
@@ -583,7 +583,7 @@ async function main() {
     assert.equal(source.includes('name="robots" content="noindex, nofollow"'), true);
     assert.equal(hasSharedVisualStylesheet(source), true);
     assert.equal(source.includes("https://www.bls.gov/soc/2018/home.htm"), true);
-    assert.ok([...source.matchAll(/<li><a href="\/staging\/roles\/soc-occupation-11-/g)].length > 0);
+    assert.ok([...source.matchAll(/<li><a href="\/directory\/roles\/soc-occupation-11-/g)].length > 0);
     assert.equal(sitemap.includes(`/directory/roles/${slug}`), false);
     assert.equal(searchIndex.includes(`/directory/roles/${slug}`), false);
   }
@@ -601,7 +601,7 @@ async function main() {
     assert.equal(sitemap.includes(`/directory/roles/${slug}`), false);
     assert.equal(searchIndex.includes(`/directory/roles/${slug}`), false);
   }
-  for (const htmlPath of getHtmlFiles(path.join(root, "staging"))) {
+  for (const htmlPath of getHtmlFiles(path.join(root, "directory"))) {
     const html = fs.readFileSync(htmlPath, "utf8");
     const exampleLanguage = html.match(/\b(?:examples?|illustrative|case\s+studies?)\b/i);
     assert.equal(

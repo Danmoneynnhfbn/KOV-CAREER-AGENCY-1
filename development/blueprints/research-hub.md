@@ -2,7 +2,7 @@
 
 - **Page ID:** `research-hub`
 - **Proposed public URL:** `/research/`
-- **Noindex staging preview:** `/staging/research/`
+- **Noindex staging preview:** `/directory/research/`
 - **Research record:** [`research-hub.json`](../research/records/research-hub.json)
 - **Development approval:** approved_for_development
 - **Publication status:** Not approved

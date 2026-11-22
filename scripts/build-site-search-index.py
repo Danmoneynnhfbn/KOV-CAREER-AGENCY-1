@@ -90,7 +90,7 @@ def local_page(location):
 
 def is_search_eligible(html_source, page_name):
     normalized_name = str(page_name or "").replace("\\", "/").lower()
-    if normalized_name.startswith(("staging/", "drafts/", "development/")):
+    if normalized_name.startswith(("directory/", "drafts/", "development/")):
         return False
 
     if "/index.html" in normalized_name and "staging" in normalized_name.split("/"):

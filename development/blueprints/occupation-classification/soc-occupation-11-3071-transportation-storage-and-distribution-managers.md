@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-3071-transportation-storage-and-distribution-managers`
 - **Proposed URL:** `/roles/soc-occupation-11-3071-transportation-storage-and-distribution-managers.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-3071-transportation-storage-and-distribution-managers/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-3071-transportation-storage-and-distribution-managers/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-3071-transportation-storage-and-distribution-managers.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

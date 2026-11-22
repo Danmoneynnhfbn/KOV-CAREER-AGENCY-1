@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-management-subgroup-119000`
 - **Proposed URL:** `/roles/soc-management-subgroup-119000.html`
-- **Staging URL:** `/staging/roles/soc-management-subgroup-119000/`
+- **Staging URL:** `/directory/roles/soc-management-subgroup-119000/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-management-subgroup-119000.json`
 - **Blueprint status:** Taxonomy-only staging directory; candidate qualification pending

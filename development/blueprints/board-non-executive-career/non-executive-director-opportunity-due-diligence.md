@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `non-executive-director-opportunity-due-diligence`
 - **Proposed URL:** `/resources/non-executive-director-opportunity-due-diligence.html`
-- **Staging preview:** `/staging/resources/non-executive-director-opportunity-due-diligence/`
+- **Staging preview:** `/directory/resources/non-executive-director-opportunity-due-diligence/`
 - **Category:** `board_non_executive_career`
 - **Parent hub:** `/career-resources/`
 - **Status:** Qualified for unpublished staging development only. Search demand and production release are not established.
@@ -35,7 +35,7 @@ Offer executives a bounded set of questions to clarify one potential board or no
 
 ## Differentiation
 
-The existing [board-level career transition page](/roles/board-level-career-transition.html) addresses positioning and service scope. This page limits itself to questions for clarifying one opportunity and does not repeat service copy. The [board CV and director biography staging guide](/staging/resources/board-cv-and-director-biography/) addresses evidence presentation, not appointment due diligence.
+The existing [board-level career transition page](/roles/board-level-career-transition.html) addresses positioning and service scope. This page limits itself to questions for clarifying one opportunity and does not repeat service copy. The [board CV and director biography staging guide](/directory/resources/board-cv-and-director-biography/) addresses evidence presentation, not appointment due diligence.
 
 ## Source notes and limits
 

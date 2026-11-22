@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-9131-postmasters-and-mail-superintendents`
 - **Proposed URL:** `/roles/soc-occupation-11-9131-postmasters-and-mail-superintendents.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-9131-postmasters-and-mail-superintendents/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-9131-postmasters-and-mail-superintendents/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-9131-postmasters-and-mail-superintendents.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending

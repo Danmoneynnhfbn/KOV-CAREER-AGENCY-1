@@ -2,7 +2,7 @@
 
 - **Page ID:** `professional-profile-directory`
 - **Proposed public URL:** `/professional-directory/`
-- **Noindex staging preview:** `/staging/professional-directory/`
+- **Noindex staging preview:** `/directory/professional-directory/`
 - **Research record:** [`professional-profile-directory.json`](../research/records/professional-profile-directory.json)
 - **Development approval:** approved_for_research_only
 - **Publication status:** Not approved

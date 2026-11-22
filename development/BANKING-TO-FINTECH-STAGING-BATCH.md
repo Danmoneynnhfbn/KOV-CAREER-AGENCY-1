@@ -9,7 +9,7 @@
 - **Page:** From Banking Leadership to Fintech: Translating Your Experience
 - **Candidate ID:** `bank-executive-to-fintech-career-transition`
 - **Proposed URL:** `/career-resources/industry-specific-career-guides/bank-executive-to-fintech-career-transition/`
-- **Staging preview:** `/staging/career-resources/industry-specific-career-guides/bank-executive-to-fintech-career-transition/`
+- **Staging preview:** `/directory/career-resources/industry-specific-career-guides/bank-executive-to-fintech-career-transition/`
 
 The candidate addresses a specific executive transition task rather than repeating the existing finance or technology sector overviews. The existing senior-leader strategy and executive-resume pages provide general candidate-side career-positioning context. The new guide does not claim that KOV recruits for fintech, provides sector-specific placement, or can secure an outcome.
 

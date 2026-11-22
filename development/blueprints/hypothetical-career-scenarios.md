@@ -1,7 +1,7 @@
 # Hypothetical Career-Planning Scenario Collection
 
 - **Collection:** `hypothetical-career-scenarios`
-- **Staging route:** `/staging/resources/hypothetical-career-scenarios/`
+- **Staging route:** `/directory/resources/hypothetical-career-scenarios/`
 - **Status:** Fictional editorial prototypes only; not eligible for the 577-page researched-content count.
 - **Production decision:** None. No production routes, indexation, public navigation, or search inclusion is approved.
 

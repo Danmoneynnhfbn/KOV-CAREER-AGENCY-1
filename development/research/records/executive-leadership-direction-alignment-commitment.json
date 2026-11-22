@@ -94,7 +94,7 @@
   "content_status": "staging_content_complete",
   "publication_status": "not_published",
   "notes": [
-    "Substantive staging HTML is present at staging/resources/executive-leadership-direction-alignment-commitment/index.html and passed foundation browser and site-coverage QA.",
+    "Substantive staging HTML is present at directory/resources/executive-leadership-direction-alignment-commitment/index.html and passed foundation browser and site-coverage QA.",
     "Attribute the DAC model to the Center for Creative Leadership. Actual SERP and first-party demand evidence remain unavailable; no demand or outcome claims are made. Keep excluded from public navigation, sitemap, and search."
   ]
 }

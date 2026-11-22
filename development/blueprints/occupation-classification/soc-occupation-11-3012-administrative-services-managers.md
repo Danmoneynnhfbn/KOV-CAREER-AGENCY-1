@@ -2,7 +2,7 @@
 
 - **Candidate ID:** `soc-occupation-11-3012-administrative-services-managers`
 - **Proposed URL:** `/roles/soc-occupation-11-3012-administrative-services-managers.html`
-- **Staging URL:** `/staging/roles/soc-occupation-11-3012-administrative-services-managers/`
+- **Staging URL:** `/directory/roles/soc-occupation-11-3012-administrative-services-managers/`
 - **Category:** `occupation_classification`
 - **Research record:** `development/research/records/soc-occupation-11-3012-administrative-services-managers.json`
 - **Blueprint status:** Taxonomy-only staging draft; candidate qualification pending
