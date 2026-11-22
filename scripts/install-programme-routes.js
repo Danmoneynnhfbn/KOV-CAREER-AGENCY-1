@@ -10,21 +10,21 @@ const supportCopies = [
   {
     source: "staging/career-resources/index.html",
     destination: "career-resources/index.html",
-    sourceRoute: "/staging/career-resources/",
+    sourceRoute: "/directory/career-resources/",
     route: "/career-resources/",
     kind: "Career Resources Hub",
   },
   {
     source: "staging/research/index.html",
     destination: "research/index.html",
-    sourceRoute: "/staging/research/",
+    sourceRoute: "/directory/research/",
     route: "/research/",
     kind: "Research Hub",
   },
   {
     source: "staging/professional-directory/index.html",
     destination: "professional-directory/index.html",
-    sourceRoute: "/staging/professional-directory/",
+    sourceRoute: "/directory/professional-directory/",
     route: "/professional-directory/",
     kind: "Professional Profile Directory",
   },
@@ -44,7 +44,7 @@ const supportCopies = [
   ].map((category) => ({
     source: `staging/career-resources/${category}/index.html`,
     destination: `career-resources/${category}/index.html`,
-    sourceRoute: `/staging/career-resources/${category}/`,
+    sourceRoute: `/directory/career-resources/${category}/`,
     route: `/career-resources/${category}/`,
     kind: `${category} category index`,
   })),
@@ -146,7 +146,7 @@ function rewriteProgrammeLinks(html, sourceStagingRoute, routeMap, supportRouteM
       } catch {
         return tag;
       }
-      if (destination.origin !== publicOrigin || !destination.pathname.startsWith("/staging/")) return tag;
+      if (destination.origin !== publicOrigin || !destination.pathname.startsWith("/directory/")) return tag;
       const publicRoute = lookupPublicRoute(destination.pathname, routeMap, supportRouteMap);
       if (!publicRoute) return tag;
       return `${before}${publicRoute}${destination.search}${destination.hash}${after}`;
@@ -260,11 +260,11 @@ function main() {
   });
 
   const supportRouteMap = new Map([
-    ["/staging/", "/"],
-    ["/staging/career-resources/", "/career-resources/"],
-    ["/staging/research/", "/research/"],
-    ["/staging/professional-directory/", "/professional-directory/"],
-    ["/staging/roles/", "/career-resources/occupation-guides/"],
+    ["/directory/", "/"],
+    ["/directory/career-resources/", "/career-resources/"],
+    ["/directory/research/", "/research/"],
+    ["/directory/professional-directory/", "/professional-directory/"],
+    ["/directory/roles/", "/career-resources/occupation-guides/"],
   ]);
   for (const support of supportCopies) {
     const sourcePath = path.resolve(root, support.source);
@@ -276,7 +276,7 @@ function main() {
   }
   const occupationHubRoute = "/career-resources/occupation-guides/";
   if (publicRoutes.has(occupationHubRoute)) throw new Error(`Occupation hub conflicts with a programme route: ${occupationHubRoute}`);
-  supportRouteMap.set("/staging/roles/", occupationHubRoute);
+  supportRouteMap.set("/directory/roles/", occupationHubRoute);
 
   const occupationHubPath = filePathForUrl(`${publicOrigin}${occupationHubRoute}`);
   const installTargets = [
@@ -284,14 +284,14 @@ function main() {
     ...supportCopies.map((support) => ({
       sourcePath: path.resolve(root, support.source),
       destinationPath: path.resolve(root, support.destination),
-      stagingRoute: `/staging/${support.route.slice(1)}`,
+      stagingRoute: `/directory/${support.route.slice(1)}`,
       publicUrl: support.route,
       kind: "support index",
     })),
     {
       sourcePath: "",
       destinationPath: occupationHubPath,
-      stagingRoute: "/staging/roles/",
+      stagingRoute: "/directory/roles/",
       publicUrl: occupationHubRoute,
       kind: "occupation hub index",
     },
@@ -386,7 +386,7 @@ function main() {
     programme_id: "",
     file_path: path.relative(root, occupationHubPath).split(path.sep).join("/"),
     intended_url: occupationHubRoute,
-    source_staging_url: "/staging/roles/",
+    source_staging_url: "/directory/roles/",
     kind: "occupation guides support index",
   });
 
