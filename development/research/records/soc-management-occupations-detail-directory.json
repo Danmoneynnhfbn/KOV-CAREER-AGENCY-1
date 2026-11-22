@@ -2,7 +2,7 @@
     "id":  "soc-management-occupations-detail-directory",
     "page_title":  "2018 U.S. SOC Management Occupations: Detailed Directory",
     "proposed_url":  "/roles/soc-management-occupation-directory.html",
-    "staging_preview_url":  "/staging/roles/soc-management-detail/",
+    "staging_preview_url":  "/directory/roles/soc-management-detail/",
     "page_group":  "occupation_classification",
     "parent_hub":  "/roles/",
     "candidate_status":  "provisional_taxonomy_reference_not_qualified",
