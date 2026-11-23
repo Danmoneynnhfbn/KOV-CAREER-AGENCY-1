@@ -84,11 +84,11 @@ for (const row of mappings) {
   assert.ok(!preview.destination.startsWith("/directory/"));
 
   const destinationHtml = fs.readFileSync(path.join(root, row.destinationFile), "utf8");
-  const destinationRobots = [...destinationHtml.matchAll(/<meta\\b[^>]*>/gi)].map((match) => match[0]);
+  const destinationRobots = [...destinationHtml.matchAll(/<meta\b[^>]*>/gi)].map((match) => match[0]);
   assert.ok(
     destinationRobots.some((tag) =>
-      /\\bname\\s*=\\s*["']robots["']/i.test(tag) &&
-      /\\bcontent\\s*=\\s*["'][^"']*\\bnoindex\\b/i.test(tag)
+      /\bname\s*=\s*["']robots["']/i.test(tag) &&
+      /\bcontent\s*=\s*["'][^"']*\bnoindex\b/i.test(tag)
     ),
     "Unapproved clean destination must remain noindex: " + row.destination
   );
@@ -96,9 +96,9 @@ for (const row of mappings) {
     "Noindex clean destination must not appear in sitemap: " + row.destination);
 
   if (row.kind === "programme page") {
-    const canonicalTags = [...destinationHtml.matchAll(/<link\\b[^>]*>/gi)]
+    const canonicalTags = [...destinationHtml.matchAll(/<link\b[^>]*>/gi)]
       .map((match) => match[0])
-      .filter((tag) => /\\brel\\s*=\\s*["']canonical["']/i.test(tag));
+      .filter((tag) => /\brel\s*=\s*["']canonical["']/i.test(tag));
     assert.equal(canonicalTags.length, 1, "Programme destination needs one canonical: " + row.destination);
     assert.ok(
       canonicalTags[0].includes("https://www.kovcareeragency.org" + row.destination),
