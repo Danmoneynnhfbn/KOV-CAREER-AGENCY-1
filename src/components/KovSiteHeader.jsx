@@ -59,6 +59,7 @@ function collectNavigation(header) {
       { label: "Legal Services", href: "/industries/legal-services/" },
     ]),
     group("Insights & Resources", "/blog.html", [
+      { label: "Candidate Project Directory", href: "/resources/candidate-project-directory" },
       { label: "Blog", href: "/blog.html" },
       { label: "Case Studies", href: "/resources/case-studies.html" },
       { label: "Glossary", href: "/glossary.html" },
