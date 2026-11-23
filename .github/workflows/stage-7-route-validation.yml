@@ -8,6 +8,9 @@ on:
       - "development/INSTALLED-PROGRAMME-ROUTES.csv"
       - "development/PAGE-TRACKER.csv"
       - "development/STAGE-7-UNMAPPED-SITEMAP-ROUTES.csv"
+      - "directory/**"
+      - "sitemap.xml"
+      - "career-resources/**"
       - "scripts/test-stage-7-route-redirects.js"
       - ".github/workflows/stage-7-route-validation.yml"
   pull_request:
