@@ -110,8 +110,8 @@ jobs:
           def normalize_expected_cache_versions(value):
               value = re.sub(r"(/assets/kov-site-header\.bundle\.js)\?v=\d+", r"\1?v=8", value)
               value = re.sub(r"(/assets/uniform-footer\.js)\?v=\d+", r"\1?v=15", value)
-              value = re.sub(r"(/css/kov-global-redesign\.css)\?v=\d+", r"\1?v=30", value)
-              value = re.sub(r"(/assets/kov-global-interactions\.js)\?v=\d+", r"\1?v=11", value)
+              value = re.sub(r"(/?css/kov-global-redesign\.css)\?v=\d+", r"\1?v=30", value)
+              value = re.sub(r"(/?assets/kov-global-interactions\.js)\?v=\d+", r"\1?v=11", value)
               return value
 
           for page in pages:
