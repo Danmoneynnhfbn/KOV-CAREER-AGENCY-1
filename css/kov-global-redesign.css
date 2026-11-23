@@ -1472,3 +1472,6 @@ body:not(.backend-page):not(.admin-page) [class~="shadow-[10px_10px_0_0_var(--in
   body:not(.backend-page):not(.admin-page) [class~="lg:p-10"] { padding: 2.5rem; }
   body:not(.backend-page):not(.admin-page) [class~="lg:-mx-10"] { margin-inline: -2.5rem; }
 }
+
+body:not(.backend-page):not(.admin-page) [class~="left-4"] { left: 1rem; }
+body:not(.backend-page):not(.admin-page) [class~="pb-6"] { padding-bottom: 1.5rem; }
