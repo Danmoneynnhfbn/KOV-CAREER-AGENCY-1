@@ -289,7 +289,7 @@
           <details class="kov-uniform-footer-topic"><summary>Core services</summary><ul><li><a href="${resolveHref('candidate-services.html')}">Individual Career Services</a></li><li><a href="${resolveHref('services.html')}">Private Career Representation</a></li></ul></details>
           <details class="kov-uniform-footer-topic"><summary>Seniority and roles</summary><ul><li><a href="${resolveHref('roles/')}">Roles</a></li></ul></details>
           <details class="kov-uniform-footer-topic"><summary>Geography and markets</summary><ul><li><a href="${resolveHref('countries-we-serve.html')}">Countries We Serve</a></li></ul></details>
-          <details class="kov-uniform-footer-topic"><summary>Proof and next steps</summary><ul><li><a href="${resolveHref('faqs.html')}">FAQs</a></li><li><a href="${resolveHref('blog.html')}">Blog</a></li><li><a href="${resolveHref('about.html')}">About</a></li></ul></details>
+          <details class="kov-uniform-footer-topic"><summary>Proof and next steps</summary><ul><li><a href="${resolveHref('resources/candidate-project-directory.html')}">Candidate Project Directory</a></li><li><a href="${resolveHref('faqs.html')}">FAQs</a></li><li><a href="${resolveHref('blog.html')}">Blog</a></li><li><a href="${resolveHref('about.html')}">About</a></li></ul></details>
         </div>
       </nav>
 
