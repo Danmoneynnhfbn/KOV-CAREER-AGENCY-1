@@ -63,7 +63,7 @@ const seenNames=new Set();
 const profiles=Array.from({length:1000},(_,i)=>{
  const priorityMarkets=['United States','United Kingdom','Canada','Australia','Germany','France','Netherlands','Switzerland','Ireland','Sweden','Denmark','Norway','Belgium','Austria','Spain','Italy','Poland','Portugal','Finland','New Zealand','Singapore','United Arab Emirates','Japan','South Korea'];
  const prioritySet=new Set(priorityMarkets), priorityPool=priorityMarkets.filter(c=>countries.includes(c)), otherPool=countries.filter(c=>!prioritySet.has(c));
- const country=i<700?priorityPool[Math.floor(i/10)%priorityPool.length]:otherPool[(i-700)%otherPool.length];
+ const country=i<860?priorityPool[Math.floor(i/10)%priorityPool.length]:otherPool[(i-860)%otherPool.length];
  const genericFirstNames=['Alex','Amara','Daniel','Elena','Elias','Leila','Maya','Noah','Nina','Omar','Samira','Adam'];
  const genericSurnames=['Morgan','Bennett','Costa','Petrov','Kim','Silva','Novak','Rahman','Garcia','Kovac','Mendes','Haddad'];
  const fn=firstNames[country]||genericFirstNames, sn=surnames[country]||genericSurnames, n=i+1;
