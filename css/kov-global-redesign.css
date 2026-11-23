@@ -1385,10 +1385,14 @@ body:not(.backend-page):not(.admin-page) .ceo-reading-layout > .ceo-prose {
   }
 }
 
-/* Reveal is progressive enhancement: a failed script can never hide article sections. */
-.kov-reveal { opacity: 1; transform: none; transition: opacity .65s ease; }
-html.kov-motion-ready .kov-reveal { opacity: 0; }
-html.kov-motion-ready .kov-reveal.kov-visible { opacity: 1; }
+/* Every page section remains visible; reveal behavior cannot hide content. */
+.kov-reveal,
+html.kov-motion-ready .kov-reveal {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+html.kov-motion-ready .kov-reveal.kov-visible { opacity: 1 !important; }
 @media (prefers-reduced-motion: reduce) {
   .kov-reveal, html.kov-motion-ready .kov-reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
 }
