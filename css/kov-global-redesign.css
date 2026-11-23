@@ -1386,9 +1386,9 @@ body:not(.backend-page):not(.admin-page) .ceo-reading-layout > .ceo-prose {
 }
 
 /* Reveal is progressive enhancement: a failed script can never hide article sections. */
-.kov-reveal { opacity: 1; transform: none; transition: opacity .65s ease, transform .65s cubic-bezier(.2,.7,.2,1); }
-html.kov-motion-ready .kov-reveal { opacity: 0; transform: translateY(1.1rem); }
-html.kov-motion-ready .kov-reveal.kov-visible { opacity: 1; transform: none; }
+.kov-reveal { opacity: 1; transform: none; transition: opacity .65s ease; }
+html.kov-motion-ready .kov-reveal { opacity: 0; }
+html.kov-motion-ready .kov-reveal.kov-visible { opacity: 1; }
 @media (prefers-reduced-motion: reduce) {
   .kov-reveal, html.kov-motion-ready .kov-reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
 }
