@@ -123,12 +123,12 @@ def main() -> None:
                 html,
             )
             html = re.sub(
-                r"(/css/kov-global-redesign\.css)\?v=\d+",
+                r"(/?css/kov-global-redesign\.css)\?v=\d+",
                 r"\1?v=30",
                 html,
             )
             html = re.sub(
-                r"(/assets/kov-global-interactions\.js)\?v=\d+",
+                r"(/?assets/kov-global-interactions\.js)\?v=\d+",
                 r"\1?v=11",
                 html,
             )
