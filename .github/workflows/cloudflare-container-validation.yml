@@ -41,6 +41,9 @@ jobs:
           print(f"Gzip: {compressed.stat().st_size:,} bytes")
           PY
 
+      - name: Install Node dependencies
+        run: npm ci
+
       - name: Build Cloudflare Pages and validate every published HTML HEAD
         run: python scripts/build_cloudflare_pages.py
 
