@@ -98,11 +98,11 @@ for (const row of unmappedRoutes) {
   assert.ok(sourceFile.startsWith(root + path.sep), "Unmapped source escapes repository root: " + row.source_file_path);
   assert.ok(fs.existsSync(sourceFile), "Missing unmapped preview source: " + row.source_file_path);
   const html = fs.readFileSync(sourceFile, "utf8");
-  const robotsTags = [...html.matchAll(/<meta\\b[^>]*>/gi)].map((match) => match[0]);
+  const robotsTags = [...html.matchAll(/<meta\b[^>]*>/gi)].map((match) => match[0]);
   assert.ok(
     robotsTags.some((tag) =>
-      /\\bname\\s*=\\s*["']robots["']/i.test(tag) &&
-      /\\bcontent\\s*=\\s*["'][^"']*\\bnoindex\\b/i.test(tag)
+      /\bname\s*=\s*["']robots["']/i.test(tag) &&
+      /\bcontent\s*=\s*["'][^"']*\bnoindex\b/i.test(tag)
     ),
     "Unmapped preview must remain noindex: " + row.sitemap_url
   );
