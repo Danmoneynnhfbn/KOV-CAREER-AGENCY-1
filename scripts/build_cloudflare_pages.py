@@ -8,6 +8,7 @@ are delivered as verified gzip representations at their original public URLs.
 """
 from __future__ import annotations
 import gzip
+import re
 import shutil
 import subprocess
 import sys
@@ -111,14 +112,14 @@ def main() -> None:
         shutil.copy2(source, destination)
         if destination.suffix.lower() in {".html", ".htm"}:
             html = destination.read_text(encoding="utf-8")
-            html = __import__("re").sub(
-                r"(/assets/kov-site-header\\.bundle\\.js)\\?v=\\d+",
-                r"\\1?v=6",
+            html = re.sub(
+                r"(/assets/kov-site-header\.bundle\.js)\?v=\d+",
+                r"\1?v=6",
                 html,
             )
-            html = __import__("re").sub(
-                r"(/assets/uniform-footer\\.js)\\?v=\\d+",
-                r"\\1?v=12",
+            html = re.sub(
+                r"(/assets/uniform-footer\.js)\?v=\d+",
+                r"\1?v=12",
                 html,
             )
             destination.write_text(html, encoding="utf-8")
