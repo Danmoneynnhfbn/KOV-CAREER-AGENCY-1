@@ -42,6 +42,20 @@ COMPRESS_AS = {
 }
 
 def main() -> None:
+    # Build the React homepage/header bundle from source before copying assets.
+    npm = shutil.which("npm")
+    if not npm:
+        raise SystemExit("npm is required to build the React homepage and navigation bundle.")
+    subprocess.run([npm, "run", "build:react"], cwd=str(ROOT), check=True)
+
+    # Regenerate search content/catalogue from the current sitemap so new public
+    # resources appear in site search and the shared footer's expandable directory.
+    subprocess.run(
+        [sys.executable, str(ROOT / "scripts" / "build-site-search-index.py")],
+        cwd=str(ROOT),
+        check=True,
+    )
+
     if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir(parents=True)
@@ -95,6 +109,19 @@ def main() -> None:
                 continue
             raise SystemExit(f"Uncompressed asset exceeds Pages 25 MiB limit: {rel} ({size:,} bytes)")
         shutil.copy2(source, destination)
+        if destination.suffix.lower() in {".html", ".htm"}:
+            html = destination.read_text(encoding="utf-8")
+            html = __import__("re").sub(
+                r"(/assets/kov-site-header\\.bundle\\.js)\\?v=\\d+",
+                r"\\1?v=6",
+                html,
+            )
+            html = __import__("re").sub(
+                r"(/assets/uniform-footer\\.js)\\?v=\\d+",
+                r"\\1?v=12",
+                html,
+            )
+            destination.write_text(html, encoding="utf-8")
         copied += 1
 
     # Generate the 18-category JSON-LD against the staged Cloudflare output.
