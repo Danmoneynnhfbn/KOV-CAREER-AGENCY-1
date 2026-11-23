@@ -11,10 +11,10 @@ const roles=['Chief Product Officer','VP of Product','Chief Technology Officer',
 const projects=['Executive Career Positioning','Enterprise AI Platform Strategy','Digital Transformation Roadmap','Cybersecurity Leadership Assessment','Global Product Operating Model','Data Governance Programme','Leadership Portfolio Development','Technology Organisation Design','Talent Strategy and Workforce Planning','Executive Brand and Market Positioning','Cloud Modernisation Programme','Fintech Product Expansion','Healthcare Technology Transformation','Supply Chain Optimisation','Sustainable Infrastructure Strategy'];
 const projectDetails=['Defined strategic priorities, leadership narrative and a target-market plan for a complex professional brief.','Mapped business objectives, delivery milestones, stakeholder needs and measurable success criteria.','Prepared a structured transformation roadmap covering operating model, governance and implementation priorities.','Developed a role-aligned assessment framework, executive positioning materials and a practical action plan.','Outlined product strategy, cross-functional responsibilities, delivery stages and performance measures.','Organised data, governance and reporting requirements into a phased programme plan.','Created a leadership portfolio structure with achievement themes, evidence points and communication guidance.','Reviewed organisational priorities and documented a practical approach to capability and team design.'];
 const engagements=['Fixed-scope project','Advisory engagement','Executive positioning engagement','Career strategy engagement','Leadership assessment','Project-based consulting','Monthly advisory'];
-const cities={
+Object.assign(cities,{
 'United States':['New York','Austin','Boston','Chicago','Seattle','San Francisco','Atlanta','Denver'],'United Kingdom':['London','Manchester','Birmingham','Edinburgh','Bristol'],'Canada':['Toronto','Vancouver','Montreal','Ottawa','Calgary'],'Australia':['Sydney','Melbourne','Brisbane','Perth'],'India':['Mumbai','Bengaluru','New Delhi','Hyderabad','Pune'],'Nigeria':['Lagos','Abuja','Port Harcourt','Ibadan'],'Ghana':['Accra','Kumasi','Tema'],'Kenya':['Nairobi','Mombasa','Kisumu'],'South Africa':['Johannesburg','Cape Town','Durban','Pretoria'],'Egypt':['Cairo','Alexandria','Giza'],'Morocco':['Casablanca','Rabat','Marrakesh'],'Rwanda':['Kigali'],'Senegal':['Dakar'],'Tanzania':['Dar es Salaam','Dodoma'],'Tunisia':['Tunis','Sfax'],'Uganda':['Kampala'],'Germany':['Berlin','Munich','Frankfurt','Hamburg'],'France':['Paris','Lyon','Marseille'],'Japan':['Tokyo','Osaka','Kyoto'],'Singapore':['Singapore'],'United Arab Emirates':['Dubai','Abu Dhabi'],'Saudi Arabia':['Riyadh','Jeddah','Dammam'],'Brazil':['São Paulo','Rio de Janeiro','Brasília'],'Mexico':['Mexico City','Monterrey','Guadalajara'],'Netherlands':['Amsterdam','Rotterdam','Utrecht'],'Ireland':['Dublin','Cork'],'Spain':['Madrid','Barcelona','Valencia'],'Switzerland':['Zurich','Geneva','Basel'],'China':['Shanghai','Beijing','Shenzhen'],'South Korea':['Seoul','Busan'],'New Zealand':['Auckland','Wellington','Christchurch']
-};
-const firstNames={
+});
+Object.assign(firstNames,{
 'Nigeria':['Amina','Chinedu','Tomiwa','Ngozi','Ifeoma','Oluwaseun','Emeka','Zainab','Chiamaka','Adeola','Kelechi','Fatima','Tunde','Nneka'],
 'Ghana':['Ama','Kwame','Akosua','Kofi','Abena','Yaw','Esi','Kojo','Adwoa','Kwabena'],
 'Kenya':['Wanjiku','Achieng','Kamau','Otieno','Njeri','Mwangi','Amina','Kiptoo','Wambui','Barasa'],
@@ -33,7 +33,7 @@ const firstNames={
 'Spain':['Lucía','Hugo','Martina','Mateo','Sofía','Pablo','Alba','Daniel'],
 'Saudi Arabia':['Noura','Faisal','Reem','Khalid','Layan','Abdulrahman','Sara','Omar'],
 'United Arab Emirates':['Mariam','Rashid','Aisha','Khalifa','Noora','Saeed','Latifa','Omar']
-};
+});
 const surnames={
 'Nigeria':['Adeyemi','Okafor','Adebayo','Eze','Balogun','Nwosu','Abiola','Ibrahim','Ogunleye','Onyeka'],
 'Ghana':['Mensah','Owusu','Boateng','Asare','Osei','Appiah','Agyeman','Darko'],
