@@ -106,6 +106,12 @@ jobs:
 
           failures = []
           noindex_pages = 0
+
+          def normalize_expected_cache_versions(value):
+              value = re.sub(r"(/assets/kov-site-header\\.bundle\\.js)\\?v=\\d+", r"\\1?v=8", value)
+              value = re.sub(r"(/assets/uniform-footer\\.js)\\?v=\\d+", r"\\1?v=15", value)
+              return value
+
           for page in pages:
               relative = page.relative_to(output).as_posix()
               source = repo / relative
@@ -119,8 +125,10 @@ jobs:
 
               before_body = body_re.search(before)
               after_body = body_re.search(after)
-              if (before_body.group(0) if before_body else "") != (after_body.group(0) if after_body else ""):
-                  failures.append(f"{relative}: BODY changed")
+              before_body_text = before_body.group(0) if before_body else ""
+              after_body_text = after_body.group(0) if after_body else ""
+              if normalize_expected_cache_versions(before_body_text) != normalize_expected_cache_versions(after_body_text):
+                  failures.append(f"{relative}: BODY changed beyond the approved global asset cache-version refresh")
 
               def protected_head(value):
                   match = head_re.search(value)
@@ -130,14 +138,14 @@ jobs:
                   inner = charset_meta.sub("", inner)
                   return match.group(1) + inner.rstrip() + match.group(3)
 
-              if protected_head(before) != protected_head(after):
-                  failures.append(f"{relative}: existing HEAD metadata, canonical, robots, social tags, scripts, stylesheets or other attributes changed")
+              if normalize_expected_cache_versions(protected_head(before)) != normalize_expected_cache_versions(protected_head(after)):
+                  failures.append(f"{relative}: existing HEAD metadata, canonical, robots, social tags, scripts, stylesheets or other attributes changed beyond the approved asset cache-version refresh")
 
               def outside_head(value):
                   return head_re.sub("<!-- KOV_HEAD_BLOCK -->", value, count=1)
 
-              if outside_head(before) != outside_head(after):
-                  failures.append(f"{relative}: content outside HEAD changed")
+              if normalize_expected_cache_versions(outside_head(before)) != normalize_expected_cache_versions(outside_head(after)):
+                  failures.append(f"{relative}: content outside HEAD changed beyond the approved global asset cache-version refresh")
 
               if not re.match(r'\s*<meta\b[^>]*\bcharset\s*=', after_head.group(2), re.I):
                   failures.append(f"{relative}: charset is not first in HEAD")
