@@ -311,7 +311,7 @@
       ],
       roles: [['roles/', 'All leadership roles']],
       resources: [
-        ['resources/candidate-project-directory', 'Candidate Project Directory'],
+
         ['faqs.html', 'FAQs'],
         ['blog.html', 'Blog'],
         ['about.html', 'About KOV'],
