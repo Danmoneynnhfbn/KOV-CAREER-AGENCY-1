@@ -8,6 +8,61 @@
     return '../'.repeat(Math.max(0, depth));
   };
 
+  function addCandidateProjectDirectoryToHomepage() {
+    const isHomepage = window.location.pathname === '/' || window.location.pathname === '/index.html';
+    if (!isHomepage) return;
+
+    const directoryHref = '/resources/candidate-project-directory';
+    const directoryLabel = 'Candidate Project Directory';
+    const hasDirectoryLink = (container) => [...(container?.querySelectorAll('a[href]') || [])]
+      .some((link) => link.getAttribute('href') === directoryHref);
+
+    const desktopExplore = document.querySelector('.kov-home-explore-menu');
+    if (desktopExplore && !hasDirectoryLink(desktopExplore)) {
+      const link = document.createElement('a');
+      link.href = directoryHref;
+      link.textContent = directoryLabel;
+      desktopExplore.prepend(link);
+    }
+
+    const mobileNavigation = document.querySelector('.site-mobile-menu-nav');
+    if (mobileNavigation && !hasDirectoryLink(mobileNavigation)) {
+      const link = document.createElement('a');
+      link.href = directoryHref;
+      link.textContent = directoryLabel;
+      link.setAttribute('data-mobile-menu-link', '');
+      const representationLink = mobileNavigation.querySelector('a[href="services.html"]');
+      mobileNavigation.insertBefore(link, representationLink || null);
+    }
+
+    const main = document.querySelector('main');
+    if (!main || main.querySelector('[data-kov-candidate-directory-feature]')) return;
+    const nextSectionHeading = [...main.querySelectorAll('h2')].find((heading) =>
+      heading.textContent.replace(/\s+/g, ' ').trim().toLowerCase() ===
+      'one focused approach, built around your career.'
+    );
+    const insertionPoint = nextSectionHeading?.closest('section');
+    const feature = document.createElement('section');
+    feature.className = 'border-b border-line/60 bg-cream/70';
+    feature.setAttribute('data-kov-candidate-directory-feature', '');
+    feature.innerHTML = `
+      <div class="mx-auto max-w-7xl px-6 py-16 lg:px-10">
+        <div class="grid gap-8 rounded-2xl border border-ink/15 bg-background p-8 lg:grid-cols-12 lg:items-center lg:p-10">
+          <div class="lg:col-span-8">
+            <p class="text-xs font-bold uppercase tracking-widest text-orange">Candidate Project Directory</p>
+            <h2 class="mt-4 text-4xl font-bold text-ink">Explore professional projects across global markets.</h2>
+            <p class="mt-4 max-w-3xl leading-8 text-ink-soft">Browse professional roles, industries, skills, service areas and career project examples across 146 countries.</p>
+          </div>
+          <div class="lg:col-span-4 lg:flex lg:justify-end">
+            <a class="inline-flex items-center gap-3 rounded-full bg-ink px-7 py-4 text-[12px] font-bold uppercase tracking-[0.2em] text-cream" href="${directoryHref}">Explore the Directory <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+    `;
+    if (insertionPoint?.parentNode === main) main.insertBefore(feature, insertionPoint);
+    else main.append(feature);
+  }
+
   const resolveHref = (value) => {
     if (!value || value.startsWith('#') || value.startsWith('http://') || value.startsWith('https://') || value.startsWith('//')) {
       return value;
@@ -248,6 +303,7 @@
   const existingTranslateWidget = document.getElementById('kov-translate-widget');
   existingFooters.forEach((node) => node.remove());
   document.body.appendChild(footer);
+  addCandidateProjectDirectoryToHomepage();
   if (existingTranslateWidget) {
     document.querySelector('[data-kov-language-slot]')?.append(existingTranslateWidget);
   }
