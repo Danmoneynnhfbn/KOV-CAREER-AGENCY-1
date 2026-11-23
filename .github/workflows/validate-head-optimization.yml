@@ -108,8 +108,8 @@ jobs:
           noindex_pages = 0
 
           def normalize_expected_cache_versions(value):
-              value = re.sub(r"(/assets/kov-site-header\\.bundle\\.js)\\?v=\\d+", r"\\1?v=8", value)
-              value = re.sub(r"(/assets/uniform-footer\\.js)\\?v=\\d+", r"\\1?v=15", value)
+              value = re.sub(r"(/assets/kov-site-header\.bundle\.js)\?v=\d+", r"\1?v=8", value)
+              value = re.sub(r"(/assets/uniform-footer\.js)\?v=\d+", r"\1?v=15", value)
               return value
 
           for page in pages:
