@@ -68,8 +68,10 @@ function run() {
   const failures = [];
   for (const row of mappings) {
     const redirect = redirectMap.get(row.source);
-    if (!redirect || redirect.destination !== row.destination || redirect.status !== "301") {
-      failures.push({ id: row.id, source: row.source, expected: row.destination, actual: redirect ?? null });
+    const legacySource = row.source.replace(/^\\/directory(?=\\/|$)/, "/staging");
+    const legacyRedirect = redirectMap.get(legacySource);
+    if (!redirect || redirect.destination !== row.destination || redirect.status !== "301" || !legacyRedirect || legacyRedirect.destination !== row.destination || legacyRedirect.status !== "301") {
+      failures.push({ id: row.id, source: row.source, expected: row.destination, actual: { preview: redirect ?? null, legacy: legacyRedirect ?? null } });
       continue;
     }
     assert.ok(fs.existsSync(resolveHtmlRoute(row.source)), `Missing preview source: ${row.source}`);
@@ -86,6 +88,7 @@ function run() {
     programmeRoutes: mappings.filter((row) => row.kind === "programme page").length,
     supportIndexes: mappings.filter((row) => row.kind !== "programme page").length,
     exactPermanentRedirects: mappings.length,
+    directLegacyStagingRedirects: mappings.length,
     previewSourcesVerified: mappings.length,
     cleanDestinationFilesVerified: mappings.length,
     duplicateRedirectSources: duplicateSources.length,
