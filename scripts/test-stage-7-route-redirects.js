@@ -57,6 +57,7 @@ function run() {
     source: row.source_staging_url,
     destination: row.intended_url,
     destinationFile: row.file_path,
+    kind: row.kind,
   }));
 
   assert.equal(mappings.length, 593, "Expected all 577 programme pages and 16 support indexes");
@@ -82,7 +83,8 @@ function run() {
 
   console.log(JSON.stringify({
     status: "PASS",
-    programmeRoutes: mappings.filter((row) => row.id && row.id !== row.id).length,
+    programmeRoutes: mappings.filter((row) => row.kind === "programme page").length,
+    supportIndexes: mappings.filter((row) => row.kind !== "programme page").length,
     exactPermanentRedirects: mappings.length,
     previewSourcesVerified: mappings.length,
     cleanDestinationFilesVerified: mappings.length,
