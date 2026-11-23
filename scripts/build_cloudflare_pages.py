@@ -119,7 +119,7 @@ def main() -> None:
             )
             html = re.sub(
                 r"(/assets/uniform-footer\.js)\?v=\d+",
-                r"\1?v=12",
+                r"\1?v=13",
                 html,
             )
             destination.write_text(html, encoding="utf-8")
