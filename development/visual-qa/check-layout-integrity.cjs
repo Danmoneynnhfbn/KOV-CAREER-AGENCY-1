@@ -82,13 +82,32 @@ async function inspect(browser,route,viewport) {
       }
       return {viewport:innerWidth,documentWidth:width,horizontalOverflow:width-innerWidth,mainFound:Boolean(main),centeredContainers:centered,articleCenterDelta,responsive,mainSiblingOverlaps:overlaps,revealCount:document.querySelectorAll(".kov-reveal").length,motionReady:document.documentElement.classList.contains("kov-motion-ready")};
     });
-    const revealsVisible=await page.evaluate(async()=>{
+    const revealState=await page.evaluate(async()=>{
       const all=[...document.querySelectorAll(".kov-reveal")];
       for(const el of all){el.scrollIntoView({block:"center",behavior:"instant"});await new Promise(r=>setTimeout(r,30));}
       // Allow the 650ms reveal transition plus its staggered delay to finish.
       await new Promise(r=>setTimeout(r,850));
-      return all.every(el=>{const s=getComputedStyle(el);return s.visibility!=="hidden"&&Number(s.opacity)>.95;});
+      const visible=all.every(el=>{const s=getComputedStyle(el);return s.visibility!=="hidden"&&Number(s.opacity)>.95;});
+      const main=document.querySelector("main");
+      const sections=main?[...main.children].filter(el=>el.matches("section,article,.ceo-reading-layout")):[];
+      const overlaps=[];
+      for(let i=0;i<sections.length-1;i++){
+        const a=sections[i],b=sections[i+1],sa=getComputedStyle(a),sb=getComputedStyle(b);
+        if(["absolute","fixed"].includes(sa.position)||["absolute","fixed"].includes(sb.position)) continue;
+        const ar=a.getBoundingClientRect(),br=b.getBoundingClientRect();
+        const ix=Math.min(ar.right,br.right)-Math.max(ar.left,br.left);
+        const iy=Math.min(ar.bottom,br.bottom)-Math.max(ar.top,br.top);
+        if(ix>20&&iy>2) overlaps.push({
+          first:String(a.className).slice(0,70),
+          second:String(b.className).slice(0,70),
+          verticalIntersection:Math.round(iy*10)/10
+        });
+      }
+      return {visible,overlaps};
     });
+    const revealsVisible=revealState.visible;
+    // Ignore the transient translateY entrance offset; detect collisions after reveal settles.
+    metrics.mainSiblingOverlaps=revealState.overlaps;
     const failures=[];
     if(metrics.horizontalOverflow>2)failures.push("horizontal overflow "+metrics.horizontalOverflow+"px");
     if(!metrics.mainFound)failures.push("missing main element");
