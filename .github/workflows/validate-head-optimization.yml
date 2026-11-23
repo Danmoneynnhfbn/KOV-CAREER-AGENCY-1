@@ -23,6 +23,7 @@ jobs:
         with:
           node-version: "22"
       - name: Build Cloudflare output with JSON-LD before HEAD optimization
+        run: npm ci
         run: python scripts/build_cloudflare_pages.py
       - name: Validate page coverage, JSON-LD, and preservation
         run: |
