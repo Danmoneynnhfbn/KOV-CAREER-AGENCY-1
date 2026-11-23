@@ -72,6 +72,10 @@ jobs:
           missing = sorted(inventory_paths - published_paths)
           unmanifested = sorted(published_paths - inventory_paths)
 
+          print(f"DIAGNOSTIC: inventory={len(inventory_paths)} published={len(pages)} active={len(active_paths)} manifest_missing={len(missing)} unmanifested={len(unmanifested)}")
+          print("DIAGNOSTIC unmanifested paths:", unmanifested)
+          print("DIAGNOSTIC manifest paths missing from output:", missing)
+
           assert len(inventory_paths) == 2078, f"Expected 2,078 manifest HTML entries, found {len(inventory_paths)}"
           assert len(pages) == 2060, f"Expected 2,060 published HTML pages, found {len(pages)}"
           assert len(active_paths) == 1425, f"Expected 1,425 active public non-noindex pages, found {len(active_paths)}"
