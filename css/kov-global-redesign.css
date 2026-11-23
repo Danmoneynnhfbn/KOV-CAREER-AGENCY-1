@@ -831,9 +831,9 @@ body:not(.backend-page):not(.admin-page) nav[aria-label="Breadcrumb"]:not(.kov-b
 @media (prefers-reduced-motion:reduce) {
   body:not(.backend-page):not(.admin-page) .kov-visual-module *,body:not(.backend-page):not(.admin-page) .ceo-hero * { animation:none!important; transition:none!important; }
 }
-.kov-reveal { opacity:1; transform:none; transition:opacity .65s ease, transform .65s cubic-bezier(.2,.7,.2,1); }
-html.kov-motion-ready .kov-reveal { opacity:0; transform:translateY(1.1rem); }
-html.kov-motion-ready .kov-reveal.kov-visible { opacity:1; transform:none; }
+.kov-reveal { opacity:1; transform:none; transition:opacity .65s ease; }
+html.kov-motion-ready .kov-reveal { opacity:0; }
+html.kov-motion-ready .kov-reveal.kov-visible { opacity:1; }
 .kov-reveal:nth-child(3n + 2) { transition-delay:70ms; }
 .kov-reveal:nth-child(3n) { transition-delay:130ms; }
 @media (max-width: 48rem) {
