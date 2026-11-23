@@ -85,6 +85,14 @@ assert.deepEqual(failures, [], "Every manifest route needs exact 301 preview and
 assert.ok(redirectMap.has("/staging"), "Missing /staging fallback");
 assert.ok(redirectMap.has("/staging/*"), "Missing /staging/* fallback");
 
+
+const sitemapDirectoryUrls = [...sitemap.matchAll(/<loc>(https:\/\/www\.kovcareeragency\.org\/directory\/[^<]+)<\/loc>/g)]
+  .map((match) => match[1]);
+const manifestSourceUrls = new Set(mappings.map((row) => "https://www.kovcareeragency.org" + row.source));
+const unmappedSitemapDirectoryUrls = sitemapDirectoryUrls.filter((url) => !manifestSourceUrls.has(url));
+assert.equal(sitemapDirectoryUrls.length, 708, "Expected 708 remaining directory sitemap URLs");
+assert.equal(unmappedSitemapDirectoryUrls.length, 119, "Expected 119 directory sitemap URLs still awaiting route reconciliation");
+
 const installedProgrammeIds = new Set(
   manifest.filter((row) => row.kind === "programme page").map((row) => row.programme_id)
 );
@@ -123,5 +131,7 @@ console.log(JSON.stringify({
   duplicateSources: duplicates.length,
   trackerOnlyMobilityPages: trackerOnly.length,
   trackerOnlyNoindexVerified: trackerOnly.length,
-  trackerOnlyExcludedFromSitemap: trackerOnly.length
+  trackerOnlyExcludedFromSitemap: trackerOnly.length,
+  remainingDirectorySitemapUrls: sitemapDirectoryUrls.length,
+  unmappedDirectorySitemapUrls: unmappedSitemapDirectoryUrls.length
 }, null, 2));
