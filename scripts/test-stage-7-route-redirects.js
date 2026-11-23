@@ -68,7 +68,7 @@ function run() {
   const failures = [];
   for (const row of mappings) {
     const redirect = redirectMap.get(row.source);
-    const legacySource = row.source.replace(/^\\/directory(?=\\/|$)/, "/staging");
+    const legacySource = row.source.replace(/^\/directory(?=\/|$)/, "/staging");
     const legacyRedirect = redirectMap.get(legacySource);
     if (!redirect || redirect.destination !== row.destination || redirect.status !== "301" || !legacyRedirect || legacyRedirect.destination !== row.destination || legacyRedirect.status !== "301") {
       failures.push({ id: row.id, source: row.source, expected: row.destination, actual: { preview: redirect ?? null, legacy: legacyRedirect ?? null } });
