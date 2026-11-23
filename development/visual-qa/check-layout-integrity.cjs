@@ -5,7 +5,7 @@ const { chromium } = require("playwright");
 const root = path.resolve(__dirname, "../..");
 const port = 8777;
 const mime = { ".html":"text/html; charset=utf-8", ".css":"text/css; charset=utf-8", ".js":"text/javascript; charset=utf-8", ".svg":"image/svg+xml", ".png":"image/png", ".jpg":"image/jpeg", ".webp":"image/webp", ".avif":"image/avif", ".woff2":"font/woff2" };
-const routes = ["/services.html","/how-it-works.html","/pricing.html","/faqs.html","/about.html","/contact.html","/industries/finance-insurance/","/roles/cfo/finance-insurance.html"];
+const routes = ["/index.html","/services.html","/how-it-works.html","/pricing.html","/faqs.html","/about.html","/contact.html","/candidate-services.html","/industries/finance-insurance/","/industries/","/roles/cfo/finance-insurance.html","/roles/","/roles/cfo/","/countries-we-serve.html","/markets/executive-job-search-uae.html","/career-resources/board-guide-12/"];
 const viewports = [{name:"mobile",width:390,height:844},{name:"tablet",width:768,height:1024},{name:"desktop",width:1440,height:1000}];
 
 function resolveFile(urlPath) {
