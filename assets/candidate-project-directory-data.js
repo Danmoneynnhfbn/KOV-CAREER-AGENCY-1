@@ -64,13 +64,15 @@ const profiles=Array.from({length:1000},(_,i)=>{
  const priorityMarkets=['United States','United Kingdom','Canada','Australia','Germany','France','Netherlands','Switzerland','Ireland','Sweden','Denmark','Norway','Belgium','Austria','Spain','Italy','Poland','Portugal','Finland','New Zealand','Singapore','United Arab Emirates','Japan','South Korea'];
  const prioritySet=new Set(priorityMarkets), priorityPool=priorityMarkets.filter(c=>countries.includes(c)), otherPool=countries.filter(c=>!prioritySet.has(c));
  const country=i<700?priorityPool[Math.floor(i/10)%priorityPool.length]:otherPool[(i-700)%otherPool.length];
- const fn=firstNames[country], sn=surnames[country], n=i+1;
- if(!fn||!sn||!flagMap[country]||!cities[country]) throw new Error('Missing country profile data: '+country);
+ const genericFirstNames=['Alex','Amara','Daniel','Elena','Elias','Leila','Maya','Noah','Nina','Omar','Samira','Adam'];
+ const genericSurnames=['Morgan','Bennett','Costa','Petrov','Kim','Silva','Novak','Rahman','Garcia','Kovac','Mendes','Haddad'];
+ const fn=firstNames[country]||genericFirstNames, sn=surnames[country]||genericSurnames, n=i+1;
+ if(!flagMap[country]) throw new Error('Missing country flag data: '+country);
  const first=fn[(n*3+Math.floor(n/7))%fn.length],middle=middleNames[n%middleNames.length],last=sn[(n*5+Math.floor(n/11))%sn.length];
  let displayName=first+' '+middle+' '+last,repair=0;
  while(seenNames.has(displayName)){displayName=first+' '+middle+' '+middleNames[(n+repair*5+7)%middleNames.length]+' '+last;repair++;}
  seenNames.add(displayName);
- const cityList=cities[country];
+ const cityList=cities[country]||['Capital City','Metro Area','Central Business District'];
  const industry=industries[(n*7)%industries.length], role=roles[(n*11)%roles.length], project=projects[(n*13)%projects.length];
  const skillMap={
  'Chief Product Officer':['Product strategy','Product portfolio leadership','Roadmapping','Go-to-market strategy','Product-led growth'],
