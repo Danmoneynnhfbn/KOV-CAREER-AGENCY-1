@@ -114,7 +114,7 @@ def main() -> None:
             html = destination.read_text(encoding="utf-8")
             html = re.sub(
                 r"(/assets/kov-site-header\.bundle\.js)\?v=\d+",
-                r"\1?v=6",
+                r"\1?v=7",
                 html,
             )
             html = re.sub(
