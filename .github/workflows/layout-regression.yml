@@ -1,0 +1,37 @@
+name: Layout regression checks
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  responsive-layout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Audit layout at mobile, tablet and desktop widths
+        run: node development/visual-qa/check-layout-integrity.cjs
+      - name: Upload layout audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kov-layout-integrity-report
+          path: development/visual-qa/layout-integrity-report.json
+          if-no-files-found: ignore
