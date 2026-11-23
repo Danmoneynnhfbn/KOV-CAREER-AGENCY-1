@@ -22,8 +22,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Build Cloudflare output with JSON-LD before HEAD optimization
+      - name: Install Node dependencies
         run: npm ci
+      - name: Build Cloudflare output with JSON-LD before HEAD optimization
         run: python scripts/build_cloudflare_pages.py
       - name: Validate page coverage, JSON-LD, and preservation
         run: |
