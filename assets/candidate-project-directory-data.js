@@ -61,7 +61,9 @@ const portraitPool=window.KOV_CANDIDATE_PORTRAITS||[];
 const seenNames=new Set();
 // INTERNAL OWNER NOTE: Seed profile identities and project fields are editable. Replace them with approved records before production publication.
 const profiles=Array.from({length:1000},(_,i)=>{
- const useAfrica=(i+1)%10===0, pool=useAfrica?african:international, country=pool[(useAfrica?Math.floor(i/10):Math.floor(i/10))%pool.length];
+ const priorityMarkets=['United States','United Kingdom','Canada','Australia','Germany','France','Netherlands','Switzerland','Ireland','Sweden','Denmark','Norway','Belgium','Austria','Spain','Italy','Poland','Portugal','Finland','New Zealand','Singapore','United Arab Emirates','Japan','South Korea'];
+ const prioritySet=new Set(priorityMarkets), priorityPool=priorityMarkets.filter(c=>countries.includes(c)), otherPool=countries.filter(c=>!prioritySet.has(c));
+ const country=i<700?priorityPool[Math.floor(i/10)%priorityPool.length]:otherPool[(i-700)%otherPool.length];
  const fn=firstNames[country], sn=surnames[country], n=i+1;
  if(!fn||!sn||!flagMap[country]||!cities[country]) throw new Error('Missing country profile data: '+country);
  const first=fn[(n*3+Math.floor(n/7))%fn.length],middle=middleNames[n%middleNames.length],last=sn[(n*5+Math.floor(n/11))%sn.length];
@@ -70,7 +72,30 @@ const profiles=Array.from({length:1000},(_,i)=>{
  seenNames.add(displayName);
  const cityList=cities[country];
  const industry=industries[(n*7)%industries.length], role=roles[(n*11)%roles.length], project=projects[(n*13)%projects.length];
- return {id:'profile-'+String(n).padStart(4,'0'),name:displayName,country,flag:flagMap[country]||'🌍',portrait:portraitPool.length?portraitPool[i%portraitPool.length]:'',jobTitle:role,project,projectDetails:projectDetails[(n*3)%projectDetails.length],date:'2025-'+String((n%12)+1).padStart(2,'0')+'-'+String((n%27)+1).padStart(2,'0'),amount:[2500,4500,7500,12000,18000,25000,35000,50000][n%8],industry,service:services[(n*5)%services.length],location:cityList[n%cityList.length]+', '+country,engagement:engagements[(n*3)%engagements.length],rating:'',review:(window.KOV_CANDIDATE_FEEDBACK||[])[i]||''};
+ const skillMap={
+ 'Chief Product Officer':['Product strategy','Product portfolio leadership','Roadmapping','Go-to-market strategy','Product-led growth'],
+ 'VP of Product':['Product management','Product strategy','Roadmapping','Stakeholder management','Product analytics'],
+ 'Chief Technology Officer':['Technology strategy','Enterprise architecture','Digital transformation','Engineering leadership','Cloud strategy'],
+ 'VP of Engineering':['Software engineering','Engineering management','Platform delivery','Agile delivery','Technical operations'],
+ 'Chief Information Security Officer':['Cybersecurity strategy','Risk management','Security governance','Incident response','Regulatory compliance'],
+ 'Chief Data Officer':['Data strategy','Data governance','Data architecture','Analytics leadership','Data quality'],
+ 'Chief AI Officer':['AI strategy','Machine learning','Responsible AI governance','AI product deployment','Data science leadership'],
+ 'Chief People Officer':['People strategy','Organisational design','Talent management','Workforce planning','Culture transformation'],
+ 'VP of Human Resources':['HR strategy','Talent acquisition','Employee relations','Performance management','Workforce planning'],
+ 'Director of Product Management':['Product discovery','Product roadmapping','Requirements management','Agile product delivery','User research'],
+ 'Head of Data Science':['Data science','Predictive modelling','Machine learning','Statistical analysis','Team leadership'],
+ 'Director of Cybersecurity':['Security operations','Threat management','Vulnerability assessment','Security architecture','Incident response'],
+ 'VP of Operations':['Operational strategy','Process improvement','Service delivery','Change management','Performance optimisation'],
+ 'Chief Financial Officer':['Financial strategy','Corporate finance','Financial planning','Risk oversight','Investor relations'],
+ 'Director of Strategy':['Corporate strategy','Market analysis','Business transformation','Strategic planning','Executive communication'],
+ 'Head of Talent Acquisition':['Executive search','Talent sourcing','Recruitment strategy','Employer branding','Workforce analytics'],
+ 'VP of Marketing':['Marketing strategy','Brand positioning','Demand generation','Go-to-market planning','Marketing analytics'],
+ 'Director of Business Development':['Business development','Strategic partnerships','Commercial strategy','Negotiation','Revenue growth'],
+ 'Head of Enterprise Architecture':['Enterprise architecture','Technology governance','Solution design','Cloud architecture','IT strategy'],
+ 'Program Director':['Programme management','Portfolio governance','Budget oversight','Risk management','Delivery leadership']
+ };
+ const skills=skillMap[role]||['Leadership','Strategic planning','Stakeholder management','Project delivery'];
+ return {id:'profile-'+String(n).padStart(4,'0'),name:displayName,country,flag:flagMap[country]||'🌍',portrait:portraitPool.length?portraitPool[i%portraitPool.length]:'',jobTitle:role,skills,project,projectDetails:projectDetails[(n*3)%projectDetails.length],date:'2025-'+String((n%12)+1).padStart(2,'0')+'-'+String((n%27)+1).padStart(2,'0'),amount:[350,500,750,1000,1500,2500,4000,6000,8000,10000,12000][n%11],industry,service:services[(n*5)%services.length],location:cityList[n%cityList.length]+', '+country,engagement:engagements[(n*3)%engagements.length],rating:'',review:(window.KOV_CANDIDATE_FEEDBACK||[])[i]||''};
 });
 // Mix profiles across all markets so the directory never appears grouped by country or industry.
 let shuffleSeed=20261120;
