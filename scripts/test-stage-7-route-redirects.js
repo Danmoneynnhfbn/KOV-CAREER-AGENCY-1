@@ -130,5 +130,5 @@ console.log(JSON.stringify({
   trackerOnlyNoindexVerified: trackerOnly.length,
   trackerOnlyExcludedFromSitemap: trackerOnly.length,
   remainingDirectorySitemapUrls: sitemapDirectoryUrls.length,
-  unmappedDirectorySitemapUrls: unmappedSitemapDirectoryUrls.length
+  unmappedDirectorySitemapUrls: sitemapDirectoryUrls.length
 }, null, 2));
