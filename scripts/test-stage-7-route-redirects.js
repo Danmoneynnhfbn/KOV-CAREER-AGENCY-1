@@ -88,10 +88,7 @@ assert.ok(redirectMap.has("/staging/*"), "Missing /staging/* fallback");
 
 const sitemapDirectoryUrls = [...sitemap.matchAll(/<loc>(https:\/\/www\.kovcareeragency\.org\/directory\/[^<]+)<\/loc>/g)]
   .map((match) => match[1]);
-const manifestSourceUrls = new Set(mappings.map((row) => "https://www.kovcareeragency.org" + row.source));
-const unmappedSitemapDirectoryUrls = sitemapDirectoryUrls.filter((url) => !manifestSourceUrls.has(url));
-assert.equal(sitemapDirectoryUrls.length, 708, "Expected 708 remaining directory sitemap URLs");
-assert.equal(unmappedSitemapDirectoryUrls.length, 119, "Expected 119 directory sitemap URLs still awaiting route reconciliation");
+assert.equal(sitemapDirectoryUrls.length, 0, "Noindex /directory/ preview URLs must not appear in sitemap");
 
 const installedProgrammeIds = new Set(
   manifest.filter((row) => row.kind === "programme page").map((row) => row.programme_id)
