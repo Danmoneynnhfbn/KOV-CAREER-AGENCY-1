@@ -22,6 +22,15 @@ jobs:
         with:
           python-version: "3.13"
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install locked Node dependencies
+        run: npm ci
+
       - name: Validate generated taxonomy datasets
         run: |
           node scripts/validate-six-taxonomy-datasets.js
