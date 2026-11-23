@@ -55,7 +55,7 @@ def main() -> None:
         if not source.is_file():
             continue
         rel = source.relative_to(ROOT)
-        if rel.parts[0] == "staging" and rel.as_posix() not in PUBLIC_STAGING_PAGES:
+        if rel.parts[0] == "directory" and rel.as_posix() not in PUBLIC_STAGING_PAGES:
             skipped += 1
             continue
         if any(part in SKIP_DIRS for part in rel.parts):
