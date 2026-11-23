@@ -1,0 +1,27 @@
+name: Stage 7 route migration validation
+
+on:
+  pull_request:
+    branches: [master]
+    paths:
+      - "_redirects"
+      - "development/INSTALLED-PROGRAMME-ROUTES.csv"
+      - "scripts/test-stage-7-route-redirects.js"
+      - ".github/workflows/stage-7-route-validation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-stage-7-routes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate exact preview and legacy redirects
+        run: node scripts/test-stage-7-route-redirects.js
