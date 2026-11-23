@@ -34,7 +34,7 @@ Object.assign(firstNames,{
 'Saudi Arabia':['Noura','Faisal','Reem','Khalid','Layan','Abdulrahman','Sara','Omar'],
 'United Arab Emirates':['Mariam','Rashid','Aisha','Khalifa','Noora','Saeed','Latifa','Omar']
 });
-const surnames={
+Object.assign(surnames,{
 'Nigeria':['Adeyemi','Okafor','Adebayo','Eze','Balogun','Nwosu','Abiola','Ibrahim','Ogunleye','Onyeka'],
 'Ghana':['Mensah','Owusu','Boateng','Asare','Osei','Appiah','Agyeman','Darko'],
 'Kenya':['Mwangi','Otieno','Wanjala','Kipchoge','Njoroge','Omondi','Kamau','Chebet'],
@@ -53,7 +53,7 @@ const surnames={
 'Spain':['García','Rodríguez','Martínez','López','Sánchez','Pérez','Gómez','Fernández'],
 'Saudi Arabia':['Alharbi','Alqahtani','Alghamdi','Alotaibi','Alzahrani','Almutairi','Alshehri','Alshammari'],
 'United Arab Emirates':['Almansoori','Almazrouei','Alnuaimi','Alshamsi','Alketbi','Alfalasi','Almehairi','Alkaabi']
-};
+});
 const middleNames=['Ari','Noor','Kai','Rene','Mina','Lee','Ira','Sami','Jo','Emil','Rae','Tariq','Luca'];
 const africanMarkets=new Set(["Egypt","Ghana","Kenya","Nigeria","South Africa"]);
 const african=[...africanMarkets],international=countries.filter(c=>!africanMarkets.has(c));
