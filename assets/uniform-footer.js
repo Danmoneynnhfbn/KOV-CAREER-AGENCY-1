@@ -194,6 +194,7 @@
             <li><a href="${resolveHref('pricing.html')}">Pricing</a></li>
             <li><a href="${resolveHref('roles.html')}">Roles and Leadership Directory</a></li>
             <li><a href="${resolveHref('career-resources/professional_profile_directory-01/index.html')}">Professional Profile Directory</a></li>
+            <li><a href="${resolveHref('resources/candidate-project-directory')}">Candidate Project Directory</a></li>
             <li><a href="${resolveHref('career-resources/research_hub-01/index.html')}">Research Library</a></li>
             <li><a href="${resolveHref('career-resources/index.html')}">Career Resources</a></li>
           </ul>
