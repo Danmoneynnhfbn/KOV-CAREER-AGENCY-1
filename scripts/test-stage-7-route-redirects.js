@@ -8,6 +8,7 @@ const root = path.resolve(__dirname, "..");
 const manifestPath = path.join(root, "development/INSTALLED-PROGRAMME-ROUTES.csv");
 const redirectsPath = path.join(root, "_redirects");
 const trackerPath = path.join(root, "development/PAGE-TRACKER.csv");
+const unmappedRoutesPath = path.join(root, "development/STAGE-7-UNMAPPED-SITEMAP-ROUTES.csv");
 const sitemapPath = path.join(root, "sitemap.xml");
 
 function parseCsv(contents) {
@@ -43,6 +44,7 @@ function routeFile(route) {
 
 const manifest = parseCsv(fs.readFileSync(manifestPath, "utf8"));
 const tracker = parseCsv(fs.readFileSync(trackerPath, "utf8"));
+const unmappedRoutes = parseCsv(fs.readFileSync(unmappedRoutesPath, "utf8"));
 const sitemap = fs.readFileSync(sitemapPath, "utf8");
 const lines = fs.readFileSync(redirectsPath, "utf8").split("\n").map((line) => line.trim()).filter(Boolean);
 const redirectMap = new Map();
@@ -90,6 +92,25 @@ const sitemapDirectoryUrls = [...sitemap.matchAll(/<loc>(https:\/\/www\.kovcaree
   .map((match) => match[1]);
 assert.equal(sitemapDirectoryUrls.length, 0, "Noindex /directory/ preview URLs must not appear in sitemap");
 
+assert.equal(unmappedRoutes.length, 119, "Expected 119 unregistered preview resources to remain under review");
+for (const row of unmappedRoutes) {
+  const sourceFile = path.resolve(root, row.source_file_path);
+  assert.ok(sourceFile.startsWith(root + path.sep), "Unmapped source escapes repository root: " + row.source_file_path);
+  assert.ok(fs.existsSync(sourceFile), "Missing unmapped preview source: " + row.source_file_path);
+  const html = fs.readFileSync(sourceFile, "utf8");
+  const robotsTags = [...html.matchAll(/<meta\\b[^>]*>/gi)].map((match) => match[0]);
+  assert.ok(
+    robotsTags.some((tag) =>
+      /\\bname\\s*=\\s*["']robots["']/i.test(tag) &&
+      /\\bcontent\\s*=\\s*["'][^"']*\\bnoindex\\b/i.test(tag)
+    ),
+    "Unmapped preview must remain noindex: " + row.sitemap_url
+  );
+  assert.ok(!sitemap.includes(row.sitemap_url), "Unmapped preview must not appear in sitemap: " + row.sitemap_url);
+  assert.equal(row.registered_redirect, "no", "Do not invent redirects for unreviewed preview pages: " + row.sitemap_url);
+  assert.equal(row.clean_destination, "not registered", "Unreviewed preview must not claim a clean destination: " + row.sitemap_url);
+}
+
 const installedProgrammeIds = new Set(
   manifest.filter((row) => row.kind === "programme page").map((row) => row.programme_id)
 );
@@ -129,6 +150,9 @@ console.log(JSON.stringify({
   trackerOnlyMobilityPages: trackerOnly.length,
   trackerOnlyNoindexVerified: trackerOnly.length,
   trackerOnlyExcludedFromSitemap: trackerOnly.length,
+  unmappedPreviewResources: unmappedRoutes.length,
+  unmappedPreviewNoindexVerified: unmappedRoutes.length,
+  unmappedPreviewExcludedFromSitemap: unmappedRoutes.length,
   remainingDirectorySitemapUrls: sitemapDirectoryUrls.length,
   unmappedDirectorySitemapUrls: sitemapDirectoryUrls.length
 }, null, 2));
