@@ -7,6 +7,8 @@ const path = require("node:path");
 const root = path.resolve(__dirname, "..");
 const manifestPath = path.join(root, "development/INSTALLED-PROGRAMME-ROUTES.csv");
 const redirectsPath = path.join(root, "_redirects");
+const trackerPath = path.join(root, "development/PAGE-TRACKER.csv");
+const sitemapPath = path.join(root, "sitemap.xml");
 
 function parseCsv(contents) {
   const rows = [];
@@ -40,6 +42,8 @@ function routeFile(route) {
 }
 
 const manifest = parseCsv(fs.readFileSync(manifestPath, "utf8"));
+const tracker = parseCsv(fs.readFileSync(trackerPath, "utf8"));
+const sitemap = fs.readFileSync(sitemapPath, "utf8");
 const lines = fs.readFileSync(redirectsPath, "utf8").split("\n").map((line) => line.trim()).filter(Boolean);
 const redirectMap = new Map();
 const duplicates = [];
@@ -81,6 +85,33 @@ assert.deepEqual(failures, [], "Every manifest route needs exact 301 preview and
 assert.ok(redirectMap.has("/staging"), "Missing /staging fallback");
 assert.ok(redirectMap.has("/staging/*"), "Missing /staging/* fallback");
 
+const installedProgrammeIds = new Set(
+  manifest.filter((row) => row.kind === "programme page").map((row) => row.programme_id)
+);
+const trackerOnly = tracker.filter((row) => row.id && !installedProgrammeIds.has(row.id));
+assert.equal(trackerOnly.length, 13, "Expected 13 additional tracker-only mobility resources");
+
+for (const row of trackerOnly) {
+  const sourceFile = routeFile(row.staging_preview_url);
+  const destinationFile = routeFile(row.proposed_url);
+  assert.ok(fs.existsSync(sourceFile), "Missing tracker-only preview HTML: " + row.staging_preview_url);
+  const html = fs.readFileSync(sourceFile, "utf8");
+  const robotsTags = [...html.matchAll(/<meta\b[^>]*>/gi)].map((match) => match[0]);
+  assert.ok(
+    robotsTags.some((tag) =>
+      /\bname\s*=\s*["']robots["']/i.test(tag) &&
+      /\bcontent\s*=\s*["'][^"']*\bnoindex\b/i.test(tag)
+    ),
+    "Tracker-only preview must remain noindex: " + row.id
+  );
+  assert.ok(!fs.existsSync(destinationFile), "Do not claim a clean destination before it exists: " + row.proposed_url);
+  assert.ok(!sitemap.includes("https://www.kovcareeragency.org" + row.staging_preview_url),
+    "Unpublished tracker-only preview must not appear in sitemap: " + row.id);
+  assert.equal(row.search_sitemap_status, "excluded", "Tracker sitemap status must remain excluded: " + row.id);
+  assert.equal(row.publication_status, "not_published", "Tracker publication status must remain unpublished: " + row.id);
+}
+
+
 console.log(JSON.stringify({
   status: "PASS",
   programmeRoutes: mappings.filter((row) => row.kind === "programme page").length,
@@ -89,5 +120,8 @@ console.log(JSON.stringify({
   legacyStagingRedirects: mappings.length,
   sourceFilesVerified: mappings.length,
   destinationFilesVerified: mappings.length,
-  duplicateSources: duplicates.length
+  duplicateSources: duplicates.length,
+  trackerOnlyMobilityPages: trackerOnly.length,
+  trackerOnlyNoindexVerified: trackerOnly.length,
+  trackerOnlyExcludedFromSitemap: trackerOnly.length
 }, null, 2));
