@@ -22,19 +22,27 @@
   document.body.dataset.kovPageFamily = pageFamily;
   document.body.classList.add(`kov-family-${pageFamily}`);
 
-  // Reveal content as it enters view, with a no-observer and reduced-motion fallback.
+  // Progressive reveal activates only after a working observer is created.
+  // The CSS default keeps every section visible if this script or the API fails.
   if (main && !reducedMotion && 'IntersectionObserver' in window) {
     const candidates = [...main.querySelectorAll('section, main > article, .kov-expansion-card, .pathway-card, .directory-card')];
-    const observer = new IntersectionObserver((entries, instance) => {
-      entries.forEach(entry => {
-        if (!entry.isIntersecting) return;
-        entry.target.classList.add('kov-visible');
-        instance.unobserve(entry.target);
+    try {
+      const observer = new IntersectionObserver((entries, instance) => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add('kov-visible');
+          instance.unobserve(entry.target);
+        });
+      }, { threshold: 0.08, rootMargin: '0px 0px -28px 0px' });
+      document.documentElement.classList.add('kov-motion-ready');
+      candidates.forEach((item, index) => {
+        if (index > 0) { item.classList.add('kov-reveal'); observer.observe(item); }
       });
-    }, { threshold: 0.08, rootMargin: '0px 0px -28px 0px' });
-    candidates.forEach((item, index) => {
-      if (index > 0) { item.classList.add('kov-reveal'); observer.observe(item); }
-    });
+    } catch (error) {
+      document.documentElement.classList.remove('kov-motion-ready');
+      main.querySelectorAll('.kov-reveal').forEach(item => item.classList.add('kov-visible'));
+      console.warn('KOV reveal enhancement disabled; all page content remains visible.', error);
+    }
   }
 
   // Reading progress and a keyboard-accessible return-to-top control.
