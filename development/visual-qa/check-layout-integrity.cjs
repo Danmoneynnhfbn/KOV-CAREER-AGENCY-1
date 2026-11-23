@@ -32,7 +32,17 @@ async function inspect(browser,route,viewport) {
   page.on("pageerror",e=>errors.push(e.message));
   try {
     const response = await page.goto("http://127.0.0.1:" + port + route,{waitUntil:"domcontentloaded",timeout:45000});
-    if (!response || !response.ok()) return {route,viewport:viewport.name,status:response?.status() ?? null,failed:true};
+    if (!response || !response.ok()) {
+      const status = response?.status() ?? null;
+      return {
+        route,
+        viewport: viewport.name,
+        httpStatus: status,
+        failures: [`page request failed with HTTP ${status ?? "no response"}`],
+        errors,
+        failed: true,
+      };
+    }
     await page.evaluate(async()=>{ if(document.fonts?.ready) await document.fonts.ready; });
     await page.waitForTimeout(200);
     const metrics = await page.evaluate(() => {
@@ -83,6 +93,9 @@ async function inspect(browser,route,viewport) {
     if(metrics.horizontalOverflow>2)failures.push("horizontal overflow "+metrics.horizontalOverflow+"px");
     if(!metrics.mainFound)failures.push("missing main element");
     if(metrics.articleCenterDelta!==null&&viewport.width>768&&Math.abs(metrics.articleCenterDelta)>18)failures.push("editorial article off-centre by "+metrics.articleCenterDelta+"px");
+    const brokenResponsive = metrics.responsive.filter(item => !item.ok);
+    if(brokenResponsive.length) failures.push("responsive utilities failed: "+brokenResponsive.map(item=>item.token).join(", "));
+    if(metrics.mainSiblingOverlaps.length) failures.push("adjacent main sections overlap: "+metrics.mainSiblingOverlaps.map(item=>item.first+" / "+item.second).join("; "));
     if(!revealsVisible)failures.push("a reveal section remained hidden after scrolling");
     if(errors.length)failures.push("uncaught browser JavaScript errors");
     return {route,viewport:viewport.name,httpStatus:response.status(),failures,errors,metrics,revealsVisible};
