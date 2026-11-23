@@ -20,7 +20,6 @@ SEO_PAGE_GROUPS = {
     "resources": "Proof and next steps",
     "industries": "Industry directory",
     "career-resources": "Career resources",
-    "resources": "Proof and next steps",
     "faq": "Frequently asked questions",
 }
 
