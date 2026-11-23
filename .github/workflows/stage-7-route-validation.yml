@@ -1,6 +1,15 @@
 name: Stage 7 route migration validation
 
 on:
+  push:
+    branches: [stage-7-clean-route-migration]
+    paths:
+      - "_redirects"
+      - "development/INSTALLED-PROGRAMME-ROUTES.csv"
+      - "development/PAGE-TRACKER.csv"
+      - "development/STAGE-7-UNMAPPED-SITEMAP-ROUTES.csv"
+      - "scripts/test-stage-7-route-redirects.js"
+      - ".github/workflows/stage-7-route-validation.yml"
   pull_request:
     branches: [master]
     paths:
