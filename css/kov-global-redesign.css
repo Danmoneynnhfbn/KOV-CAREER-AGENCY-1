@@ -1479,3 +1479,10 @@ body:not(.backend-page):not(.admin-page) [class~="shadow-[10px_10px_0_0_var(--in
 
 body:not(.backend-page):not(.admin-page) [class~="left-4"] { left: 1rem; }
 body:not(.backend-page):not(.admin-page) [class~="pb-6"] { padding-bottom: 1.5rem; }
+
+
+/* Keep viewport-based CTA widths inclusive of their horizontal padding. */
+body:not(.backend-page):not(.admin-page) .kov-final-cta {
+  box-sizing: border-box;
+  max-width: 100%;
+}
