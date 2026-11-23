@@ -76,9 +76,9 @@ jobs:
           print("DIAGNOSTIC unmanifested paths:", unmanifested)
           print("DIAGNOSTIC manifest paths missing from output:", missing)
 
-          assert len(inventory_paths) == 2078, f"Expected 2,078 manifest HTML entries, found {len(inventory_paths)}"
-          assert len(pages) == 2060, f"Expected 2,060 published HTML pages, found {len(pages)}"
-          assert len(active_paths) == 1425, f"Expected 1,425 active public non-noindex pages, found {len(active_paths)}"
+          assert len(inventory_paths) == 2079, f"Expected 2,079 manifest HTML entries, found {len(inventory_paths)}"
+          assert len(pages) == 2061, f"Expected 2,061 published HTML pages, found {len(pages)}"
+          assert len(active_paths) == 1427, f"Expected 1,427 active public non-noindex pages, found {len(active_paths)}"
           assert len(missing) == 18, f"Expected 18 manifest paths excluded from public output, found {len(missing)}"
           assert unmanifested == [], f"Published HTML pages missing from manifest: {unmanifested}"
           assert len(inventory_paths) - len(pages) == 18, "The 18 manifest-only non-published paths are not reconciled"
@@ -256,8 +256,8 @@ jobs:
           if failures:
               raise SystemExit("\n".join(failures[:100]))
 
-          print("PASS: 2,060 published HTML pages each contain one valid KOV JSON-LD script.")
-          print("PASS: all 1,425 active public pages reference all 18 complete compressed catalogue packages in HEAD.")
+          print("PASS: 2,061 published HTML pages each contain one valid KOV JSON-LD script.")
+          print("PASS: all 1,427 active public pages reference all 18 complete compressed catalogue packages in HEAD.")
           print("PASS: all 18 catalogue packages decompress, parse, and retain every record.")
           print("PASS: page bodies and all content outside HEAD are unchanged.")
           print("PASS: existing canonical URLs, robots directives, social metadata, scripts, stylesheets and unrelated HEAD content are unchanged.")
