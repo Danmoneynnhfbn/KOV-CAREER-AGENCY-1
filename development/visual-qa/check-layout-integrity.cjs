@@ -80,8 +80,21 @@ async function inspect(browser,route,viewport) {
         const ar=rect(a),br=rect(b),ix=Math.min(ar.right,br.right)-Math.max(ar.left,br.left),iy=Math.min(ar.bottom,br.bottom)-Math.max(ar.top,br.top);
         if(ix>20&&iy>2)overlaps.push({first:String(a.className).slice(0,70),second:String(b.className).slice(0,70),verticalIntersection:iy});
       }
-      return {viewport:innerWidth,documentWidth:width,horizontalOverflow:width-innerWidth,mainFound:Boolean(main),centeredContainers:centered,articleCenterDelta,responsive,mainSiblingOverlaps:overlaps,revealCount:document.querySelectorAll(".kov-reveal").length,motionReady:document.documentElement.classList.contains("kov-motion-ready")};
+      return {
+        viewport:innerWidth,
+        documentWidth:width,
+        horizontalOverflow:width-innerWidth,
+        mainFound:Boolean(main),
+        centeredContainers:centered,
+        articleCenterDelta,
+        responsive,
+        mainSiblingOverlaps:overlaps,
+        revealCount:document.querySelectorAll(".kov-reveal").length,
+        revealTransforms:[...document.querySelectorAll(".kov-reveal")].map(el=>getComputedStyle(el).transform).filter(value=>value!=="none"),
+        motionReady:document.documentElement.classList.contains("kov-motion-ready")
+      };
     });
+    metrics.initialMainSiblingOverlaps=[...metrics.mainSiblingOverlaps];
     const revealState=await page.evaluate(async()=>{
       const all=[...document.querySelectorAll(".kov-reveal")];
       for(const el of all){el.scrollIntoView({block:"center",behavior:"instant"});await new Promise(r=>setTimeout(r,30));}
@@ -114,7 +127,10 @@ async function inspect(browser,route,viewport) {
     if(metrics.articleCenterDelta!==null&&viewport.width>768&&Math.abs(metrics.articleCenterDelta)>18)failures.push("editorial article off-centre by "+metrics.articleCenterDelta+"px");
     const brokenResponsive = metrics.responsive.filter(item => !item.ok);
     if(brokenResponsive.length) failures.push("responsive utilities failed: "+brokenResponsive.map(item=>item.token).join(", "));
-    if(metrics.mainSiblingOverlaps.length) failures.push("adjacent main sections overlap: "+metrics.mainSiblingOverlaps.map(item=>item.first+" / "+item.second).join("; "));
+    const initialOverlaps=metrics.initialMainSiblingOverlaps||[];
+    const settledOverlaps=metrics.mainSiblingOverlaps||[];
+    if(initialOverlaps.length||settledOverlaps.length) failures.push("adjacent main sections overlap: "+[...initialOverlaps,...settledOverlaps].map(item=>item.first+" / "+item.second).join("; "));
+    if(metrics.revealTransforms.length) failures.push("reveal animation translates section boxes and may cause transient overlap");
     if(!revealsVisible)failures.push("a reveal section remained hidden after scrolling");
     if(errors.length)failures.push("uncaught browser JavaScript errors");
     return {route,viewport:viewport.name,httpStatus:response.status(),failures,errors,metrics,revealsVisible};
