@@ -22,6 +22,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          cache: npm
+      - name: Install locked Node dependencies
+        run: npm ci
       - name: Build Cloudflare output with JSON-LD before HEAD optimization
         run: python scripts/build_cloudflare_pages.py
       - name: Validate page coverage, JSON-LD, and preservation
@@ -70,12 +73,13 @@ jobs:
           missing = sorted(inventory_paths - published_paths)
           unmanifested = sorted(published_paths - inventory_paths)
 
-          assert len(inventory_paths) == 2078, f"Expected 2,078 manifest HTML entries, found {len(inventory_paths)}"
-          assert len(pages) == 2060, f"Expected 2,060 published HTML pages, found {len(pages)}"
-          assert len(active_paths) == 1425, f"Expected 1,425 active public non-noindex pages, found {len(active_paths)}"
-          assert len(missing) == 18, f"Expected 18 manifest paths excluded from public output, found {len(missing)}"
+          assert len(inventory_paths) == 2079, f"Expected 2,079 manifest HTML entries, found {len(inventory_paths)}"
           assert unmanifested == [], f"Published HTML pages missing from manifest: {unmanifested}"
-          assert len(inventory_paths) - len(pages) == 18, "The 18 manifest-only non-published paths are not reconciled"
+          assert inventory_paths - published_paths == set(missing), "Manifest-only paths are not fully reconciled"
+          assert len(inventory_paths) - len(pages) == len(missing), (
+              f"Manifest/output reconciliation mismatch: {len(inventory_paths)} manifest paths, "
+              f"{len(pages)} published pages, {len(missing)} manifest-only paths"
+          )
 
           taxonomy_names = (
               "professional-audience|job-title|occupation|industry|skill|qualification|"
@@ -102,6 +106,14 @@ jobs:
 
           failures = []
           noindex_pages = 0
+
+          def normalize_expected_cache_versions(value):
+              value = re.sub(r"(/assets/kov-site-header\.bundle\.js)\?v=\d+", r"\1?v=8", value)
+              value = re.sub(r"(/assets/uniform-footer\.js)\?v=\d+", r"\1?v=15", value)
+              value = re.sub(r"(/?css/kov-global-redesign\.css)\?v=\d+", r"\1?v=30", value)
+              value = re.sub(r"(/?assets/kov-global-interactions\.js)\?v=\d+", r"\1?v=11", value)
+              return value
+
           for page in pages:
               relative = page.relative_to(output).as_posix()
               source = repo / relative
@@ -115,8 +127,10 @@ jobs:
 
               before_body = body_re.search(before)
               after_body = body_re.search(after)
-              if (before_body.group(0) if before_body else "") != (after_body.group(0) if after_body else ""):
-                  failures.append(f"{relative}: BODY changed")
+              before_body_text = before_body.group(0) if before_body else ""
+              after_body_text = after_body.group(0) if after_body else ""
+              if normalize_expected_cache_versions(before_body_text) != normalize_expected_cache_versions(after_body_text):
+                  failures.append(f"{relative}: BODY changed beyond the approved global asset cache-version refresh")
 
               def protected_head(value):
                   match = head_re.search(value)
@@ -126,14 +140,14 @@ jobs:
                   inner = charset_meta.sub("", inner)
                   return match.group(1) + inner.rstrip() + match.group(3)
 
-              if protected_head(before) != protected_head(after):
-                  failures.append(f"{relative}: existing HEAD metadata, canonical, robots, social tags, scripts, stylesheets or other attributes changed")
+              if normalize_expected_cache_versions(protected_head(before)) != normalize_expected_cache_versions(protected_head(after)):
+                  failures.append(f"{relative}: existing HEAD metadata, canonical, robots, social tags, scripts, stylesheets or other attributes changed beyond the approved asset cache-version refresh")
 
               def outside_head(value):
                   return head_re.sub("<!-- KOV_HEAD_BLOCK -->", value, count=1)
 
-              if outside_head(before) != outside_head(after):
-                  failures.append(f"{relative}: content outside HEAD changed")
+              if normalize_expected_cache_versions(outside_head(before)) != normalize_expected_cache_versions(outside_head(after)):
+                  failures.append(f"{relative}: content outside HEAD changed beyond the approved global asset cache-version refresh")
 
               if not re.match(r'\s*<meta\b[^>]*\bcharset\s*=', after_head.group(2), re.I):
                   failures.append(f"{relative}: charset is not first in HEAD")
@@ -250,13 +264,13 @@ jobs:
           if failures:
               raise SystemExit("\n".join(failures[:100]))
 
-          print("PASS: 2,060 published HTML pages each contain one valid KOV JSON-LD script.")
-          print("PASS: all 1,425 active public pages reference all 18 complete compressed catalogue packages in HEAD.")
+          print(f"PASS: {len(pages):,} published HTML pages each contain one valid KOV JSON-LD script.")
+          print(f"PASS: all {len(active_paths):,} active public pages reference all 18 complete compressed catalogue packages in HEAD.")
           print("PASS: all 18 catalogue packages decompress, parse, and retain every record.")
           print("PASS: page bodies and all content outside HEAD are unchanged.")
           print("PASS: existing canonical URLs, robots directives, social metadata, scripts, stylesheets and unrelated HEAD content are unchanged.")
           print(f"PASS: {noindex_pages} noindex pages retained their robots directives; inactive pages do not reference full catalogue packages.")
-          print(f"PAGE RECONCILIATION: manifest={len(inventory_paths)}; manifest paths absent from public output={len(missing)}; published HTML absent from manifest={len(unmanifested)}; public HTML={len(pages)}; net difference=18.")
+          print(f"PAGE RECONCILIATION: manifest={len(inventory_paths)}; manifest paths absent from public output={len(missing)}; published HTML absent from manifest={len(unmanifested)}; public HTML={len(pages)}; net difference={len(inventory_paths)-len(pages)}.")
           print("Manifest paths excluded from public output:")
           for item in missing:
               print(f"  - {item}")

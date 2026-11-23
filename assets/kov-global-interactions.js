@@ -22,18 +22,12 @@
   document.body.dataset.kovPageFamily = pageFamily;
   document.body.classList.add(`kov-family-${pageFamily}`);
 
-  // Reveal content as it enters view, with a no-observer and reduced-motion fallback.
-  if (main && !reducedMotion && 'IntersectionObserver' in window) {
+  // Page sections remain visible immediately. Do not make content visibility
+  // depend on IntersectionObserver, scroll position, or a delayed animation.
+  if (main) {
     const candidates = [...main.querySelectorAll('section, main > article, .kov-expansion-card, .pathway-card, .directory-card')];
-    const observer = new IntersectionObserver((entries, instance) => {
-      entries.forEach(entry => {
-        if (!entry.isIntersecting) return;
-        entry.target.classList.add('kov-visible');
-        instance.unobserve(entry.target);
-      });
-    }, { threshold: 0.08, rootMargin: '0px 0px -28px 0px' });
     candidates.forEach((item, index) => {
-      if (index > 0) { item.classList.add('kov-reveal'); observer.observe(item); }
+      if (index > 0) item.classList.add('kov-reveal', 'kov-visible');
     });
   }
 
