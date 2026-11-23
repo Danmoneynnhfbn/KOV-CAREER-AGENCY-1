@@ -90,8 +90,8 @@ const sitemapDirectoryUrls = [...sitemap.matchAll(/<loc>(https:\/\/www\.kovcaree
   .map((match) => match[1]);
 const manifestSourceUrls = new Set(mappings.map((row) => "https://www.kovcareeragency.org" + row.source));
 const unmappedSitemapDirectoryUrls = sitemapDirectoryUrls.filter((url) => !manifestSourceUrls.has(url));
-assert.equal(sitemapDirectoryUrls.length, 708, "Expected 708 remaining directory sitemap URLs");
-assert.equal(unmappedSitemapDirectoryUrls.length, 119, "Expected 119 directory sitemap URLs still awaiting route reconciliation");
+assert.equal(sitemapDirectoryUrls.length, 707, "Expected 707 remaining directory sitemap URLs");
+assert.equal(unmappedSitemapDirectoryUrls.length, 118, "Expected 118 directory sitemap URLs still awaiting route reconciliation");
 
 const installedProgrammeIds = new Set(
   manifest.filter((row) => row.kind === "programme page").map((row) => row.programme_id)
