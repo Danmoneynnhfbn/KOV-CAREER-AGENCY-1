@@ -74,7 +74,9 @@ async function inspect(browser,route,viewport) {
     });
     const revealsVisible=await page.evaluate(async()=>{
       const all=[...document.querySelectorAll(".kov-reveal")];
-      for(const el of all){el.scrollIntoView({block:"center",behavior:"instant"});await new Promise(r=>setTimeout(r,90));}
+      for(const el of all){el.scrollIntoView({block:"center",behavior:"instant"});await new Promise(r=>setTimeout(r,30));}
+      // Allow the 650ms reveal transition plus its staggered delay to finish.
+      await new Promise(r=>setTimeout(r,850));
       return all.every(el=>{const s=getComputedStyle(el);return s.visibility!=="hidden"&&Number(s.opacity)>.95;});
     });
     const failures=[];
