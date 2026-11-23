@@ -113,11 +113,9 @@ async function inspect(browser,route,viewport) {
       };
     });
     metrics.initialMainSiblingOverlaps=[...metrics.mainSiblingOverlaps];
-    const revealState=await page.evaluate(async()=>{
+    const revealState=await page.evaluate(()=>{
       const all=[...document.querySelectorAll(".kov-reveal")];
-      for(const el of all){el.scrollIntoView({block:"center",behavior:"instant"});await new Promise(r=>setTimeout(r,30));}
-      // Allow the 650ms reveal transition plus its staggered delay to finish.
-      await new Promise(r=>setTimeout(r,850));
+      // Content is intentionally visible immediately, including elements below the fold.
       const visible=all.every(el=>{const s=getComputedStyle(el);return s.visibility!=="hidden"&&Number(s.opacity)>.95;});
       const main=document.querySelector("main");
       const sections=main?[...main.children].filter(el=>el.matches("section,article,.ceo-reading-layout")):[];
