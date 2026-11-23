@@ -50,6 +50,23 @@ async function inspect(browser,route,viewport) {
       const rect = el => { const r=el.getBoundingClientRect(); return {left:round(r.left),right:round(r.right),top:round(r.top),bottom:round(r.bottom),width:round(r.width)}; };
       const main = document.querySelector("main");
       const width = Math.max(document.documentElement.scrollWidth,document.body.scrollWidth);
+      const overflowElements = [...document.querySelectorAll("body *")]
+        .map(el => {
+          const r = el.getBoundingClientRect();
+          const s = getComputedStyle(el);
+          return {
+            tag: el.tagName.toLowerCase(),
+            id: el.id || "",
+            className: String(el.className?.baseVal ?? el.className ?? "").slice(0,120),
+            left: round(r.left), right: round(r.right), width: round(r.width),
+            position: s.position, display: s.display, overflowX: s.overflowX,
+            cssWidth: s.width, minWidth: s.minWidth, maxWidth: s.maxWidth,
+            text: (el.textContent || "").trim().replace(/\s+/g," ").slice(0,90)
+          };
+        })
+        .filter(item => item.right > innerWidth + 1 || item.left < -1)
+        .sort((a,b) => Math.max(b.right-innerWidth,-b.left) - Math.max(a.right-innerWidth,-a.left))
+        .slice(0,24);
       const centered = [...document.querySelectorAll(".ceo-shell,.ceo-reading-layout,.max-w-7xl.mx-auto")]
         .filter(el=>el.offsetWidth>0).map(el=>{const r=rect(el);return {className:String(el.className).slice(0,80),centerDelta:round((r.left+r.right)/2-innerWidth/2)};});
       let articleCenterDelta = null;
@@ -84,6 +101,7 @@ async function inspect(browser,route,viewport) {
         viewport:innerWidth,
         documentWidth:width,
         horizontalOverflow:width-innerWidth,
+        overflowElements,
         mainFound:Boolean(main),
         centeredContainers:centered,
         articleCenterDelta,
@@ -150,6 +168,6 @@ async function inspect(browser,route,viewport) {
   const report={generatedAt:new Date().toISOString(),routes:routes.length,viewports,checks:results.length,failedChecks:results.filter(x=>x.failures?.length),results};
   const output=path.join(root,"development/visual-qa/layout-integrity-report.json");
   fs.writeFileSync(output,JSON.stringify(report,null,2)+"\n");
-  console.log(JSON.stringify({routes:report.routes,checks:report.checks,failures:report.failedChecks.length,report:path.relative(root,output),failedChecks:report.failedChecks.map(x=>({route:x.route,viewport:x.viewport,failures:x.failures}))},null,2));
+  console.log(JSON.stringify({routes:report.routes,checks:report.checks,failures:report.failedChecks.length,report:path.relative(root,output),failedChecks:report.failedChecks.map(x=>({route:x.route,viewport:x.viewport,failures:x.failures,overflowElements:x.metrics?.overflowElements?.slice(0,12)}))},null,2));
   if(report.failedChecks.length)process.exitCode=1;
 })().catch(error=>{console.error(error);process.exitCode=1;});
