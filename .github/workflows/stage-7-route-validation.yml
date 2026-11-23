@@ -6,6 +6,12 @@ on:
     paths:
       - "_redirects"
       - "development/INSTALLED-PROGRAMME-ROUTES.csv"
+      - "development/PAGE-TRACKER.csv"
+      - "development/STAGE-7-UNMAPPED-SITEMAP-ROUTES.csv"
+      - "development/STAGE-7-TRACKER-ONLY-ROUTES.csv"
+      - "sitemap.xml"
+      - "career-resources/**"
+      - "directory/**"
       - "scripts/test-stage-7-route-redirects.js"
       - ".github/workflows/stage-7-route-validation.yml"
   workflow_dispatch:
@@ -23,5 +29,5 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Validate exact preview and legacy redirects
+      - name: Validate redirects, clean destinations, robots, canonicals, and sitemap
         run: node scripts/test-stage-7-route-redirects.js
