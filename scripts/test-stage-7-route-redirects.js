@@ -82,6 +82,29 @@ for (const row of mappings) {
   assert.ok(fs.existsSync(routeFile(row.source)), "Missing preview source: " + row.source);
   assert.ok(fs.existsSync(path.join(root, row.destinationFile)), "Missing clean destination: " + row.destinationFile);
   assert.ok(!preview.destination.startsWith("/directory/"));
+
+  const destinationHtml = fs.readFileSync(path.join(root, row.destinationFile), "utf8");
+  const destinationRobots = [...destinationHtml.matchAll(/<meta\\b[^>]*>/gi)].map((match) => match[0]);
+  assert.ok(
+    destinationRobots.some((tag) =>
+      /\\bname\\s*=\\s*["']robots["']/i.test(tag) &&
+      /\\bcontent\\s*=\\s*["'][^"']*\\bnoindex\\b/i.test(tag)
+    ),
+    "Unapproved clean destination must remain noindex: " + row.destination
+  );
+  assert.ok(!sitemap.includes("https://www.kovcareeragency.org" + row.destination),
+    "Noindex clean destination must not appear in sitemap: " + row.destination);
+
+  if (row.kind === "programme page") {
+    const canonicalTags = [...destinationHtml.matchAll(/<link\\b[^>]*>/gi)]
+      .map((match) => match[0])
+      .filter((tag) => /\\brel\\s*=\\s*["']canonical["']/i.test(tag));
+    assert.equal(canonicalTags.length, 1, "Programme destination needs one canonical: " + row.destination);
+    assert.ok(
+      canonicalTags[0].includes("https://www.kovcareeragency.org" + row.destination),
+      "Programme destination canonical must match its clean route: " + row.destination
+    );
+  }
 }
 assert.deepEqual(failures, [], "Every manifest route needs exact 301 preview and legacy redirects");
 assert.ok(redirectMap.has("/staging"), "Missing /staging fallback");
