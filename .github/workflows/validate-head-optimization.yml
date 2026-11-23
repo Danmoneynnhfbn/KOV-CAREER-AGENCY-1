@@ -73,7 +73,7 @@ jobs:
           missing = sorted(inventory_paths - published_paths)
           unmanifested = sorted(published_paths - inventory_paths)
 
-          assert len(inventory_paths) == 2078, f"Expected 2,078 manifest HTML entries, found {len(inventory_paths)}"
+          assert len(inventory_paths) == 2079, f"Expected 2,079 manifest HTML entries, found {len(inventory_paths)}"
           assert unmanifested == [], f"Published HTML pages missing from manifest: {unmanifested}"
           assert inventory_paths - published_paths == set(missing), "Manifest-only paths are not fully reconciled"
           assert len(inventory_paths) - len(pages) == len(missing), (
@@ -254,8 +254,8 @@ jobs:
           if failures:
               raise SystemExit("\n".join(failures[:100]))
 
-          print("PASS: 2,060 published HTML pages each contain one valid KOV JSON-LD script.")
-          print("PASS: all 1,425 active public pages reference all 18 complete compressed catalogue packages in HEAD.")
+          print(f"PASS: {len(pages):,} published HTML pages each contain one valid KOV JSON-LD script.")
+          print(f"PASS: all {len(active_paths):,} active public pages reference all 18 complete compressed catalogue packages in HEAD.")
           print("PASS: all 18 catalogue packages decompress, parse, and retain every record.")
           print("PASS: page bodies and all content outside HEAD are unchanged.")
           print("PASS: existing canonical URLs, robots directives, social metadata, scripts, stylesheets and unrelated HEAD content are unchanged.")
