@@ -30,6 +30,13 @@ const featuredLinks = [
     webp: "/assets/people/leadership-team.webp",
   },
   {
+    title: "Candidate Project Directory",
+    description: "Explore professional roles, industries, skills and career project examples across global markets.",
+    href: "/resources/candidate-project-directory",
+    avif: "/assets/people/executive-professional.avif",
+    webp: "/assets/people/executive-professional.webp",
+  },
+  {
     title: "Professional Directory",
     description: "Review the purpose and privacy principles for a future directory.",
     href: "/professional-directory/index.html",

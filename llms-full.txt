@@ -1466,3 +1466,5 @@ Role hubs, industry hubs, and role-in-industry guides:
 - [VP Product | KOV Career Agency](https://www.kovcareeragency.org/directory/roles/vp-product/): Public career research and professional guidance about VP Product | KOV Career Agency from KOV Career Agency.
 - [VP Sales | KOV Career Agency](https://www.kovcareeragency.org/directory/roles/vp-sales/): Public career research and professional guidance about VP Sales | KOV Career Agency from KOV Career Agency.
 - [VP Strategy | KOV Career Agency](https://www.kovcareeragency.org/directory/roles/vp-strategy/): Public career research and professional guidance about VP Strategy | KOV Career Agency from KOV Career Agency.
+
+- [Candidate Project Directory | KOV Career Agency](https://www.kovcareeragency.org/resources/candidate-project-directory): Explore professional project profiles across 146 countries, with career roles, industries, relevant skills, service areas and example project amounts from KOV Career Agency.

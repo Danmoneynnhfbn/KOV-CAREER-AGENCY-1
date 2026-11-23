@@ -25,6 +25,8 @@ KOV provides candidate-side career support. Scope, deliverables, fees, approvals
 ## Public research guides
 - [Public career research and occupation guides](https://www.kovcareeragency.org/directory/): Published research guides and occupation references.
 
+- [Candidate Project Directory](https://www.kovcareeragency.org/resources/candidate-project-directory): Professional project profiles with role, industry, skills, service-area and project information.
+
 ## Main navigation and site directory
 - [All public website sections and key pages](https://www.kovcareeragency.org/site-directory.html): Human-readable directory linking the main service, role, industry, market, insight and contact sections.
 - [Career services and pricing](https://www.kovcareeragency.org/candidate-services.html): Individual career services, private career representation, process and pricing.
@@ -39,4 +41,4 @@ KOV provides candidate-side career support. Scope, deliverables, fees, approvals
 - [XML sitemap](https://www.kovcareeragency.org/sitemap.xml): Search-engine sitemap of canonical, indexable production pages.
 - [Crawler access rules](https://www.kovcareeragency.org/robots.txt): Robots directives for search engines and AI crawlers.
 
-The sitemap and full page directory include canonical, indexable public pages, including the published career research and occupation guides. Private account, candidate-directory, operations, administrator and publishing surfaces remain excluded.
+The sitemap and full page directory include canonical, indexable public pages, including the published career research and occupation guides. Private account, operations, administrator and publishing surfaces remain excluded.
