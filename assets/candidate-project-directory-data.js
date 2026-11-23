@@ -97,7 +97,7 @@ const profiles=Array.from({length:1000},(_,i)=>{
  'Program Director':['Programme management','Portfolio governance','Budget oversight','Risk management','Delivery leadership']
  };
  const skills=skillMap[role]||['Leadership','Strategic planning','Stakeholder management','Project delivery'];
- return {id:'profile-'+String(n).padStart(4,'0'),name:displayName,country,flag:flagMap[country]||'🌍',portrait:portraitPool.length?portraitPool[i%portraitPool.length]:'',jobTitle:role,skills,project,projectDetails:projectDetails[(n*3)%projectDetails.length],date:'2025-'+String((n%12)+1).padStart(2,'0')+'-'+String((n%27)+1).padStart(2,'0'),amount:[350,500,750,1000,1500,2500,4000,6000,8000,10000,12000][n%11],industry,service:services[(n*5)%services.length],location:cityList[n%cityList.length]+', '+country,engagement:engagements[(n*3)%engagements.length],rating:'',review:(window.KOV_CANDIDATE_FEEDBACK||[])[i]||''};
+ return {id:'profile-'+String(n).padStart(4,'0'),name:displayName,country,flag:flagMap[country]||'🌍',portrait:portraitPool.length?portraitPool[i%portraitPool.length]:'',jobTitle:role,skills,project,projectDetails:projectDetails[(n*3)%projectDetails.length],date:'2025-'+String((n%12)+1).padStart(2,'0')+'-'+String((n%27)+1).padStart(2,'0'),amount:Math.round((350+(n-1)*(12000-350)/999)*100)/100,industry,service:services[(n*5)%services.length],location:cityList[n%cityList.length]+', '+country,engagement:engagements[(n*3)%engagements.length],rating:'',review:(window.KOV_CANDIDATE_FEEDBACK||[])[i]||''};
 });
 // Mix profiles across all markets so the directory never appears grouped by country or industry.
 let shuffleSeed=20261120;
