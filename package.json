@@ -11,7 +11,8 @@
     "build:react": "node scripts/build-react-navigation.js",
     "build:metadata": "node scripts/build-jsonld.js",
     "install:react-navigation": "node scripts/install-react-navigation.js",
-    "test": "node scripts/test-visual-preservation.js"
+    "test": "node scripts/test-visual-preservation.js && npm run test:stage-7",
+    "test:stage-7": "node scripts/test-stage-7-route-redirects.js"
   },
   "repository": {
     "type": "git",
