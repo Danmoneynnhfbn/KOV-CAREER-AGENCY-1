@@ -79,10 +79,26 @@ async function inspect(browser,route,viewport) {
       }
       const responsive=[];
       const colsCount=s=>s.trim().split(/\s+/).filter(Boolean).length;
-      for(const [token,expected] of [["md:grid-cols-2",2],["md:grid-cols-3",3],["md:grid-cols-4",4],["lg:grid-cols-3",3],["lg:grid-cols-4",4]]) {
+      for(const [token,expected] of [["md:grid-cols-2",2],["md:grid-cols-3",3],["md:grid-cols-4",4],["lg:grid-cols-2",2],["lg:grid-cols-3",3],["lg:grid-cols-4",4],["lg:grid-cols-12",12]]) {
         const el=document.querySelector('[class~="'+token+'"]'); if(!el) continue;
         const s=getComputedStyle(el), enabled=token.startsWith("md:")?innerWidth>=768:innerWidth>=1024;
         responsive.push({token,enabled,display:s.display,columns:colsCount(s.gridTemplateColumns),ok:!enabled||(s.display==="grid"&&colsCount(s.gridTemplateColumns)===expected)});
+      }
+      for(const token of ["lg:col-span-4","lg:col-span-5","lg:col-span-7","lg:col-span-8"]) {
+        const el=document.querySelector('[class~="'+token+'"]'); if(!el) continue;
+        const enabled=innerWidth>=1024, expected="span "+token.match(/col-span-(\\d+)/)[1];
+        const actual=getComputedStyle(el).gridColumnEnd;
+        responsive.push({token,enabled,gridColumnEnd:actual,ok:!enabled||actual===expected});
+      }
+      const desktopNavigation=document.querySelector('[class~="hidden"][class~="lg:flex"]');
+      if(desktopNavigation) {
+        const enabled=innerWidth>=1024, display=getComputedStyle(desktopNavigation).display;
+        responsive.push({token:"hidden lg:flex",enabled,display,ok:enabled?display==="flex":display==="none"});
+      }
+      const desktopHidden=document.querySelector('[class~="lg:hidden"]');
+      if(desktopHidden) {
+        const enabled=innerWidth>=1024, display=getComputedStyle(desktopHidden).display;
+        responsive.push({token:"lg:hidden",enabled,display,ok:enabled?display==="none":display!=="none"});
       }
       for(const token of ["md:flex-row","lg:flex-row"]) {
         const el=document.querySelector('[class~="'+token+'"]'); if(!el) continue;
