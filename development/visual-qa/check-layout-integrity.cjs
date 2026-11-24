@@ -86,7 +86,7 @@ async function inspect(browser,route,viewport) {
       }
       for(const token of ["lg:col-span-4","lg:col-span-5","lg:col-span-7","lg:col-span-8"]) {
         const el=document.querySelector('[class~="'+token+'"]'); if(!el) continue;
-        const enabled=innerWidth>=1024, expected="span "+token.match(/col-span-(\\d+)/)[1];
+        const enabled=innerWidth>=1024, expected="span "+token.match(/col-span-(\d+)/)[1];
         const actual=getComputedStyle(el).gridColumnEnd;
         responsive.push({token,enabled,gridColumnEnd:actual,ok:!enabled||actual===expected});
       }
