@@ -1,0 +1,45 @@
+name: Stage 7 route migration validation
+
+on:
+  push:
+    branches: [stage-7-clean-route-migration]
+    paths:
+      - "_redirects"
+      - "development/INSTALLED-PROGRAMME-ROUTES.csv"
+      - "development/PAGE-TRACKER.csv"
+      - "development/STAGE-7-UNMAPPED-SITEMAP-ROUTES.csv"
+      - "directory/**"
+      - "sitemap.xml"
+      - "career-resources/**"
+      - "scripts/test-stage-7-route-redirects.js"
+      - ".github/workflows/stage-7-route-validation.yml"
+  pull_request:
+    branches: [master]
+    paths:
+      - "_redirects"
+      - "development/INSTALLED-PROGRAMME-ROUTES.csv"
+      - "development/PAGE-TRACKER.csv"
+      - "development/STAGE-7-UNMAPPED-SITEMAP-ROUTES.csv"
+      - "development/STAGE-7-TRACKER-ONLY-ROUTES.csv"
+      - "sitemap.xml"
+      - "career-resources/**"
+      - "directory/**"
+      - "scripts/test-stage-7-route-redirects.js"
+      - ".github/workflows/stage-7-route-validation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-stage-7-routes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate redirects, clean destinations, robots, canonicals, and sitemap
+        run: node scripts/test-stage-7-route-redirects.js
