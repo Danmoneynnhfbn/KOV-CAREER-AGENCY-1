@@ -1665,3 +1665,73 @@ body:not(.backend-page):not(.admin-page) [class~="ml-5"] { margin-left: 1.25rem;
     display: none;
   }
 }
+
+
+/* Pricing page: balance the single-fee card with a process visual. */
+.kov-page-pricing .kov-pricing-fee-grid[class~="lg:grid-cols-2"] {
+  box-sizing: border-box;
+  width: min(calc(100% - 2 * var(--kov-gutter)), 74rem);
+  margin-inline: auto;
+  grid-template-columns: minmax(0,1.1fr) minmax(16rem,.9fr);
+  align-items: center;
+  gap: clamp(2rem,5vw,4rem);
+}
+.kov-page-pricing .kov-pricing-fee-visual {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: .85rem;
+  width: min(100%, 38rem);
+  margin: 0 auto;
+  padding: clamp(1rem,2.5vw,1.5rem);
+  border: 1px solid var(--kov-line);
+  border-radius: 1rem;
+  background: #f4f7f5;
+  box-shadow: 0 .8rem 2.4rem rgb(23 49 59 / 6%);
+}
+.kov-page-pricing .kov-pricing-fee-visual img {
+  display: block;
+  width: min(100%, 35rem);
+  height: auto;
+  margin-inline: auto;
+  object-fit: contain;
+}
+.kov-page-pricing .kov-pricing-fee-visual figcaption {
+  max-width: 48ch;
+  color: var(--kov-ink-soft);
+  font-size: .8rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* A two-column utility grid with a single child should not leave half a page empty. */
+@media (min-width: 48rem) {
+  body:not(.backend-page):not(.admin-page) main [class~="md:grid-cols-2"]:has(> :only-child) {
+    grid-template-columns: minmax(0,1fr) !important;
+  }
+  body:not(.backend-page):not(.admin-page) main [class~="md:grid-cols-2"]:has(> :only-child) > :only-child {
+    grid-column: 1 / -1;
+    width: min(100%, 70rem);
+    margin-inline: auto;
+  }
+}
+@media (min-width: 64rem) {
+  body:not(.backend-page):not(.admin-page) main [class~="lg:grid-cols-2"]:has(> :only-child) {
+    grid-template-columns: minmax(0,1fr) !important;
+  }
+  body:not(.backend-page):not(.admin-page) main [class~="lg:grid-cols-2"]:has(> :only-child) > :only-child {
+    grid-column: 1 / -1;
+    width: min(100%, 70rem);
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 48rem) {
+  .kov-page-pricing .kov-pricing-fee-grid[class~="lg:grid-cols-2"] {
+    grid-template-columns: minmax(0,1fr);
+    gap: 1.5rem;
+  }
+  .kov-page-pricing .kov-pricing-fee-visual {
+    width: min(100%, 36rem);
+  }
+}
