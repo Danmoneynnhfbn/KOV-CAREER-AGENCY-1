@@ -1509,3 +1509,159 @@ body:not(.backend-page):not(.admin-page) [class~="ml-5"] { margin-left: 1.25rem;
   body:not(.backend-page):not(.admin-page) [class~="lg:order-1"] { order: 1; }
   body:not(.backend-page):not(.admin-page) [class~="lg:order-2"] { order: 2; }
 }
+
+
+/* How It Works: balanced sections, visible visual support and a single-row process band. */
+.kov-page-how-it-works .kov-process-intro-section > .mx-auto {
+  box-sizing: border-box;
+  width: min(calc(100% - 2 * var(--kov-gutter)), 68rem);
+  margin-inline: auto;
+  text-align: center;
+}
+.kov-page-how-it-works .kov-process-intro-section h2 {
+  max-width: 23ch;
+  margin-inline: auto;
+  line-height: 1.08;
+  text-wrap: balance;
+}
+.kov-page-how-it-works .kov-process-intro-section h3 {
+  max-width: 34ch;
+  margin-inline: auto;
+}
+.kov-page-how-it-works .kov-process-intro-section p:not(.flex) {
+  max-width: 66ch;
+  margin-inline: auto;
+}
+.kov-page-how-it-works .kov-process-intro-section p.flex {
+  justify-content: center;
+}
+.kov-page-how-it-works .kov-fee-grid[class~="lg:grid-cols-2"] {
+  box-sizing: border-box;
+  width: min(calc(100% - 2 * var(--kov-gutter)), 74rem);
+  margin-inline: auto;
+  grid-template-columns: minmax(0,1.15fr) minmax(16rem,.85fr);
+  align-items: center;
+  gap: clamp(2rem,5vw,4.5rem);
+}
+.kov-page-how-it-works .kov-fee-copy {
+  max-width: 43rem;
+  margin-inline: auto;
+}
+.kov-page-how-it-works .kov-fee-visual {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: .85rem;
+  width: min(100%, 25rem);
+  margin: 0 auto;
+  padding: clamp(1rem,2.5vw,1.5rem);
+  border: 1px solid var(--kov-line);
+  border-radius: 1rem;
+  background: linear-gradient(145deg,#f7faf8,#eef3f4);
+  box-shadow: 0 .8rem 2.4rem rgb(23 49 59 / 7%);
+}
+.kov-page-how-it-works .kov-fee-visual img {
+  display: block;
+  width: min(100%, 17rem);
+  max-height: 21rem;
+  height: auto;
+  margin-inline: auto;
+  object-fit: contain;
+  border-radius: .55rem;
+}
+.kov-page-how-it-works .kov-fee-visual figcaption {
+  max-width: 32ch;
+  color: var(--kov-ink-soft);
+  font-size: .8rem;
+  line-height: 1.5;
+  text-align: center;
+}
+.kov-page-how-it-works .kov-marquee-band {
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+}
+.kov-page-how-it-works .kov-marquee {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: max-content;
+  min-width: max-content;
+  max-width: none;
+  gap: 0 !important;
+  white-space: nowrap;
+  will-change: transform;
+  animation: kov-how-it-works-marquee 38s linear infinite;
+}
+.kov-page-how-it-works .kov-marquee > div {
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: max-content;
+  min-width: max-content;
+  gap: 3rem;
+  white-space: nowrap;
+}
+.kov-page-how-it-works .kov-marquee > div > span {
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 3rem;
+  white-space: nowrap;
+}
+.kov-page-how-it-works .kov-marquee:hover {
+  animation-play-state: paused;
+}
+@keyframes kov-how-it-works-marquee {
+  to { transform: translate3d(-50%,0,0); }
+}
+
+@media (max-width: 48rem) {
+  .kov-visual-module {
+    box-sizing: border-box;
+    grid-template-columns: minmax(0,1fr);
+    width: min(calc(100% - 2 * var(--kov-gutter)), 44rem);
+    gap: 1.25rem;
+    margin-block: clamp(2rem,7vw,3.5rem);
+  }
+  .kov-visual-module .kov-visual-copy h2 {
+    max-width: 22ch;
+    text-wrap: balance;
+  }
+  .kov-visual-module .kov-visual-art {
+    width: 100%;
+    margin-inline: auto;
+  }
+  .kov-visual-module .kov-visual-art > svg {
+    width: 100%;
+    max-width: 48rem;
+    margin-inline: auto;
+  }
+  .kov-page-how-it-works .kov-fee-grid[class~="lg:grid-cols-2"] {
+    grid-template-columns: minmax(0,1fr);
+    gap: 1.5rem;
+  }
+  .kov-page-how-it-works .kov-fee-visual {
+    width: min(100%, 24rem);
+  }
+  .kov-page-how-it-works .kov-fee-visual img {
+    width: min(100%, 15rem);
+    max-height: 18rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kov-page-how-it-works .kov-marquee {
+    animation: none !important;
+    transform: none !important;
+  }
+  .kov-page-how-it-works .kov-marquee-band {
+    overflow-x: auto;
+    scrollbar-width: thin;
+  }
+  .kov-page-how-it-works .kov-marquee > div[aria-hidden="true"] {
+    display: none;
+  }
+}
