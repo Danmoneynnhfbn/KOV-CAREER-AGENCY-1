@@ -17,12 +17,13 @@ def page_path(url: str) -> str:
     trimmed = path.lstrip("/")
     if trimmed == "blog":
         return "blog.html"
+    # Resolve extensionless public directory routes to their index first.
+    if (ROOT / trimmed / "index.html").is_file():
+        return trimmed.rstrip("/") + "/index.html"
     if trimmed.endswith("/"):
         return trimmed + "index.html"
     if trimmed.endswith(".html"):
         return trimmed
-    if (ROOT / trimmed / "index.html").is_file():
-        return trimmed.rstrip("/") + "/index.html"
     if (ROOT / (trimmed + ".html")).is_file():
         return trimmed + ".html"
     return trimmed.rstrip("/") + "/index.html"
@@ -54,11 +55,11 @@ def main() -> int:
             failures.append(f"missing sitemap target: {url} -> {rel}")
             continue
         if row is None or row.get("sitemap") != "yes" or row.get("eligibility") != "published":
-            failures.append(f"coverage inventory does not approve sitemap URL: {url}")
+            failures.append(f"coverage inventory does not approve sitemap URL: {url} -> {rel}")
         source = page.read_text(encoding="utf-8")
         canonical = re.search(r'<link\b(?=[^>]*\brel=["\']canonical["\'])[^>]*\bhref=["\']([^"\']+)', source, re.I)
         if not canonical or canonical.group(1) != url:
-            failures.append(f"canonical mismatch: {url}")
+            failures.append(f"canonical mismatch: {url} -> {canonical.group(1) if canonical else 'missing'}")
         robots = ",".join(meta_values(source, "robots") + meta_values(source, "googlebot") + meta_values(source, "bingbot"))
         if re.search(r"\bnoindex\b", robots, re.I):
             failures.append(f"noindex page listed in sitemap: {url}")
