@@ -9,7 +9,6 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = "https://www.kovcareeragency.org"
 
 def page_path(url: str) -> str:
     path = urlparse(url).path
@@ -28,9 +27,9 @@ def page_path(url: str) -> str:
 
 def meta_values(source: str, name: str) -> list[str]:
     values = []
-    for tag in re.findall(r"<meta\\b[^>]*>", source, re.I):
+    for tag in re.findall(r"<meta\b[^>]*>", source, re.I):
         attr = dict((key.lower(), value) for key, value in re.findall(
-            r"""([\\w:-]+)\\s*=\\s*["']([^"']*)["']""", tag
+            r"""([\w:-]+)\s*=\s*["']([^"']*)["']""", tag
         ))
         if attr.get("name", "").lower() == name:
             values.append(attr.get("content", ""))
@@ -55,11 +54,11 @@ def main() -> int:
         if row is None or row.get("sitemap") != "yes" or row.get("eligibility") != "published":
             failures.append(f"coverage inventory does not approve sitemap URL: {url}")
         source = page.read_text(encoding="utf-8")
-        canonical = re.search(r'<link\\b(?=[^>]*\\brel=["\']canonical["\'])[^>]*\\bhref=["\']([^"\']+)', source, re.I)
+        canonical = re.search(r'<link\b(?=[^>]*\brel=["\']canonical["\'])[^>]*\bhref=["\']([^"\']+)', source, re.I)
         if not canonical or canonical.group(1) != url:
             failures.append(f"canonical mismatch: {url}")
         robots = ",".join(meta_values(source, "robots") + meta_values(source, "googlebot") + meta_values(source, "bingbot"))
-        if re.search(r"\\bnoindex\\b", robots, re.I):
+        if re.search(r"\bnoindex\b", robots, re.I):
             failures.append(f"noindex page listed in sitemap: {url}")
     approved = {row["canonical"] for row in rows if row.get("sitemap") == "yes" and row.get("eligibility") == "published"}
     if approved != set(urls):
