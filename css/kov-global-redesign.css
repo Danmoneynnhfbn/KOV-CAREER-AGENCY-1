@@ -1619,7 +1619,7 @@ body:not(.backend-page):not(.admin-page) [class~="ml-5"] { margin-left: 1.25rem;
 }
 
 @media (max-width: 48rem) {
-  .kov-visual-module {
+  body:not(.backend-page):not(.admin-page) .kov-visual-module {
     box-sizing: border-box;
     grid-template-columns: minmax(0,1fr);
     width: min(calc(100% - 2 * var(--kov-gutter)), 44rem);
