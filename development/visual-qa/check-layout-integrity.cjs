@@ -5,7 +5,20 @@ const { chromium } = require("playwright");
 const root = path.resolve(__dirname, "../..");
 const port = 8777;
 const mime = { ".html":"text/html; charset=utf-8", ".css":"text/css; charset=utf-8", ".js":"text/javascript; charset=utf-8", ".svg":"image/svg+xml", ".png":"image/png", ".jpg":"image/jpeg", ".webp":"image/webp", ".avif":"image/avif", ".woff2":"font/woff2" };
-const routes = ["/index.html","/services.html","/how-it-works.html","/pricing.html","/faqs.html","/about.html","/contact.html","/candidate-services.html","/industries/finance-insurance/","/industries/","/roles/cfo/finance-insurance.html","/roles/","/roles/cfo/","/countries-we-serve.html","/markets/executive-job-search-uae.html","/career-resources/board-guide-12/"];
+const sitemapXml = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
+const routes = [...sitemapXml.matchAll(/<loc>([\\s\\S]*?)<\\/loc>/gi)].map((match) => {
+  const url = new URL(match[1].trim());
+  if (!["www.kovcareeragency.org", "kovcareeragency.org"].includes(url.hostname)) {
+    throw new Error(`Unexpected sitemap host: ${url.hostname}`);
+  }
+  return decodeURIComponent(url.pathname);
+});
+if (routes.length !== 703) {
+  throw new Error(`Expected 703 approved public sitemap routes; found ${routes.length}`);
+}
+if (new Set(routes).size !== routes.length) {
+  throw new Error("Duplicate routes found in sitemap.xml");
+}
 const viewports = [{name:"mobile",width:390,height:844},{name:"tablet",width:768,height:1024},{name:"desktop",width:1440,height:1000}];
 
 function resolveFile(urlPath) {
