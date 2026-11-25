@@ -24,10 +24,20 @@ const viewports = [{name:"mobile",width:390,height:844},{name:"tablet",width:768
 function resolveFile(urlPath) {
   let pathname;
   try { pathname = decodeURIComponent(urlPath); } catch { return null; }
-  if (pathname === "/") pathname = "/index.html";
-  if (pathname.endsWith("/")) pathname += "index.html";
-  const target = path.resolve(root, "." + pathname);
-  return target === root || target.startsWith(root + path.sep) ? target : null;
+  const candidates = pathname === "/"
+    ? ["/index.html"]
+    : pathname.endsWith("/")
+      ? [pathname + "index.html", pathname.slice(0, -1) + ".html"]
+      : [pathname, pathname + ".html", pathname + "/index.html"];
+
+  for (const candidate of candidates) {
+    const target = path.resolve(root, "." + candidate);
+    if (target !== root && !target.startsWith(root + path.sep)) continue;
+    try {
+      if (fs.statSync(target).isFile()) return target;
+    } catch {}
+  }
+  return null;
 }
 const server = http.createServer((req,res) => {
   const target = resolveFile(new URL(req.url,"http://127.0.0.1").pathname);
