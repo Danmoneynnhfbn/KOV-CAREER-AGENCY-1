@@ -12,7 +12,7 @@ if (!/<body[^>]*class=["'][^"']*\bkov-family-geography\b/.test(page)) throw new 
 if (cardCount < 190) throw new Error('Static country-card fallback is missing or incomplete: ' + cardCount);
 if (!page.includes('country-directory-fallback-note')) throw new Error('Visible fallback notice is missing.');
 if (!page.includes('/assets/country-directory.js?v=20261118-3')) throw new Error('Country directory JavaScript cache-buster is missing.');
-if (!page.includes('/css/kov-global-redesign.css?v=30')) throw new Error('Country directory stylesheet cache-buster is missing.');
+if (!page.includes('/css/kov-global-redesign.css?v=32')) throw new Error('Country directory stylesheet cache-buster is missing.');
 if (page.includes('assets/world-cities.js" defer')) throw new Error('Large city index is still eagerly loaded.');
 if (!js.includes('loadCountryCityRecords()')) throw new Error('Lazy city loader is missing.');
 if (!css.includes('main > section:has(#country-directory)') || !css.includes('visibility: visible !important')) {
