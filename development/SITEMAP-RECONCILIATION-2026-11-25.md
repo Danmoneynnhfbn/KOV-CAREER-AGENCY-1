@@ -2,23 +2,27 @@
 
 ## Production correction
 
-The 25 November sitemap restoration commit included 726 URLs under `/directory/`. Those URLs are unpublished development previews. The source HTML declares `noindex` (some also declare `nofollow`), so they must not be submitted in the production sitemap or search catalogue.
+The 25 November sitemap restoration included 726 URLs under `/directory/`. Those URLs are unpublished development previews. Their source HTML declares `noindex` (some also declare `nofollow`), so they must not be submitted in the production sitemap or public search catalogue.
 
-The corrected sitemap:
-- Retains the 703 existing canonical, indexable URLs.
-- Adds the two verified public, self-canonical, indexable pages omitted from the sitemap: the Candidate Project Directory and the Website Directory.
-- Excludes all 728 `/directory/` preview pages, including the two noindex directory pages previously absent from the coverage CSV.
-- Keeps the 20 other excluded/private/utility records out of the sitemap.
+The review also identified two role/industry HTML aliases whose canonical tags point to different role/industry pages already present in the sitemap. The aliases are removed from sitemap discovery; their canonical destination pages remain listed.
+
+Two genuine public pages had been omitted and are restored:
+- Candidate Project Directory: `https://www.kovcareeragency.org/resources/candidate-project-directory`
+- Website Directory: `https://www.kovcareeragency.org/site-directory.html`
 
 ## Reconciled counts
 
 | Measure | Count |
 |---|---:|
-| Coverage inventory records | 1,453 |
-| Published, indexable URLs in sitemap | 705 |
+| Coverage inventory records | 1,454 |
+| Published, canonical, indexable URLs in sitemap | 703 |
 | Unpublished/noindex directory previews | 728 |
 | Other excluded/private/utility records | 20 |
+| Non-canonical duplicate role/industry URLs excluded | 2 |
+| Duplicate candidate-directory file alias excluded | 1 |
 | Duplicate sitemap URLs | 0 |
+
+The 703 sitemap URLs comprise 701 retained canonical URLs plus the two restored public pages. The two non-canonical aliases are not counted as separate indexable pages.
 
 ## Safeguard
 
