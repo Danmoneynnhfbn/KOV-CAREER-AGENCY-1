@@ -125,7 +125,7 @@ def main() -> None:
             )
             html = re.sub(
                 r"(/?css/kov-global-redesign\.css)\?v=\d+",
-                r"\1?v=30",
+                r"\1?v=31",
                 html,
             )
             html = re.sub(
