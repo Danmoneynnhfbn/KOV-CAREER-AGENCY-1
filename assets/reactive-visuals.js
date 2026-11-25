@@ -59,7 +59,6 @@
     const rect = button.getBoundingClientRect();
     const gutter = 12;
     const gap = 12;
-    tooltip.style.maxWidth = String(Math.max(0, window.innerWidth - gutter * 2)) + 'px';
     const tooltipRect = tooltip.getBoundingClientRect();
     const width = Math.min(tooltipRect.width, Math.max(0, window.innerWidth - gutter * 2));
     const height = tooltipRect.height;
