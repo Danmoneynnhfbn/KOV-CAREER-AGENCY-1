@@ -6,7 +6,7 @@ const root = path.resolve(__dirname, "../..");
 const port = 8777;
 const mime = { ".html":"text/html; charset=utf-8", ".css":"text/css; charset=utf-8", ".js":"text/javascript; charset=utf-8", ".svg":"image/svg+xml", ".png":"image/png", ".jpg":"image/jpeg", ".webp":"image/webp", ".avif":"image/avif", ".woff2":"font/woff2" };
 const sitemapXml = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
-const routes = [...sitemapXml.matchAll(/<loc>([\\s\\S]*?)<\\/loc>/gi)].map((match) => {
+const routes = [...sitemapXml.matchAll(/<loc>([\s\S]*?)<\/loc>/gi)].map((match) => {
   const url = new URL(match[1].trim());
   if (!["www.kovcareeragency.org", "kovcareeragency.org"].includes(url.hostname)) {
     throw new Error(`Unexpected sitemap host: ${url.hostname}`);
