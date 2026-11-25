@@ -55,21 +55,39 @@
     });
   };
 
+  const positionTooltip = (button, tooltip) => {
+    const rect = button.getBoundingClientRect();
+    const gutter = 12;
+    const gap = 12;
+    const tooltipRect = tooltip.getBoundingClientRect();
+    const width = Math.min(tooltipRect.width, Math.max(0, window.innerWidth - gutter * 2));
+    const height = tooltipRect.height;
+    const left = Math.max(gutter, Math.min(
+      rect.left + rect.width / 2 - width / 2,
+      window.innerWidth - width - gutter
+    ));
+    let top = rect.top - height - gap;
+    if (top < gutter) top = rect.bottom + gap;
+    top = Math.max(gutter, Math.min(top, window.innerHeight - height - gutter));
+    tooltip.style.left = String(left) + 'px';
+    tooltip.style.top = String(top) + 'px';
+  };
+
   const createHotspot = (canvas, point) => {
     const button = document.createElement('button');
     const tooltip = document.createElement('span');
     const title = document.createElement('strong');
     const detail = document.createElement('span');
-    const descriptionId = `kov-visual-${point.key}-${Math.random().toString(36).slice(2, 8)}`;
+    const descriptionId = 'kov-visual-' + point.key + '-' + Math.random().toString(36).slice(2, 8);
 
-    button.className = `kov-visual-hotspot kov-hotspot-${point.key}`;
-    button.style.setProperty('--hotspot-x', `${point.x}%`);
-    button.style.setProperty('--hotspot-y', `${point.y}%`);
-    button.style.setProperty('--hotspot-mobile-x', `${point.mobileX ?? point.x}%`);
-    button.style.setProperty('--hotspot-mobile-y', `${point.mobileY ?? point.y}%`);
+    button.className = 'kov-visual-hotspot kov-hotspot-' + point.key;
+    button.style.setProperty('--hotspot-x', point.x + '%');
+    button.style.setProperty('--hotspot-y', point.y + '%');
+    button.style.setProperty('--hotspot-mobile-x', (point.mobileX ?? point.x) + '%');
+    button.style.setProperty('--hotspot-mobile-y', (point.mobileY ?? point.y) + '%');
     button.type = 'button';
     button.dataset.hotspot = point.key;
-    button.setAttribute('aria-label', `${point.label}: ${point.detail}`);
+    button.setAttribute('aria-label', point.label + ': ' + point.detail);
     button.setAttribute('aria-describedby', descriptionId);
     button.setAttribute('aria-pressed', 'false');
     button.title = point.label;
@@ -81,30 +99,51 @@
     tooltip.append(title, detail);
     button.append(tooltip);
 
-    button.addEventListener('pointerenter', () => activateFocus(canvas, point));
+    const showTooltip = () => {
+      tooltip.classList.add('is-visible');
+      positionTooltip(button, tooltip);
+    };
+    const hideTooltip = () => tooltip.classList.remove('is-visible');
+    const repositionVisibleTooltip = () => {
+      if (tooltip.classList.contains('is-visible')) positionTooltip(button, tooltip);
+    };
+
+    button.addEventListener('pointerenter', () => {
+      activateFocus(canvas, point);
+      showTooltip();
+    });
     button.addEventListener('pointerleave', () => {
-      if (!button.matches(':focus') && !button.getAttribute('aria-pressed').includes('true')) {
+      if (!button.matches(':focus') && button.getAttribute('aria-pressed') !== 'true') {
         delete canvas.dataset.kovFocus;
         button.classList.remove('is-active');
+        hideTooltip();
       }
     });
-    button.addEventListener('focus', () => activateFocus(canvas, point));
+    button.addEventListener('focus', () => {
+      activateFocus(canvas, point);
+      showTooltip();
+    });
     button.addEventListener('blur', () => {
-      if (!button.getAttribute('aria-pressed').includes('true')) {
+      if (button.getAttribute('aria-pressed') !== 'true') {
         delete canvas.dataset.kovFocus;
         button.classList.remove('is-active');
+        hideTooltip();
       }
     });
     button.addEventListener('click', () => {
       const selected = button.getAttribute('aria-pressed') !== 'true';
       if (selected) {
         activateFocus(canvas, point, true);
+        showTooltip();
       } else {
         delete canvas.dataset.kovFocus;
         button.classList.remove('is-active');
         button.setAttribute('aria-pressed', 'false');
+        hideTooltip();
       }
     });
+    window.addEventListener('resize', repositionVisibleTooltip, { passive: true });
+    window.addEventListener('scroll', repositionVisibleTooltip, { passive: true, capture: true });
     canvas.append(button);
   };
 

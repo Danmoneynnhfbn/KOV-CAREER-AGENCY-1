@@ -1047,12 +1047,13 @@ body.kov-family-markets .kov-reactive-canvas .kov-visual-hotspot { border-radius
   transition:transform .2s ease,box-shadow .2s ease,background-color .2s ease;
 }
 .kov-reactive-canvas .kov-visual-hotspot::before { content:""; width:.35rem; height:.35rem; border-radius:50%; background:#fff; }
-.kov-reactive-canvas .kov-visual-hotspot:hover,.kov-reactive-canvas .kov-visual-hotspot:focus-visible,.kov-reactive-canvas .kov-visual-hotspot.is-active { transform:scale(1.18); background:#f28a4f; box-shadow:0 0 0 .5rem rgb(227 111 56 / 25%),0 .2rem .6rem rgb(10 24 31 / 38%); }
+/* Hotspot tooltips use viewport coordinates so edge markers cannot create page overflow. */
+.kov-reactive-canvas .kov-visual-hotspot:hover,.kov-reactive-canvas .kov-visual-hotspot:focus-visible,.kov-reactive-canvas .kov-visual-hotspot.is-active { transform:none; background:#f28a4f; box-shadow:0 0 0 .5rem rgb(227 111 56 / 25%),0 .2rem .6rem rgb(10 24 31 / 38%); }
 .kov-reactive-canvas .kov-visual-hotspot:focus-visible { outline:3px solid #fff; outline-offset:3px; }
-.kov-reactive-canvas .kov-visual-tooltip { position:absolute; left:50%; bottom:calc(100% + .7rem); display:block; width:max-content; max-width:min(15rem,70vw); padding:.7rem .85rem; border:1px solid rgb(255 255 255 / 20%); background:#153640; color:#fff; text-align:left; font:400 .76rem/1.45 var(--kov-sans); box-shadow:0 .45rem 1.3rem rgb(9 28 35 / 25%); opacity:0; visibility:hidden; transform:translate(-50%,.25rem); transition:opacity .15s ease,transform .15s ease,visibility .15s ease; pointer-events:none; }
+.kov-reactive-canvas .kov-visual-tooltip { position:fixed; z-index:10000; top:12px; left:12px; bottom:auto; display:block; box-sizing:border-box; width:max-content; max-width:min(15rem,calc(100vw - 1.5rem)); padding:.7rem .85rem; border:1px solid rgb(255 255 255 / 20%); background:#153640; color:#fff; text-align:left; font:400 .76rem/1.45 var(--kov-sans); box-shadow:0 .45rem 1.3rem rgb(9 28 35 / 25%); opacity:0; visibility:hidden; transform:translateY(.25rem); transition:opacity .15s ease,transform .15s ease,visibility .15s ease; pointer-events:none; }
+.kov-reactive-canvas .kov-visual-tooltip.is-visible { opacity:1; visibility:visible; transform:translateY(0); }
 .kov-reactive-canvas .kov-visual-tooltip strong,.kov-reactive-canvas .kov-visual-tooltip span { display:block; }
 .kov-reactive-canvas .kov-visual-tooltip strong { margin-bottom:.15rem; color:#c5ddbd; font-size:.72rem; letter-spacing:.06em; text-transform:uppercase; }
-.kov-reactive-canvas .kov-visual-hotspot:hover .kov-visual-tooltip,.kov-reactive-canvas .kov-visual-hotspot:focus-visible .kov-visual-tooltip,.kov-reactive-canvas .kov-visual-hotspot[aria-pressed="true"] .kov-visual-tooltip { opacity:1; visibility:visible; transform:translate(-50%,0); }
 body.kov-family-markets main > .kov-section {
   box-sizing:border-box;
   width:min(calc(100% - 2 * var(--kov-gutter)),76rem);

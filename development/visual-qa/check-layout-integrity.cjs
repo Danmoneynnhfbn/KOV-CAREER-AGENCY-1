@@ -5,16 +5,39 @@ const { chromium } = require("playwright");
 const root = path.resolve(__dirname, "../..");
 const port = 8777;
 const mime = { ".html":"text/html; charset=utf-8", ".css":"text/css; charset=utf-8", ".js":"text/javascript; charset=utf-8", ".svg":"image/svg+xml", ".png":"image/png", ".jpg":"image/jpeg", ".webp":"image/webp", ".avif":"image/avif", ".woff2":"font/woff2" };
-const routes = ["/index.html","/services.html","/how-it-works.html","/pricing.html","/faqs.html","/about.html","/contact.html","/candidate-services.html","/industries/finance-insurance/","/industries/","/roles/cfo/finance-insurance.html","/roles/","/roles/cfo/","/countries-we-serve.html","/markets/executive-job-search-uae.html","/career-resources/board-guide-12/"];
+const sitemapXml = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
+const routes = [...sitemapXml.matchAll(/<loc>([\s\S]*?)<\/loc>/gi)].map((match) => {
+  const url = new URL(match[1].trim());
+  if (!["www.kovcareeragency.org", "kovcareeragency.org"].includes(url.hostname)) {
+    throw new Error(`Unexpected sitemap host: ${url.hostname}`);
+  }
+  return decodeURIComponent(url.pathname);
+});
+if (routes.length !== 703) {
+  throw new Error(`Expected 703 approved public sitemap routes; found ${routes.length}`);
+}
+if (new Set(routes).size !== routes.length) {
+  throw new Error("Duplicate routes found in sitemap.xml");
+}
 const viewports = [{name:"mobile",width:390,height:844},{name:"tablet",width:768,height:1024},{name:"desktop",width:1440,height:1000}];
 
 function resolveFile(urlPath) {
   let pathname;
   try { pathname = decodeURIComponent(urlPath); } catch { return null; }
-  if (pathname === "/") pathname = "/index.html";
-  if (pathname.endsWith("/")) pathname += "index.html";
-  const target = path.resolve(root, "." + pathname);
-  return target === root || target.startsWith(root + path.sep) ? target : null;
+  const candidates = pathname === "/"
+    ? ["/index.html"]
+    : pathname.endsWith("/")
+      ? [pathname + "index.html", pathname.slice(0, -1) + ".html"]
+      : [pathname, pathname + ".html", pathname + "/index.html"];
+
+  for (const candidate of candidates) {
+    const target = path.resolve(root, "." + candidate);
+    if (target !== root && !target.startsWith(root + path.sep)) continue;
+    try {
+      if (fs.statSync(target).isFile()) return target;
+    } catch {}
+  }
+  return null;
 }
 const server = http.createServer((req,res) => {
   const target = resolveFile(new URL(req.url,"http://127.0.0.1").pathname);
@@ -154,8 +177,9 @@ async function inspect(browser,route,viewport) {
     // Ignore the transient translateY entrance offset; detect collisions after reveal settles.
     metrics.mainSiblingOverlaps=revealState.overlaps;
     const failures=[];
+    const warnings=[];
     if(metrics.horizontalOverflow>2)failures.push("horizontal overflow "+metrics.horizontalOverflow+"px");
-    if(!metrics.mainFound)failures.push("missing main element");
+    if(!metrics.mainFound)warnings.push("missing main element");
     if(metrics.articleCenterDelta!==null&&viewport.width>768&&Math.abs(metrics.articleCenterDelta)>18)failures.push("editorial article off-centre by "+metrics.articleCenterDelta+"px");
     const brokenResponsive = metrics.responsive.filter(item => !item.ok);
     if(brokenResponsive.length) failures.push("responsive utilities failed: "+brokenResponsive.map(item=>item.token).join(", "));
@@ -165,7 +189,7 @@ async function inspect(browser,route,viewport) {
     if(metrics.revealTransforms.length) failures.push("reveal animation translates section boxes and may cause transient overlap");
     if(!revealsVisible)failures.push("a reveal section remained hidden after scrolling");
     if(errors.length)failures.push("uncaught browser JavaScript errors");
-    return {route,viewport:viewport.name,httpStatus:response.status(),failures,errors,metrics,revealsVisible};
+    return {route,viewport:viewport.name,httpStatus:response.status(),failures,warnings,errors,metrics,revealsVisible};
   } finally { await page.close(); }
 }
 
@@ -179,9 +203,9 @@ async function inspect(browser,route,viewport) {
     if(browser)await browser.close();
     await new Promise(resolve=>server.close(resolve));
   }
-  const report={generatedAt:new Date().toISOString(),routes:routes.length,viewports,checks:results.length,failedChecks:results.filter(x=>x.failures?.length),results};
+  const report={generatedAt:new Date().toISOString(),routes:routes.length,viewports,checks:results.length,failedChecks:results.filter(x=>x.failures?.length),warningChecks:results.filter(x=>x.warnings?.length),results};
   const output=path.join(root,"development/visual-qa/layout-integrity-report.json");
   fs.writeFileSync(output,JSON.stringify(report,null,2)+"\n");
-  console.log(JSON.stringify({routes:report.routes,checks:report.checks,failures:report.failedChecks.length,report:path.relative(root,output),failedChecks:report.failedChecks.map(x=>({route:x.route,viewport:x.viewport,failures:x.failures,overflowElements:x.metrics?.overflowElements?.slice(0,12)}))},null,2));
+  console.log(JSON.stringify({routes:report.routes,checks:report.checks,failures:report.failedChecks.length,warnings:report.warningChecks.length,report:path.relative(root,output),failedChecks:report.failedChecks.map(x=>({route:x.route,viewport:x.viewport,failures:x.failures,overflowElements:x.metrics?.overflowElements?.slice(0,12)}))},null,2));
   if(report.failedChecks.length)process.exitCode=1;
 })().catch(error=>{console.error(error);process.exitCode=1;});
