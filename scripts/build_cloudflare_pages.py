@@ -43,6 +43,7 @@ COMPRESS_AS = {
 }
 
 def main() -> None:
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "validate_sitemap.py")], cwd=str(ROOT), check=True)
     # Build the React homepage/header bundle from source before copying assets.
     npm = shutil.which("npm")
     if not npm:
