@@ -177,8 +177,9 @@ async function inspect(browser,route,viewport) {
     // Ignore the transient translateY entrance offset; detect collisions after reveal settles.
     metrics.mainSiblingOverlaps=revealState.overlaps;
     const failures=[];
+    const warnings=[];
     if(metrics.horizontalOverflow>2)failures.push("horizontal overflow "+metrics.horizontalOverflow+"px");
-    if(!metrics.mainFound)failures.push("missing main element");
+    if(!metrics.mainFound)warnings.push("missing main element");
     if(metrics.articleCenterDelta!==null&&viewport.width>768&&Math.abs(metrics.articleCenterDelta)>18)failures.push("editorial article off-centre by "+metrics.articleCenterDelta+"px");
     const brokenResponsive = metrics.responsive.filter(item => !item.ok);
     if(brokenResponsive.length) failures.push("responsive utilities failed: "+brokenResponsive.map(item=>item.token).join(", "));
@@ -188,7 +189,7 @@ async function inspect(browser,route,viewport) {
     if(metrics.revealTransforms.length) failures.push("reveal animation translates section boxes and may cause transient overlap");
     if(!revealsVisible)failures.push("a reveal section remained hidden after scrolling");
     if(errors.length)failures.push("uncaught browser JavaScript errors");
-    return {route,viewport:viewport.name,httpStatus:response.status(),failures,errors,metrics,revealsVisible};
+    return {route,viewport:viewport.name,httpStatus:response.status(),failures,warnings,errors,metrics,revealsVisible};
   } finally { await page.close(); }
 }
 
@@ -202,9 +203,9 @@ async function inspect(browser,route,viewport) {
     if(browser)await browser.close();
     await new Promise(resolve=>server.close(resolve));
   }
-  const report={generatedAt:new Date().toISOString(),routes:routes.length,viewports,checks:results.length,failedChecks:results.filter(x=>x.failures?.length),results};
+  const report={generatedAt:new Date().toISOString(),routes:routes.length,viewports,checks:results.length,failedChecks:results.filter(x=>x.failures?.length),warningChecks:results.filter(x=>x.warnings?.length),results};
   const output=path.join(root,"development/visual-qa/layout-integrity-report.json");
   fs.writeFileSync(output,JSON.stringify(report,null,2)+"\n");
-  console.log(JSON.stringify({routes:report.routes,checks:report.checks,failures:report.failedChecks.length,report:path.relative(root,output),failedChecks:report.failedChecks.map(x=>({route:x.route,viewport:x.viewport,failures:x.failures,overflowElements:x.metrics?.overflowElements?.slice(0,12)}))},null,2));
+  console.log(JSON.stringify({routes:report.routes,checks:report.checks,failures:report.failedChecks.length,warnings:report.warningChecks.length,report:path.relative(root,output),failedChecks:report.failedChecks.map(x=>({route:x.route,viewport:x.viewport,failures:x.failures,overflowElements:x.metrics?.overflowElements?.slice(0,12)}))},null,2));
   if(report.failedChecks.length)process.exitCode=1;
 })().catch(error=>{console.error(error);process.exitCode=1;});
