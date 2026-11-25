@@ -141,7 +141,8 @@ async function inspect(browser,route,viewport) {
           const style = getComputedStyle(el);
           return el.children.length === 1 && style.display === "grid" && colsCount(style.gridTemplateColumns) > 1;
         }).length;
-      const howItWorksPage = /(?:^|\\/)how-it-works(?:\\.html)?\\/?$/.test(location.pathname);
+      const pagePath = location.pathname.endsWith("/") ? location.pathname.slice(0, -1) : location.pathname;
+      const howItWorksPage = pagePath.endsWith("/how-it-works") || pagePath.endsWith("/how-it-works.html");
       const howItWorks = (() => {
         if (!howItWorksPage) return null;
         const marquee = document.querySelector(".kov-page-how-it-works .kov-marquee");
@@ -235,7 +236,7 @@ async function inspect(browser,route,viewport) {
     if(metrics.horizontalOverflow>2)failures.push("horizontal overflow "+metrics.horizontalOverflow+"px");
     if(!metrics.mainFound)warnings.push("missing main element");
     if(metrics.singleChildMultiColumnGridCount>0)failures.push("single-child two-column grid leaves an empty visual column");
-    if(/(?:^|\\/)how-it-works(?:\\.html)?\\/?$/.test(route)) {
+    if(route.endsWith("/how-it-works") || route.endsWith("/how-it-works.html")) {
       const page=metrics.howItWorks||{};
       if(!page.marqueeTrackAligned)failures.push("How It Works process marquee is not a single horizontal track");
       if(!page.feeImageLoaded)failures.push("How It Works fee section visual is missing or failed to load");
@@ -246,7 +247,7 @@ async function inspect(browser,route,viewport) {
       if(page.visualModuleColumns!==expectedVisualColumns)failures.push("How It Works pathway visual has "+page.visualModuleColumns+" columns; expected "+expectedVisualColumns);
       if(page.feeGridColumns!==expectedFeeColumns)failures.push("How It Works fee layout has "+page.feeGridColumns+" columns; expected "+expectedFeeColumns);
     }
-    if(/(?:^|\\/)pricing(?:\\.html)?\\/?$/.test(route)) {
+    if(route.endsWith("/pricing") || route.endsWith("/pricing.html")) {
       const page=metrics.pricing||{};
       if(!page.feeImageLoaded)failures.push("Pricing fee section visual is missing or failed to load");
       if(!page.feeImageCentered)failures.push("Pricing fee section visual is off-centre");
