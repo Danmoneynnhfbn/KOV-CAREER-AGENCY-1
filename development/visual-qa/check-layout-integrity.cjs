@@ -136,6 +136,38 @@ async function inspect(browser,route,viewport) {
         const ar=rect(a),br=rect(b),ix=Math.min(ar.right,br.right)-Math.max(ar.left,br.left),iy=Math.min(ar.bottom,br.bottom)-Math.max(ar.top,br.top);
         if(ix>20&&iy>2)overlaps.push({first:String(a.className).slice(0,70),second:String(b.className).slice(0,70),verticalIntersection:iy});
       }
+      const howItWorksPage = location.pathname.includes("how-it-works");
+      const howItWorks = (() => {
+        if (!howItWorksPage) return null;
+        const marquee = document.querySelector(".kov-page-how-it-works .kov-marquee");
+        const tracks = marquee ? [...marquee.children] : [];
+        const trackTops = tracks.map(el => el.getBoundingClientRect().top);
+        const marqueeRect = marquee?.getBoundingClientRect();
+        const marqueeStyle = marquee ? getComputedStyle(marquee) : null;
+        const feeFigure = document.querySelector(".kov-fee-visual");
+        const feeImage = feeFigure?.querySelector("img");
+        const imageRect = feeImage?.getBoundingClientRect();
+        const figureRect = feeFigure?.getBoundingClientRect();
+        const visualModule = document.querySelector(".kov-visual-module");
+        const feeGrid = document.querySelector(".kov-fee-grid");
+        const intro = document.querySelector(".kov-process-intro-section > .mx-auto");
+        return {
+          marqueeTrackCount: tracks.length,
+          marqueeTrackAligned: Boolean(
+            marquee &&
+            tracks.length === 2 &&
+            marqueeStyle?.animationName === "kov-how-it-works-marquee" &&
+            marqueeRect?.height > 0 &&
+            marqueeRect.height <= 100 &&
+            trackTops.every(top => Math.abs(top - trackTops[0]) < 3)
+          ),
+          feeImageLoaded: Boolean(feeImage && feeImage.complete && feeImage.naturalWidth > 0 && imageRect?.width > 50 && imageRect?.height > 50),
+          feeImageCentered: Boolean(imageRect && figureRect && Math.abs((imageRect.left + imageRect.right) / 2 - (figureRect.left + figureRect.right) / 2) < 16),
+          introCentered: Boolean(intro && getComputedStyle(intro).textAlign === "center"),
+          visualModuleColumns: visualModule ? colsCount(getComputedStyle(visualModule).gridTemplateColumns) : 0,
+          feeGridColumns: feeGrid ? colsCount(getComputedStyle(feeGrid).gridTemplateColumns) : 0
+        };
+      })();
       return {
         viewport:innerWidth,
         documentWidth:width,
@@ -146,6 +178,7 @@ async function inspect(browser,route,viewport) {
         articleCenterDelta,
         responsive,
         mainSiblingOverlaps:overlaps,
+        howItWorks,
         revealCount:document.querySelectorAll(".kov-reveal").length,
         revealTransforms:[...document.querySelectorAll(".kov-reveal")].map(el=>getComputedStyle(el).transform).filter(value=>value!=="none"),
         motionReady:document.documentElement.classList.contains("kov-motion-ready")
@@ -180,6 +213,17 @@ async function inspect(browser,route,viewport) {
     const warnings=[];
     if(metrics.horizontalOverflow>2)failures.push("horizontal overflow "+metrics.horizontalOverflow+"px");
     if(!metrics.mainFound)warnings.push("missing main element");
+    if(route.includes("how-it-works")) {
+      const page=metrics.howItWorks||{};
+      if(!page.marqueeTrackAligned)failures.push("How It Works process marquee is not a single horizontal track");
+      if(!page.feeImageLoaded)failures.push("How It Works fee section visual is missing or failed to load");
+      if(!page.feeImageCentered)failures.push("How It Works fee section visual is off-centre");
+      if(!page.introCentered)failures.push("How It Works process introduction is not centred");
+      const expectedVisualColumns=viewport.width<=768?1:2;
+      const expectedFeeColumns=viewport.width<=768?1:2;
+      if(page.visualModuleColumns!==expectedVisualColumns)failures.push("How It Works pathway visual has "+page.visualModuleColumns+" columns; expected "+expectedVisualColumns);
+      if(page.feeGridColumns!==expectedFeeColumns)failures.push("How It Works fee layout has "+page.feeGridColumns+" columns; expected "+expectedFeeColumns);
+    }
     if(metrics.articleCenterDelta!==null&&viewport.width>768&&Math.abs(metrics.articleCenterDelta)>18)failures.push("editorial article off-centre by "+metrics.articleCenterDelta+"px");
     const brokenResponsive = metrics.responsive.filter(item => !item.ok);
     if(brokenResponsive.length) failures.push("responsive utilities failed: "+brokenResponsive.map(item=>item.token).join(", "));
