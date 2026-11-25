@@ -21,6 +21,8 @@ def page_path(url: str) -> str:
         return trimmed + "index.html"
     if trimmed.endswith(".html"):
         return trimmed
+    if (ROOT / trimmed / "index.html").is_file():
+        return trimmed.rstrip("/") + "/index.html"
     if (ROOT / (trimmed + ".html")).is_file():
         return trimmed + ".html"
     return trimmed.rstrip("/") + "/index.html"
