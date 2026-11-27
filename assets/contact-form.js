@@ -57,6 +57,7 @@
     select.add(new Option("Career Coaching", "coaching"));
     select.add(new Option("Private Career Representation", "representation"));
     select.add(new Option("I am not sure yet", "unsure"));
+    select.add(new Option("Fees and engagement scope", "pricing"));
     serviceField.append(label, select);
     audienceField.after(serviceField);
 
@@ -101,6 +102,7 @@
     ["coaching", "Career Coaching"],
     ["representation", "Private Career Representation"],
     ["unsure", "Not sure yet"],
+    ["pricing", "Fees and engagement scope"],
   ]);
   form.addEventListener("submit", (event) => {
     event.preventDefault();
