@@ -106,11 +106,11 @@ def main() -> None:
             raise SystemExit(f"noindex remains in {rel}")
 
         # These pages have been approved for public publication. Remove legacy staging labels from both metadata and visible copy.
-        updated = re.sub(r"(?i)\\bA noindex staging reference\\b", "A public occupation reference", updated)
-        updated = re.sub(r"(?i)\\bUnpublished noindex staging content\\b", "Published public content", updated)
-        updated = re.sub(r"(?i)\\bUnpublished\\b", "Published", updated)
-        updated = re.sub(r"(?i)\\bnoindex\\b", "indexable", updated)
-        updated = re.sub(r"(?i)\\bstaging\\b", "public", updated)
+        updated = re.sub(r"(?i)\bA noindex staging reference\b", "A public occupation reference", updated)
+        updated = re.sub(r"(?i)\bUnpublished noindex staging content\b", "Published public content", updated)
+        updated = re.sub(r"(?i)\bUnpublished\b", "Published", updated)
+        updated = re.sub(r"(?i)\bnoindex\b", "indexable", updated)
+        updated = re.sub(r"(?i)\bstaging\b", "public", updated)
         updated = updated.replace("KOV Staging Preview", "KOV Career Agency")
         updated = updated.replace("Staging Preview", "KOV Career Agency")
         updated = updated.replace("KOV Website Expansion | KOV Career Agency", "KOV Career Resources | KOV Career Agency")
