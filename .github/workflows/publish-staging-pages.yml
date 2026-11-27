@@ -35,7 +35,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add staging development/PAGE-COVERAGE.csv sitemap.xml llms.txt llms-full.txt scripts/build_cloudflare_pages.py scripts/staging-public-pages.txt
+          git add development/PAGE-COVERAGE.csv sitemap.xml llms.txt llms-full.txt scripts/build_cloudflare_pages.py scripts/staging-public-pages.txt
           if git diff --cached --quiet; then
             echo "No publication changes were required."
           else
