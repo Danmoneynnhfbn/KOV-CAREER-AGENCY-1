@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated from development/PAGE-COVERAGE.csv: 703 canonical, published, indexable pages. The 728 unpublished/noindex directory previews, 20 other excluded/private/utility records, and 2 non-canonical duplicate URLs remain documented in the coverage inventory and are excluded from the production sitemap. -->
+<!-- Generated from development/PAGE-COVERAGE.csv: 1,424 canonical, published, indexable URLs, including 721 published navigator and career-resource pages. Seven private or non-indexable directory utility pages remain excluded. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.kovcareeragency.org/</loc>
