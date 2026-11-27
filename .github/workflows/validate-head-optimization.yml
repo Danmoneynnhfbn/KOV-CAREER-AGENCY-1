@@ -108,6 +108,17 @@ jobs:
           noindex_pages = 0
           catalogue_root_id = "https://www.kovcareeragency.org/data/kov-dataset-catalog.jsonld"
           legacy_catalogue_root = "https://www.kovcareeragency.org/#metadata-catalog"
+          def count_catalogue_refs(value):
+              if isinstance(value, list):
+                  return sum(count_catalogue_refs(item) for item in value)
+              if not isinstance(value, dict):
+                  return 0
+              return (1 if value.get("@id") == catalogue_root_id else 0) + sum(
+                  count_catalogue_refs(item)
+                  for key, item in value.items()
+                  if key != "@id"
+              )
+
 
           def normalize_expected_cache_versions(value):
               value = re.sub(r"(/assets/kov-site-header\.bundle\.js)\?v=\d+", r"\1?v=8", value)
@@ -173,57 +184,47 @@ jobs:
                   ids = [node.get("@id") for node in graph if node.get("@id")]
                   if len(ids) != len(set(ids)):
                       failures.append(f"{relative}: duplicate JSON-LD @id values")
-                  def count_catalogue_refs(value):
-                  if isinstance(value, list):
-                      return sum(count_catalogue_refs(item) for item in value)
-                  if not isinstance(value, dict):
-                      return 0
-                  return (1 if value.get("@id") == catalogue_root_id else 0) + sum(
-                      count_catalogue_refs(item)
-                      for key, item in value.items()
-                      if key != "@id"
-                  )
 
-              if isinstance(graph, list):
                   if relative in active_paths:
-                      if count_catalogue_refs(graph) != 1:
-                          failures.append(f"{relative}: expected exactly one @id reference to the central dataset catalogue")
-                      page_nodes = [
-                          node for node in graph
-                          if node.get("@type") == "WebPage"
-                          or (isinstance(node.get("@type"), list) and "WebPage" in node.get("@type"))
-                      ]
-                      canonical_match = re.search(r"""<link\b(?=[^>]*\brel\s*=\s*(["'])canonical\1)[^>]*\bhref\s*=\s*(["'])(.*?)\2""", before_head.group(2), re.I)
-                      canonical_url = canonical_match.group(3) if canonical_match else None
-                      page_node = next(
-                          (node for node in page_nodes if canonical_url and (
-                              node.get("url") == canonical_url or node.get("@id") == canonical_url + "#webpage"
-                          )),
-                          page_nodes[0] if page_nodes else None,
-                      )
-                      if not page_node:
-                          failures.append(f"{relative}: active public page has no WebPage node")
-                      else:
-                          about = page_node.get("about", [])
-                          if isinstance(about, dict):
-                              about = [about]
-                          if sum(1 for item in about if isinstance(item, dict) and item.get("@id") == catalogue_root_id) != 1:
-                              failures.append(f"{relative}: WebPage.about must contain the central catalogue reference exactly once")
-                          if canonical_url and page_node.get("url") != canonical_url:
-                              failures.append(f"{relative}: WebPage URL does not match its canonical URL")
-                      if any(node.get("@type") == "Dataset" for node in graph):
-                          failures.append(f"{relative}: dataset records are still duplicated inline instead of using the central catalogue reference")
-                      if any(
-                          str(node.get("@id", "")).startswith(legacy_catalogue_root)
-                          or str(node.get("@id", "")).startswith("urn:kov:career-agency:metadata#")
-                          for node in graph
-                      ):
-                          failures.append(f"{relative}: legacy inline taxonomy catalogue nodes remain")
-                      if any(node.get("numberOfItems") is not None or "recordCount" in json.dumps(node) for node in graph):
-                          failures.append(f"{relative}: numeric dataset totals remain duplicated in page JSON-LD")
-                  elif count_catalogue_refs(graph) != 0:
-                      failures.append(f"{relative}: noindex or inactive page unexpectedly references the central catalogue")
-
+                      if relative in active_paths:
+                          if count_catalogue_refs(graph) != 1:
+                              failures.append(f"{relative}: expected exactly one @id reference to the central dataset catalogue")
+                          page_nodes = [
+                              node for node in graph
+                              if node.get("@type") == "WebPage"
+                              or (isinstance(node.get("@type"), list) and "WebPage" in node.get("@type"))
+                          ]
+                          canonical_match = re.search(r"""<link\b(?=[^>]*\brel\s*=\s*(["'])canonical\1)[^>]*\bhref\s*=\s*(["'])(.*?)\2""", before_head.group(2), re.I)
+                          canonical_url = canonical_match.group(3) if canonical_match else None
+                          page_node = next(
+                              (node for node in page_nodes if canonical_url and (
+                                  node.get("url") == canonical_url or node.get("@id") == canonical_url + "#webpage"
+                              )),
+                              page_nodes[0] if page_nodes else None,
+                          )
+                          if not page_node:
+                              failures.append(f"{relative}: active public page has no WebPage node")
+                          else:
+                              about = page_node.get("about", [])
+                              if isinstance(about, dict):
+                                  about = [about]
+                              if sum(1 for item in about if isinstance(item, dict) and item.get("@id") == catalogue_root_id) != 1:
+                                  failures.append(f"{relative}: WebPage.about must contain the central catalogue reference exactly once")
+                              if canonical_url and page_node.get("url") != canonical_url:
+                                  failures.append(f"{relative}: WebPage URL does not match its canonical URL")
+                          if any(node.get("@type") == "Dataset" for node in graph):
+                              failures.append(f"{relative}: dataset records are still duplicated inline instead of using the central catalogue reference")
+                          if any(
+                              str(node.get("@id", "")).startswith(legacy_catalogue_root)
+                              or str(node.get("@id", "")).startswith("urn:kov:career-agency:metadata#")
+                              for node in graph
+                          ):
+                              failures.append(f"{relative}: legacy inline taxonomy catalogue nodes remain")
+                          if any(node.get("numberOfItems") is not None or "recordCount" in json.dumps(node) for node in graph):
+                              failures.append(f"{relative}: numeric dataset totals remain duplicated in page JSON-LD")
+                      elif count_catalogue_refs(graph) != 0:
+                          failures.append(f"{relative}: noindex or inactive page unexpectedly references the central catalogue")
+    
               if re.search(
                   r"""<meta\b(?=[^>]*\bname\s*=\s*["']robots["'])(?=[^>]*\bcontent\s*=\s*["'][^"']*\bnoindex\b)[^>]*>""",
                   before_head.group(2),
