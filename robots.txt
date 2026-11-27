@@ -9,6 +9,8 @@
 # Content use is explicitly permitted for search, live AI input/grounding, and AI training.
 # Published crawler tokens are listed for clarity; User-agent: * also allows compliant new and unnamed crawlers.
 # Public CSS and JavaScript remain crawlable so search engines and answer engines can render pages.
+# AI crawler registry sourced from Cloudflare Radar AI/search bot categories plus official provider crawler documentation.
+# User-agent entries identify published request tokens; model names without a public crawler token are not guessed.
 # Optional AI-readable discovery documents (supplementary links, not crawler directives):
 # https://www.kovcareeragency.org/llms.txt
 # https://www.kovcareeragency.org/llms-full.txt
@@ -424,5 +426,83 @@ Content-Signal: search=yes, ai-input=yes, ai-train=yes
 
 # Forward-compatible shared AI training preference token; currently inert for crawlers that do not implement it.
 
+User-agent: AllAfrica
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 
+User-agent: alphalens-bot
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+User-agent: amazon-kendra-
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+User-agent: Anomura
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+User-agent: applyanyway
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+User-agent: ArcheryTrailBot
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+User-agent: atlassian-bot
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+User-agent: Awario
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+User-agent: bigsur.ai
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+User-agent: BorderxBot
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+User-agent: CitibotSiteCrawler
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+User-agent: Cloudflare-AI-Search
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+User-agent: CloudflareBrowserRenderingCrawler
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+User-agent: Cotoyogi
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+User-agent: Element451Bot
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+User-agent: KernelSearchBot
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+User-agent: MistralAI-Index
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+User-agent: MojeekBot
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+User-agent: Qwantbot
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+User-agent: ShapBot
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Sitemap: https://www.kovcareeragency.org/sitemap.xml
