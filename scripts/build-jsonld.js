@@ -5,7 +5,9 @@ const zlib = require('node:zlib');
 
 const ROOT = path.resolve(__dirname, '..');
 const SITE = 'https://www.kovcareeragency.org';
-const CATALOG = `${SITE}/#metadata-catalog`;
+const CENTRAL_CATALOGUE_URL = SITE + '/data/kov-dataset-catalog.jsonld';
+const CATALOG = CENTRAL_CATALOGUE_URL;
+const LEGACY_CATALOG = SITE + '/#metadata-catalog';
 const MARKER = 'data-kov="discovery"';
 const NAMES = [
   'professional-audience', 'job-title', 'occupation', 'industry', 'skill',
@@ -61,6 +63,51 @@ const CATEGORY_SOURCE = {
 };
 const TARGET = Object.fromEntries(Object.entries(CATEGORY).map(([key, value]) => [key, value[2]]));
 const CATEGORY_NAME = Object.fromEntries(Object.entries(CATEGORY).map(([key, value]) => [key, value[1]]));
+const CATALOGUE_GROUPS = [
+  {
+    id: 'professional-employment',
+    name: 'Professional & Employment',
+    description: 'Reference collections covering professional audiences, occupations, industries, skills, qualifications, job functions and career development.',
+    categories: [
+      'professional-audience', 'job-title', 'occupation', 'industry', 'skill',
+      'qualification', 'professional-term', 'job-function', 'seniority-level',
+      'employment-type', 'career-challenge', 'career-search-intent',
+    ],
+  },
+  {
+    id: 'career-knowledge-resources',
+    name: 'Career Knowledge & Resources',
+    description: 'Practical career information, frequently asked questions and language references for readers exploring professional topics.',
+    categories: ['faq', 'language'],
+  },
+  {
+    id: 'global-organisational-references',
+    name: 'Global & Organisational References',
+    description: 'Geographic and organisation reference collections covering countries, cities, towns, localities and institutions.',
+    categories: ['country', 'city', 'town-locality', 'institution'],
+  },
+];
+const PUBLIC_DATASET_DESCRIPTIONS = {
+  'professional-audience': 'A reference directory of professional audiences and role-oriented profiles to support career information and professional positioning.',
+  'job-title': 'A broad reference list of professional job titles to help users explore role names and recognise common title variations across career paths.',
+  occupation: 'An occupational reference collection that groups job titles into recognised areas of work and helps users compare related career paths.',
+  industry: 'Industry classification entries that help identify sectors and economic activities relevant to professional roles and career research.',
+  skill: 'Professional skill concepts and related labels that describe capabilities used across occupations, industries and leadership roles.',
+  qualification: 'Qualification reference entries that help users understand recognised qualifications, their identifiers and subject or level information.',
+  'professional-term': 'Professional terminology and alternative labels that connect related skills and occupational concepts across languages.',
+  'job-function': 'A directory of professional job functions and responsibilities that helps distinguish role purpose from job-title wording.',
+  'seniority-level': 'Career seniority descriptions that help users compare levels of responsibility, scope and leadership experience.',
+  'employment-type': 'Employment arrangement references that describe common work relationships and contract types across job markets.',
+  'career-challenge': 'A collection of common career challenges and professional decision topics to support practical career guidance.',
+  'career-search-intent': 'Career-search phrases and topics that describe the information people look for when exploring roles, transitions and professional opportunities.',
+  faq: 'Questions and answers addressing common topics about career representation, professional positioning and job-search support.',
+  language: 'Language reference entries that identify languages used in the site’s global information and resources.',
+  country: 'Country reference entries used to organise global career information and geographic resources.',
+  city: 'A reference of cities and populated places that supports geographic naming and location-oriented career resources.',
+  'town-locality': 'Town and locality references that help distinguish smaller populated places in geographic information.',
+  institution: 'Institution and organisation references that help users identify named entities relevant to career, education and employment information.',
+};
+
 const FAQ_SOURCE = require('../assets/faq-directory.js').faqDirectory;
 const FAQ_BY_QUESTION = new Map(FAQ_SOURCE.map((item) => [norm(item.question), item]));
 const ROLE_SOURCE = require('../assets/role-taxonomy.js').kovRoleTaxonomy;
@@ -186,11 +233,30 @@ function fullCatalogueRecords(category) {
   throw new Error('No complete catalogue source configured for ' + category);
 }
 
+
 function writeCatalogueAssets(outputRoot, expectedCounts) {
   const directory = path.join(outputRoot, 'data/catalogues');
+  const dataDirectory = path.join(outputRoot, 'data');
   fs.mkdirSync(directory, { recursive: true });
+  fs.mkdirSync(dataDirectory, { recursive: true });
   let compressedBytes = 0;
   const packages = [];
+  const recordsByCategory = new Map();
+  const datasetNodes = [];
+  const groupForCategory = new Map();
+
+  const groupedCategories = CATALOGUE_GROUPS.flatMap((group) => group.categories);
+  if (
+    groupedCategories.length !== ALL_CATEGORIES.length ||
+    new Set(groupedCategories).size !== ALL_CATEGORIES.length ||
+    ALL_CATEGORIES.some((category) => !groupedCategories.includes(category))
+  ) {
+    throw new Error('The three parent groups must contain each of the 18 datasets exactly once.');
+  }
+  for (const group of CATALOGUE_GROUPS) {
+    for (const category of group.categories) groupForCategory.set(category, group);
+  }
+
   for (const category of ALL_CATEGORIES) {
     const records = fullCatalogueRecords(category);
     if (!Array.isArray(records) || records.length !== expectedCounts[category]) {
@@ -199,6 +265,7 @@ function writeCatalogueAssets(outputRoot, expectedCounts) {
         + ', found ' + (Array.isArray(records) ? records.length : 'non-array')
       );
     }
+    recordsByCategory.set(category, records);
     const slug = CATEGORY[category][0];
     const payload = {
       '@context': 'https://schema.org',
@@ -218,8 +285,130 @@ function writeCatalogueAssets(outputRoot, expectedCounts) {
     fs.writeFileSync(path.join(directory, slug + '.json.gz'), compressed);
     compressedBytes += compressed.length;
     packages.push({ category, slug, records: records.length, compressedBytes: compressed.length });
+
+    const parent = groupForCategory.get(category);
+    const datasetId = CENTRAL_CATALOGUE_URL + '#dataset-' + slug;
+    const dataset = {
+      '@type': 'Dataset',
+      '@id': datasetId,
+      sameAs: LEGACY_CATALOG + '/dataset-' + slug,
+      name: CATEGORY_NAME[category],
+      description: PUBLIC_DATASET_DESCRIPTIONS[category],
+      numberOfItems: records.length,
+      includedInDataCatalog: { '@id': CATALOG },
+      isPartOf: { '@id': CENTRAL_CATALOGUE_URL + '#group-' + parent.id },
+      citation: sourceCitation(category),
+      distribution: {
+        '@type': 'DataDownload',
+        contentUrl: CENTRAL_CATALOGUE_URL,
+        encodingFormat: 'application/ld+json',
+        name: 'Central KOV Career Agency dataset catalogue',
+      },
+      records,
+    };
+    if (category === 'qualification') {
+      dataset.creator = { '@type': 'Organization', name: 'Office of Qualifications and Examinations Regulation (Ofqual)' };
+      if (QUALIFICATION_SOURCE.source.license) dataset.license = QUALIFICATION_SOURCE.source.license;
+    }
+    if (category === 'industry') dataset.creator = { '@type': 'Organization', name: 'U.S. Census Bureau' };
+    // Mixed-source catalogues retain their source citations and original
+    // per-record provenance. Do not assign one licence or creator to a
+    // collection when its source records use different terms or providers.
+    datasetNodes.push(dataset);
   }
-  return { packages, compressedBytes };
+
+  const groupNodes = CATALOGUE_GROUPS.map((group) => ({
+    '@type': 'DataCatalog',
+    '@id': CENTRAL_CATALOGUE_URL + '#group-' + group.id,
+    name: group.name,
+    description: group.description,
+    isPartOf: { '@id': CATALOG },
+    hasPart: group.categories.map((category) => ({
+      '@id': CENTRAL_CATALOGUE_URL + '#dataset-' + CATEGORY[category][0],
+    })),
+  }));
+  const catalogNode = {
+    '@type': 'DataCatalog',
+    '@id': CATALOG,
+    sameAs: LEGACY_CATALOG,
+    name: 'KOV Career Agency Dataset Catalogue',
+    description: 'A structured collection of professional, career knowledge and global reference datasets published by KOV Career Agency.',
+    url: CENTRAL_CATALOGUE_URL,
+    hasPart: CATALOGUE_GROUPS.map((group) => ({
+      '@id': CENTRAL_CATALOGUE_URL + '#group-' + group.id,
+    })),
+  };
+  const centralDocument = {
+    '@context': {
+      '@vocab': 'https://schema.org/',
+      'kov': 'https://www.kovcareeragency.org/vocabulary#',
+      'records': { '@id': 'kov:records', '@type': '@json' },
+    },
+    '@graph': [catalogNode, ...groupNodes, ...datasetNodes],
+  };
+  const centralJson = Buffer.from(JSON.stringify(centralDocument), 'utf8');
+  const centralCompressed = zlib.gzipSync(centralJson, { level: 9, mtime: 0 });
+  const maxBytes = 25 * 1024 * 1024;
+  if (centralCompressed.length > maxBytes) {
+    throw new Error(
+      'Central 18-dataset catalogue exceeds Cloudflare Pages 25 MiB compressed-file limit: '
+      + centralCompressed.length + ' bytes.'
+    );
+  }
+  const centralPath = path.join(dataDirectory, 'kov-dataset-catalog.jsonld.gz');
+  fs.writeFileSync(centralPath, centralCompressed);
+
+  // Re-open the compressed output and verify every record array and public description.
+  const decoded = zlib.gunzipSync(fs.readFileSync(centralPath));
+  const parsed = JSON.parse(decoded.toString('utf8'));
+  const graph = parsed['@graph'];
+  const ids = graph.map((node) => node['@id']).filter(Boolean);
+  if (new Set(ids).size !== ids.length) throw new Error('Central catalogue contains duplicate @id values.');
+  const root = graph.find((node) => node['@id'] === CATALOG && node['@type'] === 'DataCatalog');
+  const groups = graph.filter((node) => node['@type'] === 'DataCatalog' && node['@id'] !== CATALOG);
+  const datasets = graph.filter((node) => node['@type'] === 'Dataset');
+  if (!root || groups.length !== 3 || datasets.length !== ALL_CATEGORIES.length) {
+    throw new Error('Central catalogue must contain one root, three parent groups and all 18 datasets.');
+  }
+  const auditText = /\b(?:record rows|row-count|approved target|target gap|target is not met|validation log|validator|audit note|retained local source snapshot|verified record-level sources present)\b/i;
+  for (const group of groups) {
+    const groupDefinition = CATALOGUE_GROUPS.find((item) => group['@id'].endsWith('#group-' + item.id));
+    if (!groupDefinition || !Array.isArray(group.hasPart) || group.hasPart.length !== groupDefinition.categories.length) {
+      throw new Error('Central catalogue parent group membership is incomplete: ' + group.name);
+    }
+    if (typeof group.description !== 'string' || group.description.length < 50 || auditText.test(group.description)) {
+      throw new Error('Central catalogue contains a non-user-facing parent description: ' + group.name);
+    }
+  }
+  for (const category of ALL_CATEGORIES) {
+    const slug = CATEGORY[category][0];
+    const datasetId = CENTRAL_CATALOGUE_URL + '#dataset-' + slug;
+    const dataset = datasets.find((node) => node['@id'] === datasetId);
+    const records = dataset?.records;
+    const description = dataset?.description || '';
+    if (!dataset || !Array.isArray(records) || records.length !== expectedCounts[category]) {
+      throw new Error('Central catalogue record preservation check failed for ' + category + '.');
+    }
+    if (dataset.numberOfItems !== records.length || JSON.stringify(records) !== JSON.stringify(recordsByCategory.get(category))) {
+      throw new Error('Central catalogue changed records or actual item count for ' + category + '.');
+    }
+    if (description.length < 50 || description.length > 5000 || auditText.test(description)) {
+      throw new Error('Central catalogue contains an invalid public description for ' + category + '.');
+    }
+    if (dataset.distribution?.contentUrl !== CENTRAL_CATALOGUE_URL) {
+      throw new Error('Central catalogue dataset distribution is not linked to the shared file: ' + category);
+    }
+  }
+
+  return {
+    packages,
+    compressedBytes,
+    centralCatalogueBytes: centralJson.length,
+    centralCatalogueCompressedBytes: centralCompressed.length,
+    parentCategoryCount: groups.length,
+    datasetCount: datasets.length,
+    datasetRecordCounts: Object.fromEntries(ALL_CATEGORIES.map((category) => [category, expectedCounts[category]])),
+  };
 }
 
 function norm(value) { return String(value ?? '').normalize('NFKC').trim().replace(/\s+/g, ' ').toLocaleLowerCase('en'); }
@@ -371,198 +560,100 @@ function descriptions(globalRecords) {
   counts.faq = Math.min(counts.faq, uniqueByValue(globalRecords.faq.filter((r) => r.name === 'faq-question')).length);
   return counts;
 }
+
 function buildGraph(existing, records, isHome, counts, file, canonical, pageTitle, eligible) {
-  const prefix = 'urn:kov:career-agency:metadata#';
-  const termSetSuffixes = ALL_CATEGORIES.flatMap((category) => [`/set-${CATEGORY[category][0]}`, `#set-${CATEGORY[category][0]}`]);
-  const isCatalogRecord = (node) => termSetSuffixes.some((suffix) => (node.inDefinedTermSet?.['@id'] || '').endsWith(suffix))
+  const legacyPrefix = LEGACY_CATALOG;
+  const urnPrefix = 'urn:kov:career-agency:metadata#';
+  const termSetSuffixes = ALL_CATEGORIES.flatMap((category) => [
+    '/set-' + CATEGORY[category][0],
+    '#set-' + CATEGORY[category][0],
+  ]);
+  const isCatalogRecord = (node) =>
+    termSetSuffixes.some((suffix) => (node.inDefinedTermSet?.['@id'] || '').endsWith(suffix))
     || termSetSuffixes.some((suffix) => (node.isPartOf?.['@id'] || '').endsWith(suffix))
     || (node['@type'] === 'Question' && /(?:\/|#)dataset-faqs$/.test(node.isPartOf?.['@id'] || ''));
   const taxonomyIds = new Set(existing.filter(isCatalogRecord).map((node) => node['@id']).filter(Boolean));
-  const graph = existing.filter((node) => !String(node['@id'] || '').startsWith(prefix) && !String(node['@id'] || '').startsWith(CATALOG) && !isCatalogRecord(node));
-  // Remove legacy references to unverified target-shaped taxonomy nodes while retaining every unrelated node.
+  const isLegacyCatalogueId = (id) =>
+    typeof id === 'string' && (
+      id === legacyPrefix || id.startsWith(legacyPrefix + '/') || id.startsWith(legacyPrefix + '#')
+    );
+  const isManagedId = (id) =>
+    typeof id === 'string' && (
+      id.startsWith(urnPrefix) || isLegacyCatalogueId(id) || id === CATALOG
+      || id.startsWith(CATALOG + '#')
+    );
+  const graph = existing.filter((node) => {
+    const id = String(node['@id'] || '');
+    return !isManagedId(id) && !isCatalogRecord(node);
+  });
+
+  function stripManagedReferences(value) {
+    if (Array.isArray(value)) {
+      return value.map(stripManagedReferences).filter((item) => item !== null);
+    }
+    if (value && typeof value === 'object') {
+      const id = value['@id'];
+      if (isManagedId(id) || taxonomyIds.has(id)) return null;
+      const cleaned = {};
+      for (const [key, item] of Object.entries(value)) {
+        const next = stripManagedReferences(item);
+        if (next !== null) cleaned[key] = next;
+      }
+      return cleaned;
+    }
+    return value;
+  }
   for (const node of graph) {
-    for (const key of ['mentions', 'hasPart', 'dataset', 'about', 'mainEntity', 'subjectOf']) {
-      if (Array.isArray(node[key])) node[key] = node[key].filter((ref) => !String(ref?.['@id'] || '').startsWith(prefix) && !String(ref?.['@id'] || '').startsWith(CATALOG) && !taxonomyIds.has(ref?.['@id']));
-      else if (String(node[key]?.['@id'] || '').startsWith(prefix) || String(node[key]?.['@id'] || '').startsWith(CATALOG) || taxonomyIds.has(node[key]?.['@id'])) delete node[key];
+    for (const key of Object.keys(node)) {
+      if (key === '@id') continue;
+      const cleaned = stripManagedReferences(node[key]);
+      if (cleaned === null) delete node[key];
+      else node[key] = cleaned;
     }
   }
-  const catalogId = isHome || eligible ? CATALOG : `${CATALOG}/page-${digest(file)}`;
-  const local = [];
-  const datasets = [];
-  const termSets = [];
-  for (const category of ALL_CATEGORIES) {
-    const fromSource = isHome ? homepageSourceRecords(category) : null;
-    const mappedSourceRecords = !isHome && SIX_TAXONOMY.categories[category]
-      ? SIX_TAXONOMY.categories[category].filter((record) => record.pagePaths.includes(file)).map((record) => ({
-        name: category, value: record.name,
-        source: Object.assign({}, record, {
-          '@id': CATALOG + '/' + CATEGORY[category][0] + '-' + digest(record.id),
-        }),
-      }))
-      : [];
-    const present = category === 'faq' && fromSource
-      ? fromSource
-      : fromSource || uniqueByValue([...(records[category] || []), ...mappedSourceRecords]);
-    const globalCount = counts[category];
-    const title = CATEGORY_NAME[category];
-    const id = `${catalogId}/dataset-${CATEGORY[category][0]}`;
-    const includeGlobal = isHome || eligible;
-    const includePage = !includeGlobal && present.length > 0;
-    if (!includeGlobal && !includePage) continue;
-    let detail;
-    if (includeGlobal) {
-      detail = `Record rows in the retained local source snapshot: ${globalCount}. Approved target: ${TARGET[category]}.`;
-      if (!globalCount && TARGET[category]) detail += ` Verified record-level sources present: 0; the target is not met.`;
-      if (category === 'occupation') detail += ' Record-level source lineage is not attached; these are retained local taxonomy entries.';
-      if (category === 'industry') detail += ' U.S. NAICS 2022 classification records; not a global industry register.';
-      if (category === 'qualification') detail += ` Ofqual Register records with status “Available to learners” in England and Northern Ireland; ${QUALIFICATION_SOURCE.source.rawRows} source rows were screened, with one record per unique qualification number. ${QUALIFICATION_SOURCE.source.duplicateTitlesWithDistinctIdentifiers} title duplicates have distinct official qualification numbers. Retrieved ${QUALIFICATION_SOURCE.source.retrievedOn}; this is not a global qualifications register.`;
-      if (category === 'skill') detail += ' 560 ESCO concepts plus 23 O*NET skill labels; the O*NET set contains 24 role relations.';
-      if (category === 'professional-term') detail += ' ESCO alternative labels retaining their language codes.';
-      if (category === 'job-title') detail += ' The count is validated against the supplied local file; individual title provenance is not attached, and older project source notes document conflicting smaller counts.';
-      if (category === 'professional-term') detail += ' ESCO alternative labels retaining their language codes; the local validator confirms 50,000 unique language/term records.';
-      if (category === 'city') detail += ' 50,249 SimpleMaps Basic World Cities 2026 records plus one deduplicated GeoNames record. The row count is validated; some city-to-administrative-area relationships remain unresolved.';
-      if (category === 'town-locality') detail += ' GeoNames populated-place candidates; no universal legal town classification is asserted.';
-      if (category === 'institution') detail += ' Selected English-language Wikidata organization/institution search results, not an exhaustive worldwide register; verify current details at each Wikidata entity.';
-      if (category === 'faq') detail += ' Existing site FAQ entries with source page paths retained in the FAQ directory.';
-      if (category === 'occupation') detail += ' The local row count and uniqueness are validated; the source snapshot has no attached record-level provenance.';
-      if (SIX_CATEGORIES.has(category)) {
-        const assessmentKey = ({
-          'professional-audience': 'audiences', 'job-function': 'jobFunctions',
-          'seniority-level': 'seniorityLevels', 'employment-type': 'employmentTypes',
-          'career-challenge': 'careerChallenges', 'career-search-intent': 'careerSearchIntents',
-        })[category];
-        detail += ' ' + SIX_TAXONOMY.sourceAssessment[assessmentKey];
-        if (globalCount < TARGET[category]) detail += ' Verified target gap: ' + (TARGET[category] - globalCount) + ' record(s).';
-        if (globalCount > TARGET[category]) detail += ' The verified local set exceeds the requested target by ' + (globalCount - TARGET[category]) + ' source-backed record(s); no records were discarded to force the target.';
-        detail += ' Per-record identifiers, source paths, citations, classification type and page mappings are retained in the published taxonomy distribution.';
-      }
-    } else {
-      detail = `${present.length} page-associated ${title.toLocaleLowerCase('en')} record${present.length === 1 ? '' : 's'} represented from the page-specific source metadata; this is not the global collection count.`;
-    }
-    const dataset = {
-      '@type': 'Dataset', '@id': id, name: title, description: detail,
-      citation: sourceCitation(category),
-      includedInDataCatalog: { '@id': catalogId },
-    };
-    if (SIX_CATEGORIES.has(category)) {
-      dataset.distribution = {
-        '@type': 'DataDownload',
-        contentUrl: SITE + '/data/taxonomy/kov-six-category-taxonomies.json',
-        encodingFormat: 'application/json',
-        name: 'KOV six-category taxonomy snapshot with record provenance',
-      };
-      dataset.creator = category === 'employment-type'
-        ? [{ '@type': 'Organization', name: 'International Labour Organization' }, { '@type': 'Organization', name: 'KOV Career Agency' }]
-        : { '@type': 'Organization', name: 'KOV Career Agency' };
-    }
-    if (category === 'industry') dataset.creator = { '@type': 'Organization', name: 'U.S. Census Bureau' };
-    if (category === 'qualification') {
-      dataset.creator = { '@type': 'Organization', name: 'Office of Qualifications and Examinations Regulation (Ofqual)' };
-      dataset.license = QUALIFICATION_SOURCE.source.license;
-      dataset.distribution = { '@type': 'DataDownload', contentUrl: `${SITE}/data/taxonomy/ofqual-active-qualifications.json`, encodingFormat: 'application/json', name: 'KOV normalized active Ofqual qualification records' };
-      dataset.dateModified = QUALIFICATION_SOURCE.source.retrievedOn;
-    }
-    if (category === 'skill' || category === 'professional-term') dataset.creator = { '@type': 'Organization', name: 'European Commission (ESCO)' };
-    if (category === 'city') {
-      dataset.creator = [{ '@type': 'Organization', name: 'SimpleMaps' }, { '@type': 'Organization', name: 'GeoNames' }];
-      dataset.license = 'https://creativecommons.org/licenses/by/4.0/';
-    }
-    if (category === 'town-locality') {
-      dataset.creator = { '@type': 'Organization', name: 'GeoNames' };
-      dataset.license = 'https://creativecommons.org/licenses/by/4.0/';
-    }
-    if (includeGlobal) {
-      const catalogueUrl = `${SITE}/data/catalogues/${CATEGORY[category][0]}.json`;
-      const fullCatalogueDownload = {
-        '@type': 'DataDownload',
-        contentUrl: catalogueUrl,
-        encodingFormat: 'application/json',
-        name: `Complete ${title} catalogue (${globalCount} records)`,
-      };
-      const previousDistributions = dataset.distribution == null
-        ? []
-        : Array.isArray(dataset.distribution) ? dataset.distribution : [dataset.distribution];
-      dataset.distribution = [...previousDistributions, fullCatalogueDownload];
-    }
-    datasets.push(dataset);
-    const setId = `${catalogId}/set-${CATEGORY[category][0]}`;
-    const terms = [];
-    if (category === 'faq') {
-      const questions = present.filter((r) => r.name === 'faq-question');
-      const answers = present.filter((r) => r.name === 'faq-answer');
-      const answerMap = new Map(answers.map((answer, i) => [i, answer]));
-      const qSeen = new Set();
-      questions.forEach((question, index) => {
-        if (qSeen.has(norm(question.value))) return;
-        qSeen.add(norm(question.value));
-        const sourceFaq = FAQ_BY_QUESTION.get(norm(question.value));
-        const answer = sourceFaq?.answer || answerMap.get(index)?.value;
-        if (!answer) return;
-        local.push({ '@type': 'Question', '@id': `${catalogId}/faq-${digest(question.value)}`, name: question.value, text: question.value, acceptedAnswer: { '@type': 'Answer', text: answer }, citation: sourceFaq?.source ? `${SITE}${sourceFaq.source}` : undefined, isPartOf: { '@id': id } });
-        terms.push({ '@id': `${catalogId}/faq-${digest(question.value)}` });
-      });
-    } else if (!LARGE_CATEGORIES.has(category)) {
-      for (const record of present) {
-        const node = nodeFor(category, record, setId);
-        if (!node) continue;
-        local.push(node);
-        terms.push({ '@id': node['@id'] });
-      }
-    } else if (!isHome) {
-      for (const record of present) {
-        const node = nodeFor(category, record, setId);
-        if (node) { local.push(node); terms.push({ '@id': node['@id'] }); }
-      }
-    }
-    if (terms.length && category === 'faq') {
-      datasets[datasets.length - 1].hasPart = terms;
-    } else if (terms.length) {
-      termSets.push({ '@type': 'DefinedTermSet', '@id': setId, name: title, hasDefinedTerm: terms });
-      datasets[datasets.length - 1].hasPart = { '@id': setId };
-    }
-  }
-  if (datasets.length) {
-    local.unshift({ '@type': 'DataCatalog', '@id': catalogId, name: 'KOV Career Agency verified metadata catalog', description: 'Metadata records represented on this page. Dataset descriptions report verified local record counts and identify unmet targets without claiming records that are not present.', hasPart: datasets.map((dataset) => ({ '@id': dataset['@id'] })) });
-    local.unshift(...datasets);
-    local.push(...termSets);
-  }
+
   const isWebPageNode = (node) => node['@type'] === 'WebPage' || node['@type']?.includes?.('WebPage');
-  // Prefer the existing WebPage that already represents this page's canonical URL.
-  // Some staged/public pages retain an older WebPage node for their previous path.
-  // Selecting the first WebPage blindly can overwrite its ID and collide with the
-  // separate current-page node.
-  const pageNode = canonical && (
-    graph.find((node) => isWebPageNode(node) && (node.url === canonical || node['@id'] === `${canonical}#webpage`))
+  // Preserve and normalize the existing page entity; do not inline the catalogue.
+  let pageNode = canonical && (
+    graph.find((node) => isWebPageNode(node) && (node.url === canonical || node['@id'] === canonical + '#webpage'))
     || graph.find(isWebPageNode)
   );
   if (pageNode) {
-      const previousPageId = pageNode['@id'];
-      pageNode['@id'] = `${canonical}#webpage`;
-      pageNode.url = canonical;
-      if (pageTitle) pageNode.name = pageTitle;
-      for (const node of graph) {
-        for (const key of ['mainEntityOfPage', 'isPartOf', 'about', 'mainEntity']) {
-          const value = node[key];
-          if (Array.isArray(value)) node[key] = value.map((ref) => ref?.['@id'] === previousPageId ? { ...ref, '@id': pageNode['@id'] } : ref);
-          else if (value?.['@id'] === previousPageId) node[key] = { ...value, '@id': pageNode['@id'] };
+    const previousPageId = pageNode['@id'];
+    pageNode['@id'] = canonical + '#webpage';
+    pageNode.url = canonical;
+    if (pageTitle) pageNode.name = pageTitle;
+    for (const node of graph) {
+      for (const key of ['mainEntityOfPage', 'isPartOf', 'about', 'mainEntity']) {
+        const value = node[key];
+        if (Array.isArray(value)) {
+          node[key] = value.map((ref) => ref?.['@id'] === previousPageId
+            ? { ...ref, '@id': pageNode['@id'] }
+            : ref);
+        } else if (value?.['@id'] === previousPageId) {
+          node[key] = { ...value, '@id': pageNode['@id'] };
         }
       }
-      if (datasets.length) {
-        const about = pageNode.about == null ? [] : Array.isArray(pageNode.about) ? pageNode.about : [pageNode.about];
-        const keys = new Set(about.map((value) => value?.['@id'] || JSON.stringify(value)));
-        pageNode.about = [...about, ...datasets.map((dataset) => ({ '@id': dataset['@id'] })).filter((ref) => !keys.has(ref['@id']))];
-      }
-      const localReferences = local
-        .filter((node) => !['DataCatalog', 'Dataset', 'DefinedTermSet'].includes(node['@type']) && node['@id'])
-        .map((node) => ({ '@id': node['@id'] }));
-      if (localReferences.length) {
-        const mentions = pageNode.mentions == null ? [] : Array.isArray(pageNode.mentions) ? pageNode.mentions : [pageNode.mentions];
-        const mentionedIds = new Set(mentions.map((value) => value?.['@id']));
-        pageNode.mentions = [...mentions, ...localReferences.filter((ref) => !mentionedIds.has(ref['@id']))];
-      }
+    }
+    if (eligible) {
+      const about = pageNode.about == null
+        ? []
+        : Array.isArray(pageNode.about) ? pageNode.about : [pageNode.about];
+      pageNode.about = [
+        ...about.filter((item) => item?.['@id'] !== CATALOG),
+        { '@id': CATALOG },
+      ];
+    }
   }
-  return [...graph, ...local];
+  if (eligible && !pageNode) {
+    pageNode = { '@type': 'WebPage', '@id': canonical + '#webpage', url: canonical };
+    if (pageTitle) pageNode.name = pageTitle;
+    pageNode.about = [{ '@id': CATALOG }];
+    graph.push(pageNode);
+  }
+  return graph;
 }
+
 function parseExisting(html) {
   const match = html.match(new RegExp(`<script\\b(?=[^>]*${MARKER})[^>]*>([\\s\\S]*?)<\\/script\\s*>`, 'i'));
   if (!match) return { nodes: [], oldScript: null };
@@ -596,7 +687,7 @@ function hydratedRecords(file, tagRecords, existingNodes) {
   if (file === 'index.html' && found['job-title'].length === 0) {
     const priorDatasets = new Map(existingNodes.filter((node) => node['@type'] === 'Dataset').map((node) => [node['@id'], node]));
     for (const category of ALL_CATEGORIES) {
-      const id = `${CATALOG}/dataset-${CATEGORY[category][0]}`;
+      const id = `${LEGACY_CATALOG}/dataset-${CATEGORY[category][0]}`;
       const description = priorDatasets.get(id)?.description || '';
       const match = description.match(/(?:Record rows in the retained local source snapshot: |Verified record-level sources present: )([\d,]+)|([\d,]+) verified local record/);
       if (match && !found[category].length) {
@@ -611,8 +702,8 @@ function countsFromPublishedSummary(nodes) {
   const datasets = new Map(nodes.filter((node) => node['@type'] === 'Dataset').map((node) => [node['@id'], node]));
   const counts = {};
   for (const category of ALL_CATEGORIES) {
-    const id = `${CATALOG}/dataset-${CATEGORY[category][0]}`;
-    const oldId = `${CATALOG}#dataset-${CATEGORY[category][0]}`;
+    const id = `${LEGACY_CATALOG}/dataset-${CATEGORY[category][0]}`;
+    const oldId = `${LEGACY_CATALOG}#dataset-${CATEGORY[category][0]}`;
     const description = datasets.get(id)?.description || datasets.get(oldId)?.description || '';
     const match = description.match(/(?:Record rows in the retained local source snapshot|Verified record-level sources present): ([\d,]+)|([\d,]+) verified local record/);
     counts[category] = match ? Number((match[1] || match[2]).replace(/,/g, '')) : 0;
@@ -633,13 +724,14 @@ function removeTaxonomyTags(html) {
   });
 }
 function tagValues(html, expression) { return [...html.matchAll(expression)].map((match) => match[0]); }
+
 function validateRendered(file, before, after, categoryCounts, isHome, eligible) {
   const extractHead = (html) => html.match(/(<head\b[^>]*>)([\s\S]*?)(<\/head\s*>)/i);
   const managedHeadContent = (html) => {
     const match = extractHead(html);
-    if (!match) throw new Error(`Missing HEAD during preservation validation: ${file}`);
+    if (!match) throw new Error('Missing HEAD during preservation validation: ' + file);
     let content = match[2];
-    const generatedScript = new RegExp(`<script\\b(?=[^>]*${MARKER})[^>]*>[\\s\\S]*?<\\/script\\s*>`, 'gi');
+    const generatedScript = new RegExp('<script\\b(?=[^>]*' + MARKER + ')[^>]*>[\\s\\S]*?<\\/script\\s*>', 'gi');
     content = content.replace(generatedScript, '');
     const taxonomyTags = new RegExp(`<meta\\b(?=[^>]*\\bname\\s*=\\s*(["'])(?:${NAMES.join('|')})\\1)[^>]*>\\s*`, 'gi');
     content = content.replace(taxonomyTags, '');
@@ -647,74 +739,78 @@ function validateRendered(file, before, after, categoryCounts, isHome, eligible)
     return match[1] + content.trimEnd() + match[3];
   };
   if (managedHeadContent(before) !== managedHeadContent(after)) {
-    throw new Error(`Unrelated HEAD content changed (including social metadata, scripts, stylesheets or other attributes): ${file}`);
+    throw new Error('Unrelated HEAD content changed (including social metadata, scripts, stylesheets or other attributes): ' + file);
   }
   const outsideHead = (html) => {
-    if (!extractHead(html)) throw new Error(`Missing HEAD during document preservation validation: ${file}`);
+    if (!extractHead(html)) throw new Error('Missing HEAD during document preservation validation: ' + file);
     return html.replace(/<head\b[^>]*>[\s\S]*?<\/head\s*>/i, '<!-- KOV_HEAD_BLOCK -->');
   };
   if (outsideHead(before) !== outsideHead(after)) {
-    throw new Error(`HTML outside HEAD changed during metadata migration: ${file}`);
+    throw new Error('HTML outside HEAD changed during metadata migration: ' + file);
   }
   const body = (html) => html.match(/<body\b[^>]*>[\s\S]*?<\/body\s*>/i)?.[0] || '';
-  if (body(before) !== body(after)) throw new Error(`Body markup changed during metadata migration: ${file}`);
+  if (body(before) !== body(after)) throw new Error('Body markup changed during metadata migration: ' + file);
   const customMeta = new RegExp(`<meta\\b(?=[^>]*\\bname\\s*=\\s*(["'])(?:${NAMES.join('|')})\\1)[^>]*>`, 'i');
   const nonTaxMeta = (html) => tagValues(html, /<meta\b[^>]*>/gi).filter((tag) => !customMeta.test(tag));
-  const beforeMeta = nonTaxMeta(before);
-  const afterMeta = nonTaxMeta(after);
-  if (JSON.stringify(beforeMeta) !== JSON.stringify(afterMeta)) throw new Error(`Non-taxonomy meta tags changed: ${file}`);
+  if (JSON.stringify(nonTaxMeta(before)) !== JSON.stringify(nonTaxMeta(after))) {
+    throw new Error('Non-taxonomy meta tags changed: ' + file);
+  }
   const canonRobots = (html) => tagValues(html, /<(?:link|meta)\b[^>]*(?:rel\s*=\s*(["'])(?:canonical|alternate)\1|name\s*=\s*(["'])robots\2)[^>]*>/gi);
-  if (JSON.stringify(canonRobots(before)) !== JSON.stringify(canonRobots(after))) throw new Error(`Canonical or robots directives changed: ${file}`);
+  if (JSON.stringify(canonRobots(before)) !== JSON.stringify(canonRobots(after))) {
+    throw new Error('Canonical or robots directives changed: ' + file);
+  }
   const oldScripts = tagValues(before, /<script\b[^>]*type\s*=\s*(["'])application\/ld\+json\1[^>]*>[\s\S]*?<\/script\s*>/gi).filter((tag) => !tag.includes(MARKER));
   const newScripts = tagValues(after, /<script\b[^>]*type\s*=\s*(["'])application\/ld\+json\1[^>]*>[\s\S]*?<\/script\s*>/gi).filter((tag) => !tag.includes(MARKER));
-  if (JSON.stringify(oldScripts) !== JSON.stringify(newScripts)) throw new Error(`Unrelated JSON-LD changed: ${file}`);
-  if (customMeta.test(after)) throw new Error(`Project taxonomy meta remains after JSON-LD migration: ${file}`);
-  const scripts = tagValues(after, new RegExp(`<script\\b(?=[^>]*${MARKER})[^>]*>[\\s\\S]*?<\\/script\\s*>`, 'gi'));
-  if (scripts.length !== 1) throw new Error(`Expected one KOV JSON-LD script in ${file}; found ${scripts.length}`);
+  if (JSON.stringify(oldScripts) !== JSON.stringify(newScripts)) throw new Error('Unrelated JSON-LD changed: ' + file);
+  if (customMeta.test(after)) throw new Error('Project taxonomy meta remains after JSON-LD migration: ' + file);
+  const scripts = tagValues(after, new RegExp('<script\\b(?=[^>]*' + MARKER + ')[^>]*>[\\s\\S]*?<\\/script\\s*>', 'gi'));
+  if (scripts.length !== 1) throw new Error('Expected one KOV JSON-LD script in ' + file + '; found ' + scripts.length);
   const parsed = JSON.parse(scripts[0].replace(/^<script[^>]*>/i, '').replace(/<\/script\s*>$/i, ''));
   const graph = parsed['@graph'];
-  if (!Array.isArray(graph)) throw new Error(`KOV JSON-LD graph missing on ${file}`);
+  if (!Array.isArray(graph)) throw new Error('KOV JSON-LD graph missing on ' + file);
   const ids = graph.map((node) => node['@id']).filter(Boolean);
-  if (new Set(ids).size !== ids.length) throw new Error(`Duplicate JSON-LD @id on ${file}`);
+  if (new Set(ids).size !== ids.length) throw new Error('Duplicate JSON-LD @id on ' + file);
+
+  const exactCatalogueReferences = (value) => {
+    if (Array.isArray(value)) return value.reduce((sum, item) => sum + exactCatalogueReferences(item), 0);
+    if (!value || typeof value !== 'object') return 0;
+    return (value['@id'] === CATALOG ? 1 : 0)
+      + Object.entries(value).filter(([key]) => key !== '@id')
+        .reduce((sum, [, item]) => sum + exactCatalogueReferences(item), 0);
+  };
+
   if (eligible) {
     const canonical = canonicalFor(after, file);
     const isWebPageNode = (node) => node['@type'] === 'WebPage' || node['@type']?.includes?.('WebPage');
-    const pageNode = graph.find((node) => isWebPageNode(node) && (node.url === canonical || node['@id'] === `${canonical}#webpage`))
+    const pageNode = graph.find((node) => isWebPageNode(node) && (node.url === canonical || node['@id'] === canonical + '#webpage'))
       || graph.find(isWebPageNode);
-    if (pageNode && pageNode.url !== canonical) throw new Error(`WebPage URL does not match canonical for ${file}`);
+    if (!pageNode) throw new Error('Indexable public page has no WebPage node: ' + file);
+    if (pageNode.url !== canonical) throw new Error('WebPage URL does not match canonical for ' + file);
+    if (exactCatalogueReferences(graph) !== 1) {
+      throw new Error('Each indexable page must contain exactly one @id reference to the central 18-dataset catalogue: ' + file);
+    }
+    const about = pageNode.about == null ? [] : Array.isArray(pageNode.about) ? pageNode.about : [pageNode.about];
+    if (about.filter((item) => item?.['@id'] === CATALOG).length !== 1) {
+      throw new Error('Central dataset catalogue reference must appear once in WebPage.about: ' + file);
+    }
+  } else if (exactCatalogueReferences(graph) !== 0) {
+    throw new Error('A noindex or private page must not publish the central catalogue reference: ' + file);
   }
-  if (graph.some((node) => node.numberOfItems != null || /\brecordCount\b/i.test(JSON.stringify(node)))) throw new Error(`Unsupported numeric record-count field in ${file}`);
-  if (graph.some((node) => String(node['@id'] || '').startsWith('urn:kov:career-agency:metadata#'))) throw new Error(`Legacy metadata graph node remains in ${file}`);
-  if (eligible) {
-    const datasetNodes = graph.filter((node) => node['@type'] === 'Dataset');
-    const datasetIds = new Set(datasetNodes.map((node) => node['@id']));
-    if (datasetIds.size !== ALL_CATEGORIES.length) {
-      throw new Error('Active page must reference all 18 global catalogues; found ' + datasetIds.size + ': ' + file);
-    }
-    for (const category of ALL_CATEGORIES) {
-      const slug = CATEGORY[category][0];
-      const expectedUrl = SITE + '/data/catalogues/' + slug + '.json';
-      const dataset = datasetNodes.find((node) => node['@id'] === CATALOG + '/dataset-' + slug);
-      const distributions = dataset
-        ? (Array.isArray(dataset.distribution) ? dataset.distribution : [dataset.distribution])
-        : [];
-      if (!distributions.some((item) => item?.contentUrl === expectedUrl)) {
-        throw new Error('Active page is missing the full ' + category + ' catalogue download: ' + file);
-      }
-    }
+
+  if (graph.some((node) => node.numberOfItems != null || /\brecordCount\b/i.test(JSON.stringify(node)))) {
+    throw new Error('Numeric dataset totals must live in the central catalogue, not duplicated page JSON-LD: ' + file);
   }
-  if (isHome) {
-    const datasetIds = new Set(graph.filter((node) => node['@type'] === 'Dataset').map((node) => node['@id']));
-    if (datasetIds.size !== ALL_CATEGORIES.length) throw new Error(`Homepage needs ${ALL_CATEGORIES.length} global dataset summaries; found ${datasetIds.size}`);
-    for (const [category, count] of Object.entries(categoryCounts)) {
-      const id = `${CATALOG}/dataset-${CATEGORY[category][0]}`;
-      const dataset = graph.find((node) => node['@id'] === id);
-      const describedCount = dataset?.description.match(/(?:Record rows in the retained local source snapshot|Verified record-level sources present): ([\d,]+)/);
-      if (!dataset || !describedCount || Number(describedCount[1].replace(/,/g, '')) !== count) throw new Error(`Homepage source count missing for ${category}`);
-    }
+  if (graph.some((node) => {
+    const id = String(node['@id'] || '');
+    return id.startsWith('urn:kov:career-agency:metadata#')
+      || id === LEGACY_CATALOG || id.startsWith(LEGACY_CATALOG + '/') || id.startsWith(LEGACY_CATALOG + '#')
+      || id.startsWith(CATALOG + '#dataset-') || id.startsWith(CATALOG + '#group-');
+  })) {
+    throw new Error('Inline legacy or central catalogue nodes remain on the page: ' + file);
   }
   return graph.length;
 }
+
 function filesFromOutputRoot(outputRoot) {
   const files = [];
   function walk(directory) {
@@ -815,6 +911,10 @@ function main() {
     removedCustomMeta: 0, homepageGlobalTags: 0, homepageRecords: counts,
     cataloguePackages: catalogueAssets.packages,
     catalogueCompressedBytes: catalogueAssets.compressedBytes,
+    centralCatalogueBytes: catalogueAssets.centralCatalogueBytes,
+    centralCatalogueCompressedBytes: catalogueAssets.centralCatalogueCompressedBytes,
+    centralCatalogueParentCategories: catalogueAssets.parentCategoryCount,
+    centralCatalogueDatasetCount: catalogueAssets.datasetCount,
     pageCategoryCoverage: {}, pageSpecificMetaRecords: 0,
     duplicateKovScripts: 0, dryRun
   };

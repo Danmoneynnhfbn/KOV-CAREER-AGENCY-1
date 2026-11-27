@@ -106,6 +106,19 @@ jobs:
 
           failures = []
           noindex_pages = 0
+          catalogue_root_id = "https://www.kovcareeragency.org/data/kov-dataset-catalog.jsonld"
+          legacy_catalogue_root = "https://www.kovcareeragency.org/#metadata-catalog"
+          def count_catalogue_refs(value):
+              if isinstance(value, list):
+                  return sum(count_catalogue_refs(item) for item in value)
+              if not isinstance(value, dict):
+                  return 0
+              return (1 if value.get("@id") == catalogue_root_id else 0) + sum(
+                  count_catalogue_refs(item)
+                  for key, item in value.items()
+                  if key != "@id"
+              )
+
 
           def normalize_expected_cache_versions(value):
               value = re.sub(r"(/assets/kov-site-header\.bundle\.js)\?v=\d+", r"\1?v=8", value)
@@ -171,32 +184,46 @@ jobs:
                   ids = [node.get("@id") for node in graph if node.get("@id")]
                   if len(ids) != len(set(ids)):
                       failures.append(f"{relative}: duplicate JSON-LD @id values")
-                  datasets = [node for node in graph if node.get("@type") == "Dataset"]
-                  if relative in active_paths:
-                      expected_ids = {
-                          f"https://www.kovcareeragency.org/#metadata-catalog/dataset-{slug}"
-                          for slug in expected_catalogue_slugs
-                      }
-                      by_id = {node.get("@id"): node for node in datasets}
-                      if len(by_id.keys() & expected_ids) != 18:
-                          failures.append(f"{relative}: active page does not contain all 18 global catalogue datasets")
-                      for slug in expected_catalogue_slugs:
-                          dataset_id = f"https://www.kovcareeragency.org/#metadata-catalog/dataset-{slug}"
-                          dataset = by_id.get(dataset_id)
-                          distributions = dataset.get("distribution", []) if dataset else []
-                          if isinstance(distributions, dict):
-                              distributions = [distributions]
-                          expected_url = f"https://www.kovcareeragency.org/data/catalogues/{slug}.json"
-                          if not any(item.get("contentUrl") == expected_url for item in distributions if isinstance(item, dict)):
-                              failures.append(f"{relative}: missing full catalogue download reference for {slug}")
-                  elif any(
-                      str(item.get("contentUrl", "")).startswith("https://www.kovcareeragency.org/data/catalogues/")
-                      for dataset in datasets
-                      for item in (dataset.get("distribution", []) if isinstance(dataset.get("distribution", []), list) else [dataset.get("distribution", {})])
-                      if isinstance(item, dict)
-                  ):
-                      failures.append(f"{relative}: inactive page unexpectedly references the full catalogue packages")
 
+                  if relative in active_paths:
+                      if count_catalogue_refs(graph) != 1:
+                          failures.append(f"{relative}: expected exactly one @id reference to the central dataset catalogue")
+                      page_nodes = [
+                          node for node in graph
+                          if node.get("@type") == "WebPage"
+                          or (isinstance(node.get("@type"), list) and "WebPage" in node.get("@type"))
+                      ]
+                      canonical_match = re.search(r"""<link\b(?=[^>]*\brel\s*=\s*(["'])canonical\1)[^>]*\bhref\s*=\s*(["'])(.*?)\2""", before_head.group(2), re.I)
+                      canonical_url = canonical_match.group(3) if canonical_match else None
+                      page_node = next(
+                          (node for node in page_nodes if canonical_url and (
+                              node.get("url") == canonical_url or node.get("@id") == canonical_url + "#webpage"
+                          )),
+                          page_nodes[0] if page_nodes else None,
+                      )
+                      if not page_node:
+                          failures.append(f"{relative}: active public page has no WebPage node")
+                      else:
+                          about = page_node.get("about", [])
+                          if isinstance(about, dict):
+                              about = [about]
+                          if sum(1 for item in about if isinstance(item, dict) and item.get("@id") == catalogue_root_id) != 1:
+                              failures.append(f"{relative}: WebPage.about must contain the central catalogue reference exactly once")
+                          if canonical_url and page_node.get("url") != canonical_url:
+                              failures.append(f"{relative}: WebPage URL does not match its canonical URL")
+                      if any(node.get("@type") == "Dataset" for node in graph):
+                          failures.append(f"{relative}: dataset records are still duplicated inline instead of using the central catalogue reference")
+                      if any(
+                          str(node.get("@id", "")).startswith(legacy_catalogue_root)
+                          or str(node.get("@id", "")).startswith("urn:kov:career-agency:metadata#")
+                          for node in graph
+                      ):
+                          failures.append(f"{relative}: legacy inline taxonomy catalogue nodes remain")
+                      if any(node.get("numberOfItems") is not None or "recordCount" in json.dumps(node) for node in graph):
+                          failures.append(f"{relative}: numeric dataset totals remain duplicated in page JSON-LD")
+                  elif count_catalogue_refs(graph) != 0:
+                          failures.append(f"{relative}: noindex or inactive page unexpectedly references the central catalogue")
+    
               if re.search(
                   r"""<meta\b(?=[^>]*\bname\s*=\s*["']robots["'])(?=[^>]*\bcontent\s*=\s*["'][^"']*\bnoindex\b)[^>]*>""",
                   before_head.group(2),
@@ -240,33 +267,133 @@ jobs:
               if "application/json; charset=utf-8" not in worker_source:
                   failures.append("Worker does not serve catalogue packages with an application/json content type")
 
+          central_catalogue_url = "https://www.kovcareeragency.org/data/kov-dataset-catalog.jsonld"
+          central_archive = output / "data" / "kov-dataset-catalog.jsonld.gz"
+          if not central_archive.is_file():
+              failures.append("Missing central 18-dataset JSON-LD catalogue package")
+          else:
+              packed = central_archive.read_bytes()
+              if len(packed) >= 25 * 1024 * 1024:
+                  failures.append("Central catalogue reaches or exceeds Cloudflare's 25 MiB compressed-file limit")
+              try:
+                  central_document = json.loads(gzip.decompress(packed))
+                  central_graph = central_document.get("@graph")
+                  if not isinstance(central_graph, list):
+                      failures.append("Central catalogue is missing its @graph array")
+                  else:
+                      central_ids = [node.get("@id") for node in central_graph if node.get("@id")]
+                      if len(central_ids) != len(set(central_ids)):
+                          failures.append("Central catalogue contains duplicate @id values")
+                      root = next(
+                          (node for node in central_graph
+                           if node.get("@type") == "DataCatalog" and node.get("@id") == central_catalogue_url),
+                          None,
+                      )
+                      groups = [
+                          node for node in central_graph
+                          if node.get("@type") == "DataCatalog" and node.get("@id") != central_catalogue_url
+                      ]
+                      datasets = [node for node in central_graph if node.get("@type") == "Dataset"]
+                      if not root:
+                          failures.append("Central catalogue root DataCatalog node is missing")
+                      if len(groups) != 3:
+                          failures.append(f"Central catalogue must contain exactly three parent groups, found {len(groups)}")
+                      if len(datasets) != 18:
+                          failures.append(f"Central catalogue must contain all 18 datasets, found {len(datasets)}")
+
+                      group_membership = {
+                          "professional-employment": 12,
+                          "career-knowledge-resources": 2,
+                          "global-organisational-references": 4,
+                      }
+                      group_ids = {
+                          central_catalogue_url + "#group-" + key: expected
+                          for key, expected in group_membership.items()
+                      }
+                      for group_id, expected_count in group_ids.items():
+                          group = next((node for node in groups if node.get("@id") == group_id), None)
+                          if not group:
+                              failures.append(f"Central catalogue is missing parent group {group_id}")
+                              continue
+                          if len(group.get("hasPart", [])) != expected_count:
+                              failures.append(f"{group_id}: expected {expected_count} dataset members")
+                      dataset_map = {node.get("@id"): node for node in datasets}
+                      for slug in expected_catalogue_slugs:
+                          dataset_id = central_catalogue_url + "#dataset-" + slug
+                          dataset = dataset_map.get(dataset_id)
+                          if not dataset:
+                              failures.append(f"Central catalogue is missing dataset {slug}")
+                              continue
+                          records = dataset.get("records")
+                          if not isinstance(records, list):
+                              failures.append(f"{slug}: central record array is missing or invalid")
+                              continue
+                          if dataset.get("numberOfItems") != len(records):
+                              failures.append(f"{slug}: numberOfItems does not match the complete record array")
+                          if dataset.get("distribution", {}).get("contentUrl") != central_catalogue_url:
+                              failures.append(f"{slug}: dataset distribution does not point to the central file")
+                          description = dataset.get("description", "")
+                          audit_terms = re.compile(
+                              r"\b(?:row-count|record rows|approved target|target gap|target is not met|"
+                              r"validation log|validator|audit note|retained local source snapshot|"
+                              r"verified record-level sources present)\b",
+                              re.I,
+                          )
+                          if not isinstance(description, str) or not (50 <= len(description) <= 5000) or audit_terms.search(description):
+                              failures.append(f"{slug}: public Dataset description is not clean user-facing text")
+                      expected_dataset_ids = {
+                          central_catalogue_url + "#dataset-" + slug
+                          for slug in expected_catalogue_slugs
+                      }
+                      if set(dataset_map) != expected_dataset_ids:
+                          failures.append("Central catalogue dataset IDs do not match the expected 18 catalogue slugs")
+              except Exception as exc:
+                  failures.append(f"Central catalogue package cannot be decompressed or parsed: {exc}")
+
+          # The older per-dataset JSON endpoints remain available for existing consumers.
+          worker_path = output / "_worker.js"
+          if not worker_path.is_file():
+              failures.append("Cloudflare Pages Worker is missing from build output")
+          else:
+              worker_source = worker_path.read_text(encoding="utf-8")
+              central_route = '["/data/kov-dataset-catalog.jsonld", "/data/kov-dataset-catalog.jsonld.gz"]'
+              if central_route not in worker_source:
+                  failures.append("Worker is missing the compressed central catalogue route")
+              for slug in expected_catalogue_slugs:
+                  route = f'["/data/catalogues/{slug}.json", "/data/catalogues/{slug}.json.gz"]'
+                  if route not in worker_source:
+                      failures.append(f"Worker is missing the compatibility catalogue route for {slug}")
+              if 'headers.delete("Content-Encoding")' not in worker_source:
+                  failures.append("Worker does not remove backing-asset Content-Encoding before returning decoded JSON")
+              if "application/ld+json; charset=utf-8" not in worker_source:
+                  failures.append("Worker does not serve the central catalogue with an application/ld+json content type")
+
           homepage = output / "index.html"
           homepage_text = homepage.read_text(encoding="utf-8")
           homepage_head = head_re.search(homepage_text).group(2)
           homepage_script = generated_script.search(homepage_head)
-          homepage_tag = homepage_script.group(0)
-          homepage_open = re.match(r'<script\b[^>]*>', homepage_tag, re.I).group(0)
-          homepage_close = re.search(r'</script\s*>$', homepage_tag, re.I).group(0)
-          homepage_payload = json.loads(homepage_tag[len(homepage_open):len(homepage_tag)-len(homepage_close)])
-          graph = homepage_payload["@graph"]
-          expected_sets = [
-              "audiences", "job-titles", "occupations", "industries", "skills", "qualifications",
-              "professional-terms", "job-functions", "seniority-levels", "employment-types",
-              "career-challenges", "career-search-intents", "faqs", "languages", "countries",
-              "cities", "towns-localities", "institutions",
-          ]
-          dataset_ids = {node.get("@id") for node in graph if node.get("@type") == "Dataset"}
-          for name in expected_sets:
-              expected_id = f"https://www.kovcareeragency.org/#metadata-catalog/dataset-{name}"
-              if expected_id not in dataset_ids:
-                  failures.append(f"index.html: missing global dataset summary {name}")
+          if not homepage_script:
+              failures.append("Homepage is missing the generated KOV JSON-LD script")
+          else:
+              homepage_tag = homepage_script.group(0)
+              homepage_open = re.match(r'<script\b[^>]*>', homepage_tag, re.I).group(0)
+              homepage_close = re.search(r'</script\s*>$', homepage_tag, re.I).group(0)
+              homepage_payload = json.loads(homepage_tag[len(homepage_open):len(homepage_tag)-len(homepage_close)])
+              homepage_graph = homepage_payload.get("@graph", [])
+              if sum(1 for node in homepage_graph for key, value in node.items() if key == "about" and (
+                  (isinstance(value, dict) and value.get("@id") == catalogue_root_id)
+                  or (isinstance(value, list) and any(isinstance(item, dict) and item.get("@id") == catalogue_root_id for item in value))
+              )) != 1:
+                  failures.append("Homepage must reference the central dataset catalogue exactly once in WebPage.about")
+
 
           if failures:
               raise SystemExit("\n".join(failures[:100]))
 
           print(f"PASS: {len(pages):,} published HTML pages each contain one valid KOV JSON-LD script.")
-          print(f"PASS: all {len(active_paths):,} active public pages reference all 18 complete compressed catalogue packages in HEAD.")
-          print("PASS: all 18 catalogue packages decompress, parse, and retain every record.")
+          print(f"PASS: all {len(active_paths):,} active public pages contain one central catalogue @id reference and no duplicated dataset records.")
+          print("PASS: central JSON-LD catalogue contains three parent groups and all 18 complete record arrays.")
+          print("PASS: all 18 legacy individual JSON endpoints remain available for compatibility.")
           print("PASS: page bodies and all content outside HEAD are unchanged.")
           print("PASS: existing canonical URLs, robots directives, social metadata, scripts, stylesheets and unrelated HEAD content are unchanged.")
           print(f"PASS: {noindex_pages} noindex pages retained their robots directives; inactive pages do not reference full catalogue packages.")
@@ -318,6 +445,17 @@ jobs:
           from urllib.request import Request, urlopen
 
           base = "http://127.0.0.1:8788"
+          central_url = f"{base}/data/kov-dataset-catalog.jsonld"
+          with urlopen(Request(central_url, headers={"Accept-Encoding": "identity"}), timeout=30) as response:
+              assert response.status == 200, f"central catalogue route returned {response.status}"
+              assert "application/ld+json" in response.headers.get("Content-Type", ""), "central catalogue has the wrong Content-Type"
+              assert not response.headers.get("Content-Encoding"), "identity request returned an encoded central catalogue"
+              central_document = json.loads(response.read())
+          central_graph = central_document.get("@graph", [])
+          assert len([node for node in central_graph if node.get("@type") == "Dataset"]) == 18, "central endpoint does not contain all 18 Dataset nodes"
+          assert len([node for node in central_graph if node.get("@type") == "DataCatalog"]) == 4, "central endpoint must contain one root and three parent groups"
+          print("PASS central catalogue: HTTP 200; one root, three parent groups and 18 datasets")
+
           slugs = [
               "audiences", "job-titles", "occupations", "industries", "skills",
               "qualifications", "professional-terms", "job-functions",
