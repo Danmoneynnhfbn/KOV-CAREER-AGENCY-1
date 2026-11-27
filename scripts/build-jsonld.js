@@ -311,13 +311,9 @@ function writeCatalogueAssets(outputRoot, expectedCounts) {
       if (QUALIFICATION_SOURCE.source.license) dataset.license = QUALIFICATION_SOURCE.source.license;
     }
     if (category === 'industry') dataset.creator = { '@type': 'Organization', name: 'U.S. Census Bureau' };
-    if (category === 'skill' || category === 'professional-term') {
-      dataset.creator = { '@type': 'Organization', name: 'European Commission (ESCO)' };
-    }
-    if (category === 'city' || category === 'town-locality') {
-      dataset.license = 'https://creativecommons.org/licenses/by/4.0/';
-    }
-    if (category === 'institution') dataset.license = 'https://creativecommons.org/publicdomain/zero/1.0/';
+    // Mixed-source catalogues retain their source citations and original
+    // per-record provenance. Do not assign one licence or creator to a
+    // collection when its source records use different terms or providers.
     datasetNodes.push(dataset);
   }
 
@@ -912,6 +908,10 @@ function main() {
     removedCustomMeta: 0, homepageGlobalTags: 0, homepageRecords: counts,
     cataloguePackages: catalogueAssets.packages,
     catalogueCompressedBytes: catalogueAssets.compressedBytes,
+    centralCatalogueBytes: catalogueAssets.centralCatalogueBytes,
+    centralCatalogueCompressedBytes: catalogueAssets.centralCatalogueCompressedBytes,
+    centralCatalogueParentCategories: catalogueAssets.parentCategoryCount,
+    centralCatalogueDatasetCount: catalogueAssets.datasetCount,
     pageCategoryCoverage: {}, pageSpecificMetaRecords: 0,
     duplicateKovScripts: 0, dryRun
   };
