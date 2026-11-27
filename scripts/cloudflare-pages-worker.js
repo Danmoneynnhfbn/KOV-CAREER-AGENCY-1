@@ -8,6 +8,7 @@ export default {
 
     const compressedRoutes = new Map([
       ["/data/kov-discovery-catalog.jsonld", "/data/kov-discovery-catalog.jsonld.gz"],
+      ["/data/kov-dataset-catalog.jsonld", "/data/kov-dataset-catalog.jsonld.gz"],
       ["/data/taxonomy/verified-expanded-taxonomy.json", "/data/taxonomy/verified-expanded-taxonomy.json.gz"],
       ["/data/catalogues/audiences.json", "/data/catalogues/audiences.json.gz"],
       ["/data/catalogues/job-titles.json", "/data/catalogues/job-titles.json.gz"],
