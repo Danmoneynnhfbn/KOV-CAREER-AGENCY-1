@@ -614,7 +614,7 @@ function buildGraph(existing, records, isHome, counts, file, canonical, pageTitl
 
   const isWebPageNode = (node) => node['@type'] === 'WebPage' || node['@type']?.includes?.('WebPage');
   // Preserve and normalize the existing page entity; do not inline the catalogue.
-  const pageNode = canonical && (
+  let pageNode = canonical && (
     graph.find((node) => isWebPageNode(node) && (node.url === canonical || node['@id'] === canonical + '#webpage'))
     || graph.find(isWebPageNode)
   );
@@ -646,7 +646,10 @@ function buildGraph(existing, records, isHome, counts, file, canonical, pageTitl
     }
   }
   if (eligible && !pageNode) {
-    throw new Error('Indexable public page has no WebPage node for the central dataset reference: ' + file);
+    pageNode = { '@type': 'WebPage', '@id': canonical + '#webpage', url: canonical };
+    if (pageTitle) pageNode.name = pageTitle;
+    pageNode.about = [{ '@id': CATALOG }];
+    graph.push(pageNode);
   }
   return graph;
 }
@@ -684,7 +687,7 @@ function hydratedRecords(file, tagRecords, existingNodes) {
   if (file === 'index.html' && found['job-title'].length === 0) {
     const priorDatasets = new Map(existingNodes.filter((node) => node['@type'] === 'Dataset').map((node) => [node['@id'], node]));
     for (const category of ALL_CATEGORIES) {
-      const id = `${CATALOG}/dataset-${CATEGORY[category][0]}`;
+      const id = `${LEGACY_CATALOG}/dataset-${CATEGORY[category][0]}`;
       const description = priorDatasets.get(id)?.description || '';
       const match = description.match(/(?:Record rows in the retained local source snapshot: |Verified record-level sources present: )([\d,]+)|([\d,]+) verified local record/);
       if (match && !found[category].length) {
@@ -730,7 +733,7 @@ function validateRendered(file, before, after, categoryCounts, isHome, eligible)
     let content = match[2];
     const generatedScript = new RegExp('<script\\b(?=[^>]*' + MARKER + ')[^>]*>[\\s\\S]*?<\\/script\\s*>', 'gi');
     content = content.replace(generatedScript, '');
-    const taxonomyTags = new RegExp('<meta\\b(?=[^>]*\\bname\\s*=\\s*(["\\'])(?:' + NAMES.join('|') + ')\\1)[^>]*>\\s*', 'gi');
+    const taxonomyTags = new RegExp(`<meta\\b(?=[^>]*\\bname\\s*=\\s*(["'])(?:${NAMES.join('|')})\\1)[^>]*>\\s*`, 'gi');
     content = content.replace(taxonomyTags, '');
     content = content.replace(/<!--\s*KOV (?:global|page-specific) descriptive metadata[^>]*-->/gi, '');
     return match[1] + content.trimEnd() + match[3];
@@ -747,7 +750,7 @@ function validateRendered(file, before, after, categoryCounts, isHome, eligible)
   }
   const body = (html) => html.match(/<body\b[^>]*>[\s\S]*?<\/body\s*>/i)?.[0] || '';
   if (body(before) !== body(after)) throw new Error('Body markup changed during metadata migration: ' + file);
-  const customMeta = new RegExp('<meta\\b(?=[^>]*\\bname\\s*=\\s*(["\\'])(?:' + NAMES.join('|') + ')\\1)[^>]*>', 'i');
+  const customMeta = new RegExp(`<meta\\b(?=[^>]*\\bname\\s*=\\s*(["'])(?:${NAMES.join('|')})\\1)[^>]*>`, 'i');
   const nonTaxMeta = (html) => tagValues(html, /<meta\b[^>]*>/gi).filter((tag) => !customMeta.test(tag));
   if (JSON.stringify(nonTaxMeta(before)) !== JSON.stringify(nonTaxMeta(after))) {
     throw new Error('Non-taxonomy meta tags changed: ' + file);
