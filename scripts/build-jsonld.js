@@ -346,7 +346,7 @@ function writeCatalogueAssets(outputRoot, expectedCounts) {
     '@context': {
       '@vocab': 'https://schema.org/',
       'kov': 'https://www.kovcareeragency.org/vocabulary#',
-      'records': { '@id': 'kov:records', '@container': '@list' },
+      'records': { '@id': 'kov:records', '@type': '@json' },
     },
     '@graph': [catalogNode, ...groupNodes, ...datasetNodes],
   };
