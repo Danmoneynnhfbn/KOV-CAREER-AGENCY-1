@@ -13,8 +13,8 @@ const routes = [...sitemapXml.matchAll(/<loc>([\s\S]*?)<\/loc>/gi)].map((match) 
   }
   return decodeURIComponent(url.pathname);
 });
-if (routes.length !== 703) {
-  throw new Error(`Expected 703 approved public sitemap routes; found ${routes.length}`);
+if (routes.length !== 1424) {
+  throw new Error(`Expected 1,424 approved public sitemap routes; found ${routes.length}`);
 }
 if (new Set(routes).size !== routes.length) {
   throw new Error("Duplicate routes found in sitemap.xml");
