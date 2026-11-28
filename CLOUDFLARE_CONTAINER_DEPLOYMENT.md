@@ -59,13 +59,24 @@ Do not attach the production hostname until these tests pass.
 
 ## Current account state and blockers
 
-The Cloudflare account currently reports no Worker custom domains, no zone Worker routes, and no Pages projects. The DNS records for the apex, wildcard, and `www` hostnames are proxied through Cloudflare but their origin A records still point to Vercel edge IPs (`64.29.17.1`, `64.29.17.65`, and `216.198.79.1`). Therefore the live domain is not yet routed to this Container Worker.
+**Verified from the Cloudflare API on 28 November 2026:**
 
-The latest Cloudflare build successfully built the Docker image and verified the catalogue compression, then failed when Wrangler called the Containers API (`/accounts/{account_id}/containers/me`). A direct account API check returned: `Unauthorized: You do not have access to Cloudflare Containers. Deploying containers requires the Workers Paid plan.` The Worker upload completed, but the Container application could not be provisioned. The account must be upgraded to Workers Paid before another Container deployment can succeed. This is a billable plan change and must be explicitly approved before it is made.
+- The Pages project `kov-career-agency` exists and its production branch is `master`.
+- Its build command is `python3 scripts/build_cloudflare_pages.py`, with `dist` as the output directory.
+- Both `kovcareeragency.org` and `www.kovcareeragency.org` are active custom domains on that Pages project.
+- The account lists the Workers `kov-ai-app`, `kov-career-agency-1`, and `kov-professional-discovery`.
+- The Worker Domains API returned no custom Worker domains for the account; the Container Applications API returned no provisioned Container applications.
+- The Container usage endpoint currently reports zero running instances.
 
-The deployed `kov-career-agency-1` Worker currently has no runtime secrets. Supabase, Resend, and Stripe-backed endpoints cannot be considered ready until the required secrets and variables are configured. The actual container health and end-to-end API checks still need to pass.
+Therefore the production website is served through the existing Pages project. The separate FastAPI Container Worker is **not** currently attached to the public domain. Do not confuse the active Pages custom domains with Worker custom domains.
 
-Cloudflare rejected a direct rollback to the previous static-assets version because the newly provisioned `KOVBackend` Durable Object namespace must first be retired with an explicit deleted-class tombstone. The Worker has no production route or custom domain, so that namespace has been left isolated rather than force-deleted.
+A read-only preview deployment was created for the Phase 2 branch during this work. It is a preview only, not a production release and not a backend route.
+
+The repository's earlier Container provisioning attempt built the Docker image and verified the catalogue compression, then failed when Wrangler called the Containers API with an account-entitlement error: deploying Containers requires access to the Workers Paid plan. The account still has no Container application provisioned. Creating one would require a billable plan change; do not upgrade or enable paid billing without explicit approval.
+
+The existing Pages production configuration has no Pages environment variables listed in its project configuration. The actual backend Container runtime is not provisioned, and its Supabase/Resend/Stripe endpoints cannot be considered publicly ready until the new API Worker, runtime secrets, routes and end-to-end tests are configured.
+
+The previous statement that the Cloudflare account had no Pages projects is obsolete and has been replaced by the live account evidence above. The separate Worker has no custom domain configured.
 
 ## Production routing
 
