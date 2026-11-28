@@ -303,16 +303,25 @@ def inject_style(html_doc: str) -> str:
     return html_doc
 
 def inject_section(html_doc: str, section: str) -> str:
-    pattern = re.compile(r'<section\b[^>]*' + MARKER + r'[^>]*>.*?</section>', flags=re.I | re.S)
+    pattern = re.compile(
+        r'(?m)^[ \t]*<section\b(?=[^>]*' + MARKER + r')[^>]*>.*?</section>[ \t]*(?:\r?\n|$)',
+        flags=re.I | re.S,
+    )
     html_doc = pattern.sub("", html_doc)
-    match = list(re.finditer(r"</main\s*>", html_doc, flags=re.I))
+
+    # Insert on its own line while retaining the original indentation for
+    # the closing container tag. This makes the operation byte-reversible.
+    match = re.search(r'(?m)^([ \t]*)</main\s*>', html_doc, flags=re.I)
     if match:
-        position = match[-1].start()
-        return html_doc[:position] + "\n" + section + "\n" + html_doc[position:]
-    match = list(re.finditer(r"<footer\b", html_doc, flags=re.I))
+        indent = match.group(1)
+        position = match.start()
+        return html_doc[:position] + indent + section + "\n" + html_doc[position:]
+
+    match = re.search(r'(?m)^([ \t]*)<footer\b', html_doc, flags=re.I)
     if match:
-        position = match[0].start()
-        return html_doc[:position] + "\n" + section + "\n" + html_doc[position:]
+        indent = match.group(1)
+        position = match.start()
+        return html_doc[:position] + indent + section + "\n" + html_doc[position:]
     return html_doc
 
 def main() -> None:
