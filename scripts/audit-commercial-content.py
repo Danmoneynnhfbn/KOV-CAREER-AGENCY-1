@@ -179,9 +179,9 @@ def main():
   if ig: industries[ig].append(item)
   results.append({
    "path":path,"canonical":r.get("canonical",""),"title":item["title"],"family":fam,
-   "robots":p.robots,"coverage_eligibility":coverage_status,"coverage_sitemap":coverage_sitemap,
+   "source_robots":p.robots,"coverage_eligibility":coverage_status,"coverage_sitemap":coverage_sitemap,
    "stage_disclosure":"yes" if stage_disclosure else "no",
-   "staging_visibility_conflict":"yes" if staging_conflict else "no",
+   "source_publication_status_conflict":"yes" if staging_conflict else "no",
    "visible_words":n,"h1_count":len(h1),"h1":" | ".join(h1),"h2_count":len(h2),
    "paragraph_count":len(p.paragraphs),"description_length":len(p.description),
    "service_links":links,"expected_handoff":expected,"opening_signal":opening,
@@ -198,14 +198,14 @@ def main():
     if score>LIMIT: failed.append(row)
  pairs.sort(reverse=True); failed.sort(reverse=True)
  csvpath=out/"kov-commercial-content-audit.csv"
- fields=["path","canonical","title","family","robots","coverage_eligibility","coverage_sitemap","stage_disclosure","staging_visibility_conflict","visible_words","h1_count","h1","h2_count","paragraph_count","description_length","service_links","expected_handoff","opening_signal","possible_placeholder","issue_flags","opening_excerpt"]
+ fields=["path","canonical","title","family","source_robots","coverage_eligibility","coverage_sitemap","stage_disclosure","source_publication_status_conflict","visible_words","h1_count","h1","h2_count","paragraph_count","description_length","service_links","expected_handoff","opening_signal","possible_placeholder","issue_flags","opening_excerpt"]
  with csvpath.open("w",encoding="utf-8-sig",newline="") as f:
   w=csv.DictWriter(f,fieldnames=fields); w.writeheader(); w.writerows(results)
  total=len(results); no_link=flags["no_service_link_detected"]
- stage_rows=[x for x in results if x["staging_visibility_conflict"]=="yes"]
+ stage_rows=[x for x in results if x["source_publication_status_conflict"]=="yes"]
  stage_path=out/"kov-staging-routes-review.csv"
  with stage_path.open("w",encoding="utf-8-sig",newline="") as f:
-  stage_fields=["path","canonical","title","robots","coverage_eligibility","coverage_sitemap","visible_words","opening_excerpt"]
+  stage_fields=["path","canonical","title","source_robots","coverage_eligibility","coverage_sitemap","visible_words","opening_excerpt"]
   sw=csv.DictWriter(f,fieldnames=stage_fields); sw.writeheader()
   for x in stage_rows: sw.writerow({k:x[k] for k in stage_fields})
  lines=["# KOV commercial content audit","","Read-only audit of sitemap-published HTML. It does not edit HTML, metadata, canonicals, robots directives, sitemap or dataset content.","",
@@ -214,9 +214,11 @@ def main():
  lines += ["","## Structure and handoff review","","| Flag | Pages |","|---|---:|"]
  lines += [f"| {k.replace('_',' ')} | {v:,} |" for k,v in sorted(flags.items())]
  lines += ["","These are review flags, not automatic instructions to add text or links. A reference page should remain useful as a reference, and a service link should be inserted only when genuinely relevant.","",
- "## Staging disclosure versus publication status","",
- f"- Pages whose visible copy identifies them as staged/draft/internal planning, while coverage says published, sitemap=yes and robots permits indexing: {len(stage_rows):,}.",
- "- This is a publication-control conflict to review, not an instruction to delete routes or alter protected HEAD metadata automatically.",
+ "## Source-file staging disclosure versus publication status","",
+ f"- Pages whose source HTML identifies them as staged/draft/internal planning, while the source coverage register says published and sitemap=yes and the source robots directive appears to permit indexing: {len(stage_rows):,}.",
+ "- This is a source-repository consistency flag, not proof of Google indexing status or a claim about the deployed response.",
+ "- Google Search Console URL Inspection can report a different robots/canonical state; inspect the exact URL before changing anything.",
+ "- The current sitemap contains no `/staging/` URLs, but selected legacy `/staging/` URLs are still reported by Google as indexed; these are recorded separately in the publication-status exceptions note.",
  f"- Detailed route list: {stage_path.name}.","","## Repeated substantial paragraphs","",f"- Shared paragraphs of 180+ characters: {len(duplicates):,}.","",
  "| Pages | Paragraph excerpt |","|---:|---|"]
  for count,text,_ in duplicates[:25]: lines.append(f"| {count} | {text[:180].replace('|','\\|')} |")
