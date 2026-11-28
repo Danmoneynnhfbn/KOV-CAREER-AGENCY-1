@@ -8,6 +8,8 @@
 
 The public site currently has one primary managed service and seven standalone Individual Career Services. There are legitimate opportunities to explain specialist needs more clearly, but a search phrase or a different audience label is not automatically a distinct service.
 
+The site also already contains eight published executive-specialist routes under `/services/`. Those are existing URLs, not eight additional paid products. Their mapping to the core service is recorded in `development/KOV-EXISTING-SPECIALIST-SERVICE-ROUTES.csv`; they must be improved or retained as specialist entry points, not duplicated with new slugs.
+
 This register separates:
 - Existing canonical offers that already have a public page.
 - Components and audience variations that belong under an existing service.
@@ -29,6 +31,10 @@ This register separates:
 | Explanatory term, not a product | 1 |
 
 These counts describe the planning status of candidate pages, not paid service SKUs or approved public URLs.
+
+## Existing executive-specialist URLs
+
+Eight published routes already sit under `/services/`. Their parent service, distinct visitor question and editorial treatment are documented in `development/KOV-EXISTING-SPECIALIST-SERVICE-ROUTES.csv`. They are not counted as eight additional paid offers or as eight new pages to create.
 
 ## The eight families
 
