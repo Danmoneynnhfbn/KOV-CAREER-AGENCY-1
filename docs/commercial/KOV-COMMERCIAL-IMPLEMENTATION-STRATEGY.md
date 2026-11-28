@@ -37,6 +37,7 @@ The previous `PAGE_MANIFEST.json` is historical and does not replace the current
 The current commercial source of truth contains:
 - One primary managed service: **Private Career Representation** at `services.html`.
 - Seven individual services: resume/CV writing, LinkedIn profile optimisation, career documents, career portfolio development, personal career website, career positioning and career coaching.
+- Eight existing published executive-specialist routes under `/services/` are mapped to those parent offers in `development/KOV-EXISTING-SPECIALIST-SERVICE-ROUTES.csv`. They are being deepened as existing pages, not counted as new paid products or duplicate URLs.
 
 The Phase 2 planning target is **120 service-page candidates** across eight customer-problem families. The register is in `development/KOV-SERVICE-PAGE-CANDIDATES.csv`, with its decision rules in `docs/commercial/KOV-EXPANDED-SERVICE-CATALOGUE-120.md`.
 
