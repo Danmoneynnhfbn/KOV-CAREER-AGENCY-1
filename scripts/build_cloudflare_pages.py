@@ -74,10 +74,18 @@ def main() -> None:
         if rel.parts[0] == "directory" and rel.as_posix() not in PUBLIC_STAGING_PAGES:
             skipped += 1
             continue
+        # Internal project documentation is never part of the public Pages site.
+        if rel.parts[0] == "docs":
+            skipped += 1
+            continue
         if any(part in SKIP_DIRS for part in rel.parts):
             skipped += 1
             continue
         if rel.parts[0].startswith(".") or source.name in SKIP_ROOT_FILES:
+            skipped += 1
+            continue
+        # Markdown and reStructuredText are repository documentation, not public site pages.
+        if source.suffix.lower() in {".md", ".mdx", ".markdown", ".rst"}:
             skipped += 1
             continue
         if source.suffix in {".pyc", ".pem", ".key", ".env", ".sqlite", ".db"}:
@@ -144,6 +152,17 @@ def main() -> None:
         cwd=str(ROOT),
         check=True,
     )
+
+    # Fail closed if private/internal documentation enters the deployable output.
+    if (OUT / "docs").exists():
+        raise SystemExit("Internal docs/ directory must not be included in Cloudflare Pages output.")
+    public_document_files = [
+        path for path in OUT.rglob("*")
+        if path.is_file() and path.suffix.lower() in {".md", ".mdx", ".markdown", ".rst"}
+    ]
+    if public_document_files:
+        examples = ", ".join(str(path.relative_to(OUT)) for path in public_document_files[:10])
+        raise SystemExit(f"Repository documentation must not be public Pages assets: {examples}")
 
     # Generate the 18-category JSON-LD against the staged Cloudflare output.
     # The generator reads source catalogues from ROOT but writes only into OUT.
