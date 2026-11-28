@@ -71,6 +71,17 @@ The following representative URLs were inspected in the connected Search Console
 | /global-talent-sourcer.html | Not found (404) | Google last crawled it on 27 November 2026 and found a 404 response. This is consistent with the route having been retired. |
 | /services.html | Page with redirect | Google reports a redirect state for this URL; its exact live redirect target should be verified separately before changing URL policy. |
 
+## Verified Cloudflare hosting state
+
+The Cloudflare account was checked read-only on 28 November 2026:
+- Pages project `kov-career-agency` is active on production branch `master`.
+- Both `kovcareeragency.org` and `www.kovcareeragency.org` are active custom domains on the Pages project.
+- The account lists no Worker custom domains and no Container applications; Container usage reports zero running instances.
+- The separate FastAPI Container Worker is therefore not attached to the live website.
+- A preview deployment for the Phase 2 working branch was created, but it is not a production release.
+
+This confirms that the static Pages site and the backend API are separate deployment paths. The API form must not be wired to an assumed public endpoint until the Worker is deployed, configured and tested. No plan upgrade, production route or DNS change was made.
+
 ## Why no automatic cleanup was applied
 
 The site instructions protect current HEAD metadata, canonicals, redirect targets and public routes during body-copy work. The source audit and Search Console checks show that the source files, final deployed response and Google-selected index state can differ.
