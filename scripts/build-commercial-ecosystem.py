@@ -233,9 +233,7 @@ def candidate_links(route: str, row: dict[str, str], pages: dict[str, dict[str, 
         if service:
             add(service, SERVICE_COPY[service][1])
         if "/roles/" in route or "executive" in row.get("title", "").lower():
-            role_routes = sorted(x for x in public_routes if x.startswith("/roles/") and x.count("/") == 3 and x.endswith("/"))
-            for target in role_routes[:1]:
-                add(target, "Explore role-focused guidance relevant to a senior career decision.")
+            add("/roles/", "Browse the role library and compare leadership paths before deciding which career support is relevant.")
 
     elif family == "FAQ":
         add("/faq/index.html", "Browse the wider question library.")
