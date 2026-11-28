@@ -407,8 +407,8 @@ def main() -> None:
             continue
 
         section = build_section(route, row, links, pages)
-        document = inject_section(document, section)
         document = inject_style(document)
+        document = inject_section(document, section)
         file_path.write_text(document, encoding="utf-8")
         injected += 1
         counts[family] += 1
