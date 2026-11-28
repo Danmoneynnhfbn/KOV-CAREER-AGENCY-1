@@ -118,6 +118,14 @@ The Cloudflare Pages builder is `scripts/build_cloudflare_pages.py`. Its `SKIP_D
 
 **Do not merge or release PR #37 until Step 2 fixes this.** Explicitly exclude private/internal documentation or use a strict public allowlist. Keep this execution checkpoint under `development/`, which the builder already excludes. Verify the internal preview URLs return 404 or otherwise are not served after the fix.
 
+### Step 2 patch scope
+
+- Exclude the repository's root `docs/` directory and Markdown/reStructuredText files from the public Pages package.
+- Add a fail-closed post-build check so internal documentation cannot silently enter `dist/`.
+- Correct the mobile Pricing checker to compare measured rectangles, not a nonexistent element property.
+- Keep the 30 FAQ-library missing-`<main>` warnings in the Step 10 accessibility workstream; these warnings are separate from the mobile Pricing failure.
+- Production remains on `master` until all release gates are verified.
+
 ### Other recorded items
 - PR #37 body itself documents that the contact form stays on its mailto handoff. Backend is not connected to production; this is a Step 8 task.
 - The latest commit has a red `Vercel` status context pointing to an account deployment-blocked help page. Cloudflare Pages preview succeeded. Determine whether this is an obsolete/non-required integration before treating it as a release blocker; do not switch hosting or buy a plan based only on that status.
@@ -127,10 +135,10 @@ The Cloudflare Pages builder is `scripts/build_cloudflare_pages.py`. Its `SKIP_D
 
 1. Fix the Pages build so internal `docs/commercial` material is not copied or publicly served. Prefer a strict explicit publication allowlist or precise directory exclusions; do not remove legitimate public resources accidentally.
 2. Fix the mobile Pricing test to compare `cardRects[index].top` rather than `card.top`.
-3. Add semantic main landmarks to the 30 FAQ library pages or apply a justified checker rule if the existing page template has a different accessible landmark structure.
-4. Build and deploy a fresh PR preview. Test that internal documentation paths are not served and that public service, homepage, Pricing, How It Works and Contact routes load.
-5. Re-run all four workflows on the new head. Review report and any warnings. Check Pages preview deployment status.
-6. Review the complete diff and release scope. Keep PR draft until every agreed gate passes. Only then mark ready/merge and deploy, followed by custom-domain verification. Do not change production prematurely.
+3. Treat the 30 FAQ-library pages without a semantic main landmark as a Step 10 accessibility work item. They are warnings, not the cause of the only failed layout check; keep this narrow release patch focused unless a real content or navigation defect is found.
+4. Build and deploy a fresh PR preview. Verify internal documentation paths are not served, and that the homepage, core service pages, Pricing, How It Works and Contact routes load.
+5. Re-run all four required workflows on the new head. Review the full layout report and any remaining warnings. Check Pages preview deployment status.
+6. Review the complete diff and release scope. Keep PR draft until every agreed gate passes. Only then prepare the approved merge and production release, followed by custom-domain verification. Do not change production prematurely.
 
 ## Completion ledger
 
