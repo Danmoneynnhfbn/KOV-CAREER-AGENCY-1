@@ -117,12 +117,12 @@ The public contact form is currently a `mailto:` handoff. Its JavaScript opens t
 
 The repository already contains a FastAPI `POST /api/contact` implementation. It validates a contact payload, applies a network-based request limit, stores an accepted lead through the Supabase `submit_contact_lead` RPC, and sends an email notification through Resend. Backend tests mock those external boundaries; no real lead or email was sent during this phase.
 
-However, the Cloudflare Container deployment note records that:
-- the intended API Worker is not yet attached to the production hostname;
-- the existing test Worker has no custom domain or zone routes;
-- its runtime has no Supabase/Resend secrets configured;
-- Cloudflare denied Container provisioning because the account does not currently have access to Workers Paid Containers;
-- attaching the production host requires a separately configured Worker and successful Workers.dev testing.
+The current Cloudflare account was checked directly on 28 November 2026:
+- the Pages project `kov-career-agency` is active on `master`, with both apex and `www` custom domains active;
+- no Worker custom domains and no Container applications are provisioned;
+- the separate API Worker is therefore not attached to the production hostname;
+- the Container deployment documentation records that provisioning was blocked by the account's Workers Paid Container entitlement; creating one would be billable and is not authorised by this content phase;
+- an isolated backend must still have its secrets configured and pass Workers.dev tests before any production route is added.
 
 The Container/Workers Paid plan is billable. This phase does not upgrade the account, buy a plan, create a new paid service or attach production routes.
 
