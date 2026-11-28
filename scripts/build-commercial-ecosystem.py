@@ -394,12 +394,24 @@ def main() -> None:
             r"working research framework",
             r"this staging page",
             r"local staging[- ]only page",
-            r"\\bguide\s+0?\d+\b",
-            r"\\bmarket report\s+0?\d+\b",
-            r"\\blorem ipsum\b",
-            r"\\bcoming soon\b",
-            r"\\bcontent goes here\b",
+            r"\bguide\s+0?\d+\b",
+            r"\bmarket report\s+0?\d+\b",
+            r"\blorem ipsum\b",
+            r"\bcoming soon\b",
+            r"\bcontent goes here\b",
         )
+        staging_smoke_samples = (
+            "Guide 01",
+            "Market Report 01",
+            "Lorem ipsum",
+            "Coming soon",
+            "Content goes here",
+        )
+        if any(
+            re.search(signal, sample, re.I) is None
+            for signal, sample in zip(staging_signals[-5:], staging_smoke_samples)
+        ):
+            raise SystemExit("Staging-content guard regex smoke test failed.")
         if any(re.search(signal, document, re.I) for signal in staging_signals):
             skipped["staging_or_unapproved_content"] += 1
             continue
