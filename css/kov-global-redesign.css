@@ -1735,3 +1735,35 @@ body:not(.backend-page):not(.admin-page) [class~="ml-5"] { margin-left: 1.25rem;
     width: min(100%, 36rem);
   }
 }
+
+
+/* Sitewide section centering: center layout shells, not editorial body copy.
+   This keeps paragraphs readable while giving section content a common page grid. */
+body:not(.backend-page):not(.admin-page) main :where(section):not([class~="grid"]):not([class~="flex"]) > div:not([class~="absolute"]):not([class~="fixed"]):not([class~="w-full"]):not(.kov-marquee-band):not(.kov-marquee):not(.kov-full-bleed) {
+  box-sizing: border-box;
+  width: min(calc(100% - 2 * var(--kov-gutter, 1rem)), 90rem);
+  max-width: 90rem;
+  margin-inline: auto;
+}
+body:not(.backend-page):not(.admin-page) main :where(.kov-section-heading,.section-heading,.ceo-shell,.ceo-reading-layout,.resource-shell,.kov-hero,.kov-final-cta) {
+  margin-inline: auto;
+}
+body:not(.backend-page):not(.admin-page) main :where(.kov-section-heading,.section-heading) {
+  width: min(calc(100% - 2 * var(--kov-gutter, 1rem)), 86rem);
+}
+body:not(.backend-page):not(.admin-page) main :where(figure,img,video,iframe):not(.kov-full-bleed img) {
+  max-width: 100%;
+}
+body:not(.backend-page):not(.admin-page) main > section > :where(img,video,iframe) {
+  display: block;
+  margin-inline: auto;
+}
+body:not(.backend-page):not(.admin-page) main :where(h1,h2,h3):not([class~="text-left"]) {
+  text-wrap: balance;
+}
+
+@media (max-width: 48rem) {
+  body:not(.backend-page):not(.admin-page) main :where(section):not([class~="grid"]):not([class~="flex"]) > div:not([class~="absolute"]):not([class~="fixed"]):not([class~="w-full"]):not(.kov-marquee-band):not(.kov-marquee):not(.kov-full-bleed) {
+    width: min(calc(100% - 2 * var(--kov-gutter, 1rem)), 90rem);
+  }
+}

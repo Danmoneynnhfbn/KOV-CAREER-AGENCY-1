@@ -92,6 +92,17 @@ async function inspect(browser,route,viewport) {
         .slice(0,24);
       const centered = [...document.querySelectorAll(".ceo-shell,.ceo-reading-layout,.max-w-7xl.mx-auto")]
         .filter(el=>el.offsetWidth>0).map(el=>{const r=rect(el);return {className:String(el.className).slice(0,80),centerDelta:round((r.left+r.right)/2-innerWidth/2)};});
+      const sectionShells = [...document.querySelectorAll('main :where(section):not([class~="grid"]):not([class~="flex"]) > div:not([class~="absolute"]):not([class~="fixed"]):not([class~="w-full"]):not(.kov-marquee-band):not(.kov-marquee):not(.kov-full-bleed)')]
+        .filter(el=>el.offsetWidth>0 && getComputedStyle(el).position!=="absolute" && getComputedStyle(el).position!=="fixed")
+        .map(el=>{
+          const r=el.getBoundingClientRect(),p=el.parentElement.getBoundingClientRect();
+          return {
+            className:String(el.className).slice(0,90),
+            width:round(r.width),parentWidth:round(p.width),
+            centerDelta:round((r.left+r.right)/2-(p.left+p.right)/2)
+          };
+        });
+      const offCenterSectionShells = sectionShells.filter(item=>item.width<item.parentWidth-16&&Math.abs(item.centerDelta)>12);
       let articleCenterDelta = null;
       const reading = document.querySelector(".ceo-reading-layout");
       const article = reading?.querySelector(":scope > .ceo-prose");
@@ -195,6 +206,8 @@ async function inspect(browser,route,viewport) {
         overflowElements,
         mainFound:Boolean(main),
         centeredContainers:centered,
+        sectionShells,
+        offCenterSectionShells,
         articleCenterDelta,
         responsive,
         mainSiblingOverlaps:overlaps,
@@ -236,6 +249,7 @@ async function inspect(browser,route,viewport) {
     if(metrics.horizontalOverflow>2)failures.push("horizontal overflow "+metrics.horizontalOverflow+"px");
     if(!metrics.mainFound)warnings.push("missing main element");
     if(metrics.singleChildMultiColumnGridCount>0)failures.push("single-child two-column grid leaves an empty visual column");
+    if(metrics.offCenterSectionShells?.length)failures.push("section content containers off-centre: "+metrics.offCenterSectionShells.length);
     if(route.endsWith("/how-it-works") || route.endsWith("/how-it-works.html")) {
       const page=metrics.howItWorks||{};
       if(!page.marqueeTrackAligned)failures.push("How It Works process marquee is not a single horizontal track");
@@ -280,6 +294,6 @@ async function inspect(browser,route,viewport) {
   const report={generatedAt:new Date().toISOString(),routes:routes.length,viewports,checks:results.length,failedChecks:results.filter(x=>x.failures?.length),warningChecks:results.filter(x=>x.warnings?.length),results};
   const output=path.join(root,"development/visual-qa/layout-integrity-report.json");
   fs.writeFileSync(output,JSON.stringify(report,null,2)+"\n");
-  console.log(JSON.stringify({routes:report.routes,checks:report.checks,failures:report.failedChecks.length,warnings:report.warningChecks.length,report:path.relative(root,output),failedChecks:report.failedChecks.map(x=>({route:x.route,viewport:x.viewport,failures:x.failures,overflowElements:x.metrics?.overflowElements?.slice(0,12)}))},null,2));
+  console.log(JSON.stringify({routes:report.routes,checks:report.checks,failures:report.failedChecks.length,warnings:report.warningChecks.length,report:path.relative(root,output),failedChecks:report.failedChecks.map(x=>({route:x.route,viewport:x.viewport,failures:x.failures,overflowElements:x.metrics?.overflowElements?.slice(0,12),offCenterSectionShells:x.metrics?.offCenterSectionShells?.slice(0,8)}))},null,2));
   if(report.failedChecks.length)process.exitCode=1;
 })().catch(error=>{console.error(error);process.exitCode=1;});
