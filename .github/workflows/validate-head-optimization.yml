@@ -108,7 +108,7 @@ jobs:
           head_re = re.compile(r'(<head\b[^>]*>)([\s\S]*?)(</head\s*>)', re.I)
           body_re = re.compile(r'<body\b[^>]*>[\s\S]*?</body\s*>', re.I)
           ecosystem_block_re = re.compile(
-              r'\s*<section\b(?=[^>]*data-kov-ecosystem\s*=\s*(["\'])v1\1)[^>]*>[\s\S]*?</section\s*',
+              r'\s*<section\b(?=[^>]*data-kov-ecosystem\s*=\s*(["\'])v1\1)[^>]*>[\s\S]*?</section\s*>\s*',
               re.I,
           )
 
