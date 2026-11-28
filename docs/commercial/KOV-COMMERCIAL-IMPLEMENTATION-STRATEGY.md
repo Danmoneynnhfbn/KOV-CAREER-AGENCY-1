@@ -63,6 +63,13 @@ Improve the body copy in the context of each page's actual visitor:
 
 Where KOV genuinely helps, link to one relevant service with descriptive wording. Do not add a generic service link to every page.
 
+## Phase 2 work added on the working branch
+
+- Added the 120-candidate service-page register and its validation script. The 120 entries remain planning candidates, not 120 approved paid products or public URLs.
+- Added context-specific related-service sections to the seven canonical individual service pages. Each page now links to three or four adjacent services with a short explanation of when that help is useful.
+- Added docs/commercial/KOV-SEARCH-CONSOLE-BASELINE.md using the connected property’s 25 August–25 November 2026 data. It distinguishes candidate-side search intent from employer-side executive recruitment queries and documents the limits of query classification.
+- Added docs/commercial/KOV-PUBLICATION-STATUS-EXCEPTIONS.md with source-repository and Google URL Inspection evidence. It records the 610 source-level staging disclosures, legacy indexed /staging/ URL examples, and the Global Talent Sourcer 404.
+- The corrected audit detects no missing primary service links across the 1,424 published pages after resolving relative URLs. The earlier 45 flags came from an audit-script path-resolution defect and must not be treated as website defects.
 ## Visitor journey and content standard
 
 Every commercial destination should follow this sequence:
