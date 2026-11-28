@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Inspect published sitemap pages; does not change public files."""
 from __future__ import annotations
-import argparse, csv, re, sys
+import argparse, csv, posixpath, re, sys
 from collections import Counter, defaultdict
 from html.parser import HTMLParser
 from itertools import combinations
@@ -88,15 +88,17 @@ def family(path):
  if p.startswith("directory/"): return "Directory/reference subject"
  return "Other public page"
 
-def local_path(href):
+def local_path(href,current_path):
  if not href or href.startswith(("#","mailto:","tel:","javascript:","data:")): return None
  u=urlsplit(href)
  if u.scheme and u.scheme not in ("http","https"): return None
  if u.netloc and u.netloc.lower() not in ("kovcareeragency.org","www.kovcareeragency.org"): return None
- return u.path or "/"
+ target=u.path or ""
+ if target.startswith("/"): return posixpath.normpath(target)
+ return posixpath.normpath(posixpath.join("/",posixpath.dirname(current_path.lstrip("/")),target))
 
-def service_links(anchors):
- found={SERVICES[p] for a in anchors if (p:=local_path(a["href"])) in SERVICES}
+def service_links(anchors,current_path):
+ found={SERVICES[path] for a in anchors if (path:=local_path(a["href"],current_path)) in SERVICES}
  return "; ".join(name for name in SERVICES.values() if name in found)
 
 def shingles(words):
@@ -117,14 +119,8 @@ def groups_for(path):
  return role,industry
 
 def handoff(fam,path,txt):
- sample=(path+" "+txt[:1600]).lower()
- if fam in {"Role/occupation subject","Industry subject","Geography/market subject"}: return "Private Career Representation or Career Positioning"
- if any(x in sample for x in ("interview","offer negotiation","salary negotiation")): return "Career Coaching"
- if any(x in sample for x in ("resume","curriculum vitae","cv writing")): return "Resume and CV Writing"
- if any(x in sample for x in ("linkedin profile","linkedin headline")): return "LinkedIn Profile Optimization"
- if any(x in sample for x in ("portfolio","case study","work sample")): return "Career Portfolio Development"
- if any(x in sample for x in ("biography","cover letter","leadership summary")): return "Career Documents"
- if fam in {"FAQ","Career resource/research"}: return "Editorial review only; no default service handoff"
+ if fam in {"Role/occupation subject","Industry subject","Geography/market subject"}:
+  return "Private Career Representation or Career Positioning"
  return "No automatic handoff"
 
 def main():
@@ -150,7 +146,7 @@ def main():
   p=PageParser(); p.feed(file.read_text(encoding="utf-8",errors="replace"))
   txt=p.text; words=TOKEN.findall(txt.lower()); n=len(words); fam=family(path); famcounts[fam]+=1
   h1=[v for t,v in p.headings if t=="h1"]; h2=[v for t,v in p.headings if t=="h2"]
-  links=service_links(p.anchors); expected=handoff(fam,path,txt); issues=[]
+  links=service_links(p.anchors,path); expected=handoff(fam,path,txt); issues=[]
   if not h1: issues.append("missing_h1"); flags["missing_h1"]+=1
   if len(h1)>1: issues.append("multiple_h1"); flags["multiple_h1"]+=1
   if not h2: issues.append("no_h2"); flags["no_h2"]+=1
