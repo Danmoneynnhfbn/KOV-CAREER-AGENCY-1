@@ -68,6 +68,20 @@ async function inspect(browser,route,viewport) {
     }
     await page.evaluate(async()=>{ if(document.fonts?.ready) await document.fonts.ready; });
     await page.waitForTimeout(200);
+    const illustrationSelector = route.endsWith("/how-it-works") || route.endsWith("/how-it-works.html")
+      ? 'main img[alt^="A four-stage career representation pathway"]'
+      : route.endsWith("/pricing") || route.endsWith("/pricing.html")
+        ? 'main img[alt^="Career support stages showing direction"]'
+        : null;
+    if (illustrationSelector) {
+      const illustration = page.locator(illustrationSelector);
+      if (await illustration.count()) {
+        try {
+          await illustration.scrollIntoViewIfNeeded();
+          await illustration.evaluate(image => image.decode());
+        } catch {}
+      }
+    }
     const metrics = await page.evaluate(() => {
       const round = n => Math.round(n*10)/10;
       const rect = el => { const r=el.getBoundingClientRect(); return {left:round(r.left),right:round(r.right),top:round(r.top),bottom:round(r.bottom),width:round(r.width)}; };
@@ -145,47 +159,61 @@ async function inspect(browser,route,viewport) {
       const howItWorksPage = pagePath.endsWith("/how-it-works") || pagePath.endsWith("/how-it-works.html");
       const howItWorks = (() => {
         if (!howItWorksPage) return null;
-        const marquee = document.querySelector(".kov-page-how-it-works .kov-marquee");
-        const tracks = marquee ? [...marquee.children] : [];
-        const trackTops = tracks.map(el => el.getBoundingClientRect().top);
-        const marqueeRect = marquee?.getBoundingClientRect();
-        const marqueeStyle = marquee ? getComputedStyle(marquee) : null;
-        const feeFigure = document.querySelector(".kov-fee-visual");
-        const feeImage = feeFigure?.querySelector("img");
-        const imageRect = feeImage?.getBoundingClientRect();
-        const figureRect = feeFigure?.getBoundingClientRect();
-        const visualModule = document.querySelector(".kov-visual-module");
-        const feeGrid = document.querySelector(".kov-fee-grid");
-        const intro = document.querySelector(".kov-process-intro-section > .mx-auto");
+        const sections = [...document.querySelectorAll("main section")];
+        const processSection = sections.find(section =>
+          [...section.querySelectorAll("h2")].some(heading => heading.textContent.toLowerCase().includes("six connected stages"))
+        );
+        const processList = processSection?.querySelector("ol");
+        const steps = processList ? [...processList.children] : [];
+        const container = processSection?.querySelector(".mx-auto.max-w-7xl");
+        const containerRect = container?.getBoundingClientRect();
+        const stepGridResponsive = steps.length === 6 && steps.every(step => {
+          const style = getComputedStyle(step);
+          const children = [...step.children].slice(0, 3);
+          if (style.display !== "grid" || children.length !== 3) return false;
+          const positions = children.map(rect);
+          if (innerWidth >= 1024) {
+            return colsCount(style.gridTemplateColumns) === 12 &&
+              Math.max(...positions.map(item => item.top)) - Math.min(...positions.map(item => item.top)) < 3;
+          }
+          return positions[1].top >= positions[0].bottom - 1 &&
+            positions[2].top >= positions[1].bottom - 1;
+        });
+        const responsibilities = sections.find(section =>
+          [...section.querySelectorAll("h2")].some(heading => heading.textContent.toLowerCase().includes("a useful partnership needs clear boundaries"))
+        );
+        const illustration = responsibilities?.querySelector('img[alt^="A four-stage career representation pathway"]');
         return {
-          marqueeTrackCount: tracks.length,
-          marqueeTrackAligned: Boolean(
-            marquee &&
-            tracks.length === 2 &&
-            marqueeStyle?.animationName === "kov-how-it-works-marquee" &&
-            marqueeRect?.height > 0 &&
-            marqueeRect.height <= 100 &&
-            trackTops.every(top => Math.abs(top - trackTops[0]) < 3)
-          ),
-          feeImageLoaded: Boolean(feeImage && feeImage.complete && feeImage.naturalWidth > 0 && imageRect?.width > 50 && imageRect?.height > 50),
-          feeImageCentered: Boolean(imageRect && figureRect && Math.abs((imageRect.left + imageRect.right) / 2 - (figureRect.left + figureRect.right) / 2) < 16),
-          introCentered: Boolean(intro && getComputedStyle(intro).textAlign === "center"),
-          visualModuleColumns: visualModule ? colsCount(getComputedStyle(visualModule).gridTemplateColumns) : 0,
-          feeGridColumns: feeGrid ? colsCount(getComputedStyle(feeGrid).gridTemplateColumns) : 0
+          stepCount: steps.length,
+          stepGridResponsive,
+          processContainerCentered: Boolean(containerRect && Math.abs((containerRect.left + containerRect.right) / 2 - innerWidth / 2) < 16),
+          illustrationLoaded: Boolean(illustration && illustration.complete && illustration.naturalWidth > 0)
         };
       })();
-      const pricingPage = location.pathname.includes("pricing");
+      const pricingPage = pagePath.endsWith("/pricing") || pagePath.endsWith("/pricing.html");
       const pricing = (() => {
         if (!pricingPage) return null;
-        const grid = document.querySelector(".kov-pricing-fee-grid");
-        const figure = document.querySelector(".kov-pricing-fee-visual");
-        const image = figure?.querySelector("img");
-        const imageRect = image?.getBoundingClientRect();
-        const figureRect = figure?.getBoundingClientRect();
+        const sections = [...document.querySelectorAll("main section")];
+        const feeSection = sections.find(section =>
+          [...section.querySelectorAll("h2")].some(heading => heading.textContent.toLowerCase().includes("the fee follows the work you actually need"))
+        );
+        const grid = feeSection?.querySelector('[class~="sm:grid-cols-2"]');
+        const cards = grid ? [...grid.children].filter(child => child.matches("article")) : [];
+        const image = feeSection?.querySelector('img[alt^="Career support stages showing direction"]');
+        const gridColumns = grid ? colsCount(getComputedStyle(grid).gridTemplateColumns) : 0;
+        const cardRects = cards.map(rect);
+        const layoutResponsive = Boolean(
+          grid && getComputedStyle(grid).display === "grid" && cards.length === 4 &&
+          (innerWidth >= 640
+            ? gridColumns === 2 &&
+              Math.abs(cardRects[0].top - cardRects[1].top) < 3 &&
+              Math.abs(cardRects[2].top - cardRects[3].top) < 3
+            : cards.every((card, index) => index === 0 || cardRects[index].top >= cardRects[index - 1].bottom - 1))
+        );
         return {
-          feeImageLoaded: Boolean(image && image.complete && image.naturalWidth > 0 && imageRect?.width > 50 && imageRect?.height > 20),
-          feeImageCentered: Boolean(imageRect && figureRect && Math.abs((imageRect.left + imageRect.right) / 2 - (figureRect.left + figureRect.right) / 2) < 16),
-          feeGridColumns: grid ? colsCount(getComputedStyle(grid).gridTemplateColumns) : 0
+          feeFactorCount: cards.length,
+          layoutResponsive,
+          illustrationLoaded: Boolean(image && image.complete && image.naturalWidth > 0)
         };
       })();
       return {
@@ -238,21 +266,16 @@ async function inspect(browser,route,viewport) {
     if(metrics.singleChildMultiColumnGridCount>0)failures.push("single-child two-column grid leaves an empty visual column");
     if(route.endsWith("/how-it-works") || route.endsWith("/how-it-works.html")) {
       const page=metrics.howItWorks||{};
-      if(!page.marqueeTrackAligned)failures.push("How It Works process marquee is not a single horizontal track");
-      if(!page.feeImageLoaded)failures.push("How It Works fee section visual is missing or failed to load");
-      if(!page.feeImageCentered)failures.push("How It Works fee section visual is off-centre");
-      if(!page.introCentered)failures.push("How It Works process introduction is not centred");
-      const expectedVisualColumns=viewport.width<=768?1:2;
-      const expectedFeeColumns=viewport.width<=768?1:2;
-      if(page.visualModuleColumns!==expectedVisualColumns)failures.push("How It Works pathway visual has "+page.visualModuleColumns+" columns; expected "+expectedVisualColumns);
-      if(page.feeGridColumns!==expectedFeeColumns)failures.push("How It Works fee layout has "+page.feeGridColumns+" columns; expected "+expectedFeeColumns);
+      if(page.stepCount!==6)failures.push("How It Works process does not contain all six stages");
+      if(!page.stepGridResponsive)failures.push("How It Works six-stage process does not follow the responsive vertical-to-horizontal grid");
+      if(!page.processContainerCentered)failures.push("How It Works process content container is off-centre");
+      if(!page.illustrationLoaded)failures.push("How It Works responsibilities illustration is missing or failed to load");
     }
     if(route.endsWith("/pricing") || route.endsWith("/pricing.html")) {
       const page=metrics.pricing||{};
-      if(!page.feeImageLoaded)failures.push("Pricing fee section visual is missing or failed to load");
-      if(!page.feeImageCentered)failures.push("Pricing fee section visual is off-centre");
-      const expected=viewport.width<=768?1:2;
-      if(page.feeGridColumns!==expected)failures.push("Pricing fee section has "+page.feeGridColumns+" columns; expected "+expected);
+      if(page.feeFactorCount!==4)failures.push("Pricing quotation section does not contain all four fee factors");
+      if(!page.layoutResponsive)failures.push("Pricing quotation-factor grid does not switch correctly between one and two columns");
+      if(!page.illustrationLoaded)failures.push("Pricing quotation illustration is missing or failed to load");
     }
     if(metrics.articleCenterDelta!==null&&viewport.width>768&&Math.abs(metrics.articleCenterDelta)>18)failures.push("editorial article off-centre by "+metrics.articleCenterDelta+"px");
     const brokenResponsive = metrics.responsive.filter(item => !item.ok);

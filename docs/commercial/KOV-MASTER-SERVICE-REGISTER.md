@@ -97,6 +97,23 @@ These are separate, inquiry-led services. A customer can request one without pur
 - **Canonical page:** `career-coaching.html`.
 - **Status:** Existing standalone service.
 
+## Existing executive-specialist routes
+
+The repository also contains eight published specialist landing pages under `/services/`. These are real existing URLs and must be maintained and audited as part of the site. They are **not eight additional paid products**. Each route is a specialist entry point or explanation under an approved core service.
+
+| Existing specialist page | Parent commercial service | Commercial treatment |
+|---|---|---|
+| `services/career-strategy-senior-leaders.html` | Career Positioning & Optimization | Senior-audience specialist route |
+| `services/executive-career-representation.html` | Private Career Representation | Executive-audience route |
+| `services/executive-job-search-support.html` | Private Career Representation | Search-execution route within the managed service |
+| `services/executive-negotiation-support.html` | Career Coaching / Private Career Representation | Offer-preparation workstream with specialist-advice exclusions |
+| `services/executive-resume-strategy.html` | Resume and CV Writing & Optimization | Executive-audience route |
+| `services/interview-coaching-executives.html` | Career Coaching | Executive interview-preparation route |
+| `services/linkedin-optimization-executives.html` | LinkedIn Profile Optimization | Executive-audience route |
+| `services/reverse-recruiting.html` | Private Career Representation | Explanatory route for the candidate-side service model |
+
+The detailed current route register is `development/KOV-EXISTING-SPECIALIST-SERVICE-ROUTES.csv`. These URLs should be improved where they have a distinct visitor need, linked to their parent service, and retained unless a separately reviewed consolidation or redirect decision is made. Their existence does not confirm separate pricing, a separate contract or a new product.
+
 ## Supporting workstreams that are not automatically separate products
 
 The following activities may be part of a managed representation engagement or separately scoped only when the business confirms a standalone offer. Do not create a new service page solely because a phrase has search volume:
