@@ -111,7 +111,7 @@ def groups_for(path):
  role=industry=None
  if len(parts)>1 and parts[0]=="roles":
   role=parts[1]
-  if len(parts)>2 and parts[2].endswith(".html"): industry=parts[2][:-5]
+  if len(parts)>2 and parts[2].endswith(".html") and parts[2]!="index.html": industry=parts[2][:-5]
  elif len(parts)>1 and parts[0]=="industries":
   industry=parts[1][:-5] if parts[1].endswith(".html") else parts[1]
  return role,industry
@@ -156,7 +156,7 @@ def main():
   if not h2: issues.append("no_h2"); flags["no_h2"]+=1
   threshold=250 if fam in {"Commercial conversion","Individual service"} else 180
   if n<threshold: issues.append(f"low_words_under_{threshold}"); flags["low_word_count"]+=1
-  if expected!="No automatic handoff" and not links: issues.append("no_service_link_detected"); flags["no_service_link_detected"]+=1
+  if expected not in {"No automatic handoff","Editorial review only; no default service handoff"} and not links: issues.append("no_service_link_detected"); flags["no_service_link_detected"]+=1
   placeholder=any(rx.search(txt) for rx in PLACEHOLDERS)
   if placeholder: issues.append("possible_placeholder_or_staging_label"); flags["possible_placeholder"]+=1
   opening="customer-situation language detected" if re.search(r"\b(you|your|when|if|struggling|uncertain|difficult|need to)\b",txt[:500],re.I) else "editorial review needed"
