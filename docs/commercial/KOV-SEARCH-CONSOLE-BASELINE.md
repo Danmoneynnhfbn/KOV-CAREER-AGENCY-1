@@ -36,6 +36,37 @@ These are page-level totals, not necessarily clicks from non-branded service que
 
 Candidate-side searches are present but comparatively small in the retrieved query set. Examples include `candidate representation services` (17 impressions across the paired page results) and `executive career representation` (8 impressions in query-level data). These need clearer, more consistent service naming and internal pathways, not a promise of search growth.
 
+## Candidate-side query evidence and page priorities
+
+A full query-level extraction for the same 25 August–25 November 2026 period shows that candidate-side service phrases exist, but most have limited impressions and/or weak average positions. The most actionable service cluster is executive interview preparation:
+
+| Query | Impressions | Average position |
+|---|---:|---:|
+| `executive interview coaching` | 161 | 61.9 |
+| `interview coaching for executives` | 124 | 27.4 |
+| `senior leadership interview coach` | 69 | 48.0 |
+| `ceo interview coaching` | 60 | 39.5 |
+| `ceo interview coach` | 57 | 37.0 |
+| `executive career representation` | 8 | 16.4 |
+| `candidate representation services` | 17 | 36.6 |
+| `career positioning` | 4 | 15.5 |
+| `executive job search` | 3 | 14.7 |
+
+These are Search Console query impressions and average positions, not keyword-tool search volumes, difficulty estimates or forecasts. Small impression counts are directional signals, not proof of a commercially meaningful market.
+
+### Current page priorities
+
+1. **Executive interview coaching:** strengthen the existing `/services/interview-coaching-executives.html` page with practical, leadership-specific preparation guidance. The page should help candidates explain mandate, judgment, trade-offs, personal contribution, evidence and learning. A new answer framework has been added in this branch.
+2. **Private Career Representation:** keep the primary service page focused on the professional's problem, the managed work KOV coordinates, client approvals, deliverables and boundaries. Use `/services.html` and the existing executive representation pages; do not create a second product for reverse recruiting.
+3. **Career positioning:** strengthen the existing `/career-positioning-optimization.html` pathway around the decision a professional needs to make, the evidence reviewed, the role directions considered and the deliverables actually agreed.
+4. **Resume/CV and career documents:** maintain separate pages for genuinely separate deliverables, but do not split normal document sections or format options into artificial standalone services.
+
+### Do not optimise for the wrong buyer
+
+The same query extraction includes employer-oriented phrases with materially larger impression counts, including `executive search energy` (506), `energy executive search` (271), `saas executive search` (106), `executive search saas` (81), and `portfolio company executive search` (92). Those phrases commonly indicate that an employer is looking to hire a search firm. They are not a reason to position KOV as an employer-side recruiter. Retain clear candidate-side language and do not create employer service offers around those queries.
+
+Occupation-code and SOC taxonomy searches also appear in Search Console. They are relevant to the public reference library, but they should not turn those reference pages into sales pages. Keep reference content factual and distinct from service conversion content.
+
 ## Search intent mismatch
 
 A material share of non-brand query demand is for employer-side recruitment or retained executive search, including:
