@@ -293,24 +293,26 @@ def build_section(route: str, row: dict[str, str], links: list[tuple[str, str]],
     )
 
 def inject_style(html_doc: str) -> str:
-    # Remove an older generated link, wherever it was placed, before re-injecting.
+    # Keep generated styling in HEAD and mark only this new stylesheet so the
+    # preservation check can distinguish it from existing site-wide styles.
     if STYLE_MARKER in html_doc:
         html_doc = re.sub(r'\s*<link\b[^>]*' + STYLE_MARKER + r'[^>]*>', '', html_doc, flags=re.I)
+    if re.search(r"</head\s*>", html_doc, flags=re.I):
+        link = '<link rel="stylesheet" href="/css/kov-commercial-ecosystem.css?v=1" ' + STYLE_MARKER + '>'
+        return re.sub(r"</head\s*>", link + "\n</head>", html_doc, count=1, flags=re.I)
     return html_doc
 
 def inject_section(html_doc: str, section: str) -> str:
     pattern = re.compile(r'<section\b[^>]*' + MARKER + r'[^>]*>.*?</section>', flags=re.I | re.S)
     html_doc = pattern.sub("", html_doc)
-    style_link = '<link rel="stylesheet" href="/css/kov-commercial-ecosystem.css?v=1" ' + STYLE_MARKER + '>'
-    addition = style_link + "\n" + section + "\n"
     match = list(re.finditer(r"</main\s*>", html_doc, flags=re.I))
     if match:
         position = match[-1].start()
-        return html_doc[:position] + addition + html_doc[position:]
+        return html_doc[:position] + "\n" + section + "\n" + html_doc[position:]
     match = list(re.finditer(r"<footer\b", html_doc, flags=re.I))
     if match:
         position = match[0].start()
-        return html_doc[:position] + addition + html_doc[position:]
+        return html_doc[:position] + "\n" + section + "\n" + html_doc[position:]
     return html_doc
 
 def main() -> None:
