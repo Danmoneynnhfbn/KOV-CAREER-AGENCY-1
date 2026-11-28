@@ -103,6 +103,19 @@ jobs:
           charset_meta = re.compile(r'<meta\b[^>]*\bcharset\s*=[^>]*>', re.I)
           head_re = re.compile(r'(<head\b[^>]*>)([\s\S]*?)(</head\s*>)', re.I)
           body_re = re.compile(r'<body\b[^>]*>[\s\S]*?</body\s*>', re.I)
+          ecosystem_section_re = re.compile(
+              r'<section\b(?=[^>]*data-kov-ecosystem\s*=\s*(["\'])v1\1)[^>]*>[\s\S]*?</section\s*>',
+              re.I,
+          )
+          ecosystem_style_re = re.compile(
+              r'<link\b(?=[^>]*data-kov-ecosystem-style)[^>]*>',
+              re.I,
+          )
+
+          def normalize_generated_ecosystem(value):
+              value = ecosystem_section_re.sub("", value)
+              value = ecosystem_style_re.sub("", value)
+              return value
 
           failures = []
           noindex_pages = 0
@@ -142,8 +155,10 @@ jobs:
               after_body = body_re.search(after)
               before_body_text = before_body.group(0) if before_body else ""
               after_body_text = after_body.group(0) if after_body else ""
-              if normalize_expected_cache_versions(before_body_text) != normalize_expected_cache_versions(after_body_text):
-                  failures.append(f"{relative}: BODY changed beyond the approved global asset cache-version refresh")
+              if normalize_expected_cache_versions(before_body_text) != normalize_expected_cache_versions(
+                  normalize_generated_ecosystem(after_body_text)
+              ):
+                  failures.append(f"{relative}: BODY changed beyond the approved global asset cache-version refresh and marked ecosystem module")
 
               def protected_head(value):
                   match = head_re.search(value)
@@ -159,8 +174,10 @@ jobs:
               def outside_head(value):
                   return head_re.sub("<!-- KOV_HEAD_BLOCK -->", value, count=1)
 
-              if normalize_expected_cache_versions(outside_head(before)) != normalize_expected_cache_versions(outside_head(after)):
-                  failures.append(f"{relative}: content outside HEAD changed beyond the approved global asset cache-version refresh")
+              if normalize_expected_cache_versions(outside_head(before)) != normalize_expected_cache_versions(
+                  normalize_generated_ecosystem(outside_head(after))
+              ):
+                  failures.append(f"{relative}: content outside HEAD changed beyond the approved global asset cache-version refresh and marked ecosystem module")
 
               if not re.match(r'\s*<meta\b[^>]*\bcharset\s*=', after_head.group(2), re.I):
                   failures.append(f"{relative}: charset is not first in HEAD")
