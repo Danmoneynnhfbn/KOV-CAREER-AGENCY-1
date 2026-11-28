@@ -101,6 +101,10 @@ jobs:
               "cities", "towns-localities", "institutions",
           ]
           charset_meta = re.compile(r'<meta\b[^>]*\bcharset\s*=[^>]*>', re.I)
+          ecosystem_style_re = re.compile(
+              r'<link\b(?=[^>]*data-kov-ecosystem-style)[^>]*>',
+              re.I,
+          )
           head_re = re.compile(r'(<head\b[^>]*>)([\s\S]*?)(</head\s*>)', re.I)
           body_re = re.compile(r'<body\b[^>]*>[\s\S]*?</body\s*>', re.I)
           ecosystem_block_re = re.compile(
