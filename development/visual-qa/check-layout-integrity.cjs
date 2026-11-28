@@ -208,7 +208,7 @@ async function inspect(browser,route,viewport) {
             ? gridColumns === 2 &&
               Math.abs(cardRects[0].top - cardRects[1].top) < 3 &&
               Math.abs(cardRects[2].top - cardRects[3].top) < 3
-            : cards.every((card, index) => index === 0 || card.top >= cardRects[index - 1].bottom - 1))
+            : cards.every((card, index) => index === 0 || cardRects[index].top >= cardRects[index - 1].bottom - 1))
         );
         return {
           feeFactorCount: cards.length,
