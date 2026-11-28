@@ -103,19 +103,14 @@ jobs:
           charset_meta = re.compile(r'<meta\b[^>]*\bcharset\s*=[^>]*>', re.I)
           head_re = re.compile(r'(<head\b[^>]*>)([\s\S]*?)(</head\s*>)', re.I)
           body_re = re.compile(r'<body\b[^>]*>[\s\S]*?</body\s*>', re.I)
-          ecosystem_section_re = re.compile(
-              r'<section\b(?=[^>]*data-kov-ecosystem\s*=\s*(["\'])v1\1)[^>]*>[\s\S]*?</section\s*>',
-              re.I,
-          )
-          ecosystem_style_re = re.compile(
-              r'<link\b(?=[^>]*data-kov-ecosystem-style)[^>]*>',
+          ecosystem_block_re = re.compile(
+              r'\s*(?:<link\b(?=[^>]*data-kov-ecosystem-style)[^>]*>\s*)?'
+              r'<section\b(?=[^>]*data-kov-ecosystem\s*=\s*(["\'])v1\1)[^>]*>[\s\S]*?</section\s*>\s*',
               re.I,
           )
 
           def normalize_generated_ecosystem(value):
-              value = ecosystem_section_re.sub("", value)
-              value = ecosystem_style_re.sub("", value)
-              return value
+              return ecosystem_block_re.sub("", value)
 
           failures = []
           noindex_pages = 0
