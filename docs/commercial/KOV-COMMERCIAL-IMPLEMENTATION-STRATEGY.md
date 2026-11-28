@@ -111,13 +111,24 @@ The current keyword-intent material contains qualitative hypotheses and source n
 
 Do not invent search volume, keyword difficulty, market demand, competitor performance, ranking likelihood or conversion forecasts. Do not generate multiple pages around synonymous phrases where one useful service page is enough.
 
-## Contact and enquiry handling: known limitation
+## Contact and enquiry handling: existing code, deployment blocker
 
-The current contact form script uses a `mailto:` handoff to the visitor's email client. It does not currently provide server-side lead capture, a database record or verified email delivery.
+The public contact form is currently a `mailto:` handoff. Its JavaScript opens the visitor's email client and does not call the API.
 
-Do not describe the form as a stored lead submission or claim successful delivery. A real form backend requires an agreed destination (an authorised inbox, CRM or data store), sender verification, spam protection, consent/privacy wording, access controls and a retention policy. Do not select an external provider, invent credentials or change production backend configuration without that foundation.
+The repository already contains a FastAPI `POST /api/contact` implementation. It validates a contact payload, applies a network-based request limit, stores an accepted lead through the Supabase `submit_contact_lead` RPC, and sends an email notification through Resend. Backend tests mock those external boundaries; no real lead or email was sent during this phase.
 
-In the meantime, keep the existing email fallback clear and test the actual mailto behaviour. The contact route must explain what happens after the visitor selects send.
+However, the Cloudflare Container deployment note records that:
+- the intended API Worker is not yet attached to the production hostname;
+- the existing test Worker has no custom domain or zone routes;
+- its runtime has no Supabase/Resend secrets configured;
+- Cloudflare denied Container provisioning because the account does not currently have access to Workers Paid Containers;
+- attaching the production host requires a separately configured Worker and successful Workers.dev testing.
+
+The Container/Workers Paid plan is billable. This phase does not upgrade the account, buy a plan, create a new paid service or attach production routes.
+
+There is also a front-end/backend contract gap to resolve before connecting them: the public script removes the target-role field, but the current API model requires `target_role`; the service-interest selector is not a dedicated field in the API model. The backend's `audience` enum also needs to remain aligned with the candidate-only form. The client should send a well-defined payload, retain a usable email fallback, display success/error states, and never expose privileged Supabase or Resend credentials.
+
+Until the route, secrets, schema contract, privacy wording and end-to-end tests are verified, keep the mailto fallback and do not claim leads are being saved by the live website.
 
 ## P0–P3 execution priorities
 
