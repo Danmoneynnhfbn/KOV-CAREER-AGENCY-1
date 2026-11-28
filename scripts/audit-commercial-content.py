@@ -124,7 +124,7 @@ def handoff(fam,path,txt):
  if any(x in sample for x in ("linkedin profile","linkedin headline")): return "LinkedIn Profile Optimization"
  if any(x in sample for x in ("portfolio","case study","work sample")): return "Career Portfolio Development"
  if any(x in sample for x in ("biography","cover letter","leadership summary")): return "Career Documents"
- if fam in {"FAQ","Career resource/research"}: return "Most relevant service after editorial review"
+ if fam in {"FAQ","Career resource/research"}: return "Editorial review only; no default service handoff"
  return "No automatic handoff"
 
 def main():
