@@ -1,0 +1,30 @@
+name: KOV commercial content and service catalogue audit
+
+on:
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  commercial-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Validate the 120-candidate service register
+        run: python scripts/validate-service-page-catalogue.py
+      - name: Audit every sitemap page and contextual service handoff
+        run: python scripts/audit-commercial-content.py --output-dir "$RUNNER_TEMP/kov-commercial-audit"
+      - name: Upload page-level audit and summary
+        uses: actions/upload-artifact@v4
+        with:
+          name: kov-commercial-content-audit
+          path: "$RUNNER_TEMP/kov-commercial-audit/"
+          if-no-files-found: error
