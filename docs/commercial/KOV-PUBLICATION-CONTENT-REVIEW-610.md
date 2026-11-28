@@ -85,3 +85,7 @@ Use the route-level Search Console inspection before any page-specific index-pol
 ## Source
 
 Generated from the 28 November 2026 `kov-commercial-content-audit` workflow artifact on the Phase 2 branch. The latest audit reconciles the 1,424 sitemap entries with the coverage register and reads all corresponding HTML sources.
+
+## Preview verification configuration
+
+On 28 November 2026, the Cloudflare Pages preview-branch allow-list was updated to include `kov-commercial-phase-2-customer-outcomes`. The production branch remains `master`; this change permits preview builds for the review branch only and does not change custom domains, DNS, production deployments or production environment bindings.
