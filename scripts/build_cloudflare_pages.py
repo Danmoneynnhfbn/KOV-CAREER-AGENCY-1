@@ -136,6 +136,15 @@ def main() -> None:
             destination.write_text(html, encoding="utf-8")
         copied += 1
 
+    # Connect published role, industry, market, resource and service pages with
+    # contextual static links. The builder changes dist only, not source HTML or HEAD metadata.
+    ecosystem_builder = ROOT / "scripts" / "build-commercial-ecosystem.py"
+    subprocess.run(
+        [sys.executable, str(ecosystem_builder), "--source-root", str(ROOT), "--output-root", str(OUT)],
+        cwd=str(ROOT),
+        check=True,
+    )
+
     # Generate the 18-category JSON-LD against the staged Cloudflare output.
     # The generator reads source catalogues from ROOT but writes only into OUT.
     node = shutil.which("node")
