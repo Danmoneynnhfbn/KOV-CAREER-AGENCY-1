@@ -347,25 +347,47 @@ def main() -> None:
             continue
 
         document = file_path.read_text(encoding="utf-8")
-        head = document.split("</head>", 1)[0].lower() if "</head>" in document.lower() else ""
-        if re.search(r'<meta[^>]+name\s*=\s*["\']robots["\'][^>]+content\s*=\s*["\'][^"\']*noindex', head):
+        head_match = re.search(r"<head\b[^>]*>([\s\S]*?)</head\s*>", document, re.I)
+        head = head_match.group(1) if head_match else ""
+        noindex = False
+        for meta in re.finditer(r"<meta\b[^>]*>", head, re.I):
+            tag = meta.group(0)
+            name = re.search(r"""\bname\s*=\s*(['"])(.*?)\1""", tag, re.I)
+            content = re.search(r"""\bcontent\s*=\s*(['"])(.*?)\1""", tag, re.I)
+            if name and name.group(2).lower() in {"robots", "googlebot", "bingbot"} and content:
+                if re.search(r"(?:^|[,\s])noindex(?:$|[,\s])", content.group(2), re.I):
+                    noindex = True
+                    break
+        if noindex:
             skipped["noindex_page"] += 1
             continue
         # Some sitemap-listed source files still expose internal planning and
         # unfinished research disclosures. Never add public conversion links to
         # these routes until their content and publication status are reconciled.
         staging_signals = (
+            # Exact marker families used by the repository-wide editorial audit.
             r"research[- ]stage draft",
-            r"staged research page",
+            r"staged for internal planning",
+            r"placeholder route",
             r"route placeholder",
+            r"not approved or published",
+            r"internal planning aid only",
+            r"published, indexable draft",
+            r"evidence-gated development",
+            # Additional explicit non-public and placeholder indicators.
+            r"staged research page",
             r"not approved for public (?:launch|publication)",
             r"not yet approved for public",
             r"staging status:",
-            r"staged for internal planning",
             r"candidate route for internal",
             r"working research framework",
             r"this staging page",
             r"local staging[- ]only page",
+            r"\\bguide\s+0?\d+\b",
+            r"\\bmarket report\s+0?\d+\b",
+            r"\\blorem ipsum\b",
+            r"\\bcoming soon\b",
+            r"\\bcontent goes here\b",
         )
         if any(re.search(signal, document, re.I) for signal in staging_signals):
             skipped["staging_or_unapproved_content"] += 1
